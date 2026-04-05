@@ -10,7 +10,7 @@ status: "draft"
 
 This is not a book you read cover to cover. It is a book you keep on your smartphone and pull out when something breaks, arrives in the mail, or gets denied.
 
-**One thing before you start:** This book uses Claude as its example throughout, but everything in it works with ChatGPT, Gemini, Copilot, or any other capable AI assistant. The strategies are the skill. The tool is whichever one you have open. If you've never used any of them, the Introduction will get you started. If you already use one and it isn't Claude, keep using it — the specs and techniques in this book will work exactly the same.
+**One thing before you start:** This book says "your Agent" to mean whichever AI assistant you have open — [Claude](https://claude.ai), [ChatGPT](https://chatgpt.com), [Gemini](https://gemini.google.com), [Copilot](https://copilot.microsoft.com), or whatever ships next year. The strategies are the skill. The tool is whichever one is in front of you. When a feature is specific to one tool — like Claude's Projects or Gemini's Gems — the book names it and provides the equivalent for the others in an `[ALSO]` sidebar. If you've never used any of them, the Introduction will get you started. If you already use one, keep using it — the specs and techniques in this book will work exactly the same.
 
 If you have never used AI before: read the Introduction, then go to Part One, Strategy 0 (Specify). That chapter will teach you the one skill that makes everything else work.
 
