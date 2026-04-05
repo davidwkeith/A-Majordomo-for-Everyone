@@ -50,6 +50,133 @@ Not everything. Inline graphics earn their placement the same way `[MEME]` sideb
 
 ---
 
+*Inline art briefs in the markdown source:*
+
+Every inline graphic is specified in the CommonMark source as an HTML comment block. The brief lives in the manuscript, not in a separate document. This keeps the art direction collocated with the text it illustrates and ensures that accessibility text is written by the author at the time of writing, not retrofitted later.
+
+**Syntax:**
+
+```markdown
+<!-- art
+file: eob-annotated.png
+size: full | half-left | half-right | margin
+alt: Plain-language description for screen readers. One to two sentences.
+     What the image shows and what it communicates. Written for a reader
+     who cannot see the image.
+brief: Production description for the illustrator or image generator.
+       As detailed as needed. Multiple sentences. Describes exactly what
+       to draw, in what style, with what emphasis. References the
+       materials spec (pencil, ballpoint, etc.) only when deviating
+       from the default.
+-->
+```
+
+**Fields:**
+
+- **file:** The image filename. Lives in `src/images/inline/`. The build pipeline maps this to `OEBPS/images/inline/{file}` in the ePub. If the file does not yet exist, the brief is a placeholder — the pipeline generates a blank reference and logs a warning.
+- **size:** One of `full`, `half-left`, `half-right`, or `margin`. Maps to the CSS classes defined in the stylesheet. Determines layout intent — the ePub reader may linearize, but the intent is preserved for renderers that support it.
+- **alt:** The accessibility description. This becomes the `alt` attribute on the `<img>` element in the ePub. Written for screen reader users. Describes what the image *shows* and what it *means in context*. Not a restatement of the brief — the brief says what to draw; the alt says what the reader needs to know. Required. No image ships without alt text.
+- **brief:** The production instruction. Describes exactly what to draw, with enough detail for a human illustrator or an image generation tool to produce the correct output. References specific objects, compositions, annotations, and visual emphasis. The brief is stripped from the ePub output — it exists only in the source. It is also extractable by the build pipeline as a standalone illustration manifest for production use.
+
+**Rules:**
+
+- One art brief per image. One image per brief.
+- The brief appears in the markdown at the exact location where the image should render. It is not a forward reference or a footnote — it is positional.
+- If the image file exists, the pipeline renders an `<img>` with the `alt` text and the appropriate CSS class.
+- If the image file does not exist, the pipeline renders nothing in the ePub output (no broken image placeholder) but logs the brief to `dist/art-manifest.json` for production tracking.
+- Alt text must be meaningful on its own. "An illustration" is not alt text. "A hand-drawn EOB form with three fields circled and annotated: Amount Billed, Allowed Amount, and Patient Responsibility" is alt text.
+- The brief may reference the illustration spec's material and style conventions by exception only. "Colored in red and blue ballpoint instead of the default pencil" is useful. "Drawn in #2 pencil" is redundant — that is the default.
+
+**Example — annotated document:**
+
+```markdown
+The EOB arrives. It looks like a receipt but it is not a receipt. It is
+an explanation of what happened to your money after the insurance company
+finished deciding what your health is worth.
+
+<!-- art
+file: eob-annotated.png
+size: full
+alt: A hand-drawn Explanation of Benefits form with three fields circled
+     and annotated in plain language: Amount Billed, Allowed Amount, and
+     Patient Responsibility.
+brief: EOB form rendered in light #2 pencil, slightly crumpled at the
+       top-right corner. Three fields circled in red ballpoint with
+       pencil arrows pointing to handwritten margin notes. Amount Billed
+       ($4,200) annotated "what they charged." Allowed Amount ($1,800)
+       annotated "what insurance says it's worth." Patient Responsibility
+       ($450) annotated "what you actually owe." The rest of the form is
+       rendered in lighter pencil, readable but de-emphasized. The margin
+       notes are in the same hand as the chapter opener drawings —
+       slightly cramped, slightly urgent.
+-->
+
+Ask Claude to decode this. Paste the EOB. The three numbers that matter
+are the ones circled above.
+```
+
+**Example — domestic object:**
+
+```markdown
+<!-- art
+file: mailbox-letter.png
+size: half-right
+alt: A rural mailbox with its flag up and an envelope visible inside.
+brief: Post-mounted rural mailbox, three-quarter view, flag in the up
+       position. One envelope visible through the open door — just the
+       corner, white with a blue return address. The mailbox is the
+       standard US galvanized steel type, slightly dented. Post is
+       weathered wood. Drawn in #2 pencil with the same obsessive
+       hardware detail as the Trinitron's control panel.
+-->
+```
+
+**Example — process diagram:**
+
+```markdown
+<!-- art
+file: appeal-escalation.png
+size: full
+alt: A three-step escalation path for insurance appeals: internal appeal,
+     external review, then state insurance regulator.
+brief: Hand-drawn flow diagram, left to right. Three boxes connected by
+       pencil arrows. Box 1: "Internal Appeal" with "(30-60 days)"
+       underneath. Box 2: "External Review" with "(45-60 days)."
+       Box 3: "State Regulator" with "(varies)." Below each box, a
+       one-line pencil annotation: "you write this," "they assign a
+       reviewer," "the state steps in." The arrows are slightly wobbly.
+       The boxes are hand-ruled, not perfectly straight. A small red
+       ballpoint star next to Box 1 with the note "most denials stop
+       here."
+-->
+```
+
+**Example — pixel art vignette:**
+
+```markdown
+<!-- art
+file: picard-facepalm-vignette.png
+size: margin
+alt: An 8-bit pixel art rendering of Picard's facepalm gesture.
+brief: Picard facepalm in 8-bit pixel art, approximately 32x32 pixels
+       scaled up. NES-era palette — 4 colors: skin tone, uniform red,
+       black hair, dark shadow. Colored in ballpoint pen over pencil
+       grid. No CRT effects — this is a vignette, not a Trinitron
+       screen. Transparent background.
+-->
+```
+
+**Build pipeline behavior:**
+
+The build pipeline parses `<!-- art ... -->` blocks and:
+
+1. Extracts `file`, `size`, `alt`, and `brief` fields.
+2. If `src/images/inline/{file}` exists: renders `<figure class="inline-graphic inline-graphic-{size}"><img src="../images/inline/{file}" alt="{alt}"/></figure>` in the chapter XHTML.
+3. If the file does not exist: emits nothing in the XHTML, appends the brief to `dist/art-manifest.json` with the source file path, position, and all fields. The manifest is the illustrator's work order.
+4. Validates that every `<!-- art -->` block has both `alt` and `brief` fields. Missing `alt` is a build error. Missing `brief` is a warning.
+
+---
+
 *Sizing and placement:*
 
 - **Full-width inline:** Spans the text column. Used for process diagrams and annotated document examples. Caption below in italic, same format as chapter openers.
