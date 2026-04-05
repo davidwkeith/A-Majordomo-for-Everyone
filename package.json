@@ -1,0 +1,34 @@
+{
+  "name": "a-majordomo-for-everyone",
+  "version": "0.1.0",
+  "description": "ePub 3.0 build pipeline for A Majordomo for Everyone",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "build": "tsc && node dist/build/index.js",
+    "build:check": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "jszip": "^3.10.1",
+    "rehype-stringify": "^10.0.0",
+    "remark-directive": "^4.0.0",
+    "remark-gfm": "^4.0.0",
+    "remark-parse": "^11.0.0",
+    "remark-rehype": "^11.0.0",
+    "unified": "^11.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.4.0",
+    "vitest": "^2.0.0"
+  },
+  "license": "CC-BY-SA-4.0",
+  "author": "David W. Keith"
+}

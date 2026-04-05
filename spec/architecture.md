@@ -1,0 +1,68 @@
+# Book Architecture
+
+The book has three parts and an introduction. The parts are not sequential. The introduction and Part One are read once. Parts Two and Three are reference material pulled out when needed.
+
+```
+INTRODUCTION
+  What the Guide is. What it isn't. DON'T PROMPT.
+  How AI works, in one page.
+  The free tier. The rotation. The bookmark stack.
+  Your first five conversations.
+
+PART ONE: THE STRATEGIES
+  Nine chapters. One meta-strategy (Specify) and eight applications.
+  Each chapter teaches one skill through two or three worked examples.
+  Each example includes a full [SPEC] loop:
+	— reader's loose opening situation
+	— Claude's clarifying questions
+	— reader's answers
+	— Claude proposes the spec
+	— reader reviews and corrects
+	— Claude executes
+	— reader evaluates; refinement if needed
+
+  Strategy 0: Specify  — the meta-strategy. Runs before all others.
+						  Claude interviews you into a spec.
+						  You review. You correct. Then it executes.
+  Strategy 1: Decode   — translate a document into plain language
+  Strategy 2: Prepare  — get ready for a high-stakes interaction
+  Strategy 3: Draft    — get past the blank page
+  Strategy 4: Navigate — find the path through a multi-step process
+  Strategy 5: Decide   — map options when you're at a fork
+  Strategy 6: Diagnose — triage before calling someone expensive
+  Strategy 7: Research — understand something before committing
+  Strategy 8: Assert   — know and exercise your rights
+  Strategy 9: Create   — write the story. you own the plot.
+						  the AI writes the sentences.
+
+PART TWO: THE FIELD GUIDE
+  Short entries organized by life domain.
+  Each entry: Adams-format opener + confirmed spec + strategy tag(s).
+  ~45 entries covering the most common situations.
+  Domains: Health / Money / Legal / Home / Family /
+		   Work / Civic / Daily Life / Home and Planet /
+		   Everyday Expertise / Creative Writing / Website Building
+
+PART THREE: THE GENERAL METHOD
+  For situations the Field Guide doesn't cover.
+  The Five-Part Frame as a spec template.
+  The full refinement loop.
+  How to recognize a correct spec when Claude proposes one.
+  When to use a human instead.
+  The calibration question.
+  How to teach this to someone else.
+```
+
+**Navigation guide for the impatient reader:**
+
+- Want to build your own website → Part Two, Website Building domain
+- Need to fight an insurance denial tonight → Part Two, Health domain
+- Want to understand the skill before using it → Part One, Strategy 1 (Decode) or Strategy 8 (Assert)
+- Have a situation this book doesn't cover → Part Three
+- Have never used AI before → Introduction, then Strategy 0 (Specify)
+- Want to teach this to a parent or neighbor → Part Three, final chapter
+- Not sure which AI tool to use → Chapter 3 (the rotation strategy works across all of them)
+
+**The central meme:**
+
+> *A Majordomo for Everyone has this to say about dealing with large institutions: always know where your specification is.*

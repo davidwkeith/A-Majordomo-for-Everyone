@@ -1,0 +1,48 @@
+---
+title: "The Free Tier Playbook"
+part: 0
+order: 5
+strategy: null
+status: "draft"
+---
+
+## Chapter 3: The Free Tier Playbook
+
+You will not need to pay for anything to use this book. Here is how to stay in the free lane indefinitely.
+
+**What the free tier includes:**
+
+Claude's free tier allows a meaningful number of conversations per day. The exact limit varies and is not publicly published, but in practice it is sufficient for several extended conversations before any throttling occurs. If you hit a limit, Claude will tell you, and the limit typically resets within a few hours.
+
+**The four-service rotation:**
+
+When you hit Claude's free limit, you have three other high-quality options at no cost:
+
+| Service | Best for | Free limit notes |
+|---|---|---|
+| Claude (Anthropic) | Nuanced writing, complex explanations, documents | Daily soft limit |
+| ChatGPT (OpenAI) | Broad general use, some web search | Daily limit on GPT-4 |
+| Gemini (Google) | Gmail and Google Docs integration, current events | Generous free tier |
+| Copilot (Microsoft) | Windows integration, Bing search included | Largely unlimited free |
+
+> **[ALSO]** The free tier names: Claude's free version is just "Claude." ChatGPT's is "ChatGPT Free." Gemini's free version is "Gemini." Copilot is free by default in Microsoft Edge and Windows. See Appendix G for the full feature comparison.
+
+The point is not that one is better than the others. The point is that each has free capacity, and for the tasks in this book, all four will serve you well. Keep a bookmark folder with all four. When one runs out, move to the next.
+
+**The browser bookmark stack:** Create a folder in your browser bookmarks called "AI Tools." Add all four services. When you sit down to work through a problem, open the one you haven't used today.[^3-1]
+
+**Saving your prompts:** Keep a note on your phone or computer called "AI prompts that worked." When you get a particularly good result, save the prompt you used. You will use it again, or someone in your family will.
+
+**When it's worth paying:** If you find yourself regularly frustrated by hitting limits, or if you are using these tools for work tasks where speed matters, Claude Pro ($20/month as of this writing) adds higher limits, web search, and access to the most capable model. For the tasks in this book, the free tier is sufficient for most users.
+
+**The most powerful free feature most people never use: Projects / Gems / Custom GPTs**
+
+Every major AI tool has a way to create a persistent context — a named space where you store background information about your situation, instructions for how you want the AI to respond, and a history of related conversations. You set it up once. Every conversation in that space starts with your majordomo already briefed.
+
+For this book, the most useful application is a household context. You tell it: who lives in your home, what your health situation is, what your current ongoing issues are (the landlord dispute, the insurance claim, the renovation). From that point on, every relevant conversation in that Project starts from an informed position instead of a blank one.
+
+> **[ALSO]** Claude calls this a **Project**. Gemini calls it a **Gem**. ChatGPT calls it a **custom GPT**. Copilot's equivalent is more limited. The setup process differs slightly across tools but the concept is identical. See Appendix G for the full comparison and setup guidance.
+
+> **[TIP]** If you're hitting a limit and have an urgent task, Copilot (free, built into Microsoft Edge) has the most generous free access as of 2024 and includes web search. It is the best backup when your primary service is throttled.
+
+[^3-1]: Habit stacking — attaching a new behavior to an existing routine — is one of the most reliably studied techniques in behavior change research. Adding a "check my AI bookmarks" step to an existing "open the browser" routine costs nothing and dramatically increases follow-through (Fogg, 2019, *Tiny Habits*).
