@@ -8,9 +8,9 @@ status: "draft"
 
 ### DRUGS
 
-> **[MEME]** In 1987, the Partnership for a Drug-Free America aired a public service announcement showing an egg frying in a pan. *"This is your brain on drugs."* It ran for a decade. It won awards. It did not distinguish between caffeine and heroin, between a prescribed medication and a street drug, between use and addiction. It replaced pharmacology with a skillet and called it education. A generation learned that all drugs are the same, all use is abuse, and the correct response to a complex neurochemical question is fear. [D.A.R.E.](https://en.wikipedia.org/wiki/Drug_Abuse_Resistance_Education) followed the same logic. Multiple longitudinal studies found it had no significant effect on drug use and may have increased curiosity.[^d0-1] The entries in this domain are what the egg should have been: the science, simplified, without the moralizing.
+> **[MEME]** In 1987, the Partnership for a Drug-Free America aired a public service announcement showing an egg frying in a pan. *"This is your brain on drugs."* It ran for a decade. It won awards. It did not distinguish between caffeine and heroin, between a prescribed medication and a street drug, between use and addiction. It replaced pharmacology with a skillet and called it education. A generation learned that all drugs are the same, all use is abuse, and the correct response to a complex neurochemical question is fear. [D.A.R.E.](https://en.wikipedia.org/wiki/Drug_Abuse_Resistance_Education) followed the same logic. Multiple longitudinal studies found it had no significant effect on drug use and may have increased curiosity.[^d0-1] The campaign was funded in part by Philip Morris, Anheuser-Busch, and RJ Reynolds — which may explain why the legal drug responsible for more harm than any other was not in the frying pan.[^d0-1] The entries in this domain are what the egg should have been: the science, simplified, without the moralizing.
 
-[^d0-1]: West, S.L. & O'Neal, K.K. (2004). "Project D.A.R.E. Outcome Effectiveness Revisited." *American Journal of Public Health*, 94(6), 1027–1030. The U.S. General Accounting Office reached a similar conclusion in 2003.
+[^d0-1]: West, S.L. & O'Neal, K.K. (2004). "Project D.A.R.E. Outcome Effectiveness Revisited." *American Journal of Public Health*, 94(6), 1027–1030. A 2002 NIDA-commissioned evaluation of anti-drug media campaigns found no significant effect on reducing drug use.
 
 You are not dumb for being confused about drugs. You are navigating a system where the legal classification is political, the marketing is pharmaceutical, the enforcement is racial, and the science is locked behind a scheduling regime that makes it illegal to study the substances it claims are too dangerous to study. Your Agent reads the pharmacology, not the politics.
 
@@ -144,7 +144,9 @@ Please explain:
 4. What I should know right now — tonight — if this is urgent
 ```
 
-> **[SCIENCE]** **Tolerance** means your body adapts to a substance so you need more for the same effect. **Physical dependence** means your body has adapted so that stopping causes withdrawal symptoms. **Addiction** (substance use disorder) means compulsive use despite negative consequences, driven by changes in the brain's reward and decision-making circuits. You can be physically dependent without being addicted — every coffee drinker who gets a headache without caffeine is dependent. And you can be addicted without physical dependence. The three concepts are related but not the same.[^d5-1]
+> **[SCIENCE]** **Tolerance** means your body adapts to a substance so you need more for the same effect. **Physical dependence** means your body has adapted so that stopping causes withdrawal symptoms. **Addiction** (substance use disorder) means compulsive use despite negative consequences, driven by changes in the brain's reward and decision-making circuits. You can be physically dependent without being addicted — every coffee drinker who gets a headache without caffeine is dependent. And you can be addicted without physical dependence. Genetic factors account for roughly 40–60% of addiction vulnerability, which is why some people can use a substance casually and others cannot. The three concepts are related but not the same.[^d5-1]
+
+> **[TIP]** Alcohol and benzodiazepine withdrawal can cause fatal seizures — they are among the only drugs where stopping abruptly can kill you. Opioid withdrawal is miserable but rarely lethal. If someone you know wants to stop using alcohol or benzodiazepines after heavy daily use, they need medical supervision. Do not let them quit cold turkey.
 
 [^d5-1]: Koob, G.F. & Volkow, N.D. (2016). "Neurobiology of Addiction: A Neurocircuitry Analysis." *The Lancet Psychiatry*, 3(8), 760–773.
 
@@ -153,7 +155,7 @@ Please explain:
 #### D-6: Harm Reduction
 **Strategy:** Research + Diagnose
 **See also:** D-5: Understanding Addiction, D-2: Checking for Drug Interactions
-**The Majordomo says:** *Harm reduction starts from the premise that some people use drugs and that the most useful response is to keep them alive and as healthy as possible. This is controversial in exactly the way that seatbelts were controversial in 1965 — opponents argued they would encourage reckless driving. They did not. They reduced deaths. The evidence for harm reduction is comparably strong.*
+**The Majordomo says:** *In 2023, approximately 107,000 Americans died of drug overdoses — more than car accidents and gun deaths combined. Roughly 75% involved fentanyl, which is often present in drugs sold as something else. Harm reduction starts from the premise that some people use drugs and that the most useful response is to keep them alive and as healthy as possible. This is controversial in exactly the way that seatbelts were controversial in 1965 — opponents argued they would encourage reckless driving. They did not. They reduced deaths. The evidence for harm reduction is comparably strong.*
 **The spec:**
 ```
 I want to understand harm reduction for [substance or situation].
@@ -201,7 +203,7 @@ Please tell me:
 Give me the most conservative, accurate answer.
 ```
 
-> **[SCIENCE]** The DEA's scheduling system was established by the Controlled Substances Act of 1970. Schedule I is defined as having "no currently accepted medical use" and "a high potential for abuse." Cannabis, psilocybin, and MDMA are all Schedule I. Cocaine and methamphetamine are Schedule II -- meaning the federal government considers them to have accepted medical uses. The scheduling does not align with the scientific harm rankings.[^d7-1]
+> **[SCIENCE]** The DEA's scheduling system was established by the Controlled Substances Act of 1970. Schedule I is defined as having "no currently accepted medical use" and "a high potential for abuse." Cannabis, psilocybin, and MDMA are all Schedule I. Cocaine and methamphetamine are Schedule II -- meaning the federal government considers them to have accepted medical uses. Methamphetamine is FDA-approved as Desoxyn for ADHD. Street meth and pharmaceutical meth are the same molecule. The scheduling does not align with the scientific harm rankings.[^d7-1]
 
 [^d7-1]: The DEA initiated a review to potentially reschedule cannabis from Schedule I to Schedule III in 2024. As of this writing, the process is ongoing.
 
