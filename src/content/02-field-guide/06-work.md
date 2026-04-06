@@ -8,11 +8,23 @@ status: "draft"
 
 ### WORK
 
+*Why capitalism requires work, what every Hitchhiker knows.*
+
 ---
 
-#### W-1: Writing or Updating a Resume
-**Strategy:** Draft
+#### W-1: Getting a New Job and Hiring
+**Strategy:** Draft + Prepare
+**See also:** L-1: Negotiating a Contract (for offer letters and non-competes), Li-1: Preparing for a Difficult Conversation (same preparation technique)
 *(Stub -- full entry to be drafted)*
+
+- Customizing cover letters
+- Customizing résumé
+- Interview preparation
+- Up-skilling
+- Salary negotiation, information asymmetry in capitalism
+- AI vs AI, how should hiring change for my profession? Brainstorm ideas.
+
+---
 
 #### W-2: Understanding Your Rights If You're Let Go
 **Strategy:** Assert + Decode
@@ -32,6 +44,34 @@ an employment attorney or legal aid organization.
 
 ---
 
-#### W-3: Writing a Performance Self-Review
-**Strategy:** Draft
+#### W-3: Working with HR
+**Strategy:** Draft + Assert
+*(Stub -- full entry to be drafted)*
+
+- Writing a Performance Self-Review
+- Workplace Conflicts
+- Documentation
+
+---
+
+#### W-4: Work from Home or RTO?
+**Strategy:** Research + Decide
+*(Stub -- full entry to be drafted)*
+
+---
+
+#### W-5: Unions
+**Strategy:** Navigate + Assert
+**See also:** C-4: Advocating for Change (same organizing skills), L-1: Negotiating a Contract (for reading the CBA)
+*(Stub -- full entry to be drafted)*
+
+- Starting a union
+- Changing leadership
+- Changing by-laws
+- Negotiation 101
+
+---
+
+#### W-6: OSHA and Worker's Comp
+**Strategy:** Assert + Navigate
 *(Stub -- full entry to be drafted)*

@@ -39,9 +39,10 @@ PART TWO: THE FIELD GUIDE
   Short entries organized by life domain.
   Each entry: Adams-format opener + confirmed spec + strategy tag(s).
   ~45 entries covering the most common situations.
-  Domains: Health / Money / Legal / Home / Family /
-		   Work / Civic / Daily Life / Home and Planet /
-		   Everyday Expertise / Creative Writing / Website Building
+  Cross-reference related Field Guide entries
+  Domains: Health / Money / Legal / Home / Life /
+		   Work / Civic / Chores / Online Presence /
+		   Transportation
 
 PART THREE: THE GENERAL METHOD
   For situations the Field Guide doesn't cover.
@@ -55,7 +56,7 @@ PART THREE: THE GENERAL METHOD
 
 **Navigation guide for the impatient reader:**
 
-- Want to build your own website → Part Two, Website Building domain
+- Want to build your own website → Part Two, Online Presence domain
 - Need to fight an insurance denial tonight → Part Two, Health domain
 - Want to understand the skill before using it → Part One, Strategy 1 (Decode) or Strategy 8 (Assert)
 - Have a situation this book doesn't cover → Part Three

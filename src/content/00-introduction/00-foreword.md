@@ -10,6 +10,21 @@ status: "stub"
 
 The foreword opens with the class analysis, not the technology.
 
+The author's personal history and experience:
+
+- Late Gen-Xer with early Gen-X parents. Born 1960 and 1979, the virtual turning points.
+- Grew up on food stamps and government cheese
+- Trailer Park Trash, but first experience with HOAs.
+- Experienced the '80s as a child, ST:TOS and TAS on Nick at Nite to ST:TNG, ST:DS9, ST:VOY, and ST:ENT. Very much a socialist techno optimist.
+- Nintendo child. Made my own _8-Bit Christmas_ by recycling cans.
+- Dropout webmaster to Google Middle Management and highest level Front End Engineer, after Nest acquisition.
+- Dropped out of the other Cornell, Cornell College. Once Course at a Time as demonstrated in ST:SFA episode of Our Town
+- Married a mid-aged Gen-Xer, she's older and wiser. And a maximizer.
+- Lost a brother to a skiing accident. Brother was detailed oriented, but adventurous, better Agentic information would have absolutely prevented the accident.
+- Step-siblings are amazing in their fields (electrical and forestry) AI can help them be their best
+- Worked retail, and bought a house. Apparently one of the last to do so.
+
+
 In the 24th century, as [Gene Roddenberry](https://en.wikipedia.org/wiki/Gene_Roddenberry) imagined it, there are no lawyers charging $400 an hour to explain what a lease means. There are no insurance company representatives whose job is to find a reason to deny your claim. There is no medical billing department staffed by people whose performance metrics reward how much they collect from patients who don't understand their EOBs. The [Federation](https://en.wikipedia.org/wiki/United_Federation_of_Planets) got rid of money. The [Ferengi](https://en.wikipedia.org/wiki/Ferengi) thought this was insane. The jury is still out on which side history is taking.
 
 We do not live in the 24th century. We live now, where the systems that govern health, housing, legal standing, and financial survival were designed by the billionaire class, for the billionaire class — and navigating them without a retainer has always required either expensive professional help or an extraordinary amount of unpaid personal research. That asymmetry is not an accident. It is structural. It compounds over time. It is most visible in the things everyone knows but rarely says out loud: the billionaire class does not read its own insurance policies, decode its own medical bills, or draft its own demand letters. It employs people whose entire job is handling that layer of friction so that the people who own the systems never have to engage with them.

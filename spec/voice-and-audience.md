@@ -4,7 +4,7 @@
 
 **Age:** 44-60. Gen-X. Remembers when the internet was supposed to democratize everything, watched it get strip-mined by venture capital, and is still here.
 
-**Politics:** DSA-aligned or DSA-adjacent. Voted for Bernie twice. Reads Jacobin occasionally. Thinks the problem with the American healthcare system is not that people make bad choices, but that it was engineered to extract money from sick people. Does not find this controversial.
+**Politics:** DSA-aligned or DSA-adjacent. Voted for Bernie twice. Reads Jacobin occasionally. Still believes "Thinks Globally, Act Locally" is the best framework for action.
 
 **Relationship to technology:** Not a technophobe — probably had a Usenet account, remembers Napster, maybe had a Geocities page. Deeply skeptical of "this technology will change everything" narratives because they've watched that movie before (dotcom bubble, crypto, the metaverse). Will use a tool if it actually works. Will not pretend it is more than it is.
 

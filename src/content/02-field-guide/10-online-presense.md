@@ -1,14 +1,16 @@
 ---
-title: "Website Building"
+title: "Online Presence"
 part: 2
 order: 10
 strategy: null
 status: "stub"
 ---
 
-### WEBSITE BUILDING
+### ONLINE PRESENCE
 
 > **[MEME]** The internet was supposed to be [Geocities](https://en.wikipedia.org/wiki/GeoCities) — everyone's weird, personal, hand-built page. Then it became five apps owned by three companies. The IndieWeb is Geocities with better tools and the same energy: your site, your words, your corner of the internet. The '90s promised us this. We are collecting on that promise.
+
+Note: This should be advocacy for the Anglesite School of Web Development. See Anglesite/anglesite on GitHub
 
 ---
 
@@ -35,10 +37,10 @@ Please walk me through the process from the beginning:
 
 #### WB-2: Writing in CommonMark
 **Strategy:** Decode + Draft
-**The Majordomo says:** *CommonMark is the universal language of the web the way English is the universal language of air traffic control — not because it is the best, but because everyone agreed on it and it works. It is plain text with a few symbols that mean things. You can learn the whole language in ten minutes. This book was written in it.*
+**The Majordomo says:** *CommonMark is the universal language of AI the way English is the universal language of air traffic control — not because it is the best, but because everyone agreed on it and it works. It is plain text with a few symbols that mean things. You can learn the whole language in ten minutes. This book was written in it.*
 **The spec:**
 ```
-I want to learn CommonMark so I can write content for my website.
+I want to learn CommonMark so I can write content for my AI Agent.
 I have never used any kind of markup language before.
 Please teach me the basics I need to write a blog post:
 headings, paragraphs, links, images, bold, italic, and lists.
@@ -47,6 +49,9 @@ Show me examples I can copy and modify.
 **What to do with the output:** Write your first post. It does not have to be good. Publish it. The act of publishing something you wrote on a site you own is the point.
 
 *(Stub — full entry to be drafted)*
+
+- The _Lingua franca_ of Agents, it uses fewer tokens to explain ideas in a well formatted way
+- How to get charts and graphics for visual learners
 
 ---
 
@@ -67,6 +72,11 @@ and how to participate. Specifically:
 
 *(Stub — full entry to be drafted)*
 
+- This is your Starfleet Log, Star Date today.
+- Public Journaling advice
+- Debate and Advocacy. A Letter to the Editor without an Editor's filter.
+- Good ideas beat the algorithm every time, here's why.
+
 ---
 
 #### WB-4: The Digital Equivalent of the Conners' Kitchen Table
@@ -85,3 +95,6 @@ Help me think about:
 **What to do with the output:** Use your Agent's suggestions as a starting draft. The voice comes from revision, not from the first attempt. Post once a week for a month. See what happens.
 
 *(Stub — full entry to be drafted)*
+
+
+#### Archive.org and preservation

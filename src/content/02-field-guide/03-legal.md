@@ -12,8 +12,9 @@ status: "draft"
 
 ---
 
-#### L-1: Understanding a Contract Before Signing
-**Strategy:** Decode
+#### L-1: Negotiating a Contract
+**Strategy:** Decode + Assert
+**See also:** Ho-5: Knowing Your Rights as a Renter or Homeowner (for lease-specific rights), Ch-2: Understanding a Contractor Bid, M-2: Understanding a Mortgage
 **The Majordomo says:** *Contracts are written by lawyers for lawyers, with the implicit understanding that the other party also has a lawyer. When one party does not have a lawyer, the contract functions as intended.*
 **The spec:**
 ```
@@ -28,24 +29,7 @@ Please:
 Assume I have no legal background.
 ```
 
----
-
-#### L-2: Knowing Your Rights as a Tenant
-**Strategy:** Assert
-**The Majordomo says:** *Tenant rights exist in statute in every state. Landlords know this. The informational asymmetry between landlords and tenants regarding those rights is one of the most consequential and least discussed features of American housing.*
-**The spec:**
-```
-I am a tenant in [state] and [city if relevant]. My landlord
-[describe the situation: refusing repairs / entering without notice /
-threatening eviction / withholding deposit, etc.].
-This has been going on for [timeframe].
-I want to know:
-1. What are my legal rights in this specific situation?
-2. What should I document, and how?
-3. What is my first step -- and is there a deadline I need to know about?
-Give me the most conservative, well-grounded answer.
-I will verify with a legal aid organization before acting.
-```
+- Should cover Terms of Service. Starting with the user's Agent of choice. We have a contract they just signed.
 
 ---
 
@@ -53,30 +37,13 @@ I will verify with a legal aid organization before acting.
 **Strategy:** Draft
 *(Stub -- full entry to be drafted)*
 
-#### L-4: Navigating a Traffic Ticket
-**Strategy:** Navigate + Research
-*(Stub -- full entry to be drafted)*
-
-#### L-5: Understanding Your Rights If Immigration Enforcement Contacts You
-**Strategy:** Assert
-**The Majordomo says:** *Constitutional rights apply regardless of immigration status. The distinction between what the law says and what enforcement officers sometimes do in practice is a documented gap. Knowing the former does not close the latter, but it is a better position than not knowing.*
-**The spec:**
-```
-I want to understand my legal rights if immigration enforcement
-(ICE or local police acting on immigration matters) contacts me
-or someone in my household.
-Please explain:
-1. What rights apply regardless of immigration status
-2. What I am and am not legally required to do or say
-3. What I should do immediately if this happens
-4. Where to find free legal help if it does
-Give me the most accurate, conservative answer.
-```
-
-> **[FAIRNESS]** Verify any answer about immigration rights with an immigration legal aid organization before relying on it. See Appendix D.
-
 ---
 
-#### L-6: Filing a Discrimination Complaint
-**Strategy:** Navigate + Assert
+#### L-4: Navigating a Traffic Ticket
+**Strategy:** Navigate + Research
+**See also:** Tr-1: Car Maintenance Advisor (for understanding the vehicle side)
 *(Stub -- full entry to be drafted)*
+
+- Common myths, there are a lot of them, often used in sitcom plot lines
+- Time vs money, the Billionaires just pay, one of the few ways we tax them
+- Navigating insurance

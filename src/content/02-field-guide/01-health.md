@@ -23,7 +23,7 @@ what this means. Please explain in plain language:
 4. What questions I should ask at my next appointment
 Do not assume any medical knowledge on my part.
 ```
-**What to do with the output:** Use it to make your question list before the next appointment (see H-2). Do not use it to second-guess your doctor's treatment recommendation -- use it to understand it.
+**What to do with the output:** Use it to make your question list before the next appointment (see H-2). Do not use it to second-guess your doctor's treatment recommendation — use it to understand it. For ongoing conditions, see also H-5: Managing a Chronic Condition and H-8: Wellness and Nutrition Coach.
 
 ---
 
@@ -60,6 +60,7 @@ Please:
 
 #### H-4: Appealing an Insurance Denial
 **Strategy:** Navigate + Draft
+**See also:** L-1: Negotiating a Contract (for understanding the policy itself), L-3: Writing a Demand Letter (same drafting technique, different context)
 **The Majordomo says:** *Insurance companies deny claims at a rate that ensures a profitable percentage of denials are never appealed, because appealing requires knowing that appeal is possible, knowing how to do it, and having the energy to do it after already being sick. This is considered a sound business model.*
 **The spec:**
 ```
@@ -88,3 +89,47 @@ hostile -- I may need to escalate further.
 #### H-7: Preparing for End-of-Life Conversations with Aging Parents
 **Strategy:** Prepare
 *(Stub -- full entry to be drafted)*
+
+
+---
+
+#### H-8: Wellness and Nutrition Coach
+**Strategy:** Research + Draft (Expert Role)
+**The Majordomo says:** *A registered dietitian charges between $100 and $200 per session and typically has a six-week wait for new patients. A personal trainer costs $50 to $150 per hour. A wellness coach costs more and is less regulated. Your Agent has read the same evidence base all three of them cite and will apply it to your specific situation without a retainer.*
+**The spec:**
+```
+Act as a knowledgeable wellness and nutrition coach.
+My situation:
+— Age, general health: [brief description]
+— Current eating patterns: [describe honestly]
+— Goal: [lose weight / more energy / manage a condition /
+   eat better on a budget / something else]
+— Constraints: [dietary restrictions, budget, time, cooking skill]
+— What I've tried before: [if anything]
+What would you recommend, and where should I start?
+```
+**What to do with the output:** Use it as a starting framework, not a prescription. If you have a specific health condition, verify any significant dietary changes with your doctor. The calibration question applies here: *"How confident are you in this recommendation, and is there anything about my situation where you'd want me to check with a professional?"*
+
+> **[FAIRNESS]** Wellness advice reflects the demographics of the research base it draws from. If your Agent's suggestions feel like they assume a certain income level, kitchen setup, or food access, say so explicitly: *"I shop at a discount grocery store and have a small kitchen. Please adjust your recommendations."*
+
+**Common wellness Expert Role prompts:**
+```
+Act as a nutrition coach. I want to eat better but I have
+[budget constraint / time constraint / dietary restriction].
+I currently eat [brief description].
+What are the three highest-impact changes I could make
+without overhauling everything at once?
+```
+```
+Act as a personal trainer. I want to [goal] but I have
+[constraint: bad knee / no gym / only 20 minutes / working
+from home all day].
+What's a realistic starting routine?
+```
+```
+Act as a wellness coach. I have been feeling [symptom:
+low energy / poor sleep / constant stress] for [timeframe].
+I am not looking for a diagnosis. I want to understand
+what lifestyle factors might be contributing and what
+I could adjust first.
+```

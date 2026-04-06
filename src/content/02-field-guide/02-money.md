@@ -28,33 +28,28 @@ to initiate a dispute. I'm in [state].
 
 #### M-2: Understanding a Mortgage or Refinance Offer
 **Strategy:** Decode + Decide
+**See also:** L-1: Negotiating a Contract, Ho-7: Getting a Home
 *(Stub -- full entry to be drafted)*
-
-#### M-3: Making a Household Budget That Holds
-**Strategy:** Draft + Decide
-*(Stub -- full entry to be drafted)*
-
-#### M-4: Preparing for a Salary Negotiation
-**Strategy:** Prepare
-**The Majordomo says:** *Salary negotiation is the one conversation in professional life where everything you know about being polite works against you. The employer's negotiating position was set before the conversation started. Yours is being formed in real time under social pressure. This is considered a fair process.*
-**The spec:**
-```
-I'm negotiating my salary for [new job offer / promotion / annual review].
-The current offer or my current salary is [$X]. Based on my research,
-the market rate for this role in [city] is [$Y range].
-I have [specific accomplishments and leverage points].
-I want to ask for [$Z].
-Please help me prepare: the exact words to open the negotiation,
-how to respond if they say the budget is fixed, and
-how to respond if they ask me to justify my number.
-```
 
 ---
 
 #### M-5: Understanding Your Rights When Facing a Collections Notice
 **Strategy:** Assert + Decode
+**See also:** L-3: Writing a Demand Letter
 *(Stub -- full entry to be drafted)*
 
-#### M-6: Figuring Out if a Contractor Quote is Fair
-**Strategy:** Research + Diagnose
-*(Stub -- full entry to be drafted)*
+
+---
+
+#### M-3: Financial Coach (Everyday Money)
+**Strategy:** Decide + Research (Expert Role)
+**The Majordomo says:** *A fee-only financial advisor charges $200 to $400 per hour and is most useful when you have significant assets to manage. For the financial questions that most people actually have -- is this debt worth paying off early, should I keep this money in a savings account or somewhere else, does this insurance make sense -- your Agent covers the ground.*
+**The spec:**
+```
+Act as a fee-only financial coach with no products to sell.
+My situation: [brief description of income, debts, savings]
+My question: [specific financial decision or question]
+My concern: [what you're worried about getting wrong]
+Please give me the honest analysis, including what you'd
+want to know more about before giving a final recommendation.
+```
