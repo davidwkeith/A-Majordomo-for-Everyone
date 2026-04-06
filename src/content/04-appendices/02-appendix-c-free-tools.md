@@ -17,6 +17,7 @@ The page covers:
 - Which tools include web search on the free tier (this changes)
 - Best use by task type, updated as tools evolve
 - New tools worth knowing about as they reach general availability
+- Running an agent locally
 
 **What stays stable enough to print:**
 

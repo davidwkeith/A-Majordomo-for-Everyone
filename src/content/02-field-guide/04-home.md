@@ -14,7 +14,7 @@ status: "draft"
 
 #### Ho-1: Maintaining Your Home
 **Strategy:** Diagnose
-**See also:** Ho-2: Home Repair and DIY (for specific repairs), Ho-3: Right-to-Repair (for products designed to resist repair), Ch-1: Researching a Major Purchase (before replacing anything)
+**See also:** Ho-2: Home Repair and DIY (for specific repairs), Ho-3: Right-to-Repair (for products designed to resist repair), Ch-1: Shopping Your Values (before replacing anything)
 **The Majordomo says:** *You can't afford a full maintenance team for your humble mansion. You know the importance of preventive maintenance. You just need a system that works for you in order to keep your home to your standards.*
 **The spec:**
 ```
@@ -28,6 +28,9 @@ Please tell me:
    tell them when I call?
 4. Are there any safety concerns I need to address immediately?
 ```
+**What to do with the output:** If there's a safety concern, handle that first — your Agent will tell you if something needs to be turned off, unplugged, or evacuated from immediately. For everything else, try the simplest fix your Agent suggests before calling a professional. Most service calls start at $150 just to show up.
+
+> **[ALSO]** Paste or upload your document directly — file upload works in Claude, Gemini, ChatGPT, and Copilot. See [Appendix G](06-appendix-g-feature-table.xhtml).
 
 - Stain Removal
 - DIY or Contractor
@@ -41,6 +44,7 @@ Please tell me:
 
 #### Ho-2: Home Repair and DIY
 **Strategy:** Diagnose + Navigate (Expert Role)
+**See also:** Ho-1: Maintaining Your Home (for diagnosing first), Ho-3: Right-to-Repair (for products designed to resist repair), Ch-2: Understanding a Contractor Bid (when to hire instead)
 **The Majordomo says:** *Home repair knowledge was once transmitted intergenerationally, in the same way that knowing how to change a tire or hem a pair of pants was once considered a baseline life skill. Several decades of planned obsolescence and the gradual replacement of fixable things with disposable ones have interrupted that transmission. Your Agent received it anyway.*
 **The spec:**
 ```
@@ -52,8 +56,11 @@ Tools I have: [basic hand tools / power tools / neither]
 Is this urgent (affecting habitability or safety)? [yes/no]
 What do I need to know before I start, and what are the steps?
 ```
+**What to do with the output:** Read the full list of steps before you start — not while you're holding a wrench. If there's a part you need, your Agent can help you find it by name and part number. Take a photo of what you're working on before you take anything apart. Future you will thank present you.
 
-**Common home repair Expert Role prompts:**
+> **[ALSO]** Checking current information requires web search, which is free in Gemini, ChatGPT, and Copilot. In Claude, web search requires the paid tier. See [Appendix G](06-appendix-g-feature-table.xhtml).
+
+**Common home repair Expert Role specs:**
 ```
 Act as a home repair advisor. I need to [patch a hole in drywall /
 fix a running toilet / caulk a bathtub / replace a light switch /
@@ -71,6 +78,7 @@ Give me an honest assessment.
 
 #### Ho-3: Right-to-Repair
 **Strategy:** Diagnose + Navigate (Expert Role)
+**See also:** Ho-2: Home Repair and DIY (for the repair itself), Ho-1: Maintaining Your Home (for preventive maintenance)
 **The Majordomo says:** *Call it Enshitification, planned obsolesce, buyer-lock-in. By making unrepairable products companies are able to sell us more stuff padding the pockets of Billionaires. Your Agent can work at your skill level to figure out when to repair or replace. And recommend more durable products to upgrade to. Capitalism as it is supposed to work in theory, we're just removing the information asymmetry.*
 **The spec:**
 ```
@@ -88,7 +96,7 @@ from easiest to most involved?
 
 > **[MEME]** "It's not a bug, it's a feature." The manufacturer calling your appliance "unrepairable" is a business model, not a technical assessment. Start with your Agent's diagnosis before accepting the quote for a replacement.
 
-**Common right-to-repair Expert Role prompts:**
+**Common right-to-repair Expert Role specs:**
 ```
 Act as a right-to-repair technician. My [washing machine /
 dishwasher / refrigerator / dryer] is [symptom].
@@ -106,13 +114,6 @@ Act as a small engine repair technician. My [lawn mower /
 generator / chainsaw] [symptom]. It was last serviced [when].
 What should I check first?
 ```
-
----
-
-#### Ho-4: Shopping Your Values
-**Strategy:** Research + Decide
-*(Stub -- full entry to be drafted)*
-**The Majordomo says:** *Where can I find the best price on brisket? What's the difference between Free Range and Cage-Free Eggs? What are the risks of this Manager's Special? Is Lab Grown meat safe? How can I tell if it's local? Just take a picture and your Agent will do your research for you. Vote with your dollars, that's the Billionaires worst nightmare. The Agent can shop Amazon, local, b-corp, free delivery, best deal. Any combination of preferences. Each dollar spent is a vote for the world you want. Agent's don't judge.*
 
 ---
 
@@ -166,6 +167,7 @@ What should I check first?
 
 #### Ho-6: Understanding Your Utility Bill and Energy Options
 **Strategy:** Decode + Research
+**See also:** M-6: Financial Coach (for budgeting utilities), Li-9: Making a Household Budget That Holds (utilities as a budget category)
 **The Majordomo says:** *Energy cost burden -- the percentage of household income spent on utilities -- falls hardest on low-income households, who spend nearly three times the proportion of their income on energy that median-income households do, and who have the least access to the rebate programs designed to address this. The programs exist. Finding them is the obstacle.*
 **The spec:**
 ```
@@ -178,6 +180,16 @@ Please:
 2. Tell me what rebate or assistance programs I likely qualify for
 3. Give me the steps to apply for the most impactful one
 ```
+**What to do with the output:** Apply for the program your Agent identifies first — the one with the biggest impact and the simplest application. Most assistance programs are first-come, first-served and have enrollment windows. Do it today, not next billing cycle.
+
+<!-- art
+file: utility-bill-annotated.png
+size: full
+alt: A utility bill with labeled arrows pointing to key charges: base rate, usage tiers, delivery charges, taxes, and fees
+brief: Hand-drawn #2 pencil sketch of a one-page utility bill, key line items circled with ballpoint pen annotations explaining each charge, transparent background
+-->
+
+> **[ALSO]** Paste or upload your document directly — file upload works in Claude, Gemini, ChatGPT, and Copilot. See [Appendix G](06-appendix-g-feature-table.xhtml).
 
 - Assistance programs
 - Rebates & Incentives
@@ -199,8 +211,9 @@ Please:
 
 ---
 
-#### Ho-8: Gardening
+#### Ho-8: Gardening & Landscaping
 **Strategy:** Diagnose + Research (Expert Role)
+**See also:** Ch-3: Identifying and Caring for Plants (for houseplants), Ho-1: Maintaining Your Home (for broader property care)
 **The Majordomo says:** *Master Gardeners are volunteers trained by the agricultural extension system to answer exactly the questions you have about why your tomatoes look like that. They are free. They are also available by appointment, two weeks from Tuesday, during business hours. Your Agent is available now.*
 **The spec:**
 ```
@@ -218,7 +231,9 @@ What is likely causing this, and what should I do?
 
 > **[TIP]** Add your soil type, sun exposure, and recent rainfall to the spec if you have it. The more specific the situation, the more specific the advice.
 
-**Extended Expert Role prompts for gardening:**
+> **[ALSO]** To make this Expert Role persistent across sessions, save it as a **Project** (Claude), **Gem** (Gemini), or **Custom GPT** (ChatGPT). See [Appendix G](06-appendix-g-feature-table.xhtml).
+
+**Extended Expert Role specs for gardening:**
 ```
 Act as a Master Gardener. I want to start a vegetable garden in
 [location, climate zone]. I have [square footage / container space].

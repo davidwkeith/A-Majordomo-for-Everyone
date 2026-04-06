@@ -18,7 +18,7 @@ The book uses Claude as its default example. Every feature named below exists in
 
 | What it does | Claude | Gemini | ChatGPT | Copilot |
 |---|---|---|---|---|
-| Save instructions that apply to every conversation | System Prompt / Custom Instructions | System Instructions | Custom Instructions | Custom Instructions |
+| Save instructions that apply to every conversation | Custom Instructions | System Instructions | Custom Instructions | Custom Instructions |
 | Save info about you that persists across chats | Memory | Personalization | Memory | (limited) |
 | Named workspace for related conversations | Project | Gem | GPT (custom) | (not available) |
 | Upload files to reference across conversations | Project files | Gem files | GPT knowledge | (limited) |

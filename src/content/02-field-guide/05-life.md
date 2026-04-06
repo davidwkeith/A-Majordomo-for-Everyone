@@ -14,6 +14,7 @@ status: "draft"
 
 #### Li-1: Preparing for a Difficult Conversation
 **Strategy:** Prepare + Draft
+**See also:** W-3: Working with HR (for workplace conversations), H-7: Preparing for End-of-Life Conversations (for the hardest one)
 **The Majordomo says:** *Research on interpersonal conflict spanning 40 years points to the same finding: how a difficult conversation begins predicts its outcome with approximately 96% accuracy. The words chosen in the first thirty seconds determine most of what follows. Preparation is not a luxury. It is the intervention.*
 **The spec:**
 ```
@@ -27,6 +28,10 @@ Please help me:
 2. Anticipate the most likely responses and how to handle them
 3. Draft an opening statement I could use to start the conversation
 ```
+**What to do with the output:** Save this as a note on your phone. Read it once before you walk in. You don't need to memorize the opening statement — just having it reduces the panic of "how do I start this." If the conversation goes sideways, you can come back to your Agent afterward and ask: *"It went like this: [describe]. What should I try next?"*
+
+> **[ALSO]** This works well with voice mode on your phone — all major tools support it on mobile. See [Appendix G](06-appendix-g-feature-table.xhtml).
+
 **Science note:** Gottman (1999) identifies the "soft startup" as the single highest-leverage intervention in difficult conversations -- how you begin determines nearly everything that follows.[^li1-1]
 
 [^li1-1]: Gottman, J.M. (1999). *The Marriage Clinic.* W.W. Norton.
@@ -35,6 +40,7 @@ Please help me:
 
 #### Li-2: Writing a Eulogy
 **Strategy:** Draft
+**See also:** Li-1: Preparing for a Difficult Conversation (the emotional preparation applies here too), H-7: Preparing for End-of-Life Conversations
 **The Majordomo says:** *A eulogy is the one piece of writing in most people's lives for which there is no second draft, no opportunity to revise after seeing the reaction, and no possibility of starting over. It is also written under conditions of maximum emotional impairment, saved online forever. Your Agent can provide the structure. Only you can provide the life.*
 **The spec:**
 ```
@@ -48,6 +54,14 @@ Please draft a eulogy I can edit into my own voice.
 The stories should come from what I've told you -- please don't
 invent details I haven't given you.
 ```
+**What to do with the output:** Edit it until it sounds like you, not like a machine. Read it out loud — twice. The parts that feel wrong in your mouth are the parts that need your words, not your Agent's. Print it on a card you can hold. Having something in your hands steadies them.
+
+<!-- art
+file: eulogy-notecard.png
+size: half-left
+alt: A notecard with a simple eulogy structure outlined: opening memory, three qualities, a story for each, and a closing line
+brief: Hand-drawn ballpoint pen sketch of a 4x6 notecard with a simple eulogy outline written in pencil, sections labeled with small brackets, transparent background
+-->
 
 ---
 
@@ -153,6 +167,8 @@ Please help me:
 
 > **[TIP]** *"I have a 4-hour layover in [city]. What can I actually do with that time, and what's the latest I can leave the airport and still make my connection?"*
 
+> **[ALSO]** Checking current information requires web search, which is free in Gemini, ChatGPT, and Copilot. In Claude, web search requires the paid tier. See [Appendix G](06-appendix-g-feature-table.xhtml).
+
 <!-- RESEARCH NEEDED: TSA and customs procedures for first-time flyers. The logistics are genuinely opaque if you didn't grow up traveling. Liquid rules, shoe removal, device separation, Global Entry vs. TSA PreCheck vs. CLEAR — each is a small information asymmetry that compounds into paralysis. A quick-reference sidebar would serve readers well. -->
 
 <!-- RESEARCH NEEDED (HUMAN CONDITION): Travel as class experience. The "gap year" is a middle-class-and-above phenomenon. For many working-class families, a road trip to see relatives IS the vacation. The entry should serve both audiences without centering either. The person planning their first international trip at 45 deserves the same thoroughness as the person planning their fifth. The anxiety of not knowing how airports work is real and class-coded — people don't admit it because it marks them. -->
@@ -161,6 +177,7 @@ Please help me:
 
 #### Li-6: Finding Restaurants
 **Strategy:** Research + Decide
+**See also:** Li-5: Planning Trips (for restaurants while traveling), Ch-5: Cooking and Culinary Skills (for eating in)
 **The Majordomo says:** *Restaurant recommendation algorithms optimize for restaurants that pay for placement or generate engagement, not for the best meal near you at your price point for your actual preferences. Your Agent has no paid placements. It also will not judge you for wanting chicken fingers at a place with tablecloths.*
 **The spec:**
 ```
@@ -175,6 +192,9 @@ What I want to avoid: [specific dislikes or past bad experiences]
 Give me 3-5 options with why each one fits, and tell me
 which one you'd pick if you were me.
 ```
+**What to do with the output:** Pick the one that fits your mood, not the one that sounds most impressive. Check the hours and whether you need a reservation — your Agent may not have current information. If you're going with other people, send them the short list and let them weigh in. The best restaurant for the night is the one everyone agrees to go to.
+
+> **[ALSO]** Checking current information requires web search, which is free in Gemini, ChatGPT, and Copilot. In Claude, web search requires the paid tier. See [Appendix G](06-appendix-g-feature-table.xhtml).
 
 > **[TIP]** *"I eat at [restaurant] once a week and I'm bored. Based on what I like about it — [describe] — what else should I try?"*
 
@@ -255,7 +275,7 @@ Please:
 
 > **[FAIRNESS]** Your Agent will recommend therapy when appropriate. If cost or access is the barrier, say so: *"I can't afford therapy right now. What can I do on my own that has the most evidence behind it?"* The answer exists and is better than nothing.
 
-**Common wellness Expert Role prompts:**
+**Common wellness Expert Role specs:**
 ```
 Act as a cognitive behavioral coach. I keep having this thought
 pattern: [describe the loop — catastrophizing, rumination,
@@ -341,7 +361,7 @@ How would you suggest we work together in our conversations?
 ```
 **What to do with the output:** Start using it immediately. Language learning research consistently shows that production — trying to say things, getting them wrong, trying again — beats passive study. Your Agent can do something no textbook can: respond to what you say, correct you in real time, and adjust the difficulty to where you actually are rather than where a curriculum assumes you should be.
 
-**Common language Expert Role prompts:**
+**Common language Expert Role specs:**
 ```
 I’m traveling to [country] in [timeframe]. Teach me the 20 phrases
 that will make the biggest difference — greetings, ordering food,

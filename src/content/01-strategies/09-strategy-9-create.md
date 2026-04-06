@@ -127,7 +127,7 @@ Most first drafts will have elements in all three categories. That is normal. A 
 
 ### Character Voice Specs
 
-Characters are their own sub-specs. Before writing any scene with dialogue, build a voice spec for each major character. This is the character bible, compressed into a prompt:
+Characters are their own sub-specs. Before writing any scene with dialogue, build a voice spec for each major character. This is the character bible, compressed into a spec:
 
 ```
 CHARACTER: [name]
@@ -181,7 +181,7 @@ You can generate both paths, read them, and decide which serves the story better
 
 > **[SCIENCE]** Research on creative cognition consistently identifies *constraint* as a driver of creative output rather than an obstacle to it — the phenomenon known as "creative constraint" (Stokes, 2006). Paradoxically, writers with more specific parameters produce more original work than those given full freedom, because constraints force novel solutions within a bounded space. The deterministic/dynamic architecture is applied creative constraint theory.[^s9-1]
 
-[^s9-1]: Stokes, P.D. (2006). *Creativity from Constraints: The Psychology of Breakthrough.* Springer. The research on jazz improvisation, architectural design, and literary composition all point to the same finding: meaningful constraints produce more creative output than open-ended prompts.
+[^s9-1]: Stokes, P.D. (2006). *Creativity from Constraints: The Psychology of Breakthrough.* Springer. The research on jazz improvisation, architectural design, and literary composition all point to the same finding: meaningful constraints produce more creative output than open-ended instructions.
 
 ---
 

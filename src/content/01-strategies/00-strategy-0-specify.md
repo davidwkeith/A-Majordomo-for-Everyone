@@ -137,7 +137,7 @@ a letter of medical necessity. Can the appeal reference that?
 
 Some situations don't need a document decoded or a process navigated. They need a knowledgeable person to look at your specific situation and tell you what they see.
 
-For these, there is a Specify shortcut: the Expert Role prompt. Instead of waiting for your Agent to interview you into a spec, you open by assigning it a role and describing your situation in one paragraph. Your Agent will ask any clarifying questions it needs, then proceed.
+For these, there is a Specify shortcut: the Expert Role spec. Instead of waiting for your Agent to interview you into a spec, you open by assigning it a role and describing your situation in one paragraph. Your Agent will ask any clarifying questions it needs, then proceed.
 
 ```
 Act as an experienced [Master Gardener / certified dog trainer /
@@ -146,16 +146,16 @@ Here is my situation: [describe it specifically].
 What do I need to know, and what should I do first?
 ```
 
-The Expert Role prompt works because your Agent has read the training materials, certification curricula, and professional literature for most well-documented fields. It can hold that knowledge in the frame of a specific expert's perspective for the duration of your conversation.
+The Expert Role spec works because your Agent has read the training materials, certification curricula, and professional literature for most well-documented fields. It can hold that knowledge in the frame of a specific expert's perspective for the duration of your conversation.
 
 **What it's not:** A licensed professional. The Master Gardener variant will not carry liability for your tomatoes. The personal trainer variant will not spot you. The Expert Role is the knowledgeable friend who happens to have the credentials, not the credentialed professional who carries accountability. For everything in the Everyday Expertise section of the Field Guide, this distinction is fine. For the system-navigation entries — legal, medical, financial — the Expert Role is a starting point, not an endpoint.
 
-**Works with any AI assistant.** The Expert Role prompt functions identically in Claude, ChatGPT, Gemini, and Copilot. Some tools will stay in the role more consistently than others — if one drifts out of the advisor frame and starts adding unnecessary caveats, try the same prompt in a different tool.
+**Works with any AI assistant.** The Expert Role spec functions identically in Claude, ChatGPT, Gemini, and Copilot. Some tools will stay in the role more consistently than others — if one drifts out of the advisor frame and starts adding unnecessary caveats, try the same spec in a different tool.
 
-> **[ALSO]** To make an Expert Role persistent across sessions — so your AI majordomo is always the Master Gardener when you open a particular context — save it as a Project instruction (Claude), Gem instruction (Gemini), or custom GPT system prompt (ChatGPT). Paste: *"You are an experienced Master Gardener. My garden is in [zone]. Always respond in that role unless I explicitly ask you to step out of it."* See Appendix G.
+> **[ALSO]** To make an Expert Role persistent across sessions — so your AI majordomo is always the Master Gardener when you open a particular context — save it as a Project instruction (Claude), Gem instruction (Gemini), or custom GPT instruction (ChatGPT). Paste: *"You are an experienced Master Gardener. My garden is in [zone]. Always respond in that role unless I explicitly ask you to step out of it."* See [Appendix G](06-appendix-g-feature-table.xhtml).
 
-> **[MEME]** "I know kung fu." The Expert Role prompt is not the Matrix download. You still have to do the work. But knowing what work to do, in what order, and why — that part just got faster.
+> **[MEME]** "I know kung fu." The Expert Role spec is not the Matrix download. You still have to do the work. But knowing what work to do, in what order, and why — that part just got faster.
 
-> **[SCIENCE]** Research on informal expert consultation — asking a friend who happens to have professional knowledge — consistently shows outcomes comparable to formal consultation for routine, non-crisis situations (Pescosolido, 1992). The key variable is not the formal credential but the quality of the information and the specificity of its application to the person's situation. The Expert Role prompt replicates the informal expert consultation at scale.[^s0-2]
+> **[SCIENCE]** Research on informal expert consultation — asking a friend who happens to have professional knowledge — consistently shows outcomes comparable to formal consultation for routine, non-crisis situations (Pescosolido, 1992). The key variable is not the formal credential but the quality of the information and the specificity of its application to the person's situation. The Expert Role spec replicates the informal expert consultation at scale.[^s0-2]
 
 [^s0-2]: Pescosolido, B.A. (1992). "Beyond rational choice: The social dynamics of how people seek help." *American Journal of Sociology*, 97(4), 1096-1138.

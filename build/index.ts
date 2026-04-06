@@ -32,7 +32,7 @@ const processor = unified()
 async function discoverChapters(): Promise<string[]> {
   const entries = await readdir(CONTENT_DIR, { recursive: true });
   return entries
-    .filter((f: string) => f.endsWith('.md'))
+    .filter((f: string) => f.endsWith('.md') && !basename(f).startsWith('_'))
     .map((f: string) => join(CONTENT_DIR, f));
 }
 

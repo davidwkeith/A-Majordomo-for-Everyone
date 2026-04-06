@@ -14,6 +14,14 @@ status: "draft"
 
 ---
 
+#### Computer Literacy
+
+- Picking an OS
+- Buying devices
+- Learning an App or digital skill like design
+- Vibe coding scripts
+- Learning Agentic Engineering
+
 #### WB-1: Building Your Own Website with Your Agent
 **Strategy:** Create + Navigate
 **See also:** WB-3: Writing in CommonMark (for writing your content), WB-4: Joining the IndieWeb (for connecting to the broader web)
@@ -36,6 +44,8 @@ Keep it simple. I want something I can maintain myself.
 > **[SCIENCE]** The environmental cost of the internet is non-trivial — data centers account for roughly 1-1.5% of global electricity use (IEA, 2024). A static website served from a green host produces orders of magnitude less carbon per page view than a dynamic site running on a cloud server that spins up computation for every visitor. The [Green Web Foundation](https://www.thegreenwebfoundation.org/) maintains a directory of verified green hosts.[^wb1-1]
 
 > **[TIP]** *"I already have a site on [Squarespace / Wix / WordPress.com] but I want to own it outright. How do I export my content and move to something I control?"* — Migration is almost always possible. The sooner you do it, the less content you have to move.
+
+> **[ALSO]** Checking current information requires web search, which is free in Gemini, ChatGPT, and Copilot. In Claude, web search requires the paid tier. See [Appendix G](06-appendix-g-feature-table.xhtml).
 
 <!-- RESEARCH NEEDED: Hosting cost comparison for personal sites. A static site on Netlify or Cloudflare Pages is free for most personal use. A custom domain costs $10-15/year. The total annual cost of owning your web presence is less than one month of most streaming subscriptions. This comparison is useful for the reader who assumes "building a website" is expensive or technical. -->
 
@@ -65,7 +75,7 @@ Please help me:
 ```
 **What to do with the output:** Set up a feed reader and add ten sources. That is your starting library. Within a week, you will notice a change: you are reading what you chose, not what an algorithm chose for you. The difference in signal quality — and in how you feel afterward — is immediate and measurable.
 
-**Common reading Expert Role prompts:**
+**Common reading Expert Role specs:**
 ```
 Act as my research librarian. Here are the topics I care about:
 [list]. Find me the best independent sources — blogs, newsletters,
@@ -107,6 +117,13 @@ Then show me the one thing that makes CommonMark more powerful
 than any word processor: links.
 ```
 **What to do with the output:** Write your first post in CommonMark. Do not worry about getting the syntax perfect — your Agent will correct you. The point is to start writing in a format that is portable, future-proof, and readable by every tool you will ever use.
+
+<!-- art
+file: commonmark-side-by-side.png
+size: full
+alt: A CommonMark document on the left showing plain text with formatting symbols, and the rendered output on the right showing headings, bold text, a bulleted list, and a hyperlink
+brief: Split-panel illustration, left side shows plain text in a monospaced font on a light gray background with CommonMark syntax visible (# heading, **bold**, - list items, [link text](url)), right side shows the same content rendered as a formatted document with a serif heading, bold text, bullet points, and a blue underlined link, thin vertical divider between panels, clean flat style, transparent background
+-->
 
 Links are the key innovation. [Tim Berners-Lee](https://en.wikipedia.org/wiki/Tim_Berners-Lee) built the web on a single idea: any document can reference any other document, anywhere, with a click. That is what a link is. Every link you write is a citation, a recommendation, a connection, a vote of confidence. A blog post with good links is a contribution to the web's knowledge graph. A blog post without links is a dead end. Link generously.
 

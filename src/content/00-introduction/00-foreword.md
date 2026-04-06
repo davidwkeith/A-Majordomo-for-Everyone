@@ -3,44 +3,33 @@ title: "Foreword"
 part: 0
 order: 0
 strategy: null
-status: "stub"
+status: "draft"
 ---
 
-## Foreword Notes (to be written last)
+## Foreword
 
-The foreword opens with the class analysis, not the technology.
+In 1991, Jerry, George, and Elaine walked into a Chinese restaurant and waited for a table. For twenty-three minutes. They could not call ahead. They could not check the wait time. They could not pull up another restaurant on a map that already knew where they were standing. "Cartwright!" the maître d' shouted into an empty lobby, and a generation laughed because they had been that person — standing in the wrong line, waiting for information that existed somewhere but was not available to them at the moment they needed it.
 
-The author's personal history and experience:
+Today you would check your phone. The episode would last forty-five seconds.
 
-- Late Gen-Xer with early Gen-X parents. Born 1960 and 1979, the virtual turning points.
-- Grew up on food stamps and government cheese
-- Trailer Park Trash, but first experience with HOAs.
-- Experienced the '80s as a child, ST:TOS and TAS on Nick at Nite to ST:TNG, ST:DS9, ST:VOY, and ST:ENT. Very much a socialist techno optimist.
-- Nintendo child. Made my own _8-Bit Christmas_ by recycling cans.
-- Dropout webmaster to Google Middle Management and highest level Front End Engineer, after Nest acquisition.
-- Dropped out of the other Cornell, Cornell College. Once Course at a Time as demonstrated in ST:SFA episode of Our Town
-- Married a mid-aged Gen-Xer, she's older and wiser. And a maximizer.
-- Lost a brother to a skiing accident. Brother was detailed oriented, but adventurous, better Agentic information would have absolutely prevented the accident.
-- Step-siblings are amazing in their fields (electrical and forestry) AI can help them be their best
-- Worked retail, and bought a house. Apparently one of the last to do so.
+The difference between those two moments is what this book is about, just for AI instead of smartphones.
 
+Not the technology. The access.
 
-In the 24th century, as [Gene Roddenberry](https://en.wikipedia.org/wiki/Gene_Roddenberry) imagined it, there are no lawyers charging $400 an hour to explain what a lease means. There are no insurance company representatives whose job is to find a reason to deny your claim. There is no medical billing department staffed by people whose performance metrics reward how much they collect from patients who don't understand their EOBs. The [Federation](https://en.wikipedia.org/wiki/United_Federation_of_Planets) got rid of money. The [Ferengi](https://en.wikipedia.org/wiki/Ferengi) thought this was insane. The jury is still out on which side history is taking.
+The billionaire class has always had someone to make that call. A staff attorney. A bookkeeper. A chief of staff whose job title literally means "the person who handles the systems so you don't have to." The word for that person, in the old houses, was *majordomo* — the one who runs the household, reads the contracts, knows which bill to dispute and which to pay. The billionaire class never sat at a kitchen table with a dictionary.
 
-We do not live in the 24th century. We live now, where the systems that govern health, housing, legal standing, and financial survival were designed by the billionaire class, for the billionaire class — and navigating them without a retainer has always required either expensive professional help or an extraordinary amount of unpaid personal research. That asymmetry is not an accident. It is structural. It compounds over time. It is most visible in the things everyone knows but rarely says out loud: the billionaire class does not read its own insurance policies, decode its own medical bills, or draft its own demand letters. It employs people whose entire job is handling that layer of friction so that the people who own the systems never have to engage with them.
+You now have something close to a majordomo. It runs on your phone. It costs nothing. It does not sleep, does not judge you for not knowing what a CPT code is, and will explain the same insurance clause fourteen times without getting annoyed. It is not a person, and I will not pretend it is one. But for the work of decoding, navigating, and pushing back against systems designed to exhaust you into compliance — it is the most useful tool ever available to people who are not the billionaire class.
 
-This book is about a tool that partially — imperfectly, provisionally — changes that equation.
+I should say who I am, because it matters for what follows. I grew up on food stamps and government cheese. I recycled aluminum cans for three months to buy a Nintendo. I dropped out of college, taught myself to build websites, and through a sequence of events that still seem statistically unlikely, ended up as a senior engineer at Google. I have seen the systems from both sides — from the kitchen table and from the conference room — and I can tell you that the difference is not intelligence. It is infrastructure. Having someone who already knows the answer, or knows the right question to ask. That infrastructure was always expensive. It is no longer exclusively expensive.
 
-Not because AI is magic. Not because technology saves us. (Gen-X has watched that promise get made and broken enough times to be immune to it.) But because access to plain-language explanation of complex systems has always been a class marker, and something has shifted in who can access it.
+I need to be honest about something. I am a Gen-Xer. I watched technology promise to democratize everything and then watched venture capital strip-mine the result. I watched the open web become five platforms. I am not here to tell you that AI will save the world. It will not. It is a tool, like a good ratchet set — genuinely useful, owned by a company, capable of giving you a wrong answer with complete confidence. This book will say so repeatedly.
 
-The foreword should be 600-800 words. Wry. Specific. The reader should feel recognized, not sold to.
+But something has shifted. Access to plain-language explanation of the systems that govern your health, housing, money, and legal standing has always been a class marker. For the first time, that access is available without a retainer. Not perfect. Not a replacement for a licensed professional when the stakes are high. But real, and free, and here now.
 
-**The foreword closes with the distribution statement.** Not as a legal notice — as a value statement. This book is free because information about how to use tools that help people navigate systems should not itself be a gatekept resource. It is licensed CC BY-SA because the people who will turn it into a YouTube channel, a Spanish translation, a union hall workshop curriculum, or a podcast are doing the work the book cannot do alone. The author's job is to write the seed. The community's job is everything else. This is explicitly what is supposed to happen.
+Gene Roddenberry imagined a future where the ship's computer would answer any question, for anyone, without a billable hour. He put that future in the 24th century. The unexplored territory he never filmed was closer to home: the insurance appeal, the lease dispute, the medical bill that doesn't add up. This book is the map.
 
-**Opening scenario options:**
+It is licensed Creative Commons BY-SA, which means it is free. Not just free as in beer. Free as in speech. Because access to tools that help people navigate systems should not itself be a gatekept resource. If you are a translator, a teacher, a union organizer, a YouTuber, or someone who runs a workshop at a library — this book is raw material. Turn it into whatever your community needs. That is not a side effect. That is the point.
 
-- A woman at a kitchen table in 1987, watching her mother try to decode a hospital bill with a dictionary and a calculator — and then cutting to the same woman, 35 years later, getting a clear explanation in four minutes.
-- A guy who has had the same auto insurance policy for twelve years and has never understood what "underinsured motorist property damage" means — and the insurance company, which is fine with that.
-- A first-generation college student who is smarter than everyone in their high school and has no idea what an Expected Family Contribution is or why it matters or what to do if it's wrong.
-- The Picard cold open: *"[The line must be drawn here.](https://en.wikipedia.org/wiki/Star_Trek:_First_Contact)"* He was talking about the [Borg](https://en.wikipedia.org/wiki/Borg). This book is about insurance companies, HOAs, and the medical billing industrial complex. The principle is the same.
-- The [Fresh Prince](https://en.wikipedia.org/wiki/The_Fresh_Prince_of_Bel-Air) angle: Will arrives in Bel-Air and suddenly the infrastructure is visible — the lawyer, the accountant, the housekeeper who knows everything, the connections that make problems disappear. The comedy was the culture shock. The book is the infrastructure, available to everyone who grew up watching it and wondering what it would be like to have it.
+The line must be drawn here. The billionaire class has had its majordomo long enough.
+
+Engage.

@@ -42,6 +42,8 @@ Please help me:
 
 > **[SCIENCE]** Americans paid approximately $7.7 billion in overdraft and NSF fees in 2022 (CFPB data), down from $15.5 billion in 2019 due to regulatory pressure and competitive changes. The fees fall disproportionately on the lowest-balance accounts — the people who can least afford them pay the most. The CFPB has proposed capping overdraft fees at $5 for large banks.[^m1-1]
 
+> **[ALSO]** Checking current interest rates, fee schedules, and regulations requires web search, which is free in Gemini, ChatGPT, and Copilot. In Claude, web search requires the paid tier. See [Appendix G](06-appendix-g-feature-table.xhtml).
+
 <!-- RESEARCH NEEDED: CFPB overdraft fee data — verify 2022/2023 figures and status of the proposed cap. The $35 overdraft fee is the most regressive fee in American banking: it is triggered by having too little money and costs a fixed amount regardless of the overdraft size. A $2 overdraft triggers the same $35 fee as a $200 overdraft. -->
 
 <!-- RESEARCH NEEDED: Credit union vs. bank comparison. NCUA data shows credit unions offer lower loan rates, higher savings rates, and fewer fees on average. The trade-off is fewer branches and sometimes less polished technology. For the reader who banks at Chase or Bank of America by default, the comparison is worth making explicit. -->
@@ -82,7 +84,9 @@ Please help me:
 
 > **[TIP]** *"I have [X] credit cards with these balances and rates: [list]. Build me a payoff plan that tells me exactly how much to pay on each card each month. I have [$X] per month total to put toward debt."*
 
-> **[FAIRNESS]** Credit scoring models have documented racial disparities. Brookings (2020) found that Black and Hispanic Americans have significantly lower average credit scores than white Americans even after controlling for income — a result of historical redlining, discriminatory lending, and the compounding effects of wealth gaps. If your Agent's advice assumes a "good" credit score, specify yours: *"My credit score is [X]. Adjust your recommendations for my actual situation."*
+> **[FAIRNESS]** Credit scoring algorithms have been shown to produce disparate outcomes along racial lines, even when controlling for income. When asking your Agent about credit strategies, follow up with: *"Are there known racial or income-based disparities in how this advice plays out in practice?"* The system is not neutral. Your strategy should account for that.
+
+> **[ALSO]** Paste or upload your credit card statement directly — file upload works in Claude, Gemini, ChatGPT, and Copilot. See [Appendix G](06-appendix-g-feature-table.xhtml).
 
 <!-- RESEARCH NEEDED: Fair Credit Billing Act and Fair Debt Collection Practices Act — the reader's two most important protections. FCBA gives 60 days to dispute charges; creditor must investigate within 30 days. FDCPA limits what collectors can do (no calls before 8am or after 9pm, no harassment, must validate the debt in writing on request). Many consumers don't know these rights exist. -->
 
@@ -132,6 +136,17 @@ Please help me:
 
 > **[MEME]** The 30-year fixed-rate mortgage is a uniquely American invention. Most other countries use shorter terms or adjustable rates. The 30-year fixed was created by the FHA in the 1930s to make homeownership accessible to the middle class. It worked — and then became the instrument through which the middle class transferred the largest share of its lifetime wealth to banks in the form of interest. A $350,000 mortgage at 7% over 30 years costs $838,000 in total payments. The house is $350,000. The rest is the price of time.
 
+> **[FAIRNESS]** [Mortgage lending discrimination](https://en.wikipedia.org/wiki/Mortgage_discrimination) — from explicit redlining to modern algorithmic bias — is one of the most documented forms of structural racism in American finance. Black and Latino applicants are denied at higher rates and offered worse terms than white applicants with identical credit profiles. When your Agent explains mortgage terms, ask: *"What should I watch for that might indicate I'm being offered less favorable terms than I should be?"*
+
+> **[ALSO]** Paste or upload your document directly — file upload works in Claude, Gemini, ChatGPT, and Copilot. See [Appendix G](06-appendix-g-feature-table.xhtml).
+
+<!-- art
+file: closing-disclosure-annotated.png
+size: half-right
+alt: A mortgage closing disclosure form with key sections circled — loan terms, projected payments, and closing costs highlighted in different colors
+brief: Hand-drawn #2 pencil closing disclosure form, standard CFPB format. Three sections circled in ballpoint pen — blue circle around loan terms box, red circle around closing costs total, green underline on projected payments. Annotations in pencil pointing to each circle. Transparent background.
+-->
+
 <!-- RESEARCH NEEDED: Current mortgage rate environment. As of 2024-2025, 30-year fixed rates are approximately 6.5-7.5%, significantly higher than the 2020-2021 era of 2.5-3.5%. This rate environment changes buying math dramatically. The entry should help the reader evaluate "buy now vs. wait" without predicting rates — which no one can do. -->
 
 <!-- RESEARCH NEEDED: First-time buyer programs. FHA (3.5% down), VA (0% down for veterans), USDA (0% down for rural), conventional with PMI (as low as 3% down), state and local down-payment assistance programs. Many first-time buyers don't know these exist. The entry should point to HUD's state-by-state list of homebuyer programs. -->
@@ -146,7 +161,7 @@ Please help me:
 
 #### M-4: Collections and Bankruptcy
 **Strategy:** Assert + Decode
-**See also:** L-3: Writing a Demand Letter, M-2: Credit Cards and Debt
+**See also:** L-3: Writing a Demand Letter, M-2: Credit Cards and Debt, H-6: Understanding What Medicare or Medicaid Actually Covers (medical debt is the leading cause of bankruptcy)
 **The Majordomo says:** *Debt collection is an industry built on the assumption that you do not know your rights. A collector who calls you has purchased your debt for pennies on the dollar and is now attempting to recover the full amount plus fees. The Fair Debt Collection Practices Act exists to regulate this interaction. Most people in collections have never heard of it. That is not accidental — the business model depends on the information gap. Your Agent has read the FDCPA. You should too.*
 **The spec:**
 ```
@@ -177,6 +192,17 @@ I will verify with a consumer rights attorney.
 > **[SCIENCE]** Medical debt is the leading cause of bankruptcy filings in the United States — a finding so consistent across studies that it has survived multiple methodological challenges. Himmelstein et al. (2019) found that approximately 530,000 families per year file bankruptcy citing medical bills. The three major credit bureaus (Equifax, Experian, TransUnion) removed medical debt under $500 from credit reports in 2023, and the CFPB has proposed removing all medical debt from credit reports.[^m4-1]
 
 > **[FAIRNESS]** Bankruptcy carries moral stigma in American culture that it does not carry in the law. The bankruptcy code exists because the alternative — permanent debt slavery — was considered worse for the economy and for individuals. Every major corporation uses bankruptcy strategically. The moral framing is applied exclusively to individuals. If your Agent's advice about bankruptcy carries a judgmental tone, redirect it: *"Give me the legal and financial analysis only. I will make the moral decision myself."*
+
+> **[FAIRNESS]** Debt collection practices disproportionately affect Black and Latino communities, who are sued at higher rates for medical and consumer debt. When reviewing your rights, ask your Agent: *"Do these protections apply equally regardless of the state I'm in and the type of debt?"* Enforcement varies by jurisdiction.
+
+> **[ALSO]** Paste or upload your document directly — file upload works in Claude, Gemini, ChatGPT, and Copilot. See [Appendix G](06-appendix-g-feature-table.xhtml).
+
+<!-- art
+file: debt-validation-letter.png
+size: half-left
+alt: A debt validation letter template with key phrases highlighted — the validation request, the cease communication line, and the certified mail notation
+brief: Hand-drawn #2 pencil letter on plain paper. Key phrases underlined in ballpoint pen — blue underline on "I am requesting validation of this debt," red underline on "cease all communication," green notation showing "SEND CERTIFIED MAIL" with an arrow pointing to the address block. Transparent background.
+-->
 
 <!-- RESEARCH NEEDED: Statute of limitations on debt varies by state (3-10 years). After the SOL expires, the debt still exists but is unenforceable — the collector cannot win a lawsuit. However, making a payment or acknowledging the debt in writing can restart the clock in some states. This is one of the most consequential pieces of information a debtor can have, and most people in collections don't know it. -->
 
@@ -231,6 +257,8 @@ Please help me:
 
 > **[MEME]** The financial services industry has made investing feel like it requires expertise, timing, and sophisticated strategy. For most people it requires three things: an index fund, automatic contributions, and the willingness to not look at it during a market downturn. [Warren Buffett](https://en.wikipedia.org/wiki/Warren_Buffett) bet a hedge fund manager $1 million that a simple S&P 500 index fund would beat a portfolio of hedge funds over ten years. Buffett won.[^m5-2] The most effective investment strategy is also the simplest. That is not a coincidence.
 
+> **[ALSO]** Checking current interest rates, fee schedules, and regulations requires web search, which is free in Gemini, ChatGPT, and Copilot. In Claude, web search requires the paid tier. See [Appendix G](06-appendix-g-feature-table.xhtml).
+
 <!-- RESEARCH NEEDED: Social Security solvency. The SSA trustees report projects the combined trust funds will be depleted around 2034, after which the system can pay approximately 77-80% of promised benefits from ongoing payroll taxes. This is not "Social Security is going bankrupt" — it is a funding gap that Congress can close through multiple mechanisms (raising the cap on taxable earnings, adjusting benefits, changing the retirement age). The anxiety is real but the catastrophizing is overblown. The entry should present the math, not the panic. -->
 
 <!-- RESEARCH NEEDED: Get-rich-quick schemes and investing scams. Crypto pump-and-dumps, forex trading courses, day-trading influencers, multilevel marketing disguised as "financial freedom." The common thread: if someone is selling you a system to get rich, the system is selling the system. Your Agent can evaluate any investment pitch: "Someone is telling me I can make [X] by doing [Y]. Is this legitimate? What are the actual risks they aren't mentioning?" The calibration question (Chapter 4) is designed for exactly this. -->
@@ -258,7 +286,7 @@ want to know more about before giving a final recommendation.
 ```
 **What to do with the output:** For any financial decision over $1,000, ask the calibration question: *"How confident are you in this recommendation, and what should I verify with a professional?"* Your Agent is good at explaining options and running numbers. It is not a fiduciary — it has no legal obligation to act in your interest. A fee-only CFP (Certified Financial Planner) does. For complex situations — estate planning, tax optimization, business finances — the cost of a professional consultation is almost always worth it.
 
-**Common financial Expert Role prompts:**
+**Common financial Expert Role specs:**
 ```
 Act as a tax advisor. I [got married / had a kid / bought a house /
 started freelancing / got an inheritance]. What changes about
@@ -276,3 +304,5 @@ and the legitimate questions I should ask before committing any money.
 ```
 
 > **[TIP]** The single highest-leverage financial question: *"I have [$X] that I don't need for 30 days. Where should it be sitting right now to earn interest instead of nothing?"* The answer is almost never "in your checking account."
+
+> **[ALSO]** To make the Financial Coach persistent across sessions, save the Expert Role as a **Project** (Claude), **Gem** (Gemini), or **Custom GPT** (ChatGPT). See [Appendix G](06-appendix-g-feature-table.xhtml).

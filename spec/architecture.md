@@ -38,7 +38,7 @@ PART ONE: THE STRATEGIES
 PART TWO: THE FIELD GUIDE
   Short entries organized by life domain.
   Each entry: Majordomo opener + confirmed spec + strategy tag(s).
-  ~45 entries covering the most common situations.
+  ~80 entries covering the most common situations.
   Cross-reference related Field Guide entries.
   Domains: Health / Money / Legal / Home / Life /
 		   Work / Civic / IRL Interactions /
@@ -61,7 +61,7 @@ PART TWO: THE FIELD GUIDE
   The real workflow is iterative, not single-shot:
   initial spec → Agent response → qualifying follow-up →
   refined output. Chapter 4 teaches the follow-up techniques.
-  Many entries include follow-up prompts in their "What to do
+  Many entries include follow-up specs in their "What to do
   with the output" section. The spec is the start of a
   conversation, not a one-way transmission.
 

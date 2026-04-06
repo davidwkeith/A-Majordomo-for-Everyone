@@ -8,7 +8,7 @@ status: "draft"
 
 ## A Note Before You Start
 
-The system was not designed for you to understand it.
+Our capitalist system was not designed for you to understand it.
 
 This is not a conspiracy theory. It is a design specification. Insurance policies are long and confusing because shorter, clearer policies would result in more successful claims. Lease agreements contain clauses you've never read because landlords have lawyers and you don't. Medical bills list procedures by CPT code because if you understood what you were actually being charged for, you might push back.
 

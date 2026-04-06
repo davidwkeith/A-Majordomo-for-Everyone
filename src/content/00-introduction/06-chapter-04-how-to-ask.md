@@ -50,7 +50,7 @@ a one-page demand letter in plain language.
 
 Compare that to: *"Help me write a letter to my landlord."*
 
-Both take about fifteen seconds to type. The first one produces something you can actually send.[^4-1]
+Both take seconds to type. The first one produces something you can actually send.[^4-1]
 
 ### Give Context First, Question Second
 
@@ -102,9 +102,9 @@ After any important answer, ask: *"How confident are you in this, and what shoul
 
 ### When to Start a New Conversation
 
-Your Agent remembers everything within a single conversation but nothing between conversations by default. If you are working through a complex problem over multiple sessions, start each new session with a one-paragraph summary of what you discussed before. If a conversation has gone on so long that the Agent seems to be losing track of details, start fresh with a summary.
+Your Agent remembers everything within a single conversation but nothing between conversations by default. If you are working through a complex problem over multiple sessions, start each new session with a one-paragraph summary of what you discussed before. If a conversation has gone on so long that the Agent seems to be losing track of details, have your agent summarize the conversation and decisions and use that as the basis of a new conversation.
 
-> **[ALSO]** Claude calls persistent cross-conversation memory simply "Memory" — it can be enabled in settings and will carry facts about you from session to session. Gemini calls this "Personalization." ChatGPT calls it "Memory." All three work similarly: the tool builds a profile of your situation over time so you don't have to re-explain it. This is different from Projects / Gems / Custom GPTs, which are manually configured contexts. See Appendix G.
+> **[ALSO]** Claude calls persistent cross-conversation memory simply "Memory" — it can be enabled in settings and will carry facts about you from session to session. Gemini calls this "Personalization." ChatGPT calls it "Memory." All three work similarly: the tool builds a profile of your situation over time so you don't have to re-explain it. This is different from Projects / Gems / Custom GPTs, which are manually configured contexts. See [Appendix G](06-appendix-g-feature-table.xhtml).
 
 > **[ALSO]** For ongoing household projects — managing a renovation, tracking a medical situation, handling a long legal dispute — Claude's **Projects** feature lets you store background documents and instructions that persist across every conversation in that project. Gemini's equivalent is a **Gem**. ChatGPT's equivalent is a **custom GPT**. Setting one up for your household is the single highest-leverage thing you can do with any of these tools. Chapter 3 explains how.
 

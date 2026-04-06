@@ -37,13 +37,13 @@ When you hit one service's free limit, you have three other high-quality options
 | [Gemini](https://gemini.google.com) (Google) | Gmail and Google Docs integration, current events | Generous free tier |
 | [Copilot](https://copilot.microsoft.com) (Microsoft) | Windows integration, Bing search included | Largely unlimited free |
 
-> **[ALSO]** The free tier names: Claude's free version is just "Claude." ChatGPT's is "ChatGPT Free." Gemini's free version is "Gemini." Copilot is free by default in Microsoft Edge and Windows. See Appendix G for the full feature comparison.
+> **[ALSO]** The free tier names: Claude's free version is just "Claude." ChatGPT's is "ChatGPT Free." Gemini's free version is "Gemini." Copilot is free by default in Microsoft Edge and Windows. See [Appendix G](06-appendix-g-feature-table.xhtml) for the full feature comparison.
 
 The point is not that one is better than the others. The point is that each has free capacity, and for the tasks in this book, all four will serve you well. Keep a bookmark folder with all four. When one runs out, move to the next.
 
 **The browser bookmark stack:** Create a folder in your browser bookmarks called "AI Tools." Add all four services. When you sit down to work through a problem, open the one you haven't used today.[^3-1]
 
-**Saving your prompts:** Keep a note on your phone or computer called "AI prompts that worked." When you get a particularly good result, save the prompt you used. You will use it again, or someone in your family will.
+**Saving your specs:** Keep a note on your phone or computer called "AI specs that worked." When you get a particularly good result, save the spec you used. You will use it again, or someone in your family will.
 
 **When it's worth paying:** If you find yourself regularly frustrated by hitting limits, or if you are using these tools for work tasks where speed matters, the paid tiers ($20/month as of this writing) add higher limits, web search, and access to the most capable models. For the tasks in this book, the free tier is sufficient for most users.
 
@@ -53,7 +53,7 @@ Every major AI tool has a way to create a persistent context — a named space w
 
 For this book, the most useful application is a household context. You tell it: who lives in your home, what your health situation is, what your current ongoing issues are (the landlord dispute, the insurance claim, the renovation). From that point on, every relevant conversation in that context starts from an informed position instead of a blank one.
 
-> **[ALSO]** Claude calls this a **Project**. Gemini calls it a **Gem**. ChatGPT calls it a **custom GPT**. Copilot's equivalent is more limited. The setup process differs slightly across tools but the concept is identical. See Appendix G for the full comparison and setup guidance.
+> **[ALSO]** Claude calls this a **Project**. Gemini calls it a **Gem**. ChatGPT calls it a **custom GPT**. Copilot's equivalent is more limited. The setup process differs slightly across tools but the concept is identical. See [Appendix G](06-appendix-g-feature-table.xhtml) for the full comparison and setup guidance.
 
 > **[TIP]** If you're hitting a limit and have an urgent task, Copilot (free, built into Microsoft Edge) has the most generous free access and includes web search. It is the best backup when your primary service is throttled.
 

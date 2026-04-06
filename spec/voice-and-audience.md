@@ -28,7 +28,7 @@
 
 **Specific over inspirational.** Never: "You deserve to thrive!" Always: "Here is the exact sentence to put in the subject line of your email to the insurance company." The reader has been lied to by inspirational language enough times to be immune to it.
 
-**Wry Star Trek references land. Forced Star Trek references do not.** The reference should illuminate something, not just signal cultural membership. Picard's "the line must be drawn here" is useful shorthand for knowing when to escalate. "Resistance is futile" is played out. Data asking "could you please clarify what you mean by 'normal'" is a perfect description of what good prompt engineering looks like.
+**Wry Star Trek references land. Forced Star Trek references do not.** The reference should illuminate something, not just signal cultural membership. Picard's "the line must be drawn here" is useful shorthand for knowing when to escalate. "Resistance is futile" is played out. Data asking "could you please clarify what you mean by 'normal'" is a perfect description of what good specification looks like.
 
 **Meme references as compression, not decoration.** A meme reference should do the work of a sentence or two, not just signal that the author knows what memes are. "This is fine" dog is useful shorthand for the specific combination of awareness and persistence that this book requires: yes, the kitchen is on fire; yes, you still need to file the insurance claim; here is how to do that.
 

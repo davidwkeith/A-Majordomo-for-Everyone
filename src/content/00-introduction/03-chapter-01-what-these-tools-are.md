@@ -22,7 +22,7 @@ brief: Picard in 8-bit pixel art, approximately 32x48 pixels scaled up. Standing
 
 ---
 
-The tools this book is about — [Claude](https://claude.ai), [ChatGPT](https://chatgpt.com), [Gemini](https://gemini.google.com), [Copilot](https://copilot.microsoft.com), and whatever ships next year — are a new category of software that does not have a good name yet. "AI assistant" is accurate but vague. "Chatbot" carries twenty years of terrible customer service baggage. "Large language model" is what the engineers who build them call them, which is useful in the same way that "internal combustion engine" is useful when you are trying to get somewhere.
+These tools — the ones this book calls "your Agent" — are a new category of software that does not have a good name yet. "AI assistant" is accurate but vague. "Chatbot" carries twenty years of terrible customer service baggage. "Large language model" is what the engineers who build them call them, which is useful in the same way that "internal combustion engine" is useful when you are trying to get somewhere.
 
 For this book: they are AI agents. This book says "your Agent" to mean whichever one you have open. The distinction between tools matters less than the skill of using any of them well, which is what this book teaches.
 
@@ -45,7 +45,7 @@ The more politically honest version: the billionaire class has always had access
 
 **What they cannot do:**
 - Browse the internet in real time on the free tier[^1-1]
-- Remember your previous conversations (you have to give context each time)
+- Remember your previous conversations (you have to give context each time but context can be saved and reused)
 - Guarantee accuracy — they can be wrong, and you should verify anything with real consequences
 - Replace a licensed professional when accountability genuinely matters (see Part Three)
 - Fix the system. That part is still on us.

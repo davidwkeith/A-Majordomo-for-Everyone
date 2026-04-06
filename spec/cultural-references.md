@@ -4,7 +4,7 @@ The following references are cleared for use in chapter text without explanation
 
 **Star Trek TNG:**
 - Picard's "the line must be drawn here, this far and no further" — when to escalate
-- Data's literal-minded requests for clarification — what a good prompt looks like
+- Data's literal-minded requests for clarification — what a good spec looks like
 - The holodeck malfunction — what happens when you give AI bad parameters
 - "Engage" — starting a conversation
 - Troi's "I sense deception" — the calibration question ("how confident are you?")

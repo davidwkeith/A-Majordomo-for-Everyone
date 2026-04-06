@@ -8,7 +8,7 @@ status: "draft"
 
 # PART TWO: THE FIELD GUIDE
 
-You are not dumb. You just don't know the system.
+You are not dumb. You just don't know The System.
 
 Health insurance, mortgage lending, employment law, tax code, utility billing -- these systems were not designed to be understood by the people they affect. They were designed to be operated by the people who run them. The language is specialist. The processes are opaque. The deadlines are real. Smart people feel stupid every time they hit a system they didn't go to school for. That is not a failure of intelligence. It is an information asymmetry -- and it is the same asymmetry, every time.
 
@@ -24,7 +24,7 @@ Every entry follows this format:
 |---|---|
 | **Strategy** | Which strategy from Part One this entry uses |
 | **The Majordomo says** | An Adams-format description of the situation |
-| **The spec** | The prompt -- ready to copy and adapt |
+| **The spec** | Ready to copy and adapt |
 | **What to do with the output** | Concrete next steps after the Agent responds |
 | **Science note** | Supporting research, where applicable |
 

@@ -19,8 +19,8 @@ companion:    All time-sensitive references use inline hyperlinks
 			  to a maintained companion site, not static tables.
 sidebar-style: callout blocks, six types:
 				 [SCIENCE]  — sociological/psychological study cross-reference
-				 [TIP]      — practical prompt technique
-				 [FAIRNESS] — AI bias flag and corrective prompt
+				 [TIP]      — practical spec technique
+				 [FAIRNESS] — AI bias flag and corrective spec
 				 [MEME]     — cultural touchstone for Gen-X readers
 				 [SPEC]     — specification interview loop
 				 [ALSO]     — feature name translation across tools

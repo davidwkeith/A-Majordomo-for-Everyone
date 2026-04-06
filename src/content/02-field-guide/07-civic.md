@@ -12,6 +12,7 @@ status: "draft"
 
 #### C-1: Understanding a Ballot Measure in Plain Language
 **Strategy:** Decode
+**See also:** C-6: Knowing Your Voter Rights (for the voting process), C-2: Writing a Public Comment (for weighing in before it's on the ballot)
 **The Majordomo says:** *Ballot measure language is written by lawyers to survive legal challenge, not to inform voters. The official title often describes the opposite of what the measure does. The fiscal analysis is accurate but written for people who already understand the system it's analyzing. This is considered democratic participation.*
 **The spec:**
 ```
@@ -24,11 +25,15 @@ Please explain:
 4. What happens if it passes vs. fails
 Present both sides fairly -- I want to make up my own mind.
 ```
+**What to do with the output:** Save the summary to your phone. Review it the night before you vote. If you are mailing your ballot, open the summary side by side with the ballot — the measure numbers are your anchor. Share the plain-language version with one other person who is also voting. Information compounds.
+
+> **[ALSO]** Paste or upload your document directly — file upload works in Claude, Gemini, ChatGPT, and Copilot. See [Appendix G](06-appendix-g-feature-table.xhtml).
 
 ---
 
 #### C-2: Writing a Public Comment for a City Council Meeting
 **Strategy:** Draft
+**See also:** C-1: Understanding a Ballot Measure (for understanding what you're commenting on), C-4: Advocating for Change (for sustained advocacy beyond a single meeting)
 **The Majordomo says:** *Public comment periods exist by law. They are scheduled at times that maximize the difficulty of attending for people who work. They have time limits of two to three minutes. They are nonetheless one of the few remaining points of direct citizen input into local decisions that affect daily life. Showing up with a written comment is the difference between having said something and having been there.*
 **The spec:**
 ```
@@ -40,6 +45,16 @@ Please write a public comment that states my position clearly,
 gives my strongest reason, and asks the council for a specific action.
 Write it to be spoken aloud -- conversational, not formal.
 ```
+**What to do with the output:** Print it. Read it out loud three times at home. Time yourself — if it runs over two minutes, cut the weakest point, not the ask. Bring two copies to the meeting: one to read from, one to hand to the clerk for the record. Written comments entered into the record become part of the public file on that decision.
+
+<!-- art
+file: public-comment-notecard.png
+size: half-right
+alt: A notecard with a three-part public comment structure: position, reason, and specific ask, with a timer showing one minute forty-five seconds
+brief: 3x5 lined notecard, handwritten in ballpoint pen, three sections labeled "Position," "Reason," and "Ask" with a small digital timer icon in the corner showing 1:45, off-white card, transparent background
+-->
+
+> **[ALSO]** This works well with voice mode on your phone — all major tools support it on mobile. See [Appendix G](06-appendix-g-feature-table.xhtml).
 
 ---
 
@@ -115,12 +130,13 @@ Please help me:
 
 <!-- RESEARCH NEEDED (HUMAN CONDITION): The "revolution or evolution?" question. Most successful social change in American history has been gradual, local, boring, and persistent — not dramatic, national, or violent. The civil rights movement succeeded through years of organizing, legal strategy, and coalition-building before the marches made the news. The narrative of dramatic revolution is more culturally compelling but less historically accurate as a theory of change. Marshall Ganz's organizing framework (Harvard, "Why David Sometimes Wins," 2009) is the best practical resource for civilians who want to do something. -->
 
-<!-- RESEARCH NEEDED: Debate skills for civilians. The entry mentions Hamilton and Star Trek. The practical skill is argumentation structure: claim, evidence, warrant. Toulmin model (1958) is the standard but needs translation for non-academic readers. "Steelman the opposing argument" is one of the most powerful prompts in the book — it forces you to understand the strongest version of the position you oppose, which makes your own argument better and occasionally changes your mind. Both outcomes are useful. -->
+<!-- RESEARCH NEEDED: Debate skills for civilians. The entry mentions Hamilton and Star Trek. The practical skill is argumentation structure: claim, evidence, warrant. Toulmin model (1958) is the standard but needs translation for non-academic readers. "Steelman the opposing argument" is one of the most powerful specs in the book — it forces you to understand the strongest version of the position you oppose, which makes your own argument better and occasionally changes your mind. Both outcomes are useful. -->
 
 ---
 
 #### C-5: Understanding Jury Duty
 **Strategy:** Decode + Navigate
+**See also:** C-7: Understanding Your Rights Where You Live (for jurisdiction-specific requirements), C-3: Knowing Your Rights During a Police Encounter (for understanding the criminal justice system)
 **The Majordomo says:** *Jury duty is the only context in American civic life where ordinary citizens have direct, binding power over an outcome that the government cannot override. A jury's acquittal cannot be appealed. This power is real, it is yours, and the system makes it feel like an inconvenience because an informed jury is harder to predict than an uninformed one.*
 **The spec:**
 ```
@@ -239,3 +255,7 @@ Give me the data, not the vibe. I want specifics I can act on.
 <!-- RESEARCH NEEDED: Legal aid access. LSC-funded legal aid serves approximately 1.8 million people annually but only reaches about 20% of eligible low-income Americans (Legal Services Corporation, 2023 Justice Gap Study). For every client served, another is turned away for lack of resources. Pro bono work from private attorneys fills some of the gap. The entry should point to: local legal aid societies, state bar association referral services, law school clinics, and the LSC website (lsc.gov) as starting points. -->
 
 [^c7-1]: United Nations General Assembly. (1948). "Universal Declaration of Human Rights." The UDHR is not a treaty and is not legally binding, but its principles are reflected in the International Covenant on Civil and Political Rights (1966), which the U.S. ratified in 1992.
+
+---
+
+### Starting a non-profit

@@ -68,7 +68,7 @@ and a numbered list of my options, from least to most
 confrontational.
 ```
 
-### The Complete Prompt
+### The Complete Spec
 
 Assembled, the example above looks like this:
 
@@ -88,7 +88,7 @@ Please give me a plain-language explanation of my rights and a
 numbered list of my options, from least to most confrontational.
 ```
 
-This prompt will produce a genuinely useful response for a situation this book does not specifically cover. The same frame works for a zoning dispute, a workers' compensation question, a complicated family business conflict, or anything else you bring to it.
+This spec will produce a genuinely useful response for a situation this book does not specifically cover. The same frame works for a zoning dispute, a workers' compensation question, a complicated family business conflict, or anything else you bring to it.
 
 > **[SCIENCE]** The cognitive process of translating a stressful situation into a structured written description is itself a therapeutic act. Expressive writing research (Pennebaker, 1997) consistently shows that people who write about stressful events in an organized, narrative form -- as opposed to ruminating or avoiding -- show lower stress biomarkers, improved immune function, and better problem-solving performance in the days that follow. The Five-Part Frame is not just a technique for getting better answers from Claude. It is a technique for getting clearer in your own mind about what you actually need.[^30-1]
 

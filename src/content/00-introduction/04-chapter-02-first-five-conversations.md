@@ -20,7 +20,7 @@ brief: Enterprise-D bridge viewscreen in 8-bit pixel art, approximately 48x32 pi
 
 The goal of this chapter is one small win before you go to bed tonight.
 
-None of these tasks are high stakes. They are designed to be low-risk, fast, and satisfying. Each one will teach you something about how these tools respond, so that when you need one for something that matters, you already know how it works. Use whichever tool you have open — [Claude](https://claude.ai), [ChatGPT](https://chatgpt.com), [Gemini](https://gemini.google.com), or [Copilot](https://copilot.microsoft.com). The prompts below work with all of them.
+None of these tasks are high stakes. They are designed to be low-risk, fast, and satisfying. Each one will teach you something about how these tools respond, so that when you need one for something that matters, you already know how it works. Use whichever tool you have open — [Claude](https://claude.ai), [ChatGPT](https://chatgpt.com), [Gemini](https://gemini.google.com), or [Copilot](https://copilot.microsoft.com). The specs below work with all of them.
 
 **Conversation 1: Something you've always been embarrassed not to know**
 
@@ -48,7 +48,7 @@ Pick something you and a family member have disagreed about recently. Ask your A
 
 **Conversation 4: Make a grocery list from a recipe**
 
-Paste in a recipe you want to make this week. Ask your Agent to pull out the ingredients as a shopping list, organized by section of the grocery store.
+Paste in a all the recipes you want to make this week. Ask your Agent to pull out the ingredients as a shopping list, organized by section of the grocery store. Have it suggest another recipe that uses the leftover ingredients.
 
 **Conversation 5: Decode something a doctor said**
 

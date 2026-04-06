@@ -6,7 +6,7 @@ A specification for eliciting richer, more precise detail from a human responden
 
 ## Overview
 
-A **qualifying question** is a follow-up prompt that invites a respondent to expand, clarify,
+A **qualifying question** is a follow-up question that invites a respondent to expand, clarify,
 or ground an answer they have already given. Effective qualifying questions share three properties:
 
 - **Open-ended** — cannot be answered with yes or no

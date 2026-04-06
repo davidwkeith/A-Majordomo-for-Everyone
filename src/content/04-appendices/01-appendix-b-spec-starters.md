@@ -38,6 +38,6 @@ status: "draft"
 
 ---
 
-## Appendix B: The Prompt Starter Library
+## Appendix B: The Spec Starter Library
 
 *(50 fill-in-the-blank templates organized by chapter -- to be completed in final draft)*

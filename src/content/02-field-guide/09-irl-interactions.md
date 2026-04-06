@@ -35,6 +35,13 @@ Please help me:
 ```
 **What to do with the output:** Print the document checklist. Bring everything. The single most common reason for a wasted government office visit is a missing document. The second most common is arriving at the wrong office. The third is not knowing that what you need can be done online. Your Agent can prevent all three.
 
+<!-- art
+file: dmv-queue-ticket.png
+size: half-left
+alt: A paper queue ticket numbered 847 from a government office, with a handwritten checklist of required documents on the back
+brief: Small thermal-printed queue ticket, number 847 in large sans-serif type, "NOW SERVING" header, back side visible showing handwritten ballpoint-pen checklist of documents (ID, proof of address, payment), slightly crumpled edges, transparent background
+-->
+
 > **[TIP]** *"I was just at [office] and they told me [unexpected thing]. Is that correct, or should I push back? What are my options?"* — Ask in the parking lot, before the next visit.
 
 > **[FAIRNESS]** Government services are distributed unequally by geography and funding. Wealthier counties have more offices, shorter wait times, and more staff. Rural areas may require a 60-mile drive. If your Agent's advice assumes an urban office, say so: *"The nearest [office] is [X miles] away and open [limited hours]. What can I do remotely?"*
@@ -108,6 +115,8 @@ not the official description.
 **What to do with the output:** Read it the night before. The preparation reduces anxiety not because it eliminates uncertainty — you will still encounter surprises — but because it reduces the *amount* of uncertainty to a manageable level. Research on anticipatory anxiety (Grupe & Nitschke, 2013) consistently shows that intolerance of uncertainty is a better predictor of anxiety than the actual threat level of the situation.[^irl3-1]
 
 > **[FAIRNESS]** First-time situations are class experiences. If your parents owned a home, you learned the closing process by osmosis. If they didn't, your first closing is a wall of unfamiliar paperwork with a stranger asking you to sign thirty documents. The information gap is not about intelligence — it is about what your household of origin happened to model for you. Your Agent closes that gap.
+
+> **[ALSO]** This works well with voice mode on your phone — all major tools support it on mobile. See [Appendix G](06-appendix-g-feature-table.xhtml).
 
 <!-- RESEARCH NEEDED (HUMAN CONDITION): The sociology of cultural capital (Bourdieu, 1986) explains why some people navigate institutions effortlessly while others struggle. "Knowing how things work" — how to talk to a doctor, how to negotiate at a dealership, how a courtroom operates — is inherited knowledge transmitted through class and family. The people who most need this knowledge are the people least likely to have it. This is the structural argument for the entire book, compressed into a single entry. -->
 

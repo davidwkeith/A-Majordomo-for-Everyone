@@ -20,9 +20,9 @@ We are not there. But a tool that partially, imperfectly, provisionally makes th
 
 Use it. Push back when it's wrong. Tell your neighbor about it. Help your parent figure out their Medicare denial. Show your coworker how to write the demand letter. The billionaire class has had this infrastructure for generations. It took us this long to get a version of it. Pass it on.
 
-This book is free. It is licensed so that anyone can take it, translate it, turn it into a video, build it into a workshop, adapt it for a specific community, or improve it and release the improvement. That is not an afterthought. It is the point. The author wrote the seed. You are the crop.
+This book is free. It is licensed so that anyone can take it, translate it, turn it into a video, build it into a workshop, adapt it for a specific community, or improve it and release the improvement. That is not an afterthought. It is the point. The the book is the seed. You are the crop.
 
-If you made something from this -- a video, a translation, a workshop, a derivative guide -- submit it to the companion site. It will be listed. Someone who needs exactly that version will find it.
+If you made something from this -- a video, a translation, a workshop, a derivative guide -- share it on your website and social media. Someone who needs exactly that version will find it.
 
 The line must be drawn here.
 

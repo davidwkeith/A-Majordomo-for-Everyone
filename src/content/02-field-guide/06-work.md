@@ -37,6 +37,8 @@ prepare me for common interview questions / analyze this offer].
 
 > **[TIP]** *"I have an interview at [company] for [role] on [date]. What are the three questions they are most likely to ask, and help me practice answering them out loud."*
 
+> **[ALSO]** Checking current information requires web search, which is free in Gemini, ChatGPT, and Copilot. In Claude, web search requires the paid tier. See [Appendix G](06-appendix-g-feature-table.xhtml).
+
 <!-- RESEARCH NEEDED (HUMAN CONDITION): Job search depression is clinically documented. Unemployment lasting more than 6 months increases depression risk by approximately 3x (Paul & Moser, 2009, meta-analysis in Journal of Vocational Behavior). The rejection is not personal but the nervous system does not know that. The job search activates the same social-pain circuits as romantic rejection (Eisenberger, 2012). The entry should acknowledge that the emotional toll of job searching is a medical-grade stressor, not a character flaw, and that using your Agent to reduce the mechanical burden (drafting, researching, preparing) preserves cognitive and emotional bandwidth for the parts that actually require you. -->
 
 <!-- RESEARCH NEEDED (HUMAN CONDITION): Salary negotiation is the purest information asymmetry in the employment relationship. The employer knows the budget. You don't. Babcock & Laschever (2003, "Women Don't Ask") documented the gender negotiation gap — women are penalized for negotiating in ways men are not. The research is 20+ years old and the gap has narrowed but not closed. The entry should note this and also address the racial negotiation gap, which is less researched but equally documented in anecdotal data. -->
@@ -49,6 +51,7 @@ prepare me for common interview questions / analyze this offer].
 
 #### W-2: Understanding Your Rights If You're Let Go
 **Strategy:** Assert + Decode
+**See also:** L-1: Negotiating a Contract (for the severance agreement), M-1: Banking and Savings (emergency fund while unemployed), W-5: Unions (if you have a CBA)
 **The Majordomo says:** *Employment law is one of the areas where the gap between what most employees believe their rights to be and what those rights actually are is widest, and where the consequences of not knowing are most immediate. The severance agreement has a signing deadline. The WARN Act notice has a claim deadline. The clock starts whether you know about it or not.*
 **The spec:**
 ```
@@ -62,6 +65,9 @@ I want to understand:
 Give me the most conservative answer. I will verify with
 an employment attorney or legal aid organization.
 ```
+**What to do with the output:** Do not sign anything yet. You usually have 21 days (40+ employees: 45 days) to review a severance agreement. Print the output, highlight the deadlines, and call an employment attorney — many offer a free 30-minute consultation. The clock is real but it is longer than your employer implies.
+
+> **[ALSO]** Paste or upload your document directly — file upload works in Claude, Gemini, ChatGPT, and Copilot. See [Appendix G](06-appendix-g-feature-table.xhtml).
 
 ---
 
@@ -115,6 +121,7 @@ What I want to understand:
 4. What should I be honest with myself about — the parts of
    remote work that don't serve me?
 ```
+**What to do with the output:** If you need to make the case to your manager, copy the data points into a one-page memo. Lead with the business case (productivity, retention, cost savings), not the personal case. The personal case is why you want it. The business case is why they will say yes.
 
 > **[SCIENCE]** Bloom et al. (2015) conducted the largest randomized controlled trial of remote work (Trip.com, n=1,612) and found a 13% performance increase for remote workers, along with higher satisfaction and lower attrition. A 2024 follow-up found hybrid (3 days in, 2 remote) had no negative effect on productivity or career advancement.[^w4-1]
 
@@ -195,6 +202,7 @@ Please help me:
 
 #### W-7: Using Your Agent to Get More Done
 **Strategy:** Navigate + Draft (Expert Role)
+**See also:** W-3: Working with HR (for the performance review spec), W-1: Getting a New Job (for job-search automation)
 **The Majordomo says:** *The billionaire class did not become productive by working harder. They became productive by hiring people to handle the parts of work that are repetitive, formulaic, or require research they don't have time to do themselves. Email drafts. Report summaries. Data formatting. Meeting preparation. Status updates. Proposal boilerplate. The work behind the work. You now have the same staff — you just call it "being more productive" on your performance review.*
 **The spec:**
 ```
@@ -205,7 +213,7 @@ The tasks that take up most of my time:
 The tools I use: [email, spreadsheets, specific software]
 Please help me:
 1. Identify which of my tasks an Agent can handle or accelerate
-2. Give me the specific prompts I would use for each one
+2. Give me the specific specs I would use for each one
 3. Tell me which tasks I should NOT hand off
    (judgment calls, relationship work, things that need my voice)
 4. Show me how to review Agent output quickly so the quality
@@ -213,11 +221,13 @@ Please help me:
 ```
 **What to do with the output:** Start with one task. The one you dread most or the one that eats the most time. Run it through your Agent for a week. Measure the difference. Then add another. The compound effect is the point — you are not replacing yourself, you are multiplying your output. Your employer measures output, not hours. That is capitalism working for you for once.
 
-> **[TIP]** The performance review prompt: *"Summarize my accomplishments this quarter based on these notes: [paste notes]. Write it in first person, active voice, with specific metrics where possible. Make it sound like a high performer wrote it — because one did."*
+> **[TIP]** The performance review spec: *"Summarize my accomplishments this quarter based on these notes: [paste notes]. Write it in first person, active voice, with specific metrics where possible. Make it sound like a high performer wrote it — because one did."*
 
 > **[MEME]** Every automation tool in history — the loom, the spreadsheet, the assembly line — was sold to management as productivity and feared by workers as replacement. The workers who learned the loom first kept their jobs. The ones who learned spreadsheets first got promoted. Your Agent is the current version of this pattern. The playbook has not changed in 200 years. Learn it first.
 
-**Common work automation Expert Role prompts:**
+> **[ALSO]** To make this Expert Role persistent across sessions, save it as a **Project** (Claude), **Gem** (Gemini), or **Custom GPT** (ChatGPT). See [Appendix G](06-appendix-g-feature-table.xhtml).
+
+**Common work automation Expert Role specs:**
 ```
 Act as my executive assistant. I need to send an email to [person]
 about [topic]. The tone should be [professional / friendly / firm].

@@ -16,6 +16,7 @@ status: "draft"
 
 #### H-1: Understanding a Diagnosis You Just Received
 **Strategy:** Decode
+**See also:** H-2: Preparing Questions (for your next appointment), H-5: Managing a Chronic Condition (if it's ongoing)
 **The Majordomo says:** *Medical diagnoses are delivered in a language that evolved over several centuries to communicate with precision between specialists, with the result that they communicate with almost no precision to anyone else. The patient, having just received significant news about their own body, is also typically in a neurological state that reduces information retention by approximately half. This is considered an acceptable outcome by the system.*
 **The spec:**
 ```
@@ -33,6 +34,7 @@ Do not assume any medical knowledge on my part.
 
 #### H-2: Preparing Questions Before a Doctor's Appointment
 **Strategy:** Prepare
+**See also:** H-1: Understanding a Diagnosis (if you just received one), H-5: Managing a Chronic Condition (for ongoing questions)
 **The Majordomo says:** *Studies across multiple medical systems confirm that patients who arrive with written questions receive more information, report higher satisfaction, and make better-informed decisions than those who do not. The medical system has not adjusted its appointment length to accommodate this finding.*
 **The spec:**
 ```
@@ -41,6 +43,10 @@ or concern]. My main worry is [specific concern]. I want to make sure
 I understand [specific thing]. Please help me write a list of questions
 to ask, starting with the most important. I have about [X] minutes.
 ```
+**What to do with the output:** Print the list. Bring it to the appointment. Hand it to the doctor at the start — "I wrote down my questions so I don't forget." This saves both of you time and signals that you are an active participant, not a passive recipient.
+
+> **[ALSO]** This works well with voice mode on your phone — all major tools support it on mobile. See [Appendix G](06-appendix-g-feature-table.xhtml).
+
 **Science note:** Preparatory coping research (Roter et al., 1987) shows the benefit concentrates in the act of writing -- not just thinking -- the questions.[^h2-1]
 
 [^h2-1]: Roter, D.L. (1987). "Which facets of communication have strong effects on outcome?" in *Communicating with Medical Patients.*
@@ -49,6 +55,7 @@ to ask, starting with the most important. I have about [X] minutes.
 
 #### H-3: Decoding a Medical Bill or EOB
 **Strategy:** Decode
+**See also:** H-4: Appealing an Insurance Denial (if something looks wrong), M-4: Collections and Bankruptcy (if the bill becomes debt)
 **The Majordomo says:** *The Explanation of Benefits is a document designed to explain your benefits. It does not do this. It lists procedure codes, allowed amounts, adjustments, and patient responsibility in a format that rewards confusion. The confusion is not accidental.*
 **The spec:**
 ```
@@ -59,6 +66,16 @@ Please:
 2. Flag anything that seems unusual or potentially incorrect
 3. Tell me if there's anything here I should dispute
 ```
+**What to do with the output:** Compare every line to the original provider bill. If your Agent flags a charge as unusual, call the billing department and ask them to explain it. The person who calls is the person who gets the adjustment. The person who doesn't call pays the first number they were given.
+
+> **[ALSO]** Paste or upload your document directly — file upload works in Claude, Gemini, ChatGPT, and Copilot. See [Appendix G](06-appendix-g-feature-table.xhtml).
+
+<!-- art
+file: eob-annotated.png
+size: full
+alt: An Explanation of Benefits form with labeled arrows pointing to key fields: procedure code, allowed amount, adjustment, and patient responsibility
+brief: Hand-drawn #2 pencil sketch of an EOB form, key fields circled and labeled with ballpoint pen annotations, transparent background
+-->
 
 ---
 
@@ -76,6 +93,15 @@ Please draft an appeal letter that cites the denial reason,
 references the right to appeal, and is firm without being
 hostile -- I may need to escalate further.
 ```
+**What to do with the output:** Send the letter. Keep a copy with the date you sent it. If you have a deadline for the appeal (check your denial letter — it's usually 30-180 days), mark it on your calendar. Follow up in writing if you don't hear back within the stated timeframe.
+
+<!-- art
+file: appeal-letter.png
+size: half-right
+alt: A formal appeal letter with sections labeled: header with plan information, denial reference number, medical necessity argument, and closing request for review
+brief: Hand-drawn ballpoint pen sketch of a one-page appeal letter, key sections bracketed and labeled in pencil, transparent background
+-->
+
 **Science note:** First-level internal appeals succeed at rates between 39-59% depending on plan type (KFF, 2023). Most people never file one.[^h4-1]
 
 [^h4-1]: Kaiser Family Foundation (2023). "Claims Denials and Appeals in ACA Marketplace Plans." The appeal success rate data makes the low filing rate one of the most consequential information asymmetries in American healthcare.
@@ -105,6 +131,8 @@ Please help me:
 > **[TIP]** *"I have [condition] and I'm having a bad day. What are the three things I should check first — hydration, medication timing, sleep — and what's the most common thing people with this condition overlook?"*
 
 > **[FAIRNESS]** Chronic pain and invisible illness face documented medical dismissal, particularly for women and people of color. If your Agent's advice assumes your doctor is listening, but your doctor isn't, say so: *"My doctor has dismissed this concern. Help me prepare a case for why this needs attention."* See H-2 and H-4.
+
+> **[ALSO]** To make this Expert Role persistent across sessions, save it as a **Project** (Claude), **Gem** (Gemini), or **Custom GPT** (ChatGPT). See [Appendix G](06-appendix-g-feature-table.xhtml).
 
 <!-- RESEARCH NEEDED (HUMAN CONDITION): The identity shift that chronic illness forces is one of the least discussed aspects of the human condition. Charmaz (1991, "Good Days, Bad Days") documents how chronic illness fundamentally restructures self-concept, social relationships, and sense of the future. The person you were before the diagnosis is not the person you are after, and there is a grief process for the life you expected that is separate from the medical condition itself. This is not self-pity — it is a documented psychological process that, when unaddressed, worsens outcomes. Needs its own treatment, not just a footnote. -->
 
@@ -182,7 +210,7 @@ Please help me:
 
 <!-- RESEARCH NEEDED (HUMAN CONDITION): The American denial of death is one of the most documented cultural phenomena in psychology. Becker's "The Denial of Death" (1973, Pulitzer Prize) remains the foundational text. The practical consequence: only 37% of American adults have an advance directive (Yadav et al., 2017, Health Affairs). The percentage is lower for Black and Hispanic Americans, reflecting both cultural differences in how death is discussed and structural distrust of the medical system — distrust that is historically justified (Tuskegee, Henrietta Lacks, maternal mortality disparities). The entry must handle this with care. -->
 
-<!-- RESEARCH NEEDED (HUMAN CONDITION): The "good death" concept varies enormously by culture. Western palliative care emphasizes autonomy, pain control, and acceptance. Many Eastern, Indigenous, and religious traditions have fundamentally different frameworks — some centering family decision-making over individual autonomy, others incorporating spiritual preparation that the Western medical model does not accommodate. The entry should respect this without privileging the Western model. Prompt: "In [my culture/tradition], what does a good death look like, and how does that shape the conversation I need to have?" -->
+<!-- RESEARCH NEEDED (HUMAN CONDITION): The "good death" concept varies enormously by culture. Western palliative care emphasizes autonomy, pain control, and acceptance. Many Eastern, Indigenous, and religious traditions have fundamentally different frameworks — some centering family decision-making over individual autonomy, others incorporating spiritual preparation that the Western medical model does not accommodate. The entry should respect this without privileging the Western model. Ask: "In [my culture/tradition], what does a good death look like, and how does that shape the conversation I need to have?" -->
 
 <!-- RESEARCH NEEDED (HUMAN CONDITION): "Ambiguous loss" — Boss (2000) coined the term for the experience of a person who is physically present but cognitively absent (dementia) or physically absent but status unknown. Families of dementia patients experience a form of grief that has no cultural script, no funeral, no closure, and no socially recognized endpoint. The person is there and not there simultaneously. This is one of the most psychologically destabilizing experiences documented in the caregiving literature and it affects millions of families. It connects to Li-4 but belongs here too. -->
 
@@ -195,6 +223,7 @@ Please help me:
 
 #### H-8: Wellness and Nutrition Coach
 **Strategy:** Research + Draft (Expert Role)
+**See also:** H-5: Managing a Chronic Condition (for condition-specific nutrition), Li-8: Wellness Coach (for mental health and journaling)
 **The Majordomo says:** *A registered dietitian charges between $100 and $200 per session and typically has a six-week wait for new patients. A personal trainer costs $50 to $150 per hour. A wellness coach costs more and is less regulated. Your Agent has read the same evidence base all three of them cite and will apply it to your specific situation without a retainer.*
 **The spec:**
 ```
@@ -212,7 +241,9 @@ What would you recommend, and where should I start?
 
 > **[FAIRNESS]** Wellness advice reflects the demographics of the research base it draws from. If your Agent's suggestions feel like they assume a certain income level, kitchen setup, or food access, say so explicitly: *"I shop at a discount grocery store and have a small kitchen. Please adjust your recommendations."*
 
-**Common wellness Expert Role prompts:**
+> **[ALSO]** To make this Expert Role persistent across sessions, save it as a **Project** (Claude), **Gem** (Gemini), or **Custom GPT** (ChatGPT). See [Appendix G](06-appendix-g-feature-table.xhtml).
+
+**Common wellness Expert Role specs:**
 ```
 Act as a nutrition coach. I want to eat better but I have
 [budget constraint / time constraint / dietary restriction].
@@ -318,6 +349,7 @@ I want to understand:
    but what the research says about harm at different levels of use
 Use plain language. I want the pharmacology, not the moral lesson.
 ```
+**What to do with the output:** Use it as a baseline. If you or someone you know uses this substance, the mechanism of action tells you what to watch for. If the risk profile doesn't match the legal classification, that's not a glitch — it's the point of asking.
 
 > **[SCIENCE]** The four major neurotransmitter systems most drugs affect, simplified: **Dopamine** — reward and motivation (stimulants, nicotine). **Serotonin** — mood and perception (psychedelics, SSRIs, MDMA). **GABA** — the brain's brakes (alcohol, benzodiazepines, barbiturates). **Endorphins/opioid receptors** — pain and euphoria (opioids, endogenous endorphins from exercise). Most substances affect more than one system, which is why effects are complicated and why combining substances is risky.
 
