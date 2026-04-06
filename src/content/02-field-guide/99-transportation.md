@@ -14,7 +14,7 @@ status: "draft"
 
 #### Tr-1: Car Ownership
 **Strategy:** Research + Decide + Assert
-**See also:** L-1: Negotiating a Contract (for the purchase agreement), M-3: Financial Coach (for the financing decision)
+**See also:** L-1: Negotiating a Contract (for the purchase agreement), M-6: Financial Coach (for the financing decision)
 **The Majordomo says:** *The car dealership is the purest information asymmetry in American commerce. The dealer knows the invoice price, the holdback, the manufacturer incentives, the floor plan cost, the trade-in wholesale value, and the financing margin. You know the sticker price — which is the number the dealer put there specifically so you would negotiate down from it and feel like you won. Your Agent knows the invoice price too. That changes the conversation.*
 **The spec:**
 ```

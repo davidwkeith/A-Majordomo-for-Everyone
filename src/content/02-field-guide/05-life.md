@@ -89,7 +89,7 @@ Be direct. I need the honest answer.
 
 #### Li-4: Planning Care for Aging
 **Strategy:** Research + Navigate
-**See also:** H-7: Preparing for End-of-Life Conversations, M-3: Financial Coach (for Social Security and inheritance planning), L-1: Negotiating a Contract (for care facility agreements)
+**See also:** H-7: Preparing for End-of-Life Conversations, M-6: Financial Coach (for Social Security and inheritance planning), L-1: Negotiating a Contract (for care facility agreements)
 **The Majordomo says:** *There is a period in most people's lives when the person who took care of everything becomes the person who needs care. The role reversal arrives without training, without a manual, and without the emotional infrastructure to handle it. The American system assumes families will figure it out. Other countries built eldercare systems. You have your Agent and the entries that follow.*
 **The spec:**
 ```
@@ -290,7 +290,7 @@ practical strategies, not motivational advice.
 
 #### Li-9: Making a Household Budget That Holds
 **Strategy:** Draft + Decide
-**See also:** M-3: Financial Coach, Ho-6: Understanding Your Utility Bill
+**See also:** M-6: Financial Coach, Ho-6: Understanding Your Utility Bill
 **The Majordomo says:** *Budgeting advice assumes the problem is discipline. For most households, the problem is math — income that does not cover expenses, no matter how disciplined the allocation. Your Agent will not lecture you about lattes. It will help you see where the money actually goes, identify the three largest levers you can pull, and build a plan that survives contact with reality.*
 **The spec:**
 ```

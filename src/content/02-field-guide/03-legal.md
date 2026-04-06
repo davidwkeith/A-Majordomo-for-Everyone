@@ -16,7 +16,7 @@ Note: This should be fleshed out more, the US is a litigious society. Don't repe
 
 #### L-1: Negotiating a Contract
 **Strategy:** Decode + Assert
-**See also:** Ho-5: Knowing Your Rights as a Renter or Homeowner (for lease-specific rights), Ch-2: Understanding a Contractor Bid, M-2: Understanding a Mortgage
+**See also:** Ho-5: Knowing Your Rights as a Renter or Homeowner (for lease-specific rights), Ch-2: Understanding a Contractor Bid, M-3: Understanding a Mortgage
 **The Majordomo says:** *Contracts are written by lawyers for lawyers, with the implicit understanding that the other party also has a lawyer. When one party does not have a lawyer, the contract functions as intended.*
 **The spec:**
 ```

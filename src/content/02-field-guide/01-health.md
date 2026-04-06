@@ -499,7 +499,7 @@ when it matters.
 
 #### H-18: Finding Treatment and Recovery
 **Strategy:** Navigate + Research
-**See also:** H-13: Understanding Addiction, H-14: Harm Reduction, M-3: Financial Coach (for insurance and costs)
+**See also:** H-13: Understanding Addiction, H-14: Harm Reduction, M-6: Financial Coach (for insurance and costs)
 **The Majordomo says:** *The treatment industry in the United States is a $42 billion market with less regulatory oversight than the restaurant industry. Some facilities are excellent. Some are predatory. The difference is not visible from the website. Your Agent can help you evaluate options using the criteria that addiction medicine specialists use, which are different from the criteria the marketing department uses.*
 **The spec:**
 ```

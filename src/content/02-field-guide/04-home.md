@@ -188,7 +188,7 @@ Please:
 
 #### Ho-7: Getting a Home
 **Strategy:** Navigate + Research
-**See also:** M-2: Understanding a Mortgage, M-3: Financial Coach, L-1: Negotiating a Contract, Ho-5: Knowing Your Rights
+**See also:** M-3: Mortgages, M-6: Financial Coach, L-1: Negotiating a Contract, Ho-5: Knowing Your Rights
 *(Stub -- full entry to be drafted)*
 
 - Homeless
