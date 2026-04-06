@@ -10,6 +10,8 @@ status: "draft"
 
 > **[MEME]** The Conners were never broke because they were irresponsible. They were broke because they were navigating financial systems -- bill negotiations, employer conflicts, credit decisions -- with no infrastructure and no information. [Roseanne](https://en.wikipedia.org/wiki/Roseanne_(TV_series)) was the most honest show on 90s television about what it actually costs to manage a household without the billionaire class's support layer. Every entry in this domain is the information the Conners needed and didn't have.
 
+Note: This is capitalism at its purest. Learn this if you want that master prompt for winning. You dirty capitalist.
+
 ---
 
 #### M-1: Decoding a Credit Card Statement or Surprise Charge
@@ -24,12 +26,16 @@ documentation I should gather, and what exact steps I should take
 to initiate a dispute. I'm in [state].
 ```
 
+Notes: there is no ethical consumption under capitalism, learn the rules to maximize your individual. 
+
 ---
 
 #### M-2: Understanding a Mortgage or Refinance Offer
 **Strategy:** Decode + Decide
 **See also:** L-1: Negotiating a Contract, Ho-7: Getting a Home
 *(Stub -- full entry to be drafted)*
+
+The bank has all the cards. Leverage the so-called information imbalance to maximize you profits, like a good capitalist.
 
 ---
 
@@ -38,6 +44,7 @@ to initiate a dispute. I'm in [state].
 **See also:** L-3: Writing a Demand Letter
 *(Stub -- full entry to be drafted)*
 
+Christian's shouldn't carry debt, Jews have no moral obligation against it. Religious ideology that supersedes reason. Ask your Agent if your views are outdated. 
 
 ---
 

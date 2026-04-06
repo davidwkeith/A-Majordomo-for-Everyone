@@ -10,6 +10,8 @@ status: "draft"
 
 > **[MEME]** Paul and Jamie Buchman spent six seasons of *[Mad About You](https://en.wikipedia.org/wiki/Mad_About_You)* in conflict with their building, their neighbors, their contractors, and a city bureaucracy that seemed specifically designed to defeat reasonable people. George Costanza spent nine seasons of *Seinfeld* asserting rights he couldn't specify correctly and getting outcomes that were technically what he asked for and completely wrong. Both shows were comedies. The situations were not funny if you lived them. The entries in this domain are what Paul, Jamie, and George needed at the start of each episode.
 
+Note: This should be fleshed out more, the US is a litigious society. Don't repeat other categories, just add common legal concerns here. Update other chapters if appropriate.
+
 ---
 
 #### L-1: Negotiating a Contract

@@ -8,6 +8,9 @@ status: "draft"
 
 ### HEALTH
 
+- Address the MAHA vs Science debate with memes and cultural references wherever possible. Memes are modern debates.
+- Make America Healthy vs Make Me Healthy. Ultimately this is survival of the fittest. Pure Darwinism.
+
 ---
 
 #### H-1: Understanding a Diagnosis You Just Received
