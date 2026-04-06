@@ -8,7 +8,7 @@ status: "draft"
 
 ### LEGAL
 
-> **[MEME]** Paul and Jamie Buchman spent six seasons of *Mad About You* in conflict with their building, their neighbors, their contractors, and a city bureaucracy that seemed specifically designed to defeat reasonable people. George Costanza spent nine seasons of *Seinfeld* asserting rights he couldn't specify correctly and getting outcomes that were technically what he asked for and completely wrong. Both shows were comedies. The situations were not funny if you lived them. The entries in this domain are what Paul, Jamie, and George needed at the start of each episode.
+> **[MEME]** Paul and Jamie Buchman spent six seasons of *[Mad About You](https://en.wikipedia.org/wiki/Mad_About_You)* in conflict with their building, their neighbors, their contractors, and a city bureaucracy that seemed specifically designed to defeat reasonable people. George Costanza spent nine seasons of *Seinfeld* asserting rights he couldn't specify correctly and getting outcomes that were technically what he asked for and completely wrong. Both shows were comedies. The situations were not funny if you lived them. The entries in this domain are what Paul, Jamie, and George needed at the start of each episode.
 
 ---
 

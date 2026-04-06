@@ -8,13 +8,13 @@ status: "draft"
 
 ### HOME
 
-> **[MEME]** Every episode of *Home Improvement* followed the same structure: Tim had a theory, the theory was wrong, the drill came out, something structural failed. Al knew what the problem was from the beginning. Al said so. Tim did not listen. The third act was always preventable. The entries in this domain are Al Borland. You are a version of Tim who is actually going to listen.
+> **[MEME]** Every episode of *[Home Improvement](https://en.wikipedia.org/wiki/Home_Improvement_(TV_series))* followed the same structure: Tim had a theory, the theory was wrong, the drill came out, something structural failed. Al knew what the problem was from the beginning. Al said so. Tim did not listen. The third act was always preventable. The entries in this domain are Al Borland. You are a version of Tim who is actually going to listen.
 
 ---
 
 #### Ho-1: Diagnosing What's Wrong Before Calling a Repairperson
 **Strategy:** Diagnose
-**The Majordomo says:** *The repairperson charges from the moment of contact. The diagnostic call costs the same whether the problem is a tripped breaker or a failed compressor. Claude has read the repair manual.*
+**The Majordomo says:** *The repairperson charges from the moment of contact. The diagnostic call costs the same whether the problem is a tripped breaker or a failed compressor. Your Agent has read the repair manual.*
 **The spec:**
 ```
 My [appliance/system] is [describing the behavior: making a noise /

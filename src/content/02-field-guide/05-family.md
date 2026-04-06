@@ -33,7 +33,7 @@ Please help me:
 
 #### F-2: Writing a Eulogy
 **Strategy:** Draft
-**The Majordomo says:** *A eulogy is the one piece of writing in most people's lives for which there is no second draft, no opportunity to revise after seeing the reaction, and no possibility of starting over. It is also written under conditions of maximum emotional impairment. Claude can provide the structure. Only you can provide the life.*
+**The Majordomo says:** *A eulogy is the one piece of writing in most people's lives for which there is no second draft, no opportunity to revise after seeing the reaction, and no possibility of starting over. It is also written under conditions of maximum emotional impairment. Your Agent can provide the structure. Only you can provide the life.*
 **The spec:**
 ```
 I need to write a eulogy for [relationship -- "my father," "my friend"].

@@ -8,11 +8,11 @@ status: "stub"
 
 ### WEBSITE BUILDING
 
-> **[MEME]** The internet was supposed to be Geocities — everyone's weird, personal, hand-built page. Then it became five apps owned by three companies. The IndieWeb is Geocities with better tools and the same energy: your site, your words, your corner of the internet. The '90s promised us this. We are collecting on that promise.
+> **[MEME]** The internet was supposed to be [Geocities](https://en.wikipedia.org/wiki/GeoCities) — everyone's weird, personal, hand-built page. Then it became five apps owned by three companies. The IndieWeb is Geocities with better tools and the same energy: your site, your words, your corner of the internet. The '90s promised us this. We are collecting on that promise.
 
 ---
 
-#### WB-1: Building Your Own Website with Claude and Anglesite
+#### WB-1: Building Your Own Website with Your Agent and Anglesite
 **Strategy:** Create + Navigate
 **The Majordomo says:** *The billionaire class has always had a web presence managed by professionals. The rest of us got Facebook pages and LinkedIn profiles — land we rent on platforms that can change the terms, throttle the reach, or disappear the content at any time. Owning your own website is the digital equivalent of owning your home instead of renting it. It has always been possible. It has not always been this easy.*
 **The spec:**
@@ -20,7 +20,7 @@ status: "stub"
 I want to build my own personal website. I have never done this before.
 I want it to be simple, fast, and mine — not hosted on someone else's
 platform where they control what I can say and who sees it.
-I want to use Anglesite and Claude to build it.
+I want to use Anglesite and my AI agent to build it.
 Please walk me through the process from the beginning:
 1. What do I need to get started?
 2. What will my site look like when it's done?
@@ -82,6 +82,6 @@ Help me think about:
 3. How do I develop a voice that's authentically mine?
 4. How often should I post?
 ```
-**What to do with the output:** Use Claude's suggestions as a starting draft. The voice comes from revision, not from the first attempt. Post once a week for a month. See what happens.
+**What to do with the output:** Use your Agent's suggestions as a starting draft. The voice comes from revision, not from the first attempt. Post once a week for a month. See what happens.
 
 *(Stub — full entry to be drafted)*

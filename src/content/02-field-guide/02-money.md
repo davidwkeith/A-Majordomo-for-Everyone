@@ -8,7 +8,7 @@ status: "draft"
 
 ### MONEY
 
-> **[MEME]** The Conners were never broke because they were irresponsible. They were broke because they were navigating financial systems -- bill negotiations, employer conflicts, credit decisions -- with no infrastructure and no information. Roseanne was the most honest show on 90s television about what it actually costs to manage a household without the billionaire class's support layer. Every entry in this domain is the information the Conners needed and didn't have.
+> **[MEME]** The Conners were never broke because they were irresponsible. They were broke because they were navigating financial systems -- bill negotiations, employer conflicts, credit decisions -- with no infrastructure and no information. [Roseanne](https://en.wikipedia.org/wiki/Roseanne_(TV_series)) was the most honest show on 90s television about what it actually costs to manage a household without the billionaire class's support layer. Every entry in this domain is the information the Conners needed and didn't have.
 
 ---
 
