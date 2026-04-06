@@ -14,7 +14,7 @@ status: "draft"
 
 *[TRINITRON — 8-BIT PIXEL ART: George and Jerry at the NBC conference table. George gesturing at a blank whiteboard. Two executives in polite confusion. Jerry quietly horrified. Paper angle: determined by George's outward expansive gesture — arms spreading wide from center, roughly horizontal with a slight upward arc. Blue lines extend the gesture outward beyond the TV edges.]*
 
-*Seinfeld, "The Pitch" (1992) — George has a concept. He cannot specify it. This is always how it starts.*
+*[Seinfeld](https://en.wikipedia.org/wiki/The_Pitch_(Seinfeld)), "The Pitch" (1992) — George has a concept. He cannot specify it. This is always how it starts.*
 
 ---
 
@@ -28,9 +28,9 @@ The show gets made anyway — badly, expensively, disastrously — because nobod
 
 ---
 
-Every strategy in this book begins here. Before Claude can Decode, Draft, Navigate, or Assert anything for you, it needs to understand your situation precisely enough to do the work correctly. That precision is the specification.
+Every strategy in this book begins here. Before your Agent can Decode, Draft, Navigate, or Assert anything for you, it needs to understand your situation precisely enough to do the work correctly. That precision is the specification.
 
-The insight that makes this book work: **you do not have to write the spec.** Claude will interview you into one. Your job is to answer its questions honestly and tell it when the spec it proposes doesn't accurately reflect your situation. That is a human skill you already have. You know your own situation. You just needed someone to ask the right questions.
+The insight that makes this book work: **you do not have to write the spec.** Your Agent will interview you into one. Your job is to answer its questions honestly and tell it when the spec it proposes doesn't accurately reflect your situation. That is a human skill you already have. You know your own situation. You just needed someone to ask the right questions.
 
 ### The Specification Interview Loop
 
@@ -40,11 +40,11 @@ Here is the full loop, annotated. This is what every `[SPEC]` sidebar in this bo
 STEP 1: Describe your situation loosely.
 Don't worry about being precise. Just say what's going on.
 
-STEP 2: Claude asks clarifying questions.
+STEP 2: Your Agent asks clarifying questions.
 Usually three to five. Answer them honestly.
 If you don't know the answer to one, say so.
 
-STEP 3: Claude proposes a specification.
+STEP 3: Your Agent proposes a specification.
 It will say something like: "Based on what you've told me,
 here is what I understand you need..." followed by a clear,
 structured description of the task.
@@ -59,7 +59,7 @@ One or two corrections is normal. More than that means
 step back and re-describe the situation — something
 important didn't come through.
 
-STEP 6: Claude executes against the confirmed spec.
+STEP 6: Your Agent executes against the confirmed spec.
 
 STEP 7: You evaluate the output.
 If it's not right, the spec was incomplete.
@@ -77,7 +77,7 @@ The situation: you got a letter from your health insurance company saying they'r
 My insurance denied a claim. I need to appeal it.
 ```
 
-**Claude's clarifying questions:**
+**Your Agent's clarifying questions:**
 ```
 I can help you with that. A few questions to make sure
 I give you the right approach:
@@ -100,7 +100,7 @@ I give you the right approach:
 4. I want the MRI approved.
 ```
 
-**Claude proposes the spec:**
+**Your Agent proposes the spec:**
 ```
 Here's what I understand you need:
 
@@ -127,17 +127,17 @@ Yes, but also — my doctor's office said they can provide
 a letter of medical necessity. Can the appeal reference that?
 ```
 
-**Claude confirms and executes.**
+**Your Agent confirms and executes.**
 
 > **[SCIENCE]** The interview-to-specification process maps directly to what therapists call *collaborative formulation* — the structured process by which a therapist and client jointly develop an accurate description of the presenting problem before attempting to address it. Research consistently shows that collaborative formulation produces better treatment outcomes than clinician-only assessment, because the client's corrections to the initial formulation contain essential information the clinician could not have known (Kuyken et al., 2009).[^s0-1]
 
-[^s0-1]: Kuyken, W., Padesky, C.A., & Dudley, R. (2009). *Collaborative Case Conceptualization.* Guilford Press. The parallel to AI specification is direct: the user's corrections to Claude's proposed spec contain exactly the contextual information that distinguishes their situation from the generic case.
+[^s0-1]: Kuyken, W., Padesky, C.A., & Dudley, R. (2009). *Collaborative Case Conceptualization.* Guilford Press. The parallel to AI specification is direct: the user's corrections to the Agent's proposed spec contain exactly the contextual information that distinguishes their situation from the generic case.
 
 ### The Expert Role Variant
 
 Some situations don't need a document decoded or a process navigated. They need a knowledgeable person to look at your specific situation and tell you what they see.
 
-For these, there is a Specify shortcut: the Expert Role prompt. Instead of waiting for Claude to interview you into a spec, you open by assigning Claude a role and describing your situation in one paragraph. Claude will ask any clarifying questions it needs, then proceed.
+For these, there is a Specify shortcut: the Expert Role prompt. Instead of waiting for your Agent to interview you into a spec, you open by assigning it a role and describing your situation in one paragraph. Your Agent will ask any clarifying questions it needs, then proceed.
 
 ```
 Act as an experienced [Master Gardener / certified dog trainer /
@@ -146,7 +146,7 @@ Here is my situation: [describe it specifically].
 What do I need to know, and what should I do first?
 ```
 
-The Expert Role prompt works because Claude has read the training materials, certification curricula, and professional literature for most well-documented fields. It can hold that knowledge in the frame of a specific expert's perspective for the duration of your conversation.
+The Expert Role prompt works because your Agent has read the training materials, certification curricula, and professional literature for most well-documented fields. It can hold that knowledge in the frame of a specific expert's perspective for the duration of your conversation.
 
 **What it's not:** A licensed professional. The Master Gardener variant will not carry liability for your tomatoes. The personal trainer variant will not spot you. The Expert Role is the knowledgeable friend who happens to have the credentials, not the credentialed professional who carries accountability. For everything in the Everyday Expertise section of the Field Guide, this distinction is fine. For the system-navigation entries — legal, medical, financial — the Expert Role is a starting point, not an endpoint.
 

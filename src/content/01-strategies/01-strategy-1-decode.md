@@ -14,7 +14,7 @@ status: "draft"
 
 *[TRINITRON — 8-BIT PIXEL ART: Ross on the staircase, pushing the couch from below. Rachel and Chandler above pushing back. The couch jammed impossibly against the wall. Ross mid-"PIVOT." Paper angle: determined by the staircase rise — diagonal upper-right, roughly 30-35 degrees. Blue lines run parallel to the staircase direction, extending the impossible trajectory of the couch beyond the frame.]*
 
-*Friends, "The One with the Cop" (1999) — The staircase was always that width. Ross just never checked.*
+*[Friends](https://en.wikipedia.org/wiki/The_One_with_the_Cop), "The One with the Cop" (1999) — The staircase was always that width. Ross just never checked.*
 
 ---
 

@@ -14,7 +14,7 @@ status: "draft"
 
 *[TRINITRON — 8-BIT PIXEL ART: Murphy at her desk, eyes on the ceiling. Secretary across from her, notepad on knee, pen poised, patient. Typewriter between them with a blank page. Crumpled paper on the floor. Paper angle: determined by Murphy's upward gaze — tilted back, roughly 20 degrees counter-clockwise. Blue lines extend upward toward the ceiling she's staring at, the answer she cannot find.]*
 
-*Murphy Brown, "Respect" (1988) — Murphy Brown could talk for six hours. She could not start the memo. These are different skills.*
+*[Murphy Brown](https://en.wikipedia.org/wiki/Murphy_Brown), "Respect" (1988) — Murphy Brown could talk for six hours. She could not start the memo. These are different skills.*
 
 ---
 
@@ -24,11 +24,11 @@ Murphy goes through 93 secretaries over the course of the series. The secretarie
 
 **The lesson:** The blank page is not a writing problem. It is a starting problem. The first draft does not have to be right. It has to exist. Once it exists, you can fix it. The AI's job is to hand you something to react to — a first draft you can edit into your voice, a structure you can accept or reject, a starting point that costs you nothing to improve. Murphy needed someone to write the first sentence. Now you have one.
 
-*"The blank page is the most expensive piece of real estate in your life. It costs you hours of avoidance, low-grade anxiety, and the gradual accumulation of unfinished business that the Zeigarnik effect turns into a constant low-level drain on your mental bandwidth."*
+*"The blank page is the most expensive piece of real estate in your life. It costs you hours of avoidance, low-grade anxiety, and the gradual accumulation of unfinished business that the [Zeigarnik effect](https://en.wikipedia.org/wiki/Zeigarnik_effect) turns into a constant low-level drain on your mental bandwidth."*
 
 ---
 
-The blank page is the most expensive piece of real estate in your life. It costs you hours of avoidance, low-grade anxiety, and the gradual accumulation of unfinished business that the Zeigarnik effect turns into a constant low-level drain on your mental bandwidth. Claude does not write the final version. It writes the first version, which is the only one that costs you anything.
+The blank page is the most expensive piece of real estate in your life. It costs you hours of avoidance, low-grade anxiety, and the gradual accumulation of unfinished business that the [Zeigarnik effect](https://en.wikipedia.org/wiki/Zeigarnik_effect) turns into a constant low-level drain on your mental bandwidth. Your Agent does not write the final version. It writes the first version, which is the only one that costs you anything.
 
 **What Draft is for:** Any writing task where the obstacle is starting. Demand letters. Appeal letters. Complaint emails. Eulogies. Apologies. HR grievances. Public comments. Performance self-reviews.
 

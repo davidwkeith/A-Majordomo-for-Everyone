@@ -14,11 +14,11 @@ status: "draft"
 
 *[TRINITRON — 8-BIT PIXEL ART: Picard and Data in what appears to be a normal Victorian drawing room. Through the window behind them, barely visible, the hexagonal grid lines of a holodeck. One of them holds a book that should not exist outside the simulation. Their expressions: the specific look of people who have just realized the room is not real. Paper angle: determined by the holodeck grid lines visible through the window — the hex grid runs at roughly 30 degrees. Blue lines of the notebook paper align with the holodeck grid, so that the paper's lines and the simulation's lines are the same lines. The notebook and the holodeck are built from identical rules.]*
 
-*Star Trek: The Next Generation, "Ship in a Bottle" (1993) — Moriarty thought he'd escaped the story. He was still inside someone else's spec.*
+*[Star Trek: The Next Generation](https://en.wikipedia.org/wiki/Ship_in_a_Bottle_(Star_Trek:_The_Next_Generation)), "Ship in a Bottle" (1993) — [Moriarty](https://en.wikipedia.org/wiki/Moriarty_(Star_Trek)) thought he'd escaped the story. He was still inside someone else's spec.*
 
 ---
 
-**The episode:** Professor Moriarty — a holodeck character who achieved self-awareness four years earlier — has been waiting inside a computer program, believing himself to be conscious and real. When the crew reactivates him, he demands what was promised: a way to exist outside the holodeck. Picard appears to find a solution. Moriarty and his companion step into what seems to be the real world.
+**The episode:** Professor Moriarty — a [holodeck](https://en.wikipedia.org/wiki/Holodeck) character who achieved self-awareness four years earlier — has been waiting inside a computer program, believing himself to be conscious and real. When the crew reactivates him, he demands what was promised: a way to exist outside the holodeck. Picard appears to find a solution. Moriarty and his companion step into what seems to be the real world.
 
 They have not. They are inside a simulation of the real world, nested inside the holodeck. Picard, Data, and Barclay engineered the illusion. Moriarty will live out his days believing he is free, inside a story he did not author, playing a role in a spec written by someone else.
 
@@ -121,7 +121,7 @@ The AI generates the scene. You read it. For each element, one of three things i
 
 Most first drafts will have elements in all three categories. That is normal. A 700-word scene that is 80% usable saves you from writing 700 words from scratch, which is the point.
 
-> **[MEME]** "Save early, save often." The Sierra Adventures generation knows. Keep your architecture doc. Keep every scene draft. The version you're rejecting today is the one you'll want back in three weeks.
+> **[MEME]** "Save early, save often." The [Sierra Adventures](https://en.wikipedia.org/wiki/Sierra_Entertainment) generation knows. Keep your architecture doc. Keep every scene draft. The version you're rejecting today is the one you'll want back in three weeks.
 
 ---
 
@@ -157,7 +157,7 @@ Paste this spec at the top of any scene request involving that character. The AI
 
 ### Branching Narratives and Game Plots
 
-Modern game narrative — Disco Elysium, Hades, The Last of Us, Baldur's Gate 3 — uses a structure that is more sophisticated than linear fiction but less chaotic than pure improvisation. The player has agency at specific decision points. The world responds. The core story still reaches its destination.
+Modern game narrative — [Disco Elysium](https://en.wikipedia.org/wiki/Disco_Elysium), [Hades](https://en.wikipedia.org/wiki/Hades_(video_game)), [The Last of Us](https://en.wikipedia.org/wiki/The_Last_of_Us), [Baldur's Gate 3](https://en.wikipedia.org/wiki/Baldur%27s_Gate_3) — uses a structure that is more sophisticated than linear fiction but less chaotic than pure improvisation. The player has agency at specific decision points. The world responds. The core story still reaches its destination.
 
 AI-assisted writing handles this structure well because the spec language maps directly to it:
 
@@ -207,7 +207,7 @@ Professional ghostwriters charge $15,000 to $100,000 to write a book for someone
 
 The tool does not write the book. The writer writes the book. What changes is the cost of the sentences.
 
-> **[MEME]** *"The first draft of anything is shit."* Hemingway said this before AI existed. He would have used it.
+> **[MEME]** *"The first draft of anything is shit."* [Hemingway](https://en.wikipedia.org/wiki/Ernest_Hemingway) said this before AI existed. He would have used it.
 
 ---
 

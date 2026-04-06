@@ -14,7 +14,7 @@ status: "draft"
 
 *[TRINITRON — 8-BIT PIXEL ART: Tim and Jill on a waiting room bench, both leaning forward, elbows on knees. A doctor stands before them holding a clipboard. Tim's hands are empty — no notes, no list. The look on both their faces: people who have questions they haven't formed yet. Paper angle: determined by Tim and Jill's forward lean — slightly down and forward toward the doctor, roughly 10-15 degrees. Blue lines extend their lean toward the doctor and beyond, into the space where the questions should be.]*
 
-*Home Improvement, "The Longest Day" (approx. 1994) — Tim fixed the garbage disposal this morning. He did not write down what to ask the doctor.*
+*[Home Improvement](https://en.wikipedia.org/wiki/Home_Improvement_(TV_series)), "The Longest Day" (approx. 1994) — Tim fixed the garbage disposal this morning. He did not write down what to ask the doctor.*
 
 ---
 
@@ -24,7 +24,7 @@ The conversation that mattered happened without preparation. The outcome was wor
 
 **The lesson:** Preparation is not about being smart enough to know what to ask. It is about doing the work before you're in the room, while you still have time, before the stakes activate your stress response and your recall degrades. The billionaire class has always had someone prepare them for important meetings. That person wrote the question list, reviewed the documents, identified the three things that mattered most. Now you have one too.
 
-*"Showing up prepared is not just good manners. It is documented to produce better outcomes — in medical appointments, salary negotiations, contractor walkthroughs, and difficult family conversations. The preparation Claude helps you do is the same preparation the billionaire class has always paid for."*
+*"Showing up prepared is not just good manners. It is documented to produce better outcomes — in medical appointments, salary negotiations, contractor walkthroughs, and difficult family conversations. The preparation your Agent helps you do is the same preparation the billionaire class has always paid for."*
 
 ---
 

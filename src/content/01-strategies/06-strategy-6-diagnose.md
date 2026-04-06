@@ -14,7 +14,7 @@ status: "draft"
 
 *[TRINITRON — 8-BIT PIXEL ART: Tim in a workshop, large power tool at an angle suggesting imminent structural danger. Al beside him, arms crossed, patient expression of a person watching a slow-motion event he cannot stop. The appliance looks fine — for now. Paper angle: determined by the drill angle — pointing down-left at approximately 45 degrees, the classic tool-applied-incorrectly vector. Blue lines extend the drill's trajectory beyond the appliance, showing exactly where this is going.]*
 
-*Home Improvement, Season 1 (1991) — Al knew what was wrong. Tim had a drill. These are not the same thing.*
+*[Home Improvement](https://en.wikipedia.org/wiki/Home_Improvement_(TV_series)), Season 1 (1991) — Al knew what was wrong. Tim had a drill. These are not the same thing.*
 
 ---
 
@@ -42,7 +42,7 @@ and what is the first step I should take — including whether
 I actually need a professional or can handle this myself.
 ```
 
-> **[MEME]** "Have you tried turning it off and on again?" is the entire history of first-level technical support compressed into one question. Diagnose is that question, applied to appliances, symptoms, legal situations, and financial problems, with substantially more useful follow-up.
+> **[MEME]** ["Have you tried turning it off and on again?"](https://en.wikipedia.org/wiki/The_IT_Crowd) is the entire history of first-level technical support compressed into one question. Diagnose is that question, applied to appliances, symptoms, legal situations, and financial problems, with substantially more useful follow-up.
 
 **Worked examples:** An appliance making a new noise before calling a repairperson. A symptom that may or may not warrant urgent care. A contractor quote that seems high.
 

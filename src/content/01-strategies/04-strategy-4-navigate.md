@@ -14,7 +14,7 @@ status: "draft"
 
 *[TRINITRON — 8-BIT PIXEL ART: Jerry and Kramer side by side in a hospital observation gallery, both leaning over the railing with expressions of dawning horror. The surgeon below looks up at them. The scene viewed from slightly above and behind so their faces are visible in profile. Paper angle: determined by the downward lean over the railing — steep, roughly 40 degrees, vertiginous. Blue lines plunge downward toward the operating table, extending the trajectory of the Junior Mint.]*
 
-*Seinfeld, "The Junior Mint" (1993) — The correct procedure existed. Step one was "tell someone." Nobody took step one.*
+*[Seinfeld](https://en.wikipedia.org/wiki/The_Junior_Mint), "The Junior Mint" (1993) — The correct procedure existed. Step one was "tell someone." Nobody took step one.*
 
 ---
 
@@ -40,7 +40,7 @@ Please give me numbered steps in the exact order I need to do them,
 including any deadlines or time-sensitive elements I should know about.
 ```
 
-> **[MEME]** "It's a Unix system. I know this." The Jurassic Park scene works because Lex has just enough knowledge of the interface to navigate a system she's never seen before and get out alive. Claude is the Unix system. This book is the thirty seconds of orientation.
+> **[MEME]** ["It's a Unix system. I know this."](https://en.wikipedia.org/wiki/Jurassic_Park_(film)) The Jurassic Park scene works because Lex has just enough knowledge of the interface to navigate a system she's never seen before and get out alive. Your Agent is the Unix system. This book is the thirty seconds of orientation.
 
 **Worked examples:** Filing a first-level insurance appeal. Contesting a property tax assessment. Filing a small claims case.
 
