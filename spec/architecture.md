@@ -37,12 +37,33 @@ PART ONE: THE STRATEGIES
 
 PART TWO: THE FIELD GUIDE
   Short entries organized by life domain.
-  Each entry: Adams-format opener + confirmed spec + strategy tag(s).
+  Each entry: Majordomo opener + confirmed spec + strategy tag(s).
   ~45 entries covering the most common situations.
-  Cross-reference related Field Guide entries
+  Cross-reference related Field Guide entries.
   Domains: Health / Money / Legal / Home / Life /
-		   Work / Civic / Chores / Online Presence /
-		   Transportation
+		   Work / Civic / IRL Interactions /
+		   Online Presence / Chores / Transportation
+  Domain prefixes: H- / M- / L- / Ho- / Li- /
+		   W- / C- / IRL- / WB- / Ch- / Tr-
+
+  Note: Drugs (formerly a separate domain with D- prefix)
+  is merged into the Health domain as H-9 through H-19,
+  introduced by a sub-section heading. The health system
+  and the substances it prescribes, regulates, and fails
+  to explain are the same structural problem.
+
+  Each domain opens with an italic introductory paragraph
+  before the first entry. This is the domain-level equivalent
+  of the Majordomo opener: it frames the structural problem
+  the domain addresses, positions the reader, and sets the
+  tonal register. One paragraph, no heading.
+
+  The real workflow is iterative, not single-shot:
+  initial spec → Agent response → qualifying follow-up →
+  refined output. Chapter 4 teaches the follow-up techniques.
+  Many entries include follow-up prompts in their "What to do
+  with the output" section. The spec is the start of a
+  conversation, not a one-way transmission.
 
 PART THREE: THE GENERAL METHOD
   For situations the Field Guide doesn't cover.

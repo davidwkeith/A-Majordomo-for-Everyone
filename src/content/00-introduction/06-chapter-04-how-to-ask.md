@@ -26,6 +26,7 @@ Most people ask questions the way they type them into Google: short, keyword-hea
 
 The good news: getting specific is a learnable skill, and this chapter gives you a template that works for virtually every situation in this book.
 
+
 ### The Core Template
 
 ```
@@ -70,6 +71,26 @@ I'm trying to decide whether to repair or replace my 12-year-old
 dishwasher. The repair quote is $340. Can you give me three ways
 to think about this decision, with the tradeoffs of each?
 ```
+
+### When the First Answer Isn't Enough
+
+Your Agent answered. It was fine. It was also too general, or it missed the part you actually cared about. This is normal. The fix is not a better first prompt — it is a better second one.
+
+A good follow-up question has three properties: it is open-ended (not yes-or-no), it is anchored in something the Agent already said, and it does not lead the witness. Here are the techniques that work, in order of how often you will use them.
+
+**Echo back, then ask.** Pick a word or phrase from the Agent's answer and repeat it as a question. If the Agent says "this depends on your specific plan," respond: *"Specific plan — what do you need to know about my plan to give me a better answer?"* Use their words, not a synonym. Swapping in your own word changes the frame.
+
+**Pull one thread.** The Agent gave you a paragraph with six things in it. Pick the most concrete detail and ask it to go deeper on that one: *"You mentioned the 60-day appeal window — walk me through exactly what I need to do before that deadline."* Pick the specific noun, not the interesting abstraction.
+
+**Ask for the version you actually need.** If the Agent's answer assumes a situation you are not in, say so: *"That advice assumes I own the house. I'm a renter. What changes?"* Or: *"That's helpful if I had six months. I have two weeks. What's the realistic version?"*
+
+**Ask why.** But not like that. The word "why" can sound like a cross-examination. Instead: *"What's driving that recommendation?"* or *"What would happen if I didn't do that?"* Same question, less heat.
+
+**Ask for a comparison.** When the Agent's answer feels too generic to act on, give it a reference point: *"How is this different from a standard HMO?"* or *"Compared to the national average, where does this number fall?"* Comparison forces specificity the way absolute description does not.
+
+These techniques work on your Agent. They also work on your doctor, your lawyer, your contractor, and your teenager. The skill is the same everywhere: listen to what was said, find the gap, and ask the question that fills it.
+
+> **[TIP]** If an answer is too long, say *"Summarize that in three bullet points."* If it is too technical, say *"Explain that to someone who has never heard of this."* If it missed the point, say *"That's not what I'm asking. My actual question is [restate]."* Correcting your Agent is not rude. It is how the tool works.
 
 ### Ask for the Conservative Answer When Stakes Are High
 
