@@ -118,9 +118,7 @@ The text box is optional in both directions. You do not have to type, and you do
 
 **Voice input:** every phone and most computers have speech-to-text built into the keyboard. Press the microphone icon and talk. The AI receives text either way — it does not know or care whether you typed or spoke. If typing is difficult for you — because of dyslexia, a motor disability, or because you just think better out loud — talk. The conversation is the same.
 
-**Voice output:** most ePub readers and phone accessibility settings include text-to-speech. The AI's response can be read to you. On phones, the accessibility shortcut (usually triple-tap the power button or a swipe gesture) activates screen reading. The AI's written response becomes spoken. If you process information better by hearing it, turn on the voice.
-
-**Screen readers:** this book is built with semantic HTML — headings, asides, figures, and landmarks — specifically so screen readers can navigate it. The alt text on every illustration describes what the image shows and what it means. If you are using VoiceOver, TalkBack, or NVDA, the book is structured for you.
+**Voice output:** Claude, ChatGPT, and Gemini all support voice mode — the AI speaks its response out loud instead of (or in addition to) displaying text. On phones, this is built into the app. If you process information better by hearing it than reading it, turn on the voice. The AI's explanation of your insurance denial sounds the same as a person explaining it across a table. You can also use your phone's built-in accessibility features — on any screen, in any app, the text-to-speech reads whatever is on screen.
 
 > **[TIP]** If you are on an iPhone: Settings → Accessibility → Spoken Content → Speak Selection. Highlight any text, tap "Speak." This works in the AI app, in your email, in any document. You now have a reader for every piece of text on your phone.
 

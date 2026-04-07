@@ -158,7 +158,10 @@ const remarkArtBriefs: Plugin<[ArtBriefsOptions], Root> = (options) => {
           node.value = `<figure class="${placeholderClass}">
   <div class="art-placeholder-box">
     <p class="art-placeholder-file">${escapeHtml(brief.file)}</p>
-    <p class="art-placeholder-alt">${escapeHtml(brief.alt)}</p>
+    <details>
+      <summary>${escapeHtml(brief.alt)}</summary>
+      <p class="art-placeholder-alt">${escapeHtml(brief.alt)}</p>
+    </details>
   </div>
 </figure>`;
         }

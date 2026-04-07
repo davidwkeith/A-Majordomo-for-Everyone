@@ -264,32 +264,52 @@ th {
 .art-placeholder-box {
   border: 2px dashed #ff0000;
   background: #f8f8f6;
-  padding: 1em;
+  padding: 0.6em;
   text-align: center;
-  min-height: 4em;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  overflow: hidden;
 }
 
 .art-placeholder-file {
   font-family: 'Courier New', Courier, monospace;
-  font-size: 0.8em;
+  font-size: 0.7em;
   color: #999;
-  margin: 0 0 0.4em;
+  margin: 0;
+}
+
+.art-placeholder-box details {
+  margin: 0;
+}
+
+.art-placeholder-box summary {
+  font-style: italic;
+  font-size: 0.75em;
+  color: #666;
+  cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  list-style: none;
+}
+
+.art-placeholder-box summary::-webkit-details-marker {
+  display: none;
+}
+
+.art-placeholder-box details[open] summary {
+  white-space: normal;
+  overflow: visible;
 }
 
 .art-placeholder-alt {
   font-style: italic;
-  font-size: 0.85em;
+  font-size: 0.75em;
   color: #666;
-  margin: 0;
-  max-width: 80%;
+  margin: 0.3em 0 0;
+  text-align: left;
 }
 
-.art-placeholder-full {
-  text-align: center;
+.art-placeholder-full .art-placeholder-box {
+  height: 12em;
 }
 
 .art-placeholder-half-left {
@@ -299,6 +319,10 @@ th {
   margin-bottom: 0.5em;
 }
 
+.art-placeholder-half-left .art-placeholder-box {
+  height: 9em;
+}
+
 .art-placeholder-half-right {
   max-width: 45%;
   float: right;
@@ -306,8 +330,16 @@ th {
   margin-bottom: 0.5em;
 }
 
+.art-placeholder-half-right .art-placeholder-box {
+  height: 9em;
+}
+
 .art-placeholder-margin {
   max-width: 25%;
+}
+
+.art-placeholder-margin .art-placeholder-box {
+  height: 5em;
 }
 
 /* Dark mode: boost pencil-on-transparent visibility */
