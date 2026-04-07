@@ -19,14 +19,24 @@ export interface Endnote {
   content: string;
 }
 
+export interface Contributor {
+  name: string;
+  /** MARC relator code: edt, ill, etc. */
+  role: string;
+  id: string;
+}
+
 export interface BookMeta {
   title: string;
   subtitle: string;
   language: string;
   creator: string;
+  publisher: string;
   rights: string;
   identifier: string;
   date: string;
+  subjects: string[];
+  contributors: Contributor[];
 }
 
 export const BOOK_META: BookMeta = {
@@ -34,9 +44,18 @@ export const BOOK_META: BookMeta = {
   subtitle: 'Managing Your Personal Staff of AI Agents',
   language: 'en-US',
   creator: 'David W. Keith',
-  rights: 'CC BY-SA 4.0',
-  identifier: 'urn:uuid:majordomo-for-everyone-v1',
+  publisher: 'David W. Keith',
+  rights: 'Copyright © 2025 David W. Keith. Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).',
+  identifier: 'urn:uuid:3f95fd4d-bc11-427e-aa0f-d79a22eaadfa',
   date: new Date().toISOString().split('T')[0],
+  subjects: [
+    'COMPUTERS / Artificial Intelligence / General',
+    'SELF-HELP / Personal Growth / General',
+  ],
+  contributors: [
+    { name: 'David W. Keith', role: 'edt', id: 'editor' },
+    { name: 'David W. Keith', role: 'ill', id: 'illustrator' },
+  ],
 };
 
 export const CALLOUT_TYPES = [

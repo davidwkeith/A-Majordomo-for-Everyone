@@ -9,7 +9,7 @@ export function containerXml(): string {
 </container>`;
 }
 
-export function contentOpf(meta: BookMeta, chapters: ProcessedChapter[]): string {
+export function contentOpf(meta: BookMeta, chapters: ProcessedChapter[], hasCover: boolean): string {
   const manifestItems = chapters
     .map(
       (ch) =>
@@ -21,26 +21,63 @@ export function contentOpf(meta: BookMeta, chapters: ProcessedChapter[]): string
     .map((ch) => `    <itemref idref="${ch.meta.slug}"/>`)
     .join('\n');
 
+  const coverMeta = hasCover
+    ? '\n    <meta name="cover" content="cover-image"/>'
+    : '';
+
+  const coverManifest = hasCover
+    ? '    <item id="cover" href="text/cover.xhtml" media-type="application/xhtml+xml"/>\n    <item id="cover-image" href="images/cover.png" media-type="image/png" properties="cover-image"/>\n'
+    : '';
+
+  const coverSpine = hasCover
+    ? '    <itemref idref="cover"/>\n'
+    : '';
+
+  const subjectItems = meta.subjects
+    .map((s) => `    <dc:subject>${escapeXml(s)}</dc:subject>`)
+    .join('\n');
+
+  const contributorItems = meta.contributors
+    .map(
+      (c) =>
+        `    <dc:contributor id="${c.id}">${escapeXml(c.name)}</dc:contributor>\n    <meta refines="#${c.id}" property="role" scheme="marc:relators">${c.role}</meta>`
+    )
+    .join('\n');
+
   return `<?xml version="1.0" encoding="UTF-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="BookId" xml:lang="${meta.language}">
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="BookId" xml:lang="${meta.language}" prefix="schema: http://schema.org/ a11y: http://www.idpf.org/epub/vocab/package/a11y/#">
   <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
     <dc:identifier id="BookId">${meta.identifier}</dc:identifier>
     <dc:title>${escapeXml(meta.title)}</dc:title>
-    <dc:creator>${escapeXml(meta.creator)}</dc:creator>
+    <dc:creator id="creator">${escapeXml(meta.creator)}</dc:creator>
+    <meta refines="#creator" property="role" scheme="marc:relators">aut</meta>
+${contributorItems}
+    <dc:publisher>${escapeXml(meta.publisher)}</dc:publisher>
     <dc:language>${meta.language}</dc:language>
     <dc:rights>${escapeXml(meta.rights)}</dc:rights>
     <dc:description>${escapeXml(meta.subtitle)}</dc:description>
     <dc:date>${meta.date}</dc:date>
-    <meta property="dcterms:modified">${new Date().toISOString().replace(/\.\d{3}Z$/, 'Z')}</meta>
+${subjectItems}
+    <meta property="dcterms:modified">${new Date().toISOString().replace(/\.\d{3}Z$/, 'Z')}</meta>${coverMeta}
+    <meta property="schema:accessMode">textual</meta>
+    <meta property="schema:accessMode">visual</meta>
+    <meta property="schema:accessModeSufficient">textual</meta>
+    <meta property="schema:accessibilityFeature">structuralNavigation</meta>
+    <meta property="schema:accessibilityFeature">tableOfContents</meta>
+    <meta property="schema:accessibilityFeature">readingOrder</meta>
+    <meta property="schema:accessibilityFeature">alternativeText</meta>
+    <meta property="schema:accessibilityFeature">longDescription</meta>
+    <meta property="schema:accessibilityHazard">none</meta>
+    <meta property="schema:accessibilitySummary">This publication meets WCAG 2.0 Level AA guidelines. All images have alternative text. Content is structured with semantic markup and navigable via table of contents.</meta>
   </metadata>
   <manifest>
     <item id="nav" href="nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
     <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
     <item id="style" href="styles/epub.css" media-type="text/css"/>
-${manifestItems}
+${coverManifest}${manifestItems}
   </manifest>
   <spine toc="ncx">
-${spineItems}
+${coverSpine}${spineItems}
   </spine>
 </package>`;
 }
@@ -99,6 +136,24 @@ export function tocNcx(meta: BookMeta, chapters: ProcessedChapter[]): string {
 ${navPoints}
   </navMap>
 </ncx>`;
+}
+
+export function coverXhtml(meta: BookMeta): string {
+  return `<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xml:lang="${meta.language}">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Cover</title>
+  <style>
+    body { margin: 0; padding: 0; text-align: center; }
+    img { max-width: 100%; max-height: 100%; }
+  </style>
+</head>
+<body epub:type="cover">
+  <img src="../images/cover.png" alt="${escapeXml(meta.title)}"/>
+</body>
+</html>`;
 }
 
 export function chapterXhtml(

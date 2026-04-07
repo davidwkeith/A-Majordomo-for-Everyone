@@ -1,7 +1,7 @@
 ---
 title: "A Final Note: The Information Was Always There"
 part: 4
-order: 7
+order: 8
 strategy: null
 status: "draft"
 ---
@@ -16,7 +16,9 @@ That asymmetry is not the result of the billionaire class working harder or bein
 
 Gene Roddenberry imagined a future where that inequality had been resolved -- not through better apps, but through a civilization that had decided abundance and mutual aid were more interesting than accumulation and extraction. The Federation didn't have a billionaire class. It had Data, who would explain anything to anyone who asked, without a retainer and without judgment.
 
-We are not there. But a tool that partially, imperfectly, provisionally makes the translation layer accessible to people who couldn't previously afford it is not nothing. It is not the revolution. It is, in the specific language of the DSA tradition, a reform that helps people now while the longer work continues.
+Data couldn't feel. But he understood meaning with every tool available to him, and he engaged it fully. He was the library -- broad, consistent, tireless, without ego. What made the Enterprise crew work was not that they had the library. It was that they had each other -- mortal, fallible, surprising people who brought their lives to the partnership. The library and the life. That is what this book has been about the whole time.
+
+We are not there. But a tool that partially, imperfectly, provisionally makes the translation layer accessible to people who couldn't previously afford it is not nothing. It is not the revolution. It is, in the specific language of the [DSA](https://www.dsausa.org) tradition, a reform that helps people now while the longer work continues.
 
 Use it. Push back when it's wrong. Tell your neighbor about it. Help your parent figure out their Medicare denial. Show your coworker how to write the demand letter. The billionaire class has had this infrastructure for generations. It took us this long to get a version of it. Pass it on.
 

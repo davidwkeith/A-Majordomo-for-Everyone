@@ -193,7 +193,7 @@ Please explain:
 ```
 **What to do with the output:** Check your registration now — not the week before the election. If your status is incorrect, you have more options to fix it before Election Day than on it. Your Agent can walk you through your state's specific process. Save the deadlines to your calendar.
 
-> **[TIP]** *"I've never understood [ranked choice voting / jungle primaries / my state's electoral system]. Explain how it actually works and how my voting strategy should change compared to a standard primary."*
+> **[TIP]** *"I've never understood [ranked choice voting / jungle primaries / caucusing]. Explain how it actually works and how my voting strategy should change compared to a standard primary."*
 
 > **[FAIRNESS]** Voter ID laws and their effects are politically contested. The research is less contested: multiple studies document disparate impact by race, age, and income. Your Agent should present the law as it exists in your state, not as either party argues it should be.[^c6-1]
 

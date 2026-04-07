@@ -12,7 +12,7 @@ status: "draft"
 
 ---
 
-#### W-1: Getting a New Job and Hiring
+#### W-1: Getting a Job
 **Strategy:** Draft + Prepare
 **See also:** L-1: Negotiating a Contract (for offer letters and non-competes), Li-1: Preparing for a Difficult Conversation (same preparation technique)
 **The Majordomo says:** *The job search is a system designed by employers, for employers, in which the candidate is expected to perform enthusiasm for a position they need to survive while pretending the power dynamic does not exist. The résumé is a marketing document judged in six seconds. The cover letter is a genre with invisible rules. The salary negotiation rewards the person with better information about the market rate. Your Agent levels the information asymmetry — which is the entire point of this book.*
@@ -49,7 +49,7 @@ prepare me for common interview questions / analyze this offer].
 
 ---
 
-#### W-2: Understanding Your Rights If You're Let Go
+#### W-2: Leaving a Job
 **Strategy:** Assert + Decode
 **See also:** L-1: Negotiating a Contract (for the severance agreement), M-1: Banking and Savings (emergency fund while unemployed), W-5: Unions (if you have a CBA)
 **The Majordomo says:** *Employment law is one of the areas where the gap between what most employees believe their rights to be and what those rights actually are is widest, and where the consequences of not knowing are most immediate. The severance agreement has a signing deadline. The WARN Act notice has a claim deadline. The clock starts whether you know about it or not.*
@@ -71,7 +71,7 @@ an employment attorney or legal aid organization.
 
 ---
 
-#### W-3: Working with HR
+#### W-3: Working with Human Resources
 **Strategy:** Draft + Assert
 **See also:** W-2: Understanding Your Rights If You're Let Go, Li-1: Preparing for a Difficult Conversation
 **The Majordomo says:** *Human Resources exists to protect the company. This is not cynicism — it is the department's actual mandate. An HR representative who helps you is doing so because helping you also serves the company's interest, which is often the case. Understanding this alignment — when your interests and the company's overlap, and when they diverge — is the difference between using HR effectively and being surprised by the outcome.*
@@ -167,7 +167,7 @@ Give me the legal answer, not the political one.
 
 ---
 
-#### W-6: OSHA and Worker's Comp
+#### W-6: Workplace Safety
 **Strategy:** Assert + Navigate
 **See also:** W-2: Understanding Your Rights If You're Let Go (if retaliation follows), L-3: Writing a Demand Letter
 **The Majordomo says:** *Your body is the asset you bring to work. The employer's obligation to not damage it is codified in law, implemented through OSHA, and enforced through a system that requires you to know it exists and how to use it. Workers' compensation is insurance your employer is required to carry. Filing a claim is not adversarial — it is using the system as designed. The adversarial part comes later, if the claim is denied, and it often is.*

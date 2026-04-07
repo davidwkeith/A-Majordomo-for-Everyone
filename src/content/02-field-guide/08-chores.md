@@ -45,7 +45,7 @@ brief: Single page of a typed contractor bid on white paper, three sections visi
 
 ---
 
-#### Ch-3: Identifying and Caring for Plants
+#### Ch-3: Identifying and Caring for House Plants
 **Strategy:** Diagnose + Research (Expert Role)
 *(Stub -- full entry to be drafted)*
 

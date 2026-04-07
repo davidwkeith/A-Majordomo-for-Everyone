@@ -12,9 +12,31 @@ status: "draft"
 
 ---
 
-*[TRINITRON — 8-BIT PIXEL ART: Roseanne and Dan at the kitchen table, papers and bills spread between them, both leaning over the table. Their expressions are the specific exhausted focus of people trying to make a good decision from bad information. Coffee cups. A pen. A contract or form neither of them quite understands. Paper angle: determined by Roseanne and Dan's forward lean over table — roughly 15-20 degrees forward. Blue lines extend their lean beyond the frame.]*
+<!-- art
+file: trinitron-s7-research.png
+size: full
+alt: A Trinitron TV on notebook paper showing an 8-bit scene of Roseanne
+     and Dan at the kitchen table, papers and bills spread between them,
+     both leaning forward with the exhausted focus of people trying to
+     make a good decision from bad information.
+brief: TRINITRON CHAPTER OPENER. Roseanne and Dan at the kitchen table,
+       papers and bills spread between them, both leaning over the table.
+       Their expressions are the specific exhausted focus of people trying
+       to make a good decision from bad information. Coffee cups. A pen.
+       A contract or form neither of them quite understands. Paper angle:
+       determined by Roseanne and Dan's forward lean over table — roughly
+       15-20 degrees forward. Blue lines extend their lean beyond the
+       frame. Obsession zone: the model number and compliance plate. The
+       small metal plate on the back of the TV drawn in full — model
+       number, serial number, FCC ID, UL listing mark, power consumption
+       rating, country of manufacture — each character rendered, each
+       regulatory mark accurate.
+       Caption: >> DAN: Did you read the contract?
+       >> ROSEANNE: I read enough of it.
+       >> DAN: How much is enough?
+-->
 
-*[Roseanne](https://en.wikipedia.org/wiki/Roseanne_(TV_series)) (approx. 1993) — The information existed. Nobody told them to ask for it before they signed.*
+*[Roseanne:S5](https://en.wikipedia.org/wiki/Roseanne_(TV_series)), 1993 — The information existed. Nobody told them to ask for it before they signed.*
 
 ---
 
@@ -28,7 +50,9 @@ Roseanne at the kitchen table with Dan, papers spread between them, trying to ma
 
 ---
 
-The commitment — the signature, the deposit, the appointment — comes with information asymmetry already baked in. The institution you're committing to knows everything about the terms. You know what they told you. Your Agent helps you close that gap before you sign anything or agree to anything or schedule anything you can't easily undo.
+The commitment — the signature, the deposit, the appointment — comes with information asymmetry already baked in. The institution you're committing to knows everything about the terms. You know what they told you.
+
+This is where the AI's nature as a library pays off most directly. It has read the contracts, the regulatory filings, the consumer protection statutes, the complaint databases, the industry practices. It knows what a standard auto loan looks like because it has read thousands of them. It knows what questions to ask before signing a lease because it has read the tenant rights law in your state. The Conners did not have a library at the kitchen table. You do. Your Agent helps you close that gap before you sign anything or agree to anything or schedule anything you can't easily undo.
 
 **What Research is for:** Any decision that involves a significant commitment of money, time, or health, where you want to understand the full picture before you're in it.
 

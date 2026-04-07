@@ -146,7 +146,7 @@ Please:
 ```
 **What to do with the output:** The most important number is not the fine — it is the insurance increase. A $150 ticket that adds $600 per year to your insurance for three years is an $1,950 ticket. Ask your Agent to calculate the total cost before you decide whether to pay or fight. If you decide to contest, your Agent can help you prepare, but show up on time, dressed respectfully, and with your evidence organized. Judges notice.
 
-> **[MEME]** Every sitcom has a traffic ticket episode. Seinfeld's "The Ticket" (Season 4). *The Fresh Prince*'s driving test. The *King of Queens* insurance spiral. They are funny because the system is absurd — a $90 fine that triggers a $400 insurance increase that triggers a conversation about whether you can afford the car at all. The sitcom resets at the end of the episode. Your insurance rate does not.
+> **[MEME]** Every sitcom has a traffic ticket episode. Seinfeld:S4E4 "The Ticket". *The Fresh Prince*'s driving test. The *King of Queens* insurance spiral. They are funny because the system is absurd — a $90 fine that triggers a $400 insurance increase that triggers a conversation about whether you can afford the car at all. The sitcom resets at the end of the episode. Your insurance rate does not.
 
 > **[TIP]** Before you do anything, ask your Agent: *"In [state], can I keep this ticket off my record by taking traffic school? What are the requirements, how much does it cost, and how many times can I use this option?"* In many states, traffic school once every 12 to 18 months is an automatic option that prevents points and insurance increases. This is the single most useful piece of information in this entry.
 
@@ -157,3 +157,38 @@ Please:
 <!-- RESEARCH NEEDED: The insurance spiral. A single ticket can increase auto insurance premiums by 20-30% for 3-5 years depending on the insurer and state. For a family already paying $2,000/year, that's an additional $1,200-$3,000 over the penalty period. The fine is the visible cost. The insurance increase is the invisible one. Most people making the pay-or-fight decision are calculating with incomplete information. -->
 
 [^l4-1]: Pierson, E., et al. (2020). "A large-scale analysis of racial disparities in police stops across the United States." *Nature Human Behaviour*, 4, 736–745. Data available at [openpolicing.stanford.edu](https://openpolicing.stanford.edu).
+
+
+#### Li-3: Recognizing a Scam
+**Strategy:** Research + Draft
+**See also:** Li-1: Preparing for a Difficult Conversation (for talking to a loved one who has been targeted)
+**The Majordomo says:** *Scams work because they exploit responses that are, in every other context, healthy: trust, urgency, deference to authority, desire to help. The person who falls for one was not being stupid. They were being human in a situation engineered by professionals to weaponize that humanity. The FTC reports Americans lost over $10 billion to fraud in 2023. The shame that follows a successful scam suppresses reporting, so the actual number is higher. The shame is the second scam.*
+**The spec:**
+```
+I think I [or someone I care about] may be dealing with a scam.
+Here is what happened: [describe the situation — the initial contact,
+what was asked for, what was promised, what has been given so far].
+Please:
+1. Tell me if this matches a known scam pattern and which one
+2. Explain what the scam is actually trying to accomplish
+3. Tell me what to do RIGHT NOW — what to stop, who to call,
+   what to document
+4. If money or information has already been sent, what recovery
+   options exist
+Be direct. I need the honest answer.
+```
+**What to do with the output:** If you are helping a loved one, lead with concern, not correction. The shame is already doing damage. Your Agent can help you draft that conversation (see Li-1). If you are the one targeted, file with the FTC at [reportfraud.ftc.gov](https://reportfraud.ftc.gov) and your state attorney general. Speed matters — some financial transactions can be reversed within 24-48 hours.
+
+> **[SCIENCE]** Cialdini's six principles of influence (1984) — reciprocity, commitment, social proof, authority, liking, scarcity — are also a scam operator's playbook. The same cognitive shortcuts that make human cooperation possible make human exploitation possible.[^li3-1]
+
+> **[FAIRNESS]** Your Agent may describe common scam demographics in ways that reinforce stereotypes. Scam vulnerability correlates with cognitive load and isolation, not intelligence or age. Ask your Agent to focus on *patterns of approach* rather than *profiles of victims.*
+
+<!-- RESEARCH NEEDED: FTC 2023 Sentinel Network report — verify the $10B figure and get exact breakdown by scam type. AARP has longitudinal data on elder fraud that's more granular. Also need data on recovery rates by scam type and reporting speed. -->
+
+<!-- RESEARCH NEEDED (HUMAN CONDITION): The psychology of shame after fraud. There is a documented "secondary victimization" — the social response to being scammed causes harm comparable to the financial loss itself. Cross (2015) "No laughing matter" in International Review of Victimology is the key reference. Trust is a prosocial trait. The cultural response — "you should have known better" — punishes the victim for a quality we need more of, not less. This is one of the cruelest information asymmetries in the book: the system that should support victims (social networks, family) often compounds the harm. Needs deeper treatment than a footnote. -->
+
+<!-- RESEARCH NEEDED (HUMAN CONDITION): The counterintuitive generational data. FTC 2023 shows Gen Z reports more fraud incidents than Boomers. Boomers lose more per incident (romance scams, investment fraud). The "digital native" assumption is wrong — familiarity breeds overconfidence, not immunity. This flips the cultural narrative and deserves a strong callout or meme. -->
+
+<!-- RESEARCH NEEDED (HUMAN CONDITION): Romance scams exploit loneliness, which the Surgeon General has declared an epidemic. The intersection of isolation, digital communication, and parasocial bonding is underresearched but early work (Whitty 2013, 2015) suggests the grief after discovering a romance scam mirrors grief after a real relationship ends. The person's feelings were real even though the relationship wasn't. This challenges the dismissive framing most people bring to "catfishing" stories and deserves space. -->
+
+[^li3-1]: Cialdini, R.B. (1984). *Influence: The Psychology of Persuasion.* William Morrow.

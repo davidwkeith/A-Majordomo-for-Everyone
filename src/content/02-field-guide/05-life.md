@@ -12,6 +12,12 @@ status: "draft"
 
 ---
 
+#### Taking better photos
+
+#### Editing a movie
+
+#### Writing a book (like this one)
+
 #### Li-1: Preparing for a Difficult Conversation
 **Strategy:** Prepare + Draft
 **See also:** W-3: Working with HR (for workplace conversations), H-7: Preparing for End-of-Life Conversations (for the hardest one)
@@ -63,41 +69,6 @@ alt: A notecard with a simple eulogy structure outlined: opening memory, three q
 brief: Hand-drawn ballpoint pen sketch of a 4x6 notecard with a simple eulogy outline written in pencil, sections labeled with small brackets, transparent background
 -->
 
----
-
-#### Li-3: Recognizing a Scam
-**Strategy:** Research + Draft
-**See also:** Li-1: Preparing for a Difficult Conversation (for talking to a loved one who has been targeted)
-**The Majordomo says:** *Scams work because they exploit responses that are, in every other context, healthy: trust, urgency, deference to authority, desire to help. The person who falls for one was not being stupid. They were being human in a situation engineered by professionals to weaponize that humanity. The FTC reports Americans lost over $10 billion to fraud in 2023. The shame that follows a successful scam suppresses reporting, so the actual number is higher. The shame is the second scam.*
-**The spec:**
-```
-I think I [or someone I care about] may be dealing with a scam.
-Here is what happened: [describe the situation — the initial contact,
-what was asked for, what was promised, what has been given so far].
-Please:
-1. Tell me if this matches a known scam pattern and which one
-2. Explain what the scam is actually trying to accomplish
-3. Tell me what to do RIGHT NOW — what to stop, who to call,
-   what to document
-4. If money or information has already been sent, what recovery
-   options exist
-Be direct. I need the honest answer.
-```
-**What to do with the output:** If you are helping a loved one, lead with concern, not correction. The shame is already doing damage. Your Agent can help you draft that conversation (see Li-1). If you are the one targeted, file with the FTC at [reportfraud.ftc.gov](https://reportfraud.ftc.gov) and your state attorney general. Speed matters — some financial transactions can be reversed within 24-48 hours.
-
-> **[SCIENCE]** Cialdini's six principles of influence (1984) — reciprocity, commitment, social proof, authority, liking, scarcity — are also a scam operator's playbook. The same cognitive shortcuts that make human cooperation possible make human exploitation possible.[^li3-1]
-
-> **[FAIRNESS]** Your Agent may describe common scam demographics in ways that reinforce stereotypes. Scam vulnerability correlates with cognitive load and isolation, not intelligence or age. Ask your Agent to focus on *patterns of approach* rather than *profiles of victims.*
-
-<!-- RESEARCH NEEDED: FTC 2023 Sentinel Network report — verify the $10B figure and get exact breakdown by scam type. AARP has longitudinal data on elder fraud that's more granular. Also need data on recovery rates by scam type and reporting speed. -->
-
-<!-- RESEARCH NEEDED (HUMAN CONDITION): The psychology of shame after fraud. There is a documented "secondary victimization" — the social response to being scammed causes harm comparable to the financial loss itself. Cross (2015) "No laughing matter" in International Review of Victimology is the key reference. Trust is a prosocial trait. The cultural response — "you should have known better" — punishes the victim for a quality we need more of, not less. This is one of the cruelest information asymmetries in the book: the system that should support victims (social networks, family) often compounds the harm. Needs deeper treatment than a footnote. -->
-
-<!-- RESEARCH NEEDED (HUMAN CONDITION): The counterintuitive generational data. FTC 2023 shows Gen Z reports more fraud incidents than Boomers. Boomers lose more per incident (romance scams, investment fraud). The "digital native" assumption is wrong — familiarity breeds overconfidence, not immunity. This flips the cultural narrative and deserves a strong callout or meme. -->
-
-<!-- RESEARCH NEEDED (HUMAN CONDITION): Romance scams exploit loneliness, which the Surgeon General has declared an epidemic. The intersection of isolation, digital communication, and parasocial bonding is underresearched but early work (Whitty 2013, 2015) suggests the grief after discovering a romance scam mirrors grief after a real relationship ends. The person's feelings were real even though the relationship wasn't. This challenges the dismissive framing most people bring to "catfishing" stories and deserves space. -->
-
-[^li3-1]: Cialdini, R.B. (1984). *Influence: The Psychology of Persuasion.* William Morrow.
 
 ---
 
@@ -346,7 +317,7 @@ Please:
 
 ---
 
-#### Li-10: Language Learning Partner
+#### Li-10: Learn a language
 **Strategy:** Research + Navigate (Expert Role)
 **See also:** Li-5: Planning Trips (for travel-specific language prep)
 **The Majordomo says:** *Language immersion programs cost thousands of dollars. [Duolingo](https://en.wikipedia.org/wiki/Duolingo) is free and teaches you how to say “the elephant drinks milk” in seventeen languages. Private tutors charge $40 to $80 per hour and are available when their schedule permits. Your Agent is available now, infinitely patient, never visibly disappointed when you conjugate the same verb wrong for the fifth time, and will have an actual conversation with you about the things you actually need to say — not the things a textbook thinks you should practice.*

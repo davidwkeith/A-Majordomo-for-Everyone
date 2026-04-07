@@ -80,7 +80,7 @@ Please help me:
 
 > **[TIP]** *"I've been on hold for 30 minutes with [company]. While I wait, help me draft the most effective opening statement for when someone picks up. I have [issue] and I want [outcome]."*
 
-> **[MEME]** [*Seinfeld*](https://en.wikipedia.org/wiki/Seinfeld), "The Pen" — Jerry can't say no to a pen he doesn't want, triggering an escalating social debt. Customer service works the same way in reverse: you can't get what you're owed because each representative passes you to the next. The system assumes you will give up. Do not give up. The system is testing your resolve, not your case.
+> **[MEME]** [Seinfeld:S3E3 "The Pen"](https://en.wikipedia.org/wiki/The_Pen_(Seinfeld)) — Jerry can't say no to a pen he doesn't want, triggering an escalating social debt. Customer service works the same way in reverse: you can't get what you're owed because each representative passes you to the next. The system assumes you will give up. Do not give up. The system is testing your resolve, not your case.
 
 <!-- RESEARCH NEEDED: CFPB complaint database is public and effective — companies respond to CFPB complaints at higher rates than direct customer complaints. Filing a complaint at consumerfinance.gov is free and creates a formal record. The Attorney General's consumer complaint process works similarly at the state level. The reader should know these escalation tools exist. -->
 

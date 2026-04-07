@@ -12,9 +12,34 @@ status: "draft"
 
 ---
 
-*[TRINITRON — 8-BIT PIXEL ART: Picard and Data in what appears to be a normal Victorian drawing room. Through the window behind them, barely visible, the hexagonal grid lines of a holodeck. One of them holds a book that should not exist outside the simulation. Their expressions: the specific look of people who have just realized the room is not real. Paper angle: determined by the holodeck grid lines visible through the window — the hex grid runs at roughly 30 degrees. Blue lines of the notebook paper align with the holodeck grid, so that the paper's lines and the simulation's lines are the same lines. The notebook and the holodeck are built from identical rules.]*
+<!-- art
+file: trinitron-s9-create.png
+size: full
+alt: A Trinitron TV on notebook paper showing an 8-bit scene of Picard
+     and Data in a Victorian drawing room. Through the window behind
+     them, barely visible, the hexagonal grid lines of a holodeck.
+     One holds a book that should not exist outside the simulation.
+brief: TRINITRON CHAPTER OPENER. Picard and Data in what appears to be a
+       normal Victorian drawing room. Through the window behind them,
+       barely visible, the hexagonal grid lines of a holodeck. One of
+       them holds a book that should not exist outside the simulation.
+       Their expressions: the specific look of people who have just
+       realized the room is not real. Paper angle: determined by the
+       holodeck grid lines visible through the window — the hex grid
+       runs at roughly 30 degrees. Blue lines of the notebook paper align
+       with the holodeck grid, so that the paper's lines and the
+       simulation's lines are the same lines. The notebook and the
+       holodeck are built from identical rules. Obsession zone: the
+       screen corners. The four corners where the CRT's curvature meets
+       the cabinet bezel — the rubber gasket, the slight gap, the shadow,
+       the place where the image is always slightly compressed by the
+       curve. The boundary between the story and the frame.
+       Caption: >> MORIARTY: I have left the
+       holodeck. I am free. >> PICARD: [to Data]
+       End program. [The room does not change.]
+-->
 
-*[Star Trek: The Next Generation](https://en.wikipedia.org/wiki/Ship_in_a_Bottle_(Star_Trek:_The_Next_Generation)), "Ship in a Bottle" (1993) — [Moriarty](https://en.wikipedia.org/wiki/Moriarty_(Star_Trek)) thought he'd escaped the story. He was still inside someone else's spec.*
+*[Star Trek TNG:S6E12 "Ship in a Bottle"](https://en.wikipedia.org/wiki/Ship_in_a_Bottle_(Star_Trek:_The_Next_Generation)), 1993 — [Moriarty](https://en.wikipedia.org/wiki/Moriarty_(Star_Trek)) thought he'd escaped the story. He was still inside someone else's spec.*
 
 ---
 
@@ -34,7 +59,9 @@ In Star Trek, a holonovel programmer writes the world's rules, the characters' p
 
 This is the correct mental model for AI-assisted creative writing. You are the author. The AI writes sentences. The distinction matters because it determines who makes every decision that matters: you do. The AI makes the decisions you don't care about, which turns out to be most of the sentences.
 
-The failure mode — "I asked it to write me a story and it was generic" — happens because the writer handed the AI both jobs. The AI wrote the sentences *and* made the structural decisions, because no one told it not to. The result is the literary equivalent of a holodeck running without a programmer: technically functional, narratively empty.
+The AI is an incredibly well-read collaborator who was born this morning. All the knowledge. None of the scar tissue. It has read ten thousand love stories but has never loved. It has read every war novel but has never been afraid. It knows what October light looks like in prose — it has read a thousand descriptions — but it has never stood in October light and felt something it couldn't name. Creative inspiration requires being a creature in the world, porous to it, genuinely at stake in it. The AI is not at stake. You are. That is why you are the author.
+
+The failure mode — "I asked it to write me a story and it was generic" — happens because the writer handed the AI both jobs. The AI wrote the sentences *and* made the structural decisions, because no one told it not to. The result is the literary equivalent of a holodeck running without a programmer: technically functional, narratively empty. A well-read person with no life to draw from.
 
 This strategy is about keeping both jobs clearly assigned.
 

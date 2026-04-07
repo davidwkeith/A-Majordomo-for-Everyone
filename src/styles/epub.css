@@ -109,6 +109,8 @@ th {
   border-left: 4px solid #888;
   background: #fafafa;
   font-size: 0.92em;
+  page-break-inside: avoid;
+  break-inside: avoid;
 }
 
 .callout-label {
@@ -250,6 +252,61 @@ th {
 }
 
 .inline-graphic-margin {
+  max-width: 25%;
+}
+
+/* ---- Art Placeholders (no image yet) ---- */
+
+.art-placeholder {
+  margin: 1.2em 0;
+}
+
+.art-placeholder-box {
+  border: 2px dashed #ff0000;
+  background: #f8f8f6;
+  padding: 1em;
+  text-align: center;
+  min-height: 4em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.art-placeholder-file {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.8em;
+  color: #999;
+  margin: 0 0 0.4em;
+}
+
+.art-placeholder-alt {
+  font-style: italic;
+  font-size: 0.85em;
+  color: #666;
+  margin: 0;
+  max-width: 80%;
+}
+
+.art-placeholder-full {
+  text-align: center;
+}
+
+.art-placeholder-half-left {
+  max-width: 45%;
+  float: left;
+  margin-right: 1em;
+  margin-bottom: 0.5em;
+}
+
+.art-placeholder-half-right {
+  max-width: 45%;
+  float: right;
+  margin-left: 1em;
+  margin-bottom: 0.5em;
+}
+
+.art-placeholder-margin {
   max-width: 25%;
 }
 

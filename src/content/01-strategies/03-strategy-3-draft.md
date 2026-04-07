@@ -12,9 +12,28 @@ status: "draft"
 
 ---
 
-*[TRINITRON — 8-BIT PIXEL ART: Murphy at her desk, eyes on the ceiling. Secretary across from her, notepad on knee, pen poised, patient. Typewriter between them with a blank page. Crumpled paper on the floor. Paper angle: determined by Murphy's upward gaze — tilted back, roughly 20 degrees counter-clockwise. Blue lines extend upward toward the ceiling she's staring at, the answer she cannot find.]*
+<!-- art
+file: trinitron-s3-draft.png
+size: full
+alt: A Trinitron TV on notebook paper showing an 8-bit scene of Murphy
+     at her desk, eyes on the ceiling. A secretary sits across from her
+     with a notepad. A typewriter between them has a blank page.
+brief: TRINITRON CHAPTER OPENER. Murphy at her desk, eyes on the ceiling.
+       Secretary across from her, notepad on knee, pen poised, patient.
+       Typewriter between them with a blank page. Crumpled paper on the
+       floor. Paper angle: determined by Murphy's upward gaze — tilted
+       back, roughly 20 degrees counter-clockwise. Blue lines extend
+       upward toward the ceiling she's staring at, the answer she cannot
+       find. Obsession zone: the speaker grill. The woven mesh rendered
+       in obsessive crosshatch — every intersection of the fabric, every
+       small rectangular opening, every shadow between threads. The
+       speaker grill is where the voice comes out.
+       Caption: [Murphy stares at the ceiling.]
+       [The typewriter waits.]
+       >> MURPHY: I know what I want to say.
+-->
 
-*[Murphy Brown](https://en.wikipedia.org/wiki/Murphy_Brown), "Respect" (1988) — Murphy Brown could talk for six hours. She could not start the memo. These are different skills.*
+*[Murphy Brown:S1E1 "Respect"](https://en.wikipedia.org/wiki/Murphy_Brown), 1988 — Murphy Brown could talk for six hours. She could not start the memo. These are different skills.*
 
 ---
 
@@ -29,6 +48,8 @@ Murphy goes through 93 secretaries over the course of the series. The secretarie
 ---
 
 The blank page is the most expensive piece of real estate in your life. It costs you hours of avoidance, low-grade anxiety, and the gradual accumulation of unfinished business that the [Zeigarnik effect](https://en.wikipedia.org/wiki/Zeigarnik_effect) turns into a constant low-level drain on your mental bandwidth. Your Agent does not write the final version. It writes the first version, which is the only one that costs you anything.
+
+The draft it produces will be competent and generic. That is the point. The competent generic draft is not your voice — it is a surface to push against. Your voice emerges in the editing, in the places where you cross out what the AI wrote and replace it with what you actually mean. The AI has read ten thousand demand letters. It knows what a demand letter sounds like. It does not know what *your* demand letter sounds like — the specific weight of your anger, the particular history with this landlord, the sentence where you stop being polite. That part arrives when you edit. The AI brings the library. You bring the life. The draft is where they meet.
 
 **What Draft is for:** Any writing task where the obstacle is starting. Demand letters. Appeal letters. Complaint emails. Eulogies. Apologies. HR grievances. Public comments. Performance self-reviews.
 

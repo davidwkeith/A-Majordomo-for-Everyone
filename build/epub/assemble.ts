@@ -1,10 +1,11 @@
 import JSZip from 'jszip';
-import { writeFile, readFile, readdir, mkdir } from 'node:fs/promises';
+import { writeFile, readFile, readdir, mkdir, access } from 'node:fs/promises';
 import { join, dirname } from 'node:path';
 import type { BookMeta, ProcessedChapter } from '../types.js';
 import {
   containerXml,
   contentOpf,
+  coverXhtml,
   navXhtml,
   tocNcx,
   chapterXhtml,
@@ -32,6 +33,16 @@ export async function assembleEpub(
 ): Promise<void> {
   const zip = new JSZip();
 
+  // Detect cover image
+  const coverPath = join(imagesDir, 'cover.png');
+  let hasCover = false;
+  try {
+    await access(coverPath);
+    hasCover = true;
+  } catch {
+    // No cover image
+  }
+
   // mimetype must be first and uncompressed
   zip.file('mimetype', 'application/epub+zip', {
     compression: 'STORE',
@@ -41,7 +52,12 @@ export async function assembleEpub(
   zip.file('META-INF/container.xml', containerXml());
 
   // OPF
-  zip.file('OEBPS/content.opf', contentOpf(meta, chapters));
+  zip.file('OEBPS/content.opf', contentOpf(meta, chapters, hasCover));
+
+  // Cover page
+  if (hasCover) {
+    zip.file('OEBPS/text/cover.xhtml', coverXhtml(meta));
+  }
 
   // Navigation
   zip.file('OEBPS/nav.xhtml', navXhtml(meta, chapters));

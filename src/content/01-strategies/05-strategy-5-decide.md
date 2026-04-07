@@ -12,9 +12,31 @@ status: "draft"
 
 ---
 
-*[TRINITRON — 8-BIT PIXEL ART: Ross on his couch, early morning, phone in hand. His expression: the precise look of a person who has just realized what he did and what she thinks he did are not the same thing. The apartment is completely ordinary. The disaster is entirely internal. Paper angle: determined by Ross's downward gaze to the phone — slight, 5-8 degrees, barely off level. Almost horizontal. The near-levelness makes it more uncomfortable — the disaster is small in angle and enormous in consequence. Blue lines converge toward the phone in his hand.]*
+<!-- art
+file: trinitron-s5-decide.png
+size: full
+alt: A Trinitron TV on notebook paper showing an 8-bit scene of Ross on
+     his couch, early morning, phone in hand. His expression is the
+     precise look of someone who has just realized what he did and what
+     she thinks he did are not the same thing.
+brief: TRINITRON CHAPTER OPENER. Ross on his couch, early morning, phone
+       in hand. His expression: the precise look of a person who has just
+       realized what he did and what she thinks he did are not the same
+       thing. The apartment is completely ordinary. The disaster is
+       entirely internal. Paper angle: determined by Ross's downward gaze
+       to the phone — slight, 5-8 degrees, barely off level. Almost
+       horizontal. The near-levelness makes it more uncomfortable — the
+       disaster is small in angle and enormous in consequence. Blue lines
+       converge toward the phone in his hand. Obsession zone: the back
+       panel adjustment knobs. Brightness, contrast, color, tint, and
+       sharpness — each graduation mark on the dial face, each pointer
+       position, each label. The decision variables.
+       Caption: >> RACHEL: Maybe we should take
+       a break. >> ROSS: OK. [beat] A break
+       from us? Or a break like a Kit Kat?
+-->
 
-*[Friends](https://en.wikipedia.org/wiki/The_One_Where_Ross_and_Rachel_Take_a_Break), "The One Where Ross and Rachel Take a Break" (1997) — The spec was ambiguous. He executed anyway. This is the entire problem.*
+*[Friends:S3E15 "The One Where Ross and Rachel Take a Break"](https://en.wikipedia.org/wiki/The_One_Where_Ross_and_Rachel_Take_a_Break), 1997 — The spec was ambiguous. He executed anyway. This is the entire problem.*
 
 ---
 
@@ -29,6 +51,8 @@ It is one of the most famous unresolved disputes in 90s television. It was entir
 ---
 
 Your Agent does not know your life. It should not tell you what to do. What it can do is lay out your options with their actual tradeoffs, in plain language, without the agenda that every human advisor carries. The financial advisor who recommends a product has a commission structure. The contractor who says you need a full replacement has a margin on materials. Your Agent has neither. It will give you the map. You drive.
+
+This is where the library meets the life. The AI can tell you the five-year cost difference between refinancing and staying put. It cannot tell you whether stability matters more to you than savings right now. It can lay out the medical options with their success rates. It cannot tell you how much risk your family can absorb this year. Those decisions live in your gut — the compressed wisdom of every hard choice you have already made, every person you are responsible for, every value you have tested against reality. That is not a feeling that occasionally overrides logic. It is the most expensive data you own, paid for in years of being alive. The AI has the library. You have the scar tissue. The scar tissue decides.
 
 **What Decide is for:** Any situation where you're choosing between options and you want to understand the real tradeoffs before you commit.
 

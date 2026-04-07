@@ -7,6 +7,7 @@ import remarkGfm from 'remark-gfm';
 import remarkRehype from 'remark-rehype';
 import rehypeStringify from 'rehype-stringify';
 import remarkCallouts from './plugins/callouts.js';
+import remarkArtBriefs from './plugins/art-briefs.js';
 import rehypeEndnotes from './plugins/endnotes.js';
 import { assembleEpub } from './epub/assemble.js';
 import { BOOK_META } from './types.js';
@@ -22,6 +23,7 @@ const processor = unified()
   .use(remarkParse)
   .use(remarkGfm)
   .use(remarkCallouts)
+  .use(remarkArtBriefs, { imagesDir: IMAGES_DIR })
   .use(remarkRehype, { allowDangerousHtml: true })
   .use(rehypeEndnotes)
   .use(rehypeStringify, {
@@ -55,7 +57,20 @@ async function processChapter(filePath: string): Promise<ProcessedChapter> {
   };
 
   const result = await processor.process(content);
-  const html = String(result);
+  let html = String(result);
+
+  // Strip the first heading if it duplicates the frontmatter title.
+  // The template already emits <h1> from the frontmatter, so a matching
+  // heading in the markdown body is redundant. Handles headings with
+  // prefixes like "Chapter 1:", "Strategy 0:", "Appendix A:", etc.
+  if (meta.title) {
+    const escaped = meta.title.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const prefix = '(?:(?:Chapter|Strategy|Appendix|Part)\\s+[\\w-]+:\\s*)?';
+    html = html.replace(
+      new RegExp(`\\s*<h[1-6][^>]*>\\s*${prefix}${escaped}\\s*</h[1-6]>\\s*`, 'i'),
+      ''
+    );
+  }
 
   return { meta, html, endnotes: [] };
 }

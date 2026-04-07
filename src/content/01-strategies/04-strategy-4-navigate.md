@@ -12,9 +12,29 @@ status: "draft"
 
 ---
 
-*[TRINITRON — 8-BIT PIXEL ART: Jerry and Kramer side by side in a hospital observation gallery, both leaning over the railing with expressions of dawning horror. The surgeon below looks up at them. The scene viewed from slightly above and behind so their faces are visible in profile. Paper angle: determined by the downward lean over the railing — steep, roughly 40 degrees, vertiginous. Blue lines plunge downward toward the operating table, extending the trajectory of the Junior Mint.]*
+<!-- art
+file: trinitron-s4-navigate.png
+size: full
+alt: A Trinitron TV on notebook paper showing an 8-bit scene of Jerry
+     and Kramer leaning over a hospital observation gallery railing with
+     expressions of dawning horror. A surgeon looks up at them from below.
+brief: TRINITRON CHAPTER OPENER. Jerry and Kramer side by side in a
+       hospital observation gallery, both leaning over the railing with
+       expressions of dawning horror. The surgeon below looks up at them.
+       The scene viewed from slightly above and behind so their faces are
+       visible in profile. Paper angle: determined by the downward lean
+       over the railing — steep, roughly 40 degrees, vertiginous. Blue
+       lines plunge downward toward the operating table, extending the
+       trajectory of the Junior Mint. Obsession zone: the coaxial input
+       on the back panel. The F-connector drawn in near-engineering-diagram
+       detail: center pin, outer collar, threading on the connector,
+       cable braid visible at the cut end.
+       Caption: [A Junior Mint falls in slow motion.]
+       >> KRAMER: Oh, that's bad.
+       >> JERRY: Is that bad?
+-->
 
-*[Seinfeld](https://en.wikipedia.org/wiki/The_Junior_Mint), "The Junior Mint" (1993) — The correct procedure existed. Step one was "tell someone." Nobody took step one.*
+*[Seinfeld:S4E20 "The Junior Mint"](https://en.wikipedia.org/wiki/The_Junior_Mint), 1993 — The correct procedure existed. Step one was "tell someone." Nobody took step one.*
 
 ---
 
