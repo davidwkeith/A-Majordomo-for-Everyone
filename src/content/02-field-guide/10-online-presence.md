@@ -16,11 +16,164 @@ status: "draft"
 
 #### Computer Literacy
 
-- Picking an OS
-- Buying devices
-- Learning an App or digital skill like design
-- Vibe coding scripts
-- Learning Agentic Engineering
+*Before the web, before the website, before the blog — there is the machine on the table. The billionaire class has always had someone to choose, configure, and maintain their technology. An IT department. A "tech guy." A personal assistant who handled the setup and called the help desk. Everyone else got a shrink-wrapped box, a quick-start guide written for an imagined user who already understood everything, and the unspoken message that if you couldn't figure it out, the problem was you. It was never you. The problem was a consumer electronics industry that made products for a technical audience and marketed them to everyone. Your Agent can close that gap — not by making you technical, but by translating the technical into the specific.*
+
+---
+
+#### WB-7: Choosing a Device or Operating System
+**Strategy:** Decide + Research
+**See also:** WB-1: Building Your Own Website (for what to do once you have the device), M-3: Making a Major Purchase Decision
+**The Majordomo says:** *The choice between Mac, Windows, Linux, iPhone, and Android is presented as an identity decision — a lifestyle brand, a tribe. It is not. It is a tool decision, and tool decisions have a correct framework: what do you need to do, what does the tool need to support, and what are you willing to pay for the difference? The billionaire class buys whatever their IT person recommends and never thinks about it again. You can replicate that advice for free.*
+**The spec:**
+```
+I need to [buy a new computer / replace my phone / decide whether
+to switch from Windows to Mac or vice versa / set up a computer
+for my parent / choose a tablet for reading and light work].
+My situation:
+— What I mainly use it for: [list: email, web, writing, video calls,
+   photo editing, streaming, work software, specific apps]
+— My budget: [amount, or "as little as possible"]
+— What I currently have: [device and what I like/dislike about it]
+— What frustrates me most about my current setup: [be specific]
+Please give me:
+1. A clear recommendation with the reasoning — not a ranked list
+   of ten options, one recommendation and why
+2. What I would gain and lose compared to what I have now
+3. The one thing most people overpay for that I can skip
+4. What to do with my old device (recycle, donate, repurpose)
+```
+**What to do with the output:** Buy the thing. Not the premium version, not the sale version — the version your Agent recommended based on what you actually told it you do. If the recommendation surprises you, ask why. If it confirms what you already suspected, you just saved yourself four hours of reading tech reviews written for enthusiasts.
+
+> **[TIP]** *"I'm not technical. Should I get a Mac or a PC?"* is a question your Agent handles better than any friend, because it will ask what you actually do before answering. The honest answer for most people: either will work, and the one you're already familiar with has a real advantage called switching cost.
+
+> **[FAIRNESS]** Tech recommendation algorithms — on review sites, YouTube, retailer pages — are optimized for affiliate revenue, not for your situation. A $300 Chromebook is the correct answer for a surprising number of people, but it generates less affiliate commission than a $1,200 laptop, so it appears less often in "best of" lists. Your Agent has no affiliate links.
+
+> **[SCIENCE]** The paradox of choice (Schwartz, 2004) is particularly acute in consumer electronics: more options lead to worse decisions and lower satisfaction. Research consistently shows that people who are given a constrained choice set — three options instead of thirty — make faster decisions and report higher satisfaction with the result. Asking your Agent for one recommendation instead of a ranked list is not lazy. It is the research-backed approach.[^wb7-1]
+
+[^wb7-1]: Schwartz, B. (2004). *The Paradox of Choice: Why More Is Less.* Ecco/HarperCollins.
+
+---
+
+#### WB-8: Learning Any App or Digital Skill
+**Strategy:** Decode + Navigate
+**See also:** WB-3: Writing in CommonMark (a specific digital skill), W-5: Learning a New Professional Skill
+**The Majordomo says:** *Software manuals died in the early 2000s and were replaced by nothing. YouTube tutorials assume you already know the vocabulary. Official documentation is written for developers. The result is a population that uses about 10% of the tools they pay for — not because they are incapable of learning the other 90%, but because no one will explain it at the level they're actually at, without judgment, for as long as it takes. Your Agent will.*
+**The spec:**
+```
+I want to learn [app or skill: Photoshop / Excel / video editing /
+graphic design basics / email management / a new phone feature /
+how to use my smart home devices / digital drawing / etc.].
+My current level: [never used it / tried it once and got lost /
+use it for basic things but want to do more / switching from
+a different tool]
+My goal: [what I specifically want to be able to do — not
+"learn Photoshop" but "edit my photos so they look better
+before I post them" or "make a flyer for my community event"]
+Please:
+1. Tell me the three things to learn first that will cover
+   80% of what I need
+2. Walk me through each one step by step, with the exact
+   buttons and menu items to click
+3. Give me a practice exercise I can do in 15 minutes
+4. Tell me what most tutorials waste time on that I can skip
+```
+**What to do with the output:** Do the practice exercise. Not tomorrow — now. The gap between "I should learn this" and "I know this" is one fifteen-minute session where you actually click the buttons. Your Agent can see your screen if you use the desktop version of most AI tools — paste a screenshot and say *"I'm stuck here, what do I click next?"* That is the most underused feature in AI right now.
+
+> **[TIP]** *"Explain this like I've never seen this software before"* is not a childish prompt. It is the correct prompt. The curse of knowledge — the inability of experts to remember what it was like to not know — is the reason most software tutorials are bad. Your Agent does not have this curse.
+
+> **[ALSO]** Claude, ChatGPT, and Gemini can all accept image uploads — paste a screenshot of whatever you're stuck on and ask "what am I looking at and what should I do next?" Copilot integrates directly into Windows and can see your active application. See [Appendix G](06-appendix-g-feature-table.xhtml).
+
+> **[SCIENCE]** The "80/20 rule" in skill acquisition is well-documented: approximately 20% of a tool's features account for 80% of typical use (Koch, 1998, applying Pareto's principle to productivity). Learning the critical 20% first — rather than working through a curriculum designed to cover everything — is consistently more effective for adult learners who have a specific goal (Knowles, 1984).[^wb8-1]
+
+<!-- RESEARCH NEEDED: The digital skills gap is a class issue. The OECD's Survey of Adult Skills consistently finds that digital problem-solving ability correlates more strongly with socioeconomic status than with age. The "digital native" narrative — young people are automatically tech-literate — is a myth that obscures the real divide: access to patient instruction, not access to devices. -->
+
+[^wb8-1]: Koch, R. (1998). *The 80/20 Principle.* Doubleday. See also: Knowles, M.S. (1984). *Andragogy in Action.* Jossey-Bass.
+
+---
+
+#### WB-9: Writing Small Scripts and Automations
+**Strategy:** Create + Navigate
+**See also:** WB-1: Building Your Own Website (for web-scale projects), WB-3: Writing in CommonMark
+**The Majordomo says:** *Programming used to require a computer science degree, or at minimum the personality type that enjoys reading documentation for fun. It does not anymore. Your Agent can write small programs — scripts — that automate the tedious parts of your digital life: renaming five hundred photos, sorting a spreadsheet, converting files from one format to another, scraping a price from a website every morning. You do not need to learn to code. You need to learn to describe what you want the code to do. Which is — and this is the point of this entire book — specification.*
+**The spec:**
+```
+I have a repetitive task I want to automate:
+[describe the task in plain language — e.g., "every week I download
+a CSV from my bank, open it in Excel, and manually categorize
+each transaction" or "I have 300 photos with meaningless filenames
+and I want to rename them by date" or "I want to be notified
+when a product drops below a certain price"]
+I am not a programmer. I have never written code before.
+Please:
+1. Tell me if this can be automated with a simple script
+2. Write the script for me, in the simplest language
+   that will work
+3. Explain how to run it — assume I don't know what
+   a terminal is
+4. Tell me what could go wrong and how to fix it
+```
+**What to do with the output:** Run the script on a small test set first — ten files, not three hundred. Read the explanation of what the script does even if you don't understand every line. You are not trying to become a programmer. You are trying to stop doing the same tedious task every week. That is a legitimate use of the technology, and it is the one that saves the most time for the most people.
+
+The term for this is *vibe coding* — describing what you want in plain language and letting the AI write the code. It is not a shortcut or a cheat. It is specification literacy applied to software. The spec is the program. The code is just the translation.
+
+> **[TIP]** Start with something small and annoying. "Rename all the files in this folder from IMG_XXXX.jpg to YYYY-MM-DD.jpg based on the date the photo was taken" is a ten-line script that saves hours. The win matters more than the scale.
+
+> **[MEME]** [Al Borland](https://en.wikipedia.org/wiki/Home_Improvement_(TV_series)) could have fixed the problem in ten minutes. Tim Taylor grabbed the power tool and made it worse for twenty-two. Vibe coding is letting Al write the script. You describe the project. Al does the wiring. The house does not catch fire.
+
+> **[SCIENCE]** End-user programming research (Scaffidi et al., 2005) estimated that by 2012 there would be 55 million "end-user programmers" in the United States — people who write scripts, macros, and formulas as part of their non-programming jobs — compared to 3 million professional developers. AI-assisted code generation does not create a new category. It dramatically lowers the barrier to a category that already existed.[^wb9-1]
+
+> **[FAIRNESS]** Your Agent will default to writing scripts in Python, which requires installation. If you want something that runs without installing anything, say *"Write this as a script I can run in my web browser's console"* (JavaScript) or *"Write this as a spreadsheet formula."* The fewer dependencies, the fewer things that can break.
+
+<!-- RESEARCH NEEDED: Vibe coding as a term emerged from Andrej Karpathy's description of AI-assisted programming in early 2025. The concept is older — end-user development, programming by example, natural language programming have been research areas for decades. What changed is that the AI is now good enough that "describe what you want" actually produces working code for simple tasks. The success rate for simple scripts (file operations, data formatting, text processing) is high. The success rate for complex applications is lower and drops sharply with ambiguity in the spec — which is the same pattern as everything else in this book. -->
+
+[^wb9-1]: Scaffidi, C., Shaw, M., & Myers, B. (2005). "Estimating the numbers of end users and end user programmers." *2005 IEEE Symposium on Visual Languages and Human-Centric Computing*, 207–214.
+
+---
+
+#### WB-10: Learning to Work with AI Agents
+**Strategy:** Specify + Research
+**See also:** Strategy 0: Specify (the full specification interview method), Chapter 4: How to Ask for What You Actually Want
+**The Majordomo says:** *This is the entry that teaches you how to use the tool that powers every other entry. If the book is a workshop, this is the safety orientation for the power tools. The billionaire class did not need to learn this — they already had a staff that translated vague instructions into precise tasks. The chief of staff, the executive assistant, the law clerk — these are human specification interfaces. You are learning the same skill, applied to a different kind of assistant.*
+**The spec:**
+```
+I want to get better at working with AI Agents — not just
+using them, but understanding how to get consistently useful
+results. I have been using [Claude / ChatGPT / Gemini / Copilot]
+for [how long] and my experience so far is [describe honestly:
+sometimes useful, sometimes useless / great for simple things
+but fails on complex ones / I don't know what to ask it / etc.].
+Please help me understand:
+1. What is the single most important thing that separates
+   a good AI conversation from a bad one?
+2. What are the three most common mistakes people make
+   when talking to an AI Agent?
+3. How do I know when the AI is giving me a good answer
+   versus a confident-sounding bad one?
+4. What should I never trust it for without verification?
+5. Give me a practice exercise: a real-world task I can try
+   right now that will teach me the most about how this works
+```
+**What to do with the output:** Do the exercise. Then do the same exercise again, but badly — give the Agent a vague, context-free prompt and compare the results. The difference between the two outputs is specification literacy made visible. You will not need to read a book about it after that. You will have felt it.
+
+This entry is recursive by design. You are using your Agent to learn how to use your Agent. The specification interview loop — describe your situation, answer the clarifying questions, review the proposed spec, correct what is wrong — is the same whether you are asking about insurance or asking about the tool itself. The skill is the skill. It transfers to everything.
+
+> **[SPEC]** Here is a full specification interview for this entry:
+>
+> **You:** *I've been using ChatGPT for about six months. It's helpful for simple things but whenever I ask something complicated, the answer feels generic. I want to learn how to get better results.*
+>
+> **Agent:** *Can you give me an example of a "complicated" question that produced a generic answer? And when you say "generic" — does it feel too broad, too cautious, or like it doesn't understand your specific situation?*
+>
+> **You:** *I asked it to help me negotiate my lease renewal. It gave me a list of general negotiation tips that could have been from any website.*
+>
+> **Agent:** *That makes sense. It gave you a generic answer because it didn't know your lease situation. Next time, try: "My lease renews in 60 days. The rent increase is 8%. I've been here 4 years, always paid on time, and comparable units in my building are listed at 5% less. I want to negotiate the increase down. Draft a message to my landlord." That version gives me enough to work with. The first version could have been asked by anyone — the second could only have been asked by you.*
+
+> **[SCIENCE]** Research on expertise development (Ericsson et al., 1993) identifies *deliberate practice* — structured, feedback-rich repetition focused on specific weaknesses — as the primary mechanism of skill acquisition. Using an AI Agent well is a skill, and it develops the same way other skills do: through repeated use with attention to what works and what doesn't. The calibration question ("how confident are you?") is the built-in feedback mechanism.[^wb10-1]
+
+> **[MEME]** "I know kung fu." No, you don't. But you know someone who has read every martial arts manual ever written and can walk you through any technique on demand. That is a different thing, and it is genuinely useful — as long as you remember that reading about a roundhouse kick and doing one are different activities.
+
+[^wb10-1]: Ericsson, K.A., Krampe, R.T., & Tesch-Römer, C. (1993). "The role of deliberate practice in the acquisition of expert performance." *Psychological Review*, 100(3), 363–406.
+
+---
 
 #### WB-1: Building Your Own Website with Your Agent
 **Strategy:** Create + Navigate
