@@ -45,7 +45,7 @@ Each strategy chapter (0 through 9) opens with a full-width illustration using a
 
 ### Layer 1: The Notebook Page
 
-Standard American college-ruled notebook paper. Blue horizontal lines. Red vertical margin line on the left. No paper edges visible — the paper extends beyond all four sides of the frame. The paper is the background, not an object placed on a background. If the paper logically ends, the background is transparent, otherwise the background fades. The lines on the paper are precise, as if the image was scanned.
+Standard American college-ruled notebook paper. Blue horizontal lines. No vertical margin line on the left. No paper edges visible — the paper extends beyond all four sides of the frame. The paper is the background, not an object placed on a background. If the paper logically ends, the background is transparent, otherwise the background fades. The lines on the paper are precise, as if the image was scanned.
 
 **The paper is at an angle.** Each chapter has a unique rotation determined by the primary action direction in the pixel art on screen. The blue lines run diagonally, extending the compositional vectors of the image. No two chapters share the same angle. The specific angle for each chapter is specified in the chapter's TRINITRON art brief.
 

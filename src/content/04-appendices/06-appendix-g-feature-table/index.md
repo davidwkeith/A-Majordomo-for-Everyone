@@ -1,0 +1,101 @@
+---
+title: "Appendix G: Feature Translation Table"
+part: 4
+order: 6
+strategy: null
+status: "draft"
+---
+
+## Appendix G: Feature Translation Table
+
+*The [ALSO] blocks throughout this book point here for the full reference. This table is a living document -- tool features change, names change, new tools emerge. Current version maintained at [companion URL TBD]/features.*
+
+The book uses Claude as its default example. Every feature named below exists in some form across all major tools, but the names differ. This table is your vocabulary key.
+
+---
+
+### Persistent Memory and Context
+
+| What it does | Claude | Gemini | ChatGPT | Copilot |
+|---|---|---|---|---|
+| Save instructions that apply to every conversation | Custom Instructions | System Instructions | Custom Instructions | Custom Instructions |
+| Save info about you that persists across chats | Memory | Personalization | Memory | (limited) |
+| Named workspace for related conversations | Project | Gem | GPT (custom) | (not available) |
+| Upload files to reference across conversations | Project files | Gem files | GPT knowledge | (limited) |
+
+> **Note on Projects / Gems / Custom GPTs:** These are the most important feature to understand across tools. In Claude, a **Project** is a named workspace where you store instructions, background documents, and a history of related conversations -- your AI majordomo's briefing folder for a specific domain of your life. In Gemini, the equivalent is a **Gem**. In ChatGPT, it is a **custom GPT**. In Copilot, this capability is limited. The underlying concept is identical: you tell the tool once who you are and what you need in this context, and it remembers for every subsequent conversation in that space.
+
+---
+
+### Conversation Management
+
+| What it does | Claude | Gemini | ChatGPT | Copilot |
+|---|---|---|---|---|
+| Start a fresh conversation | New Chat | New Chat | New Chat | New Topic |
+| Named saved conversation | Chat / Thread | Conversation | Chat | Thread |
+| Search past conversations | Search | Search | Search | (limited) |
+| Share a conversation | Share link | Share link | Share link | (limited) |
+
+---
+
+### File and Document Handling
+
+| What it does | Claude | Gemini | ChatGPT | Copilot |
+|---|---|---|---|---|
+| Upload a file to the current conversation | Attach file | Upload file | Attach file | Upload file |
+| Paste text directly | Paste in message | Paste in message | Paste in message | Paste in message |
+| Analyze an image | Attach image | Upload image | Attach image | Upload image |
+| Generate an image | (via third-party) | ImageFX / Imagen | DALL-E | Designer |
+
+---
+
+### Web and Search
+
+| What it does | Claude | Gemini | ChatGPT | Copilot |
+|---|---|---|---|---|
+| Search the web in real time | Web search (paid) | Default on | Available (free) | Default on |
+| Cite sources from web results | Yes | Yes | Yes | Yes |
+| Access current news | Paid tier | Yes | Yes | Yes |
+
+---
+
+### Extended Thinking and Reasoning
+
+| What it does | Claude | Gemini | ChatGPT | Copilot |
+|---|---|---|---|---|
+| Slow, step-by-step reasoning mode | Extended thinking | Deep Research | o1 / o3 reasoning | Think Deeper |
+| Standard fast response | Default | Default | Default (GPT-4o) | Default |
+
+---
+
+### Voice and Interface
+
+| What it does | Claude | Gemini | ChatGPT | Copilot |
+|---|---|---|---|---|
+| Talk to the AI by voice | Voice (mobile) | Voice (mobile) | Voice / Advanced Voice | Voice |
+| Mobile app | iOS / Android | iOS / Android | iOS / Android | iOS / Android |
+| Desktop app | Mac / Windows | (browser) | Mac / Windows | (built into Windows) |
+| Browser integration | (extension) | Chrome integration | (extension) | Edge built-in |
+
+---
+
+### Paid vs. Free
+
+| | Claude | Gemini | ChatGPT | Copilot |
+|---|---|---|---|---|
+| Free tier name | Claude (free) | Gemini | ChatGPT Free | Copilot (free) |
+| Paid tier name | Claude Pro | Gemini Advanced | ChatGPT Plus | Copilot Pro |
+| Paid price (approx.) | $20/mo | $20/mo | $20/mo | $20/mo |
+| Key paid benefit | Higher limits, extended thinking, Projects | Gemini Advanced model, more Gems | GPT-4o full access, more GPTs | Priority access, more features |
+
+*All pricing and feature availability subject to change. See [companion URL TBD]/features for current information.*
+
+---
+
+### The One That Matters Most for This Book
+
+**Projects (Claude) = Gems (Gemini) = Custom GPTs (ChatGPT)**
+
+If you read one section of this table, read this one. The most powerful technique in this book -- building a persistent context for a domain of your life so your AI majordomo already knows your situation -- requires this feature. The names differ. The capability is the same. Once you have set up a Project, Gem, or custom GPT for your household, your health situation, or your finances, every subsequent conversation in that space starts with your majordomo already briefed.
+
+The book's Chapter 3 explains how to use this. This table tells you what to look for in your tool of choice.

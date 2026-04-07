@@ -70,16 +70,35 @@ status: "draft" | "stub"
 
 ## Art Brief Syntax
 
-```markdown
-<!-- art
-file: image-name.png
+Art briefs are `.art.md` sidecar files that live next to the chapter they belong to. The filename (minus `.art.md`) is the image stem — the build looks for `{stem}.{format}` in `src/images/`.
+
+**Sidecar file** (`src/content/.../image-name.art.md`):
+
+```yaml
+---
+format: png
 size: full | half-left | half-right | margin
-alt: Accessibility description for screen readers.
-brief: Production instruction for the illustrator.
--->
+alt: >
+  Accessibility description for screen readers.
+---
+
+Production brief for the illustrator. This is the body of the file,
+not a frontmatter field.
 ```
 
-Art direction is permanent — comments stay in the source after the image is produced. If the image exists and contains XMP metadata, the embedded `Iptc4xmpCore:AltTextAccessibility` is used for alt text. If the image does not exist, a red-dashed placeholder box renders with the alt text in an expandable `<details>` element.
+**Chapter reference** — just the stem name:
+
+```markdown
+<!-- art: image-name -->
+```
+
+**Image output** always goes to `src/images/`. The build resolves `<!-- art: name -->` by looking up the `.art.md` sidecar, then checking `src/images/{name}.{format}`. If the image exists and contains XMP metadata, the embedded `Iptc4xmpCore:AltTextAccessibility` is used for alt text. If the image does not exist, a placeholder box renders with the alt text and brief in an expandable `<details>` element.
+
+**Missing art** — use `--generate` to invoke image generation for missing images:
+
+```bash
+npm run build -- --generate   # generate missing art, then build ePub
+```
 
 Embed XMP into produced images:
 

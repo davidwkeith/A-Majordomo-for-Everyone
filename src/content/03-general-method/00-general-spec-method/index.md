@@ -1,0 +1,95 @@
+---
+title: "The General Specification Method"
+part: 3
+order: 0
+strategy: null
+status: "draft"
+---
+
+# PART THREE: THE GENERAL METHOD
+
+*For situations the Field Guide doesn't cover. Once you know the nine strategies and have seen them applied, this part shows you how to apply any of them to any situation this book doesn't address. The Five-Part Frame is a spec template. The calibration question is a verification tool. The refinement loop runs until the output is usable.*
+
+---
+
+## The General Specification Method
+
+Every problem in this book is a variation on a general skill: turning a confusing or overwhelming situation into a clear, specific request. Once you have that skill, you do not need this book to cover your situation. You can handle anything.
+
+Here is the framework in its most general form.
+
+### The Five-Part Problem Frame
+
+**1. Who you are in this situation**
+
+Not your name. Your *role* in the specific situation. Are you the tenant or the landlord? The parent or the child? The employee or the employer? The buyer or the seller? Claude needs to know whose perspective it is helping, and what constraints that role carries.
+
+```
+I am a first-generation homeowner who has never dealt with a
+homeowner's association before...
+```
+
+**2. What happened**
+
+The facts, as specifically as possible. Dates matter. Amounts matter. What was said or written matters. If you have a document -- a letter, a contract, a bill -- paste the relevant section directly into the conversation.
+
+```
+...I received a letter dated October 3rd stating that my fence
+is in violation of HOA guidelines, with a fine of $150 per day
+starting October 17th. I was not aware of any fence height
+restrictions when I purchased the home...
+```
+
+**3. What you want**
+
+The actual outcome you are trying to achieve. Not "help" -- a specific result. Do you want to understand your options? Do you want a draft letter? Do you want to know if you have grounds to dispute this? Say exactly what you want.
+
+```
+...I want to understand whether I have grounds to dispute this
+fine, and if so, what my first step should be.
+```
+
+**4. What you want to avoid**
+
+The failure modes that matter to you. What does a bad outcome look like? What do you not want to say or do? This information shapes Claude's answer away from generic advice and toward your specific constraints.
+
+```
+...I want to avoid escalating this into a legal dispute if
+possible, because I plan to stay in this neighborhood long-term.
+```
+
+**5. What format you need**
+
+A list, a letter, an explanation, a set of options, a yes/no answer, a step-by-step plan. If you do not specify a format, Claude will default to prose, which is sometimes not what you need.
+
+```
+...Please give me a plain-language explanation of my rights
+and a numbered list of my options, from least to most
+confrontational.
+```
+
+### The Complete Spec
+
+Assembled, the example above looks like this:
+
+```
+I am a first-generation homeowner who has never dealt with a
+homeowner's association before. I received a letter dated October 3rd
+stating that my fence is in violation of HOA guidelines, with a fine
+of $150 per day starting October 17th. I was not aware of any fence
+height restrictions when I purchased the home.
+
+I want to understand whether I have grounds to dispute this fine,
+and if so, what my first step should be. I want to avoid escalating
+this into a legal dispute if possible, because I plan to stay in this
+neighborhood long-term.
+
+Please give me a plain-language explanation of my rights and a
+numbered list of my options, from least to most confrontational.
+```
+
+This spec will produce a genuinely useful response for a situation this book does not specifically cover. The same frame works for a zoning dispute, a workers' compensation question, a complicated family business conflict, or anything else you bring to it.
+
+> **[SCIENCE]** The cognitive process of translating a stressful situation into a structured written description is itself a therapeutic act. Expressive writing research (Pennebaker, 1997) consistently shows that people who write about stressful events in an organized, narrative form -- as opposed to ruminating or avoiding -- show lower stress biomarkers, improved immune function, and better problem-solving performance in the days that follow. The Five-Part Frame is not just a technique for getting better answers from Claude. It is a technique for getting clearer in your own mind about what you actually need.[^30-1]
+
+[^30-1]: Pennebaker, J.W. (1997). *Opening Up: The Healing Power of Expressing Emotions.* Guilford Press. See also: Klein, K. & Boals, A. (2001). "Expressive writing can increase working memory capacity." *Journal of Experimental Psychology: General*, 130(3), 520-533.

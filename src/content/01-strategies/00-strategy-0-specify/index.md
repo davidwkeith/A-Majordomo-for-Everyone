@@ -1,0 +1,161 @@
+---
+title: "Strategy 0: Specify"
+part: 1
+order: 0
+strategy: 0
+status: "draft"
+---
+
+## Strategy 0: Specify
+
+*The meta-strategy. Runs before all others.*
+
+---
+
+<!-- art: trinitron-s0-specify -->
+
+*[Seinfeld:S4E3 "The Pitch"](https://en.wikipedia.org/wiki/The_Pitch_(Seinfeld)), 1992 — George has a concept. He cannot specify it. This is always how it starts.*
+
+---
+
+**The episode:** Jerry and George pitch a TV show to NBC. George's concept is "a show about nothing." The NBC executive asks what happens in the show. George explains that nothing happens — the characters talk, they exist, nothing is resolved. The executive asks for a script. George has no script. He has no characters. He has no setting. He has a vibe.
+
+The show gets made anyway — badly, expensively, disastrously — because nobody stopped at the beginning and asked George five clarifying questions.
+
+**The lesson:** An empty spec doesn't produce nothing. It produces something — just not what you wanted. The AI, like NBC, will execute against whatever specification it receives. If the specification is "a show about nothing," you will get something about nothing. The clarifying questions are not an obstacle. They are the work.
+
+*"Murphy Brown specified 'secretary.' She got 93 different interpretations of that word. Data asked the clarifying question. This chapter is Data."*
+
+---
+
+Every strategy in this book begins here. Before your Agent can Decode, Draft, Navigate, or Assert anything for you, it needs to understand your situation precisely enough to do the work correctly. That precision is the specification.
+
+The insight that makes this book work: **you do not have to write the spec.** Your Agent will interview you into one. Your job is to answer its questions honestly and tell it when the spec it proposes doesn't accurately reflect your situation. That is a human skill you already have. You know your own situation. You just needed someone to ask the right questions.
+
+### The Specification Interview Loop
+
+Here is the full loop, annotated. This is what every `[SPEC]` sidebar in this book is showing you.
+
+```
+STEP 1: Describe your situation loosely.
+Don't worry about being precise. Just say what's going on.
+
+STEP 2: Your Agent asks clarifying questions.
+Usually three to five. Answer them honestly.
+If you don't know the answer to one, say so.
+
+STEP 3: Your Agent proposes a specification.
+It will say something like: "Based on what you've told me,
+here is what I understand you need..." followed by a clear,
+structured description of the task.
+
+STEP 4: You review the spec.
+Ask yourself: does this accurately describe my situation?
+Does it include everything that matters?
+Does it leave out anything important?
+
+STEP 5: You correct anything that's wrong.
+One or two corrections is normal. More than that means
+step back and re-describe the situation — something
+important didn't come through.
+
+STEP 6: Your Agent executes against the confirmed spec.
+
+STEP 7: You evaluate the output.
+If it's not right, the spec was incomplete.
+Ask: "What did I not tell you that would have changed this answer?"
+That question surfaces the missing piece.
+Add it. Run the loop again.
+```
+
+### A Full Example
+
+The situation: you got a letter from your health insurance company saying they're denying coverage for a procedure your doctor ordered. You are furious and do not know what to do.
+
+**Your opening message:**
+```
+My insurance denied a claim. I need to appeal it.
+```
+
+**Your Agent's clarifying questions:**
+```
+I can help you with that. A few questions to make sure
+I give you the right approach:
+
+1. What type of claim was denied — a procedure that
+   hasn't happened yet, or one that already did?
+2. What reason did the denial letter give?
+3. Have you already contacted your insurance company
+   about this, or is this your first step?
+4. What outcome do you want — to get the procedure
+   approved, to get a past procedure paid for, or both?
+```
+
+**Your answers:**
+```
+1. Procedure that hasn't happened yet — my doctor ordered
+   an MRI and they said it's not medically necessary.
+2. The letter says "not medically necessary."
+3. Haven't contacted them yet. Just got the letter today.
+4. I want the MRI approved.
+```
+
+**Your Agent proposes the spec:**
+```
+Here's what I understand you need:
+
+You've received a prior authorization denial for an MRI
+your doctor ordered. The denial reason is "not medically
+necessary." You want to file a first-level internal appeal
+to get the procedure approved before it happens. You have
+not yet contacted the insurance company.
+
+I'll help you draft an appeal letter that:
+— cites the specific denial reason
+— requests your doctor provide supporting documentation
+— references the relevant appeals timeline language
+— is firm without being hostile, since you may need
+   to escalate further if this appeal fails
+
+Does this match your situation? Anything I got wrong
+or anything important I missed?
+```
+
+**Your correction:**
+```
+Yes, but also — my doctor's office said they can provide
+a letter of medical necessity. Can the appeal reference that?
+```
+
+**Your Agent confirms and executes.**
+
+> **[SCIENCE]** The interview-to-specification process maps directly to what therapists call *collaborative formulation* — the structured process by which a therapist and client jointly develop an accurate description of the presenting problem before attempting to address it. Research consistently shows that collaborative formulation produces better treatment outcomes than clinician-only assessment, because the client's corrections to the initial formulation contain essential information the clinician could not have known (Kuyken et al., 2009).[^s0-1]
+
+[^s0-1]: Kuyken, W., Padesky, C.A., & Dudley, R. (2009). *Collaborative Case Conceptualization.* Guilford Press. The parallel to AI specification is direct: the user's corrections to the Agent's proposed spec contain exactly the contextual information that distinguishes their situation from the generic case.
+
+### The Expert Role Variant
+
+Some situations don't need a document decoded or a process navigated. They need a knowledgeable person to look at your specific situation and tell you what they see.
+
+For these, there is a Specify shortcut: the Expert Role spec. Instead of waiting for your Agent to interview you into a spec, you open by assigning it a role and describing your situation in one paragraph. Your Agent will ask any clarifying questions it needs, then proceed.
+
+```
+Act as an experienced [Master Gardener / certified dog trainer /
+right-to-repair technician / personal trainer / etc.].
+Here is my situation: [describe it specifically].
+What do I need to know, and what should I do first?
+```
+
+The Expert Role spec works because your Agent has read the training materials, certification curricula, and professional literature for most well-documented fields. It can hold that knowledge in the frame of a specific expert's perspective for the duration of your conversation.
+
+**What it's not:** A licensed professional. The Master Gardener variant will not carry liability for your tomatoes. The personal trainer variant will not spot you. The Expert Role is the knowledgeable friend who happens to have the credentials, not the credentialed professional who carries accountability. For everything in the Everyday Expertise section of the Field Guide, this distinction is fine. For the system-navigation entries — legal, medical, financial — the Expert Role is a starting point, not an endpoint.
+
+**Works with any AI assistant.** The Expert Role spec functions identically in Claude, ChatGPT, Gemini, and Copilot. Some tools will stay in the role more consistently than others — if one drifts out of the advisor frame and starts adding unnecessary caveats, try the same spec in a different tool.
+
+> **[ALSO]** To make an Expert Role persistent across sessions — so your AI majordomo is always the Master Gardener when you open a particular context — save it as a Project instruction (Claude), Gem instruction (Gemini), or custom GPT instruction (ChatGPT). Paste: *"You are an experienced Master Gardener. My garden is in [zone]. Always respond in that role unless I explicitly ask you to step out of it."* See [Appendix G](06-appendix-g-feature-table.xhtml).
+
+> **[MEME]** "I know kung fu." The Expert Role spec is not the Matrix download. You still have to do the work. But knowing what work to do, in what order, and why — that part just got faster.
+
+> **[SCIENCE]** Research on informal expert consultation — asking a friend who happens to have professional knowledge — consistently shows outcomes comparable to formal consultation for routine, non-crisis situations (Pescosolido, 1992). The key variable is not the formal credential but the quality of the information and the specificity of its application to the person's situation. The Expert Role spec replicates the informal expert consultation at scale.[^s0-2]
+
+[^s0-2]: Pescosolido, B.A. (1992). "Beyond rational choice: The social dynamics of how people seek help." *American Journal of Sociology*, 97(4), 1096-1138.

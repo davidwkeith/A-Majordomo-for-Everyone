@@ -1,20 +1,32 @@
 import type { Root, Html } from 'mdast';
 import type { Plugin } from 'unified';
 import { visit } from 'unist-util-visit';
-import { readFileSync, accessSync } from 'node:fs';
-import { join } from 'node:path';
+import { accessSync, readdirSync, readFileSync } from 'node:fs';
+import { join, basename } from 'node:path';
+import matter from 'gray-matter';
 import sharp from 'sharp';
 
-interface ArtBrief {
-  file: string;
+/** Parsed art brief from a .art.md sidecar file. */
+export interface ArtBrief {
+  /** Base name without extension, e.g. "trinitron-s0-specify" */
+  stem: string;
+  /** Output image format: png, jpg, webp, etc. */
+  format: string;
+  /** Layout size: full, half-left, half-right, margin */
   size: string;
+  /** Accessibility description for screen readers */
   alt: string;
+  /** Production brief for the illustrator (body of .art.md) */
   brief: string;
+  /** Absolute path to the .art.md source file */
+  sourcePath: string;
 }
 
 interface ArtBriefsOptions {
   /** Absolute path to src/images directory */
   imagesDir: string;
+  /** Pre-discovered art brief registry, keyed by stem name */
+  briefs: Map<string, ArtBrief>;
 }
 
 /** XMP fields extracted from image metadata */
@@ -24,46 +36,47 @@ interface XmpFields {
   rights?: string;
 }
 
-function parseArtComment(value: string): ArtBrief | null {
-  const inner = value.replace(/^<!--\s*art\s*\n?/, '').replace(/\s*-->$/, '');
-
-  const fields: Record<string, string> = {};
-  let currentField = '';
-  let currentValue = '';
-
-  for (const line of inner.split('\n')) {
-    const trimmed = line.trim();
-    if (!trimmed) continue;
-
-    const match = trimmed.match(/^(\w+):\s*(.*)$/);
-    if (match) {
-      if (currentField) {
-        fields[currentField] = currentValue.trim();
-      }
-      currentField = match[1];
-      currentValue = match[2];
-    } else if (currentField) {
-      currentValue += ' ' + trimmed;
+/**
+ * Scan a directory recursively for *.art.md sidecar files and parse them
+ * into a brief registry keyed by stem name.
+ */
+export function discoverBriefs(contentDir: string): Map<string, ArtBrief> {
+  const briefs = new Map<string, ArtBrief>();
+  try {
+    const entries = readdirSync(contentDir, { recursive: true });
+    for (const entry of entries) {
+      const e = String(entry);
+      if (!e.endsWith('.art.md')) continue;
+      const fullPath = join(contentDir, e);
+      const raw = readFileSync(fullPath, 'utf-8');
+      const { data, content } = matter(raw);
+      const stem = basename(e, '.art.md');
+      briefs.set(stem, {
+        stem,
+        format: String(data.format ?? 'png'),
+        size: String(data.size ?? 'full'),
+        alt: String(data.alt ?? ''),
+        brief: content.trim(),
+        sourcePath: fullPath,
+      });
     }
+  } catch {
+    /* contentDir missing */
   }
-
-  if (currentField) {
-    fields[currentField] = currentValue.trim();
-  }
-
-  if (!fields.alt) return null;
-
-  return {
-    file: fields.file ?? '',
-    size: fields.size ?? 'full',
-    alt: fields.alt ?? '',
-    brief: fields.brief ?? '',
-  };
+  return briefs;
 }
 
 /**
- * Extract XMP metadata fields from a PNG image using Sharp.
- * Returns the alt text and description if present.
+ * Parse an <!-- art: stem-name --> reference comment.
+ * Returns the stem name or null if not a match.
+ */
+function parseArtRef(value: string): string | null {
+  const match = value.match(/^<!--\s*art:\s*(\S+)\s*-->$/);
+  return match ? match[1] : null;
+}
+
+/**
+ * Extract XMP metadata fields from an image using Sharp.
  */
 async function readXmp(imagePath: string): Promise<XmpFields> {
   const result: XmpFields = {};
@@ -73,25 +86,22 @@ async function readXmp(imagePath: string): Promise<XmpFields> {
 
     const xmpStr = meta.xmp.toString('utf-8');
 
-    // Iptc4xmpCore:AltTextAccessibility
     const altMatch = xmpStr.match(
       /Iptc4xmpCore:AltTextAccessibility[^>]*>([^<]+)</
     );
     if (altMatch) result.altText = altMatch[1].trim();
 
-    // dc:description — may be in <rdf:Alt><rdf:li> wrapper
     const descMatch = xmpStr.match(
       /dc:description[\s\S]*?<rdf:li[^>]*>([^<]+)<\/rdf:li>/
     );
     if (descMatch) result.description = descMatch[1].trim();
 
-    // dc:rights
     const rightsMatch = xmpStr.match(
       /dc:rights[\s\S]*?<rdf:li[^>]*>([^<]+)<\/rdf:li>/
     );
     if (rightsMatch) result.rights = rightsMatch[1].trim();
   } catch {
-    // Image unreadable or no XMP — fall back to comment fields
+    // Image unreadable or no XMP — fall back to brief fields
   }
   return result;
 }
@@ -113,54 +123,63 @@ function escapeHtml(str: string): string {
     .replace(/"/g, '&quot;');
 }
 
+function sizeToClass(size: string): string {
+  switch (size) {
+    case 'full':
+      return 'inline-graphic inline-graphic-full';
+    case 'half-left':
+      return 'inline-graphic inline-graphic-half inline-graphic-half-left';
+    case 'half-right':
+      return 'inline-graphic inline-graphic-half inline-graphic-half-right';
+    default:
+      return 'inline-graphic inline-graphic-margin';
+  }
+}
+
 /**
- * Remark plugin that transforms <!-- art ... --> comment blocks into:
- * - An <img> figure if the image file exists (using XMP alt text if available)
- * - A placeholder text box if it does not
+ * Remark plugin that transforms <!-- art: name --> references into:
+ * - A <figure><img> when the image exists in src/images/ (XMP alt preferred)
+ * - A placeholder box when it does not
  *
- * When the image exists and contains XMP metadata, the embedded
- * Iptc4xmpCore:AltTextAccessibility field is preferred over the
- * comment's alt field.
+ * Art briefs are *.art.md sidecar files discovered from src/content/
+ * and passed in as a pre-built registry.
  */
 const remarkArtBriefs: Plugin<[ArtBriefsOptions], Root> = (options) => {
-  const { imagesDir } = options;
+  const { imagesDir, briefs } = options;
 
-  // Collect async XMP reads, apply after all are resolved
   return async (tree: Root) => {
     const pending: { node: Html; brief: ArtBrief }[] = [];
 
     visit(tree, 'html', (node: Html) => {
       if (!node.value.trimStart().startsWith('<!-- art')) return;
-      const brief = parseArtComment(node.value);
-      if (!brief) return;
+      const stem = parseArtRef(node.value);
+      if (!stem) return;
+      const brief = briefs.get(stem);
+      if (!brief) {
+        console.warn(`art-briefs: unknown reference "${stem}"`);
+        return;
+      }
       pending.push({ node, brief });
     });
 
     await Promise.all(
       pending.map(async ({ node, brief }) => {
-        const sizeClass =
-          brief.size === 'full'
-            ? 'inline-graphic inline-graphic-full'
-            : brief.size === 'half-left'
-              ? 'inline-graphic inline-graphic-half inline-graphic-half-left'
-              : brief.size === 'half-right'
-                ? 'inline-graphic inline-graphic-half inline-graphic-half-right'
-                : 'inline-graphic inline-graphic-margin';
+        const imageFile = `${brief.stem}.${brief.format}`;
+        const imagePath = join(imagesDir, imageFile);
+        const sizeClass = sizeToClass(brief.size);
 
-        const imagePath = join(imagesDir, brief.file);
-
-        if (brief.file && fileExists(imagePath)) {
+        if (fileExists(imagePath)) {
           const xmp = await readXmp(imagePath);
           const alt = xmp.altText || brief.alt;
-          node.value = `<figure class="${sizeClass}"><img src="../images/${escapeHtml(brief.file)}" alt="${escapeHtml(alt)}"/></figure>`;
+          node.value = `<figure class="${sizeClass}"><img src="../images/${escapeHtml(imageFile)}" alt="${escapeHtml(alt)}"/></figure>`;
         } else {
           const placeholderClass = `art-placeholder art-placeholder-${brief.size}`;
           node.value = `<figure class="${placeholderClass}">
   <div class="art-placeholder-box">
-    <p class="art-placeholder-file">${escapeHtml(brief.file)}</p>
+    <p class="art-placeholder-file">${escapeHtml(imageFile)}</p>
     <details>
       <summary>${escapeHtml(brief.alt)}</summary>
-      <p class="art-placeholder-alt">${escapeHtml(brief.alt)}</p>
+      <p class="art-placeholder-brief">${escapeHtml(brief.brief)}</p>
     </details>
   </div>
 </figure>`;

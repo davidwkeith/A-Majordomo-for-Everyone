@@ -73,19 +73,19 @@ export async function assembleEpub(
     zip.file(`OEBPS/text/${chapter.meta.slug}.xhtml`, xhtml);
   }
 
-  // Images (if any exist)
+  // Images from src/images/
+  const imageExts = ['.png', '.jpg', '.jpeg', '.gif', '.svg', '.webp'];
+  const isImage = (f: string) =>
+    imageExts.some((ext) => f.toLowerCase().endsWith(ext));
+
   try {
     const entries = await readdir(imagesDir, { recursive: true });
-    const imageExts = ['.png', '.jpg', '.jpeg', '.gif', '.svg', '.webp'];
-    const imageFiles = entries.filter((f: string) =>
-      imageExts.some((ext) => f.toLowerCase().endsWith(ext))
-    );
-    for (const imgFile of imageFiles) {
-      const imgData = await readFile(join(imagesDir, imgFile));
-      zip.file(`OEBPS/images/${imgFile}`, imgData);
+    for (const f of entries.filter((f: string) => isImage(f))) {
+      const imgData = await readFile(join(imagesDir, f));
+      zip.file(`OEBPS/images/${f}`, imgData);
     }
   } catch {
-    // No images directory or no images — fine
+    // No images directory — fine
   }
 
   // Generate the ZIP buffer
