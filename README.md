@@ -64,11 +64,18 @@ npm run build -- --generate --max=3  # generate up to 3
 Runs [FLUX.1-schnell](https://huggingface.co/black-forest-labs/FLUX.1-schnell) on Apple Silicon via [MLX](https://github.com/filipstrand/mflux). Fast 4-step generation, no API key needed.
 
 ```bash
+python -m venv .venv/mflux           # isolated env — avoid polluting system packages
+source .venv/mflux/bin/activate
 pip install mflux                    # one-time setup (~3.5 GB model download on first run)
 npm run build -- --generate
 ```
 
-Set `MFLUX_MODEL=dev` and `MFLUX_STEPS=25` for higher quality at the cost of speed.
+Set `MFLUX_MODEL=dev` and `MFLUX_STEPS=25` for higher quality at the cost of speed. The `dev` model is a [gated repo](https://huggingface.co/black-forest-labs/FLUX.1-dev) — accept the license on its Hugging Face page, then authenticate:
+
+```bash
+pip install huggingface_hub[hf_xet]  # if not already installed with mflux
+hf login
+```
 
 #### Cloud generation with Gemini
 
