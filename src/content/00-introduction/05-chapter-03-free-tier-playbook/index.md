@@ -13,7 +13,7 @@ status: "draft"
 
 *(The correct answer is sometimes yes.)*
 
-<!-- art: epigraph-ch3-homer -->
+<!-- art: epigraph-ch3-distracted-boyfriend -->
 
 You will not need to pay for anything to use this book. Here is how to stay in the free lane indefinitely.
 

@@ -57,17 +57,32 @@ Faint pencil construction lines should be visible beneath the main drawing.
 
 ### Layer 2: The Sony Trinitron CRT Television
 
-On the notebook page: a hand-drawn 27-inch Sony Trinitron CRT television, mid-1990s model (KV-27S series era), rendered with obsessive technical accuracy. Not a sketch. The drawing a kid made during a boring class because they knew every millimeter of this object by heart. The level of detail is slightly unhinged.
+On the notebook page: a hand-drawn **Sony KV-27S42 Trinitron** CRT television (1994–1996), rendered with obsessive technical accuracy. Not a sketch. The drawing a kid made during a boring class because they knew every millimeter of this object by heart. The level of detail is slightly unhinged.
 
-**Reference points:**
+**This is the exact TV. Every chapter draws the same one. No variation between chapters.**
 
-- *Model:* 27-inch, mid-90s. This is the living room Trinitron — the big one, the one the family watched together. Not the 13-inch bedroom set. The proportions matter: the cabinet is substantial, the screen dominates the front face, the whole unit has weight and presence.
-- *Screen geometry:* Flatter than most CRTs, with characteristic edge curvature. The aperture grille produces two very faint horizontal stabilizer wires visible across the screen — hair-thin dark lines, one near the top third and one near the bottom third. These must be present. They are the Trinitron's fingerprint, they don't extend beyond the glass.
-- *Cabinet:* Mid-90s Sony dark grey. Forward lean. Ventilation slots on sides and back, each one rendered individually. Sony logo on the front bezel, carefully lettered.
-- *Controls:* Channel and volume knobs or buttons on the front panel. Small red standby LED. Infrared receiver window.
-- *Remote:* A Sony remote control on top of the TV, rendered with the same obsessive detail. Every button labeled.
-- *Cables:* Just the TV, no cables, no furniture.
-- *Side panel (partially visible):* Ventilation slots.
+**Model and proportions:**
+- 27-inch, 4:3 aspect ratio. The living room Trinitron — the big one, the one the family watched together. Not the 13-inch bedroom set.
+- Nearly as deep as it is wide: approximately 26 inches wide, 20 inches tall, 20–22 inches deep. The cabinet has substantial weight and presence. The top is flat — usable as a shelf.
+- The overall front silhouette is a slightly landscape-oriented rounded rectangle.
+
+**Screen:**
+- The Trinitron aperture grille produces a cylindrical screen surface — flat vertically, gently curved horizontally. This distinguishes it from the fully curved shadow-mask CRTs of the era.
+- Two very faint horizontal stabilizer wires visible across the screen — hair-thin dark lines, one near the top third and one near the bottom third. These must be present. They are the Trinitron's fingerprint. They do not extend beyond the glass.
+
+**Front bezel:**
+- Charcoal gray matte plastic (not black, not silver). Relatively narrow on the sides and top (~1.5–2 inches), wider at the bottom (~3 inches) to house controls and logo. Subtle matte texture with slightly rounded edges — not sharp or boxy like 1980s sets.
+- **Sony logo:** Centered on the bottom bezel below the screen. Silver/chrome "SONY" wordmark in the classic sans-serif typeface. "TRINITRON" in smaller lettering below or beside it.
+- **Controls:** A small row of tactile buttons on the lower-right front bezel, below the screen. Power (slightly larger or offset), Channel Up/Down, Volume Up/Down. Buttons are exposed, not behind a door. The infrared receiver window is a small dark strip near the buttons. A small red standby LED.
+- **Speaker grille:** A fabric or perforated grille strip runs along the bottom front of the cabinet, below the bezel and controls. Speakers fire forward. No side-mounted speakers.
+
+**Cabinet:**
+- Charcoal gray matte plastic throughout, uniform color. Slight taper toward the back. The back is a large rounded plastic shell with ventilation slots (not visible — the TV faces the viewer).
+- Side panels have ventilation slots, each one rendered individually.
+
+**On top of the TV:** A Sony remote control, rendered with the same obsessive detail. Every button labeled.
+
+**Nothing else.** No cables, no furniture, no VCR, no other objects. Just the TV and the remote.
 
 Drawn in #2 pencil, consistent pressure, no color fill.
 

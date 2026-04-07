@@ -16,7 +16,13 @@ entirely internal. Paper angle: determined by Ross's downward gaze
 to the phone — slight, 5-8 degrees, barely off level. Almost
 horizontal. The near-levelness makes it more uncomfortable — the
 disaster is small in angle and enormous in consequence. Blue lines
-converge toward the phone in his hand.
+converge toward the phone in his hand. Obsession zone: the
+"TRINITRON" lettering on the front bezel, below the Sony logo —
+each letter drawn individually with the precision of someone who
+has traced corporate lettering until they know the exact kerning,
+the specific weight of each stroke, the way the T's crossbar is
+slightly thinner than the vertical. The name of the technology
+itself, rendered letter by letter.
 Caption: >> RACHEL: Maybe we should take
 a break. >> ROSS: OK. [beat] A break
 from us? Or a break like a Kit Kat?
