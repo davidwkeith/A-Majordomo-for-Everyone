@@ -19,6 +19,15 @@ Access to model black-forest-labs/FLUX.1-dev is restricted. You must have access
     expect(msg).toContain('hf login');
   });
 
+  it('detects incomplete HF cache / network errors', () => {
+    const stderr = `httpx.RemoteProtocolError: Server disconnected without sending a response.
+FileNotFoundError: Incomplete Hugging Face tokenizer cache for 'black-forest-labs/FLUX.1-dev'. No usable tokenizer files were found in 'tokenizer_2'. Re-run with network access or clear/redownload the cache.`;
+
+    const msg = diagnoseGenerationError(stderr);
+    expect(msg).toContain('cache');
+    expect(msg).toContain('FLUX.1-dev');
+  });
+
   it('returns null for unrelated errors', () => {
     const stderr = 'RuntimeError: MPS backend out of memory';
     expect(diagnoseGenerationError(stderr)).toBeNull();

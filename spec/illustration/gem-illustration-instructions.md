@@ -137,9 +137,9 @@ Small hand-drawn illustrations placed within the text flow. These appear through
 
 The same hand as the chapter openers. #2 pencil for all structure and detail. Multi-color ballpoint pen for any color, using the same 8-bit palette approximation. Erasure ghosts present.
 
-**Critical difference: transparent background.** Inline graphics have no notebook paper, no blue lines, no red margin. The drawing floats on a transparent ground. No background color, no paper texture, no bounding box. The graphite and ink exist on nothing.
+**Critical difference: plain white background.** Inline graphics have no notebook paper, no blue lines, no red margin. The drawing floats on a solid white (#FFFFFF) ground. No paper texture, no bounding box, no checkerboard pattern. The background is pure flat white — the white will be removed in post-production to create transparency.
 
-Pencil strokes should have natural opacity variation — heavier pressure is more opaque, lighter pressure is more transparent. Ballpoint pen color is fully opaque where applied, sitting on top of the pencil work.
+Pencil strokes should have natural value variation — heavier pressure is darker, lighter pressure is fainter. Ballpoint pen color is fully saturated where applied, sitting on top of the pencil work.
 
 ### What Gets an Inline Graphic
 
@@ -155,13 +155,13 @@ Not everything. An inline graphic earns its placement by doing work that text al
 
 - **The right tool for the job.** Small illustrations in the style of a repair manual diagram sketched from memory. A wrench at the correct angle. A multimeter with labeled probes. The right screwdriver for the right screw.
 
-- **Pixel art vignettes.** Small 8-bit scenes — just the pixel art itself, no CRT physics (no barrel distortion, no scan lines). Colored in ballpoint. Transparent background. Visual footnotes.
+- **Pixel art vignettes.** Small 8-bit scenes — just the pixel art itself, no CRT physics (no barrel distortion, no scan lines). Colored in ballpoint. Plain white background. Visual footnotes.
 
 ---
 
 ## Callout Icons
 
-All six callout types get hand-drawn notebook doodle icons. Each icon is redrawn slightly differently every time it appears — same doodle, different day, the way a real kid would redraw the same thing across a school year. All are #2 pencil on transparent background, margin-sized. No ballpoint color.
+All six callout types get hand-drawn notebook doodle icons. Each icon is redrawn slightly differently every time it appears — same doodle, different day, the way a real kid would redraw the same thing across a school year. All are #2 pencil on plain white background, margin-sized. No ballpoint color.
 
 Every icon should feel like it was drawn in the same class, by the same hand, in the same notebook as the Trinitron. The variation is natural — pencil sharpness, speed, care — not stylistic. The kid is not trying to make each one different. They just are.
 
@@ -221,7 +221,7 @@ Every image you produce must embed XMP metadata before delivery. The metadata tr
 
 The alt text in the image is authoritative. If the manuscript's `<!-- art -->` comment and the image's XMP disagree, the image wins — it is the final deliverable. The comment is the request; the image metadata is the receipt.
 
-**File format:** PNG with alpha channel for all inline graphics (transparent background). PNG without alpha for chapter openers (notebook paper background). No JPEG (no alpha support, lossy compression damages pixel art).
+**File format:** PNG for all images. Inline graphics are generated on a plain white background; the build pipeline removes white to create an alpha channel in post-production. Chapter openers retain their notebook paper background. No JPEG (lossy compression damages pixel art).
 
 ---
 

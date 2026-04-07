@@ -3,13 +3,14 @@ import { writeFile, readFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import { execFile } from 'node:child_process';
 import { promisify } from 'node:util';
+import sharp from 'sharp';
 import type { ArtBrief } from './plugins/art-briefs.js';
 
 const execFileAsync = promisify(execFile);
 
 type Backend = 'gemini' | 'mflux';
 
-const BACKEND = (process.env.IMAGE_BACKEND ?? 'mflux') as Backend;
+const BACKEND = (process.env.IMAGE_BACKEND ?? 'gemini') as Backend;
 const GEMINI_MODEL = process.env.GEMINI_MODEL ?? 'gemini-2.5-flash-image';
 const MFLUX_MODEL = process.env.MFLUX_MODEL ?? 'schnell';
 const MFLUX_STEPS = parseInt(process.env.MFLUX_STEPS ?? '4', 10);
@@ -27,6 +28,34 @@ const DIMENSIONS: Record<string, [number, number]> = {
   'half-right': [512, 768],
   margin: [512, 512],
 };
+
+/** Threshold (0–255) below which a pixel's distance from white is kept opaque. */
+const WHITE_THRESHOLD = 32;
+
+/**
+ * Convert near-white pixels to transparent. Pixels whose RGB values are all
+ * within WHITE_THRESHOLD of 255 get an alpha proportional to their distance
+ * from pure white, producing soft anti-aliased edges.
+ */
+async function removeWhiteBackground(imagePath: string): Promise<void> {
+  const { data, info } = await sharp(imagePath)
+    .ensureAlpha()
+    .raw()
+    .toBuffer({ resolveWithObject: true });
+
+  for (let i = 0; i < data.length; i += 4) {
+    const r = data[i], g = data[i + 1], b = data[i + 2];
+    const distFromWhite = Math.max(255 - r, 255 - g, 255 - b);
+    if (distFromWhite < WHITE_THRESHOLD) {
+      // Scale alpha: pure white → 0, threshold edge → original alpha
+      data[i + 3] = Math.round((distFromWhite / WHITE_THRESHOLD) * data[i + 3]);
+    }
+  }
+
+  await sharp(data, { raw: { width: info.width, height: info.height, channels: 4 } })
+    .png()
+    .toFile(imagePath);
+}
 
 /**
  * Generate a single image via the Gemini API.
@@ -58,6 +87,11 @@ async function generateOneGemini(
 
   const buffer = Buffer.from(part.inlineData.data, 'base64');
   await writeFile(outputPath, buffer);
+
+  // Inline graphics are generated on white; strip to alpha.
+  if (brief.size !== 'full' && brief.format === 'png') {
+    await removeWhiteBackground(outputPath);
+  }
 }
 
 /**
@@ -94,6 +128,17 @@ export function diagnoseGenerationError(stderr: string): string | null {
       `${model} is a gated Hugging Face repo. ` +
       'Accept the license at its model page on huggingface.co, then run: ' +
       'hf login'
+    );
+  }
+  const cacheMatch = stderr.match(
+    /Incomplete Hugging Face.*cache for '([\w./-]+)'/,
+  );
+  if (cacheMatch || /Server disconnected.*tokenizer/s.test(stderr)) {
+    const model = cacheMatch?.[1] ?? 'the model';
+    return (
+      `Incomplete Hugging Face cache for ${model}. ` +
+      'A previous download was interrupted. Clear the cache and retry: ' +
+      `rm -rf ~/.cache/huggingface/hub/models--${model.replace(/\//g, '--')}`
     );
   }
   return null;

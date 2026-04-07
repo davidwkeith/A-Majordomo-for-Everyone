@@ -52,22 +52,31 @@ Built images go in `src/images/`. If the image exists, the ePub renders a `<figu
 
 ### Generating images
 
-The build can generate missing images via two backends: **mflux** (local, default) or **Gemini** (cloud). Pass `--generate` to create missing images, and optionally `--max=N` to cap a run:
+The build can generate missing images via two backends: **Gemini** (cloud, default) or **mflux** (local). Pass `--generate` to create missing images, and optionally `--max=N` to cap a run:
 
 ```bash
 npm run build -- --generate          # generate all missing images
 npm run build -- --generate --max=3  # generate up to 3
 ```
 
-#### Local generation with mflux (default)
+#### Cloud generation with Gemini (default)
 
-Runs [FLUX.1-schnell](https://huggingface.co/black-forest-labs/FLUX.1-schnell) on Apple Silicon via [MLX](https://github.com/filipstrand/mflux). Fast 4-step generation, no API key needed.
+Uses the [Gemini API](https://ai.google.dev/gemini-api/docs/image-generation) (`@google/genai`). The full style guide from `spec/illustration/gem-illustration-instructions.md` is prepended to each prompt. Gemini handles complex, multi-layered art briefs that diffusion models cannot interpret.
+
+```bash
+export GOOGLE_API_KEY=your-key-here
+npm run build -- --generate
+```
+
+#### Local generation with mflux
+
+Runs [FLUX.1-schnell](https://huggingface.co/black-forest-labs/FLUX.1-schnell) on Apple Silicon via [MLX](https://github.com/filipstrand/mflux). Fast 4-step generation, no API key needed. Best for simple, single-subject graphics (icons, silhouettes). Set `IMAGE_BACKEND=mflux` to use.
 
 ```bash
 python -m venv .venv/mflux           # isolated env — avoid polluting system packages
 source .venv/mflux/bin/activate
 pip install mflux                    # one-time setup (~3.5 GB model download on first run)
-npm run build -- --generate
+IMAGE_BACKEND=mflux npm run build -- --generate
 ```
 
 Set `MFLUX_MODEL=dev` and `MFLUX_STEPS=25` for higher quality at the cost of speed. The `dev` model is a [gated repo](https://huggingface.co/black-forest-labs/FLUX.1-dev) — accept the license on its Hugging Face page, then authenticate:
@@ -77,24 +86,14 @@ pip install huggingface_hub[hf_xet]  # if not already installed with mflux
 hf login
 ```
 
-#### Cloud generation with Gemini
-
-Uses the [Gemini API](https://ai.google.dev/gemini-api/docs/image-generation) (`@google/genai`). The full style guide from `spec/illustration/gem-illustration-instructions.md` is prepended to each prompt.
-
-```bash
-export IMAGE_BACKEND=gemini
-export GOOGLE_API_KEY=your-key-here
-npm run build -- --generate
-```
-
 #### Environment variables
 
 | Variable | Purpose |
 |---|---|
-| `IMAGE_BACKEND` | `mflux` (default) or `gemini` |
+| `IMAGE_BACKEND` | `gemini` (default) or `mflux` |
 | `MFLUX_MODEL` | FLUX model variant: `schnell` (default, fast) or `dev` (quality) |
 | `MFLUX_STEPS` | Inference steps (default: `4` for schnell, use `25` for dev) |
-| `GOOGLE_API_KEY` | Gemini API key (required when `IMAGE_BACKEND=gemini`) |
+| `GOOGLE_API_KEY` | Gemini API key (required for default backend) |
 | `GEMINI_MODEL` | Override Gemini model (default: `gemini-2.5-flash-image`) |
 
 Embed XMP metadata (alt text, brief, license) into a produced image:
