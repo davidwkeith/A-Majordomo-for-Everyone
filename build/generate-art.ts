@@ -82,6 +82,24 @@ async function generateOneMflux(
 }
 
 /**
+ * Inspect stderr from a failed mflux-generate call and return a
+ * user-friendly message if the error is a known, actionable issue.
+ * Returns null when the error is not recognised.
+ */
+export function diagnoseGenerationError(stderr: string): string | null {
+  if (/GatedRepoError|401 Unauthorized/i.test(stderr)) {
+    const model =
+      stderr.match(/model ([\w./-]+) is restricted/)?.[1] ?? 'the requested model';
+    return (
+      `${model} is a gated Hugging Face repo. ` +
+      'Accept the license at its model page on huggingface.co, then run: ' +
+      'hf login'
+    );
+  }
+  return null;
+}
+
+/**
  * Generate missing images for the given art briefs.
  * Processes sequentially to respect rate limits / GPU.
  * Returns the count of successfully generated images.
@@ -127,8 +145,14 @@ export async function generateMissingArt(
       generated++;
       console.log(' done');
     } catch (err) {
-      const msg = err instanceof Error ? err.message : String(err);
-      console.log(` failed: ${msg}`);
+      const raw = err instanceof Error ? err.message : String(err);
+      const stderr =
+        err && typeof err === 'object' && 'stderr' in err
+          ? String((err as { stderr: unknown }).stderr)
+          : raw;
+      const hint = diagnoseGenerationError(stderr);
+      console.log(` failed: ${hint ?? raw}`);
+      if (hint) break; // auth issues won't self-resolve — stop early
     }
   }
 
