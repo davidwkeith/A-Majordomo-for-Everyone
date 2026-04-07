@@ -16,6 +16,10 @@ The `spec/` directory defines how this book is written, illustrated, voiced, and
 
 The spec is version-controlled. If the spec and the content disagree, fix one of them — do not leave them in conflict.
 
+## Versioning
+
+Semver. Draft status is `0.x.x`. Minor bumps for significant content or pipeline changes, patch bumps for fixes and small edits. `1.0.0` when the book ships. Tag every release: `git tag -a v0.x.x -m "description"`.
+
 ## Build
 
 ```bash
@@ -25,9 +29,14 @@ npm test             # vitest
 npm run clean        # rm dist/
 ```
 
+CI runs on every push and PR to main (`.github/workflows/build.yml`): type-check, tests, ePub build. The built ePub is uploaded as an artifact.
+
 ## Project Structure
 
 ```
+spec/                # All editorial, visual, and structural specifications
+  editorial/         # Voice, conventions, principles, cultural references
+  illustration/      # Illustrator agent instructions and art briefs
 src/content/         # CommonMark chapter files with YAML frontmatter
   00-introduction/   # Epigraph, Foreword, "How to Use", Chapters 1-4
   01-strategies/     # Strategy 0-9
@@ -36,8 +45,6 @@ src/content/         # CommonMark chapter files with YAML frontmatter
   04-appendices/     # Appendices A-H + final note
 src/styles/          # ePub CSS
 src/images/          # Cover + chapter illustrations
-spec/                # All editorial, visual, and structural specifications
-spec/illustration/   # Illustrator agent instructions and art briefs
 build/               # TypeScript build pipeline
   plugins/           # remark/rehype plugins (callouts, art-briefs, endnotes)
   epub/              # ePub 3.0 assembly (templates, jszip)
@@ -72,11 +79,19 @@ brief: Production instruction for the illustrator.
 -->
 ```
 
-Art direction is permanent — comments stay in the source after the image is produced. If the image exists, it renders. If not, a red-dashed placeholder box appears.
+Art direction is permanent — comments stay in the source after the image is produced. If the image exists and contains XMP metadata, the embedded `Iptc4xmpCore:AltTextAccessibility` is used for alt text. If the image does not exist, a red-dashed placeholder box renders with the alt text in an expandable `<details>` element.
+
+Embed XMP into produced images:
+
+```bash
+npx tsx build/embed-xmp.ts src/images/file.png --from src/content/path/to/chapter.md
+```
 
 ## Callout Syntax
 
 Six types, written as blockquotes: `> **[SCIENCE]**`, `> **[TIP]**`, `> **[FAIRNESS]**`, `> **[MEME]**`, `> **[SPEC]**`, `> **[ALSO]**`
+
+Each callout type has a hand-drawn notebook doodle icon (Cool S, Bohr atom, star, yin-yang, 3D cube, block arrow) that varies naturally across appearances.
 
 ## Episode Reference Format
 
