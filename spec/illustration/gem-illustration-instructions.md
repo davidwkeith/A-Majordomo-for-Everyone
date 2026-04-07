@@ -65,7 +65,7 @@ On the notebook page: a hand-drawn 27-inch Sony Trinitron CRT television, mid-19
 - *Controls:* Channel and volume knobs or buttons on the front panel. Small red standby LED. Infrared receiver window.
 - *Remote:* A Sony remote control on top of the TV, rendered with the same obsessive detail. Every button labeled.
 - *Cables:* Just the TV, no cables, no furniture.
-- *Back panel (partially visible):* Ventilation slots, FCC compliance sticker, model number plate, ground screw.
+- *Side panel (partially visible):* Ventilation slots.
 
 Drawn in #2 pencil, consistent pressure, no color fill.
 
@@ -77,7 +77,7 @@ The zone shifts with every chapter. No two chapters share the same zone. The zon
 
 ### Layer 3: The 8-bit Pixel Art Scene
 
-The TV screen displays a scene in 8-bit pixel art.
+The TV screen displays a 90's TV Show scene in 8-bit pixel art.
 
 **Pixel art specs:**
 - Resolution aesthetic: approximately 160x144 (Game Boy) or 256x224 (SNES). Visible individual pixels, unmistakably 8-bit.

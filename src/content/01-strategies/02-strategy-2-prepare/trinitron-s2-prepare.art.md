@@ -2,9 +2,7 @@
 format: png
 size: full
 alt: >
-  A Trinitron TV on notebook paper showing an 8-bit scene of Tim and
-  Jill on a waiting room bench, leaning forward. A doctor stands
-  before them with a clipboard. Tim's hands are empty.
+  A Trinitron TV on notebook paper showing an 8-bit scene of Home Improvement characters Tim and Jill on a waiting room bench, leaning forward. A doctor stands before them with a clipboard. Tim's hands are empty.
 ---
 
 TRINITRON CHAPTER OPENER. Tim and Jill on a waiting room bench,

@@ -16,10 +16,7 @@ entirely internal. Paper angle: determined by Ross's downward gaze
 to the phone — slight, 5-8 degrees, barely off level. Almost
 horizontal. The near-levelness makes it more uncomfortable — the
 disaster is small in angle and enormous in consequence. Blue lines
-converge toward the phone in his hand. Obsession zone: the back
-panel adjustment knobs. Brightness, contrast, color, tint, and
-sharpness — each graduation mark on the dial face, each pointer
-position, each label. The decision variables.
+converge toward the phone in his hand.
 Caption: >> RACHEL: Maybe we should take
 a break. >> ROSS: OK. [beat] A break
 from us? Or a break like a Kit Kat?

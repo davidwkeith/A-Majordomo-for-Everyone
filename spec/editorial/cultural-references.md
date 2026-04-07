@@ -12,13 +12,6 @@ The following references are cleared for use in chapter text without explanation
 - The Prime Directive — when not to intervene (Chapter 31, AI vs. human)
 - Picard facepalm — the correct response to most insurance denials
 
-**Simpsons (seasons 1-10 only):**
-- "Dental plan. Lisa needs braces." — repetitive bureaucratic loops
-- "I was saying Boo-urns" — the importance of asking for clarification
-- "This is the worst day of my life." / "The worst day of your life *so far*." — appropriate epistemic humility about current events
-- Lionel Hutz — the gap between legal advice and legal help
-- "Can't someone else do it?" — the correct answer is sometimes yes, and this book is about that
-
 **General internet/meme culture:**
 - "This is fine" dog — functional persistence in a bad situation
 - Distracted Boyfriend — the temptation to switch to a new AI tool every week
