@@ -25,8 +25,10 @@ sidebar-style: callout blocks, six types:
 				 [SPEC]     — specification interview loop
 				 [ALSO]     — feature name translation across tools
 							  (Claude → Gemini → ChatGPT → Copilot)
-illustrations: One hand-drawn original per strategy chapter (10 total).
-			   See Illustration Spec and Master Episode Index below.
+illustrations: Trinitron chapter openers (10, one per strategy chapter),
+			   inline graphics throughout all parts, introduction
+			   epigraph vignettes, callout doodle icons (6 types).
+			   See Illustration Spec and Master Episode Index.
 cover-image:  tbd — see cover notes below
-rights:       © 2025 [Author]. CC BY-SA 4.0.
+rights:       © 2025 David W. Keith. CC BY-SA 4.0.
 ```

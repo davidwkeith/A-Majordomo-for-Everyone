@@ -14,21 +14,20 @@ Small hand-drawn illustrations placed within the text flow. These appear through
 
 The same hand as the chapter openers. #2 pencil (HB) for all structure and detail. Multi-color ballpoint pen for any color elements, using the same 8-bit palette approximation. The quality is the same: obsessive where the drawer cared, slightly loose elsewhere. Erasure ghosts present. The same kid, the same notebook, the same class.
 
-**The critical difference: transparent background.** Inline graphics have no notebook paper, no blue lines, no red margin. The drawing floats on a transparent ground. No background color, no paper texture, no bounding box. The graphite and ink exist on nothing.
+**The critical difference: no notebook paper.** Inline graphics have no notebook paper, no blue lines, no red margin. The drawing is produced on a **plain white background** — the build pipeline removes white to create an alpha channel in post-processing. The final result is a transparent-background PNG that adapts to both light and dark reading modes.
 
-This is a functional requirement, not an aesthetic choice. The ePub will be read in light mode and dark mode. A drawing on white paper becomes an unreadable white rectangle in dark mode. A drawing on transparent ground adapts to both — pencil graphite reads against light backgrounds, and with a slight luminosity adjustment reads against dark ones. The drawing must work on any background color the reader's device chooses.
+This is a functional requirement, not an aesthetic choice. The ePub will be read in light mode and dark mode. A drawing on white paper becomes an unreadable white rectangle in dark mode. A drawing on transparent ground adapts to both.
 
 ---
 
-*Production requirements for transparency:*
+*Production requirements:*
 
-- **File format:** PNG with alpha channel. No JPEG (no alpha support). SVG acceptable for simple line work.
-- **No white fill.** The area around and between pencil strokes must be fully transparent (alpha = 0). The graphite strokes themselves carry their own opacity.
-- **Pencil strokes:** Rendered with natural opacity variation. Heavier pressure = more opaque graphite. Lighter pressure = more transparent. This preserves the pressure-variation quality of HB pencil on paper even without the paper.
-- **Ballpoint pen color:** Fully opaque where applied. The pen sits on top of the pencil work, same as the chapter openers.
+- **File format:** PNG. No JPEG (lossy compression damages detail). The image is generated on a plain white (#FFFFFF) background.
+- **White-to-alpha post-processing:** The build pipeline converts white backgrounds to transparency. The area around and between pencil strokes becomes transparent after processing. The graphite strokes retain their natural opacity.
+- **Pencil strokes:** Rendered with natural value variation. Heavier pressure = darker graphite. Lighter pressure = fainter. Ballpoint pen color is fully saturated where applied, sitting on top of the pencil work.
 - **Anti-aliasing:** Smooth edges on all strokes. No hard pixel boundaries — the strokes should feel hand-drawn at any zoom level.
 - **Resolution:** Minimum 300 DPI at rendered size. Inline graphics will typically render at 40-80% of text width.
-- **Dark mode compatibility:** Test every graphic against both #FFFFFF and #121212 backgrounds before delivery. If a graphic is illegible in either mode, adjust stroke opacity or add a minimal semi-transparent backing behind critical details only.
+- **Dark mode compatibility:** After white-to-alpha conversion, test every graphic against both #FFFFFF and #121212 backgrounds. If a graphic is illegible in either mode, adjust stroke opacity or add a minimal semi-transparent backing behind critical details only.
 
 ---
 
@@ -50,130 +49,122 @@ Not everything. Inline graphics earn their placement the same way `[MEME]` sideb
 
 ---
 
-*Inline art briefs in the markdown source:*
+*Art briefs as sidecar files:*
 
-Every inline graphic is specified in the CommonMark source as an HTML comment block. The brief lives in the manuscript, not in a separate document. This keeps the art direction collocated with the text it illustrates and ensures that accessibility text is written by the author at the time of writing, not retrofitted later.
+Every graphic is specified in a `.art.md` sidecar file that lives next to the chapter it belongs to. The brief lives in the manuscript tree, not in a separate document. This keeps the art direction collocated with the text it illustrates and ensures that accessibility text is written by the author at the time of writing, not retrofitted later.
 
-**Syntax:**
+The filename (minus `.art.md`) is the **image stem** — the build resolves it to `src/images/{stem}.{format}`.
 
-```markdown
-<!-- art
-file: eob-annotated.png
+**Sidecar file** (`src/content/.../image-name.art.md`):
+
+```yaml
+---
+format: png
 size: full | half-left | half-right | margin
-alt: Plain-language description for screen readers. One to two sentences.
-     What the image shows and what it communicates. Written for a reader
-     who cannot see the image.
-brief: Production description for the illustrator or image generator.
-       As detailed as needed. Multiple sentences. Describes exactly what
-       to draw, in what style, with what emphasis. References the
-       materials spec (pencil, ballpoint, etc.) only when deviating
-       from the default.
--->
+alt: >
+  Plain-language description for screen readers. One to two sentences.
+  What the image shows and what it communicates. Written for a reader
+  who cannot see the image.
+---
+
+Production description for the illustrator or image generator.
+As detailed as needed. Multiple sentences. Describes exactly what
+to draw, in what style, with what emphasis. References the
+materials spec (pencil, ballpoint, etc.) only when deviating
+from the default.
 ```
 
-**Fields:**
+**Chapter reference** — placed at the exact position where the image should render:
 
-- **file:** The image filename. Lives in `src/images/inline/`. The build pipeline maps this to `OEBPS/images/inline/{file}` in the ePub. If the file does not yet exist, the brief is a placeholder — the pipeline generates a blank reference and logs a warning.
-- **size:** One of `full`, `half-left`, `half-right`, or `margin`. Maps to the CSS classes defined in the stylesheet. Determines layout intent — the ePub reader may linearize, but the intent is preserved for renderers that support it.
+```markdown
+<!-- art: image-name -->
+```
+
+**Frontmatter fields:**
+
+- **format:** The image file extension (typically `png`). The build looks for `src/images/{stem}.{format}`. All images live flat in `src/images/` — no subdirectories.
+- **size:** One of `full`, `half-left`, `half-right`, or `margin`. Maps to CSS classes in the stylesheet. Determines layout intent — the ePub reader may linearize, but the intent is preserved for renderers that support it.
 - **alt:** The accessibility description. This becomes the `alt` attribute on the `<img>` element in the ePub. Written for screen reader users. Describes what the image *shows* and what it *means in context*. Not a restatement of the brief — the brief says what to draw; the alt says what the reader needs to know. Required. No image ships without alt text.
-- **brief:** The production instruction. Describes exactly what to draw, with enough detail for a human illustrator or an image generation tool to produce the correct output. References specific objects, compositions, annotations, and visual emphasis. The brief is stripped from the ePub output — it exists only in the source. It is also extractable by the build pipeline as a standalone illustration manifest for production use.
+
+**Body:** The production brief. Describes exactly what to draw, with enough detail for a human illustrator or an image generation tool to produce the correct output. The brief is not included in ePub output — it exists only in the source.
 
 **Rules:**
 
 - One art brief per image. One image per brief.
-- The brief appears in the markdown at the exact location where the image should render. It is not a forward reference or a footnote — it is positional.
-- If the image file exists, the pipeline renders an `<img>` with the `alt` text and the appropriate CSS class.
-- If the image file does not exist, the pipeline renders nothing in the ePub output (no broken image placeholder) but logs the brief to `dist/art-manifest.json` for production tracking.
+- The `<!-- art: stem -->` reference appears in the chapter markdown at the exact location where the image should render. It is positional.
+- If the image file exists and contains XMP metadata, the embedded `Iptc4xmpCore:AltTextAccessibility` is used for alt text (falling back to the sidecar's `alt` field).
+- If the image file does not exist, the pipeline renders a placeholder box with the alt text and brief in an expandable `<details>` element.
 - Alt text must be meaningful on its own. "An illustration" is not alt text. "A hand-drawn EOB form with three fields circled and annotated: Amount Billed, Allowed Amount, and Patient Responsibility" is alt text.
 - The brief may reference the illustration spec's material and style conventions by exception only. "Colored in red and blue ballpoint instead of the default pencil" is useful. "Drawn in #2 pencil" is redundant — that is the default.
 
 **Example — annotated document:**
+
+Sidecar file `src/content/02-field-guide/01-health/eob-annotated.art.md`:
+
+```yaml
+---
+format: png
+size: full
+alt: >
+  A hand-drawn Explanation of Benefits form with three fields circled
+  and annotated in plain language: Amount Billed, Allowed Amount, and
+  Patient Responsibility.
+---
+
+EOB form rendered in light #2 pencil, slightly crumpled at the
+top-right corner. Three fields circled in red ballpoint with
+pencil arrows pointing to handwritten margin notes. Amount Billed
+($4,200) annotated "what they charged." Allowed Amount ($1,800)
+annotated "what insurance says it's worth." Patient Responsibility
+($450) annotated "what you actually owe." The rest of the form is
+rendered in lighter pencil, readable but de-emphasized. The margin
+notes are in the same hand as the chapter opener drawings —
+slightly cramped, slightly urgent.
+```
+
+Chapter reference in `src/content/02-field-guide/01-health/index.md`:
 
 ```markdown
 The EOB arrives. It looks like a receipt but it is not a receipt. It is
 an explanation of what happened to your money after the insurance company
 finished deciding what your health is worth.
 
-<!-- art
-file: eob-annotated.png
-size: full
-alt: A hand-drawn Explanation of Benefits form with three fields circled
-     and annotated in plain language: Amount Billed, Allowed Amount, and
-     Patient Responsibility.
-brief: EOB form rendered in light #2 pencil, slightly crumpled at the
-       top-right corner. Three fields circled in red ballpoint with
-       pencil arrows pointing to handwritten margin notes. Amount Billed
-       ($4,200) annotated "what they charged." Allowed Amount ($1,800)
-       annotated "what insurance says it's worth." Patient Responsibility
-       ($450) annotated "what you actually owe." The rest of the form is
-       rendered in lighter pencil, readable but de-emphasized. The margin
-       notes are in the same hand as the chapter opener drawings —
-       slightly cramped, slightly urgent.
--->
+<!-- art: eob-annotated -->
 
 Ask Claude to decode this. Paste the EOB. The three numbers that matter
 are the ones circled above.
 ```
 
-**Example — domestic object:**
-
-```markdown
-<!-- art
-file: mailbox-letter.png
-size: half-right
-alt: A rural mailbox with its flag up and an envelope visible inside.
-brief: Post-mounted rural mailbox, three-quarter view, flag in the up
-       position. One envelope visible through the open door — just the
-       corner, white with a blue return address. The mailbox is the
-       standard US galvanized steel type, slightly dented. Post is
-       weathered wood. Drawn in #2 pencil with the same obsessive
-       hardware detail as the Trinitron's control panel.
--->
-```
-
-**Example — process diagram:**
-
-```markdown
-<!-- art
-file: appeal-escalation.png
-size: full
-alt: A three-step escalation path for insurance appeals: internal appeal,
-     external review, then state insurance regulator.
-brief: Hand-drawn flow diagram, left to right. Three boxes connected by
-       pencil arrows. Box 1: "Internal Appeal" with "(30-60 days)"
-       underneath. Box 2: "External Review" with "(45-60 days)."
-       Box 3: "State Regulator" with "(varies)." Below each box, a
-       one-line pencil annotation: "you write this," "they assign a
-       reviewer," "the state steps in." The arrows are slightly wobbly.
-       The boxes are hand-ruled, not perfectly straight. A small red
-       ballpoint star next to Box 1 with the note "most denials stop
-       here."
--->
-```
-
 **Example — pixel art vignette:**
 
-```markdown
-<!-- art
-file: picard-facepalm-vignette.png
+Sidecar file `src/content/00-introduction/03-chapter-01.../epigraph-ch1-picard.art.md`:
+
+```yaml
+---
+format: png
 size: margin
-alt: An 8-bit pixel art rendering of Picard's facepalm gesture.
-brief: Picard facepalm in 8-bit pixel art, approximately 32x32 pixels
-       scaled up. NES-era palette — 4 colors: skin tone, uniform red,
-       black hair, dark shadow. Colored in ballpoint pen over pencil
-       grid. No CRT effects — this is a vignette, not a Trinitron
-       screen. Transparent background.
--->
+alt: >
+  An 8-bit pixel art rendering of Captain Picard in his dress uniform,
+  one hand raised, drawing the line.
+---
+
+Picard in 8-bit pixel art, approximately 32x48 pixels scaled up.
+Standing pose, dress uniform from First Contact. One hand raised
+in the "this far, no further" gesture. 4-color palette: uniform
+dark grey, skin tone, command red piping, black. Colored in
+ballpoint over pencil grid. No CRT effects. Transparent background.
 ```
 
 **Build pipeline behavior:**
 
-The build pipeline parses `<!-- art ... -->` blocks and:
+The build pipeline discovers all `.art.md` sidecar files at startup and builds a registry keyed by stem name. When processing chapter markdown:
 
-1. Extracts `file`, `size`, `alt`, and `brief` fields.
-2. If `src/images/inline/{file}` exists: renders `<figure class="inline-graphic inline-graphic-{size}"><img src="../images/inline/{file}" alt="{alt}"/></figure>` in the chapter XHTML.
-3. If the file does not exist: emits nothing in the XHTML, appends the brief to `dist/art-manifest.json` with the source file path, position, and all fields. The manifest is the illustrator's work order.
-4. Validates that every `<!-- art -->` block has both `alt` and `brief` fields. Missing `alt` is a build error. Missing `brief` is a warning.
+1. Parses `<!-- art: stem -->` reference comments.
+2. Looks up the stem in the brief registry.
+3. If `src/images/{stem}.{format}` exists: reads XMP metadata for alt text (falls back to sidecar alt), renders `<figure class="inline-graphic inline-graphic-{size}"><img src="../images/{file}" alt="{alt}"/></figure>`.
+4. If the image does not exist: renders a placeholder `<figure>` with a `<details>` element containing the alt text and brief.
+
+Use `--generate` to invoke image generation for missing images: `npm run build -- --generate`.
 
 ---
 

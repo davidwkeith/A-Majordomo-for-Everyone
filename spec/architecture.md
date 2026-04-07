@@ -4,13 +4,17 @@ The book has three parts and an introduction. The parts are not sequential. The 
 
 ```
 INTRODUCTION
-  What the Guide is. What it isn't. DON'T PROMPT.
-  How AI works, in one page.
-  The free tier. The rotation. The bookmark stack.
-  Your first five conversations.
+  Epigraph.
+  Foreword.
+  A Note Before You Start.
+  How to Use This Book.
+  Chapter 1: What These Tools Are.
+  Chapter 2: Your First Five Conversations.
+  Chapter 3: The Free Tier Playbook.
+  Chapter 4: How to Ask.
 
 PART ONE: THE STRATEGIES
-  Nine chapters. One meta-strategy (Specify) and eight applications.
+  Ten chapters. One meta-strategy (Specify) and nine applications.
   Each chapter teaches one skill through two or three worked examples.
   Each example includes a full [SPEC] loop:
 	— reader's loose opening situation

@@ -54,7 +54,7 @@ dist/                # Output (gitignored)
 
 ## Pipeline
 
-CommonMark → remark-parse → remark-gfm → remarkCallouts → remarkArtBriefs → remark-rehype → rehypeEndnotes → rehype-stringify → jszip ePub 3.0
+CommonMark → remark-parse → remark-gfm → remarkCallouts → remarkArtBriefs → remark-rehype → rehypeConversations → rehypeEndnotes → rehype-stringify → jszip ePub 3.0
 
 ## Chapter Frontmatter
 
