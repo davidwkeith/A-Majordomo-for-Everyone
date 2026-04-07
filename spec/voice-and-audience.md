@@ -1,5 +1,15 @@
 # Voice and Target Audience
 
+### Project Vision
+
+This Old House, but for living in a capitalist society.
+
+The sitcom and 90s references are not nostalgia — they are pedagogical anchors for adult learners. Memes, Gen-X cultural touchstones, and 90s TV are the shared reference points that make complex systems (insurance, legal, medical, financial) approachable. The same way This Old House made home repair approachable by showing you the work, this book shows you the work of navigating capitalism's systems.
+
+Adult learners resist textbook framing. Cultural references they already know compress complex concepts into recognizable patterns. "Ross didn't read the spec" teaches specification failure faster than a definition. Every editorial decision — tone, references, illustrations, format choices — should be evaluated against this frame. If it feels like a textbook, it's wrong. If it feels like a knowledgeable friend explaining how the system actually works while referencing a show you both watched, it's right.
+
+---
+
 ### Primary Reader Persona
 
 **Age:** 44-60. Gen-X. Remembers when the internet was supposed to democratize everything, watched it get strip-mined by venture capital, and is still here.
