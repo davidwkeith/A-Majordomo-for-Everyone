@@ -71,9 +71,42 @@ pre {
   background: #f4f4f4;
   padding: 1em;
   margin: 1em 0;
-  overflow-x: auto;
   line-height: 1.4;
   border-radius: 3px;
+  overflow-x: auto;
+}
+
+/* ---- Conversation Blocks ---- */
+
+pre.conversation {
+  white-space: normal;
+  -webkit-hyphens: none;
+  hyphens: none;
+  padding: 1em 1em 1em 2.2em;
+  position: relative;
+}
+
+pre.conversation kbd,
+pre.conversation samp {
+  font: inherit;
+}
+
+pre.conversation-prompt::before {
+  content: '👤';
+  position: absolute;
+  top: 0.3em;
+  left: 0.3em;
+  font-size: 1.2em;
+  line-height: 1;
+}
+
+pre.conversation-agent::before {
+  content: '✨';
+  position: absolute;
+  top: 0.3em;
+  left: 0.3em;
+  font-size: 1.2em;
+  line-height: 1;
 }
 
 pre code {

@@ -78,7 +78,7 @@ My insurance denied a claim. I need to appeal it.
 ```
 
 **Your Agent's clarifying questions:**
-```
+```agent
 I can help you with that. A few questions to make sure
 I give you the right approach:
 
@@ -101,7 +101,7 @@ I give you the right approach:
 ```
 
 **Your Agent proposes the spec:**
-```
+```agent
 Here's what I understand you need:
 
 You've received a prior authorization denial for an MRI

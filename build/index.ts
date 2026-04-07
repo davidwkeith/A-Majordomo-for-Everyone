@@ -11,6 +11,7 @@ import rehypeStringify from 'rehype-stringify';
 import remarkCallouts from './plugins/callouts.js';
 import remarkArtBriefs, { discoverBriefs } from './plugins/art-briefs.js';
 import type { ArtBrief } from './plugins/art-briefs.js';
+import rehypeConversations from './plugins/conversations.js';
 import rehypeEndnotes from './plugins/endnotes.js';
 import { assembleEpub } from './epub/assemble.js';
 import { generateMissingArt } from './generate-art.js';
@@ -31,6 +32,7 @@ function createProcessor(briefs: Map<string, ArtBrief>) {
     .use(remarkCallouts)
     .use(remarkArtBriefs, { imagesDir: IMAGES_DIR, briefs })
     .use(remarkRehype, { allowDangerousHtml: true })
+    .use(rehypeConversations)
     .use(rehypeEndnotes)
     .use(rehypeStringify, {
       closeSelfClosing: true,
