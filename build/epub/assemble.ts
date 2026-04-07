@@ -51,8 +51,25 @@ export async function assembleEpub(
   // Container
   zip.file('META-INF/container.xml', containerXml());
 
-  // OPF
-  zip.file('OEBPS/content.opf', contentOpf(meta, chapters, hasCover));
+  // Collect images from src/images/
+  const imageExts = ['.png', '.jpg', '.jpeg', '.gif', '.svg', '.webp'];
+  const isImage = (f: string) =>
+    imageExts.some((ext) => f.toLowerCase().endsWith(ext));
+
+  const imageFiles: string[] = [];
+  try {
+    const entries = await readdir(imagesDir, { recursive: true });
+    for (const f of entries.filter((f: string) => isImage(f))) {
+      const imgData = await readFile(join(imagesDir, f));
+      zip.file(`OEBPS/images/${f}`, imgData);
+      if (f !== 'cover.png') imageFiles.push(f);
+    }
+  } catch {
+    // No images directory — fine
+  }
+
+  // OPF — must come after image collection so manifest is complete
+  zip.file('OEBPS/content.opf', contentOpf(meta, chapters, hasCover, imageFiles));
 
   // Cover page
   if (hasCover) {
@@ -71,21 +88,6 @@ export async function assembleEpub(
   for (const chapter of chapters) {
     const xhtml = chapterXhtml(meta, chapter);
     zip.file(`OEBPS/text/${chapter.meta.slug}.xhtml`, xhtml);
-  }
-
-  // Images from src/images/
-  const imageExts = ['.png', '.jpg', '.jpeg', '.gif', '.svg', '.webp'];
-  const isImage = (f: string) =>
-    imageExts.some((ext) => f.toLowerCase().endsWith(ext));
-
-  try {
-    const entries = await readdir(imagesDir, { recursive: true });
-    for (const f of entries.filter((f: string) => isImage(f))) {
-      const imgData = await readFile(join(imagesDir, f));
-      zip.file(`OEBPS/images/${f}`, imgData);
-    }
-  } catch {
-    // No images directory — fine
   }
 
   // Generate the ZIP buffer

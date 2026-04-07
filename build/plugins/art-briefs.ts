@@ -55,7 +55,7 @@ export function discoverBriefs(contentDir: string): Map<string, ArtBrief> {
         stem,
         format: String(data.format ?? 'png'),
         size: String(data.size ?? 'full'),
-        alt: String(data.alt ?? ''),
+        alt: String(data.alt ?? '').trim(),
         brief: content.trim(),
         sourcePath: fullPath,
       });

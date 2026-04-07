@@ -9,13 +9,29 @@ export function containerXml(): string {
 </container>`;
 }
 
-export function contentOpf(meta: BookMeta, chapters: ProcessedChapter[], hasCover: boolean): string {
-  const manifestItems = chapters
+export function contentOpf(meta: BookMeta, chapters: ProcessedChapter[], hasCover: boolean, imageFiles: string[] = []): string {
+  const chapterItems = chapters
     .map(
       (ch) =>
         `    <item id="${ch.meta.slug}" href="text/${ch.meta.slug}.xhtml" media-type="application/xhtml+xml"/>`
     )
     .join('\n');
+
+  const imageItems = imageFiles
+    .map((f) => {
+      const id = `img-${f.replace(/[^a-zA-Z0-9]/g, '-')}`;
+      const ext = f.split('.').pop()?.toLowerCase() ?? '';
+      const mediaType =
+        ext === 'svg' ? 'image/svg+xml'
+        : ext === 'webp' ? 'image/webp'
+        : ext === 'gif' ? 'image/gif'
+        : ext === 'jpg' || ext === 'jpeg' ? 'image/jpeg'
+        : 'image/png';
+      return `    <item id="${id}" href="images/${f}" media-type="${mediaType}"/>`;
+    })
+    .join('\n');
+
+  const manifestItems = [chapterItems, imageItems].filter(Boolean).join('\n');
 
   const spineItems = chapters
     .map((ch) => `    <itemref idref="${ch.meta.slug}"/>`)

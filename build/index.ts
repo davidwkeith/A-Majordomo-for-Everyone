@@ -1,3 +1,4 @@
+import 'dotenv/config';
 import { readFile, readdir } from 'node:fs/promises';
 import { accessSync } from 'node:fs';
 import { join, basename, dirname, resolve } from 'node:path';
@@ -12,6 +13,7 @@ import remarkArtBriefs, { discoverBriefs } from './plugins/art-briefs.js';
 import type { ArtBrief } from './plugins/art-briefs.js';
 import rehypeEndnotes from './plugins/endnotes.js';
 import { assembleEpub } from './epub/assemble.js';
+import { generateMissingArt } from './generate-art.js';
 import { BOOK_META } from './types.js';
 import type { ChapterMeta, ProcessedChapter } from './types.js';
 
@@ -19,6 +21,7 @@ const ROOT = resolve(import.meta.dirname, '..', '..');
 const CONTENT_DIR = join(ROOT, 'src', 'content');
 const STYLES_DIR = join(ROOT, 'src', 'styles');
 const IMAGES_DIR = join(ROOT, 'src', 'images');
+const STYLE_GUIDE = join(ROOT, 'spec', 'illustration', 'gem-illustration-instructions.md');
 const OUTPUT_PATH = join(ROOT, 'dist', 'a-majordomo-for-everyone.epub');
 
 function createProcessor(briefs: Map<string, ArtBrief>) {
@@ -109,6 +112,8 @@ function imageExists(imagesDir: string, brief: ArtBrief): boolean {
 async function build(): Promise<void> {
   const args = process.argv.slice(2);
   const shouldGenerate = args.includes('--generate');
+  const maxArg = args.find((a) => a.startsWith('--max='));
+  const maxImages = maxArg ? parseInt(maxArg.split('=')[1], 10) : Infinity;
 
   // Discover art briefs from .art.md sidecar files
   console.log('Discovering art briefs...');
@@ -121,13 +126,9 @@ async function build(): Promise<void> {
   );
   if (missing.length > 0) {
     if (shouldGenerate) {
-      for (const brief of missing) {
-        const imageFile = `${brief.stem}.${brief.format}`;
-        console.log(`Generating ${imageFile}...`);
-        // TODO: pipe brief to Gemini CLI
-        // e.g. gemini generate -o ${join(IMAGES_DIR, imageFile)} <<< brief.brief
-        console.warn(`  ⏳ generation not yet implemented — will render placeholder`);
-      }
+      const batch = missing.slice(0, maxImages);
+      const count = await generateMissingArt(batch, IMAGES_DIR, STYLE_GUIDE);
+      console.log(`Generated ${count}/${missing.length} image(s)`);
     } else {
       console.log(
         `${missing.length} art brief(s) without images (use --generate to create)`
