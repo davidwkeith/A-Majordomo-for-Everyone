@@ -45,11 +45,11 @@ Each strategy chapter (0 through 9) opens with a full-width illustration using a
 
 ### Layer 1: The Notebook Page
 
-Standard American college-ruled notebook paper. Blue horizontal lines. Red vertical margin line on the left. No paper edges visible — the paper extends beyond all four sides of the frame. The paper is the background, not an object placed on a background.
+Standard American college-ruled notebook paper. Blue horizontal lines. Red vertical margin line on the left. No paper edges visible — the paper extends beyond all four sides of the frame. The paper is the background, not an object placed on a background. If the paper logically ends, the background is transparent, otherwise the background fades. The lines on the paper are precise, as if the image was scanned.
 
 **The paper is at an angle.** Each chapter has a unique rotation determined by the primary action direction in the pixel art on screen. The blue lines run diagonally, extending the compositional vectors of the image. No two chapters share the same angle. The specific angle for each chapter is specified in the chapter's TRINITRON art brief.
 
-The red margin line falls where the paper's rotation puts it. It may cross the TV screen, the cabinet, or the corner of the composition. Accept this.
+**The red margin line** is a static element of the notebook paper. It must remain **perfectly straight** at all times, regardless of the paper's rotation or any objects overlapping it. It does not warp, curve, or distort. If the TV cabinet or screen is positioned over the margin line, the line is simply obscured by the pencil drawing — the TV sits on top of the paper, not inside it. The margin line falls where the paper's rotation puts it. It may cross behind the TV. Accept this.
 
 Faint pencil construction lines should be visible beneath the main drawing.
 
@@ -64,7 +64,7 @@ On the notebook page: a hand-drawn 27-inch Sony Trinitron CRT television, mid-19
 - *Cabinet:* Mid-90s Sony dark grey. Forward lean. Ventilation slots on sides and back, each one rendered individually. Sony logo on the front bezel, carefully lettered.
 - *Controls:* Channel and volume knobs or buttons on the front panel. Small red standby LED. Infrared receiver window.
 - *Remote:* A Sony remote control on top of the TV, rendered with the same obsessive detail. Every button labeled.
-- *Cables:* Coaxial cable from the back, power cord, both trailing off the edge of the notebook page. No cable ends visible.
+- *Cables:* Just the TV, no cables, no furniture.
 - *Back panel (partially visible):* Ventilation slots, FCC compliance sticker, model number plate, ground screw.
 
 Drawn in #2 pencil, consistent pressure, no color fill.
