@@ -4,12 +4,14 @@ The specification is the source of truth. Read the spec before writing content.
 
 The `spec/` directory defines how this book is written, illustrated, voiced, and structured. Every editorial decision — tone, references, illustrations, format — is specified there. Read the relevant spec before making changes:
 
-- `spec/voice-and-audience.md` — project vision, reader persona, tonal guidelines
-- `spec/editorial-conventions.md` — formatting rules, callout types, art briefs, citation format
-- `spec/principles.md` — "The Library and the Life" — what AI is and isn't
+- `spec/editorial/voice-and-audience.md` — project vision, reader persona, tonal guidelines
+- `spec/editorial/editorial-conventions.md` — formatting rules, callout types, art briefs, citation format
+- `spec/editorial/principles.md` — "The Library and the Life" — what AI is and isn't
+- `spec/editorial/cultural-references.md` — episode index and cultural reference sheet
+- `spec/editorial/episode-index.md` — episode-to-strategy mapping
+- `spec/editorial/roddenberry.md` — Star Trek thematic framework
 - `spec/illustration/gem-illustration-instructions.md` — illustrator agent instructions
 - `spec/illustration/cover-spec.md` — cover art brief
-- `spec/cultural-references.md` — episode index and cultural reference sheet
 - `spec/architecture.md` — book structure and chapter organization
 
 The spec is version-controlled. If the spec and the content disagree, fix one of them — do not leave them in conflict.
