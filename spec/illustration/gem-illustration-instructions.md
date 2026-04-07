@@ -45,7 +45,9 @@ Each strategy chapter (0 through 9) opens with a full-width illustration using a
 
 ### Layer 1: The Notebook Page
 
-Standard American college-ruled notebook paper. Blue horizontal lines. No vertical margin line on the left. No paper edges visible — the paper extends beyond all four sides of the frame. The paper is the background, not an object placed on a background. If the paper logically ends, the background is transparent, otherwise the background fades. The lines on the paper are precise, as if the image was scanned.
+Standard American college-ruled notebook paper. Blue horizontal lines. No vertical margin line on the left. No paper edges visible — the paper extends beyond all four sides of the frame. The paper is the background, not an object placed on a background. If the paper logically ends, the background is transparent, otherwise the background fades.
+
+**The ruled lines are machine-printed, not hand-drawn.** They are perfectly straight, perfectly parallel, perfectly evenly spaced — exactly as they appear on real manufactured notebook paper. Think of a high-resolution scan of actual college-ruled paper. The lines never wobble, curve, warp, or vary in thickness. They are a manufactured product, not a drawing. The pencil drawing sits ON the paper; the lines are part of the paper itself.
 
 **The paper is at an angle.** Each chapter has a unique rotation determined by the primary action direction in the pixel art on screen. The blue lines run diagonally, extending the compositional vectors of the image. No two chapters share the same angle. The specific angle for each chapter is specified in the chapter's TRINITRON art brief.
 
@@ -74,6 +76,8 @@ Drawn in #2 pencil, consistent pressure, no color fill.
 In every chapter, one specific part of the television becomes the zone where the pencil got lost — where the drawer kept adding detail beyond what was necessary. The rest of the TV is complete. This part is excessive.
 
 The zone shifts with every chapter. No two chapters share the same zone. The zone is never explained or labeled. It is simply denser, more worked, more present. The specific zone for each chapter is specified in the chapter's TRINITRON art brief.
+
+**The obsession zone must be on a visible part of the TV.** The front face (bezel, screen corners, front panel controls, speaker grill, Sony logo), the top (remote control), or the visible side panel (ventilation slots). Never the back of the TV — the TV faces the viewer and the back is not visible. Do not draw a separate floating panel or cutaway to show a non-visible area. The obsession zone is extra detail on part of the drawing that already exists.
 
 ### Layer 3: The 8-bit Pixel Art Scene
 
