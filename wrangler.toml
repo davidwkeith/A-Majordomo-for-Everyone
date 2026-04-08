@@ -2,9 +2,6 @@ name = "a-majordomo-for-everyone-dwk-io"
 main = "worker/index.js"
 compatibility_date = "2025-04-01"
 
-[build]
-command = "npx playwright install --with-deps chromium && npm run build:all"
-
 [assets]
 directory = "dist/site"
 html_handling = "auto-trailing-slash"
