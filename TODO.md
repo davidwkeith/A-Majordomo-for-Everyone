@@ -17,7 +17,7 @@ Each strategy chapter needs 2–3 full [SPEC] loops (reader situation → clarif
 - [ ] **Strategy 3: Draft** — A demand letter to a landlord. A Medicare denial appeal. A public comment for city council.
 - [x] **Strategy 4: Navigate** — Filing for unemployment. Filing a first-level insurance appeal. Filing a small claims case.
 - [ ] **Strategy 5: Decide** — Repair vs. replace an appliance. Roth vs. traditional IRA. Escalate vs. settle a landlord dispute.
-- [ ] **Strategy 6: Diagnose** — An appliance making a new noise. A symptom that may or may not warrant urgent care. A contractor quote that seems high.
+- [x] **Strategy 6: Diagnose** — A washing machine grinding noise. Persistent headaches (triage). An HVAC quote that seems high.
 - [ ] **Strategy 7: Research** — Before a surgical procedure. Before signing a non-compete. Between two college financial aid offers.
 - [ ] **Strategy 8: Assert** — Tenant rights when landlord refuses repairs. Employee rights when let go. Consumer rights when disputing a charge.
 - [ ] **Strategy 9: Create** — A mystery novel architecture interview. A branching short story. A game narrative prototype.
