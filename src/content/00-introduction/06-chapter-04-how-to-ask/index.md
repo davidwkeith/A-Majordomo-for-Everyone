@@ -8,10 +8,10 @@ status: "draft"
 
 ## Chapter 4: How to Ask for What You Actually Want
 
+<!-- art: epigraph-ch4-data -->
+
 *"Could you please clarify what you mean by 'normal'?"*
 *— [Data](https://en.wikipedia.org/wiki/Data_(Star_Trek)), probably, in every episode*
-
-<!-- art: epigraph-ch4-data -->
 
 This is the most important chapter in the book. The difference between a frustrating conversation with your Agent and a genuinely useful one almost always comes down to how the question was asked.
 
