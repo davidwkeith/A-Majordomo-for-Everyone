@@ -1,4 +1,4 @@
-import { readFile, writeFile, mkdir, cp } from 'node:fs/promises';
+import { readFile, writeFile, mkdir, cp, copyFile, access } from 'node:fs/promises';
 import { join } from 'node:path';
 import {
   ROOT,
@@ -81,6 +81,16 @@ async function buildSite(): Promise<void> {
       join(dir, 'index.html'),
       chapterPage(BOOK_META, ch, prev, next, sorted)
     );
+  }
+
+  // Copy epub if it exists (built by npm run build:all)
+  const epubPath = join(ROOT, 'dist', 'a-majordomo-for-everyone.epub');
+  try {
+    await access(epubPath);
+    await copyFile(epubPath, join(OUTPUT_DIR, 'a-majordomo-for-everyone.epub'));
+    console.log('Copied ePub to site output');
+  } catch {
+    console.log('ePub not found — skipping (run build:all to include it)');
   }
 
   console.log(`Site written to ${OUTPUT_DIR} (${sorted.length} chapters)`);

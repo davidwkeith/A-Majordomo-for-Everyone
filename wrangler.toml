@@ -3,7 +3,7 @@ main = "worker/index.js"
 compatibility_date = "2025-04-01"
 
 [build]
-command = "npm run build:site"
+command = "npm run build:all"
 
 [assets]
 directory = "dist/site"

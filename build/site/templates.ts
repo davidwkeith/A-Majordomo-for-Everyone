@@ -203,7 +203,10 @@ export function landingPage(meta: BookMeta): string {
       <h1>${escapeHtml(meta.title)}</h1>
       <p class="hero-subtitle">${escapeHtml(meta.subtitle)}</p>
       <p class="hero-pitch">The billionaire class has always had access to lawyers, doctors, and financial advisors who explain things in plain language &mdash; now you have something close to that, for free, on your phone.</p>
-      <a href="/read/" class="hero-cta">Start Reading</a>
+      <div class="hero-ctas">
+        <a href="/read/" class="hero-cta">Read Online</a>
+        <a href="/a-majordomo-for-everyone.epub" class="hero-cta hero-cta-secondary" download>Download ePub</a>
+      </div>
     </div>
   </header>
   <div class="landing-content">
