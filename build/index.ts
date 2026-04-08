@@ -12,6 +12,7 @@ import {
   discoverChapters,
   processChapter,
   sortChapters,
+  optimizeImages,
 } from './pipeline.js';
 import type { ArtBrief } from './pipeline.js';
 import { assembleEpub } from './epub/assemble.js';
@@ -68,12 +69,17 @@ async function build(): Promise<void> {
   );
   const sorted = sortChapters(chapters);
 
+  // Optimize images to a temp directory for the epub
+  const optimizedDir = join(ROOT, 'dist', '.images');
+  console.log('Optimizing images...');
+  await optimizeImages(IMAGES_DIR, optimizedDir, 800);
+
   console.log('Assembling ePub...');
   await assembleEpub(
     BOOK_META,
     sorted,
     join(STYLES_DIR, 'base.css'),
-    IMAGES_DIR,
+    optimizedDir,
     OUTPUT_PATH
   );
 

@@ -1,5 +1,6 @@
-import { readFile, readdir } from 'node:fs/promises';
-import { join, basename, dirname, resolve } from 'node:path';
+import { readFile, readdir, writeFile, mkdir, stat } from 'node:fs/promises';
+import { join, basename, dirname, resolve, extname } from 'node:path';
+import sharp from 'sharp';
 import matter from 'gray-matter';
 import { unified } from 'unified';
 import remarkParse from 'remark-parse';
@@ -127,4 +128,60 @@ export function groupByPart(
     map.set(ch.meta.part, arr);
   }
   return map;
+}
+
+const IMAGE_EXTS = new Set(['.png', '.jpg', '.jpeg', '.webp']);
+
+/**
+ * Copy images from src/images/ to an output directory, resizing any
+ * that exceed maxWidth and re-compressing PNGs. SVGs and small images
+ * pass through unchanged. Returns the number of images processed.
+ */
+export async function optimizeImages(
+  srcDir: string,
+  destDir: string,
+  maxWidth = 1200
+): Promise<number> {
+  await mkdir(destDir, { recursive: true });
+  const entries = await readdir(srcDir, { recursive: true });
+  let count = 0;
+
+  for (const entry of entries) {
+    const srcPath = join(srcDir, entry);
+    const info = await stat(srcPath);
+    if (info.isDirectory()) continue;
+
+    const ext = extname(entry).toLowerCase();
+    const destPath = join(destDir, entry);
+
+    // Ensure subdirectory exists
+    await mkdir(dirname(destPath), { recursive: true });
+
+    if (!IMAGE_EXTS.has(ext)) {
+      // SVG, GIF, etc. — copy as-is
+      const data = await readFile(srcPath);
+      await writeFile(destPath, data);
+    } else {
+      const img = sharp(srcPath);
+      const meta = await img.metadata();
+      let pipeline = img;
+
+      if (meta.width && meta.width > maxWidth) {
+        pipeline = pipeline.resize(maxWidth);
+      }
+
+      if (ext === '.png') {
+        pipeline = pipeline.png({ compressionLevel: 9 });
+      } else if (ext === '.jpg' || ext === '.jpeg') {
+        pipeline = pipeline.jpeg({ quality: 85 });
+      } else if (ext === '.webp') {
+        pipeline = pipeline.webp({ quality: 85 });
+      }
+
+      await pipeline.toFile(destPath);
+    }
+    count++;
+  }
+
+  return count;
 }

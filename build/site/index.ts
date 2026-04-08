@@ -1,4 +1,4 @@
-import { readFile, writeFile, mkdir, cp, copyFile, access } from 'node:fs/promises';
+import { readFile, writeFile, mkdir, copyFile, access } from 'node:fs/promises';
 import { join } from 'node:path';
 import {
   ROOT,
@@ -10,6 +10,7 @@ import {
   discoverChapters,
   processChapter,
   sortChapters,
+  optimizeImages,
 } from '../pipeline.js';
 import { BOOK_META } from '../types.js';
 import {
@@ -52,9 +53,10 @@ async function buildSite(): Promise<void> {
     baseCss + '\n' + siteCss
   );
 
-  // Copy images
-  console.log('Copying images...');
-  await cp(IMAGES_DIR, join(OUTPUT_DIR, 'images'), { recursive: true });
+  // Optimize and copy images
+  console.log('Optimizing images...');
+  const imgCount = await optimizeImages(IMAGES_DIR, join(OUTPUT_DIR, 'images'));
+  console.log(`Optimized ${imgCount} images`);
 
   // Landing page
   console.log('Writing pages...');
