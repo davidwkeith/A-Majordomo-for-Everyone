@@ -150,7 +150,7 @@ Please help me:
 
 <!-- RESEARCH NEEDED (HUMAN CONDITION): Racial disparities in mortgage lending. Despite the Fair Housing Act and the Equal Credit Opportunity Act, Black and Hispanic borrowers are charged higher rates and denied loans at higher rates than white borrowers with comparable financial profiles (HMDA data, annual). The gap has narrowed but persists. This is not historical — it is current. The entry should name it. -->
 
-[^m3-1]: The Dodd-Frank Wall Street Reform and Consumer Protection Act (2010) created the CFPB and standardized mortgage disclosure requirements. The Loan Estimate and Closing Disclosure replaced the prior GFE and HUD-1 forms in 2015.
+[^m3-1]: The [Dodd-Frank Wall Street Reform and Consumer Protection Act](https://www.congress.gov/bill/111th-congress/house-bill/4173) (2010) created the CFPB and standardized mortgage disclosure requirements. The Loan Estimate and Closing Disclosure replaced the prior GFE and HUD-1 forms in 2015.
 
 ---
 
@@ -202,7 +202,7 @@ I will verify with a consumer rights attorney.
 
 <!-- RESEARCH NEEDED (HUMAN CONDITION): The psychology of being in collections is comparable to chronic stress. Constant calls, the fear of lawsuits, the shame of avoiding the phone — debt collectors know this and use it. The power dynamic is designed to feel inescapable. The FDCPA exists specifically because Congress recognized that the industry's practices were abusive. The entry should give the reader back their sense of agency: you have rights, they have rules, and the rules favor you more than you think. -->
 
-[^m4-1]: Himmelstein, D.U. et al. (2019). "Medical Bankruptcy: Still Common Despite the Affordable Care Act." *American Journal of Public Health*, 109(3), 431–433.
+[^m4-1]: Himmelstein, D.U. et al. (2019). ["Medical Bankruptcy: Still Common Despite the Affordable Care Act."](https://doi.org/10.2105/AJPH.2018.304901) *American Journal of Public Health*, 109(3), 431–433.
 
 ---
 

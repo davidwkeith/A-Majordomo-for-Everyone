@@ -173,9 +173,9 @@ Please explain:
 
 <!-- RESEARCH NEEDED: Medicare Advantage (Part C) vs. Original Medicare. The marketing for Medicare Advantage is aggressive and the trade-offs (network restrictions, prior authorization requirements, variable quality) are poorly understood. This is one of the most consequential healthcare decisions older Americans make and one of the least informed. The entry should help the reader understand the trade-off without taking a side. -->
 
-[^h6-1]: Kaiser Family Foundation, "An Overview of the Medicare Part D Prescription Drug Benefit." See also Inflation Reduction Act of 2022, Section 11201.
+[^h6-1]: Kaiser Family Foundation, ["An Overview of the Medicare Part D Prescription Drug Benefit."](https://www.kff.org/medicare/a-current-snapshot-of-the-medicare-part-d-prescription-drug-benefit/) See also [Inflation Reduction Act of 2022, Section 11201](https://www.congress.gov/bill/117th-congress/house-bill/5376).
 
-[^h6-2]: Congressional Budget Office (2025). Cost estimate, One Big Beautiful Bill Act, Medicaid provisions. See also KFF, ["A Closer Look at the Work Requirement Provisions in the 2025 Federal Budget Reconciliation Law."](https://www.kff.org/medicaid/a-closer-look-at-the-work-requirement-provisions-in-the-2025-federal-budget-reconciliation-law/)
+[^h6-2]: Congressional Budget Office (2025). [Cost estimate, One Big Beautiful Bill Act](https://www.cbo.gov/publication/61461), Medicaid provisions. See also KFF, ["A Closer Look at the Work Requirement Provisions in the 2025 Federal Budget Reconciliation Law."](https://www.kff.org/medicaid/a-closer-look-at-the-work-requirement-provisions-in-the-2025-federal-budget-reconciliation-law/)
 
 [^h6-3]: KFF, ["7 Charts About Public Opinion on Medicaid."](https://www.kff.org/medicaid/7-charts-about-public-opinion-on-medicaid/) See also KFF Health Tracking Poll, ["The Public's Views on Potential Changes to Medicaid."](https://www.kff.org/medicaid/kff-health-tracking-poll-public-views-on-potential-changes-to-medicaid/)
 

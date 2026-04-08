@@ -131,7 +131,7 @@ a letter of medical necessity. Can the appeal reference that?
 
 > **[SCIENCE]** The interview-to-specification process maps directly to what therapists call *collaborative formulation* — the structured process by which a therapist and client jointly develop an accurate description of the presenting problem before attempting to address it. Research consistently shows that collaborative formulation produces better treatment outcomes than clinician-only assessment, because the client's corrections to the initial formulation contain essential information the clinician could not have known (Kuyken et al., 2009).[^s0-1]
 
-[^s0-1]: Kuyken, W., Padesky, C.A., & Dudley, R. (2009). *Collaborative Case Conceptualization.* Guilford Press. The parallel to AI specification is direct: the user's corrections to the Agent's proposed spec contain exactly the contextual information that distinguishes their situation from the generic case.
+[^s0-1]: Kuyken, W., Padesky, C.A., & Dudley, R. (2009). [*Collaborative Case Conceptualization.*](https://www.guilford.com/books/Collaborative-Case-Conceptualization/Kuyken-Padesky-Dudley/9781462504480) Guilford Press. The parallel to AI specification is direct: the user's corrections to the Agent's proposed spec contain exactly the contextual information that distinguishes their situation from the generic case.
 
 ### The Expert Role Variant
 

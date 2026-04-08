@@ -40,7 +40,7 @@ Please help me:
 
 **Science note:** Gottman (1999) identifies the "soft startup" as the single highest-leverage intervention in difficult conversations -- how you begin determines nearly everything that follows.[^li1-1]
 
-[^li1-1]: Gottman, J.M. (1999). *The Marriage Clinic.* W.W. Norton.
+[^li1-1]: Gottman, J.M. (1999). [*The Marriage Clinic.*](https://www.gottman.com/product/the-new-marriage-clinic/) W.W. Norton.
 
 ---
 

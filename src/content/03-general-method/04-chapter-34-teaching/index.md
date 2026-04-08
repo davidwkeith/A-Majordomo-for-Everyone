@@ -128,6 +128,6 @@ The billionaire class maintained its information advantage partly through scarci
 
 The old saying needs updating. Those who can, do. Those who can, also teach. With specification literacy, they are the same verb.
 
-[^34-1]: Bandura, A. (1977). *Social Learning Theory.* Prentice Hall. See also: Compeau, D.R. & Higgins, C.A. (1995). "Computer self-efficacy: Development of a measure and initial test." *MIS Quarterly*, 19(2), 189-211. Self-efficacy is the strongest predictor of whether a person will attempt a new technology.
+[^34-1]: Bandura, A. (1977). [*Social Learning Theory.*](https://archive.org/details/sociallearningth0000band) Prentice Hall. See also: Compeau, D.R. & Higgins, C.A. (1995). "Computer self-efficacy: Development of a measure and initial test." *MIS Quarterly*, 19(2), 189-211. Self-efficacy is the strongest predictor of whether a person will attempt a new technology.
 
-[^34-2]: Rogers, E.M. (2003). *Diffusion of Innovations*, 5th ed. Free Press. Rogers' research across five decades shows that interpersonal channels — especially near-peers who have recently adopted the innovation themselves — are more influential than mass media at every stage of adoption except initial awareness. The kitchen table is the adoption channel.
+[^34-2]: Rogers, E.M. (2003). [*Diffusion of Innovations*](https://bookshop.org/p/books/diffusion-of-innovations-5th-edition-everett-m-rogers/951236), 5th ed. Free Press. Rogers' research across five decades shows that interpersonal channels — especially near-peers who have recently adopted the innovation themselves — are more influential than mass media at every stage of adoption except initial awareness. The kitchen table is the adoption channel.

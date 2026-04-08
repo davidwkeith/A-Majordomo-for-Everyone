@@ -91,7 +91,7 @@ Please:
 
 > **[SCIENCE]** The digital skills gap is a class issue. The OECD's Survey of Adult Skills (2024) found a 42-point gap in adaptive problem-solving linked to parental education — a larger effect than age alone. Helsper & Eynon (2010) found that education and experience predict Internet skill as strongly as generation, and Hargittai (2010) showed wide skill variation *within* the "digital native" cohort. Kirschner & De Bruyckere (2017) called the digital native "a yeti with a smartphone" — a conclusion endorsed by *Nature*. The real divide is not access to devices but access to patient instruction.[^wb8-2]
 
-[^wb8-1]: Koch, R. (1998). *The 80/20 Principle.* Doubleday. See also: Knowles, M.S. (1984). *Andragogy in Action.* Jossey-Bass.
+[^wb8-1]: Koch, R. (1998). [*The 80/20 Principle.*](https://richardkoch.net/books/320-the-80-20-principle-the-secret-to-achieving-more-with-less) Doubleday. See also: Knowles, M.S. (1984). [*Andragogy in Action.*](https://archive.org/details/andragogyinactio0000unse) Jossey-Bass.
 
 [^wb8-2]: OECD (2024). [*Survey of Adult Skills 2023.*](https://www.oecd.org/en/publications/survey-of-adult-skills-2023_1ab54c9e-en.html) Helsper, E.J. & Eynon, R. (2010). ["Digital natives: where is the evidence?"](https://doi.org/10.1080/01411920902989227) *British Educational Research Journal*, 36(3), 503–520. Hargittai, E. (2010). ["Digital Na(t)ives? Variation in Internet Skills and Uses among Members of the 'Net Generation'."](https://doi.org/10.1111/j.1475-682X.2009.00317.x) *Sociological Inquiry*, 80(1), 92–113. Kirschner, P.A. & De Bruyckere, P. (2017). ["The myths of the digital native and the multitasker."](https://doi.org/10.1016/j.tate.2017.06.001) *Teaching and Teacher Education*, 67, 135–142.
 
@@ -289,7 +289,7 @@ Links are the key innovation. [Tim Berners-Lee](https://en.wikipedia.org/wiki/Ti
 
 <!-- RESEARCH NEEDED (HUMAN CONDITION): The power of links as a democratic act. In the pre-web era, citation was gatekept by publishers, editors, and academic institutions. The hyperlink democratized citation. Anyone can reference anyone. This is the web's most underappreciated feature and the one most threatened by platforms that trap content behind walls. Every link you create is a small act of web citizenship — you are connecting knowledge that was previously isolated. Ward Cunningham (inventor of the wiki) and Tim Berners-Lee both identified the link as the web's fundamental unit of value. -->
 
-[^wb3-1]: Schriver, K.A. (1997). *Dynamics in Document Design.* John Wiley & Sons. The research on structured text and comprehension is extensive and consistent across both print and digital contexts.
+[^wb3-1]: Schriver, K.A. (1997). [*Dynamics in Document Design.*](https://archive.org/details/dynamicsindocume0000schr) John Wiley & Sons. The research on structured text and comprehension is extensive and consistent across both print and digital contexts.
 
 ---
 
