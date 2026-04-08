@@ -51,8 +51,6 @@ Standard American college-ruled notebook paper. The paper is unbleached recycled
 
 **The paper is at an angle.** Each chapter has a unique rotation determined by the primary action direction in the pixel art on screen. The blue lines run diagonally, extending the compositional vectors of the image. No two chapters share the same angle. The specific angle for each chapter is specified in the chapter's TRINITRON art brief.
 
-**The red margin line** is a static element of the notebook paper. It must remain **perfectly straight** at all times, regardless of the paper's rotation or any objects overlapping it. It does not warp, curve, or distort. If the TV cabinet or screen is positioned over the margin line, the line is simply obscured by the pencil drawing — the TV sits on top of the paper, not inside it. The margin line falls where the paper's rotation puts it. It may cross behind the TV. Accept this.
-
 Faint pencil construction lines should be visible beneath the main drawing.
 
 ### Layer 2: The Sony Trinitron CRT Television
@@ -182,45 +180,9 @@ Not everything. An inline graphic earns its placement by doing work that text al
 
 ## Callout Icons
 
-All six callout types get hand-drawn notebook doodle icons. Each icon is redrawn slightly differently every time it appears — same doodle, different day, the way a real kid would redraw the same thing across a school year. All are #2 pencil on plain white background, margin-sized. No ballpoint color.
+All callout types get hand-drawn notebook doodle icons. Each icon is redrawn slightly differently every time it appears — same doodle, different day, the way a real kid would redraw the same thing across a school year. All are #2 pencil on plain white background, margin-sized. No ballpoint color.
 
-Every icon should feel like it was drawn in the same class, by the same hand, in the same notebook as the Trinitron. The variation is natural — pencil sharpness, speed, care — not stylistic. The kid is not trying to make each one different. They just are.
-
-### MEME — The Cool S
-
-The [Cool S](https://en.wikipedia.org/wiki/Cool_S) — six lines connected into a pointed S. The original meme: a piece of culture that spread virally with no known origin, replicated identically by every kid in every school. No one knows who started it. Everyone drew it.
-
-**Variation:** Early appearances are careful and symmetrical, construction lines faintly visible. Later appearances are faster, asymmetric, duller pencil. Final appearances are automatic — elongated, loose, drawn without looking. The S has been drawn five hundred times. It draws itself.
-
-### SCIENCE — The Bohr Atom
-
-Three elliptical orbits around a small solid nucleus. The doodle on every science textbook cover, in every notebook margin during 7th grade physical science. The doodle version, not the accurate version — the orbits are too circular, the electrons are too big, the whole thing is more logo than physics.
-
-**Variation:** Early appearances have careful ellipses, maybe a compass-wobble. Later the orbits get looser, one noticeably more oval. Final appearances are three quick swoops around a dot.
-
-### TIP — The Five-Pointed Star
-
-Drawn in one continuous stroke without lifting the pencil. The gold star. The thing that marks something worth remembering.
-
-**Variation:** Early appearances are drawn slowly — the angles are even, the star is nearly regular. Later appearances have one long point and one short one. Final appearances are a single fluid gesture, barely touching the paper at the crossover points.
-
-### FAIRNESS — The Yin-Yang
-
-The circle with the S-curve down the middle, two dots, two halves. Every kid in the 90s drew one of these — on binders, on shoes, on desks. Balance, duality, the thing that should be equal.
-
-**Variation:** Early appearances are drawn with a careful circle (maybe traced around a coin), the S-curve centered, the dots placed precisely. Later the circle is freehanded and slightly oblong, the S-curve drifts off-center. Final appearances are fast — the circle doesn't quite close, the dots are dashes, but it's still immediately recognizable.
-
-### SPEC — The 3D Cube
-
-The isometric cube drawn in perspective — three visible faces, the doodle every kid drew when they learned that two diagonal lines and a few parallels make a box look real. Technical, structural, a shape defined by its specification.
-
-**Variation:** Early appearances are precise — the parallel lines are truly parallel, the angles are consistent, maybe a faint vanishing-point construction line. Later the parallels drift, one face is slightly larger than it should be. Final appearances are three quick strokes and three connecting lines, the perspective slightly wrong but the cube still reading as a cube.
-
-### ALSO — The Block Arrow
-
-The thick right-pointing arrow drawn in 3D — the universal notebook shorthand for "look over there." Not a thin arrow, the chunky one with the receding side face shaded in pencil hatching. Points to the thing you should also know.
-
-**Variation:** Early appearances are carefully constructed — the arrowhead is symmetrical, the 3D shading is even crosshatch. Later the arrowhead gets sharper and the shaft shorter as the hand finds its shortcut. Final appearances are a single confident gesture with a quick shadow, barely a 3D effect, more like a wedge.
+Every icon should feel like it was drawn in the same class, by the same hand, in the same notebook as the Trinitron. The variation is natural — pencil sharpness, speed, care — not stylistic. The kid is not trying to make each one different. They just are. Pure white background.
 
 ---
 

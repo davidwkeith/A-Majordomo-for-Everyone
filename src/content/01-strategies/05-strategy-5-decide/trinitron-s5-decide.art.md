@@ -8,7 +8,7 @@ alt: >
   she thinks he did are not the same thing.
 ---
 
-TRINITRON CHAPTER OPENER. Ross on his couch, early morning, phone
+TRINITRON CHAPTER OPENER. Ross on his couch, early morning, cordless phone
 in hand. His expression: the precise look of a person who has just
 realized what he did and what she thinks he did are not the same
 thing. The apartment is completely ordinary. The disaster is

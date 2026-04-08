@@ -8,8 +8,7 @@ alt: >
 ---
 
 The Chinese restaurant lobby from the Seinfeld cold open, rendered
-in 8-bit pixel art colored in ballpoint pen. No TV frame, no
-Trinitron — just the scene on transparent background. Three figures
+in 8-bit pixel art colored in ballpoint pen. Three figures
 standing near the host podium: one gesturing (George energy), one
 arms-crossed (Elaine energy), one hands-in-pockets (Jerry energy).
 The host behind the podium, looking down at a reservation list.
