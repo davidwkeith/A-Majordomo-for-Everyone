@@ -1,4 +1,4 @@
-name = "a-majordomo-for-everyone"
+name = "a-majordomo-for-everyone-dwk-io"
 main = "worker/index.js"
 compatibility_date = "2025-04-01"
 
