@@ -104,7 +104,9 @@ ${chaptersHtml}</body>
   // Render PDF
   console.log('Rendering PDF...');
   try {
-    const browser = await chromium.launch();
+    const browser = await chromium.launch({
+      args: ['--no-sandbox', '--disable-dev-shm-usage'],
+    });
     const page = await browser.newPage();
     await page.emulateMedia({ colorScheme: 'light', media: 'print' });
     await page.goto(pathToFileURL(htmlPath).href, {
