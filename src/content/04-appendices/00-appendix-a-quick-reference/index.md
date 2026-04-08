@@ -156,7 +156,6 @@ status: "draft"
 | WB-1: Building Your Own Website with Your Agent | Create + Navigate | "I want to build my own personal website. I have never done this before..." |
 | WB-2: Reading Without the Algorithm | Research + Navigate | "I want to read the web on my own terms -- without algorithms..." |
 | WB-3: Writing in CommonMark | Decode + Draft | "I want to learn CommonMark so I can write content for my website..." |
-| WB-4: Joining the IndieWeb | Navigate + Research | "I have my own website. I want to connect it to the broader web..." |
 | WB-5: Blogging and Journaling | Create + Draft | "I want to start [blogging publicly / journaling privately / both]..." |
 | WB-6: Preservation and Legacy | Research + Navigate | "I want to make sure my online work -- writing, photos, creative projects -- survives..." |
 

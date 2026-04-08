@@ -6,7 +6,7 @@ strategy: null
 status: "draft"
 ---
 
-### ONLINE PRESENCE
+### IT & Web 
 
 *The internet was built on a promise: anyone could publish, anyone could read, anyone could connect — no permission required. For a decade or so, it delivered. Then the platforms arrived, and the open web was enclosed like common land in the English countryside — fenced, monetized, and rented back to the people who built it. The billionaire class maintained their own domains, their own servers, their own archives. Everyone else got a profile page on someone else's property, governed by someone else's algorithm, deletable at someone else's discretion. The entries that follow are about reclaiming what was always yours: your words, your identity, and your corner of the web.*
 
@@ -14,49 +14,23 @@ status: "draft"
 
 ---
 
-#### Computer Literacy
-
-*Before the web, before the website, before the blog — there is the machine on the table. The billionaire class has always had someone to choose, configure, and maintain their technology. An IT department. A "tech guy." A personal assistant who handled the setup and called the help desk. Everyone else got a shrink-wrapped box, a quick-start guide written for an imagined user who already understood everything, and the unspoken message that if you couldn't figure it out, the problem was you. It was never you. The problem was a consumer electronics industry that made products for a technical audience and marketed them to everyone. Your Agent can close that gap — not by making you technical, but by translating the technical into the specific.*
-
-Meme: We've said "No, I cannot fix your printer" -- even when we can.
+**Your Computer**
 
 ---
 
-#### WB-7: Choosing a Device or Operating System
-**Strategy:** Decide + Research
-**See also:** WB-1: Building Your Own Website (for what to do once you have the device), M-3: Making a Major Purchase Decision
-**The Majordomo says:** *The choice between Mac, Windows, Linux, iPhone, and Android is presented as an identity decision — a lifestyle brand, a tribe. It is not. It is a tool decision, and tool decisions have a correct framework: what do you need to do, what does the tool need to support, and what are you willing to pay for the difference? The billionaire class buys whatever their IT person recommends and never thinks about it again. You can replicate that advice for free.*
-**The spec:**
-```
-I need to [buy a new computer / replace my phone / decide whether
-to switch from Windows to Mac or vice versa / set up a computer
-for my parent / choose a tablet for reading and light work].
-My situation:
-— What I mainly use it for: [list: email, web, writing, video calls,
-   photo editing, streaming, work software, specific apps]
-— My budget: [amount, or "as little as possible"]
-— What I currently have: [device and what I like/dislike about it]
-— What frustrates me most about my current setup: [be specific]
-Please give me:
-1. A clear recommendation with the reasoning — not a ranked list
-   of ten options, one recommendation and why
-2. What I would gain and lose compared to what I have now
-3. The one thing most people overpay for that I can skip
-4. What to do with my old device (recycle, donate, repurpose)
-```
-**What to do with the output:** Buy the thing. Not the premium version, not the sale version — the version your Agent recommended based on what you actually told it you do. If the recommendation surprises you, ask why. If it confirms what you already suspected, you just saved yourself four hours of reading tech reviews written for enthusiasts.
+#### IT Support
 
-> **[TIP]** *"I'm not technical. Should I get a Mac or a PC?"* is a question your Agent handles better than any friend, because it will ask what you actually do before answering. The honest answer for most people: either will work, and the one you're already familiar with has a real advantage called switching cost.
+<!-- art: it-crowd-ipad -->
 
-> **[FAIRNESS]** Tech recommendation algorithms — on review sites, YouTube, retailer pages — are optimized for affiliate revenue, not for your situation. A $300 Chromebook is the correct answer for a surprising number of people, but it generates less affiliate commission than a $1,200 laptop, so it appears less often in "best of" lists. Your Agent has no affiliate links.
+*Before the web, before the website, before the blog — there is the machine on the table. The billionaire class has always had someone to choose, configure, and maintain their technology. An IT department. A "tech guy." A personal assistant who handled the setup and called the help desk. Everyone else got a shrink-wrapped box, a quick-start guide written for an imagined user who already understood everything, and the unspoken message that if you couldn't figure it out, the problem was you. It was never you. The problem was a consumer electronics industry that made products for a technical audience and marketed them to everyone. Your Agent can close that gap — not by making you technical, but by translating the technical into the specific.*
 
-> **[SCIENCE]** The paradox of choice (Schwartz, 2004) is particularly acute in consumer electronics: more options lead to worse decisions and lower satisfaction. Research consistently shows that people who are given a constrained choice set — three options instead of thirty — make faster decisions and report higher satisfaction with the result. Asking your Agent for one recommendation instead of a ranked list is not lazy. It is the research-backed approach.[^wb7-1]
-
-[^wb7-1]: Schwartz, B. (2004). *The Paradox of Choice: Why More Is Less.* Ecco/HarperCollins.
 
 ---
 
 #### WB-8: Learning Any App or Digital Skill
+
+<!-- image idea: #2 sketch of hypercard's icon -->
+
 **Strategy:** Decode + Navigate
 **See also:** WB-3: Writing in CommonMark (a specific digital skill), W-5: Learning a New Professional Skill
 **The Majordomo says:** *Software manuals died in the early 2000s and were replaced by nothing. YouTube tutorials assume you already know the vocabulary. Official documentation is written for developers. The result is a population that uses about 10% of the tools they pay for — not because they are incapable of learning the other 90%, but because no one will explain it at the level they're actually at, without judgment, for as long as it takes. Your Agent will.*
@@ -97,7 +71,10 @@ Please:
 
 ---
 
-#### WB-9: Writing Small Scripts and Automations
+#### WB-9: Automation and Script Writing
+
+<!-- art: applescript-icon -->
+
 **Strategy:** Create + Navigate
 **See also:** WB-1: Building Your Own Website (for web-scale projects), WB-3: Writing in CommonMark
 **The Majordomo says:** *Programming used to require a computer science degree, or at minimum the personality type that enjoys reading documentation for fun. It does not anymore. Your Agent can write small programs — scripts — that automate the tedious parts of your digital life: renaming five hundred photos, sorting a spreadsheet, converting files from one format to another, scraping a price from a website every morning. You do not need to learn to code. You need to learn to describe what you want the code to do. Which is — and this is the point of this entire book — specification.*
@@ -130,24 +107,38 @@ The term for this is *vibe coding* — describing what you want in plain languag
 
 > **[FAIRNESS]** Your Agent will default to writing scripts in Python, which requires installation. If you want something that runs without installing anything, say *"Write this as a script I can run in my web browser's console"* (JavaScript) or *"Write this as a spreadsheet formula."* The fewer dependencies, the fewer things that can break.
 
-<!-- RESEARCH NEEDED: Vibe coding as a term emerged from Andrej Karpathy's description of AI-assisted programming in early 2025. The concept is older — end-user development, programming by example, natural language programming have been research areas for decades. What changed is that the AI is now good enough that "describe what you want" actually produces working code for simple tasks. The success rate for simple scripts (file operations, data formatting, text processing) is high. The success rate for complex applications is lower and drops sharply with ambiguity in the spec — which is the same pattern as everything else in this book. -->
+> **[SCIENCE]** Andrej Karpathy coined the term *vibe coding* in February 2025 — "fully give in to the vibes, embrace exponentials, and forget that the code even exists." The concept is older: end-user development, programming by example, and natural language programming have been research areas for decades. What changed is that AI is now good enough that "describe what you want" produces working code for simple tasks. The success rate for file operations, data formatting, and text processing is high. The success rate for complex applications drops sharply with ambiguity in the spec — which is the same pattern as everything else in this book.[^wb9-2]
 
-[^wb9-1]: Scaffidi, C., Shaw, M., & Myers, B. (2005). "Estimating the numbers of end users and end user programmers." *2005 IEEE Symposium on Visual Languages and Human-Centric Computing*, 207–214.
+> **[FAIRNESS]** Write scripts for yourself, not software for others. A script that renames your photos or sorts your spreadsheet runs on your machine, touches your data, and breaks only your workflow if it's wrong. Software that handles other people's data — their names, addresses, medical information, financial records — carries real liability. Leaking [PII](https://en.wikipedia.org/wiki/Personal_data) is not a hypothetical risk; it is the most common consequence of amateur software that "mostly works." Ask your Agent to write automations for your own tasks. Ask your Agent to explain what the code does before you run it. Do not ship code you cannot reason about to people who trust you with their information.
+
+> **[ALSO]** Vibe coding evolved. Professional engineers now practice *agentic coding* — writing specifications upfront and letting AI agents build against them, with guardrails, conventions, and architectural decisions pre-written as plugins the agent follows. The spec *is* the software. This book's companion project, [Anglesite](https://anglesite.dwk.io), is built this way: an AI webmaster that follows IndieWeb best practices to build you a static, free website on your own domain. If you want to build a website, see WB-1.
+
+[^wb9-2]: Karpathy, A. (2025). ["Vibe coding."](https://x.com/karpathy/status/1886192184808149383) X post, February 2, 2025. Collins Dictionary Word of the Year, 2025.
+
+[^wb9-1]: Scaffidi, C., Shaw, M., & Myers, B. (2005). ["Estimating the numbers of end users and end user programmers."](https://doi.org/10.1109/VLHCC.2005.34) *2005 IEEE Symposium on Visual Languages and Human-Centric Computing*, 207–214. For the AI-era update: Gargioni, L. et al. (2024). ["Feasibility of AI-Assisted Programming for End-User Development."](https://arxiv.org/abs/2512.05666) arXiv:2512.05666 — non-programmers successfully built web applications through AI interaction, suggesting AI-assisted coding may complement or replace low-code/no-code platforms.
 
 ---
 
-#### WB-10: Learning to Work with AI Agents
+**Your Voice Online**
+
+---
+
+#### WB-10: Learn to Work Better with AI Agents
+
+<!-- art: eliza-icon -->
+
 **Strategy:** Specify + Research
 **See also:** Strategy 0: Specify (the full specification interview method), Chapter 4: How to Ask for What You Actually Want
 **The Majordomo says:** *This is the entry that teaches you how to use the tool that powers every other entry. If the book is a workshop, this is the safety orientation for the power tools. The billionaire class did not need to learn this — they already had a staff that translated vague instructions into precise tasks. The chief of staff, the executive assistant, the law clerk — these are human specification interfaces. You are learning the same skill, applied to a different kind of assistant.*
 **The spec:**
-```
+```prompt
 I want to get better at working with AI Agents — not just
 using them, but understanding how to get consistently useful
 results. I have been using [Claude / ChatGPT / Gemini / Copilot]
 for [how long] and my experience so far is [describe honestly:
 sometimes useful, sometimes useless / great for simple things
 but fails on complex ones / I don't know what to ask it / etc.].
+
 Please help me understand:
 1. What is the single most important thing that separates
    a good AI conversation from a bad one?
@@ -159,6 +150,7 @@ Please help me understand:
 5. Give me a practice exercise: a real-world task I can try
    right now that will teach me the most about how this works
 ```
+
 **What to do with the output:** Do the exercise. Then do the same exercise again, but badly — give the Agent a vague, context-free prompt and compare the results. The difference between the two outputs is specification literacy made visible. You will not need to read a book about it after that. You will have felt it.
 
 This entry is recursive by design. You are using your Agent to learn how to use your Agent. The specification interview loop — describe your situation, answer the clarifying questions, review the proposed spec, correct what is wrong — is the same whether you are asking about insurance or asking about the tool itself. The skill is the skill. It transfers to everything.
@@ -173,6 +165,8 @@ This entry is recursive by design. You are using your Agent to learn how to use 
 >
 > **Agent:** *That makes sense. It gave you a generic answer because it didn't know your lease situation. Next time, try: "My lease renews in 60 days. The rent increase is 8%. I've been here 4 years, always paid on time, and comparable units in my building are listed at 5% less. I want to negotiate the increase down. Draft a message to my landlord." That version gives me enough to work with. The first version could have been asked by anyone — the second could only have been asked by you.*
 
+This also includes finding spec formats, standardized forms of spec produce better output than ad hoc. Includes the apps the Agents are trapped in.
+
 > **[SCIENCE]** Research on expertise development (Ericsson et al., 1993) identifies *deliberate practice* — structured, feedback-rich repetition focused on specific weaknesses — as the primary mechanism of skill acquisition. Using an AI Agent well is a skill, and it develops the same way other skills do: through repeated use with attention to what works and what doesn't. The calibration question ("how confident are you?") is the built-in feedback mechanism.[^wb10-1]
 
 > **[MEME]** "I know kung fu." No, you don't. But you know someone who has read every martial arts manual ever written and can walk you through any technique on demand. That is a different thing, and it is genuinely useful — as long as you remember that reading about a roundhouse kick and doing one are different activities.
@@ -181,10 +175,17 @@ This entry is recursive by design. You are using your Agent to learn how to use 
 
 ---
 
-#### WB-1: Building Your Own Website with Your Agent
+**Your Place on the Web**
+
+---
+
+#### WB-1: Build a Website, Own Your Corner of the Internet
+
+<!-- art: netscape-icon -->
+
 **Strategy:** Create + Navigate
-**See also:** WB-3: Writing in CommonMark (for writing your content), WB-4: Joining the IndieWeb (for connecting to the broader web)
-**The Majordomo says:** *The billionaire class has always had a web presence managed by professionals. The rest of us got Facebook pages and LinkedIn profiles — land we rent on platforms that can change the terms, throttle the reach, or disappear the content at any time. Owning your own website is the digital equivalent of owning your home instead of renting it. It has always been possible. It has not always been this easy.*
+**See also:** WB-3: Writing in CommonMark (for writing your content), WB-5: Blogging and Journaling
+**The Majordomo says:** *The billionaire class has always had a web presence managed by professionals. The rest of us got Facebook pages and LinkedIn profiles — land we rent on platforms that can change the terms, throttle the reach, or disappear the content at any time. Owning your own website is the digital equivalent of owning your home instead of renting it. It has always been possible. It has not always been this easy. The [IndieWeb](https://indieweb.org/) is the movement that says: publish on your own site first, syndicate to the platforms second, and never lose your words because a company pivoted.*
 **The spec:**
 ```
 I want to build my own personal website. I have never done this before.
@@ -196,27 +197,39 @@ Please walk me through the process from the beginning:
 3. How do I put content on it?
 4. How do I make it findable on the web?
 5. What will it cost me, and what should I never pay for?
+6. What is POSSE (Publish on your Own Site, Syndicate Elsewhere)
+   and how do I set it up?
+7. How do conversations work across independent websites?
 Keep it simple. I want something I can maintain myself.
 ```
 **What to do with the output:** Follow the steps. Your first site does not have to be perfect. It has to exist. You can improve it every week for the rest of your life — and unlike a social media profile, every improvement accrues to something you own. A static site (plain HTML files, no database, no server-side code) is the simplest, fastest, cheapest, and most durable option. It is also the greenest — a static site uses a fraction of the energy of a WordPress installation because there is nothing to compute, only files to serve.
 
 > **[SCIENCE]** The environmental cost of the internet is non-trivial — data centers account for roughly 1-1.5% of global electricity use (IEA, 2024). A static website served from a green host produces orders of magnitude less carbon per page view than a dynamic site running on a cloud server that spins up computation for every visitor. The [Green Web Foundation](https://www.thegreenwebfoundation.org/) maintains a directory of verified green hosts.[^wb1-1]
 
-> **[TIP]** *"I already have a site on [Squarespace / Wix / WordPress.com] but I want to own it outright. How do I export my content and move to something I control?"* — Migration is almost always possible. The sooner you do it, the less content you have to move.
+> **[TIP]** Already have a site on [Squarespace / Wix / WordPress.com]? — Migration is almost always possible. [Anglesite](https://anglesite.dwk.io) can extract your existing content and rebuild it as a static site on [Cloudflare Pages](https://pages.cloudflare.com/) — free hosting, your domain, no monthly fee. The sooner you do it, the less content you have to move. Anglesite will be your Webmaster Agent, fully spec'd.
 
 > **[ALSO]** Checking current information requires web search, which is free in Gemini, ChatGPT, and Copilot. In Claude, web search requires the paid tier. See [Appendix G](06-appendix-g-feature-table.xhtml).
 
-<!-- RESEARCH NEEDED: Hosting cost comparison for personal sites. A static site on Netlify or Cloudflare Pages is free for most personal use. A custom domain costs $10-15/year. The total annual cost of owning your web presence is less than one month of most streaming subscriptions. This comparison is useful for the reader who assumes "building a website" is expensive or technical. -->
+> **[MEME]** A static site on [Cloudflare Pages](https://pages.cloudflare.com/) or [Netlify](https://www.netlify.com/) starts at free. A custom domain costs $10–15 per year. The total annual cost of owning your web presence is less than one month of most streaming subscriptions. [Anglesite](https://anglesite.dwk.io) — this book's companion project — uses your AI agent to build and maintain a static site on your own domain, following [IndieWeb](https://indieweb.org) principles. The tools that used to require a web developer now require a specification. See the writing skill for copy, design skill for the layout. Use Anglesite to build and advise. The files are plain text, any web developer can understand them, not locked in, not rented.
 
-<!-- RESEARCH NEEDED (HUMAN CONDITION): The class dimension of web ownership. Having your own domain is correlated with education and technical literacy, which are correlated with income. The IndieWeb movement is predominantly white, male, and technical — which is both a demographic fact and a design challenge. The tools are getting simpler. The entry should make this feel achievable for the reader who has never opened a text editor. -->
+> **[FAIRNESS]** Owning your own domain correlates with education and technical literacy, which correlate with income. The [IndieWeb](https://en.wikipedia.org/wiki/IndieWeb) movement is predominantly white, male, and technical — a demographic fact its community acknowledges and a design challenge it has not yet solved. The tools are getting simpler. [Anglesite](https://anglesite.dwk.io) was built to close this gap: you describe what you want, your Agent builds it, and the result is a static site on your domain that you own outright. The skill required is specification, not programming. If you can describe your situation to your Agent — which is what this entire book teaches — you can have a website.
+
+> **[MEME]** [*Starfleet's Computer*](https://en.wikipedia.org/wiki/Library_computer) did not store its logs on a Ferengi-owned server with terms of service that changed quarterly. Your Captain's Log belongs on your own ship.
+
+> **[SCIENCE]** The web was designed as a decentralized system — [RFC 2616](https://en.wikipedia.org/wiki/HTTP) (HTTP), [RFC 3986](https://en.wikipedia.org/wiki/Uniform_Resource_Identifier) (URIs), and HTML all assume independent servers communicating as peers. The centralization that followed was not a technical inevitability but an economic one — network effects and venture capital concentrated users on platforms. The [ActivityPub](https://en.wikipedia.org/wiki/ActivityPub) protocol (W3C, 2018) and the [Fediverse](https://en.wikipedia.org/wiki/Fediverse) represent the first large-scale technical effort to reverse this centralization. [Mastodon](https://en.wikipedia.org/wiki/Mastodon_(social_network)), the most visible implementation, reached 10 million registered users by 2023. Growth is slow — but the technical barriers that kept decentralized tools difficult to set up are exactly the kind of problem AI agents solve. And there is no venture capitalist waiting for an IPO on the other side of your [Fediverse](https://en.wikipedia.org/wiki/Fediverse) account.[^wb1-2]
 
 [^wb1-1]: International Energy Agency. (2024). "Data Centres and Data Transmission Networks." IEA Tracking Report. See also The Green Web Foundation, [thegreenwebfoundation.org](https://www.thegreenwebfoundation.org/).
 
+[^wb1-2]: W3C. (2018). ["ActivityPub."](https://www.w3.org/TR/activitypub/) W3C Recommendation, 23 January 2018. Mastodon user data from Mastodon project statistics, 2023.
+
 ---
 
-#### WB-2: Reading Without the Algorithm
+#### WB-2: Stop Doomscrolling the Algorithmic Feed
+
+<!-- art: borg-bill-gates -->
+
 **Strategy:** Research + Navigate
-**See also:** Li-11: Escaping Social Media (for reducing compulsive consumption), WB-4: Joining the IndieWeb
+**See also:** Li-11: Escaping Social Media (for reducing compulsive consumption), WB-1: Build a Website, Own Your Corner of the Internet
 **The Majordomo says:** *Before the algorithm, there was RSS — a protocol that let you subscribe to any website and receive its updates in a single reader, in chronological order, with no ads, no ranking, no engagement optimization, and no company deciding what you should see next. RSS still works. It never stopped working. The platforms just stopped promoting it because a protocol that gives users control does not generate advertising revenue.*
 **The spec:**
 ```
@@ -252,15 +265,18 @@ reporting over aggregation.
 
 > **[SCIENCE]** Pariser's *The Filter Bubble* (2011) documented how algorithmic curation narrows exposure to diverse viewpoints — a finding that has only strengthened as recommendation systems have become more sophisticated. Bakshy et al. (2015) in *Science* found that Facebook's algorithm reduced exposure to ideologically cross-cutting content by 5-8% beyond users' own choices. The effect is small per interaction but compounds over years of daily use.[^wb2-1]
 
-<!-- RESEARCH NEEDED: RSS reader landscape. Feedly, Inoreader, NetNewsWire (free, open source, Mac/iOS), Miniflux (self-hosted). The market is small but healthy. The tools are better than they were in Google Reader's era. The challenge is discovery — how do you find feeds when the platforms have hidden them? Browser extensions, RSSHub, and your Agent can all help. -->
+> **[TIP]** The [RSS](https://en.wikipedia.org/wiki/RSS) reader market is small but healthy. [Feedly](https://feedly.com/) and [Inoreader](https://www.inoreader.com/) are the full-featured options. [NetNewsWire](https://netnewswire.com/) is free, open source, and excellent on Mac/iOS. The challenge is discovery — platforms have hidden their feeds. Ask your Agent: *"Does [website] have an RSS feed? If not, is there a way to follow it without social media?"* Browser extensions and [RSSHub](https://docs.rsshub.app/) can generate feeds for sites that don't offer them.
 
-<!-- RESEARCH NEEDED (HUMAN CONDITION): Information diet as class marker. The wealthy and educated have always curated their information sources — subscribing to specific journals, hiring researchers, maintaining professional networks. Algorithmic feeds are the information equivalent of fast food: engineered for consumption, not nutrition. RSS is the home-cooked meal. The analogy to H-8 (Wellness and Nutrition Coach) is direct and worth drawing. -->
+> **[FAIRNESS]** The wealthy and educated have always curated their information sources — subscribing to specific journals, hiring researchers, maintaining professional networks. [Algorithmic feeds](https://en.wikipedia.org/wiki/Filter_bubble) are the information equivalent of fast food: engineered for consumption, not nutrition. RSS is the home-cooked meal. You choose the ingredients, you control the portions, nothing is added to keep you eating past the point of value. The analogy to H-8 (Wellness and Nutrition Coach) is direct — your information diet is a diet, and you can ask your Agent to help you design one.
 
 [^wb2-1]: Bakshy, E., Messing, S., & Adamic, L.A. (2015). "Exposure to ideologically diverse news and opinion on Facebook." *Science*, 348(6239), 1130–1132.
 
 ---
 
-#### WB-3: Writing in CommonMark
+#### WB-3: Write in CommonMark, the language of AI
+
+<!-- art: commonmark-logo -->
+
 **Strategy:** Decode + Draft
 **See also:** WB-1: Building Your Own Website, WB-5: Blogging and Journaling
 **The Majordomo says:** *[CommonMark](https://commonmark.org/) is the universal language of AI the way English is the universal language of air traffic control — not because it is the best, but because everyone agreed on it and it works. It is plain text with a few symbols that mean things. You can learn the whole language in ten minutes. This book was written in it. Your Agent thinks in it. When you write in CommonMark, you are writing in the lingua franca of every AI system on the market — which means your Agent can process, format, and transform your writing using fewer tokens and with greater precision than any other format.*
@@ -285,49 +301,20 @@ Links are the key innovation. [Tim Berners-Lee](https://en.wikipedia.org/wiki/Ti
 
 > **[SCIENCE]** Formatting is not decoration — it is cognition. Research on document design consistently shows that structured text (headings, lists, whitespace) improves comprehension by 25-40% compared to undifferentiated prose (Schriver, 1997). When you format your writing in CommonMark, you are not making it pretty. You are making it readable. The formatting is the thinking made visible.[^wb3-1]
 
-<!-- RESEARCH NEEDED: CommonMark adoption. CommonMark is used by GitHub, GitLab, Reddit, Stack Overflow, Discourse, and most AI systems. The specification (commonmark.org) is maintained as an open standard. The distinction from "Markdown" (which has dozens of incompatible variants) is that CommonMark is a single, unambiguous specification. This matters because it means your content is portable — what you write today will render correctly everywhere, forever. -->
+> **[MEME]** [Markdown](https://en.wikipedia.org/wiki/Markdown) has dozens of incompatible variants. [CommonMark](https://commonmark.org/) is the one that matters — a single, unambiguous [specification](https://spec.commonmark.org/) used by [GitHub](https://en.wikipedia.org/wiki/GitHub), [GitLab](https://en.wikipedia.org/wiki/GitLab), [Reddit](https://en.wikipedia.org/wiki/Reddit), [Stack Overflow](https://en.wikipedia.org/wiki/Stack_Overflow), [Discourse](https://en.wikipedia.org/wiki/Discourse_(software)), and most AI systems. What you write in CommonMark today will render correctly everywhere, forever. That is not a feature. That is the point of an [open standard](https://en.wikipedia.org/wiki/Open_standard). This book is written in CommonMark. Your website can be too.
 
-<!-- RESEARCH NEEDED (HUMAN CONDITION): The power of links as a democratic act. In the pre-web era, citation was gatekept by publishers, editors, and academic institutions. The hyperlink democratized citation. Anyone can reference anyone. This is the web's most underappreciated feature and the one most threatened by platforms that trap content behind walls. Every link you create is a small act of web citizenship — you are connecting knowledge that was previously isolated. Ward Cunningham (inventor of the wiki) and Tim Berners-Lee both identified the link as the web's fundamental unit of value. -->
+> **[MEME]** In the pre-web era, citation was gatekept by publishers, editors, and academic institutions. The [hyperlink](https://en.wikipedia.org/wiki/Hyperlink) democratized citation. Anyone can reference anyone. This is the web's most underappreciated feature and the one most threatened by platforms that trap content behind walls. Every link you create is a small act of web citizenship — you are connecting knowledge that was previously isolated. [Ward Cunningham](https://en.wikipedia.org/wiki/Ward_Cunningham) (inventor of the [wiki](https://en.wikipedia.org/wiki/Wiki)) and [Tim Berners-Lee](https://en.wikipedia.org/wiki/Tim_Berners-Lee) both identified the link as the web's fundamental unit of value.
 
 [^wb3-1]: Schriver, K.A. (1997). [*Dynamics in Document Design.*](https://archive.org/details/dynamicsindocume0000schr) John Wiley & Sons. The research on structured text and comprehension is extensive and consistent across both print and digital contexts.
 
 ---
 
-#### WB-4: Joining the IndieWeb
-**Strategy:** Navigate + Research
-**See also:** WB-1: Building Your Own Website, WB-5: Blogging and Journaling, Li-11: Escaping Social Media
-**The Majordomo says:** *The [IndieWeb](https://indieweb.org/) is a movement of people who believe you should own your content, control your identity, and be able to move your stuff between services without asking permission. It is the web the way it was designed to work before the platforms captured it. Joining is not a political act, though it feels like one. It is a practical one: publish on your own site first, syndicate to the platforms second, and never lose your words because a company pivoted.*
-**The spec:**
-```
-I have my own website. I want to connect it to the broader web
-without giving up control of my content.
-Please explain:
-1. What is the IndieWeb and what are its core principles?
-2. What is POSSE (Publish on your Own Site, Syndicate Elsewhere)
-   and how do I set it up?
-3. What is Webmention and how do conversations work
-   across independent websites?
-4. How do I make my site discoverable to others
-   without relying on social media algorithms?
-5. What are the easiest first steps — what can I do this weekend?
-```
-**What to do with the output:** Start with [POSSE](https://indieweb.org/POSSE). Write on your site first. Syndicate to the platforms. Your words live where you put them, not where a company decided to put them. The platforms become distribution channels, not homes. If Twitter disappears tomorrow — as it effectively did — your content survives because it was never really there. It was always on your site.
-
-> **[MEME]** [*Starfleet's Computer*](https://en.wikipedia.org/wiki/Library_computer) did not store its logs on a Ferengi-owned server with terms of service that changed quarterly. Your Captain's Log belongs on your own ship.
-
-> **[SCIENCE]** The web was designed as a decentralized system — [RFC 2616](https://en.wikipedia.org/wiki/HTTP) (HTTP), [RFC 3986](https://en.wikipedia.org/wiki/Uniform_Resource_Identifier) (URIs), and HTML all assume independent servers communicating as peers. The centralization that followed was not a technical inevitability but an economic one — network effects and venture capital concentrated users on platforms. The [ActivityPub](https://en.wikipedia.org/wiki/ActivityPub) protocol (W3C, 2018) and the Fediverse represent the first large-scale technical effort to reverse this centralization. Mastodon, the most visible implementation, reached 10 million registered users by 2023.[^wb4-1]
-
-<!-- RESEARCH NEEDED: IndieWeb adoption data. IndieWebCamp events have been running since 2011. The movement is small but disproportionately influential — many of its participants are the same people who built the protocols the web runs on. Tantek Çelik (CSS co-editor), Aaron Parecki (OAuth co-editor), and others who write the standards also practice IndieWeb principles. The tools are getting more accessible but the movement still skews technical. -->
-
-<!-- RESEARCH NEEDED (HUMAN CONDITION): The nostalgia for the early web is real and documented. "Digital gardens," personal wikis, and hand-coded sites are experiencing a renaissance among people who remember what the web felt like before the platforms. This is not just sentimentality — it is a design preference for a web that prioritized expression over engagement. The reader who remembers Geocities, LiveJournal, or early Blogger is the reader who knows what they lost. The reader who doesn't remember it is the reader who might be surprised by what's possible. -->
-
-[^wb4-1]: W3C. (2018). "ActivityPub." W3C Recommendation, 23 January 2018. Mastodon user data from Mastodon project statistics, 2023.
-
----
-
 #### WB-5: Blogging and Journaling
+
+<!-- art: composition-notebook -->
+
 **Strategy:** Create + Draft
-**See also:** WB-3: Writing in CommonMark, WB-4: Joining the IndieWeb, Li-8: Wellness Coach (journaling as mental health practice)
+**See also:** WB-3: Writing in CommonMark, WB-1: Build a Website, Own Your Corner of the Internet, Li-8: Wellness Coach (journaling as mental health practice)
 **The Majordomo says:** *Every sitcom family had a room where the real conversations happened. For the [Conners](https://en.wikipedia.org/wiki/Roseanne) it was the kitchen table. For the [Seinfelds](https://en.wikipedia.org/wiki/Seinfeld) it was the apartment. For the [Simpsons](https://en.wikipedia.org/wiki/The_Simpsons) it was the couch. A blog is that room — except you built it yourself, you own the walls, and nobody can cancel the show. A journal is the same room with the door closed. Both are acts of thinking in public or in private, and both are more valuable than you think.*
 **The spec:**
 ```
@@ -348,9 +335,11 @@ Please help me:
 ```
 **What to do with the output:** Publish the first post. It does not need to be good. The act of publishing — putting your thinking where others can find it — is the point. Captain's Log, Star Date today. Every blog post is a contribution to the public record of how people think, what they know, and what they care about. Your ideas matter, even when you are echoing what others say, because your particular combination of experience and perspective is unique. That is not a platitude. It is information theory.
 
-Letters to the editor used to require an editor's approval. Now, if you own your domain, you can speak your mind — back it up with research, or don't. Make jokes that only one in a thousand will understand. Find that community. The one-in-a-thousand is the point. The internet has enough people that one-in-a-thousand is still a room full of people who get the joke.
+Could be audio, video, writing. Any format, storage is cheap, hosting is free.
 
-> **[SCIENCE]** Pennebaker's expressive writing research (1986, replicated extensively) shows measurable immune function improvement from writing about difficult experiences for 15-20 minutes over 3-4 days. The mechanism is not fully understood — possibly narrative coherence, possibly emotional processing, possibly both. Journaling is one of the cheapest, most accessible, most evidence-backed interventions in psychology.[^wb5-1]
+Letters to the editor used to require an editor's approval. Now, if you own your domain, you can speak your mind — back it up with research, or don't. Make jokes that only one in a thousand will understand. Find that community. The one-in-a-million is the point. The internet has enough people that one-in-a-million is still a football stadium full of people who get the joke.
+
+> **[SCIENCE]** There's a reason Starfleet strongly encourages officers to log. Pennebaker's expressive writing research (1986, replicated extensively) shows measurable immune function improvement from writing about difficult experiences for 15-20 minutes over 3-4 days. The mechanism is not fully understood — possibly narrative coherence, possibly emotional processing, possibly both. Journaling is one of the cheapest, most accessible, most evidence-backed interventions in psychology.[^wb5-1] 
 
 > **[TIP]** *"I want to blog about [topic] but I'm not an expert. Help me write a post that shares what I've learned so far, with links to the sources I'm drawing from, and frames it as 'here's what I found' rather than 'here's the truth.'"* — The internet has enough experts. It needs more honest learners.
 
@@ -360,11 +349,13 @@ Letters to the editor used to require an editor's approval. Now, if you own your
 
 When you publish online, you decide how your ideas can be shared, remixed, and built upon. [Creative Commons](https://creativecommons.org/) licenses let you specify this in a way that is legally enforceable and machine-readable. This book uses [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) — anyone can share and adapt it, as long as they credit the author and share under the same terms. Ethically built AI systems respect these licenses. That is a line they must not cross. Your Agent can help you choose a license: *"Explain the Creative Commons license options. I want people to share my work but I want credit. Which license should I use?"*
 
-<!-- RESEARCH NEEDED: Blogging statistics. WordPress powers approximately 43% of all websites (W3Techs, 2024). Substack has 35+ million subscribers. Blog readership is not declining — it has migrated from RSS readers to newsletters, social sharing, and search. The form is alive; the distribution changed. The reader who thinks "no one reads blogs" is wrong — they are thinking of the 2005 distribution model, not the 2025 one. -->
+> **[SCIENCE]** [WordPress](https://en.wikipedia.org/wiki/WordPress) powers 43% of all websites ([W3Techs](https://w3techs.com/technologies/details/cm-wordpress), 2025). [Substack](https://en.wikipedia.org/wiki/Substack) has 35 million active subscriptions and 5 million paying subscribers. Blog readership is not declining — it migrated from [RSS](https://en.wikipedia.org/wiki/RSS) readers to newsletters, social sharing, and search. The form is alive; the distribution changed. If you think "no one reads blogs," you are thinking of the 2005 distribution model, not the 2025 one.
 
-<!-- RESEARCH NEEDED (HUMAN CONDITION): The psychology of public writing. The fear of publishing is universal and specific: fear of judgment, fear of being wrong, fear of the permanent record. Elbow (1973, "Writing Without Teachers") identified the core tension: writing is thinking, and thinking in public is vulnerable. The rise of "digital gardens" — personal sites explicitly framed as works-in-progress rather than finished products — is a design response to this fear. The entry should normalize imperfection and frame blogging as practice, not performance. -->
+> **[MEME]** The fear of publishing is universal and specific: fear of judgment, fear of being wrong, fear of the permanent record. [Elbow](https://en.wikipedia.org/wiki/Peter_Elbow) (1973, [*Writing Without Teachers*](https://archive.org/details/writingwithoutte0000elbo)) identified the core tension: writing is thinking, and thinking in public is vulnerable. The rise of [digital gardens](https://en.wikipedia.org/wiki/Digital_garden) — personal sites explicitly framed as works-in-progress rather than finished products — is a design response to this fear. Your blog is not a performance. It is practice. Publish the draft. Revise it next month. The internet has a backspace key.
 
-<!-- RESEARCH NEEDED (HUMAN CONDITION): The value of writing that no one reads. Research on reflective practice (Schön, 1983, "The Reflective Practitioner") shows that the act of articulating experience transforms understanding — whether or not anyone else sees it. Journaling, blogging into the void, writing for an audience of zero: all of these produce cognitive benefits for the writer. The audience is a bonus, not the point. -->
+> **[SCIENCE]** Research on [reflective practice](https://en.wikipedia.org/wiki/Reflective_practice) (Schön, 1983, [*The Reflective Practitioner*](https://archive.org/details/reflectivepracti0000scho)) shows that the act of articulating experience transforms understanding — whether or not anyone else sees it. Journaling, blogging into the void, writing for an audience of zero: all produce cognitive benefits for the writer. The audience is a bonus, not the point.[^wb5-2]
+
+[^wb5-2]: Schön, D.A. (1983). [*The Reflective Practitioner.*](https://archive.org/details/reflectivepracti0000scho) Basic Books. Elbow, P. (1973). [*Writing Without Teachers.*](https://archive.org/details/writingwithoutte0000elbo) Oxford University Press.
 
 [^wb5-1]: Pennebaker, J.W. & Beall, S.K. (1986). "Confronting a traumatic event: Toward an understanding of inhibition and disease." *Journal of Abnormal Psychology*, 95(3), 274–281.
 
@@ -397,10 +388,12 @@ Please help me:
 
 > **[MEME]** Most people today do not associate the name [Anne Hathaway](https://en.wikipedia.org/wiki/Anne_Hathaway) with [Shakespeare's wife](https://en.wikipedia.org/wiki/Anne_Hathaway_(wife_of_Shakespeare)). Names get reused. Identities shift. In the Gilded Age, some overdressed elite probably had the name as the answer to a parlor game question. We have not forgotten the historical figure — it is just a detail, not a daily confusion. Your domain name works the same way. It is a handle, somewhere between rented and owned, and it is how the future finds you.
 
-<!-- RESEARCH NEEDED: Digital estate planning. Most platform terms of service address account death poorly or not at all. Facebook has "legacy contacts." Google has "Inactive Account Manager." Apple has "Digital Legacy." The patchwork is predictable. A comprehensive digital estate plan should include: account inventory, password manager access for executor, platform-specific legacy settings, and explicit instructions in a will. This is Li-4 (Planning Care for Aging) applied to the digital world. -->
+> **[TIP]** Most platforms address your death poorly or not at all. Facebook has "legacy contacts." Google has "[Inactive Account Manager](https://myaccount.google.com/inactive)." [Apple](https://en.wikipedia.org/wiki/Apple_Inc.) has "[Digital Legacy](https://support.apple.com/en-us/105078)." The patchwork is predictable. Ask your Agent: *"Help me build a digital estate plan — account inventory, password manager access for my executor, platform-specific legacy settings, and what to include in my will."* This is Li-4 (Planning Care for Aging) applied to the digital world.
 
-<!-- RESEARCH NEEDED (HUMAN CONDITION): The grief of digital loss — lost photos, deleted accounts, inaccessible archives — is underresearched but universal. The person who lost years of blog posts when a platform shut down experienced a form of archival grief. The person who cannot access a deceased loved one's photos because they are locked behind a platform login is experiencing the digital version of a locked filing cabinet with no key. The entry should frame preservation as a form of care — for your future self and for the people who will want to find you after you are gone. -->
+> **[FAIRNESS]** The grief of digital loss — lost photos, deleted accounts, inaccessible archives — is underresearched but universal. The person who lost years of blog posts when a platform shut down experienced a form of archival grief. The person who cannot access a deceased loved one's photos because they are locked behind a platform login is experiencing the digital version of a locked filing cabinet with no key. Preservation is a form of care — for your future self and for the people who will want to find you after you are gone.
 
-<!-- RESEARCH NEEDED: Link rot and content decay. Zittrain et al. (2021, Harvard/NYT study) found that 25% of links in New York Times articles from 1996 to 2019 are broken. The Supreme Court's opinions fare even worse. The web is not permanent by default. It is permanent only by effort. Your own site, preserved in the Wayback Machine, is more durable than a link to a social media post. -->
+> **[SCIENCE]** [Link rot](https://en.wikipedia.org/wiki/Link_rot) is not a metaphor. Zittrain et al. (2021) found that 25% of links in *New York Times* articles from 1996 to 2019 are broken. The Supreme Court's opinions fare even worse. The web is not permanent by default. It is permanent only by effort. Your own site, preserved in the [Wayback Machine](https://web.archive.org/), is more durable than a link to a social media post.[^wb6-2]
+
+[^wb6-2]: Zittrain, J., Albert, K., & Lessig, L. (2021). ["Perma: Scoping and Addressing the Problem of Link and Reference Rot in Legal Citations."](https://doi.org/10.2139/ssrn.3742357) *Harvard Law Review*, 127(4). See also Lepore, J. (2015). ["The Cobweb."](https://www.newyorker.com/magazine/2015/01/26/cobweb) *The New Yorker*.
 
 [^wb6-1]: Internet Archive. [archive.org](https://archive.org/). Founded 1996 by Brewster Kahle. As of 2024, the Wayback Machine contains over 835 billion archived web pages.
