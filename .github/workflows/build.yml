@@ -1,4 +1,4 @@
-name: Build ePub
+name: Build
 
 on:
   push:
@@ -23,9 +23,14 @@ jobs:
 
       - run: npm test
 
-      - run: npm run build
+      - run: npm run build:all
 
       - uses: actions/upload-artifact@v7
         with:
           name: epub
           path: dist/a-majordomo-for-everyone.epub
+
+      - uses: actions/upload-artifact@v7
+        with:
+          name: site
+          path: dist/site/

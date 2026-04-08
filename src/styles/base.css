@@ -1,0 +1,519 @@
+/* A Majordomo for Everyone — Shared Stylesheet (ePub + Web) */
+
+/* ---- Theme Variables ---- */
+
+:root {
+  --bg: #fff;
+  --text: #1a1a1a;
+  --text-muted: #555;
+  --text-faint: #666;
+  --border: #ccc;
+  --code-bg: #f4f4f4;
+  --callout-bg: #fafafa;
+  --table-header-bg: #f0f0f0;
+  --link: #2563eb;
+  --blockquote-text: #333;
+  --callout-label: #666;
+  --callout-science: #2563eb;
+  --callout-tip: #16a34a;
+  --callout-fairness: #dc2626;
+  --callout-meme: #9333ea;
+  --callout-spec: #ea580c;
+  --callout-also: #0891b2;
+  --placeholder-border: #ff0000;
+  --placeholder-bg: #f8f8f6;
+  --placeholder-text: #999;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #141414;
+    --text: #d4d4d4;
+    --text-muted: #aaa;
+    --text-faint: #888;
+    --border: #333;
+    --code-bg: #1e1e1e;
+    --callout-bg: #1c1c1c;
+    --table-header-bg: #252525;
+    --link: #60a5fa;
+    --blockquote-text: #bbb;
+    --callout-label: #999;
+    --callout-science: #60a5fa;
+    --callout-tip: #4ade80;
+    --callout-fairness: #f87171;
+    --callout-meme: #c084fc;
+    --callout-spec: #fb923c;
+    --callout-also: #22d3ee;
+    --placeholder-border: #cc4444;
+    --placeholder-bg: #1a1a1a;
+    --placeholder-text: #666;
+  }
+}
+
+/* ---- Base Typography ---- */
+
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 1em;
+  line-height: 1.6;
+  margin: 1em;
+  color: var(--text);
+  background-color: var(--bg);
+}
+
+h1 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.8em;
+  font-weight: 900;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+  line-height: 1.2;
+}
+
+h2 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.4em;
+  font-weight: 700;
+  margin-top: 1.5em;
+  margin-bottom: 0.4em;
+}
+
+h3 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.15em;
+  font-weight: 700;
+  margin-top: 1.2em;
+  margin-bottom: 0.3em;
+}
+
+h4 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  font-weight: 700;
+  margin-top: 1em;
+  margin-bottom: 0.3em;
+}
+
+p {
+  margin: 0.6em 0;
+  text-indent: 0;
+}
+
+blockquote {
+  margin: 1em 1.5em;
+  padding-left: 0.8em;
+  border-left: 3px solid var(--border);
+  color: var(--blockquote-text);
+}
+
+/* ---- Code / Prompt Examples ---- */
+
+code {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.9em;
+  background: var(--code-bg);
+  padding: 0.1em 0.3em;
+  border-radius: 2px;
+}
+
+pre {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.85em;
+  background: var(--code-bg);
+  padding: 1em;
+  margin: 1em 0;
+  line-height: 1.4;
+  border-radius: 3px;
+  overflow-x: auto;
+}
+
+/* ---- Conversation Blocks ---- */
+
+pre.conversation {
+  white-space: normal;
+  -webkit-hyphens: none;
+  hyphens: none;
+  padding: 1em;
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+pre.conversation kbd,
+pre.conversation samp {
+  font: inherit;
+  display: block;
+  padding-left: 1.8em;
+  position: relative;
+}
+
+pre.conversation kbd::before {
+  content: '\1F464';
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 1.2em;
+  line-height: 1;
+}
+
+pre.conversation samp::before {
+  content: '\2728';
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 1.2em;
+  line-height: 1;
+}
+
+pre code {
+  background: none;
+  padding: 0;
+}
+
+/* ---- Tables ---- */
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1em 0;
+  font-size: 0.9em;
+}
+
+th, td {
+  border: 1px solid var(--border);
+  padding: 0.4em 0.6em;
+  text-align: left;
+}
+
+th {
+  background: var(--table-header-bg);
+  font-weight: 700;
+}
+
+/* ---- Callout Blocks ---- */
+
+.callout {
+  margin: 1.2em 0;
+  padding: 0.8em 1em;
+  border-left: 4px solid var(--border);
+  background: var(--callout-bg);
+  font-size: 0.92em;
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+.callout-label {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.75em;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 0.3em;
+  color: var(--callout-label);
+  padding-left: 3.5em;
+  position: relative;
+}
+
+.callout-label::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 2.8em;
+  height: 2.8em;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.callout-science {
+  border-left-color: var(--callout-science);
+}
+
+.callout-science .callout-label {
+  color: var(--callout-science);
+}
+
+.callout-science .callout-label::before {
+  background-image: url(../images/callout-icon-science-bohr-atom.png);
+}
+
+.callout-tip {
+  border-left-color: var(--callout-tip);
+}
+
+.callout-tip .callout-label {
+  color: var(--callout-tip);
+}
+
+.callout-tip .callout-label::before {
+  background-image: url(../images/callout-icon-tip-star.png);
+}
+
+.callout-fairness {
+  border-left-color: var(--callout-fairness);
+}
+
+.callout-fairness .callout-label {
+  color: var(--callout-fairness);
+}
+
+.callout-fairness .callout-label::before {
+  background-image: url(../images/callout-icon-fairness-yin-yang.png);
+}
+
+.callout-meme {
+  border-left-color: var(--callout-meme);
+}
+
+.callout-meme .callout-label {
+  color: var(--callout-meme);
+}
+
+.callout-meme .callout-label::before {
+  background-image: url(../images/callout-icon-meme-cool-s.png);
+}
+
+.callout-spec {
+  border-left-color: var(--callout-spec);
+}
+
+.callout-spec .callout-label {
+  color: var(--callout-spec);
+}
+
+.callout-spec .callout-label::before {
+  background-image: url(../images/callout-icon-spec-3d-cube.png);
+}
+
+.callout-also {
+  border-left-color: var(--callout-also);
+}
+
+.callout-also .callout-label {
+  color: var(--callout-also);
+}
+
+.callout-also .callout-label::before {
+  background-image: url(../images/callout-icon-also-block-arrow.png);
+}
+
+@media (prefers-color-scheme: dark) {
+  .callout-label::before {
+    filter: invert(1) hue-rotate(180deg);
+  }
+}
+
+/* ---- Endnotes ---- */
+
+.endnotes {
+  margin-top: 2em;
+  padding-top: 1em;
+  border-top: 1px solid var(--border);
+}
+
+.endnote {
+  font-size: 0.85em;
+  margin: 0.5em 0;
+  line-height: 1.5;
+}
+
+.endnote-ref {
+  font-size: 0.8em;
+  vertical-align: super;
+  text-decoration: none;
+  color: var(--link);
+}
+
+/* ---- Chapter Opener Illustrations (Trinitron) ---- */
+
+.illustration {
+  margin: 2em 0;
+  text-align: center;
+}
+
+.illustration img {
+  max-width: 100%;
+}
+
+.illustration figcaption {
+  font-style: italic;
+  font-size: 0.9em;
+  margin-top: 0.5em;
+  color: var(--text-muted);
+}
+
+/* ---- Inline Graphics (transparent background) ---- */
+
+.inline-graphic {
+  margin: 1.2em 0;
+}
+
+.inline-graphic img {
+  max-width: 100%;
+}
+
+.inline-graphic figcaption {
+  font-style: italic;
+  font-size: 0.88em;
+  margin-top: 0.4em;
+  color: var(--text-muted);
+}
+
+.inline-graphic-full {
+  text-align: center;
+}
+
+.inline-graphic-full img {
+  max-width: 100%;
+}
+
+.inline-graphic-half {
+  max-width: 45%;
+}
+
+.inline-graphic-half-left {
+  float: left;
+  margin-right: 1em;
+  margin-bottom: 0.5em;
+}
+
+.inline-graphic-half-right {
+  float: right;
+  margin-left: 1em;
+  margin-bottom: 0.5em;
+}
+
+.inline-graphic-margin {
+  max-width: 25%;
+}
+
+/* ---- Art Placeholders (no image yet) ---- */
+
+.art-placeholder {
+  margin: 1.2em 0;
+}
+
+.art-placeholder-box {
+  border: 2px dashed var(--placeholder-border);
+  background: var(--placeholder-bg);
+  padding: 0.6em;
+  text-align: center;
+  overflow: hidden;
+}
+
+.art-placeholder-file {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.7em;
+  color: var(--placeholder-text);
+  margin: 0;
+}
+
+.art-placeholder-box details {
+  margin: 0;
+}
+
+.art-placeholder-box summary {
+  font-style: italic;
+  font-size: 0.75em;
+  color: var(--text-faint);
+  cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  list-style: none;
+}
+
+.art-placeholder-box summary::-webkit-details-marker {
+  display: none;
+}
+
+.art-placeholder-box details[open] summary {
+  white-space: normal;
+  overflow: visible;
+}
+
+.art-placeholder-alt {
+  font-style: italic;
+  font-size: 0.75em;
+  color: var(--text-faint);
+  margin: 0.3em 0 0;
+  text-align: left;
+}
+
+.art-placeholder-full .art-placeholder-box {
+  height: 12em;
+}
+
+.art-placeholder-half-left {
+  max-width: 45%;
+  float: left;
+  margin-right: 1em;
+  margin-bottom: 0.5em;
+}
+
+.art-placeholder-half-left .art-placeholder-box {
+  height: 9em;
+}
+
+.art-placeholder-half-right {
+  max-width: 45%;
+  float: right;
+  margin-left: 1em;
+  margin-bottom: 0.5em;
+}
+
+.art-placeholder-half-right .art-placeholder-box {
+  height: 9em;
+}
+
+.art-placeholder-margin {
+  max-width: 25%;
+}
+
+.art-placeholder-margin .art-placeholder-box {
+  height: 5em;
+}
+
+/* Dark mode: boost pencil-on-transparent visibility */
+@media (prefers-color-scheme: dark) {
+  .inline-graphic img {
+    filter: invert(1) hue-rotate(180deg);
+  }
+}
+
+/* ---- Lists ---- */
+
+ul, ol {
+  margin: 0.8em 0;
+  padding-left: 1.5em;
+}
+
+li {
+  margin: 0.3em 0;
+}
+
+/* ---- Horizontal Rules ---- */
+
+hr {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 2em 0;
+}
+
+/* ---- Links ---- */
+
+a {
+  color: var(--link);
+  text-decoration: underline;
+}
+
+/* ---- Emphasis ---- */
+
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: 700;
+}

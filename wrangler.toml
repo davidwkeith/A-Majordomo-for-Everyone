@@ -1,0 +1,8 @@
+name = "a-majordomo-for-everyone"
+main = "worker/index.js"
+compatibility_date = "2025-04-01"
+
+[assets]
+directory = "dist/site"
+html_handling = "auto-trailing-slash"
+not_found_handling = "404-page"
