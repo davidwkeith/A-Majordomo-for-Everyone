@@ -12,12 +12,6 @@ status: "draft"
 
 ---
 
-#### Taking better photos
-
-#### Editing a movie
-
-#### Writing a book (like this one)
-
 #### Li-1: Preparing for a Difficult Conversation
 **Strategy:** Prepare + Draft
 **See also:** W-3: Working with HR (for workplace conversations), H-7: Preparing for End-of-Life Conversations (for the hardest one)
@@ -64,6 +58,48 @@ invent details I haven't given you.
 
 <!-- art: eulogy-notecard -->
 
+
+---
+
+#### Li-3: Taking Better Photos
+
+<!-- art: phone-camera-bigfoot -->
+
+**Strategy:** Create + Diagnose
+**See also:** WB-8: Learning Any App or Digital Skill, Li-5: Planning Trips (for travel photography)
+**The Majordomo says:** *A professional portrait photographer charges $200 to $500 per session. A wedding photographer charges $2,000 to $5,000. Photography courses run $500 and up. The gap between a snapshot and a good photograph is not the camera — your phone has been good enough for years. The gap is composition, light, and knowing what to leave out of the frame. These are learnable skills. The billionaire class has a personal photographer on retainer. You have a patient tutor who has studied every composition technique Annie Leibovitz ever used and will explain them in terms of the photo you are about to take.*
+**The spec:**
+```
+I want to take better photos with [my phone / my camera].
+My situation:
+— What I photograph most: [kids, pets, food, products for selling,
+   travel, events, portraits, real estate listings, nature, etc.]
+— My skill level: [point and shoot / tried learning but gave up /
+   comfortable with settings, want better results]
+— What I don't like about my current photos: [they look flat /
+   the lighting is always wrong / people look awkward / they look
+   "fine" but never "good" / I don't know what's wrong, I just
+   know they're not what I see in my head]
+Please help me:
+1. Based on what I described, identify the 2-3 things I'm
+   probably doing wrong
+2. Give me specific fixes I can try right now — not theory,
+   techniques I can practice in the next ten minutes
+3. Explain the composition rules that matter most for what
+   I photograph — skip the ones that don't apply
+4. Tell me what my phone camera can do that I'm probably not using
+```
+**What to do with the output:** Take ten photos using the advice. Compare them to your last ten. The difference between a snapshot and a photograph is usually three things: where you stand, where the light is, and what you leave out of the frame. Your Agent can tell you all three. You have to move your feet.
+
+> **[TIP]** *"Here's a photo I took [attach image]. What would a professional photographer change about the composition, lighting, and framing?"* — Your Agent can analyze the specific photo and give you feedback you can apply to the next one.
+
+> **[ALSO]** Photo analysis requires vision capabilities, available on free tiers in Claude, ChatGPT, Gemini, and Copilot. Upload the image directly — no special mode needed. See [Appendix G](06-appendix-g-feature-table.xhtml).
+
+> **[MEME]** Everyone alive is carrying a camera more capable than anything Ansel Adams ever used. Most of us use it to photograph our parking spot so we remember where we parked, and the whiteboard after a meeting. The camera is not the problem. Nobody taught us to see.
+
+> **[SCIENCE]** The gap between a snapshot and a photograph is not equipment or talent — it is a handful of learnable composition principles. The [iPhone Photography Awards](https://www.ippawards.com/) have showcased gallery-quality work shot entirely on phones since 2007, proving the sensor in your pocket is not the constraint. What separates those images is a vocabulary — the rule of thirds, leading lines, negative space, the quality and direction of light — that working photographers internalize through training most people never receive. Arnheim (1954) established that visual perception follows predictable organizational principles; Freeman (2007) translated those principles into practical photographic technique used in photography programs worldwide. The rules are teachable in an afternoon. The billionaire class pays someone who already knows them.[^li3-1]
+
+[^li3-1]: Arnheim, R. (1954). [*Art and Visual Perception: A Psychology of the Creative Eye.*](https://www.ucpress.edu/books/art-and-visual-perception/paper) University of California Press. Freeman, M. (2007). [*The Photographer's Eye: Composition and Design for Better Digital Photos.*](https://www.routledge.com/The-Photographers-Eye-Composition-and-Design-for-Better-Digital-Photos/Freeman/p/book/9780240809342) Focal Press.
 
 ---
 
@@ -314,6 +350,64 @@ Please:
 
 ---
 
+#### Li-15: Learning Visual Design
+**Strategy:** Create + Research (Expert Role)
+**See also:** Li-3: Taking Better Photos (the same compositional principles apply), WB-1: Building Your Own Website (for applying design to your site), WB-8: Learning Any App or Digital Skill (for learning design software)
+**The Majordomo says:** *A graphic designer charges $50 to $150 an hour. A brand identity package — logo, colors, typography, templates — runs $5,000 and up. Design school is a four-year degree that teaches principles you can learn in an afternoon and taste you develop by doing. The principles are not secret. Hierarchy, contrast, alignment, proximity, repetition — five words that govern every poster, website, business card, and yard sale flyer you have ever seen. The difference between the yard sale flyer that works and the one nobody reads is not talent. It is knowing those five words and what they mean. The billionaire class has a design team on retainer. You have your Agent, and it knows the same principles.*
+**The spec:**
+```
+Act as an expert visual designer. I need help with
+[a website / a poster / a flyer / a business card /
+a sticker / a social media graphic / a presentation /
+a logo concept / a billboard / a nonprofit brochure].
+My situation:
+— What it's for: [small business / nonprofit / government
+   agency / school event / personal project / band / church]
+— My current design skill: [none / I can use Canva /
+   I've done this before but it looks amateur]
+— My tools: [Canva / Google Slides / Figma / Photoshop /
+   I don't have anything yet]
+— What I struggle with most: [it looks cluttered /
+   I pick bad fonts / the colors clash / I don't know
+   where to start / it looks "homemade" and I can't
+   figure out why]
+Please:
+1. Tell me the 2-3 design principles that matter most
+   for what I'm making
+2. Critique what I have so far — or if I'm starting
+   from scratch, give me a layout to start with
+3. Recommend specific fonts and colors for my use case —
+   not a list of ten, one combination that works
+4. Tell me what makes amateur design look amateur and
+   how to fix it in my specific piece
+```
+**What to do with the output:** Make the thing. Then screenshot it and send it back to your Agent: *"Here's what I made. What would a professional designer change?"* Design is iterative — the first version is never the final one. Each round of feedback teaches you something the principles alone cannot: how to see what is wrong. That skill transfers to everything you design after this.
+
+**Common visual design Expert Role specs:**
+```
+Act as a brand designer. I'm starting a [small business /
+nonprofit / community organization] called [name]. Help me
+develop a simple visual identity: one font pairing, a color
+palette of 3-4 colors, and guidelines I can follow so
+everything I make looks like it belongs together.
+```
+```
+Act as an accessibility consultant. Here's my [poster / website
+screenshot / flyer]. Tell me what someone with low vision,
+color blindness, or a reading disability would struggle with,
+and how to fix it without starting over.
+```
+
+> **[TIP]** *"I made this flyer in Canva [attach screenshot]. It looks wrong but I can't figure out why. Diagnose it like a design teacher would."* — The diagnosis is worth more than a new template. Once you can see the problem, you stop making it.
+
+> **[ALSO]** Visual critique requires image upload. Claude, ChatGPT, Gemini, and Copilot all support this on free tiers. See [Appendix G](06-appendix-g-feature-table.xhtml).
+
+> **[FAIRNESS]** Design tools like [Canva](https://en.wikipedia.org/wiki/Canva) are free and powerful, but their templates encode specific aesthetic assumptions — minimalist, tech-industry, predominantly Western. If your audience is a Black church congregation, a quinceañera, or a Lunar New Year celebration, the default templates will not serve you. Tell your Agent who the audience is and what visual traditions they expect. Design that ignores its audience is not design. It is decoration.
+
+<!-- RESEARCH NEEDED (HUMAN CONDITION): Visual literacy is the most class-stratified skill that nobody calls a skill. The ability to make a flyer that looks professional, a presentation that holds attention, a website that builds trust — these are taught in design school and nowhere else. Every small business owner, nonprofit director, PTA volunteer, and church secretary is expected to produce professional-looking visual materials with no training and no budget. The result is Comic Sans on a bake sale poster and the quiet assumption that the person who made it doesn't care. They care. They just never learned the five principles, because the five principles live behind a $160,000 degree. Your Agent can teach them in a conversation. -->
+
+---
+
 #### Li-10: Learn a language
 **Strategy:** Research + Navigate (Expert Role)
 **See also:** Li-5: Planning Trips (for travel-specific language prep)
@@ -407,3 +501,186 @@ Please help me:
 [^li11-1]: Braghieri, L., Levy, R., & Makarin, A. “Social Media and Mental Health.” *American Economic Review.* See also Bekalu, M.A. et al. (2020) at Harvard T.H. Chan School of Public Health on the routine-vs-compulsive use distinction.
 
 [^li11-2]: Prieto-Latorre, C. et al. (2022). “Internet use and academic performance: An interval approach.” *Education and Information Technologies.* See also Firth, J. et al. (2019). “The ‘online brain’: how the Internet may be changing our cognition.” *World Psychiatry.*
+
+---
+
+#### Li-12: Developing a Habit
+
+<!-- art: habit-tracker -->
+
+**Strategy:** Research + Draft
+**See also:** Li-8: Wellness Coach (for the emotional side), Li-11: Escaping Social Media (for breaking habits)
+**The Majordomo says:** *The self-help industry generates $13 billion a year selling the premise that you lack willpower. The apps, the courses, the 30-day challenges — they monetize the gap between intention and behavior. Behavioral science has known for decades that the problem is not motivation. It is environment design, cue management, and identity. The research is clear and largely ignored by the industry because “redesign your cues” does not sell books the way “unleash your potential” does. Your Agent has read the actual research. It will help you design a system, not lecture you about discipline.*
+**The spec:**
+```
+I want to build a habit of [specific habit: exercising, reading,
+journaling, cooking at home, practicing an instrument, meditating,
+studying, cleaning, etc.].
+My situation:
+— How long I’ve wanted to do this: [weeks / months / years]
+— What I’ve tried: [apps, willpower, accountability partners,
+   30-day challenges, cold turkey, nothing]
+— What keeps going wrong: [I forget / I lose motivation after
+   a week / I start strong then life gets in the way /
+   I don’t know where to start / I feel guilty and quit]
+— When and where I would do this: [morning / evening / specific
+   trigger — or “I don’t know, help me figure that out”]
+Please help me:
+1. Design a version of this habit small enough that I cannot
+   talk myself out of it — the minimum viable version
+2. Identify an existing daily cue I should attach it to
+3. Build a two-week starter plan that assumes I will
+   miss days — because I will
+4. Tell me what the research says about how long this
+   actually takes (it is not 21 days)
+```
+**What to do with the output:** Do the minimum version today. Not tomorrow. The research says the hardest gap to close is between “I should” and “I did it once.” Everything after the first time is easier. If your Agent suggests a two-minute version of the habit and that feels too small, it is the right size. Scale up after it is automatic, not before.
+
+> **[SCIENCE]** Lally et al. (2010) found habit formation takes an average of 66 days — not 21. The range was 18 to 254 days depending on the habit and the person. The “21 days” myth comes from a plastic surgeon’s anecdotal observation about patients adjusting to their new appearance, not from behavioral research. Your Agent can help you set expectations that match the science, not the marketing.[^li12-1]
+
+> **[TIP]** *”I failed at [habit] again yesterday. Don’t motivate me. Help me figure out what went wrong structurally and fix the design.”* — The most useful thing your Agent can do is diagnose the cue, not restore your enthusiasm.
+
+> **[FAIRNESS]** Habit advice assumes discretionary time. If you are working two jobs or caregiving full-time, “just add a morning routine” is not a plan — it is an insult. Tell your Agent your actual constraints, including time, energy, and what your day actually looks like. Ask for something that fits inside your real life, not an idealized one.
+
+<!-- RESEARCH NEEDED: Clear (2018) “Atomic Habits” is the popular treatment but Lally et al. (2010) in European Journal of Social Psychology is the actual research. The 66-day finding is well-replicated. The minimum viable habit concept traces to BJ Fogg’s “Tiny Habits” (2019) and the broader behavior design literature at Stanford. Both popular books are derivative of the research but more accessible. The entry should cite the research, not the popular books. -->
+
+<!-- RESEARCH NEEDED (HUMAN CONDITION): The shame cycle of failed habits — start, fail, feel guilty, avoid, try again with more intensity, fail harder — is the most common pattern and the least addressed by the habit literature. The literature focuses on formation mechanics and largely ignores the emotional residue of repeated failure. The reader who has tried to start exercising seventeen times is not starting from zero. They are starting from negative seventeen. The entry should name this without pathologizing it. Your Agent’s advantage is that it does not remember your last attempt unless you tell it — every conversation is a clean start. This is a feature, not a limitation. -->
+
+<!-- RESEARCH NEEDED (HUMAN CONDITION): The intention-action gap — the gap between knowing what to do and doing it — is the central problem in behavior change. Sheeran & Webb (2016) meta-analysis found that even large changes in intention produce only small-to-medium changes in behavior. The problem is not information. It is that humans are pattern-running organisms embedded in environments that cue existing patterns. Changing behavior requires changing cues, not just knowledge. This connects to every entry in the book but belongs here. -->
+
+[^li12-1]: Lally, P. et al. (2010). [“How are habits formed: Modelling habit formation in the real world.”](https://doi.org/10.1002/ejsp.674) *European Journal of Social Psychology,* 40(6), 998–1009.
+
+---
+
+#### Li-13: Editing a Movie
+
+<!-- art: camcorder -->
+
+**Strategy:** Create + Navigate
+**See also:** Li-3: Taking Better Photos (the visual skills transfer), WB-8: Learning Any App or Digital Skill (for learning the software)
+**The Majordomo says:** *Film school costs six figures and takes four years. YouTube tutorials on video editing assume you already know what a “J-cut” is and why you want one. Professional editors charge $50 to $150 an hour and are booked months out. Meanwhile, the software is free — [DaVinci Resolve](https://en.wikipedia.org/wiki/DaVinci_Resolve) does what a $100,000 Avid suite did in 1995 — but the storytelling craft of editing, the part where raw footage becomes something someone wants to watch, has not been democratized. It still lives in film schools and editing suites. Your Agent knows the craft. It can tell you why the pacing feels off, what to cut, and where the story actually starts. It is never the first clip.*
+**The spec:**
+```
+I want to edit a video.
+My situation:
+— What kind of video: [family memories / YouTube content /
+   school project / wedding highlight / small business promo /
+   vacation recap / short film / tribute or memorial]
+— What I’m working with: [phone footage / camera footage /
+   screen recordings / mix of everything]
+— My editing tool: [iMovie / DaVinci Resolve / CapCut /
+   Premiere / I haven’t picked one yet]
+— My skill level: [never edited / can trim clips and add music /
+   comfortable with basics, want to improve]
+— How long should the finished video be: [X minutes, or
+   “I don’t know — help me figure that out”]
+Please help me:
+1. If I haven’t chosen a tool, recommend one for my skill
+   level and what I’m making — one tool, not a list
+2. Walk me through the editing process in order — what to
+   do first, second, third
+3. Tell me the three editing principles that will make the
+   biggest difference in my specific project
+4. Tell me what to cut — beginners always leave too much in
+```
+**What to do with the output:** Start with the cut list. The hardest part of editing is not the software — it is accepting that most of your footage does not belong in the final version. A three-hour vacation produces a five-minute video. A one-hour birthday party produces ninety seconds. Your Agent can help you identify what matters. The software part is just buttons, and your Agent knows where every button is in whatever editor you picked.
+
+> **[TIP]** *”I have [X] hours of footage from [event]. Help me select the 10-15 best moments for a [length]-minute video. I want the viewer to feel [emotion].”* — Tell your Agent the feeling, not just the facts.
+
+> **[MEME]** Your parents’ home movies were forty-five minutes of someone’s thumb over the lens, a child blowing out candles from across the room, and an abrupt cut to a parking lot. They are still the most valuable footage the family owns. The goal is not a Spielberg film. The goal is a version of those forty-five minutes that someone will actually watch again.
+
+> **[ALSO]** For editing advice and step-by-step software guidance, any major AI tool works well — the conversation is text-based. For analyzing your actual footage or screenshots of your timeline, you need vision capabilities: available in Claude, ChatGPT, Gemini, and Copilot on free tiers. See [Appendix G](06-appendix-g-feature-table.xhtml).
+
+<!-- RESEARCH NEEDED (HUMAN CONDITION): Home video is an underappreciated form of family history. The shift from camcorder to phone camera democratized recording but the footage sits in phone storage unsorted and unwatched. The emotional weight of unedited family footage — especially after a death — is significant and underdiscussed. The reader who wants to edit a memorial video for a parent’s funeral is doing one of the most emotionally loaded creative acts possible under time pressure. The entry should serve that reader without centering grief. -->
+
+<!-- RESEARCH NEEDED: The attention span research. Microsoft’s often-cited “8-second attention span” is methodologically dubious, but the practical reality holds: viewers decide within seconds whether to keep watching. For personal videos, the audience is forgiving (family will watch longer) but the same principles apply. Front-load the best moment. Start with action, not a title card. These are professional editing principles accessible to anyone. -->
+
+---
+
+#### Li-14: Writing a Book (Like This One)
+
+<!-- art: worn-hitchhikers -->
+
+**Strategy:** Create + Draft
+**See also:** Strategy 9: Create (the full framework for AI-assisted creative work), Li-8: Wellness Coach (for the emotional side of long projects)
+**The Majordomo says:** *The publishing industry spent centuries controlling who got to call themselves a writer. Self-publishing removed the gate. It did not remove the craft. The tools to distribute a book to every reader on earth are free or nearly free. The tools to make the book worth reading cost the same thing they always have: time, structure, and someone willing to tell you when a chapter does not work. Most books die in chapter four, not at the blank page. The blank page gets the credit for stopping writers, but it is the middle — when the architecture does not hold and the initial excitement is spent — that kills the manuscript. Your Agent can be the structural editor, the developmental reader, and the research assistant that professional authors have always had and first-time writers have not.*
+**The spec:**
+```
+I want to write a book about [topic / story / argument].
+My situation:
+— What kind of book: [memoir / novel / practical nonfiction /
+   children’s book / poetry collection / essay collection / other]
+— Where I am: [idea only / rough outline / first few chapters /
+   stuck in the middle / finished draft that needs editing]
+— What I’m struggling with: [starting / structure / voice /
+   staying motivated / knowing if it’s good / finishing]
+— Who is it for: [describe the reader — not “everyone”]
+Please help me:
+1. Define the book’s core argument or through-line in one
+   sentence — if I can’t state it, the book isn’t ready to write
+2. Build a structural outline that shows me the shape of
+   the whole thing before I write more
+3. Identify the weakest chapter or section and tell me why
+4. Be honest: is this idea a book, or is it an essay, a blog
+   post, or a pamphlet? The honest answer saves months.
+```
+**What to do with the output:** Ask your Agent to read what you have and tell you where the reader would stop reading. Not where it is “good” or “bad” — where attention flags. That is where the work is. If the answer is “the beginning,” do not panic. Most books need a different beginning than the one they started with. This one did.
+
+> **[TIP]** *”Read this chapter and tell me: what is the reader supposed to know at the end that they didn’t know at the beginning? If you can’t tell, neither can they.”* — This is the single most useful developmental editing question. Ask it for every chapter.
+
+> **[MEME]** Hemingway had [Gertrude Stein](https://en.wikipedia.org/wiki/Gertrude_Stein). Fitzgerald had [Maxwell Perkins](https://en.wikipedia.org/wiki/Maxwell_Perkins). Toni Morrison had [Robert Gottlieb](https://en.wikipedia.org/wiki/Robert_Gottlieb). Every great writer had an editor who told them when the work was not ready, and the writer hated hearing it and needed to hear it. Your Agent will do this without the lunch bill and without losing your manuscript on a train. It may, however, state its opinions with an unearned confidence that Perkins would never have permitted himself. Verify its literary judgments the way you would verify its facts.
+
+> **[FAIRNESS]** Your Agent is trained on an enormous amount of published writing, which means it has absorbed the conventions of published writing — conventions that reflect who has historically been published. If your voice, structure, or story does not fit the dominant literary tradition, your Agent may nudge you toward the center. When it does, don’t just undo it — add the rule to your voice specification: *"Never smooth out my code-switching. That’s my voice. Update the spec."* The most important thing about your book is that it sounds like you wrote it. The spec is how you make that stick across every session.
+
+**The specification for the book itself:** A book is too large for a single conversation. Your Agent does not remember chapter three when you are writing chapter twelve — unless you tell it. The solution is the same one this entire book teaches: write a specification. For fiction, screenwriters call it a [character bible](https://en.wikipedia.org/wiki/Bible_(screenwriting)) — a living reference document that holds characters, settings, timeline, voice rules, plot decisions, themes, what has been established and what has not. For nonfiction, it is the same thing with different contents: audience, argument, structure, editorial conventions, what has been decided and what has not. Both are specifications. Both serve the same purpose: they are the memory for you and your Agent across every session.
+
+Build the specification early and update it as you write:
+```
+Here is the specification for my book. Read it before we work.
+[paste or attach the document]
+Today I am working on [chapter/section]. Here is what I have so far.
+[paste the draft]
+The specification is the authority. If anything I’ve written
+contradicts it, flag the contradiction. If we make a decision today
+that changes the spec, tell me at the end of the session so I can
+update it.
+```
+This book uses the same technique. The `spec/` directory — voice guidelines, editorial conventions, the episode index, the illustration instructions — is the specification for *A Majordomo for Everyone*. It is not a character bible because this is not fiction, but it does the same work: every session starts by reading it, every decision is checked against it, and when the spec and the content disagree, one of them gets fixed. That discipline is what keeps a long project coherent across a hundred sessions, whether the collaborator is a human editor or an Agent. Strategy 0 applies to books the same way it applies to insurance appeals. Specify first. Then write.
+
+> **[TIP]** Write in plain text files — `.txt` or [CommonMark](https://commonmark.org/) `.md`, not Word documents. Plain text is the foundation of every modern computer. Every device you own already knows how to read it. Every device you will ever own will know how to read it. A `.txt` file created in 1985 opens instantly today. Try that with a WordPerfect file. Your manuscript will never be locked inside software you have to pay for, trapped in a format that stops being supported, or corrupted by an update you did not ask for. It is the safest way to store ideas and the easiest way to back them up — copy the file anywhere, it works.
+>
+> Plain text is also what your Agent reads best. A `.docx` file is a compressed archive full of XML formatting markup that eats tokens — the units that determine how much your Agent can read and respond to in one conversation. On free tiers, where every token counts, a manuscript in `.docx` can consume twice the tokens of the same words in `.txt`. Your Agent reads plain text faster, and when it rewrites a chapter, it can hand you back the entire file — no formatting to reconstruct, no track changes to untangle.
+>
+> You do not need to buy anything. TextEdit is already on your Mac. Notepad is already on your PC. On your phone, a free text editor is one app store search away. If you need help setting it up, that is a conversation for your Agent — see WB-7: Choosing a Device or Operating System and WB-8: Learning Any App or Digital Skill. See also WB-3: Writing in CommonMark for the two-minute upgrade from plain text to light formatting.
+
+> **[SCIENCE]** What you write matters more than you think — and not just to you. Historians have always relied on ordinary people's records to understand how life was actually lived. A Maine midwife named [Martha Ballard](https://en.wikipedia.org/wiki/Martha_Ballard) kept a daily diary from 1785 to 1812 — deliveries, weather, chores, gossip. Previous historians dismissed it as too mundane to study. Laurel Thatcher Ulrich spent eight years proving them wrong, and the result won the Pulitzer Prize: the richest surviving account of women's medical practice, sexual assault prosecution, and household economy in early America. [Samuel Pepys'](https://en.wikipedia.org/wiki/Samuel_Pepys) diary became our primary eyewitness account of both the Great Plague and the Great Fire of London — and he wrote it as a personal journal, worrying about his Parmesan cheese while the city burned. The [Mass Observation Archive](https://en.wikipedia.org/wiki/Mass-Observation) recruited 480 ordinary Britons to record daily life during World War II; those diaries are now irreplaceable primary sources. E.P. Thompson's foundational *The Making of the English Working Class* (1963) was built from workshop customs, threatening letters, and popular songs — records that others treated as scraps. His declaration: *"I am seeking to rescue the poor stockinger, the Luddite cropper, the 'obsolete' hand-loom weaver... from the enormous condescension of posterity."*[^li14-2]
+>
+> The paradox of the digital era: we are creating more personal documentation than any civilization in history and doing less to ensure it survives. Rosenzweig (2003) warned that historians face a shift from a culture of scarcity to a culture of abundance, while paradoxically risking a future of record scarcity — because digital formats decay and platforms vanish. GeoCities held 186 million pages of personal writing when Yahoo deleted it in 2009. Internet pioneer [Vint Cerf](https://en.wikipedia.org/wiki/Vint_Cerf) has warned of a "digital dark age" in which everyday records become unreadable as formats and software go obsolete. Plain text does not go obsolete. A `.txt` file is a hedge against the condescension of posterity. What you are writing may matter to someone who has not been born yet. Store it in a format they will be able to read.
+
+[^li14-2]: Thompson, E.P. (1963). [*The Making of the English Working Class.*](https://www.penguinrandomhouse.com/books/93136/the-making-of-the-english-working-class-by-e-p-thompson/) Victor Gollancz. Ulrich, L.T. (1990). [*A Midwife's Tale.*](https://www.penguinrandomhouse.com/books/331364/a-midwifes-tale-by-laurel-thatcher-ulrich/) Alfred A. Knopf. Rosenzweig, R. (2003). ["Scarcity or Abundance? Preserving the Past in a Digital Era."](https://rrchnm.org/essays/scarcity-or-abundance-preserving-the-past-in-a-digital-era/) *American Historical Review,* 108(3), 735–762.
+
+**The voice specification:** When a billionaire writes a memoir, they do not write it. They hire a ghostwriter, and before that ghostwriter types a word, the publisher pays for weeks of interviews — recorded conversations about how the subject talks, what words they reach for, what rhythms feel natural, what register they use when they are angry versus when they are being careful. The ghostwriter distills those interviews into a voice specification: a document that says *this is how this person sounds on the page*. Then the ghostwriter writes to that spec. The billionaire reviews, adjusts, and the voice converges. This process costs tens of thousands of dollars and involves daily calls and constant billing.
+
+You can do the same thing in an afternoon. Ask your Agent to interview you:
+```
+Interview me about my writing voice. Ask me questions one at
+a time — about the writers I admire, the sentences I’ve written
+that I’m proud of, the words I overuse, the tone I want, the
+tone I want to avoid, how formal or informal I am, whether I
+use humor and what kind. After the interview, write me a voice
+specification I can hand to you at the start of every session
+so you write in my voice, not yours.
+```
+The output is a document — a page or two — that captures how you sound. Paste it into your project specification. Now when you ask your Agent to draft a chapter, it writes in your voice. When it drifts, don’t push back — tell the Agent to update the voice spec with the rule. *"I never use semicolons. Add that to the voice specification."* *"That paragraph sounds too formal for this book. Update the spec: conversational register, always."* The spec grows as you write. Every decision you make about voice becomes a rule your Agent follows in every future session. You focus on the plot points, the argument, the personal details that only you know. The Agent handles the connective tissue in a voice that sounds like yours, not like a machine’s, and organizes the notes. No Zoom calls. No billing.
+
+> **[TIP]** *"Here are three paragraphs I’ve written that sound the most like me. Analyze my voice — sentence length, vocabulary level, rhythm, use of humor, formality — and write a voice specification I can reuse."* — If you already have writing you like, skip the interview. Let your Agent reverse-engineer the spec from the work.
+
+> **[TIP]** *"Here’s a decision I just made: [describe]. Update the project specification to reflect this and give me the updated version."* — Don’t maintain the spec yourself. Tell your Agent what changed. Let it keep the document current. Your job is to make decisions. The Agent’s job is to record them.
+
+> **[SCIENCE]** Surveys consistently find that roughly 80% of people say they want to write a book. [NaNoWriMo](https://en.wikipedia.org/wiki/National_Novel_Writing_Month) — the largest structured writing event in the world, with over 400,000 participants annually — reports that fewer than 20% of participants reach the 50,000-word goal even with a deadline, a community, and daily word-count tracking. The dropout curve is not about talent. It is about infrastructure. Silvia (2007) found that the single strongest predictor of writing output is not inspiration, ability, or free time — it is whether the writer has a scheduled, externally accountable structure. Professional writers have this by default: editors with deadlines, agents who check in, writing groups that read drafts, advance payments that create financial stakes. First-time writers have none of it. Your Agent is not a writing group and it is not an editor with a contractual deadline. But it is a reader who responds at 2 AM, who will read your draft tonight and tell you what is working, and who will be there tomorrow when the isolation would otherwise win. That is not a small thing.[^li14-1]
+
+[^li14-1]: Silvia, P.J. (2007). [*How to Write a Lot: A Practical Guide to Productive Academic Writing.*](https://www.apa.org/pubs/books/4441010) American Psychological Association. See also NaNoWriMo annual statistics at [nanowrimo.org](https://nanowrimo.org/).
+
+<!-- RESEARCH NEEDED (HUMAN CONDITION): Imposter syndrome in writing is near-universal and varies by demographics. Writers from underrepresented backgrounds report significantly higher rates of “who am I to write this” self-doubt. The entry should name this and move past it: if you have something to say and a reader who needs to hear it, the credentials are irrelevant. This book was written by a college dropout. The authority comes from the work, not the degree. -->
+
+<!-- RESEARCH NEEDED: The economics of self-publishing. Amazon KDP pays 35-70% royalties depending on pricing. Traditional publishing advances for first-time authors average $5,000-$15,000 and have been declining for decades. The gatekeeping function of traditional publishing — editorial quality control, marketing, distribution — is real but increasingly available through other means. Your Agent can help with structure and editing. Platforms handle distribution. The missing piece is marketing, which is a different problem and a different entry. -->
