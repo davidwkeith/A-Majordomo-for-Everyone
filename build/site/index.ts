@@ -85,14 +85,19 @@ async function buildSite(): Promise<void> {
     );
   }
 
-  // Copy epub if it exists (built by npm run build:all)
-  const epubPath = join(ROOT, 'dist', 'a-majordomo-for-everyone.epub');
-  try {
-    await access(epubPath);
-    await copyFile(epubPath, join(OUTPUT_DIR, 'a-majordomo-for-everyone.epub'));
-    console.log('Copied ePub to site output');
-  } catch {
-    console.log('ePub not found — skipping (run build:all to include it)');
+  // Copy epub and pdf if they exist (built by earlier steps in build:all)
+  for (const file of [
+    'a-majordomo-for-everyone.epub',
+    'a-majordomo-for-everyone.pdf',
+  ]) {
+    const src = join(ROOT, 'dist', file);
+    try {
+      await access(src);
+      await copyFile(src, join(OUTPUT_DIR, file));
+      console.log(`Copied ${file} to site output`);
+    } catch {
+      console.log(`${file} not found — skipping`);
+    }
   }
 
   console.log(`Site written to ${OUTPUT_DIR} (${sorted.length} chapters)`);
