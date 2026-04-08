@@ -100,7 +100,7 @@ Spec requires `[Show:SxEy "Title"](url), Year`. These don't follow it:
 
 ### Footnote Formatting
 
-- [ ] **"A Note Before You Start"** — uses `[^n1-1]` / `[^n1-2]` prefix; spec says `[^1-1]` / `[^1-2]` for introduction chapter numbering
+- [x] **"A Note Before You Start"** — uses `[^n1-1]` / `[^n1-2]` prefix; spec says `[^1-1]` / `[^1-2]` for introduction chapter numbering
 
 ### Terminology
 

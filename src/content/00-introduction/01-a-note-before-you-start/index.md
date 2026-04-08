@@ -63,9 +63,9 @@ The AI does not get stressed. It does not get tired. It does not have a worse da
 
 **If you have been putting this off for weeks:** the shame of procrastination is its own barrier. The pile grows. The deadline approaches. The task gets heavier. Tell the AI: "I have been avoiding this. I don't know where to start. Here is the pile." The AI will not judge the delay. It will sort the pile.
 
-> **[SCIENCE]** Cognitive load theory (Sweller, 1988) and research on stress and decision-making (Starcke & Brand, 2012) consistently show that high-stress situations impair exactly the cognitive functions — working memory, planning, evaluation of alternatives — that navigating bureaucratic systems requires. The information asymmetry between institutions and individuals is partly a cognitive asymmetry: the institution processes your case in a calm office with a manual. You process the institution's response in your kitchen with a racing heart. Offloading the analytical work to an AI is not laziness. It is a rational allocation of cognitive resources under constraint.[^n1-1]
+> **[SCIENCE]** Cognitive load theory (Sweller, 1988) and research on stress and decision-making (Starcke & Brand, 2012) consistently show that high-stress situations impair exactly the cognitive functions — working memory, planning, evaluation of alternatives — that navigating bureaucratic systems requires. The information asymmetry between institutions and individuals is partly a cognitive asymmetry: the institution processes your case in a calm office with a manual. You process the institution's response in your kitchen with a racing heart. Offloading the analytical work to an AI is not laziness. It is a rational allocation of cognitive resources under constraint.[^1-1]
 
-[^n1-1]: Sweller, J. (1988). "Cognitive load during problem solving: Effects on learning." *Cognitive Science*, 12(2), 257-285. Starcke, K., & Brand, M. (2012). "Decision making under stress: A selective review." *Neuroscience & Biobehavioral Reviews*, 36(4), 1228-1248.
+[^1-1]: Sweller, J. (1988). "Cognitive load during problem solving: Effects on learning." *Cognitive Science*, 12(2), 257-285. Starcke, K., & Brand, M. (2012). "Decision making under stress: A selective review." *Neuroscience & Biobehavioral Reviews*, 36(4), 1228-1248.
 
 ---
 
@@ -93,9 +93,9 @@ The AI will read the English document and respond in your language. It will tran
 
 **Multilingual households:** if you are helping a family member who speaks a different language, the AI is the translator in the room. "My mother received this letter. She speaks Tagalog. Explain it to her in Tagalog and tell me in English what she needs to do." The AI handles both sides of the conversation. The family member hears the explanation in their language. You hear the action items in yours.
 
-> **[FAIRNESS]** AI language quality varies. English is the most thoroughly trained language in every major model. Spanish, French, German, Chinese, Japanese, and Korean are generally strong. Other languages — particularly indigenous languages, regional dialects, and less-resourced languages — may produce less accurate or less nuanced responses. If you are working in a language other than English, verify critical details (dollar amounts, deadlines, legal terms) against the original English document. The AI's translation is a starting point, not a certified translation.[^n1-2]
+> **[FAIRNESS]** AI language quality varies. English is the most thoroughly trained language in every major model. Spanish, French, German, Chinese, Japanese, and Korean are generally strong. Other languages — particularly indigenous languages, regional dialects, and less-resourced languages — may produce less accurate or less nuanced responses. If you are working in a language other than English, verify critical details (dollar amounts, deadlines, legal terms) against the original English document. The AI's translation is a starting point, not a certified translation.[^1-2]
 
-[^n1-2]: For critical legal, medical, or financial documents, a certified human translator remains the standard. The AI gets you from "I have no idea what this says" to "I understand the general situation and know what questions to ask." That gap is where most people get stuck.
+[^1-2]: For critical legal, medical, or financial documents, a certified human translator remains the standard. The AI gets you from "I have no idea what this says" to "I understand the general situation and know what questions to ask." That gap is where most people get stuck.
 
 ---
 
