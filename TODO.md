@@ -104,7 +104,7 @@ Spec requires `[Show:SxEy "Title"](url), Year`. These don't follow it:
 
 ### Terminology
 
-- [ ] **Strategy 8 (Assert), line 50** — says "Claude should flag" instead of "Your Agent should flag"
+- [x] **Strategy 8 (Assert), line 50** — says "Claude should flag" instead of "Your Agent should flag"
 
 ### Missing Domain Intros
 

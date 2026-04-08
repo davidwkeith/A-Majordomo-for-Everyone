@@ -47,7 +47,7 @@ I'll verify with a legal aid organization before acting.
 
 > **[SCIENCE]** [Administrative burden](https://en.wikipedia.org/wiki/Administrative_burden) research (Herd & Moynihan, 2018) documents how the complexity of rights-claiming processes systematically suppresses assertion among lower-income and non-English-speaking populations — not because their rights are different, but because the cost of learning and exercising them is higher. Your Agent does not eliminate that cost. It dramatically reduces it.[^s8-1]
 
-> **[FAIRNESS]** When asking about legal rights, always follow up with: *"Is this answer the same regardless of my immigration status, income level, or the state I'm in?"* Rights vary by jurisdiction. Claude should flag any state-level differences. Verify with a legal aid organization before acting on anything with real consequences.
+> **[FAIRNESS]** When asking about legal rights, always follow up with: *"Is this answer the same regardless of my immigration status, income level, or the state I'm in?"* Rights vary by jurisdiction. Your Agent should flag any state-level differences. Verify with a legal aid organization before acting on anything with real consequences.
 
 [^s8-1]: Herd, P. & Moynihan, D.P. (2018). *Administrative Burden: Policymaking by Other Means.* Russell Sage Foundation.
 
