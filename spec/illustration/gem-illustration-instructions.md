@@ -45,7 +45,7 @@ Each strategy chapter (0 through 9) opens with a full-width illustration using a
 
 ### Layer 1: The Notebook Page
 
-Standard American college-ruled notebook paper. Blue horizontal lines. No vertical margin line on the left. No paper edges visible — the paper extends beyond all four sides of the frame. The paper is the background, not an object placed on a background. If the paper logically ends, the background is transparent, otherwise the background fades.
+Standard American college-ruled notebook paper. The paper is unbleached recycled — a dull grayish-tan, not white, not cream. Blue horizontal lines. No vertical margin line on the left. No paper edges visible — the paper extends beyond all four sides of the frame. The paper is the background, not an object placed on a background. The background fades at the edges.
 
 **The ruled lines are machine-printed, not hand-drawn.** They are perfectly straight, perfectly parallel, perfectly evenly spaced — exactly as they appear on real manufactured notebook paper. Think of a high-resolution scan of actual college-ruled paper. The lines never wobble, curve, warp, or vary in thickness. They are a manufactured product, not a drawing. The pencil drawing sits ON the paper; the lines are part of the paper itself.
 

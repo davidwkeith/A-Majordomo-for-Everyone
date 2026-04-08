@@ -185,7 +185,3 @@ most significant detail.
 
 Resist the impulse to fill silence. The discomfort belongs to both parties; the respondent
 will usually resolve it first.
-
----
-
-*This document conforms to the [CommonMark 0.31.2 specification](https://spec.commonmark.org/0.31.2/).*

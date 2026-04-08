@@ -24,6 +24,8 @@ Drawn in the left margin — in the narrow space between the left frame edge and
 
 The pole is vertical, running from the bottom of the frame to near the top. Its shaft cuts slightly into the left corner of the house — the house's left edge extends past the margin line, and the pole overlaps it, partially obscuring the left corner of the house. The way a real telephone pole would, if you were standing at the curb.
 
+On the pole are a lost dog and yard sale poster. Dot-matrix printer paper stapled to the tree. Made with and early version PrintShop on a dot matrix printer. The details are unreadable.
+
 Telephone wires extend from the top of the pole to the right, drooping in catenary curves across the upper portion of the composition. They run toward the roofline and off the right edge. Drawn in #2 pencil, same medium as the house.
 
 The red margin line and the telephone pole share a vertical zone. They are not the same line — the pole is in the margin to the left of the red line, the line is the boundary of the writing area. But they are parallel and proximate: the paper's institutional grid and the neighborhood's physical infrastructure, both running vertically through the left side of the frame.
@@ -32,15 +34,15 @@ The red margin line and the telephone pole share a vertical zone. They are not t
 
 Two-story colonial or ranch-style. Slight three-quarter perspective from the curb. Front face dominant, one side face partially visible. Left corner partially obscured by the telephone pole.
 
-- *Exterior:* Brick or vinyl siding, beige/cream/tan. Black or dark green shutters. White trim.
+- *Exterior:* Vinyl siding, beige. Dark green shutters. White trim.
 - *Garage:* Attached. Panel lines rendered individually in pencil.
 - *Front porch:* Covered. Screen door. Porch light.
 - *Windows:* Double-hung, multiple panes, each rendered. Window boxes.
 - *Roof:* Shingles in hatching. Brick chimney.
-- *Driveway:* In perspective. Minivan or station wagon in compulsive pencil detail. Basketball hoop, slightly crooked.
+- *Driveway:* In perspective. Dodge Caravan in compulsive pencil detail. A single TMBG Flood sticker on the bumper. Basketball hoop, slightly crooked.
 - *Mailbox:* Post-mounted near the curb, distinct from the telephone pole.
 - *Garden hose:* Coiled near the garage.
-- *Tree:* One large oak or maple, canopy partially over the roof.
+- *Tree:* One large maple, canopy partially over the roof.
 - *Curb:* Drawn in pencil across the lower composition at the perspective angle. Establishes street level. Grounds the image in suburban geography.
 
 The house is a composite generic — not based on any specific property. The figure is generic. The telephone pole is a generic utility pole. No identifiable people, locations, or properties.
@@ -134,3 +136,4 @@ The system at the top in its own cold font, aligned to the paper's rules. The in
 - Cover lines are perfectly horizontal. This must be exact.
 - Title left edge aligns precisely to the red margin line.
 - Cover and chapters must feel like they came from the same notebook.
+- 8.5” x 11” Textbook Cover
