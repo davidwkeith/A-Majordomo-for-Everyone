@@ -82,29 +82,33 @@ pre.conversation {
   white-space: normal;
   -webkit-hyphens: none;
   hyphens: none;
-  padding: 1em 1em 1em 2.2em;
-  position: relative;
+  padding: 1em;
+  page-break-inside: avoid;
+  break-inside: avoid;
 }
 
 pre.conversation kbd,
 pre.conversation samp {
   font: inherit;
+  display: block;
+  padding-left: 1.8em;
+  position: relative;
 }
 
-pre.conversation-prompt::before {
+pre.conversation kbd::before {
   content: '👤';
   position: absolute;
-  top: 0.3em;
-  left: 0.3em;
+  top: 0;
+  left: 0;
   font-size: 1.2em;
   line-height: 1;
 }
 
-pre.conversation-agent::before {
+pre.conversation samp::before {
   content: '✨';
   position: absolute;
-  top: 0.3em;
-  left: 0.3em;
+  top: 0;
+  left: 0;
   font-size: 1.2em;
   line-height: 1;
 }
@@ -154,6 +158,10 @@ th {
   text-transform: uppercase;
   margin-bottom: 0.3em;
   color: #666;
+  padding-left: 3.5em;
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 2.8em 2.8em;
 }
 
 .callout-science {
@@ -162,6 +170,7 @@ th {
 
 .callout-science .callout-label {
   color: #2563eb;
+  background-image: url(../images/callout-icon-science-bohr-atom.png);
 }
 
 .callout-tip {
@@ -170,6 +179,7 @@ th {
 
 .callout-tip .callout-label {
   color: #16a34a;
+  background-image: url(../images/callout-icon-tip-star.png);
 }
 
 .callout-fairness {
@@ -178,6 +188,7 @@ th {
 
 .callout-fairness .callout-label {
   color: #dc2626;
+  background-image: url(../images/callout-icon-fairness-yin-yang.png);
 }
 
 .callout-meme {
@@ -186,6 +197,7 @@ th {
 
 .callout-meme .callout-label {
   color: #9333ea;
+  background-image: url(../images/callout-icon-meme-cool-s.png);
 }
 
 .callout-spec {
@@ -194,6 +206,7 @@ th {
 
 .callout-spec .callout-label {
   color: #ea580c;
+  background-image: url(../images/callout-icon-spec-3d-cube.png);
 }
 
 .callout-also {
@@ -202,6 +215,7 @@ th {
 
 .callout-also .callout-label {
   color: #0891b2;
+  background-image: url(../images/callout-icon-also-block-arrow.png);
 }
 
 /* ---- Endnotes ---- */

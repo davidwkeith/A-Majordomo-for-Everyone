@@ -14,14 +14,15 @@ const LANG_MAP: Record<string, { tag: string; className: string }> = {
  * - Bare code blocks (no language) and `language-prompt` → <pre><kbd>
  * - `language-agent` → <pre><samp>
  * - Any other language class is left as standard <pre><code>.
- * - Newlines become <br/> for hard line breaks.
+ * - Single newlines become spaces (prose wrapping).
+ * - Blank lines (double newlines) become <br/> paragraph breaks.
  *
  * Input HTML (from remark-rehype):
  *   <pre><code>Help me with my banking setup.\n...</code></pre>
  *
  * Output XHTML:
  *   <pre class="conversation conversation-prompt">
- *     <kbd>Help me with my banking setup.<br/>...</kbd>
+ *     <kbd>Help me with my banking setup. ...</kbd>
  *   </pre>
  */
 const rehypeConversations: Plugin<[], Root> = () => {
@@ -59,10 +60,11 @@ const rehypeConversations: Plugin<[], Root> = () => {
         .map((c) => c.value)
         .join('');
 
-      // Split on newlines and interleave <br/> elements
-      const lines = text.replace(/\n+$/, '').split('\n');
+      // Split on blank lines (paragraph breaks), join single newlines as spaces
+      const trimmed = text.replace(/\n+$/, '');
+      const paragraphs = trimmed.split(/\n{2,}/);
       const innerChildren: ElementContent[] = [];
-      for (let i = 0; i < lines.length; i++) {
+      for (let i = 0; i < paragraphs.length; i++) {
         if (i > 0) {
           innerChildren.push({
             type: 'element',
@@ -70,9 +72,17 @@ const rehypeConversations: Plugin<[], Root> = () => {
             properties: {},
             children: [],
           });
+          innerChildren.push({
+            type: 'element',
+            tagName: 'br',
+            properties: {},
+            children: [],
+          });
         }
-        if (lines[i]) {
-          innerChildren.push({ type: 'text', value: lines[i] });
+        // Join single newlines with spaces for prose flow
+        const prose = paragraphs[i].replace(/\n/g, ' ');
+        if (prose) {
+          innerChildren.push({ type: 'text', value: prose });
         }
       }
 
