@@ -8,7 +8,7 @@ status: "draft"
 
 ## Appendix G: Feature Translation Table
 
-*The [ALSO] blocks throughout this book point here for the full reference. This table is a living document -- tool features change, names change, new tools emerge. Current version maintained at [companion URL TBD]/features.*
+*The [ALSO] blocks throughout this book point here for the full reference. This table is a living document -- tool features change, names change, new tools emerge. Current version maintained at [a-majordomo-for-everyone.dwk.io/features](https://a-majordomo-for-everyone.dwk.io/features).*
 
 The book uses Claude as its default example. Every feature named below exists in some form across all major tools, but the names differ. This table is your vocabulary key.
 
@@ -88,7 +88,7 @@ The book uses Claude as its default example. Every feature named below exists in
 | Paid price (approx.) | $20/mo | $20/mo | $20/mo | $20/mo |
 | Key paid benefit | Higher limits, extended thinking, Projects | Gemini Advanced model, more Gems | GPT-4o full access, more GPTs | Priority access, more features |
 
-*All pricing and feature availability subject to change. See [companion URL TBD]/features for current information.*
+*All pricing and feature availability subject to change. See [a-majordomo-for-everyone.dwk.io/features](https://a-majordomo-for-everyone.dwk.io/features) for current information.*
 
 ---
 

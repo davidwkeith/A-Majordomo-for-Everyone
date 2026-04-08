@@ -8,9 +8,9 @@ status: "draft"
 
 ## Appendix A: Field Guide Quick Reference
 
-*This reference is designed to be pulled out and kept somewhere accessible -- taped inside a cabinet, saved on your phone, or printed from the companion website at [URL TBD]. Each entry shows the strategy, the first line of the spec, and where to find the full entry.*
+*This reference is designed to be pulled out and kept somewhere accessible -- taped inside a cabinet, saved on your phone, or printed from the companion website at [a-majordomo-for-everyone.dwk.io](https://a-majordomo-for-everyone.dwk.io/). Each entry shows the strategy, the first line of the spec, and where to find the full entry.*
 
-*A printable PDF version is available at [URL TBD]/quick-reference.*
+*A printable PDF version is available at [a-majordomo-for-everyone.dwk.io/quick-reference](https://a-majordomo-for-everyone.dwk.io/quick-reference).*
 
 > This is an ePub -- printing is poor. The Quick Reference is also available as a separate piece of media (HTML/PDF on the book's website) for easy printing and posting.
 

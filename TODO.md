@@ -82,52 +82,6 @@ Each strategy chapter needs 2–3 full [SPEC] loops (reader situation → clarif
 
 ---
 
-## Off-Spec
-
-Issues where existing content doesn't match the editorial spec.
-
-### Frontmatter
-
-- [x] **Final Note and Appendix I both have `order: 8`** — Final Note should be order: 9. File: `04-appendices/07-final-note/index.md`
-
-### Episode Reference Formatting
-
-Spec requires `[Show:SxEy "Title"](url), Year`. These don't follow it:
-
-- [x] **Foreword** — Seinfeld "The Chinese Restaurant" referenced narratively but not cited in SxEy format
-- [x] **Ch 1 (What These Tools Are)** — Star Trek: First Contact epigraph not in spec format
-- [x] **Ch 3 (Free Tier Playbook)** — Simpsons "Trash of the Titans" epigraph missing SxEy number
-
-### Footnote Formatting
-
-- [x] **"A Note Before You Start"** — uses `[^n1-1]` / `[^n1-2]` prefix; spec says `[^1-1]` / `[^1-2]` for introduction chapter numbering
-
-### Terminology
-
-- [x] **Strategy 8 (Assert), line 50** — says "Claude should flag" instead of "Your Agent should flag"
-
-### Missing Domain Intros
-
-Spec requires an italic introductory paragraph before the first entry in each domain:
-
-- [x] **Civic domain** — goes straight to C-1 with no intro paragraph
-- [x] **Chores domain** — no intro paragraph
-- [x] **Legal domain** — uses MEME callout instead of italic intro (debatable)
-- [x] **Home domain** — uses MEME callout instead of italic intro (debatable)
-- [x] **Work domain** — uses MEME callout instead of italic intro (found during fix)
-
-### Companion Site URLs
-
-4 occurrences of `[companion URL TBD]` and 2 of `[URL TBD]` across appendices:
-
-- [ ] **Appendix A** — `[URL TBD]` and `[URL TBD]/quick-reference`
-- [ ] **Appendix B** — none (but references "companion website")
-- [ ] **Appendix C** — `[companion URL TBD]/tools`
-- [ ] **Appendix F** — `[companion URL TBD]/versions`
-- [ ] **Appendix G** — `[companion URL TBD]/features` (×2)
-
----
-
 ## Needs Revisiting
 
 Content that exists but could be stronger, more complete, or better connected.

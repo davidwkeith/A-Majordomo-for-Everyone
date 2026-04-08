@@ -8,7 +8,7 @@ status: "draft"
 
 ## Appendix F: Version History
 
-This book is a living document. Each version is numbered and dated. The full changelog is maintained at **[companion URL TBD]/versions**.
+This book is a living document. Each version is numbered and dated. The full changelog is maintained at **[a-majordomo-for-everyone.dwk.io/versions](https://a-majordomo-for-everyone.dwk.io/versions)**.
 
 ```
 v0.1  -- Initial outline and chapter scaffolding

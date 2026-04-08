@@ -10,7 +10,7 @@ status: "draft"
 
 This appendix is a link, not a table. Free tier limits, tool capabilities, and best-use comparisons change faster than any publication cycle can track. The companion site maintains a current version:
 
-**→ [companion URL TBD]/tools**
+**→ [a-majordomo-for-everyone.dwk.io/tools](https://a-majordomo-for-everyone.dwk.io/tools)**
 
 The page covers:
 - Current free tier limits for Claude, ChatGPT, Gemini, and Copilot
