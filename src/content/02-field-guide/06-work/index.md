@@ -8,6 +8,8 @@ status: "draft"
 
 ### WORK
 
+*The labor market is an information asymmetry with a dress code. The employer knows the salary range, the real reason the last person left, and what the role actually entails. The candidate knows what was in the job posting, which was written by HR to attract applicants and reviewed by legal to limit liability — two goals that have nothing to do with telling you what the job is. Once you're hired, the asymmetry continues: performance reviews, promotion criteria, benefits enrollment, and termination procedures are all systems the company designed and you inherited. The entries that follow are the preparation the billionaire class's career coaches provide.*
+
 > **[MEME]** George Jetson worked three hours a day, three days a week, pushing a single button. The show aired in 1962 as satire. Sixty years later the average American works 38.7 hours a week and the button has been replaced by a keyboard and seven different apps that all require a login. The Jetsons got the technology right and the outcome wrong. The automation arrived. The free time did not. The entries in this domain are about using the tools that exist — including your Agent — to get the outcome the Jetsons were promised.
 
 ---

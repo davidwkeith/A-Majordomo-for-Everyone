@@ -110,10 +110,11 @@ Spec requires `[Show:SxEy "Title"](url), Year`. These don't follow it:
 
 Spec requires an italic introductory paragraph before the first entry in each domain:
 
-- [ ] **Civic domain** — goes straight to C-1 with no intro paragraph
-- [ ] **Chores domain** — no intro paragraph
-- [ ] **Legal domain** — uses MEME callout instead of italic intro (debatable)
-- [ ] **Home domain** — uses MEME callout instead of italic intro (debatable)
+- [x] **Civic domain** — goes straight to C-1 with no intro paragraph
+- [x] **Chores domain** — no intro paragraph
+- [x] **Legal domain** — uses MEME callout instead of italic intro (debatable)
+- [x] **Home domain** — uses MEME callout instead of italic intro (debatable)
+- [x] **Work domain** — uses MEME callout instead of italic intro (found during fix)
 
 ### Companion Site URLs
 

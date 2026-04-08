@@ -8,6 +8,8 @@ status: "draft"
 
 ### CIVIC
 
+*Democracy was designed as a participatory system. In practice, participation requires reading ballot measures written by lawyers, attending meetings held during work hours, understanding zoning codes that predate your grandparents, and navigating bureaucracies that treat citizen input as a compliance requirement rather than a design constraint. The billionaire class participates through lobbyists, counsel, and staff who track every hearing and filing deadline. You participate by showing up after a full workday and hoping you understand the agenda. The entries that follow give you the preparation the lobbyist already has.*
+
 ---
 
 #### C-1: Understanding a Ballot Measure in Plain Language

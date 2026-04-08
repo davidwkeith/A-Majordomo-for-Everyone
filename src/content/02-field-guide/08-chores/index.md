@@ -6,7 +6,9 @@ strategy: null
 status: "draft"
 ---
 
-### Chores
+### CHORES
+
+*The domestic labor that keeps a household running — shopping, cooking, cleaning, maintaining, scheduling — is invisible until it stops happening. It is also where most consumer decisions are made: which products to buy, which contractors to hire, which repairs to attempt, which to outsource. The billionaire class delegates this to staff who comparison-shop, vet vendors, and manage maintenance schedules. Everyone else does it in the margins of a full workday, making decisions under time pressure with whatever information is on the label or the first page of search results. The entries that follow turn your Agent into the household staff you don't have.*
 
 ---
 

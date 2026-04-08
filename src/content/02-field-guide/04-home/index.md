@@ -8,6 +8,8 @@ status: "draft"
 
 ### HOME
 
+*A house is the most expensive thing most people will ever be responsible for, whether they own it or rent it. It breaks constantly, in ways that require knowledge from a dozen different trades — plumbing, electrical, HVAC, roofing, structural, pest, appliance — and the person standing in the kitchen when the water heater fails is expected to diagnose the problem, find the right contractor, evaluate the quote, and make the repair-or-replace decision, all before the floor is ruined. The billionaire class has a property manager. You have YouTube and a growing sense of dread. The entries that follow are Al Borland in your pocket: the diagnostic step before the drill comes out.*
+
 > **[MEME]** Every episode of *[Home Improvement](https://en.wikipedia.org/wiki/Home_Improvement_(TV_series))* followed the same structure: Tim had a theory, the theory was wrong, the drill came out, something structural failed. Al knew what the problem was from the beginning. Al said so. Tim did not listen. The third act was always preventable. The entries in this domain are Al Borland. You are a version of Tim who is actually going to listen.
 
 ---
