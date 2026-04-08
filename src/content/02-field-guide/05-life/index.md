@@ -105,7 +105,7 @@ Please help me:
 
 > **[SCIENCE]** Medicaid is the primary payer for long-term care in the United States, but qualifying requires near-poverty. The "spend-down" — depleting assets to meet eligibility thresholds — is the mechanism most families encounter. The five-year lookback period means gifts or transfers made within five years of application trigger penalties. The One Big Beautiful Bill Act (2025) added new constraints: a $1 million home equity cap for long-term care eligibility starting in 2028, retroactive coverage reduced from 90 to 30 days before application, and six-month eligibility reverification. Asset limits, exempt property, and spousal protections vary significantly by state — ask your Agent for the current rules in yours.[^li4-1]
 
-[^li4-1]: KFF, "Health Provisions in the 2025 Federal Budget Reconciliation Law." See also Medicaid.gov for state-specific eligibility thresholds and the five-year lookback rules.
+[^li4-1]: KFF, ["Health Provisions in the 2025 Federal Budget Reconciliation Law."](https://www.kff.org/medicaid/health-provisions-in-the-2025-federal-budget-reconciliation-law/) See also [Medicaid.gov](https://www.medicaid.gov/) for state-specific eligibility thresholds and the five-year lookback rules.
 
 ---
 

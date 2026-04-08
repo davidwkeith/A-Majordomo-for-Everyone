@@ -93,7 +93,7 @@ Please:
 
 [^wb8-1]: Koch, R. (1998). *The 80/20 Principle.* Doubleday. See also: Knowles, M.S. (1984). *Andragogy in Action.* Jossey-Bass.
 
-[^wb8-2]: OECD (2024). *Survey of Adult Skills 2023.* Helsper, E.J. & Eynon, R. (2010). "Digital natives: where is the evidence?" *British Educational Research Journal*, 36(3), 503–520. Hargittai, E. (2010). "Digital Na(t)ives? Variation in Internet Skills and Uses among Members of the 'Net Generation'." *Sociological Inquiry*, 80(1), 92–113. Kirschner, P.A. & De Bruyckere, P. (2017). "The myths of the digital native and the multitasker." *Teaching and Teacher Education*, 67, 135–142.
+[^wb8-2]: OECD (2024). [*Survey of Adult Skills 2023.*](https://www.oecd.org/en/publications/survey-of-adult-skills-2023_1ab54c9e-en.html) Helsper, E.J. & Eynon, R. (2010). ["Digital natives: where is the evidence?"](https://doi.org/10.1080/01411920902989227) *British Educational Research Journal*, 36(3), 503–520. Hargittai, E. (2010). ["Digital Na(t)ives? Variation in Internet Skills and Uses among Members of the 'Net Generation'."](https://doi.org/10.1111/j.1475-682X.2009.00317.x) *Sociological Inquiry*, 80(1), 92–113. Kirschner, P.A. & De Bruyckere, P. (2017). ["The myths of the digital native and the multitasker."](https://doi.org/10.1016/j.tate.2017.06.001) *Teaching and Teacher Education*, 67, 135–142.
 
 ---
 
