@@ -88,7 +88,7 @@ Issues where existing content doesn't match the editorial spec.
 
 ### Frontmatter
 
-- [ ] **Final Note and Appendix I both have `order: 8`** — Final Note should be order: 9. File: `04-appendices/07-final-note/index.md`
+- [x] **Final Note and Appendix I both have `order: 8`** — Final Note should be order: 9. File: `04-appendices/07-final-note/index.md`
 
 ### Episode Reference Formatting
 
