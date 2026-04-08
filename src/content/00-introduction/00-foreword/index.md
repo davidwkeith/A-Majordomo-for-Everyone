@@ -10,7 +10,7 @@ status: "draft"
 
 ## Foreword
 
-In 1991, Jerry, George, and Elaine walked into a Chinese restaurant and waited for a table. For twenty-three minutes. They could not call ahead. They could not check the wait time. They could not pull up another restaurant on a map that already knew where they were standing. "Cartwright!" the maître d' shouted into an empty lobby, and a generation laughed because they had been that person — standing in the wrong line, waiting for information that existed somewhere but was not available to them at the moment they needed it.
+In [Seinfeld:S2E11 "The Chinese Restaurant"](https://en.wikipedia.org/wiki/The_Chinese_Restaurant), 1991, Jerry, George, and Elaine walked into a Chinese restaurant and waited for a table. For twenty-three minutes. They could not call ahead. They could not check the wait time. They could not pull up another restaurant on a map that already knew where they were standing. "Cartwright!" the maître d' shouted into an empty lobby, and a generation laughed because they had been that person — standing in the wrong line, waiting for information that existed somewhere but was not available to them at the moment they needed it.
 
 Today you would check your phone. The episode would last forty-five seconds, a TikTok.
 

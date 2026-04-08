@@ -8,8 +8,8 @@ status: "draft"
 
 ## Chapter 3: The Free Tier Playbook
 
-*"[Can't someone else do it?](https://en.wikipedia.org/wiki/Trash_of_the_Titans)"*
-*— Homer Simpson, "Trash of the Titans"*
+*"Can't someone else do it?"*
+*— Homer Simpson, [The Simpsons:S9E22 "Trash of the Titans"](https://en.wikipedia.org/wiki/Trash_of_the_Titans), 1998*
 
 *(The correct answer is sometimes yes.)*
 

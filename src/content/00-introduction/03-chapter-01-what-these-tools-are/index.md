@@ -9,7 +9,7 @@ status: "draft"
 ## Chapter 1: What These Tools Actually Are
 
 *"The acquisition of wealth is no longer the driving force in our lives. We work to better ourselves and the rest of humanity."*
-*— Captain Jean-Luc Picard, [Star Trek: First Contact](https://en.wikipedia.org/wiki/Star_Trek:_First_Contact)*
+*— Captain Jean-Luc Picard, [Star Trek:TheMovie "First Contact"](https://en.wikipedia.org/wiki/Star_Trek:_First_Contact), 1996*
 
 *(He was describing the 24th century. We will work with what we have.)*
 

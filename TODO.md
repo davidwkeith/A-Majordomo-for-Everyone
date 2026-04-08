@@ -94,9 +94,9 @@ Issues where existing content doesn't match the editorial spec.
 
 Spec requires `[Show:SxEy "Title"](url), Year`. These don't follow it:
 
-- [ ] **Foreword** — Seinfeld "The Chinese Restaurant" referenced narratively but not cited in SxEy format
-- [ ] **Ch 1 (What These Tools Are)** — Star Trek: First Contact epigraph not in spec format
-- [ ] **Ch 3 (Free Tier Playbook)** — Simpsons "Trash of the Titans" epigraph missing SxEy number
+- [x] **Foreword** — Seinfeld "The Chinese Restaurant" referenced narratively but not cited in SxEy format
+- [x] **Ch 1 (What These Tools Are)** — Star Trek: First Contact epigraph not in spec format
+- [x] **Ch 3 (Free Tier Playbook)** — Simpsons "Trash of the Titans" epigraph missing SxEy number
 
 ### Footnote Formatting
 
