@@ -38,7 +38,7 @@ The spec gets you started. Follow-up questions get you to a useful answer. When 
 - **Reframe "why."** Instead of *"Why?"* ask *"What makes that the right approach here?"*
 - **Let silence work.** If the Agent's answer feels incomplete, ask: *"What else should I know?"* The first answer is rarely the whole answer.
 
-These are the same techniques a good interviewer, a good doctor, or a good attorney uses to get past the surface answer to the real one. The full reference is in the [Qualifying Questions spec](_spec.md).
+These are the same techniques a good interviewer, a good doctor, or a good attorney uses to get past the surface answer to the real one.
 
 ## Ground Rules
 

@@ -103,7 +103,9 @@ Please help me:
 
 <!-- RESEARCH NEEDED: Long-term care costs. Genworth 2023 Cost of Care Survey — median cost of a private nursing home room is approximately $9,733/month. Home health aide approximately $5,720/month. Most people do not have this money. The gap between what care costs and what families can pay is the defining financial crisis of aging in America, and most people encounter it for the first time at a moment of maximum emotional vulnerability. -->
 
-<!-- RESEARCH NEEDED: Navigating the Medicare/Medicaid maze — specifically the "Medicaid spend-down" requirement (must deplete assets to qualify), the 5-year lookback period, and the difference between Medicare (insurance for age) and Medicaid (insurance for poverty). Most people don't understand the distinction until it's urgent. Need current asset-limit figures by state. Cross-reference H-6. -->
+> **[SCIENCE]** Medicaid is the primary payer for long-term care in the United States, but qualifying requires near-poverty. The "spend-down" — depleting assets to meet eligibility thresholds — is the mechanism most families encounter. The five-year lookback period means gifts or transfers made within five years of application trigger penalties. The One Big Beautiful Bill Act (2025) added new constraints: a $1 million home equity cap for long-term care eligibility starting in 2028, retroactive coverage reduced from 90 to 30 days before application, and six-month eligibility reverification. Asset limits, exempt property, and spousal protections vary significantly by state — ask your Agent for the current rules in yours.[^li4-1]
+
+[^li4-1]: KFF, "Health Provisions in the 2025 Federal Budget Reconciliation Law." See also Medicaid.gov for state-specific eligibility thresholds and the five-year lookback rules.
 
 ---
 

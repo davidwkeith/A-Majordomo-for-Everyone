@@ -18,6 +18,8 @@ status: "draft"
 
 *Before the web, before the website, before the blog — there is the machine on the table. The billionaire class has always had someone to choose, configure, and maintain their technology. An IT department. A "tech guy." A personal assistant who handled the setup and called the help desk. Everyone else got a shrink-wrapped box, a quick-start guide written for an imagined user who already understood everything, and the unspoken message that if you couldn't figure it out, the problem was you. It was never you. The problem was a consumer electronics industry that made products for a technical audience and marketed them to everyone. Your Agent can close that gap — not by making you technical, but by translating the technical into the specific.*
 
+Meme: We've said "No, I cannot fix your printer" -- even when we can.
+
 ---
 
 #### WB-7: Choosing a Device or Operating System
@@ -81,13 +83,17 @@ Please:
 
 > **[TIP]** *"Explain this like I've never seen this software before"* is not a childish prompt. It is the correct prompt. The curse of knowledge — the inability of experts to remember what it was like to not know — is the reason most software tutorials are bad. Your Agent does not have this curse.
 
+> **[TIP]** Say *"I need to take a screenshot of my computer"* if you've never taken one before. The agent can recalibrate and you will learn another skill.
+
 > **[ALSO]** Claude, ChatGPT, and Gemini can all accept image uploads — paste a screenshot of whatever you're stuck on and ask "what am I looking at and what should I do next?" Copilot integrates directly into Windows and can see your active application. See [Appendix G](06-appendix-g-feature-table.xhtml).
 
 > **[SCIENCE]** The "80/20 rule" in skill acquisition is well-documented: approximately 20% of a tool's features account for 80% of typical use (Koch, 1998, applying Pareto's principle to productivity). Learning the critical 20% first — rather than working through a curriculum designed to cover everything — is consistently more effective for adult learners who have a specific goal (Knowles, 1984).[^wb8-1]
 
-<!-- RESEARCH NEEDED: The digital skills gap is a class issue. The OECD's Survey of Adult Skills consistently finds that digital problem-solving ability correlates more strongly with socioeconomic status than with age. The "digital native" narrative — young people are automatically tech-literate — is a myth that obscures the real divide: access to patient instruction, not access to devices. -->
+> **[SCIENCE]** The digital skills gap is a class issue. The OECD's Survey of Adult Skills (2024) found a 42-point gap in adaptive problem-solving linked to parental education — a larger effect than age alone. Helsper & Eynon (2010) found that education and experience predict Internet skill as strongly as generation, and Hargittai (2010) showed wide skill variation *within* the "digital native" cohort. Kirschner & De Bruyckere (2017) called the digital native "a yeti with a smartphone" — a conclusion endorsed by *Nature*. The real divide is not access to devices but access to patient instruction.[^wb8-2]
 
 [^wb8-1]: Koch, R. (1998). *The 80/20 Principle.* Doubleday. See also: Knowles, M.S. (1984). *Andragogy in Action.* Jossey-Bass.
+
+[^wb8-2]: OECD (2024). *Survey of Adult Skills 2023.* Helsper, E.J. & Eynon, R. (2010). "Digital natives: where is the evidence?" *British Educational Research Journal*, 36(3), 503–520. Hargittai, E. (2010). "Digital Na(t)ives? Variation in Internet Skills and Uses among Members of the 'Net Generation'." *Sociological Inquiry*, 80(1), 92–113. Kirschner, P.A. & De Bruyckere, P. (2017). "The myths of the digital native and the multitasker." *Teaching and Teacher Education*, 67, 135–142.
 
 ---
 
