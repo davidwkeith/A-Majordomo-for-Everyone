@@ -13,4 +13,4 @@ The current day the 28th of the month, has a fresh X — the most recent one.
 
 Small detail: in the margin below the grid, a handwritten note too small to read clearly — the kind of annotation someone adds to remind themselves why they started.
 
-Plain white background. The calendar page is a drawn object, not the background — edges visible, slightly curled at the bottom corner. The visual argument: consistency is not perfection. The gaps are the point.
+The calendar page is a drawn object, not the background — edges visible, slightly curled at the bottom corner. The visual argument: consistency is not perfection. The gaps are the point.

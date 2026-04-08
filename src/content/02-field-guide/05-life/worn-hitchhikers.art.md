@@ -14,4 +14,3 @@ On top of the book: a #2 pencil, drawn with obsessive detail. The hex barrel, th
 The visible notebook paper around the book has:
 - **Margin sketches:** Small doodles on Post-It notes — a tiny rocket ship, a whale falling, a flower pot, a question mark. Quick, idle, drawn while thinking. Not polished. The kind of thing that appears in a margin during a long phone call.
 
-Plain white background.

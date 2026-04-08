@@ -156,7 +156,9 @@ Small hand-drawn illustrations placed within the text flow. These appear through
 
 The same hand as the chapter openers. #2 pencil for all structure and detail. Multi-color ballpoint pen for any color, using the same 8-bit palette approximation. Erasure ghosts present.
 
-**Critical difference: plain white background.** Inline graphics have no notebook paper, no blue lines, no red margin. The drawing floats on a solid white (#FFFFFF) ground. No paper texture, no bounding box, no checkerboard pattern. The background is pure flat white — the white will be removed in post-production to create transparency.
+**Critical difference: pure white background.** Inline graphics have no notebook paper, no blue lines, no red margin. The drawing floats on a solid white (#FFFFFF) ground. No paper texture, no gradient, no shadow, no off-white, no bounding box, no checkerboard pattern. The background is pure flat white — as if scanned from a white page with levels adjusted to clip the background to pure white. The white will be removed in post-production to create transparency.
+
+**This background rule applies to ALL non-chapter-opener images:** inline graphics, callout icons, pixel art vignettes, and any other image that is not a Trinitron chapter opener. Individual art briefs do not need to repeat this — it is assumed. Only chapter openers use the college-ruled notebook paper background.
 
 Pencil strokes should have natural value variation — heavier pressure is darker, lighter pressure is fainter. Ballpoint pen color is fully saturated where applied, sitting on top of the pencil work.
 
