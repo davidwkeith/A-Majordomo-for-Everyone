@@ -373,6 +373,54 @@ main > article h1:first-child {
   line-height: 1.6;
 }
 
+/* ---- Share Buttons ---- */
+
+.share-section {
+  max-width: 42em;
+  margin: 0 auto;
+  padding: 2em 1.5em;
+  text-align: center;
+}
+
+.share-label {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.85em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+  margin: 0 0 0.8em;
+}
+
+.share-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  justify-content: center;
+}
+
+.share-btn {
+  display: inline-block;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.85em;
+  font-weight: 600;
+  padding: 0.4em 1em;
+  border-radius: 2em;
+  text-decoration: none;
+  color: #fff;
+}
+
+.share-btn:hover {
+  opacity: 0.85;
+  color: #fff;
+}
+
+.share-bluesky { background: #0085ff; }
+.share-mastodon { background: #6364ff; }
+.share-twitter { background: #1d9bf0; }
+.share-facebook { background: #1877f2; }
+.share-linkedin { background: #0a66c2; }
+
 .landing-footer {
   max-width: 42em;
   margin: 0 auto;

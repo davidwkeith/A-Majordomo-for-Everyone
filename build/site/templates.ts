@@ -227,6 +227,16 @@ export function landingPage(meta: BookMeta): string {
     <h2>Free and Open</h2>
     <p>This book is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons BY-SA 4.0</a>. Read it, share it, build on it.</p>
   </div>
+  <div class="share-section">
+    <p class="share-label">Share this book</p>
+    <div class="share-links">
+      <a href="https://bsky.app/intent/compose?text=${encodeURIComponent(meta.title + ' — free practical guide to using AI tools for health, legal, financial, and everyday decisions\n\nhttps://a-majordomo-for-everyone.dwk.io')}" target="_blank" rel="noopener" class="share-btn share-bluesky">Bluesky</a>
+      <a href="https://s2f.kytta.dev/?text=${encodeURIComponent(meta.title + ' — free practical guide to using AI tools for health, legal, financial, and everyday decisions')}&url=${encodeURIComponent('https://a-majordomo-for-everyone.dwk.io')}" target="_blank" rel="noopener" class="share-btn share-mastodon">Mastodon</a>
+      <a href="https://twitter.com/intent/tweet?text=${encodeURIComponent(meta.title + ' — free practical guide to using AI tools for health, legal, financial, and everyday decisions')}&url=${encodeURIComponent('https://a-majordomo-for-everyone.dwk.io')}" target="_blank" rel="noopener" class="share-btn share-twitter">Twitter</a>
+      <a href="https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent('https://a-majordomo-for-everyone.dwk.io')}" target="_blank" rel="noopener" class="share-btn share-facebook">Facebook</a>
+      <a href="https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent('https://a-majordomo-for-everyone.dwk.io')}" target="_blank" rel="noopener" class="share-btn share-linkedin">LinkedIn</a>
+    </div>
+  </div>
   <footer class="landing-footer">
     <p>By ${escapeHtml(meta.creator)} &middot; ${escapeHtml(meta.rights)}</p>
   </footer>
