@@ -206,6 +206,7 @@ export function landingPage(meta: BookMeta): string {
       <div class="hero-ctas">
         <a href="/read/" class="hero-cta">Read Online</a>
         <a href="/a-majordomo-for-everyone.epub" class="hero-cta hero-cta-secondary" download>Download ePub</a>
+        <a href="https://github.com/davidwkeith/A-Majordomo-for-Everyone" class="hero-cta hero-cta-secondary">View Source</a>
       </div>
     </div>
   </header>
