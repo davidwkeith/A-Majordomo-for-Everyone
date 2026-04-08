@@ -1,0 +1,163 @@
+---
+title: "Appendix I: Specification Literacy as a Middle School Standard"
+part: 4
+order: 8
+strategy: null
+status: "draft"
+---
+
+## Appendix I: Specification Literacy as a Middle School Standard
+
+*An outline for teaching the core skill of this book at the 8th grade level.*
+
+---
+
+### The Argument
+
+Every chapter in this book teaches the same underlying skill: describe your situation with enough precision that someone — or something — can act on it. That skill has a name. It is specification literacy.
+
+Specification literacy is not a technology skill. It is a thinking skill that happens to unlock technology. It is also the skill that unlocks law offices, doctor's appointments, financial advisors, building inspectors, college applications, and every other system where the quality of the outcome depends on the quality of the ask. The billionaire class learns it from their environment — their parents specify, their tutors specify, their staff specifies. Everyone else learns it the hard way or not at all.
+
+If you teach specification literacy in 8th grade, you change what is possible in high school. A student who can specify can:
+
+- Write a college essay that answers the actual question
+- Describe a medical symptom clearly enough to be taken seriously
+- Read a contract and identify what is missing
+- Ask a teacher for the help they actually need, not the help the teacher assumed they needed
+- Use any AI tool effectively — not because they understand the technology, but because they understand their own situation
+
+The specification interview loop (Strategy 0) is a general-purpose cognitive tool. It is Socratic method with a practical output. Teaching it at 13 means four years of high school where the student already has the meta-skill that every subject assumes and none of them teach.
+
+---
+
+### Why 8th Grade
+
+8th grade is the hinge year. The student is old enough to have real problems — social dynamics, family complexity, academic tracking decisions — and young enough to internalize a thinking pattern before the demands of high school arrive. It is also the last year most school systems have the structural flexibility to add a standalone unit before the subject-area silos of 9th grade lock in.
+
+Developmentally, 13-year-olds are moving from concrete to formal operational thinking (Piaget, if you need the citation — but any middle school teacher will confirm it from observation). They are newly capable of reasoning about hypotheticals, considering multiple perspectives, and thinking about their own thinking. Specification literacy gives that emerging capacity a practical outlet.
+
+---
+
+### Curriculum Outline: Six Weeks
+
+This is a standalone unit. It fits inside English Language Arts, Social Studies, or an advisory/homeroom block. It requires no technology on day one — the first three weeks use paper. AI tools enter in week four, after the thinking skill is established.
+
+#### Week 1: What Is a Specification?
+
+**Core concept:** A specification is a description precise enough to act on.
+
+**Day 1 — The sandwich exercise.** Students write instructions for making a peanut butter and jelly sandwich. The teacher follows the instructions literally. (This exercise is old. It works every time. The laughter when the teacher puts the peanut butter jar on top of the bread — unopened — is the lesson landing.)
+
+**Day 2 — Specifications in the wild.** Students bring in three documents from home: a recipe, a set of assembly instructions, a form. Class sorts them by precision. Which ones could a stranger follow? Which ones assume you already know something?
+
+**Day 3 — The gap.** Introduce the concept: the distance between what you said and what you meant is the specification gap. Every miscommunication in history — from the Challenger disaster to their last group project — lives in that gap.
+
+**Day 4-5 — Write a spec for something you know.** Each student writes a specification for a task they do well (a video game strategy, a recipe, a skateboard trick, braiding hair, a workout routine). Partner reads the spec and attempts to follow it. Debrief: where did the spec break down? What did you assume they already knew?
+
+#### Week 2: The Clarifying Question
+
+**Core concept:** The fastest way to improve a specification is to ask three questions.
+
+**Day 1 — Question taxonomy.** Three types of clarifying questions: what's missing (gaps), what's ambiguous (could mean two things), and what's assumed (you think I know something I don't). Students practice labeling questions by type.
+
+**Day 2-3 — The interview loop.** In pairs: Student A describes a problem loosely ("I need help with my science project"). Student B asks three clarifying questions. Student A answers. Student B writes a one-paragraph specification of what A actually needs. Student A reviews and corrects. This is the specification interview loop — they are doing Strategy 0 without knowing it.
+
+**Day 4-5 — Real problems.** Same exercise, but with actual problems the student is facing. (Teacher should provide safe boundaries — this is not therapy. School-appropriate problems: homework they're stuck on, an extracurricular decision, a purchase they're trying to make, a conversation they need to have with a teacher or coach.)
+
+#### Week 3: Reading Specifications Other People Wrote
+
+**Core concept:** Every system you encounter hands you a specification. Most of them are bad.
+
+**Day 1 — Decode.** Give students three real documents: a school policy, a terms of service excerpt, a health insurance explanation of benefits. Task: rewrite each one so a 6th grader could understand it. (This is Strategy 1: Decode.)
+
+**Day 2-3 — What's missing from this spec?** Students read apartment lease clauses, credit card agreements, and school handbook rules. Task: identify what the document does NOT say that you would need to know. The absence is the specification gap from the other direction — the institution's gap, not yours.
+
+**Day 4-5 — Write back.** Students draft a response to one of the documents: a letter to the school administration clarifying a policy, a question to a landlord about a lease clause, an email to a teacher about a grade. The draft must include: what they understand, what they don't understand, and what they need. (This is Strategy 8: Assert, at a 13-year-old's scale.)
+
+#### Week 4: Specification Meets AI
+
+**Core concept:** The same skill you've been practicing works with AI tools.
+
+**Day 1 — First conversation.** Each student brings a real problem (homework, a personal project, a question they've been wondering about). They type it into an AI tool exactly as they would describe it to a friend. They read the response. Class discussion: what did the tool get right? What did it miss? Why?
+
+**Day 2-3 — The interview loop, AI edition.** Students repeat the Week 2 exercise, but now the AI is Student B. They describe a situation loosely. The AI asks clarifying questions. They answer. The AI proposes a specification. They review and correct. They compare the experience to the human version from Week 2.
+
+**Day 4-5 — Follow-up questions.** The AI's first answer is almost never the final answer. Students practice the five follow-up techniques from Chapter 4: echo back, pull one thread, ask for the contrast, reframe "why," and let silence work (in this case: "What else should I know?"). Each student refines one conversation from a first answer to a useful answer.
+
+#### Week 5: Specification in Every Subject
+
+**Core concept:** This is not an AI skill. It is a thinking skill that makes every class easier.
+
+**Day 1 — Science.** A lab report is a specification. A hypothesis is a spec for an experiment. Students rewrite a lab assignment as a specification interview: what am I testing, what do I expect, what would change my mind?
+
+**Day 2 — Math.** A word problem is a specification with the question at the end. Students practice restating word problems as specifications: what do I know, what do I need, what's the method? Then they use their AI tool to check their restatement before solving.
+
+**Day 3 — History/Social Studies.** An essay prompt is a specification. Students practice the decode-then-specify loop: what is this prompt actually asking? What does "analyze" mean here versus what does "describe" mean? What would a good answer include that a mediocre answer would skip?
+
+**Day 4 — English.** A thesis statement is a specification for an essay. Students draft thesis statements using the interview loop: what's my argument, what evidence supports it, what's the strongest counterargument? The AI plays devil's advocate.
+
+**Day 5 — The meta-lesson.** Students write a one-page reflection: "What changed about how I ask for help?" The pattern they'll notice: they stopped saying "I don't get it" and started saying "I understand X but I'm stuck on Y because Z." That is the specification gap closing in real time.
+
+#### Week 6: Teach It
+
+**Core concept:** If you can teach it, you own it.
+
+**Day 1-2 — Build a lesson.** In pairs, students design a 10-minute lesson on specification literacy for a 5th grader. They must include: one exercise, one example, and one rule of thumb. (This is Chapter 34's kitchen table method, adapted.)
+
+**Day 3 — Deliver it.** If the school has cross-grade partnerships, deliver the lessons to actual 5th graders. If not, deliver to each other and critique.
+
+**Day 4-5 — Portfolio.** Each student assembles a portfolio of their best specifications from the unit: the one they're proudest of, the one that improved the most between drafts, and the one that got the best result from an AI tool. Final reflection: "How will you use this next year?"
+
+---
+
+### Alignment to Standards
+
+This unit maps to existing standards without requiring new ones:
+
+- **Common Core ELA (W.8.4, W.8.5):** Clear, coherent writing appropriate to task and audience; developing and strengthening writing through planning, revising, and editing.
+- **Common Core ELA (SL.8.1):** Collaborative discussions with diverse partners, building on others' ideas and expressing their own clearly.
+- **Common Core ELA (RI.8.4, RI.8.6):** Determining meaning of words and phrases in a text; determining author's point of view or purpose.
+- **ISTE Standards (1.1, 1.5, 1.6):** Empowered learner, computational thinker, creative communicator.
+- **CASEL SEL competencies:** Self-awareness (identifying what you need), social awareness (audience and context), responsible decision-making.
+
+No new standard is required. Specification literacy is what these standards describe when they are taken seriously rather than assessed by multiple choice.
+
+---
+
+### What This Changes in High School
+
+A student who completes this unit enters 9th grade with a transferable meta-skill. The effects compound:
+
+**In English,** they write thesis statements that answer the prompt because they learned to decode prompts in Week 3. Their essays improve because the thinking precedes the writing.
+
+**In science,** they write lab reports that a stranger could replicate because they learned in Week 1 that precision matters. They ask better questions during experiments because they practiced the clarifying question taxonomy in Week 2.
+
+**In math,** they translate word problems into structured specifications before solving. Error rates on word problems drop — not because they got better at math, but because they got better at reading.
+
+**In history,** they analyze primary sources by identifying what the document says, what it assumes, and what it omits — the same framework from Week 3.
+
+**In college applications,** they write personal statements that actually answer the question. They describe their extracurriculars in terms of what they did and what resulted, not in terms of vague self-congratulation. Admissions officers notice.
+
+**In their first job,** they send emails that get answered because the recipient can tell what is being asked. They describe problems to IT support in a way that gets them solved. They ask their manager for what they need instead of hoping the manager figures it out.
+
+**With every AI tool they encounter for the rest of their lives,** they get better results — not because they learned prompt engineering, but because they learned to think clearly about what they need before they open their mouth.
+
+---
+
+### A Note to Teachers
+
+You already teach specification literacy. You just call it "asking good questions" or "being specific" or "showing your work." This unit gives the skill a name, a structure, and three weeks of practice before any technology enters the room.
+
+The AI tools are not the point. The AI tools are the reason the skill suddenly matters at scale. A student who cannot specify will use AI tools the way most adults currently do — poorly, vaguely, and with the disappointed conclusion that "it doesn't really work." A student who can specify will use AI tools the way this book teaches — precisely, iteratively, and with results that compound over a lifetime.
+
+You do not need to be an AI expert to teach this unit. You need to be someone who asks good clarifying questions, which is what you already do forty times a day.
+
+---
+
+### A Note to Parents
+
+If your child's school does not teach this, you can. The kitchen table method from Chapter 34 works for adults. It works for teenagers too. Bring a real problem. Open the tool. Ask three clarifying questions. Let them see the specification interview loop work once. That is the whole lesson.
+
+The rest is practice, and practice looks like life — every medical form, every school assignment, every argument about chores is an opportunity to ask: "Can you be more specific about what you mean?"
+
+That question — "Can you be more specific?" — is the entirety of this book, and this appendix, compressed into six words.
