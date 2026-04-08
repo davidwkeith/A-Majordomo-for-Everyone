@@ -11,7 +11,7 @@
     "build": "tsc && node dist/build/index.js",
     "build:site": "tsc && node dist/build/site/index.js",
     "build:pdf": "tsc && node dist/build/pdf/index.js",
-    "build:all": "tsc && node dist/build/index.js && node dist/build/pdf/index.js && node dist/build/site/index.js",
+    "build:all": "tsc && node dist/build/index.js && node dist/build/site/index.js",
     "build:check": "tsc --noEmit",
     "dev": "npm run build:site && wrangler dev",
     "test": "vitest run",
@@ -35,7 +35,6 @@
     "@types/node": "^20.0.0",
     "typescript": "^5.4.0",
     "vitest": "^4.1.2",
-    "playwright": "^1.52.0",
     "wrangler": "^4.0.0"
   },
   "license": "CC-BY-SA-4.0",
