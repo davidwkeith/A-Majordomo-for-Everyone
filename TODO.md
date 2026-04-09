@@ -4,6 +4,16 @@ Last reviewed: 2026-04-08 against spec/ directory.
 
 ---
 
+## New Chapters / Entries to Draft
+
+### ~~NEW: Customize Your Chat Interface~~ — DONE
+- [x] **WB-7 in Computer & Web field guide** + intro demo in Ch. 2 ("Now Make It Yours")
+- Remaining friction points to address elsewhere:
+  2. Managing multiple short conversations vs. one long thread → WB-10 / Ch. 4
+  3. Building a personal prompt library → future entry or TIP
+  4. Voice input setup → future entry or TIP
+  5. When to start fresh vs. continue a thread → WB-10 / Ch. 4
+
 ## Unwritten Content
 
 These are the major gaps — content that doesn't exist yet.
@@ -12,7 +22,7 @@ These are the major gaps — content that doesn't exist yet.
 
 Each strategy chapter needs 2–3 full [SPEC] loops (reader situation → clarifying questions → answers → proposed spec → review → execute → evaluate). Currently only Strategy 0 and Strategy 9 have them. Estimated scope: ~300 words per example × 2–3 examples × 8 chapters.
 
-- [ ] **Strategy 1: Decode** — Understanding an insurance EOB. Decoding a lease clause. Translating a ballot measure.
+- [x] **Strategy 1: Decode** — Insurance EOB ($347 that isn't real). Lease renewal with new clause ($6,450 exit cost). Ballot measure (downzoning framed as neighborhood protection).
 - [ ] **Strategy 2: Prepare** — Before an oncology appointment. Before a salary negotiation. Before a contractor walkthrough.
 - [ ] **Strategy 3: Draft** — A demand letter to a landlord. A Medicare denial appeal. A public comment for city council.
 - [x] **Strategy 4: Navigate** — Filing for unemployment. Filing a first-level insurance appeal. Filing a small claims case.

@@ -1,12 +1,12 @@
 ---
-title: "Online Presence"
+title: "Computer & Web"
 part: 2
 order: 10
 strategy: null
 status: "draft"
 ---
 
-### IT & Web 
+### Computer & Web 
 
 *The internet was built on a promise: anyone could publish, anyone could read, anyone could connect — no permission required. For a decade or so, it delivered. Then the platforms arrived, and the open web was enclosed like common land in the English countryside — fenced, monetized, and rented back to the people who built it. The billionaire class maintained their own domains, their own servers, their own archives. Everyone else got a profile page on someone else's property, governed by someone else's algorithm, deletable at someone else's discretion. The entries that follow are about reclaiming what was always yours: your words, your identity, and your corner of the web.*
 
@@ -120,6 +120,50 @@ The term for this is *vibe coding* — describing what you want in plain languag
 ---
 
 **Your Voice Online**
+
+---
+
+#### WB-7: Customize Your Chat Interface
+
+**Strategy:** Specify
+**See also:** WB-10: Learn to Work Better with AI Agents, Chapter 2: Your First Three Conversations, Chapter 4: How to Ask for What You Actually Want
+**The Majordomo says:** *When the billionaire class hired a personal assistant, the first week was an audition — not of competence, but of fit. Does she send bullet points or paragraphs? Does he say "Mr. Arnault" or "Bernard"? Does she flag problems immediately or save them for the morning briefing? The assistant who survived the probation period was the one who matched the principal's communication rhythm without being told twice. Your Agent has the same capacity for customization — and unlike a human assistant, it will not take the feedback personally. The difference is that the billionaire paid for a three-month trial period. You get a settings panel and ten minutes.*
+**The spec:**
+```
+I want to set up my AI assistant's profile so every conversation
+starts with it already knowing who I am and how I communicate.
+
+Here is what I want it to know:
+— My name: [your name]
+— How to address me: [first name / nickname / "Dr. [last name]" /
+   something fun like "captain" or "boss"]
+— Response length I prefer: [short — a few sentences max /
+   detailed with examples / depends on the topic, ask me]
+— Tone I prefer: [casual and conversational / professional /
+   dry and direct / warm but not bubbly]
+— Topics I ask about most: [health / money / writing / home
+   repair / work / parenting / cooking / all of the above]
+— Things I never want: [corporate jargon / emoji / "Great
+   question!" openers / unsolicited disclaimers / being talked
+   to like a child / bullet points for everything]
+
+Please draft custom instructions I can paste into my settings.
+Keep it under 200 words — short enough that I will actually
+read it before I hit Save.
+```
+**What to do with the output:** Copy the instructions your Agent drafted. Open your settings. Paste them in. Start a new conversation and ask something simple — the difference is immediate. Then adjust. Too formal? Say so. Too verbose? Cut a line. The best custom instructions are rewritten three or four times in the first week as you notice what bothers you. This is not a one-time setup. It is a calibration process — the same one the billionaire class ran with a human, compressed into a text box and a backspace key.
+
+> **[ALSO]** Every major tool has this feature under a different name. **Claude:** Settings → Profile — three fields: your name, what you'd like Claude to know, and how you'd like Claude to respond. **ChatGPT:** Settings → Personalization → Custom Instructions — two fields: about you and how you'd like it to respond. You can also build Custom GPTs with per-topic instructions. **Gemini:** Settings → Saved Info (freeform text), plus Gems for topic-specific assistants with their own instructions. **Copilot:** Settings → Personalization. The names change quarterly. The concept does not.
+
+> **[TIP]** Start with three lines: your name, your preferred response length, and one thing you never want. You can always add more. Overloaded custom instructions get ignored the same way overloaded employee handbooks do.
+
+> **[TIP]** *"Read my custom instructions back to me and tell me what kind of person you think I am based on them."* This is the mirror test. If the portrait does not sound like you, rewrite until it does.
+
+> **[MEME]** The billionaire class treated the personal assistant hire like a casting call — reference checks, a trial week that was really an audition. The assistant memorized the principal's coffee order and email cadence before being trusted with the calendar. You are doing the same calibration in a text box. No trial week. No awkward termination. Just a backspace key.
+
+> **[SCIENCE]** [Communication accommodation theory](https://en.wikipedia.org/wiki/Communication_accommodation_theory) (Giles, 1973) shows that people naturally adjust their speech — vocabulary, pace, formality — to match their conversational partner, and that this matching predicts both satisfaction and trust. You do this instinctively with other humans. Your Agent cannot do it instinctively with you, but your custom instructions give it the information it needs to match your register from the first message. You are not being frivolous by specifying how your Agent should talk. You are doing deliberately what skilled communicators do unconsciously.[^wb7-1]
+
+[^wb7-1]: Giles, H. (1973). "Accent mobility: A model and some data." *Anthropological Linguistics*, 15(2), 87–105. For the broader theory: Giles, H., Coupland, N., & Coupland, J. (1991). ["Accommodation theory: Communication, context, and consequence."](https://doi.org/10.1017/CBO9780511663673) In H. Giles, J. Coupland, & N. Coupland (Eds.), *Contexts of Accommodation.* Cambridge University Press.
 
 ---
 

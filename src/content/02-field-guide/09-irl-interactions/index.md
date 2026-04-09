@@ -6,7 +6,7 @@ strategy: null
 status: "draft"
 ---
 
-### IN REAL LIFE
+### In Real Life Interactions
 
 *Your Agent can draft the letter, research the law, prepare the argument, and rehearse the conversation. Then you have to walk into the room. The room has a person in it — behind a counter, across a desk, at the other end of a phone tree — and that person operates within a system that has rules you may not know, discretion they may or may not use, and a queue of people behind you. The entries in this domain are about the moment where preparation meets reality: the face-to-face encounters with systems and people where knowing what to expect, what to say, and what you are entitled to makes a material difference in the outcome.*
 
