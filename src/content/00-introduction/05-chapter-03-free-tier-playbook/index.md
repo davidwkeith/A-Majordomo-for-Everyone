@@ -42,6 +42,8 @@ The point is not that one is better than the others. The point is that each has 
 
 **Saving your specs:** Keep a note on your phone or computer called "AI specs that worked." When you get a particularly good result, save the spec you used. You will use it again, or someone in your family will.
 
+**Make your conversations lean:** Your free budget goes further when you give your Agent only the material it needs. Paste the relevant paragraph, not the whole document. Copy text instead of photographing it when you can. Start a new conversation when one gets long. These are not tricks — they are the same practices that make the paid tier more effective too. [Appendix J](09-appendix-j-working-with-text.xhtml) explains why.
+
 **When it's worth paying:** If you find yourself regularly frustrated by hitting limits, or if you are using these tools for work tasks where speed matters, the paid tiers ($20/month as of this writing) add higher limits, web search, and access to the most capable models. For the tasks in this book, the free tier is sufficient for most users.
 
 **The most powerful free feature most people never use: Projects / Gems / Custom GPTs**

@@ -39,6 +39,8 @@ Assume I have no legal background.
 
 > **[ALSO]** File and document upload — paste or attach a contract to your conversation — works in all major tools: Claude, Gemini, ChatGPT, and Copilot. See [Appendix G](06-appendix-g-feature-table.xhtml).
 
+> **[TIP]** Don't paste a 40-page lease. Paste the clause you're confused about, plus the definitions section if there is one. Your Agent gives better answers from two focused paragraphs than from forty pages of boilerplate. See [Appendix J](09-appendix-j-working-with-text.xhtml).
+
 ---
 
 #### L-2: Small Claims Court

@@ -70,6 +70,8 @@ Please:
 
 > **[ALSO]** Paste or upload your document directly — file upload works in Claude, Gemini, ChatGPT, and Copilot. See [Appendix G](06-appendix-g-feature-table.xhtml).
 
+> **[TIP]** If your EOB is a PDF from your insurance portal, copy the text and paste it. If it arrived on paper, photograph it with your phone and copy the text from the photo — both iPhone and Android can do this. Your Agent reads pasted text faster and more accurately than a photo. See [Appendix J](09-appendix-j-working-with-text.xhtml) for why.
+
 <!-- art: eob-annotated -->
 
 ---
@@ -301,6 +303,8 @@ Do not assume any medical background on my part.
 **What to do with the output:** Use it to write your questions for your next appointment (see H-2). Do not change your dose or stop a medication based on your Agent's answer alone -- use the answer to have a better conversation with your doctor. If the interaction check in item 4 raises a flag, call your pharmacist before your next dose.
 
 > **[FAIRNESS]** Pharmaceutical marketing targets doctors with the same information asymmetry this book addresses. Your doctor may have prescribed a brand-name drug when a generic is identical. Ask your Agent: *"Is there a generic equivalent for [drug], and is there any clinical reason to prefer the brand name?"*
+
+> **[TIP]** Photograph the pill bottle label with your phone, then copy the text from the photo and paste it. Both iPhone and Android can extract text from photos — you get the drug name, dosage, frequency, prescriber, and pharmacy without typing any of it. If the label is too small or damaged for text recognition, send the photo directly.
 
 ---
 
