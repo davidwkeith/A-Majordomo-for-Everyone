@@ -31,6 +31,8 @@ what it is based on, and flag anything I should independently
 verify with a professional.
 ```
 
+> **[TIP]** For complicated questions — anything with multiple parts, tradeoffs, or "it depends" answers — add: *"Think through this step by step before giving me your answer."* This sounds simple but it measurably improves accuracy. It forces your Agent to reason through the problem rather than jumping to a conclusion. The more moving parts in your question, the more this helps.
+
 ### Ask for the most conservative interpretation
 
 For legal, medical, and financial questions:

@@ -111,6 +111,8 @@ These techniques work on your Agent. They also work on your doctor, your lawyer,
 
 > **[TIP]** If an answer is too long, say *"Summarize that in three bullet points."* If it is too technical, say *"Explain that to someone who has never heard of this."* If it missed the point, say *"That's not what I'm asking. My actual question is [restate]."* Correcting your Agent is not rude. It is how the tool works.
 
+> **[TIP]** If follow-ups are not getting you closer, start over with different words. The same question asked a different way often produces a different — and better — answer. This is true across every major Agent: Claude, ChatGPT, Gemini, all of them. Different phrasing activates different patterns. If "What are my options for appealing this?" is not working, try "Walk me through the appeals process for a denied insurance claim, step by step."
+
 ### Ask for the Conservative Answer When Stakes Are High
 
 For medical, legal, and financial questions, add: *"Please give me the most cautious, conservative answer. I would rather over-prepare than under-prepare."* This adjusts the response away from edge cases and toward the safest reasonable interpretation.[^4-2]
@@ -118,6 +120,12 @@ For medical, legal, and financial questions, add: *"Please give me the most caut
 ### The Calibration Question
 
 After any important answer, ask: *"How confident are you in this, and what should I independently verify?"* Your Agent will tell you where its answer is reliable and where you should double-check with a professional or a primary source. This is not a sign of weakness in the tool. It is the most useful question in the book.
+
+### When a Question Is Too Big for One Prompt
+
+If your question has multiple parts — "I need to understand my lease, figure out if my landlord violated it, and draft a letter" — ask about each part separately. One question per message. Your Agent handles a focused question better than a sprawling one, the same way a contractor gives you a better answer about the roof when you are not also asking about the plumbing and the fence.
+
+This also makes it easier to catch mistakes. If the Agent gets Part 1 wrong, you can fix it before it uses that wrong answer to build Part 2.
 
 ### When to Start a New Conversation
 
