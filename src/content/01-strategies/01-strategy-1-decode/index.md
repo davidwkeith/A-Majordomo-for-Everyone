@@ -43,6 +43,25 @@ Please:
    someone in my position
 ```
 
+**When the document is long:** Paste the full document first, then put your question after it. Your Agent reads your entire message before it starts answering — putting the document up front gives it the full picture before you ask anything.
+
+For especially long or dense documents, add a fourth instruction: *"Quote the specific sections you're basing your answer on."* This forces your Agent to show its work — to point at the exact clause, paragraph, or line item before interpreting it. You can check whether it read the right part before you trust the interpretation.
+
+```
+I received this 12-page contractor agreement and need to understand
+what I'm actually agreeing to. The full document is below.
+
+[Paste the document here]
+
+Please:
+1. Quote the specific clauses that affect my rights or obligations
+2. Summarize each one in plain language
+3. Flag anything unusual or that limits my options
+4. List the two or three things that matter most before I sign
+```
+
+> **[TIP]** When you paste a document, put it *before* your question, not after. The order matters — your Agent pays closest attention to what comes just before the question. Document first, question last.
+
 > **[SCIENCE]** Legal boilerplate is written at a 16th-grade reading level on average — four grades above the standard proficient adult reader benchmark. Comprehension among adults without college degrees drops to near zero at this complexity level. Millions of Americans sign documents every year whose terms they cannot parse. This is not a literacy problem. It is a design problem.[^s1-1]
 
 [^s1-1]: Sovern, J. (2014). "Towards More Readable Contracts." *Touro Law Review*, 30(2). The reading level figure is consistent across multiple independent studies of consumer contracts, insurance policies, and lease agreements.

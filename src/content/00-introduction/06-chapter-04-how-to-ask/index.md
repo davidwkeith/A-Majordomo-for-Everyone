@@ -57,6 +57,28 @@ If you need a list, ask for a list. If you need a letter, ask for a letter. If y
 
 > **[TIP]** Adding "please use plain language, no jargon" to any medical, legal, or financial prompt will dramatically improve the readability of the response.
 
+> **[TIP]** Describe the style you want, not the style you don't. "Explain in plain language a high-school student could follow" works better than "don't use jargon." "Be direct and specific" works better than "don't be vague." Your Agent responds more consistently to a target than to a list of things to avoid.
+
+### Show It What You Want
+
+Sometimes the easiest way to describe what you need is to show an example. Paste in a version of the kind of output you want — even a rough one — and say "like this." Your Agent will match the structure, tone, and level of detail.
+
+This works for anything. If you want a comparison table, sketch a two-row version and ask for the full thing. If you want plain-language bullet points instead of paragraphs, write one bullet and say "do the rest like this." If you need a letter in a particular tone, paste a letter you liked and say "match this style."
+
+```
+Here is an example of the kind of summary I want:
+
+"Your plan covers 80% of lab work after your $500 deductible.
+This bill is for the 20% copay on a $340 test. You owe $68.
+This is correct and not worth appealing."
+
+Now do the same thing for this EOB: [paste the EOB]
+```
+
+One good example communicates format, reading level, length, and tone — all at once. It does the work of a whole paragraph of instructions.
+
+> **[TIP]** When your Agent keeps giving you answers in the wrong shape — too long, too formal, too many hedge words — pasting a single example of what you actually want will fix it faster than any amount of explaining.
+
 ### Ask for Options, Not Just Answers
 
 When you are making a decision, ask for options rather than a single recommendation. Your Agent does not know your full situation. Asking for three options and asking it to explain the tradeoffs of each gives you better material to work with than asking "what should I do?"
@@ -83,6 +105,8 @@ A good follow-up question has three properties: it is open-ended (not yes-or-no)
 
 **Ask for a comparison.** When the Agent's answer feels too generic to act on, give it a reference point: *"How is this different from a standard HMO?"* or *"Compared to the national average, where does this number fall?"* Comparison forces specificity the way absolute description does not.
 
+**Ask it to check its own work.** After a detailed answer, say: *"Now review what you just gave me. What did you get wrong, oversimplify, or leave out?"* Your Agent will often catch its own mistakes — a missed deadline, a clause it glossed over, an assumption it made about your situation. This is not a sign the first answer was bad. It is a second pass, the same way you would reread an important email before sending it.
+
 These techniques work on your Agent. They also work on your doctor, your lawyer, your contractor, and your teenager. The skill is the same everywhere: listen to what was said, find the gap, and ask the question that fills it.
 
 > **[TIP]** If an answer is too long, say *"Summarize that in three bullet points."* If it is too technical, say *"Explain that to someone who has never heard of this."* If it missed the point, say *"That's not what I'm asking. My actual question is [restate]."* Correcting your Agent is not rude. It is how the tool works.
@@ -97,7 +121,13 @@ After any important answer, ask: *"How confident are you in this, and what shoul
 
 ### When to Start a New Conversation
 
-Your Agent remembers everything within a single conversation but nothing between conversations by default. If you are working through a complex problem over multiple sessions, start each new session with a one-paragraph summary of what you discussed before. If a conversation has gone on so long that the Agent seems to be losing track of details, have your agent summarize the conversation and decisions and use that as the basis of a new conversation.
+Your Agent remembers everything within a single conversation but nothing between conversations by default. Long conversations drift. After enough back-and-forth, your Agent starts to lose the thread — it gives vaguer answers, forgets details you mentioned earlier, or repeats itself. This is not a defect. Every conversation has a limited working memory, and eventually you fill it up.
+
+**Signs it is time to start fresh:** the Agent contradicts something it said earlier. It gives a generic answer to a specific question. It stops referencing the details you provided at the beginning. It starts hedging more than it did at the start.
+
+**How to carry context forward:** Before you close the old conversation, ask: *"Summarize everything we've discussed and every decision we've made, in a format I can paste into a new conversation."* Then open a new conversation, paste that summary at the top, and continue. You lose nothing. You gain a fresh start.
+
+If you are working through a complex problem over multiple sessions, start each new session with a one-paragraph summary of where you left off. Think of it like clearing a cluttered desk — the papers are filed, not thrown away.
 
 > **[ALSO]** Claude calls persistent cross-conversation memory simply "Memory" — it can be enabled in settings and will carry facts about you from session to session. Gemini calls this "Personalization." ChatGPT calls it "Memory." All three work similarly: the tool builds a profile of your situation over time so you don't have to re-explain it. This is different from Projects / Gems / Custom GPTs, which are manually configured contexts. See [Appendix G](06-appendix-g-feature-table.xhtml).
 

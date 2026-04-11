@@ -49,6 +49,18 @@ Can you turn that into a checklist I can print out and work
 through item by item?
 ```
 
+### Ask your Agent to review its own answer
+
+For important questions, ask your Agent to take a second pass before you act on the answer:
+
+```
+Now review what you just told me. What did you get wrong,
+oversimplify, or leave out? What would change if my situation
+were slightly different?
+```
+
+Your Agent will often catch its own oversights — a missed exception, an assumption it made about your circumstances, a detail it glossed over for brevity. This is not a sign the first answer was unreliable. It is the same principle as rereading a contract before signing: the second read catches what the first read missed. For high-stakes questions — legal, medical, financial — a self-review followed by the calibration question below gives you two layers of error-checking before you act.
+
 ### The calibration question
 
 After any important answer, before you close the conversation:
