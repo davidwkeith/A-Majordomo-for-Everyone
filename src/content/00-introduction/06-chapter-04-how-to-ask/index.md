@@ -55,7 +55,7 @@ Your Agent reads your entire message before it starts answering. Front-load the 
 
 If you need a list, ask for a list. If you need a letter, ask for a letter. If you need someone to explain something in plain language, say "plain language." If you need step-by-step instructions, ask for numbered steps. Your Agent will default to prose paragraphs if you don't specify.
 
-> **[TIP]** Adding "please use plain language, no jargon" to any medical, legal, or financial prompt will dramatically improve the readability of the response.
+> **[TIP]** Adding "please explain in plain language a high-school student could follow" to any medical, legal, or financial prompt will dramatically improve the readability of the response.
 
 > **[TIP]** Describe the style you want, not the style you don't. "Explain in plain language a high-school student could follow" works better than "don't use jargon." "Be direct and specific" works better than "don't be vague." Your Agent responds more consistently to a target than to a list of things to avoid.
 
@@ -131,7 +131,7 @@ This also makes it easier to catch mistakes. If the Agent gets Part 1 wrong, you
 
 Your Agent remembers everything within a single conversation but nothing between conversations by default. Long conversations drift. After enough back-and-forth, your Agent starts to lose the thread — it gives vaguer answers, forgets details you mentioned earlier, or repeats itself. This is not a defect. Every conversation has a limited working memory, and eventually you fill it up.
 
-**Signs it is time to start fresh:** the Agent contradicts something it said earlier. It gives a generic answer to a specific question. It stops referencing the details you provided at the beginning. It starts hedging more than it did at the start.
+**Signs it is time to start fresh:** The Agent contradicts something it said earlier. It gives a generic answer to a specific question. It stops referencing the details you provided at the beginning. It starts hedging more than it did at the start.
 
 **How to carry context forward:** Before you close the old conversation, ask: *"Summarize everything we've discussed and every decision we've made, in a format I can paste into a new conversation."* Then open a new conversation, paste that summary at the top, and continue. You lose nothing. You gain a fresh start.
 
