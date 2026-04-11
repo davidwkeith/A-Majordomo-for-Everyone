@@ -23,7 +23,7 @@ These are the major gaps — content that doesn't exist yet.
 Each strategy chapter needs 2–3 full [SPEC] loops (reader situation → clarifying questions → answers → proposed spec → review → execute → evaluate). Currently only Strategy 0 and Strategy 9 have them. Estimated scope: ~300 words per example × 2–3 examples × 8 chapters.
 
 - [x] **Strategy 1: Decode** — Insurance EOB ($347 that isn't real). Lease renewal with new clause ($6,450 exit cost). Ballot measure (downzoning framed as neighborhood protection).
-- [ ] **Strategy 2: Prepare** — Before an oncology appointment. Before a salary negotiation. Before a contractor walkthrough.
+- [x] **Strategy 2: Prepare** — Before an oncology appointment. Before a salary negotiation. Before a contractor walkthrough.
 - [ ] **Strategy 3: Draft** — A demand letter to a landlord. A Medicare denial appeal. A public comment for city council.
 - [x] **Strategy 4: Navigate** — Filing for unemployment. Filing a first-level insurance appeal. Filing a small claims case.
 - [ ] **Strategy 5: Decide** — Repair vs. replace an appliance. Roth vs. traditional IRA. Escalate vs. settle a landlord dispute.
