@@ -526,6 +526,6 @@ clients who ask questions.
 
 > **[TIP]** "I'd like a written estimate before any work begins" and "Can I get a separate estimate for that?" are the two most valuable sentences for any contractor interaction. They apply to plumbers, electricians, mechanics, roofers, and every other trade. They are not adversarial. They are standard.
 
-> **[ALSO]** If a contractor gives you a verbal quote and you want a sanity check, type the details into any AI assistant: "I was quoted $X for [work] on [equipment] in [city]. Is this reasonable?" Claude, ChatGPT, Gemini, and Copilot all have enough pricing data to flag outliers. This is not a precise appraisal — it is a sanity check that takes thirty seconds.
+> **[ALSO]** If a contractor gives you a verbal quote and you want a sanity check, type the details into any AI assistant: "I was quoted $X for [work] on [equipment] in [city]. Is this reasonable?" Claude, ChatGPT, Gemini, and Copilot can all flag quotes that look unusually high or low. This is not a precise appraisal — AI pricing data skews historical and may not reflect your local market. Use it as a first-pass sanity check, then get two or three real quotes to confirm.
 
 > **[MEME]** Tim spent the episode fixing things that weren't broken. He did not prepare for the one conversation where preparation would have mattered. Every question he should have written down beforehand had to be asked reactively, under stress, in the wrong order. Your Agent writes the list. You bring the list. Tim never had a list.
