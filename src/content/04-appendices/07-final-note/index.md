@@ -1,7 +1,7 @@
 ---
 title: "A Final Note: The Information Was Always There"
 part: 4
-order: 9
+order: 10
 strategy: null
 status: "draft"
 ---

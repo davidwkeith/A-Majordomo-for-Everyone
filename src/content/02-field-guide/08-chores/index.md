@@ -40,6 +40,8 @@ status: "draft"
 
 > **[ALSO]** Paste or upload your document directly — file upload works in Claude, Gemini, ChatGPT, and Copilot. See [Appendix G](06-appendix-g-feature-table.xhtml).
 
+> **[TIP]** If the bid arrived as a PDF or email, copy the text — especially the line items and totals. If it is a printed estimate, photograph it with your phone and copy the text from the photo. Handwritten on a yellow pad? Send the photo directly — text recognition struggles with handwriting. See [Appendix J](09-appendix-j-working-with-text.xhtml).
+
 ---
 
 #### Ch-3: Identifying and Caring for House Plants

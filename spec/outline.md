@@ -36,7 +36,7 @@ Every worked example follows this cycle:
 | 1 | A Note Before You Start | AI is a tool, not a product ad; limitations acknowledged |
 | 2 | How to Use This Book | Navigation guide for different reader entry points |
 | 3 | Ch 1: What These Tools Actually Are | "The Library and the Life" — AI brings the library, you bring the life |
-| 4 | Ch 2: Your First Five Conversations | Onboarding; first successful interactions |
+| 4 | Ch 2: Your First Three Conversations | Onboarding; first successful interactions |
 | 5 | Ch 3: The Free Tier Playbook | Rotation strategy across free tools to avoid limits |
 | 6 | Ch 4: How to Ask for What You Actually Want | Specification as a skill; follow-up techniques; recognizing bias |
 

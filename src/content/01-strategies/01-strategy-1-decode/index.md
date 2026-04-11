@@ -66,6 +66,355 @@ Please:
 
 [^s1-1]: Sovern, J. (2014). "Towards More Readable Contracts." *Touro Law Review*, 30(2). The reading level figure is consistent across multiple independent studies of consumer contracts, insurance policies, and lease agreements.
 
-**Worked examples:** Understanding an insurance EOB. Decoding a lease clause before signing. Translating a ballot measure.
+The hardest part of Decode is not the skill. It is the habit. The next time you receive a document from an institution — any document, any institution — paste it into your Agent before you do anything else. Before you sign. Before you pay. Before you panic. Before you throw it on the pile. Paste it. Ask what it says. That is the entire strategy.
 
-*(Full worked examples with [SPEC] loops to be drafted)*
+### Example 1: An Insurance EOB After a Doctor's Visit
+
+The situation: you had blood work done at your annual physical. Three weeks later, an Explanation of Benefits arrives. It has procedure codes, columns labeled "amount billed," "plan discount," "plan paid," and "your responsibility." One number says $347. You don't know if you owe $347 or not. The document is designed to explain your benefits. It does not explain your benefits.
+
+**Your opening message:**
+```
+I got this EOB from my insurance and I can't tell if I
+owe money. Here's what it says:
+
+Service date: 03/12/2026
+Provider: Quest Diagnostics
+Procedure: 36415, 80053, 85025
+Amount billed: $347.00
+Plan discount: $265.00
+Plan paid: $82.00
+Your responsibility: $0.00
+Patient balance: $0.00
+
+But then there's a separate line that says:
+"This is not a bill. You may receive a separate bill
+from your provider."
+```
+
+**Your Agent's clarifying questions:**
+```agent
+Good instinct to check — EOBs are designed to confuse.
+Let me clarify a couple things:
+
+1. Did you already pay a copay at the visit?
+2. Have you received a separate bill from Quest
+   Diagnostics or your doctor's office?
+3. Is this from your insurance company (like Anthem,
+   UnitedHealthcare, Aetna) or from the lab?
+```
+
+**Your answers:**
+```
+1. Yes, I paid a $30 copay at the office.
+2. Not yet. Just this EOB.
+3. From my insurance — Anthem.
+```
+
+**Your Agent decodes:**
+```agent
+Here's what this EOB actually says:
+
+THE SHORT VERSION: You owe nothing. You're done.
+
+THE FULL TRANSLATION:
+— Your doctor's office sent Quest Diagnostics to run
+  three tests (blood draw, metabolic panel, complete
+  blood count). Quest billed $347 for all three.
+
+— Nobody actually pays $347. Your insurance has a
+  negotiated rate with Quest. The "plan discount" of
+  $265 is the difference between the sticker price and
+  the negotiated rate. This number is fictional — it
+  exists only on paper.
+
+— Anthem paid Quest $82 at the negotiated rate.
+
+— "Your responsibility: $0.00" means exactly what it
+  says. Your copay covered your share. You owe nothing
+  additional.
+
+— "This is not a bill" is standard legal language on
+  every EOB. It means the EOB is informational — if
+  Quest wanted money from you, they'd send a separate
+  bill. Since your balance is $0.00, they won't.
+
+THE THING TO WATCH FOR:
+If you DO receive a bill from Quest for $347 (or $265,
+or any amount), that bill is wrong — your EOB shows a
+$0 patient balance. Call Quest, give them the EOB claim
+number, and tell them the claim was processed with zero
+patient responsibility. This happens more often than it
+should.
+```
+
+**Your follow-up:**
+```
+Wait — so the $347 was never real? Why does it even
+show that number?
+```
+
+**Your Agent:**
+```agent
+The $347 is the "chargemaster" rate — the provider's
+list price before any insurance negotiation. Almost
+nobody pays it. It exists because the billing system
+requires a starting number, and because uninsured
+patients who don't know to negotiate are sometimes
+billed at this rate.
+
+The actual cost of your blood work, as determined by
+your insurance's negotiated rate, was $82. That's what
+changed hands. The EOB shows you the full accounting
+so you can verify it — but the format makes it look
+like the $347 is the real number and the $82 is the
+discount. It's the opposite.
+```
+
+> **[TIP]** Paste every EOB you receive. The document is three sentences of useful information formatted as a spreadsheet designed by an actuary. Your Agent will tell you the three sentences. The entire interaction takes ninety seconds and replaces twenty minutes of confused Googling — or, worse, paying a bill you don't owe because the EOB looked like one.
+
+> **[ALSO]** When pasting an EOB, you can type the key fields (as above) or take a photo. Claude, ChatGPT, and Gemini all accept image uploads — snap a picture of the EOB and ask "what does this say and do I owe anything?" Copilot can read pasted text but image support varies.
+
+### Example 2: A Lease Renewal with a New Clause
+
+The situation: your landlord sent your lease renewal. You've been here two years, you like the apartment, and you're inclined to sign. The rent went up $75/month — annoying but expected. But there's a new section on page 4 that wasn't in your original lease. It's three paragraphs of dense legal text under the heading "Early Termination."
+
+**Your opening message:**
+```
+My landlord sent a lease renewal. There's a new clause
+I don't remember from the original lease. Can you tell
+me what this means?
+
+"Early Termination. In the event Tenant elects to
+terminate this Lease prior to the expiration of the
+Lease Term, Tenant shall provide Landlord with not
+less than sixty (60) days' prior written notice and
+shall pay to Landlord, as liquidated damages and not
+as a penalty, an amount equal to two (2) months' Rent
+at the then-current rate, in addition to forfeiture
+of the Security Deposit. Landlord's acceptance of
+early termination shall be at Landlord's sole
+discretion. This provision shall survive the
+termination of this Lease."
+```
+
+**Your Agent's clarifying questions:**
+```agent
+This is worth reading carefully. A few questions:
+
+1. Was there an early termination clause in your
+   original lease?
+2. What is your current monthly rent, and what's the
+   new rate?
+3. How much is your security deposit?
+4. Are you planning to stay the full lease term, or is
+   there any chance you might need to leave early?
+```
+
+**Your answers:**
+```
+1. No, the original lease just said I needed to give
+   30 days notice if I wasn't renewing. Nothing about
+   early termination fees.
+2. Currently $2,100, going up to $2,175.
+3. Security deposit is $2,100.
+```
+
+**Your Agent decodes:**
+```agent
+Here's what this clause actually says, line by line:
+
+"Tenant shall provide not less than sixty (60) days'
+prior written notice"
+— You must give 2 months' written notice before
+  leaving early. Your original lease required 30 days.
+  This doubles it.
+
+"shall pay to Landlord, as liquidated damages and not
+as a penalty, an amount equal to two (2) months' Rent"
+— If you leave early, you owe 2 months' rent at the
+  new rate. At $2,175/month, that's $4,350.
+
+"in addition to forfeiture of the Security Deposit"
+— You also lose your $2,100 security deposit. So the
+  total cost of leaving early: $4,350 + $2,100 = $6,450.
+
+"Landlord's acceptance of early termination shall be at
+Landlord's sole discretion"
+— Even after paying $6,450, the landlord can say no.
+  You'd owe the fee AND still be on the hook for the
+  remaining rent. This is the most aggressive part of
+  the clause.
+
+"This provision shall survive the termination of this
+Lease"
+— If you leave without paying, they can collect after
+  the lease ends. This is standard legal boilerplate,
+  but it means the obligation doesn't disappear.
+
+WHAT CHANGED FROM YOUR ORIGINAL LEASE:
+Your original lease had no early termination penalty.
+This renewal adds a $6,450 exit cost with landlord
+discretion to deny. This is a significant new financial
+obligation.
+
+WHAT'S UNUSUAL:
+— The "sole discretion" language is aggressive. Most
+  early termination clauses are automatic — you pay,
+  you leave. This one gives the landlord veto power.
+— Forfeiture of security deposit ON TOP of two months'
+  rent is above market in most jurisdictions. Many
+  leases do one or the other, not both.
+— The reading level of this clause is approximately
+  14th grade. You have a college degree's worth of
+  reading ability. That's by design.
+
+YOUR OPTIONS:
+1. Sign as-is, knowing the exit cost.
+2. Ask the landlord to remove or modify the clause
+   before signing. You can propose: remove the "sole
+   discretion" language, OR reduce the penalty to one
+   month's rent, OR remove the security deposit
+   forfeiture. They may say no. But the negotiation
+   happens before you sign, not after.
+3. Ask your Agent to draft the counteroffer email
+   (see Strategy 3: Draft).
+
+Want me to draft a response to your landlord proposing
+a modified early termination clause?
+```
+
+> **[SCIENCE]** Contract comprehension research consistently shows that readers focus on the terms they expect (rent amount, lease dates) and skim terms they don't (penalty clauses, liability waivers, arbitration agreements). Landlords, insurers, and employers know this. The clause that changes your financial exposure by thousands of dollars is never on page one. It is on page four, in the paragraph after the one you stopped reading.[^s1-2]
+
+[^s1-2]: Ben-Shahar, O. & Schneider, C.E. (2014). [*More Than You Wanted to Know: The Failure of Mandated Disclosure.*](https://press.princeton.edu/books/hardcover/9780691161709/more-than-you-wanted-to-know) Princeton University Press. The authors document how disclosure requirements — the legal mandate to inform consumers — routinely fail because the disclosures are designed to satisfy regulators, not inform readers.
+
+### Example 3: A Ballot Measure in Plain Language
+
+The situation: it's October. Your ballot arrived. There's a local measure — Measure H — that's been all over yard signs and mailers. The campaign for it says "Protect Our Neighborhoods." The campaign against it says "Stop the Housing Ban." You have no idea what it actually does. The official text is 1,400 words of legal language. You want to vote. You want to vote correctly.
+
+**Your opening message:**
+```
+I'm trying to understand Measure H on my ballot.
+Here's the official summary from the voter guide:
+
+"Shall the ordinance be adopted to amend Municipal
+Code Title 18 (Zoning) to reclassify parcels currently
+designated R-3 (Multi-Family Residential) within 500
+feet of single-family zones to R-1.5 (Limited Multi-
+Family), restricting new construction to a maximum
+density of 8 units per acre, requiring conditional use
+permits for developments exceeding 4 units, and
+establishing a 35-foot height limit in affected areas?"
+
+What does this actually do?
+```
+
+**Your Agent's clarifying questions:**
+```agent
+Good question — the official text is doing a lot of
+work to sound neutral. Let me ask:
+
+1. What city or county is this?
+2. Do you rent or own in this area?
+3. Are you near one of the affected zones, or is this
+   more of a general policy question for you?
+```
+
+**Your answers:**
+```
+1. [City name], California.
+2. I rent.
+3. My apartment is in what I think is an R-3 zone,
+   based on the map in the voter guide.
+```
+
+**Your Agent decodes:**
+```agent
+Here's what Measure H actually does:
+
+IN PLAIN LANGUAGE:
+This measure downzones specific areas near single-family
+neighborhoods. "Downzone" means reducing what can be
+built there. Right now, R-3 zones allow apartment
+buildings with relatively high density. Measure H would:
+
+1. Limit new buildings to 8 units per acre (currently
+   no per-acre cap in R-3)
+2. Require a special permit (conditional use permit)
+   for anything over 4 units — these permits cost
+   money, take months, and can be denied
+3. Cap building height at 35 feet (roughly 3 stories)
+
+WHAT THE CAMPAIGNS ARE SAYING AND WHY:
+— "Protect Our Neighborhoods" (YES): Framing this as
+  preserving neighborhood character. The supporters are
+  primarily single-family homeowners near R-3 zones who
+  don't want larger buildings next door. Their property
+  values are part of the calculation, though the
+  campaign doesn't say that.
+
+— "Stop the Housing Ban" (NO): Framing this as
+  restricting housing supply. The opponents argue that
+  downzoning reduces the number of units that can be
+  built, which tightens supply and pushes rents up. The
+  housing advocacy framing is that this measure protects
+  existing homeowners at the expense of future renters.
+
+WHAT THIS MEANS FOR YOU SPECIFICALLY:
+As a renter in an R-3 zone, this measure affects you
+in two ways:
+
+1. Your current apartment is not affected — existing
+   buildings are grandfathered. Nobody is demolishing
+   your building.
+
+2. Future housing supply in your area would be reduced.
+   Fewer new units means less competition for landlords,
+   which generally means rents stay higher or increase
+   faster than they would with more supply. This is the
+   basic supply-and-demand argument, and housing
+   economists largely agree on it.
+
+THE SENTENCE THAT MATTERS MOST:
+"restricting new construction to a maximum density of
+8 units per acre" — this is the operational core of the
+measure. Everything else is implementation detail. The
+question is: do you want less housing built near
+single-family neighborhoods, or more?
+
+WHO BENEFITS IF IT PASSES:
+Existing single-family homeowners near R-3 zones.
+
+WHO BENEFITS IF IT FAILS:
+Future renters and the regional housing supply.
+```
+
+**Your follow-up:**
+```
+The mailer I got says it "protects against predatory
+developers." Is that real?
+```
+
+**Your Agent:**
+```agent
+"Predatory developer" is a framing choice, not a
+legal term. The measure does not define it, regulate it,
+or create any enforcement against it.
+
+What the measure does is restrict what all developers —
+predatory, ethical, nonprofit, municipal — can build.
+A Habitat for Humanity project and a luxury condo tower
+are both subject to the same 8-unit-per-acre cap and
+conditional use permit requirement.
+
+The campaign language is doing what campaign language
+does: naming an enemy that everyone dislikes and
+attaching it to a policy that benefits a specific
+group. Your Agent can decode the policy. The campaign
+is a separate document — and you can paste that too.
+```
+
+> **[FAIRNESS]** Ballot measures are uniquely difficult to decode because the official text is written to survive legal challenge, the campaign materials are written to persuade, and neither is written to inform. Your Agent can translate the legal text and analyze the campaign framing, but it cannot tell you how to vote. That judgment — weighing your interests, your values, and your community's needs — is yours. The AI brings the library. You bring the life. This is the line.[^s1-3]
+
+[^s1-3]: For deeper analysis of how ballot measure language is constructed to favor specific outcomes, see Gerber, E.R. (1999). [*The Populist Paradox: Interest Group Influence and the Promise of Direct Legislation.*](https://press.princeton.edu/books/paperback/9780691002736/the-populist-paradox) Princeton University Press.
+
+> **[MEME]** "PIVOT! PIVOT! PIVOT!" Ross decoded the staircase wrong and applied more force. Every document in this chapter has a geometry. Your Agent reads the geometry. You decide whether the couch fits.

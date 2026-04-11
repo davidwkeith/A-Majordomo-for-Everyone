@@ -63,6 +63,22 @@ were slightly different?
 
 Your Agent will often catch its own oversights — a missed exception, an assumption it made about your circumstances, a detail it glossed over for brevity. This is not a sign the first answer was unreliable. It is the same principle as rereading a contract before signing: the second read catches what the first read missed. For high-stakes questions — legal, medical, financial — a self-review followed by the calibration question below gives you two layers of error-checking before you act.
 
+### When to start a new conversation
+
+If you have been going back and forth for thirty messages and the Agent starts repeating itself, losing track of earlier points, or giving vague answers — the conversation is not broken. It is full. Your Agent's working memory holds a lot, but not everything, and the middle of a long conversation gets less reliable attention than the beginning and end.
+
+The fix is not to push harder. It is to start fresh — but not from scratch. Ask your Agent to summarize what you have established so far:
+
+```
+Summarize the key facts, decisions, and open questions from
+this conversation. I am going to start a new conversation
+and I want to carry forward only what matters.
+```
+
+Copy the summary. Open a new conversation. Paste it in with your next question. You now have a clean workspace with all the context that matters and none of the noise that doesn't. Two focused conversations will outperform one sprawling one every time.
+
+This is the same principle the billionaire's chief of staff applied to the morning briefing: read the whole file, extract the page that matters, hand over one clean sheet. You are the chief of staff. Your Agent is the principal. Brief it well.
+
 ### The calibration question
 
 After any important answer, before you close the conversation:

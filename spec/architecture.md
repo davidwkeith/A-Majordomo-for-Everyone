@@ -9,7 +9,7 @@ INTRODUCTION
   A Note Before You Start.
   How to Use This Book.
   Chapter 1: What These Tools Are.
-  Chapter 2: Your First Five Conversations.
+  Chapter 2: Your First Three Conversations.
   Chapter 3: The Free Tier Playbook.
   Chapter 4: How to Ask.
 
