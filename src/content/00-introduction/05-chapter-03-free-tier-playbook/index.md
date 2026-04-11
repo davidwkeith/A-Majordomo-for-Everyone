@@ -21,6 +21,8 @@ You will not need to pay for anything to use this book. Here is how to stay in t
 
 Each service's free tier allows a meaningful number of conversations per day. The exact limits vary and are not publicly published, but in practice they are sufficient for several extended conversations before any throttling occurs. If you hit a limit, your Agent will tell you, and the limit typically resets within a few hours.
 
+> **[MEME]** [nohello.net](https://nohello.net) — the rule your office already knows. Do not Slack a coworker "Hi" and wait. Send the context, the question, and what you need, in one message. Same principle here, except on the free tier every round trip costs you one of a limited daily supply. Proofread before you send. Is the document attached? Did you say what you need back? One complete message is worth three that circle the question.
+
 **The four-service rotation:**
 
 When you hit one service's free limit, you have three other high-quality options at no cost:

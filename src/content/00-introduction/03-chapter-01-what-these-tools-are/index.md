@@ -31,6 +31,10 @@ Data couldn't feel, but he understood meaning — seriously, thoroughly, with ev
 
 The more politically honest version: the billionaire class has always had access to humans who do what these tools do. The family lawyer on retainer who reads the lease and flags the three clauses that matter. The accountant who explains the tax situation without making it a billable hour. The doctor who picks up the phone and translates what the specialist said into what it actually means for the patient. The chief of staff who handles every piece of institutional friction before it reaches the principal. That infrastructure of expertise has always been distributed by class. These tools are the first genuinely useful crack in that wall.
 
+Do not take my word for it. Sam Altman, CEO of OpenAI: "AI has to be democratized; power cannot be too concentrated. Control of the future belongs to all people and their institutions."[^1-4] Mark Zuckerberg released Meta's AI models as open source specifically so "power isn't concentrated in the hands of a small number of companies."[^1-5] Satya Nadella at Microsoft called it "giving people more agency and making technology more accessible through the most universal interface — natural language."[^1-6] And Dario Amodei, CEO of Anthropic, described the goal with startling specificity: "a very thoughtful and informed AI whose job is to give you everything you're legally entitled to by the government in a way you can understand."[^1-7]
+
+That last one is the thesis of this book, written by the CEO of the company that makes Claude. You do not have to trust his motives — or mine, or any of theirs. Trust is not the operating principle here. Usefulness is. The tool works. Even the people who profit from it describe what it does in terms that sound like a consumer rights pamphlet. When the billionaire class starts using your language, pay attention.
+
 **What they can do:**
 - Read any document you paste in and explain it in plain language
 - Help you draft letters, complaints, appeals, and messages you don't know how to start
@@ -76,3 +80,11 @@ You are not one input among many, to be weighted and averaged with the machine's
 [^1-3]: International Energy Agency. (2024). ["Data Centres and Data Transmission Networks."](https://www.iea.org/energy-system/buildings/data-centres-and-data-transmission-networks) IEA Tracking Report.
 
 [^1-1]: Most free tiers include limited or no web search. Gemini connects to Google's index. Copilot includes Bing search. Claude's paid tier adds web search. Chapter 3 covers the full rotation strategy.
+
+[^1-4]: Altman, S. (2025). [Personal blog post.](https://blog.samaltman.com/2279512) "AI will be the most powerful tool for expanding human capability and potential that anyone has ever seen… AI has to be democratized; power cannot be too concentrated. Control of the future belongs to all people and their institutions."
+
+[^1-5]: Zuckerberg, M. (2024). ["Open Source AI Is the Path Forward."](https://about.fb.com/news/2024/07/open-source-ai-is-the-path-forward/) Meta blog.
+
+[^1-6]: Nadella, S. (2023). ["Introducing Microsoft 365 Copilot."](https://blogs.microsoft.com/blog/2023/03/16/introducing-microsoft-365-copilot-your-copilot-for-work/) Microsoft Official Blog.
+
+[^1-7]: Amodei, D. (2024). ["Machines of Loving Grace."](https://www.darioamodei.com/machines-of-loving-grace) Personal essay. Full quote: "Having a very thoughtful and informed AI whose job is to give you everything you're legally entitled to by the government in a way you can understand — and who also helps you comply with often confusing government rules — would be a big deal."
