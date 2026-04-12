@@ -4,6 +4,7 @@ The specification is the source of truth. Read the spec before writing content.
 
 The `spec/` directory defines how this book is written, illustrated, voiced, and structured. Every editorial decision — tone, references, illustrations, format — is specified there. Read the relevant spec before making changes:
 
+- `spec/editorial/style-guide.md` — writing style rules: Chicago base, terminology, numbers, punctuation, accessibility
 - `spec/editorial/voice-and-audience.md` — project vision, reader persona, tonal guidelines
 - `spec/editorial/editorial-conventions.md` — formatting rules, callout types, art briefs, citation format
 - `spec/editorial/principles.md` — "The Library and the Life" — what AI is and isn't
