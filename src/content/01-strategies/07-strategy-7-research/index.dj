@@ -50,6 +50,530 @@ Research on [health literacy](https://en.wikipedia.org/wiki/Health%5Fliteracy) c
 
 [^s7-1]: Berkman, N.D. et al. (2011). "[Low health literacy and health outcomes: An updated systematic review](https://doi.org/10.7326/0003-4819-155-2-201107190-00005)." _Annals of Internal Medicine_, 155(2), 97-107.
 
-*Worked examples:* Before a surgical procedure. Before signing a non-compete clause. Before choosing between two college financial aid offers.
+::: tip
+"Tell me what I should verify independently before proceeding." This is the Research power move. It forces your Agent to sort its own knowledge into two categories: things it can explain confidently, and things that require a phone call, a second opinion, or a document you haven't read yet. Every Research spec should end with this line. It turns a question into a checklist.
+:::
 
-_(Full worked examples with [SPEC] loops to be drafted)_
+
+*Worked examples:* Before a knee arthroscopy. Before signing a non-compete clause. Between two college financial aid offers.
+
+### Example 1: Before a Knee Arthroscopy
+
+The situation: your orthopedist looked at an MRI and recommended arthroscopic surgery for a medial meniscus tear. Outpatient, routine. The scheduler called to book it before you left the office. You don't feel scared---you feel handled. Everything is moving and nobody asked if you had questions. The gap isn't fear; it's speed. The institution is optimized to move you from diagnosis to operating room. Your job is to slow down long enough to find out whether the operating room is the right next step.
+
+*Your opening message:*
+::: prompt
+My doctor says I need knee surgery for a torn meniscus.
+It's arthroscopic, outpatient. They want to schedule it
+for next month. What should I know before I say yes?
+:::
+
+*Your Agent's clarifying questions:*
+::: agent
+I can lay out what you need to know. A few things will
+sharpen the research:
+
+1. What does the MRI report say about the tear type?
+   Meniscectomy and repair have different outcomes and
+   very different recovery timelines.
+2. Has physical therapy been tried or discussed?
+3. Where are you in your deductible this year, and what's
+   your coinsurance after that?
+4. What are the physical demands of your job? Recovery
+   timeline matters differently for desk work vs.
+   on-your-feet work.
+5. Is there a medical reason for the urgency, or is this
+   scheduling convenience?
+:::
+
+*Your answers:*
+::: prompt
+1. MRI says medial meniscus tear. Didn't say what kind
+   of surgery they're planning.
+2. Nobody mentioned PT. Went straight to "you need
+   surgery."
+3. $1,200 left on my deductible. I have an 80/20 plan
+   after that.
+4. On my feet most of the day---I work in a warehouse.
+5. No urgency mentioned. Just "let's get you scheduled."
+:::
+
+*Your Agent:*
+::: agent
+Here is what you need to know before you say yes:
+
+WHAT YOUR MRI MEANS
+A medial meniscus tear is the most common knee injury.
+Not all tears require surgery. The right treatment
+depends on tear type, your age, activity level, and
+whether you have osteoarthritis in the joint. None of
+that is visible in "torn meniscus."
+
+TWO DIFFERENT SURGERIES
+Your surgeon may be planning one of two procedures, and
+the difference matters:
+
+— Partial meniscectomy (removal): Trims the damaged
+  tissue. Shorter recovery (2--6 weeks back on your
+  feet). Standard for complex tears. But it removes
+  cushioning permanently and raises your long-term
+  risk of osteoarthritis in that knee.
+— Meniscus repair (stitching): Sutures the tear.
+  Longer recovery (3--6 months, restricted
+  weight-bearing). Better long-term outcomes for
+  younger, active patients with repairable tears.
+
+You need to know which one your surgeon is planning.
+If they haven't said, ask before you schedule anything.
+
+THE PHYSICAL THERAPY QUESTION
+A 2013 study in the New England Journal of Medicine
+(Katz et al.) found that physical therapy produced
+outcomes comparable to surgery at 6 and 12 months
+for many tear types.[^s7-2] PT is not a lesser option.
+It is a first-line treatment your surgeon may not have
+mentioned because surgeons do surgery. This does not
+mean surgery is wrong. It means PT-first is a
+reasonable path your surgeon skipped over.
+
+QUESTIONS TO ASK YOUR SURGEON
+1. Is this a meniscectomy or a repair?
+2. How many of these do you do per month?
+3. What is your expected recovery timeline for someone
+   with my job?
+4. Would you support a 6-week PT trial before surgery?
+5. What is the facility fee for outpatient arthroscopy
+   at this center?
+
+THE COST QUESTION
+Outpatient arthroscopy total: $5,000--$15,000 (surgeon
++ facility + anesthesia), depending on location. With
+$1,200 remaining on your deductible and 80/20
+coinsurance, your out-of-pocket could be $1,200 + 20%
+of whatever remains above that. Ask for a cost estimate
+before you schedule. An ambulatory surgery center is
+typically 30--50% cheaper than a hospital outpatient
+department for the same procedure.
+
+WHAT TO VERIFY INDEPENDENTLY
+— Call your insurance: get pre-authorization and a cost
+  estimate before scheduling.
+— Ask your surgeon about PT-first. If they dismiss it
+  without explanation, that's information too.
+— Second opinion: your insurance covers it.
+
+Give me the most conservative answer. I will verify
+with my orthopedist before deciding.
+:::
+
+*Your follow-up:*
+::: prompt
+Wait---my doctor didn't mention physical therapy as
+an option. Is that normal?
+:::
+
+*Your Agent:*
+::: agent
+Yes, common. Orthopedic surgeons recommend surgery---that's
+their training and their practice. That doesn't
+mean PT won't work. It means a surgeon's default
+recommendation is the tool they specialize in.
+
+This isn't adversarial. Your surgeon isn't trying to
+mislead you. Their recommendation starts from their
+expertise. A physical therapist's recommendation would
+start from different expertise.
+
+The Katz study is one of the most-cited papers in
+orthopedic medicine. If your surgeon dismisses it
+without engaging the question, consider the second
+opinion your insurance already covers.
+
+You are not challenging your doctor by asking
+questions. You are doing what the billionaire class
+has always done: showing up informed.
+:::
+
+::: also
+All four major AI tools can read medical documents. Upload your MRI report as a PDF or photo. Claude calls this document analysis, ChatGPT calls it file upload, Gemini reads documents natively in conversation, and Copilot handles PDFs in Microsoft Edge. The radiology terminology is the same across all of them. The feature name is the only thing that changes.
+:::
+
+
+[^s7-2]: Katz, J.N. et al. (2013). "[Surgery versus Physical Therapy for a Meniscal Tear and Osteoarthritis](https://doi.org/10.1056/NEJMoa1301408)." _New England Journal of Medicine_, 368(18), 1675--1684.
+
+### Example 2: Before Signing a Non-Compete Clause
+
+The situation: you're a vet tech who's been offered a new job. Better pay, better hours, better commute. The employment agreement arrived by email---"please review and sign before your start date." Standard onboarding language. Page 6, paragraph 14: a non-compete clause. You noticed it because the language was unusually specific: "shall not engage in competitive employment within a radius of twenty (20) miles for a period of eighteen (18) months following termination of employment." You don't know if this is standard, aggressive, or meaningless. You don't want to make trouble before your first day. You also don't want to sign something that could prevent you from working if this job doesn't work out.
+
+*Your opening message:*
+::: prompt
+I'm starting a new job as a vet tech and the employment
+agreement has a non-compete clause. It says I can't work
+in veterinary services within 20 miles for 18 months if
+I leave. Is this normal? Should I be worried?
+:::
+
+*Your Agent's clarifying questions:*
+::: agent
+This is worth understanding before you sign. A few
+things will sharpen the research:
+
+1. What state are you in? Non-compete law varies
+   dramatically by state.
+2. What's your salary at this new position?
+3. Does the clause define "competitive employment"
+   or "veterinary services" more specifically?
+4. Is there a signing bonus, training investment, or
+   other consideration specifically tied to the
+   non-compete?
+5. Have you signed yet, or are you reviewing before
+   your start date?
+:::
+
+*Your answers:*
+::: prompt
+1. Texas.
+2. $48,000.
+3. It says "veterinary services"---no further
+   definition.
+4. No signing bonus. No training clause. Just the
+   standard employment agreement.
+5. Haven't signed yet. Start date is in two weeks.
+:::
+
+*Your Agent:*
+::: agent
+Here is what you need to know before you sign:
+
+TEXAS NON-COMPETE LAW---THE SHORT VERSION
+Texas enforces non-competes, with requirements. Under
+Texas Business & Commerce Code §15.50, a non-compete
+must be: (1) ancillary to an otherwise enforceable
+agreement, (2) supported by consideration, and
+(3) reasonable in scope, geography, and duration.
+"Reasonable" is where courts have room to push back.
+20 miles and 18 months is on the aggressive end
+for a vet tech.
+
+WHAT 20 MILES ACTUALLY MEANS
+In a metro area like Dallas--Fort Worth, a 20-mile
+radius covers dozens of veterinary clinics. If
+enforced, you'd need to commute outside that radius
+or leave vet work entirely for 18 months. For a
+senior veterinarian with a portable client book,
+this is an inconvenience. For a vet tech making
+$48,000, this is a career freeze.
+
+THE CONSIDERATION PROBLEM
+Texas requires the non-compete be tied to
+consideration---something of value in exchange.
+A signing bonus, proprietary training access, or
+trade secrets can qualify. A standard employment
+agreement without additional consideration may
+weaken enforceability. No signing bonus and no
+special training clause is relevant. Doesn't mean
+the clause is automatically void, but it weakens it.
+
+YOU CAN NEGOTIATE THIS
+Employment agreements are not take-it-or-leave-it,
+even for non-executive positions. Reasonable
+modifications: reduce the radius from 20 to 10
+miles, shorten the duration from 18 to 12 months,
+and narrow "veterinary services" to the specific
+specialty at this clinic.
+
+Language you can email them:
+"I'm excited about the role and looking forward to
+starting. Before I sign, I'd like to discuss the
+non-compete clause on page 6. Would you be open to
+adjusting the radius to 10 miles and the duration
+to 12 months? I think that's fair for both of us."
+
+WHAT TO VERIFY INDEPENDENTLY
+— Read Texas Business & Commerce Code §15.50---it's
+  short and readable.
+— Many employment attorneys offer a free 30-minute
+  consultation. One call can tell you whether this
+  clause is likely enforceable in your county.
+— Ask the clinic: "Has this clause ever been enforced
+  against a departing employee?" The answer tells you
+  whether this is a real business concern or
+  boilerplate.
+:::
+
+*Your follow-up:*
+::: prompt
+Can I actually negotiate this? I'm a vet tech, not
+a lawyer. I don't want to lose the job offer by
+making waves before I even start.
+:::
+
+*Your Agent:*
+::: agent
+The fear is real---the power dynamic is real. You
+need the job; they have other applicants. That's
+the situation.
+
+But asking to modify a clause is not the same as
+rejecting the offer. Employers expect some
+negotiation. If they don't, that's information
+about the employer.
+
+The suggested language is deliberately
+non-confrontational. It opens with enthusiasm,
+frames the request as mutual, and asks a question
+rather than making a demand. If the employer
+refuses any modification---won't change a word---
+you've learned something important about how they
+treat employees. A workplace that insists on maximum
+legal restriction before you've started is telling
+you how they'll handle disagreements after you've
+started.
+
+Either way, you're making the decision with
+information instead of without it. That's what
+Research is for.
+:::
+
+::: fairness
+Non-competes disproportionately bind workers with the least negotiating power. A senior veterinarian with a portable client book can negotiate the clause, absorb the restriction, or hire a lawyer to challenge it. A vet tech making $48,000 cannot afford 18 months of career freeze within a 20-mile radius. The same clause applied to both workers has radically different impacts. Several states have recognized this asymmetry and passed salary thresholds below which non-competes are unenforceable. Your Agent can tell you whether your state is one of them---and what your options are if it isn't.
+:::
+
+### Example 3: Between Two College Financial Aid Letters
+
+The situation: you are a first-generation college parent at the kitchen table---maybe with your daughter, maybe alone at midnight after she went to bed. Two acceptance letters. Two financial aid award letters. Both look generous. School B's package covers more of the sticker price, and you want to feel good about that. But something doesn't add up. One school calls it "Institutional Grant." The other calls it "Merit Scholarship." One includes "Federal Work-Study" in the total. The other doesn't. You are trying to compare two documents that were designed, by two different institutions, to resist comparison. The numbers in the two letters don't seem to mean the same things. They don't. This is the deepest information gap in the chapter.
+
+*Your opening message:*
+::: prompt
+My daughter got into two schools and we got the
+financial aid letters. I'm trying to compare them
+but they don't seem to work the same way. School B
+looks like a better deal---it covers more. But
+something feels off.
+
+School A (State University, in-state):
+Cost of Attendance: $26,400/year
+  Tuition: $9,400
+  Fees: $1,200
+  Room/Board: $12,800
+  Books/Supplies: $1,200
+  Personal/Transportation: $1,800
+Financial Aid:
+  Pell Grant: $6,895
+  State Grant: $2,500
+  Institutional Scholarship: $4,000
+  Federal Direct Subsidized Loan: $3,500
+  Federal Direct Unsubsidized Loan: $2,000
+Total Aid: $18,895
+Remaining Cost: $7,505
+
+School B (Private College, out of state):
+Cost of Attendance: $52,800/year
+  Tuition: $38,000
+  Fees: $1,800
+  Room/Board: $11,200
+  Books/Supplies: $1,000
+  Personal/Transportation: $800
+Financial Aid:
+  Pell Grant: $6,895
+  Institutional Grant: $28,000
+  Federal Work-Study: $3,000
+  Federal Direct Subsidized Loan: $3,500
+  Federal Direct Unsubsidized Loan: $2,000
+Total Aid: $43,395
+Remaining Cost: $9,405
+:::
+
+*Your Agent's clarifying questions:*
+::: agent
+This is exactly the right instinct---these two
+letters are not telling you the same story in the
+same language. A few things will sharpen the
+comparison:
+
+1. Is your daughter in-state for School A?
+2. What's your household income, approximately?
+   This affects whether the Pell Grant stays
+   stable year to year.
+3. Does either letter mention renewal
+   conditions---does the grant or scholarship
+   continue at the same level for all four years?
+4. Does your daughter plan to live on campus at
+   both schools?
+5. Do you have a 529 plan or other savings, or
+   would the remaining cost come from income and
+   loans?
+:::
+
+*Your answers:*
+::: prompt
+1. Yes, in-state for School A. School B is out
+   of state.
+2. About $55,000 household.
+3. I don't know. Neither letter says anything
+   about that.
+4. On campus at both---she wants the full
+   experience.
+5. No 529. No savings. Whatever isn't covered,
+   we'd have to figure out---loans, I guess.
+:::
+
+*Your Agent:*
+::: agent
+Here is the full comparison. Your instinct that
+something feels off is correct---the two letters
+are measuring different things and calling them
+by similar names.
+
+FIRST---LET'S SEPARATE REAL AID FROM DEBT
+
+Both letters list Federal Direct Loans as "aid."
+Loans are not aid---they are debt your daughter
+repays with interest after graduation. Both
+letters include $5,500 in federal loans ($3,500
+subsidized + $2,000 unsubsidized). Strip those
+out of both packages.
+
+School B also lists Federal Work-Study ($3,000)
+as aid. Work-Study means your daughter can apply
+for a qualifying on-campus job and earn up to
+$3,000 over the year. If she doesn't get a
+position, or doesn't work full hours, that
+number is $0. It is not money the school is
+giving her. It is permission to work for it.
+
+THE REAL COMPARISON---GIFT AID ONLY
+
+Gift aid is money that does not get repaid.
+
+School A gift aid: $13,395
+— Pell Grant: $6,895
+— State Grant: $2,500
+— Institutional Scholarship: $4,000
+
+School A real annual cost:
+$26,400 − $13,395 = $13,005
+
+School B gift aid: $34,895
+— Pell Grant: $6,895
+— Institutional Grant: $28,000
+
+School B real annual cost:
+$52,800 − $34,895 = $17,905
+
+School A is $4,900 per year cheaper in real
+cost---the opposite of what the letters suggest.
+
+BUT THE REAL QUESTION IS YEAR 2
+
+— School A's Pell Grant renews automatically
+  based on income. At $55,000 household income,
+  you should qualify at or near full Pell for all
+  four years. The state grant typically renews
+  with satisfactory academic progress. The $4,000
+  institutional scholarship---you need to check
+  whether it's renewable.
+— School B's $28,000 institutional grant is the
+  variable. Some private colleges guarantee that
+  grant for all four years. Others reduce it
+  after freshman year---what's sometimes called
+  the "tuition discount bait-and-switch." This
+  is not rare.
+— Neither letter says whether the grant renews.
+  This is the single most important question your
+  family hasn't been able to answer yet.
+
+THE FOUR-YEAR PICTURE
+
+School A, assuming stable aid:
+~$52,000 out-of-pocket + $22,000 in loans
+= ~$74,000 total
+
+School B, if the grant renews at $28,000:
+~$71,600 out-of-pocket + $22,000 in loans
+= ~$93,600 total
+
+School B, if the grant drops by $10,000 after
+freshman year:
+~$101,600 out-of-pocket + $22,000 in loans
+= ~$123,600 total
+
+That last number is $50,000 more than School A.
+
+WHAT TO VERIFY BEFORE YOU COMMIT
+
+1. Call School B's financial aid office: "Is the
+   institutional grant of $28,000 guaranteed for
+   all four years if my daughter maintains a 2.0
+   GPA?" Listen carefully. "We expect it to be
+   similar" is not "yes." "It's reviewed
+   annually" is closer to "no."
+2. Call School A---same question about the $4,000
+   scholarship.
+3. Ask both schools: "What was the average change
+   in institutional aid from freshman to sophomore
+   year for students in our income bracket?"
+4. Ask both for a net price estimate for all four
+   years, not just year one.
+
+I will verify these figures with each school's
+financial aid office before committing.
+:::
+
+*Your follow-up:*
+::: prompt
+School B looks cheaper in year one but you're
+saying it might not be in year two?
+:::
+
+*Your Agent:*
+::: agent
+That's the pattern. Some schools use large
+institutional grants in year one to attract
+enrollment, then reduce aid after freshman year.
+The student is already enrolled---has friends,
+has credits that may not transfer cleanly to
+another school. Leaving is expensive. The school
+knows this. Not every school does it, but enough
+do that the question is worth asking before you
+commit $52,800 a year to the answer.
+
+Your instinct that "something feels off" was
+correct. The two letters don't mean the same
+things because they weren't designed to.
+
+Here is the exact question to ask, and what
+the answers mean:
+
+— "Yes, guaranteed for four years at the same
+  level"---good answer. Get it in writing.
+— "Reviewed annually based on academic
+  performance and financial need"---this means
+  it can change. Ask for specific retention
+  percentages.
+— "I can't give you a specific number for
+  future years"---this is the answer that should
+  concern you most.
+
+The financial aid letter is the single most
+consequential document most 17-year-olds will
+encounter. It is not designed to be understood.
+It is designed to look generous. Your job is to
+call the number on the letter and ask the
+questions the letter didn't answer.
+:::
+
+::: science
+First-generation college students and their families consistently overestimate the value of financial aid packages and underestimate the true cost of attendance. Perna (2006) found that information asymmetry in college choice is not random---it falls along class and race lines, with low-income and first-generation families receiving less effective financial counseling at every stage of the process. The financial aid letter is where this asymmetry does its most expensive work.[^s7-3]
+:::
+
+
+[^s7-3]: Perna, L.W. (2006). "[Studying College Access and Choice: A Proposed Conceptual Model](https://doi.org/10.1007/1-4020-4512-3_5)." In J.C. Smart (Ed.), _Higher Education: Handbook of Theory and Research_, Vol. 21, 99--157.
+
+::: meme
+The Conners at the kitchen table. Papers spread out between them. Coffee going cold. Roseanne doing the math on the back of an envelope while Dan reads the fine print with his glasses pushed up on his forehead. The information existed---the grant renewal policy, the surgical alternative, and the non-compete case law in their state. The financial aid office was not going to volunteer it. The surgeon's scheduler was not going to mention physical therapy. The HR department was not going to flag that the clause might be unenforceable. Roseanne would have called every number on the list. Now you have the list.
+:::
+
+---
+
+Three examples. Three commitments---a surgery, a job, and a four-year investment---each one with an institution on the other side that knew more than the person signing. The kitchen table still has the papers spread across it. But now there's a library sitting next to the coffee cups. The information asymmetry hasn't disappeared---institutions still know more than you do. But the cost of closing the gap dropped to zero. The Conners deserved that. So do you.
