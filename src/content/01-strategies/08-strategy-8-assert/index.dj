@@ -56,3 +56,132 @@ When asking about legal rights, always follow up with: _"Is this answer the same
 [^s8-1]: Herd, P. & Moynihan, D.P. (2018). _Administrative Burden: Policymaking by Other Means._ Russell Sage Foundation.
 
 *Worked examples:* Disputing a gym membership that keeps charging after cancellation. Getting your security deposit back. Understanding your rights after being let go.
+
+### Example 1: Disputing a Gym Membership Charge
+
+You cancelled your gym membership three months ago. Called the front desk, were told it was taken care of. The gym charged $49/month three more times---$147 total. You called again, got put on hold, got transferred, got told you need to come in person with a written cancellation form. You feel like you're being run around, and you're right. $49/month doesn't feel like enough to fight over. But the gym is counting on exactly that---that the amount is small enough to discourage you from learning that there is a formal process designed for exactly this situation, and it does not involve going back to the gym.
+
+*Your opening message:*
+::: prompt
+My gym keeps charging me after I cancelled. I called
+twice. They say I need to come in with a form. It's
+$49/month and I've been charged three times since I
+cancelled. What can I do?
+:::
+
+*Your Agent's clarifying questions:*
+::: agent
+I can help with this. A few things will determine
+which options you have:
+
+1. How did you cancel---phone, email, in person? Any
+   record of it (date, who you spoke to)?
+2. What state are you in?
+3. Did you pay by credit card or debit card? (This
+   matters for the dispute process.)
+4. Did you sign a contract with automatic renewal
+   terms when you joined?
+5. Has the gym put anything in writing about their
+   cancellation policy---membership agreement,
+   anything you signed?
+:::
+
+*Your answers:*
+::: prompt
+1. Called the front desk. No written confirmation.
+   I remember the date---January 8.
+2. Illinois.
+3. Credit card.
+4. Yes, I signed a one-year contract that
+   auto-renewed. The year ended in November.
+5. I have the original membership agreement
+   somewhere. I think it says something about
+   written notice.
+:::
+
+*Your Agent:*
+::: agent
+You have two independent paths. Pursue both.
+
+PATH 1: CREDIT CARD DISPUTE
+(FAIR CREDIT BILLING ACT, 15 U.S.C. § 1666)
+The FCBA gives you the right to dispute billing
+errors through your credit card issuer. The formal
+process is called a chargeback.
+
+Call your credit card company and say: "I want to
+file a formal dispute under the Fair Credit Billing
+Act for three unauthorized charges from [gym name].
+I cancelled my membership on January 8 and they have
+continued to charge me."
+
+— Your credit card company is legally required to
+  investigate.
+— During the investigation, you do not have to pay
+  the disputed amount.
+— Dispute all three charges, not just the most
+  recent one.
+
+PATH 2: ILLINOIS AUTOMATIC RENEWAL LAW
+(815 ILCS 601)
+Illinois requires businesses with auto-renewal
+contracts to provide a clear, simple cancellation
+mechanism. If the gym's process isn't clear, simple,
+and disclosed upfront, the auto-renewal may be
+unenforceable.
+
+A phone call to the front desk is a reasonable
+cancellation method. "Come in person with a written
+form"---presented after the fact, after you already
+called---is exactly the barrier this law is designed
+to prevent.
+
+If the gym didn't comply with the disclosure
+requirements, you may be entitled to a refund of all
+post-cancellation charges.
+
+WHAT TO DOCUMENT NOW:
+— Write down the January 8 call: date, approximate
+  time, what was said, who answered.
+— Pull your credit card statements showing all
+  three charges.
+— Find the membership agreement and check the
+  cancellation clause.
+— Save any records from the second call.
+
+Give me the most conservative answer. I will verify
+with my state attorney general's consumer protection
+division before acting.
+:::
+
+*Your follow-up:*
+::: prompt
+Wait---I can dispute charges from two months ago?
+I thought there was a deadline.
+:::
+
+*Your Agent:*
+::: agent
+The FCBA's standard window for billing error disputes
+is 60 days from the statement date. The oldest charge
+may be near that edge.
+
+But charges after a cancellation are unauthorized
+charges---you revoked permission to charge your card.
+Unauthorized charges have stronger protections than
+ordinary billing errors.
+
+Call your credit card company today. The sooner you
+file, the less the timeline matters. Even if one
+charge falls outside the window, the other two almost
+certainly don't.
+
+Going forward: put every cancellation in writing.
+An email creates a timestamp. A text creates a
+timestamp. A phone call creates a memory. The email
+is better evidence.
+:::
+
+::: tip
+"Cite the statute." This is the Assert power move. "I'm disputing this charge" gets a form response. "I'm disputing this charge under the Fair Credit Billing Act, 15 U.S.C. § 1666" gets a different response. Your Agent knows the statute number. The other party already does too---they just weren't expecting you to.
+:::
