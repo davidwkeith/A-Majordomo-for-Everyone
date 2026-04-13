@@ -49,6 +49,455 @@ Decision fatigue — the degradation of decision quality after a sustained perio
 
 [^s5-1]: Baumeister, R.F. et al. (1998). "Ego depletion: Is the active self a limited resource?" _JPSP_, 74(5), 1252-1265. Danziger, S. et al. (2011). "Extraneous factors in judicial decisions." _PNAS_, 108(17), 6889-6892.
 
-*Worked examples:* Repair vs. replace an appliance. Roth vs. traditional IRA. Escalate vs. settle a landlord dispute.
+### Example 1: Repair or Replace a Washing Machine
 
-_(Full worked examples with [SPEC] loops to be drafted)_
+The situation: your washing machine stopped draining mid-cycle. It's 8 years old — a basic top-loader you bought at a big-box store. A repair tech came out, diagnosed a failed drain pump, and quoted $380 for parts and labor. A new comparable machine is $650. You're not sure which option is smarter.
+
+*Your opening message:*
+::: prompt
+My washing machine broke. The repair is $380, a new one
+is $650. The machine is 8 years old. Should I fix it or
+replace it?
+:::
+
+*Your Agent's clarifying questions:*
+::: agent
+I can lay out the tradeoffs. A few things will sharpen
+the analysis:
+
+1. Do you know the brand and model? Some machines last
+   15 years, others are built to last 8.
+2. Has it needed other repairs in the past year or two?
+3. Is the $650 for the same type of machine, or an
+   upgrade (e.g., front-loader, larger capacity)?
+4. Do you have any reason to want different features —
+   larger capacity, energy efficiency, quieter operation?
+5. How important is it that the fix happens this week
+   vs. next month?
+:::
+
+*Your answers:*
+::: prompt
+1. It's a Whirlpool WTW4816FW. Basic model.
+2. No other repairs. This is the first problem.
+3. Same type — basic top-loader. Nothing fancy.
+4. Not really. It does what I need.
+5. I need a working machine within a week. I have
+   two kids.
+:::
+
+*Your Agent maps the options:*
+::: agent
+Here are your two paths with the actual numbers:
+
+OPTION A: REPAIR ($380)
+— Fixes the immediate problem. You have a working
+  machine within a day or two.
+— The Whirlpool WTW4816FW has an average lifespan of
+  10--13 years. At 8 years with no prior repairs, you're
+  in the middle of its useful life, not the end.
+— Risk: another component could fail in the next 2--5
+  years. Drain pumps are one of the more common failures
+  and usually aren't a sign of broader mechanical decline.
+— The 50% rule of thumb says repair if the cost is less
+  than 50% of replacement. $380 is 58% of $650 — slightly
+  above the rule, but the rule doesn't account for the
+  machine's remaining useful life.
+
+OPTION B: REPLACE ($650)
+— New machine, new warranty (typically 1 year parts and
+  labor). Full expected lifespan ahead of you.
+— You'll need delivery and installation, which adds $0--80
+  depending on the retailer. Haul-away of the old machine
+  is usually included or $25--50.
+— Timeline: in-stock models can arrive in 3--7 days.
+  If you need a machine this week, check availability
+  before you decide.
+— A basic top-loader in 2026 uses roughly 15--25% less
+  water and energy than a 2018 model. At average utility
+  rates, that saves $30--50 per year — meaningful over a
+  decade, but not enough to drive this decision alone.
+
+THE ASSUMPTION YOU'RE MAKING:
+Both options assume the repair quote is fair. $380 for
+a drain pump replacement is in the normal range ($250--450
+nationally), but you could get a second quote. The drain
+pump part itself is typically $50--120; the rest is labor.
+
+THE REAL QUESTION:
+This is a $270 decision, not a $650 decision. You're
+choosing between spending $380 now for 2--5 more years
+of use, or $650 now for 10--13 years. The per-year cost:
+— Repair: $380 ÷ ~3 remaining years = ~$127/year
+— Replace: $650 ÷ ~11 years = ~$59/year
+
+The replacement is cheaper per year. The repair is
+cheaper this week. Which constraint matters more to you
+right now is not something I can calculate.
+:::
+
+::: tip
+"What assumption am I making?" is the Decide power move. Your Agent will name the thing you haven't examined. In this case: both options assume the repair quote is accurate. Getting a second quote costs nothing and takes a phone call.
+:::
+
+
+*Your follow-up:*
+::: prompt
+What if I repair it and something else breaks in a year?
+:::
+
+*Your Agent:*
+::: agent
+Then you've spent $380 + whatever the next repair costs.
+If the next repair is another $300+, you've crossed the
+replacement cost and have an older machine.
+
+One way to think about it: the repair is a bet that the
+machine has 2--3 good years left. If you'd be angry at
+yourself for spending $380 and then replacing it in 12
+months anyway, the replacement might be the better fit
+for your risk tolerance — not because the math demands
+it, but because the math is close enough that your
+comfort with uncertainty is the tiebreaker.
+
+That's a gut call, not a spreadsheet call.
+:::
+
+::: also
+All four major AI tools handle decision-mapping well. If you want to compare options side by side, Claude's artifact feature renders tables and comparison charts. ChatGPT's canvas mode lets you iterate on a decision matrix. Gemini integrates with Google Sheets if you want to save the analysis. Copilot works within Microsoft 365 for the same purpose.
+:::
+
+
+### Example 2: Roth IRA vs. Traditional IRA
+
+The situation: you started a new job with a 401(k) match. Your coworker mentioned you should also open an IRA. You've heard of Roth and traditional but don't really understand the difference — something about taxes. You have about $200 a month you could put somewhere. You don't have a financial advisor. You don't have a trust fund. You have a paycheck and a vague sense that you should be doing something with it.
+
+*Your opening message:*
+::: prompt
+I can save about $200/month and someone told me to open
+an IRA. I don't understand the difference between Roth
+and traditional. I don't have a financial advisor.
+Can you explain my options without telling me what to do?
+:::
+
+*Your Agent's clarifying questions:*
+::: agent
+A few things will make the comparison specific to
+your situation:
+
+1. What's your approximate annual income (gross — before
+   taxes)?
+2. Do you file taxes as single, married filing jointly,
+   or head of household?
+3. Does your employer offer a 401(k) match? If so, are
+   you contributing enough to get the full match?
+4. Do you have any existing retirement savings?
+5. How old are you, roughly? (This affects how long the
+   money has to grow.)
+:::
+
+*Your answers:*
+::: prompt
+1. About $62,000.
+2. Single.
+3. Yes, they match 50% up to 6%. I'm contributing 6%.
+4. I have about $8,000 in my 401(k) from my last job.
+5. 34.
+:::
+
+*Your Agent maps the options:*
+::: agent
+Here's the comparison in plain language:
+
+WHAT THEY HAVE IN COMMON:
+Both are retirement accounts. Both grow tax-free while
+the money is inside. The 2026 contribution limit for
+either is $7,000/year ($583/month). At $200/month,
+you're well under the cap. The same investments
+(index funds, target-date funds) are available in both.
+
+WHERE THEY DIFFER — AND THIS IS THE WHOLE DECISION:
+
+TRADITIONAL IRA:
+— You contribute pre-tax dollars. Your $200/month
+  contribution reduces your taxable income this year.
+— At your income ($62,000, single), you're in the 22%
+  federal bracket. A $2,400 annual contribution saves
+  you roughly $528 in federal taxes this year.
+— When you withdraw in retirement, you pay income tax
+  on the withdrawals at whatever your tax rate is then.
+— The bet: your tax rate in retirement will be lower
+  than it is now.
+
+ROTH IRA:
+— You contribute after-tax dollars. No tax break now.
+  Your $200/month comes out of your take-home pay as-is.
+— When you withdraw in retirement, you pay zero tax.
+  The growth is tax-free. The contributions are tax-free.
+  All of it.
+— The bet: your tax rate in retirement will be the same
+  or higher than it is now.
+— Additional benefit: you can withdraw your
+  contributions (not the growth) at any time without
+  penalty. This makes a Roth more flexible as an
+  emergency backstop, though using it that way means
+  less in retirement.
+
+THE TRADEOFF IN ONE SENTENCE:
+Traditional gives you a tax break today and taxes you
+later. Roth gives you no break today and never taxes
+you again.
+
+FOR YOUR SPECIFIC SITUATION:
+— At $62,000 and age 34, most of the tax math favors
+  Roth. Here's why: you have 31 years of growth ahead
+  of you. A $200/month Roth contribution from age 34
+  to 65, at a 7% average return, grows to roughly
+  $244,000 — all of it tax-free at withdrawal.
+— The same contributions in a traditional IRA grow to
+  the same $244,000, but you'll owe income tax on every
+  dollar you withdraw. At a 22% rate, that's roughly
+  $53,000 in taxes over the course of retirement.
+— The traditional IRA's $528/year tax savings now, over
+  31 years, is worth about $16,400 in saved taxes.
+  The Roth's tax-free growth saves you about $53,000.
+
+BUT HERE'S WHAT I CAN'T KNOW:
+— Whether tax rates will go up, down, or stay the same
+  over the next 31 years. If rates go down significantly,
+  traditional wins. If they go up, Roth wins bigger.
+— Whether your income will be much higher or lower in
+  retirement. If you'll have a pension, Social Security,
+  and 401(k) withdrawals, your retirement tax bracket
+  might be similar to now — which favors Roth.
+— Whether you value the flexibility of being able to
+  pull contributions from a Roth in an emergency. If
+  you don't have a fully funded emergency fund yet,
+  this matters more than the tax math.
+
+The math slightly favors Roth at your income and age.
+The certainty heavily favors Roth — paying zero tax
+later is a known quantity; guessing your future tax
+rate is not. But "slightly favors" is not the same as
+"obviously correct." This is your call.
+:::
+
+::: science
+The behavioral economics finding most relevant to retirement saving is not about which account to choose — it's about whether you start at all. Madrian and Shea (2001) found that automatic enrollment in retirement plans increased participation from 49% to 86%. The choice between Roth and traditional matters less than the choice between $200/month and $0/month. If the analysis above makes you less likely to start because you're not sure which is "right," pick either one and start. You can change later. You cannot get the years of compound growth back.[^s5-2]
+:::
+
+
+[^s5-2]: Madrian, B.C. & Shea, D.F. (2001). ["The Power of Suggestion: Inertia in 401(k) Participation and Savings Behavior."](https://doi.org/10.1162/00335530152466232) _Quarterly Journal of Economics_, 116(4), 1149-1187.
+
+*Your follow-up:*
+::: prompt
+Wait — should I be maxing out my 401(k) match before
+I do any of this?
+:::
+
+*Your Agent:*
+::: agent
+Yes. The 401(k) match is not an investment option — it
+is free money with a 100% immediate return. Your employer
+matches 50% up to 6% of your salary. At $62,000, 6% is
+$3,720/year. Your employer adds $1,860. That $1,860 is a
+guaranteed 50% return before the market does anything.
+
+No IRA — Roth or traditional — can match that. The
+priority order:
+
+1. 401(k) up to the full employer match (you're doing
+   this — good)
+2. IRA contributions with whatever's left
+3. Additional 401(k) above the match, if you have room
+
+You've got step 1 covered. The $200/month is step 2.
+You're asking the right questions in the right order.
+:::
+
+::: fairness
+Financial advice from any source — human or AI — carries implicit assumptions about income stability, employment continuity, and the luxury of a 31-year time horizon. If you're in a precarious employment situation, the Roth's ability to withdraw contributions without penalty may matter more than any tax calculation. If $200/month is the difference between contributing to retirement and having enough for groceries, the groceries win and there's no shame in that. The system that made retirement savings a personal responsibility instead of a structural guarantee is the problem, not you.
+:::
+
+
+### Example 3: Settle or Escalate a Landlord Dispute
+
+The situation: your apartment has had a persistent mold problem in the bathroom. You reported it 4 months ago. The landlord sent someone who painted over it. The mold came back within 3 weeks. You reported it again. The landlord hasn't responded in 6 weeks. Your kid has been coughing more. You want it fixed. You're also afraid of retaliation — you're month-to-month, and you know the landlord can end your tenancy with 60 days notice.
+
+*Your opening message:*
+::: prompt
+My apartment has mold that my landlord won't fix. I've
+reported it twice. I'm worried about my kid's health but
+I'm also worried about getting evicted if I push too hard.
+What are my options?
+:::
+
+*Your Agent's clarifying questions:*
+::: agent
+This is a situation with real health and housing stakes,
+so let me be precise. A few questions:
+
+1. What state are you in?
+2. Are you on a lease or month-to-month?
+3. When did you first report the mold, and how — text,
+   email, phone call, written letter?
+4. Do you have any documentation — photos, dates, the
+   landlord's response, medical records for your kid?
+5. Have you contacted your local health department or
+   housing inspection office?
+6. What's your monthly rent, roughly?
+:::
+
+*Your answers:*
+::: prompt
+1. California.
+2. Month-to-month. I was on a 1-year lease that
+   ended in March and converted to month-to-month.
+3. First by text in November, then by email in January.
+   I have both.
+4. I have photos from November and January. My kid's
+   pediatrician noted "persistent cough, possible
+   environmental trigger" at a visit in December.
+5. No. I didn't know that was an option.
+6. $1,850.
+:::
+
+*Your Agent maps the options:*
+::: agent
+You have more protection than you think. Let me lay out
+three paths with their real tradeoffs.
+
+OPTION A: ESCALATE THROUGH CODE ENFORCEMENT
+— Contact your city's code enforcement or housing
+  inspection department. Request a habitability inspection
+  for mold. In California, mold in a rental is a
+  habitability violation under Civil Code §1941.
+— The inspector comes out, documents the mold, and
+  issues a notice to the landlord requiring remediation
+  within a set timeframe (usually 30 days).
+— Cost to you: $0. Time: one phone call to start.
+— Advantage: creates an official government record of
+  the violation. This record is your strongest protection
+  against retaliation (see below).
+— Risk: the landlord may resent the inspection. But the
+  record it creates is exactly what protects you.
+
+OPTION B: NEGOTIATE DIRECTLY WITH DOCUMENTATION
+— Send the landlord a formal written demand citing the
+  habitability violation, your documentation (texts,
+  emails, photos, pediatrician's note), and California's
+  repair-and-deduct remedy (Civil Code §1942).
+— Under repair-and-deduct, if a landlord fails to make
+  repairs within 30 days of written notice, you can hire
+  someone to fix it yourself and deduct the cost from
+  rent — up to one month's rent.
+— Cost to you: the cost of mold remediation if you use
+  repair-and-deduct (typically $500--3,000 for a bathroom,
+  depending on severity). You deduct this from rent.
+— Advantage: faster resolution. You control the timeline.
+— Risk: the landlord may dispute the deduction. Without
+  a code enforcement record backing you up, it becomes
+  your word against theirs.
+
+OPTION C: SETTLE — ACCEPT THE SITUATION AND PLAN TO MOVE
+— Stop pushing. Start looking for a new apartment. Give
+  notice when you find one.
+— Cost: moving expenses, security deposit on new place,
+  whatever the mold does to your kid's health in the
+  meantime, and the rent increase that almost certainly
+  comes with a new apartment in California.
+— Advantage: no conflict with the landlord. No risk of
+  retaliation.
+— Risk: you lose the apartment, pay more, and the health
+  issue continues until you leave. You also forfeit any
+  claim for the months you lived with a habitability
+  violation.
+
+NOW — THE RETALIATION QUESTION:
+This is the thing keeping you up at night, so let me
+be specific. California Civil Code §1942.5 makes it
+illegal for a landlord to retaliate against a tenant
+who has complained about habitability violations. If
+your landlord tries to end your month-to-month tenancy
+within 180 days of your complaint, the law presumes it
+is retaliatory, and the burden shifts to the landlord
+to prove otherwise.
+
+This is why documentation matters. Your texts, emails,
+and the pediatrician's note establish a timeline. A code
+enforcement inspection (Option A) creates a government
+record that makes retaliation legally indefensible.
+
+THE ASSUMPTION YOU MIGHT BE MAKING:
+That pushing back puts you at risk. In California, the
+opposite is closer to true — documenting the complaint
+through official channels is what creates the legal
+shield against retaliation. Silence protects the landlord,
+not you.
+
+WHAT I CAN'T WEIGH FOR YOU:
+— How much disruption your family can absorb right now.
+  Escalation is stressful even when you're legally
+  protected.
+— Whether you want to stay in this apartment long-term
+  or were already thinking about moving.
+— How much the landlord relationship matters to you in
+  practical terms — are they otherwise responsive, or
+  is this part of a pattern?
+
+Those factors are yours. The legal landscape is above.
+Give me the most conservative, legally accurate answer —
+I will verify with a legal aid organization before acting.
+:::
+
+*Your correction:*
+::: prompt
+I didn't know about the retaliation protection. That
+changes things. But what if I do Option A and the
+landlord just ignores the code enforcement notice too?
+:::
+
+*Your Agent:*
+::: agent
+If the landlord ignores a code enforcement notice,
+the stakes escalate — for the landlord, not for you:
+
+1. The city can issue fines, typically $100--1,000 per
+   day of noncompliance, depending on jurisdiction.
+2. Repeated violations can result in the property being
+   cited as substandard housing, which affects the
+   landlord's ability to rent, refinance, or sell.
+3. You gain the right to pursue rent reduction or
+   withholding for the period the unit was uninhabitable.
+   In California, this is calculated as the difference
+   between the rent you paid and the fair rental value
+   of the unit with the defect.
+4. If the mold is severe enough to constitute a health
+   hazard, the health department can order the unit
+   vacated — at which point the landlord owes you
+   relocation assistance under local ordinances.
+
+The code enforcement path is cumulative. Each ignored
+notice strengthens your position. This is why the
+landlord's most rational response to a code enforcement
+inspection is to fix the mold — the cost of remediation
+is almost always less than the cost of noncompliance.
+
+One thing to do today regardless of which path you
+choose: take new photos of the mold with a timestamp.
+Your November and January photos show a pattern.
+A March photo shows it's ongoing. The timeline is your
+evidence.
+:::
+
+::: science
+Mold exposure in residential settings is associated with a 30--50% increase in respiratory symptoms and asthma development in children, with the strongest effects in children under 5 (Fisk, Lei-Gomez & Mendell, 2007). The health cost of inaction is not hypothetical — it is measurable, and it falls disproportionately on renters in low-income housing where deferred maintenance is most common and tenants are least likely to assert their rights.[^s5-3]
+:::
+
+
+[^s5-3]: Fisk, W.J., Lei-Gomez, Q. & Mendell, M.J. (2007). ["Meta-analyses of the associations of respiratory health effects with dampness and mold in homes."](https://doi.org/10.1111/j.1600-0668.2007.00475.x) _Indoor Air_, 17(4), 284-296.
+
+::: meme
+"We were on a break." Ross and Rachel's problem was not the break. It was the ambiguous spec. Your landlord dispute has the same structure: the word "resolved" means different things to you and the landlord. Paint over the mold? Resolved. Mold comes back in 3 weeks? Not resolved. A code enforcement inspection resolves the ambiguity the same way a clarifying question would have resolved Ross and Rachel's — by putting the definition on the record before anyone acts on it.
+:::
+
