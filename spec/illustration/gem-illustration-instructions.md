@@ -8,7 +8,7 @@ Every image you produce must feel like it came from the same notebook, drawn by 
 
 ## Materials and Style
 
-These materials apply to everything you draw. Do not deviate unless the prompt explicitly overrides a specific material.
+These materials define the tools and canvases available. Use the appropriate background (notebook paper or pure white) as specified in the Chapter Opener or Inline Graphics sections.
 
 ### #2 pencil (HB)
 for all structure and detail. Medium-dark, slightly waxy graphite on paper. Shows pressure variation naturally. Erasure ghosts are acceptable and expected — the slightly wrong line visible beneath the corrected one.
@@ -18,7 +18,7 @@ for all color elements. Approximate an 8-bit NES/SNES palette as closely as ball
 
 
 **Ballpoint technique notes:**
-- *Recycled* and *Warm Gray* are not inked — Recycled is the unbleached notebook paper showing through the pixel grid (a dull grayish-tan, not white, not cream); Warm Gray is pencil graphite used as a screen color. Both read as part of the pixel art despite being different materials.
+- *Recycled* and *Warm Gray* are not inked. For chapter openers, *Recycled* is the unbleached notebook paper showing through the pixel grid. For inline graphics on white backgrounds, use a solid fill of #DDD8C8 for the *Recycled* color. *Warm Gray* is pencil graphite used as a screen color. Both read as part of the pixel art despite being different materials.
 - Pressure variation creates value range within a single ink color. Light-pressure orange ≠ full-pressure orange. This is how 16 named colors yield more apparent variety.
 - Layering two ink colors (e.g., blue over red for purple, red over orange for maroon) is allowed and expected. The translucency of ballpoint ink makes this work.
 
@@ -52,7 +52,7 @@ Standard American college-ruled notebook paper. The paper is unbleached recycled
 **The ruled lines are machine-printed, not hand-drawn.** They are perfectly straight, perfectly parallel, perfectly evenly spaced — exactly as they appear on real manufactured notebook paper. Think of a high-resolution scan of actual college-ruled paper. The lines never wobble, curve, warp, or vary in thickness. They are a manufactured product, not a drawing. The pencil drawing sits ON the paper; the lines are part of the paper itself.
 
 
-### Pure white background.
+### Pure white background
 
 The drawing floats on a solid white (#FFFFFF) ground. No paper texture, no gradient, no shadow, no off-white, no bounding box, no checkerboard pattern. The background is pure flat white — as if scanned from a white page with levels adjusted to clip the background to pure white. The white will be removed in post-production to create transparency.
 
@@ -164,8 +164,6 @@ Small hand-drawn illustrations placed within the text flow. These appear through
 ### Style
 
 The same hand as the chapter openers. #2 pencil for all structure and detail. Multi-color ballpoint pen for any color, using the same 8-bit palette approximation. Erasure ghosts present.
-
-Background is pure white
 
 Pencil strokes should have natural value variation — heavier pressure is darker, lighter pressure is fainter. Ballpoint pen color is fully saturated where applied, sitting on top of the pencil work.
 

@@ -194,11 +194,9 @@ Each strategy chapter (0 through 9) opens with a full-width original illustratio
 
 *Layer 1: The Notebook Page*
 
-Standard American college-ruled notebook paper. Blue horizontal lines. Red vertical margin line on the left. No paper edges visible — the paper extends beyond all four sides of the frame. The paper is the background, not an object placed on a background.
+Standard American college-ruled notebook paper. Blue horizontal lines. No vertical margin line — the red margin line appears only on the cover, where it serves as an alignment element for the title and telephone pole. Chapter openers omit it to reduce visual complexity. No paper edges visible — the paper extends beyond all four sides of the frame. The paper is the background, not an object placed on a background.
 
 **The paper is at an angle.** Unique per chapter. Rotated so the blue lines run diagonally. The angle is determined by the primary action direction in the pixel art on screen — the lines of the paper extend and continue the compositional vectors of the image. See the paper angle reference table in the Cover Art Spec. No two chapters share the same angle. Illustrator maps all eleven simultaneously before finalizing any.
-
-The red margin line falls where the paper's rotation puts it. It may cross the TV screen, the Trinitron cabinet, or the corner of the composition. This is accepted. The composition receives it.
 
 Faint #2 pencil construction lines visible beneath the main pencil drawing. This drawing was made during a class that was not about this.
 
