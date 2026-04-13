@@ -153,11 +153,15 @@ _A printable PDF version is available at [a-majordomo-for-everyone.dwk.io/quick-
 
 | Entry | Strategy | Spec opener |
 |---|---|---|
-| WB-1: Building Your Own Website with Your Agent | Create + Navigate | "I want to build my own personal website. I have never done this before..." |
-| WB-2: Reading Without the Algorithm | Research + Navigate | "I want to read the web on my own terms -- without algorithms..." |
-| WB-3: Writing in CommonMark | Decode + Draft | "I want to learn CommonMark so I can write content for my website..." |
-| WB-5: Blogging and Journaling | Create + Draft | "I want to start [blogging publicly / journaling privately / both]..." |
-| WB-6: Preservation and Legacy | Research + Navigate | "I want to make sure my online work -- writing, photos, creative projects -- survives..." |
+| WB-1: Learning Any App or Digital Skill | Decode + Navigate | "I want to learn [app or skill]..." |
+| WB-2: Automation and Script Writing | Create + Navigate | "I have a repetitive task I want to automate..." |
+| WB-3: Customize Your Chat Interface | Specify | "I want to set up my AI assistant's profile..." |
+| WB-4: Learn to Work Better with AI Agents | Specify + Research | "I want to get better at working with AI Agents..." |
+| WB-5: Building Your Own Website with Your Agent | Create + Navigate | "I want to build my own personal website. I have never done this before..." |
+| WB-6: Reading Without the Algorithm | Research + Navigate | "I want to read the web on my own terms -- without algorithms..." |
+| WB-7: Writing in CommonMark | Decode + Draft | "I want to learn CommonMark so I can write content for my website..." |
+| WB-8: Blogging and Journaling | Create + Draft | "I want to start [blogging publicly / journaling privately / both]..." |
+| WB-9: Preservation and Legacy | Research + Navigate | "I want to make sure my online work -- writing, photos, creative projects -- survives..." |
 
 ---
 
