@@ -226,3 +226,214 @@ Ask for two or three tone variants and pick the one closest to your voice. You c
 ::: also
 Claude and ChatGPT both support inline editing---you can highlight a section of the response and ask for a revision without regenerating the whole thing. In Gemini, use a follow-up message to request changes to specific parts. Revision is the workflow. The first draft is raw material.
 :::
+
+### Example 2: The Medicare Denial Appeal Letter
+
+In Strategy 0: Specify, you decoded an insurance denial---an MRI your doctor ordered, denied as "not medically necessary." Your Agent helped you understand what the denial meant, what a first-level internal appeal looks like, and how to file one. You filed it. Your doctor's office provided a letter of medical necessity, just like they said they would. The appeal was denied. Now you need to write the next one.
+
+You have been fighting this for weeks. The first appeal felt like filling out a form---follow the steps, attach the letter, submit. This one is different. The external appeal goes to an independent medical reviewer, not customer service. It is a formal document with real requirements and a real audience: a physician who will read your case and decide whether the denial stands. The blank page is harder this time because the stakes are higher, the format is less familiar, and you have already been told no twice.
+
+*Your opening message:*
+::: prompt
+My internal appeal for the MRI was denied. Second denial
+says the same thing---"not medically necessary"---but
+adds this language: "The documentation provided does not
+support medical necessity for the requested service."
+
+My doctor wrote a letter of medical necessity. I have 60
+days to file an external appeal. I don't know how formal
+this needs to be or what to include. Can you help me
+draft it?
+:::
+
+*Your Agent's clarifying questions:*
+::: agent
+I can help you draft that. I need to understand exactly
+what you're working with:
+
+1. What did the second denial letter say, word for word?
+   The exact language matters for the appeal.
+2. Do you have your doctor's letter of medical necessity?
+   What does it say specifically---what diagnosis, what
+   clinical reasoning?
+3. Does the denial letter say "external review by an
+   independent review organization," or does it say
+   "second-level internal appeal"? These are different
+   processes with different audiences.
+4. What's your deadline? You said 60 days---from when?
+5. What's the procedure and the clinical picture? MRI
+   of what body part, and what symptoms are you dealing
+   with?
+:::
+
+*Your answers:*
+::: prompt
+1. Same reason: "not medically necessary." Then it says
+   "The documentation provided does not support medical
+   necessity for the requested service." That's the new
+   part.
+2. Yes, I have the letter. It says the MRI is needed to
+   rule out lumbar disc herniation based on eight weeks of
+   radiculopathy not responding to conservative treatment.
+3. The denial letter says "You may request an external
+   review by an independent review organization." So
+   external.
+4. 60 days from the denial date. Letter is dated three
+   weeks ago.
+5. MRI of the lumbar spine. Shooting pain down my left
+   leg for two months. Physical therapy hasn't helped.
+:::
+
+*Your Agent drafts the appeal letter:*
+::: agent
+Here's the appeal letter. It's addressed to the external
+review organization. Read it carefully---every claim in
+this letter must be true and supported by your medical
+records. If anything is wrong, tell me before you send it.
+
+---
+
+[DATE]
+
+Independent Review Organization
+[IRO Name and Address --- check your denial letter]
+
+RE: EXTERNAL REVIEW REQUEST
+Patient: [YOUR FULL NAME]
+Member ID: [YOUR MEMBER ID]
+Plan: [YOUR PLAN NAME]
+Claim/Reference Number: [FROM DENIAL LETTER]
+Procedure: MRI Lumbar Spine Without Contrast (CPT 72148)
+Date of Denial: [DATE FROM SECOND DENIAL LETTER]
+
+APPEAL STATEMENT
+
+I am requesting an external review of the denial of
+coverage for an MRI of the lumbar spine (CPT 72148),
+ordered by my treating physician, [DOCTOR'S NAME, MD].
+The procedure was denied twice as "not medically
+necessary." The second denial states: "The documentation
+provided does not support medical necessity for the
+requested service."
+
+I respectfully submit that the documentation does support
+medical necessity, and I request that this denial be
+overturned.
+
+CLINICAL HISTORY
+
+I have experienced progressive radiculopathy---shooting
+pain radiating from the lumbar spine down the left lower
+extremity---for approximately eight weeks. Symptoms have
+not responded to conservative treatment, including a
+course of physical therapy. See attached physical therapy
+treatment records.
+
+CLINICAL INDICATION
+
+My treating physician has determined that an MRI of the
+lumbar spine is necessary to rule out lumbar disc
+herniation as the cause of my symptoms. The clinical
+basis for this determination is:
+
+- Eight weeks of radiculopathy unresponsive to
+  conservative treatment
+- Progressive symptoms despite physical therapy
+- Need to identify or exclude a structural cause before
+  determining next treatment steps
+
+See attached letter of medical necessity from [DOCTOR'S
+NAME, MD], dated [DATE OF LETTER].
+
+BASIS FOR APPEAL
+
+The denial letter states that the documentation does not
+support medical necessity. The attached letter of medical
+necessity from my treating physician directly addresses
+the clinical indication for this procedure. The American
+College of Radiology Appropriateness Criteria rates
+lumbar MRI as "usually appropriate" for patients
+presenting with low back pain and radiculopathy that has
+not improved with conservative management.
+
+I have exhausted the internal appeals process. The
+clinical picture has not changed: I continue to
+experience radiculopathy that limits daily function, and
+the MRI remains the appropriate diagnostic step to
+determine the cause and guide treatment.
+
+REQUESTED ACTION
+
+I respectfully request that the independent reviewer
+overturn the denial and authorize the MRI of the lumbar
+spine (CPT 72148) as medically necessary. If expedited
+review is available, I request it---I have been waiting
+for this diagnostic procedure for over two months while
+symptoms persist.
+
+ENCLOSED DOCUMENTS
+
+1. Letter of medical necessity from [DOCTOR'S NAME, MD]
+2. Physical therapy treatment records
+3. First denial letter, dated [DATE]
+4. Second denial letter (internal appeal denial), dated
+   [DATE]
+
+Sincerely,
+[YOUR FULL NAME]
+[YOUR ADDRESS]
+[YOUR PHONE NUMBER]
+
+---
+
+Print this. Attach your doctor's letter of medical
+necessity and your physical therapy records. Send it
+certified mail---you want proof of delivery and the
+date it was received. Keep copies of everything you send.
+:::
+
+*Your follow-up:*
+::: prompt
+This is really long. Will someone actually read all of
+this?
+:::
+
+*Your Agent:*
+::: agent
+Yes. The external reviewer is a physician. They read
+dozens of these. They are looking for three things:
+
+1. THE CLINICAL QUESTION. What is wrong with you, and
+   what is the doctor trying to find out? Your letter
+   answers this in two sentences: radiculopathy for
+   eight weeks, need to rule out disc herniation.
+
+2. THE TREATMENT HISTORY. What has already been tried?
+   Your letter says physical therapy, and it didn't
+   work. The PT records prove it.
+
+3. THE SUPPORTING DOCUMENTATION. Is there a letter from
+   the treating physician? Does it make a specific
+   clinical argument? Yours does.
+
+The length is not the problem. Reviewers skim for
+structure, not brevity. The headers let them find what
+they need. A one-page letter that's vague loses. A
+two-page letter that's specific wins.
+
+That said---want me to cut this to one page? I can keep
+the clinical argument and remove the background. Some
+people prefer a tighter document. Your call.
+:::
+
+::: science
+External appeals succeed more often than most patients expect. When external reviewers overturn denials, the cases that win almost always share two features: they cite specific clinical criteria or policy language, and they attach supporting documentation from the treating physician. Vague appeals---"my doctor says I need this"---fail at higher rates than appeals that name the diagnosis, the failed treatments, and the clinical guidelines that support the request.[^s3-2]
+:::
+
+<!-- RESEARCH NEEDED: find citation on external appeal overturn rates and correlation with documentation specificity -->
+
+[^s3-2]: <!-- RESEARCH NEEDED: find citation on external appeal overturn rates and correlation with documentation specificity -->
+
+::: fairness
+The appeal letter that wins is written at a level most patients cannot produce without help. It requires clinical vocabulary, policy citation, and a structured argument---skills the denial letter itself does not teach. The system requires a document the system's own communications make impossible to write. Your Agent closes this gap. The gap is structural, not personal---and closing it does not make the system fair. It makes you less disadvantaged within an unfair system.
+:::
