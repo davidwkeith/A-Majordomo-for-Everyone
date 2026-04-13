@@ -437,3 +437,95 @@ External appeals succeed more often than most patients expect. When external rev
 ::: fairness
 The appeal letter that wins is written at a level most patients cannot produce without help. It requires clinical vocabulary, policy citation, and a structured argument---skills the denial letter itself does not teach. The system requires a document the system's own communications make impossible to write. Your Agent closes this gap. The gap is structural, not personal---and closing it does not make the system fair. It makes you less disadvantaged within an unfair system.
 :::
+
+### Example 3: The Zoning Public Comment
+
+In Strategy 1: Decode, you translated Measure H---a zoning downzone that would reduce housing supply in your neighborhood. You learned what it actually does: caps density at eight units per acre, requires conditional use permits for four or more units, and limits height to 35 feet in R-3 zones within 500 feet of single-family areas. You learned that "predatory developer" is campaign language, not a legal term. You learned the measure protects existing homeowners at the expense of future renters and housing supply. Now your city council is holding a public hearing before the vote. You have two minutes at the microphone. You've never spoken at a public hearing. You know what you think---the measure hurts renters---but you cannot get past the first sentence. The room will be full. A timer will count down. Your name and address go on the public record. Knowing the policy is one skill. Saying it out loud to a row of council members is a different one.
+
+*You:*
+::: prompt
+Remember when we decoded Measure H---the zoning downzone on my ballot? The city council is holding a public hearing on it next Tuesday. I want to speak against it. I have two minutes. I've never spoken at a public hearing before. I don't want to sound like a policy wonk---I want to sound like a person who lives there.
+:::
+
+*Your Agent:*
+::: agent
+I remember the Measure H analysis. Good---you already know the substance. Now we need to turn that into something you can say out loud under pressure. A few questions before I draft:
+
+1. You're a renter in an R-3 zone, correct? How long have you lived in your current apartment?
+
+2. Do you want to read from notes or memorize your comment? I'd suggest notes---on your phone or a printed page. Memorized comments tend to fall apart when you're nervous, and nerves at a public hearing are normal, not a sign of weakness.
+
+3. What is the ONE thing you want the council to remember after you sit down? Not three things. One.
+
+4. Are you comfortable being identified by name and address at the hearing? Public comment is public record---it goes in the minutes and sometimes gets recorded on video.
+
+5. Do you know if anyone else is planning to speak against the measure, or will you be the only renter voice in the room?
+:::
+
+*You:*
+::: prompt
+Yes, renter in an R-3 zone. Four years in my apartment. This neighborhood is where I want to stay long-term.
+
+Notes on my phone---I'll freeze if I try to memorize anything.
+
+The one thing: I want them to know that renters live here too and this measure protects homeowners at our expense.
+
+Yes, fine with name and address.
+
+Not sure if anyone else is going. I don't know anyone else planning to speak against it.
+:::
+
+*Your Agent:*
+::: agent
+Here's a two-minute comment written for speaking, not reading. Practice it once out loud---time yourself. If it runs over 1:45, we'll cut.
+
+---
+
+Good evening. My name is [YOUR NAME], and I live at [YOUR ADDRESS]. I've been a renter in this neighborhood for four years.
+
+I'm here to ask you to vote no on Measure H.
+
+This measure reduces the number of homes that can be built in my neighborhood. It caps density, adds permit requirements, and limits building heights in the R-3 zones where renters like me already live.
+
+Fewer units means less competition for landlords. Less competition means higher rents. That's not speculation---that's how supply works.
+
+Measure H is framed as protecting neighborhoods. But I live in this neighborhood. I've lived here for four years. The measure protects the homeowners next door. It does not protect me. It makes it harder for people like me to stay.
+
+I'm asking you to vote no. Thank you.
+
+---
+
+This runs about a minute. You have margin. Do not fill it---short and clear beats long and thorough at a public hearing. The council has heard dozens tonight. Yours needs to be the one they remember because it was specific and human, not because it was comprehensive.
+:::
+
+*You:*
+::: prompt
+This sounds like a policy paper. I want to sound like a person who lives in the neighborhood, not someone who studied zoning law.
+:::
+
+*Your Agent:*
+::: agent
+Fair. Here's the rewrite.
+
+---
+
+Good evening. My name is [YOUR NAME]. I live on [YOUR STREET]---been there four years. I walk to the coffee shop on the corner. I know my neighbors. This is my neighborhood.
+
+Measure H makes it harder to build apartments where I live. Fewer apartments means landlords have less competition. Less competition means my rent goes up.
+
+The yard signs say "Protect Our Neighborhoods." I'm standing here telling you---I live in this neighborhood. This measure doesn't protect me. It protects the homeowners. I'm a renter. I'm the one it hurts.
+
+Vote no on Measure H. Thank you.
+
+---
+
+Read this version out loud. If you stumble on a sentence, it's too long. Shorten it until you can say it without thinking about the words. At the microphone, you want to be thinking about the council members' faces, not your script.
+:::
+
+::: meme
+Murphy Brown could interview a senator without notes. She could not start the memo. You can have a strong opinion about zoning and still freeze at the microphone. These are different skills. Draft handles the second one.
+:::
+
+::: tip
+When drafting something you'll say out loud, tell your Agent "write this for speaking, not reading." Spoken language uses shorter sentences, more repetition, and fewer subordinate clauses than written prose. Read the draft aloud before the hearing---if you stumble on a sentence, the sentence is too long.
+:::
