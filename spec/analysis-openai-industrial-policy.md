@@ -83,7 +83,7 @@ This is a strength to preserve. The book's arguments don't depend on speculative
 ### 3. Who Is Trusted to Act
 OpenAI positions itself as a responsible partner in governance: "OpenAI is offering these ideas to help start a broader conversation." The book's target reader — DSA-adjacent, structurally skeptical, Picard-aligned — will note that the company proposing to help govern superintelligence recently converted from a nonprofit to a for-profit structure. The book's voice should not be hostile to this, but it should not be naive either.
 
-The book's editorial voice already handles this: "AI is a tool, like a good ratchet set — genuinely useful, owned by a company, capable of giving wrong answers with complete confidence."
+The book's editorial voice already handles this: "AI is a tool, like a good ratchet set — genuinely useful, owned by a company, capable of giving you a wrong answer with complete confidence."
 
 ### 4. The Missing Floor
 OpenAI proposes a Public Wealth Fund and tax modernization — macro-redistribution mechanisms. The book deliberately operates at the individual level: here is how you navigate the system as it exists today. Neither addresses the other's gap. The book could acknowledge the policy conversation without entering it, pointing readers to C-4 (Advocating for Change) as the entry point for engaging with proposals like these.
