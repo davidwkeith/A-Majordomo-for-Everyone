@@ -38,6 +38,8 @@ AI tools like Claude are genuinely better than a human for some tasks. Humans ar
 
 Most real tasks are hybrids. Use Claude to do the structural work -- the research, the first draft, the option-mapping, the translation from jargon to plain language. Bring your own voice, judgment, and relationships to the finish line. The best outcomes from this book will come from people who treat Claude as a capable collaborator rather than an oracle or a vending machine.[^31-2]
 
+The practical question, then, is how to make sure the collaboration is actually reliable -- especially when the stakes are high. Chapter 32, _Getting Consistent, Reliable Answers_, covers that: specific techniques for getting consistent answers, including a single calibration question that keeps you from over-trusting or under-trusting the results.
+
 [^31-1]: This is documented in research on online health information seeking: people consistently report asking questions online that they would not ask their physician, citing embarrassment and fear of judgment (Berland et al., 2001). The absence of social risk in AI interactions is not a bug -- it is a genuine access feature for populations who have historically under-utilized professional services.
 
 [^31-2]: The concept of the "centaur" -- human-AI collaboration outperforming either alone -- emerged from chess research following the introduction of computer analysis tools. Kasparov (2007) observed that amateur human players combined with chess software consistently outperformed both grandmasters and the best computers operating alone. The same principle applies here: your judgment plus Claude's analysis is better than either in isolation.
