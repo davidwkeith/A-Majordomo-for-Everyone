@@ -185,3 +185,131 @@ is better evidence.
 ::: tip
 "Cite the statute." This is the Assert power move. "I'm disputing this charge" gets a form response. "I'm disputing this charge under the Fair Credit Billing Act, 15 U.S.C. § 1666" gets a different response. Your Agent knows the statute number. The other party already does too---they just weren't expecting you to.
 :::
+
+### Example 2: Getting Your Security Deposit Back
+
+You moved out after two years. Left it clean---patched nail holes, scrubbed the kitchen, had the carpets professionally cleaned. Got a letter 45 days later with a check for $380 of your $1,800 deposit. The deductions: $520 for "cleaning," $400 for "carpet replacement," $500 for "paint and repair." No receipts. No photos. No itemization beyond those three lines. You are angry but also uncertain. Maybe this is just how it works. Maybe landlords can charge whatever they want. They can't. You just don't know that yet.
+
+*Your opening message:*
+::: prompt
+My landlord kept $1,420 of my $1,800 security deposit.
+The deductions are for cleaning, carpet, and paint but
+there are no receipts. I left the apartment clean.
+Is this legal?
+:::
+
+*Your Agent's clarifying questions:*
+::: agent
+I can help with this. A few questions will determine
+how strong your position is:
+
+1. What state are you in?
+2. How long did you live there?
+3. Do you have photos or a move-in checklist from
+   when you moved in?
+4. When did you move out, and when did you receive
+   the letter with the check?
+5. Did the landlord offer a walkthrough before you
+   moved out?
+:::
+
+*Your answers:*
+::: prompt
+1. Ohio.
+2. Two years.
+3. No move-in photos. Didn't know to take them.
+4. Moved out March 1. Got the letter April 15---45
+   days.
+5. No walkthrough. Nobody offered one.
+:::
+
+*Your Agent's main response:*
+::: agent
+OHIO'S DEPOSIT RETURN LAW (ORC §5321.16):
+— Ohio requires landlords to return the deposit within
+  30 days of move-out, with an itemized written
+  accounting and receipts or estimates for any
+  deductions.
+— Your letter arrived on day 45---15 days past the
+  statutory deadline.
+— In Ohio, failure to return the deposit within 30
+  days with proper itemization means you can recover
+  the full deposit amount plus reasonable attorney's
+  fees. The landlord forfeits the right to claim any
+  deductions, regardless of their merit.
+
+THE DEDUCTIONS DON'T HOLD UP:
+Even if the deadline had been met:
+— "Cleaning: $520"---you left the apartment clean.
+  Routine cleaning between tenants is a landlord
+  cost unless the unit was left significantly worse
+  than normal wear and tear.
+— "Carpet replacement: $400"---carpet used normally
+  for two years is normal wear and tear, a legal
+  term of art. Typical carpet useful life is 5--10
+  years. Charging full replacement at two years is
+  almost certainly unjustified.
+— "Paint and repair: $500"---paint fades and walls
+  accumulate minor scuffs from furniture. After two
+  years, repainting is expected landlord maintenance,
+  not tenant damage.
+— No receipts. Ohio requires them. Three vague line
+  items without documentation does not meet the
+  statute's requirements.
+
+WHAT TO DO NEXT:
+1. Send a formal demand letter citing ORC §5321.16 by
+   name, noting the 30-day deadline violation,
+   challenging each deduction as normal wear and tear,
+   and demanding return of the full $1,800. Set a
+   14-day response deadline.
+2. Send it certified mail---you need proof of delivery
+   and the date received.
+3. If the landlord does not respond or refuses, file
+   in small claims court. Ohio small claims handles
+   disputes up to $6,000. Filing fee is approximately
+   $50. No lawyer required.
+
+THE LANDLORD'S MOST LIKELY RESPONSE:
+If you send a letter citing the statute and the
+deadline violation, the landlord's most rational move
+is to settle---returning some or all of the
+$1,420---rather than defend a case they have already
+lost on procedural grounds. They missed the deadline.
+The law is not ambiguous about what that means.
+
+Give me the most conservative, legally accurate
+answer. I will verify with a legal aid organization
+before acting.
+:::
+
+*Follow-up:*
+::: prompt
+I don't have move-in photos. Does that kill my case?
+:::
+
+*Your Agent's response:*
+::: agent
+No. The burden of proof for deposit deductions is on
+the landlord, not the tenant. Your landlord must prove
+the damage existed and exceeded normal wear and tear.
+Your landlord provided no receipts, no photos, and
+three vague line items---that is the landlord's
+documentation problem, not yours.
+
+Move-in photos would strengthen your position, but
+their absence does not eliminate your claim. The
+30-day deadline violation stands on its own---in Ohio,
+missing the deadline means the landlord forfeits the
+right to claim deductions regardless of the merits of
+those deductions.
+
+If you have photos from any point during your tenancy
+---texted to a friend, posted on social media, or in
+a real estate listing---those can help establish the
+baseline condition of the apartment.
+:::
+
+::: also
+All four major tools can draft formal demand letters. Claude and ChatGPT generate well-structured letters when given the statute, the facts, and the tone. Gemini integrates with Google Docs for direct editing. Copilot works within Word. The letter is the easy part---knowing which statute to cite is where your Agent earns its keep.
+:::
