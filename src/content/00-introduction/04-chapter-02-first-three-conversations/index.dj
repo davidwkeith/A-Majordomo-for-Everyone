@@ -71,7 +71,7 @@ a customer service bot.
 
 Where to find it: in Claude, look for *Profile* in settings. In ChatGPT, *Custom Instructions*. In Gemini, *Saved Info*. All three are in the settings menu.
 
-The difference between a generic Agent and _your_ Agent is ten minutes in that panel. For the full setup — what to put in your profile, how to manage it, and what to skip — see WB-7: Customize Your Chat Interface in the Field Guide.
+The difference between a generic Agent and _your_ Agent is ten minutes in that panel. For the full setup — what to put in your profile, how to manage it, and what to skip — see WB-3: Customize Your Chat Interface in the Field Guide.
 
 ::: science
 There are two kinds of fit: the friend you like and the co-worker who makes you better. Psychologists call them [supplementary fit and complementary fit](https://en.wikipedia.org/wiki/Person%E2%80%93environment%5Ffit) (Muchinsky & Monahan, 1987). Supplementary fit — similarity in tone, values, communication style — predicts satisfaction and trust. You keep talking to the Agent because it feels right. Complementary fit — difference in thinking style — predicts performance. The detail-oriented person who pairs with a big-picture challenger makes better decisions than two detail people agreeing with each other (Belbin, 1981; Humphrey et al., 2007). The practical version: match your Agent's _voice_ to yours for comfort, but consider setting its _thinking style_ to challenge yours. _"When I present a plan, push back on the weakest part before agreeing"_ is a custom instruction that makes your Agent a better co-worker, not a nicer friend.[^2-3]

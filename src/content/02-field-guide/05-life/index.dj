@@ -69,7 +69,7 @@ invent details I haven't given you.
 [phone-camera-bigfoot]{.art}
 
 *Strategy:* Create + Diagnose
-*See also:* WB-8: Learning Any App or Digital Skill, Li-5: Planning Trips (for travel photography)
+*See also:* WB-1: Learning Any App or Digital Skill, Li-5: Planning Trips (for travel photography)
 *The Majordomo says:* _A professional portrait photographer charges $200 to $500 per session. A wedding photographer charges $2,000 to $5,000. Photography courses run $500 and up. The gap between a snapshot and a good photograph is not the camera — your phone has been good enough for years. The gap is composition, light, and knowing what to leave out of the frame. These are learnable skills. The billionaire class has a personal photographer on retainer. You have a patient tutor who has studied every composition technique Annie Leibovitz ever used and will explain them in terms of the photo you are about to take._
 *The spec:*
 ::: prompt
@@ -406,7 +406,7 @@ Mullainathan & Shafir (2013) document "scarcity mindset" — financial stress re
 
 #### Li-15: Learning Visual Design
 *Strategy:* Create + Research (Expert Role)
-*See also:* Li-3: Taking Better Photos (the same compositional principles apply), WB-1: Building Your Own Website (for applying design to your site), WB-8: Learning Any App or Digital Skill (for learning design software)
+*See also:* Li-3: Taking Better Photos (the same compositional principles apply), WB-5: Building Your Own Website (for applying design to your site), WB-1: Learning Any App or Digital Skill (for learning design software)
 *The Majordomo says:* _A graphic designer charges $50 to $150 an hour. A brand identity package — logo, colors, typography, templates — runs $5,000 and up. Design school is a four-year degree that teaches principles you can learn in an afternoon and taste you develop by doing. The principles are not secret. Hierarchy, contrast, alignment, proximity, repetition — five words that govern every poster, website, business card, and yard sale flyer you have ever seen. The difference between the yard sale flyer that works and the one nobody reads is not talent. It is knowing those five words and what they mean. The billionaire class has a design team on retainer. You have your Agent, and it knows the same principles._
 *The spec:*
 ::: prompt
@@ -650,7 +650,7 @@ Habit advice assumes discretionary time. If you are working two jobs or caregivi
 [camcorder]{.art}
 
 *Strategy:* Create + Navigate
-*See also:* Li-3: Taking Better Photos (the visual skills transfer), WB-8: Learning Any App or Digital Skill (for learning the software)
+*See also:* Li-3: Taking Better Photos (the visual skills transfer), WB-1: Learning Any App or Digital Skill (for learning the software)
 *The Majordomo says:* _Film school costs six figures and takes four years. YouTube tutorials on video editing assume you already know what a “J-cut” is and why you want one. Professional editors charge $50 to $150 an hour and are booked months out. Meanwhile, the software is free — [DaVinci Resolve](https://en.wikipedia.org/wiki/DaVinci%5FResolve) does what a $100,000 Avid suite did in 1995 — but the storytelling craft of editing, the part where raw footage becomes something someone wants to watch, has not been democratized. It still lives in film schools and editing suites. Your Agent knows the craft. It can tell you why the pacing feels off, what to cut, and where the story actually starts. It is never the first clip._
 *The spec:*
 ::: prompt
@@ -763,7 +763,7 @@ Write in plain text files — `.txt` or [CommonMark](https://commonmark.org/) `.
 
 Plain text is also what your Agent reads best. A `.docx` file is a compressed archive full of XML formatting markup that eats tokens — the units that determine how much your Agent can read and respond to in one conversation. On free tiers, where every token counts, a manuscript in `.docx` can consume twice the tokens of the same words in `.txt`. Your Agent reads plain text faster, and when it rewrites a chapter, it can hand you back the entire file — no formatting to reconstruct, no track changes to untangle.
 
-You do not need to buy anything. TextEdit is already on your Mac. Notepad is already on your PC. On your phone, a free text editor is one app store search away. If you need help setting it up, that is a conversation for your Agent — see WB-7: Choosing a Device or Operating System and WB-8: Learning Any App or Digital Skill. See also WB-3: Writing in CommonMark for the two-minute upgrade from plain text to light formatting.
+You do not need to buy anything. TextEdit is already on your Mac. Notepad is already on your PC. On your phone, a free text editor is one app store search away. If you need help setting it up, that is a conversation for your Agent — see WB-1: Learning Any App or Digital Skill. See also WB-7: Writing in CommonMark for the two-minute upgrade from plain text to light formatting.
 :::
 
 
