@@ -442,12 +442,12 @@ The appeal letter that wins is written at a level most patients cannot produce w
 
 In Strategy 1: Decode, you translated Measure H---a zoning downzone that would reduce housing supply in your neighborhood. You learned what it actually does: caps density at eight units per acre, requires conditional use permits for four or more units, and limits height to 35 feet in R-3 zones within 500 feet of single-family areas. You learned that "predatory developer" is campaign language, not a legal term. You learned the measure protects existing homeowners at the expense of future renters and housing supply. Now your city council is holding a public hearing before the vote. You have two minutes at the microphone. You've never spoken at a public hearing. You know what you think---the measure hurts renters---but you cannot get past the first sentence. The room will be full. A timer will count down. Your name and address go on the public record. Knowing the policy is one skill. Saying it out loud to a row of council members is a different one.
 
-*You:*
+*Your opening message:*
 ::: prompt
 Remember when we decoded Measure H---the zoning downzone on my ballot? The city council is holding a public hearing on it next Tuesday. I want to speak against it. I have two minutes. I've never spoken at a public hearing before. I don't want to sound like a policy wonk---I want to sound like a person who lives there.
 :::
 
-*Your Agent:*
+*Your Agent's clarifying questions:*
 ::: agent
 I remember the Measure H analysis. Good---you already know the substance. Now we need to turn that into something you can say out loud under pressure. A few questions before I draft:
 
@@ -462,7 +462,7 @@ I remember the Measure H analysis. Good---you already know the substance. Now we
 5. Do you know if anyone else is planning to speak against the measure, or will you be the only renter voice in the room?
 :::
 
-*You:*
+*Your answers:*
 ::: prompt
 Yes, renter in an R-3 zone. Four years in my apartment. This neighborhood is where I want to stay long-term.
 
@@ -475,7 +475,7 @@ Yes, fine with name and address.
 Not sure if anyone else is going. I don't know anyone else planning to speak against it.
 :::
 
-*Your Agent:*
+*Your Agent drafts:*
 ::: agent
 Here's a two-minute comment written for speaking, not reading. Practice it once out loud---time yourself. If it runs over 1:45, we'll cut.
 
@@ -498,14 +498,14 @@ I'm asking you to vote no. Thank you.
 This runs about a minute. You have margin. Do not fill it---short and clear beats long and thorough at a public hearing. The council has heard dozens tonight. Yours needs to be the one they remember because it was specific and human, not because it was comprehensive.
 :::
 
-*You:*
+*Your follow-up:*
 ::: prompt
 This sounds like a policy paper. I want to sound like a person who lives in the neighborhood, not someone who studied zoning law.
 :::
 
 *Your Agent:*
 ::: agent
-Fair. Here's the rewrite.
+Fair. Here's the revision.
 
 ---
 
