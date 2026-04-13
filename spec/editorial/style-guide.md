@@ -1,12 +1,18 @@
 # Style Guide
 
-*The mechanical rules that keep 80,000+ words consistent across drafting sessions. For voice, audience, and philosophy, see [voice-and-audience.md](voice-and-audience.md) and [principles.md](principles.md). For structural conventions (callouts, footnotes, entry anatomy), see [editorial-conventions.md](editorial-conventions.md).*
+*The mechanical rules that keep 80,000+ words consistent across drafting sessions. For voice, audience, and philosophy, see [voice-and-audience.md](voice-and-audience.md) and [principles.md](principles.md). For structural conventions (callouts, entry anatomy, art briefs), see [editorial-conventions.md](editorial-conventions.md).*
 
 ---
 
 ## Base Style Manual
 
 **Chicago Manual of Style, 17th edition.** Follow Chicago unless this guide specifies an exception. When Chicago offers multiple acceptable forms, prefer the simpler one.
+
+---
+
+## Readability
+
+- **Target:** Flesch-Kincaid Grade 8 throughout. The reader is smart. Short sentences are not condescending; they are respectful of the reader's time.
 
 ---
 
@@ -63,7 +69,7 @@ Preferred terms. Use the left column; never use the right column with the same m
 | the reader | the user, the customer, the consumer |
 | high-stakes | high-value, mission-critical, critical |
 
-**First-mention rule:** When a term the reader may not know appears for the first time, define it inline or link to Wikipedia. Do not assume vocabulary.
+**First-mention rule:** When a term the reader may not know appears for the first time, define it inline or link to Wikipedia (the Federation Database). Do not assume vocabulary.
 
 **"Claude" vs. "your Agent":** Use "your Agent" in all instructional prose. Use "Claude" only when discussing Claude-specific features (inside [ALSO] callouts or Appendix G) or when the sentence would be confusing without naming a specific product.
 
@@ -161,7 +167,10 @@ This section governs the ePub output and any web rendering.
 ## Citations and Footnotes
 
 - Per Chicago author-date in footnotes: `Author, A.B. (Year). "Title." *Journal*, Vol(Issue), Pages.`
-- Every citation must include a hyperlink to the source where available.
-- Footnotes reset per chapter. Field Guide entries use `[^{prefix}{entry}-{seq}]` format (e.g., `[^h4-1]`).
-- Strategy chapters use `[^s{number}-{seq}]` (e.g., `[^s2-1]`).
+- Every citation must include a hyperlink to the source. Journal articles: link to DOI, PubMed, or PMC. Books: link to the author's page for the book, falling back to bookshop.org, then archive.org for out-of-print titles. Reports and datasets: link to the issuing organization's page. Laws and statutes: link to the authoritative public text (congress.gov, uscode.house.gov, or equivalent).
+- Footnotes reset per chapter. Print = page-bottom. ePub = chapter-end.
+- Footnote ID formats:
+  - Field Guide entries: `[^{prefix}{entry}-{seq}]` (e.g., `[^h4-1]`, `[^li7-1]`)
+  - Strategy chapters: `[^s{number}-{seq}]` (e.g., `[^s2-1]`)
+  - Introduction and general-method chapters: `[^{chapter-number}-{seq}]` (e.g., `[^4-1]`, `[^30-1]`)
 - Do not cite sources you have not verified. If a citation is approximate, use `<!-- RESEARCH NEEDED -->`.

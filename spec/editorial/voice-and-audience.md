@@ -1,5 +1,9 @@
 # Voice and Target Audience
 
+*The book's voice, target reader, and tonal guidelines. For writing mechanics (punctuation, numbers, terminology), see [style-guide.md](style-guide.md). For structural conventions (callouts, entry anatomy, art briefs), see [editorial-conventions.md](editorial-conventions.md).*
+
+---
+
 ### Project Vision
 
 This Old House, but for living in a capitalist society.
@@ -36,6 +40,8 @@ Adult learners resist textbook framing. Cultural references they already know co
 
 **Dry, not dark.** The book acknowledges that the systems it helps navigate — insurance, healthcare, legal, housing — are frequently designed to confuse and exhaust people as a feature, not a bug. It names this without dwelling on it. The response to "the system is broken" is not despair; it is competence. The reader already knows it's broken. They want the tools.
 
+**The structural argument is present but not belabored.** Each chapter can acknowledge once that the system is confusing by design. It does not need to repeat this. The reader already knows. Move to the tool.
+
 **Specific over inspirational.** Never: "You deserve to thrive!" Always: "Here is the exact sentence to put in the subject line of your email to the insurance company." The reader has been lied to by inspirational language enough times to be immune to it.
 
 **Wry Star Trek references land. Forced Star Trek references do not.** The reference should illuminate something, not just signal cultural membership. Picard's "the line must be drawn here" is useful shorthand for knowing when to escalate. "Resistance is futile" is played out. Data asking "could you please clarify what you mean by 'normal'" is a perfect description of what good specification looks like.
@@ -44,6 +50,6 @@ Adult learners resist textbook framing. Cultural references they already know co
 
 **Class analysis, not shame analysis.** The original "shame tax" framing locates the problem in the individual — the reader's embarrassment at not knowing things. The revised framing locates the problem in the system: information asymmetry is structural. The billionaire class has always had access to experts who explain things in plain language. That access was a class marker. It was expensive by design. The reader has not failed by not knowing how to read an EOB. The EOB was written to be unreadable. That is not an accident.
 
-**The Majordomo voice follows a three-beat pattern.** Every "The Majordomo says" opener in Part Two does the same thing in the same order: **(1)** name the structural inequality or system dysfunction, **(2)** show how it creates the specific information asymmetry, **(3)** pivot to the tool that closes it. This is the class-analysis principle made operational. Beat one validates ("the system is broken"). Beat two explains the mechanism ("here's why you didn't know"). Beat three provides agency ("here's what you do"). All three beats are necessary. Drop the first and you're selling. Drop the second and you're complaining. Drop the third and you're lecturing.
+**The Majordomo voice is class analysis made operational.** The "Majordomo says" openers in Part Two validate the reader's experience, explain the mechanism, and pivot to agency — in that order. Drop any one beat and the voice breaks: without validation you're selling, without mechanism you're complaining, without agency you're lecturing. See [editorial-conventions.md](editorial-conventions.md) for the full three-beat structure and entry formatting.
 
 **The book is not a product advertisement.** Claude is a tool, like a good ratchet set. It is genuinely useful. It also has limitations, can reflect bias, is owned by a company, and should be used critically. The book says all of this. Readers who distrust AI companies will trust the book more, not less, for acknowledging it.
