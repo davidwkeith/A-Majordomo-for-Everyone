@@ -313,3 +313,164 @@ baseline condition of the apartment.
 ::: also
 All four major tools can draft formal demand letters. Claude and ChatGPT generate well-structured letters when given the statute, the facts, and the tone. Gemini integrates with Google Docs for direct editing. Copilot works within Word. The letter is the easy part---knowing which statute to cite is where your Agent earns its keep.
 :::
+
+### Example 3: Understanding Your Rights After Being Let Go
+
+You got called into a meeting. Your manager was there, along with an HR person you'd never met. They told you "we're going in a different direction" and that "this isn't performance-related." They handed you a paper---something about a severance payment and a release of claims. You walked to your desk, collected your things, and were escorted out. The whole thing took 20 minutes. You're now sitting at home, stunned, with no income, a paper you didn't sign, and no idea what just happened or what you're entitled to. The speed was the point. The employer wants you disoriented. They want you to sign the paper before you've had time to understand what it says or what you'd be giving up.
+
+*Your opening message:*
+::: prompt
+I just got let go from my job. They said "we're
+going in a different direction" and it's not
+performance-related. They gave me a paper to sign
+about severance but I didn't sign it. I don't know
+what my rights are or what I should do first.
+:::
+
+*Your Agent's clarifying questions:*
+::: agent
+I can help with this. A few things will determine
+what protections apply and what your options are:
+
+1. What state are you in?
+2. How long did you work there?
+3. How old are you? (This affects a specific legal
+   protection around severance agreements.)
+4. Were you the only person let go, or part of a
+   larger round?
+5. In the past few months, did you file any
+   complaints---discrimination, safety, pay,
+   anything?
+6. What does the severance paper say, specifically?
+   How much, and what does it ask you to give up?
+:::
+
+*Your answers:*
+::: prompt
+1. Michigan.
+2. Four years.
+3. 52.
+4. Just me, as far as I know.
+5. Yes---complained to HR about unpaid overtime
+   about two months ago.
+6. Offers two weeks' pay. Says I agree to a
+   "general release of all claims" and won't sue.
+   Also something about not saying anything
+   negative about the company.
+:::
+
+*Your Agent:*
+::: agent
+FIRST---WHAT TO DO THIS WEEK:
+— Do not sign the severance agreement yet. At 52,
+  the Older Workers Benefit Protection Act (OWBPA)
+  gives you a minimum of 21 days to consider any
+  severance that includes a release of age-related
+  claims. Plus seven days to revoke after signing.
+  A deadline shorter than 21 days makes the waiver
+  unenforceable.
+— File for unemployment today at michigan.gov/uia.
+  Do not wait. "Not performance-related" supports
+  eligibility. The determination is made by the
+  state, not your employer.
+— Write down everything you remember about the
+  meeting, the overtime complaint, and the last few
+  months. Dates, names, what was said. Memory
+  degrades fast.
+— Secure documentation: pay stubs, the overtime
+  complaint (email, form, anything), emails about
+  your performance, the severance agreement itself.
+
+THE OVERTIME COMPLAINT MATTERS:
+— You complained about unpaid overtime two months
+  ago, then got let go. Michigan law and federal
+  FLSA (29 U.S.C. § 215(a)(3)) prohibit
+  retaliation for wage complaints.
+— "Going in a different direction" and "not
+  performance-related" are not explanations---they
+  are the absence of an explanation. When an
+  employee files a wage complaint and is terminated
+  shortly after with no documented performance
+  reason, an employment attorney would call that a
+  fact pattern worth investigating.
+— This does not mean you were illegally retaliated
+  against. It means the question is worth asking
+  before you sign a document that eliminates your
+  right to ask it.
+
+THE SEVERANCE AGREEMENT:
+— Two weeks' pay for four years of employment is on
+  the low end. Severance is not legally required in
+  most situations---it is offered in exchange for
+  the release. The employer is buying your
+  signature.
+— "General release of all claims" means you give up
+  the right to pursue any legal action related to
+  your employment. That includes the overtime
+  complaint. That includes any retaliation claim.
+  That includes any age discrimination claim.
+— The non-disparagement clause is one-directional
+  ---you cannot say anything negative, but they can
+  say whatever they want about you unless you
+  negotiate mutual non-disparagement.
+— This agreement is negotiable. You can ask for:
+  more weeks of severance, COBRA subsidy for health
+  insurance, a neutral reference letter, mutual
+  non-disparagement, removal of any non-compete.
+  The employer offered because they want you to
+  sign. That means there is a negotiation.
+
+YOUR FINAL PAYCHECK:
+— Michigan requires final wages by the next regular
+  payday.
+— Check your employee handbook for accrued vacation.
+  Michigan does not require payout by statute, but
+  company policy may create an obligation.
+
+WHAT TO VERIFY INDEPENDENTLY:
+— Call a Michigan employment attorney. Many offer
+  free initial consultations. Overtime complaint
+  plus termination timing is the kind of fact
+  pattern they evaluate quickly.
+— File unemployment at michigan.gov/uia. Do not
+  wait for the severance question to resolve---
+  these are independent.
+— Do not sign until you have spoken to an attorney
+  or let the 21 days run while you gather
+  information.
+
+Give me the most conservative, legally accurate
+answer. I will verify with an employment attorney
+before acting.
+:::
+
+*Your follow-up:*
+::: prompt
+They said I have to sign within a week or the
+offer expires. Can they do that?
+:::
+
+*Your Agent:*
+::: agent
+No. You are 52. The Older Workers Benefit
+Protection Act requires a minimum 21-day
+consideration period for any severance agreement
+that includes a release of age-related claims.
+Plus seven days to revoke after signing. A deadline
+shorter than 21 days makes the age-related waiver
+unenforceable.
+
+If they said one week, they either do not know the
+law or they hope you do not. You have 21 days.
+Take them. Use them to talk to an attorney, file
+for unemployment, and decide whether two weeks' pay
+is worth giving up every claim you might have.
+
+The paper will still be there on day 20.
+:::
+
+::: science
+Most American workers believe "at-will employment" means their employer can terminate them for any reason with no legal consequences. The reality is narrower---at-will has well-established exceptions for discrimination, retaliation, violations of public policy, and implied contracts. The gap between what workers believe "at-will" means and what it actually means is one of the most consequential information asymmetries in American employment law. Your Agent knows the exceptions. Your employer's legal department does too.[^s8-2]
+:::
+
+[^s8-2]: Kim, P.T. (1997). "[Bargaining with Imperfect Information: A Study of Worker Perceptions of Legal Protection in an At-Will World](https://doi.org/10.2307/1073592)." _Cornell Law Review_, 83, 105--160.
