@@ -1,0 +1,387 @@
+---
+title: "Strategy 6: Diagnose"
+part: 1
+order: 6
+strategy: 6
+status: "draft"
+---
+
+## Strategy 6: Diagnose
+
+_Triage the problem before you call someone expensive._
+
+---
+
+[_[Home Improvement:S1](https://en.wikipedia.org/wiki/Home%5FImprovement%5F(TV%5Fseries)), 1991 — Al knew what was wrong. Tim had a drill. These are not the same thing._]{.art stem="trinitron-s6-diagnose"}
+
+---
+
+*The episode:* Every episode. Tim Taylor, host of the fictional home improvement show Tool Time, approaches every domestic repair with a consistent methodology: form a confident theory about what's wrong, skip the diagnostic step entirely, and apply maximum power. The theory is always wrong. The power makes it worse. Al Borland identifies the actual problem correctly before Tim begins, states it clearly, and is ignored. The repair escalates to a small disaster. Tim is mildly surprised.
+
+The repair manual existed. The diagnostic question existed. Al existed. Tim had a drill and a theory and a show to tape.
+
+*The lesson:* The repairperson, the specialist, and the contractor all charge from the moment of contact. Getting the diagnosis wrong before you call them costs you the price of the wrong fix plus the price of the right one. The AI has read the repair manual. It will ask the diagnostic questions Al always asked. Unlike Tim, you are going to listen.
+
+_"Tim Taylor had a drill and a theory. The theory was always wrong. The drill made it worse. Al Borland knew what the problem actually was and said so, politely, every time, in a way that Tim treated as an obstacle rather than a diagnostic tool. This chapter is about being Al."_
+
+---
+
+The repairperson, the specialist, the contractor, and the lawyer all charge from the moment you contact them. Knowing what the problem actually is before you make that call is worth money directly — and it also tells you whether you need to call at all.
+
+*What Diagnose is for:* Any situation where something is wrong and you don't know what it is or how serious it is, and finding out requires either expertise or a bill.
+
+*The core spec pattern:*
+
+::: prompt
+[Thing] is doing [behavior]. It started [when].
+Other relevant details: [what changed recently, what you've tried].
+I want to understand: what is likely causing this, how serious is it,
+and what is the first step I should take — including whether
+I actually need a professional or can handle this myself.
+:::
+
+::: meme
+["Have you tried turning it off and on again?"](https://en.wikipedia.org/wiki/The%5FIT%5FCrowd) is the entire history of first-level technical support compressed into one question. Diagnose is that question, applied to appliances, symptoms, legal situations, and financial problems, with substantially more useful follow-up.
+:::
+
+
+### Example 1: A Washing Machine Making a Grinding Noise
+
+The situation: your washing machine started making a loud grinding noise during the spin cycle two days ago. It still runs. You don't know if it's about to die, if you can fix it, or if you need to call someone. A repair visit starts at $150.
+
+*Your opening message:*
+::: prompt
+My washing machine is making a grinding noise during
+the spin cycle. It started two days ago. I don't know
+if this is serious or something I can fix.
+:::
+
+*Your Agent's clarifying questions:*
+::: agent
+I can help you narrow this down before you call anyone.
+A few questions:
+
+1. Is it a front-loading or top-loading machine?
+2. Approximately how old is it, and do you know the
+   brand and model?
+3. Does the grinding happen only during the spin cycle,
+   or also during wash or drain?
+4. Has anything changed recently — new type of load,
+   moved the machine, any repairs?
+5. Does it grind the entire spin cycle, or only at
+   high speed?
+6. Any other symptoms — vibration, leaking, clothes
+   not getting fully spun out?
+:::
+
+*Your answers:*
+::: prompt
+1. Front-loading.
+2. About six years old. It's a Samsung — I don't know
+   the exact model but I can check.
+3. Only during spin.
+4. Nothing changed. Same laundry we always do.
+5. Mostly at high speed.
+6. It vibrates more than it used to. No leaking.
+   Clothes seem fine.
+:::
+
+*Your Agent's diagnosis:*
+::: agent
+Based on what you've described, the most likely causes
+in order of probability:
+
+1. WORN DRUM BEARINGS (most likely). Front-loaders
+   rely on bearings that support the drum as it spins.
+   After 5-7 years of regular use, they wear out. The
+   grinding at high speed + increased vibration is the
+   classic signature. This will get worse over time
+   and can eventually damage the drum or outer tub.
+
+2. FOREIGN OBJECT between the drum and outer tub.
+   A coin, bra wire, or small item can slip through
+   the door seal and rattle during spin. Less likely
+   since it's grinding, not clinking, but worth
+   ruling out.
+
+3. WORN DRIVE BELT. Less common on newer Samsungs
+   (many use direct drive), but if yours has a belt,
+   wear can cause grinding and vibration.
+
+HOW SERIOUS: Not an emergency, but don't ignore it.
+Worn bearings won't destroy the machine tomorrow, but
+running it for weeks will damage other components and
+turn a $200-300 repair into a $600+ one or a
+replacement.
+
+FIRST STEPS YOU CAN DO NOW:
+— Check the model number (sticker inside the door
+  frame) — I can tell you if it's direct drive or belt
+— Run an empty spin cycle and listen — does the
+  grinding change if there's no load?
+— Pull back the rubber door gasket and look for
+  any foreign objects lodged in the gap
+— Check if the machine is level — all four feet
+  should be firmly on the floor
+
+WHAT TO TELL THE REPAIR TECH IF YOU CALL:
+"Front-loader, six years old, grinding at high speed
+during spin cycle with increased vibration. No leaks.
+Started two days ago. I suspect drum bearings."
+
+That sentence saves you the $150 diagnostic visit on
+most calls — many techs will quote the bearing
+replacement over the phone if you describe it that
+specifically.
+:::
+
+*Your follow-up:*
+::: prompt
+I checked — there's a small wire stuck in the gasket.
+Could that be it?
+:::
+
+*Your Agent:*
+::: agent
+Very possibly. Remove it carefully with needle-nose
+pliers, run a short empty cycle, and listen. If the
+grinding stops, you just saved yourself a repair call.
+If it continues, it's the bearings — but now you know,
+and you've ruled out the cheap fix first.
+:::
+
+::: tip
+The diagnostic questions your Agent asks are the same ones a good repair technician would ask on the phone before scheduling a visit. The difference: the technician charges for the visit whether or not the problem required one. Your Agent charges nothing, and if the answer is "pull the wire out of the gasket," you're done.
+:::
+
+
+### Example 2: Persistent Headaches That Started Two Weeks Ago
+
+The situation: you've had headaches nearly every day for two weeks. They weren't there before. You're caught between "it's probably nothing" and "what if it's serious" — the exact paralysis that makes people either ignore symptoms for months or go to the ER for something that's a Tuesday PCP visit.
+
+*Your opening message:*
+::: prompt
+I've been having headaches almost every day for about
+two weeks. This isn't normal for me. I don't know if
+I should be worried.
+:::
+
+*Your Agent's clarifying questions:*
+::: agent
+I can help you think through this, though I want to be
+clear: I'm not diagnosing you. I'm helping you figure
+out what kind of medical attention this warrants and
+what to tell your doctor. A few questions:
+
+1. Where is the pain — forehead, temples, back of
+   head, one side, all over?
+2. How would you describe it — throbbing, squeezing,
+   sharp, dull pressure?
+3. How severe on a 1-10 scale, and does it vary?
+4. Any of these: sudden onset (like a thunderclap),
+   worst headache of your life, vision changes,
+   numbness, neck stiffness, fever, confusion?
+5. What time of day are they worst?
+6. Anything that changed around two weeks ago — stress,
+   sleep, new medication, screen time, caffeine,
+   head injury?
+7. What have you tried — OTC pain meds, rest,
+   hydration? What helped?
+:::
+
+*Your answers:*
+::: prompt
+1. Mostly temples and forehead.
+2. Dull pressure, like a band around my head.
+3. About a 4-5 most days. Some days a 6.
+4. None of those, no.
+5. Worse in the afternoon and evening.
+6. Now that you mention it — I started a new job two
+   weeks ago. A lot more screen time. I've also been
+   drinking more coffee.
+7. Ibuprofen helps for a few hours.
+:::
+
+*Your Agent's assessment:*
+::: agent
+Based on your description, this pattern is most
+consistent with tension-type headaches — the most
+common headache type, and the one most strongly linked
+to the combination of factors you just described:
+increased screen time, postural stress (new desk setup),
+higher caffeine intake, and general life stress from
+a job transition.
+
+RED FLAGS: None present. You answered no to all the
+urgent screening questions (question 4). That's the
+most important finding — the things that would send
+you to urgent care tonight are not in your picture.
+
+WHAT THIS LIKELY IS: Tension headaches from a
+combination of ergonomic, lifestyle, and stress changes
+that all started at the same time. This is a PCP visit,
+not an urgent care visit.
+
+BEFORE YOUR APPOINTMENT, TRY:
+— Reduce caffeine gradually (don't quit suddenly —
+  caffeine withdrawal causes headaches too)
+— Check your desk ergonomics: screen at eye level,
+  arms at 90 degrees, take a 5-minute break every hour
+— Hydrate — coffee is a diuretic, and new-job stress
+  often means forgetting to drink water
+— If you wear glasses, check if your prescription
+  is current — increased screen time reveals outdated
+  prescriptions fast
+
+WHAT TO TELL YOUR DOCTOR:
+"New daily headaches for two weeks. Bilateral, pressure-
+type, 4-6/10, worse in afternoon, responsive to
+ibuprofen. Coincided with a new job with significantly
+more screen time and increased caffeine. No red flags —
+no sudden onset, no visual changes, no neck stiffness."
+
+That description uses the vocabulary your doctor uses
+and saves the first five minutes of the appointment.
+:::
+
+::: fairness
+Your Agent is not a doctor. It cannot examine you, order tests, or account for your full medical history. What it can do — and what this example shows — is help you distinguish "see your doctor this week" from "go to the ER tonight," and prepare you to use your appointment time efficiently. If any of the red-flag symptoms in question 4 were present, the only correct answer is "go now." The AI knows this and will say so.[^s6-1]
+:::
+
+
+[^s6-1]: The red-flag screening questions in this example are drawn from standard clinical triage protocols for headache evaluation, including the [SNOOP mnemonic](https://en.wikipedia.org/wiki/SNOOP%5F(mnemonic)) (Systemic symptoms, Neurological signs, Onset sudden, Older age, Pattern change) used in primary care. Your Agent has read these protocols. Your Agent is not licensed to apply them. The distinction matters.
+
+::: science
+Research on symptom presentation consistently shows that patients who arrive with organized, specific descriptions of their symptoms receive more accurate diagnoses and more efficient care. A 2007 study in _Patient Education and Counseling_ found that physician diagnostic accuracy improved significantly when patients used structured symptom descriptions rather than unstructured narratives (Langewitz et al., 2002).[^s6-2]
+:::
+
+
+[^s6-2]: Langewitz, W., Denz, M., Keller, A., Kiss, A., Rüttimann, S., & Wössmer, B. (2002). "Spontaneous talking time at start of consultation in outpatient clinic." [_BMJ_, 325(7366), 682-683.](https://doi.org/10.1136/bmj.325.7366.682)
+
+### Example 3: An HVAC Quote That Seems High
+
+The situation: your air conditioning stopped cooling. You called an HVAC company. The technician came out, spent twenty minutes, and quoted you $8,200 to replace the entire system. You have no idea if the system actually needs replacing or if the quote is fair. You're about to spend more than you've ever spent on a single purchase based on one person's assessment.
+
+*Your opening message:*
+::: prompt
+I got a quote for $8,200 to replace my HVAC system.
+The tech said the compressor is shot and it's not
+worth repairing. I don't know if that's true or if
+this price is reasonable.
+:::
+
+*Your Agent's clarifying questions:*
+::: agent
+That's a big number to commit to on one opinion.
+Let me help you evaluate it. A few questions:
+
+1. How old is the current system?
+2. Do you know the brand, model, or tonnage? (Check
+   the label on the outdoor unit if you can.)
+3. What exactly stopped working — no cool air at all,
+   weak cooling, strange noises?
+4. Did the tech explain what's wrong with the
+   compressor specifically?
+5. What's included in the $8,200 — equipment only,
+   or equipment + labor + permits + disposal?
+6. Did they give you a written quote with line items,
+   or just a verbal number?
+7. Is this a company you've used before?
+:::
+
+*Your answers:*
+::: prompt
+1. About 14 years old.
+2. It's a Carrier — I can go look at the label.
+3. Blowing air but not cold.
+4. He said the compressor failed and the refrigerant
+   leaked out. Said it's an R-22 system and they don't
+   make that refrigerant anymore so repair isn't worth it.
+5. I'm not sure. He just said $8,200 installed.
+6. Verbal. He said he'd email the written quote.
+7. No, first time. Found them on Google.
+:::
+
+*Your Agent's diagnosis of the quote:*
+::: agent
+The tech may be right about the compressor, but there
+are several things to check before committing to $8,200.
+
+THE DIAGNOSIS:
+The R-22 detail is real and important. R-22 (Freon) was
+phased out in 2020. If your system uses R-22, recharging
+it is expensive ($75-150/lb, and a full charge can be
+10-15 lbs). A compressor replacement on an R-22 system
+at 14 years old is genuinely a borderline repair-vs-
+replace situation. The tech isn't necessarily wrong.
+
+BUT — WHAT TO VERIFY:
+1. Is the compressor actually failed, or is this a
+   refrigerant leak that could be repaired? A leak
+   and a compressor failure are different problems
+   with different costs. Ask the tech to specify.
+
+2. Get the written quote with line items. It should
+   break down:
+   — Equipment (brand, model, tonnage, SEER rating)
+   — Labor (hours, rate)
+   — Permits and inspection
+   — Removal/disposal of old system
+   — Warranty terms (parts AND labor, how many years)
+   — Ductwork modification (if any)
+   If any of those are missing, that's a red flag.
+
+3. Check the tonnage. Your home's square footage
+   determines what size system you need. A common
+   upsell is quoting a larger system than necessary.
+   What's the square footage of your home?
+
+WHAT $8,200 SHOULD GET YOU:
+For a standard 3-ton, 14-16 SEER system with
+installation in most markets, $7,000-10,000 is a
+normal range. So $8,200 isn't outrageous — but you
+can't evaluate it without line items.
+
+YOUR NEXT STEPS:
+1. Wait for the written quote. Do not sign anything
+   verbal.
+2. Get a second quote. Call a different company and
+   describe the symptoms — don't say "I was told I
+   need a new system." Let them diagnose independently.
+3. Ask both companies: "Is there a repair option, and
+   if so, what would it cost vs. replacement?" Make
+   them justify the replace recommendation.
+4. Check if your utility offers rebates for high-SEER
+   replacements — many do, and it can knock $500-1,500
+   off the price.
+
+Want me to help you evaluate the written quote once
+you receive it?
+:::
+
+*Your follow-up:*
+::: prompt
+He also mentioned something about a "conversion to
+R-410A" — is that a thing?
+:::
+
+*Your Agent:*
+::: agent
+Yes. R-410A is the current standard refrigerant. Any
+new system will use it. The "conversion" isn't an
+upsell — it's what happens when you replace an R-22
+system. But make sure the quote includes new refrigerant
+lines compatible with R-410A. Some contractors reuse
+old lines, which can cause problems. That should be a
+line item on the written quote.
+:::
+
+::: tip
+The phrase "is there a repair option, and what would it cost versus replacement?" is the single most valuable Diagnose question for any contractor interaction. It forces them to justify the more expensive recommendation. If they can't — or won't — that tells you something.
+:::
+
+
+::: also
+For complex diagnostic conversations like this, paste the contractor's written quote directly into the chat. In Claude, you can upload the PDF. In ChatGPT, paste the text or upload an image of the quote. In Gemini, paste the text. Your Agent will read every line item the way a second contractor would — except it has no incentive to upsell you.
+:::
+

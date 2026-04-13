@@ -2,16 +2,12 @@ import { readFile, readdir, writeFile, mkdir, stat } from 'node:fs/promises';
 import { join, basename, dirname, resolve, extname } from 'node:path';
 import sharp from 'sharp';
 import matter from 'gray-matter';
-import { unified } from 'unified';
-import remarkParse from 'remark-parse';
-import remarkGfm from 'remark-gfm';
-import remarkRehype from 'remark-rehype';
-import rehypeStringify from 'rehype-stringify';
-import remarkCallouts from './plugins/callouts.js';
-import remarkArtBriefs, { discoverBriefs } from './plugins/art-briefs.js';
-import type { ArtBrief } from './plugins/art-briefs.js';
-import rehypeConversations from './plugins/conversations.js';
-import rehypeEndnotes from './plugins/endnotes.js';
+import { parse, renderHTML, applyFilter } from '@djot/djot';
+import { calloutFilter } from './filters/callouts.js';
+import { discoverBriefs } from './filters/art-briefs.js';
+import type { ArtBrief, ArtBriefContext, XmpData } from './filters/art-briefs.js';
+import { conversationFilter } from './filters/conversations.js';
+import { EndnoteState, epubOverrides, renderNotesSection } from './filters/endnotes.js';
 import type { ChapterMeta, ProcessedChapter } from './types.js';
 
 export const ROOT = resolve(import.meta.dirname, '..', '..');
@@ -28,19 +24,90 @@ export const STYLE_GUIDE = join(
 export { discoverBriefs };
 export type { ArtBrief };
 
-export function createProcessor(briefs: Map<string, ArtBrief>) {
-  return unified()
-    .use(remarkParse)
-    .use(remarkGfm)
-    .use(remarkCallouts)
-    .use(remarkArtBriefs, { imagesDir: IMAGES_DIR, briefs })
-    .use(remarkRehype, { allowDangerousHtml: true })
-    .use(rehypeConversations)
-    .use(rehypeEndnotes)
-    .use(rehypeStringify, {
-      closeSelfClosing: true,
-      allowDangerousHtml: true,
-    });
+/** Extract XMP metadata fields from an image using Sharp. */
+async function readXmp(imagePath: string): Promise<XmpData> {
+  const result: XmpData = {};
+  try {
+    const meta = await sharp(imagePath).metadata();
+    if (!meta.xmp) return result;
+
+    const xmpStr = meta.xmp.toString('utf-8');
+
+    const altMatch = xmpStr.match(
+      /Iptc4xmpCore:AltTextAccessibility[^>]*>([^<]+)</
+    );
+    if (altMatch) result.altText = altMatch[1].trim();
+
+    const descMatch = xmpStr.match(
+      /dc:description[\s\S]*?<rdf:li[^>]*>([^<]+)<\/rdf:li>/
+    );
+    if (descMatch) result.description = descMatch[1].trim();
+
+    const rightsMatch = xmpStr.match(
+      /dc:rights[\s\S]*?<rdf:li[^>]*>([^<]+)<\/rdf:li>/
+    );
+    if (rightsMatch) result.rights = rightsMatch[1].trim();
+  } catch {
+    // Image unreadable or no XMP — fall back to brief fields
+  }
+  return result;
+}
+
+/**
+ * Pre-read XMP data and check image existence for all briefs.
+ * Must be called once before processing chapters, since Djot filters
+ * are synchronous and cannot do async I/O.
+ */
+export async function prepareArtContext(
+  briefs: Map<string, ArtBrief>,
+  imagesDir: string
+): Promise<ArtBriefContext> {
+  const xmpCache = new Map<string, XmpData>();
+  const existingImages = new Set<string>();
+
+  await Promise.all(
+    [...briefs.values()].map(async (brief) => {
+      const imagePath = join(imagesDir, `${brief.stem}.${brief.format}`);
+      try {
+        await stat(imagePath);
+        existingImages.add(brief.stem);
+        const xmp = await readXmp(imagePath);
+        xmpCache.set(brief.stem, xmp);
+      } catch {
+        // Image does not exist
+      }
+    })
+  );
+
+  return { imagesDir, briefs, xmpCache, existingImages };
+}
+
+/**
+ * Process Djot content through the full filter pipeline and render to HTML.
+ */
+export function processContent(
+  content: string,
+  artCtx: ArtBriefContext
+): string {
+  // Strip HTML comments (editorial notes like RESEARCH NEEDED)
+  const cleaned = content.replace(/<!--[\s\S]*?-->/g, '');
+
+  const doc = parse(cleaned);
+
+  applyFilter(doc, calloutFilter);
+  applyFilter(doc, conversationFilter);
+
+  // Render HTML with epub overrides (handles art briefs, callouts,
+  // conversations, endnotes, sections, and XHTML self-closing tags)
+  const endnoteState = new EndnoteState();
+  const mainHtml = renderHTML(doc, {
+    overrides: epubOverrides(endnoteState, artCtx),
+  });
+
+  // Append endnotes section if any footnotes were referenced
+  const notesHtml = renderNotesSection(doc, endnoteState);
+
+  return mainHtml + notesHtml;
 }
 
 export async function discoverChapters(): Promise<string[]> {
@@ -48,13 +115,13 @@ export async function discoverChapters(): Promise<string[]> {
   return entries
     .filter(
       (f: string) =>
-        f.endsWith('.md') && !f.endsWith('.art.md') && !basename(f).startsWith('_')
+        f.endsWith('.dj') && !basename(f).startsWith('_')
     )
     .map((f: string) => join(CONTENT_DIR, f));
 }
 
 export function parseSlug(filePath: string): string {
-  const name = basename(filePath, '.md');
+  const name = basename(filePath, '.dj');
   if (name === 'index') {
     return basename(dirname(filePath));
   }
@@ -63,7 +130,7 @@ export function parseSlug(filePath: string): string {
 
 export async function processChapter(
   filePath: string,
-  processor: ReturnType<typeof createProcessor>
+  artCtx: ArtBriefContext
 ): Promise<ProcessedChapter> {
   const raw = await readFile(filePath, 'utf-8');
   const { data, content } = matter(raw);
@@ -78,8 +145,7 @@ export async function processChapter(
     sourceFile: filePath,
   };
 
-  const result = await processor.process(content);
-  let html = String(result);
+  let html = processContent(content, artCtx);
 
   // Strip the first heading if it duplicates the frontmatter title.
   if (meta.title) {

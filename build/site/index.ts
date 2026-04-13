@@ -5,8 +5,8 @@ import {
   CONTENT_DIR,
   STYLES_DIR,
   IMAGES_DIR,
-  createProcessor,
   discoverBriefs,
+  prepareArtContext,
   discoverChapters,
   processChapter,
   sortChapters,
@@ -27,7 +27,9 @@ async function buildSite(): Promise<void> {
   const briefs = discoverBriefs(CONTENT_DIR);
   console.log(`Found ${briefs.size} art brief(s)`);
 
-  const processor = createProcessor(briefs);
+  // Pre-read XMP data for all briefs (Djot filters are synchronous)
+  console.log('Preparing art context...');
+  const artCtx = await prepareArtContext(briefs, IMAGES_DIR);
 
   console.log('Discovering chapters...');
   const files = await discoverChapters();
@@ -35,7 +37,7 @@ async function buildSite(): Promise<void> {
 
   console.log('Processing chapters...');
   const chapters = await Promise.all(
-    files.map((f) => processChapter(f, processor))
+    files.map((f) => processChapter(f, artCtx))
   );
   const sorted = sortChapters(chapters);
 

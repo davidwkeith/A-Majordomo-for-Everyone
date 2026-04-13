@@ -129,8 +129,8 @@ All three beats required. Drop one and it lectures, complains, or sells.
 5. **Problem-centered, not subject-centered:** Entry title is the problem ("Appealing an Insurance Denial"), not the skill ("How to Write Persuasive Letters").
 6. **Links are currency.** Link to Wikipedia (the Federation Database), DOIs, statutes, tools. Footnote citations must include hyperlinks.
 7. **Episode references:** `[Show:SxEy "Title"](wikipedia-url), Year`
-8. **Six callout types:** `[SCIENCE]`, `[TIP]`, `[FAIRNESS]`, `[MEME]`, `[SPEC]`, `[ALSO]` — written as blockquotes with bold brackets.
-9. **Art briefs** are `.art.md` sidecar files. Chapter references: `<!-- art: stem-name -->`. Never delete an art brief.
+8. **Six callout types:** `science`, `tip`, `fairness`, `meme`, `spec`, `also` — written as Djot fenced divs (`::: type`).
+9. **Art briefs** are `.art.md` sidecar files. Chapter references: `[stem-name]{.art}`. Never delete an art brief.
 10. **Conventional commits.** Semver. Tag releases.
 
 ## Illustration System
@@ -155,4 +155,4 @@ The book aligns with five Roddenberry values: Urgency (lead with friction moment
 - **Most complete:** Introduction (Part 0), Strategies (Part 1) — all drafted with epigraphs and art briefs
 - **Partially complete:** Field Guide Health domain (19 entries), Legal, Home, Life, Work, Civic (partially drafted)
 - **Stubs:** Chores domain (3 entries), Ch 33 (Advanced Free Tier), Money domain
-- **Build:** CommonMark -> remark/rehype pipeline -> ePub 3.0. `npm run build` to build, `npm test` to test.
+- **Build:** Djot → `@djot/djot` filters → ePub 3.0. `npm run build` to build, `npm test` to test.
