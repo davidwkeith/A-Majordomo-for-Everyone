@@ -7,8 +7,8 @@ import {
   STYLES_DIR,
   IMAGES_DIR,
   STYLE_GUIDE,
-  createProcessor,
   discoverBriefs,
+  prepareArtContext,
   discoverChapters,
   processChapter,
   sortChapters,
@@ -21,7 +21,7 @@ import { BOOK_META } from './types.js';
 
 const OUTPUT_PATH = join(ROOT, 'dist', 'a-majordomo-for-everyone.epub');
 
-function imageExists(imagesDir: string, brief: ArtBrief): boolean {
+function imageExistsSync(imagesDir: string, brief: ArtBrief): boolean {
   try {
     accessSync(join(imagesDir, `${brief.stem}.${brief.format}`));
     return true;
@@ -43,7 +43,7 @@ async function build(): Promise<void> {
 
   // Check for missing images
   const missing = [...briefs.values()].filter(
-    (b) => !imageExists(IMAGES_DIR, b)
+    (b) => !imageExistsSync(IMAGES_DIR, b)
   );
   if (missing.length > 0) {
     if (shouldGenerate) {
@@ -57,7 +57,9 @@ async function build(): Promise<void> {
     }
   }
 
-  const processor = createProcessor(briefs);
+  // Pre-read XMP data for all briefs (Djot filters are synchronous)
+  console.log('Preparing art context...');
+  const artCtx = await prepareArtContext(briefs, IMAGES_DIR);
 
   console.log('Discovering chapters...');
   const files = await discoverChapters();
@@ -65,7 +67,7 @@ async function build(): Promise<void> {
 
   console.log('Processing chapters...');
   const chapters = await Promise.all(
-    files.map((f) => processChapter(f, processor))
+    files.map((f) => processChapter(f, artCtx))
   );
   const sorted = sortChapters(chapters);
 

@@ -1,0 +1,347 @@
+---
+title: "Strategy 4: Navigate"
+part: 1
+order: 4
+strategy: 4
+status: "draft"
+---
+
+## Strategy 4: Navigate
+
+_Find the path through a multi-step process you have never done before._
+
+---
+
+[_[Seinfeld:S4E20 "The Junior Mint"](https://en.wikipedia.org/wiki/The%5FJunior%5FMint), 1993 — The correct procedure existed. Step one was "tell someone." Nobody took step one._]{.art stem="trinitron-s4-navigate"}
+
+---
+
+*The episode:* Jerry and Kramer end up in a hospital observation gallery, watching a surgical procedure. Kramer, leaning too far over the railing, accidentally drops a Junior Mint into the open body cavity. The correct process in this situation is immediate and obvious: tell the surgeon. Instead, they say nothing. They hope the mint will be absorbed. The patient nearly dies. Then, improbably, recovers — the surgeon later credits the mint with introducing a life-saving element into the wound.
+
+The recovery is luck. The navigation failure was a choice. The process existed. Step one was "tell someone immediately." Nobody took step one, and the subsequent steps — monitoring the situation, hoping for the best, not telling anyone — were an improvised sequence invented in the absence of the correct one.
+
+*The lesson:* Large institutions rely on the fact that most people have never filed a small claims case, appealed an insurance denial, or contested a property tax assessment before. The process is not secret. It is just nowhere near you. The AI has read it and will give you the steps in the correct order, with the deadlines flagged, from wherever you currently are. You do not have to invent the sequence. You just have to follow it.
+
+_"Large institutions rely on the fact that most people have never filed a small claims case, appealed an insurance denial, requested a FOIA document, or contested a property tax assessment before. The process is not secret. It is just nowhere near you."_
+
+---
+
+*What Navigate is for:* Any multi-step process you've never done before where the sequence matters and missing a step has consequences.
+
+*The core spec pattern:*
+
+::: prompt
+I need to [accomplish specific goal] through [institution/system].
+I have never done this before.
+My current situation is [where you are in the process, if anywhere].
+Please give me numbered steps in the exact order I need to do them,
+including any deadlines or time-sensitive elements I should know about.
+:::
+
+::: meme
+["It's a Unix system. I know this."](https://en.wikipedia.org/wiki/Jurassic%5FPark%5F(film)) The Jurassic Park scene works because Lex has just enough knowledge of the interface to navigate a system she's never seen before and get out alive. Your Agent is the Unix system. This book is the thirty seconds of orientation.
+:::
+
+
+### Example 1: Filing for Unemployment Benefits
+
+The situation: you were let go last Friday. An email from the CEO said "position eliminated, replaced by AI." You have never filed for unemployment. You don't know if you qualify, where to start, or what the deadlines are.
+
+*Your opening message:*
+::: prompt
+I just lost my job. I think I can file for unemployment
+but I don't know how.
+:::
+
+*Your Agent's clarifying questions:*
+::: agent
+I can help you navigate this. A few questions first:
+
+1. What state are you in?
+2. Were you laid off, fired, or did you resign?
+3. How long were you employed at this job?
+4. Were you a W-2 employee or a contractor (1099)?
+5. Have you filed for unemployment before?
+:::
+
+*Your answers:*
+::: prompt
+1. California
+2. Laid off — they said "position eliminated."
+3. About two and a half years.
+4. W-2 employee.
+5. Never. I have no idea how this works.
+:::
+
+*Your Agent proposes the navigation:*
+::: agent
+Here's your step-by-step path. California unemployment
+is handled through the EDD (Employment Development
+Department). You qualify based on what you've described.
+
+STEP 1: File your initial claim online at UI Online
+(edd.ca.gov). Do this NOW — benefits are backdated to
+the week you file, not the week you lost the job.
+Every week you wait is a week of benefits you lose.
+
+STEP 2: You'll need the following to complete the form:
+— Social Security number
+— Driver's license or state ID number
+— Your last employer's name, address, and phone number
+— Your employment dates and last day worked
+— Reason for separation (select "laid off / lack of work")
+
+STEP 3: After filing, EDD will mail you a paper form
+(DE 4581) within 5-7 days. Fill it out and return it.
+This is a required identity verification step — your
+claim stalls if you skip it.
+
+STEP 4: Wait for your EDD Award Letter. This tells you
+your weekly benefit amount and the duration.
+
+STEP 5: Certify for benefits every two weeks. This is
+the step people miss — you must log in to UI Online
+every two weeks and confirm you are still looking for
+work. If you forget, you don't get paid for those weeks.
+
+DEADLINES:
+— File within your first week if possible (benefits
+  don't backdate before your filing date)
+— Certify every two weeks, no exceptions
+— You have 10 days to respond to any EDD requests
+  for additional information
+
+Does this match your situation? Anything I should
+adjust — for example, did you receive any severance?
+:::
+
+*Your correction:*
+::: prompt
+Yes, I did get two weeks severance. Does that change anything?
+:::
+
+*Your Agent adjusts:*
+::: agent
+Severance can delay when benefits start, depending on
+how your employer reports it. In California, if the
+severance is allocated as "continued pay" for specific
+weeks, benefits won't start until those weeks end. If
+it's a lump sum, it usually doesn't affect your claim.
+
+When you file, report the severance honestly. EDD will
+determine how it applies. The important thing: file NOW
+even with the severance. Don't wait until the severance
+runs out — the claim date still matters.
+:::
+
+::: science
+Research on administrative burden (Herd & Moynihan, 2018) shows that complex application processes function as de facto gatekeeping — the people most in need of benefits are the least likely to complete multi-step enrollment because the cognitive cost of navigating the process compounds with the stress of the situation that created the need. Having the steps laid out before you start is not a convenience. It is the difference between completing the process and abandoning it.[^s4-1]
+:::
+
+
+[^s4-1]: Herd, P., & Moynihan, D.P. (2018). [_Administrative Burden: Policymaking by Other Means._](https://www.russellsage.org/publications/administrative-burden) Russell Sage Foundation.
+
+### Example 2: Filing a First-Level Insurance Appeal
+
+The situation: your insurance denied coverage for an MRI your doctor ordered. The letter says "not medically necessary." You know you can appeal but have no idea what the process looks like or how long you have.
+
+*Your opening message:*
+::: prompt
+My insurance denied my MRI. The letter says I can appeal.
+How do I do this?
+:::
+
+*Your Agent's clarifying questions:*
+::: agent
+I'll walk you through the process. Let me ask:
+
+1. Is this employer-provided insurance, marketplace
+   (ACA), Medicare, or Medicaid?
+2. What's the insurance company?
+3. Does the denial letter mention a specific appeals
+   deadline?
+4. Has your doctor said anything about next steps?
+5. Is the MRI for something urgent, or can it wait
+   a few weeks while the appeal is processed?
+:::
+
+*Your answers:*
+::: prompt
+1. Employer-provided — through work.
+2. Anthem Blue Cross.
+3. It says I have 180 days to file an internal appeal.
+4. My doctor's office said they'd provide a letter of
+   medical necessity if I need one.
+5. My doctor wants it done within a month but it's not
+   an emergency.
+:::
+
+*Your Agent proposes the navigation:*
+::: agent
+Good — you have time and your doctor is willing to
+support the appeal. Here's the path:
+
+STEP 1: Call your doctor's office TODAY and request
+the letter of medical necessity. Ask them to include:
+— the diagnosis and clinical rationale for the MRI
+— why alternative imaging (X-ray, CT) is insufficient
+— any relevant clinical guidelines that support the MRI
+
+STEP 2: While you wait for the letter, call the number
+on your denial letter and ask for:
+— the specific clinical criteria they used to deny
+— the name and credentials of the reviewer who denied
+— the exact address to send the appeal
+These three things give you the frame for your letter.
+
+STEP 3: Write the appeal letter. I'll draft this for
+you once you have the info from Steps 1 and 2. It will:
+— reference the denial by claim number and date
+— attach the letter of medical necessity
+— cite the clinical criteria and explain why you meet them
+— request expedited review given your doctor's timeline
+
+STEP 4: Send the appeal by certified mail with return
+receipt. Keep the tracking number. Also submit it
+through the online portal if Anthem has one — belt
+and suspenders.
+
+STEP 5: If the internal appeal is denied, you have the
+right to an external review by an independent third
+party. Anthem is required to tell you how to request
+this. This is the step most people don't know exists.
+
+TIMELINE:
+— Anthem must respond to the internal appeal within
+  30 days (15 for urgent/pre-service)
+— You have 180 days to file, but sooner is better
+— External review adds another 45 days
+
+Want me to draft the appeal letter now, or do you want
+to gather the information from Steps 1 and 2 first?
+:::
+
+*Your evaluation:*
+::: prompt
+I'll get the info first. But — what if the external
+review also denies it?
+:::
+
+*Your Agent:*
+::: agent
+After external review, you have two more escalation
+paths most people never reach:
+
+1. File a complaint with your state's Department of
+   Insurance (CDI in California). This creates a
+   regulatory record and can reopen the case.
+
+2. If your plan is employer-provided (ERISA), you may
+   have the right to file in federal court, though at
+   that point you want a patient advocate or attorney.
+
+The escalation ladder exists. The insurance company is
+betting you'll stop at step one.
+:::
+
+::: tip
+The question "what happens if this step fails?" is the Navigate power move. Every bureaucratic process has an escalation path. Your Agent knows what it is. Ask.
+:::
+
+
+### Example 3: Filing a Small Claims Case
+
+The situation: your former landlord kept your $2,400 security deposit. It's been 45 days. You sent a demand letter (see Strategy 3: Draft). No response. You want to take them to small claims court but have never done it.
+
+*Your opening message:*
+::: prompt
+My landlord kept my security deposit. I sent a demand
+letter three weeks ago, no response. I want to file
+in small claims court. I've never done this.
+:::
+
+*Your Agent's clarifying questions:*
+::: agent
+Small claims court is designed for exactly this. Let me
+confirm a few details:
+
+1. What state and county are you in?
+2. How much is the deposit?
+3. Do you have documentation — move-in photos,
+   move-out photos, the lease, the demand letter?
+4. Did the landlord send you an itemized deduction
+   statement?
+5. Do you know the landlord's legal name and address
+   for service?
+:::
+
+*Your answers:*
+::: prompt
+1. Santa Clara County, California.
+2. $2,400.
+3. I have photos from both, the lease, and a copy of
+   the demand letter I sent certified mail.
+4. No itemized statement. Nothing.
+5. Yes, it's on the lease.
+:::
+
+*Your Agent proposes the navigation:*
+::: agent
+You have a strong case. In California, a landlord must
+return the deposit OR provide an itemized statement of
+deductions within 21 days of move-out. Failure to do so
+entitles you to up to 2x the deposit in bad faith
+penalties. You're past 45 days with no communication.
+
+STEP 1: Fill out form SC-100 (Plaintiff's Claim and
+ORDER to Go to Small Claims Court). Available at
+courts.ca.gov or the Santa Clara County Superior Court
+clerk's office. List the amount as $2,400 (deposit) plus
+up to $2,400 (bad faith penalty under Civil Code §1950.5)
+— the judge decides the penalty, but you claim it.
+
+STEP 2: File the form at the Santa Clara County Superior
+Court clerk's office. Filing fee is $75 for claims
+under $5,000. Pay it — you can request this back if
+you win.
+
+STEP 3: Serve the landlord. You CANNOT serve them
+yourself. Options:
+— Have any adult who is not a party to the case hand-
+  deliver the papers (free but requires coordination)
+— Use the sheriff's office ($40, reliable)
+— Use a registered process server ($50-100)
+Get proof of service — you'll need to file form SC-104.
+
+STEP 4: Prepare your evidence packet:
+— Lease showing deposit amount
+— Move-in and move-out photos (dated)
+— Copy of demand letter + certified mail receipt
+— Calendar showing 21-day deadline and 45-day gap
+— Screenshot or record of no response
+
+STEP 5: Show up on your court date. Small claims has
+no lawyers — it's you and the landlord in front of a
+judge. Present your case in order: amount paid, lease
+terms, condition at move-out, photos, demand letter
+sent, no response, no itemized statement, time elapsed.
+Be factual. Be brief. Let the evidence do the work.
+
+DEADLINES:
+— File SC-100 within 2 years of move-out (you're fine)
+— Serve the landlord at least 15 days before the
+  hearing (30 days if they're out of county)
+— Bring 2 copies of everything to court
+
+Want me to help you fill out the SC-100 form?
+:::
+
+::: fairness
+Small claims court was designed to be accessible without a lawyer, but "accessible" assumes familiarity with forms, filing procedures, and courtroom norms that many people encounter for the first time under stress. If English is not your primary language, request an interpreter — the court is required to provide one. If you have a disability that affects your ability to attend in person, request accommodation when you file. These rights exist. They are not always offered. Ask.
+:::
+
+
+::: also
+When your Agent gives you a multi-step navigation like this, save the conversation. In Claude, use a Project to keep all related conversations in one place. In ChatGPT, pin the conversation or use a custom GPT. In Gemini, use a Gem with the case context saved as instructions. You'll come back to this conversation multiple times as you move through the steps.
+:::
+

@@ -25,7 +25,7 @@ Art direction lives in `.art.md` sidecar files next to each chapter:
 
 ```
 src/content/01-strategies/00-strategy-0-specify/
-  index.md                        # chapter prose
+  index.dj                        # chapter prose (Djot markup)
   trinitron-s0-specify.art.md     # art brief (frontmatter + production brief)
 ```
 
@@ -42,10 +42,12 @@ alt: >
 Production brief for the illustrator.
 ```
 
-Chapters reference art by stem name only:
+Chapters reference art by stem name, with an optional inline caption:
 
-```markdown
-<!-- art: trinitron-s0-specify -->
+```djot
+[trinitron-s0-specify]{.art}
+
+[_[Seinfeld:S4E3 "The Pitch"](url), 1992 — Caption text._]{.art stem="trinitron-s0-specify"}
 ```
 
 Built images go in `src/images/`. If the image exists, the ePub renders a `<figure>`; if not, a placeholder box with the alt text and brief appears instead.
@@ -106,14 +108,14 @@ See `spec/illustration/gem-illustration-instructions.md` for the full visual sty
 
 ## Structure
 
-The manuscript is CommonMark with YAML frontmatter. The spec is the source of truth:
+The manuscript is [Djot](https://djot.net) with YAML frontmatter. The spec is the source of truth:
 
 ```
 spec/editorial/    # voice, conventions, principles, cultural references
 spec/illustration/ # illustrator agent instructions, art briefs
-src/content/       # chapters as directories (index.md + .art.md sidecars)
+src/content/       # chapters as directories (index.dj + .art.md sidecars)
 src/images/        # produced illustrations
-build/             # TypeScript pipeline: CommonMark → ePub 3.0
+build/             # TypeScript pipeline: Djot → ePub 3.0
 ```
 
 ## License

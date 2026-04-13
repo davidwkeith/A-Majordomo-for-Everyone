@@ -37,7 +37,7 @@ CI runs on every push and PR to main (`.github/workflows/build.yml`): type-check
 spec/                # All editorial, visual, and structural specifications
   editorial/         # Voice, conventions, principles, cultural references
   illustration/      # Illustrator agent instructions and art briefs
-src/content/         # CommonMark chapter files with YAML frontmatter
+src/content/         # Djot chapter files (.dj) with YAML frontmatter
   00-introduction/   # Epigraph, Foreword, "How to Use", Chapters 1-4
   01-strategies/     # Strategy 0-9
   02-field-guide/    # Field Guide entries by domain
@@ -46,7 +46,7 @@ src/content/         # CommonMark chapter files with YAML frontmatter
 src/styles/          # ePub CSS
 src/images/          # Cover + chapter illustrations
 build/               # TypeScript build pipeline
-  plugins/           # remark/rehype plugins (callouts, art-briefs, endnotes)
+  filters/           # Djot filters (callouts, art-briefs, conversations, endnotes)
   epub/              # ePub 3.0 assembly (templates, jszip)
   embed-xmp.ts       # XMP metadata embedding utility
 dist/                # Output (gitignored)
@@ -54,7 +54,15 @@ dist/                # Output (gitignored)
 
 ## Pipeline
 
-CommonMark → remark-parse → remark-gfm → remarkCallouts → remarkArtBriefs → remark-rehype → rehypeConversations → rehypeEndnotes → rehype-stringify → jszip ePub 3.0
+Djot → `@djot/djot` parse → calloutFilter → artBriefFilter → conversationFilter → renderHTML (with epubOverrides for endnotes, sections, hr) → jszip ePub 3.0
+
+## Djot Syntax
+
+Content files use [Djot](https://djot.net) markup (`.dj` extension). Key differences from CommonMark:
+
+- `_italic_` for emphasis (not `*italic*`)
+- `*bold*` for strong (not `**bold**`)
+- Smart typography is automatic: `"` → curly quotes, `---` → em-dash, `--` → en-dash, `...` → ellipsis
 
 ## Chapter Frontmatter
 
@@ -86,13 +94,17 @@ Production brief for the illustrator. This is the body of the file,
 not a frontmatter field.
 ```
 
-**Chapter reference** — just the stem name:
+**Chapter reference** — an inline span. Without caption, the stem is the text content. With caption, the stem moves to an attribute and the caption becomes the text:
 
-```markdown
-<!-- art: image-name -->
+```djot
+[image-name]{.art}
+
+[_[Show:S1E1 "Title"](url), Year — Caption text._]{.art stem="image-name"}
 ```
 
-**Image output** always goes to `src/images/`. The build resolves `<!-- art: name -->` by looking up the `.art.md` sidecar, then checking `src/images/{name}.{format}`. If the image exists and contains XMP metadata, the embedded `Iptc4xmpCore:AltTextAccessibility` is used for alt text. If the image does not exist, a placeholder box renders with the alt text and brief in an expandable `<details>` element.
+Captions render as `<figcaption>` inside the `<figure>`. Inline markup (emphasis, links) is supported in captions.
+
+**Image output** always goes to `src/images/`. The build resolves `[name]{.art}` by looking up the `.art.md` sidecar, then checking `src/images/{name}.{format}`. If the image exists and contains XMP metadata, the embedded `Iptc4xmpCore:AltTextAccessibility` is used for alt text. If the image does not exist, a placeholder box renders with the alt text and brief in an expandable `<details>` element.
 
 **Missing art** — use `--generate` to invoke image generation for missing images:
 
@@ -103,14 +115,34 @@ npm run build -- --generate   # generate missing art, then build ePub
 Embed XMP into produced images:
 
 ```bash
-npx tsx build/embed-xmp.ts src/images/file.png --from src/content/path/to/chapter.md
+npx tsx build/embed-xmp.ts src/images/file.png --from src/content/path/to/file.art.md
 ```
 
 ## Callout Syntax
 
-Six types, written as blockquotes: `> **[SCIENCE]**`, `> **[TIP]**`, `> **[FAIRNESS]**`, `> **[MEME]**`, `> **[SPEC]**`, `> **[ALSO]**`
+Six types, written as fenced divs: `::: science`, `::: tip`, `::: fairness`, `::: meme`, `::: spec`, `::: also`
+
+```djot
+::: science
+Studies show this works.
+:::
+```
 
 Each callout type has a hand-drawn notebook doodle icon (Cool S, Bohr atom, star, yin-yang, 3D cube, block arrow) that varies naturally across appearances.
+
+## Conversation Syntax
+
+Prompt and agent conversation blocks use fenced divs:
+
+```djot
+::: prompt
+Help me understand this bill.
+:::
+
+::: agent
+I can help with that. A few questions...
+:::
+```
 
 ## Episode Reference Format
 

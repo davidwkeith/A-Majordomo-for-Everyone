@@ -1,0 +1,43 @@
+---
+title: "Appendix B: Spec Interview Starters"
+part: 4
+order: 1
+strategy: null
+status: "draft"
+---
+
+## Appendix B: Spec Interview Starters
+
+_(50 opening lines -- one per common situation -- designed to trigger the specification interview loop. The reader pastes the starter, Claude asks the clarifying questions, and the loop begins. No blank page.)_
+
+*Before a doctor's appointment:*
+> "I have an appointment about [condition] on [date]. Please help me write a list of questions to ask, starting with the most important."
+
+*After getting a medical bill you don't understand:*
+> "I received this medical bill and don't understand some of the charges. [Paste bill text.] Can you explain each line in plain language?"
+
+*Before signing any contract:*
+> "I am about to sign this agreement. [Paste text.] Please summarize what I am agreeing to, flag anything unusual, and list the three things I should pay most attention to."
+
+*When a repair quote seems high:*
+> "I got a quote of $[amount] to repair [item]. Is this within the normal range? What questions should I ask the contractor before agreeing?"
+
+*When you get a collections notice:*
+> "I received a collections notice for $[amount] from [company]. I'm not sure if this is legitimate. What are my rights and what should I do first?"
+
+*When you need to write a complaint:*
+> "I need to write a formal complaint to [company] about [situation]. I want to be firm and specific, and I want to ask for [resolution]. Please draft this as a letter."
+
+*When you're preparing for a difficult conversation:*
+> "I need to talk to [person] about [topic]. I want to [goal]. I'm worried about [concern]. Can you help me think through what to say?"
+
+*When a ballot measure is confusing:*
+> "I am voting on [measure name or paste text]. Please explain in plain language what it does, who supports it and why, and who opposes it and why."
+
+_(12 additional situations to complete the sheet -- to be added in final draft)_
+
+---
+
+## Appendix B: The Spec Starter Library
+
+_(50 fill-in-the-blank templates organized by chapter -- to be completed in final draft)_

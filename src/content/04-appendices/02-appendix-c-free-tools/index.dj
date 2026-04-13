@@ -1,0 +1,26 @@
+---
+title: "Appendix C: Free Tools Reference"
+part: 4
+order: 2
+strategy: null
+status: "draft"
+---
+
+## Appendix C: Free Tools Reference
+
+This appendix is a link, not a table. Free tier limits, tool capabilities, and best-use comparisons change faster than any publication cycle can track. The companion site maintains a current version:
+
+*→ [a-majordomo-for-everyone.dwk.io/tools](https://a-majordomo-for-everyone.dwk.io/tools)*
+
+The page covers:
+- Current free tier limits for Claude, ChatGPT, Gemini, and Copilot
+- Which tools include web search on the free tier (this changes)
+- Best use by task type, updated as tools evolve
+- New tools worth knowing about as they reach general availability
+- Running an agent locally
+
+*What stays stable enough to print:*
+
+The rotation principle does not change: each major AI assistant has free capacity, and for the tasks in this book all of them are adequate. When one runs out, use another. The skill being taught is tool-agnostic. The specific limits are a link.
+
+The one durable comparison: Copilot (Microsoft) has historically had the most generous free access and includes Bing web search at no cost. It is the most reliable backup when other tools throttle. Verify current status at the companion site.

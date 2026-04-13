@@ -74,10 +74,12 @@ materials spec (pencil, ballpoint, etc.) only when deviating
 from the default.
 ```
 
-**Chapter reference** — placed at the exact position where the image should render:
+**Chapter reference** — placed at the exact position where the image should render. Without caption, the stem is the text content. With caption, the stem moves to an attribute:
 
-```markdown
-<!-- art: image-name -->
+```djot
+[image-name]{.art}
+
+[_Caption text with inline markup._]{.art stem="image-name"}
 ```
 
 **Frontmatter fields:**
@@ -91,7 +93,7 @@ from the default.
 **Rules:**
 
 - One art brief per image. One image per brief.
-- The `<!-- art: stem -->` reference appears in the chapter markdown at the exact location where the image should render. It is positional.
+- The `[stem]{.art}` reference appears in the chapter Djot at the exact location where the image should render. It is positional.
 - If the image file exists and contains XMP metadata, the embedded `Iptc4xmpCore:AltTextAccessibility` is used for alt text (falling back to the sidecar's `alt` field).
 - If the image file does not exist, the pipeline renders a placeholder box with the alt text and brief in an expandable `<details>` element.
 - Alt text must be meaningful on its own. "An illustration" is not alt text. "A hand-drawn EOB form with three fields circled and annotated: Amount Billed, Allowed Amount, and Patient Responsibility" is alt text.
@@ -122,14 +124,14 @@ notes are in the same hand as the chapter opener drawings —
 slightly cramped, slightly urgent.
 ```
 
-Chapter reference in `src/content/02-field-guide/01-health/index.md`:
+Chapter reference in `src/content/02-field-guide/01-health/index.dj`:
 
-```markdown
+```djot
 The EOB arrives. It looks like a receipt but it is not a receipt. It is
 an explanation of what happened to your money after the insurance company
 finished deciding what your health is worth.
 
-<!-- art: eob-annotated -->
+[eob-annotated]{.art}
 
 Ask Claude to decode this. Paste the EOB. The three numbers that matter
 are the ones circled above.
@@ -157,11 +159,11 @@ ballpoint over pencil grid. No CRT effects. Transparent background.
 
 **Build pipeline behavior:**
 
-The build pipeline discovers all `.art.md` sidecar files at startup and builds a registry keyed by stem name. When processing chapter markdown:
+The build pipeline discovers all `.art.md` sidecar files at startup and builds a registry keyed by stem name. When rendering chapter Djot:
 
-1. Parses `<!-- art: stem -->` reference comments.
+1. Matches `[stem]{.art}` spans (no caption) or `[_caption_]{.art stem="stem"}` spans (with caption).
 2. Looks up the stem in the brief registry.
-3. If `src/images/{stem}.{format}` exists: reads XMP metadata for alt text (falls back to sidecar alt), renders `<figure class="inline-graphic inline-graphic-{size}"><img src="../images/{file}" alt="{alt}"/></figure>`.
+3. If `src/images/{stem}.{format}` exists: reads XMP metadata for alt text (falls back to sidecar alt), renders `<figure class="inline-graphic inline-graphic-{size}"><img ... alt="{alt}"/></figure>`. If a caption is present, appends `<figcaption>`.
 4. If the image does not exist: renders a placeholder `<figure>` with a `<details>` element containing the alt text and brief.
 
 Use `--generate` to invoke image generation for missing images: `npm run build -- --generate`.

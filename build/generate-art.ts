@@ -4,7 +4,7 @@ import { join } from 'node:path';
 import { execFile } from 'node:child_process';
 import { promisify } from 'node:util';
 import sharp from 'sharp';
-import type { ArtBrief } from './plugins/art-briefs.js';
+import type { ArtBrief } from './filters/art-briefs.js';
 
 const execFileAsync = promisify(execFile);
 
