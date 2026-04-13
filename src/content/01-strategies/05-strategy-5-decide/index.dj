@@ -51,7 +51,7 @@ Decision fatigue — the degradation of decision quality after a sustained perio
 
 ### Example 1: Repair or Replace a Washing Machine
 
-The situation: your washing machine stopped draining mid-cycle. It's eight years old — a basic top-loader you bought at a big-box store. A repair tech came out, diagnosed a failed drain pump, and quoted $380 for parts and labor. A new comparable machine is $650. You're not sure which option is smarter.
+The situation: your washing machine stopped draining mid-cycle. It's 8 years old — a basic top-loader you bought at a big-box store. A repair tech came out, diagnosed a failed drain pump, and quoted $380 for parts and labor. A new comparable machine is $650. You're not sure which option is smarter.
 
 *Your opening message:*
 ::: prompt
@@ -94,9 +94,9 @@ OPTION A: REPAIR ($380)
 — Fixes the immediate problem. You have a working
   machine within a day or two.
 — The Whirlpool WTW4816FW has an average lifespan of
-  10-13 years. At 8 years with no prior repairs, you're
+  10--13 years. At 8 years with no prior repairs, you're
   in the middle of its useful life, not the end.
-— Risk: another component could fail in the next 2-5
+— Risk: another component could fail in the next 2--5
   years. Drain pumps are one of the more common failures
   and usually aren't a sign of broader mechanical decline.
 — The 50% rule of thumb says repair if the cost is less
@@ -107,27 +107,27 @@ OPTION A: REPAIR ($380)
 OPTION B: REPLACE ($650)
 — New machine, new warranty (typically 1 year parts and
   labor). Full expected lifespan ahead of you.
-— You'll need delivery and installation, which adds $0-80
+— You'll need delivery and installation, which adds $0--80
   depending on the retailer. Haul-away of the old machine
-  is usually included or $25-50.
-— Timeline: in-stock models can arrive in 3-7 days.
+  is usually included or $25--50.
+— Timeline: in-stock models can arrive in 3--7 days.
   If you need a machine this week, check availability
   before you decide.
-— A basic top-loader in 2026 uses roughly 15-25% less
+— A basic top-loader in 2026 uses roughly 15--25% less
   water and energy than a 2018 model. At average utility
-  rates, that saves $30-50 per year — meaningful over a
+  rates, that saves $30--50 per year — meaningful over a
   decade, but not enough to drive this decision alone.
 
 THE ASSUMPTION YOU'RE MAKING:
 Both options assume the repair quote is fair. $380 for
-a drain pump replacement is in the normal range ($250-450
+a drain pump replacement is in the normal range ($250--450
 nationally), but you could get a second quote. The drain
-pump part itself is typically $50-120; the rest is labor.
+pump part itself is typically $50--120; the rest is labor.
 
 THE REAL QUESTION:
 This is a $270 decision, not a $650 decision. You're
-choosing between spending $380 now for 2-5 more years
-of use, or $650 now for 10-13 years. The per-year cost:
+choosing between spending $380 now for 2--5 more years
+of use, or $650 now for 10--13 years. The per-year cost:
 — Repair: $380 ÷ ~3 remaining years = ~$127/year
 — Replace: $650 ÷ ~11 years = ~$59/year
 
@@ -153,7 +153,7 @@ If the next repair is another $300+, you've crossed the
 replacement cost and have an older machine.
 
 One way to think about it: the repair is a bet that the
-machine has 2-3 good years left. If you'd be angry at
+machine has 2--3 good years left. If you'd be angry at
 yourself for spending $380 and then replacing it in 12
 months anyway, the replacement might be the better fit
 for your risk tolerance — not because the math demands
@@ -182,8 +182,8 @@ Can you explain my options without telling me what to do?
 
 *Your Agent's clarifying questions:*
 ::: agent
-Good question to be asking. A few things will make the
-comparison specific to your situation:
+A few things will make the comparison specific to
+your situation:
 
 1. What's your approximate annual income (gross — before
    taxes)?
@@ -322,7 +322,7 @@ Financial advice from any source — human or AI — carries implicit assumption
 
 ### Example 3: Settle or Escalate a Landlord Dispute
 
-The situation: your apartment has had a persistent mold problem in the bathroom. You reported it four months ago. The landlord sent someone who painted over it. The mold came back within three weeks. You reported it again. The landlord hasn't responded in six weeks. Your kid has been coughing more. You want it fixed. You're also afraid of retaliation — you're month-to-month, and you know the landlord can end your tenancy with 60 days notice.
+The situation: your apartment has had a persistent mold problem in the bathroom. You reported it 4 months ago. The landlord sent someone who painted over it. The mold came back within 3 weeks. You reported it again. The landlord hasn't responded in 6 weeks. Your kid has been coughing more. You want it fixed. You're also afraid of retaliation — you're month-to-month, and you know the landlord can end your tenancy with 60 days notice.
 
 *Your opening message:*
 ::: prompt
@@ -351,7 +351,7 @@ so let me be precise. A few questions:
 *Your answers:*
 ::: prompt
 1. California.
-2. Month-to-month. I was on a one-year lease that
+2. Month-to-month. I was on a 1-year lease that
    ended in March and converted to month-to-month.
 3. First by text in November, then by email in January.
    I have both.
@@ -392,7 +392,7 @@ OPTION B: NEGOTIATE DIRECTLY WITH DOCUMENTATION
   someone to fix it yourself and deduct the cost from
   rent — up to one month's rent.
 — Cost to you: the cost of mold remediation if you use
-  repair-and-deduct (typically $500-3,000 for a bathroom,
+  repair-and-deduct (typically $500--3,000 for a bathroom,
   depending on severity). You deduct this from rent.
 — Advantage: faster resolution. You control the timeline.
 — Risk: the landlord may dispute the deduction. Without
@@ -462,7 +462,7 @@ landlord just ignores the code enforcement notice too?
 If the landlord ignores a code enforcement notice,
 the stakes escalate — for the landlord, not for you:
 
-1. The city can issue fines, typically $100-1,000 per
+1. The city can issue fines, typically $100--1,000 per
    day of noncompliance, depending on jurisdiction.
 2. Repeated violations can result in the property being
    cited as substandard housing, which affects the
@@ -491,13 +491,13 @@ evidence.
 :::
 
 ::: science
-Mold exposure in residential settings is associated with a 30-50% increase in respiratory symptoms and asthma development in children, with the strongest effects in children under five (Fisk, Lei-Gomez & Mendell, 2007). The health cost of inaction is not hypothetical — it is measurable, and it falls disproportionately on renters in low-income housing where deferred maintenance is most common and tenants are least likely to assert their rights.[^s5-3]
+Mold exposure in residential settings is associated with a 30--50% increase in respiratory symptoms and asthma development in children, with the strongest effects in children under 5 (Fisk, Lei-Gomez & Mendell, 2007). The health cost of inaction is not hypothetical — it is measurable, and it falls disproportionately on renters in low-income housing where deferred maintenance is most common and tenants are least likely to assert their rights.[^s5-3]
 :::
 
 
 [^s5-3]: Fisk, W.J., Lei-Gomez, Q. & Mendell, M.J. (2007). ["Meta-analyses of the associations of respiratory health effects with dampness and mold in homes."](https://doi.org/10.1111/j.1600-0668.2007.00475.x) _Indoor Air_, 17(4), 284-296.
 
 ::: meme
-"We were on a break." Ross and Rachel's problem was not the break. It was the ambiguous spec. Your landlord dispute has the same structure: the word "resolved" means different things to you and the landlord. Paint over the mold? Resolved. Mold comes back in three weeks? Not resolved. A code enforcement inspection resolves the ambiguity the same way a clarifying question would have resolved Ross and Rachel's — by putting the definition on the record before anyone acts on it.
+"We were on a break." Ross and Rachel's problem was not the break. It was the ambiguous spec. Your landlord dispute has the same structure: the word "resolved" means different things to you and the landlord. Paint over the mold? Resolved. Mold comes back in 3 weeks? Not resolved. A code enforcement inspection resolves the ambiguity the same way a clarifying question would have resolved Ross and Rachel's — by putting the definition on the record before anyone acts on it.
 :::
 
