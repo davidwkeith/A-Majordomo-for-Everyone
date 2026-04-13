@@ -56,3 +56,147 @@ Research on [health literacy](https://en.wikipedia.org/wiki/Health%5Fliteracy) c
 
 
 *Worked examples:* Before a knee arthroscopy. Before signing a non-compete clause. Between two college financial aid offers.
+
+### Example 1: Before a Knee Arthroscopy
+
+The situation: your orthopedist looked at an MRI and recommended arthroscopic surgery for a medial meniscus tear. Outpatient, routine. The scheduler called to book it before you left the office. You don't feel scared---you feel handled. Everything is moving and nobody asked if you had questions. The gap isn't fear; it's speed. The institution is optimized to move you from diagnosis to operating room. Your job is to slow down long enough to find out whether the operating room is the right next step.
+
+*Your opening message:*
+::: prompt
+My doctor says I need knee surgery for a torn meniscus.
+It's arthroscopic, outpatient. They want to schedule it
+for next month. What should I know before I say yes?
+:::
+
+*Your Agent's clarifying questions:*
+::: agent
+I can lay out what you need to know. A few things will
+sharpen the research:
+
+1. What does the MRI report say about the tear type?
+   Meniscectomy and repair have different outcomes and
+   very different recovery timelines.
+2. Has physical therapy been tried or discussed?
+3. Where are you in your deductible this year, and what's
+   your coinsurance after that?
+4. What are the physical demands of your job? Recovery
+   timeline matters differently for desk work vs.
+   on-your-feet work.
+5. Is there a medical reason for the urgency, or is this
+   scheduling convenience?
+:::
+
+*Your answers:*
+::: prompt
+1. MRI says medial meniscus tear. Didn't say what kind
+   of surgery they're planning.
+2. Nobody mentioned PT. Went straight to "you need
+   surgery."
+3. $1,200 left on my deductible. I have an 80/20 plan
+   after that.
+4. On my feet most of the day---I work in a warehouse.
+5. No urgency mentioned. Just "let's get you scheduled."
+:::
+
+*Your Agent:*
+::: agent
+Here is what you need to know before you say yes:
+
+WHAT YOUR MRI MEANS
+A medial meniscus tear is the most common knee injury.
+Not all tears require surgery. The right treatment
+depends on tear type, your age, activity level, and
+whether you have osteoarthritis in the joint. None of
+that is visible in "torn meniscus."
+
+TWO DIFFERENT SURGERIES
+Your surgeon may be planning one of two procedures, and
+the difference matters:
+
+— Partial meniscectomy (removal): Trims the damaged
+  tissue. Shorter recovery (2--6 weeks back on your
+  feet). Standard for complex tears. But it removes
+  cushioning permanently and raises your long-term
+  risk of osteoarthritis in that knee.
+— Meniscus repair (stitching): Sutures the tear.
+  Longer recovery (3--6 months, restricted
+  weight-bearing). Better long-term outcomes for
+  younger, active patients with repairable tears.
+
+You need to know which one your surgeon is planning.
+If they haven't said, ask before you schedule anything.
+
+THE PHYSICAL THERAPY QUESTION
+A 2013 study in the New England Journal of Medicine
+(Katz et al.) found that physical therapy produced
+outcomes comparable to surgery at 6 and 12 months
+for many tear types.[^s7-2] PT is not a lesser option.
+It is a first-line treatment your surgeon may not have
+mentioned because surgeons do surgery. This does not
+mean surgery is wrong. It means PT-first is a
+reasonable path your surgeon skipped over.
+
+QUESTIONS TO ASK YOUR SURGEON
+1. Is this a meniscectomy or a repair?
+2. How many of these do you do per month?
+3. What is your expected recovery timeline for someone
+   with my job?
+4. Would you support a 6-week PT trial before surgery?
+5. What is the facility fee for outpatient arthroscopy
+   at this center?
+
+THE COST QUESTION
+Outpatient arthroscopy total: $5,000--$15,000 (surgeon
++ facility + anesthesia), depending on location. With
+$1,200 remaining on your deductible and 80/20
+coinsurance, your out-of-pocket could be $1,200 + 20%
+of whatever remains above that. Ask for a cost estimate
+before you schedule. An ambulatory surgery center is
+typically 30--50% cheaper than a hospital outpatient
+department for the same procedure.
+
+WHAT TO VERIFY INDEPENDENTLY
+— Call your insurance: get pre-authorization and a cost
+  estimate before scheduling.
+— Ask your surgeon about PT-first. If they dismiss it
+  without explanation, that's information too.
+— Second opinion: your insurance covers it.
+
+Give me the most conservative answer. I will verify
+with my orthopedist before deciding.
+:::
+
+*Your follow-up:*
+::: prompt
+Wait---my doctor didn't mention physical therapy as
+an option. Is that normal?
+:::
+
+*Your Agent:*
+::: agent
+Yes, common. Orthopedic surgeons recommend surgery---that's
+their training and their practice. That doesn't
+mean PT won't work. It means a surgeon's default
+recommendation is the tool they specialize in.
+
+This isn't adversarial. Your surgeon isn't trying to
+mislead you. Their recommendation starts from their
+expertise. A physical therapist's recommendation would
+start from different expertise.
+
+The Katz study is one of the most-cited papers in
+orthopedic medicine. If your surgeon dismisses it
+without engaging the question, consider the second
+opinion your insurance already covers.
+
+You are not challenging your doctor by asking
+questions. You are doing what the billionaire class
+has always done: showing up informed.
+:::
+
+::: also
+All four major AI tools can read medical documents. Upload your MRI report as a PDF or photo---Claude calls this document analysis, ChatGPT calls it file upload, Gemini reads documents natively in conversation, Copilot handles PDFs in Microsoft Edge. The radiology terminology is the same across all of them. The feature name is the only thing that changes.
+:::
+
+
+[^s7-2]: Katz, J.N. et al. (2013). "[Surgery versus Physical Therapy for a Meniscal Tear and Osteoarthritis](https://doi.org/10.1056/NEJMoa1301408)." _New England Journal of Medicine_, 368(18), 1675--1684.
