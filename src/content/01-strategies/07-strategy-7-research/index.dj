@@ -200,3 +200,141 @@ All four major AI tools can read medical documents. Upload your MRI report as a 
 
 
 [^s7-2]: Katz, J.N. et al. (2013). "[Surgery versus Physical Therapy for a Meniscal Tear and Osteoarthritis](https://doi.org/10.1056/NEJMoa1301408)." _New England Journal of Medicine_, 368(18), 1675--1684.
+
+### Example 2: Before Signing a Non-Compete Clause
+
+The situation: you're a vet tech who's been offered a new job. Better pay, better hours, better commute. The employment agreement arrived by email---"please review and sign before your start date." Standard onboarding language. Page 6, paragraph 14: a non-compete clause. You noticed it because the language was unusually specific: "shall not engage in competitive employment within a radius of twenty (20) miles for a period of eighteen (18) months following termination of employment." You don't know if this is standard, aggressive, or meaningless. You don't want to make trouble before your first day. You also don't want to sign something that could prevent you from working if this job doesn't work out.
+
+*Your opening message:*
+::: prompt
+I'm starting a new job as a vet tech and the employment
+agreement has a non-compete clause. It says I can't work
+in veterinary services within 20 miles for 18 months if
+I leave. Is this normal? Should I be worried?
+:::
+
+*Your Agent's clarifying questions:*
+::: agent
+This is worth understanding before you sign. A few
+things will sharpen the research:
+
+1. What state are you in? Non-compete law varies
+   dramatically by state.
+2. What's your salary at this new position?
+3. Does the clause define "competitive employment"
+   or "veterinary services" more specifically?
+4. Is there a signing bonus, training investment, or
+   other consideration specifically tied to the
+   non-compete?
+5. Have you signed yet, or are you reviewing before
+   your start date?
+:::
+
+*Your answers:*
+::: prompt
+1. Texas.
+2. $48,000.
+3. It says "veterinary services"---no further
+   definition.
+4. No signing bonus. No training clause. Just the
+   standard employment agreement.
+5. Haven't signed yet. Start date is in two weeks.
+:::
+
+*Your Agent:*
+::: agent
+Here is what you need to know before you sign:
+
+TEXAS NON-COMPETE LAW---THE SHORT VERSION
+Texas enforces non-competes, with requirements. Under
+Texas Business & Commerce Code §15.50, a non-compete
+must be: (1) ancillary to an otherwise enforceable
+agreement, (2) supported by consideration, and
+(3) reasonable in scope, geography, and duration.
+"Reasonable" is where courts have room to push back.
+20 miles and 18 months is on the aggressive end
+for a vet tech.
+
+WHAT 20 MILES ACTUALLY MEANS
+In a metro area like Dallas--Fort Worth, a 20-mile
+radius covers dozens of veterinary clinics. If
+enforced, you'd need to commute outside that radius
+or leave vet work entirely for 18 months. For a
+senior veterinarian with a portable client book,
+this is an inconvenience. For a vet tech making
+$48,000, this is a career freeze.
+
+THE CONSIDERATION PROBLEM
+Texas requires the non-compete be tied to
+consideration---something of value in exchange.
+A signing bonus, proprietary training access, or
+trade secrets can qualify. A standard employment
+agreement without additional consideration may
+weaken enforceability. No signing bonus and no
+special training clause is relevant. Doesn't mean
+the clause is automatically void, but it weakens it.
+
+YOU CAN NEGOTIATE THIS
+Employment agreements are not take-it-or-leave-it,
+even for non-executive positions. Reasonable
+modifications: reduce the radius from 20 to 10
+miles, shorten the duration from 18 to 12 months,
+narrow "veterinary services" to the specific
+specialty at this clinic.
+
+Language you can email them:
+"I'm excited about the role and looking forward to
+starting. Before I sign, I'd like to discuss the
+non-compete clause on page 6. Would you be open to
+adjusting the radius to 10 miles and the duration
+to 12 months? I think that's fair for both of us."
+
+WHAT TO VERIFY INDEPENDENTLY
+— Read Texas Business & Commerce Code §15.50---it's
+  short and readable.
+— Many employment attorneys offer a free 30-minute
+  consultation. One call can tell you whether this
+  clause is likely enforceable in your county.
+— Ask the clinic: "Has this clause ever been enforced
+  against a departing employee?" The answer tells you
+  whether this is a real business concern or
+  boilerplate.
+:::
+
+*Your follow-up:*
+::: prompt
+Can I actually negotiate this? I'm a vet tech, not
+a lawyer. I don't want to lose the job offer by
+making waves before I even start.
+:::
+
+*Your Agent:*
+::: agent
+The fear is real---the power dynamic is real. You
+need the job; they have other applicants. That's
+the situation.
+
+But asking to modify a clause is not the same as
+rejecting the offer. Employers expect some
+negotiation. If they don't, that's information
+about the employer.
+
+The suggested language is deliberately
+non-confrontational. It opens with enthusiasm,
+frames the request as mutual, and asks a question
+rather than making a demand. If the employer
+refuses any modification---won't change a word---
+you've learned something important about how they
+treat employees. A workplace that insists on maximum
+legal restriction before you've started is telling
+you how they'll handle disagreements after you've
+started.
+
+Either way, you're making the decision with
+information instead of without it. That's what
+Research is for.
+:::
+
+::: fairness
+Non-competes disproportionately bind workers with the least negotiating power. A senior veterinarian with a portable client book can negotiate the clause, absorb the restriction, or hire a lawyer to challenge it. A vet tech making $48,000 cannot afford 18 months of career freeze within a 20-mile radius. The same clause applied to both workers has radically different impacts. Several states have recognized this asymmetry and passed salary thresholds below which non-competes are unenforceable. Your Agent can tell you whether your state is one of them---and what your options are if it isn't.
+:::
