@@ -158,7 +158,7 @@ Al at the shoe store counter, making his point to no one in particular. Al was r
 
 ## Closing Paragraph
 
-Al Bundy sold shoes for eleven seasons and suspected, correctly, that the systems around him were not designed in his favor. The difference between Al and the reader who just finished this chapter is not knowledge — Al knew. The difference is the citation. The landlord, the gym, and the employer all operated on the assumption that you didn't know what the law said. Now you do. The other party already knew. Now you're even.
+Al Bundy sold shoes for 11 seasons and suspected, correctly, that the systems around him were not designed in his favor. The difference between Al and the reader who just finished this chapter is not knowledge — Al knew. The difference is the citation. The landlord, the gym, and the employer all operated on the assumption that you didn't know what the law said. Now you do. The other party already knew. Now you're even.
 
 ---
 
