@@ -34,12 +34,16 @@ export interface ArtBriefContext {
  */
 export function discoverBriefs(contentDir: string): Map<string, ArtBrief> {
   const briefs = new Map<string, ArtBrief>();
+  let entries: string[];
   try {
-    const entries = readdirSync(contentDir, { recursive: true });
-    for (const entry of entries) {
-      const e = String(entry);
-      if (!e.endsWith('.art.md')) continue;
-      const fullPath = join(contentDir, e);
+    entries = readdirSync(contentDir, { recursive: true }).map(String);
+  } catch {
+    return briefs; // contentDir missing
+  }
+  for (const e of entries) {
+    if (!e.endsWith('.art.md')) continue;
+    const fullPath = join(contentDir, e);
+    try {
       const raw = readFileSync(fullPath, 'utf-8');
       const { data, content } = matter(raw);
       const stem = basename(e, '.art.md');
@@ -51,9 +55,9 @@ export function discoverBriefs(contentDir: string): Map<string, ArtBrief> {
         brief: content.trim(),
         sourcePath: fullPath,
       });
+    } catch (err) {
+      console.warn(`art-briefs: failed to read ${fullPath}:`, (err as Error).message);
     }
-  } catch {
-    /* contentDir missing */
   }
   return briefs;
 }

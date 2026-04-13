@@ -98,11 +98,12 @@ export function epubOverrides(
         return renderer.renderAstNodeDefault(node);
       }
 
-      // Determine stem: explicit attribute wins, otherwise text content
+      // Determine stem: explicit attribute wins, otherwise text content.
+      // Djot represents spaces within str.text; soft_break appears only
+      // if the span wraps across source lines.
       const explicitStem = node.attributes?.stem;
       const textStem = node.children
-        .filter((c): c is { tag: 'str'; text: string } => c.tag === 'str')
-        .map((c) => c.text)
+        .map((c: any) => (c.tag === 'str' ? c.text : c.tag === 'soft_break' ? ' ' : ''))
         .join('');
       const stem = explicitStem || textStem;
 
