@@ -50,6 +50,9 @@ Research on [health literacy](https://en.wikipedia.org/wiki/Health%5Fliteracy) c
 
 [^s7-1]: Berkman, N.D. et al. (2011). "[Low health literacy and health outcomes: An updated systematic review](https://doi.org/10.7326/0003-4819-155-2-201107190-00005)." _Annals of Internal Medicine_, 155(2), 97-107.
 
-*Worked examples:* Before a surgical procedure. Before signing a non-compete clause. Before choosing between two college financial aid offers.
+::: tip
+"Tell me what I should verify independently before proceeding." This is the Research power move. It forces your Agent to sort its own knowledge into two categories: things it can explain confidently, and things that require a phone call, a second opinion, or a document you haven't read yet. Every Research spec should end with this line. It turns a question into a checklist.
+:::
 
-_(Full worked examples with [SPEC] loops to be drafted)_
+
+*Worked examples:* Before a knee arthroscopy. Before signing a non-compete clause. Between two college financial aid offers.
