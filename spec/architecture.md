@@ -45,10 +45,10 @@ PART TWO: THE FIELD GUIDE
   ~80 entries covering the most common situations.
   Cross-reference related Field Guide entries.
   Domains: Health / Money / Legal / Home / Life /
-		   Work / Civic / IRL Interactions /
-		   Online Presence / Chores / Transportation
+		   Work / Civic / Chores / IRL Interactions /
+		   Computer & Web / Creative / Transportation
   Domain prefixes: H- / M- / L- / Ho- / Li- /
-		   W- / C- / IRL- / WB- / Ch- / Tr-
+		   W- / C- / Ch- / IRL- / WB- / Cr- / Tr-
 
   Note: Drugs (formerly a separate domain with D- prefix)
   is merged into the Health domain as H-9 through H-19,

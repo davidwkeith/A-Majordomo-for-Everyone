@@ -52,7 +52,7 @@ Paste or upload your document directly — file upload works in Claude, Gemini, 
 
 #### Ho-2: Home Repair and DIY
 *Strategy:* Diagnose + Navigate (Expert Role)
-*See also:* Ho-1: Maintaining Your Home (for diagnosing first), Ho-3: Right-to-Repair (for products designed to resist repair), Ch-2: Understanding a Contractor Bid (when to hire instead)
+*See also:* Ho-1: Maintaining Your Home (for diagnosing first), Ho-3: Right-to-Repair (when a product resists repair), Ch-2: Understanding a Contractor Bid (when to hire instead)
 *The Majordomo says:* _Home repair knowledge was once transmitted intergenerationally, in the same way that knowing how to change a tire or hem a pair of pants was once considered a baseline life skill. Several decades of planned obsolescence and the gradual replacement of fixable things with disposable ones have interrupted that transmission. Your Agent received it anyway._
 *The spec:*
 ::: prompt
@@ -131,55 +131,69 @@ What should I check first?
 
 ---
 
-#### Ho-5: Knowing Your Rights as a Renter or Homeowner
+#### Ho-4: Knowing Your Rights as a Renter or Homeowner
 *Strategy:* Assert + Decode
-*See also:* L-1: Negotiating a Contract (for reading your lease or mortgage), C-7: Understanding Your Rights as a Citizen or Resident (for rights that vary by jurisdiction), C-4: Advocating for Change (for changing the rules)
-_(Stub -- full entry to be drafted)_
+*See also:* L-1: Negotiating a Contract (for reading your lease or mortgage), C-7: Understanding Your Rights Where You Live (for rights that vary by jurisdiction), C-4: Advocating for Change (for changing the rules)
+*The Majordomo says:* _Housing law is where the most money changes hands with the least understanding on one side of the transaction. Your landlord has a property management company that has filed the same lease in the same county for fifteen years. Your HOA board has an attorney on retainer who drafted the CC&Rs. Your mortgage servicer employs a compliance department that knows exactly which fees are legal and which are merely customary. You have the document they gave you and a vague sense that some of it is not right. That sense is usually correct. The law is specific, it varies by jurisdiction, and it almost always gives you more rights than you think you have. The problem has never been the law. The problem is that nobody explained it._
+*The spec:*
+::: prompt
+I have a question about my rights as a [renter / homeowner / HOA member].
+My situation:
+— Where I live: [city, state]
+— My housing type: [apartment / house / condo / mobile home / HOA community]
+— The issue: [describe — lease dispute, security deposit, HOA rule,
+   property tax assessment, landlord not making repairs, noise complaint,
+   accessibility need, pet restriction, utility billing, or "I just want
+   to understand what rights I have"]
+— What has happened so far: [if anything — notices sent, conversations
+   had, complaints filed]
+Please help me:
+1. What are my specific rights in this situation under my
+   state and local law?
+2. What is the process for enforcing those rights — who do I
+   contact, what do I file, what are the deadlines?
+3. What are the most common mistakes people make in this
+   situation that weaken their position?
+4. If this involves a dispute: what is my strongest argument,
+   and what documentation do I need?
+Give me the most conservative, legally accurate answer.
+I will verify with a tenant rights organization or attorney.
+:::
+*What to do with the output:* Document everything in writing. If your landlord or HOA is violating your rights, your Agent can help you draft the letter — but send it by email or certified mail so there is a record. Many cities have free tenant rights hotlines and legal aid organizations; ask your Agent to find the one in your jurisdiction. The clock on most housing disputes starts running whether you know about the deadline or not.
 
-- In general give two common examples, in one city what the person wants is legal, the other it isn't, and at what level of government that law can be changed. US Focused examples, still thinking globally.
-- Combine this with having your Agent understanding the contract of your current Lease or Mortgage. If they can find it, another great exercise if they just want to learn.
+::: tip
+_"I just signed a lease I didn't fully understand. [Paste the section you're worried about.] What did I actually agree to, and is any of it unenforceable in [state]?"_ — The time to understand your lease is now, not when there is a dispute.
+:::
 
-*HOA & Common Areas*
-- Changing HOA by-laws, municipal laws and regulations, State, Federal. Constitutional. Examples of housing Rights as defined by Universal Declaration of Human Rights that US Citizens don't have, those are Amendments, but they start local.
-- Dissolving HOAs
-- Common areas rules & responsibilities (HOA, Rental, Roads, Sidewalks)
-- Homeowner & HOA disputes
-- Fighting a dispute with HOA or Landlord
 
-*Landlord & Lease*
-- Combine this with having your Agent understanding the contract of your current Lease or Mortgage. If they can find it, another great exercise if they just want to learn.
+::: fairness
+Housing rights enforcement varies dramatically by race, income, and geography. Eviction filings are disproportionately concentrated in Black and Latino neighborhoods, even after controlling for income (Desmond, 2016). If your Agent's advice assumes a responsive landlord or a functional enforcement system, say so: _"My landlord ignores repair requests and I'm worried about retaliation if I push harder. What are my protections?"_
+:::
 
-*Property & Land*
-- Property tax assessments, How does Georgeism prevent empty lots by changing the way we tax land? Which system benefits me the most?
-- Trespassing and The Right to Roam.
-- Water rights
-- Mineral Rights, "I drank your Milkshake"
 
-*Environmental*
-- Pollution. Channel Erin Brockovich.
+::: also
+Paste or upload your lease, HOA rules, or property tax assessment directly — file upload works in Claude, Gemini, ChatGPT, and Copilot. See [Appendix G](06-appendix-g-feature-table.xhtml).
+:::
 
-*Accommodations & Accessibility*
-- Accommodations, including service animals. (HOA may disallow Pit-bull's. Owner has one which is a trained service animal under the law)
-- Accessibility: rights, support programs, etc
 
-*Pets*
-- Pets. Limits, legality of even owning a Zebra, Raccoon, or Squirrel (RIP Peanut)
-- Pets & Assistance Animals (applies to both renters and owners)
+<!-- RESEARCH NEEDED: Eviction data — Desmond (2016, "Evicted") is the foundational text. The Eviction Lab at Princeton tracks filing rates by jurisdiction. In many cities, evictions are filed at rates that function as a tool of housing control rather than a legal remedy of last resort. -->
 
-*Energy & Sustainability*
-- Solar installation, plugin was just made legal in one municipality in the US, great example for renters. HOAs have different rules, some legal, some not.
-- Car charging outlets (Rent/HOA)
+<!-- RESEARCH NEEDED: HOA law varies enormously by state. Some states have homeowner bill of rights legislation; others give HOAs broad power. The reader who wants to change an HOA rule, dissolve an HOA, or fight a fine needs state-specific guidance. The Agent can provide the framework; the specifics require current law. -->
 
-*Financial Assistance*
-- Financial Assistance for housing
-- Support for the unhoused.
-
-*Historical Districts*
-- Historical District Considerations including forming or brainstorming how to modify your home within the constraints.
+<!-- RESEARCH NEEDED (HUMAN CONDITION): Sub-topics that deserve their own entries or deeper treatment:
+— HOA disputes and governance: changing bylaws, dissolving HOAs, common area responsibilities, board accountability
+— Property rights: tax assessments and appeals, right to roam, water rights, mineral rights, adverse possession
+— Accessibility and accommodations: ADA requirements, service animals vs. pet restrictions, modification rights for renters
+— Pets and housing: breed restrictions, assistance animal rights, local ordinances on exotic animals
+— Energy and sustainability: solar installation rights (renters and HOA), EV charging, utility choice
+— Environmental concerns: pollution reporting, water quality, Superfund sites — channel Erin Brockovich
+— Financial assistance: housing vouchers, emergency rental assistance, support for unhoused individuals
+— Historical districts: modification rules, forming a historic district, preservation incentives and constraints
+These overflow the scope of a single entry but each represents a real information asymmetry. -->
 
 ---
 
-#### Ho-6: Understanding Your Utility Bill and Energy Options
+#### Ho-5: Understanding Your Utility Bill and Energy Options
 *Strategy:* Decode + Research
 *See also:* M-6: Financial Coach (for budgeting utilities), Li-9: Making a Household Budget That Holds (utilities as a budget category)
 *The Majordomo says:* _Energy cost burden -- the percentage of household income spent on utilities -- falls hardest on low-income households, who spend nearly three times the proportion of their income on energy that median-income households do, and who have the least access to the rebate programs designed to address this. The programs exist. Finding them is the obstacle._
@@ -210,22 +224,62 @@ Paste or upload your document directly — file upload works in Claude, Gemini, 
 
 ---
 
-#### Ho-7: Getting a Home
+#### Ho-6: Getting a Home
 *Strategy:* Navigate + Research
-*See also:* M-3: Mortgages, M-6: Financial Coach, L-1: Negotiating a Contract, Ho-5: Knowing Your Rights
-_(Stub -- full entry to be drafted)_
+*See also:* M-3: Mortgages, M-6: Financial Coach, L-1: Negotiating a Contract, Ho-4: Knowing Your Rights as a Renter or Homeowner
+*The Majordomo says:* _Finding a place to live is the most expensive decision most people make under the most time pressure. The real estate industry has perfected the art of manufacturing urgency — "multiple offers," "won't last," "act now" — in a market where the buyer or renter has less information than every other party at the table. The landlord knows the vacancy rate. The seller knows the inspection history. The agent knows the comparable sales. You know that you need a place to live by the first of next month. Your Agent can level that asymmetry — not by making the market fair, but by making sure you enter it informed._
+*The spec:*
+::: prompt
+I need to find a place to live.
+My situation:
+— What I'm looking for: [renting an apartment / renting a house /
+   buying my first home / relocating / leaving a bad housing situation /
+   currently unhoused and need immediate help]
+— Location: [city, state, or area]
+— Budget: [monthly rent or purchase budget]
+— Timeline: [when I need to move by]
+— Constraints: [pets, accessibility needs, school district,
+   commute distance, credit situation, income documentation]
+Please help me:
+1. Walk me through the process from where I am now to
+   having a signed lease or closing — what are the steps
+   and what order should I do them in?
+2. What should I know about this specific market right now —
+   what is realistic for my budget?
+3. What are the hidden costs I'm probably not thinking about
+   — application fees, deposits, moving costs, utilities setup?
+4. What red flags should I watch for in listings, landlords,
+   or contracts?
+5. If I'm in a crisis situation, what immediate resources
+   exist in my area?
+:::
+*What to do with the output:* Start with the financial math — not what you can pay, but what you can carry without stress. Housing cost below 30% of gross income is the standard guideline, but it is a ceiling, not a target. For renters: ask your Agent to help you read the lease before you sign it (see L-1). For buyers: get pre-approved before you start looking, not after you find the place you love (see M-3). For anyone in a housing crisis: 211.org and your local Continuum of Care are the first calls.
 
-- Homeless
-- First-time buyers
-- Mortgages, your Death Pledge.
-- Refinancing
-- Renting & Leasing
+::: tip
+_"I found a listing I like. Here is the description: [paste]. What questions should I ask at the showing that the listing doesn't answer? What am I not seeing?"_
+:::
+
+
+::: fairness
+Housing discrimination is illegal under the Fair Housing Act but remains pervasive. Testing studies consistently show that Black and Latino renters and buyers are shown fewer units, quoted higher prices, and steered to different neighborhoods than white applicants with identical qualifications. If you suspect discrimination, document everything and file with HUD (1-800-669-9777) or your local fair housing organization. Your Agent can help you identify the pattern and draft the complaint.
+:::
+
+
+<!-- RESEARCH NEEDED: Housing affordability crisis data. The National Low Income Housing Coalition's "Out of Reach" report documents the gap between wages and rents by state. In no state can a minimum-wage worker afford a two-bedroom apartment at fair market rent. The structural problem predates any individual search. -->
+
+<!-- RESEARCH NEEDED (HUMAN CONDITION): Sub-topics that deserve deeper treatment:
+— First-time buyers: the full process from savings to closing, demystified
+— Refinancing: when it makes sense, when it doesn't, the break-even calculation
+— Renting vs. buying: the actual math, not the cultural pressure
+— Housing crisis resources: shelters, transitional housing, rapid rehousing programs, 211.org
+— Relocation: the cascade of decisions when you move to a new city
+-->
 
 ---
 
-#### Ho-8: Gardening & Landscaping
+#### Ho-7: Gardening & Landscaping
 *Strategy:* Diagnose + Research (Expert Role)
-*See also:* Ch-3: Identifying and Caring for Plants (for houseplants), Ho-1: Maintaining Your Home (for broader property care)
+*See also:* Ch-3: Identifying and Caring for House Plants (for houseplants), Ho-1: Maintaining Your Home (for broader property care)
 *The Majordomo says:* _Master Gardeners are volunteers trained by the agricultural extension system to answer exactly the questions you have about why your tomatoes look like that. They are free. They are also available by appointment, two weeks from Tuesday, during business hours. Your Agent is available now._
 *The spec:*
 ::: prompt
@@ -265,3 +319,10 @@ My soil is [clay/sandy/unknown]. My plants seem to be
 [struggling / doing fine but I want to improve].
 What amendments should I add, and how do I apply them?
 :::
+
+<!-- BRAINSTORM: Future Home entries
+— Ho-8: Emergency Preparedness — natural disasters, power outages, go bags, evacuation plans. Region-specific, deadline-driven. The billionaire has a ranch in New Zealand. You have a plan and a bag.
+— Ho-9: Moving — the logistics cascade: lease-breaking, packing, utilities, address changes, mail forwarding, school transfers. The most common life disruption nobody teaches you to manage.
+— Ho-10: Accessibility Modifications — ADA rights, assistive technology at home, modification rights for renters, funding programs. Aging in place starts before you need it.
+— Ho-11: Pest Control — identification, prevention, treatment, when to DIY vs. call someone. The information asymmetry between pest companies and homeowners is extreme.
+-->
