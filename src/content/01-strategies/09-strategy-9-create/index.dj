@@ -51,14 +51,14 @@ Every story has two kinds of elements. Understanding the difference is the whole
 The ratio varies by project and by writer. Some writers fix only three plot points and leave everything else dynamic. Some fix every scene beat and only leave the prose dynamic. Both are valid. The spec tells the AI which is which.
 
 ::: prompt
-DETERMINISTIC — these will happen, exactly as stated:
+These things have to happen, exactly as stated:
 - [Plot point 1]
 - [Plot point 2]
 - [Plot point 3]
 
-DYNAMIC — generate these within the following constraints:
+Generate everything else within these constraints:
 - [Constraint: tone, POV, pacing, length]
-- [Constraint: what must be established in this passage]
+- [Constraint: what has to be established in this passage]
 - [Constraint: what must NOT be resolved yet]
 :::
 
@@ -71,16 +71,15 @@ Before the AI writes a word of prose, you build the architecture. This is the sp
 *Opening the interview:*
 
 ::: prompt
-I want to write a [genre] story. I have some ideas but I need help
-building out the structure before I start writing scenes.
-Please ask me questions about:
+I want to write a [genre] story. I've got some ideas but I need
+help building the structure before I start writing scenes. Can you
+interview me about:
 — the central conflict
 — the main characters and what they want
 — the world or setting
-— the plot points I'm certain about
+— the plot points I'm sure about
 — the tone and audience
-Ask one area at a time. I'll tell you when I'm ready to
-move to the next one.
+One area at a time. I'll tell you when I'm ready to move on.
 :::
 
 The AI will ask. You answer. After three to five exchanges per area, ask it to propose a story architecture document — a one-page skeleton of the whole story with the deterministic points flagged and the dynamic passages identified. Review it. Correct what's wrong. That document becomes the master spec for every scene you write.
@@ -92,25 +91,25 @@ The AI will ask. You answer. After three to five exchanges per area, ask it to p
 With the architecture confirmed, each scene runs its own spec loop:
 
 ::: prompt
-SCENE: [scene identifier, e.g., "Ch. 3 — Elena discovers the letter"]
+Scene: Ch. 3 — Elena discovers the letter
 
-DETERMINISTIC in this scene:
+These have to happen in this scene:
 — Elena finds the letter in her father's desk
 — The letter reveals he was in the city the night of the fire
-— She does not confront him yet — save that for Ch. 7
+— She doesn't confront him yet — save that for Ch. 7
 
-DYNAMIC — please generate:
-— Her emotional state moving into the scene
+Generate the rest:
+— Her emotional state going into the scene
 — The physical details of the desk and study
 — Her reading of the letter (we see it through her reactions,
    not quoted in full)
 — Where she is emotionally when the scene ends
 
-CONSTRAINTS:
+Constraints:
 — Third person limited, Elena's POV
 — Tone: dread mixed with recognition, not shock
-— Length: 600-900 words
-— Do not resolve her suspicion — deepen it
+— 600-900 words
+— Don't resolve her suspicion — deepen it
 :::
 
 The AI generates the scene. You read it. For each element, one of three things is true:
@@ -133,20 +132,20 @@ Most first drafts will have elements in all three categories. That is normal. A 
 Characters are their own sub-specs. Before writing any scene with dialogue, build a voice spec for each major character. This is the character bible, compressed into a spec:
 
 ::: prompt
-CHARACTER: [name]
+Character: [name]
 
 Who they are: [2-3 sentences of background]
 
 What they want (surface): [what they say they want]
-What they want (deep): [what they actually want]
+What they actually want: [the real thing]
 What they're afraid of: [the thing driving their behavior]
 
-How they speak:
-— Vocabulary level and register: [formal/casual/technical/etc.]
+How they talk:
+— Vocabulary and register: [formal/casual/technical/etc.]
 — Sentence length: [short and clipped / long and circuitous / varies]
-— Verbal tics or patterns: [specific habits — questions everything /
+— Verbal tics: [specific habits — questions everything /
    deflects with humor / never says what they mean directly]
-— What they never say: [topics they avoid, words they don't use]
+— What they never say: [topics they avoid, words they won't use]
 
 Reference voice (optional): [a character from fiction or film whose
 voice is similar — not to copy, but to calibrate]
@@ -168,18 +167,18 @@ Modern game narrative — [Disco Elysium](https://en.wikipedia.org/wiki/Disco%5F
 AI-assisted writing handles this structure well because the spec language maps directly to it:
 
 ::: prompt
-BRANCH POINT: After Elena confronts her father in Ch. 7
+Branch point: after Elena confronts her father in Ch. 7
 
-PATH A (if she shows him the letter):
-— Deterministic: he admits he was there
-— Deterministic: he says it wasn't what she thinks
-— Dynamic: his explanation — generate 3 versions, I'll choose one
+Path A — she shows him the letter:
+— He admits he was there
+— He says it wasn't what she thinks
+— Generate 3 versions of his explanation, I'll pick one
 — Next scene: Elena decides whether to believe him
 
-PATH B (if she says nothing):
-— Deterministic: she begins investigating on her own
-— Dynamic: her first move — what does she do?
-— Constraint: she cannot find the key witness yet — save that for Ch. 11
+Path B — she says nothing:
+— She starts investigating on her own
+— Her first move — what does she do?
+— She can't find the key witness yet — save that for Ch. 11
 — Next scene: the investigation begins
 :::
 
@@ -247,12 +246,11 @@ build the structure before I write any scenes.
 *Your Agent's clarifying questions:*
 
 ::: agent
-That's a strong premise---historical crime, institutional cover-up,
-and a protagonist whose professional expertise is the exact tool
-the story needs. Let me interview you into the architecture. One
-area at a time.
+Historical crime, institutional cover-up, and a protagonist whose
+professional expertise is the exact tool the story needs. I'll
+interview you into the architecture. One area at a time.
 
-First---the protagonist. You've given me her job but not her
+Starting with the protagonist. You've given me her job but not her
 stakes. Why does she keep pulling the thread when it gets dangerous?
 Professional duty? Personal connection to the displaced
 neighborhood? Something she discovers along the way? The answer
@@ -275,7 +273,7 @@ from the public record.
 *Your Agent:*
 
 ::: agent
-Now I have the engine. Here's the proposed architecture.
+That gives me the engine. Here's the proposed architecture.
 
 DETERMINISTIC PLOT POINTS---THESE ARE FIXED
 1. Margaret notices missing pages during routine cataloging
@@ -295,11 +293,11 @@ DETERMINISTIC PLOT POINTS---THESE ARE FIXED
     about the waterfront sale
 
 DYNAMIC---GENERATE WITHIN CONSTRAINTS
-— Everything between fixed points: scenes, dialogue, pacing,
+— Everything between fixed points: scenes, dialogue, pacing, and
   physical detail
 — Margaret's inner world: her routines, her archivist's habits,
   how she investigates through records rather than confrontation
-— The town: weather, geography, the senior center, the archive,
+— The town: weather, geography, the senior center, the archive, and
   the waterfront
 — Tension escalation between each deterministic point
 
@@ -333,12 +331,12 @@ scene.
 *Your Agent:*
 
 ::: agent
-Right---the break-in is the genre turn. Moving it to chapter 4
-accelerates Margaret from "this is odd" to "someone doesn't want
-me to find this." Restructuring: break-in becomes plot point 4,
-Ruth's refusal moves to 5, everything else shifts.
+The break-in is the genre turn. Moving it to chapter 4 accelerates
+Margaret from "this is odd" to "someone doesn't want me to find
+this." Restructuring: break-in becomes plot point 4, Ruth's refusal
+moves to 5, everything else shifts.
 
-Here's the opening scene:
+Opening scene:
 
 SCENE: Chapter 1---Margaret notices the missing pages
 DETERMINISTIC: She discovers pages missing from the county land
@@ -487,11 +485,11 @@ The connection happens and they choose not to continue it.
 *Your Agent:*
 
 ::: agent
-That's the strongest version, and you could not have found it
-without generating both paths first. The architecture for the
-linear story:
+That's the strongest version---you couldn't have found it without
+generating both paths first. Here's the architecture for the linear
+story:
 
-— Opening: Claire, the apartment, the box. Discovery.
+— Opening: Claire, the apartment, and the box. Discovery.
 — Act 1 (from A1): She looks up the address. She calls. Paul
   answers. "I know who you are." The conversation is real---
   careful, loaded, two people holding the same broken thing
@@ -506,8 +504,8 @@ linear story:
   something different. It is not a secret she inherited. It is
   a conversation she had.
 
-Ready for me to draft the full 3,000-word version with this
-combined architecture?
+I can draft the full 3,000-word version with this combined
+architecture. Ready?
 :::
 
 ::: tip
@@ -537,7 +535,7 @@ Speech: Short sentences. Doesn't ask questions---makes
 statements. Never says anyone's name. Calls everyone "love."
 Never says: Anything about her own past. Anything that sounds
 like gossip.
-Reference voice: Olenna Tyrell without the cruelty.
+Reference voice: [Olenna Tyrell](https://en.wikipedia.org/wiki/Olenna_Tyrell) without the cruelty.
 
 CHARACTER: Dex (traveling merchant)
 Who: Passes through every few weeks. Trades in tools and metals.
@@ -548,7 +546,7 @@ Speech: Fast. Talks in lists. Changes subject without warning.
 Asks questions to avoid answering them.
 Never says: Where he's going next. Anything definitive---always
 "I heard" or "people say."
-Reference voice: Columbo.
+Reference voice: [Columbo](https://en.wikipedia.org/wiki/Columbo).
 
 CHARACTER: Rin (apprentice)
 Who: The missing blacksmith's apprentice. 16. Frightened.
@@ -559,14 +557,13 @@ Speech: Starts sentences and doesn't finish them. Repeats
 herself when nervous. Uses "I don't know" as a shield.
 Never says: What happened the night before he disappeared---not
 because she's hiding it, but because she hasn't processed it.
-Reference voice: Early-season Eleven from Stranger Things.
+Reference voice: Early-season [Eleven](https://en.wikipedia.org/wiki/Eleven_(Stranger_Things)) from [Stranger Things](https://en.wikipedia.org/wiki/Stranger_Things).
 :::
 
 *Your Agent:*
 
 ::: agent
-Strong voice specs. Here's the information architecture, then
-Maeve's interaction.
+Here's the information architecture, then Maeve's interaction.
 
 DETERMINISTIC QUEST INFORMATION
 — Maeve knows: the blacksmith was drinking alone three nights
@@ -635,8 +632,8 @@ catch that?
 
 ::: agent
 You're right---that line was mine, not hers. She wouldn't
-editorialize about what she's withholding. The corrected version
-ends on the observable fact:
+editorialize about withholding. Corrected version ends on the
+observable fact:
 
 MAEVE: Didn't recognize them. Hood up. Didn't order. Didn't
 sit down. Waited by the door until he was done drinking, then
@@ -665,15 +662,15 @@ All four major AI tools handle creative writing and dialogue generation. Claude'
 
 
 ::: fairness
-The MFA costs $40,000 to $120,000. The writing conference costs $2,000 a week. The developmental editor charges $3,000 to $10,000 per manuscript. These are the people who teach story architecture, character consistency, and structural revision---the skills this chapter covers. They have always existed, and they have always served the writers who could reach them. Your Agent does not replace an editor, a workshop, or a writing community---those are human infrastructure, and they matter. But the specific problem this chapter addresses---"I have a story and I don't know how to organize it"---was a cost barrier. The architecture interview takes fifteen minutes and costs nothing.
+The [MFA](https://en.wikipedia.org/wiki/Master_of_Fine_Arts) costs $40,000 to $120,000. The writing conference costs $2,000 a week. The developmental editor charges $3,000 to $10,000 per manuscript. These are the people who teach story architecture, character consistency, and structural revision---the skills this chapter covers. They have always existed, and they have always served the writers who could reach them. Your Agent does not replace an editor, a workshop, or a writing community---those are human infrastructure, and they matter. But the specific problem this chapter addresses---"I have a story and I don't know how to organize it"---was a cost barrier. The architecture interview takes fifteen minutes and costs nothing.
 :::
 
 
 ::: meme
-Moriarty in the corridor of the Enterprise, breathing air he believes is real. The holodeck arch is gone. The walls are solid. He has escaped. He is free. He is the protagonist. Except every wall is a projection. Every detail was generated within someone else's constraints. The holodeck rendered his world without a single error---and that was the problem. A perfect rendering of someone else's architecture is still someone else's architecture.
+[Moriarty](https://en.wikipedia.org/wiki/Moriarty%5F(Star%5FTrek)) in the corridor of the [Enterprise](https://en.wikipedia.org/wiki/USS_Enterprise_(NCC-1701-D)), breathing air he believes is real. The holodeck arch is gone. The walls are solid. He has escaped. He is free. He is the protagonist. Except every wall is a projection. Every detail was generated within someone else's constraints. The holodeck rendered his world without a single error---and that was the problem. A perfect rendering of someone else's architecture is still someone else's architecture.
 :::
 
 
 ---
 
-Three projects. Three blank pages that stopped being blank---a novel with ten fixed plot points and a first scene that smells like old paper and bad digitization contracts, a short story whose strongest version came from combining two branches the writer could not have found by choosing one path in advance, and a tavern where three characters reveal information through the constraints that make them people instead of quest dispensers. None of these were written by the Agent. The Agent wrote sentences. The writers owned the architecture---the deterministic points, the constraints, the character bibles, the decisions about what matters and what is negotiable. Moriarty's tragedy was not that he was fictional. It was that he lived inside a story he believed he had written. The plot points were someone else's. The constraints were someone else's. The holodeck rendered his world beautifully, but the spec belonged to Picard and Data. Your spec doesn't. The holodeck is rendering. The story is yours.
+Three projects. Three blank pages that stopped being blank---a novel with ten fixed plot points and a first scene that smells like old paper and bad digitization contracts, a short story whose strongest version came from combining two branches the writer could not have found by choosing one path in advance, and a tavern where three characters reveal information through the constraints that make them people instead of quest dispensers. None of these were written by the Agent. The Agent wrote sentences. The writers owned the architecture---the deterministic points, the constraints, the character bibles, the decisions about what matters and what is negotiable. Moriarty's tragedy was not that he was fictional. It was that he lived inside a story he believed he had written. The plot points were someone else's. The constraints were someone else's. The holodeck rendered his world beautifully, but the spec belonged to [Picard](https://en.wikipedia.org/wiki/Jean-Luc_Picard) and [Data](https://en.wikipedia.org/wiki/Data_(Star_Trek)). Your spec doesn't. The holodeck is rendering. The story is yours.

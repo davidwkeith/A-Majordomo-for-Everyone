@@ -162,6 +162,11 @@ This section governs the ePub output and any web rendering.
 - Realistic details only — no `[PLACEHOLDER]` or `[YOUR NAME HERE]`. If a value varies, use a bracketed description: `[your city]`, `[appointment date]`.
 - Reflect the target reader's circumstances: renters, employees, high-deductible health plans. Not homeowners, entrepreneurs, or people with comprehensive coverage — unless the example specifically calls for it.
 
+### Voice in Prompt and Agent Blocks
+
+- **Prompt blocks (reader voice):** Casual and conversational. The reader is talking to their Agent the way they'd talk to a knowledgeable friend — plain language, incomplete thoughts sometimes, contractions always. Not formal instructions. Not corporate memo language. "I need help figuring out..." not "Please assist me in understanding..." If a prompt reads like something you'd type into a search engine or say to a colleague, it's right. If it reads like a cover letter, rewrite it.
+- **Agent blocks (AI voice):** Should sound like a capable AI assistant actually sounds — direct, structured, slightly formal but not stiff. The Agent organizes information clearly, uses headers and lists when helpful, and gets to the point. It does not use exclamation marks, does not say "Great question!", does not hedge with "I think" or "It seems like." It states what it knows, flags what it doesn't, and asks specific follow-up questions when it needs more information. The voice is competent and brisk — a well-briefed aide, not a chatbot performing enthusiasm.
+
 ---
 
 ## Citations and Footnotes
