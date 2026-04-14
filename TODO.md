@@ -30,7 +30,7 @@ Each strategy chapter needs 2–3 full [SPEC] loops (reader situation → clarif
 - [x] **Strategy 6: Diagnose** — A washing machine grinding noise. Persistent headaches (triage). An HVAC quote that seems high.
 - [x] **Strategy 7: Research** — Before a surgical procedure. Before signing a non-compete. Between two college financial aid offers.
 - [x] **Strategy 8: Assert** — Tenant rights when landlord refuses repairs. Employee rights when let go. Consumer rights when disputing a charge.
-- [x] **Strategy 9: Create** — A mystery novel architecture interview. A branching short story. A game narrative prototype.
+- [x] **Strategy 9: Create** — A wedding toast with slideshow. A branching short story. A game narrative prototype.
 
 ### Chapter 33: Advanced Free Tier Strategies (Part 3)
 
