@@ -20,7 +20,7 @@ The [Conners](https://en.wikipedia.org/wiki/Roseanne%5F(TV%5Fseries)) were never
 #### M-1: Banking and Savings
 *Strategy:* Research + Decide
 *See also:* M-2: Credit Cards and Debt (for credit products), Li-9: Making a Household Budget That Holds
-*My Man Jeeves:* _One might observe that the average American pays $7 to $12 per month in bank fees — maintenance fees, overdraft fees, minimum balance fees, ATM fees — for the privilege of depositing money that the bank then lends out at a considerable multiple. That this arrangement is considered normal would appear to be a triumph of institutional inertia over arithmetic. Credit unions, online banks, and high-yield savings accounts present themselves as alternatives, and yet most individuals remain with the bank at which they opened their first account — a loyalty that, if one may say so, rather resembles dining at the first restaurant one ever visited for the remainder of one's life._
+*My Man Jeeves:* _One might observe that the average American pays $7 to $12 per month in bank fees — maintenance fees, overdraft fees, minimum balance fees, ATM fees — for the privilege of depositing money that the bank then lends out at a considerable multiple. That this arrangement is considered normal would appear to be a triumph of institutional inertia over arithmetic. Credit unions, online banks, and high-yield savings accounts present themselves as alternatives, and yet most individuals remain with the bank at which they opened their first account — a loyalty that, if one may say so, rather resembles dining at the first restaurant one ever visited for the remainder of one's life. One's Agent can compare the alternatives in approximately the time it takes the bank to charge the next fee._
 *The Spec:*
 ::: prompt
 I want to make sure my banking setup is actually working for me.
@@ -70,7 +70,7 @@ Mint shut down in March 2024 — if you were one of its millions of users, you a
 #### M-2: Credit Cards and Debt
 *Strategy:* Decode + Assert
 *See also:* M-1: Banking and Savings, M-4: Collections and Bankruptcy (when debt goes wrong)
-*My Man Jeeves:* _It would appear that credit card statements have been arranged so as to display the minimum payment with some prominence while relegating the total interest one will pay over time to a typeface calibrated, one suspects, to discourage closer inspection. A card at 24.99% APR — the current average — transforms a $5,000 balance, at minimum payments, into a repayment spanning decades and costing thousands in interest. The instrument was marketed as a convenience. It was designed as a revenue mechanism. Appreciating the distinction between these two propositions is the first step. Disputing the errors is the second._
+*My Man Jeeves:* _It would appear that credit card statements have been arranged so as to display the minimum payment with some prominence while relegating the total interest one will pay over time to a typeface calibrated, one suspects, to discourage closer inspection. A card at 24.99% APR — the current average — transforms a $5,000 balance, at minimum payments, into a repayment spanning decades and costing thousands in interest. The instrument was marketed as a convenience. It was designed as a revenue mechanism. Appreciating the distinction between these two propositions is the first step. Disputing the errors is the second. One's Agent is prepared to assist with both._
 *The Spec:*
 ::: prompt
 I want to understand and manage my credit card and debt situation.

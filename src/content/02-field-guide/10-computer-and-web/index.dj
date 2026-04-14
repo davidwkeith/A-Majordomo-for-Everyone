@@ -297,7 +297,7 @@ Research on expertise development (Ericsson et al., 1993) identifies _deliberate
 
 *Strategy:* Create + Navigate
 *See also:* WB-7: Writing in CommonMark (for writing your content), WB-8: Blogging and Journaling
-*My Man Jeeves:* _The billionaire class has always maintained a web presence managed by professionals. The remainder of the population received Facebook pages and LinkedIn profiles --- land one rents on platforms that may alter the terms, throttle the reach, or cause the content to vanish at any moment. Owning one's own website is the digital equivalent of owning one's home rather than renting it. It has always been possible. It has not, until recently, been this straightforward. The [IndieWeb](https://indieweb.org/) is the movement that holds a simple principle: publish on one's own site first, syndicate to the platforms second, and never lose one's words because a company pivoted._
+*My Man Jeeves:* _The billionaire class has always maintained a web presence managed by professionals. The remainder of the population received Facebook pages and LinkedIn profiles --- land one rents on platforms that may alter the terms, throttle the reach, or cause the content to vanish at any moment. Owning one's own website is the digital equivalent of owning one's home rather than renting it. It has always been possible. It has not, until recently, been this straightforward. The [IndieWeb](https://indieweb.org/) is the movement that holds a simple principle: publish on one's own site first, syndicate to the platforms second, and never lose one's words because a company pivoted. One's Agent can build the site._
 *The Spec:*
 ::: prompt
 I want to build my own personal website. I have never done this before.
@@ -363,7 +363,7 @@ The web was designed as a decentralized system — [RFC 2616](https://en.wikiped
 
 *Strategy:* Research + Navigate
 *See also:* Li-11: Escaping Social Media (for reducing compulsive consumption), WB-5: Build a Website, Own Your Corner of the Internet
-*My Man Jeeves:* _Before the algorithm, there existed RSS --- a protocol that permitted one to subscribe to any website and receive its updates in a single reader, in chronological order, with no advertisements, no ranking, no engagement optimization, and no company determining what one should see next. RSS, one feels compelled to mention, still works. It never stopped working. The platforms merely ceased to promote it, as a protocol that places control in the hands of the user does not, regrettably, generate advertising revenue._
+*My Man Jeeves:* _Before the algorithm, there existed RSS --- a protocol that permitted one to subscribe to any website and receive its updates in a single reader, in chronological order, with no advertisements, no ranking, no engagement optimization, and no company determining what one should see next. RSS, one feels compelled to mention, still works. It never stopped working. The platforms merely ceased to promote it, as a protocol that places control in the hands of the user does not, regrettably, generate advertising revenue. One's Agent can help one set it up._
 *The Spec:*
 ::: prompt
 I want to read the web on my own terms — without algorithms
@@ -472,7 +472,7 @@ In the pre-web era, citation was gatekept by publishers, editors, and academic i
 
 *Strategy:* Create + Draft
 *See also:* WB-7: Writing in CommonMark, WB-5: Build a Website, Own Your Corner of the Internet, Li-8: Wellness Coach (journaling as mental health practice)
-*My Man Jeeves:* _One observes that every sitcom family maintained a room where the substantive conversations took place. For the [Conners](https://en.wikipedia.org/wiki/Roseanne) it was the kitchen table. For the [Seinfelds](https://en.wikipedia.org/wiki/Seinfeld) it was the apartment. For the [Simpsons](https://en.wikipedia.org/wiki/The%5FSimpsons) it was the couch. A blog, if one may draw the parallel, is that room --- except one has built it oneself, one owns the walls, and no one is in a position to cancel the programme. A journal is the same room with the door closed. Both represent acts of thinking, whether in public or in private, and both are rather more valuable than one might suppose._
+*My Man Jeeves:* _One observes that every sitcom family maintained a room where the substantive conversations took place. For the [Conners](https://en.wikipedia.org/wiki/Roseanne) it was the kitchen table. For the [Seinfelds](https://en.wikipedia.org/wiki/Seinfeld) it was the apartment. For the [Simpsons](https://en.wikipedia.org/wiki/The%5FSimpsons) it was the couch. A blog, if one may draw the parallel, is that room --- except one has built it oneself, one owns the walls, and no one is in a position to cancel the programme. A journal is the same room with the door closed. Both represent acts of thinking, whether in public or in private, and both are rather more valuable than one might suppose. One's Agent can help one start, and — should one prefer the door closed — it will not read over one's shoulder unless asked._
 *The Spec:*
 ::: prompt
 I want to start [blogging publicly / journaling privately / both].
@@ -539,7 +539,7 @@ Research on [reflective practice](https://en.wikipedia.org/wiki/Reflective%5Fpra
 #### WB-9: Preservation and Legacy
 *Strategy:* Research + Navigate
 *See also:* WB-5: Building Your Own Website (owning vs. renting), H-7: Preparing for End-of-Life Conversations (the analog equivalent)
-*My Man Jeeves:* _The [Library of Alexandria](https://en.wikipedia.org/wiki/Library%5Fof%5FAlexandria) burned. The Dead Sea Scrolls survived in clay jars for two thousand years. MySpace lost 50 million songs in a server migration. [GeoCities](https://en.wikipedia.org/wiki/GeoCities) was deleted by Yahoo in 2009. The lesson, one ventures to suggest, has been consistent across millennia: what survives is what someone deliberately chose to preserve. The internet remembers everything and nothing --- everything that someone took the trouble to archive, nothing that was left on a platform that shut down, pivoted, or mislaid a database._
+*My Man Jeeves:* _The [Library of Alexandria](https://en.wikipedia.org/wiki/Library%5Fof%5FAlexandria) burned. The Dead Sea Scrolls survived in clay jars for two thousand years. MySpace lost 50 million songs in a server migration. [GeoCities](https://en.wikipedia.org/wiki/GeoCities) was deleted by Yahoo in 2009. The lesson, one ventures to suggest, has been consistent across millennia: what survives is what someone deliberately chose to preserve. The internet remembers everything and nothing --- everything that someone took the trouble to archive, nothing that was left on a platform that shut down, pivoted, or mislaid a database. One's Agent can help one make the deliberate choice._
 *The Spec:*
 ::: prompt
 I want to make sure my online work — writing, photos, creative

@@ -66,7 +66,7 @@ Checking current information requires web search, which is free in Gemini, ChatG
 #### W-2: Leaving a Job
 *Strategy:* Assert + Decode
 *See also:* L-1: Negotiating a Contract (for the severance agreement), M-1: Banking and Savings (emergency fund while unemployed), W-5: Unions (if you have a CBA)
-*My Man Jeeves:* _It would not be inaccurate to observe that employment law is among those areas in which the distance between what most employees believe their rights to be and what those rights actually are is widest — and where the consequences of the misapprehension are most immediate. The severance agreement carries a signing deadline. The WARN Act notice carries a claim deadline. The clock, one feels compelled to note, begins whether the individual is aware of it or not._
+*My Man Jeeves:* _It would not be inaccurate to observe that employment law is among those areas in which the distance between what most employees believe their rights to be and what those rights actually are is widest — and where the consequences of the misapprehension are most immediate. The severance agreement carries a signing deadline. The WARN Act notice carries a claim deadline. The clock, one feels compelled to note, begins whether the individual is aware of it or not. One's Agent can read the agreement and identify the deadlines before they expire._
 *The Spec:*
 ::: prompt
 I was just [laid off / fired / asked to resign] from my job at [type of company]
@@ -92,7 +92,7 @@ Paste or upload your document directly — file upload works in Claude, Gemini, 
 #### W-3: Working with Human Resources
 *Strategy:* Draft + Assert
 *See also:* W-2: Understanding Your Rights If You're Let Go, Li-1: Preparing for a Difficult Conversation
-*My Man Jeeves:* _It may be useful to note that Human Resources exists to protect the company. This is not a matter of cynicism — it is the department's actual mandate. An HR representative who assists an employee does so because assisting the employee also serves the company's interest, which is, one acknowledges, frequently the case. An understanding of this alignment — the occasions upon which one's interests and the company's overlap, and those upon which they diverge — represents the difference between employing HR effectively and finding oneself somewhat surprised by the outcome._
+*My Man Jeeves:* _It may be useful to note that Human Resources exists to protect the company. This is not a matter of cynicism — it is the department's actual mandate. An HR representative who assists an employee does so because assisting the employee also serves the company's interest, which is, one acknowledges, frequently the case. An understanding of this alignment — the occasions upon which one's interests and the company's overlap, and those upon which they diverge — represents the difference between employing HR effectively and finding oneself somewhat surprised by the outcome. One's Agent can help one prepare for the interaction with a clear understanding of which category it falls into._
 *The Spec:*
 ::: prompt
 I need to deal with an HR situation at work.
@@ -197,7 +197,7 @@ _"I have a collective bargaining agreement I don't fully understand. [Paste rele
 #### W-6: Workplace Safety
 *Strategy:* Assert + Navigate
 *See also:* W-2: Understanding Your Rights If You're Let Go (if retaliation follows), L-3: Writing a Demand Letter
-*My Man Jeeves:* _One's body is, if one may be permitted the observation, the asset one brings to work. The employer's obligation not to damage it is codified in law, implemented through OSHA, and enforced through a system that requires the worker to know it exists and how to employ it. Workers' compensation is insurance the employer is required to carry. Filing a claim is not an adversarial act — it is the use of the system as designed. The adversarial dimension, one regrets to note, tends to present itself later, should the claim be denied, and it is denied with a frequency that warrants preparation._
+*My Man Jeeves:* _One's body is, if one may be permitted the observation, the asset one brings to work. The employer's obligation not to damage it is codified in law, implemented through OSHA, and enforced through a system that requires the worker to know it exists and how to employ it. Workers' compensation is insurance the employer is required to carry. Filing a claim is not an adversarial act — it is the use of the system as designed. The adversarial dimension, one regrets to note, tends to present itself later, should the claim be denied, and it is denied with a frequency that warrants preparation. One's Agent has read the relevant OSHA regulations and can assist with both the filing and the appeal._
 *The Spec:*
 ::: prompt
 I have a workplace safety concern [or: I was injured at work].
@@ -233,7 +233,7 @@ Workers in high-risk industries — construction, agriculture, warehousing, meat
 #### W-7: Using Your Agent to Get More Done
 *Strategy:* Navigate + Draft (Expert Role)
 *See also:* W-3: Working with HR (for the performance review spec), W-1: Getting a New Job (for job-search automation)
-*My Man Jeeves:* _It would appear that the billionaire class did not achieve their productivity by working harder. They achieved it by engaging persons to attend to those portions of work that are repetitive, formulaic, or requiring of research for which they themselves lacked the time. Email drafts. Report summaries. Data formatting. Meeting preparation. Status updates. Proposal boilerplate. The work, as it were, behind the work. The reader now has access to the same staff — one simply refers to it as "being more productive" on the performance review._
+*My Man Jeeves:* _It would appear that the billionaire class did not achieve their productivity by working harder. They achieved it by engaging persons to attend to those portions of work that are repetitive, formulaic, or requiring of research for which they themselves lacked the time. Email drafts. Report summaries. Data formatting. Meeting preparation. Status updates. Proposal boilerplate. The work, as it were, behind the work. The reader now has access to the same staff — one simply refers to it as "being more productive" on the performance review. One's Agent is the staff._
 *The Spec:*
 ::: prompt
 I want to use my AI Agent to work more efficiently.

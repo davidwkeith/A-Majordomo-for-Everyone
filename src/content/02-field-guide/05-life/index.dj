@@ -15,7 +15,7 @@ _The systems that govern health, money, and legal standing get their own domains
 #### Li-1: Preparing for a Difficult Conversation
 *Strategy:* Prepare + Draft
 *See also:* W-3: Working with HR (for workplace conversations), H-7: Preparing for End-of-Life Conversations (for the hardest one)
-*My Man Jeeves:* _One might observe that forty years of research on interpersonal conflict converge upon a single finding of some consequence: how a difficult conversation begins predicts its outcome with approximately 96% accuracy. The words selected in the first three minutes, it would appear, determine most of what follows.[^li1-2] It is perhaps worth noting, then, that preparation is not a matter of personal preference. It is the intervention itself._
+*My Man Jeeves:* _One might observe that forty years of research on interpersonal conflict converge upon a single finding of some consequence: how a difficult conversation begins predicts its outcome with approximately 96% accuracy. The words selected in the first three minutes, it would appear, determine most of what follows.[^li1-2] It is perhaps worth noting, then, that preparation is not a matter of personal preference. It is the intervention itself. One's Agent can help one prepare._
 *The Spec:*
 ::: prompt
 I need to have a difficult conversation with [relationship] about [topic].
@@ -69,7 +69,7 @@ invent details I haven't given you.
 #### Li-3: Recognizing a Scam
 *Strategy:* Research + Draft
 *See also:* Li-1: Preparing for a Difficult Conversation (for talking to a loved one who has been targeted)
-*My Man Jeeves:* _It would appear that the efficacy of the modern scam rests upon exploiting responses that are, in every other context, entirely wholesome: trust, urgency, deference to authority, the desire to be of assistance. The person who succumbs was not, one ventures to suggest, being foolish. They were being human in circumstances engineered by professionals to weaponize that humanity. The FTC reports that Americans lost over $10 billion to fraud in 2023. The shame that follows a successful scam suppresses reporting, with the result that the actual figure is rather higher. The shame, one might observe, is the second scam._
+*My Man Jeeves:* _It would appear that the efficacy of the modern scam rests upon exploiting responses that are, in every other context, entirely wholesome: trust, urgency, deference to authority, the desire to be of assistance. The person who succumbs was not, one ventures to suggest, being foolish. They were being human in circumstances engineered by professionals to weaponize that humanity. The FTC reports that Americans lost over $10 billion to fraud in 2023. The shame that follows a successful scam suppresses reporting, with the result that the actual figure is rather higher. The shame, one might observe, is the second scam. One's Agent can help one recognize the pattern before it completes and, should it have already completed, navigate the reporting and recovery process without judgment._
 *The Spec:*
 ::: prompt
 I think I [or someone I care about] may be dealing with a scam.
@@ -457,7 +457,7 @@ Your Agent’s language ability varies by language. It is strongest in English, 
 #### Li-11: Escaping Social Media
 *Strategy:* Research + Decide
 *See also:* Li-7: Raising Kids (for the screen time conversation), Li-8: Wellness Coach (for compulsive behavior patterns)
-*My Man Jeeves:* _The popular discourse, one observes, employs the phrase “screen time.” The research employs the phrase “social media.” These are not the same variable. Using the internet to ascertain how a carburetor functions is a rather different neurological event from scrolling a feed engineered to make one feel slightly worse about oneself at intervals calibrated to sustain the scrolling. The former is the most capable self-education infrastructure ever constructed. The latter is an engagement-optimization engine that colonized it. The intervention, it would appear, is not less internet. It is better internet._
+*My Man Jeeves:* _The popular discourse, one observes, employs the phrase “screen time.” The research employs the phrase “social media.” These are not the same variable. Using the internet to ascertain how a carburetor functions is a rather different neurological event from scrolling a feed engineered to make one feel slightly worse about oneself at intervals calibrated to sustain the scrolling. The former is the most capable self-education infrastructure ever constructed. The latter is an engagement-optimization engine that colonized it. The intervention, it would appear, is not less internet. It is better internet. One's Agent can help one construct it._
 
 *The Spec:*
 ::: prompt
