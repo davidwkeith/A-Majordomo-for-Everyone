@@ -222,158 +222,160 @@ _"The first draft of anything is shit."_ [Hemingway](https://en.wikipedia.org/wi
 
 ---
 
-*Worked examples:* A mystery novel architecture interview. A branching short story. A game narrative prototype.
+*Worked examples:* A wedding toast with a slideshow. A branching short story. A game narrative prototype.
 
-### Example 1: A Mystery Novel Architecture Interview
+### Example 1: A Wedding Toast
 
-The situation: you have had an idea for a mystery novel for two years. A retired archivist in a small Oregon coast town discovers that someone has been systematically removing pages from the county land records---the missing pages all trace back to a waterfront real estate deal that displaced an entire Black neighborhood in 1962. You have told this story at dinner parties and watched people lean in. You have also started and abandoned three documents titled "Chapter 1." The premise is not the problem. The distance between a premise sentence and 70,000 words of organized narrative is the problem.
+The situation: your best friend is getting married in six weeks and you are the maid of honor. You have five minutes for the toast---the wedding planner was specific about this. You have a phone full of photos from college through last year. You know the stories you want to tell. You have no idea which to keep, which to cut, or how to organize them so the whole thing doesn't turn into a rambling This Is Your Life that loses the room at minute two. You also want a slideshow running behind you---not a karaoke prompter, just photos that match the moments you're talking about. The problem is not material. The problem is architecture: five minutes, one arc, a room full of people who mostly don't know you.
 
 *Your opening message:*
 
 ::: prompt
-I want to write a mystery novel. Here's my premise: a retired
-archivist in a small Oregon coast town discovers someone has been
-removing pages from the county land records. The missing pages all
-connect to a 1960s real estate deal that destroyed a Black
-neighborhood on the waterfront. I know the ending---the current
-mayor's family profited from the original deal and is covering the
-trail because they're selling the waterfront land again.
+I'm the maid of honor at my best friend's wedding. I have 5
+minutes for the toast. I want to do a slideshow of photos behind
+me while I talk---not reading off the slides, just having them
+match what I'm saying. I've got about 40 photos from college
+to now.
 
-I don't know how to get from this premise to a full novel. Help me
-build the structure before I write any scenes.
-:::
-
-*Your Agent's clarifying questions:*
-
-::: agent
-Historical crime, institutional cover-up, and a protagonist whose
-professional expertise is the exact tool the story needs. I'll
-interview you into the architecture. One area at a time.
-
-Starting with the protagonist. You've given me her job but not her
-stakes. Why does she keep pulling the thread when it gets dangerous?
-Professional duty? Personal connection to the displaced
-neighborhood? Something she discovers along the way? The answer
-shapes the entire book.
-:::
-
-*Your answers:*
-
-::: prompt
-She's white. Retired from the state archives in Salem, took the
-county archivist job part-time because she likes the work. No
-personal connection to the displaced neighborhood---at first. But
-she finds a photo in the records of a woman she recognizes from the
-senior center where she volunteers. That woman---Ruth---never told
-anyone she grew up on the waterfront. That's when it becomes
-personal. Not guilt. Friendship. Someone erased Ruth's childhood
-from the public record.
+I know the stories I want to tell but I don't know how to
+structure this. I've never given a speech to 150 people. Help me
+build the outline before I start writing anything.
 :::
 
 *Your Agent:*
 
 ::: agent
-That gives me the engine. Here's the proposed architecture.
+Five minutes is about 650-750 words spoken at a natural pace.
+That's less than most people think. I'll interview you into the
+structure.
 
-DETERMINISTIC PLOT POINTS---THESE ARE FIXED
-1. Margaret notices missing pages during routine cataloging
-2. The missing pages all trace to waterfront parcels, 1960--1963
-3. She finds a photo of young Ruth at a waterfront address
-4. Someone breaks into the archive office and takes the index
-   cards she was cross-referencing
-5. Ruth, when asked, refuses to talk about it
-6. Margaret discovers the original deal was brokered by the
-   mayor's grandfather
-7. The current mayor announces the waterfront redevelopment
-8. Margaret finds a surviving copy of one key deed at the
-   state archives in Salem
-9. Ruth tells her story---the neighborhood, the displacement,
-   what was lost
-10. Margaret makes the records public at a city council meeting
-    about the waterfront sale
+First---the bride. What's her name, and what's the one thing about
+her that the people who love her would all recognize? Not a
+fact---a quality. The thing that makes her her.
+:::
 
-DYNAMIC---GENERATE WITHIN CONSTRAINTS
-— Everything between fixed points: scenes, dialogue, pacing, and
-  physical detail
-— Margaret's inner world: her routines, her archivist's habits,
-  how she investigates through records rather than confrontation
-— The town: weather, geography, the senior center, the archive, and
-  the waterfront
-— Tension escalation between each deterministic point
+*Your answer:*
 
-CHARACTER NOTE
-Margaret is not a detective. She is an archivist. She investigates
-through records, cross-references, and institutional knowledge.
-She does not break into buildings. She follows the paper trail
-because that is what she knows, and in this story the paper trail
-is what someone tried to destroy.
+::: prompt
+Her name's Lena. The thing everyone knows about her is that she
+remembers everything you've ever told her. You mention once that
+you like a weird flavor of tea and two years later it's in your
+Christmas stocking. She pays attention to people in a way that
+makes you feel like you matter. That's the thing.
+:::
+
+*Your Agent:*
+
+::: agent
+That's the spine of the toast---Lena pays attention. Every story
+you tell should be an example of that quality in action. Here's the
+architecture.
+
+OUTLINE---5 MINUTES, 700 WORDS
+
+1. OPENING (30 sec, ~90 words)
+   — Introduce yourself and your relationship to Lena
+   — One sentence that names the quality: she pays attention
+   — Slide: a photo of the two of you from early in the
+     friendship
+
+2. STORY 1: THE SMALL MOMENT (60 sec, ~150 words)
+   — A specific, concrete example of Lena paying attention to
+     someone in a way that surprised you
+   — This should be a story the room can picture---a moment,
+     not a summary
+   — Slides: 2-3 photos from this era
+
+3. STORY 2: THE BIG MOMENT (60 sec, ~150 words)
+   — A time Lena's attention to people mattered when things
+     were hard---not a crisis story, but a moment where that
+     quality carried real weight
+   — This is the emotional center of the toast
+   — Slides: 2-3 photos
+
+4. THE TURN TO THE COUPLE (60 sec, ~150 words)
+   — When you first saw that the partner gets the same
+     treatment---or better, a moment where you saw the partner
+     paying attention to Lena the same way she pays attention
+     to everyone else
+   — This is where the toast becomes about the marriage, not
+     just the bride
+   — Slides: 2-3 photos of the couple
+
+5. CLOSE (30 sec, ~90 words)
+   — One line back to the quality
+   — The toast itself---raise the glass
+   — Slide: one photo of Lena laughing. End on her face.
 
 CONSTRAINTS
-— First person, Margaret's POV
-— Tone: measured, observant, increasingly angry but never
-  melodramatic
-— Genre: literary mystery, not thriller---tension from what the
-  records reveal, not physical danger
-— 70,000 words, 25--30 chapters
+— Total: 650-750 words. Rehearse with a timer. If you're over
+  4:45, cut from Story 1, not the close.
+— No inside jokes the room can't follow. If you have to explain
+  it, cut it.
+— No "I remember when"---start in the scene. "It was junior year
+  and Lena showed up at my door with..." not "I remember when
+  Lena came to my door."
+— The slideshow is atmosphere, not script. You should be able to
+  give the toast if the projector dies.
 
-What's wrong? What's missing? What needs to move?
+What stories are you thinking for slots 1 and 2? Give me the
+short versions and I'll tell you which is stronger where.
 :::
 
 *Your follow-up:*
 
 ::: prompt
-The break-in needs to happen earlier---chapter 4 or 5. That's
-what tells her this isn't sloppy record-keeping. Someone is
-actively hiding something. Move it up, then draft the opening
-scene.
+Story 1: sophomore year, I was stressed about a chem final and
+mentioned I hadn't eaten. The next morning there was a bag on my
+door handle---a bagel, an orange, and a note that said "eat this
+then go pass that test." She never mentioned it again.
+
+Story 2: my mom got diagnosed with MS our senior year. Lena
+didn't do the big speech thing. She just started driving me home
+every other weekend without me asking. Four hours round trip.
+She'd bring snacks and never once ask how I was feeling about
+it. She just showed up.
+
+For the couple part---I watched Lena's fiancé Dev make her a
+whole birthday scavenger hunt last year with clues based on
+things she'd mentioned in passing. She cried. I thought: okay,
+he gets it. He pays attention to the person who pays attention
+to everyone else.
 :::
 
 *Your Agent:*
 
 ::: agent
-The break-in is the genre turn. Moving it to chapter 4 accelerates
-Margaret from "this is odd" to "someone doesn't want me to find
-this." Restructuring: break-in becomes plot point 4, Ruth's refusal
-moves to 5, everything else shifts.
+All three land. The bagel story is the right Story 1---small,
+specific, visual. The room can see the bag on the door handle.
+The MS story is Story 2---it carries weight without being heavy
+because you're describing what she did, not how you felt. The Dev
+scavenger hunt is a strong turn to the couple.
 
-Opening scene:
+One revision to the architecture: move the "she never mentioned it
+again" line from Story 1 to the close. It works as a callback---
+Lena pays attention, she doesn't keep score, and now she's found
+someone who does the same thing. That line is your last sentence
+before the toast.
 
-SCENE: Chapter 1---Margaret notices the missing pages
-DETERMINISTIC: She discovers pages missing from the county land
-records, waterfront section, 1960--1963. She does not yet know why.
-DYNAMIC: Her morning, the archive room, the physical experience of
-finding the gap.
-CONSTRAINTS: First person. Observational. No alarm yet---only
-professional curiosity. 800 words.
+SLIDESHOW SEQUENCE
+— Opening: you and Lena, early college. Something candid.
+— Story 1: a photo from sophomore year. Doesn't need to be the
+  exact day---just that era, the two of you.
+— Story 2: a photo from senior year. If you have one of the
+  drives home, use it. If not, anything from that period where
+  you're together.
+— The turn: Dev's scavenger hunt, or a photo of Lena and Dev
+  where he's looking at her and she doesn't know it.
+— Close: Lena laughing. Not posed. The photo you'd text to
+  someone to explain why you love her.
 
-The Tillamook County Records Office smells like every archive I
-have ever worked in---paper dust, old binding glue, and the faintly
-sweet decomposition of documents no one has touched in decades. I
-have been here four months. I took the job because I missed the
-work, which is something you can say about archival science and
-people will either believe you or they won't.
-
-The land records live in the basement, in filing cabinets installed
-during the Ford administration. Organized by parcel number,
-cross-indexed by owner surname in a card catalog that someone
-maintained by hand until 2004 and no one has updated since. I am
-re-indexing from the beginning because the digital conversion in
-2011 was done by a contractor who apparently believed alphabetical
-order was optional.
-
-I am in the W section---waterfront parcels---when I find the first
-gap. Pages 340 through 344 of the 1962 deed book. Not misfiled.
-Missing. The binding shows clean cuts close to the spine, the way
-someone who knew how to handle a bound volume would remove pages
-without damaging the adjacent sheets.
-
-I make a note. I check the next volume. Pages 97 through 100 of
-the 1961 assessment rolls. Same section, same parcels. Same
-clean cuts. ...
+Want me to draft the full 700-word toast with these stories, or do
+you want to write it yourself and have me time-check it?
 :::
 
 ::: tip
-Notice what the Agent generated and what it didn't. The deterministic point---Margaret discovers missing pages in the waterfront section---landed exactly. The dynamic elements---the archive's smell, the Ford administration cabinets, the hapless digitization contractor---were generated within the constraint of Margaret's voice. If any of those details are wrong for your version of Margaret, point to the specific line and say what's off. That is Pass 2 of the refinement cycle. If the prose is correct but sounds like nobody in particular wrote it, that is Pass 3---your voice pass. The target is a draft where Pass 3 takes twenty minutes, not a draft that skips it.
+The architecture has five slots and a time budget. That is the whole skill. Most wedding toasts fail because the speaker has twelve stories and no structure---they keep adding material until the planner is waving from the back of the room. The spec fixed the word count first (700 words, five minutes), then built the arc to fit. The slideshow is a separate constraint: it supports the toast but doesn't drive it. The Agent proposed cutting from Story 1 if you're over time---because the close is the part the room will remember and the part most people cut when they're panicking about the clock.
 :::
 
 
@@ -673,4 +675,4 @@ The [MFA](https://en.wikipedia.org/wiki/Master_of_Fine_Arts) costs $40,000 to $1
 
 ---
 
-Three projects. Three blank pages that stopped being blank---a novel with ten fixed plot points and a first scene that smells like old paper and bad digitization contracts, a short story whose strongest version came from combining two branches the writer could not have found by choosing one path in advance, and a tavern where three characters reveal information through the constraints that make them people instead of quest dispensers. None of these were written by the Agent. The Agent wrote sentences. The writers owned the architecture---the deterministic points, the constraints, the character bibles, the decisions about what matters and what is negotiable. Moriarty's tragedy was not that he was fictional. It was that he lived inside a story he believed he had written. The plot points were someone else's. The constraints were someone else's. The holodeck rendered his world beautifully, but the spec belonged to [Picard](https://en.wikipedia.org/wiki/Jean-Luc_Picard) and [Data](https://en.wikipedia.org/wiki/Data_(Star_Trek)). Your spec doesn't. The holodeck is rendering. The story is yours.
+Three projects. Three blank pages that stopped being blank---a wedding toast with five slots and a time budget that turned forty photos and a lifetime of friendship into five minutes that will make a room full of strangers cry, a short story whose strongest version came from combining two branches the writer could not have found by choosing one path in advance, and a tavern where three characters reveal information through the constraints that make them people instead of quest dispensers. None of these were written by the Agent. The Agent wrote sentences. The writers owned the architecture---the deterministic points, the constraints, the character bibles, the decisions about what matters and what is negotiable. Moriarty's tragedy was not that he was fictional. It was that he lived inside a story he believed he had written. The plot points were someone else's. The constraints were someone else's. The holodeck rendered his world beautifully, but the spec belonged to [Picard](https://en.wikipedia.org/wiki/Jean-Luc_Picard) and [Data](https://en.wikipedia.org/wiki/Data_(Star_Trek)). Your spec doesn't. The holodeck is rendering. The story is yours.
