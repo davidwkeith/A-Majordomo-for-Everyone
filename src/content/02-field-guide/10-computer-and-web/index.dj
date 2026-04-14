@@ -35,7 +35,7 @@ The internet was supposed to be [Geocities](https://en.wikipedia.org/wiki/GeoCit
 *Strategy:* Decode + Navigate
 *See also:* WB-7: Writing in CommonMark (a specific digital skill), W-5: Learning a New Professional Skill
 *My Man Jeeves:* _One might observe that software manuals expired in the early 2000s and were replaced by nothing of consequence. YouTube tutorials proceed on the assumption that one already possesses the vocabulary. Official documentation is composed for developers. The result, if one may say so, is a population that employs approximately 10% of the tools for which it pays --- not through any incapacity to master the remaining 90%, but because no one has undertaken to explain it at the level where the learner actually stands, without judgment, for as long as the matter requires. One's Agent will._
-*The spec:*
+*The Spec:*
 ::: prompt
 I want to learn [app or skill: Photoshop / Excel / video editing /
 graphic design basics / email management / a new phone feature /
@@ -54,7 +54,7 @@ Please:
 3. Give me a practice exercise I can do in 15 minutes
 4. Tell me what most tutorials waste time on that I can skip
 :::
-*What to do with the output:* Do the practice exercise. Not tomorrow — now. The gap between "I should learn this" and "I know this" is one fifteen-minute session where you actually click the buttons. Your Agent can see your screen if you use the desktop version of most AI tools — paste a screenshot and say _"I'm stuck here, what do I click next?"_ That is the most underused feature in AI right now.
+*What to do with the Output:* Do the practice exercise. Not tomorrow — now. The gap between "I should learn this" and "I know this" is one fifteen-minute session where you actually click the buttons. Your Agent can see your screen if you use the desktop version of most AI tools — paste a screenshot and say _"I'm stuck here, what do I click next?"_ That is the most underused feature in AI right now.
 
 ::: tip
 _"Explain this like I've never seen this software before"_ is not a childish prompt. It is the correct prompt. The curse of knowledge — the inability of experts to remember what it was like to not know — is the reason most software tutorials are bad. Your Agent does not have this curse.
@@ -94,7 +94,7 @@ The digital skills gap is a class issue. The OECD's Survey of Adult Skills (2024
 *Strategy:* Create + Navigate
 *See also:* WB-5: Building Your Own Website (for web-scale projects), WB-7: Writing in CommonMark
 *My Man Jeeves:* _Programming formerly required a computer science degree, or at minimum the temperament that finds pleasure in reading documentation for its own sake. It would appear that this is no longer the case. One's Agent is capable of writing small programs --- scripts --- that attend to the tedious portions of one's digital life: renaming five hundred photographs, sorting a spreadsheet, converting files from one format to another, retrieving a price from a website each morning. One need not learn to code. One need only learn to describe what one wishes the code to do. Which is --- and this, if one may venture the observation, is the point of this entire book --- specification._
-*The spec:*
+*The Spec:*
 ::: prompt
 I have a repetitive task I want to automate:
 [describe the task in plain language — e.g., "every week I download
@@ -111,7 +111,7 @@ Please:
    a terminal is
 4. Tell me what could go wrong and how to fix it
 :::
-*What to do with the output:* Run the script on a small test set first — ten files, not three hundred. Read the explanation of what the script does even if you don't understand every line. You are not trying to become a programmer. You are trying to stop doing the same tedious task every week. That is a legitimate use of the technology, and it is the one that saves the most time for the most people.
+*What to do with the Output:* Run the script on a small test set first — ten files, not three hundred. Read the explanation of what the script does even if you don't understand every line. You are not trying to become a programmer. You are trying to stop doing the same tedious task every week. That is a legitimate use of the technology, and it is the one that saves the most time for the most people.
 
 The term for this is _vibe coding_ — describing what you want in plain language and letting the AI write the code. It is not a shortcut or a cheat. It is specification literacy applied to software. The spec is the program. The code is just the translation.
 
@@ -165,7 +165,7 @@ Vibe coding evolved. Professional engineers now practice _agentic coding_ — wr
 *Strategy:* Specify
 *See also:* WB-4: Learn to Work Better with AI Agents, Chapter 2: Your First Three Conversations, Chapter 4: How to Ask for What You Actually Want
 *My Man Jeeves:* _When the billionaire class engaged a personal assistant, the first week served as an audition --- not of competence, but of fit. Does she send bullet points or paragraphs? Does he say "Mr. Arnault" or "Bernard"? Does she flag difficulties immediately or reserve them for the morning briefing? The assistant who survived the probationary period was the one who matched the principal's communication rhythm without requiring instruction twice. One's Agent possesses the same capacity for customization --- and unlike a human assistant, it is not in the least disposed to take the feedback personally. The difference, one might note, is that the billionaire invested in a three-month trial period. One receives a settings panel and ten minutes._
-*The spec:*
+*The Spec:*
 ::: prompt
 I want to set up my AI assistant's profile so every conversation
 starts with it already knowing who I am and how I communicate.
@@ -188,7 +188,7 @@ Please draft custom instructions I can paste into my settings.
 Keep it under 200 words — short enough that I will actually
 read it before I hit Save.
 :::
-*What to do with the output:* Copy the instructions your Agent drafted. Open your settings. Paste them in. Start a new conversation and ask something simple — the difference is immediate. Then adjust. Too formal? Say so. Too verbose? Cut a line. The best custom instructions are rewritten three or four times in the first week as you notice what bothers you. This is not a one-time setup. It is a calibration process — the same one the billionaire class ran with a human, compressed into a text box and a backspace key.
+*What to do with the Output:* Copy the instructions your Agent drafted. Open your settings. Paste them in. Start a new conversation and ask something simple — the difference is immediate. Then adjust. Too formal? Say so. Too verbose? Cut a line. The best custom instructions are rewritten three or four times in the first week as you notice what bothers you. This is not a one-time setup. It is a calibration process — the same one the billionaire class ran with a human, compressed into a text box and a backspace key.
 
 ::: tip
 One instruction is worth adding to every profile, regardless of tool or tone preference. Paste this into your custom instructions and your Agent will interview you before it answers — the same specification habit this book teaches, running automatically:
@@ -233,7 +233,7 @@ The billionaire class treated the personal assistant hire like a casting call �
 *Strategy:* Specify + Research
 *See also:* Strategy 0: Specify (the full specification interview method), Chapter 4: How to Ask for What You Actually Want
 *My Man Jeeves:* _This is the entry that instructs one in the use of the tool upon which every other entry depends. If the book may be likened to a workshop, this would be the safety orientation for the power tools. The billionaire class had no occasion to acquire this skill --- they already maintained a staff that translated vague instructions into precise tasks. The chief of staff, the executive assistant, the law clerk --- these are, in essence, human specification interfaces. One is learning the same skill, applied to a rather different kind of assistant._
-*The spec:*
+*The Spec:*
 ::: prompt
 I want to get better at working with AI Agents — not just
 using them, but understanding how to get consistently useful
@@ -254,7 +254,7 @@ Please help me understand:
    right now that will teach me the most about how this works
 :::
 
-*What to do with the output:* Do the exercise. Then do the same exercise again, but badly — give the Agent a vague, context-free prompt and compare the results. The difference between the two outputs is specification literacy made visible. You will not need to read a book about it after that. You will have felt it.
+*What to do with the Output:* Do the exercise. Then do the same exercise again, but badly — give the Agent a vague, context-free prompt and compare the results. The difference between the two outputs is specification literacy made visible. You will not need to read a book about it after that. You will have felt it.
 
 This entry is recursive by design. You are using your Agent to learn how to use your Agent. The specification interview loop — describe your situation, answer the clarifying questions, review the proposed spec, correct what is wrong — is the same whether you are asking about insurance or asking about the tool itself. The skill is the skill. It transfers to everything.
 
@@ -298,7 +298,7 @@ Research on expertise development (Ericsson et al., 1993) identifies _deliberate
 *Strategy:* Create + Navigate
 *See also:* WB-7: Writing in CommonMark (for writing your content), WB-8: Blogging and Journaling
 *My Man Jeeves:* _The billionaire class has always maintained a web presence managed by professionals. The remainder of the population received Facebook pages and LinkedIn profiles --- land one rents on platforms that may alter the terms, throttle the reach, or cause the content to vanish at any moment. Owning one's own website is the digital equivalent of owning one's home rather than renting it. It has always been possible. It has not, until recently, been this straightforward. The [IndieWeb](https://indieweb.org/) is the movement that holds a simple principle: publish on one's own site first, syndicate to the platforms second, and never lose one's words because a company pivoted._
-*The spec:*
+*The Spec:*
 ::: prompt
 I want to build my own personal website. I have never done this before.
 I want it to be simple, fast, and mine — not hosted on someone else's
@@ -314,7 +314,7 @@ Please walk me through the process from the beginning:
 7. How do conversations work across independent websites?
 Keep it simple. I want something I can maintain myself.
 :::
-*What to do with the output:* Follow the steps. Your first site does not have to be perfect. It has to exist. You can improve it every week for the rest of your life — and unlike a social media profile, every improvement accrues to something you own. A static site (plain HTML files, no database, no server-side code) is the simplest, fastest, cheapest, and most durable option. It is also the greenest — a static site uses a fraction of the energy of a WordPress installation because there is nothing to compute, only files to serve.
+*What to do with the Output:* Follow the steps. Your first site does not have to be perfect. It has to exist. You can improve it every week for the rest of your life — and unlike a social media profile, every improvement accrues to something you own. A static site (plain HTML files, no database, no server-side code) is the simplest, fastest, cheapest, and most durable option. It is also the greenest — a static site uses a fraction of the energy of a WordPress installation because there is nothing to compute, only files to serve.
 
 ::: science
 The environmental cost of the internet is non-trivial — data centers account for roughly 1-1.5% of global electricity use (IEA, 2024). A static website served from a green host produces orders of magnitude less carbon per page view than a dynamic site running on a cloud server that spins up computation for every visitor. The [Green Web Foundation](https://www.thegreenwebfoundation.org/) maintains a directory of verified green hosts.[^wb1-1]
@@ -364,7 +364,7 @@ The web was designed as a decentralized system — [RFC 2616](https://en.wikiped
 *Strategy:* Research + Navigate
 *See also:* Li-11: Escaping Social Media (for reducing compulsive consumption), WB-5: Build a Website, Own Your Corner of the Internet
 *My Man Jeeves:* _Before the algorithm, there existed RSS --- a protocol that permitted one to subscribe to any website and receive its updates in a single reader, in chronological order, with no advertisements, no ranking, no engagement optimization, and no company determining what one should see next. RSS, one feels compelled to mention, still works. It never stopped working. The platforms merely ceased to promote it, as a protocol that places control in the hands of the user does not, regrettably, generate advertising revenue._
-*The spec:*
+*The Spec:*
 ::: prompt
 I want to read the web on my own terms — without algorithms
 deciding what I see and without social media feeds.
@@ -378,7 +378,7 @@ Please help me:
 5. Show me how to use my AI Agent to curate and summarize
    what I'm reading — a daily briefing that I control
 :::
-*What to do with the output:* Set up a feed reader and add ten sources. That is your starting library. Within a week, you will notice a change: you are reading what you chose, not what an algorithm chose for you. The difference in signal quality — and in how you feel afterward — is immediate and measurable.
+*What to do with the Output:* Set up a feed reader and add ten sources. That is your starting library. Within a week, you will notice a change: you are reading what you chose, not what an algorithm chose for you. The difference in signal quality — and in how you feel afterward — is immediate and measurable.
 
 *Common reading Expert Role specs:*
 ::: prompt
@@ -425,7 +425,7 @@ The wealthy and educated have always curated their information sources — subsc
 *Strategy:* Decode + Draft
 *See also:* WB-5: Building Your Own Website, WB-8: Blogging and Journaling
 *My Man Jeeves:* _[CommonMark](https://commonmark.org/) serves as the universal language of AI in much the way English serves as the universal language of air traffic control --- not because it is the finest available, but because all parties agreed upon it and it functions reliably. It is plain text with a modest number of symbols that carry meaning. One can acquire the entire language in ten minutes. This book was written in [Djot](https://djot.net), a related format created by the same author --- but that is a digression. One's Agent thinks in CommonMark. When one writes in CommonMark, one is writing in the lingua franca of every AI system on the market --- which is to say, one's Agent can process, format, and transform one's writing with fewer tokens and greater precision than any other format permits._
-*The spec:*
+*The Spec:*
 ::: prompt
 I want to learn CommonMark so I can write content for my website
 and communicate more effectively with my AI Agent.
@@ -436,7 +436,7 @@ Show me examples I can copy and modify.
 Then show me the one thing that makes CommonMark more powerful
 than any word processor: links.
 :::
-*What to do with the output:* Write your first post in CommonMark. Do not worry about getting the syntax perfect — your Agent will correct you. The point is to start writing in a format that is portable, future-proof, and readable by every tool you will ever use.
+*What to do with the Output:* Write your first post in CommonMark. Do not worry about getting the syntax perfect — your Agent will correct you. The point is to start writing in a format that is portable, future-proof, and readable by every tool you will ever use.
 
 [commonmark-side-by-side]{.art}
 
@@ -473,7 +473,7 @@ In the pre-web era, citation was gatekept by publishers, editors, and academic i
 *Strategy:* Create + Draft
 *See also:* WB-7: Writing in CommonMark, WB-5: Build a Website, Own Your Corner of the Internet, Li-8: Wellness Coach (journaling as mental health practice)
 *My Man Jeeves:* _One observes that every sitcom family maintained a room where the substantive conversations took place. For the [Conners](https://en.wikipedia.org/wiki/Roseanne) it was the kitchen table. For the [Seinfelds](https://en.wikipedia.org/wiki/Seinfeld) it was the apartment. For the [Simpsons](https://en.wikipedia.org/wiki/The%5FSimpsons) it was the couch. A blog, if one may draw the parallel, is that room --- except one has built it oneself, one owns the walls, and no one is in a position to cancel the programme. A journal is the same room with the door closed. Both represent acts of thinking, whether in public or in private, and both are rather more valuable than one might suppose._
-*The spec:*
+*The Spec:*
 ::: prompt
 I want to start [blogging publicly / journaling privately / both].
 My situation:
@@ -490,7 +490,7 @@ Please help me:
 3. Draft my first post — something I can publish today
 4. Tell me honestly: does anyone actually read blogs anymore?
 :::
-*What to do with the output:* Publish the first post. It does not need to be good. The act of publishing — putting your thinking where others can find it — is the point. Captain's Log, Star Date today. Every blog post is a contribution to the public record of how people think, what they know, and what they care about. Your ideas matter, even when you are echoing what others say, because your particular combination of experience and perspective is unique. That is not a platitude. It is information theory.
+*What to do with the Output:* Publish the first post. It does not need to be good. The act of publishing — putting your thinking where others can find it — is the point. Captain's Log, Star Date today. Every blog post is a contribution to the public record of how people think, what they know, and what they care about. Your ideas matter, even when you are echoing what others say, because your particular combination of experience and perspective is unique. That is not a platitude. It is information theory.
 
 Could be audio, video, writing. Any format, storage is cheap, hosting is free.
 
@@ -540,7 +540,7 @@ Research on [reflective practice](https://en.wikipedia.org/wiki/Reflective%5Fpra
 *Strategy:* Research + Navigate
 *See also:* WB-5: Building Your Own Website (owning vs. renting), H-7: Preparing for End-of-Life Conversations (the analog equivalent)
 *My Man Jeeves:* _The [Library of Alexandria](https://en.wikipedia.org/wiki/Library%5Fof%5FAlexandria) burned. The Dead Sea Scrolls survived in clay jars for two thousand years. MySpace lost 50 million songs in a server migration. [GeoCities](https://en.wikipedia.org/wiki/GeoCities) was deleted by Yahoo in 2009. The lesson, one ventures to suggest, has been consistent across millennia: what survives is what someone deliberately chose to preserve. The internet remembers everything and nothing --- everything that someone took the trouble to archive, nothing that was left on a platform that shut down, pivoted, or mislaid a database._
-*The spec:*
+*The Spec:*
 ::: prompt
 I want to make sure my online work — writing, photos, creative
 projects — survives beyond any single platform or service.
@@ -557,7 +557,7 @@ Please help me:
 4. Plan for digital legacy — what happens to my accounts
    and content after I die?
 :::
-*What to do with the output:* Submit your website to the [Wayback Machine](https://web.archive.org/) today. It takes thirty seconds. Then export your content from every platform you use — most offer a data export buried in their settings. Store the exports somewhere you control. The domain you choose is your handle, your identity, the name you are known by online. Pick it as carefully as you would a pen name — it is the digital equivalent, and it can outlast you.
+*What to do with the Output:* Submit your website to the [Wayback Machine](https://web.archive.org/) today. It takes thirty seconds. Then export your content from every platform you use — most offer a data export buried in their settings. Store the exports somewhere you control. The domain you choose is your handle, your identity, the name you are known by online. Pick it as carefully as you would a pen name — it is the digital equivalent, and it can outlast you.
 
 ::: science
 The [Internet Archive](https://archive.org/) has preserved over 835 billion web pages since 1996. It is a nonprofit, donation-funded, and legally contested — publishers have sued to limit its digital lending library. It is also the single most important preservation project in the history of human knowledge, because the web it archives was never designed to be permanent.[^wb6-1]

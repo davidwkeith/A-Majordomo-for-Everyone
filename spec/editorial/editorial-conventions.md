@@ -20,18 +20,18 @@
   *Strategy:* [combination of strategies]
   *See also:* [cross-references to related entries]
   *My Man Jeeves:* _[Jeeves-voice opener]_
-  *The spec:*
+  *The Spec:*
   [monospace code block — the spec template]
-  *What to do with the output:* [concrete next action]
-  *Common [domain] Expert Role specs:* [for Expert Role entries only]
+  *What to do with the Output:* [concrete next action]
+  *Common [Domain] Expert Role Specs:* [for Expert Role entries only]
   [Callouts: SCIENCE, TIP, FAIRNESS, MEME, ALSO]
   <!-- RESEARCH NEEDED --> [editorial comments]
   [Footnotes]
   ```
 
-  **Required:** Problem title, Strategy, My Man Jeeves, The spec, at least one callout.
-  **Expected for most entries:** See also, What to do with the output.
-  **Conditional:** Expert Role specs (only when entry uses "Act as a..." pattern), Science note (inline variant of [SCIENCE] for brief citations within prose).
+  **Required:** Problem title, Strategy, My Man Jeeves, The Spec, at least one callout.
+  **Expected for most entries:** See also, What to do with the Output.
+  **Conditional:** Expert Role Specs (only when entry uses "Act as a..." pattern), Science Note (inline variant of [SCIENCE] for brief citations within prose).
 
 - **Cross-references between entries:** Field Guide entries that share concepts, strategies, or institutions should reference each other inline — e.g., "see also L-1: Negotiating a Contract" or "the appeal process in H-4 applies here." This is the DRY principle applied to a book: teach a concept once, reference it everywhere it recurs. The reader who arrives at Ho-5 (renter rights) from a lease dispute should find the contract-reading skill in L-1 rather than a second, lesser explanation of the same technique. Cross-references use the entry ID format (`H-4`, `L-1`, `Ho-3`) so the reader learns the book's navigation system by using it.
 - **Adult learning principles:** The Field Guide is designed for adult learners who arrive with a specific problem, not a desire to study. Each entry respects four principles from [andragogy](https://en.wikipedia.org/wiki/Andragogy) (Knowles, 1984): **(1) Problem-centered, not subject-centered** — the entry title is the problem, not the skill. "Appealing an Insurance Denial" not "How to Write Persuasive Letters." **(2) Experience is the resource** — the reader already knows their situation; the entry teaches them how to articulate it to an Agent, not how to understand it. **(3) Immediate application** — every entry ends with "What to do with the output," a concrete next action the reader can take tonight. **(4) Self-directed** — the spec is a template, not a script. The reader fills in their own details, reviews the Agent's output, and decides what to do with it. The book teaches a transferable skill (specification), not a set of answers.

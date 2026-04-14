@@ -67,8 +67,8 @@ Ten strategies. Each opens with a 90s sitcom episode scene (pixel art on a Trini
 Strategy: [which strategies apply]
 See also: [cross-references]
 My Man Jeeves: [Jeeves-voice opener — 3-beat: name dysfunction, show asymmetry, give tool]
-The spec: [monospace code block — the spec template]
-What to do with the output: [concrete next action]
+The Spec: [monospace code block — the spec template]
+What to do with the Output: [concrete next action]
 Callouts: [SCIENCE], [TIP], [FAIRNESS], [MEME], [ALSO], [SPEC]
 ```
 

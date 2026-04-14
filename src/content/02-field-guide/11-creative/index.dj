@@ -19,7 +19,7 @@ _Creativity was never the exclusive domain of artists, writers, and filmmakers. 
 *Strategy:* Create + Diagnose
 *See also:* WB-1: Learning Any App or Digital Skill, Li-5: Planning Trips (for travel photography)
 *My Man Jeeves:* _One might observe that a professional portrait photographer commands $200 to $500 per session, that a wedding photographer expects $2,000 to $5,000, and that photography courses range from $20 online to $500 and up in person, proceeding upward with some enthusiasm in either direction. The difficulty, if one may say so, has never been the camera — the device in one's pocket has been more than adequate for some years now. The difficulty is that composition, light, and the rather undervalued discipline of knowing what to exclude from the frame are learnable skills that have historically required either formal instruction or prolonged apprenticeship to acquire. It would appear that those of considerable means retain a personal photographer for such purposes. The reader, however, now has access to a tutor of considerable patience, one that has studied every composition technique Annie Leibovitz ever employed and is prepared to explain them in terms of the photograph one is about to take._
-*The spec:*
+*The Spec:*
 ::: prompt
 I want to take better photos with [my phone / my camera].
 My situation:
@@ -40,7 +40,7 @@ Please help me:
    I photograph — skip the ones that don't apply
 4. Tell me what my phone camera can do that I'm probably not using
 :::
-*What to do with the output:* Take ten photos using the advice. Compare them to your last ten. The difference between a snapshot and a photograph is usually three things: where you stand, where the light is, and what you leave out of the frame. Your Agent can tell you all three. You have to move your feet.
+*What to do with the Output:* Take ten photos using the advice. Compare them to your last ten. The difference between a snapshot and a photograph is usually three things: where you stand, where the light is, and what you leave out of the frame. Your Agent can tell you all three. You have to move your feet.
 
 ::: tip
 _"Here's a photo I took [attach image]. What would a professional photographer change about the composition, lighting, and framing?"_ — Your Agent can analyze the specific photo and give you feedback you can apply to the next one.
@@ -70,7 +70,7 @@ The gap between a snapshot and a photograph is not equipment or talent — it is
 *Strategy:* Create + Research (Expert Role)
 *See also:* Cr-1: Taking Better Photos (the same compositional principles apply), WB-5: Build a Website, Own Your Corner of the Internet (for applying design to your site), WB-1: Learning Any App or Digital Skill (for learning design software)
 *My Man Jeeves:* _It may be worth noting that a graphic designer charges $25 to $150 an hour, and that a brand identity package — logo, colors, typography, templates — begins at $5,000 with a willingness to ascend from there. Design school, one understands, is a four-year degree that imparts principles one might acquire in an afternoon, along with taste, which one develops only through practice. The principles themselves are not closely guarded. Hierarchy, contrast, alignment, proximity, repetition — five words that govern every poster, website, business card, and yard sale flyer one has ever encountered. The distinction between the yard sale flyer that produces results and the one that goes unread is not a matter of talent. It is a matter of knowing those five words and what they mean. Those of substantial means maintain a design team on retainer. The reader has an Agent, and it is conversant with the same principles._
-*The spec:*
+*The Spec:*
 ::: prompt
 Act as an expert visual designer. I need help with
 [a website / a poster / a flyer / a business card /
@@ -97,7 +97,7 @@ Please:
 4. Tell me what makes amateur design look amateur and
    how to fix it in my specific piece
 :::
-*What to do with the output:* Make the thing. Then screenshot it and send it back to your Agent: _"Here's what I made. What would a professional designer change?"_ Design is iterative — the first version is never the final one. Each round of feedback teaches you something the principles alone cannot: how to see what is wrong. That skill transfers to everything you design after this.
+*What to do with the Output:* Make the thing. Then screenshot it and send it back to your Agent: _"Here's what I made. What would a professional designer change?"_ Design is iterative — the first version is never the final one. Each round of feedback teaches you something the principles alone cannot: how to see what is wrong. That skill transfers to everything you design after this.
 
 *Common visual design Expert Role specs:*
 ::: prompt
@@ -140,7 +140,7 @@ Design tools like [Canva](https://en.wikipedia.org/wiki/Canva) are free and powe
 *Strategy:* Create + Navigate
 *See also:* Cr-1: Taking Better Photos (the visual skills transfer), WB-1: Learning Any App or Digital Skill (for learning the software)
 *My Man Jeeves:* _A difficulty presents itself in the matter of film editing. Film school costs six figures and requires four years. YouTube tutorials on the subject proceed from the assumption that one already knows what a "J-cut" is and why one might desire one. Professional editors charge $50 to $150 an hour and are engaged months in advance. The software, one might observe, is now free — [DaVinci Resolve](https://en.wikipedia.org/wiki/DaVinci%5FResolve) accomplishes what a $100,000 Avid suite accomplished in 1995 — yet the storytelling craft of editing, the part in which raw footage becomes something a viewer wishes to watch, has not been similarly democratized. It remains the province of film schools and editing suites. One's Agent, however, is conversant with the craft. It is prepared to explain why the pacing feels wrong, what to cut, and where the story actually begins. It is never the first clip._
-*The spec:*
+*The Spec:*
 ::: prompt
 I want to edit a video.
 My situation:
@@ -164,7 +164,7 @@ Please help me:
    biggest difference in my specific project
 4. Tell me what to cut — beginners always leave too much in
 :::
-*What to do with the output:* Start with the cut list. The hardest part of editing is not the software — it is accepting that most of your footage does not belong in the final version. A three-hour vacation produces a five-minute video. A one-hour birthday party produces ninety seconds. Your Agent can help you identify what matters. The software part is just buttons, and your Agent knows where every button is in whatever editor you picked.
+*What to do with the Output:* Start with the cut list. The hardest part of editing is not the software — it is accepting that most of your footage does not belong in the final version. A three-hour vacation produces a five-minute video. A one-hour birthday party produces ninety seconds. Your Agent can help you identify what matters. The software part is just buttons, and your Agent knows where every button is in whatever editor you picked.
 
 ::: tip
 _"I have [X] hours of footage from [event]. Help me select the 10-15 best moments for a [length]-minute video. I want the viewer to feel [emotion]."_ — Tell your Agent the feeling, not just the facts.
@@ -194,7 +194,7 @@ For editing advice and step-by-step software guidance, any major AI tool works w
 *Strategy:* Create + Draft
 *See also:* Strategy 9: Create (the full framework for AI-assisted creative work), Li-8: Wellness Coach (for the emotional side of long projects)
 *My Man Jeeves:* _It would appear that the publishing industry spent centuries determining who was permitted to call themselves a writer. Self-publishing removed the gate. It did not, one regrets to observe, remove the craft. The tools to distribute a book to every reader on earth are free or very nearly so. The tools to make the book worth reading cost the same thing they have always cost: time, structure, and someone willing to inform one, with appropriate delicacy, when a chapter does not work. Most books, if one may venture the observation, expire in chapter four, not at the blank page. The blank page receives rather more credit for stopping writers than it deserves — it is the middle, when the architecture does not hold and the initial enthusiasm has been spent, that accounts for the manuscript's demise. One's Agent is prepared to serve as the structural editor, the developmental reader, and the research assistant that professional authors have always retained and first-time writers have not._
-*The spec:*
+*The Spec:*
 ::: prompt
 I want to write a book about [topic / story / argument].
 My situation:
@@ -214,7 +214,7 @@ Please help me:
 4. Be honest: is this idea a book, or is it an essay, a blog
    post, or a pamphlet? The honest answer saves months.
 :::
-*What to do with the output:* Ask your Agent to read what you have and tell you where the reader would stop reading. Not where it is "good" or "bad" — where attention flags. That is where the work is. If the answer is "the beginning," do not panic. Most books need a different beginning than the one they started with. This one did.
+*What to do with the Output:* Ask your Agent to read what you have and tell you where the reader would stop reading. Not where it is "good" or "bad" — where attention flags. That is where the work is. If the answer is "the beginning," do not panic. Most books need a different beginning than the one they started with. This one did.
 
 ::: tip
 _"Read this chapter and tell me: what is the reader supposed to know at the end that they didn't know at the beginning? If you can't tell, neither can they."_ — This is the single most useful developmental editing question. Ask it for every chapter.

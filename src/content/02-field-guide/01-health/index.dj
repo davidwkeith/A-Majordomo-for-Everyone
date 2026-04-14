@@ -21,7 +21,7 @@ _There is a political movement to Make America Healthy Again. This book is not a
 *Strategy:* Decode
 *See also:* H-2: Preparing Questions (for your next appointment), H-5: Managing a Chronic Condition (if it's ongoing)
 *My Man Jeeves:* _The language of medical diagnosis has evolved over several centuries with the commendable aim of precision between specialists — a precision that, one might observe, extends rather less reliably to the patient. The individual in question, having just received news of some consequence regarding their own person, is moreover in a neurological state that research suggests reduces information retention by approximately half. The medical system appears to regard this arrangement as satisfactory._
-*The spec:*
+*The Spec:*
 ::: prompt
 My doctor just told me I have [diagnosis]. I don't fully understand
 what this means. Please explain in plain language:
@@ -31,7 +31,7 @@ what this means. Please explain in plain language:
 4. What questions I should ask at my next appointment
 Do not assume any medical knowledge on my part.
 :::
-*What to do with the output:* Use it to make your question list before the next appointment (see H-2). Do not use it to second-guess your doctor's treatment recommendation — use it to understand it. For ongoing conditions, see also H-5: Managing a Chronic Condition and H-8: Wellness and Nutrition Coach.
+*What to do with the Output:* Use it to make your question list before the next appointment (see H-2). Do not use it to second-guess your doctor's treatment recommendation — use it to understand it. For ongoing conditions, see also H-5: Managing a Chronic Condition and H-8: Wellness and Nutrition Coach.
 
 ---
 
@@ -39,21 +39,21 @@ Do not assume any medical knowledge on my part.
 *Strategy:* Prepare
 *See also:* H-1: Understanding a Diagnosis (if you just received one), H-5: Managing a Chronic Condition (for ongoing questions)
 *My Man Jeeves:* _Research across multiple medical systems has established, with some consistency, that patients who arrive with written questions receive more information, report higher satisfaction, and reach better-informed decisions than those who do not. It is perhaps worth noting that the medical system has not seen fit to adjust its appointment length to accommodate this finding._
-*The spec:*
+*The Spec:*
 ::: prompt
 I have an appointment with [specialist type] on [date] about [condition
 or concern]. My main worry is [specific concern]. I want to make sure
 I understand [specific thing]. Please help me write a list of questions
 to ask, starting with the most important. I have about [X] minutes.
 :::
-*What to do with the output:* Print the list. Bring it to the appointment. Hand it to the doctor at the start — "I wrote down my questions so I don't forget." This saves both of you time and signals that you are an active participant, not a passive recipient.
+*What to do with the Output:* Print the list. Bring it to the appointment. Hand it to the doctor at the start — "I wrote down my questions so I don't forget." This saves both of you time and signals that you are an active participant, not a passive recipient.
 
 ::: also
 This works well with voice mode on your phone — all major tools support it on mobile. See [Appendix G](06-appendix-g-feature-table.xhtml).
 :::
 
 
-*Science note:* Preparatory coping research (Roter et al., 1987) shows the benefit concentrates in the act of writing -- not just thinking -- the questions.[^h2-1]
+*Science Note:* Preparatory coping research (Roter et al., 1987) shows the benefit concentrates in the act of writing -- not just thinking -- the questions.[^h2-1]
 
 [^h2-1]: Roter, D.L. (1987). "Which facets of communication have strong effects on outcome?" in _Communicating with Medical Patients._
 
@@ -63,7 +63,7 @@ This works well with voice mode on your phone — all major tools support it on 
 *Strategy:* Decode
 *See also:* H-4: Appealing an Insurance Denial (if something looks wrong), M-4: Collections and Bankruptcy (if the bill becomes debt)
 *My Man Jeeves:* _The Explanation of Benefits is, in principle, a document intended to explain one's benefits — a purpose it fulfills, one might venture, with considerable incompleteness. It presents procedure codes, allowed amounts, adjustments, and patient responsibility in a format that rather generously rewards confusion. One would not wish to suggest that the confusion is by design, though the alternative explanation requires a degree of charitable interpretation._
-*The spec:*
+*The Spec:*
 ::: prompt
 I received this medical bill / Explanation of Benefits and I don't
 understand it. [Paste the bill or EOB, removing your name and ID number.]
@@ -72,7 +72,7 @@ Please:
 2. Flag anything that seems unusual or potentially incorrect
 3. Tell me if there's anything here I should dispute
 :::
-*What to do with the output:* Compare every line to the original provider bill. If your Agent flags a charge as unusual, call the billing department and ask them to explain it. The person who calls is the person who gets the adjustment. The person who doesn't call pays the first number they were given.
+*What to do with the Output:* Compare every line to the original provider bill. If your Agent flags a charge as unusual, call the billing department and ask them to explain it. The person who calls is the person who gets the adjustment. The person who doesn't call pays the first number they were given.
 
 ::: also
 Paste or upload your document directly — file upload works in Claude, Gemini, ChatGPT, and Copilot. See [Appendix G](06-appendix-g-feature-table.xhtml).
@@ -92,7 +92,7 @@ If your EOB is a PDF from your insurance portal, copy the text and paste it. If 
 *Strategy:* Navigate + Draft
 *See also:* L-1: Negotiating a Contract (for understanding the policy itself), L-3: Writing a Demand Letter (same drafting technique, different context)
 *My Man Jeeves:* _Insurance companies deny claims at a rate that, one observes, ensures a profitable percentage of denials are never contested — the appeal process requiring, as it does, that the policyholder be aware appeal is possible, conversant with the procedure for filing one, and in possession of sufficient energy to pursue the matter while already unwell. The industry appears to find this arrangement commercially sound._
-*The spec:*
+*The Spec:*
 ::: prompt
 My insurance denied [procedure/claim] with the reason: [paste denial reason].
 The procedure was ordered by my doctor for [condition].
@@ -102,11 +102,11 @@ Please draft an appeal letter that cites the denial reason,
 references the right to appeal, and is firm without being
 hostile -- I may need to escalate further.
 :::
-*What to do with the output:* Send the letter. Keep a copy with the date you sent it. If you have a deadline for the appeal (check your denial letter — it's usually 30-180 days), mark it on your calendar. Follow up in writing if you don't hear back within the stated timeframe.
+*What to do with the Output:* Send the letter. Keep a copy with the date you sent it. If you have a deadline for the appeal (check your denial letter — it's usually 30-180 days), mark it on your calendar. Follow up in writing if you don't hear back within the stated timeframe.
 
 [appeal-letter]{.art}
 
-*Science note:* First-level internal appeals succeed at rates between 39-59% depending on plan type (KFF, 2023). Most people never file one.[^h4-1]
+*Science Note:* First-level internal appeals succeed at rates between 39-59% depending on plan type (KFF, 2023). Most people never file one.[^h4-1]
 
 [^h4-1]: Kaiser Family Foundation (2023). "Claims Denials and Appeals in ACA Marketplace Plans." The appeal success rate data makes the low filing rate one of the most consequential information asymmetries in American healthcare.
 
@@ -116,7 +116,7 @@ hostile -- I may need to escalate further.
 *Strategy:* Research
 *See also:* H-1: Understanding a Diagnosis, H-2: Preparing Questions, H-8: Wellness and Nutrition Coach
 *My Man Jeeves:* _The diagnosis, if one may draw the distinction, is a moment. The condition is the remainder of one's life. The medical system has been constructed principally for acute care — one arrives unwell, one departs treated. Chronic conditions do not accommodate themselves to this model with any great willingness. The fifteen-minute appointment every three months cannot, by its nature, address the 131,400 minutes between appointments. Those minutes fall to the patient to manage, largely without assistance, armed with whatever information one carried away from the last visit._
-*The spec:*
+*The Spec:*
 ::: prompt
 I have [chronic condition] and I've been managing it for [time period].
 My current treatment: [medications, therapy, lifestyle changes]
@@ -130,7 +130,7 @@ Please help me:
 3. Suggest questions to ask my doctor at my next appointment
 4. Point me toward support resources (online communities, organizations)
 :::
-*What to do with the output:* Start a symptom log. Even a simple daily note — what you ate, how you slept, pain level, energy level — gives your doctor data they cannot get any other way and gives your Agent the specificity to help you identify patterns. The log is the treatment between treatments.
+*What to do with the Output:* Start a symptom log. Even a simple daily note — what you ate, how you slept, pain level, energy level — gives your doctor data they cannot get any other way and gives your Agent the specificity to help you identify patterns. The log is the treatment between treatments.
 
 ::: tip
 _"I have [condition] and I'm having a bad day. What are the three things I should check first — hydration, medication timing, sleep — and what's the most common thing people with this condition overlook?"_
@@ -173,7 +173,7 @@ When patients skip medications, the medical system calls it "non-adherence." In 
 *Strategy:* Decode
 *See also:* H-4: Appealing an Insurance Denial, Li-4: Planning Care for Aging
 *My Man Jeeves:* _Medicare and Medicaid are, it may be helpful to clarify, separate programs with distinct eligibility, distinct coverage, and distinct rules — a distinction that approximately 60% of Americans are unable to describe with accuracy. The former is insurance for age; the latter, for poverty. Both contain gaps of sufficient magnitude to bankrupt the very individuals they were designed to protect. One ventures to suggest that understanding what is covered before the need arises is rather less costly than discovering what is not covered afterward._
-*The spec:*
+*The Spec:*
 ::: prompt
 I [or my family member] am [turning 65 / disabled / low-income /
 helping a parent navigate this] and I need to understand what
@@ -188,7 +188,7 @@ Please explain:
 4. What deadlines or enrollment periods I need to know about
    — especially penalties for missing them
 :::
-*What to do with the output:* Circle the deadlines. Medicare enrollment penalties are permanent — missing the initial enrollment period for Part B means a 10% premium increase for every 12-month period you delayed, for the rest of your life. This is the kind of structural penalty that rewards people who already understand the system.
+*What to do with the Output:* Circle the deadlines. Medicare enrollment penalties are permanent — missing the initial enrollment period for Part B means a 10% premium increase for every 12-month period you delayed, for the rest of your life. This is the kind of structural penalty that rewards people who already understand the system.
 
 ::: science
 The Medicare Part D "donut hole" — the coverage gap where beneficiaries paid a larger share of drug costs — was partially closed by the ACA and eliminated by the Inflation Reduction Act of 2022, which restructured Part D to cap total out-of-pocket drug costs at $2,000 in 2025 ($2,100 in 2026, adjusted annually for inflation). Once you hit the cap, covered prescriptions cost $0 for the rest of the year.[^h6-1]
@@ -223,7 +223,7 @@ The naming confusion is not trivial. KFF polling finds that 62% of Americans eit
 *Strategy:* Prepare
 *See also:* Li-1: Preparing for a Difficult Conversation, Li-2: Writing a Eulogy, Li-4: Planning Care for Aging, L-1: Negotiating a Contract (for legal documents)
 *My Man Jeeves:* _American culture maintains, as the research rather thoroughly documents, a pronounced aversion to discussing death. The consequence is that the most significant decisions of a person's life — how they wish to be cared for, who is to make medical decisions should they be unable, what measures they do and do not desire — are left to family members attempting to guess under pressure in a hospital corridor. An advance directive requires approximately thirty minutes. The conversation that precedes it presents a rather greater difficulty. One's Agent may be of assistance in preparing for it._
-*The spec:*
+*The Spec:*
 ::: prompt
 I need to have a conversation with [my parent / family member]
 about their end-of-life wishes. This conversation has not happened
@@ -240,7 +240,7 @@ Please help me:
    healthcare proxy, power of attorney, will)
 4. Tell me what happens if these documents don't exist when they're needed
 :::
-*What to do with the output:* The documents matter more than the conversation going perfectly. If the conversation goes badly, try again later. If the documents don't exist when a crisis arrives, there is no later. Start with the healthcare proxy — it is the most immediately critical and the least emotionally charged of the documents. [Five Wishes](https://fivewishes.org) is a widely used advance directive written in plain language.
+*What to do with the Output:* The documents matter more than the conversation going perfectly. If the conversation goes badly, try again later. If the documents don't exist when a crisis arrives, there is no later. Start with the healthcare proxy — it is the most immediately critical and the least emotionally charged of the documents. [Five Wishes](https://fivewishes.org) is a widely used advance directive written in plain language.
 
 ::: tip
 _"I want to talk to my parent about advance directives but I don't know how to bring it up without them thinking I'm planning their funeral. Help me find words that open the door without pushing."_
@@ -269,7 +269,7 @@ Five Wishes meets advance directive requirements in 46 states and D.C. Four stat
 *Strategy:* Research + Draft (Expert Role)
 *See also:* H-5: Managing a Chronic Condition (for condition-specific nutrition), Li-8: Wellness Coach (for mental health and journaling)
 *My Man Jeeves:* _A registered dietitian commands between $100 and $200 per session and customarily maintains a six-week waiting list for new patients. A personal trainer costs $50 to $150 per hour. A wellness coach charges rather more and is, one notes, rather less regulated. One's Agent has acquainted itself with the same evidence base all three cite, and will apply it to one's particular situation without the formality of a retainer._
-*The spec:*
+*The Spec:*
 ::: prompt
 Act as a knowledgeable wellness and nutrition coach.
 My situation:
@@ -281,7 +281,7 @@ My situation:
 — What I've tried before: [if anything]
 What would you recommend, and where should I start?
 :::
-*What to do with the output:* Use it as a starting framework, not a prescription. If you have a specific health condition, verify any significant dietary changes with your doctor. The calibration question applies here: _"How confident are you in this recommendation, and is there anything about my situation where you'd want me to check with a professional?"_
+*What to do with the Output:* Use it as a starting framework, not a prescription. If you have a specific health condition, verify any significant dietary changes with your doctor. The calibration question applies here: _"How confident are you in this recommendation, and is there anything about my situation where you'd want me to check with a professional?"_
 
 ::: fairness
 Wellness advice reflects the demographics of the research base it draws from. If your Agent's suggestions feel like they assume a certain income level, kitchen setup, or food access, say so explicitly: _"I shop at a discount grocery store and have a small kitchen. Please adjust your recommendations."_
@@ -341,7 +341,7 @@ In 2010, David Nutt and colleagues published a harm ranking of twenty drugs in _
 *Strategy:* Decode
 *See also:* H-10: Checking for Drug Interactions, H-1: Understanding a Diagnosis
 *My Man Jeeves:* _One's physician prescribed a medication in a seven-minute appointment. The pharmacist furnished a stapled printout in 8-point type listing "side effects may include" followed by what one can only describe as every symptom known to medicine. The printout, one understands, is required by law. Comprehending it is not._
-*The spec:*
+*The Spec:*
 ::: prompt
 My doctor prescribed [drug name] for [condition].
 The dose is [amount, frequency].
@@ -354,7 +354,7 @@ Please explain in plain language:
 5. What happens if I miss a dose, and what happens if I stop
 Do not assume any medical background on my part.
 :::
-*What to do with the output:* Use it to write your questions for your next appointment (see H-2). Do not change your dose or stop a medication based on your Agent's answer alone -- use the answer to have a better conversation with your doctor. If the interaction check in item 4 raises a flag, call your pharmacist before your next dose.
+*What to do with the Output:* Use it to write your questions for your next appointment (see H-2). Do not change your dose or stop a medication based on your Agent's answer alone -- use the answer to have a better conversation with your doctor. If the interaction check in item 4 raises a flag, call your pharmacist before your next dose.
 
 ::: fairness
 Pharmaceutical marketing targets doctors with the same information asymmetry this book addresses. Your doctor may have prescribed a brand-name drug when a generic is identical. Ask your Agent: _"Is there a generic equivalent for [drug], and is there any clinical reason to prefer the brand name?"_
@@ -372,7 +372,7 @@ Photograph the pill bottle label with your phone, then copy the text from the ph
 *Strategy:* Decode + Research
 *See also:* H-9: Understanding Your Prescription, H-8: Wellness and Nutrition Coach
 *My Man Jeeves:* _The liver metabolizes roughly 75% of the drugs one takes by means of a family of enzymes known as CYP450. When two substances compete for the same enzyme, one of them accumulates — a circumstance that may present certain difficulties. The prescribing physician may not be aware of the supplement one's naturopath recommended. The naturopath may not be aware of the prescription. Neither, one regrets to observe, may be aware of the grapefruit._
-*The spec:*
+*The Spec:*
 ::: prompt
 I am currently taking:
 — Prescription medications: [list all, with doses]
@@ -388,7 +388,7 @@ Please check for:
 4. Which of these I should not stop suddenly
 Flag anything urgent first.
 :::
-*What to do with the output:* If your Agent flags a serious interaction, call your pharmacist -- not your doctor's office, your pharmacist. Pharmacists are drug interaction specialists. They are faster to reach and trained to answer exactly this question. Verify before adjusting anything.
+*What to do with the Output:* If your Agent flags a serious interaction, call your pharmacist -- not your doctor's office, your pharmacist. Pharmacists are drug interaction specialists. They are faster to reach and trained to answer exactly this question. Verify before adjusting anything.
 
 ::: science
 Serotonin syndrome -- caused by combining drugs that increase serotonin (SSRIs, MDMA, tramadol, St. John's Wort, some migraine medications) -- is underdiagnosed because its early symptoms (agitation, rapid heart rate, dilated pupils) are easily attributed to anxiety. It can be fatal. If your Agent's interaction check flags a serotonin risk, take it seriously.[^d2-1]
@@ -402,7 +402,7 @@ Serotonin syndrome -- caused by combining drugs that increase serotonin (SSRIs, 
 #### H-11: Your Brain on Drugs, Simplified
 *Strategy:* Research
 *My Man Jeeves:* _Every psychoactive substance operates by altering the manner in which one's brain cells communicate. That sentence, one might note, contains the entirety of what the egg commercial conveyed. The subsequent questions — how, and with what consequences, and at what dose, and for what duration — are where the useful information may be said to begin._
-*The spec:*
+*The Spec:*
 ::: prompt
 Explain how [substance] works in the brain.
 I want to understand:
@@ -416,7 +416,7 @@ I want to understand:
    but what the research says about harm at different levels of use
 Use plain language. I want the pharmacology, not the moral lesson.
 :::
-*What to do with the output:* Use it as a baseline. If you or someone you know uses this substance, the mechanism of action tells you what to watch for. If the risk profile doesn't match the legal classification, that's not a glitch — it's the point of asking.
+*What to do with the Output:* Use it as a baseline. If you or someone you know uses this substance, the mechanism of action tells you what to watch for. If the risk profile doesn't match the legal classification, that's not a glitch — it's the point of asking.
 
 ::: science
 The four major neurotransmitter systems most drugs affect, simplified: *Dopamine* — reward and motivation (stimulants, nicotine). *Serotonin* — mood and perception (psychedelics, SSRIs, MDMA). *GABA* — the brain's brakes (alcohol, benzodiazepines, barbiturates). *Endorphins/opioid receptors* — pain and euphoria (opioids, endogenous endorphins from exercise). Most substances affect more than one system, which is why effects are complicated and why combining substances is risky.
@@ -434,7 +434,7 @@ Ask your Agent to compare two substances: _"Compare the harm profile of alcohol 
 *Strategy:* Prepare + Assert
 *See also:* H-2: Preparing Questions Before a Doctor's Appointment, H-9: Understanding Your Prescription
 *My Man Jeeves:* _The opioid crisis has, one observes, produced two populations of individuals who cannot obtain adequate care: those with addiction who require treatment, and those with pain who require management. Physicians, situated as they are between DEA scrutiny and patient suffering, now on occasion undertreat pain from what one might characterize as liability apprehension. It may prove necessary to advocate for oneself — not to obtain opioids specifically, but to secure an honest conversation regarding all available options._
-*The spec:*
+*The Spec:*
 ::: prompt
 I have [type of pain: chronic back pain / post-surgical / nerve pain /
 arthritis / migraines / other] that has been going on for [duration].
@@ -464,7 +464,7 @@ Pain assessment has documented racial and gender bias. Studies show Black patien
 *Strategy:* Research + Navigate
 *See also:* H-14: Harm Reduction, H-18: Finding Treatment and Recovery
 *My Man Jeeves:* _Addiction is not, as the relevant authorities have taken some pains to establish, a failure of willpower. The American Society of Addiction Medicine and the National Institute on Drug Abuse classify it as a chronic brain disorder involving compulsive use despite harmful consequences. The distinction is of some importance, as it determines whether the appropriate response is treatment or punishment. The United States has, for the most part, favored punishment. The results are, one might say, thoroughly documented._
-*The spec:*
+*The Spec:*
 ::: prompt
 I want to understand addiction as the science currently describes it —
 not the moral framework.
@@ -500,7 +500,7 @@ Alcohol and benzodiazepine withdrawal can cause fatal seizures — they are amon
 *Strategy:* Research + Diagnose
 *See also:* H-13: Understanding Addiction, H-10: Checking for Drug Interactions
 *My Man Jeeves:* _In 2023, approximately 105,000 Americans died of drug overdoses — a figure exceeding car accidents and gun deaths combined. Roughly 69% involved synthetic opioids, principally fentanyl, which is frequently present in drugs sold as something else entirely.[^d6-4] Harm reduction proceeds from the premise that some people use drugs, and that the most serviceable response is to keep them alive and as healthy as circumstances permit. This remains controversial in rather the same manner that seatbelts were controversial in 1965 — opponents contending that they would encourage reckless driving. They did not. They reduced deaths. The evidence for harm reduction is, one finds, comparably robust._
-*The spec:*
+*The Spec:*
 ::: prompt
 I want to understand harm reduction for [substance or situation].
 My situation: [I use X occasionally / someone I care about uses X /
@@ -539,7 +539,7 @@ Portugal decriminalized personal possession of all drugs in 2001. Drug-related d
 *Strategy:* Navigate + Assert
 *See also:* C-7: Understanding Your Rights Where You Live
 *My Man Jeeves:* _Cannabis is legal in one's state and a federal crime. Psilocybin is decriminalized in one's city yet a felony in the neighboring county. Kratom is banned in several states and available at the gas station in the other forty-four. The legal landscape for drugs in the United States is not, one feels compelled to observe, a landscape in any coherent sense. It is rather a patchwork quilt sewn by fifty different legislatures, several federal agencies, and occasional ballot initiatives — each operating on a different timeline and, in certain cases, a different century's understanding of pharmacology._
-*The spec:*
+*The Spec:*
 ::: prompt
 I want to understand the current drug laws where I live.
 My location: [city, state]
@@ -568,7 +568,7 @@ The DEA's scheduling system was established by the Controlled Substances Act of 
 *Strategy:* Research + Decide
 *See also:* H-1: Understanding a Diagnosis, H-11: Your Brain on Drugs
 *My Man Jeeves:* _Psychedelic-assisted therapy represents, one might suggest, the most promising and most overhyped development in mental health treatment since SSRIs. Clinical trials for psilocybin in depression and MDMA in PTSD have produced significant results. The FDA declined to approve MDMA therapy in 2024, citing trial design concerns, ethical violations at trial sites, and data integrity issues.[^d8-2] Psilocybin trials continue. In the meantime, unregulated ketamine clinics have proliferated, Oregon has legalized psilocybin services outside the medical system, and the gap between the research and the marketplace has grown sufficient to accommodate, one estimates, a modestly sized retreat center._
-*The spec:*
+*The Spec:*
 ::: prompt
 I am interested in psychedelic therapy for [depression / PTSD /
 anxiety / end-of-life distress / addiction / personal growth].
@@ -604,7 +604,7 @@ Indigenous communities have used psilocybin (mushrooms), peyote, and ayahuasca i
 *Strategy:* Prepare + Research
 *See also:* Li-1: Preparing for a Difficult Conversation, Li-7: Raising Kids
 *My Man Jeeves:* _D.A.R.E. instructed a generation that marijuana and heroin belonged to the same category of threat, and that the appropriate response to all drugs was refusal. When those children discovered that marijuana did not, in the event, ruin their lives, a considerable number concluded that the adults had been unreliable on every point — including those substances that were genuinely dangerous. The program's failure, one might observe, was not insufficient severity of its warnings. It was the decision to substitute fear for credibility. Credibility, once forfeited with a teenager, is not recoverable on what one would call a useful timeline._
-*The spec:*
+*The Spec:*
 ::: prompt
 I want to talk to my [age] year old about drugs.
 My situation: [they haven't asked yet / they asked about something
@@ -624,7 +624,7 @@ Please help me:
 The goal is that my kid trusts me enough to come to me
 when it matters.
 :::
-*What to do with the output:* Have the conversation, not the lecture. The research is clear: teens who report having honest, ongoing conversations with parents about drugs (not one-time "talks") show lower rates of problematic use.[^d9-1] The key word is _ongoing_. This is not a single conversation. It is a relationship.
+*What to do with the Output:* Have the conversation, not the lecture. The research is clear: teens who report having honest, ongoing conversations with parents about drugs (not one-time "talks") show lower rates of problematic use.[^d9-1] The key word is _ongoing_. This is not a single conversation. It is a relationship.
 
 [^d9-1]: SAMHSA. "Talk. They Hear You." Campaign and associated research. Substance Abuse and Mental Health Services Administration.
 
@@ -634,7 +634,7 @@ when it matters.
 *Strategy:* Navigate + Research
 *See also:* H-13: Understanding Addiction, H-14: Harm Reduction, M-6: Financial Coach (for insurance and costs)
 *My Man Jeeves:* _The treatment industry in the United States constitutes a multibillion-dollar market operating, one notes, under less regulatory oversight than the restaurant industry. Some facilities are excellent. Some, one regrets to say, are predatory. The distinction is not readily apparent from the website. One's Agent can assist in evaluating options according to the criteria that addiction medicine specialists employ — criteria that differ, in several material respects, from those favored by the marketing department._
-*The spec:*
+*The Spec:*
 ::: prompt
 I need to find treatment for [substance use disorder / alcohol /
 opioids / stimulants / other].
@@ -670,7 +670,7 @@ SAMHSA's treatment locator at findtreatment.gov lets you search by substance, lo
 #### H-19: The War on Drugs — What Your Agent Can Tell You That School Didn't
 *Strategy:* Research
 *My Man Jeeves:* _The War on Drugs, declared by Nixon in 1971, has cost the United States in excess of $1 trillion in enforcement spending. The incarcerated population grew from roughly 360,000 in 1972 to a peak of 2.1 million by 2019, with drug offenses accounting for roughly 45% of federal prisoners. Black Americans are incarcerated for drug offenses at nearly six times the rate of white Americans, despite roughly equal usage rates.[^d11-2] These are not, one feels it necessary to clarify, matters of opinion. They are Bureau of Justice Statistics._
-*The spec:*
+*The Spec:*
 ::: prompt
 I want to understand the War on Drugs — not the political argument,
 the documented history and outcomes.

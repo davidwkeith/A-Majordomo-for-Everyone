@@ -16,7 +16,7 @@ _The systems that govern health, money, and legal standing get their own domains
 *Strategy:* Prepare + Draft
 *See also:* W-3: Working with HR (for workplace conversations), H-7: Preparing for End-of-Life Conversations (for the hardest one)
 *My Man Jeeves:* _One might observe that forty years of research on interpersonal conflict converge upon a single finding of some consequence: how a difficult conversation begins predicts its outcome with approximately 96% accuracy. The words selected in the first three minutes, it would appear, determine most of what follows.[^li1-2] It is perhaps worth noting, then, that preparation is not a matter of personal preference. It is the intervention itself._
-*The spec:*
+*The Spec:*
 ::: prompt
 I need to have a difficult conversation with [relationship] about [topic].
 My goal is [specific outcome -- not "fix everything," something concrete].
@@ -28,14 +28,14 @@ Please help me:
 2. Anticipate the most likely responses and how to handle them
 3. Draft an opening statement I could use to start the conversation
 :::
-*What to do with the output:* Save this as a note on your phone. Read it once before you walk in. You don't need to memorize the opening statement — just having it reduces the panic of "how do I start this." If the conversation goes sideways, you can come back to your Agent afterward and ask: _"It went like this: [describe]. What should I try next?"_
+*What to do with the Output:* Save this as a note on your phone. Read it once before you walk in. You don't need to memorize the opening statement — just having it reduces the panic of "how do I start this." If the conversation goes sideways, you can come back to your Agent afterward and ask: _"It went like this: [describe]. What should I try next?"_
 
 ::: also
 This works well with voice mode on your phone — all major tools support it on mobile. See [Appendix G](06-appendix-g-feature-table.xhtml).
 :::
 
 
-*Science note:* Gottman (1999) identifies the "soft startup" as the single highest-leverage intervention in difficult conversations -- how you begin determines nearly everything that follows.[^li1-1]
+*Science Note:* Gottman (1999) identifies the "soft startup" as the single highest-leverage intervention in difficult conversations -- how you begin determines nearly everything that follows.[^li1-1]
 
 [^li1-1]: Gottman, J.M. (1999). [_The Marriage Clinic._](https://www.gottman.com/product/the-new-marriage-clinic/) W.W. Norton.
 
@@ -47,7 +47,7 @@ This works well with voice mode on your phone — all major tools support it on 
 *Strategy:* Draft
 *See also:* Li-1: Preparing for a Difficult Conversation (the emotional preparation applies here too), H-7: Preparing for End-of-Life Conversations
 *My Man Jeeves:* _A difficulty presents itself in that the eulogy is, for most persons, the one composition for which there is no second draft, no opportunity to revise after observing the reaction, and no possibility of beginning again. One might further note that it is composed under conditions of considerable emotional impairment and preserved online indefinitely. Your Agent is equipped to furnish the structure. The life, however, only you are in a position to supply._
-*The spec:*
+*The Spec:*
 ::: prompt
 I need to write a eulogy for [relationship -- "my father," "my friend"].
 Here are the things about them that I most want people to remember:
@@ -59,7 +59,7 @@ Please draft a eulogy I can edit into my own voice.
 The stories should come from what I've told you -- please don't
 invent details I haven't given you.
 :::
-*What to do with the output:* Edit it until it sounds like you, not like a machine. Read it out loud — twice. The parts that feel wrong in your mouth are the parts that need your words, not your Agent's. Print it on a card you can hold. Having something in your hands steadies them.
+*What to do with the Output:* Edit it until it sounds like you, not like a machine. Read it out loud — twice. The parts that feel wrong in your mouth are the parts that need your words, not your Agent's. Print it on a card you can hold. Having something in your hands steadies them.
 
 [eulogy-notecard]{.art}
 
@@ -70,7 +70,7 @@ invent details I haven't given you.
 *Strategy:* Research + Draft
 *See also:* Li-1: Preparing for a Difficult Conversation (for talking to a loved one who has been targeted)
 *My Man Jeeves:* _It would appear that the efficacy of the modern scam rests upon exploiting responses that are, in every other context, entirely wholesome: trust, urgency, deference to authority, the desire to be of assistance. The person who succumbs was not, one ventures to suggest, being foolish. They were being human in circumstances engineered by professionals to weaponize that humanity. The FTC reports that Americans lost over $10 billion to fraud in 2023. The shame that follows a successful scam suppresses reporting, with the result that the actual figure is rather higher. The shame, one might observe, is the second scam._
-*The spec:*
+*The Spec:*
 ::: prompt
 I think I [or someone I care about] may be dealing with a scam.
 Here is what happened: [describe the situation — the initial contact,
@@ -84,7 +84,7 @@ Please:
    options exist
 Be direct. I need the honest answer.
 :::
-*What to do with the output:* If you are helping a loved one, lead with concern, not correction. The shame is already doing damage. Your Agent can help you draft that conversation (see Li-1). If you are the one targeted, file with the FTC at [reportfraud.ftc.gov](https://reportfraud.ftc.gov) and your state attorney general. Speed matters — some financial transactions can be reversed within 24-48 hours.
+*What to do with the Output:* If you are helping a loved one, lead with concern, not correction. The shame is already doing damage. Your Agent can help you draft that conversation (see Li-1). If you are the one targeted, file with the FTC at [reportfraud.ftc.gov](https://reportfraud.ftc.gov) and your state attorney general. Speed matters — some financial transactions can be reversed within 24-48 hours.
 
 ::: science
 Cialdini's six principles of influence (1984) — reciprocity, commitment, social proof, authority, liking, scarcity — are also a scam operator's playbook. The same cognitive shortcuts that make human cooperation possible make human exploitation possible.[^li3-1]
@@ -112,7 +112,7 @@ Your Agent may describe common scam demographics in ways that reinforce stereoty
 *Strategy:* Research + Navigate
 *See also:* H-7: Preparing for End-of-Life Conversations, M-6: Financial Coach (for Social Security and inheritance planning), L-1: Negotiating a Contract (for care facility agreements)
 *My Man Jeeves:* _There arrives, in the course of most lives, a period when the person who attended to everything becomes the person who requires attending to. The reversal presents itself without training, without documentation, and without the emotional infrastructure one might reasonably expect. The American system, it would appear, assumes families will contrive a solution. Other nations constructed eldercare systems. You have your Agent and the entries that follow._
-*The spec:*
+*The Spec:*
 ::: prompt
 I am [beginning to plan for / currently managing] care for
 [my parent / relative / spouse] who is [age] and dealing with
@@ -130,7 +130,7 @@ Please help me:
 3. What legal documents should be in place if they aren't already
 4. What decisions I should NOT delay
 :::
-*What to do with the output:* Make a list of the time-sensitive items — power of attorney, healthcare proxy, benefit applications — and do those first. The emotional work is real but the paperwork has deadlines. See H-7 for the conversation itself.
+*What to do with the Output:* Make a list of the time-sensitive items — power of attorney, healthcare proxy, benefit applications — and do those first. The emotional work is real but the paperwork has deadlines. See H-7 for the conversation itself.
 
 ::: tip
 _"My [parent] has [condition] and [Medicare/Medicaid/no insurance]. What is the single most important thing I should do this week that I am probably not doing?"_ — Start with the gap you don't know about.
@@ -163,7 +163,7 @@ Medicaid is the primary payer for long-term care in the United States, but quali
 *Strategy:* Prepare + Navigate
 *See also:* Li-10: Language Learning Partner, Tr-2: Public Transit and Cycling
 *My Man Jeeves:* _One observes that the travel planning enterprise has been divided between two industries: the agencies that charge for expertise and the search engines that charge for attention. Both, it would appear, optimize for their own revenue rather than one's experience. Your Agent maintains no advertising revenue, no partner hotels, and no particular reason to recommend the flight with the most disagreeable layover on the grounds that it pays a higher affiliate commission._
-*The spec:*
+*The Spec:*
 ::: prompt
 I am planning a trip to [destination] for [number of people]
 from [dates]. My budget is [range].
@@ -179,7 +179,7 @@ Please help me:
 4. Give me the three things about this destination that most
    travelers wish they'd known before arriving
 :::
-*What to do with the output:* Print the itinerary. Share it with everyone going. Ask your Agent for a packing list specific to the destination and season. Before you leave, ask: _"What documents do I need, and what happens if I lose them?"_
+*What to do with the Output:* Print the itinerary. Share it with everyone going. Ask your Agent for a packing list specific to the destination and season. Before you leave, ask: _"What documents do I need, and what happens if I lose them?"_
 
 ::: meme
 [_The Amazing Race_](https://en.wikipedia.org/wiki/The%5FAmazing%5FRace) has aired for 38 seasons on the premise that navigating airports, language barriers, and unfamiliar transit systems is so stressful it qualifies as entertainment. Your Agent eliminates the entertainment value and keeps the trip.
@@ -206,7 +206,7 @@ Checking current information requires web search, which is free in Gemini, ChatG
 *Strategy:* Research + Decide
 *See also:* Li-5: Planning Trips (for restaurants while traveling), Ch-5: Cooking and Culinary Skills (for eating in)
 *My Man Jeeves:* _It would appear that the prevailing restaurant recommendation algorithms optimize for establishments that pay for placement or generate engagement, rather than for the most suitable meal in one's vicinity at one's price point for one's actual preferences. Your Agent maintains no paid placements. It will also, one feels compelled to note, refrain from passing judgment should one desire chicken fingers at an establishment with tablecloths._
-*The spec:*
+*The Spec:*
 ::: prompt
 I'm looking for a restaurant in [location] for [occasion:
 date night / family dinner / quick lunch / celebration / solo meal].
@@ -219,7 +219,7 @@ What I want to avoid: [specific dislikes or past bad experiences]
 Give me 3-5 options with why each one fits, and tell me
 which one you'd pick if you were me.
 :::
-*What to do with the output:* Pick the one that fits your mood, not the one that sounds most impressive. Check the hours and whether you need a reservation — your Agent may not have current information. If you're going with other people, send them the short list and let them weigh in. The best restaurant for the night is the one everyone agrees to go to.
+*What to do with the Output:* Pick the one that fits your mood, not the one that sounds most impressive. Check the hours and whether you need a reservation — your Agent may not have current information. If you're going with other people, send them the short list and let them weigh in. The best restaurant for the night is the one everyone agrees to go to.
 
 ::: also
 Checking current information requires web search, which is free in Gemini, ChatGPT, and Copilot. In Claude, web search requires the paid tier. See [Appendix G](06-appendix-g-feature-table.xhtml).
@@ -243,7 +243,7 @@ _"I eat at [restaurant] once a week and I'm bored. Based on what I like about it
 *Strategy:* Research + Navigate
 *See also:* Li-1: Preparing for a Difficult Conversation (for the hard talks), Li-4: Planning Care for Aging (the other end of the caregiving spectrum), H-17: Talking to Your Kids About Drugs
 *My Man Jeeves:* _One might observe that every generation of parents is persuaded they are doing it wrong. This is not, one ventures to suggest, neurosis — it is a rational response to the circumstance that the stakes are a human life and the research continues to evolve. [Dr. Spock](https://en.wikipedia.org/wiki/Benjamin%5FSpock) advised the postwar generation to trust their instincts, which was considered revolutionary at the time. The current research indicates that instincts are a promising foundation but not, in themselves, sufficient. The billionaire class retains nannies, tutors, and developmental consultants on a permanent basis. Your Agent has read the same developmental psychology they cite._
-*The spec:*
+*The Spec:*
 ::: prompt
 I am a parent of a [age] child and I'm dealing with
 [specific situation: behavioral issue, school decision,
@@ -258,7 +258,7 @@ Please:
 3. Tell me what's normal vs. what might need professional attention
 4. Be honest about what the research doesn't know yet
 :::
-*What to do with the output:* Parenting advice from any source — including your Agent — should be filtered through your knowledge of your specific child. If the advice doesn't fit, say so: _"That doesn't match what I see with my kid. Here's what actually happens: [describe]. What else should I try?"_ Your Agent adjusts. Books don't.
+*What to do with the Output:* Parenting advice from any source — including your Agent — should be filtered through your knowledge of your specific child. If the advice doesn't fit, say so: _"That doesn't match what I see with my kid. Here's what actually happens: [describe]. What else should I try?"_ Your Agent adjusts. Books don't.
 
 ::: meme
 We used to change the channel by walking to the TV and watched reruns of children using washboards on [_Nick at Nite_](https://en.wikipedia.org/wiki/Nick%5Fat%5FNite). Now smart homes automate everything and robots fold laundry in viral videos. The nature of work is changing. So should chores. The number one skill to teach a child is not any specific task — it is knowing when to ask for help and how to evaluate the answer.
@@ -297,7 +297,7 @@ Parenting research has historically oversampled white, middle-class, two-parent 
 *Strategy:* Research + Draft (Expert Role)
 *See also:* H-8: Wellness and Nutrition Coach (for physical health), H-13: Understanding Addiction, H-1: Understanding a Diagnosis
 *My Man Jeeves:* _A difficulty of some consequence presents itself in the matter of mental health care in America, where the median wait for a new patient appointment is, by research estimates, between six and ten weeks[^li8-1] and a single therapy session costs $100 to $250 out of pocket. One cannot help but observe that the persons who require assistance most urgently — the isolated, the overwhelmed, the financially strained — face the most formidable barriers to obtaining it. Your Agent is not a therapist. It is, however, available at 2 AM when the therapist is not, and it is capable of performing several things a therapist would recommend one do between sessions._
-*The spec:*
+*The Spec:*
 ::: prompt
 Act as a supportive wellness coach. I am not in crisis —
 I want to work on [specific goal: managing stress, building
@@ -313,7 +313,7 @@ Please:
 3. Tell me when this is something I should bring to
    a professional instead
 :::
-*What to do with the output:* Start with the one thing. Not three things. One. If the Agent suggests journaling, write for five minutes tonight. If it suggests a breathing exercise, do it once. The compound effect of small consistent actions is better documented than the effect of ambitious plans that last three days.
+*What to do with the Output:* Start with the one thing. Not three things. One. If the Agent suggests journaling, write for five minutes tonight. If it suggests a breathing exercise, do it once. The compound effect of small consistent actions is better documented than the effect of ambitious plans that last three days.
 
 ::: fairness
 Your Agent will recommend therapy when appropriate. If cost or access is the barrier, say so: _"I can't afford therapy right now. What can I do on my own that has the most evidence behind it?"_ The answer exists and is better than nothing.
@@ -359,7 +359,7 @@ practical strategies, not motivational advice.
 *Strategy:* Draft + Decide
 *See also:* M-6: Financial Coach, Ho-5: Understanding Your Utility Bill
 *My Man Jeeves:* _The prevailing budgeting counsel, one might observe, assumes the difficulty is a matter of discipline. For most households, however, the difficulty is arithmetic — income that does not cover expenses, regardless of how disciplined the allocation. Your Agent will not presume to lecture on the subject of lattes. It will assist in identifying where the money actually goes, determine the three largest levers available, and construct a plan that survives contact with reality._
-*The spec:*
+*The Spec:*
 ::: prompt
 I want to build a household budget that actually works.
 My situation:
@@ -377,7 +377,7 @@ Please:
    — a plan I'll actually follow, not an ideal I'll abandon
 4. Tell me honestly: is this a budgeting problem or an income problem?
 :::
-*What to do with the output:* Track actual spending for one month before adjusting the budget. Most people are surprised by at least one category. Ask your Agent: _"Here's what I actually spent last month: [list]. How does this compare to the plan, and what's the one change that would have the biggest impact?"_
+*What to do with the Output:* Track actual spending for one month before adjusting the budget. Most people are surprised by at least one category. Ask your Agent: _"Here's what I actually spent last month: [list]. How does this compare to the plan, and what's the one change that would have the biggest impact?"_
 
 ::: science
 Mullainathan & Shafir (2013) document "scarcity mindset" — financial stress reduces cognitive bandwidth by the equivalent of 13 IQ points, making financial decisions harder precisely when they matter most.[^li9-1]
@@ -400,7 +400,7 @@ Mullainathan & Shafir (2013) document "scarcity mindset" — financial stress re
 *Strategy:* Research + Navigate (Expert Role)
 *See also:* Li-5: Planning Trips (for travel-specific language prep)
 *My Man Jeeves:* _Language immersion programmes, one notes, cost thousands of dollars. [Duolingo](https://en.wikipedia.org/wiki/Duolingo) is free and instructs one in how to say “the elephant drinks milk” in more than forty languages. Private tutors charge $40 to $80 per hour and are available when their schedule permits. Your Agent, by contrast, is available at once, possesses inexhaustible patience, betrays no visible disappointment when one conjugates the same verb incorrectly for the fifth time, and will conduct an actual conversation about the things one actually needs to say — rather than the things a textbook believes one should practise._
-*The spec:*
+*The Spec:*
 ::: prompt
 Act as a patient language tutor for [language].
 My current level: [complete beginner / basic phrases / conversational]
@@ -409,7 +409,7 @@ What I struggle with most: [pronunciation / grammar / vocabulary /
 understanding native speakers]
 How would you suggest we work together in our conversations?
 :::
-*What to do with the output:* Start using it immediately. Language learning research consistently shows that production — trying to say things, getting them wrong, trying again — beats passive study. Your Agent can do something no textbook can: respond to what you say, correct you in real time, and adjust the difficulty to where you actually are rather than where a curriculum assumes you should be.
+*What to do with the Output:* Start using it immediately. Language learning research consistently shows that production — trying to say things, getting them wrong, trying again — beats passive study. Your Agent can do something no textbook can: respond to what you say, correct you in real time, and adjust the difficulty to where you actually are rather than where a curriculum assumes you should be.
 
 *Common language Expert Role specs:*
 ::: prompt
@@ -459,7 +459,7 @@ Your Agent’s language ability varies by language. It is strongest in English, 
 *See also:* Li-7: Raising Kids (for the screen time conversation), Li-8: Wellness Coach (for compulsive behavior patterns)
 *My Man Jeeves:* _The popular discourse, one observes, employs the phrase “screen time.” The research employs the phrase “social media.” These are not the same variable. Using the internet to ascertain how a carburetor functions is a rather different neurological event from scrolling a feed engineered to make one feel slightly worse about oneself at intervals calibrated to sustain the scrolling. The former is the most capable self-education infrastructure ever constructed. The latter is an engagement-optimization engine that colonized it. The intervention, it would appear, is not less internet. It is better internet._
 
-*The spec:*
+*The Spec:*
 ::: prompt
 I want to reduce my social media use [or help my kid reduce theirs].
 My current situation:
@@ -477,7 +477,7 @@ Please help me:
 4. Suggest what to replace the habit with — the gap needs filling
    or the habit comes back
 :::
-*What to do with the output:* Start with one platform. The one that makes you feel worst, or the one that eats the most time. Remove it from your phone — not your life, just your pocket. You can still use it on a computer, which introduces enough friction to break the automatic-checking loop. The research is clear: the harm concentrates in compulsive mobile checking, not in deliberate use.
+*What to do with the Output:* Start with one platform. The one that makes you feel worst, or the one that eats the most time. Remove it from your phone — not your life, just your pocket. You can still use it on a computer, which introduces enough friction to break the automatic-checking loop. The research is clear: the harm concentrates in compulsive mobile checking, not in deliberate use.
 
 ::: science
 A landmark study in the _American Economic Review_ exploited Facebook’s staggered rollout across U.S. college campuses as a natural experiment. College-wide Facebook access caused a 7% increase in severe depression and a 20% increase in anxiety disorders — effects roughly one-fifth the magnitude of losing a job. The mechanism is not use itself but emotional dependency: routine use correlates with positive outcomes, while compulsive checking driven by fear of missing out correlates negatively across every measure.[^li11-1]
@@ -520,7 +520,7 @@ The web evolved from text to graphics to audio to video to interactive simulatio
 *Strategy:* Research + Draft
 *See also:* Li-8: Wellness Coach (for the emotional side), Li-11: Escaping Social Media (for breaking habits)
 *My Man Jeeves:* _The self-help industry, one might note, generates $13 billion a year on the premise that one lacks willpower. The applications, the courses, the thirty-day challenges — each monetizes the gap between intention and behaviour. Behavioural science has known for decades that the difficulty is not motivation. It is environment design, cue management, and identity. The research is clear and largely disregarded by the industry, for the understandable reason that “redesign your cues” does not sell books in the manner that “unleash your potential” does. Your Agent has read the actual research. It will assist in designing a system rather than deliver a lecture on discipline._
-*The spec:*
+*The Spec:*
 ::: prompt
 I want to build a habit of [specific habit: exercising, reading,
 journaling, cooking at home, practicing an instrument, meditating,
@@ -543,7 +543,7 @@ Please help me:
 4. Tell me what the research says about how long this
    actually takes (it is not 21 days)
 :::
-*What to do with the output:* Do the minimum version today. Not tomorrow. The research says the hardest gap to close is between “I should” and “I did it once.” Everything after the first time is easier. If your Agent suggests a two-minute version of the habit and that feels too small, it is the right size. Scale up after it is automatic, not before.
+*What to do with the Output:* Do the minimum version today. Not tomorrow. The research says the hardest gap to close is between “I should” and “I did it once.” Everything after the first time is easier. If your Agent suggests a two-minute version of the habit and that feels too small, it is the right size. Scale up after it is automatic, not before.
 
 ::: science
 Lally et al. (2010) found habit formation takes an average of 66 days — not 21. The range was 18 to 254 days depending on the habit and the person. The “21 days” myth comes from a plastic surgeon’s anecdotal observation about patients adjusting to their new appearance, not from behavioral research. Your Agent can help you set expectations that match the science, not the marketing.[^li12-1]

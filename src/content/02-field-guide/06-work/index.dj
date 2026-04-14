@@ -21,7 +21,7 @@ George Jetson worked a few hours a day, a few days a week, pushing a single butt
 *Strategy:* Draft + Prepare
 *See also:* L-1: Negotiating a Contract (for offer letters and non-competes), Li-1: Preparing for a Difficult Conversation (same preparation technique)
 *My Man Jeeves:* _One might observe that the job search is a system designed by employers, for employers, in which the candidate is expected to perform enthusiasm for a position required for survival while conducting oneself as though the power dynamic did not exist. The résumé, it would appear, is a marketing document upon which judgment is passed in approximately six seconds. The cover letter is a genre governed by rules that are nowhere made explicit. The salary negotiation rewards the party in possession of superior information regarding the market rate. The reader's Agent addresses this information asymmetry — which is, one ventures to suggest, the entire purpose of this volume._
-*The spec:*
+*The Spec:*
 ::: prompt
 I am looking for a job in [field/role]. My experience: [brief summary].
 What I'm working with: [currently employed / unemployed / career change /
@@ -36,7 +36,7 @@ Please [customize my résumé for this posting / draft a cover letter /
 prepare me for common interview questions / analyze this offer].
 [Paste the job posting or offer if applicable.]
 :::
-*What to do with the output:* For résumés and cover letters, edit the output into your own voice — recruiters can spot AI-generated text, and your Agent writes like an Agent, not like you. For salary negotiation, the key question is: _"What is the market rate for [role] at [company size] in [city] for someone with [X years] of experience?"_ The answer is the floor, not the target.
+*What to do with the Output:* For résumés and cover letters, edit the output into your own voice — recruiters can spot AI-generated text, and your Agent writes like an Agent, not like you. For salary negotiation, the key question is: _"What is the market rate for [role] at [company size] in [city] for someone with [X years] of experience?"_ The answer is the floor, not the target.
 
 ::: meme
 The hiring process is now AI screening résumés written by AI, evaluating cover letters drafted by AI, scheduling through AI, and sometimes conducting first-round interviews by AI. The human enters at the end to make a "gut decision." The question is not whether AI belongs in hiring. It is already there. The question is whether you are using it too, or whether you are the last person at the table doing this by hand.
@@ -67,7 +67,7 @@ Checking current information requires web search, which is free in Gemini, ChatG
 *Strategy:* Assert + Decode
 *See also:* L-1: Negotiating a Contract (for the severance agreement), M-1: Banking and Savings (emergency fund while unemployed), W-5: Unions (if you have a CBA)
 *My Man Jeeves:* _It would not be inaccurate to observe that employment law is among those areas in which the distance between what most employees believe their rights to be and what those rights actually are is widest — and where the consequences of the misapprehension are most immediate. The severance agreement carries a signing deadline. The WARN Act notice carries a claim deadline. The clock, one feels compelled to note, begins whether the individual is aware of it or not._
-*The spec:*
+*The Spec:*
 ::: prompt
 I was just [laid off / fired / asked to resign] from my job at [type of company]
 in [state]. I was there for [X years]. I was given [severance offer / no offer].
@@ -79,7 +79,7 @@ I want to understand:
 Give me the most conservative answer. I will verify with
 an employment attorney or legal aid organization.
 :::
-*What to do with the output:* Do not sign anything yet. You usually have 21 days (45 days if part of a group layoff) to review a severance agreement.[^w2-1] Print the output, highlight the deadlines, and call an employment attorney — many offer a free 30-minute consultation. The clock is real but it is longer than your employer implies.
+*What to do with the Output:* Do not sign anything yet. You usually have 21 days (45 days if part of a group layoff) to review a severance agreement.[^w2-1] Print the output, highlight the deadlines, and call an employment attorney — many offer a free 30-minute consultation. The clock is real but it is longer than your employer implies.
 
 ::: also
 Paste or upload your document directly — file upload works in Claude, Gemini, ChatGPT, and Copilot. See [Appendix G](06-appendix-g-feature-table.xhtml).
@@ -93,7 +93,7 @@ Paste or upload your document directly — file upload works in Claude, Gemini, 
 *Strategy:* Draft + Assert
 *See also:* W-2: Understanding Your Rights If You're Let Go, Li-1: Preparing for a Difficult Conversation
 *My Man Jeeves:* _It may be useful to note that Human Resources exists to protect the company. This is not a matter of cynicism — it is the department's actual mandate. An HR representative who assists an employee does so because assisting the employee also serves the company's interest, which is, one acknowledges, frequently the case. An understanding of this alignment — the occasions upon which one's interests and the company's overlap, and those upon which they diverge — represents the difference between employing HR effectively and finding oneself somewhat surprised by the outcome._
-*The spec:*
+*The Spec:*
 ::: prompt
 I need to deal with an HR situation at work.
 My situation: [performance review / workplace conflict /
@@ -108,7 +108,7 @@ Please help me:
 3. Tell me what to put in writing vs. what to say in person
 4. Flag anything I should be careful about
 :::
-*What to do with the output:* Put everything in writing. Email yourself a summary after every meeting. Use the phrase "per our conversation on [date]" in follow-up emails. This is not paranoia — it is the documentation standard that HR itself uses. Match their rigor.
+*What to do with the Output:* Put everything in writing. Email yourself a summary after every meeting. Use the phrase "per our conversation on [date]" in follow-up emails. This is not paranoia — it is the documentation standard that HR itself uses. Match their rigor.
 
 ::: tip
 _"I need to write my annual self-review. Here are my accomplishments this year: [list]. Write a first draft in first person that is specific, uses metrics where possible, and frames my work in terms of business impact."_
@@ -127,7 +127,7 @@ _"I need to write my annual self-review. Here are my accomplishments this year: 
 *Strategy:* Research + Decide
 *See also:* W-7: Using Your Agent to Get More Done, Li-1: Preparing for a Difficult Conversation (if you need to negotiate)
 *My Man Jeeves:* _One could not help but observe that the remote work debate is conducted primarily by executives possessed of home offices and opinion columnists enjoying flexible schedules, regarding employees whose commute carries a financial cost and whose childcare arrangements permit no margin. The research on productivity, collaboration, and wellbeing is, it would appear, rather more nuanced than either party to the argument is inclined to acknowledge. The reader's Agent may be of assistance in evaluating the evidence, weighing the specifics of one's situation, and — should the need arise to present a case to one's employer — constructing one that relies upon data rather than preference._
-*The spec:*
+*The Spec:*
 ::: prompt
 My company is [requiring return to office / offering hybrid /
 I'm choosing between a remote and in-office role / debating
@@ -142,7 +142,7 @@ What I want to understand:
 4. What should I be honest with myself about — the parts of
    remote work that don't serve me?
 :::
-*What to do with the output:* If you need to make the case to your manager, copy the data points into a one-page memo. Lead with the business case (productivity, retention, cost savings), not the personal case. The personal case is why you want it. The business case is why they will say yes.
+*What to do with the Output:* If you need to make the case to your manager, copy the data points into a one-page memo. Lead with the business case (productivity, retention, cost savings), not the personal case. The personal case is why you want it. The business case is why they will say yes.
 
 ::: science
 Bloom et al. (2015) conducted a randomized controlled trial of remote work at Ctrip (n≈249) and found a 13% performance increase for remote workers, along with higher satisfaction and lower attrition. A 2024 follow-up at Trip.com (Ctrip's rebrand, n=1,612) found that hybrid work (3 days in, 2 remote) had no negative effect on productivity or career advancement.[^w4-1]
@@ -163,7 +163,7 @@ Bloom et al. (2015) conducted a randomized controlled trial of remote work at Ct
 *Strategy:* Navigate + Assert
 *See also:* C-4: Advocating for Change (same organizing skills), L-1: Negotiating a Contract (for reading the CBA)
 *My Man Jeeves:* _A union is, at its foundation, a group of employees who arrived at the conclusion that negotiating individually was not producing satisfactory results. The information asymmetry between an employer and a single employee is structural and permanent — the employer is aware of the budget, the market rate, the headcount plan, and the legal landscape. The employee is aware of one's own salary. The union exists to address this disparity. One might gently observe that everything the reader has been told about unions — whether favorable or otherwise — was communicated by a party holding a position on whether that disparity ought to close. The reader's Agent holds no such position. It has the NLRA, the relevant case law, and the current data._
-*The spec:*
+*The Spec:*
 ::: prompt
 I want to understand [my rights regarding unionizing / how to
 start a union / how my existing union works / how to get involved
@@ -177,7 +177,7 @@ Please:
 4. Flag the common mistakes people make in this process
 Give me the legal answer, not the political one.
 :::
-*What to do with the output:* If you are organizing, do not discuss it on company devices, in company channels, or during work hours until you understand your protections. Your Agent can explain the legal framework, but a labor attorney or your regional NLRB office is the authoritative source for your specific situation. Many labor attorneys offer free initial consultations for organizing questions.
+*What to do with the Output:* If you are organizing, do not discuss it on company devices, in company channels, or during work hours until you understand your protections. Your Agent can explain the legal framework, but a labor attorney or your regional NLRB office is the authoritative source for your specific situation. Many labor attorneys offer free initial consultations for organizing questions.
 
 ::: tip
 _"I have a collective bargaining agreement I don't fully understand. [Paste relevant section.] What does this actually mean for me day-to-day, and what rights does it give me that I'm probably not using?"_
@@ -198,7 +198,7 @@ _"I have a collective bargaining agreement I don't fully understand. [Paste rele
 *Strategy:* Assert + Navigate
 *See also:* W-2: Understanding Your Rights If You're Let Go (if retaliation follows), L-3: Writing a Demand Letter
 *My Man Jeeves:* _One's body is, if one may be permitted the observation, the asset one brings to work. The employer's obligation not to damage it is codified in law, implemented through OSHA, and enforced through a system that requires the worker to know it exists and how to employ it. Workers' compensation is insurance the employer is required to carry. Filing a claim is not an adversarial act — it is the use of the system as designed. The adversarial dimension, one regrets to note, tends to present itself later, should the claim be denied, and it is denied with a frequency that warrants preparation._
-*The spec:*
+*The Spec:*
 ::: prompt
 I have a workplace safety concern [or: I was injured at work].
 My situation: [describe — unsafe conditions, injury type, when it
@@ -213,7 +213,7 @@ Please help me:
 4. Explain what protections I have against retaliation —
    and be honest about how strong those protections actually are
 :::
-*What to do with the output:* Document everything. Photograph conditions. Save communications. If you are injured, report to your employer in writing, seek medical attention, and file a workers' comp claim — in that order, and the first 24 hours set the trajectory of the entire case. Your state's workers' comp board website has the specific filing forms and deadlines.
+*What to do with the Output:* Document everything. Photograph conditions. Save communications. If you are injured, report to your employer in writing, seek medical attention, and file a workers' comp claim — in that order, and the first 24 hours set the trajectory of the entire case. Your state's workers' comp board website has the specific filing forms and deadlines.
 
 ::: fairness
 Workers in high-risk industries — construction, agriculture, warehousing, meatpacking — have the highest injury rates and the least bargaining power to demand improvements. If your Agent's advice assumes a white-collar office, specify your actual work environment.
@@ -234,7 +234,7 @@ Workers in high-risk industries — construction, agriculture, warehousing, meat
 *Strategy:* Navigate + Draft (Expert Role)
 *See also:* W-3: Working with HR (for the performance review spec), W-1: Getting a New Job (for job-search automation)
 *My Man Jeeves:* _It would appear that the billionaire class did not achieve their productivity by working harder. They achieved it by engaging persons to attend to those portions of work that are repetitive, formulaic, or requiring of research for which they themselves lacked the time. Email drafts. Report summaries. Data formatting. Meeting preparation. Status updates. Proposal boilerplate. The work, as it were, behind the work. The reader now has access to the same staff — one simply refers to it as "being more productive" on the performance review._
-*The spec:*
+*The Spec:*
 ::: prompt
 I want to use my AI Agent to work more efficiently.
 My role: [job title or brief description]
@@ -249,7 +249,7 @@ Please help me:
 4. Show me how to review Agent output quickly so the quality
    stays high and the voice stays mine
 :::
-*What to do with the output:* Start with one task. The one you dread most or the one that eats the most time. Run it through your Agent for a week. Measure the difference. Then add another. The compound effect is the point — you are not replacing yourself, you are multiplying your output. Your employer measures output, not hours. That is capitalism working for you for once.
+*What to do with the Output:* Start with one task. The one you dread most or the one that eats the most time. Run it through your Agent for a week. Measure the difference. Then add another. The compound effect is the point — you are not replacing yourself, you are multiplying your output. Your employer measures output, not hours. That is capitalism working for you for once.
 
 ::: tip
 The performance review spec: _"Summarize my accomplishments this quarter based on these notes: [paste notes]. Write it in first person, active voice, with specific metrics where possible. Make it sound like a high performer wrote it — because one did."_

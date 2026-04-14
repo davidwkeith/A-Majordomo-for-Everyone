@@ -21,7 +21,7 @@ Every episode of _[Home Improvement](https://en.wikipedia.org/wiki/Home%5FImprov
 *Strategy:* Diagnose
 *See also:* Ho-2: Home Repair and DIY (for specific repairs), Ho-3: Right-to-Repair (for products designed to resist repair), Ch-1: Shopping Your Values (before replacing anything)
 *My Man Jeeves:* _A residence, however modest, presents a continuous programme of maintenance requirements — plumbing, electrical, HVAC, roofing, appliances — each belonging to a distinct trade. The difficulty is not that one fails to appreciate the importance of preventive care; it is that the knowledge required to perform it has traditionally been distributed across a dozen professionals, none of whom are present when the water heater chooses its moment. An Agent can provide the diagnostic step before one reaches for the telephone, which is to say, the step that most frequently renders the telephone unnecessary._
-*The spec:*
+*The Spec:*
 ::: prompt
 My [appliance/system] is [describing the behavior: making a noise /
 not working / leaking / etc.]. It started [when].
@@ -33,7 +33,7 @@ Please tell me:
    tell them when I call?
 4. Are there any safety concerns I need to address immediately?
 :::
-*What to do with the output:* If there's a safety concern, handle that first — your Agent will tell you if something needs to be turned off, unplugged, or evacuated from immediately. For everything else, try the simplest fix your Agent suggests before calling a professional. Most service calls start at $150 just to show up.
+*What to do with the Output:* If there's a safety concern, handle that first — your Agent will tell you if something needs to be turned off, unplugged, or evacuated from immediately. For everything else, try the simplest fix your Agent suggests before calling a professional. Most service calls start at $150 just to show up.
 
 ::: also
 Paste or upload your document directly — file upload works in Claude, Gemini, ChatGPT, and Copilot. See [Appendix G](06-appendix-g-feature-table.xhtml).
@@ -54,7 +54,7 @@ Paste or upload your document directly — file upload works in Claude, Gemini, 
 *Strategy:* Diagnose + Navigate (Expert Role)
 *See also:* Ho-1: Maintaining Your Home (for diagnosing first), Ho-3: Right-to-Repair (when a product resists repair), Ch-2: Understanding a Contractor Bid (when to hire instead)
 *My Man Jeeves:* _Home repair knowledge was, until comparatively recently, transmitted between generations in much the way that changing a tyre or hemming a pair of trousers was once considered a baseline competency. Several decades of planned obsolescence and the gradual replacement of repairable objects with disposable ones have, one might observe, rather thoroughly interrupted that transmission. The knowledge itself, however, has not vanished — it has merely migrated. An Agent received it regardless._
-*The spec:*
+*The Spec:*
 ::: prompt
 Act as an experienced home repair advisor.
 The task or problem: [describe specifically]
@@ -64,7 +64,7 @@ Tools I have: [basic hand tools / power tools / neither]
 Is this urgent (affecting habitability or safety)? [yes/no]
 What do I need to know before I start, and what are the steps?
 :::
-*What to do with the output:* Read the full list of steps before you start — not while you're holding a wrench. If there's a part you need, your Agent can help you find it by name and part number. Take a photo of what you're working on before you take anything apart. Future you will thank present you.
+*What to do with the Output:* Read the full list of steps before you start — not while you're holding a wrench. If there's a part you need, your Agent can help you find it by name and part number. Take a photo of what you're working on before you take anything apart. Future you will thank present you.
 
 ::: also
 Checking current information requires web search, which is free in Gemini, ChatGPT, and Copilot. In Claude, web search requires the paid tier. See [Appendix G](06-appendix-g-feature-table.xhtml).
@@ -91,7 +91,7 @@ Give me an honest assessment.
 *Strategy:* Diagnose + Navigate (Expert Role)
 *See also:* Ho-2: Home Repair and DIY (for the repair itself), Ho-1: Maintaining Your Home (for preventive maintenance)
 *My Man Jeeves:* _Whether one characterizes it as enshittification, planned obsolescence, or buyer lock-in, the underlying mechanism is the same: by manufacturing products that resist repair, companies ensure a recurring revenue stream at the consumer's expense. The practice is, if one may say so, rather more deliberate than the word "obsolescence" suggests. An Agent can assess, at whatever skill level one possesses, whether a given item merits repair or replacement — and, should replacement prove necessary, recommend more durable alternatives. One is not, strictly speaking, defeating the system. One is merely removing the information asymmetry upon which it depends._
-*The spec:*
+*The Spec:*
 ::: prompt
 Act as an experienced right-to-repair technician.
 The item I'm trying to fix: [make, model, year if applicable]
@@ -103,7 +103,7 @@ comfortable with electronics / comfortable with appliances]
 What is likely wrong, and what are my repair options
 from easiest to most involved?
 :::
-*What to do with the output:* Before ordering any parts, verify part numbers against the manufacturer's parts diagram if available. [iFixit.com](https://www.ifixit.com) and YouTube are the best secondary sources for your specific model once your Agent has identified what needs fixing.
+*What to do with the Output:* Before ordering any parts, verify part numbers against the manufacturer's parts diagram if available. [iFixit.com](https://www.ifixit.com) and YouTube are the best secondary sources for your specific model once your Agent has identified what needs fixing.
 
 ::: meme
 "It's not a bug, it's a feature." The manufacturer calling your appliance "unrepairable" is a business model, not a technical assessment. Start with your Agent's diagnosis before accepting the quote for a replacement.
@@ -135,7 +135,7 @@ What should I check first?
 *Strategy:* Assert + Decode
 *See also:* L-1: Negotiating a Contract (for reading your lease or mortgage), C-7: Understanding Your Rights Where You Live (for rights that vary by jurisdiction), C-4: Advocating for Change (for changing the rules)
 *My Man Jeeves:* _Housing law, one might observe, is the domain in which the greatest sums change hands with the least comprehension on one side of the transaction. The landlord retains a property management company that has filed the same lease in the same county for fifteen years. The HOA board has engaged an attorney on retainer who drafted the CC&Rs. The mortgage servicer employs a compliance department that knows precisely which fees are legal and which are merely customary. The individual on the other side of the table has the document they were given and a vague apprehension that some of it is not quite right. That apprehension is, in the general course of things, well founded. The law is specific, it varies by jurisdiction, and it almost invariably provides more rights than one supposes. The difficulty has never been the law itself. The difficulty is that nobody has explained it._
-*The spec:*
+*The Spec:*
 ::: prompt
 I have a question about my rights as a [renter / homeowner / HOA member].
 My situation:
@@ -159,7 +159,7 @@ Please help me:
 Give me the most conservative, legally accurate answer.
 I will verify with a tenant rights organization or attorney.
 :::
-*What to do with the output:* Document everything in writing. If your landlord or HOA is violating your rights, your Agent can help you draft the letter — but send it by email or certified mail so there is a record. Many cities have free tenant rights hotlines and legal aid organizations; ask your Agent to find the one in your jurisdiction. The clock on most housing disputes starts running whether you know about the deadline or not.
+*What to do with the Output:* Document everything in writing. If your landlord or HOA is violating your rights, your Agent can help you draft the letter — but send it by email or certified mail so there is a record. Many cities have free tenant rights hotlines and legal aid organizations; ask your Agent to find the one in your jurisdiction. The clock on most housing disputes starts running whether you know about the deadline or not.
 
 ::: tip
 _"I just signed a lease I didn't fully understand. [Paste the section you're worried about.] What did I actually agree to, and is any of it unenforceable in [state]?"_ — The time to understand your lease is now, not when there is a dispute.
@@ -197,7 +197,7 @@ These overflow the scope of a single entry but each represents a real informatio
 *Strategy:* Decode + Research
 *See also:* M-6: Financial Coach (for budgeting utilities), Li-9: Making a Household Budget That Holds (utilities as a budget category)
 *My Man Jeeves:* _It would appear that energy cost burden — the percentage of household income devoted to utilities — falls with particular severity upon low-income households, who expend nearly three times the proportion of their income on energy that median-income households do, while possessing the least access to the rebate programmes designed to address this disparity. The programmes, one should note, do exist. The difficulty presents itself not in their absence but in the rather considerable effort required to locate them._
-*The spec:*
+*The Spec:*
 ::: prompt
 I want to understand my utility bill and find out if there are
 programs that could lower my costs. I'm in [state].
@@ -208,7 +208,7 @@ Please:
 2. Tell me what rebate or assistance programs I likely qualify for
 3. Give me the steps to apply for the most impactful one
 :::
-*What to do with the output:* Apply for the program your Agent identifies first — the one with the biggest impact and the simplest application. Most assistance programs are first-come, first-served and have enrollment windows. Do it today, not next billing cycle.
+*What to do with the Output:* Apply for the program your Agent identifies first — the one with the biggest impact and the simplest application. Most assistance programs are first-come, first-served and have enrollment windows. Do it today, not next billing cycle.
 
 [utility-bill-annotated]{.art}
 
@@ -228,7 +228,7 @@ Paste or upload your document directly — file upload works in Claude, Gemini, 
 *Strategy:* Navigate + Research
 *See also:* M-3: Mortgages, M-6: Financial Coach, L-1: Negotiating a Contract, Ho-4: Knowing Your Rights as a Renter or Homeowner
 *My Man Jeeves:* _One might observe that finding a place to live is the most expensive decision most people make under the most considerable time pressure. The real estate industry has, over the years, perfected the art of manufacturing urgency — "multiple offers," "will not last," "act now" — in a market where the buyer or renter possesses less information than every other party at the table. The landlord knows the vacancy rate. The seller knows the inspection history. The estate agent knows the comparable sales. One knows, principally, that one requires a place to live by the first of the month. An Agent can level that asymmetry — not, it should be said, by rendering the market fair, but by ensuring that one enters it informed._
-*The spec:*
+*The Spec:*
 ::: prompt
 I need to find a place to live.
 My situation:
@@ -253,7 +253,7 @@ Please help me:
 5. If I'm in a crisis situation, what immediate resources
    exist in my area?
 :::
-*What to do with the output:* Start with the financial math — not what you can pay, but what you can carry without stress. Housing cost below 30% of gross income is the standard guideline, but it is a ceiling, not a target. For renters: ask your Agent to help you read the lease before you sign it (see L-1). For buyers: get pre-approved before you start looking, not after you find the place you love (see M-3). For anyone in a housing crisis: 211.org and your local Continuum of Care are the first calls.
+*What to do with the Output:* Start with the financial math — not what you can pay, but what you can carry without stress. Housing cost below 30% of gross income is the standard guideline, but it is a ceiling, not a target. For renters: ask your Agent to help you read the lease before you sign it (see L-1). For buyers: get pre-approved before you start looking, not after you find the place you love (see M-3). For anyone in a housing crisis: 211.org and your local Continuum of Care are the first calls.
 
 ::: tip
 _"I found a listing I like. Here is the description: [paste]. What questions should I ask at the showing that the listing doesn't answer? What am I not seeing?"_
@@ -281,7 +281,7 @@ Housing discrimination is illegal under the Fair Housing Act but remains pervasi
 *Strategy:* Diagnose + Research (Expert Role)
 *See also:* Ch-3: Identifying and Caring for House Plants (for houseplants), Ho-1: Maintaining Your Home (for broader property care)
 *My Man Jeeves:* _Master Gardeners are volunteers trained by the Cooperative Extension System to address precisely the questions one has regarding why one's tomatoes have assumed their present appearance. Their services are provided without charge. They are also, one regrets to note, available by appointment, a fortnight from Tuesday, during business hours. An Agent, by contrast, is available now._
-*The spec:*
+*The Spec:*
 ::: prompt
 Act as an experienced Master Gardener.
 Here is my situation:
@@ -293,7 +293,7 @@ Here is my situation:
 — Recent changes: [new fertilizer, watering change, weather event, etc.]
 What is likely causing this, and what should I do?
 :::
-*What to do with the output:* Start with the least invasive intervention your Agent suggests. If the problem persists after one week, come back and describe what changed (or didn't). The refinement loop applies to plants as well as paperwork.
+*What to do with the Output:* Start with the least invasive intervention your Agent suggests. If the problem persists after one week, come back and describe what changed (or didn't). The refinement loop applies to plants as well as paperwork.
 
 ::: tip
 Add your soil type, sun exposure, and recent rainfall to the spec if you have it. The more specific the situation, the more specific the advice.
