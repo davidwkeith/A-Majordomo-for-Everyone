@@ -499,7 +499,7 @@ Alcohol and benzodiazepine withdrawal can cause fatal seizures — they are amon
 #### H-14: Harm Reduction
 *Strategy:* Research + Diagnose
 *See also:* H-13: Understanding Addiction, H-10: Checking for Drug Interactions
-*My Man Jeeves:* _In 2023, approximately 107,000 Americans died of drug overdoses — a figure exceeding car accidents and gun deaths combined. Roughly 75% involved fentanyl, which is frequently present in drugs sold as something else entirely. Harm reduction proceeds from the premise that some people use drugs, and that the most serviceable response is to keep them alive and as healthy as circumstances permit. This remains controversial in rather the same manner that seatbelts were controversial in 1965 — opponents contending that they would encourage reckless driving. They did not. They reduced deaths. The evidence for harm reduction is, one finds, comparably robust._
+*My Man Jeeves:* _In 2023, approximately 105,000 Americans died of drug overdoses — a figure exceeding car accidents and gun deaths combined. Roughly 69% involved synthetic opioids, principally fentanyl, which is frequently present in drugs sold as something else entirely. Harm reduction proceeds from the premise that some people use drugs, and that the most serviceable response is to keep them alive and as healthy as circumstances permit. This remains controversial in rather the same manner that seatbelts were controversial in 1965 — opponents contending that they would encourage reckless driving. They did not. They reduced deaths. The evidence for harm reduction is, one finds, comparably robust._
 *The spec:*
 ::: prompt
 I want to understand harm reduction for [substance or situation].
@@ -536,7 +536,7 @@ Portugal decriminalized personal possession of all drugs in 2001. Drug-related d
 #### H-15: Navigating Drug Laws in Your State
 *Strategy:* Navigate + Assert
 *See also:* C-7: Understanding Your Rights Where You Live
-*My Man Jeeves:* _Cannabis is legal in one's state and a federal crime. Psilocybin is decriminalized in one's city yet a felony in the neighboring county. Kratom is banned in six states and available at the gas station in the other forty-four. The legal landscape for drugs in the United States is not, one feels compelled to observe, a landscape in any coherent sense. It is rather a patchwork quilt sewn by fifty different legislatures, several federal agencies, and occasional ballot initiatives — each operating on a different timeline and, in certain cases, a different century's understanding of pharmacology._
+*My Man Jeeves:* _Cannabis is legal in one's state and a federal crime. Psilocybin is decriminalized in one's city yet a felony in the neighboring county. Kratom is banned in several states and available at the gas station in the other forty-four. The legal landscape for drugs in the United States is not, one feels compelled to observe, a landscape in any coherent sense. It is rather a patchwork quilt sewn by fifty different legislatures, several federal agencies, and occasional ballot initiatives — each operating on a different timeline and, in certain cases, a different century's understanding of pharmacology._
 *The spec:*
 ::: prompt
 I want to understand the current drug laws where I live.
@@ -565,7 +565,7 @@ The DEA's scheduling system was established by the Controlled Substances Act of 
 #### H-16: Evaluating Psychedelic Therapy
 *Strategy:* Research + Decide
 *See also:* H-1: Understanding a Diagnosis, H-11: Your Brain on Drugs
-*My Man Jeeves:* _Psychedelic-assisted therapy represents, one might suggest, the most promising and most overhyped development in mental health treatment since SSRIs. Clinical trials for psilocybin in depression and MDMA in PTSD have produced significant results. The FDA declined to approve MDMA therapy in 2024, citing trial design concerns rather than inefficacy. Psilocybin trials continue. In the meantime, unregulated ketamine clinics have proliferated, Oregon has legalized psilocybin services outside the medical system, and the gap between the research and the marketplace has grown sufficient to accommodate, one estimates, a modestly sized retreat center._
+*My Man Jeeves:* _Psychedelic-assisted therapy represents, one might suggest, the most promising and most overhyped development in mental health treatment since SSRIs. Clinical trials for psilocybin in depression and MDMA in PTSD have produced significant results. The FDA declined to approve MDMA therapy in 2024, citing trial design concerns, ethical violations at trial sites, and data integrity issues. Psilocybin trials continue. In the meantime, unregulated ketamine clinics have proliferated, Oregon has legalized psilocybin services outside the medical system, and the gap between the research and the marketplace has grown sufficient to accommodate, one estimates, a modestly sized retreat center._
 *The spec:*
 ::: prompt
 I am interested in psychedelic therapy for [depression / PTSD /
@@ -629,7 +629,7 @@ when it matters.
 #### H-18: Finding Treatment and Recovery
 *Strategy:* Navigate + Research
 *See also:* H-13: Understanding Addiction, H-14: Harm Reduction, M-6: Financial Coach (for insurance and costs)
-*My Man Jeeves:* _The treatment industry in the United States constitutes a $42 billion market operating, one notes, under less regulatory oversight than the restaurant industry. Some facilities are excellent. Some, one regrets to say, are predatory. The distinction is not readily apparent from the website. One's Agent can assist in evaluating options according to the criteria that addiction medicine specialists employ — criteria that differ, in several material respects, from those favored by the marketing department._
+*My Man Jeeves:* _The treatment industry in the United States constitutes a multibillion-dollar market operating, one notes, under less regulatory oversight than the restaurant industry. Some facilities are excellent. Some, one regrets to say, are predatory. The distinction is not readily apparent from the website. One's Agent can assist in evaluating options according to the criteria that addiction medicine specialists employ — criteria that differ, in several material respects, from those favored by the marketing department._
 *The spec:*
 ::: prompt
 I need to find treatment for [substance use disorder / alcohol /
@@ -665,7 +665,7 @@ SAMHSA's treatment locator at findtreatment.gov lets you search by substance, lo
 
 #### H-19: The War on Drugs — What Your Agent Can Tell You That School Didn't
 *Strategy:* Research
-*My Man Jeeves:* _The War on Drugs, declared by Nixon in 1971, has cost the United States in excess of $1 trillion in enforcement spending. The incarcerated population grew from 300,000 in 1972 to 2.1 million by 2020, with drug offenses accounting for roughly 45% of federal prisoners. Black Americans are incarcerated for drug offenses at nearly five times the rate of white Americans, despite roughly equal usage rates. These are not, one feels it necessary to clarify, matters of opinion. They are Bureau of Justice Statistics._
+*My Man Jeeves:* _The War on Drugs, declared by Nixon in 1971, has cost the United States in excess of $1 trillion in enforcement spending. The incarcerated population grew from roughly 360,000 in 1972 to a peak of 2.1 million by 2019, with drug offenses accounting for roughly 45% of federal prisoners. Black Americans are incarcerated for drug offenses at nearly six times the rate of white Americans, despite roughly equal usage rates. These are not, one feels it necessary to clarify, matters of opinion. They are Bureau of Justice Statistics._
 *The spec:*
 ::: prompt
 I want to understand the War on Drugs — not the political argument,

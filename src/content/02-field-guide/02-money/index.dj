@@ -70,7 +70,7 @@ Mint shut down in March 2024 — if you were one of its millions of users, you a
 #### M-2: Credit Cards and Debt
 *Strategy:* Decode + Assert
 *See also:* M-1: Banking and Savings, M-4: Collections and Bankruptcy (when debt goes wrong)
-*My Man Jeeves:* _It would appear that credit card statements have been arranged so as to display the minimum payment with some prominence while relegating the total interest one will pay over time to a typeface calibrated, one suspects, to discourage closer inspection. A card at 24.99% APR — the current average — transforms a $5,000 balance into $7,800 over three years should one remit only the minimum. The instrument was marketed as a convenience. It was designed as a revenue mechanism. Appreciating the distinction between these two propositions is the first step. Disputing the errors is the second._
+*My Man Jeeves:* _It would appear that credit card statements have been arranged so as to display the minimum payment with some prominence while relegating the total interest one will pay over time to a typeface calibrated, one suspects, to discourage closer inspection. A card at 24.99% APR — the current average — transforms a $5,000 balance, at minimum payments, into a repayment spanning decades and costing thousands in interest. The instrument was marketed as a convenience. It was designed as a revenue mechanism. Appreciating the distinction between these two propositions is the first step. Disputing the errors is the second._
 *The spec:*
 ::: prompt
 I want to understand and manage my credit card and debt situation.
@@ -261,7 +261,7 @@ Paste or upload your document directly — file upload works in Claude, Gemini, 
 #### M-5: Retirement and Investing
 *Strategy:* Research + Decide
 *See also:* M-6: Financial Coach, H-6: Understanding What Medicare or Medicaid Actually Covers, Li-4: Planning Care for Aging
-*My Man Jeeves:* _One might note that the retirement system in the United States transferred the risk of retirement from employers to individuals in a single generation. One's parents may have enjoyed a pension — a defined benefit that guaranteed income for life. One now has, in its place, a 401(k) — a defined contribution that guarantees nothing beyond the certainty that one bears the investment risk, the longevity risk, and the fee structure. The financial services industry collects approximately $400 billion per year in fees for the management of Americans' retirement savings. An Agent, it is perhaps worth observing, charges no fee whatever and has read the same research the fee-charging advisors cite._
+*My Man Jeeves:* _One might note that the retirement system in the United States transferred the risk of retirement from employers to individuals in a single generation. One's parents may have enjoyed a pension — a defined benefit that guaranteed income for life. One now has, in its place, a 401(k) — a defined contribution that guarantees nothing beyond the certainty that one bears the investment risk, the longevity risk, and the fee structure. The financial services industry collects in excess of $100 billion per year in fees for the management of Americans' retirement savings. An Agent, it is perhaps worth observing, charges no fee whatever and has read the same research the fee-charging advisors cite._
 *The spec:*
 ::: prompt
 I want to understand and improve my retirement situation.

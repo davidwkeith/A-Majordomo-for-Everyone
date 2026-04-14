@@ -164,7 +164,7 @@ To make this Expert Role persistent across sessions, save it as a *Project* (Cla
 #### Ch-4: Dog Training
 *Strategy:* Diagnose + Navigate (Expert Role)
 *See also:* Ho-4: Knowing Your Rights as a Renter or Homeowner (for pet-related housing rules)
-*My Man Jeeves:* _One observes that dog trainers charge between $50 and $150 per session and are, in the majority of cases, entirely unregulated. The evidence base for canine training has, over the past twenty years, shifted rather substantially toward positive reinforcement methods --- a development that has not, it would appear, fully reached all practitioners commanding $150 per session. One's Agent, having reviewed the current research, is in a position to bridge this gap._
+*My Man Jeeves:* _One observes that dog trainers charge between $75 and $250 per session and are, in the majority of cases, entirely unregulated. The evidence base for canine training has, over the past twenty years, shifted rather substantially toward positive reinforcement methods --- a development that has not, it would appear, fully reached all practitioners commanding $150 per session. One's Agent, having reviewed the current research, is in a position to bridge this gap._
 *The spec:*
 ::: prompt
 Act as a certified positive-reinforcement dog trainer.

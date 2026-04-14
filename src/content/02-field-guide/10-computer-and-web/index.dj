@@ -424,7 +424,7 @@ The wealthy and educated have always curated their information sources — subsc
 
 *Strategy:* Decode + Draft
 *See also:* WB-5: Building Your Own Website, WB-8: Blogging and Journaling
-*My Man Jeeves:* _[CommonMark](https://commonmark.org/) serves as the universal language of AI in much the way English serves as the universal language of air traffic control --- not because it is the finest available, but because all parties agreed upon it and it functions reliably. It is plain text with a modest number of symbols that carry meaning. One can acquire the entire language in ten minutes. This book was written in it. One's Agent thinks in it. When one writes in CommonMark, one is writing in the lingua franca of every AI system on the market --- which is to say, one's Agent can process, format, and transform one's writing with fewer tokens and greater precision than any other format permits._
+*My Man Jeeves:* _[CommonMark](https://commonmark.org/) serves as the universal language of AI in much the way English serves as the universal language of air traffic control --- not because it is the finest available, but because all parties agreed upon it and it functions reliably. It is plain text with a modest number of symbols that carry meaning. One can acquire the entire language in ten minutes. This book was written in [Djot](https://djot.net), a related format created by the same author --- but that is a digression. One's Agent thinks in CommonMark. When one writes in CommonMark, one is writing in the lingua franca of every AI system on the market --- which is to say, one's Agent can process, format, and transform one's writing with fewer tokens and greater precision than any other format permits._
 *The spec:*
 ::: prompt
 I want to learn CommonMark so I can write content for my website
@@ -453,7 +453,7 @@ Formatting is not decoration — it is cognition. Research on document design co
 
 
 ::: meme
-[Markdown](https://en.wikipedia.org/wiki/Markdown) has dozens of incompatible variants. [CommonMark](https://commonmark.org/) is the one that matters — a single, unambiguous [specification](https://spec.commonmark.org/) used by [GitHub](https://en.wikipedia.org/wiki/GitHub), [GitLab](https://en.wikipedia.org/wiki/GitLab), [Reddit](https://en.wikipedia.org/wiki/Reddit), [Stack Overflow](https://en.wikipedia.org/wiki/Stack%5FOverflow), [Discourse](https://en.wikipedia.org/wiki/Discourse%5F(software)), and most AI systems. What you write in CommonMark today will render correctly everywhere, forever. That is not a feature. That is the point of an [open standard](https://en.wikipedia.org/wiki/Open%5Fstandard). This book is written in CommonMark. Your website can be too.
+[Markdown](https://en.wikipedia.org/wiki/Markdown) has dozens of incompatible variants. [CommonMark](https://commonmark.org/) is the one that matters — a single, unambiguous [specification](https://spec.commonmark.org/) used by [GitHub](https://en.wikipedia.org/wiki/GitHub), [GitLab](https://en.wikipedia.org/wiki/GitLab), [Reddit](https://en.wikipedia.org/wiki/Reddit), [Stack Overflow](https://en.wikipedia.org/wiki/Stack%5FOverflow), [Discourse](https://en.wikipedia.org/wiki/Discourse%5F(software)), and most AI systems. What you write in CommonMark today will render correctly everywhere, forever. That is not a feature. That is the point of an [open standard](https://en.wikipedia.org/wiki/Open%5Fstandard). This book is written in [Djot](https://djot.net), a descendant of CommonMark by the same author. Your website can be written in CommonMark.
 :::
 
 

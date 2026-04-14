@@ -15,7 +15,7 @@ _The systems that govern health, money, and legal standing get their own domains
 #### Li-1: Preparing for a Difficult Conversation
 *Strategy:* Prepare + Draft
 *See also:* W-3: Working with HR (for workplace conversations), H-7: Preparing for End-of-Life Conversations (for the hardest one)
-*My Man Jeeves:* _One might observe that forty years of research on interpersonal conflict converge upon a single finding of some consequence: how a difficult conversation begins predicts its outcome with approximately 96% accuracy. The words selected in the first thirty seconds, it would appear, determine most of what follows. It is perhaps worth noting, then, that preparation is not a matter of personal preference. It is the intervention itself._
+*My Man Jeeves:* _One might observe that forty years of research on interpersonal conflict converge upon a single finding of some consequence: how a difficult conversation begins predicts its outcome with approximately 96% accuracy. The words selected in the first three minutes, it would appear, determine most of what follows. It is perhaps worth noting, then, that preparation is not a matter of personal preference. It is the intervention itself._
 *The spec:*
 ::: prompt
 I need to have a difficult conversation with [relationship] about [topic].
@@ -180,7 +180,7 @@ Please help me:
 *What to do with the output:* Print the itinerary. Share it with everyone going. Ask your Agent for a packing list specific to the destination and season. Before you leave, ask: _"What documents do I need, and what happens if I lose them?"_
 
 ::: meme
-[_The Amazing Race_](https://en.wikipedia.org/wiki/The%5FAmazing%5FRace) has aired for 36 seasons on the premise that navigating airports, language barriers, and unfamiliar transit systems is so stressful it qualifies as entertainment. Your Agent eliminates the entertainment value and keeps the trip.
+[_The Amazing Race_](https://en.wikipedia.org/wiki/The%5FAmazing%5FRace) has aired for 38 seasons on the premise that navigating airports, language barriers, and unfamiliar transit systems is so stressful it qualifies as entertainment. Your Agent eliminates the entertainment value and keeps the trip.
 :::
 
 
@@ -294,7 +294,7 @@ Parenting research has historically oversampled white, middle-class, two-parent 
 #### Li-8: Wellness Coach
 *Strategy:* Research + Draft (Expert Role)
 *See also:* H-8: Wellness and Nutrition Coach (for physical health), H-13: Understanding Addiction, H-1: Understanding a Diagnosis
-*My Man Jeeves:* _A difficulty of some consequence presents itself in the matter of mental health care in America, where the median wait for a new patient appointment is 48 days and a single therapy session costs $100 to $250 out of pocket. One cannot help but observe that the persons who require assistance most urgently — the isolated, the overwhelmed, the financially strained — face the most formidable barriers to obtaining it. Your Agent is not a therapist. It is, however, available at 2 AM when the therapist is not, and it is capable of performing several things a therapist would recommend one do between sessions._
+*My Man Jeeves:* _A difficulty of some consequence presents itself in the matter of mental health care in America, where the median wait for a new patient appointment is, by research estimates, between six and ten weeks and a single therapy session costs $100 to $250 out of pocket. One cannot help but observe that the persons who require assistance most urgently — the isolated, the overwhelmed, the financially strained — face the most formidable barriers to obtaining it. Your Agent is not a therapist. It is, however, available at 2 AM when the therapist is not, and it is capable of performing several things a therapist would recommend one do between sessions._
 *The spec:*
 ::: prompt
 Act as a supportive wellness coach. I am not in crisis —
@@ -395,7 +395,7 @@ Mullainathan & Shafir (2013) document "scarcity mindset" — financial stress re
 #### Li-10: Learn a language
 *Strategy:* Research + Navigate (Expert Role)
 *See also:* Li-5: Planning Trips (for travel-specific language prep)
-*My Man Jeeves:* _Language immersion programmes, one notes, cost thousands of dollars. [Duolingo](https://en.wikipedia.org/wiki/Duolingo) is free and instructs one in how to say “the elephant drinks milk” in seventeen languages. Private tutors charge $40 to $80 per hour and are available when their schedule permits. Your Agent, by contrast, is available at once, possesses inexhaustible patience, betrays no visible disappointment when one conjugates the same verb incorrectly for the fifth time, and will conduct an actual conversation about the things one actually needs to say — rather than the things a textbook believes one should practise._
+*My Man Jeeves:* _Language immersion programmes, one notes, cost thousands of dollars. [Duolingo](https://en.wikipedia.org/wiki/Duolingo) is free and instructs one in how to say “the elephant drinks milk” in more than forty languages. Private tutors charge $40 to $80 per hour and are available when their schedule permits. Your Agent, by contrast, is available at once, possesses inexhaustible patience, betrays no visible disappointment when one conjugates the same verb incorrectly for the fifth time, and will conduct an actual conversation about the things one actually needs to say — rather than the things a textbook believes one should practise._
 *The spec:*
 ::: prompt
 Act as a patient language tutor for [language].

@@ -11,7 +11,7 @@ status: "draft"
 _The labor market is an information asymmetry with a dress code. The employer knows the salary range, the real reason the last person left, and what the role actually entails. The candidate knows what was in the job posting, which was written by HR to attract applicants and reviewed by legal to limit liability — two goals that have nothing to do with telling you what the job is. Once you're hired, the asymmetry continues: performance reviews, promotion criteria, benefits enrollment, and termination procedures are all systems the company designed and you inherited. The entries that follow are the preparation the billionaire class's career coaches provide._
 
 ::: meme
-George Jetson worked three hours a day, three days a week, pushing a single button. The show aired in 1962 as satire. Sixty years later the average American works 38.7 hours a week and the button has been replaced by a keyboard and seven different apps that all require a login. The Jetsons got the technology right and the outcome wrong. The automation arrived. The free time did not. The entries in this domain are about using the tools that exist — including your Agent — to get the outcome the Jetsons were promised.
+George Jetson worked a few hours a day, a few days a week, pushing a single button. The show aired in 1962 as satire. Sixty years later the average American works 38.7 hours a week and the button has been replaced by a keyboard and seven different apps that all require a login. The Jetsons got the technology right and the outcome wrong. The automation arrived. The free time did not. The entries in this domain are about using the tools that exist — including your Agent — to get the outcome the Jetsons were promised.
 :::
 
 
@@ -79,7 +79,7 @@ I want to understand:
 Give me the most conservative answer. I will verify with
 an employment attorney or legal aid organization.
 :::
-*What to do with the output:* Do not sign anything yet. You usually have 21 days (40+ employees: 45 days) to review a severance agreement. Print the output, highlight the deadlines, and call an employment attorney — many offer a free 30-minute consultation. The clock is real but it is longer than your employer implies.
+*What to do with the output:* Do not sign anything yet. You usually have 21 days (45 days if part of a group layoff) to review a severance agreement. Print the output, highlight the deadlines, and call an employment attorney — many offer a free 30-minute consultation. The clock is real but it is longer than your employer implies.
 
 ::: also
 Paste or upload your document directly — file upload works in Claude, Gemini, ChatGPT, and Copilot. See [Appendix G](06-appendix-g-feature-table.xhtml).
@@ -144,7 +144,7 @@ What I want to understand:
 *What to do with the output:* If you need to make the case to your manager, copy the data points into a one-page memo. Lead with the business case (productivity, retention, cost savings), not the personal case. The personal case is why you want it. The business case is why they will say yes.
 
 ::: science
-Bloom et al. (2015) conducted the largest randomized controlled trial of remote work (Trip.com, n=1,612) and found a 13% performance increase for remote workers, along with higher satisfaction and lower attrition. A 2024 follow-up found hybrid (3 days in, 2 remote) had no negative effect on productivity or career advancement.[^w4-1]
+Bloom et al. (2015) conducted a randomized controlled trial of remote work at Ctrip (n≈249) and found a 13% performance increase for remote workers, along with higher satisfaction and lower attrition. A 2024 follow-up at Trip.com (Ctrip's rebrand, n=1,612) found that hybrid work (3 days in, 2 remote) had no negative effect on productivity or career advancement.[^w4-1]
 :::
 
 
