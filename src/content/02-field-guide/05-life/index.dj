@@ -15,7 +15,7 @@ _The systems that govern health, money, and legal standing get their own domains
 #### Li-1: Preparing for a Difficult Conversation
 *Strategy:* Prepare + Draft
 *See also:* W-3: Working with HR (for workplace conversations), H-7: Preparing for End-of-Life Conversations (for the hardest one)
-*My Man Jeeves:* _One might observe that forty years of research on interpersonal conflict converge upon a single finding of some consequence: how a difficult conversation begins predicts its outcome with approximately 96% accuracy. The words selected in the first three minutes, it would appear, determine most of what follows. It is perhaps worth noting, then, that preparation is not a matter of personal preference. It is the intervention itself._
+*My Man Jeeves:* _One might observe that forty years of research on interpersonal conflict converge upon a single finding of some consequence: how a difficult conversation begins predicts its outcome with approximately 96% accuracy. The words selected in the first three minutes, it would appear, determine most of what follows.[^li1-2] It is perhaps worth noting, then, that preparation is not a matter of personal preference. It is the intervention itself._
 *The spec:*
 ::: prompt
 I need to have a difficult conversation with [relationship] about [topic].
@@ -38,6 +38,8 @@ This works well with voice mode on your phone — all major tools support it on 
 *Science note:* Gottman (1999) identifies the "soft startup" as the single highest-leverage intervention in difficult conversations -- how you begin determines nearly everything that follows.[^li1-1]
 
 [^li1-1]: Gottman, J.M. (1999). [_The Marriage Clinic._](https://www.gottman.com/product/the-new-marriage-clinic/) W.W. Norton.
+
+[^li1-2]: Gottman, J.M. et al. (1998). "Predicting Marital Happiness and Stability from Newlywed Interactions." _Journal of Marriage and the Family_, 60(1), 5–22.
 
 ---
 
@@ -294,7 +296,7 @@ Parenting research has historically oversampled white, middle-class, two-parent 
 #### Li-8: Wellness Coach
 *Strategy:* Research + Draft (Expert Role)
 *See also:* H-8: Wellness and Nutrition Coach (for physical health), H-13: Understanding Addiction, H-1: Understanding a Diagnosis
-*My Man Jeeves:* _A difficulty of some consequence presents itself in the matter of mental health care in America, where the median wait for a new patient appointment is, by research estimates, between six and ten weeks and a single therapy session costs $100 to $250 out of pocket. One cannot help but observe that the persons who require assistance most urgently — the isolated, the overwhelmed, the financially strained — face the most formidable barriers to obtaining it. Your Agent is not a therapist. It is, however, available at 2 AM when the therapist is not, and it is capable of performing several things a therapist would recommend one do between sessions._
+*My Man Jeeves:* _A difficulty of some consequence presents itself in the matter of mental health care in America, where the median wait for a new patient appointment is, by research estimates, between six and ten weeks[^li8-1] and a single therapy session costs $100 to $250 out of pocket. One cannot help but observe that the persons who require assistance most urgently — the isolated, the overwhelmed, the financially strained — face the most formidable barriers to obtaining it. Your Agent is not a therapist. It is, however, available at 2 AM when the therapist is not, and it is capable of performing several things a therapist would recommend one do between sessions._
 *The spec:*
 ::: prompt
 Act as a supportive wellness coach. I am not in crisis —
@@ -338,6 +340,8 @@ Act as an occupational therapy coach. I am struggling with
 time management, sensory overload, task initiation] and I want
 practical strategies, not motivational advice.
 :::
+
+[^li8-1]: Busch, S.H. et al. (2022). "Wait Times for New Psychiatric Appointments." _Psychiatric Services_, 73(12). In-person psychiatry median 67 days; telepsychiatry 43 days.
 
 <!-- RESEARCH NEEDED: Therapy wait time data. NAMI and APA have surveys but the 48-day figure needs verification — some sources say 25 days median, others longer. Rural areas are much worse. The structural access problem is well-documented regardless of the exact figure. -->
 

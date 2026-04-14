@@ -79,12 +79,13 @@ I want to understand:
 Give me the most conservative answer. I will verify with
 an employment attorney or legal aid organization.
 :::
-*What to do with the output:* Do not sign anything yet. You usually have 21 days (45 days if part of a group layoff) to review a severance agreement. Print the output, highlight the deadlines, and call an employment attorney — many offer a free 30-minute consultation. The clock is real but it is longer than your employer implies.
+*What to do with the output:* Do not sign anything yet. You usually have 21 days (45 days if part of a group layoff) to review a severance agreement.[^w2-1] Print the output, highlight the deadlines, and call an employment attorney — many offer a free 30-minute consultation. The clock is real but it is longer than your employer implies.
 
 ::: also
 Paste or upload your document directly — file upload works in Claude, Gemini, ChatGPT, and Copilot. See [Appendix G](06-appendix-g-feature-table.xhtml).
 :::
 
+[^w2-1]: The 21-day (or 45-day) review period is required by the Older Workers Benefit Protection Act (OWBPA), 29 U.S.C. § 626(f). See also EEOC, "Understanding Waivers of Discrimination Claims in Employee Severance Agreements," https://www.eeoc.gov/laws/guidance/qa-understanding-waivers-discrimination-claims-employee-severance-agreements.
 
 ---
 
@@ -154,7 +155,7 @@ Bloom et al. (2015) conducted a randomized controlled trial of remote work at Ct
 
 <!-- RESEARCH NEEDED (HUMAN CONDITION): Remote work isolation is real. Murthy (Surgeon General, 2023) identified workplace connection as a key factor in the loneliness epidemic. The entry should not be purely pro-remote — the trade-off between autonomy and connection is genuine, and different people have very different needs on this axis. Some people thrive in isolation. Some deteriorate. Knowing which you are is more useful than knowing what the research average says. -->
 
-[^w4-1]: Bloom, N. et al. (2015). "Does Working from Home Work?" _Quarterly Journal of Economics,_ 130(1), 165–218.
+[^w4-1]: Bloom, N. et al. (2015). "Does Working from Home Work? Evidence from a Chinese Experiment." _Quarterly Journal of Economics,_ 130(1), 165–218. The 2024 follow-up: Bloom, N. et al. (2024). "Hybrid Working from Home Improves Retention Without Damaging Performance." _Nature,_ 630, 920–925.
 
 ---
 
