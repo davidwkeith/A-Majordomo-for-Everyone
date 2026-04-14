@@ -12,18 +12,18 @@
 - **Adversarial citation of industry statements:** Public statements from AI industry leaders (CEOs, founders, researchers) may be cited in body text as corroborating evidence for the book's structural argument — never as endorsement or appeal to authority. The framing is adversarial: "even the people who profit from this describe it the way a consumer advocate would." The reader's default posture toward tech billionaires is skepticism; the technique leverages that skepticism by presenting the quote and letting the reader draw the conclusion. Requirements: **(1)** the quote must come from a primary, verifiable source (blog post, keynote transcript, published essay) with a URL in the endnote, **(2)** the surrounding text must explicitly disclaim trust in the speaker's motives — the reader is asked to evaluate the claim, not the person, **(3)** the quote must do structural work — it supports the class-analysis argument, not the speaker's reputation. Lead with the most politically general quote and build toward the most specific. This convention does not override "No corporate quotes" for chapter epigraphs, which remains in effect. See Chapter 1 ("What These Tools Actually Are") for the reference implementation.
 - **Art briefs:** Every graphic is specified as a `.art.md` sidecar file that lives next to the chapter it belongs to. The filename (minus `.art.md`) is the image stem — the build looks for `src/images/{stem}.{format}`. The sidecar uses YAML frontmatter with three fields: `format` (file extension, typically `png`), `size` (full/half-left/half-right/margin), and `alt` (accessibility description for screen readers). The body of the file is the production brief for the illustrator. Alt text is required — no image ships without it. **Art direction is permanent.** The `.art.md` file is the authoritative record of what was asked for and the basis for revision if the image needs to be regenerated. It is never deleted. The chapter references the image with `[stem-name]{.art}` at the exact position where it should render, or `[_caption_]{.art stem="stem-name"}` when a caption is needed. If the image exists and contains XMP metadata, the embedded `Iptc4xmpCore:AltTextAccessibility` is used for alt text. If the image does not exist, a placeholder box renders with the alt text and brief in an expandable `<details>` element. See the Illustration Spec for full syntax, rules, and examples.
 - **Chapter opener art briefs:** Strategy chapters use the same `.art.md` sidecar format as inline graphics. The sidecar body contains the full Trinitron scene brief. The `alt` field provides the accessibility description. The episode caption is inlined in the art reference: `[_caption text_]{.art stem="stem-name"}`, which renders as a `<figcaption>` inside the `<figure>`.
-- **"My Man Jeeves" Field Guide entries:** Each entry in Part Two opens with `**My Man Jeeves:** *[text]*` — a one-paragraph opener in the voice of [Reginald Jeeves](reginald-jeeves.voice.md). The opener follows a three-beat pattern: **(1)** name the structural inequality or system dysfunction, **(2)** show how it creates the information asymmetry, **(3)** give the reader the tool that closes it. This pattern is what makes the voice work — it validates the reader's experience ("the system is broken"), establishes the mechanism ("here's why"), and pivots to agency ("here's what you do"). Keep all three beats. Drop any one and the opener either lectures, complains, or sells.
+- **"My Man Jeeves" Field Guide entries:** Each entry in Part Two opens with `*My Man Jeeves:* _[text]_` — a one-paragraph opener in the voice of [Reginald Jeeves](reginald-jeeves.voice.md). The opener follows a three-beat pattern: **(1)** name the structural inequality or system dysfunction, **(2)** show how it creates the information asymmetry, **(3)** give the reader the tool that closes it. This pattern is what makes the voice work — it validates the reader's experience ("the system is broken"), establishes the mechanism ("here's why"), and pivots to agency ("here's what you do"). Keep all three beats. Drop any one and the opener either lectures, complains, or sells.
 - **Field Guide entry anatomy:** Each entry follows a consistent structure. Not every component is required for every entry, but the order is fixed:
 
   ```
   #### [Prefix]-[#]: [Problem Title]
-  **Strategy:** [combination of strategies]
-  **See also:** [cross-references to related entries]
-  **My Man Jeeves:** *[Jeeves-voice opener]*
-  **The spec:**
+  *Strategy:* [combination of strategies]
+  *See also:* [cross-references to related entries]
+  *My Man Jeeves:* _[Jeeves-voice opener]_
+  *The spec:*
   [monospace code block — the spec template]
-  **What to do with the output:** [concrete next action]
-  **Common [domain] Expert Role specs:** [for Expert Role entries only]
+  *What to do with the output:* [concrete next action]
+  *Common [domain] Expert Role specs:* [for Expert Role entries only]
   [Callouts: SCIENCE, TIP, FAIRNESS, MEME, ALSO]
   <!-- RESEARCH NEEDED --> [editorial comments]
   [Footnotes]
