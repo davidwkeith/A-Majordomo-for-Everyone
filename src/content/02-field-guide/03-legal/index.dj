@@ -11,7 +11,7 @@ status: "draft"
 _The law is public. Legal literacy is not. Every contract, statute, regulation, and rights notice that governs your daily life is technically available to you — and practically illegible without the training that law school provides and the billionaire class purchases by the hour. The gap between having rights and exercising them is a literacy gap, and it is expensive by design. The entries that follow do not replace a lawyer. They get you from "I don't know what my rights are" to "I know my rights, I know the process, and I know when I need a lawyer."_
 
 ::: meme
-Paul and Jamie Buchman spent six seasons of _[Mad About You](https://en.wikipedia.org/wiki/Mad%5FAbout%5FYou)_ in conflict with their building, their neighbors, their contractors, and a city bureaucracy that seemed specifically designed to defeat reasonable people. George Costanza spent nine seasons of _Seinfeld_ asserting rights he couldn't specify correctly and getting outcomes that were technically what he asked for and completely wrong. Both shows were comedies. The situations were not funny if you lived them. The entries in this domain are what Paul, Jamie, and George needed at the start of each episode.
+Paul and Jamie Buchman spent seven seasons of _[Mad About You](https://en.wikipedia.org/wiki/Mad%5FAbout%5FYou)_ in conflict with their building, their neighbors, their contractors, and a city bureaucracy that seemed specifically designed to defeat reasonable people. George Costanza spent nine seasons of _Seinfeld_ asserting rights he couldn't specify correctly and getting outcomes that were technically what he asked for and completely wrong. Both shows were comedies. The situations were not funny if you lived them. The entries in this domain are what Paul, Jamie, and George needed at the start of each episode.
 :::
 
 
@@ -20,11 +20,11 @@ Paul and Jamie Buchman spent six seasons of _[Mad About You](https://en.wikipedi
 #### L-1: Negotiating a Contract
 *Strategy:* Decode + Assert
 *See also:* Ho-4: Knowing Your Rights as a Renter or Homeowner (for lease-specific rights), Ch-2: Understanding a Contractor Bid, M-3: Mortgages
-*The Majordomo says:* _Contracts are written by lawyers for lawyers, with the implicit understanding that the other party also has a lawyer. When one party does not have a lawyer, the contract functions as intended._
+*My Man Jeeves:* _One might observe that a contract is, in its essential nature, a document composed by attorneys for the benefit of attorneys, with the quiet assumption that all parties to the arrangement have retained counsel of their own. When one party has not, the contract does not malfunction. It performs precisely as designed. The distinction between possessing rights under an agreement and comprehending what one has agreed to is, if one may say so, rather the point. Your Agent has read the contract. It would be pleased to translate._
 
 [contract-highlighted]{.art}
 
-*The spec:*
+*The Spec:*
 ::: prompt
 I am about to sign this contract. [Paste the contract or
 the section you're concerned about.]
@@ -36,7 +36,7 @@ Please:
    before signing
 Assume I have no legal background.
 :::
-*What to do with the output:* Read the flagged clauses. If any are deal-breakers, you now know which ones to push back on — and you can ask your Agent to draft the counter-language. If the contract is otherwise fine, you have documented proof you understood what you signed.
+*What to do with the Output:* Read the flagged clauses. If any are deal-breakers, you now know which ones to push back on — and you can ask your Agent to draft the counter-language. If the contract is otherwise fine, you have documented proof you understood what you signed.
 
 ::: tip
 Start with the contract you already signed: the Terms of Service for the Agent you are using right now. Paste it and ask: _"What did I agree to? What data am I giving you, and what can you do with it?"_ This is the most honest first exercise in this book.
@@ -58,8 +58,8 @@ Don't paste a 40-page lease. Paste the clause you're confused about, plus the de
 #### L-2: Small Claims Court
 *Strategy:* Navigate + Prepare + Draft
 *See also:* L-1: Negotiating a Contract (if the dispute stems from a contract), L-3: Writing a Demand Letter (often the step before filing)
-*The Majordomo says:* _Small claims court was designed to let ordinary people resolve disputes without lawyers. The filing fee is modest, the rules are simplified, the judge expects you to be a regular person, and the entire process favors whoever prepared. This is the problem. Preparation requires knowing what the court expects, what evidence matters, and how to present it — information that is freely available but scattered across courthouse websites last updated in 2009. Your landlord's property management company has filed in small claims dozens of times. You have filed zero times. That experience gap is the real disadvantage, not the law itself._
-*The spec:*
+*My Man Jeeves:* _It would appear that small claims court was designed with the admirable intention of permitting ordinary individuals to resolve disputes without the expense of legal representation. The filing fee is modest, the rules are simplified, and the presiding judge expects one to be a regular person rather than a trained advocate. The difficulty, however, presents itself in the matter of preparation. Knowing what the court expects, which evidence carries weight, and how to arrange it coherently — this information is freely available, though one finds it scattered across courthouse websites last updated, in many instances, in 2009. One might further note that the landlord's property management company has filed in small claims dozens of times, while the typical tenant has filed precisely none. The experience gap, rather than the law itself, is the genuine disadvantage. One's Agent can close it._
+*The Spec:*
 ::: prompt
 I want to file a small claims court case.
 My state and county: [state, county]
@@ -79,7 +79,7 @@ Please:
    what to say, what not to say
 5. Draft a brief opening statement I can read or paraphrase
 :::
-*What to do with the output:* File the claim at your county courthouse or online if your jurisdiction allows it. Serve the other party according to your court's rules — your Agent can explain the options, but this step has legal requirements you cannot skip. Organize your evidence in a folder, chronologically, with copies for the judge. Practice your opening statement once out loud. You do not need to memorize it.
+*What to do with the Output:* File the claim at your county courthouse or online if your jurisdiction allows it. Serve the other party according to your court's rules — your Agent can explain the options, but this step has legal requirements you cannot skip. Organize your evidence in a folder, chronologically, with copies for the judge. Practice your opening statement once out loud. You do not need to memorize it.
 
 ::: fairness
 Small claims filing fees range from $30 to $75 in most jurisdictions — affordable in theory. But the court is open during business hours, which means taking time off work. For hourly workers, a half-day of lost wages plus the filing fee plus a second trip if the case is continued can cost more than the amount in dispute. This is not an accident. It is a system designed around the assumption that everyone has a salaried job with paid leave. If you are hourly, ask your Agent about evening or weekend small claims sessions — some jurisdictions offer them — and whether you can request a specific hearing date.[^l2-1]
@@ -103,8 +103,8 @@ File and document upload — paste or attach a contract to your conversation —
 #### L-3: Writing a Demand Letter
 *Strategy:* Draft
 *See also:* L-2: Small Claims Court (the next step if the letter doesn't work), L-1: Negotiating a Contract (if the dispute involves a signed agreement)
-*The Majordomo says:* _A demand letter sounds like something a lawyer sends. It is not. A demand letter is a written statement that says: you owe me this, here is why, here is my evidence, and here is what I will do if you do not pay. Anyone can write one. Anyone can send one. The reason they work is not legal authority — it is that most people and businesses would rather settle than deal with what comes next. The letter itself is the leverage. A well-written demand letter resolves more disputes than small claims court because most defendants do the math and pay._
-*The spec:*
+*My Man Jeeves:* _It is a common misapprehension that a demand letter is an instrument requiring legal credentials to compose. It is not. A demand letter is, at bottom, a written statement conveying four particulars: that a sum is owed, the basis for the obligation, the evidence supporting it, and the course of action one intends to pursue should payment not be forthcoming. Any person may write one. Any person may send one. The efficacy of such a letter derives not from legal authority but from a subtler mechanism — most people and businesses, upon reflection, would rather settle than contend with what follows. The letter itself constitutes the leverage. One might note that a well-composed demand letter resolves more disputes than small claims court, for the simple reason that most defendants perform the arithmetic and pay. One's Agent can compose the letter._
+*The Spec:*
 ::: prompt
 I need to write a demand letter.
 The situation: [describe the dispute — what was promised,
@@ -127,7 +127,7 @@ Please draft a demand letter that is:
 4. Structured so it could be submitted as evidence if this
    goes to court
 :::
-*What to do with the output:* Print the letter on plain paper — no need for letterhead. Send it by certified mail with return receipt requested. This costs about $4 at the post office and gives you proof of delivery, which matters if you end up in court. Keep a copy. The return receipt is your evidence that they received it and the clock started on your deadline.
+*What to do with the Output:* Print the letter on plain paper — no need for letterhead. Send it by certified mail with return receipt requested. This costs about $4 at the post office and gives you proof of delivery, which matters if you end up in court. Keep a copy. The return receipt is your evidence that they received it and the clock started on your deadline.
 
 ::: tip
 The tone of a demand letter matters more than the legal language. Ask your Agent: _"Review this demand letter. Is any of it emotional, vague, or threatening? Rewrite those parts to be factual and specific."_ Judges read demand letters as evidence of your reasonableness. An angry letter hurts your case. A calm, documented one helps it.
@@ -141,8 +141,8 @@ The tone of a demand letter matters more than the legal language. Ask your Agent
 #### L-4: Navigating a Traffic Ticket
 *Strategy:* Navigate + Research
 *See also:* Tr-1: Car Ownership (tickets affect total cost of ownership), C-3: Knowing Your Rights During a Police Encounter (if the ticket involves a stop), L-2: Small Claims Court (if the ticket leads to a larger dispute)
-*The Majordomo says:* _Traffic tickets occupy an unusual place in American law. They are technically criminal citations. They carry fines that function as a regressive tax. They trigger insurance increases that cost more than the fine. And they come with a set of myths — "the officer has to show up or it's dismissed," "you can get it reduced just by asking" — that are sometimes true, sometimes false, and always jurisdiction-dependent. The billionaire pays the fine and the insurance increase without noticing. You notice. That is the difference this entry addresses._
-*The spec:*
+*My Man Jeeves:* _One observes that traffic tickets occupy a rather unusual position in American law. They are, technically, criminal citations. They carry fines that function, in practice, as a regressive tax. They trigger insurance increases that frequently exceed the fine itself. And they arrive accompanied by a collection of widely circulated beliefs — "the officer must appear or the matter is dismissed," "one may have it reduced simply by requesting" — which prove sometimes accurate, sometimes not, and invariably dependent upon the jurisdiction. A difficulty presents itself in the disparity of consequence: the billionaire pays the fine and the insurance increase without particular notice. The ordinary household notices a great deal. That distinction is what the following entry endeavors to address. One's Agent can research the options specific to one's jurisdiction and violation._
+*The Spec:*
 ::: prompt
 I got a traffic ticket.
 My state: [state]
@@ -167,7 +167,7 @@ Please:
 5. Be honest about whether fighting this is a good use of
    my time or whether I should just pay it
 :::
-*What to do with the output:* The most important number is not the fine — it is the insurance increase. A $150 ticket that adds $600 per year to your insurance for three years is an $1,950 ticket. Ask your Agent to calculate the total cost before you decide whether to pay or fight. If you decide to contest, your Agent can help you prepare, but show up on time, dressed respectfully, and with your evidence organized. Judges notice.
+*What to do with the Output:* The most important number is not the fine — it is the insurance increase. A $150 ticket that adds $600 per year to your insurance for three years is an $1,950 ticket. Ask your Agent to calculate the total cost before you decide whether to pay or fight. If you decide to contest, your Agent can help you prepare, but show up on time, dressed respectfully, and with your evidence organized. Judges notice.
 
 ::: meme
 Every sitcom has a traffic ticket episode. Seinfeld:S4E4 "The Ticket". _The Fresh Prince_'s driving test. The _King of Queens_ insurance spiral. They are funny because the system is absurd — a $90 fine that triggers a $400 insurance increase that triggers a conversation about whether you can afford the car at all. The sitcom resets at the end of the episode. Your insurance rate does not.

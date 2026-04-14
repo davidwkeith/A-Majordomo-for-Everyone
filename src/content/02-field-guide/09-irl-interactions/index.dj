@@ -15,8 +15,8 @@ _Your Agent can draft the letter, research the law, prepare the argument, and re
 #### IRL-1: Navigating Government Offices
 *Strategy:* Prepare + Navigate
 *See also:* C-7: Understanding Your Rights Where You Live, H-6: Understanding What Medicare or Medicaid Actually Covers
-*The Majordomo says:* _The DMV, the Social Security office, the county clerk, the courthouse, the unemployment office — these are the physical interfaces of government, and they are designed with the same attention to user experience as a 1997 website. The forms are available online but the answers are not. The hours are limited. The lines are long. The person behind the counter has heard your question four hundred times and may or may not have the authority to help you. Knowing what to bring, what to ask for, and what to say when the first answer is "no" is the difference between one visit and three._
-*The spec:*
+*My Man Jeeves:* _One might observe that the DMV, the Social Security office, the county clerk, the courthouse, and the unemployment office represent the physical interfaces of government — designed, it would appear, with the same attentiveness to the visitor's experience as a website of the 1997 vintage. The forms are available online, though the answers, regrettably, are not. The hours are limited. The queues are considerable. The individual behind the counter has fielded one's question some four hundred times previously and may or may not possess the authority to be of assistance. A difficulty presents itself: the distinction between a single visit and three lies entirely in knowing what to bring, what to request, and what to say when the initial response is "no." One's Agent can tell one all three before one walks in._
+*The Spec:*
 ::: prompt
 I need to go to [DMV / Social Security office / county clerk /
 courthouse / unemployment office / other government office]
@@ -33,7 +33,7 @@ Please help me:
    I'm missing a document / I need to come back / my request is denied]?
 5. Is there anything I can do online first to reduce the in-person time?
 :::
-*What to do with the output:* Print the document checklist. Bring everything. The single most common reason for a wasted government office visit is a missing document. The second most common is arriving at the wrong office. The third is not knowing that what you need can be done online. Your Agent can prevent all three.
+*What to do with the Output:* Print the document checklist. Bring everything. The single most common reason for a wasted government office visit is a missing document. The second most common is arriving at the wrong office. The third is not knowing that what you need can be done online. Your Agent can prevent all three.
 
 [dmv-queue-ticket]{.art}
 
@@ -56,8 +56,8 @@ Government services are distributed unequally by geography and funding. Wealthie
 #### IRL-2: Getting Help from Customer Service
 *Strategy:* Prepare + Assert
 *See also:* L-3: Writing a Demand Letter (when the call doesn't work), H-4: Appealing an Insurance Denial (same escalation technique)
-*The Majordomo says:* _Customer service is a system designed to resolve the cheapest complaints and exhaust the people with expensive ones. The first-tier representative is authorized to do approximately three things. The supervisor is authorized to do six. The retention department — which you reach only by saying specific words — can do considerably more. The system rewards people who know the escalation path. Your Agent knows the escalation path._
-*The spec:*
+*My Man Jeeves:* _It would not be inaccurate to characterize customer service as a system arranged to resolve the least costly complaints while gently exhausting those individuals whose difficulties prove more expensive. The first-tier representative is authorized to perform approximately three actions. The supervisor, perhaps six. The retention department — which one reaches only by employing certain specific phrases — is capable of considerably more. The architecture, one might note, rewards those who are familiar with the escalation path. Your Agent is familiar with the escalation path._
+*The Spec:*
 ::: prompt
 I need to resolve a problem with [company] about [issue:
 billing error, defective product, canceled service, denied claim,
@@ -77,7 +77,7 @@ Please help me:
 4. Tell me what to do if the call doesn't resolve it —
    next steps including regulatory complaints and dispute options
 :::
-*What to do with the output:* Call, don't chat. Phone representatives have more authority than chat agents. Be polite, be specific, be documented. Write down the representative's name and the call reference number. If the first call doesn't resolve it, ask your Agent to draft a written complaint — the paper trail is what makes the second call work.
+*What to do with the Output:* Call, don't chat. Phone representatives have more authority than chat agents. Be polite, be specific, be documented. Write down the representative's name and the call reference number. If the first call doesn't resolve it, ask your Agent to draft a written complaint — the paper trail is what makes the second call work.
 
 ::: tip
 _"I've been on hold for 30 minutes with [company]. While I wait, help me draft the most effective opening statement for when someone picks up. I have [issue] and I want [outcome]."_
@@ -98,8 +98,8 @@ _"I've been on hold for 30 minutes with [company]. While I wait, help me draft t
 #### IRL-3: First-Time Situations
 *Strategy:* Prepare + Research
 *See also:* Li-5: Planning Trips (same preparation pattern), H-2: Preparing Questions Before a Doctor's Appointment
-*The Majordomo says:* _There is a category of anxiety that has no clinical name but affects nearly everyone: the fear of not knowing how a place works. The first time you walk into a courtroom, a therapist's office, a car dealership, a parent-teacher conference, a funeral home, a real estate closing, a voting booth, a gym — you do not know where to stand, what to say first, what the unwritten rules are, or what everyone else seems to already know. This fear suppresses action. People delay doctor's appointments, skip voting, avoid the gym, and settle for less in negotiations because the unknown procedure is more frightening than the known bad outcome. Your Agent has been to all of these places. It can tell you exactly what to expect._
-*The spec:*
+*My Man Jeeves:* _There exists a variety of apprehension that has, to date, received no clinical designation, yet it would appear to affect nearly everyone: the discomfort of not knowing how a place operates. Upon entering a courtroom, a therapist's office, a car dealership, a parent-teacher conference, a funeral home, a real estate closing, a voting booth, or a gymnasium for the first time, one finds oneself uncertain where to stand, what to say initially, what the unwritten conventions are, or what everyone else seems already to know. This apprehension, one might observe, suppresses action. Individuals delay medical appointments, forgo voting, avoid the gymnasium, and accept less favorable terms in negotiations — the unknown procedure proving more daunting than the known unsatisfactory outcome. Your Agent, however, has attended all of these situations. It is in a position to describe precisely what to expect._
+*The Spec:*
 ::: prompt
 I am about to [go to / do / attend] [specific situation] for
 the first time and I don't know what to expect.
@@ -119,7 +119,7 @@ Please:
 Be specific. I want the "what will actually happen" version,
 not the official description.
 :::
-*What to do with the output:* Read it the night before. The preparation reduces anxiety not because it eliminates uncertainty — you will still encounter surprises — but because it reduces the _amount_ of uncertainty to a manageable level. Research on anticipatory anxiety (Grupe & Nitschke, 2013) consistently shows that intolerance of uncertainty is a better predictor of anxiety than the actual threat level of the situation.[^irl3-1]
+*What to do with the Output:* Read it the night before. The preparation reduces anxiety not because it eliminates uncertainty — you will still encounter surprises — but because it reduces the _amount_ of uncertainty to a manageable level. Research on anticipatory anxiety (Grupe & Nitschke, 2013) consistently shows that intolerance of uncertainty is a better predictor of anxiety than the actual threat level of the situation.[^irl3-1]
 
 ::: fairness
 First-time situations are class experiences. If your parents owned a home, you learned the closing process by osmosis. If they didn't, your first closing is a wall of unfamiliar paperwork with a stranger asking you to sign thirty documents. The information gap is not about intelligence — it is about what your household of origin happened to model for you. Your Agent closes that gap.

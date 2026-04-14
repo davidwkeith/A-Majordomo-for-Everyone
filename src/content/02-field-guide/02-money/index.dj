@@ -20,8 +20,8 @@ The [Conners](https://en.wikipedia.org/wiki/Roseanne%5F(TV%5Fseries)) were never
 #### M-1: Banking and Savings
 *Strategy:* Research + Decide
 *See also:* M-2: Credit Cards and Debt (for credit products), Li-9: Making a Household Budget That Holds
-*The Majordomo says:* _The average American pays $7 to $12 per month in bank fees — maintenance fees, overdraft fees, minimum balance fees, ATM fees — for the privilege of having a place to put money that the bank then lends out at a multiple. This is considered normal. Credit unions, online banks, and high-yield savings accounts exist as alternatives. Most people stay with the bank they opened their first account at, which is the financial equivalent of eating at the first restaurant you ever visited for the rest of your life._
-*The spec:*
+*My Man Jeeves:* _One might observe that the average American pays $7 to $12 per month in bank fees — maintenance fees, overdraft fees, minimum balance fees, ATM fees — for the privilege of depositing money that the bank then lends out at a considerable multiple. That this arrangement is considered normal would appear to be a triumph of institutional inertia over arithmetic. Credit unions, online banks, and high-yield savings accounts present themselves as alternatives, and yet most individuals remain with the bank at which they opened their first account — a loyalty that, if one may say so, rather resembles dining at the first restaurant one ever visited for the remainder of one's life. One's Agent can compare the alternatives in approximately the time it takes the bank to charge the next fee._
+*The Spec:*
 ::: prompt
 I want to make sure my banking setup is actually working for me.
 My situation:
@@ -39,7 +39,7 @@ Please help me:
 4. Set up a system: which accounts should I have, what goes where,
    and how do I automate it so I don't think about it?
 :::
-*What to do with the output:* If you are paying monthly maintenance fees, switch. This is not complicated and it is not disloyal. Your bank is not your friend — it is a business. A credit union is a cooperative owned by its members, which means its incentives are structurally different from a for-profit bank. Online banks (Ally, Marcus, Discover) offer higher interest rates because they have no branches to maintain. The right answer depends on what you need: if you deposit cash regularly, you need a branch. If you don't, you probably don't need a big bank.
+*What to do with the Output:* If you are paying monthly maintenance fees, switch. This is not complicated and it is not disloyal. Your bank is not your friend — it is a business. A credit union is a cooperative owned by its members, which means its incentives are structurally different from a for-profit bank. Online banks (Ally, Marcus, Discover) offer higher interest rates because they have no branches to maintain. The right answer depends on what you need: if you deposit cash regularly, you need a branch. If you don't, you probably don't need a big bank.
 
 ::: tip
 _"I keep getting overdraft fees. My bank charges $35 per overdraft. What are my options — banks with no overdraft fees, overdraft protection, or a different approach entirely?"_
@@ -70,8 +70,8 @@ Mint shut down in March 2024 — if you were one of its millions of users, you a
 #### M-2: Credit Cards and Debt
 *Strategy:* Decode + Assert
 *See also:* M-1: Banking and Savings, M-4: Collections and Bankruptcy (when debt goes wrong)
-*The Majordomo says:* _Credit card statements are designed to show you the minimum payment prominently and the total interest you will pay over time in a font size calibrated to discourage calculation. A credit card at 24.99% APR — the current average — turns a $5,000 balance into $7,800 over three years if you pay only the minimum. The card was marketed to you as convenience. It was designed as a revenue instrument. Understanding the difference is the first step. Disputing the errors is the second._
-*The spec:*
+*My Man Jeeves:* _It would appear that credit card statements have been arranged so as to display the minimum payment with some prominence while relegating the total interest one will pay over time to a typeface calibrated, one suspects, to discourage closer inspection. A card at 24.99% APR — the current average — transforms a $5,000 balance, at minimum payments, into a repayment spanning decades and costing thousands in interest. The instrument was marketed as a convenience. It was designed as a revenue mechanism. Appreciating the distinction between these two propositions is the first step. Disputing the errors is the second. One's Agent is prepared to assist with both._
+*The Spec:*
 ::: prompt
 I want to understand and manage my credit card and debt situation.
 My situation:
@@ -91,7 +91,7 @@ Please help me:
 4. Tell me my rights — what creditors can and cannot do,
    what I can negotiate, and what protections exist
 :::
-*What to do with the output:* If you have a charge you do not recognize, dispute it immediately — you have 60 days under the Fair Credit Billing Act. Call the number on the back of the card, not a number from an email. For debt payoff: the avalanche method (highest interest rate first) saves the most money. The snowball method (smallest balance first) builds momentum. The research slightly favors snowball for completion rates because the psychology of small wins matters more than the math of optimal interest.[^m2-1]
+*What to do with the Output:* If you have a charge you do not recognize, dispute it immediately — you have 60 days under the Fair Credit Billing Act. Call the number on the back of the card, not a number from an email. For debt payoff: the avalanche method (highest interest rate first) saves the most money. The snowball method (smallest balance first) builds momentum. The research slightly favors snowball for completion rates because the psychology of small wins matters more than the math of optimal interest.[^m2-1]
 
 ::: science
 The average American household carries approximately $10,000 in credit card debt at an average APR of 24.99% (Federal Reserve, 2024). The minimum payment is typically calculated as 1-2% of the balance plus interest — a formula designed to maximize the total interest paid over the life of the debt. At minimum payments, a $10,000 balance at 25% APR takes over 30 years to pay off and costs approximately $22,000 in total.[^m2-2]
@@ -130,8 +130,8 @@ Paste or upload your credit card statement directly — file upload works in Cla
 #### M-3: Mortgages
 *Strategy:* Decode + Decide
 *See also:* L-1: Negotiating a Contract (for the purchase agreement), Ho-6: Getting a Home, M-6: Financial Coach
-*The Majordomo says:* _The word "mortgage" comes from the Old French mort gage — literally "death pledge." The name has survived because it is accurate: you are pledging a significant portion of your future income, for decades, on terms the bank sets and you sign. The bank knows the rate environment, the property valuation methodology, the insurance requirements, the tax escrow math, and the seventeen fees buried in the closing disclosure. You know that you want the house. Your Agent can read the closing disclosure the way the bank's attorney reads it — which means you can negotiate the way the bank's attorney negotiates._
-*The spec:*
+*My Man Jeeves:* _The word "mortgage" derives from the Old French mort gage — literally "death pledge." The name has endured, one imagines, because it is not inaccurate: one is pledging a considerable portion of one's future income, for decades, on terms the bank establishes and one signs. The bank is conversant with the rate environment, the property valuation methodology, the insurance requirements, the tax escrow mathematics, and the seventeen fees interred within the closing disclosure. The borrower, by contrast, knows principally that one desires the house. An Agent, however, is capable of reading the closing disclosure in the manner the bank's attorney reads it — which is to say, one may then negotiate in the manner the bank's attorney negotiates._
+*The Spec:*
 ::: prompt
 I am [thinking about buying / in the process of buying / refinancing]
 a home.
@@ -153,7 +153,7 @@ Please help me:
 4. Identify what's negotiable in the process and what isn't
 5. Tell me the three most expensive mistakes first-time buyers make
 :::
-*What to do with the output:* The bank will approve you for more than you should borrow. The general guideline — total housing cost under 28% of gross income — is a ceiling, not a target. Ask your Agent to calculate the full monthly cost including taxes, insurance, PMI, and a maintenance reserve (1-2% of home value per year). That is the real number. If it makes you uncomfortable, listen to the discomfort — it is doing math your optimism is not.
+*What to do with the Output:* The bank will approve you for more than you should borrow. The general guideline — total housing cost under 28% of gross income — is a ceiling, not a target. Ask your Agent to calculate the full monthly cost including taxes, insurance, PMI, and a maintenance reserve (1-2% of home value per year). That is the real number. If it makes you uncomfortable, listen to the discomfort — it is doing math your optimism is not.
 
 ::: science
 The 2008 financial crisis was, at its core, a mortgage information asymmetry on a systemic scale — lenders knew the risk of the loans they were packaging, borrowers did not, and the rating agencies that were supposed to bridge the gap were paid by the lenders. The Dodd-Frank Act and CFPB were created in response. The CFPB's Loan Estimate and Closing Disclosure forms are designed to make mortgage terms comparable and readable. They are better than what existed before. They are still not simple.[^m3-1]
@@ -197,8 +197,8 @@ Paste or upload your document directly — file upload works in Claude, Gemini, 
 #### M-4: Collections and Bankruptcy
 *Strategy:* Assert + Decode
 *See also:* L-3: Writing a Demand Letter, M-2: Credit Cards and Debt, H-6: Understanding What Medicare or Medicaid Actually Covers (medical debt is the leading cause of bankruptcy)
-*The Majordomo says:* _Debt collection is an industry built on the assumption that you do not know your rights. A collector who calls you has purchased your debt for pennies on the dollar and is now attempting to recover the full amount plus fees. The Fair Debt Collection Practices Act exists to regulate this interaction. Most people in collections have never heard of it. That is not accidental — the business model depends on the information gap. Your Agent has read the FDCPA. You should too._
-*The spec:*
+*My Man Jeeves:* _The debt collection industry, if one may characterize it plainly, is constructed upon the assumption that the person receiving the telephone call is unaware of the protections available to them. A collector who rings has, in the ordinary course of events, purchased the debt for pennies on the dollar and is now endeavoring to recover the full amount plus fees. The Fair Debt Collection Practices Act exists to regulate this interaction. That most people in collections have never encountered it is not, one ventures to suggest, accidental — the business model depends rather entirely upon the information gap. An Agent has read the FDCPA. One would recommend doing so oneself as well._
+*The Spec:*
 ::: prompt
 I am dealing with [debt in collections / considering bankruptcy /
 being contacted by collectors / unsure of my options].
@@ -222,7 +222,7 @@ Please help me:
 Give me the most conservative, legally accurate answer.
 I will verify with a consumer rights attorney.
 :::
-*What to do with the output:* If a collector calls you, say this: _"Send me a written validation of the debt."_ Under the FDCPA, they must stop collection activity until they provide written verification. This is not a negotiation tactic. It is a legal right. Write down the date, time, caller name, and company for every call. If they violate the FDCPA (calling before 8 AM, calling your workplace after you told them not to, threatening actions they cannot take), you can sue them — and the FDCPA provides for statutory damages of up to $1,000 per violation plus attorney's fees.
+*What to do with the Output:* If a collector calls you, say this: _"Send me a written validation of the debt."_ Under the FDCPA, they must stop collection activity until they provide written verification. This is not a negotiation tactic. It is a legal right. Write down the date, time, caller name, and company for every call. If they violate the FDCPA (calling before 8 AM, calling your workplace after you told them not to, threatening actions they cannot take), you can sue them — and the FDCPA provides for statutory damages of up to $1,000 per violation plus attorney's fees.
 
 ::: science
 Medical debt is the leading cause of bankruptcy filings in the United States — a finding so consistent across studies that it has survived multiple methodological challenges. Himmelstein et al. (2019) found that approximately 530,000 families per year file bankruptcy citing medical bills. The three major credit bureaus (Equifax, Experian, TransUnion) removed medical debt under $500 from credit reports in 2023, and the CFPB has proposed removing all medical debt from credit reports.[^m4-1]
@@ -261,8 +261,8 @@ Paste or upload your document directly — file upload works in Claude, Gemini, 
 #### M-5: Retirement and Investing
 *Strategy:* Research + Decide
 *See also:* M-6: Financial Coach, H-6: Understanding What Medicare or Medicaid Actually Covers, Li-4: Planning Care for Aging
-*The Majordomo says:* _The retirement system in the United States transferred the risk of retirement from employers to individuals in a single generation. Your parents may have had a pension — a defined benefit that guaranteed income for life. You have a 401(k) — a defined contribution that guarantees nothing except that you bear the investment risk, the longevity risk, and the fee structure. The financial services industry makes approximately $400 billion per year in fees managing Americans' retirement savings. Your Agent does not charge a fee and has read the same research the fee-charging advisors cite._
-*The spec:*
+*My Man Jeeves:* _One might note that the retirement system in the United States transferred the risk of retirement from employers to individuals in a single generation. One's parents may have enjoyed a pension — a defined benefit that guaranteed income for life. One now has, in its place, a 401(k) — a defined contribution that guarantees nothing beyond the certainty that one bears the investment risk, the longevity risk, and the fee structure. The financial services industry collects in excess of $100 billion per year in fees for the management of Americans' retirement savings.[^m5-5] An Agent, it is perhaps worth observing, charges no fee whatever and has read the same research the fee-charging advisors cite._
+*The Spec:*
 ::: prompt
 I want to understand and improve my retirement situation.
 My situation:
@@ -291,7 +291,7 @@ Please help me:
 5. What are the biggest mistakes people my age make with
    retirement planning?
 :::
-*What to do with the output:* If your employer offers a 401(k) match and you are not contributing enough to get the full match, fix that this week. It is a 50-100% guaranteed return on your money — there is no investment on Earth that competes with it. After that, the priority order is generally: full employer match → high-interest debt payoff → Roth IRA (if eligible) → max 401(k) → taxable brokerage. Your Agent can customize this for your situation.
+*What to do with the Output:* If your employer offers a 401(k) match and you are not contributing enough to get the full match, fix that this week. It is a 50-100% guaranteed return on your money — there is no investment on Earth that competes with it. After that, the priority order is generally: full employer match → high-interest debt payoff → Roth IRA (if eligible) → max 401(k) → taxable brokerage. Your Agent can customize this for your situation.
 
 ::: science
 Index funds — which track the entire market rather than trying to beat it — outperform actively managed funds over 15-year periods approximately 90% of the time (S&P SPIVA Scorecard, annual). The fees are the primary reason: the average actively managed fund charges 0.5-1.0% per year; a total market index fund charges 0.03-0.10%. Over a career, the fee difference alone can cost hundreds of thousands of dollars.[^m5-1]
@@ -333,13 +333,15 @@ Americans lost $5.7 billion to investment scams in 2024 (FTC) — more than any 
 
 [^m5-2]: Buffett, W.E. (2017). Berkshire Hathaway Annual Letter to Shareholders. The bet, made in 2007, was against Protégé Partners' selection of hedge funds.
 
+[^m5-5]: McKinsey & Company. (2024). "North American Asset Management in 2030." The figure covers US defined-contribution plan and IRA fee revenue.
+
 ---
 
 #### M-6: Financial Coach
 *Strategy:* Decide + Research (Expert Role)
 *See also:* Li-9: Making a Household Budget That Holds, M-1: Banking and Savings
-*The Majordomo says:* _A fee-only financial advisor charges $200 to $400 per hour and is most useful when you have significant assets to manage. For the financial questions that most people actually have — is this debt worth paying off early, should I keep this money in a savings account or somewhere else, does this insurance make sense, am I being ripped off — your Agent covers the ground at no cost. The key phrase is "fee-only": an advisor who earns commissions on the products they recommend has a structural conflict of interest that no amount of good faith can eliminate._
-*The spec:*
+*My Man Jeeves:* _A fee-only financial advisor charges $200 to $400 per hour and is of greatest utility when one has significant assets requiring management. For the financial questions that most people actually possess — whether a debt merits early repayment, whether savings are optimally situated, whether an insurance policy represents sound value, whether one is, to put the matter delicately, being overcharged — an Agent covers the ground at no cost. The operative phrase is "fee-only": an advisor who earns commissions on the products they recommend labors under a structural conflict of interest that no quantity of good faith can altogether eliminate._
+*The Spec:*
 ::: prompt
 Act as a fee-only financial coach with no products to sell.
 My situation: [brief description of income, debts, savings, goals]
@@ -348,7 +350,7 @@ My concern: [what you're worried about getting wrong]
 Please give me the honest analysis, including what you'd
 want to know more about before giving a final recommendation.
 :::
-*What to do with the output:* For any financial decision over $1,000, ask the calibration question: _"How confident are you in this recommendation, and what should I verify with a professional?"_ Your Agent is good at explaining options and running numbers. It is not a fiduciary — it has no legal obligation to act in your interest. A fee-only CFP (Certified Financial Planner) does. For complex situations — estate planning, tax optimization, business finances — the cost of a professional consultation is almost always worth it.
+*What to do with the Output:* For any financial decision over $1,000, ask the calibration question: _"How confident are you in this recommendation, and what should I verify with a professional?"_ Your Agent is good at explaining options and running numbers. It is not a fiduciary — it has no legal obligation to act in your interest. A fee-only CFP (Certified Financial Planner) does. For complex situations — estate planning, tax optimization, business finances — the cost of a professional consultation is almost always worth it.
 
 *Common financial Expert Role specs:*
 ::: prompt

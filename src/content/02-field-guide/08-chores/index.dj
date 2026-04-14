@@ -15,8 +15,8 @@ _The domestic labor that keeps a household running — shopping, cooking, cleani
 #### Ch-1: Shopping Your Values
 *Strategy:* Research + Decide
 *See also:* Ch-5: Cooking and Culinary Skills (for what to do with what you bought), Ho-3: Right-to-Repair (for durable goods), H-8: Wellness and Nutrition Coach (for dietary needs)
-*The Majordomo says:* _Every purchase is a small policy decision made under time pressure with inadequate information. The difference between "free range" and "cage-free" eggs is a regulatory distinction that costs you $2 per dozen and an hour of research to verify. The difference between a $40 toaster that lasts two years and a $90 toaster that lasts fifteen is invisible at point of sale and obvious in retrospect. The billionaire class has people who handle procurement --- sourcing by quality, ethics, durability, and price in whatever combination the household prefers. You have a label, a search engine optimized for ad revenue, and eleven minutes before the store closes. Your Agent can evaluate all four dimensions simultaneously, without a sponsored result in the mix._
-*The spec:*
+*My Man Jeeves:* _One might observe that every purchase constitutes a small policy decision, conducted under time pressure with information that is, at best, inadequate. The distinction between "free range" and "cage-free" eggs, for instance, is a regulatory matter that costs the consumer $2 per dozen and approximately an hour of research to verify --- a ratio that would give any reasonable person pause. The difference between a $40 toaster that expires in two years and a $90 toaster that endures for fifteen is, regrettably, invisible at point of sale and conspicuous only in retrospect. In well-staffed households, procurement is handled by persons who source by quality, ethics, durability, and price in whatever combination the household prefers. The remainder of the population is furnished with a label, a search engine optimized for advertising revenue, and eleven minutes before the shop closes. It may be worth noting that one's Agent is capable of evaluating all four dimensions simultaneously, unencumbered by sponsored results._
+*The Spec:*
 ::: prompt
 I need to buy [product or grocery item].
 My priorities, in order: [rank these or remove ones you
@@ -36,7 +36,7 @@ Please:
 4. If my priorities conflict (e.g., ethical + cheapest),
    show me the tradeoff honestly
 :::
-*What to do with the output:* Start with one category you buy regularly --- eggs, coffee, cleaning supplies, whatever you spend the most on without thinking. Run it through your Agent once. The research compounds: once you know which brands align with your values, the weekly shop gets faster, not slower.
+*What to do with the Output:* Start with one category you buy regularly --- eggs, coffee, cleaning supplies, whatever you spend the most on without thinking. Run it through your Agent once. The research compounds: once you know which brands align with your values, the weekly shop gets faster, not slower.
 
 ::: tip
 Take a photo of the grocery aisle shelf or the product label and send it to your Agent. Ask: _"Which of these options best fits [your priorities]? What do these certifications actually guarantee?"_ This works in the store, in real time, on your phone.
@@ -58,8 +58,8 @@ Take a photo of the grocery aisle shelf or the product label and send it to your
 #### Ch-2: Understanding a Contractor Bid
 *Strategy:* Decode + Research
 *See also:* L-1: Negotiating a Contract (the bid becomes a contract), Ho-2: Home Repair and DIY (should you even hire someone?), Ho-1: Maintaining Your Home (for diagnosing the problem first)
-*The Majordomo says:* _A contractor bid is a document that assumes you know what you are looking at. It lists materials you cannot evaluate, labor rates you cannot benchmark, and timelines you cannot verify, then asks you to sign at the bottom. The contractor has written hundreds of bids. You have read perhaps three in your life, all for different trades, none of which prepared you for this one. This information asymmetry is not malice --- most contractors are honest --- but it means that the honest contractor and the dishonest one hand you the same-looking piece of paper, and you have no way to tell the difference without doing the research. Your Agent has read thousands of bids and knows what each line item should cost in your area._
-*The spec:*
+*My Man Jeeves:* _A contractor bid is a document that proceeds on the assumption that one knows what one is looking at. It enumerates materials one cannot evaluate, labor rates one cannot benchmark, and timelines one cannot verify, then requests a signature at the bottom. The contractor, one might note, has composed hundreds of such documents. The homeowner has perhaps encountered three in a lifetime, all for different trades, none of which adequately prepared one for the present specimen. This asymmetry is not, in the main, a matter of dishonesty --- the majority of contractors are perfectly reputable --- but it does present a difficulty: the honest tradesman and the dishonest one produce documents of remarkably similar appearance, and distinguishing between the two requires research that most households have neither the time nor the background to conduct. One's Agent, having reviewed thousands of such bids, is rather better positioned to assess what each line item ought to cost in one's area._
+*The Spec:*
 ::: prompt
 I received a contractor bid. [Paste the bid text, or describe
 the line items and totals.]
@@ -78,7 +78,7 @@ Please:
 5. If this is a "fast, cheap, or done right — pick two"
    situation, which two is this bid optimizing for?
 :::
-*What to do with the output:* Get at least two more bids for comparison --- your Agent can tell you what to ask for to make the bids comparable. The lowest bid is not the best bid. The bid that accounts for the most contingencies usually is. Before signing, read the bid with L-1: Negotiating a Contract --- once you sign, the bid becomes the contract.
+*What to do with the Output:* Get at least two more bids for comparison --- your Agent can tell you what to ask for to make the bids comparable. The lowest bid is not the best bid. The bid that accounts for the most contingencies usually is. Before signing, read the bid with L-1: Negotiating a Contract --- once you sign, the bid becomes the contract.
 
 [annotated-contractor-bid]{.art}
 
@@ -111,8 +111,8 @@ Ask your Agent to review any design PDFs or architectural drawings attached to t
 #### Ch-3: Identifying and Caring for House Plants
 *Strategy:* Diagnose + Research (Expert Role)
 *See also:* Ho-7: Gardening & Landscaping (for outdoor plants), Ch-1: Shopping Your Values (before buying the next one)
-*The Majordomo says:* _The houseplant industrial complex sells you a living thing with a plastic tag that says "bright indirect light" and "water when dry" --- instructions so vague they could apply to a cactus or a fern, two organisms with opposite survival requirements. The plant then dies, and you conclude you lack a green thumb, which is a character trait the plant care industry invented to explain away the fact that they sold you a tropical understory species and told you nothing about it. The billionaire's interior landscaper knows the species, the light requirements, the humidity range, and the watering schedule. Your Agent knows the same things and can identify the plant from a photo._
-*The spec:*
+*My Man Jeeves:* _It would appear that the houseplant industry sells one a living organism accompanied by a plastic tag reading "bright indirect light" and "water when dry" --- instructions of such imprecision that they might apply equally to a cactus or a fern, two species whose survival requirements are, if one may say so, diametrically opposed. The plant then expires, and the owner arrives at the conclusion that they lack a "green thumb," which is a character trait the horticultural trade appears to have invented to account for the fact that they sold one a tropical understory species and disclosed nothing material about it. An interior landscaper in a properly staffed household would know the species, the light requirements, the humidity range, and the watering schedule. One's Agent possesses the same knowledge and is, moreover, capable of identifying the plant from a photograph._
+*The Spec:*
 ::: prompt
 Act as an experienced indoor plant specialist.
 Here is my situation:
@@ -137,7 +137,7 @@ Please:
 4. Tell me the one thing most people get wrong with this
    species
 :::
-*What to do with the output:* Change one variable at a time and wait two weeks before concluding it didn't work. Plants respond slowly. If the diagnosis is "too much water," your job is to resist watering for longer than feels comfortable. Most houseplants are killed by overwatering, not neglect.
+*What to do with the Output:* Change one variable at a time and wait two weeks before concluding it didn't work. Plants respond slowly. If the diagnosis is "too much water," your job is to resist watering for longer than feels comfortable. Most houseplants are killed by overwatering, not neglect.
 
 ::: tip
 Send a photo. Your Agent can identify most common houseplants from a clear photo of the leaves and growth habit. Include a photo of the problem area --- the yellowing leaf, the brown tips, the white residue on the soil. Visual diagnosis is dramatically more accurate than text description for plants.
@@ -164,8 +164,8 @@ To make this Expert Role persistent across sessions, save it as a *Project* (Cla
 #### Ch-4: Dog Training
 *Strategy:* Diagnose + Navigate (Expert Role)
 *See also:* Ho-4: Knowing Your Rights as a Renter or Homeowner (for pet-related housing rules)
-*The Majordomo says:* _Dog trainers charge $50 to $150 per session and are, in most cases, unregulated. The evidence base for dog training has shifted substantially in the last twenty years toward positive reinforcement methods, a fact that has not fully reached all practitioners charging $150 per session. Your Agent has read the current research._
-*The spec:*
+*My Man Jeeves:* _One observes that dog trainers charge between $75 and $250 per session and are, in the majority of cases, entirely unregulated. The evidence base for canine training has, over the past twenty years, shifted rather substantially toward positive reinforcement methods --- a development that has not, it would appear, fully reached all practitioners commanding $150 per session. One's Agent, having reviewed the current research, is in a position to bridge this gap._
+*The Spec:*
 ::: prompt
 Act as a certified positive-reinforcement dog trainer.
 My dog: [breed or mix, age, how long I've had them]
@@ -176,7 +176,7 @@ What I've tried: [if anything]
 My goal: [stop the behavior / redirect it / understand it]
 What is likely causing this, and what's the training approach?
 :::
-*What to do with the output:* Dog training requires consistency across everyone in the household. Before starting any training protocol your Agent suggests, read it through with everyone who interacts with the dog. Inconsistency is the primary reason training doesn't work. Print the protocol and put it on the fridge.
+*What to do with the Output:* Dog training requires consistency across everyone in the household. Before starting any training protocol your Agent suggests, read it through with everyone who interacts with the dog. Inconsistency is the primary reason training doesn't work. Print the protocol and put it on the fridge.
 
 ::: tip
 Describe the behavior from the dog's perspective, not just yours. "She destroys things when I leave" tells your Agent less than "she destroys things within the first 20 minutes after I leave, specifically near the door." Specificity is the whole game.
@@ -213,8 +213,8 @@ To make this Expert Role persistent across sessions, save it as a *Project* (Cla
 #### Ch-5: Cooking and Culinary Skills
 *Strategy:* Research + Diagnose (Expert Role)
 *See also:* Ch-1: Shopping Your Values (for sourcing ingredients), H-8: Wellness and Nutrition Coach (for dietary guidance)
-*The Majordomo says:* _Culinary school costs between $20,000 and $100,000. The core knowledge it transmits -- why things cook the way they do, how to fix a dish that's going wrong, what substitution works and why -- is well documented and has been explained in detail by every food science writer since [Harold McGee](https://en.wikipedia.org/wiki/Harold%5FMcGee). Your Agent has read Harold McGee._
-*The spec:*
+*My Man Jeeves:* _Culinary school, one might note, costs between $20,000 and $100,000. The core knowledge it transmits -- the reasons things cook as they do, the method of correcting a dish that has gone astray, which substitutions succeed and on what principle -- is thoroughly documented and has been set forth in considerable detail by every food science writer since [Harold McGee](https://en.wikipedia.org/wiki/Harold%5FMcGee). One's Agent has read Harold McGee._
+*The Spec:*
 ::: prompt
 Act as a culinary instructor.
 The dish or technique I'm working on: [describe]
@@ -236,7 +236,7 @@ too salty / rubbery / bland / fell apart / didn't set].
 What went wrong and how do I fix it -- or if it's too late to fix,
 how do I prevent it next time?
 :::
-*What to do with the output:* Follow the technique once exactly as described before adjusting. Cooking is chemistry — changing two variables at once means you will never know which one mattered. Keep a notes file on your phone for what worked and what did not.
+*What to do with the Output:* Follow the technique once exactly as described before adjusting. Cooking is chemistry — changing two variables at once means you will never know which one mattered. Keep a notes file on your phone for what worked and what did not.
 
 ::: also
 To make this Expert Role persistent across sessions, save it as a *Project* (Claude), *Gem* (Gemini), or *Custom GPT* (ChatGPT). See [Appendix G](06-appendix-g-feature-table.xhtml).
@@ -253,8 +253,8 @@ To make this Expert Role persistent across sessions, save it as a *Project* (Cla
 #### Ch-6: Optimizing Manual Chores
 *Strategy:* Diagnose + Navigate (Expert Role)
 *See also:* Ho-1: Maintaining Your Home (for home systems maintenance), H-8: Wellness and Nutrition Coach (when physical limitations affect chore capacity)
-*The Majordomo says:* _Domestic labor is the only category of work that is simultaneously essential, unpaid, invisible, and expected to organize itself. A factory with the same number of recurring tasks --- laundry, dishes, floors, surfaces, bathrooms, trash, meals, groceries --- would have a process engineer, a schedule, and a workflow. A household has one person who noticed the bathroom needed cleaning and two people who didn't, plus a vague mutual agreement that "we should be better about this" that has never once produced a system. The billionaire class has household staff with task lists, schedules, and supply inventories. Your Agent can build the same system for the staff you actually have, which is you._
-*The spec:*
+*My Man Jeeves:* _Domestic labor presents itself as perhaps the only category of work that is simultaneously essential, unpaid, invisible, and expected to organize itself. A factory managing the same number of recurring tasks --- laundry, dishes, floors, surfaces, bathrooms, refuse, meals, groceries --- would employ a process engineer, maintain a schedule, and follow a workflow. A household, by contrast, has one person who noticed the bathroom required attention and two who did not, together with a vague mutual understanding that "we should be better about this" --- an understanding that has not, in recorded history, produced a system. In a properly staffed household, one finds task lists, schedules, and supply inventories. One's Agent is capable of constructing the same infrastructure for the staff one actually has, which is to say, oneself._
+*The Spec:*
 ::: prompt
 Act as a household operations consultant.
 My household: [how many people, ages, any mobility or
@@ -281,7 +281,7 @@ Please:
 4. Flag where the household friction is likely coming from
    and suggest a system, not a conversation
 :::
-*What to do with the output:* Print the schedule or put it on a shared digital calendar. The system only works if everyone in the household can see it. Run it for two weeks before adjusting --- most chore systems fail because they get revised after three days, before anyone has had a chance to build the habit.
+*What to do with the Output:* Print the schedule or put it on a shared digital calendar. The system only works if everyone in the household can see it. Run it for two weeks before adjusting --- most chore systems fail because they get revised after three days, before anyone has had a chance to build the habit.
 
 ::: science
 Occupational therapists have studied household task optimization for decades, primarily for clients with physical or cognitive limitations. Their findings apply to everyone: batching similar tasks reduces transition time, fixed schedules reduce decision fatigue, and "clean as you go" systems outperform "cleaning day" systems for maintaining baseline tidiness. The research consistently shows that the obstacle to a clean house is not motivation --- it is the absence of a system that works with your actual energy and schedule.[^ch6-1]

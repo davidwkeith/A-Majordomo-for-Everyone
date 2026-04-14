@@ -20,8 +20,8 @@ _There is a political movement to Make America Healthy Again. This book is not a
 #### H-1: Understanding a Diagnosis You Just Received
 *Strategy:* Decode
 *See also:* H-2: Preparing Questions (for your next appointment), H-5: Managing a Chronic Condition (if it's ongoing)
-*The Majordomo says:* _Medical diagnoses are delivered in a language that evolved over several centuries to communicate with precision between specialists, with the result that they communicate with almost no precision to anyone else. The patient, having just received significant news about their own body, is also typically in a neurological state that reduces information retention by approximately half. This is considered an acceptable outcome by the system._
-*The spec:*
+*My Man Jeeves:* _The language of medical diagnosis has evolved over several centuries with the commendable aim of precision between specialists — a precision that, one might observe, extends rather less reliably to the patient. The individual in question, having just received news of some consequence regarding their own person, is moreover in a neurological state that research suggests reduces information retention by approximately half. The medical system appears to regard this arrangement as satisfactory. One's Agent, it may be observed, is rather more patient with questions than the seven-minute appointment permits._
+*The Spec:*
 ::: prompt
 My doctor just told me I have [diagnosis]. I don't fully understand
 what this means. Please explain in plain language:
@@ -31,29 +31,29 @@ what this means. Please explain in plain language:
 4. What questions I should ask at my next appointment
 Do not assume any medical knowledge on my part.
 :::
-*What to do with the output:* Use it to make your question list before the next appointment (see H-2). Do not use it to second-guess your doctor's treatment recommendation — use it to understand it. For ongoing conditions, see also H-5: Managing a Chronic Condition and H-8: Wellness and Nutrition Coach.
+*What to do with the Output:* Use it to make your question list before the next appointment (see H-2). Do not use it to second-guess your doctor's treatment recommendation — use it to understand it. For ongoing conditions, see also H-5: Managing a Chronic Condition and H-8: Wellness and Nutrition Coach.
 
 ---
 
 #### H-2: Preparing Questions Before a Doctor's Appointment
 *Strategy:* Prepare
 *See also:* H-1: Understanding a Diagnosis (if you just received one), H-5: Managing a Chronic Condition (for ongoing questions)
-*The Majordomo says:* _Studies across multiple medical systems confirm that patients who arrive with written questions receive more information, report higher satisfaction, and make better-informed decisions than those who do not. The medical system has not adjusted its appointment length to accommodate this finding._
-*The spec:*
+*My Man Jeeves:* _Research across multiple medical systems has established, with some consistency, that patients who arrive with written questions receive more information, report higher satisfaction, and reach better-informed decisions than those who do not. It is perhaps worth noting that the medical system has not seen fit to adjust its appointment length to accommodate this finding. One's Agent, however, is tolerably well suited to assist in composing the list._
+*The Spec:*
 ::: prompt
 I have an appointment with [specialist type] on [date] about [condition
 or concern]. My main worry is [specific concern]. I want to make sure
 I understand [specific thing]. Please help me write a list of questions
 to ask, starting with the most important. I have about [X] minutes.
 :::
-*What to do with the output:* Print the list. Bring it to the appointment. Hand it to the doctor at the start — "I wrote down my questions so I don't forget." This saves both of you time and signals that you are an active participant, not a passive recipient.
+*What to do with the Output:* Print the list. Bring it to the appointment. Hand it to the doctor at the start — "I wrote down my questions so I don't forget." This saves both of you time and signals that you are an active participant, not a passive recipient.
 
 ::: also
 This works well with voice mode on your phone — all major tools support it on mobile. See [Appendix G](06-appendix-g-feature-table.xhtml).
 :::
 
 
-*Science note:* Preparatory coping research (Roter et al., 1987) shows the benefit concentrates in the act of writing -- not just thinking -- the questions.[^h2-1]
+*Science Note:* Preparatory coping research (Roter et al., 1987) shows the benefit concentrates in the act of writing -- not just thinking -- the questions.[^h2-1]
 
 [^h2-1]: Roter, D.L. (1987). "Which facets of communication have strong effects on outcome?" in _Communicating with Medical Patients._
 
@@ -62,8 +62,8 @@ This works well with voice mode on your phone — all major tools support it on 
 #### H-3: Decoding a Medical Bill or EOB
 *Strategy:* Decode
 *See also:* H-4: Appealing an Insurance Denial (if something looks wrong), M-4: Collections and Bankruptcy (if the bill becomes debt)
-*The Majordomo says:* _The Explanation of Benefits is a document designed to explain your benefits. It does not do this. It lists procedure codes, allowed amounts, adjustments, and patient responsibility in a format that rewards confusion. The confusion is not accidental._
-*The spec:*
+*My Man Jeeves:* _The Explanation of Benefits is, in principle, a document intended to explain one's benefits — a purpose it fulfills, one might venture, with considerable incompleteness. It presents procedure codes, allowed amounts, adjustments, and patient responsibility in a format that rather generously rewards confusion. One would not wish to suggest that the confusion is by design, though the alternative explanation requires a degree of charitable interpretation. One's Agent has read every code on the form and is prepared to translate._
+*The Spec:*
 ::: prompt
 I received this medical bill / Explanation of Benefits and I don't
 understand it. [Paste the bill or EOB, removing your name and ID number.]
@@ -72,7 +72,7 @@ Please:
 2. Flag anything that seems unusual or potentially incorrect
 3. Tell me if there's anything here I should dispute
 :::
-*What to do with the output:* Compare every line to the original provider bill. If your Agent flags a charge as unusual, call the billing department and ask them to explain it. The person who calls is the person who gets the adjustment. The person who doesn't call pays the first number they were given.
+*What to do with the Output:* Compare every line to the original provider bill. If your Agent flags a charge as unusual, call the billing department and ask them to explain it. The person who calls is the person who gets the adjustment. The person who doesn't call pays the first number they were given.
 
 ::: also
 Paste or upload your document directly — file upload works in Claude, Gemini, ChatGPT, and Copilot. See [Appendix G](06-appendix-g-feature-table.xhtml).
@@ -91,8 +91,8 @@ If your EOB is a PDF from your insurance portal, copy the text and paste it. If 
 #### H-4: Appealing an Insurance Denial
 *Strategy:* Navigate + Draft
 *See also:* L-1: Negotiating a Contract (for understanding the policy itself), L-3: Writing a Demand Letter (same drafting technique, different context)
-*The Majordomo says:* _Insurance companies deny claims at a rate that ensures a profitable percentage of denials are never appealed, because appealing requires knowing that appeal is possible, knowing how to do it, and having the energy to do it after already being sick. This is considered a sound business model._
-*The spec:*
+*My Man Jeeves:* _Insurance companies deny claims at a rate that, one observes, ensures a profitable percentage of denials are never contested — the appeal process requiring, as it does, that the policyholder be aware appeal is possible, conversant with the procedure for filing one, and in possession of sufficient energy to pursue the matter while already unwell. The industry appears to find this arrangement commercially sound. One's Agent is conversant with the appeal process and is not, at present, unwell._
+*The Spec:*
 ::: prompt
 My insurance denied [procedure/claim] with the reason: [paste denial reason].
 The procedure was ordered by my doctor for [condition].
@@ -102,11 +102,11 @@ Please draft an appeal letter that cites the denial reason,
 references the right to appeal, and is firm without being
 hostile -- I may need to escalate further.
 :::
-*What to do with the output:* Send the letter. Keep a copy with the date you sent it. If you have a deadline for the appeal (check your denial letter — it's usually 30-180 days), mark it on your calendar. Follow up in writing if you don't hear back within the stated timeframe.
+*What to do with the Output:* Send the letter. Keep a copy with the date you sent it. If you have a deadline for the appeal (check your denial letter — it's usually 30-180 days), mark it on your calendar. Follow up in writing if you don't hear back within the stated timeframe.
 
 [appeal-letter]{.art}
 
-*Science note:* First-level internal appeals succeed at rates between 39-59% depending on plan type (KFF, 2023). Most people never file one.[^h4-1]
+*Science Note:* First-level internal appeals succeed at rates between 39-59% depending on plan type (KFF, 2023). Most people never file one.[^h4-1]
 
 [^h4-1]: Kaiser Family Foundation (2023). "Claims Denials and Appeals in ACA Marketplace Plans." The appeal success rate data makes the low filing rate one of the most consequential information asymmetries in American healthcare.
 
@@ -115,8 +115,8 @@ hostile -- I may need to escalate further.
 #### H-5: Managing a Chronic Condition Day-to-Day
 *Strategy:* Research
 *See also:* H-1: Understanding a Diagnosis, H-2: Preparing Questions, H-8: Wellness and Nutrition Coach
-*The Majordomo says:* _The diagnosis is a moment. The condition is the rest of your life. The medical system is built for acute care — you go in sick, you come out treated. Chronic conditions do not fit this model. The fifteen-minute appointment every three months cannot address the 131,400 minutes between appointments. Those minutes are yours to manage, largely alone, with whatever information you walked out with last time._
-*The spec:*
+*My Man Jeeves:* _The diagnosis, if one may draw the distinction, is a moment. The condition is the remainder of one's life. The medical system has been constructed principally for acute care — one arrives unwell, one departs treated. Chronic conditions do not accommodate themselves to this model with any great willingness. The fifteen-minute appointment every three months cannot, by its nature, address the 131,400 minutes between appointments. Those minutes fall to the patient to manage, largely without assistance, armed with whatever information one carried away from the last visit. One's Agent is available for the other 131,400._
+*The Spec:*
 ::: prompt
 I have [chronic condition] and I've been managing it for [time period].
 My current treatment: [medications, therapy, lifestyle changes]
@@ -130,7 +130,7 @@ Please help me:
 3. Suggest questions to ask my doctor at my next appointment
 4. Point me toward support resources (online communities, organizations)
 :::
-*What to do with the output:* Start a symptom log. Even a simple daily note — what you ate, how you slept, pain level, energy level — gives your doctor data they cannot get any other way and gives your Agent the specificity to help you identify patterns. The log is the treatment between treatments.
+*What to do with the Output:* Start a symptom log. Even a simple daily note — what you ate, how you slept, pain level, energy level — gives your doctor data they cannot get any other way and gives your Agent the specificity to help you identify patterns. The log is the treatment between treatments.
 
 ::: tip
 _"I have [condition] and I'm having a bad day. What are the three things I should check first — hydration, medication timing, sleep — and what's the most common thing people with this condition overlook?"_
@@ -172,8 +172,8 @@ When patients skip medications, the medical system calls it "non-adherence." In 
 #### H-6: Understanding What Medicare or Medicaid Actually Covers
 *Strategy:* Decode
 *See also:* H-4: Appealing an Insurance Denial, Li-4: Planning Care for Aging
-*The Majordomo says:* _Medicare and Medicaid are separate programs with different eligibility, different coverage, and different rules, a distinction that approximately 60% of Americans cannot accurately describe. One is insurance for age. The other is insurance for poverty. Both have gaps large enough to bankrupt the people they are designed to protect. Understanding what is covered before you need it is cheaper than discovering what isn't after you do._
-*The spec:*
+*My Man Jeeves:* _Medicare and Medicaid are, it may be helpful to clarify, separate programs with distinct eligibility, distinct coverage, and distinct rules — a distinction that approximately 60% of Americans are unable to describe with accuracy. The former is insurance for age; the latter, for poverty. Both contain gaps of sufficient magnitude to bankrupt the very individuals they were designed to protect. One ventures to suggest that understanding what is covered before the need arises is rather less costly than discovering what is not covered afterward. One's Agent has read both programs and can explain which applies to one's circumstances._
+*The Spec:*
 ::: prompt
 I [or my family member] am [turning 65 / disabled / low-income /
 helping a parent navigate this] and I need to understand what
@@ -188,7 +188,7 @@ Please explain:
 4. What deadlines or enrollment periods I need to know about
    — especially penalties for missing them
 :::
-*What to do with the output:* Circle the deadlines. Medicare enrollment penalties are permanent — missing the initial enrollment period for Part B means a 10% premium increase for every 12-month period you delayed, for the rest of your life. This is the kind of structural penalty that rewards people who already understand the system.
+*What to do with the Output:* Circle the deadlines. Medicare enrollment penalties are permanent — missing the initial enrollment period for Part B means a 10% premium increase for every 12-month period you delayed, for the rest of your life. This is the kind of structural penalty that rewards people who already understand the system.
 
 ::: science
 The Medicare Part D "donut hole" — the coverage gap where beneficiaries paid a larger share of drug costs — was partially closed by the ACA and eliminated by the Inflation Reduction Act of 2022, which restructured Part D to cap total out-of-pocket drug costs at $2,000 in 2025 ($2,100 in 2026, adjusted annually for inflation). Once you hit the cap, covered prescriptions cost $0 for the rest of the year.[^h6-1]
@@ -222,8 +222,8 @@ The naming confusion is not trivial. KFF polling finds that 62% of Americans eit
 #### H-7: Preparing for End-of-Life Conversations with Aging Parents
 *Strategy:* Prepare
 *See also:* Li-1: Preparing for a Difficult Conversation, Li-2: Writing a Eulogy, Li-4: Planning Care for Aging, L-1: Negotiating a Contract (for legal documents)
-*The Majordomo says:* _American culture has a documented aversion to discussing death. The result is that the most consequential decisions of a person's life — how they want to be cared for, who makes medical decisions if they cannot, what measures they do and do not want taken — are made by family members guessing under pressure in a hospital hallway. An advance directive takes thirty minutes. The conversation that precedes it is harder. Your Agent can help you prepare for it._
-*The spec:*
+*My Man Jeeves:* _American culture maintains, as the research rather thoroughly documents, a pronounced aversion to discussing death. The consequence is that the most significant decisions of a person's life — how they wish to be cared for, who is to make medical decisions should they be unable, what measures they do and do not desire — are left to family members attempting to guess under pressure in a hospital corridor. An advance directive requires approximately thirty minutes. The conversation that precedes it presents a rather greater difficulty. One's Agent may be of assistance in preparing for it._
+*The Spec:*
 ::: prompt
 I need to have a conversation with [my parent / family member]
 about their end-of-life wishes. This conversation has not happened
@@ -240,7 +240,7 @@ Please help me:
    healthcare proxy, power of attorney, will)
 4. Tell me what happens if these documents don't exist when they're needed
 :::
-*What to do with the output:* The documents matter more than the conversation going perfectly. If the conversation goes badly, try again later. If the documents don't exist when a crisis arrives, there is no later. Start with the healthcare proxy — it is the most immediately critical and the least emotionally charged of the documents. [Five Wishes](https://fivewishes.org) is a widely used advance directive written in plain language.
+*What to do with the Output:* The documents matter more than the conversation going perfectly. If the conversation goes badly, try again later. If the documents don't exist when a crisis arrives, there is no later. Start with the healthcare proxy — it is the most immediately critical and the least emotionally charged of the documents. [Five Wishes](https://fivewishes.org) is a widely used advance directive written in plain language.
 
 ::: tip
 _"I want to talk to my parent about advance directives but I don't know how to bring it up without them thinking I'm planning their funeral. Help me find words that open the door without pushing."_
@@ -268,8 +268,8 @@ Five Wishes meets advance directive requirements in 46 states and D.C. Four stat
 #### H-8: Wellness and Nutrition Coach
 *Strategy:* Research + Draft (Expert Role)
 *See also:* H-5: Managing a Chronic Condition (for condition-specific nutrition), Li-8: Wellness Coach (for mental health and journaling)
-*The Majordomo says:* _A registered dietitian charges between $100 and $200 per session and typically has a six-week wait for new patients. A personal trainer costs $50 to $150 per hour. A wellness coach costs more and is less regulated. Your Agent has read the same evidence base all three of them cite and will apply it to your specific situation without a retainer._
-*The spec:*
+*My Man Jeeves:* _A registered dietitian commands between $100 and $200 per session and customarily maintains a six-week waiting list for new patients. A personal trainer costs $50 to $150 per hour. A wellness coach charges rather more and is, one notes, rather less regulated. One's Agent has acquainted itself with the same evidence base all three cite, and will apply it to one's particular situation without the formality of a retainer._
+*The Spec:*
 ::: prompt
 Act as a knowledgeable wellness and nutrition coach.
 My situation:
@@ -281,7 +281,7 @@ My situation:
 — What I've tried before: [if anything]
 What would you recommend, and where should I start?
 :::
-*What to do with the output:* Use it as a starting framework, not a prescription. If you have a specific health condition, verify any significant dietary changes with your doctor. The calibration question applies here: _"How confident are you in this recommendation, and is there anything about my situation where you'd want me to check with a professional?"_
+*What to do with the Output:* Use it as a starting framework, not a prescription. If you have a specific health condition, verify any significant dietary changes with your doctor. The calibration question applies here: _"How confident are you in this recommendation, and is there anything about my situation where you'd want me to check with a professional?"_
 
 ::: fairness
 Wellness advice reflects the demographics of the research base it draws from. If your Agent's suggestions feel like they assume a certain income level, kitchen setup, or food access, say so explicitly: _"I shop at a discount grocery store and have a small kitchen. Please adjust your recommendations."_
@@ -340,8 +340,8 @@ In 2010, David Nutt and colleagues published a harm ranking of twenty drugs in _
 #### H-9: Understanding Your Prescription
 *Strategy:* Decode
 *See also:* H-10: Checking for Drug Interactions, H-1: Understanding a Diagnosis
-*The Majordomo says:* _Your doctor prescribed a medication in a seven-minute appointment. The pharmacist handed you a stapled printout in 8-point type that lists "side effects may include" followed by what appears to be every symptom known to medicine. The printout is required by law. Understanding it is not._
-*The spec:*
+*My Man Jeeves:* _One's physician prescribed a medication in a seven-minute appointment. The pharmacist furnished a stapled printout in 8-point type listing "side effects may include" followed by what one can only describe as every symptom known to medicine. The printout, one understands, is required by law. Comprehending it is not. One's Agent, having read the pharmacology, is prepared to explain what the printout means in one's specific case._
+*The Spec:*
 ::: prompt
 My doctor prescribed [drug name] for [condition].
 The dose is [amount, frequency].
@@ -354,7 +354,7 @@ Please explain in plain language:
 5. What happens if I miss a dose, and what happens if I stop
 Do not assume any medical background on my part.
 :::
-*What to do with the output:* Use it to write your questions for your next appointment (see H-2). Do not change your dose or stop a medication based on your Agent's answer alone -- use the answer to have a better conversation with your doctor. If the interaction check in item 4 raises a flag, call your pharmacist before your next dose.
+*What to do with the Output:* Use it to write your questions for your next appointment (see H-2). Do not change your dose or stop a medication based on your Agent's answer alone -- use the answer to have a better conversation with your doctor. If the interaction check in item 4 raises a flag, call your pharmacist before your next dose.
 
 ::: fairness
 Pharmaceutical marketing targets doctors with the same information asymmetry this book addresses. Your doctor may have prescribed a brand-name drug when a generic is identical. Ask your Agent: _"Is there a generic equivalent for [drug], and is there any clinical reason to prefer the brand name?"_
@@ -371,8 +371,8 @@ Photograph the pill bottle label with your phone, then copy the text from the ph
 #### H-10: Checking for Drug Interactions
 *Strategy:* Decode + Research
 *See also:* H-9: Understanding Your Prescription, H-8: Wellness and Nutrition Coach
-*The Majordomo says:* _Your liver metabolizes roughly 75% of the drugs you take using a family of enzymes called CYP450. When two substances compete for the same enzyme, one of them accumulates. The prescribing physician may not know about the supplement your naturopath recommended. The naturopath may not know about the prescription. Neither may know about the grapefruit._
-*The spec:*
+*My Man Jeeves:* _The liver metabolizes roughly 75% of the drugs one takes by means of a family of enzymes known as CYP450. When two substances compete for the same enzyme, one of them accumulates — a circumstance that may present certain difficulties. The prescribing physician may not be aware of the supplement one's naturopath recommended. The naturopath may not be aware of the prescription. Neither, one regrets to observe, may be aware of the grapefruit. One's Agent is aware of all three._
+*The Spec:*
 ::: prompt
 I am currently taking:
 — Prescription medications: [list all, with doses]
@@ -388,7 +388,7 @@ Please check for:
 4. Which of these I should not stop suddenly
 Flag anything urgent first.
 :::
-*What to do with the output:* If your Agent flags a serious interaction, call your pharmacist -- not your doctor's office, your pharmacist. Pharmacists are drug interaction specialists. They are faster to reach and trained to answer exactly this question. Verify before adjusting anything.
+*What to do with the Output:* If your Agent flags a serious interaction, call your pharmacist -- not your doctor's office, your pharmacist. Pharmacists are drug interaction specialists. They are faster to reach and trained to answer exactly this question. Verify before adjusting anything.
 
 ::: science
 Serotonin syndrome -- caused by combining drugs that increase serotonin (SSRIs, MDMA, tramadol, St. John's Wort, some migraine medications) -- is underdiagnosed because its early symptoms (agitation, rapid heart rate, dilated pupils) are easily attributed to anxiety. It can be fatal. If your Agent's interaction check flags a serotonin risk, take it seriously.[^d2-1]
@@ -401,8 +401,8 @@ Serotonin syndrome -- caused by combining drugs that increase serotonin (SSRIs, 
 
 #### H-11: Your Brain on Drugs, Simplified
 *Strategy:* Research
-*The Majordomo says:* _Every psychoactive substance works by changing the way your brain cells communicate. That sentence contains the entirety of what the egg commercial taught you. The next question -- how, and with what consequences, and at what dose, and for how long -- is where the useful information begins._
-*The spec:*
+*My Man Jeeves:* _Every psychoactive substance operates by altering the manner in which one's brain cells communicate. That sentence, one might note, contains the entirety of what the egg commercial conveyed. The subsequent questions — how, and with what consequences, and at what dose, and for what duration — are where the useful information may be said to begin. One's Agent is prepared to address them without recourse to eggs._
+*The Spec:*
 ::: prompt
 Explain how [substance] works in the brain.
 I want to understand:
@@ -416,7 +416,7 @@ I want to understand:
    but what the research says about harm at different levels of use
 Use plain language. I want the pharmacology, not the moral lesson.
 :::
-*What to do with the output:* Use it as a baseline. If you or someone you know uses this substance, the mechanism of action tells you what to watch for. If the risk profile doesn't match the legal classification, that's not a glitch — it's the point of asking.
+*What to do with the Output:* Use it as a baseline. If you or someone you know uses this substance, the mechanism of action tells you what to watch for. If the risk profile doesn't match the legal classification, that's not a glitch — it's the point of asking.
 
 ::: science
 The four major neurotransmitter systems most drugs affect, simplified: *Dopamine* — reward and motivation (stimulants, nicotine). *Serotonin* — mood and perception (psychedelics, SSRIs, MDMA). *GABA* — the brain's brakes (alcohol, benzodiazepines, barbiturates). *Endorphins/opioid receptors* — pain and euphoria (opioids, endogenous endorphins from exercise). Most substances affect more than one system, which is why effects are complicated and why combining substances is risky.
@@ -433,8 +433,8 @@ Ask your Agent to compare two substances: _"Compare the harm profile of alcohol 
 #### H-12: Talking to Your Doctor About Pain Management
 *Strategy:* Prepare + Assert
 *See also:* H-2: Preparing Questions Before a Doctor's Appointment, H-9: Understanding Your Prescription
-*The Majordomo says:* _The opioid crisis created two populations of people who cannot get adequate care: people with addiction who need treatment, and people with pain who need management. Doctors, caught between DEA scrutiny and patient suffering, now sometimes undertreat pain out of liability fear. You may need to advocate for yourself -- not to get opioids specifically, but to get an honest conversation about all the options._
-*The spec:*
+*My Man Jeeves:* _The opioid crisis has, one observes, produced two populations of individuals who cannot obtain adequate care: those with addiction who require treatment, and those with pain who require management. Physicians, situated as they are between DEA scrutiny and patient suffering, now on occasion undertreat pain from what one might characterize as liability apprehension. It may prove necessary to advocate for oneself — not to obtain opioids specifically, but to secure an honest conversation regarding all available options. One's Agent can help one prepare for that conversation._
+*The Spec:*
 ::: prompt
 I have [type of pain: chronic back pain / post-surgical / nerve pain /
 arthritis / migraines / other] that has been going on for [duration].
@@ -463,8 +463,8 @@ Pain assessment has documented racial and gender bias. Studies show Black patien
 #### H-13: Understanding Addiction
 *Strategy:* Research + Navigate
 *See also:* H-14: Harm Reduction, H-18: Finding Treatment and Recovery
-*The Majordomo says:* _Addiction is not a failure of willpower. The American Society of Addiction Medicine and the National Institute on Drug Abuse classify it as a chronic brain disorder involving compulsive use despite harmful consequences. This definition matters because it determines whether the response is treatment or punishment. The United States has mostly chosen punishment. The results are documented._
-*The spec:*
+*My Man Jeeves:* _Addiction is not, as the relevant authorities have taken some pains to establish, a failure of willpower. The American Society of Addiction Medicine and the National Institute on Drug Abuse classify it as a chronic brain disorder involving compulsive use despite harmful consequences. The distinction is of some importance, as it determines whether the appropriate response is treatment or punishment. The United States has, for the most part, favored punishment. The results are, one might say, thoroughly documented. One's Agent has read the research on both treatment and recovery, and holds no position on the matter beyond the evidence._
+*The Spec:*
 ::: prompt
 I want to understand addiction as the science currently describes it —
 not the moral framework.
@@ -499,8 +499,8 @@ Alcohol and benzodiazepine withdrawal can cause fatal seizures — they are amon
 #### H-14: Harm Reduction
 *Strategy:* Research + Diagnose
 *See also:* H-13: Understanding Addiction, H-10: Checking for Drug Interactions
-*The Majordomo says:* _In 2023, approximately 107,000 Americans died of drug overdoses — more than car accidents and gun deaths combined. Roughly 75% involved fentanyl, which is often present in drugs sold as something else. Harm reduction starts from the premise that some people use drugs and that the most useful response is to keep them alive and as healthy as possible. This is controversial in exactly the way that seatbelts were controversial in 1965 — opponents argued they would encourage reckless driving. They did not. They reduced deaths. The evidence for harm reduction is comparably strong._
-*The spec:*
+*My Man Jeeves:* _In 2023, approximately 105,000 Americans died of drug overdoses — a figure exceeding car accidents and gun deaths combined. Roughly 69% involved synthetic opioids, principally fentanyl, which is frequently present in drugs sold as something else entirely.[^d6-4] Harm reduction proceeds from the premise that some people use drugs, and that the most serviceable response is to keep them alive and as healthy as circumstances permit. This remains controversial in rather the same manner that seatbelts were controversial in 1965 — opponents contending that they would encourage reckless driving. They did not. They reduced deaths. The evidence for harm reduction is, one finds, comparably robust. One's Agent can explain the evidence and the local resources without editorializing._
+*The Spec:*
 ::: prompt
 I want to understand harm reduction for [substance or situation].
 My situation: [I use X occasionally / someone I care about uses X /
@@ -531,13 +531,15 @@ Portugal decriminalized personal possession of all drugs in 2001. Drug-related d
 
 [^d6-3]: EMCDDA. _Portugal Country Drug Report._ European Monitoring Centre for Drugs and Drug Addiction, various years.
 
+[^d6-4]: CDC National Center for Health Statistics. (2024). "Drug Overdose Deaths: Final Data for 2023." _NCHS Data Brief_ No. 522.
+
 ---
 
 #### H-15: Navigating Drug Laws in Your State
 *Strategy:* Navigate + Assert
 *See also:* C-7: Understanding Your Rights Where You Live
-*The Majordomo says:* _Cannabis is legal in your state and a federal crime. Psilocybin is decriminalized in your city but a felony in the next county. Kratom is banned in six states and available at the gas station in the other forty-four. The legal landscape for drugs in the United States is not a landscape. It is a patchwork quilt sewn by fifty different legislatures, several federal agencies, and occasional ballot initiatives -- each operating on a different timeline and sometimes a different century's understanding of pharmacology._
-*The spec:*
+*My Man Jeeves:* _Cannabis is legal in one's state and a federal crime. Psilocybin is decriminalized in one's city yet a felony in the neighboring county. Kratom is banned in several states and available at the gas station in the other forty-four. The legal landscape for drugs in the United States is not, one feels compelled to observe, a landscape in any coherent sense. It is rather a patchwork quilt sewn by fifty different legislatures, several federal agencies, and occasional ballot initiatives — each operating on a different timeline and, in certain cases, a different century's understanding of pharmacology. One's Agent can clarify the law as it stands in one's specific jurisdiction, which is the only jurisdiction that matters._
+*The Spec:*
 ::: prompt
 I want to understand the current drug laws where I live.
 My location: [city, state]
@@ -565,8 +567,8 @@ The DEA's scheduling system was established by the Controlled Substances Act of 
 #### H-16: Evaluating Psychedelic Therapy
 *Strategy:* Research + Decide
 *See also:* H-1: Understanding a Diagnosis, H-11: Your Brain on Drugs
-*The Majordomo says:* _Psychedelic-assisted therapy is the most promising and most overhyped development in mental health treatment since SSRIs. Clinical trials for psilocybin (depression) and MDMA (PTSD) have shown significant results. The FDA rejected MDMA therapy in 2024 over trial design concerns, not because it didn't work. Psilocybin trials are ongoing. Meanwhile, unregulated ketamine clinics have proliferated, Oregon has legalized psilocybin services outside the medical system, and the gap between the research and the marketplace is wide enough to drive a retreat center through._
-*The spec:*
+*My Man Jeeves:* _Psychedelic-assisted therapy represents, one might suggest, the most promising and most overhyped development in mental health treatment since SSRIs. Clinical trials for psilocybin in depression and MDMA in PTSD have produced significant results. The FDA declined to approve MDMA therapy in 2024, citing trial design concerns, ethical violations at trial sites, and data integrity issues.[^d8-2] Psilocybin trials continue. In the meantime, unregulated ketamine clinics have proliferated, Oregon has legalized psilocybin services outside the medical system, and the gap between the research and the marketplace has grown sufficient to accommodate, one estimates, a modestly sized retreat center. One's Agent can help one evaluate the evidence for a specific treatment against its current legal and clinical standing._
+*The Spec:*
 ::: prompt
 I am interested in psychedelic therapy for [depression / PTSD /
 anxiety / end-of-life distress / addiction / personal growth].
@@ -589,6 +591,8 @@ The FDA granted "breakthrough therapy" designation to psilocybin for treatment-r
 
 [^d8-1]: Therapeutic Goods Administration, Australia. (2023). "Rescheduling of psilocybin and MDMA." The approval is limited to specific psychiatric uses under specialist supervision.
 
+[^d8-2]: FDA. (2024). ["FDA Declines to Approve MDMA-Assisted Therapy for PTSD."](https://www.fda.gov/news-events/press-announcements/fda-declines-approve-mdma-assisted-therapy-ptsd) August 9, 2024.
+
 ::: fairness
 Indigenous communities have used psilocybin (mushrooms), peyote, and ayahuasca in ceremonial contexts for centuries. The current psychedelic therapy movement has largely developed without their input and, in some cases, threatens their access to traditional medicines through increased demand and commercialization. Be aware of this context when evaluating providers who market "traditional" or "ceremonial" experiences.
 :::
@@ -599,8 +603,8 @@ Indigenous communities have used psilocybin (mushrooms), peyote, and ayahuasca i
 #### H-17: Talking to Your Kids About Drugs
 *Strategy:* Prepare + Research
 *See also:* Li-1: Preparing for a Difficult Conversation, Li-7: Raising Kids
-*The Majordomo says:* _D.A.R.E. taught a generation that marijuana and heroin were the same category of threat and that the correct response to all drugs was refusal. When those children discovered that marijuana did not, in fact, ruin their lives, many concluded that the adults had lied about everything — including the drugs that were actually dangerous. The program's failure was not insufficient scare tactics. It was the decision to replace credibility with fear. Credibility, once lost with a teenager, is not recoverable on a useful timeline._
-*The spec:*
+*My Man Jeeves:* _D.A.R.E. instructed a generation that marijuana and heroin belonged to the same category of threat, and that the appropriate response to all drugs was refusal. When those children discovered that marijuana did not, in the event, ruin their lives, a considerable number concluded that the adults had been unreliable on every point — including those substances that were genuinely dangerous. The program's failure, one might observe, was not insufficient severity of its warnings. It was the decision to substitute fear for credibility. Credibility, once forfeited with a teenager, is not recoverable on what one would call a useful timeline. One's Agent can provide the honest, evidence-based conversation that D.A.R.E. could not._
+*The Spec:*
 ::: prompt
 I want to talk to my [age] year old about drugs.
 My situation: [they haven't asked yet / they asked about something
@@ -620,7 +624,7 @@ Please help me:
 The goal is that my kid trusts me enough to come to me
 when it matters.
 :::
-*What to do with the output:* Have the conversation, not the lecture. The research is clear: teens who report having honest, ongoing conversations with parents about drugs (not one-time "talks") show lower rates of problematic use.[^d9-1] The key word is _ongoing_. This is not a single conversation. It is a relationship.
+*What to do with the Output:* Have the conversation, not the lecture. The research is clear: teens who report having honest, ongoing conversations with parents about drugs (not one-time "talks") show lower rates of problematic use.[^d9-1] The key word is _ongoing_. This is not a single conversation. It is a relationship.
 
 [^d9-1]: SAMHSA. "Talk. They Hear You." Campaign and associated research. Substance Abuse and Mental Health Services Administration.
 
@@ -629,8 +633,8 @@ when it matters.
 #### H-18: Finding Treatment and Recovery
 *Strategy:* Navigate + Research
 *See also:* H-13: Understanding Addiction, H-14: Harm Reduction, M-6: Financial Coach (for insurance and costs)
-*The Majordomo says:* _The treatment industry in the United States is a $42 billion market with less regulatory oversight than the restaurant industry. Some facilities are excellent. Some are predatory. The difference is not visible from the website. Your Agent can help you evaluate options using the criteria that addiction medicine specialists use, which are different from the criteria the marketing department uses._
-*The spec:*
+*My Man Jeeves:* _The treatment industry in the United States constitutes a multibillion-dollar market operating, one notes, under less regulatory oversight than the restaurant industry. Some facilities are excellent. Some, one regrets to say, are predatory. The distinction is not readily apparent from the website. One's Agent can assist in evaluating options according to the criteria that addiction medicine specialists employ — criteria that differ, in several material respects, from those favored by the marketing department._
+*The Spec:*
 ::: prompt
 I need to find treatment for [substance use disorder / alcohol /
 opioids / stimulants / other].
@@ -665,8 +669,8 @@ SAMHSA's treatment locator at findtreatment.gov lets you search by substance, lo
 
 #### H-19: The War on Drugs — What Your Agent Can Tell You That School Didn't
 *Strategy:* Research
-*The Majordomo says:* _The War on Drugs, declared by Nixon in 1971, has cost the United States over $1 trillion in enforcement spending. The incarcerated population grew from 300,000 in 1972 to 2.1 million by 2020, with drug offenses accounting for roughly 45% of federal prisoners. Black Americans are incarcerated for drug offenses at nearly five times the rate of white Americans despite roughly equal usage rates. These are not opinions. They are Bureau of Justice Statistics._
-*The spec:*
+*My Man Jeeves:* _The War on Drugs, declared by Nixon in 1971, has cost the United States in excess of $1 trillion in enforcement spending. The incarcerated population grew from roughly 360,000 in 1972 to a peak of 2.1 million by 2019, with drug offenses accounting for roughly 45% of federal prisoners. Black Americans are incarcerated for drug offenses at nearly six times the rate of white Americans, despite roughly equal usage rates.[^d11-2] These are not, one feels it necessary to clarify, matters of opinion. They are Bureau of Justice Statistics. One's Agent has read them._
+*The Spec:*
 ::: prompt
 I want to understand the War on Drugs — not the political argument,
 the documented history and outcomes.
@@ -689,6 +693,8 @@ John Ehrlichman, Nixon's domestic policy advisor, said in a 1994 interview: _"Th
 
 
 [^d11-1]: Baum, D. (2016). "Legalize It All." _Harper's Magazine_, April 2016.
+
+[^d11-2]: Incarceration figures: The Sentencing Project, "Trends in U.S. Incarceration" (360,000 in 1972; peak 2.1 million by 2019). Racial disparity: Bureau of Justice Statistics, "Prisoners in 2021" — Black Americans incarcerated for drug offenses at approximately six times the rate of white Americans despite comparable usage rates. The $1 trillion enforcement figure is a commonly cited cumulative estimate; see Drug Policy Alliance, "The Drug War, Mass Incarceration and Race" (2018) for a representative accounting.
 
 <!-- BRAINSTORM: Future Health entries
 — H-20: Navigating Pregnancy and Childbirth — the billing labyrinth, birth plans, postpartum care. The most medicalized natural process in American life.

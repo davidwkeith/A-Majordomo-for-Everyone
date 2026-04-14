@@ -15,8 +15,8 @@ _Getting from one place to another is the second largest expense in most America
 #### Tr-1: Car Ownership
 *Strategy:* Research + Decide + Assert
 *See also:* L-1: Negotiating a Contract (for the purchase agreement), M-6: Financial Coach (for the financing decision)
-*The Majordomo says:* _The car dealership is the purest information asymmetry in American commerce. The dealer knows the invoice price, the holdback, the manufacturer incentives, the floor plan cost, the trade-in wholesale value, and the financing margin. You know the sticker price — which is the number the dealer put there specifically so you would negotiate down from it and feel like you won. Your Agent knows the invoice price too. That changes the conversation._
-*The spec:*
+*My Man Jeeves:* _One might observe that the automobile dealership represents perhaps the most refined information asymmetry in American commerce. The dealer is in possession of the invoice price, the holdback, the manufacturer incentives, the floor plan cost, the trade-in wholesale value, and the financing margin. The customer, by contrast, is in possession of the sticker price — a figure the dealer has placed there with the express intention that one will negotiate downward from it and experience a sense of victory. It would appear that an Agent, having access to the invoice price as well, alters the nature of the exchange rather considerably._
+*The Spec:*
 ::: prompt
 I need to [buy / lease / sell] a car.
 My situation:
@@ -39,7 +39,7 @@ Please help me:
 5. If selling: what's my car actually worth and where will I
    get the best price — dealer, private sale, or online buyer?
 :::
-*What to do with the output:* For buying: get pre-approved for financing from your bank or credit union before walking into the dealership. The dealer's financing is a profit center, not a convenience. Know the invoice price (your Agent can find it) and negotiate from the dealer's cost up, not the sticker price down. For selling: get your car's value from KBB, Edmunds, and Carvana before accepting any offer. The spread between trade-in and private sale is typically $2,000-$5,000.
+*What to do with the Output:* For buying: get pre-approved for financing from your bank or credit union before walking into the dealership. The dealer's financing is a profit center, not a convenience. Know the invoice price (your Agent can find it) and negotiate from the dealer's cost up, not the sticker price down. For selling: get your car's value from KBB, Edmunds, and Carvana before accepting any offer. The spread between trade-in and private sale is typically $2,000-$5,000.
 
 ::: science
 Americans spend an average of $12,182 per year on transportation — roughly 16% of household income, second only to housing (BLS Consumer Expenditure Survey, 2023). For rural households the percentage is higher. The car payment is the most visible cost; depreciation, insurance, and fuel are the invisible ones. Your Agent can calculate total cost of ownership for any vehicle, which is the number that actually matters.[^tr1-1]
@@ -69,8 +69,8 @@ The phrase "what can you afford per month?" is how the dealer steers you away fr
 #### Tr-2: Car Maintenance
 *Strategy:* Diagnose + Research (Expert Role)
 *See also:* Tr-1: Car Ownership, L-1: Negotiating a Contract (for understanding service agreements)
-*The Majordomo says:* _The automotive repair industry operates on the well-documented principle that most car owners do not know what their car needs, cannot verify whether the work was done, and will pay to resolve uncertainty. Your Agent has read the service manual. The billionaire class does not pay the first quote. Neither should you._
-*The spec:*
+*My Man Jeeves:* _A difficulty presents itself in the automotive repair trade, which operates on the well-documented principle that most vehicle owners do not know what their car requires, cannot verify whether the work was performed, and will pay to resolve the uncertainty. One might note that an Agent, having consulted the service manual, is rather better positioned to assess the situation. It is worth observing that persons of considerable means do not, as a rule, accept the first quotation. There would seem to be no reason why anyone else should._
+*The Spec:*
 ::: prompt
 Act as an experienced mechanic and car maintenance advisor.
 My car: [year, make, model, approximate mileage]
@@ -80,7 +80,7 @@ Recent service history: [if relevant]
 My goal: [understand what's wrong / decide whether to DIY /
 get a second opinion on a quote / know what to ask the shop]
 :::
-*What to do with the output:* If you have been given a repair quote, paste the line items into your Agent and ask: _"Is this a standard repair for this car, is the price in the normal range for [city], and are there any of these items I could defer?"_ Get a second opinion on any repair over $500.
+*What to do with the Output:* If you have been given a repair quote, paste the line items into your Agent and ask: _"Is this a standard repair for this car, is the price in the normal range for [city], and are there any of these items I could defer?"_ Get a second opinion on any repair over $500.
 
 [car-maintenance-diagram]{.art}
 
@@ -99,8 +99,8 @@ To make this Expert Role persistent across sessions, save it as a *Project* (Cla
 #### Tr-3: Public Transit, Cycling, and Walkability
 *Strategy:* Research + Navigate
 *See also:* Li-5: Planning Trips (for transit in unfamiliar cities), C-4: Advocating for Change (for local transit advocacy)
-*The Majordomo says:* _The United States spent the last seventy years building an infrastructure that assumes every adult owns a car. The result is a country where not driving is treated as a personal failing rather than a design consequence. In cities with functional transit, cycling infrastructure, and walkable neighborhoods, car-free or car-light living saves thousands of dollars per year and improves health outcomes. In cities without these things, the absence is a policy choice, not an inevitability — and it can be changed at the local level, by the people who show up to meetings._
-*The spec:*
+*My Man Jeeves:* _It would appear that the United States has devoted the better part of seventy years to constructing an infrastructure that assumes every adult to be in possession of a motor car. The consequence, one might observe, is a country in which not driving is regarded as a personal failing rather than a design outcome. In cities where functional transit, cycling infrastructure, and walkable neighborhoods exist, car-free or car-light living saves thousands of dollars per year and improves health outcomes measurably. In cities where these things do not exist, the absence is a policy choice, not an inevitability — and it can be altered at the local level, by those who present themselves at the relevant meetings. One's Agent can help one evaluate the options, calculate the savings, and — should advocacy be required — prepare for the meeting._
+*The Spec:*
 ::: prompt
 I want to [reduce my car dependence / go car-free / understand
 my transit options / make my commute better / advocate for
@@ -119,7 +119,7 @@ Please help me:
 4. If I want to advocate for better options: who decides
    transportation policy in my city, and what has worked elsewhere?
 :::
-*What to do with the output:* Save the cost comparison to your phone — that number is your motivation on cold mornings. Start with one trip per week. Replace one car trip with transit, cycling, or walking. The compound health benefit is real — a 2023 BMJ study found that cycling to work reduced all-cause mortality risk by 20% and cancer risk by 16%.[^tr3-1] The financial benefit is calculable: the AAA estimates the average cost of car ownership at $12,182/year. Every trip you don't drive reduces that number.
+*What to do with the Output:* Save the cost comparison to your phone — that number is your motivation on cold mornings. Start with one trip per week. Replace one car trip with transit, cycling, or walking. The compound health benefit is real — a 2023 BMJ study found that cycling to work reduced all-cause mortality risk by 20% and cancer risk by 16%.[^tr3-1] The financial benefit is calculable: the AAA estimates the average cost of car ownership at $12,182/year. Every trip you don't drive reduces that number.
 
 ::: science
 The [Strong Towns](https://www.strongtowns.org/) movement has documented that car-dependent suburban development is financially insolvent in most American cities — the infrastructure maintenance costs exceed the tax revenue generated by the development pattern. Walkable, mixed-use neighborhoods generate more tax revenue per acre and cost less to maintain. This is not an ideology. It is municipal accounting.[^tr3-2]
@@ -144,8 +144,8 @@ Transit access is deeply unequal. Wealthier neighborhoods get better service. Ca
 #### Tr-4: Air Travel
 *Strategy:* Prepare + Assert
 *See also:* Li-5: Planning Trips (for trip planning broadly), IRL-3: First-Time Situations (for first-time flyers)
-*The Majordomo says:* _Air travel is a system that charges variable prices for the same seat, enforces rules that change by airline, route, and day of the week, and operates under federal consumer protection laws that most passengers have never read. The airline knows your fare class, your rebooking options, and the compensation it owes you. You know your confirmation number. Your Agent knows the same regulations the airline's customer service team uses — which means you can cite them too._
-*The spec:*
+*My Man Jeeves:* _One might characterize air travel as a system that charges variable prices for the same seat, enforces rules that shift by airline, route, and day of the week, and operates under federal consumer protection laws that most passengers have not had occasion to read. The airline is aware of one's fare class, one's rebooking options, and the compensation it owes. The passenger, as a general rule, is aware of a confirmation number. An Agent, it would appear, has access to the same regulations the airline's customer service team consults — which places one in the rather more agreeable position of being able to cite them as well._
+*The Spec:*
 ::: prompt
 I need help with air travel.
 My situation: [booking a flight / flight was canceled or delayed /
@@ -165,7 +165,7 @@ Please help me:
    flight anxiety, and tell me what turbulence actually is
 Give me the practical answer, not the airline's preferred answer.
 :::
-*What to do with the output:* For disruptions: know your rights before you get in line. The DOT requires airlines to rebook you on the next available flight at no additional cost for cancellations. For delays over 3 hours on international flights arriving in the EU, EC 261/2004 entitles you to compensation of €250-€600 depending on distance. Airlines do not volunteer this information. You must ask. The specific regulation number is your leverage.
+*What to do with the Output:* For disruptions: know your rights before you get in line. The DOT requires airlines to rebook you on the next available flight at no additional cost for cancellations. For delays over 3 hours on international flights arriving in the EU, EC 261/2004 entitles you to compensation of €250-€600 depending on distance. Airlines do not volunteer this information. You must ask. The specific regulation number is your leverage.
 
 ::: tip
 _"My flight was [canceled / delayed X hours]. The airline is offering [voucher / rebooking on a later flight]. What am I actually entitled to under DOT regulations, and what should I say at the counter?"_
