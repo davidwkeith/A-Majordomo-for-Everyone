@@ -20,7 +20,7 @@ George Jetson worked three hours a day, three days a week, pushing a single butt
 #### W-1: Getting a Job
 *Strategy:* Draft + Prepare
 *See also:* L-1: Negotiating a Contract (for offer letters and non-competes), Li-1: Preparing for a Difficult Conversation (same preparation technique)
-*The Majordomo says:* _The job search is a system designed by employers, for employers, in which the candidate is expected to perform enthusiasm for a position they need to survive while pretending the power dynamic does not exist. The résumé is a marketing document judged in six seconds. The cover letter is a genre with invisible rules. The salary negotiation rewards the person with better information about the market rate. Your Agent levels the information asymmetry — which is the entire point of this book._
+*My Man Jeeves:* _One might observe that the job search is a system designed by employers, for employers, in which the candidate is expected to perform enthusiasm for a position required for survival while conducting oneself as though the power dynamic did not exist. The résumé, it would appear, is a marketing document upon which judgment is passed in approximately six seconds. The cover letter is a genre governed by rules that are nowhere made explicit. The salary negotiation rewards the party in possession of superior information regarding the market rate. The reader's Agent addresses this information asymmetry — which is, one ventures to suggest, the entire purpose of this volume._
 *The spec:*
 ::: prompt
 I am looking for a job in [field/role]. My experience: [brief summary].
@@ -66,7 +66,7 @@ Checking current information requires web search, which is free in Gemini, ChatG
 #### W-2: Leaving a Job
 *Strategy:* Assert + Decode
 *See also:* L-1: Negotiating a Contract (for the severance agreement), M-1: Banking and Savings (emergency fund while unemployed), W-5: Unions (if you have a CBA)
-*The Majordomo says:* _Employment law is one of the areas where the gap between what most employees believe their rights to be and what those rights actually are is widest, and where the consequences of not knowing are most immediate. The severance agreement has a signing deadline. The WARN Act notice has a claim deadline. The clock starts whether you know about it or not._
+*My Man Jeeves:* _It would not be inaccurate to observe that employment law is among those areas in which the distance between what most employees believe their rights to be and what those rights actually are is widest — and where the consequences of the misapprehension are most immediate. The severance agreement carries a signing deadline. The WARN Act notice carries a claim deadline. The clock, one feels compelled to note, begins whether the individual is aware of it or not._
 *The spec:*
 ::: prompt
 I was just [laid off / fired / asked to resign] from my job at [type of company]
@@ -91,7 +91,7 @@ Paste or upload your document directly — file upload works in Claude, Gemini, 
 #### W-3: Working with Human Resources
 *Strategy:* Draft + Assert
 *See also:* W-2: Understanding Your Rights If You're Let Go, Li-1: Preparing for a Difficult Conversation
-*The Majordomo says:* _Human Resources exists to protect the company. This is not cynicism — it is the department's actual mandate. An HR representative who helps you is doing so because helping you also serves the company's interest, which is often the case. Understanding this alignment — when your interests and the company's overlap, and when they diverge — is the difference between using HR effectively and being surprised by the outcome._
+*My Man Jeeves:* _It may be useful to note that Human Resources exists to protect the company. This is not a matter of cynicism — it is the department's actual mandate. An HR representative who assists an employee does so because assisting the employee also serves the company's interest, which is, one acknowledges, frequently the case. An understanding of this alignment — the occasions upon which one's interests and the company's overlap, and those upon which they diverge — represents the difference between employing HR effectively and finding oneself somewhat surprised by the outcome._
 *The spec:*
 ::: prompt
 I need to deal with an HR situation at work.
@@ -125,7 +125,7 @@ _"I need to write my annual self-review. Here are my accomplishments this year: 
 #### W-4: Work from Home or RTO?
 *Strategy:* Research + Decide
 *See also:* W-7: Using Your Agent to Get More Done, Li-1: Preparing for a Difficult Conversation (if you need to negotiate)
-*The Majordomo says:* _The remote work debate is conducted primarily by executives with home offices and opinion columnists with flexible schedules, about employees whose commute costs money and whose childcare has no margin. The research on productivity, collaboration, and wellbeing is more nuanced than either side of the argument admits. Your Agent can help you evaluate the evidence, weigh your specific situation, and — if you need to make a case to your employer — build one that uses data instead of preference._
+*My Man Jeeves:* _One could not help but observe that the remote work debate is conducted primarily by executives possessed of home offices and opinion columnists enjoying flexible schedules, regarding employees whose commute carries a financial cost and whose childcare arrangements permit no margin. The research on productivity, collaboration, and wellbeing is, it would appear, rather more nuanced than either party to the argument is inclined to acknowledge. The reader's Agent may be of assistance in evaluating the evidence, weighing the specifics of one's situation, and — should the need arise to present a case to one's employer — constructing one that relies upon data rather than preference._
 *The spec:*
 ::: prompt
 My company is [requiring return to office / offering hybrid /
@@ -161,7 +161,7 @@ Bloom et al. (2015) conducted the largest randomized controlled trial of remote 
 #### W-5: Unions
 *Strategy:* Navigate + Assert
 *See also:* C-4: Advocating for Change (same organizing skills), L-1: Negotiating a Contract (for reading the CBA)
-*The Majordomo says:* _A union is a group of employees who decided that negotiating individually was not working. The information asymmetry between an employer and a single employee is structural and permanent — the employer knows the budget, the market rate, the headcount plan, and the legal landscape. You know your own salary. The union exists to close that gap. Everything you have been told about unions — positive or negative — was told to you by someone with a position on whether that gap should close. Your Agent has no position. It has the NLRA, the relevant case law, and the current data._
+*My Man Jeeves:* _A union is, at its foundation, a group of employees who arrived at the conclusion that negotiating individually was not producing satisfactory results. The information asymmetry between an employer and a single employee is structural and permanent — the employer is aware of the budget, the market rate, the headcount plan, and the legal landscape. The employee is aware of one's own salary. The union exists to address this disparity. One might gently observe that everything the reader has been told about unions — whether favorable or otherwise — was communicated by a party holding a position on whether that disparity ought to close. The reader's Agent holds no such position. It has the NLRA, the relevant case law, and the current data._
 *The spec:*
 ::: prompt
 I want to understand [my rights regarding unionizing / how to
@@ -196,7 +196,7 @@ _"I have a collective bargaining agreement I don't fully understand. [Paste rele
 #### W-6: Workplace Safety
 *Strategy:* Assert + Navigate
 *See also:* W-2: Understanding Your Rights If You're Let Go (if retaliation follows), L-3: Writing a Demand Letter
-*The Majordomo says:* _Your body is the asset you bring to work. The employer's obligation to not damage it is codified in law, implemented through OSHA, and enforced through a system that requires you to know it exists and how to use it. Workers' compensation is insurance your employer is required to carry. Filing a claim is not adversarial — it is using the system as designed. The adversarial part comes later, if the claim is denied, and it often is._
+*My Man Jeeves:* _One's body is, if one may be permitted the observation, the asset one brings to work. The employer's obligation not to damage it is codified in law, implemented through OSHA, and enforced through a system that requires the worker to know it exists and how to employ it. Workers' compensation is insurance the employer is required to carry. Filing a claim is not an adversarial act — it is the use of the system as designed. The adversarial dimension, one regrets to note, tends to present itself later, should the claim be denied, and it is denied with a frequency that warrants preparation._
 *The spec:*
 ::: prompt
 I have a workplace safety concern [or: I was injured at work].
@@ -232,7 +232,7 @@ Workers in high-risk industries — construction, agriculture, warehousing, meat
 #### W-7: Using Your Agent to Get More Done
 *Strategy:* Navigate + Draft (Expert Role)
 *See also:* W-3: Working with HR (for the performance review spec), W-1: Getting a New Job (for job-search automation)
-*The Majordomo says:* _The billionaire class did not become productive by working harder. They became productive by hiring people to handle the parts of work that are repetitive, formulaic, or require research they don't have time to do themselves. Email drafts. Report summaries. Data formatting. Meeting preparation. Status updates. Proposal boilerplate. The work behind the work. You now have the same staff — you just call it "being more productive" on your performance review._
+*My Man Jeeves:* _It would appear that the billionaire class did not achieve their productivity by working harder. They achieved it by engaging persons to attend to those portions of work that are repetitive, formulaic, or requiring of research for which they themselves lacked the time. Email drafts. Report summaries. Data formatting. Meeting preparation. Status updates. Proposal boilerplate. The work, as it were, behind the work. The reader now has access to the same staff — one simply refers to it as "being more productive" on the performance review._
 *The spec:*
 ::: prompt
 I want to use my AI Agent to work more efficiently.

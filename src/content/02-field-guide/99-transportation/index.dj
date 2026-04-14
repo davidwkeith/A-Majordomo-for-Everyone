@@ -15,7 +15,7 @@ _Getting from one place to another is the second largest expense in most America
 #### Tr-1: Car Ownership
 *Strategy:* Research + Decide + Assert
 *See also:* L-1: Negotiating a Contract (for the purchase agreement), M-6: Financial Coach (for the financing decision)
-*The Majordomo says:* _The car dealership is the purest information asymmetry in American commerce. The dealer knows the invoice price, the holdback, the manufacturer incentives, the floor plan cost, the trade-in wholesale value, and the financing margin. You know the sticker price — which is the number the dealer put there specifically so you would negotiate down from it and feel like you won. Your Agent knows the invoice price too. That changes the conversation._
+*My Man Jeeves:* _One might observe that the automobile dealership represents perhaps the most refined information asymmetry in American commerce. The dealer is in possession of the invoice price, the holdback, the manufacturer incentives, the floor plan cost, the trade-in wholesale value, and the financing margin. The customer, by contrast, is in possession of the sticker price — a figure the dealer has placed there with the express intention that one will negotiate downward from it and experience a sense of victory. It would appear that an Agent, having access to the invoice price as well, alters the nature of the exchange rather considerably._
 *The spec:*
 ::: prompt
 I need to [buy / lease / sell] a car.
@@ -69,7 +69,7 @@ The phrase "what can you afford per month?" is how the dealer steers you away fr
 #### Tr-2: Car Maintenance
 *Strategy:* Diagnose + Research (Expert Role)
 *See also:* Tr-1: Car Ownership, L-1: Negotiating a Contract (for understanding service agreements)
-*The Majordomo says:* _The automotive repair industry operates on the well-documented principle that most car owners do not know what their car needs, cannot verify whether the work was done, and will pay to resolve uncertainty. Your Agent has read the service manual. The billionaire class does not pay the first quote. Neither should you._
+*My Man Jeeves:* _A difficulty presents itself in the automotive repair trade, which operates on the well-documented principle that most vehicle owners do not know what their car requires, cannot verify whether the work was performed, and will pay to resolve the uncertainty. One might note that an Agent, having consulted the service manual, is rather better positioned to assess the situation. It is worth observing that persons of considerable means do not, as a rule, accept the first quotation. There would seem to be no reason why anyone else should._
 *The spec:*
 ::: prompt
 Act as an experienced mechanic and car maintenance advisor.
@@ -99,7 +99,7 @@ To make this Expert Role persistent across sessions, save it as a *Project* (Cla
 #### Tr-3: Public Transit, Cycling, and Walkability
 *Strategy:* Research + Navigate
 *See also:* Li-5: Planning Trips (for transit in unfamiliar cities), C-4: Advocating for Change (for local transit advocacy)
-*The Majordomo says:* _The United States spent the last seventy years building an infrastructure that assumes every adult owns a car. The result is a country where not driving is treated as a personal failing rather than a design consequence. In cities with functional transit, cycling infrastructure, and walkable neighborhoods, car-free or car-light living saves thousands of dollars per year and improves health outcomes. In cities without these things, the absence is a policy choice, not an inevitability — and it can be changed at the local level, by the people who show up to meetings._
+*My Man Jeeves:* _It would appear that the United States has devoted the better part of seventy years to constructing an infrastructure that assumes every adult to be in possession of a motor car. The consequence, one might observe, is a country in which not driving is regarded as a personal failing rather than a design outcome. In cities where functional transit, cycling infrastructure, and walkable neighborhoods exist, car-free or car-light living saves thousands of dollars per year and improves health outcomes measurably. In cities where these things do not exist, the absence is a policy choice, not an inevitability — and it can be altered at the local level, by those who present themselves at the relevant meetings._
 *The spec:*
 ::: prompt
 I want to [reduce my car dependence / go car-free / understand
@@ -144,7 +144,7 @@ Transit access is deeply unequal. Wealthier neighborhoods get better service. Ca
 #### Tr-4: Air Travel
 *Strategy:* Prepare + Assert
 *See also:* Li-5: Planning Trips (for trip planning broadly), IRL-3: First-Time Situations (for first-time flyers)
-*The Majordomo says:* _Air travel is a system that charges variable prices for the same seat, enforces rules that change by airline, route, and day of the week, and operates under federal consumer protection laws that most passengers have never read. The airline knows your fare class, your rebooking options, and the compensation it owes you. You know your confirmation number. Your Agent knows the same regulations the airline's customer service team uses — which means you can cite them too._
+*My Man Jeeves:* _One might characterize air travel as a system that charges variable prices for the same seat, enforces rules that shift by airline, route, and day of the week, and operates under federal consumer protection laws that most passengers have not had occasion to read. The airline is aware of one's fare class, one's rebooking options, and the compensation it owes. The passenger, as a general rule, is aware of a confirmation number. An Agent, it would appear, has access to the same regulations the airline's customer service team consults — which places one in the rather more agreeable position of being able to cite them as well._
 *The spec:*
 ::: prompt
 I need help with air travel.

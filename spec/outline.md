@@ -66,7 +66,7 @@ Ten strategies. Each opens with a 90s sitcom episode scene (pixel art on a Trini
 #### [Prefix]-[#]: [Problem Title]
 Strategy: [which strategies apply]
 See also: [cross-references]
-The Majordomo says: [Adams-voice opener — 3-beat: name dysfunction, show asymmetry, give tool]
+My Man Jeeves: [Jeeves-voice opener — 3-beat: name dysfunction, show asymmetry, give tool]
 The spec: [monospace code block — the spec template]
 What to do with the output: [concrete next action]
 Callouts: [SCIENCE], [TIP], [FAIRNESS], [MEME], [ALSO], [SPEC]

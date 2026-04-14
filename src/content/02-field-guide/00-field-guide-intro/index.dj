@@ -14,6 +14,14 @@ Health insurance, mortgage lending, employment law, tax code, utility billing --
 
 The billionaire class has always had attorneys, accountants, and assistants who know these systems. That staff layer is what turns confusion into action. Your Agent is that layer. This book teaches you how to ask it about the system -- whichever system you are facing today.
 
+## My Man Jeeves
+
+[Reginald Jeeves](https://en.wikipedia.org/wiki/Jeeves) is P.G. Wodehouse's gentleman's personal gentleman, a valet, who solves every problem his employer cannot through unflappable calm, encyclopedic knowledge, and the quiet certainty that he already knows the answer. He is the quintessential majordomo. He first appeared in print in 1915; the first collection of his stories was called, naturally, _My Man Jeeves_.[^jeeves-1]
+
+In 1997, a search engine called [Ask Jeeves](https://en.wikipedia.org/wiki/Ask.com) promised exactly what this book delivers: ask a question in plain language, get a useful answer.[^jeeves-2] The technology was not ready. Ask Jeeves was a quarter century too early -- the way [General Magic](https://en.wikipedia.org/wiki/General_Magic) was fifteen years too early for the smartphone.[^jeeves-3] The idea was right. The infrastructure had not arrived.
+
+It has now. Every entry in this Field Guide opens with _My Man Jeeves_ -- the majordomo's assessment of the situation you are facing. He names the system, explains why it does not work for you, and points to what does. Then the spec takes over.
+
 ## How to Use an Entry
 
 The Field Guide is organized by life domain. Each entry covers a specific situation most people will encounter. Find your situation. Use the spec. Ask follow-ups when the response is too general.
@@ -23,10 +31,10 @@ Every entry follows this format:
 | Element | What it does |
 |---|---|
 | *Strategy* | Which strategy from Part One this entry uses |
-| *The Majordomo says* | An Adams-format description of the situation |
-| *The spec* | Ready to copy and adapt |
-| *What to do with the output* | Concrete next steps after the Agent responds |
-| *Science note* | Supporting research, where applicable |
+| *My Man Jeeves* | The definitive authoritative majordomo take |
+| *The Spec* | Ready to copy and adapt |
+| *What to do with the Output* | Concrete next steps after the Agent responds |
+| *Science Note* | Supporting research, where applicable |
 
 ## Asking Better Follow-Up Questions
 
@@ -45,3 +53,9 @@ These are the same techniques a good interviewer, a good doctor, or a good attor
 1. *The Scientific Method is the best tool we have.* Not perfect -- a process for being less wrong over time. When an entry cites research, it cites the current best evidence. Better evidence can update the recommendation. That is a feature, not a weakness.
 
 2. *Sociology is science.* Fuzzier than physics. The variables are harder to control and the sample sizes are messier. But the methods are real and the findings are peer-reviewed. The alternative to citing social science is guessing -- and guessing is what got us the systems this book teaches you to navigate.
+
+[^jeeves-1]: Jeeves first appeared in ["Extricating Young Gussie,"](https://en.wikipedia.org/wiki/Extricating_Young_Gussie) published in _The Saturday Evening Post_ in September 1915. [_My Man Jeeves_](https://en.wikipedia.org/wiki/My_Man_Jeeves), the first collection, followed in 1919. Wodehouse continued writing Jeeves stories until his final completed novel, _Aunts Aren't Gentlemen_ (1974).
+
+[^jeeves-2]: Ask Jeeves was founded in 1996 by Garrett Gruener and David Warthen and [launched in April 1997](https://en.wikipedia.org/wiki/Ask.com). Its premise -- natural language question answering -- was the right idea built on keyword matching and human editors. IAC acquired the company for $1.85 billion in 2005; the Jeeves character was dropped in 2006.
+
+[^jeeves-3]: [General Magic](https://en.wikipedia.org/wiki/General_Magic) spun out of Apple in 1990 and shipped Magic Cap devices in 1994 -- touchscreen handhelds with multimedia email, networked games, and e-commerce. The iPhone arrived in 2007. The 2018 documentary [_General Magic_](https://en.wikipedia.org/wiki/General_Magic_(film)) tells the story.
