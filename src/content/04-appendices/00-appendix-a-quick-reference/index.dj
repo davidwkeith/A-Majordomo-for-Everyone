@@ -73,10 +73,10 @@ _A printable PDF version is available at [a-majordomo-for-everyone.dwk.io/quick-
 | Ho-1: Maintaining Your Home | Diagnose | "My [appliance/system] is [describing the behavior]..." |
 | Ho-2: Home Repair and DIY | Diagnose + Navigate (Expert Role) | "Act as an experienced home repair advisor..." |
 | Ho-3: Right-to-Repair | Diagnose + Navigate (Expert Role) | "Act as an experienced right-to-repair technician..." |
-| Ho-5: Knowing Your Rights as a Renter or Homeowner | Assert + Decode | _(stub -- see full entry)_ |
-| Ho-6: Understanding Your Utility Bill and Energy Options | Decode + Research | "I want to understand my utility bill and find out if there are programs..." |
-| Ho-7: Getting a Home | Navigate + Research | _(stub -- see full entry)_ |
-| Ho-8: Gardening & Landscaping | Diagnose + Research (Expert Role) | "Act as an experienced Master Gardener..." |
+| Ho-4: Knowing Your Rights as a Renter or Homeowner | Assert + Decode | "I have a question about my rights as a [renter / homeowner / HOA member]..." |
+| Ho-5: Understanding Your Utility Bill and Energy Options | Decode + Research | "I want to understand my utility bill and find out if there are programs..." |
+| Ho-6: Getting a Home | Navigate + Research | "I need to find a place to live..." |
+| Ho-7: Gardening & Landscaping | Diagnose + Research (Expert Role) | "Act as an experienced Master Gardener..." |
 
 ---
 
@@ -95,6 +95,7 @@ _A printable PDF version is available at [a-majordomo-for-everyone.dwk.io/quick-
 | Li-9: Making a Household Budget That Holds | Draft + Decide | "I want to build a household budget that actually works..." |
 | Li-10: Language Learning Partner | Research + Navigate (Expert Role) | "Act as a patient language tutor for [language]..." |
 | Li-11: Escaping Social Media | Research + Decide | "I want to reduce my social media use [or help my kid reduce theirs]..." |
+| Li-12: Developing a Habit | Research + Draft | "I want to build a habit of [specific habit]..." |
 
 ---
 
@@ -130,12 +131,12 @@ _A printable PDF version is available at [a-majordomo-for-everyone.dwk.io/quick-
 
 | Entry | Strategy | Spec opener |
 |---|---|---|
-| Ch-1: Shopping Your Values | Research + Decide | _(stub -- see full entry)_ |
-| Ch-2: Understanding a Contractor Bid | Decode + Research | _(stub -- see full entry)_ |
-| Ch-3: Identifying and Caring for Plants | Diagnose + Research (Expert Role) | _(stub -- see full entry)_ |
+| Ch-1: Shopping Your Values | Research + Decide | "I'm trying to make a purchasing decision and I want to shop my values..." |
+| Ch-2: Understanding a Contractor Bid | Decode + Research | "I received a bid from a contractor and I want to understand it..." |
+| Ch-3: Identifying and Caring for House Plants | Diagnose + Research (Expert Role) | "Act as an experienced horticulturist and houseplant specialist..." |
 | Ch-4: Dog Training | Diagnose + Navigate (Expert Role) | "Act as a certified positive-reinforcement dog trainer..." |
 | Ch-5: Cooking and Culinary Skills | Research + Diagnose (Expert Role) | "Act as a culinary instructor..." |
-| Ch-6: Optimizing Manual Chores | Diagnose + Navigate (Expert Role) | _(stub -- see full entry)_ |
+| Ch-6: Optimizing Manual Chores | Diagnose + Navigate (Expert Role) | "Act as a household efficiency consultant..." |
 
 ---
 
@@ -149,7 +150,7 @@ _A printable PDF version is available at [a-majordomo-for-everyone.dwk.io/quick-
 
 ---
 
-### Online Presence (WB-)
+### Computer & Web (WB-)
 
 | Entry | Strategy | Spec opener |
 |---|---|---|
@@ -162,6 +163,17 @@ _A printable PDF version is available at [a-majordomo-for-everyone.dwk.io/quick-
 | WB-7: Writing in CommonMark | Decode + Draft | "I want to learn CommonMark so I can write content for my website..." |
 | WB-8: Blogging and Journaling | Create + Draft | "I want to start [blogging publicly / journaling privately / both]..." |
 | WB-9: Preservation and Legacy | Research + Navigate | "I want to make sure my online work -- writing, photos, creative projects -- survives..." |
+
+---
+
+### Creative (Cr-)
+
+| Entry | Strategy | Spec opener |
+|---|---|---|
+| Cr-1: Taking Better Photos | Create + Diagnose | "I want to take better photos with [my phone / my camera]..." |
+| Cr-2: Learning Visual Design | Create + Research (Expert Role) | "Act as an expert visual designer. I need help with [a website / a poster / a flyer]..." |
+| Cr-3: Editing a Movie | Create + Navigate | "I want to edit a video..." |
+| Cr-4: Writing a Book (Like This One) | Create + Draft | "I want to write a book about [topic / story / argument]..." |
 
 ---
 

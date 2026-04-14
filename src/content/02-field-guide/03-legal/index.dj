@@ -19,7 +19,7 @@ Paul and Jamie Buchman spent six seasons of _[Mad About You](https://en.wikipedi
 
 #### L-1: Negotiating a Contract
 *Strategy:* Decode + Assert
-*See also:* Ho-5: Knowing Your Rights as a Renter or Homeowner (for lease-specific rights), Ch-2: Understanding a Contractor Bid, M-3: Understanding a Mortgage
+*See also:* Ho-4: Knowing Your Rights as a Renter or Homeowner (for lease-specific rights), Ch-2: Understanding a Contractor Bid, M-3: Mortgages
 *The Majordomo says:* _Contracts are written by lawyers for lawyers, with the implicit understanding that the other party also has a lawyer. When one party does not have a lawyer, the contract functions as intended._
 
 [contract-highlighted]{.art}
@@ -191,42 +191,11 @@ Racial disparities in traffic enforcement are among the most thoroughly document
 [^l4-1]: Pierson, E., et al. (2020). "A large-scale analysis of racial disparities in police stops across the United States." _Nature Human Behaviour_, 4, 736–745. Data available at [openpolicing.stanford.edu](https://openpolicing.stanford.edu).
 
 
-#### Li-3: Recognizing a Scam
-*Strategy:* Research + Draft
-*See also:* Li-1: Preparing for a Difficult Conversation (for talking to a loved one who has been targeted)
-*The Majordomo says:* _Scams work because they exploit responses that are, in every other context, healthy: trust, urgency, deference to authority, desire to help. The person who falls for one was not being stupid. They were being human in a situation engineered by professionals to weaponize that humanity. The FTC reports Americans lost over $10 billion to fraud in 2023. The shame that follows a successful scam suppresses reporting, so the actual number is higher. The shame is the second scam._
-*The spec:*
-::: prompt
-I think I [or someone I care about] may be dealing with a scam.
-Here is what happened: [describe the situation — the initial contact,
-what was asked for, what was promised, what has been given so far].
-Please:
-1. Tell me if this matches a known scam pattern and which one
-2. Explain what the scam is actually trying to accomplish
-3. Tell me what to do RIGHT NOW — what to stop, who to call,
-   what to document
-4. If money or information has already been sent, what recovery
-   options exist
-Be direct. I need the honest answer.
-:::
-*What to do with the output:* If you are helping a loved one, lead with concern, not correction. The shame is already doing damage. Your Agent can help you draft that conversation (see Li-1). If you are the one targeted, file with the FTC at [reportfraud.ftc.gov](https://reportfraud.ftc.gov) and your state attorney general. Speed matters — some financial transactions can be reversed within 24-48 hours.
-
-::: science
-Cialdini's six principles of influence (1984) — reciprocity, commitment, social proof, authority, liking, scarcity — are also a scam operator's playbook. The same cognitive shortcuts that make human cooperation possible make human exploitation possible.[^li3-1]
-:::
-
-
-::: fairness
-Your Agent may describe common scam demographics in ways that reinforce stereotypes. Scam vulnerability correlates with cognitive load and isolation, not intelligence or age. Ask your Agent to focus on _patterns of approach_ rather than _profiles of victims._
-:::
-
-
-<!-- RESEARCH NEEDED: FTC 2023 Sentinel Network report — verify the $10B figure and get exact breakdown by scam type. AARP has longitudinal data on elder fraud that's more granular. Also need data on recovery rates by scam type and reporting speed. -->
-
-<!-- RESEARCH NEEDED (HUMAN CONDITION): The psychology of shame after fraud. There is a documented "secondary victimization" — the social response to being scammed causes harm comparable to the financial loss itself. Cross (2015) "No laughing matter" in International Review of Victimology is the key reference. Trust is a prosocial trait. The cultural response — "you should have known better" — punishes the victim for a quality we need more of, not less. This is one of the cruelest information asymmetries in the book: the system that should support victims (social networks, family) often compounds the harm. Needs deeper treatment than a footnote. -->
-
-<!-- RESEARCH NEEDED (HUMAN CONDITION): The counterintuitive generational data. FTC 2023 shows Gen Z reports more fraud incidents than Boomers. Boomers lose more per incident (romance scams, investment fraud). The "digital native" assumption is wrong — familiarity breeds overconfidence, not immunity. This flips the cultural narrative and deserves a strong callout or meme. -->
-
-<!-- RESEARCH NEEDED (HUMAN CONDITION): Romance scams exploit loneliness, which the Surgeon General has declared an epidemic. The intersection of isolation, digital communication, and parasocial bonding is underresearched but early work (Whitty 2013, 2015) suggests the grief after discovering a romance scam mirrors grief after a real relationship ends. The person's feelings were real even though the relationship wasn't. This challenges the dismissive framing most people bring to "catfishing" stories and deserves space. -->
-
-[^li3-1]: Cialdini, R.B. (1984). _Influence: The Psychology of Persuasion._ William Morrow.
+<!-- BRAINSTORM: Future Legal entries
+— L-5: Immigration Basics — navigating USCIS, visa processes, naturalization. The system is opaque by design.
+— L-6: Divorce and Custody — the second most common legal event in adult life after employment. Property, custody, mediation vs. litigation.
+— L-7: Name Change / Gender Marker — bureaucratic maze, jurisdiction-dependent, high emotional stakes.
+— L-8: Identity Theft Recovery — time-sensitive, multi-step, panic-inducing. FTC recovery plan, credit freezes, police reports.
+— L-9: Landlord-Tenant Disputes — overlaps with Ho-4 but the Legal strategy is distinct. Security deposits, habitability, eviction defense.
+— L-10: Wills and Estate Basics — what happens when someone dies and left (or didn't leave) a will. Probate, intestacy, executor duties.
+-->

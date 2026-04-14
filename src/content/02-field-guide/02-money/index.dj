@@ -129,7 +129,7 @@ Paste or upload your credit card statement directly — file upload works in Cla
 
 #### M-3: Mortgages
 *Strategy:* Decode + Decide
-*See also:* L-1: Negotiating a Contract (for the purchase agreement), Ho-7: Getting a Home, M-6: Financial Coach
+*See also:* L-1: Negotiating a Contract (for the purchase agreement), Ho-6: Getting a Home, M-6: Financial Coach
 *The Majordomo says:* _The word "mortgage" comes from the Old French mort gage — literally "death pledge." The name has survived because it is accurate: you are pledging a significant portion of your future income, for decades, on terms the bank sets and you sign. The bank knows the rate environment, the property valuation methodology, the insurance requirements, the tax escrow math, and the seventeen fees buried in the closing disclosure. You know that you want the house. Your Agent can read the closing disclosure the way the bank's attorney reads it — which means you can negotiate the way the bank's attorney negotiates._
 *The spec:*
 ::: prompt
@@ -375,3 +375,10 @@ The single highest-leverage financial question: _"I have [$X] that I don't need 
 ::: also
 To make the Financial Coach persistent across sessions, save the Expert Role as a *Project* (Claude), *Gem* (Gemini), or *Custom GPT* (ChatGPT). See [Appendix G](06-appendix-g-feature-table.xhtml).
 :::
+
+<!-- BRAINSTORM: Future Money entries
+— M-7: Filing Your Taxes — the most universal annual information asymmetry. TurboTax lobbied to keep the system complex. Your Agent can explain what you owe and why.
+— M-8: Insurance Beyond Health — auto, renters, homeowners, life, umbrella. Everyone has it, few understand what they're paying for.
+— M-9: Student Loans — $1.7T in outstanding debt. IBR, PSLF, consolidation — dense, consequential, and changing with every administration.
+— M-10: College Financial Aid Letters — decoding award letters, understanding net price, comparing offers. The sticker price is not the price.
+-->

@@ -14,29 +14,78 @@ _The domestic labor that keeps a household running — shopping, cooking, cleani
 
 #### Ch-1: Shopping Your Values
 *Strategy:* Research + Decide
-_(Stub -- full entry to be drafted)_
-*The Majordomo says:* _Where can I find the best price on brisket? What's the difference between Free Range and Cage-Free Eggs? What are the risks of this Manager's Special? Is Lab Grown meat safe? How can I tell if it's local? Just take a picture and your Agent will do your research for you. Vote with your dollars, that's the Billionaires worst nightmare. The Agent can shop Amazon, local, b-corp, free delivery, best deal. Any combination of preferences. Each dollar spent is a vote for the world you want. Agent's don't judge._
+*See also:* Ch-5: Cooking and Culinary Skills (for what to do with what you bought), Ho-3: Right-to-Repair (for durable goods), H-8: Wellness and Nutrition Coach (for dietary needs)
+*The Majordomo says:* _Every purchase is a small policy decision made under time pressure with inadequate information. The difference between "free range" and "cage-free" eggs is a regulatory distinction that costs you $2 per dozen and an hour of research to verify. The difference between a $40 toaster that lasts two years and a $90 toaster that lasts fifteen is invisible at point of sale and obvious in retrospect. The billionaire class has people who handle procurement --- sourcing by quality, ethics, durability, and price in whatever combination the household prefers. You have a label, a search engine optimized for ad revenue, and eleven minutes before the store closes. Your Agent can evaluate all four dimensions simultaneously, without a sponsored result in the mix._
+*The spec:*
+::: prompt
+I need to buy [product or grocery item].
+My priorities, in order: [rank these or remove ones you
+don't care about]
+— Price: [budget or range]
+— Ethics: [labor practices, environmental impact,
+  animal welfare, local sourcing]
+— Durability: [how long should it last, repairability]
+— Certifications that matter to me: [organic, Fair Trade,
+  B Corp, union-made, specific labels]
+My constraints: [where I can shop, delivery needs, timeline]
+Please:
+1. Recommend specific products or brands that match my priorities
+2. Explain what the relevant certifications actually mean ---
+   not the marketing, the standard
+3. Flag any greenwashing or misleading labels I should watch for
+4. If my priorities conflict (e.g., ethical + cheapest),
+   show me the tradeoff honestly
+:::
+*What to do with the output:* Start with one category you buy regularly --- eggs, coffee, cleaning supplies, whatever you spend the most on without thinking. Run it through your Agent once. The research compounds: once you know which brands align with your values, the weekly shop gets faster, not slower.
 
-- Durability & Repairability
-- Cost & Incentives
-- Ethical alignment
-- Take a photo of the grocery isle, or weekly flying.
-- Find cheaper alternatives
-- Decode certifications and labels
+::: tip
+Take a photo of the grocery aisle shelf or the product label and send it to your Agent. Ask: _"Which of these options best fits [your priorities]? What do these certifications actually guarantee?"_ This works in the store, in real time, on your phone.
+:::
+
+
+::: fairness
+"Vote with your dollar" is real, but it is also a framework that works better the more dollars you have. Ethical consumption is easier at $120,000 a year than at $35,000. Your Agent will not judge your budget. If you tell it your priority is price, it will optimize for price. If you tell it your priority is ethics within a budget, it will find the best available option --- not lecture you about what you should be spending. The tool works for your values at your price point.
+:::
+
+
+<!-- RESEARCH NEEDED: Certification standards — what "organic," "free range," "cage-free," "pasture-raised," "Fair Trade," "Rainforest Alliance," and "B Corp" actually require vs. what consumers think they require. USDA organic standards vs. EU organic standards. The FTC Green Guides and enforcement history for greenwashing claims. -->
+<!-- RESEARCH NEEDED: Durability and repairability ratings — sources like Buy It for Life communities, Consumer Reports longevity data, iFixit repairability scores. How to frame "cost per year of ownership" as the real price of a product. -->
+<!-- RESEARCH NEEDED: Ethical sourcing databases — Good On You (fashion), EWG (cleaning/personal care), Seafood Watch (fish), Fair Trade USA vs. Fair Trade International distinctions. -->
+<!-- RESEARCH NEEDED (HUMAN CONDITION): The guilt economy around ethical consumption. The reader who can't afford the organic eggs should not feel worse after reading this entry than before. The framing must acknowledge that structural change matters more than individual purchasing decisions while still respecting the reader's desire to align their spending with their values. -->
 
 ---
 
 #### Ch-2: Understanding a Contractor Bid
 *Strategy:* Decode + Research
-*See also:* L-1: Negotiating a Contract (the bid becomes a contract), Ho-2: Home Repair and DIY (should you even hire someone?)
-_(Stub -- full entry to be drafted)_
+*See also:* L-1: Negotiating a Contract (the bid becomes a contract), Ho-2: Home Repair and DIY (should you even hire someone?), Ho-1: Maintaining Your Home (for diagnosing the problem first)
+*The Majordomo says:* _A contractor bid is a document that assumes you know what you are looking at. It lists materials you cannot evaluate, labor rates you cannot benchmark, and timelines you cannot verify, then asks you to sign at the bottom. The contractor has written hundreds of bids. You have read perhaps three in your life, all for different trades, none of which prepared you for this one. This information asymmetry is not malice --- most contractors are honest --- but it means that the honest contractor and the dishonest one hand you the same-looking piece of paper, and you have no way to tell the difference without doing the research. Your Agent has read thousands of bids and knows what each line item should cost in your area._
+*The spec:*
+::: prompt
+I received a contractor bid. [Paste the bid text, or describe
+the line items and totals.]
+The project: [what the work is — roof replacement, bathroom
+remodel, deck repair, HVAC install, etc.]
+My location: [city/region, for cost benchmarking]
+Please:
+1. Explain each line item in plain language — what it is,
+   why it's there, and whether the price is in the normal
+   range for my area
+2. Flag anything that seems unusually high, unusually low,
+   or missing
+3. Identify what's *not* in this bid that should be —
+   permits, cleanup, warranty, disposal, contingency
+4. Tell me what questions to ask the contractor before signing
+5. If this is a "fast, cheap, or done right — pick two"
+   situation, which two is this bid optimizing for?
+:::
+*What to do with the output:* Get at least two more bids for comparison --- your Agent can tell you what to ask for to make the bids comparable. The lowest bid is not the best bid. The bid that accounts for the most contingencies usually is. Before signing, read the bid with L-1: Negotiating a Contract --- once you sign, the bid becomes the contract.
 
 [annotated-contractor-bid]{.art}
 
-- Cross reference Legal contracts
-- Explain the different bids using the "Fast, Cheap, and Correctly Done, pick any two" meme.
-- Review design PDFs: "What's not spec'd out enough for the criteria I care about?" 
-- Review permits (cross-lint to legal)
+::: meme
+Fast, cheap, and correctly done --- pick any two. This is the iron triangle of contractor work, and it is the single most useful framework for evaluating a bid. A bid that promises all three is lying about at least one. Ask your Agent which two the bid is optimizing for, and whether that matches what you actually need.
+:::
+
 
 ::: also
 Paste or upload your document directly — file upload works in Claude, Gemini, ChatGPT, and Copilot. See [Appendix G](06-appendix-g-feature-table.xhtml).
@@ -48,19 +97,73 @@ If the bid arrived as a PDF or email, copy the text — especially the line item
 :::
 
 
+::: tip
+Ask your Agent to review any design PDFs or architectural drawings attached to the bid: _"What's not specified enough in this plan for the criteria I care about?"_ Missing specifications are where change orders come from, and change orders are where budgets die.
+:::
+
+
+<!-- RESEARCH NEEDED: Average cost ranges by trade and region — HomeAdvisor, Angi, and RSMeans data. How much variation is normal for the same job in the same metro area. What percentage of residential projects go over budget, and the most common causes (typically change orders from underspecified scope). -->
+<!-- RESEARCH NEEDED: Permit requirements — when permits are required, who is responsible for pulling them (contractor vs. homeowner), and the consequences of unpermitted work (insurance, resale, safety). Cross-reference with local legal requirements. -->
+
+
 ---
 
 #### Ch-3: Identifying and Caring for House Plants
 *Strategy:* Diagnose + Research (Expert Role)
-_(Stub -- full entry to be drafted)_
+*See also:* Ho-7: Gardening & Landscaping (for outdoor plants), Ch-1: Shopping Your Values (before buying the next one)
+*The Majordomo says:* _The houseplant industrial complex sells you a living thing with a plastic tag that says "bright indirect light" and "water when dry" --- instructions so vague they could apply to a cactus or a fern, two organisms with opposite survival requirements. The plant then dies, and you conclude you lack a green thumb, which is a character trait the plant care industry invented to explain away the fact that they sold you a tropical understory species and told you nothing about it. The billionaire's interior landscaper knows the species, the light requirements, the humidity range, and the watering schedule. Your Agent knows the same things and can identify the plant from a photo._
+*The spec:*
+::: prompt
+Act as an experienced indoor plant specialist.
+Here is my situation:
+— The plant: [name if known, or describe it — leaf shape,
+  size, any flowers, the tag if you still have it.
+  Or: send a photo.]
+— The problem: [yellowing leaves / brown tips / drooping /
+  dropping leaves / white spots / bugs / not growing /
+  just bought it and want to keep it alive]
+— My conditions: [which direction do the windows face,
+  how much light does the spot get, how often do I water,
+  do I use tap water or filtered, is there a heating vent
+  or AC draft nearby]
+— My skill level: [I've killed every plant I've owned /
+  I keep a few alive / I have a collection]
+Please:
+1. Identify the plant if I haven't, and tell me its actual
+   care requirements — not the tag version
+2. Diagnose what's likely wrong based on my description
+3. Give me a specific care routine: how often to water,
+   how to check if it needs water, light and humidity needs
+4. Tell me the one thing most people get wrong with this
+   species
+:::
+*What to do with the output:* Change one variable at a time and wait two weeks before concluding it didn't work. Plants respond slowly. If the diagnosis is "too much water," your job is to resist watering for longer than feels comfortable. Most houseplants are killed by overwatering, not neglect.
 
-You like having plants, but you're don't have a green thumb and don't want to pay for a service, that's what billionaires do.
+::: tip
+Send a photo. Your Agent can identify most common houseplants from a clear photo of the leaves and growth habit. Include a photo of the problem area --- the yellowing leaf, the brown tips, the white residue on the soil. Visual diagnosis is dramatically more accurate than text description for plants.
+:::
+
+
+::: science
+The "green thumb" is not a personality trait. It is a knowledge gap. A 2015 study in _HortTechnology_ found that the primary predictor of houseplant survival was whether the owner knew the species-specific water and light requirements --- not experience, not intuition, not some ineffable botanical gift. Know the plant. Follow the requirements. That's the whole secret.[^ch3-1]
+:::
+
+
+::: also
+To make this Expert Role persistent across sessions, save it as a *Project* (Claude), *Gem* (Gemini), or *Custom GPT* (ChatGPT). See [Appendix G](06-appendix-g-feature-table.xhtml).
+:::
+
+
+<!-- RESEARCH NEEDED: Citation for the HortTechnology study on houseplant survival predictors. Verify year, authors, and specific findings. If this specific study doesn't exist, find the best available research on why houseplants die and what predicts success. -->
+<!-- RESEARCH NEEDED (HUMAN CONDITION): The shame of killing plants. People genuinely feel bad about it, and the "plant parent" culture on social media makes it worse. The entry should validate that the information gap is real and the marketing is misleading without being preachy about it. -->
+
+[^ch3-1]: <!-- RESEARCH NEEDED --> Verify citation: HortTechnology study on houseplant survival predictors, approximately 2015.
 
 ---
 
 #### Ch-4: Dog Training
 *Strategy:* Diagnose + Navigate (Expert Role)
-*See also:* Ho-5: Knowing Your Rights as a Renter or Homeowner (for pet-related housing rules)
+*See also:* Ho-4: Knowing Your Rights as a Renter or Homeowner (for pet-related housing rules)
 *The Majordomo says:* _Dog trainers charge $50 to $150 per session and are, in most cases, unregulated. The evidence base for dog training has shifted substantially in the last twenty years toward positive reinforcement methods, a fact that has not fully reached all practitioners charging $150 per session. Your Agent has read the current research._
 *The spec:*
 ::: prompt
@@ -149,11 +252,63 @@ To make this Expert Role persistent across sessions, save it as a *Project* (Cla
 
 #### Ch-6: Optimizing Manual Chores
 *Strategy:* Diagnose + Navigate (Expert Role)
-_(Stub -- full entry to be drafted)_
+*See also:* Ho-1: Maintaining Your Home (for home systems maintenance), H-8: Wellness and Nutrition Coach (when physical limitations affect chore capacity)
+*The Majordomo says:* _Domestic labor is the only category of work that is simultaneously essential, unpaid, invisible, and expected to organize itself. A factory with the same number of recurring tasks --- laundry, dishes, floors, surfaces, bathrooms, trash, meals, groceries --- would have a process engineer, a schedule, and a workflow. A household has one person who noticed the bathroom needed cleaning and two people who didn't, plus a vague mutual agreement that "we should be better about this" that has never once produced a system. The billionaire class has household staff with task lists, schedules, and supply inventories. Your Agent can build the same system for the staff you actually have, which is you._
+*The spec:*
+::: prompt
+Act as a household operations consultant.
+My household: [how many people, ages, any mobility or
+health limitations, pets]
+My living situation: [apartment/house, approximate size]
+The chores I'm trying to manage: [list them — laundry,
+dishes, floors, bathrooms, kitchen deep clean, trash/recycling,
+grocery shopping, meal prep, yard work, etc.]
+My biggest pain points: [what falls through the cracks,
+what causes friction, what takes the most time]
+My schedule constraints: [work hours, when I have time
+for chores, how much time per day/week I can realistically
+spend]
+Please:
+1. Build a weekly chore schedule that distributes tasks
+   across available time --- don't front-load everything
+   into Saturday
+2. For each task, give me the minimum effective version
+   (how to do it well in the least time) and how often
+   it actually needs to happen
+3. Identify which tasks can be batched, which benefit from
+   a fixed day, and which are better done in small daily
+   increments
+4. Flag where the household friction is likely coming from
+   and suggest a system, not a conversation
+:::
+*What to do with the output:* Print the schedule or put it on a shared digital calendar. The system only works if everyone in the household can see it. Run it for two weeks before adjusting --- most chore systems fail because they get revised after three days, before anyone has had a chance to build the habit.
 
-- Laundry
-- Cleaning
-- Maintenance
-- Automation trade-offs
-- Occupational Therapy
+::: science
+Occupational therapists have studied household task optimization for decades, primarily for clients with physical or cognitive limitations. Their findings apply to everyone: batching similar tasks reduces transition time, fixed schedules reduce decision fatigue, and "clean as you go" systems outperform "cleaning day" systems for maintaining baseline tidiness. The research consistently shows that the obstacle to a clean house is not motivation --- it is the absence of a system that works with your actual energy and schedule.[^ch6-1]
+:::
+
+
+::: tip
+Ask your Agent for the _minimum effective frequency_ for each chore. Toilets need cleaning weekly. Baseboards do not. Sheets should be washed every one to two weeks. The inside of your oven can go months. Most people either clean everything too often (burnout) or nothing often enough (chaos). Your Agent can build a tiered schedule: daily tasks (5 minutes), weekly tasks (30 minutes each), and monthly tasks (one per weekend).
+:::
+
+
+::: fairness
+The unequal distribution of domestic labor is one of the most documented findings in sociology. In heterosexual households, women perform roughly 60% of housework even when both partners work full-time --- and the gap is larger for households with children. This entry builds systems, not guilt. But a system that makes the labor visible --- on a calendar, with names attached --- does more to equalize the distribution than any conversation about "helping out more" ever has.[^ch6-2]
+:::
+
+
+<!-- RESEARCH NEEDED: Citation for occupational therapy research on household task optimization. Look for studies on task batching, fixed vs. flexible schedules, and "clean as you go" vs. dedicated cleaning sessions. -->
+<!-- RESEARCH NEEDED: Citation for the 60% domestic labor statistic. Bureau of Labor Statistics American Time Use Survey is the standard source. Verify current numbers. -->
+<!-- RESEARCH NEEDED: Automation trade-offs — robot vacuums, dishwashers, laundry services, grocery delivery. When does paying for automation make economic sense vs. doing it yourself? The calculus changes with income and household size. -->
+
+[^ch6-1]: <!-- RESEARCH NEEDED --> Verify citation: occupational therapy research on household task optimization and batching efficiency.
+[^ch6-2]: <!-- RESEARCH NEEDED --> Bureau of Labor Statistics, American Time Use Survey. Verify current year and specific percentages for domestic labor distribution by gender.
+
+<!-- BRAINSTORM: Future Chores entries
+— Ch-7: Meal Planning on a Budget — the intersection of nutrition, budget, time, and family preferences. The Agent can optimize across all four simultaneously.
+— Ch-8: Stain Removal and Fabric Care — the lost art of garment maintenance. Every fabric has rules; your Agent knows them.
+— Ch-9: Seasonal Home Prep — winterizing, spring cleaning, hurricane prep, wildfire readiness. Region-specific, deadline-driven.
+— Ch-10: Finding and Managing Service Providers — cleaners, handypeople, lawn care. Vetting, scheduling, and knowing what to pay.
+-->
 
