@@ -261,7 +261,7 @@ Her name's Lena. The thing everyone knows about her is that she
 remembers everything you've ever told her. You mention once that
 you like a weird flavor of tea and two years later it's in your
 Christmas stocking. She pays attention to people in a way that
-makes you feel like you matter. That's the thing.
+makes you feel like you matter.
 :::
 
 *Your Agent:*
@@ -381,12 +381,12 @@ The architecture has five slots and a time budget. That is the whole skill. Most
 
 ### Example 2: A Branching Short Story
 
-The situation: you are writing a short story for a literary journal. A woman cleaning out her late father's apartment finds a shoebox in the back of his closet---letters, birthday cards, school photos of a child she has never seen. The return address is in another city. The photos span about ten years and then stop in 1996. She has a half-sibling she never knew about. Two branch points: whether she tracks down the sibling or leaves it alone, and whether the sibling already knew about her or didn't. Four paths. You want to generate all four and pick the strongest before committing to a linear version for submission.
+The situation: you have a short story you want to write. A woman cleaning out her late father's apartment finds a shoebox in the back of his closet---letters, birthday cards, school photos of a child she has never seen. The return address is in another city. The photos span about ten years and then stop in 1996. She has a half-sibling she never knew about. You know the premise but you're stuck on the ending---you can see at least two directions and you don't know which is stronger. Two branch points: whether she tracks down the sibling or leaves it alone, and whether the sibling already knew about her or didn't. Four paths. You want to generate all four and pick the strongest before committing to a linear version.
 
 *Your opening message:*
 
 ::: prompt
-I'm writing a 3,000-word literary short story. A woman cleaning
+I'm writing a short story, about 3,000 words. A woman cleaning
 out her dead father's apartment finds letters and photos that
 reveal she has a half-sibling she never knew about. Two branch
 points:
@@ -396,7 +396,7 @@ and lets it go.
 Branch 2: The sibling already knew about her vs. didn't.
 
 Four possible endings. I want to spec all four and pick the
-strongest for a linear version. Here's what I know: she's 47,
+strongest. Here's what I know: she's 47,
 divorced, was close to her father, and is doing the apartment
 alone because there's no one else to do it. The photos stop
 in 1996---the sibling would have been about 12. She doesn't
