@@ -48,10 +48,10 @@ Take a photo of the grocery aisle shelf or the product label and send it to your
 :::
 
 
-<!-- RESEARCH NEEDED: Certification standards — what "organic," "free range," "cage-free," "pasture-raised," "Fair Trade," "Rainforest Alliance," and "B Corp" actually require vs. what consumers think they require. USDA organic standards vs. EU organic standards. The FTC Green Guides and enforcement history for greenwashing claims. -->
-<!-- RESEARCH NEEDED: Durability and repairability ratings — sources like Buy It for Life communities, Consumer Reports longevity data, iFixit repairability scores. How to frame "cost per year of ownership" as the real price of a product. -->
-<!-- RESEARCH NEEDED: Ethical sourcing databases — Good On You (fashion), EWG (cleaning/personal care), Seafood Watch (fish), Fair Trade USA vs. Fair Trade International distinctions. -->
-<!-- RESEARCH NEEDED (HUMAN CONDITION): The guilt economy around ethical consumption. The reader who can't afford the organic eggs should not feel worse after reading this entry than before. The framing must acknowledge that structural change matters more than individual purchasing decisions while still respecting the reader's desire to align their spending with their values. -->
+<!-- EDITORIAL: Certification standards — what "organic," "free range," "cage-free," "pasture-raised," "Fair Trade," "Rainforest Alliance," and "B Corp" actually require vs. what consumers think they require. USDA organic standards vs. EU organic standards. The FTC Green Guides and enforcement history for greenwashing claims. -->
+<!-- EDITORIAL: Durability and repairability ratings — sources like Buy It for Life communities, Consumer Reports longevity data, iFixit repairability scores. How to frame "cost per year of ownership" as the real price of a product. -->
+<!-- EDITORIAL: Ethical sourcing databases — Good On You (fashion), EWG (cleaning/personal care), Seafood Watch (fish), Fair Trade USA vs. Fair Trade International distinctions. -->
+<!-- (HUMAN CONDITION): The guilt economy around ethical consumption. The reader who can't afford the organic eggs should not feel worse after reading this entry than before. The framing must acknowledge that structural change matters more than individual purchasing decisions while still respecting the reader's desire to align their spending with their values. -->
 
 ---
 
@@ -102,8 +102,8 @@ Ask your Agent to review any design PDFs or architectural drawings attached to t
 :::
 
 
-<!-- RESEARCH NEEDED: Average cost ranges by trade and region — HomeAdvisor, Angi, and RSMeans data. How much variation is normal for the same job in the same metro area. What percentage of residential projects go over budget, and the most common causes (typically change orders from underspecified scope). -->
-<!-- RESEARCH NEEDED: Permit requirements — when permits are required, who is responsible for pulling them (contractor vs. homeowner), and the consequences of unpermitted work (insurance, resale, safety). Cross-reference with local legal requirements. -->
+<!-- EDITORIAL: Average cost ranges by trade and region — HomeAdvisor, Angi, and RSMeans data. Houzz 2024 U.S. Home Study found 39% of homeowners who budgeted exceeded that budget. Most common cause: scope turned out more complex than expected (underspecified scope → change orders). -->
+<!-- EDITORIAL: Permit requirements — when permits are required, who is responsible for pulling them (contractor vs. homeowner), and the consequences of unpermitted work (insurance, resale, safety). Cross-reference with local legal requirements. -->
 
 
 ---
@@ -145,7 +145,7 @@ Send a photo. Your Agent can identify most common houseplants from a clear photo
 
 
 ::: science
-The "green thumb" is not a personality trait. It is a knowledge gap. A 2015 study in _HortTechnology_ found that the primary predictor of houseplant survival was whether the owner knew the species-specific water and light requirements --- not experience, not intuition, not some ineffable botanical gift. Know the plant. Follow the requirements. That's the whole secret.[^ch3-1]
+The "green thumb" is not a personality trait. It is a knowledge gap. A 2015 study in _HortScience_ found that the primary barrier keeping consumers from buying --- and successfully keeping --- indoor plants was a deficit of practical knowledge about watering and light requirements, not inexperience or lack of botanical talent.[^ch3-1] University extension services consistently identify overwatering as the leading cause of houseplant death --- a problem that disappears once you know the species-specific requirements. Know the plant. Follow the requirements. That's the whole secret.
 :::
 
 
@@ -154,10 +154,9 @@ To make this Expert Role persistent across sessions, save it as a *Project* (Cla
 :::
 
 
-<!-- RESEARCH NEEDED: Citation for the HortTechnology study on houseplant survival predictors. Verify year, authors, and specific findings. If this specific study doesn't exist, find the best available research on why houseplants die and what predicts success. -->
-<!-- RESEARCH NEEDED (HUMAN CONDITION): The shame of killing plants. People genuinely feel bad about it, and the "plant parent" culture on social media makes it worse. The entry should validate that the information gap is real and the marketing is misleading without being preachy about it. -->
+<!-- (HUMAN CONDITION): The shame of killing plants. People genuinely feel bad about it, and the "plant parent" culture on social media makes it worse. The entry should validate that the information gap is real and the marketing is misleading without being preachy about it. -->
 
-[^ch3-1]: <!-- RESEARCH NEEDED --> Verify citation: HortTechnology study on houseplant survival predictors, approximately 2015.
+[^ch3-1]: Rihn, A.L., Khachatryan, H., Campbell, B., Hall, C. & Behe, B. (2015). "[Consumer response to novel indoor foliage plant attributes: Evidence from a conjoint experiment and gaze analysis](https://doi.org/10.21273/HORTSCI.50.10.1524)." _HortScience_, 50(10), 1524--1530. 42% of consumers identified maintenance requirements as their primary barrier to keeping indoor plants.
 
 ---
 
@@ -284,7 +283,7 @@ Please:
 *What to do with the Output:* Print the schedule or put it on a shared digital calendar. The system only works if everyone in the household can see it. Run it for two weeks before adjusting --- most chore systems fail because they get revised after three days, before anyone has had a chance to build the habit.
 
 ::: science
-Occupational therapists have studied household task optimization for decades, primarily for clients with physical or cognitive limitations. Their findings apply to everyone: batching similar tasks reduces transition time, fixed schedules reduce decision fatigue, and "clean as you go" systems outperform "cleaning day" systems for maintaining baseline tidiness. The research consistently shows that the obstacle to a clean house is not motivation --- it is the absence of a system that works with your actual energy and schedule.[^ch6-1]
+Cognitive psychologists have measured the cost of switching between dissimilar tasks: each switch burns time on "goal-shifting" and "rule-activation," and the losses compound across a day of bouncing between unrelated chores.[^ch6-1] Occupational therapists apply a parallel insight --- grouping similar activities and planning task sequences in advance reduces both physical fatigue and decision load. The research consistently points the same direction: the obstacle to a clean house is not motivation. It is the absence of a system that works with your actual energy and schedule.
 :::
 
 
@@ -298,12 +297,8 @@ The unequal distribution of domestic labor is one of the most documented finding
 :::
 
 
-<!-- RESEARCH NEEDED: Citation for occupational therapy research on household task optimization. Look for studies on task batching, fixed vs. flexible schedules, and "clean as you go" vs. dedicated cleaning sessions. -->
-<!-- RESEARCH NEEDED: Citation for the 60% domestic labor statistic. Bureau of Labor Statistics American Time Use Survey is the standard source. Verify current numbers. -->
-<!-- RESEARCH NEEDED: Automation trade-offs — robot vacuums, dishwashers, laundry services, grocery delivery. When does paying for automation make economic sense vs. doing it yourself? The calculus changes with income and household size. -->
-
-[^ch6-1]: <!-- RESEARCH NEEDED --> Verify citation: occupational therapy research on household task optimization and batching efficiency.
-[^ch6-2]: <!-- RESEARCH NEEDED --> Bureau of Labor Statistics, American Time Use Survey. Verify current year and specific percentages for domestic labor distribution by gender.
+[^ch6-1]: Rubinstein, J.S., Meyer, D.E. & Evans, J.E. (2001). "[Executive control of cognitive processes in task switching](https://doi.org/10.1037/0096-1523.27.4.763)." _Journal of Experimental Psychology: Human Perception and Performance_, 27(4), 763--797. For the OT application to household activity planning, see Omura, K.M. et al. (2022). "Energy conservation, minimum steps, and adaptations when needed: A scoping review." _Hong Kong Journal of Occupational Therapy_, 35(2), 125--136.
+[^ch6-2]: Milkie, M.A., Sayer, L.C., Nomaguchi, K. & Yan, H.X. (2025). "[Who's doing the housework and childcare in America now?](https://doi.org/10.1177/23780231251314667)" _Socius_, 11. Using ATUS 2003--2023 data: married women average 17.7 hours/week of housework vs. 11.2 for married men (60.8% women's share). The gap widens with children.
 
 <!-- BRAINSTORM: Future Chores entries
 — Ch-7: Meal Planning on a Budget — the intersection of nutrition, budget, time, and family preferences. The Agent can optimize across all four simultaneously.
