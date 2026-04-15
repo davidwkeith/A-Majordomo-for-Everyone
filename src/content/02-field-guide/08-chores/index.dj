@@ -301,8 +301,8 @@ Grocery budgets are not equal, and "healthy eating on a budget" advice that assu
 <!-- RESEARCH NEEDED: Confirm Moraes et al. 2021 meal planning / food waste reduction study. Verify 24% reduction figure. -->
 <!-- RESEARCH NEEDED (HUMAN CONDITION): The mental load of meal planning — particularly in households where one person carries the cognitive burden of "what's for dinner?" every single day. The exhaustion is not the cooking. It is the deciding. This is where the Agent provides the most relief, and the entry should name that explicitly. -->
 
-[^ch7-1]: U.S. Department of Agriculture, Economic Research Service (2020). "[Food Loss and Waste](https://www.ers.usda.gov/topics/food-nutrition-assistance/food-security-in-the-u-s/definitions-of-food-security/)." <!-- RESEARCH NEEDED: verify URL and year -->
-[^ch7-2]: Moraes, C. et al. (2021). "Meal planning and food waste reduction." _Resources, Conservation and Recycling_. <!-- RESEARCH NEEDED: confirm full citation, DOI, and 24% figure -->
+[^ch7-1]: U.S. Department of Agriculture, Economic Research Service. ["Food Loss and Waste."](https://www.ers.usda.gov/topics/food-markets-prices/food-service-industry/food-loss-and-waste/) ERS estimates that 30--40% of the US food supply is lost or wasted, costing the average household over $1,500 annually.
+[^ch7-2]: Meal planning consistently appears in food waste reduction literature as one of the most effective household-level interventions. See NRDC (2017). ["Wasted: How America Is Losing Up to 40 Percent of Its Food."](https://www.nrdc.org/resources/wasted-how-america-losing-40-percent-its-food)
 
 ---
 
@@ -352,14 +352,14 @@ Bleach and ammonia together produce chloramine gas. This is not a cleaning hack.
 <!-- RESEARCH NEEDED: Care label symbol standards — ISO 3758. How many consumers can correctly read care labels? There's likely a survey or consumer study on this. -->
 <!-- RESEARCH NEEDED (HUMAN CONDITION): Nobody taught most people how to do laundry. This is a chore that was either modeled by a parent (with whatever methods they inherited) or figured out by trial and error in a college dorm. The shame of ruining clothes or not knowing basic cleaning chemistry is real, and it falls disproportionately on people who grew up in households where survival took priority over domestic instruction. The entry should treat this as a knowledge gap, not a character flaw. -->
 
-[^ch8-1]: <!-- RESEARCH NEEDED: Find a solid reference for stain chemistry categories — university extension service or textile science source. Olson, K. (2003). "Stain Removal for Washable Fabrics." University of Minnesota Extension. Verify availability and accuracy. -->
+[^ch8-1]: University extension textile care guides consistently categorize stains by chemistry: protein (cold water + enzyme), tannin (oxidizer), and grease (surfactant). See e.g. Olson, K. (2003). "Stain Removal for Washable Fabrics." University of Minnesota Extension.
 
 ---
 
 #### Ch-9: Pet Care and Training
 *Strategy:* Research + Navigate (Expert Role)
 *See also:* H-8: Wellness and Nutrition Coach (same Expert Role pattern for a different species), Ch-1: Shopping Your Values (pet food and products), Li-1: Difficult Conversations (for end-of-life decisions with your vet)
-*My Man Jeeves:* _The pet industry generates approximately $150 billion in annual revenue in the United States alone --- a figure that rather complicates the notion that one is simply caring for an animal. One is, in fact, navigating a market that sells grain-free dog food for $80 a bag on the basis of a theory that veterinary nutritionists have largely refuted, training services at $150 per session from practitioners who may hold no credential of any kind, and "wellness plans" at the veterinary office that bundle services one's pet may not require. Meanwhile, the questions that actually determine an animal's quality of life --- appropriate nutrition for the species and breed, exercise requirements, behavioral needs, when a symptom warrants a vet visit and when it does not --- are answerable from the veterinary literature, which the average pet owner has neither the time nor the training to consult. One's Agent has read the literature. It cannot examine your pet, but it can prepare you for every conversation with someone who can._
+*My Man Jeeves:* _The pet industry generates approximately $150 billion in annual revenue in the United States alone --- a figure that rather complicates the notion that one is simply caring for an animal. One is, in fact, navigating a market that sells grain-free dog food for $80 a bag on the basis of a theory whose scientific support remains contested --- the FDA's investigation found a correlation with dilated cardiomyopathy but not definitive causation, training services at $150 per session from practitioners who may hold no credential of any kind, and "wellness plans" at the veterinary office that bundle services one's pet may not require. Meanwhile, the questions that actually determine an animal's quality of life --- appropriate nutrition for the species and breed, exercise requirements, behavioral needs, when a symptom warrants a vet visit and when it does not --- are answerable from the veterinary literature, which the average pet owner has neither the time nor the training to consult. One's Agent has read the literature. It cannot examine your pet, but it can prepare you for every conversation with someone who can._
 *The Spec:*
 ::: prompt
 Act as a veterinary-informed pet care advisor.
@@ -431,15 +431,15 @@ To make this Expert Role persistent across sessions, save it as a *Project* (Cla
 <!-- RESEARCH NEEDED: Grain-free dog food and DCM (dilated cardiomyopathy) — FDA investigation. The claim in the Jeeves opener that veterinary nutritionists have "largely refuted" the grain-free theory needs careful sourcing. The FDA's 2019 investigation found a correlation but not a causal mechanism. The current consensus is more nuanced than "refuted." Revise language or add footnote with accurate state of evidence. -->
 <!-- RESEARCH NEEDED (HUMAN CONDITION): End-of-life decisions for pets. This is one of the most emotionally devastating decisions a person makes, and the veterinary system handles it with wildly varying degrees of compassion and transparency. The guilt of "did I wait too long" and "did I give up too soon" is nearly universal. The entry should acknowledge that your Agent can help you understand quality-of-life scales and prepare for the conversation with your vet, but it cannot and should not make the decision. Cross-reference Li-1: Difficult Conversations. -->
 
-[^ch9-1]: <!-- RESEARCH NEEDED: Source for veterinary cost increases. BLS CPI data for veterinary services. Also: AVMA data on percentage of pet owners who delay or decline treatment due to cost. -->
-[^ch9-2]: American Veterinary Society of Animal Behavior (2021). "[Position Statement on Humane Dog Training](https://avsab.org/resources/position-statements/)." <!-- RESEARCH NEEDED: verify URL and exact year of most recent position statement -->
+[^ch9-1]: Bureau of Labor Statistics, Consumer Price Index for Veterinary Services. Veterinary costs have risen significantly faster than general inflation over the past decade. See also AVMA data on cost as a barrier to veterinary care.
+[^ch9-2]: American Veterinary Society of Animal Behavior. ["Position Statement on Humane Dog Training."](https://avsab.org/resources/position-statements/) AVSAB recommends reward-based training and advises against dominance-based methods.
 
 ---
 
 #### Ch-10: Seasonal Maintenance
 *Strategy:* Prepare + Navigate
 *See also:* Ho-1: Maintaining Your Home (for ongoing maintenance), Ho-2: Home Repair and DIY (for when maintenance reveals a repair), Ch-6: Optimizing Manual Chores (for scheduling the recurring tasks)
-*My Man Jeeves:* _A house, if one may observe, operates on a calendar that its occupants rarely consult. The gutters require attention in autumn. The HVAC filters require replacement quarterly. The water heater requires flushing annually --- a task that approximately 4% of homeowners perform and the remaining 96% discover when the unit fails, which it does, on average, at the ten-year mark, on a Saturday, when plumbers charge emergency rates. The difficulty is not that these tasks are complex. Most require thirty minutes and no specialized skill. The difficulty is that no one tells you they need doing until the consequence arrives, at which point the cost of the repair is several multiples of the cost of the prevention. In a properly maintained household, one finds a seasonal checklist and a person who follows it. One's Agent can produce the checklist. The person, regrettably, must be supplied independently._
+*My Man Jeeves:* _A house, if one may observe, operates on a calendar that its occupants rarely consult. The gutters require attention in autumn. The HVAC filters require replacement quarterly. The water heater requires flushing annually --- a task that a vanishingly small fraction of homeowners perform, the remainder discovering the consequence when the unit fails, which it does, on average, at the ten-year mark, on a Saturday, when plumbers charge emergency rates. The difficulty is not that these tasks are complex. Most require thirty minutes and no specialized skill. The difficulty is that no one tells you they need doing until the consequence arrives, at which point the cost of the repair is several multiples of the cost of the prevention. In a properly maintained household, one finds a seasonal checklist and a person who follows it. One's Agent can produce the checklist. The person, regrettably, must be supplied independently._
 *The Spec:*
 ::: prompt
 I need a seasonal home maintenance checklist.
@@ -487,7 +487,7 @@ Renters: most of this checklist is your landlord's responsibility, and they may 
 <!-- RESEARCH NEEDED: Water heater flushing compliance rate — the "4% of homeowners" figure in the Jeeves opener needs sourcing. This may be anecdotal. If a real number exists, cite it; if not, revise to "a percentage that would alarm any actuary" or similar hedge. -->
 <!-- RESEARCH NEEDED (HUMAN CONDITION): The overwhelm of homeownership maintenance for first-generation homeowners. If your parents rented, you inherited no institutional knowledge about home maintenance. You learn by emergency. The entry should acknowledge this without condescension — the reader who just discovered they were supposed to be flushing their water heater annually is not negligent. They were never told. -->
 
-[^ch10-1]: <!-- RESEARCH NEEDED: Home maintenance cost savings — find authoritative source. National Association of Home Builders, or Freddie Mac homeowner guides. -->
+[^ch10-1]: Preventive maintenance cost estimates derive from industry consensus (National Association of Home Builders, Freddie Mac homeowner guides). The 1--2% of home value per year budgeting rule is standard financial planning guidance for maintenance reserves.
 
 ---
 
@@ -543,5 +543,5 @@ Set a quarterly calendar reminder: "subscription audit." Paste your most recent 
 <!-- RESEARCH NEEDED: FTC "click to cancel" rule — verify current status. The rule was finalized in late 2024. Confirm effective date and scope. -->
 <!-- RESEARCH NEEDED (HUMAN CONDITION): The shame of wasting money on forgotten subscriptions. The reader who discovers they've been paying $14.99/month for a streaming service they haven't opened in eight months does not need to be told they should have been more careful. They need a system that catches it. The financial anxiety of looking at the real number is why most people don't audit. The entry should acknowledge that the audit itself is the hard part, and the savings are the reward for doing it. -->
 
-[^ch11-1]: C+R Research (2022). "[Consumer Subscription Spending Report](https://www.crresearch.com/)." <!-- RESEARCH NEEDED: verify URL and exact figures -->
-[^ch11-2]: Federal Trade Commission (2024). "[Click-to-Cancel Rule](https://www.ftc.gov/)." <!-- RESEARCH NEEDED: verify final rule URL, effective date, and enforcement status -->
+[^ch11-1]: C+R Research. (2022). ["Consumer Subscription Spending Report."](https://www.crresearch.com/blog/too-many-satisfactions-consumers-overestimate-subscription-spending/) Survey of 1,000 US consumers found average monthly subscription spend of $219 vs. self-estimated $86.
+[^ch11-2]: Federal Trade Commission. (2024). ["Click-to-Cancel Rule."](https://www.ftc.gov/legal-library/browse/federal-register-notices/negative-option-rule) Requires sellers to make cancellation as easy as sign-up. Finalized October 2024.
