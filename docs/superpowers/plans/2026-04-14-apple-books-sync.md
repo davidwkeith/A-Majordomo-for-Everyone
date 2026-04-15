@@ -378,25 +378,28 @@ def count_highlight_changes(content: str) -> tuple[int, int]:
     """Compare new content against existing highlights.md to count changes.
 
     Returns (new_count, updated_count) based on highlight-level diffing.
-    A highlight is identified by its quoted text (lines starting with "> ").
+    Highlights are separated by "---" lines in the rendered markdown.
     """
     output_file = REPO_ROOT / "notes" / "highlights.md"
+
+    def extract_highlights(text: str) -> list[str]:
+        """Split rendered markdown into individual highlight blocks on '---' separators."""
+        blocks = [b.strip() for b in text.split("\n---\n") if b.strip()]
+        return blocks
+
     if not output_file.exists():
-        # All highlights are new
-        new = content.count("\n> ")
-        return new, 0
+        return len(extract_highlights(content)), 0
 
     old = output_file.read_text(encoding="utf-8")
-    old_quotes = {
-        line.strip() for line in old.splitlines() if line.startswith("> ")
-    }
-    new_quotes = {
-        line.strip() for line in content.splitlines() if line.startswith("> ")
-    }
+    old_blocks = extract_highlights(old)
+    new_blocks = extract_highlights(content)
 
-    added = len(new_quotes - old_quotes)
+    old_set = set(old_blocks)
+    new_set = set(new_blocks)
+
+    added = len(new_set - old_set)
     # "Updated" = old highlights that disappeared (text changed)
-    removed = len(old_quotes - new_quotes)
+    removed = len(old_set - new_set)
     return added, removed
 
 
@@ -436,9 +439,9 @@ def git_commit_and_push(new_count: int, updated_count: int) -> None:
     log.info("Committed: %s", message)
 
     # Push — tolerate failure (e.g., no network)
-    push_result = run_git("push", "origin", "main", check=False)
+    push_result = run_git("push", "origin", "HEAD", check=False)
     if push_result.returncode == 0:
-        log.info("Pushed to origin/main")
+        log.info("Pushed to origin")
     else:
         log.warning(
             "Push failed (will retry next run): %s",
@@ -531,7 +534,8 @@ Create `scripts/com.davidwkeith.majordomo-highlights.plist`:
     </array>
 
     <key>WorkingDirectory</key>
-    <string>/Users/dwk/Developer/github.com/davidwkeith/A-Majordomo-for-Everyone</string>
+    <!-- Replace with the absolute path to your local repo checkout -->
+    <string>/PATH/TO/A-Majordomo-for-Everyone</string>
 
     <key>StartInterval</key>
     <integer>3600</integer>
