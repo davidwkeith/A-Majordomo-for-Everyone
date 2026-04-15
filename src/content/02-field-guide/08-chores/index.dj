@@ -160,55 +160,6 @@ To make this Expert Role persistent across sessions, save it as a *Project* (Cla
 
 ---
 
-#### Ch-4: Dog Training
-*Strategy:* Diagnose + Navigate (Expert Role)
-*See also:* Ho-4: Knowing Your Rights as a Renter or Homeowner (for pet-related housing rules)
-*My Man Jeeves:* _One observes that dog trainers charge between $75 and $250 per session and are, in the majority of cases, entirely unregulated. The evidence base for canine training has, over the past twenty years, shifted rather substantially toward positive reinforcement methods --- a development that has not, it would appear, fully reached all practitioners commanding $150 per session. One's Agent, having reviewed the current research, is in a position to bridge this gap._
-*The Spec:*
-::: prompt
-Act as a certified positive-reinforcement dog trainer.
-My dog: [breed or mix, age, how long I've had them]
-The behavior I'm dealing with: [describe specifically —
-what triggers it, what it looks like, how often it happens,
-how long it's been going on]
-What I've tried: [if anything]
-My goal: [stop the behavior / redirect it / understand it]
-What is likely causing this, and what's the training approach?
-:::
-*What to do with the Output:* Dog training requires consistency across everyone in the household. Before starting any training protocol your Agent suggests, read it through with everyone who interacts with the dog. Inconsistency is the primary reason training doesn't work. Print the protocol and put it on the fridge.
-
-::: tip
-Describe the behavior from the dog's perspective, not just yours. "She destroys things when I leave" tells your Agent less than "she destroys things within the first 20 minutes after I leave, specifically near the door." Specificity is the whole game.
-:::
-
-
-*Common dog training Expert Role specs:*
-::: prompt
-Act as a positive-reinforcement dog trainer.
-I just got a [age] [breed] and I want to start on the right foot.
-What are the five most important things to teach first,
-and in what order?
-:::
-::: prompt
-Act as a dog behaviorist. My dog [behavior: barks at strangers /
-pulls on leash / resource guards / has separation anxiety /
-reacts to other dogs].
-What is the behavior communicating, and what's the
-most effective way to address it?
-:::
-::: prompt
-Act as a dog trainer. My dog knows basic commands but
-I want to teach them [specific skill or trick].
-Break it down into steps I can work on in 5-minute sessions.
-:::
-
-::: also
-To make this Expert Role persistent across sessions, save it as a *Project* (Claude), *Gem* (Gemini), or *Custom GPT* (ChatGPT). See [Appendix G](06-appendix-g-feature-table.xhtml).
-:::
-
-
----
-
 #### Ch-5: Cooking and Culinary Skills
 *Strategy:* Research + Diagnose (Expert Role)
 *See also:* Ch-1: Shopping Your Values (for sourcing ingredients), H-8: Wellness and Nutrition Coach (for dietary guidance)
@@ -300,10 +251,297 @@ The unequal distribution of domestic labor is one of the most documented finding
 [^ch6-1]: Rubinstein, J.S., Meyer, D.E. & Evans, J.E. (2001). "[Executive control of cognitive processes in task switching](https://doi.org/10.1037/0096-1523.27.4.763)." _Journal of Experimental Psychology: Human Perception and Performance_, 27(4), 763--797. For the OT application to household activity planning, see Omura, K.M. et al. (2022). "Energy conservation, minimum steps, and adaptations when needed: A scoping review." _Hong Kong Journal of Occupational Therapy_, 35(2), 125--136.
 [^ch6-2]: Milkie, M.A., Sayer, L.C., Nomaguchi, K. & Yan, H.X. (2025). "[Who's doing the housework and childcare in America now?](https://doi.org/10.1177/23780231251314667)" _Socius_, 11. Using ATUS 2003--2023 data: married women average 17.7 hours/week of housework vs. 11.2 for married men (60.8% women's share). The gap widens with children.
 
-<!-- BRAINSTORM: Future Chores entries
-— Ch-7: Meal Planning on a Budget — the intersection of nutrition, budget, time, and family preferences. The Agent can optimize across all four simultaneously.
-— Ch-8: Stain Removal and Fabric Care — the lost art of garment maintenance. Every fabric has rules; your Agent knows them.
-— Ch-9: Seasonal Home Prep — winterizing, spring cleaning, hurricane prep, wildfire readiness. Region-specific, deadline-driven.
-— Ch-10: Finding and Managing Service Providers — cleaners, handypeople, lawn care. Vetting, scheduling, and knowing what to pay.
--->
+---
 
+#### Ch-7: Meal Planning and Grocery Shopping
+*Strategy:* Research + Prepare
+*See also:* Ch-5: Cooking and Culinary Skills (for what to do once you're in the kitchen), Ch-1: Shopping Your Values (for sourcing and certification), Li-9: Household Budget (for the financial side), H-8: Wellness and Nutrition Coach (for dietary needs)
+*My Man Jeeves:* _One observes that the average household disposes of roughly 30% of the food it purchases --- a figure that would prompt an inquiry at any reasonably managed institution. The difficulty is not, in the main, one of appetite or intention. It is a planning problem conducted under conditions that would defeat most logistics professionals: variable schedules, unpredictable preferences, perishable inventory with no standardized shelf life, and a weekly budget that must account for nutrition, taste, household politics, and whatever happens to be on sale. The household that employs a cook also employs a person who plans meals before writing the shopping list, not after. This is the sequence that matters. One's Agent is capable of working backward from what one wishes to eat, through what one already has, to what one actually needs to buy --- a reversal that reliably reduces both the bill and the bin._
+*The Spec:*
+::: prompt
+I need to plan meals for the week and build a grocery list.
+My household: [number of people, ages, any dietary
+restrictions or preferences]
+My budget: [weekly grocery budget, or "as low as reasonable"]
+What I already have: [check your fridge, freezer, and pantry
+--- list anything that needs to be used soon]
+My schedule this week: [which nights are busy, when do I
+have time to cook, any nights eating out]
+My cooking skill and effort level: [be honest --- 20 minutes
+max on weeknights / I can do an hour on Sunday / I hate
+cooking but I need to eat]
+Please:
+1. Suggest 5--7 dinners that share ingredients to minimize
+   waste and cost --- show me the overlap
+2. Build a grocery list organized by store section, with
+   estimated prices for my area
+3. Flag which items are worth buying in bulk or frozen vs. fresh
+4. Identify what I should prep on Sunday to make weeknights
+   faster
+5. Estimate total grocery cost for the week
+:::
+*What to do with the Output:* Start with one week. Do not plan a month --- you will not follow it. Run the plan, note what you actually ate and what went to waste, and feed that back to your Agent the following week. The plan improves as the data improves. After three weeks, your Agent knows your household better than any meal kit service.
+
+::: science
+The USDA estimates that the average American household wastes 31.9% of its food, costing roughly $1,500 per year.[^ch7-1] The primary driver is not spoilage --- it is overbuying and poor planning. A 2021 study in _Resources, Conservation and Recycling_ found that meal planning reduced household food waste by 24% even without other interventions.[^ch7-2] The math is straightforward: plan meals, buy what you need, use what you buy.
+:::
+
+
+::: tip
+Take a photo of the inside of your fridge and pantry before you plan. Send the photos to your Agent with the spec. It can identify what you have, suggest meals that use up what's about to expire, and build the grocery list around what you're missing --- not what a recipe assumes you're starting from scratch with.
+:::
+
+
+::: fairness
+Grocery budgets are not equal, and "healthy eating on a budget" advice that assumes access to a well-stocked grocery store is useless if you live in a food desert. Tell your Agent where you actually shop --- including dollar stores, ethnic markets, and discount grocers. It will plan around your real options, not the Whole Foods fantasy. If SNAP benefits are part of your budget, say so --- your Agent can optimize around benefit timing and eligible items without judgment.
+:::
+
+
+<!-- RESEARCH NEEDED: USDA food waste statistics — confirm 31.9% figure and $1,500/year estimate. Check ERS Food Loss and Waste data for most recent year. -->
+<!-- RESEARCH NEEDED: Confirm Moraes et al. 2021 meal planning / food waste reduction study. Verify 24% reduction figure. -->
+<!-- RESEARCH NEEDED (HUMAN CONDITION): The mental load of meal planning — particularly in households where one person carries the cognitive burden of "what's for dinner?" every single day. The exhaustion is not the cooking. It is the deciding. This is where the Agent provides the most relief, and the entry should name that explicitly. -->
+
+[^ch7-1]: U.S. Department of Agriculture, Economic Research Service (2020). "[Food Loss and Waste](https://www.ers.usda.gov/topics/food-nutrition-assistance/food-security-in-the-u-s/definitions-of-food-security/)." <!-- RESEARCH NEEDED: verify URL and year -->
+[^ch7-2]: Moraes, C. et al. (2021). "Meal planning and food waste reduction." _Resources, Conservation and Recycling_. <!-- RESEARCH NEEDED: confirm full citation, DOI, and 24% figure -->
+
+---
+
+#### Ch-8: Cleaning and Laundry
+*Strategy:* Research + Navigate (Expert Role)
+*See also:* Ch-6: Optimizing Manual Chores (for scheduling and systems), Ho-1: Maintaining Your Home (cleaning is maintenance)
+*My Man Jeeves:* _It is perhaps worth observing that garment care labels employ a system of hieroglyphics that the International Organization for Standardization published in 1971 and has not, in any meaningful sense, explained to the public since. The triangle means bleach. The circle means dry clean. The number of dots inside the iron means something one has either memorized or has not --- and the consequence of guessing incorrectly is a $60 sweater reduced to a size suitable for a medium-sized cat. Similarly, the cleaning product aisle offers approximately 40 specialized solutions for surfaces that require, in practice, about four. The household that employs staff finds these matters handled by persons who know that wool felts in hot water, that bleach and ammonia must never meet, and that the "stainless" in stainless steel is aspirational. One's Agent possesses this same knowledge and is available at the moment the red wine hits the white shirt, which is to say, the moment it is actually needed._
+*The Spec:*
+::: prompt
+Act as a textile care and cleaning specialist.
+My situation: [choose one or more]
+— Stain emergency: [what stain, what fabric, how long ago,
+  what I've already tried]
+— Laundry question: [specific garment or fabric I don't know
+  how to wash, what the care label says if I can read it]
+— Cleaning question: [what surface or area, what the mess is,
+  what products I have on hand]
+— General: I want to understand what cleaning products I
+  actually need and what's redundant
+Please:
+1. Give me the specific fix or method, step by step
+2. Explain *why* it works (the chemistry, briefly) so I can
+   generalize to similar problems
+3. Tell me what will make it worse --- the thing most people
+   try first that sets the stain or damages the surface
+4. If I need a product I probably don't have, tell me what
+   common household item substitutes
+:::
+*What to do with the Output:* For stain emergencies, act immediately --- stains set with time and heat. For laundry sorting and product questions, save your Agent's answers in a note on your phone. You will look this up again. Build a household cleaning reference over time: one conversation for stains, one for surfaces, one for laundry. After a few sessions, you will know 90% of what you need and only consult for the unusual cases.
+
+::: science
+The chemistry of stain removal follows consistent principles: protein stains (blood, egg, milk) require cold water and enzymatic cleaners because heat denatures the protein and bonds it to fabric. Tannin stains (wine, coffee, tea) respond to oxidizing agents. Grease responds to surfactants. Most commercial stain removers are combinations of these three mechanisms with marketing attached. Understanding which mechanism your stain requires eliminates the guesswork --- and the shelf of 12 products you bought for 12 different stains that all needed the same enzyme.[^ch8-1]
+:::
+
+
+::: tip
+Take a photo of the care label and send it to your Agent. It will decode every symbol and tell you, in plain English, exactly how to wash the garment. This is faster than Googling "what does the square with a circle inside it mean" every laundry day.
+:::
+
+
+::: meme
+Bleach and ammonia together produce chloramine gas. This is not a cleaning hack. This is a chemical weapon. Your Agent will flag dangerous combinations before you mix them. If nothing else in this entry sticks, this does: never mix bleach with ammonia, vinegar, or rubbing alcohol. Ask your Agent before combining any cleaning products you are unsure about.
+:::
+
+
+<!-- RESEARCH NEEDED: Stain chemistry — confirm protein/tannin/grease framework. Source: cleaning chemistry textbooks or university extension guides (e.g., Ohio State, Clemson textile care publications). -->
+<!-- RESEARCH NEEDED: Care label symbol standards — ISO 3758. How many consumers can correctly read care labels? There's likely a survey or consumer study on this. -->
+<!-- RESEARCH NEEDED (HUMAN CONDITION): Nobody taught most people how to do laundry. This is a chore that was either modeled by a parent (with whatever methods they inherited) or figured out by trial and error in a college dorm. The shame of ruining clothes or not knowing basic cleaning chemistry is real, and it falls disproportionately on people who grew up in households where survival took priority over domestic instruction. The entry should treat this as a knowledge gap, not a character flaw. -->
+
+[^ch8-1]: <!-- RESEARCH NEEDED: Find a solid reference for stain chemistry categories — university extension service or textile science source. Olson, K. (2003). "Stain Removal for Washable Fabrics." University of Minnesota Extension. Verify availability and accuracy. -->
+
+---
+
+#### Ch-9: Pet Care and Training
+*Strategy:* Research + Navigate (Expert Role)
+*See also:* H-8: Wellness and Nutrition Coach (same Expert Role pattern for a different species), Ch-1: Shopping Your Values (pet food and products), Li-1: Difficult Conversations (for end-of-life decisions with your vet)
+*My Man Jeeves:* _The pet industry generates approximately $150 billion in annual revenue in the United States alone --- a figure that rather complicates the notion that one is simply caring for an animal. One is, in fact, navigating a market that sells grain-free dog food for $80 a bag on the basis of a theory that veterinary nutritionists have largely refuted, training services at $150 per session from practitioners who may hold no credential of any kind, and "wellness plans" at the veterinary office that bundle services one's pet may not require. Meanwhile, the questions that actually determine an animal's quality of life --- appropriate nutrition for the species and breed, exercise requirements, behavioral needs, when a symptom warrants a vet visit and when it does not --- are answerable from the veterinary literature, which the average pet owner has neither the time nor the training to consult. One's Agent has read the literature. It cannot examine your pet, but it can prepare you for every conversation with someone who can._
+*The Spec:*
+::: prompt
+Act as a veterinary-informed pet care advisor.
+(You are not a veterinarian. You cannot diagnose or treat.
+You can help me prepare for vet visits, understand my options,
+and make informed decisions.)
+My pet: [species, breed if known, age, weight, spayed/neutered,
+any known health conditions]
+My question: [choose one or more]
+— Behavior: [describe the behavior, when it started, triggers,
+  what I've tried]
+— Nutrition: [what I'm currently feeding, any concerns, budget]
+— Health: [symptom I'm seeing, how long, severity --- or:
+  preparing for a vet visit and want to know what to ask]
+— Training: [what I want to teach, what isn't working,
+  my pet's history with training]
+— Life stage: [new pet setup / senior care / end-of-life
+  planning]
+Please:
+1. Give me the evidence-based answer, not the pet store answer
+2. If this warrants a vet visit, say so clearly and tell me
+   what to tell the vet
+3. If this is a training or behavior issue, use positive
+   reinforcement methods only
+4. Tell me what the pet industry is likely to upsell me on
+   and whether it's worth it
+:::
+*What to do with the Output:* For health concerns, your Agent is triage, not treatment. If it says "see your vet," see your vet --- and bring the Agent's summary with you. For training, consistency matters more than technique: get everyone in the household on the same protocol before you start. For nutrition, make one change at a time and observe for two weeks.
+
+*Common pet care Expert Role specs:*
+::: prompt
+Act as a veterinary-informed pet care advisor. I just adopted a
+[species, age, breed]. What do I need for the first two weeks ---
+supplies, vet visit checklist, household setup, and the most
+common new-owner mistakes for this species?
+:::
+::: prompt
+Act as a positive-reinforcement animal trainer. My [species]
+[behavior: won't stop barking / scratches furniture / bites /
+pulls on leash / won't use the litter box / is aggressive with
+other animals]. What is this behavior communicating, and what's
+the evidence-based approach?
+:::
+::: prompt
+Act as a veterinary-informed pet care advisor. My [species] is
+[age] and showing signs of [symptom]. I have a vet appointment
+on [date]. Help me prepare: what should I observe and record
+before the visit, what questions should I ask, and what tests
+or treatments might the vet recommend?
+:::
+
+::: fairness
+Veterinary costs have increased 60% over the past decade, and pet insurance --- unlike human health insurance --- is unregulated in most states. The reader who cannot afford a $3,000 emergency surgery is not a bad pet owner. They are a person living in a country that has no safety net for veterinary care. Your Agent can help you find low-cost clinics, veterinary schools that offer reduced-price services, breed-specific rescue organizations that sometimes fund medical care, and payment plans. It can also help you understand when a $200 vet visit is genuinely necessary and when the symptom is something you can monitor at home --- a distinction that saves money and reduces unnecessary stress for the animal.[^ch9-1]
+:::
+
+
+::: science
+The American Veterinary Society of Animal Behavior published a position statement in 2021 confirming that positive reinforcement is the most effective and least harmful training method across species, and that dominance-based techniques (alpha rolls, leash corrections, shock collars) increase fear, anxiety, and aggression.[^ch9-2] If a trainer --- or a search result --- recommends "showing the dog who's boss," the science says they are wrong. Your Agent draws from the current evidence base, not the 1990s.
+:::
+
+
+::: also
+To make this Expert Role persistent across sessions, save it as a *Project* (Claude), *Gem* (Gemini), or *Custom GPT* (ChatGPT). See [Appendix G](06-appendix-g-feature-table.xhtml).
+:::
+
+
+<!-- RESEARCH NEEDED: U.S. pet industry revenue — verify $150 billion figure. American Pet Products Association (APPA) publishes annual spending data. -->
+<!-- RESEARCH NEEDED: Veterinary cost increases over the past decade — verify 60% figure. BLS CPI veterinary services data. -->
+<!-- RESEARCH NEEDED: Grain-free dog food and DCM (dilated cardiomyopathy) — FDA investigation. The claim in the Jeeves opener that veterinary nutritionists have "largely refuted" the grain-free theory needs careful sourcing. The FDA's 2019 investigation found a correlation but not a causal mechanism. The current consensus is more nuanced than "refuted." Revise language or add footnote with accurate state of evidence. -->
+<!-- RESEARCH NEEDED (HUMAN CONDITION): End-of-life decisions for pets. This is one of the most emotionally devastating decisions a person makes, and the veterinary system handles it with wildly varying degrees of compassion and transparency. The guilt of "did I wait too long" and "did I give up too soon" is nearly universal. The entry should acknowledge that your Agent can help you understand quality-of-life scales and prepare for the conversation with your vet, but it cannot and should not make the decision. Cross-reference Li-1: Difficult Conversations. -->
+
+[^ch9-1]: <!-- RESEARCH NEEDED: Source for veterinary cost increases. BLS CPI data for veterinary services. Also: AVMA data on percentage of pet owners who delay or decline treatment due to cost. -->
+[^ch9-2]: American Veterinary Society of Animal Behavior (2021). "[Position Statement on Humane Dog Training](https://avsab.org/resources/position-statements/)." <!-- RESEARCH NEEDED: verify URL and exact year of most recent position statement -->
+
+---
+
+#### Ch-10: Seasonal Maintenance
+*Strategy:* Prepare + Navigate
+*See also:* Ho-1: Maintaining Your Home (for ongoing maintenance), Ho-2: Home Repair and DIY (for when maintenance reveals a repair), Ch-6: Optimizing Manual Chores (for scheduling the recurring tasks)
+*My Man Jeeves:* _A house, if one may observe, operates on a calendar that its occupants rarely consult. The gutters require attention in autumn. The HVAC filters require replacement quarterly. The water heater requires flushing annually --- a task that approximately 4% of homeowners perform and the remaining 96% discover when the unit fails, which it does, on average, at the ten-year mark, on a Saturday, when plumbers charge emergency rates. The difficulty is not that these tasks are complex. Most require thirty minutes and no specialized skill. The difficulty is that no one tells you they need doing until the consequence arrives, at which point the cost of the repair is several multiples of the cost of the prevention. In a properly maintained household, one finds a seasonal checklist and a person who follows it. One's Agent can produce the checklist. The person, regrettably, must be supplied independently._
+*The Spec:*
+::: prompt
+I need a seasonal home maintenance checklist.
+My home: [house / apartment / condo / rental — if renting,
+note what maintenance is your responsibility vs. landlord's]
+My region: [city or climate zone — this affects timing for
+winterizing, pest prevention, hurricane/wildfire prep, etc.]
+My home's specifics: [age of home, type of heating/cooling,
+roof type, basement or crawl space, septic or municipal
+sewer, any known issues]
+Current season approaching: [spring / summer / fall / winter]
+My skill level: [total beginner / can handle basic tools /
+fairly handy]
+Please:
+1. Give me the complete checklist for the approaching season,
+   in priority order --- most consequential if skipped first
+2. For each task, tell me: what it prevents, how long it takes,
+   whether I can do it myself, and estimated cost if I hire out
+3. Flag anything that's time-sensitive --- tasks with a deadline
+   (before first freeze, before rainy season, etc.)
+4. Separate "essential" tasks from "ideal" tasks --- I may not
+   get to everything
+5. Note which tasks a renter should request from their landlord
+   and how to make that request
+:::
+*What to do with the Output:* Put the deadlines on your calendar now --- not the tasks, just the deadlines. "Check gutters before November 15" is more useful than a checklist you save and forget. Set a recurring reminder for each season. After one full year, you will have a personalized maintenance calendar that accounts for your specific home, and the emergency repair calls will drop dramatically.
+
+::: science
+Preventive maintenance reduces home repair costs by an estimated 1--4% of the home's value per year --- for a $300,000 home, that is $3,000--$12,000 annually in avoided emergency repairs.[^ch10-1] HVAC systems that receive regular filter changes and annual servicing last 15--20 years; neglected systems fail at 8--12 years. Gutter cleaning prevents water damage that averages $2,500--$7,000 to repair. The economics are unambiguous: the cheapest repair is the one you prevent.
+:::
+
+
+::: tip
+Ask your Agent to build the checklist as a calendar you can import. Most Agents can output tasks in a format you can paste into Google Calendar, Apple Reminders, or a shared household calendar. The checklist on the fridge works too --- but the one that sends you a notification on October 15 saying "clean gutters this weekend" works better.
+:::
+
+
+::: fairness
+Renters: most of this checklist is your landlord's responsibility, and they may not be doing it. Your Agent can help you identify which seasonal maintenance items are legally the landlord's obligation in your state, draft a written request, and document the request in case the landlord does not act. See Ho-4: Knowing Your Rights as a Renter for the full framework. Preventing damage to the unit protects you --- deferred maintenance that causes damage can turn into a security deposit dispute, and the tenant who documented their maintenance requests in writing wins that dispute.
+:::
+
+
+<!-- RESEARCH NEEDED: Preventive maintenance cost savings — verify 1–4% of home value figure. Source likely from National Association of Home Builders or similar. Also check HVAC lifespan data (with vs. without maintenance) from ASHRAE or manufacturer data. -->
+<!-- RESEARCH NEEDED: Gutter damage repair cost range — verify $2,500–$7,000. HomeAdvisor or similar source. -->
+<!-- RESEARCH NEEDED: Water heater flushing compliance rate — the "4% of homeowners" figure in the Jeeves opener needs sourcing. This may be anecdotal. If a real number exists, cite it; if not, revise to "a percentage that would alarm any actuary" or similar hedge. -->
+<!-- RESEARCH NEEDED (HUMAN CONDITION): The overwhelm of homeownership maintenance for first-generation homeowners. If your parents rented, you inherited no institutional knowledge about home maintenance. You learn by emergency. The entry should acknowledge this without condescension — the reader who just discovered they were supposed to be flushing their water heater annually is not negligent. They were never told. -->
+
+[^ch10-1]: <!-- RESEARCH NEEDED: Home maintenance cost savings — find authoritative source. National Association of Home Builders, or Freddie Mac homeowner guides. -->
+
+---
+
+#### Ch-11: Managing Subscriptions and Recurring Costs
+*Strategy:* Decode + Assert
+*See also:* M-1: Understanding Your Bank Account (for spotting charges), M-2: Understanding Your Credit Card Statement (for the audit trail), IRL-2: Customer Service Calls (for the cancellation call)
+*My Man Jeeves:* _One might observe that the subscription model has achieved a remarkable efficiency: it converts a single purchasing decision into an indefinite revenue stream, secured by the knowledge that the consumer will, in the majority of cases, forget it exists. The average American maintains approximately 12 paid subscriptions and underestimates the monthly total by roughly 80% --- a gap between perception and expenditure that the industry has, one cannot help but notice, very little incentive to close. Cancellation, when attempted, encounters a friction that is precisely calibrated: not so difficult as to invite regulatory scrutiny, but sufficiently inconvenient to discourage all but the most determined. In well-managed households, a financial officer reviews recurring charges quarterly. One's Agent is capable of conducting this audit in approximately ten minutes, provided one is willing to look at the number._
+*The Spec:*
+::: prompt
+I need to audit my subscriptions and recurring charges.
+Here is my information: [choose one or more]
+— I'll paste my credit card or bank statement showing
+  recurring charges: [paste the charges]
+— Subscriptions I know about: [list them with monthly cost]
+— I think I'm paying for things I don't use but I'm not
+  sure what
+Please:
+1. Identify every recurring charge and categorize them:
+   actively using / occasionally using / forgot I had this /
+   free trial I never cancelled
+2. Calculate my total monthly and annual subscription spend
+3. Flag any charges that look like they've increased since
+   I signed up (common with introductory pricing)
+4. For each subscription I want to cancel, tell me exactly
+   how to cancel --- website path, phone number, what to say,
+   and any retention offers I might be offered
+5. Identify where I'm paying for overlapping services
+   (multiple streaming, multiple cloud storage, etc.)
+:::
+*What to do with the Output:* Cancel at least one thing today. Not tomorrow, not "this weekend" --- today. The activation energy for subscription cancellation drops to zero if you do the first one immediately. For services with cancellation dark patterns (looking at you, every gym and cable company), see IRL-2: Customer Service Calls for the exact script.
+
+::: science
+A 2022 C+R Research survey found that the average American spends $219 per month on subscriptions but estimates their spending at $86 --- a 154% underestimation gap.[^ch11-1] The behavioral economics are well-documented: subscription pricing exploits status quo bias (the tendency to leave existing arrangements in place) and the "pain of paying" asymmetry (signing up feels like one small charge; cancelling feels like giving something up). Companies know this. The cancellation flow is designed around it. Your Agent does not have status quo bias. It sees a number.
+:::
+
+
+::: meme
+The "free trial to paid subscription" pipeline is the Hotel California of consumer finance: you can check out any time you like, but you can never leave. Or rather, you can leave, but only by navigating a cancellation flow that requires you to call during business hours, talk to a "retention specialist," decline three increasingly desperate offers, and confirm twice that yes, you really do want to cancel the thing you never used. Your Agent can map the cancellation path before you start, so you know exactly what to expect and what to say.
+:::
+
+
+::: tip
+Set a quarterly calendar reminder: "subscription audit." Paste your most recent credit card statement into your Agent and ask it to flag every recurring charge. This takes ten minutes and saves, on average, $50--$100 per quarter in forgotten or unused subscriptions. The reminder is the system. Without it, you will not do this.
+:::
+
+
+::: fairness
+"Dark patterns" --- user interface designs that trick or pressure consumers into actions they did not intend --- are not accidents. They are designed, tested, and optimized. The FTC has begun enforcement actions against companies that make cancellation deliberately difficult, and the "click to cancel" rule requires that cancelling must be as easy as signing up.[^ch11-2] If a company makes you call to cancel a service you signed up for online, that is a dark pattern. Your Agent can identify these, draft a complaint to the FTC if you want to file one, and help you navigate the cancellation process that was designed to make you give up.
+:::
+
+
+<!-- RESEARCH NEEDED: C+R Research 2022 subscription spending survey — verify $219/month and $86 estimate figures. This is widely cited but check the original methodology. -->
+<!-- RESEARCH NEEDED: FTC "click to cancel" rule — verify current status. The rule was finalized in late 2024. Confirm effective date and scope. -->
+<!-- RESEARCH NEEDED (HUMAN CONDITION): The shame of wasting money on forgotten subscriptions. The reader who discovers they've been paying $14.99/month for a streaming service they haven't opened in eight months does not need to be told they should have been more careful. They need a system that catches it. The financial anxiety of looking at the real number is why most people don't audit. The entry should acknowledge that the audit itself is the hard part, and the savings are the reward for doing it. -->
+
+[^ch11-1]: C+R Research (2022). "[Consumer Subscription Spending Report](https://www.crresearch.com/)." <!-- RESEARCH NEEDED: verify URL and exact figures -->
+[^ch11-2]: Federal Trade Commission (2024). "[Click-to-Cancel Rule](https://www.ftc.gov/)." <!-- RESEARCH NEEDED: verify final rule URL, effective date, and enforcement status -->

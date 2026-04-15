@@ -135,9 +135,356 @@ This works well with voice mode on your phone — all major tools support it on 
 
 [^irl3-1]: Grupe, D.W. & Nitschke, J.B. (2013). "Uncertainty and anticipation in anxiety: an integrated neurobiological and psychological perspective." _Nature Reviews Neuroscience_, 14(7), 488–501.
 
-<!-- BRAINSTORM: Future IRL Interactions entries
-— IRL-4: What to Do After a Car Accident — high-stakes, time-sensitive. The 15 minutes after an accident determine the next 6 months of insurance and legal outcomes.
-— IRL-5: Medical Emergencies and First Aid — what to do before the ambulance arrives. Not a replacement for training — a bridge for the untrained.
-— IRL-6: De-escalation — when a situation is getting heated and you need to bring it down. The skills that crisis negotiators use, adapted for civilians.
-— IRL-7: Tipping and Service Etiquette — the unwritten rules that vary by context, culture, and class. What to tip, when, and why the system exists.
--->
+---
+
+#### IRL-4: Negotiating a Price
+*Strategy:* Prepare + Assert
+*See also:* Tr-1, M-3, H-3
+*My Man Jeeves:* _One observes that every price in the American economy falls into one of two categories: the fixed and the negotiable. The distinction, however, is rarely advertised. The sticker on the car, the estimate from the surgeon, the first month's rent, the figure on the mattress tag — each represents not a fact but an opening position. The party who knows this negotiates. The party who does not pays the posted amount and is regarded, by the system, as having consented. It is perhaps worth noting that the billionaire class does not pay sticker price for anything, including, one might add, their tax obligations. Your Agent has read the negotiation research. It can tell you the fair price, the walk-away number, and the sentence that moves the conversation._
+
+*The Spec:*
+::: prompt
+I need to negotiate a price for [car / furniture / medical bill /
+rent renewal / appliance / contractor work / other].
+The situation:
+— What I'm buying or paying: [describe item or service]
+— The asking price: [amount]
+— My budget or target price: [amount, or "I don't know what's fair"]
+— My leverage: [paying cash, willing to walk, competing offers,
+   long-term tenant, insurance patient, buying multiple items,
+   or "I don't think I have any"]
+Please help me:
+1. What is the fair market price for this? Give me a range
+2. What is my actual leverage in this situation — be honest
+3. Draft my opening offer and the explanation I give with it
+4. Give me responses for the three most likely counter-arguments
+5. What is my walk-away point, and how do I signal it
+   without bluffing?
+:::
+
+*What to do with the Output:* Practice the opening line out loud. It sounds ridiculous and it works. The reason negotiation feels unnatural is that you haven't rehearsed. The car salesperson has done this eight times today. You've done it zero times this year. Reading the script once closes most of that gap. Print the counter-arguments. Bring them.
+
+::: science
+Galinsky and Mussweiler (2001) demonstrated that the first number spoken in a negotiation anchors the entire outcome. The party who names a price first sets the range. Your Agent can tell you what that number should be — and whether you should be the one to say it.[^irl4-1]
+:::
+
+
+::: tip
+Medical bills are negotiable. Hospitals have charity care policies they are legally required to maintain (for nonprofit hospitals) and financially motivated to offer (for all hospitals, because some payment beats collections). Ask your Agent: _"This hospital billed me [amount] for [procedure]. I [have / don't have] insurance. What are my options for reducing this bill?"_ The answer will surprise you.
+:::
+
+
+::: fairness
+Negotiation outcomes track with race, gender, and class. Research consistently shows that women and people of color receive worse initial offers and face more resistance when counter-offering. Your Agent gives you the same preparation that a $400/hour consultant would. It does not fix the structural bias in the room. It does fix the information asymmetry you walked in with.
+:::
+
+
+<!-- RESEARCH NEEDED: Galinsky, A.D. & Mussweiler, T. (2001). "First offers as anchors: The role of perspective-taking and negotiator focus." Journal of Personality and Social Psychology, 81(4), 657–669. Verify citation and find DOI. Also: Ayres, I. (1991) "Fair Driving: Gender and Race Discrimination in Retail Car Negotiations" — landmark study on discriminatory pricing at car dealerships. -->
+
+<!-- RESEARCH NEEDED (HUMAN CONDITION): Negotiation aversion is not weakness — it is a rational response to a system where the consequences of "doing it wrong" feel catastrophic and the rules are never explained. The car dealership is designed to create time pressure, information asymmetry, and social discomfort simultaneously. The medical billing office relies on the patient being too exhausted or intimidated to question the number. Rent negotiations happen in a market where the landlord knows you need somewhere to sleep tonight. The power dynamics are real. Preparation does not eliminate them. It makes them visible. -->
+
+[^irl4-1]: Galinsky, A.D. & Mussweiler, T. (2001). "First offers as anchors: The role of perspective-taking and negotiator focus." _Journal of Personality and Social Psychology_, 81(4), 657–669.
+
+---
+
+#### IRL-6: Navigating a Hospital Visit
+*Strategy:* Prepare + Navigate
+*See also:* H-2: Preparing Questions Before a Doctor's Appointment, H-3: Decoding a Medical Bill or EOB, H-7
+*My Man Jeeves:* _The hospital is, one might observe, the only institution in which an individual is expected simultaneously to make consequential decisions about their own care, recall unfamiliar terminology under duress, track which of the several individuals entering the room is authorized to make which determinations, and do so while wearing a garment that opens at the back. The system presumes an advocate — a spouse, a parent, a friend who knows what questions to ask. Many individuals arrive without one. Your Agent cannot accompany you into the room, but it can tell you, beforehand, everything the advocate would have known._
+
+*The Spec:*
+::: prompt
+I [am going to the hospital / am accompanying someone] for
+[scheduled surgery / ER visit / labor and delivery /
+diagnostic procedure / outpatient procedure / extended stay].
+The situation:
+— Why: [diagnosis, procedure, or reason for visit]
+— When: [date, or "it just happened"]
+— Insurance: [type, or "uninsured," or "I don't know what it covers"]
+— Support: [alone / have someone with me / need to coordinate family]
+Please help me:
+1. What should I bring — documents, medication list, comfort items,
+   phone charger, insurance cards, advance directive if I have one
+2. Who will I interact with, and what does each person's role mean?
+   (attending vs. resident vs. nurse practitioner vs. hospitalist)
+3. What questions should I ask before any procedure —
+   the ones that change outcomes
+4. What are my rights as a patient — including the right to
+   refuse, to get a second opinion, and to see my records
+5. What should I watch for after discharge — when to call
+   back vs. when to go to the ER
+Give me the most conservative, medically accurate answer.
+I will verify with my care team.
+:::
+
+*What to do with the Output:* Print it. Bring it. Hospitals are loud, exhausting, and disorienting. You will not remember what your Agent told you at 2 a.m. when the hospitalist asks whether you want to proceed. A printed list in your bag is worth more than a memorized briefing. If you're the advocate for someone else, this is your script.
+
+::: tip
+Ask your Agent: _"What is the difference between 'observation status' and 'admitted' at a hospital? Why does it matter for my insurance?"_ The answer affects whether Medicare or your insurer covers the stay. Observation status can leave you with the full bill. Hospitals are not required to tell you which one you're on.
+:::
+
+
+::: science
+A 2011 study in _Health Affairs_ found that patients with a trained advocate present during hospital stays had 30% fewer adverse events. You don't need a professional advocate. You need someone who knows what questions to ask. Your Agent provides the questions. You or your person provides the presence.[^irl6-1]
+:::
+
+
+::: fairness
+Hospital outcomes correlate with race, income, and insurance status. Black patients are less likely to receive adequate pain management. Uninsured patients receive fewer diagnostic tests. Non-English speakers face communication barriers even when interpreters are legally required. Your Agent cannot fix these structural failures. It can help you document them, name them to staff, and file complaints when they occur.
+:::
+
+
+<!-- RESEARCH NEEDED: Verify the Health Affairs 2011 advocate study — likely Weingart et al. or a related patient safety study. Also: CMS observation status rules, the "Two-Midnight Rule" for Medicare inpatient admission criteria. The observation status issue is one of the most consequential things most patients don't know about. -->
+
+<!-- RESEARCH NEEDED (HUMAN CONDITION): The hospital is where the book's entire thesis compresses into a single experience. You are vulnerable, the system is complex, and the information asymmetry is at its widest precisely when your capacity to close it is at its lowest. The entries in Health cover the clinical and financial dimensions. This entry covers the physical and emotional reality of being in the building. -->
+
+[^irl6-1]: Weingart, S.N. et al. (2011). "Patient-reported safety and quality of care in outpatient oncology." _Health Affairs_, 30(10).
+
+---
+
+#### IRL-7: Talking to a Mechanic
+*Strategy:* Prepare + Decode
+*See also:* Tr-2, Ch-2
+*My Man Jeeves:* _The automobile repair industry operates upon a remarkably efficient information asymmetry: the mechanic possesses specialized knowledge regarding the vehicle's condition, and the vehicle's owner possesses, in the main, the awareness that a sound has begun that was not previously present. Into this gap, one observes, a considerable amount of revenue flows. Not all of it is unwarranted — the profession is skilled and the work is genuinely necessary. But the distinction between "your brake pads are worn and you will die" and "this cabin air filter could be fresher" is one the owner ought to be equipped to make. Your Agent has read every Technical Service Bulletin for your vehicle. The mechanic may not expect that._
+
+*The Spec:*
+::: prompt
+I need to take my car to a mechanic and I want to be prepared.
+The situation:
+— Car: [year, make, model, mileage]
+— The problem: [describe the symptom — noise, warning light,
+   smell, performance issue, or "it's just due for maintenance"]
+— What the mechanic said (if I've already been): [describe
+   their diagnosis and quote]
+— My budget: [amount, or "I need to prioritize"]
+Please help me:
+1. Based on my car and symptoms, what are the most likely causes?
+2. What is the fair price range for the repair they're suggesting?
+3. Which items on this list are safety-critical (do now) vs.
+   recommended (do soon) vs. upsell (can wait or skip)?
+4. What questions should I ask the mechanic to show I've
+   done my homework — without being adversarial?
+5. Is this a repair I should get a second opinion on?
+:::
+
+*What to do with the Output:* Get the diagnosis first. Most reputable mechanics will diagnose for free or for a nominal fee. Get the diagnosis in writing before you authorize the repair. Then ask your Agent to evaluate it. The conversation you want with the mechanic is: "I understand this is the issue. I've looked up the fair price. Let's talk about the work." That's a different conversation than "I don't know what's wrong with it. Fix it."
+
+::: meme
+[Home Improvement:S1E1 "Pilot"](https://en.wikipedia.org/wiki/Home%5FImprovement%5F(TV%5Fseries)%5F(season%5F1)), 1991 — Tim Taylor's entire arc is a man who would rather attempt the repair himself than admit he doesn't understand the repair. The show ran eight seasons on this premise. Do not be Tim Taylor. Know enough to have the conversation. Then let the professional do the work.
+:::
+
+
+::: tip
+_"The mechanic says I need [repair] and quoted me [amount]. My car is a [year/make/model]. Is that a fair price? Is this urgent or can it wait until next month?"_ — Ask this before you authorize anything. Two minutes of preparation can save hundreds of dollars.
+:::
+
+
+<!-- RESEARCH NEEDED: AAA data on average repair costs by service type. NHTSA Technical Service Bulletins are public and searchable — the reader should know these exist. RepairPal and similar pricing tools can corroborate Agent output. The FTC's "Auto Repair Basics" page has consumer rights information. -->
+
+<!-- RESEARCH NEEDED (HUMAN CONDITION): The mechanic's shop is one of the most heavily gendered information asymmetries in American life. Women report being quoted higher prices and receiving more unnecessary repair recommendations than men for identical problems. The Ian Ayres study on auto repair (building on his car sales research) documented this. The anxiety of "being taken advantage of" is not paranoia — it is a statistically validated concern. Your Agent does not change the gender dynamics in the shop. It changes whether you walk in knowing what the repair should cost. -->
+
+---
+
+#### IRL-8: Navigating a Parent-Teacher Conference
+*Strategy:* Prepare + Assert
+*See also:* Li-7, IRL-3: First-Time Situations
+*My Man Jeeves:* _The parent-teacher conference presents itself as a collaborative exchange regarding the child's progress. In practice, one observes, it is a twenty-minute encounter in which the teacher has prepared remarks and the parent is expected to receive them. The parent who arrives with questions — specific, informed, documented — shifts the conversation from monologue to dialogue. When the matter involves an IEP or a 504 plan, the shift is not merely social but legal: the parent is a required member of the team, with rights established by federal statute, and the school is obligated to respond to their concerns in writing. Many parents are not informed of this. The school system does not appear to regard the omission as urgent. Your Agent has read IDEA. It can prepare you to exercise rights you may not know you have._
+
+*The Spec:*
+::: prompt
+I have a parent-teacher conference coming up for my
+[age/grade] child.
+The situation:
+— What's going on: [academic concerns, behavioral issues,
+   social difficulties, gifted program, IEP/504 review,
+   general check-in, or "the school called me"]
+— My concern: [specific worry or goal for the meeting]
+— Current support: [IEP, 504 plan, tutoring, none, or
+   "I don't know what these are"]
+— What I want: [better communication, specific accommodations,
+   a plan, answers, to understand my rights]
+Please help me:
+1. What questions should I ask — specific to my child's situation
+2. If this involves an IEP or 504: what are my legal rights
+   as a parent, and what is the school required to provide?
+3. What should I document during and after the meeting?
+4. What phrases signal that I'm an informed advocate without
+   being combative — I want collaboration, not conflict
+5. What are the red flags — things the school might say that
+   I should push back on?
+:::
+
+*What to do with the Output:* Bring notes. Take notes. The single most important thing you can do in a parent-teacher conference is write down what was agreed to and email a summary afterward: "Thank you for meeting today. Here's my understanding of what we discussed and the next steps." That email is a record. If the school doesn't respond to correct it, it stands.
+
+::: science
+Under IDEA (Individuals with Disabilities Education Act), parents are equal members of the IEP team. The school cannot change an IEP without parental consent. Parents have the right to request an IEE (Independent Educational Evaluation) at public expense if they disagree with the school's assessment. Most parents don't know either of these facts.[^irl8-1]
+:::
+
+
+::: tip
+_"The school wants to remove an accommodation from my child's 504 plan. What are my rights? What should I say in the meeting? What should I put in writing?"_ — Your Agent knows the federal framework. Your school may not volunteer it.
+:::
+
+
+::: fairness
+Parents who speak the school's language — literally and figuratively — get better outcomes for their kids. Schools with higher-income populations have more parent engagement infrastructure. Schools with lower-income populations have larger class sizes and fewer counselors. If English is not your first language, you have the legal right to an interpreter at IEP meetings. Ask your Agent to draft the request.
+:::
+
+
+<!-- RESEARCH NEEDED: IDEA (20 U.S.C. §1400 et seq.) and Section 504 of the Rehabilitation Act — verify specific parental rights provisions. Wrightslaw.com is the definitive parent resource for special education law. COPAA (Council of Parent Attorneys and Advocates) provides free resources. The reader should know these exist. -->
+
+<!-- RESEARCH NEEDED (HUMAN CONDITION): The parent-teacher conference is one of the few institutional encounters where the power asymmetry runs through your child. The stakes feel different when the person across the table controls your kid's daily experience. Parents report feeling intimidated, dismissed, or patronized — particularly parents of color and parents without college degrees. The school system's professional vocabulary (IEP, 504, RTI, MTSS, BIP) functions as a gatekeeping language. Your Agent translates it. -->
+
+[^irl8-1]: Individuals with Disabilities Education Act (IDEA), 20 U.S.C. §1414(d)(1)(B) — parental participation in IEP development.
+
+---
+
+#### IRL-9: Handling a Car Accident
+*Strategy:* Prepare + Navigate
+*See also:* Tr-1, L-4, M-8
+*My Man Jeeves:* _The fifteen minutes following a motor vehicle collision are, one might venture, among the least suitable for clear decision-making in the entire human experience — and yet they are precisely the interval during which the decisions that determine the subsequent six months of insurance negotiations, potential litigation, and financial exposure are made. What one says to the other driver, to the police officer, and to one's insurance company in those first minutes becomes the record. The record is remarkably difficult to amend. Your Agent cannot be consulted at the moment of impact, but it can be consulted ten minutes later, in the passenger seat, while you are waiting for the police to arrive._
+
+*The Spec:*
+::: prompt
+I was just in a car accident. [Or: I want to be prepared
+in case I'm in one.]
+The situation:
+— What happened: [describe briefly — rear-ended, intersection
+   collision, parking lot, single car, hit and run]
+— Injuries: [none / minor / serious / not sure yet]
+— Other driver: [cooperating / not cooperating / left the scene]
+— Police: [on scene / called / not called]
+— Photos: [taken / not yet]
+Please help me:
+1. What do I do right now, step by step — in order of priority
+2. What do I say to the other driver — and what do I NOT say
+3. What do I say to the police officer
+4. What do I photograph and document before I leave the scene
+5. What do I tell my insurance company — and what do I not
+   volunteer
+6. Do I need a lawyer? When does it make sense to get one?
+Give me the most conservative, legally accurate answer.
+:::
+
+*What to do with the Output:* Do not say "I'm sorry" to the other driver. Do not say "it was my fault." Do not speculate about what happened. Exchange insurance information, take photos of everything (both cars, the scene, license plates, road conditions, traffic signs), and get the police report number. Then sit in your car and read what your Agent told you before you call your insurance company.
+
+::: tip
+Save this spec on your phone now, before you need it. Change the situation details when the time comes. The moment after an accident is not the moment to learn what to do after an accident.
+:::
+
+
+::: meme
+[Seinfeld:S7E12 "The Caddy"](https://en.wikipedia.org/wiki/The%5FCaddy%5F(Seinfeld)), 1996 — Kramer and a car accident that spirals into an insurance catastrophe because nobody documented anything and everybody assumed. The episode is a comedy. Your insurance claim is not. Document everything.
+:::
+
+
+::: fairness
+After an accident, police reports and insurance adjusters introduce human judgment — and human bias. Studies show that fault determination and claim payouts correlate with the demographics of the parties involved, not just the facts. If you feel the police report is inaccurate, you have the right to submit a supplemental statement. Your Agent can draft it. Your record does not have to be someone else's summary of what happened.
+:::
+
+
+<!-- RESEARCH NEEDED: State-specific rules on fault determination, no-fault vs. at-fault states, statute of limitations for filing claims and lawsuits. The "do not say sorry" advice is legally sound in at-fault states but some states have "apology laws" that make expressions of sympathy inadmissible. Verify state-by-state variation. -->
+
+<!-- RESEARCH NEEDED (HUMAN CONDITION): A car accident is a trauma response compressed into an administrative event. Your hands are shaking, your adrenaline is spiking, and the system requires you to be a calm documentarian. The gap between your physiological state and the task at hand is the widest it will be in any entry in this book. The preparation-before-you-need-it framing is not a suggestion — it is the entire point. You cannot learn this in the moment. You learn it now. -->
+
+---
+
+#### IRL-10: Attending a Funeral or Memorial
+*Strategy:* Prepare + Navigate
+*See also:* Li-2, IRL-3: First-Time Situations
+*My Man Jeeves:* _There exists no social occasion at which the fear of saying the wrong thing is more acute, or at which the wrong thing is more frequently said. Funerals and memorial services operate according to customs that vary by religion, culture, region, and family — and one is expected to navigate these customs while managing one's own grief, or supporting someone else who is managing theirs. The system provides no orientation. One arrives, one is uncertain whether to speak or remain silent, whether to bring food or flowers or neither, what to wear, what to say to the family, and what, precisely, one does with one's hands. Your Agent cannot grieve with you. It can tell you what to expect so that your attention is free for the only thing that matters: being present._
+
+*The Spec:*
+::: prompt
+I am attending a funeral or memorial service and I want to
+be prepared.
+The situation:
+— My relationship to the person: [close family / friend /
+   colleague / acquaintance / I'm supporting someone who's grieving]
+— The tradition: [Catholic, Jewish, Muslim, Hindu, Baptist,
+   secular, military, celebration of life, "I don't know"]
+— What I'm worried about: [what to say, what to wear,
+   whether to bring something, the logistics, my own emotions]
+Please help me:
+1. What should I expect — walk me through the structure of
+   this type of service
+2. What do I wear? What do I bring?
+3. What do I say to the family — and what should I absolutely
+   not say? Give me specific sentences, not platitudes
+4. What are the cultural or religious customs I should know —
+   things that would be obvious to someone raised in this
+   tradition but not to an outsider?
+5. What do I do after — follow-up, checking in, the part
+   that actually matters most?
+:::
+
+*What to do with the Output:* Read it. Showing up is the thing that matters. The fear of doing it wrong keeps people from showing up at all, and absence is always worse than awkwardness. If you don't know what to say, "I'm here" is enough. If you don't know the customs, follow the people around you. Your Agent handles the logistics so you can handle the being human.
+
+::: meme
+[Seinfeld:S6E1 "The Chaperone"](https://en.wikipedia.org/wiki/The%5FChaperone%5F(Seinfeld)), 1994 — The show's entire run is a master class in the anxiety of social conventions. Every episode is someone doing the wrong thing at the wrong time because nobody explained the rules. Funerals are the one context where the stakes of that anxiety are real. Prepare, so you can be present instead of panicking.
+:::
+
+
+::: tip
+The most useful thing you can do after a funeral is not say "let me know if you need anything." It is to do a specific thing without being asked — bring a meal, mow the lawn, pick up the kids, send a text in three weeks when everyone else has stopped checking in. Ask your Agent: _"My [friend/colleague] lost [person]. It's been [time]. What is a specific, helpful thing I can do right now?"_
+:::
+
+
+<!-- RESEARCH NEEDED (HUMAN CONDITION): Grief follows no schedule and no protocol. The funeral industry in America is a $20 billion business that mediates one of the most universal human experiences through commercial transactions — and the bereaved are making purchasing decisions while in acute grief. The FTC's Funeral Rule requires price disclosure but enforcement is thin. The entry deliberately focuses on the social and emotional preparation rather than the commercial side — that could be its own entry (funeral planning, advance directives, costs). The emotional reality: many people avoid funerals entirely because the anxiety of not knowing the protocol exceeds their sense of obligation. This is the IRL-3 dynamic at its most consequential. -->
+
+---
+
+#### IRL-11: Job Interviews In Person
+*Strategy:* Prepare + Assert
+*See also:* W-1, Li-1
+*My Man Jeeves:* _The in-person interview is, one might observe, a performance in which both parties have agreed to pretend that the exchange of pleasantries, the firm handshake, and the question regarding one's greatest weakness constitute a reliable method of evaluating professional competence. Research suggests they do not. The interview persists, nevertheless, because the hiring manager believes in it, and the hiring manager is the audience. What this means, practically, is that preparation for an interview is not preparation to demonstrate competence — it is preparation to demonstrate the appearance of competence to a specific person, in a specific room, for approximately forty-five minutes. Your Agent has read every question they are likely to ask. It can rehearse your answers until they sound unrehearsed._
+
+*The Spec:*
+::: prompt
+I have an in-person job interview coming up and I want to
+be fully prepared.
+The situation:
+— The role: [job title, company, industry]
+— What I know about the interview: [who I'm meeting,
+   format — panel, one-on-one, multiple rounds, presentation]
+— My background: [brief relevant experience]
+— What I'm nervous about: [specific concern — tough questions,
+   salary discussion, gaps in resume, industry switch,
+   body language, what to wear, small talk]
+Please help me:
+1. Research this company — what should I know going in,
+   and what should I reference in conversation?
+2. Give me the 10 most likely questions for this role
+   and help me draft answers that sound natural, not rehearsed
+3. What do I wear, what do I bring, and what do I do
+   with my hands?
+4. What questions should I ask them — the ones that signal
+   I'm serious and that also get me information I actually need?
+5. Walk me through the logistics: arrival time, who to ask for,
+   the handshake, the small talk, the close, the follow-up
+6. Help me draft a follow-up email I can send within 2 hours
+   of leaving
+:::
+
+*What to do with the Output:* Rehearse out loud. Answers that exist only in your head sound different from answers you've said to a room. Practice with your Agent using voice mode if available — tell it to ask you the questions one at a time and give you honest feedback on your answers. Print the company research and your question list. Arrive 10 minutes early. Bring two copies of your resume, a pen, and a notebook. The follow-up email is the most overlooked part: send it the same day, reference something specific from the conversation, and keep it to three sentences.
+
+::: science
+Meta-analyses of interview validity (Schmidt & Hunter, 1998; updated Sackett et al., 2022) consistently show that unstructured interviews are among the weakest predictors of job performance. Structured interviews — where every candidate gets the same questions — are significantly better. You cannot control which type you get. You can prepare for both. Your Agent helps you anticipate the structure and rehearse within it.[^irl11-1]
+:::
+
+
+::: tip
+_"I just left the interview. Here's what happened: [describe]. Help me draft a follow-up email that references [specific moment from the conversation] and reinforces that I'm the right fit for [specific aspect of the role]."_ — Do this in the parking lot. Two hours is the window.
+:::
+
+
+::: fairness
+Interview outcomes are shaped by bias — conscious and unconscious. Identical resumes with different names receive different callback rates. Candidates who "fit the culture" are often candidates who look like the existing team. Your Agent cannot change the interviewer's biases. It can ensure that the things within your control — preparation, answers, follow-up — are as strong as possible. The structural unfairness is real. So is your preparation.
+:::
+
+
+<!-- RESEARCH NEEDED: Schmidt, F.L. & Hunter, J.E. (1998). "The validity and utility of selection methods in personnel psychology." Psychological Bulletin, 124(2), 262–274. Updated by Sackett et al. (2022). Verify both citations and DOIs. Also: Bertrand & Mullainathan (2004) "Are Emily and Greg More Employable Than Lakisha and Jamal?" — the foundational callback study on name-based discrimination in hiring. -->
+
+<!-- RESEARCH NEEDED (HUMAN CONDITION): The job interview is one of the few situations where the information asymmetry runs in both directions — the company is evaluating you, but you are also evaluating them, and most candidates forget this. The power dynamic feels one-directional because you need the job and they have the job. Your Agent can help you prepare questions that are genuinely evaluative, not performative — "What happened to the last person in this role?" tells you more than "What does success look like in the first 90 days?" The anxiety of interviewing while employed is different from the anxiety of interviewing while unemployed. The book should acknowledge both without pretending they're the same. -->
+
+[^irl11-1]: Sackett, P.R. et al. (2022). "Revisiting meta-analytic estimates of validity of personnel selection." _Journal of Applied Psychology_, 107(4), 537–560.
