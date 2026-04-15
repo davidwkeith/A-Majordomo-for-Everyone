@@ -1,40 +1,30 @@
 # TODO — A Majordomo for Everyone
 
-Last reviewed: 2026-04-08 against spec/ directory.
+Last reviewed: 2026-04-15 against spec/ directory and codebase.
 
 ---
 
-## New Chapters / Entries to Draft
+## Completed Since Last Review (2026-04-08)
 
-### ~~NEW: Customize Your Chat Interface~~ — DONE
-- [x] **WB-7 in Computer & Web field guide** + intro demo in Ch. 2 ("Now Make It Yours")
-- Remaining friction points to address elsewhere:
-  2. Managing multiple short conversations vs. one long thread → WB-10 / Ch. 4
-  3. Building a personal prompt library → future entry or TIP
-  4. Voice input setup → future entry or TIP
-  5. When to start fresh vs. continue a thread → WB-10 / Ch. 4
+- [x] Strategy worked examples — all 10 strategies (0–9) now have 2–3 full spec-loop examples
+- [x] Jeeves voice rewrite — all Field Guide entries rewritten with "My Man Jeeves" openers, fact-checked with citations
+- [x] Field Guide reorganization — WB entries renumbered sequentially (WB-1 through WB-9), Creative domain added (Cr-1 through Cr-4)
+- [x] Field Guide entry labels standardized to Title Case
+- [x] Former stubs drafted: Ho-5, Ho-7, Ch-1, Ch-2, Ch-3, Ch-6 all have substantive content
+- [x] RESEARCH NEEDED markers reduced from 126 → 3 (all in Chores)
+- [x] `[companion URL TBD]` markers resolved (none remaining)
+- [x] WB-* entry numbering rationalized (was non-sequential, now WB-1 through WB-9)
+- [x] New appendices added: Appendix I (Spec Literacy), Appendix J (Working with Text)
+- [x] Apple Books highlight sync — design spec, implementation plan, and script skeleton (#23)
+- [x] Build pipeline type-checks clean (`npm run build:check` passes)
+
+---
 
 ## Unwritten Content
 
-These are the major gaps — content that doesn't exist yet.
-
-### Strategy Worked Examples (Part 1)
-
-Each strategy chapter needs 2–3 full [SPEC] loops (reader situation → clarifying questions → answers → proposed spec → review → execute → evaluate). Currently only Strategy 0 and Strategy 9 have them. Estimated scope: ~300 words per example × 2–3 examples × 8 chapters.
-
-- [x] **Strategy 1: Decode** — Insurance EOB ($347 that isn't real). Lease renewal with new clause ($6,450 exit cost). Ballot measure (downzoning framed as neighborhood protection).
-- [x] **Strategy 2: Prepare** — Before an oncology appointment. Before a salary negotiation. Before a contractor walkthrough.
-- [x] **Strategy 3: Draft** — A demand letter to a landlord. A Medicare denial appeal. A public comment for city council.
-- [x] **Strategy 4: Navigate** — Filing for unemployment. Filing a first-level insurance appeal. Filing a small claims case.
-- [x] **Strategy 5: Decide** — Repair vs. replace an appliance. Roth vs. traditional IRA. Escalate vs. settle a landlord dispute.
-- [x] **Strategy 6: Diagnose** — A washing machine grinding noise. Persistent headaches (triage). An HVAC quote that seems high.
-- [x] **Strategy 7: Research** — Before a surgical procedure. Before signing a non-compete. Between two college financial aid offers.
-- [x] **Strategy 8: Assert** — Tenant rights when landlord refuses repairs. Employee rights when let go. Consumer rights when disputing a charge.
-- [x] **Strategy 9: Create** — A wedding toast with slideshow. A branching short story. A game narrative prototype.
-
 ### Chapter 33: Advanced Free Tier Strategies (Part 3)
 
-- [ ] **Write Ch 33** — status: "stub", body is placeholder only. Should cover advanced rotation techniques, context management, efficient prompting within free-tier limits. Extends Ch 3 (Free Tier Playbook) for Part 3 readers.
+- [ ] **Write Ch 33** — status: "stub" (11 lines), body is placeholder only. Should cover advanced rotation techniques, context management, efficient prompting within free-tier limits. Extends Ch 3 (Free Tier Playbook) for Part 3 readers.
 
 ### New Field Guide Entries
 
@@ -53,39 +43,6 @@ Each strategy chapter needs 2–3 full [SPEC] loops (reader situation → clarif
   - Status: waiting on full draft upload from author
   - Assign entry ID once domain slot confirmed
 
-- [ ] **WB-0: Working With Text — The Token-Saving Strategy** *(domain intro entry)*
-  - Core idea: AI agents work in text. The closer your deliverable starts to plain text, the cheaper, faster, and more editable it stays throughout the spec loop. Only render to final format at the end.
-  - The principle: every rendered format (PPTX, PDF, DOCX, HTML) is a lossy translation from text. Keep everything upstream of that translation editable for as long as possible. Don't pour concrete until the framing is right.
-  - Token framing: a 20-slide deck as Markdown is ~2,000 tokens. As PPTX XML it's 50,000+. Your agent reads the Markdown; you export the PPTX.
-  - Examples:
-
-    | Deliverable | Don't start with | Start with instead |
-    |---|---|---|
-    | Presentation / slide deck | Asking for a PowerPoint | CommonMark outline with one-line art briefs per slide; export to PPTX at the end |
-    | Website | "Build me a website" | Requirements doc + flat list of pages with purpose, nav, and rough content per page; generate HTML page-by-page |
-    | Resume | Uploading a PDF to reformat | Plain text or Markdown version first; styling pass at the end |
-    | Email newsletter | Asking for a designed template | Write body copy in plain text; drop into template only after copy is approved |
-    | Spreadsheet / budget | Asking for a filled .xlsx | CSV or Markdown table first; import or format once the data is right |
-    | Database schema | "Design me a database" | Entity list in plain English → Markdown table of fields + types → SQL only after structure is confirmed |
-    | Legal / contract draft | Uploading a formatted doc | Plain prose outline of clauses; negotiate structure before formatting |
-    | Video script | Storyboard or slide deck | Scene-by-scene Markdown with speaker notes; visuals brief inline |
-    | App / software feature | "Build this app" | User story in plain English → acceptance criteria list → spec → code |
-    | Recipe or meal plan | Asking for a formatted cookbook | Plain ingredient + step list; format for print at the end |
-
-  - The workflow — same one professional teams use: (1) Build the outline, get the story right. (2) Build piece one. (3) Iterate until right. (4) Update the plan — did the story change? (5) Build piece two. Repeat. (6) The finished product is the *last* thing you ask for, not the first.
-  - This is how screenwriters, architects, software teams, and ad agencies work. The "just make me the whole thing" instinct is what produces generic output you can't fix.
-  - Candidate anchor episode: *Home Improvement* — Tim skips the plan, applies power, rebuilds from scratch. The spec loop is the plan.
-  - Strategy: **Specify** + **Draft**; cross-ref WB entries for each deliverable type
-
-### Field Guide Stubs (Part 2)
-
-- [ ] **Ho-5** — stub, full entry to be drafted
-- [ ] **Ho-7** — stub, full entry to be drafted
-- [ ] **Ch-1: Shopping Your Values** — stub
-- [ ] **Ch-2: Understanding a Contractor Bid** — stub
-- [ ] **Ch-3: Identifying and Caring for House Plants** — stub
-- [ ] **Ch-6: Optimizing Manual Chores** — stub
-
 ### Appendix B: Spec Interview Starters
 
 - [ ] **Complete Appendix B** — 8 of ~50 starters written. 42 more needed, organized by Field Guide domain. Must be print-ready at 8.5×11.
@@ -96,13 +53,9 @@ Each strategy chapter needs 2–3 full [SPEC] loops (reader situation → clarif
 
 Content that exists but could be stronger, more complete, or better connected.
 
-### Part 1: Thin Strategy Chapters
-
-Strategies 4 (Navigate, 47 lines) and 6 (Diagnose, 49 lines) are the thinnest. Once worked examples are added they'll fill out, but the explanatory prose is also lighter than peers like Strategy 5 (Decide) or Strategy 8 (Assert).
-
 ### Part 1: Missing Cross-References to Field Guide
 
-No strategy chapter cross-references Field Guide entries by ID. Strategy 8 (Assert) should reference H-4, L-1, W-2; Strategy 1 (Decode) should reference H-3, M-2, L-1; etc.
+Only Strategies 4 and 9 cross-reference Field Guide entries by ID. The other 8 strategy chapters should too — e.g., Strategy 8 (Assert) → H-4, L-1, W-2; Strategy 1 (Decode) → H-3, M-2, L-1.
 
 ### Part 1: Conservative-Answer Convention
 
@@ -114,28 +67,25 @@ Only Strategy 0 has an [ALSO] callout. Other strategies reference Claude-specifi
 
 ### Part 2: Domain Size Imbalance
 
-Target is ~80 entries total. Current count by domain:
+Entry target was ~80; current total is *91* across 12 domains. The target is exceeded overall, but distribution is uneven:
 
 | Domain | Count | Notes |
 |--------|-------|-------|
 | Health (H-) | 19 | Strong |
-| Life (Li-) | 8–11 | Moderate |
-| Online/Web (WB-) | 8 | Moderate |
-| Work (W-) | 7 | Moderate |
-| Civic (C-) | 7 | Moderate |
-| Money (M-) | 6 | Light — financial complexity warrants 10+ |
-| Home (Ho-) | 8 listed, 2 stubs | Partially stubbed |
-| Chores (Ch-) | 6 listed, 4 stubs | Mostly stubbed |
+| Life (Li-) | 12 | Strong |
+| Computer & Web (WB-) | 9 + IT Support | Strong |
+| Civic (C-) | 8 | Solid |
+| Home (Ho-) | 7 | Solid |
+| Work (W-) | 7 | Solid |
+| Money (M-) | 6 | Light — financial complexity warrants 8–10 |
+| Chores (Ch-) | 6 | Solid |
+| Creative (Cr-) | 4 | New domain — assess if complete |
 | Legal (L-) | 4 | Light — expand to 6–8 |
 | Transportation (Tr-) | 4 | Light |
-| IRL (IRL-) | 3 | Light |
-| **Total** | **~68** | **~85% of target** |
+| IRL (IRL-) | 3 | Light — expand to 5+ |
+| **Total** | **91** | **114% of original target** |
 
-Domains that most need expansion: Money, Legal, IRL.
-
-### Part 2: WB-* Entry Numbering
-
-Online Presence entries are numbered non-sequentially (WB-8, 9, 10, 1, 2, 3). Rationalize numbering.
+Priority expansions: Money, Legal, IRL.
 
 ### Part 3: "Recognizing a Correct Spec"
 
@@ -169,20 +119,22 @@ Place as `See also:` or footnote citations where they fit:
 
 ## Research Needed
 
-126 `<!-- RESEARCH NEEDED -->` comments across Part 2, including 70 tagged `(HUMAN CONDITION)`.
+Down from 126 to *3* `<!-- RESEARCH NEEDED -->` comments — all in Chores (Ch-3 plant citation, Ch-6 occupational therapy citation, Ch-6 BLS time-use survey).
 
-Distribution:
+74 `<!-- HUMAN CONDITION -->` editorial research notes remain across Part 2. These are sociological/contextual background for the author, not blocking items — but should be reviewed before publication to decide what gets surfaced in the text vs. removed.
 
-| Domain | RESEARCH NEEDED | HUMAN CONDITION |
-|--------|----------------|-----------------|
-| Life | 40 | 25 |
-| Civic | 24 | 11 |
-| Work | 18 | 10 |
-| Money | 14 | 7 |
-| Health | 10 | 8 |
-| Transportation | 8 | 3 |
-| Legal | 7 | 3 |
-| IRL | 5 | 3 |
+| Domain | HUMAN CONDITION |
+|--------|-----------------|
+| Life | 25 |
+| Civic | 12 |
+| Work | 10 |
+| Health | 8 |
+| Money | 7 |
+| Transportation | 3 |
+| IRL | 3 |
+| Home | 2 |
+| Chores | 2 |
+| Creative | 2 |
 
 Parts 0, 1, 3, and 4 have zero research comments — clean.
 
@@ -190,11 +142,13 @@ Parts 0, 1, 3, and 4 have zero research comments — clean.
 
 ## Pre-Publication Checklist
 
-- [ ] All `[companion URL TBD]` resolved
-- [ ] All `<!-- RESEARCH NEEDED -->` resolved or removed
-- [ ] All stubs drafted
-- [ ] Appendix B complete (50 starters)
-- [ ] Appendix A reflects final entry list
+- [x] All `[companion URL TBD]` resolved
+- [ ] All `<!-- RESEARCH NEEDED -->` resolved or removed (3 remaining)
+- [x] All stubs drafted (except Ch 33)
+- [ ] Ch 33 written (only remaining stub)
+- [ ] Appendix B complete (50 starters; 8 written)
+- [ ] Appendix A reflects final entry list (91 entries across 12 domains)
+- [ ] `<!-- HUMAN CONDITION -->` notes reviewed — surface or remove
 - [ ] All art briefs have corresponding images in `src/images/`
 - [ ] XMP metadata embedded in all images
 - [ ] Version bumped and tagged
