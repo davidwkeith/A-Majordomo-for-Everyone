@@ -195,7 +195,314 @@ TSA procedures are opaque by design and anxiety-producing by experience. The pro
 
 [^tr4-1]: Oakes, M. & Bor, R. (2010). "The psychology of fear of flying (part I): A critical evaluation of current perspectives on the nature, prevalence and etiology of fear of flying." _Travel Medicine and Infectious Disease_, 8(6), 327–338.
 
-<!-- BRAINSTORM: Future Transportation entries
-— Tr-5: Moving to a New City — the transportation-specific cascade: selling/shipping a car, learning a new transit system, updating registration and insurance.
-— Tr-6: Ride-sharing and Delivery — understanding surge pricing, driver economics, safety, and alternatives. The gig economy from the consumer side.
--->
+---
+
+#### Tr-5: Road Trips and Long-Distance Driving
+*Strategy:* Prepare + Navigate
+*See also:* Tr-2: Car Maintenance, Li-5: Planning Trips
+*My Man Jeeves:* _One might observe that the interstate highway system, for all its considerable merits, was designed under the assumption that the traveler is in possession of a reliable vehicle, a full tank, and the good fortune not to require medical attention between exits. The reality, one has found, is rather less accommodating. Rest stops close without notice. Cell service evaporates for stretches that are precisely as long as one's capacity for anxiety. The distance between fuel stations in the American West can exceed the range of a vehicle whose gauge reads optimistic in the best of circumstances. An Agent, consulted before departure, can identify every one of these gaps --- and suggest what to put in the boot to address them._
+*The Spec:*
+::: prompt
+I'm planning a road trip and want to be prepared.
+My route: [origin to destination, or a multi-stop itinerary]
+My vehicle: [year, make, model, approximate mileage]
+Trip details:
+--- Duration: [days on the road]
+--- Passengers: [number, ages, any needs --- kids, pets, mobility]
+--- Season: [time of year]
+--- Driving comfort: [experienced long-distance driver / new to this]
+Please help me:
+1. Plan the route --- best roads, realistic daily driving limits,
+   and where to stop for the night
+2. Identify potential problem stretches --- long gaps between
+   services, mountain passes, weather-prone areas
+3. Build a pre-trip vehicle checklist based on my car's age
+   and mileage --- what should I inspect or service before leaving?
+4. Create an emergency kit list appropriate for my route and season
+5. Estimate total fuel cost and suggest where gas is cheapest
+   along the route
+:::
+*What to do with the Output:* Print the route plan and emergency checklist. Take the car to your mechanic two weeks before departure --- not two days --- in case something needs ordering. Download offline maps for any stretch where your Agent flagged poor cell coverage. The emergency kit goes in the car now, not the morning you leave.
+
+::: science
+Driver fatigue causes an estimated 100,000 crashes per year in the US (NHTSA). The widely repeated "drive no more than 8 hours a day" rule understates the problem --- reaction time degrades measurably after just 2 hours of continuous driving (Thiffault & Bergeron, 2003). The 2-hour rule is the one your Agent should plan around: drive two hours, stop for 15 minutes, repeat.[^tr5-1]
+:::
+
+
+::: tip
+_"I'm driving from [city] to [city] in [month]. What weather, road conditions, or seasonal closures should I plan for? Are there any mountain passes on this route that require chains or have winter restrictions?"_
+:::
+
+
+::: meme
+The Griswolds drove to Walley World with a dead aunt on the roof because Clark refused to deviate from the plan. Your Agent will not let you tie anything to the roof, but it will tell you when the plan needs to change --- closed roads, weather alerts, a hotel that no longer exists. Ask it to build contingencies, not just the route.
+:::
+
+
+<!-- RESEARCH NEEDED: GasBuddy and fuel price APIs. Current best tools for finding cheap gas along a route. Also: EV road trips are increasingly viable but require different planning --- charging stop locations, charging time, and range management in cold weather or at altitude. The entry should acknowledge EV road-tripping without duplicating Tr-10. -->
+
+<!-- RESEARCH NEEDED (HUMAN CONDITION): The American road trip as pilgrimage. For a generation raised on National Lampoon's Vacation, road trips carry mythological weight --- freedom, family bonding, the open road. The anxiety of being underprepared is real and class-coded: wealthier families have newer cars, AAA memberships, and credit cards that cover roadside emergencies. The family driving a 15-year-old minivan with bald tires has more at stake and less margin for error. The entry should serve that family first. -->
+
+[^tr5-1]: Thiffault, P. & Bergeron, J. (2003). "Monotony of road environment and driver fatigue." _Accident Analysis & Prevention_, 35(3), 381--391.
+
+---
+
+#### Tr-7: Understanding Rideshare and Delivery Gig Work
+*Strategy:* Research + Decode
+*See also:* W-8: Gig Work and Self-Employment, M-7: Taxes
+*My Man Jeeves:* _The rideshare arrangement presents a matter of some interest from both sides of the transaction. The passenger perceives a taxi that has been made more convenient; the driver perceives a job that has been made less stable. The company, one might note, has structured the arrangement so that neither party is in full possession of how the pricing works. Surge pricing is presented to the passenger as supply and demand. To the driver, the surge multiplier and the fare the passenger pays are not, as it happens, the same number. One's Agent can decode both sides of this equation --- which is rather the point._
+*The Spec:*
+::: prompt
+I want to understand rideshare and delivery gig work.
+My perspective: [I'm a rider/customer / I'm considering driving /
+I currently drive and want to understand my earnings better]
+My situation: [describe --- city, how often you use rideshare,
+or what platform you're considering driving for]
+Please help me:
+1. [If rider]: How does surge pricing actually work? When am I
+   overpaying and what are my alternatives?
+2. [If rider]: What are the real safety features available to me,
+   and what should I do if something goes wrong?
+3. [If driver/considering]: What do drivers actually earn after
+   expenses --- gas, insurance, maintenance, self-employment tax?
+4. [If driver]: What are my rights? Am I an employee or
+   a contractor, and what does that mean for me?
+5. Explain the tipping economy --- who gets what, and what's
+   the etiquette that actually matters?
+Give me the honest math, not the company's recruitment pitch.
+:::
+*What to do with the Output:* If you're a rider, the practical move is knowing when not to surge: your Agent can tell you that walking two blocks outside a surge zone, waiting 10 minutes, or switching apps often drops the price 30--50%. If you're a driver, paste your last month's earnings and expenses and ask your Agent to calculate your true hourly wage after all costs. That number is the one the platform doesn't show you.
+
+::: fairness
+Rideshare companies classify drivers as independent contractors, which shifts the cost of fuel, insurance, maintenance, and health coverage to the driver while the company controls pricing, routing, and access to the platform. The "be your own boss" framing obscures a power imbalance that labor economists describe as algorithmic management. Your Agent can help a driver calculate true earnings, but it can't fix the structural problem. For that, see C-4: Advocating for Change.
+:::
+
+
+::: science
+A 2020 study by the UC Berkeley Labor Center found that after accounting for vehicle expenses, Uber and Lyft drivers in California earned a median of $5.64 per hour --- below the state minimum wage. The companies disputed the methodology. The drivers did not dispute the experience.[^tr7-1]
+:::
+
+
+::: tip
+_"I spent $[amount] on rideshares last month. Based on my typical trips, would a monthly transit pass, an e-bike, or a car-share membership save me money?"_
+:::
+
+
+<!-- RESEARCH NEEDED: Current state of gig worker classification laws. California's AB5 and Proposition 22, the DOL's 2024 independent contractor rule, and similar legislation in other states. This is a moving legal target. The entry should note the instability without taking a position on which rule is "correct" --- the reader can evaluate the class dynamics on their own. -->
+
+<!-- RESEARCH NEEDED: Delivery gig work economics (DoorDash, Instacart, Amazon Flex). The same contractor-vs-employee dynamics apply, but the math is different --- shorter trips, more wear on the car, tip dependency. A driver doing both rideshare and delivery needs to track expenses separately. -->
+
+[^tr7-1]: Jacobs, K. & Reich, M. (2020). "The Uber/Lyft Ballot Initiative Guarantees Only $5.64 an Hour." UC Berkeley Labor Center.
+
+---
+
+#### Tr-8: Navigating International Travel
+*Strategy:* Prepare + Navigate
+*See also:* Tr-4: Air Travel, IRL-3: First-Time Situations, Li-5: Planning Trips
+*My Man Jeeves:* _International travel, one has observed, is governed by a set of interlocking bureaucracies --- passports, visas, customs declarations, foreign transit systems, currency exchange --- each of which operates under rules that are fully public, entirely discoverable, and almost never consulted by the traveler until the evening before departure. The consequence is predictable. One finds oneself at passport control in a country whose entry requirements one has not verified, holding a document that expires in four months when the requirement is six. An Agent, consulted in advance, would have mentioned this. They are, in this respect, rather like a good valet: most useful when engaged before the crisis, not during it._
+*The Spec:*
+::: prompt
+I'm planning international travel and need help preparing.
+My destination: [country or countries]
+Trip dates: [approximate]
+My passport situation: [have one / need one / need to renew /
+   don't have one yet]
+My experience level: [frequent international traveler /
+   first time abroad / haven't traveled internationally in years]
+Please help me:
+1. What documents do I need? Passport validity requirements,
+   visa requirements for US citizens, any reciprocity fees
+2. Build me a timeline --- when do I need to apply for what,
+   given current processing times?
+3. How do I get around once I'm there? Public transit systems,
+   ride apps that work locally, train tickets, driving requirements
+4. What about money --- best way to pay, currency exchange traps
+   to avoid, tipping customs in [country]
+5. Customs and re-entry --- what can I bring back, duty limits,
+   and what do I declare?
+Give me the conservative answer --- I'd rather over-prepare
+than get turned away at the border.
+:::
+*What to do with the Output:* Start six months out for any trip requiring a visa. Passport renewal currently takes 6--8 weeks routine, 2--3 weeks expedited --- check [travel.state.gov](https://travel.state.gov) for current times, because these fluctuate. Make copies of your passport, visa, and travel insurance --- one paper copy in your bag, one digital copy in your email. The boring preparation is what makes the trip work.
+
+::: tip
+_"I'm a US citizen traveling to [country] for [duration]. Do I need a visa, and does my passport need to be valid for 6 months beyond my travel dates? What are the current processing times?"_
+:::
+
+
+::: fairness
+Passport access is class-coded. As of 2023, only about 48% of Americans hold a valid passport. The application costs $165 for a new adult passport (plus a $35 acceptance fee), requires specific documentation, and demands either time off work to visit an acceptance facility or awareness that post offices handle applications. First-generation travelers --- people whose families never traveled internationally --- face an information gap that is structural, not personal. Your Agent can walk you through every step, including the photos, the form, and exactly which post offices near you accept passport applications.
+:::
+
+
+::: meme
+Anthony Bourdain said that travel "leaves you speechless, then turns you into a storyteller." He also demonstrated, over hundreds of episodes, that the best travel happens when you stop performing the tourist and start paying attention. Your Agent can handle the bureaucracy so you can do the second part.
+:::
+
+
+<!-- RESEARCH NEEDED: Global Entry vs. TSA PreCheck vs. CLEAR. Current costs, application processes, and which actually saves time. Global Entry ($120, 5 years) includes TSA PreCheck. CLEAR ($189/year) is a private company that lets you skip the ID line but not the screening. The comparison is straightforward but not widely understood. -->
+
+<!-- RESEARCH NEEDED: Foreign transit systems. Google Maps and Apple Maps cover transit in most major international cities, but local apps are often better (Citymapper, Moovit, country-specific apps). The entry should note that your Agent can tell you which app to download for your destination city. Also: international driving permits, which are required in some countries and obtainable through AAA for $20. -->
+
+<!-- RESEARCH NEEDED (HUMAN CONDITION): The first passport. For Americans who did not grow up traveling --- who never left the country, whose parents never left the country --- the passport itself is a threshold object. The application process feels gatekept because it is. The entry should treat first-time international travelers with the same respect the book gives first-time anything: the gap is informational, not intellectual. -->
+
+---
+
+#### Tr-9: Accessible Transportation
+*Strategy:* Assert + Navigate
+*See also:* Tr-3: Public Transit, Cycling, and Walkability, C-7: Disability Rights
+*My Man Jeeves:* _The Americans with Disabilities Act, one might observe, guarantees accessible public transportation as a matter of federal law. The distance between the guarantee and the experience, however, is considerable. Paratransit services operate within rules that are technically compliant and practically hostile --- narrow booking windows, multi-hour pickup ranges, penalties for no-shows that assume the rider's schedule is infinitely flexible. The elevator at the train station is broken again. The bus ramp does not deploy. The rideshare driver cancels upon seeing the wheelchair. These are not edge cases. They are the system as experienced by the people it claims to serve. An Agent can help one know precisely what the law requires, file the complaint when it is not provided, and identify the alternatives that actually function._
+*The Spec:*
+::: prompt
+I need help with accessible transportation.
+My situation: [describe --- mobility aid user, visual impairment,
+chronic condition that affects travel, caregiver planning
+transportation for someone else]
+My location: [city or region]
+What I need help with:
+--- [Understanding my rights under ADA for public transit]
+--- [Navigating paratransit --- eligibility, booking, appeals]
+--- [Finding accessible rideshare or taxi options]
+--- [Planning an accessible route for a specific trip]
+--- [Filing a complaint about inaccessible service]
+--- [Understanding what accommodations I can request
+    for air travel under the Air Carrier Access Act]
+Please be specific about what the law requires, not just
+what agencies "try to do." I need to know my rights,
+not their aspirations.
+:::
+*What to do with the Output:* Know the complaint mechanism before you need it. For transit agencies: every agency receiving federal funds must have an ADA complaint process. For airlines: file with the DOT's Aviation Consumer Protection Division. For rideshare: document the cancellation (screenshot the app) and report through both the app and your state's attorney general. Your Agent can draft any of these complaints. The specific legal citation is your leverage --- agencies respond to "you are violating 49 CFR Part 37" differently than "this isn't fair."
+
+::: science
+A 2024 National Council on Disability report found that paratransit riders experience average wait times 3--5 times longer than fixed-route bus riders, with on-time performance rates as low as 60% in some metro areas. The ADA requires paratransit service "comparable" to fixed-route service. The gap between the legal standard and the lived experience is measurable and documented.[^tr9-1]
+:::
+
+
+::: tip
+_"I use a [mobility aid] and need to get from [origin] to [destination] in [city]. What are my options --- fixed-route transit, paratransit, accessible rideshare --- and what accommodations am I legally entitled to request?"_
+:::
+
+
+::: fairness
+Accessible transportation failures compound. A broken elevator doesn't just add inconvenience --- it eliminates an entire transit line from a wheelchair user's options. A paratransit no-show doesn't just make someone late --- it can mean a missed medical appointment that took months to schedule. The cascading consequences of inaccessibility fall on the people with the least margin for error. Your Agent can help you plan around the gaps, but the gaps shouldn't exist.
+:::
+
+
+<!-- RESEARCH NEEDED: Current state of rideshare accessibility. Uber WAV (Wheelchair Accessible Vehicle) and Lyft's accessible options vary dramatically by city. In many metro areas, requesting an accessible vehicle results in wait times of 30+ minutes or no availability. ADA Title III applies to rideshare companies as places of public accommodation, but enforcement has been inconsistent. -->
+
+<!-- RESEARCH NEEDED: Air Carrier Access Act (ACAA) specifics. Airlines must accommodate wheelchair users, but the rate of wheelchair damage during flights is staggering --- airlines damaged or lost over 11,000 wheelchairs and scooters in 2023. A powered wheelchair can cost $30,000+. The DOT has proposed new rules requiring airlines to properly train baggage handlers. Current status of those rules should be verified. -->
+
+<!-- RESEARCH NEEDED (HUMAN CONDITION): The exhaustion of self-advocacy. Disabled people are expected to be their own ADA compliance officers --- to know the law better than the agencies that are supposed to follow it, to file the complaint, to follow up, to escalate, to do this for every trip that goes wrong. The emotional labor is enormous and invisible. The entry should acknowledge that using an Agent to draft complaints and cite regulations is not just a convenience --- it is a way to reduce the cognitive and emotional tax of navigating systems that were supposed to be accessible already. -->
+
+[^tr9-1]: National Council on Disability. (2024). _Progress Report on Transportation for People with Disabilities._
+
+---
+
+#### Tr-10: Electric Vehicles and the Transition
+*Strategy:* Research + Decide
+*See also:* Tr-1: Car Ownership, M-10: Big Financial Decisions
+*My Man Jeeves:* _The electric vehicle market, one has observed, generates a quantity of opinion that bears very little relation to the quantity of data available. One camp insists that the technology is not ready. The other insists it will save the planet by Tuesday. Neither, it would appear, has consulted a spreadsheet. The pertinent questions are rather more pedestrian: can one charge it where one lives, what does it cost to own over five years compared to what one drives now, and does the used market offer anything that a household of ordinary means can afford. An Agent, being unburdened by ideology on the matter, can answer all three --- which places one in the agreeable position of making a decision based on arithmetic rather than allegiance._
+*The Spec:*
+::: prompt
+I'm considering an electric vehicle and want the real picture.
+My situation:
+--- Current car: [year, make, model, annual fuel cost]
+--- Daily commute: [miles round trip]
+--- Home charging: [I have a garage / I have street parking /
+    I rent / I own / I have a 240V outlet or could install one]
+--- Budget: [purchase budget or monthly payment target]
+--- Driving patterns: [mostly city / mostly highway / regular
+    long trips / rarely leave town]
+Please help me:
+1. Total cost of ownership comparison --- my current car vs.
+   2--3 EVs that fit my budget, over 5 years. Include purchase
+   price, fuel/electricity, maintenance, insurance, depreciation,
+   and any available tax credits
+2. Charging reality check --- can I charge at home? If not,
+   what are the public charging options near me, and what
+   does that add in time and cost?
+3. Used EV market --- what's available under $[amount],
+   and what should I know about battery degradation?
+4. Range anxiety vs. reality --- how often do I actually drive
+   far enough to need more range than [specific EV] provides?
+5. What are the current federal and state incentives, and
+   do I qualify?
+Give me the math, not the marketing.
+:::
+*What to do with the Output:* The 5-year total cost of ownership is the only number that matters. If the EV is cheaper over 5 years and you can charge it, the decision is arithmetic. If you can't charge at home --- and roughly 40% of Americans can't, because they rent or lack garage access --- the calculus changes significantly. Be honest with your Agent about your charging situation. The best EV for someone with a garage and a 240V outlet is not the best EV for someone who relies on public chargers.
+
+::: science
+Battery degradation is the most common concern and the least understood. Most modern EV batteries retain 90% or more of their capacity after 100,000 miles (Geotab, 2024). Tesla's million-mile battery data and Nissan's Leaf longevity studies both show degradation curves that are far more gradual than early adopters feared. The used EV market is emerging precisely because the batteries last longer than predicted.[^tr10-1]
+:::
+
+
+::: tip
+_"I drive [X] miles per day and have [home charging situation]. Compare the 5-year total cost of keeping my [current car] vs. buying a [specific EV] vs. buying a used [EV model]. Include electricity cost at my local rate of [$X/kWh]."_
+:::
+
+
+::: fairness
+The EV transition has a class problem. Federal tax credits require enough tax liability to claim them --- a $7,500 credit is worth nothing if you owe $3,000 in taxes. Used EV credits ($4,000 max) have income caps that help, but the cheapest new EVs still start around $28,000. Charging infrastructure is concentrated in wealthier neighborhoods and along interstate corridors. The transition is real and accelerating, but the benefits are not distributed equally --- yet. Your Agent can find the incentives you actually qualify for, including state and utility rebates that often stack.
+:::
+
+
+<!-- RESEARCH NEEDED: Current federal and state EV incentives. The IRA's EV tax credits ($7,500 new, $4,000 used) have assembly and battery sourcing requirements that change as supply chains shift. Some states offer additional rebates ($1,000--$5,000). Some utilities offer discounted overnight charging rates. Verify current eligibility at fueleconomy.gov. Note: political landscape around EV incentives is volatile; the entry should present the mechanism for checking current incentives rather than listing specific amounts that may change. -->
+
+<!-- RESEARCH NEEDED: Charging infrastructure reality. As of 2024, there are approximately 186,000 public charging ports in the US, but the distribution is uneven and the reliability of non-Tesla networks (particularly Electrify America and EVgo) has been a persistent complaint. The NEVI program (from the Bipartisan Infrastructure Law) is funding new stations along interstate corridors. Tesla opened its Supercharger network to other manufacturers. The charging landscape is improving rapidly but is still genuinely inconvenient in some regions. -->
+
+[^tr10-1]: Geotab. (2024). "EV Battery Health and Degradation." Analysis of 10,000+ EVs across multiple manufacturers.
+
+---
+
+#### Tr-11: Boating, RVs, and Niche Vehicles
+*Strategy:* Research + Navigate
+*See also:* Tr-1: Car Ownership, M-8: Insurance
+*My Man Jeeves:* _The purchase of a boat, a recreational vehicle, or a similarly specialized conveyance introduces one to a regulatory environment that appears to have been designed by a committee whose members were not on speaking terms. Registration requirements vary by state and by waterway. Insurance is mandatory in some jurisdictions, optional in others, and confusingly priced in all of them. Licensing requirements range from nonexistent to Coast Guard certification, depending on the vessel's length and one's state of residence. The RV, for its part, occupies an existential category --- part vehicle, part dwelling --- that satisfies the requirements of neither the DMV nor the building code with any particular enthusiasm. One's Agent, having no emotional attachment to the open water or the open road, can sort through the bureaucracy rather efficiently._
+*The Spec:*
+::: prompt
+I'm looking into [buying / renting / maintaining] a
+[boat / RV / motorcycle / ATV / other specialty vehicle].
+My situation:
+--- What I'm considering: [type, size, approximate budget]
+--- Experience level: [new to this / returning after years /
+    experienced but new to ownership]
+--- Location: [state --- this affects registration and licensing]
+--- How I'll use it: [weekend recreation / extended travel /
+    liveaboard / seasonal]
+Please help me:
+1. What licenses or certifications do I need in [state]?
+2. Registration requirements --- where, how much, what's the
+   renewal cycle?
+3. Insurance --- what's required vs. recommended, and what
+   does a typical policy cost for [vehicle type]?
+4. Hidden costs of ownership --- storage, winterization,
+   maintenance cycles, marina fees, campground costs
+5. What do first-time owners most commonly get wrong,
+   and how do I avoid it?
+Be specific to my state. The rules vary and the wrong answer
+is expensive.
+:::
+*What to do with the Output:* The total annual cost of ownership --- not the purchase price --- is what you need. Boats and RVs have carrying costs that surprise first-time owners: storage ($100--$400/month), winterization ($300--$500), insurance ($500--$2,000/year), and maintenance that scales with age and size. Ask your Agent to build an annual budget that includes every line item. If the number is comfortable, proceed. If it isn't, renting is not a consolation prize --- it's the financially literate choice.
+
+::: tip
+_"I'm thinking about buying a [year, type] boat in [state]. What's the total annual cost of ownership including storage, insurance, registration, and typical maintenance? Compare owning vs. renting for [X] days of use per year."_
+:::
+
+
+::: science
+The marine and RV industries both report that the highest rate of resale occurs within the first three years of ownership --- roughly 30--40% of boats and RVs are sold by the original owner within 36 months (NMMA, 2023; RVIA, 2023). The most common reason cited is underestimated cost of ownership. This is not a personal failing. It is a predictable consequence of marketing that emphasizes the purchase price and omits the carrying costs.[^tr11-1]
+:::
+
+
+::: meme
+The two happiest days in a boat owner's life are, as the saying goes, the day they buy it and the day they sell it. Your Agent can't fix the middle part, but it can make sure you go in with the real numbers instead of the marina brochure numbers. The Bluths had a yacht they couldn't afford. You have a spreadsheet. Use it.
+:::
+
+
+<!-- RESEARCH NEEDED: State-by-state licensing requirements for boats and RVs. Boating education requirements vary widely --- some states require a safety course for all operators, others only for those under a certain age, others require nothing. RVs over certain weights may require a non-commercial Class B or Class A license in some states. Motorcycle endorsements are more standardized but still vary. The entry should direct the reader to ask their Agent for state-specific requirements rather than attempting to list them. -->
+
+<!-- RESEARCH NEEDED: RV liveaboard and full-time RV considerations. A growing number of Americans live in RVs full-time, particularly retirees and remote workers. This introduces questions about domicile (which state do you "live" in for tax and voting purposes?), mail forwarding, health insurance across state lines, and campground long-term rates vs. monthly RV park rentals. This may warrant its own entry eventually. -->
+
+<!-- RESEARCH NEEDED (HUMAN CONDITION): The dream purchase. Boats and RVs are aspirational buys --- they represent a version of leisure that American culture markets relentlessly. The retirement RV trip. The family boat on the lake. The motorcycle as midlife reclamation. None of these desires are foolish. But the gap between the dream and the spreadsheet is where regret lives. The entry should respect the aspiration while insisting on the math. -->
+
+[^tr11-1]: National Marine Manufacturers Association. (2023). _US Recreational Boating Statistical Abstract._ RV Industry Association. (2023). _Annual RV Industry Profile._

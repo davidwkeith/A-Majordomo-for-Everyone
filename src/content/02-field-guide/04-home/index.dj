@@ -320,9 +320,178 @@ My soil is [clay/sandy/unknown]. My plants seem to be
 What amendments should I add, and how do I apply them?
 :::
 
-<!-- BRAINSTORM: Future Home entries
-— Ho-8: Emergency Preparedness — natural disasters, power outages, go bags, evacuation plans. Region-specific, deadline-driven. The billionaire has a ranch in New Zealand. You have a plan and a bag.
-— Ho-9: Moving — the logistics cascade: lease-breaking, packing, utilities, address changes, mail forwarding, school transfers. The most common life disruption nobody teaches you to manage.
-— Ho-10: Accessibility Modifications — ADA rights, assistive technology at home, modification rights for renters, funding programs. Aging in place starts before you need it.
-— Ho-11: Pest Control — identification, prevention, treatment, when to DIY vs. call someone. The information asymmetry between pest companies and homeowners is extreme.
--->
+---
+
+#### Ho-8: Household Disaster Preparedness
+*Strategy:* Prepare + Research
+*See also:* M-8: Understanding Insurance (for documenting what you own before you need to), Ho-1: Maintaining Your Home (preventive maintenance is the first line of defense), IRL-9: Handling a Car Accident (the same "be ready before the crisis" mindset)
+*My Man Jeeves:* _One observes that the federal government maintains a website --- ready.gov --- which advises citizens to prepare a 72-hour emergency kit, an evacuation plan, and a communication strategy. One further observes that the overwhelming majority of households have done none of these things, not because the advice is inaccessible but because the task presents itself as a single, undifferentiated mass of anxiety rather than a series of manageable steps. The structural difficulty is familiar: the people best positioned to weather a disaster are those who can afford to outsource the planning, while the people most likely to be displaced by one are expected to assemble the plan themselves, from scattered government PDFs, during a period of calm they cannot quite believe will end. An Agent can convert the undifferentiated mass into a checklist, prioritized by consequence, completed in stages, and tailored to the specific threats that apply where one actually lives._
+*The Spec:*
+::: prompt
+I want to create a household emergency preparedness plan.
+My situation:
+--- Where I live: [city, state]
+--- Housing type: [apartment / house / mobile home / condo]
+--- Household: [number of adults, children, elderly, pets]
+--- Renter or owner: [renter / homeowner]
+--- Any mobility or medical needs: [describe, or "none"]
+--- Budget for supplies: [approximate, or "as little as possible"]
+Please help me:
+1. What are the most likely disasters or emergencies
+   in my area, ranked by probability?
+2. Give me a 72-hour emergency kit list, prioritized
+   so I can build it over a few weeks, not all at once
+3. Walk me through creating an evacuation plan for my
+   specific housing type --- where do I go, what routes,
+   what do I grab?
+4. What documents should I have copies of, and where
+   should I store them?
+5. How do I set up a family communication plan --- who
+   calls whom, what if phones are down?
+Give me the most conservative, safety-first answer.
+:::
+*What to do with the Output:* Do not try to do everything this week. Pick the three highest-priority items from your Agent's list and do those first. A partial kit that exists is infinitely better than a complete plan that doesn't. Store digital copies of your important documents in a cloud account you can access from any device --- your Agent can tell you exactly which documents to photograph and how to organize them.
+
+::: science
+FEMA's post-disaster surveys consistently find that households with any written plan --- even an incomplete one --- evacuate faster and experience less property loss than those without one. The barrier is not willingness but initiation: people overestimate the effort and underestimate the return.[^ho8-1]
+:::
+
+
+::: tip
+_"I have 30 minutes and $50 this weekend. What is the single most impactful thing I can do right now to be more prepared for an emergency in [my city]?"_ --- Start small. Your Agent will prioritize by risk.
+:::
+
+
+::: fairness
+Disaster impact is not distributed equally. Low-income communities, communities of color, and renters are disproportionately affected by natural disasters and disproportionately underserved by recovery programs. If your Agent's advice assumes you own your home, have savings, or can relocate temporarily, say so: _"I rent, I don't have savings for a hotel, and I have no car. What are my options if I need to evacuate?"_
+:::
+
+
+<!-- RESEARCH NEEDED: FEMA National Household Survey data on emergency preparedness rates by income and housing type. The 2022 survey found fewer than half of US households had an emergency plan. Need exact figures and citation. -->
+
+<!-- RESEARCH NEEDED: Specific statistics on disaster displacement by income and race. The Klinenberg (2002) "Heat Wave" study on the 1995 Chicago heat wave is foundational for the structural inequality argument. Bullard (2012) on environmental justice and disaster recovery disparities. -->
+
+<!-- RESEARCH NEEDED (HUMAN CONDITION): The psychology of disaster preparedness is a procrastination problem, not a knowledge problem. People know they should prepare. They do not prepare. The reasons are structural --- poverty, exhaustion, the cognitive load of daily survival leaving no bandwidth for hypothetical survival --- and they are also emotional. Preparing for a disaster means admitting it could happen to you. That admission is harder than it sounds. The entry should acknowledge this without condescending about it. -->
+
+[^ho8-1]: Federal Emergency Management Agency. (2022). [_National Household Survey on Disaster Preparedness._](https://www.fema.gov/emergency-managers/national-preparedness/plan) FEMA found that fewer than half of US households had developed an emergency plan.
+
+---
+
+#### Ho-9: Decluttering and Organizing
+*Strategy:* Diagnose + Navigate
+*See also:* Ch-6: Optimizing Manual Chores (for maintaining systems once you build them), Ho-1: Maintaining Your Home (decluttering is maintenance, not renovation)
+*My Man Jeeves:* _One hesitates to suggest that the billion-dollar decluttering industry has a financial incentive to make the problem feel spiritual rather than logistical, but one does observe that the rhetoric of "sparking joy" has been rather more profitable for its inventor than for the average person standing in a 400-square-foot apartment wondering where the winter coats are meant to reside. The difficulty is not an excess of sentiment. The difficulty is an insufficiency of space, compounded by an absence of systems. An Agent can assess the space one actually has, propose storage arrangements that function within its constraints, and maintain the one-in-one-out discipline that prevents the problem from recurring --- all without requiring that one hold each object and interrogate one's feelings about it._
+*The Spec:*
+::: prompt
+I need help organizing and decluttering my [room / apartment /
+house / specific area like garage, closet, kitchen].
+My situation:
+--- Space: [approximate size, or "small apartment" / "house with
+   no storage" / "one closet for everything"]
+--- What's overwhelming me most: [describe --- too much stuff in
+   too little space / can't find things / just moved / preparing
+   to move / specific problem area]
+--- Household: [living alone / with partner / with kids / roommates]
+--- Budget for storage solutions: [nothing / under $50 / flexible]
+--- Physical limitations: [if any --- can't lift heavy things,
+   mobility issues, etc.]
+Please help me:
+1. Give me a room-by-room (or zone-by-zone) priority list ---
+   where should I start for the biggest impact?
+2. For my first target area, give me a step-by-step plan
+   I can complete in one afternoon
+3. What are affordable storage solutions for my specific
+   space constraints?
+4. How do I set up a "one in, one out" system that actually
+   works for my living situation?
+5. What should I donate vs. trash vs. sell, and where
+   specifically in [my city] can I do each?
+:::
+*What to do with the Output:* Start with the first zone your Agent identifies --- the one that will make the biggest daily difference. Do not reorganize the garage before you can find your keys. Set a timer for two hours, work the plan, and stop. Decluttering in marathon sessions leads to decision fatigue and a pile of things in the hallway that stays there for a month.
+
+::: science
+Decision fatigue is real and measurable. Studies on cognitive depletion show that the quality of decisions degrades after sustained periods of choosing, which is exactly what decluttering demands --- hundreds of keep-or-discard decisions in sequence. Working in short, focused sessions with clear categories (not "does this spark joy?" but "have I used this in 12 months?") reduces the cognitive load and produces better outcomes.[^ho9-1]
+:::
+
+
+::: meme
+In _[Friends:S6E6 "The One on the Last Night"](https://en.wikipedia.org/wiki/The_One_on_the_Last_Night)_, 2000 --- Monica cannot let Chandler move in without reorganizing the entire apartment first. The lesson, as always with Monica, is that the system matters more than the sentiment. She is correct. She is also exhausting. Your Agent has the organizational instinct without the 3 a.m. label maker.
+:::
+
+
+::: tip
+_"I don't want to buy anything. I have [describe what you have --- cardboard boxes, some bins, a small closet]. How do I organize [area] with only what I already own?"_ --- The best organization system is the one you'll maintain with zero additional purchases.
+:::
+
+
+<!-- RESEARCH NEEDED: Baumeister et al. on decision fatigue / ego depletion. The replication status of ego depletion research is contested (the 2010 Baumeister study had mixed replication results), but the practical observation that people make worse decisions after long decluttering sessions is well-supported by behavioral research on choice overload (Iyengar & Lepper, 2000). Use the choice overload framing instead if ego depletion citation doesn't hold up. -->
+
+<!-- RESEARCH NEEDED (HUMAN CONDITION): Hoarding disorder affects 2-6% of the population and is a recognized mental health condition, not a lifestyle choice. If someone's clutter is causing significant distress or functional impairment, an Agent is not a substitute for professional help. The entry should include a gentle note about when the problem is beyond what organization systems can solve --- not as a disclaimer, but as genuine care. The line between "I need to organize" and "I need help" is one the book should respect. -->
+
+[^ho9-1]: Iyengar, S.S. & Lepper, M.R. (2000). ["When Choice Is Demotivating: Can One Desire Too Much of a Good Thing?"](https://doi.org/10.1037/0022-3514.79.6.995) _Journal of Personality and Social Psychology_, 79(6), 995--1006. The choice overload effect --- decision quality degrades as options increase --- applies directly to the hundreds of keep-or-discard decisions decluttering demands.
+
+---
+
+#### Ho-10: Home Security and Safety
+*Strategy:* Research + Decide
+*See also:* Ho-1: Maintaining Your Home (smoke detector batteries are maintenance, not security), Ho-8: Household Disaster Preparedness (security is one layer of a broader safety plan), Ho-4: Knowing Your Rights as a Renter or Homeowner (what your landlord is legally required to provide)
+*My Man Jeeves:* _The home security industry generates approximately $56 billion annually in the United States, a figure that should prompt the observation that its primary product is not security but the feeling of security --- a distinction upon which rather a lot of profit depends. A deadbolt, properly installed, does more than a subscription camera service. A smoke detector with a functioning battery does more than a monitored alarm system. The fundamentals are mechanical, inexpensive, and effective. The industry prefers to sell past them. An Agent can assess what one actually needs --- based on one's housing type, neighbourhood, and specific concerns --- and distinguish the measures that reduce risk from those that merely reduce anxiety at a monthly fee._
+*The Spec:*
+::: prompt
+I want to make my home safer and more secure.
+My situation:
+--- Housing type: [apartment / house / condo / mobile home]
+--- Renter or owner: [renter / homeowner] (this affects what I
+   can install)
+--- Current security: [describe what you already have --- locks,
+   cameras, alarm, smoke detectors, fire extinguisher, or "nothing"]
+--- Specific concerns: [break-ins / package theft / fire safety /
+   carbon monoxide / I have kids and want to childproof / general
+   safety audit / a specific incident happened]
+--- Budget: [minimal / moderate / flexible]
+Please help me:
+1. Audit what I currently have --- what's missing from
+   the basics?
+2. Prioritize improvements by actual risk reduction, not
+   marketing --- what makes the biggest real difference
+   for my housing type?
+3. What should I do myself vs. what requires a
+   professional installation?
+4. For any products you recommend, give me the category
+   and what to look for --- not a specific brand
+5. If I'm a renter, what am I allowed to install, and
+   what must my landlord provide?
+Give me practical, evidence-based recommendations.
+I don't want to be sold a subscription I don't need.
+:::
+*What to do with the Output:* Start with the items your Agent flags as missing from the basics --- working smoke detectors on every level, a CO detector near sleeping areas, a fire extinguisher in the kitchen, and functional deadbolts on exterior doors. These are not optional. They are the safety equivalent of seatbelts. Everything after that is risk-specific and budget-dependent. If you rent, check your Agent's output against Ho-4 --- your landlord may be legally required to provide several of these.
+
+::: science
+The National Fire Protection Association reports that three out of five home fire deaths occur in homes with no working smoke alarms or no smoke alarms at all. Smoke detectors are the single most cost-effective safety measure in any home. Replace batteries annually or switch to 10-year sealed units. Your Agent can remind you, but the battery does not replace itself.[^ho10-1]
+:::
+
+
+::: tip
+_"I rent and my landlord hasn't installed [smoke detectors / CO detectors / proper locks]. What does [my state] law require them to provide, and what's the most effective way to make them do it?"_ --- Combine this with Ho-4 for the legal framework.
+:::
+
+
+::: fairness
+Home security marketing disproportionately targets fear --- and that fear is not evenly distributed. Surveillance technology marketed as "security" can become a tool of harassment in domestic violence situations, and neighborhood surveillance apps have documented patterns of racial profiling. If your concern is personal safety from someone you live with or near, your Agent can help you find resources (the National Domestic Violence Hotline: 1-800-799-7233) rather than cameras.
+:::
+
+
+::: meme
+The _[Home Improvement:S4E1 "Back in the Saddle Shoe"](https://en.wikipedia.org/wiki/Home_Improvement_(season_4))_, 1994 --- Tim installs a home security system. It goes off seventeen times in the first night. Al would have started with the locks. Start with the locks.
+:::
+
+
+<!-- RESEARCH NEEDED: NFPA smoke alarm statistics. The "three out of five" figure is widely cited; confirm against the most recent NFPA report (likely 2023 or 2024 data). Also need citation for CO detector effectiveness data. -->
+
+<!-- RESEARCH NEEDED: Home security industry revenue figure ($56 billion). Source is likely Statista or IBISWorld. Confirm current figure and year. -->
+
+<!-- RESEARCH NEEDED: Evidence on effectiveness of visible security cameras as deterrents. The research is mixed --- some studies show modest deterrent effects in specific contexts (parking lots, public spaces) while others show displacement rather than prevention. The honest answer is that cameras are better at recording than preventing. Need a balanced citation. -->
+
+<!-- RESEARCH NEEDED (HUMAN CONDITION): The entry should handle domestic violence with care. For someone whose safety concern is a person, not a stranger, the security industry's product is irrelevant at best and dangerous at worst. Smart locks and cameras in the hands of an abuser are control tools. The entry should include the DV hotline and a note that if your safety concern is someone with access to your home, the solution is not hardware. This needs to be handled without being preachy --- a single sentence and a phone number, placed where the person who needs it will find it. -->
+
+[^ho10-1]: National Fire Protection Association. (2023). ["Smoke Alarms in US Home Fires."](https://www.nfpa.org/education-and-research/research/nfpa-research/fire-statistical-reports/smoke-alarms-in-us-home-fires) NFPA Research. Three out of five home fire deaths occur in homes with no working smoke alarm.

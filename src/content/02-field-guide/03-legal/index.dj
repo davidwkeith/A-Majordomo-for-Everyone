@@ -191,11 +191,369 @@ Racial disparities in traffic enforcement are among the most thoroughly document
 [^l4-1]: Pierson, E., et al. (2020). "A large-scale analysis of racial disparities in police stops across the United States." _Nature Human Behaviour_, 4, 736–745. Data available at [openpolicing.stanford.edu](https://openpolicing.stanford.edu).
 
 
-<!-- BRAINSTORM: Future Legal entries
-— L-5: Immigration Basics — navigating USCIS, visa processes, naturalization. The system is opaque by design.
-— L-6: Divorce and Custody — the second most common legal event in adult life after employment. Property, custody, mediation vs. litigation.
-— L-7: Name Change / Gender Marker — bureaucratic maze, jurisdiction-dependent, high emotional stakes.
-— L-8: Identity Theft Recovery — time-sensitive, multi-step, panic-inducing. FTC recovery plan, credit freezes, police reports.
-— L-9: Landlord-Tenant Disputes — overlaps with Ho-4 but the Legal strategy is distinct. Security deposits, habitability, eviction defense.
-— L-10: Wills and Estate Basics — what happens when someone dies and left (or didn't leave) a will. Probate, intestacy, executor duties.
--->
+---
+
+#### L-5: Understanding Your Rights as a Tenant
+*Strategy:* Decode + Assert
+*See also:* Ho-4: Knowing Your Rights as a Renter or Homeowner (the practical side --- maintenance, deposits, inspections), L-1: Negotiating a Contract (for reading your lease), L-3: Writing a Demand Letter (if your landlord will not act)
+*My Man Jeeves:* _One observes that the relationship between landlord and tenant is, in most American jurisdictions, governed by a rather comprehensive body of law that the landlord has read and the tenant has not. This is not, one might note, an oversight. The lease itself is the landlord's document, composed by the landlord's attorney, printed on the landlord's letterhead, and presented to the tenant at a moment of maximum vulnerability --- when one has already packed, hired movers, and informed one's current residence of departure. The implied warranty of habitability, the statutory limits on security deposits, the protections against retaliatory eviction --- these exist in every state, though they vary with a creativity that borders on the artistic. The difficulty is not that the tenant lacks rights. It is that exercising them requires knowing they exist, which the lease is under no obligation to mention. One's Agent has read your state's landlord-tenant statute. It is prepared to be specific._
+
+*The Spec:*
+::: prompt
+I am a tenant and I need to understand my rights.
+My state and city: [state, city]
+My situation: [describe what's happening --- habitability
+issue / security deposit dispute / lease renewal pressure /
+possible eviction / landlord entering without notice /
+retaliation after a complaint / other]
+My lease type: [month-to-month / fixed-term, and when it
+expires]
+What my landlord has said or done: [specific actions,
+communications, or threats]
+What I've done so far: [nothing / complained verbally /
+complained in writing / called code enforcement / other]
+Please:
+1. Tell me my specific rights under my state and local
+   landlord-tenant law for this situation
+2. Tell me what my landlord is and is not legally allowed
+   to do
+3. Identify whether anything my landlord has done may
+   already be a violation
+4. Give me the exact steps to protect myself, in order,
+   starting with what I should do today
+5. Draft any written notice I need to send
+Give me the most conservative, legally accurate answer.
+I will verify with a lawyer or legal aid if escalation
+is needed.
+:::
+*What to do with the Output:* Document everything in writing from this point forward. If your Agent identifies a habitability violation, send written notice to your landlord --- certified mail, return receipt, keep a copy. Photograph the condition with a timestamp. If your Agent identifies potential retaliation, you now know the statute that protects you, and you can name it in your next communication. That specificity changes the conversation.
+
+::: fairness
+Eviction filings --- even those that are dismissed or ruled in the tenant's favor --- appear on background checks and can prevent a tenant from securing future housing for years. This means a landlord who files a retaliatory eviction and loses still wins: the tenant's record is marked. Some jurisdictions have begun sealing dismissed evictions, but most have not. Ask your Agent: _"In [state], do dismissed evictions appear on tenant screening reports, and what can I do about it?"_ The answer will inform whether you fight or negotiate.[^l5-1]
+:::
+
+
+::: tip
+The single most protective thing a tenant can do is communicate in writing. Text messages count. Emails count. A handwritten note slid under the office door with a photo of it counts. Verbal complaints evaporate. Written complaints become evidence. Ask your Agent: _"Draft a written notice to my landlord about [issue] that establishes a paper trail and cites the relevant statute."_
+:::
+
+
+::: science
+Princeton Eviction Lab data shows that in most American cities, the majority of tenants facing eviction never appear in court --- and of those who do, fewer than 10% have legal representation. Landlords are represented in over 80% of cases. The representation gap, more than the merits of any individual case, predicts the outcome. Legal aid organizations exist in every state. Your Agent can find the one in your jurisdiction.[^l5-2]
+:::
+
+
+<!-- RESEARCH NEEDED: State-by-state security deposit limits and return deadlines. Many states cap deposits at 1-2 months' rent and require return within 14-30 days with an itemized deduction list. Violations of these statutes often carry penalties of 2x or 3x the deposit amount — a fact most tenants do not know and most landlords count on them not knowing. -->
+
+<!-- RESEARCH NEEDED (HUMAN CONDITION): The power asymmetry of the landlord-tenant relationship is not just informational — it is existential. The landlord risks a vacancy. The tenant risks homelessness. This asymmetry shapes every negotiation, every complaint, every decision about whether to assert a right or stay quiet. The fear of retaliation is rational, not neurotic. The entry should name this without pretending a spec template resolves it. -->
+
+[^l5-1]: The National Housing Law Project ([nhlp.org](https://www.nhlp.org)) publishes resources on eviction record sealing and tenant screening reform by state.
+
+[^l5-2]: Desmond, Matthew. _Evicted: Poverty and Profit in the American City._ Crown, 2016. See also the Princeton Eviction Lab ([evictionlab.org](https://evictionlab.org)) for current national eviction filing data.
+
+---
+
+#### L-6: Navigating Family Court
+*Strategy:* Navigate + Prepare
+*See also:* L-1: Negotiating a Contract (settlement agreements are contracts --- read them like one), Li-1: Difficult Conversations (the emotional side of what this entry handles procedurally)
+*My Man Jeeves:* _It is perhaps worth observing that family court occupies a singular position in the American legal system. It is the one court where both parties arrive already in crisis, where the stakes are not financial but existential --- the daily proximity to one's children --- and where the proceedings are governed by a standard, "the best interest of the child," that sounds reassuringly clear and proves, upon examination, to be interpreted differently by every judge in every county. One further notes that the system assumes both parties can afford attorneys, take time off work for hearings, and produce documentation on short notice. When one party can and the other cannot, the procedural advantage compounds with each filing. The law itself may be neutral. The capacity to navigate it is not. One's Agent cannot represent you in court. It can ensure you arrive prepared rather than bewildered, which is, if one may say so, a meaningful distinction._
+
+*The Spec:*
+::: prompt
+I need to navigate family court.
+My state and county: [state, county]
+My situation: [divorce filing / custody dispute / child
+support modification / custody modification / protective
+order / other]
+Where I am in the process: [haven't filed yet / just been
+served / mid-proceedings / need to modify an existing order]
+Children involved: [ages, current living arrangement]
+Current representation: [I have a lawyer / I'm representing
+myself / I'm looking for legal aid]
+My specific concern right now: [custody schedule / support
+calculation / division of property / safety / other]
+Please:
+1. Explain how family court works in my jurisdiction ---
+   the process, timeline, and what to expect at each stage
+2. Tell me what documentation I need to gather and how
+   to organize it
+3. If child support is at issue, explain how my state
+   calculates it and what factors I can and cannot influence
+4. Identify any deadlines I need to know about --- family
+   court deadlines are often non-negotiable
+5. Tell me what to say, what not to say, and how judges
+   in family court evaluate credibility
+Give me the most conservative, legally accurate answer.
+I will verify with a family law attorney or legal aid.
+:::
+*What to do with the Output:* Family court rewards preparation and punishes disorganization. Start a binder --- physical or digital --- with tabs for financial documents, communication records, proposed parenting schedules, and court filings. If you are representing yourself, ask your Agent to help you draft each filing, then bring it to a legal aid clinic for review before submitting. One hour of attorney review on a prepared document costs far less than ten hours of an attorney starting from scratch.
+
+::: tip
+Child support calculations in most states are formulaic --- income, number of children, parenting time, health insurance costs. Ask your Agent: _"Run the child support calculation for [state] with these inputs: [income, children, parenting time split]. Show me what changes if any of these numbers change."_ Understanding the formula removes the mystery and lets you focus on the inputs you can document.
+:::
+
+
+::: fairness
+Family court outcomes correlate strongly with representation. In cases where one party has an attorney and the other does not, the represented party prevails on custody issues in the significant majority of cases. Legal aid for family court is chronically underfunded. If you cannot afford an attorney, ask your Agent: _"What legal aid organizations in [state/county] handle family law, and what are their eligibility requirements?"_ Many have income cutoffs, but some offer unbundled services --- review of a single document, coaching for a single hearing --- at reduced cost.[^l6-1]
+:::
+
+
+::: meme
+The Seinfeld wedding. The Friends divorce (Ross, naturally --- three times). Frasier's entire backstory. Family court is the sitcom event that happens between seasons, referenced in passing, its procedural reality never shown. The characters emerge changed but the process is invisible. In life, the process is the hardest part. Nobody writes an episode about waiting four months for a hearing date while your temporary order slowly becomes the status quo.
+:::
+
+
+<!-- RESEARCH NEEDED: Mediation vs. litigation outcomes in family court. Multiple studies suggest that mediated custody agreements have higher compliance rates and lower re-litigation rates than court-imposed orders. Many jurisdictions now require mediation before trial. The cost and process vary widely. -->
+
+<!-- RESEARCH NEEDED: The "status quo" bias in custody. Family courts tend to preserve existing arrangements. A temporary order that gives one parent primary custody often becomes the permanent order, not because the judge evaluated the merits but because the arrangement has been "working." This means the first filing — and the first temporary order — has disproportionate long-term impact. The entry should flag this without causing panic. -->
+
+[^l6-1]: The Legal Services Corporation ([lsc.gov](https://www.lsc.gov)) funds legal aid programs in every state. Their website includes a searchable directory by state and case type.
+
+---
+
+#### L-7: Dealing with Debt Collectors
+*Strategy:* Assert + Decode
+*See also:* M-4: Collections and Bankruptcy (the financial strategy side), M-2: Credit Card Debt (if that is the underlying debt), L-3: Writing a Demand Letter (the same technique works in reverse --- you can demand they stop)
+*My Man Jeeves:* _One might observe that the debt collection industry operates within a set of federal and state regulations that are, in their particulars, rather favorable to the debtor --- and that this fact is precisely the one the industry relies upon the debtor not knowing. The Fair Debt Collection Practices Act specifies what a collector may say, when they may call, what they must prove when challenged, and what they must cease doing when instructed. Violations of these provisions carry statutory damages. The difficulty, as so often, presents itself in the gap between the law as written and the experience of receiving a telephone call at dinner from a person whose professional training consists of creating urgency in the uninformed. The collector's advantage is not legal. It is informational. One's Agent is familiar with the FDCPA. It can level the conversation rather promptly._
+
+*The Spec:*
+::: prompt
+A debt collector has contacted me.
+My state: [state]
+The debt they claim I owe: [amount, to whom, approximate
+date of original debt if known]
+How they contacted me: [phone / letter / text / email /
+showed up at my door]
+What they said: [as specifically as you can recall ---
+threats, deadlines, claims about consequences]
+What I know about this debt: [I owe it / I don't owe it /
+I'm not sure / I already paid it / it's very old / it
+might be past the statute of limitations]
+Please:
+1. Explain my rights under the FDCPA and my state's
+   debt collection laws
+2. Identify anything the collector said or did that may
+   be a violation
+3. Tell me the statute of limitations for this type of
+   debt in my state and whether this debt may be
+   time-barred
+4. Draft a debt validation letter I can send --- I want
+   them to prove the debt is mine, the amount is correct,
+   and they have the legal right to collect it
+5. Tell me what I should and should not say if they
+   call again
+6. If the debt is valid, explain my realistic options:
+   negotiation, payment plan, settlement for less
+Give me the most conservative, legally accurate answer.
+I will verify with a consumer law attorney if needed.
+:::
+*What to do with the Output:* If you have any doubt about whether the debt is valid, send the validation letter immediately --- you have 30 days from first contact to request validation, and the collector must stop all collection activity until they provide it. Send the letter by certified mail, return receipt requested. Do not acknowledge the debt verbally. Do not make a partial payment. Both can restart the statute of limitations in some states. Your Agent can explain whether your state has this rule.
+
+::: science
+The Consumer Financial Protection Bureau receives more complaints about debt collection than any other category --- over 120,000 per year. A CFPB report found that 53% of consumers contacted by collectors reported being contacted about a debt they did not owe. One in four reported being contacted about a debt that was already paid. The validation letter exists because the system generates errors at an industrial scale.[^l7-1]
+:::
+
+
+::: tip
+The single most powerful sentence in debt collection law: _"I am requesting validation of this debt pursuant to the FDCPA. Do not contact me again until you have provided written validation."_ You can say it on the phone. You should also send it in writing. Ask your Agent: _"Draft a debt validation letter for [amount] claimed by [collector name]. Include a cease-communication request until validation is provided."_
+:::
+
+
+::: fairness
+Debt collection disproportionately targets Black and Latino neighborhoods. Research has found that residents of majority-Black neighborhoods are sued by debt collectors at rates nearly twice those of majority-white neighborhoods --- even after controlling for income, debt levels, and other financial factors. The debts are similar. The enforcement is not.[^l7-2] If a collector threatens legal action, ask your Agent whether that threat is credible in your jurisdiction: _"Can this collector actually sue me for [amount] in [state]? What would that process look like, and what are my defenses?"_
+:::
+
+
+::: meme
+The collector on the phone has a script. The script is designed to create urgency: _this will go on your permanent record, this will affect your credit, we can garnish your wages._ Some of these claims are true. Some are illegal to make. The collector's training assumes you cannot tell the difference. After this entry, you can.
+:::
+
+
+<!-- RESEARCH NEEDED: Zombie debt — debts that are past the statute of limitations but still collected upon. In many states, making a partial payment or even verbally acknowledging the debt restarts the clock. Collectors know this. Consumers do not. The validation letter strategy is specifically designed to avoid this trap. -->
+
+<!-- RESEARCH NEEDED: State-level protections beyond the FDCPA. Several states (California, New York, Texas, others) have debt collection laws that are significantly stronger than the federal floor. Wage garnishment protections vary enormously — some states prohibit it entirely for consumer debt, others allow up to 25% of disposable income. -->
+
+[^l7-1]: Consumer Financial Protection Bureau. "Fair Debt Collection Practices Act: CFPB Annual Report 2023." Available at [consumerfinance.gov](https://www.consumerfinance.gov).
+
+[^l7-2]: Fedaseyeu, Viktar, and Robert M. Hunt. "The Economics of Debt Collection: Enforcement of Consumer Credit Contracts." Federal Reserve Bank of Philadelphia Working Paper, 2015. See also Albanesi, Stefania, and Domonkos Vamossy. "Predicting Consumer Default: A Deep Learning Approach." _NBER Working Paper_, 2019.
+
+---
+
+#### L-8: Power of Attorney and Advance Directives
+*Strategy:* Draft + Prepare
+*See also:* H-7: End-of-Life Conversations (the emotional and medical side of these decisions), Li-4: Planning Care for Aging Parents (the caregiving context where these documents become urgent)
+*My Man Jeeves:* _One ventures to suggest that there are certain documents which every adult requires and which, by a most inconvenient feature of human nature, no adult wishes to contemplate. A power of attorney, a healthcare proxy, and an advance directive are not instruments of pessimism. They are instruments of agency --- they ensure that when one cannot speak for oneself, the person who speaks in one's place knows what one would have said. The difficulty is not that these documents are legally complex. A basic power of attorney is, in most states, a single form. The difficulty is that the conversation they require --- who do you trust, what do you want, under what circumstances --- is one that most families postpone until the decision must be made in a hospital corridor at two in the morning by a person who has no legal authority to make it. The documents exist to prevent that moment. One's Agent can draft them. The conversation, one regrets to observe, remains yours to have._
+
+*The Spec:*
+::: prompt
+I need to create advance planning documents.
+My state: [state]
+What I need: [power of attorney / healthcare proxy / living
+will / advance directive / all of the above]
+My situation: [planning ahead while healthy / aging parent
+needs these / specific medical situation / estate planning]
+My designated person(s): [who I want to make decisions ---
+name and relationship]
+My specific wishes, if any: [end-of-life preferences /
+financial management preferences / situations where you
+want or don't want intervention]
+Please:
+1. Explain what each document does, in plain language, and
+   which ones I actually need
+2. Tell me whether my state has specific statutory forms
+   for these documents and where to get them
+3. Explain the requirements for making them legally valid
+   in my state --- witnesses, notarization, registration
+4. Walk me through the decisions I need to make for each
+   document --- what questions I need to answer before
+   I can fill them out
+5. Tell me what happens if I don't have these documents
+   and something happens to me
+Give me the most conservative, legally accurate answer.
+I will have these documents reviewed by an attorney
+before signing.
+:::
+*What to do with the Output:* Most states offer free statutory forms for these documents --- your Agent can tell you where to find your state's version. Fill them out. Get them witnessed and notarized as your state requires. Give copies to your designated person, your doctor, and your hospital. Tell your family these documents exist and where they are. A power of attorney in a filing cabinet that nobody knows about protects no one.
+
+::: tip
+Many people stall on these documents because they think they need a lawyer to draft them. In most states, the statutory forms are free, available online, and designed to be completed without legal help. Ask your Agent: _"What is the official statutory form for [document type] in [state], and where can I download it?"_ An attorney review is wise but not always necessary for standard situations. Do not let the perfect be the enemy of the filed.
+:::
+
+
+::: science
+A 2017 study in _Health Affairs_ found that only 37% of American adults have completed advance directives. Among those who had, family members were significantly more likely to report that end-of-life care matched the patient's wishes. The documents work. The barrier is not legal complexity --- it is the human reluctance to plan for incapacity. Completing these forms is a thirty-minute task that can prevent months of family conflict and legal proceedings.[^l8-1]
+:::
+
+
+::: fairness
+Power of attorney and advance directives interact with systemic inequality in ways that are not obvious until you need them. Unmarried partners --- including, in some jurisdictions, same-sex spouses whose marriages may not be recognized across all institutional contexts --- have no default legal authority over each other's medical or financial decisions. A healthcare proxy is not optional for these families. It is the only thing standing between your partner and a hospital administrator who defers to your estranged next of kin. Ask your Agent: _"In [state], who has default decision-making authority if I am incapacitated and have no advance directive? Does my [partner/spouse] have automatic authority?"_
+:::
+
+
+<!-- RESEARCH NEEDED: State-by-state requirements for power of attorney and advance directives — number of witnesses, notarization requirements, whether registration with a state database is available or required. Some states (like Oregon and Vermont) have POLST (Physician Orders for Life-Sustaining Treatment) forms that are legally binding medical orders, distinct from advance directives. -->
+
+<!-- RESEARCH NEEDED (HUMAN CONDITION): The emotional weight of these documents is wildly disproportionate to their legal simplicity. Asking someone to be your healthcare proxy is asking them to carry the worst decision of your life. The conversation is harder than the paperwork. The entry should acknowledge this without pathologizing the avoidance — it is rational to postpone thinking about your own incapacity. The task is not to overcome the feeling but to complete the form anyway. -->
+
+[^l8-1]: Yadav, Kuldeep N., et al. "Approximately One in Three US Adults Completes Any Type of Advance Directive for End-of-Life Care." _Health Affairs_, 36(7), 2017, 1244–1251.
+
+---
+
+#### L-10: Navigating a Background Check
+*Strategy:* Decode + Assert
+*See also:* W-1: Getting a Job (where background checks gatekeep employment), Ho-6: Getting a Home (where they gatekeep housing --- rental applications)
+*My Man Jeeves:* _One cannot help but observe that the background check has become, in contemporary American life, a document of considerable consequence that the subject of the check is permitted neither to see in advance nor to review for accuracy before it is presented to the party making a decision. An employer, a landlord, or a licensing board receives a report that purports to summarize one's relationship with the law. The report may be accurate. It may not. A 2012 study by the National Consumer Law Center found error rates sufficiently alarming to suggest that accuracy is, for the industry, more of an aspiration than a practice. The Fair Credit Reporting Act provides the right to dispute errors, and many states provide the right to review one's own record. The difficulty is that most people exercise these rights after a rejection --- which is to say, after the damage is done. One's Agent can help you review your record before anyone else does._
+
+*The Spec:*
+::: prompt
+I need to understand and prepare for a background check.
+My state: [state]
+The context: [job application / rental application /
+professional license / volunteer position / other]
+What I'm concerned about: [criminal record / old arrest
+that was dismissed / expunged record showing up / error
+on my record / I don't know what's on it / other]
+What I know about my record: [describe what you know ---
+convictions, arrests, dispositions, approximate dates]
+Please:
+1. Tell me exactly what shows up on a background check
+   in my state for this type of check --- and what
+   legally should not
+2. Explain the difference between arrests, charges,
+   convictions, and expungements --- and which ones
+   appear on which types of checks
+3. Tell me my rights under the FCRA: what the employer
+   or landlord must do before and after using a
+   background check to make a decision
+4. If I have something on my record, tell me whether
+   expungement or sealing is available in my state,
+   what it costs, and how long it takes
+5. If there's an error, walk me through the dispute
+   process step by step
+Give me the most conservative, legally accurate answer.
+I will verify with a lawyer if I pursue expungement.
+:::
+*What to do with the Output:* Run your own background check first. Your Agent can tell you how --- most states allow you to request your criminal history from the state police or bureau of investigation for a small fee. Review it for errors before an employer or landlord does. If you find an error, dispute it now, in writing, with the background check company and the court that holds the record. If expungement is available, start the process --- it takes months in most jurisdictions, so the time to begin is before you need the clean record.
+
+::: tip
+Under the FCRA, an employer who rejects you based on a background check must provide you with a copy of the report and a written notice of your right to dispute it --- _before_ the rejection becomes final. This is called "pre-adverse action notice." Many employers skip this step. If you were rejected and never received a copy of the report, that is itself a violation. Ask your Agent: _"I was denied [job/housing] and was not given a copy of my background check or a pre-adverse action notice. What are my rights under the FCRA?"_
+:::
+
+
+::: fairness
+Background checks encode the racial disparities of the criminal legal system into employment and housing decisions. Because Black and Latino Americans are arrested and convicted at higher rates than white Americans for equivalent conduct, background check policies that screen out anyone with a record function as a proxy for racial discrimination --- even when that is not the intent. The EEOC has issued guidance stating that blanket "no criminal record" policies may violate Title VII. Some states and cities have adopted "ban the box" laws that delay the background check until after a conditional offer. Ask your Agent: _"Does [state/city] have a ban-the-box law? What does it actually require, and what can I do if an employer asks about my record before they're legally allowed to?"_[^l10-1]
+:::
+
+
+::: science
+A 2012 National Consumer Law Center report found that FBI background check records are incomplete roughly 50% of the time --- arrest records without disposition data, meaning the check shows an arrest but not whether the charges were dropped, dismissed, or resulted in acquittal. A record that says "arrested for X" with no outcome listed reads, to an employer, as a conviction. The FCRA requires background check companies to follow reasonable procedures for accuracy. The standard for "reasonable" is, one might observe, vigorously debated.[^l10-2]
+:::
+
+
+<!-- RESEARCH NEEDED: Expungement eligibility and process by state. Some states have automatic expungement for certain offenses after a waiting period (e.g., Utah's Clean Slate Act). Others require a petition, a hearing, and a filing fee. The variation is enormous and the practical barriers — cost, complexity, time — mean that many people who are eligible never apply. -->
+
+<!-- RESEARCH NEEDED: The tenant screening industry specifically. Companies like CoreLogic, TransUnion, and RealPage compile tenant screening reports that include eviction filings (even dismissed ones), criminal records, and credit history. Error rates in these reports are poorly studied but anecdotally high. The right to dispute errors under the FCRA applies to these reports as well. -->
+
+[^l10-1]: Equal Employment Opportunity Commission. "Enforcement Guidance on the Consideration of Arrest and Conviction Records in Employment Decisions under Title VII." 2012. Available at [eeoc.gov](https://www.eeoc.gov).
+
+[^l10-2]: National Consumer Law Center. "Broken Records: How Errors by Criminal Background Check Companies Harm Workers and Businesses." 2012. Available at [nclc.org](https://www.nclc.org).
+
+---
+
+#### L-11: Filing a Consumer Complaint
+*Strategy:* Assert + Navigate
+*See also:* IRL-2: Customer Service (the conversation --- try this first), L-3: Writing a Demand Letter (the written escalation --- try this second)
+*My Man Jeeves:* _One observes that the American consumer possesses, at any given moment, access to a rather formidable array of regulatory complaint mechanisms --- the Consumer Financial Protection Bureau, the Federal Trade Commission, the state attorney general's consumer protection division, and in many instances a local consumer affairs office --- and that the typical consumer, upon being wronged by a corporation, is aware of precisely none of them. This is not, one ventures to say, because the agencies are secretive. They are not. Their complaint portals are public, free, and in several cases genuinely effective. The CFPB, by way of illustration, forwards complaints to the named company with a statutory deadline for response, and publishes both the complaint and the response in a searchable public database. The difficulty is navigational: knowing which agency handles which type of complaint, what information to include, and how to frame the complaint so that it receives attention rather than a form letter. One's Agent knows the escalation ladder. It would be pleased to assist you in climbing it._
+
+*The Spec:*
+::: prompt
+I need to file a consumer complaint against a company.
+The company: [name]
+The product or service: [what you bought or signed up for]
+What happened: [describe the problem --- what was promised,
+what was delivered, what went wrong, how much money is
+involved]
+What I've already tried: [called customer service / emailed /
+sent a demand letter / posted on social media / nothing]
+The response I got: [they fixed it / they ignored me / they
+offered something inadequate / they were rude / other]
+Please:
+1. Tell me which federal, state, and local agencies accept
+   complaints for this type of issue
+2. Rank them by likely effectiveness for my specific
+   situation
+3. Draft the complaint for the most relevant agency,
+   including all the information they ask for
+4. Tell me whether I should file with multiple agencies
+   simultaneously or escalate one at a time
+5. Identify whether this company has a pattern of this
+   behavior --- check the CFPB complaint database and
+   any relevant enforcement actions
+Give me the most conservative, legally accurate answer.
+:::
+*What to do with the Output:* File the complaint with the agency your Agent recommends first. Most federal agencies --- CFPB, FTC, FCC --- have online portals that take ten to fifteen minutes to complete. Your Agent has already drafted the text. Paste it in. If your Agent recommends filing with multiple agencies, do them all in one sitting. Keep the confirmation numbers. The company has a statutory deadline to respond to CFPB complaints (typically 15 days). Mark your calendar.
+
+::: tip
+The CFPB complaint database is public. Before you file, ask your Agent: _"Search the CFPB complaint database for [company name]. What are the most common complaints, and how does the company typically respond?"_ If you see a pattern --- hundreds of people with the same problem getting the same runaround --- that context strengthens your complaint and tells you what resolution to demand. The database is at [consumerfinance.gov/data-research/consumer-complaints](https://www.consumerfinance.gov/data-research/consumer-complaints/).
+:::
+
+
+::: science
+The CFPB reports that companies provide timely responses to approximately 97% of complaints forwarded to them. CFPB data shows that consumers who file complaints receive monetary relief in roughly 15% of cases, with a median relief amount of $150 --- but for certain complaint types (mortgage servicing, debt collection), the median relief was substantially higher. The complaint mechanism works not because the agency enforces on your behalf --- it rarely does for individual cases --- but because the company knows the agency is watching, and the complaint becomes part of a public record that regulators review when deciding where to investigate.[^l11-1]
+:::
+
+
+::: meme
+The escalation ladder: (1) call customer service, (2) ask for a supervisor, (3) send a demand letter, (4) file a regulatory complaint, (5) file in small claims court. Most people stop at step 2, exhausted. The companies know this. Their customer service process is designed to absorb your energy at the lowest level of the escalation ladder. Steps 3 through 5 are where the leverage actually lives. Each rung involves a different kind of accountability --- legal, regulatory, public --- and each one costs the company more to deal with than the one below it. Your Agent can draft the paperwork for steps 3, 4, and 5 in a single conversation.
+:::
+
+
+::: also
+All major AI tools can search publicly available databases. If you ask your Agent to check the CFPB complaint database, it may use web search or direct access depending on the tool. Claude, ChatGPT, Gemini, and Copilot all support this type of research query. See [Appendix G](06-appendix-g-feature-table.xhtml).
+:::
+
+
+<!-- RESEARCH NEEDED: State attorney general consumer complaint effectiveness. Some state AGs (e.g., Massachusetts, California, New York) are significantly more active in consumer protection than others. The complaint process and typical outcomes vary widely. Filing with both the CFPB and your state AG simultaneously creates two pressure points — the federal and the state — which is generally more effective than either alone. -->
+
+<!-- RESEARCH NEEDED: FTC complaint mechanism. The FTC does not resolve individual complaints — it uses complaint data to identify patterns and bring enforcement actions. Filing an FTC complaint is still worthwhile because it contributes to the data the agency uses to decide where to investigate. The reader should understand this distinction: the FTC complaint is a vote, not a case. The CFPB complaint is a case. -->
+
+[^l11-1]: Consumer Financial Protection Bureau. "Consumer Response Annual Report." 2023. Available at [consumerfinance.gov](https://www.consumerfinance.gov).

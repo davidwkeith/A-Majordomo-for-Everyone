@@ -187,105 +187,439 @@ For editing advice and step-by-step software guidance, any major AI tool works w
 
 ---
 
-#### Cr-4: Writing a Book (Like This One)
+#### Cr-5: Making Music
 
-[worn-hitchhikers]{.art}
-
-*Strategy:* Create + Draft
-*See also:* Strategy 9: Create (the full framework for AI-assisted creative work), Li-8: Wellness Coach (for the emotional side of long projects)
-*My Man Jeeves:* _It would appear that the publishing industry spent centuries determining who was permitted to call themselves a writer. Self-publishing removed the gate. It did not, one regrets to observe, remove the craft. The tools to distribute a book to every reader on earth are free or very nearly so. The tools to make the book worth reading cost the same thing they have always cost: time, structure, and someone willing to inform one, with appropriate delicacy, when a chapter does not work. Most books, if one may venture the observation, expire in chapter four, not at the blank page. The blank page receives rather more credit for stopping writers than it deserves — it is the middle, when the architecture does not hold and the initial enthusiasm has been spent, that accounts for the manuscript's demise. One's Agent is prepared to serve as the structural editor, the developmental reader, and the research assistant that professional authors have always retained and first-time writers have not._
+*Strategy:* Create + Navigate
+*See also:* Cr-11: Learning an Instrument (the performance side), Cr-6: Podcasting and Audio Production (audio skills transfer), WB-1: Learning Any App or Digital Skill
+*My Man Jeeves:* _One observes that a recording studio charges $50 to $500 an hour, that a music production course at a community college runs $800 to $2,000 per semester, and that the instruments alone — even before one considers microphones, cables, and the various boxes that make sounds louder or different — represent an investment that has historically excluded anyone who could not first afford the investment. The difficulty, if one may say so, is not musical. [GarageBand](https://en.wikipedia.org/wiki/GarageBand) ships free with every Apple device. [BandLab](https://en.wikipedia.org/wiki/BandLab_Technologies) runs in a browser and costs nothing. Between them, one has access to more instruments, effects, and recording capability than the Beatles had at Abbey Road in 1967. What one does not have — and what no free tool provides — is the craft knowledge: why a chord progression feels finished, why a rhythm track feels alive or mechanical, why a melody stays in someone's head or doesn't. Those of considerable means retain a producer. The reader now has an Agent conversant with music theory, arrangement, and the specific capabilities of whichever free tool sits open on their screen._
 *The Spec:*
 ::: prompt
-I want to write a book about [topic / story / argument].
+I want to make music.
 My situation:
-— What kind of book: [memoir / novel / practical nonfiction /
-   children's book / poetry collection / essay collection / other]
-— Where I am: [idea only / rough outline / first few chapters /
-   stuck in the middle / finished draft that needs editing]
-— What I'm struggling with: [starting / structure / voice /
-   staying motivated / knowing if it's good / finishing]
-— Who is it for: [describe the reader — not "everyone"]
+— What I want to make: [a song / a beat / background music
+   for a video / a track for my podcast / something for fun /
+   I don't know yet, I just want to make sounds]
+— My musical background: [none / played an instrument as a
+   kid / sing in the car / play casually / took some lessons]
+— My tools: [GarageBand / BandLab / FL Studio / Ableton /
+   I haven't picked one yet]
+— My gear: [just my phone or laptop / I have a USB microphone /
+   I have a MIDI keyboard / I have a guitar or other instrument]
+— What I'm struggling with: [I don't know where to start /
+   it sounds flat and lifeless / I can hear it in my head but
+   can't get it out / I don't understand music theory /
+   the software is overwhelming]
 Please help me:
-1. Define the book's core argument or through-line in one
-   sentence — if I can't state it, the book isn't ready to write
-2. Build a structural outline that shows me the shape of
-   the whole thing before I write more
-3. Identify the weakest chapter or section and tell me why
-4. Be honest: is this idea a book, or is it an essay, a blog
-   post, or a pamphlet? The honest answer saves months.
+1. If I haven't picked a tool, recommend one for my skill level
+   and what I'm making — one tool, not a list
+2. Teach me the minimum music theory I need for what I'm making —
+   not a semester of coursework, the three things that matter now
+3. Walk me through making my first piece from start to finish —
+   in order, with specific steps for my tool
+4. Tell me why bedroom productions sound amateur and what
+   the fixes are
 :::
-*What to do with the Output:* Ask your Agent to read what you have and tell you where the reader would stop reading. Not where it is "good" or "bad" — where attention flags. That is where the work is. If the answer is "the beginning," do not panic. Most books need a different beginning than the one they started with. This one did.
+*What to do with the Output:* Make something. It will not be good. That is correct. The first pancake never is. Save it, make another one next week, and compare them in a month. The gap between "I made a sound" and "I made a song" is smaller than you think, and it closes faster than you expect. Your Agent can critique each version and tell you what changed.
 
 ::: tip
-_"Read this chapter and tell me: what is the reader supposed to know at the end that they didn't know at the beginning? If you can't tell, neither can they."_ — This is the single most useful developmental editing question. Ask it for every chapter.
-:::
-
-
-::: meme
-Hemingway had [Gertrude Stein](https://en.wikipedia.org/wiki/Gertrude%5FStein). Fitzgerald had [Maxwell Perkins](https://en.wikipedia.org/wiki/Maxwell%5FPerkins). Toni Morrison had [Robert Gottlieb](https://en.wikipedia.org/wiki/Robert%5FGottlieb). Every great writer had an editor who told them when the work was not ready, and the writer hated hearing it and needed to hear it. Your Agent will do this without the lunch bill and without losing your manuscript on a train. It may, however, state its opinions with an unearned confidence that Perkins would never have permitted himself. Verify its literary judgments the way you would verify its facts.
-:::
-
-
-::: fairness
-Your Agent is trained on an enormous amount of published writing, which means it has absorbed the conventions of published writing — conventions that reflect who has historically been published. If your voice, structure, or story does not fit the dominant literary tradition, your Agent may nudge you toward the center. When it does, don't just undo it — add the rule to your voice specification: _"Never smooth out my code-switching. That's my voice. Update the spec."_ The most important thing about your book is that it sounds like you wrote it. The spec is how you make that stick across every session.
-:::
-
-
-*The specification for the book itself:* A book is too large for a single conversation. Your Agent does not remember chapter three when you are writing chapter twelve — unless you tell it. The solution is the same one this entire book teaches: write a specification. For fiction, screenwriters call it a [character bible](https://en.wikipedia.org/wiki/Bible%5F(screenwriting)) — a living reference document that holds characters, settings, timeline, voice rules, plot decisions, themes, what has been established and what has not. For nonfiction, it is the same thing with different contents: audience, argument, structure, editorial conventions, what has been decided and what has not. Both are specifications. Both serve the same purpose: they are the memory for you and your Agent across every session.
-
-Build the specification early and update it as you write:
-::: prompt
-Here is the specification for my book. Read it before we work.
-[paste or attach the document]
-Today I am working on [chapter/section]. Here is what I have so far.
-[paste the draft]
-The specification is the authority. If anything I've written
-contradicts it, flag the contradiction. If we make a decision today
-that changes the spec, tell me at the end of the session so I can
-update it.
-:::
-This book uses the same technique. The `spec/` directory — voice guidelines, editorial conventions, the episode index, the illustration instructions — is the specification for _A Majordomo for Everyone_. It is not a character bible because this is not fiction, but it does the same work: every session starts by reading it, every decision is checked against it, and when the spec and the content disagree, one of them gets fixed. That discipline is what keeps a long project coherent across a hundred sessions, whether the collaborator is a human editor or an Agent. Strategy 0 applies to books the same way it applies to insurance appeals. Specify first. Then write.
-
-*The voice specification:* When a billionaire writes a memoir, they do not write it. They hire a ghostwriter, and before that ghostwriter types a word, the publisher pays for weeks of interviews — recorded conversations about how the subject talks, what words they reach for, what rhythms feel natural, what register they use when they are angry versus when they are being careful. The ghostwriter distills those interviews into a voice specification: a document that says _this is how this person sounds on the page_. Then the ghostwriter writes to that spec. The billionaire reviews, adjusts, and the voice converges. This process costs tens of thousands of dollars and involves daily calls and constant billing.
-
-You can do the same thing in an afternoon. Ask your Agent to interview you:
-::: prompt
-Interview me about my writing voice. Ask me questions one at
-a time — about the writers I admire, the sentences I've written
-that I'm proud of, the words I overuse, the tone I want, the
-tone I want to avoid, how formal or informal I am, whether I
-use humor and what kind. After the interview, write me a voice
-specification I can hand to you at the start of every session
-so you write in my voice, not yours.
-:::
-The output is a document — a page or two — that captures how you sound. Paste it into your project specification. Now when you ask your Agent to draft a chapter, it writes in your voice. When it drifts, don't push back — tell the Agent to update the voice spec with the rule. _"I never use semicolons. Add that to the voice specification."_ _"That paragraph sounds too formal for this book. Update the spec: conversational register, always."_ The spec grows as you write. Every decision you make about voice becomes a rule your Agent follows in every future session. You focus on the plot points, the argument, the personal details that only you know. The Agent handles the connective tissue in a voice that sounds like yours, not like a machine's, and organizes the notes. No Zoom calls. No billing.
-
-::: tip
-_"Here are three paragraphs I've written that sound the most like me. Analyze my voice — sentence length, vocabulary level, rhythm, use of humor, formality — and write a voice specification I can reuse."_ — If you already have writing you like, skip the interview. Let your Agent reverse-engineer the spec from the work.
-:::
-
-
-::: tip
-Write in plain text files — `.txt` or [CommonMark](https://commonmark.org/) `.md`, not Word documents. Plain text is the foundation of every modern computer. Every device you own already knows how to read it. Every device you will ever own will know how to read it. A `.txt` file created in 1985 opens instantly today. Try that with a WordPerfect file. Your manuscript will never be locked inside software you have to pay for, trapped in a format that stops being supported, or corrupted by an update you did not ask for. It is the safest way to store ideas and the easiest way to back them up — copy the file anywhere, it works.
-
-Plain text is also what your Agent reads best. A `.docx` file is a compressed archive full of XML formatting markup that eats tokens — the units that determine how much your Agent can read and respond to in one conversation. On free tiers, where every token counts, a manuscript in `.docx` can consume twice the tokens of the same words in `.txt`. Your Agent reads plain text faster, and when it rewrites a chapter, it can hand you back the entire file — no formatting to reconstruct, no track changes to untangle.
-
-You do not need to buy anything. TextEdit is already on your Mac. Notepad is already on your PC. On your phone, a free text editor is one app store search away. If you need help setting it up, that is a conversation for your Agent — see WB-1: Learning Any App or Digital Skill. See also WB-7: Writing in CommonMark for the two-minute upgrade from plain text to light formatting.
+_"Here's a melody I hummed into my phone [attach audio]. What key is it in, what chords would go under it, and how do I build a track around it in [GarageBand / BandLab]?"_ — Your Agent can work from what you already hear. You don't need to read sheet music to have a musical idea.
 :::
 
 
 ::: science
-What you write matters more than you think — and not just to you. Historians have always relied on ordinary people's records to understand how life was actually lived. A Maine midwife named [Martha Ballard](https://en.wikipedia.org/wiki/Martha%5FBallard) kept a daily diary from 1785 to 1812 — deliveries, weather, chores, gossip. Previous historians dismissed it as too mundane to study. Laurel Thatcher Ulrich spent eight years proving them wrong, and the result won the Pulitzer Prize: the richest surviving account of women's medical practice, sexual assault prosecution, and household economy in early America. [Samuel Pepys'](https://en.wikipedia.org/wiki/Samuel%5FPepys) diary became our primary eyewitness account of both the Great Plague and the Great Fire of London — and he wrote it as a personal journal, worrying about his Parmesan cheese while the city burned. The [Mass Observation Archive](https://en.wikipedia.org/wiki/Mass-Observation) recruited 480 ordinary Britons to record daily life during World War II; those diaries are now irreplaceable primary sources. E.P. Thompson's foundational _The Making of the English Working Class_ (1963) was built from workshop customs, threatening letters, and popular songs — records that others treated as scraps. His declaration: _"I am seeking to rescue the poor stockinger, the Luddite cropper, the 'obsolete' hand-loom weaver... from the enormous condescension of posterity."_[^cr4-1]
-
-The paradox of the digital era: we are creating more personal documentation than any civilization in history and doing less to ensure it survives. Rosenzweig (2003) warned that historians face a shift from a culture of scarcity to a culture of abundance, while paradoxically risking a future of record scarcity — because digital formats decay and platforms vanish. GeoCities held 186 million pages of personal writing when Yahoo deleted it in 2009. Internet pioneer [Vint Cerf](https://en.wikipedia.org/wiki/Vint%5FCerf) has warned of a "digital dark age" in which everyday records become unreadable as formats and software go obsolete. Plain text does not go obsolete. A `.txt` file is a hedge against the condescension of posterity. What you are writing may matter to someone who has not been born yet. Store it in a format they will be able to read.
+Music-making is one of the most thoroughly studied forms of human cognitive engagement. Zatorre & Salimpoor (2013) demonstrated that music activates the brain's reward system — the same dopamine pathways triggered by food and social bonding — and that this activation occurs during both listening and creating. Importantly, the barrier to these cognitive benefits is participation, not expertise: Hallam (2010) found that active music-making at any skill level improves executive function, working memory, and emotional regulation in adults. The expensive part was never the brain's willingness to engage. It was the $40-a-lesson price of participation.[^cr5-1]
 :::
 
 
-[^cr4-1]: Thompson, E.P. (1963). [_The Making of the English Working Class._](https://www.penguinrandomhouse.com/books/93136/the-making-of-the-english-working-class-by-e-p-thompson/) Victor Gollancz. Ulrich, L.T. (1990). [_A Midwife's Tale._](https://www.penguinrandomhouse.com/books/331364/a-midwifes-tale-by-laurel-thatcher-ulrich/) Alfred A. Knopf. Rosenzweig, R. (2003). ["Scarcity or Abundance? Preserving the Past in a Digital Era."](https://rrchnm.org/essays/scarcity-or-abundance-preserving-the-past-in-a-digital-era/) _American Historical Review,_ 108(3), 735–762.
+::: meme
+The Beatles recorded _Sgt. Pepper's_ on a four-track tape machine with less processing power than a greeting card that plays "Happy Birthday." You have more music production capability on your phone than existed in any recording studio before 1990. The technology is not the constraint. The constraint is that nobody handed you the manual.
+:::
 
-<!-- BRAINSTORM: Future Creative entries
-— Cr-5: Making Music — GarageBand, BandLab, and AI-assisted composition. The gap between "I hear it in my head" and "it exists" has never been smaller.
-— Cr-6: Podcasting — recording, editing, publishing, and finding an audience. The barrier to entry is a phone and a quiet room.
-— Cr-7: Drawing and Illustration — from stick figures to intentional art. Procreate, paper, and the principles that make a doodle communicate.
-— Cr-8: Creative Writing (Fiction, Poetry, Essays) — the non-book version of Cr-4. Short-form creative work with AI as writing partner.
--->
+
+::: fairness
+Your Agent's knowledge of music theory and production technique reflects the Western popular and classical traditions that dominate its training data. If you're making music rooted in other traditions — West African polyrhythm, Indian raga, Latin American clave patterns, Appalachian modal tuning — tell your Agent explicitly. _"I'm working in [tradition]. Don't default to Western chord progressions or 4/4 time signatures."_ The theory is not universal. The impulse to make music is.
+:::
+
+
+[^cr5-1]: Zatorre, R.J. & Salimpoor, V.N. (2013). ["From Perception to Pleasure: Music and Its Neural Substrates."](https://doi.org/10.1073/pnas.1301228110) _Proceedings of the National Academy of Sciences,_ 110(Supplement 2), 10430–10437. Hallam, S. (2010). ["The Power of Music: Its Impact on the Intellectual, Social and Personal Development of Children and Young People."](https://doi.org/10.1177/0255761410370658) _International Journal of Music Education,_ 28(3), 269–289.
+
+<!-- RESEARCH NEEDED: Verify current free-tier capabilities and limitations of GarageBand and BandLab. Confirm BandLab still runs fully in-browser with no download required. Check whether there are instrument or track limits on free tiers that the reader should know about. -->
+
+<!-- RESEARCH NEEDED (HUMAN CONDITION): Music is one of the few creative acts that many adults have been explicitly told they cannot do. "You're tone-deaf" is handed out in elementary school like a diagnosis and carried for decades. The shame of being told you can't sing or play is different from the shame of never having learned — it's an identity foreclosure that happened in childhood. The entry should serve the reader who was sorted out of music at age eight and has spent forty years believing the sorting was accurate. -->
+
+---
+
+#### Cr-6: Podcasting and Audio Production
+
+*Strategy:* Create + Navigate
+*See also:* Cr-5: Making Music (audio skills transfer), WB-5: Build a Website, Own Your Corner of the Internet, Cr-3: Editing a Movie (same storytelling principles)
+*My Man Jeeves:* _It may be worth observing that podcasting is the most democratic broadcast medium to emerge in some time. The equipment required is a telephone and a quiet room. The cost of distribution is zero — [RSS](https://en.wikipedia.org/wiki/RSS) is an open standard that no company owns and no company can revoke. A radio license costs hundreds of thousands of dollars and requires federal permission. A YouTube channel requires a camera, lighting, and the willingness to be looked at. A podcast requires a voice, a topic, and the ability to press record. The difficulty, if one may venture it, is not the recording. It is everything that separates a recording from a show: structure, pacing, the edit that removes the forty-five seconds of throat-clearing at the top, the audio quality that lets the listener forget they are listening to audio at all. Those of substantial means hire a producer. The reader has an Agent who is conversant with the entire production chain, from microphone placement to RSS feed configuration, and who has never once suggested that the reader needs a $400 microphone to begin._
+*The Spec:*
+::: prompt
+I want to start a podcast.
+My situation:
+— What it's about: [topic, community, or niche]
+— Format: [solo / interview / co-hosted / narrative storytelling /
+   I haven't decided]
+— My equipment: [just my phone / USB microphone / I'm willing to
+   buy something if it's under $50 / I already have gear]
+— My experience: [none / I've recorded myself before / I've done
+   a few episodes but they sound amateur]
+— Where I'm stuck: [starting / the audio sounds bad / I don't
+   know how to edit / I recorded episodes but haven't published /
+   I published but nobody listens]
+Please help me:
+1. Give me a production checklist for my first episode — in order,
+   from planning through publication
+2. Tell me how to get decent audio with what I have — specific
+   settings, not "invest in a good microphone"
+3. Recommend one free editing tool and walk me through the edit
+   workflow for a typical episode
+4. Explain how to set up an RSS feed and get listed on Apple
+   Podcasts and Spotify — step by step
+:::
+*What to do with the Output:* Record your first episode. It will be too long. That is normal. The single most useful edit you can make to any podcast episode is cutting the first two minutes — the part where you were warming up and didn't realize it. Your Agent can help you find the real start.
+
+::: tip
+_"Here's a rough recording of my podcast episode [attach audio or describe content]. Help me write a cut list: what to remove, what to tighten, and where I'm losing the listener."_ — Editing audio is the same skill as editing video: knowing what to cut matters more than knowing which buttons to press.
+:::
+
+
+::: science
+Podcasting's growth as a medium tracks directly with economic accessibility. Edison Research's Infinite Dial reports show podcast listenership in the US grew from 11% of the population in 2006 to over 42% by 2023. The creation side is equally striking: [Anchor](https://en.wikipedia.org/wiki/Anchor_(podcasting)) (now Spotify for Podcasters) reported that its free mobile-first platform enabled over 5 million podcast creations. The medium's accessibility is not incidental — it is structural. Audio production requires less equipment than video, less bandwidth than streaming, and less visual self-presentation than any camera-based format. For communities historically excluded from broadcast media, this matters.[^cr6-1]
+:::
+
+
+::: meme
+In 1995, getting your voice heard by a thousand people required a radio station, a record label, or a very large megaphone. In 2025, it requires a phone and an RSS feed. The gatekeepers did not open the gate. Someone built a different road. You're allowed to use it.
+:::
+
+
+::: fairness
+Podcast discoverability algorithms favor shows that publish consistently on a schedule — which favors people who have predictable free time. If you're working shifts, caregiving, or managing an unpredictable schedule, a biweekly or monthly release works fine. Tell your Agent your actual time constraints: _"I can spend two hours every other Saturday on this. Build me a workflow that fits."_ A show that publishes six episodes is worth more than a show that publishes one and burns out.
+:::
+
+
+<!-- RESEARCH NEEDED: Verify Edison Research Infinite Dial 2023 statistics. Confirm Anchor/Spotify for Podcasters creation numbers and current free-tier capabilities. Check whether Audacity, GarageBand, or another tool is the current best free recommendation for podcast editing. -->
+
+[^cr6-1]: Edison Research. (2023). [_The Infinite Dial 2023._](https://www.edisonresearch.com/the-infinite-dial-2023/) Edison Research / Triton Digital.
+
+---
+
+#### Cr-7: Drawing and Illustration
+
+*Strategy:* Create + Diagnose
+*See also:* Cr-2: Learning Visual Design (principles overlap), Cr-1: Taking Better Photos (same compositional eye)
+*My Man Jeeves:* _A persistent belief holds that drawing is a talent — that one is born able to render a horse or one is not, and that no instruction can bridge the distance between the two conditions. One might gently observe that this belief is incorrect. Betty Edwards demonstrated in 1979 that drawing is a learnable perceptual skill, not an innate gift, and that the primary obstacle is not the hand but the brain's preference for symbols over observation — one draws what one _thinks_ a face looks like rather than what one _sees_. Drawing instruction costs $30 to $80 per class at a community center, $200 to $500 for a structured course, and $40,000 to $200,000 for an art school degree that teaches the same fundamentals one might acquire with a pencil, a piece of paper, and a tutor of sufficient patience. The reader has such a tutor. It will not judge the first attempt, which is more than can be said for the average middle-school art class._
+*The Spec:*
+::: prompt
+I want to learn to draw.
+My situation:
+— What I want to draw: [people / animals / landscapes /
+   cartoons / portraits / technical illustrations /
+   I just want to stop being terrible at it]
+— My current level: [stick figures / I doodle but never
+   learned properly / I drew as a kid and stopped /
+   I can draw a little but I've plateaued]
+— My tools: [pencil and paper / iPad and Apple Pencil /
+   Wacom tablet / Procreate / I want to try digital but
+   haven't started]
+— What frustrates me most: [it never looks like what I see
+   in my head / proportions are always wrong / I don't know
+   where to start / I compare myself to good artists and
+   give up]
+Please help me:
+1. Give me a diagnostic — based on what I described, what's
+   the specific skill I'm missing? Not "practice more" — the
+   actual perceptual or mechanical skill
+2. Design a 15-minute daily practice routine I can do for
+   two weeks — progressive exercises, not just "draw every day"
+3. Teach me the foundational shapes method: how to construct
+   anything from basic geometric forms
+4. Show me how to see what I'm actually looking at instead of
+   what I think I'm looking at — the core Edwards technique
+:::
+*What to do with the Output:* Draw for fifteen minutes. Not thirty, not an hour — fifteen. The research is clear that short, consistent practice sessions build perceptual skills faster than occasional marathons. Take a photo of what you drew, send it to your Agent, and ask: _"What's the one thing I should fix in the next version?"_ One thing. Not ten.
+
+::: science
+Betty Edwards' _Drawing on the Right Side of the Brain_ (1979) established the foundational insight that drawing is a teachable perceptual skill, not an inherited talent. Her research showed that when students learn to override their brain's symbolic processing — drawing what they see rather than what they know — dramatic improvement occurs in hours, not years. Chamberlain (2013) confirmed this in controlled studies: trained observation accounts for the majority of drawing accuracy, and this observation skill transfers across subjects. You are not bad at drawing. You were taught to see symbolically, which is useful for reading and terrible for rendering.[^cr7-1]
+:::
+
+
+::: tip
+_"I drew this [attach photo of drawing]. Don't tell me it's good. Tell me what a drawing instructor would say: what's the one structural problem, and what exercise would fix it?"_ — Honest critique is the most expensive thing about art instruction. Your Agent provides it for free and without the awkward classroom silence.
+:::
+
+
+::: meme
+Every adult who says "I can't draw" means "I stopped drawing at age ten and the last thing I drew was a house with a sun in the corner and smoke coming out of the chimney in a perfect spiral." That house is where your drawing development was frozen. It has been waiting for you to come back.
+:::
+
+
+::: fairness
+AI image generators can produce illustrations, but that is not what this entry is about. This entry is about _you_ learning to draw — the perceptual skill, the hand-eye coordination, the satisfaction of making a mark that means what you intended. Your Agent is the teacher, not the artist. It explains perspective, critiques your proportions, and designs your practice routine. The pencil is in your hand. That is the point.
+:::
+
+
+[^cr7-1]: Edwards, B. (1979). [_Drawing on the Right Side of the Brain._](https://www.drawright.com/) J.P. Tarcher. Chamberlain, R. (2013). ["Drawing Conclusions: An Exploration of the Cognitive and Neuroscientific Foundations of Representational Drawing."](https://doi.org/10.1080/09540091.2013.847961) _Psychology of Aesthetics, Creativity, and the Arts,_ 8(2), 166–175.
+
+<!-- RESEARCH NEEDED: Verify Chamberlain 2013 citation — confirm journal, volume, and pages. The study may be from a different year or published under a slightly different title. Check for more recent meta-analyses on drawing skill acquisition in adults. -->
+
+<!-- RESEARCH NEEDED (HUMAN CONDITION): The "I can't draw" identity is one of the most universal forms of creative self-exclusion. Almost every adult in Western cultures carries it. It is usually traceable to a specific moment — a teacher's comment, a classmate's comparison, a parent's indifference. The shame attaches not to the skill but to the self. "I can't draw" means "I am not a creative person." That equation, established in childhood, forecloses more creative activity than any lack of talent ever could. -->
+
+---
+
+#### Cr-8: Crafts and Maker Projects
+
+*Strategy:* Create + Research
+*See also:* Ho-2: Home Repair and DIY (tool skills transfer), Ho-3: Right to Repair (same philosophy of ownership), Ch-1: Shopping Your Values (materials sourcing)
+*My Man Jeeves:* _One notes with some interest that the maker movement represents a return to a set of skills that were, within living memory, simply called "knowing how to do things." Sewing, woodworking, basic metalwork, and the repair of household objects were not hobbies in one's grandparents' generation. They were the baseline. The professionalisation of craft — and the simultaneous availability of disposable goods priced to make repair irrational — converted self-sufficiency into a specialty interest. A sewing class now costs $30 to $75 per session. A woodworking course runs $200 to $600. Access to a [makerspace](https://en.wikipedia.org/wiki/Hackerspace) with a laser cutter and 3D printer costs $50 to $150 per month in membership fees, assuming one lives near enough to one. Those of means commission bespoke furniture and tailored clothing. The reader has an Agent that can teach pattern-reading, joint selection, material calculation, and the specific operational procedures of whatever tools are available — from a $15 hand saw to a $3,000 laser cutter._
+*The Spec:*
+::: prompt
+I want to make something.
+My situation:
+— What I want to make: [clothing / furniture / home decor /
+   gifts / repairs to things I own / cosplay / jewelry /
+   something with a 3D printer or laser cutter /
+   I don't know yet, I want to explore]
+— My craft experience: [none / I've done some basic projects /
+   I'm comfortable with hand tools / I have some training
+   but it's been years]
+— My tools and space: [basic hand tools / a sewing machine /
+   access to a makerspace / a workshop / just my kitchen
+   table and a utility knife]
+— My budget for materials: [$0-20 / $20-50 / $50-100 /
+   flexible if the project is worth it]
+— What's stopping me: [I don't know where to start /
+   I'm afraid of wasting materials / I tried and the result
+   was terrible / I can't read patterns or plans /
+   the tools are intimidating]
+Please help me:
+1. Suggest a first project matched to my tools, space, and
+   skill level — something I can finish in one session that
+   teaches a real technique
+2. Give me a materials list with specific quantities and where
+   to find them cheaply — thrift stores, hardware stores,
+   or online with actual links
+3. Walk me through the project step by step, with warnings
+   about where beginners typically make mistakes
+4. Teach me the one fundamental skill this project uses that
+   transfers to everything else in this craft
+:::
+*What to do with the Output:* Make the thing. Use the cheapest materials available for your first version — fabric from a thrift store, scrap wood from a construction site or Habitat ReStore, free filament samples from a makerspace. Your first attempt is a learning tool, not a finished product. Take photos as you go and send them to your Agent when you hit a problem. _"I'm at step 4 and it looks like this [attach photo]. What am I doing wrong?"_ The feedback loop is what makes craft learnable without an apprenticeship.
+
+::: science
+The maker movement's educational value is well-documented. Halverson & Sheridan (2014) found that making — defined as the design and construction of physical artifacts — develops spatial reasoning, iterative problem-solving, and a tolerance for productive failure that transfers to domains far beyond the workshop. Notably, the benefits are not contingent on the sophistication of the tools: hand-sewing produces the same cognitive engagement as CNC machining. The skill is the design thinking, not the equipment.[^cr8-1]
+:::
+
+
+::: tip
+_"I want to fix [this specific thing that's broken — attach photo]. It's made of [material]. I have [these tools]. Walk me through the repair like I've never done this before."_ — Repair is the entry point to craft. Every object you fix teaches you how that object was made. See also Ho-3: Right to Repair.
+:::
+
+
+::: meme
+Your grandparents did not have a "makerspace." They had a garage, a sewing room, and the reasonable expectation that a grown adult could hem a pair of pants, fix a leaky faucet, and build a bookshelf without hiring someone. Then the economy decided it was more profitable to sell you new pants, a new faucet, and a bookshelf from IKEA. The skills didn't become obsolete. They became optional. You can opt back in.
+:::
+
+
+::: fairness
+Makerspaces are not evenly distributed. They cluster in cities, near universities, and in neighborhoods with disposable income. If there is no makerspace near you, your local public library may have one — over 400 US libraries now offer maker equipment including 3D printers. If not, many crafts require only hand tools and a flat surface. Tell your Agent your actual constraints: _"I have no workshop, a budget of $20, and a kitchen table. What can I make?"_ The answer is more than you think.
+:::
+
+
+[^cr8-1]: Halverson, E.R. & Sheridan, K.M. (2014). ["The Maker Movement in Education."](https://doi.org/10.17763/haer.84.4.34j1g68140382063) _Harvard Educational Review,_ 84(4), 495–504.
+
+<!-- RESEARCH NEEDED: Verify the "over 400 US libraries" makerspace claim. This figure may be significantly higher by publication — ALA tracks library makerspace adoption. Also check Habitat for Humanity ReStore availability as a materials source. -->
+
+<!-- RESEARCH NEEDED (HUMAN CONDITION): Craft knowledge was historically transmitted through family, apprenticeship, and community — all channels that have been disrupted. The reader who never learned to sew because their parent never learned to sew because their grandparent worked a factory shift that left no time to teach is experiencing an intergenerational skills gap that is structural, not personal. Home economics was cut from most US school curricula between 1990 and 2010. Shop class followed. The expectation that you should know how to make things persists. The institutions that taught it do not. -->
+
+---
+
+#### Cr-9: Creative Writing
+
+*Strategy:* Create + Draft
+*See also:* WB-8: Blogging and Journaling (a regular writing practice), Li-2: Writing a Eulogy (specific application of craft under pressure)
+*My Man Jeeves:* _One observes that creative writing has always presented a particular difficulty in the matter of instruction. The craft can be taught — the evidence of university programs, workshops, and apprenticeships spanning centuries confirms as much — yet the teaching has been unevenly distributed, to put the matter with some delicacy. An MFA program costs $30,000 to $60,000 and accepts a small fraction of applicants. A community workshop, if one exists in one's vicinity, costs $200 to $500 and may or may not be led by someone who has published. The alternative has historically been to write alone, in the dark, hoping that the instincts one absorbed from reading were sufficient to produce something worth reading in return. Sometimes they were. Often they were not, and there was nobody qualified to explain why. Those of considerable means have always retained editors. Workshop seats at [Iowa](https://en.wikipedia.org/wiki/Iowa_Writers%27_Workshop) and [Bread Loaf](https://en.wikipedia.org/wiki/Bread_Loaf_Writers%27_Conference) have always gone disproportionately to those with the connections to know such things existed and the means to attend. The reader now has a writing tutor that has read more widely than any workshop instructor alive and is available at two in the morning, which is when most writing happens._
+*The Spec:*
+::: prompt
+I want to write [a short story / a poem / a personal essay /
+flash fiction / a screenplay scene / I'm not sure what form yet].
+My situation:
+— What I want to write about: [describe the idea, feeling,
+   memory, or question — as rough as you want]
+— My writing experience: [I haven't written creatively since
+   school / I write privately but never share / I've taken a
+   class or workshop / I write regularly and want to improve]
+— What I struggle with: [starting / finding my voice /
+   knowing when it's done / writing dialogue / structure /
+   making it specific instead of general / the fear that
+   it's not good enough]
+— What I read and admire: [name writers, books, or styles
+   you love — this helps calibrate the conversation]
+Please help me:
+1. Based on my idea, suggest the form that fits it best —
+   sometimes the story you think is an essay is actually a poem
+2. Give me a specific opening prompt or first line to write
+   from — not a finished piece, a starting point
+3. Teach me the one craft technique that matters most for what
+   I'm writing — show, don't tell for fiction; concrete detail
+   for essays; image over abstraction for poetry
+4. When I share a draft, be a workshop instructor: tell me
+   what's working, what isn't, and what question the piece
+   is really asking — which might not be the question I think
+   I'm asking
+:::
+*What to do with the Output:* Write. Not for an hour — for twenty minutes. Set a timer. Write badly on purpose if you have to, but write. Then send the draft to your Agent and ask: _"What's the strongest sentence in this? Build outward from there."_ The strongest sentence is where your actual voice lives. The rest is scaffolding you can revise or remove. The point is not to produce a finished piece in one session. The point is to produce a draft you can return to.
+
+::: tip
+_"Here's a paragraph I wrote about [topic]. Rewrite it three different ways — more spare, more lyrical, and more conversational — so I can see which voice is mine."_ — Voice is the hardest thing to teach and the easiest thing to find when you can compare options. Your Agent gives you the mirrors. You recognize your face.
+:::
+
+
+::: science
+Expressive writing produces measurable health benefits beyond the literary. Pennebaker & Beall (1986) demonstrated that writing about emotional experiences for 15 to 20 minutes over three to four days improved immune function and reduced physician visits. Subsequent meta-analyses — Smyth (1998), Frattaroli (2006) — confirmed moderate effects on psychological well-being, physical health, and general functioning across diverse populations. The mechanism appears to be cognitive: translating experience into narrative creates structure from chaos, which is also a working definition of what creative writing does.[^cr9-1]
+:::
+
+
+::: meme
+Every writer you admire wrote badly first. Hemingway: "The first draft of anything is shit." Octavia Butler filled notebooks with self-doubt between the novels that changed science fiction. Anne Lamott's entire pedagogy in _Bird by Bird_ begins with permission to write a terrible first draft. The myth is that good writers sit down and produce good writing. The reality is that good writers sit down and produce bad writing and then fix it. Your Agent helps with the fixing. You have to produce the bad draft. Nobody else can do that part.
+:::
+
+
+::: fairness
+Your Agent has read the Western literary canon more thoroughly than anything else. If you write in a tradition it knows less well — oral storytelling, spoken word, flash fiction from non-English traditions, Indigenous narrative forms — it may default to Western workshop conventions: "show don't tell," linear structure, minimalist prose. These are not universal laws. They are one tradition's preferences. If your Agent's feedback feels like it's filing the edges off your voice, push back: _"This is written in [tradition/style]. Critique it on its own terms, not MFA workshop terms."_ The best writing sounds like the person who wrote it. Protect that.
+:::
+
+
+[^cr9-1]: Pennebaker, J.W. & Beall, S.K. (1986). ["Confronting a Traumatic Event: Toward an Understanding of Inhibition and Disease."](https://doi.org/10.1037/0021-843X.95.3.274) _Journal of Abnormal Psychology,_ 95(3), 274–281. Smyth, J.M. (1998). ["Written Emotional Expression: Effect Sizes, Outcome Types, and Moderating Variables."](https://doi.org/10.1037/0022-006X.66.1.174) _Journal of Consulting and Clinical Psychology,_ 66(1), 174–184. Frattaroli, J. (2006). ["Experimental Disclosure and Its Moderators: A Meta-Analysis."](https://doi.org/10.1037/0033-2909.132.6.823) _Psychological Bulletin,_ 132(6), 823–865.
+
+::: tip
+Write in plain text. A `.txt` or `.md` file will outlast every proprietary format, open in every tool, paste cleanly into any AI conversation, and never corrupt. Word processors add formatting you do not need until the very end. Start in plain text, draft in plain text, revise in plain text. Format when the writing is done. See WB-7: Write in CommonMark and [Appendix J](09-appendix-j-working-with-text.xhtml).
+:::
+
+
+<!-- RESEARCH NEEDED (HUMAN CONDITION): Creative writing occupies a peculiar position among skills: nearly everyone has been required to do it (school essays), nearly everyone has been graded on it, and the grading was often arbitrary, subjective, and tied to conformity rather than voice. The reader who "hates writing" may not hate writing. They may hate the version of writing that was graded, corrected, and returned with red ink. The entry should distinguish between writing-as-assignment and writing-as-expression without being precious about it. The fact that writing can be therapeutic does not make it therapy. The fact that it can be art does not make it intimidating. It is a craft. Crafts are learnable. -->
+
+---
+
+#### Cr-10: Graphic Design for Real Life
+
+*Strategy:* Create + Draft
+*See also:* Cr-2: Learning Visual Design (the principles behind the practice), WB-5: Build a Website, Own Your Corner of the Internet, W-1: Getting a Job (resume design)
+*My Man Jeeves:* _One might draw attention to a difficulty that presents itself with some regularity in the lives of those who are not, by profession, graphic designers — which is to say, nearly everyone. The school requests a flyer for the bake sale. The union local needs a poster for the meeting. A relative's birthday requires an invitation. The small business requires a social media graphic that does not resemble a ransom note. The community garden needs a sign. In each case, the person assigned the task possesses no training in typography, layout, color theory, or the rather critical discipline of visual hierarchy. They open [Canva](https://en.wikipedia.org/wiki/Canva), stare at five thousand templates, choose one at random, change the colors until it looks worse, and publish the result with a quiet sense of defeat. Those of considerable means employ a designer. The reader has an Agent capable of diagnosing why the flyer looks wrong and providing the specific remedies — which font to use, which one to remove, where the eye is going and where it should go instead._
+*The Spec:*
+::: prompt
+I need to design [a flyer / a poster / an invitation /
+a social media graphic / a resume / a business card /
+a newsletter / a fundraiser handout / a menu / a sign].
+My situation:
+— What it's for: [event, purpose, audience]
+— My tool: [Canva / Google Slides / Google Docs / Word /
+   PowerPoint / I'll use whatever you recommend]
+— What I have so far: [nothing / a rough version that
+   looks wrong / a template I don't like / too much text
+   I can't fit]
+— My constraint: [I need it by tonight / I have no images /
+   it has to print on regular paper / it's for social media
+   so it needs to be a specific size]
+Please help me:
+1. Tell me the layout — what goes where, how big, and why.
+   Not a template. A structure I understand.
+2. Pick one font combination that works for this. Not three
+   options. One.
+3. Pick three colors maximum. Tell me the hex codes.
+4. Tell me what to cut — I probably have too much text.
+   What does the viewer actually need to read?
+5. If I have a draft [attach screenshot], diagnose it:
+   what's the one thing making it look amateur?
+:::
+*What to do with the Output:* Make the thing and send a screenshot back. _"Here's version one. What would you change?"_ Then make the change and send version two. Three rounds of this and you have something that works — and you understand _why_ it works, which means the next flyer takes half the time.
+
+::: tip
+_"I have to fit all of this text onto a single page [paste text]. Help me cut it in half without losing anything essential, then tell me how to lay it out so people actually read it."_ — The number one problem with amateur design is too much text. The edit is the design.
+:::
+
+
+::: meme
+There are two kinds of PTA flyers: the one made by the parent who happens to be a designer, and the one made by everyone else. The designer's flyer has a clear date, one font, and white space. Everyone else's flyer has seven fonts, a clip art border, and the date buried in the third paragraph. The difference is not taste. The difference is that nobody taught everyone else the three rules the designer learned in week one of school: hierarchy, contrast, and restraint. Those rules take five minutes to learn. Your Agent can teach you right now.
+:::
+
+
+::: also
+Canva is the most common free design tool and works identically across platforms. Google Slides is a functional design tool for simple layouts — your Agent can walk you through it. For more advanced work, [Figma](https://en.wikipedia.org/wiki/Figma) offers a free tier. Your Agent can provide instructions for any of these. See [Appendix G](06-appendix-g-feature-table.xhtml) for current feature comparisons.
+:::
+
+
+::: fairness
+Resume design deserves a specific note: applicant tracking systems (ATS) — the software that screens resumes before a human sees them — frequently reject beautifully designed PDFs because they cannot parse the layout. If you're designing a resume, tell your Agent: _"I need two versions. One that looks good for humans, and one that's ATS-compatible."_ The ATS version is plain, ugly, and gets through the gate. The designed version is for the interview you hand it to a person. See W-1: Getting a Job.
+:::
+
+
+<!-- RESEARCH NEEDED: Verify current ATS compatibility issues with designed resumes. The advice to create two versions is common but may be outdated as ATS software improves. Check current best practices from resume and HR sources. -->
+
+<!-- RESEARCH NEEDED (HUMAN CONDITION): The person making the flyer for the school fundraiser, the union meeting, or the church potluck is almost always a volunteer. They were not hired for their design skills. They said yes because nobody else would. The quiet shame of producing something that looks unprofessional — and the assumption by others that it reflects a lack of effort rather than a lack of training — is a form of invisible labor penalty. The entry should honor the volunteer without sentimentalizing the situation. -->
+
+---
+
+#### Cr-11: Learning an Instrument
+
+*Strategy:* Create + Research (Expert Role)
+*See also:* Cr-5: Making Music (the production side), Li-12: Developing a Habit (the practice discipline)
+*My Man Jeeves:* _A matter of some delicacy arises when one considers the learning of a musical instrument as an adult. Private music lessons run $30 to $80 per session, weekly, for a duration that competent instructors describe as "indefinite" — a term that, in financial contexts, one would regard with some suspicion. Group classes at community music schools cost $150 to $400 per term and proceed at the pace of the least prepared student. The instruments themselves range from $50 for a serviceable ukulele to figures one prefers not to contemplate for a piano. The greater difficulty, however, is not financial. It is that learning an instrument as an adult is slow, physically uncomfortable, and acutely humbling in a way that few other skills replicate. One's fingers do not cooperate. The sounds one produces bear no resemblance to the sounds one intended. Progress is measured in weeks, not hours. Those who persevere acquire a skill that research identifies as uniquely beneficial to cognitive health, emotional regulation, and the particular satisfaction of making a sound that is, at last, the sound one meant to make. One's Agent cannot hold the instrument. It can, however, design the practice routine, explain the theory, diagnose the plateau, and maintain the patient, unhurried encouragement that a $60-per-hour instructor provides in rather more limited supply._
+*The Spec:*
+::: prompt
+I want to learn [guitar / piano / ukulele / bass / drums /
+violin / harmonica / banjo / another instrument].
+My situation:
+— My instrument: [I have one / I'm borrowing one /
+   I need to buy one — budget is $X]
+— My experience: [never played anything / played as a kid
+   and quit / self-taught but stuck / returning after years away]
+— What I want to play: [specific songs / a genre like blues,
+   folk, classical, rock / I just want to be able to play
+   something that sounds good / I want to play with other people]
+— My available practice time: [X minutes per day, X days per week]
+— What's frustrating me: [my fingers hurt / I can't read music /
+   I can't keep rhythm / I learned some chords but can't put them
+   together / I feel like I'm not improving]
+Act as a patient, experienced music teacher who specializes
+in adult beginners. Please:
+1. If I'm buying an instrument, tell me exactly what to get —
+   one recommendation at my budget, not a list
+2. Design a practice routine that fits my available time —
+   structured in minutes, not vague encouragement
+3. Teach me the minimum music theory I need to play what I
+   want to play — not more, not less
+4. Give me my first three songs to learn, in order of
+   difficulty, chosen for the skills they build
+5. Tell me what the first month will feel like — honestly.
+   Not motivational. Honest.
+:::
+*What to do with the Output:* Practice. For the time you said you had, on the days you said you would. When you get stuck — and you will get stuck, everyone gets stuck — describe the problem to your Agent: _"I'm trying to switch from G to C and my fingers won't move fast enough. What exercise fixes this specific transition?"_ The specificity matters. "How do I get better at guitar" produces generic advice. "How do I make my ring finger stop muting the B string on a C chord" produces the exercise you need tonight.
+
+::: science
+Learning a musical instrument as an adult produces measurable cognitive benefits. Balbag et al. (2014) found that twin pairs in which one twin played an instrument and the other did not showed significant differences in cognitive function in later life — the playing twin showed 36% lower odds of developing dementia and cognitive impairment, even controlling for shared genetics. Bugos et al. (2007) demonstrated that individualized piano instruction for adults aged 60 to 85 improved executive function and working memory after just six months. The slow-skill nature of instrument learning — the fact that it cannot be rushed, that it requires daily practice over months — appears to be part of the mechanism. The brain benefits from the struggle, not despite it.[^cr11-1]
+:::
+
+
+::: tip
+_"Record yourself playing the same passage once a week. After a month, listen to week one. You will not believe you sounded like that."_ — Progress in instrument learning is invisible day-to-day and dramatic month-to-month. The recordings are proof you're moving even when it doesn't feel like it.
+:::
+
+
+::: meme
+Every adult who picks up a guitar for the first time expects to sound like the people they've been listening to for thirty years. Then they play an open G chord and it sounds like a cat walking across a broken banjo. This is normal. This is what a G chord sounds like the first time every human being plays it. The people you listen to sounded exactly like that once. They just did it in a bedroom when they were thirteen and nobody was watching.
+:::
+
+
+::: fairness
+Free instrument-learning resources vary dramatically in quality and accessibility. [Justin Guitar](https://www.justinguitar.com/) offers a complete, structured guitar curriculum at no cost. Piano has [Pianote](https://www.pianote.com/) and various YouTube channels, though quality is inconsistent. Your Agent can evaluate free resources for your specific instrument and level. If you have a physical disability that affects how you hold or play the instrument, tell your Agent — adaptive techniques exist for nearly every instrument, and your Agent can find them. Music instruction has historically assumed a standard body. Not everyone has one.
+:::
+
+
+[^cr11-1]: Balbag, M.A., Pedersen, N.L. & Gatz, M. (2014). ["Playing a Musical Instrument as a Protective Factor against Dementia and Cognitive Impairment: A Population-Based Twin Study."](https://doi.org/10.3233/JAD-140331) _International Journal of Alzheimer's Disease,_ 2014, Article 836748. Bugos, J.A. et al. (2007). ["Individualized Piano Instruction Enhances Executive Functioning and Working Memory in Older Adults."](https://doi.org/10.1080/13607860701529245) _Aging & Mental Health,_ 11(4), 464–471.
+
+<!-- RESEARCH NEEDED: Verify Balbag et al. 2014 citation details — the "36% lower odds" figure needs confirmation. Check whether the study was published in International Journal of Alzheimer's Disease or another journal. Verify Bugos et al. 2007 — confirm the age range and duration of the intervention. -->
+
+<!-- RESEARCH NEEDED (HUMAN CONDITION): Adults learning instruments face a specific form of vulnerability that children do not: the awareness of how they sound relative to their own expectations. A child learning violin does not know what good violin sounds like from the inside. An adult does. The gap between the sound in your head and the sound coming out of the instrument is, for the first several months, a daily confrontation with incompetence — and adults, unlike children, have an identity built on competence. The entry should acknowledge that the hardest part of learning an instrument as an adult is not the fingers. It is the ego. The willingness to be bad at something, in front of yourself, for long enough to get better, is the actual skill being learned. Everything else is technique. -->

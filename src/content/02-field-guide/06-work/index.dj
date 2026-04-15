@@ -230,67 +230,220 @@ Workers in high-risk industries — construction, agriculture, warehousing, meat
 
 ---
 
-#### W-7: Using Your Agent to Get More Done
-*Strategy:* Navigate + Draft (Expert Role)
-*See also:* W-3: Working with HR (for the performance review spec), W-1: Getting a New Job (for job-search automation)
-*My Man Jeeves:* _It would appear that the billionaire class did not achieve their productivity by working harder. They achieved it by engaging persons to attend to those portions of work that are repetitive, formulaic, or requiring of research for which they themselves lacked the time. Email drafts. Report summaries. Data formatting. Meeting preparation. Status updates. Proposal boilerplate. The work, as it were, behind the work. The reader now has access to the same staff — one simply refers to it as "being more productive" on the performance review. One's Agent is the staff._
+#### W-8: Freelancing and Self-Employment
+*Strategy:* Navigate + Prepare
+*See also:* M-7: Taxes (1099 complexity is a different animal), L-1: Negotiating a Contract (every engagement needs one), M-8: Insurance (no employer, no group rate)
+*My Man Jeeves:* _One might observe that the freelancer occupies a position of some structural peculiarity in the American labor market — performing the same work as an employee while receiving none of the infrastructure that employment provides. There is no HR department to explain the benefits, because there are no benefits to explain. There is no payroll department to withhold taxes, because the withholding is now the freelancer's responsibility, as is the estimation, the quarterly filing, and the penalty for underestimation. The 1099 form, one ventures to suggest, is not merely a tax classification but a transfer of administrative burden from the entity that profits from the work to the individual who performs it. One's Agent can assist in managing that burden — the contracts, the invoices, the rate calculations, the quarterly estimates — so that one's attention remains upon the work itself rather than the paperwork surrounding it._
 *The Spec:*
 ::: prompt
-I want to use my AI Agent to work more efficiently.
-My role: [job title or brief description]
-The tasks that take up most of my time:
-[list the repetitive, time-consuming, or formulaic parts of your job]
-The tools I use: [email, spreadsheets, specific software]
-Please help me:
-1. Identify which of my tasks an Agent can handle or accelerate
-2. Give me the specific specs I would use for each one
-3. Tell me which tasks I should NOT hand off
-   (judgment calls, relationship work, things that need my voice)
-4. Show me how to review Agent output quickly so the quality
-   stays high and the voice stays mine
+I am [freelancing / self-employed / considering going independent]
+in [field or industry].
+My situation: [full-time freelance / side work while employed /
+just starting out / have been doing this for X years]
+What I need help with:
+--- Contracts: [reviewing a client contract / drafting my own
+   standard agreement / understanding a non-compete or IP clause]
+--- Rates: [setting my rate for the first time / raising my rate /
+   evaluating whether a project is worth the quoted rate]
+--- Taxes: [understanding 1099 vs. W-2 / setting up quarterly
+   estimated payments / what I can deduct]
+--- Invoicing: [creating a professional invoice template /
+   dealing with a client who won't pay]
+--- Insurance: [health insurance options without an employer /
+   liability insurance for my work]
+Please [help me with the specific item above]. Give me the most
+conservative tax and legal answer. I will verify with an
+accountant or attorney.
 :::
-*What to do with the Output:* Start with one task. The one you dread most or the one that eats the most time. Run it through your Agent for a week. Measure the difference. Then add another. The compound effect is the point — you are not replacing yourself, you are multiplying your output. Your employer measures output, not hours. That is capitalism working for you for once.
+*What to do with the Output:* For contracts, never sign a client's template without running it through your Agent first — the IP assignment clause alone can sign away work you have not yet created. For rates, the calculation is not "what feels reasonable" but: (target annual income + self-employment tax + health insurance + retirement contribution + business expenses) / billable hours per year. Most new freelancers undercharge by 30--40% because they calculate from a salary number that already had those costs hidden inside it.
+
+::: science
+The "misclassification" problem is not academic. The IRS estimates that employers misclassify millions of workers as independent contractors to avoid payroll taxes, unemployment insurance, and benefits obligations. The Department of Labor's 2024 rule tightened the test for independent contractor status under the FLSA, but enforcement remains complaint-driven.[^w8-1] If your "freelance" arrangement involves a single client who sets your hours and provides your tools, you may legally be an employee owed back benefits.
+:::
+
 
 ::: tip
-The performance review spec: _"Summarize my accomplishments this quarter based on these notes: [paste notes]. Write it in first person, active voice, with specific metrics where possible. Make it sound like a high performer wrote it — because one did."_
+_"I want to raise my freelance rate. My current rate is [X]. I have [Y years] of experience in [field]. Help me: (1) research the current market rate for this work, (2) draft an email to existing clients announcing the increase, and (3) calculate what my rate needs to be to cover taxes, insurance, and retirement at the same take-home as a $[Z] salary."_
+:::
+
+
+::: fairness
+AI tools are particularly useful for freelancers drafting contracts and invoices, but they generate legal language, not legal advice. A contract your Agent drafted may be missing jurisdiction-specific requirements or enforceability provisions. For engagements over $5,000, an attorney review is worth the cost — it is a business expense and it is deductible.
+:::
+
+
+<!-- RESEARCH NEEDED: IRS misclassification data — the "tax gap" attributable to 1099 misclassification. GAO and Treasury Inspector General reports have estimates. The DOL's 2024 independent contractor rule (effective March 2024) replaced the Trump-era rule with a stricter economic reality test. Verify current legal status — litigation is ongoing as of early 2025. -->
+
+<!-- RESEARCH NEEDED (HUMAN CONDITION): The loneliness of freelancing is underresearched relative to its prevalence. Approximately 64 million Americans freelanced in 2023 (Upwork "Freelance Forward" report — verify latest). The loss of workplace social infrastructure — casual conversation, shared lunch, someone who notices when you're struggling — is a real cost that freelancers rarely price into the rate calculation. The freedom is genuine. The isolation is also genuine. They coexist. -->
+
+<!-- RESEARCH NEEDED: Self-employment tax rate (currently 15.3% — 12.4% Social Security + 2.9% Medicare) is the single biggest surprise for new freelancers. An employee pays half; the employer pays half. A freelancer pays both halves. The "deductible half" on the 1040 softens it but does not eliminate it. Quarterly estimated payments (Form 1040-ES) are required or penalties accrue. Verify current thresholds and penalty rates. -->
+
+[^w8-1]: U.S. Department of Labor, "Employee or Independent Contractor Classification Under the Fair Labor Standards Act," 89 Fed. Reg. 1638 (January 10, 2024). The rule applies a six-factor "economic reality" test. See also IRS, "Independent Contractor (Self-Employed) or Employee?," https://www.irs.gov/businesses/small-businesses-self-employed/independent-contractor-self-employed-or-employee.
+
+---
+
+#### W-9: Navigating a Performance Review
+*Strategy:* Prepare + Assert
+*See also:* W-3: Working with Human Resources (when the review triggers an HR process), W-2: Leaving a Job (if the review is the writing on the wall), Li-1: Preparing for a Difficult Conversation (same preparation framework)
+*My Man Jeeves:* _The performance review is an exercise in which the employee is asked to demonstrate, retroactively and on a deadline, that the work performed over the preceding twelve months was both valuable and visible — two qualities that are, one notes, not always correlated. The criteria by which one is evaluated are frequently unwritten. The rating scale compresses a year of labor into a number that determines the raise, the bonus, and the promotion timeline. The manager, who is often conducting the review with limited memory and considerable time pressure, relies upon whatever documentation exists — and if the employee has not provided it, the documentation that exists is whatever the manager recalls, which is to say, the last six weeks. One's Agent can ensure that the documentation is complete, the accomplishments are quantified, and the self-review is written with the precision the process rewards but never teaches._
+*The Spec:*
+::: prompt
+I have a performance review coming up [or: I just received
+a performance review I want to respond to].
+My role: [job title, brief description]
+My situation: [annual review / mid-year check-in / PIP /
+I disagree with the rating I received]
+What I have: [list of accomplishments, projects, metrics,
+feedback from colleagues — paste notes if available]
+What I need help with:
+--- Self-review: [draft from my notes, quantify my impact,
+   frame accomplishments in business terms]
+--- Preparation: [anticipate what my manager will say,
+   prepare responses to likely criticism]
+--- Pushback: [I received a rating I believe is unfair —
+   help me draft a professional, documented response]
+Please help me write this in first person, with specific
+metrics and business impact where possible.
+:::
+*What to do with the Output:* For self-reviews, edit the output into your voice — your manager knows how you write, and a suddenly polished self-review raises questions you do not want. For pushback, the key is documentation: specific examples, dates, and outcomes that contradict the rating. The phrase "I would like to understand the specific examples that led to this assessment" is both professional and impossible to answer without evidence. If they do not have evidence, the rating is a feeling. Feelings can be revised.
+
+::: science
+Recency bias dominates performance evaluations. Research on cognitive bias in performance appraisal consistently finds that managers disproportionately weight events from the most recent 2--3 months, regardless of the review period.[^w9-1] The countermeasure is a running document — updated monthly — of accomplishments, metrics, and positive feedback. Your Agent can help you maintain it: _"Here are my notes from this month. Add them to my running accomplishments document and flag anything that needs a metric attached."_
+:::
+
+
+::: tip
+_"I received a performance rating of [X] and I believe it should be [Y]. Here are my accomplishments: [list]. Here is the feedback I received: [paste]. Help me draft a professional response that requests a specific rating revision, cites my documented accomplishments, and asks for the concrete examples that support the current rating."_
 :::
 
 
 ::: meme
-Every automation tool in history — the loom, the spreadsheet, the assembly line — was sold to management as productivity and feared by workers as replacement. The workers who learned the loom first kept their jobs. The ones who learned spreadsheets first got promoted. Your Agent is the current version of this pattern. The playbook has not changed in 200 years. Learn it first.
+The performance review was invented in the 1940s by the U.S. military to identify officers for promotion. It was designed for a hierarchical institution with clear metrics and a chain of command. It was then adopted, unmodified, by corporate America for knowledge workers whose output is ambiguous, whose managers change annually, and whose "metrics" are whatever the company decided to measure this quarter. The tool was not designed for you. Prepare accordingly.
+:::
+
+
+<!-- RESEARCH NEEDED: Murphy & Cleveland (1995), "Understanding Performance Appraisal" — foundational text on the gap between what reviews measure and what they claim to measure. Also Cappelli & Tavis (2016, HBR) on the movement away from annual reviews and toward continuous feedback. Verify whether major companies that eliminated annual reviews (Deloitte, Adobe, GE) have sustained the change or reverted. -->
+
+<!-- RESEARCH NEEDED (HUMAN CONDITION): Performance review anxiety is documented but underresearched as a standalone phenomenon. The review collapses professional identity, financial security, and self-worth into a single conversation with a single person who may or may not have paid attention all year. For workers with impostor syndrome — which research estimates affects roughly 70% of people at some point (Clance & Imes, 1978; Sakulku & Alexander, 2011) — the review is not a feedback mechanism but a threat-detection event. Your Agent cannot fix the system. It can ensure you walk in with documentation that is stronger than your anxiety. -->
+
+<!-- RESEARCH NEEDED: The PIP (Performance Improvement Plan) — in practice, most PIPs are documentation for termination, not genuine improvement plans. Workers placed on PIPs should understand this framing and prepare accordingly: document everything, consult W-2 (Leaving a Job), and consider whether the PIP is a negotiation opening for a severance conversation. Verify employment attorney perspectives on PIP survival rates. -->
+
+[^w9-1]: See Thorsteinson, T. J. (2000). "A Meta-Analysis of Recency Effects in Performance Appraisal." Presented at the Society for Industrial and Organizational Psychology conference. Also Murphy, K. R. (2020). "Performance Evaluation Will Not Die, But It Should." _Annual Review of Organizational Psychology and Organizational Behavior,_ 7, 171--194.
+
+---
+
+#### W-10: Dealing with Workplace Conflict
+*Strategy:* Prepare + Navigate
+*See also:* W-3: Working with Human Resources (when the conflict reaches the threshold for HR involvement), Li-1: Preparing for a Difficult Conversation (the underlying skill), W-6: Workplace Safety (when conflict becomes harassment or threats)
+*My Man Jeeves:* _It would not be unreasonable to suggest that the modern workplace places individuals of varying temperaments, incentives, and communication styles into sustained proximity and then expresses surprise when friction results. The passive-aggressive email. The manager who provides feedback through silence. The colleague who takes credit in meetings with the casual confidence of someone who has never been questioned. These are not, one hastens to observe, HR matters — they are below the threshold of formal complaint but above the threshold of comfort, which is to say, they occupy precisely the space in which no institutional mechanism exists to address them. One's Agent can assist in preparing for the conversation one has been avoiding — drafting the language, anticipating the responses, and distinguishing between the conflicts worth addressing and those best managed through strategic indifference._
+*The Spec:*
+::: prompt
+I am dealing with a workplace conflict that I need to handle
+myself — it is not an HR-level issue (yet).
+The situation: [describe — who, what happened, how long it has
+been going on, what I've tried so far]
+The other person is: [coworker / direct manager / skip-level
+manager / direct report / client]
+The dynamic: [passive aggression / credit-taking / micromanaging /
+exclusion / communication style clash / workload imbalance]
+What I want: [specific outcome — the behavior to change, the
+boundary to set, the conversation to have]
+Please help me:
+1. Assess whether this is a conversation I should have or
+   a situation I should manage around
+2. If I should address it, draft what I would say — direct,
+   professional, and focused on behavior not character
+3. Anticipate how they are likely to respond and prepare me
+   for each scenario
+4. Tell me at what point this becomes an HR matter (W-3)
+:::
+*What to do with the Output:* Have the conversation in person or on a call — not over email or Slack, where tone is lost and screenshots are forever. But after the conversation, send a brief follow-up email: "Per our conversation today, I understand that we agreed to [specific outcome]." This is documentation, not aggression. If the behavior continues, that email is the foundation of your case should you need to escalate to W-3.
+
+::: science
+The Thomas-Kilmann Conflict Mode Instrument identifies five conflict-handling styles: competing, collaborating, compromising, avoiding, and accommodating. Research consistently finds that most people default to avoiding — which resolves nothing — or competing — which escalates everything.[^w10-1] The most effective approach for ongoing workplace relationships is *collaborating* (finding a solution that addresses both parties' concerns), but it requires the most preparation and the most emotional regulation. That preparation is exactly what your Agent can provide.
+:::
+
+
+::: tip
+_"My coworker [specific behavior]. I want to address it directly. Draft a script for the conversation that: (1) names the specific behavior without attacking their character, (2) explains the impact on my work, (3) proposes a specific change, and (4) gives them room to respond without becoming defensive."_
+:::
+
+
+::: fairness
+Power dynamics shape which conflicts can be addressed directly. Telling a peer to stop taking credit in meetings is different from telling your manager. Research on workplace voice consistently finds that women, people of color, and younger workers face higher social costs for the same assertive behavior.[^w10-2] Calibrate your approach to your actual power position, not the one the employee handbook implies you have.
+:::
+
+
+<!-- RESEARCH NEEDED: Thomas-Kilmann Conflict Mode Instrument — verify current research on workplace conflict styles. The TKI is widely used but also widely criticized as overly simplistic. More recent frameworks (dual concern model, Rahim, 1983) may be more nuanced. The core insight — that most people default to avoidance and that preparation shifts them toward collaboration — is well-supported regardless of framework. -->
+
+<!-- RESEARCH NEEDED (HUMAN CONDITION): Workplace conflict is the leading source of daily stress in American workers (APA Stress in America survey — verify latest year and specific statistic). The stress is not proportional to the severity of the conflict — a passive-aggressive email from a coworker can ruin a Tuesday as thoroughly as a formal reprimand. The nervous system does not distinguish between social threat and physical threat (Eisenberger, 2003, "Does Rejection Hurt?"). The entry should normalize the disproportionate emotional response without pathologizing it. -->
+
+<!-- RESEARCH NEEDED: The "just talk to them" advice assumes equal power, equal social risk, and equal communication skills. In practice, the person with more institutional power sets the terms of the interaction. The entry should address the specific dynamics of managing up (conflict with a manager), managing across (conflict with a peer who has more political capital), and managing the person who simply does not care whether you are uncomfortable. -->
+
+[^w10-1]: Thomas, K. W., & Kilmann, R. H. (1974). _Thomas-Kilmann Conflict Mode Instrument._ Xicom. For meta-analytic evidence on conflict style effectiveness, see De Dreu, C. K. W., & Van Vianen, A. E. M. (2001). "Managing Relationship Conflict and the Effectiveness of Organizational Teams." _Journal of Organizational Behavior,_ 22(3), 309--328.
+
+[^w10-2]: Livingston, R. W., Rosette, A. S., & Washington, E. F. (2012). "Can an Agentic Black Woman Get Ahead?" _Psychological Science,_ 23(4), 354--358. See also Amanatullah, E. T., & Morris, M. W. (2010). "Negotiating Gender Roles: Gender Differences in Assertive Negotiating Are Mediated by Women's Fear of Backlash." _Journal of Personality and Social Psychology,_ 98(2), 256--267.
+
+---
+
+#### W-11: Understanding Your Benefits
+*Strategy:* Decode + Decide
+*See also:* M-5: Retirement and Investing (the 401k match is free money — literally), M-8: Insurance (the full picture beyond employer-provided), H-6: Medicare and Medicaid (for comparison if you are approaching 65 or qualifying by income)
+*My Man Jeeves:* _It has been one's observation that the benefits enrollment period is a masterwork of information asymmetry, in which the employee is presented with a forty-page document, given fourteen days to make decisions that will affect one's financial position for the following twelve months, and offered as guidance a thirty-minute webinar conducted by a vendor whose incentives are not, one feels, perfectly aligned with one's own. The HSA and the FSA sound similar but differ in ways that cost the inattentive reader several thousand dollars. The vesting schedule appears generous until one calculates the probability of remaining at the firm long enough to collect. The disability insurance that seemed optional becomes, upon reflection, the only benefit that replaces income when the others cannot. The money left on the table, compounded over a career, is quietly staggering. One's Agent can read the benefits summary, explain what each option actually does, and calculate which combination serves the reader's specific situation — which is, one gathers, what the benefits webinar was meant to accomplish._
+*The Spec:*
+::: prompt
+I need to understand my workplace benefits and make decisions
+about them.
+My situation: [open enrollment coming up / just started a new job /
+never really understood what I signed up for / life change
+(marriage, baby, diagnosis) that changes my needs]
+What I have access to (paste your benefits summary if possible):
+--- Health insurance: [plan options if known]
+--- Retirement: [401k, 403b, pension — employer match details]
+--- HSA / FSA: [available? current balance?]
+--- Other: [dental, vision, life insurance, disability,
+   stock options / RSUs, tuition reimbursement, commuter benefits]
+What I need:
+1. Explain each benefit in plain language — what it does,
+   what it costs me, and what I am leaving on the table
+   if I skip it
+2. For health plans, compare my options based on my actual
+   usage: [how often I see doctors, any prescriptions,
+   any planned procedures]
+3. For retirement, tell me the minimum contribution to get
+   the full employer match — and what I lose if I don't
+4. Flag anything with a deadline, a vesting schedule,
+   or a "use it or lose it" rule
+5. Tell me what most people in my situation get wrong
+:::
+*What to do with the Output:* Make the enrollment decisions during enrollment, not after. The most expensive benefit mistake is not choosing the wrong plan — it is not choosing at all and defaulting into whatever the company selected for you, which is optimized for the company's cost, not your coverage. The second most expensive mistake is not contributing enough to get the full employer match. That is a 50--100% return on your money, guaranteed. No investment you will ever make beats it.
+
+::: science
+A Vanguard study found that approximately 33% of employees do not contribute enough to their 401(k) to receive the full employer match — leaving an estimated $1,336 per person per year in uncollected compensation.[^w11-1] Over a 30-year career at a conservative 7% return, that single decision costs approximately $126,000. The money is contractually yours. You simply have to claim it.
+:::
+
+
+::: tip
+_"Here is my benefits summary: [paste]. I am [age], [single/married/family], in [state]. I go to the doctor about [X] times a year, take [prescriptions if any], and [have/don't have] planned medical expenses. Which health plan saves me the most money this year? Show your math."_
+:::
+
+
+::: meme
+Open enrollment is the company's annual reminder that they have structured your compensation so that a meaningful percentage of it requires you to read a forty-page PDF, attend a webinar scheduled during your busiest week, and make irrevocable financial decisions in a two-week window. The C-suite has a benefits consultant who does this for them. You now have your Agent.
 :::
 
 
 ::: also
-To make this Expert Role persistent across sessions, save it as a *Project* (Claude), *Gem* (Gemini), or *Custom GPT* (ChatGPT). See [Appendix G](06-appendix-g-feature-table.xhtml).
+Upload your benefits summary directly — PDF and document upload works in Claude, Gemini, ChatGPT, and Copilot. For large documents, paste the specific section you have questions about. See [Appendix G](06-appendix-g-feature-table.xhtml).
 :::
 
 
-*Common work automation Expert Role specs:*
-::: prompt
-Act as my executive assistant. I need to send an email to [person]
-about [topic]. The tone should be [professional / friendly / firm].
-Here are my key points: [list]. Draft the email.
-:::
-::: prompt
-Act as a business analyst. I have this data: [paste or describe].
-Summarize the key trends, flag anything unusual, and draft
-three bullet points I can use in my weekly status update.
-:::
-::: prompt
-Act as a meeting preparation assistant. I have a meeting about
-[topic] with [audience]. Here is the background: [paste or describe].
-Give me: the three questions they are most likely to ask,
-a one-page summary of the key points, and a suggested agenda.
-:::
-::: prompt
-Act as a proposal writer. I need to respond to this RFP / client
-request: [paste or describe]. My company's strengths are [list].
-Draft the response. I will edit for accuracy and voice.
-:::
+<!-- RESEARCH NEEDED: HSA vs. FSA comparison — the HSA is one of the most tax-advantaged accounts in the U.S. (triple tax advantage: deductible contribution, tax-free growth, tax-free withdrawal for medical expenses). But it requires a high-deductible health plan (HDHP), which is not appropriate for everyone. The FSA has a "use it or lose it" rule (with a small carryover or grace period — verify current IRS limits). Many employees choose the FSA because it is offered with a conventional plan, not realizing the HSA is portable and investable. Verify 2025/2026 contribution limits for both. -->
 
-<!-- BRAINSTORM: Future Work entries
-— W-8: Freelancing and Self-Employment — taxes, insurance, contracts, invoicing, retirement. A different system from employment with no HR department to explain it.
-— W-9: Disability Accommodations at Work — ADA, the interactive process, documentation. What your employer is required to do and what they hope you don't know.
-— W-10: Starting a Small Business — LLCs, permits, bookkeeping, insurance. The bureaucratic maze between "I have an idea" and "I have a business."
--->
+<!-- RESEARCH NEEDED: Vesting schedule mechanics — 401(k) employer match vesting (cliff vs. graded), stock option vesting, RSU vesting. The "golden handcuffs" phenomenon: employees staying at jobs they dislike because unvested compensation represents tens of thousands of dollars. The entry should help the reader calculate the actual dollar amount at stake so the decision is informed, not emotional. -->
+
+<!-- RESEARCH NEEDED (HUMAN CONDITION): Benefits confusion is not a failure of intelligence — it is a design outcome. A TIAA Institute study found that only 16% of Americans can correctly answer four basic financial literacy questions. Benefits documents are written in actuarial language, presented during high-workload periods, and structured to make the default option (which favors the employer's cost) the path of least resistance. The shame of not understanding your benefits is misplaced. The document was not designed to be understood. It was designed to be signed. -->
+
+<!-- RESEARCH NEEDED: Disability insurance — the most undervalued benefit. The Social Security Administration estimates that a 20-year-old worker has a 1-in-4 chance of becoming disabled before reaching retirement age. Employer-provided long-term disability insurance typically replaces 50-60% of salary. The gap between that and actual expenses is the risk. Verify current SSA statistics and typical employer LTD terms. -->
+
+[^w11-1]: Vanguard, "How America Saves 2023," https://institutional.vanguard.com/content/dam/inst/iig-transformation/has/2023/pdf/has-executive-summary-2023.pdf. The $1,336 figure is the median uncollected match; actual amounts vary by salary and match structure.

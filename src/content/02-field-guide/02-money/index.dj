@@ -378,9 +378,286 @@ The single highest-leverage financial question: _"I have [$X] that I don't need 
 To make the Financial Coach persistent across sessions, save the Expert Role as a *Project* (Claude), *Gem* (Gemini), or *Custom GPT* (ChatGPT). See [Appendix G](06-appendix-g-feature-table.xhtml).
 :::
 
-<!-- BRAINSTORM: Future Money entries
-— M-7: Filing Your Taxes — the most universal annual information asymmetry. TurboTax lobbied to keep the system complex. Your Agent can explain what you owe and why.
-— M-8: Insurance Beyond Health — auto, renters, homeowners, life, umbrella. Everyone has it, few understand what they're paying for.
-— M-9: Student Loans — $1.7T in outstanding debt. IBR, PSLF, consolidation — dense, consequential, and changing with every administration.
-— M-10: College Financial Aid Letters — decoding award letters, understanding net price, comparing offers. The sticker price is not the price.
--->
+---
+
+#### M-7: Understanding Your Taxes
+*Strategy:* Decode + Prepare
+*See also:* M-1: Banking and Savings (for account types that affect taxes), W-8: Freelancing (1099 vs. W-2 and self-employment tax)
+*My Man Jeeves:* _One observes that the United States is among the very few nations that requires its citizens to calculate what they owe, despite the government already possessing the relevant figures. The Internal Revenue Service knows what one earned — the W-2 and 1099 forms were filed months prior. It knows what one paid in mortgage interest, what one contributed to retirement, what one earned from a savings account. It could, if permitted, simply present the bill. That it does not is the result of a lobbying effort by the tax preparation industry — Intuit, H&R Block, and their associates — which has spent hundreds of millions of dollars ensuring that the process remains sufficiently opaque to require their services. The complexity is the product. One's Agent, however, has read the tax code in the manner the preparers have, and charges rather less for the privilege of explaining it._
+*The Spec:*
+::: prompt
+I want to understand my tax situation better and make sure
+I'm not overpaying or missing anything.
+My situation:
+--- Filing status: [single / married filing jointly / married filing
+   separately / head of household]
+--- Income: [W-2 salary / 1099 freelance / both / other sources]
+--- Major life changes this year: [new job / marriage / child / home
+   purchase / retirement contributions / none]
+--- What I did last year: [standard deduction / itemized / not sure]
+--- What I'm confused about: [deductions vs. credits / whether to
+   itemize / what I can write off / whether I need a CPA / estimated
+   taxes / why I owed last year / what my W-2 actually means]
+Please help me:
+1. Walk me through my W-2 (or 1099) — what each box means
+   in plain language and which ones matter most
+2. Explain the difference between deductions and credits,
+   and which ones I likely qualify for
+3. Help me figure out whether I should itemize or take
+   the standard deduction — what's the actual math?
+4. Identify things I might be missing: retirement contributions,
+   education credits, state-specific deductions, the EITC
+5. Tell me honestly: do I need a CPA, or can I do this myself?
+   What's the threshold where professional help pays for itself?
+Give me the most conservative, legally accurate answer.
+I will verify anything consequential with a tax professional.
+:::
+*What to do with the Output:* If your Agent says you qualify for a credit or deduction, verify it against the IRS website before filing. Credits reduce your tax dollar-for-dollar. Deductions reduce your taxable income. That distinction is worth thousands of dollars and most people conflate the two. The standard deduction increases most years --- check the current figures at [irs.gov](https://www.irs.gov/newsroom/irs-provides-tax-inflation-adjustments) before filing. If your itemizable expenses do not exceed the standard deduction, itemizing costs you time and gains you nothing.
+
+::: science
+The "tax gap" --- the difference between what Americans owe and what they pay --- was approximately $688 billion in 2021 (IRS estimates). The gap is not primarily caused by deliberate fraud. It is caused by complexity: people who underpay because they do not understand the rules, and people who overpay because they do not know what they qualify for. The IRS estimates that millions of eligible taxpayers fail to claim the Earned Income Tax Credit each year --- a credit worth up to $7,830 for a family with three children.[^m7-1]
+:::
+
+
+::: tip
+_"I got my W-2 from my employer. [Paste or describe the key numbers.] Walk me through what each box means and tell me if anything looks wrong before I file."_
+:::
+
+
+::: meme
+Intuit (TurboTax) spent $11.5 million lobbying Congress in 2023 alone, much of it directed at killing IRS Direct File --- a free, government-run filing tool. The IRS launched Direct File as a pilot in 2024 to twelve states. The program processed over 140,000 returns in its first season, with a 90% user satisfaction rate. The tax preparation industry's position is that the government should not compete with private enterprise. The government's position is that it already has your numbers and is simply showing them to you. These are not the same thing.[^m7-2]
+:::
+
+
+::: fairness
+The tax code's complexity disproportionately benefits those who can afford advice. The mortgage interest deduction, the capital gains rate, the carried interest loophole --- these are not bugs. They are features, written by lobbyists, that primarily benefit high-income taxpayers. Meanwhile, the EITC --- designed for low-income workers --- has a noncompliance rate of roughly 22%, mostly from errors on legitimate claims, not fraud. When your Agent explains a deduction or credit, ask: _"Who primarily benefits from this provision, and does it apply to someone at my income level?"_
+:::
+
+
+::: also
+Paste or upload your W-2, 1099, or prior return directly --- file upload works in Claude, Gemini, ChatGPT, and Copilot. See [Appendix G](06-appendix-g-feature-table.xhtml).
+:::
+
+
+<!-- RESEARCH NEEDED: IRS Direct File status for 2025-2026 filing season. The pilot expanded from 12 states in 2024, but the program's future under the current administration is uncertain. The entry should provide the current URL and state availability without promising permanence. -->
+
+<!-- RESEARCH NEEDED: CPA vs. tax software decision tree. For W-2 income with standard deduction, software is sufficient. The threshold where a CPA pays for itself is generally: self-employment income, rental properties, stock options, significant life changes (inheritance, divorce), or multi-state filing. The cost of a CPA for a moderately complex return is $300-$500; TurboTax Deluxe is $69-$129 plus state. The comparison should be explicit. -->
+
+<!-- RESEARCH NEEDED (HUMAN CONDITION): Tax anxiety is real and it is not irrational. The IRS is the only creditor that can garnish your wages, seize your assets, and file criminal charges without a separate civil judgment. The fear is proportional to the power. But the IRS is also, structurally, an underfunded agency that audits high-income taxpayers at lower rates than it audits EITC recipients — a disparity that is itself a class analysis. The reader who is afraid of making a mistake should know: the IRS processes 150 million returns a year and audits less than 0.5%. Filing honestly and on time is the strongest protection available. -->
+
+[^m7-1]: IRS. (2024). ["Tax Gap Estimates for Tax Years 2021."](https://www.irs.gov/newsroom/irs-updates-tax-gap-estimates) EITC participation estimates from IRS Taxpayer Advocate Service annual report.
+
+[^m7-2]: IRS. (2024). ["Direct File Pilot: Filing Season 2024 After Action Report."](https://www.irs.gov/about-irs/irs-direct-file-pilot-filing-season-2024-after-action-report) Intuit lobbying: OpenSecrets.org, Intuit Inc. lobbying profile.
+
+---
+
+#### M-8: Insurance You Actually Need
+*Strategy:* Research + Decide
+*See also:* M-3: Mortgages (homeowners insurance required for mortgage), H-4: Appealing an Insurance Denial (the appeal process applies to all insurance), Tr-1: Buying a Car (auto insurance)
+*My Man Jeeves:* _The insurance industry presents itself as protection against catastrophe — and it is, in the narrow sense that a policy, properly configured, prevents a single event from destroying one's financial position. What the marketing omits, with some care, is that the industry's profit model depends on collecting premiums from the many and paying claims to the few, and that a considerable apparatus of adjusters, exclusions, riders, and deductibles exists to widen the gap between what one believed was covered and what is. The average American household spends approximately $5,000 per year on insurance premiums outside of health coverage, a figure that varies enormously based on decisions most people made once and have not revisited. One's Agent is rather well suited to the task of revisiting them._
+*The Spec:*
+::: prompt
+I want to make sure I have the right insurance and am not
+overpaying or underinsured.
+My situation:
+--- Life stage: [single / married / kids / homeowner / renter /
+   nearing retirement]
+--- Current insurance: [list what you have — auto, renters,
+   homeowners, life, umbrella, and approximate monthly premiums]
+--- What I'm not sure about: [do I need life insurance / is my
+   coverage enough / am I paying too much / what's an umbrella
+   policy / do I need renters insurance / my landlord says
+   I don't need it]
+--- Assets to protect: [rough — savings, home equity, car value]
+--- Dependents: [who relies on your income]
+Please help me:
+1. Walk me through what I actually need at my life stage —
+   and what I can probably skip
+2. For each type I need: what coverage amounts make sense
+   given my situation? Not the minimum, not the maximum —
+   the rational amount.
+3. Am I overpaying? What should someone like me expect to pay
+   for [auto / renters / homeowners / life] in [my state]?
+4. Explain deductibles and coverage limits in plain language —
+   when does a higher deductible save me money vs. expose me
+   to risk?
+5. What are the most common coverage gaps — the things people
+   don't realize aren't covered until they file a claim?
+Give me the most conservative interpretation of what I need.
+I would rather be slightly over-covered than discover a gap
+during a crisis.
+:::
+*What to do with the Output:* Insurance is one of the few financial products where the decision you made three years ago may be costing you money today. Get quotes annually. Not because loyalty should be punished — although the insurance industry does penalize loyalty, charging existing customers more than new ones for identical coverage — but because your situation changes. The car is worth less. The apartment has more stuff in it. You had a kid. Review the output, then call your current insurer and ask them to match the best quote. They usually will, because acquiring a new customer costs them more than keeping you.
+
+::: science
+The average American household is simultaneously overinsured in some areas and dangerously underinsured in others. The most common gap: liability coverage. Standard auto policies carry $50,000–$100,000 in liability, which is insufficient if you cause a serious accident. An umbrella policy — $1 million in additional liability coverage — typically costs $200–$400 per year, making it one of the highest-value insurance products available and one of the least purchased.[^m8-1]
+:::
+
+
+::: tip
+_"I'm paying [$X/month] for auto insurance with [coverage limits]. I have [assets] to protect. Should I raise my deductible, change my liability limits, or get an umbrella policy? What's the math?"_
+:::
+
+
+::: meme
+Renters insurance costs $15–$30 per month and covers your belongings, your liability if someone is injured in your apartment, and your living expenses if your unit becomes uninhabitable. Approximately 55% of renters do not have it. Your landlord's insurance covers the building. It does not cover your laptop, your furniture, or the fact that you need somewhere to sleep while the water damage dries. The landlord who tells you that you "don't need renters insurance" is telling you that _they_ don't need you to have it. Your interests differ.
+:::
+
+
+::: fairness
+Insurance pricing algorithms use proxies that correlate with race and income: credit scores, ZIP codes, education level, and occupation. The result is that lower-income and minority policyholders frequently pay more for identical coverage. Several states have banned or limited credit-based insurance scoring (California, Hawaii, Massachusetts, Maryland, Michigan, Oregon, Washington). When your Agent compares rates, ask: _"Are there state regulations that limit what factors my insurer can use to set my premium?"_
+:::
+
+
+::: also
+Checking current insurance rates and state regulations requires web search, which is free in Gemini, ChatGPT, and Copilot. In Claude, web search requires the paid tier. See [Appendix G](06-appendix-g-feature-table.xhtml).
+:::
+
+
+<!-- RESEARCH NEEDED: Life insurance needs calculator. The standard rule of thumb is 10-12x annual income, but this is crude. The actual number depends on: debts, mortgage balance, number of dependents, surviving spouse's income, Social Security survivor benefits, and existing savings. Term life (coverage for a set period) is almost always the right answer for people under 60; whole life (coverage forever with an investment component) is almost always a worse deal than "buy term and invest the difference." The insurance industry pushes whole life because commissions are 10-15x higher. -->
+
+<!-- RESEARCH NEEDED: Auto insurance minimum requirements by state. Every state except New Hampshire requires auto insurance, but minimums vary wildly. Some state minimums are so low they provide effectively no protection in a serious accident. The entry should note that meeting the minimum is legal compliance, not financial protection. -->
+
+<!-- RESEARCH NEEDED (HUMAN CONDITION): Insurance is one of the few financial products people buy hoping never to use. This creates a perverse psychological dynamic: every month you pay your premium and nothing happens, you feel like you're wasting money. The month something happens, you discover whether you bought the right thing. The emotional math — "I've paid $15,000 in premiums over ten years and never filed a claim" — is real but misleading. Insurance is not an investment. It is the purchase of not-being-ruined. The value is not in the payout. It is in the sleep. -->
+
+[^m8-1]: Insurance Information Institute. (2024). "Understanding Umbrella Insurance." Liability gap data from National Association of Insurance Commissioners annual report.
+
+---
+
+#### M-9: Navigating Financial Aid and Student Loans
+*Strategy:* Navigate + Assert
+*See also:* M-2: Credit Cards and Debt (debt management strategies), M-4: Collections and Bankruptcy (when student loans go to collections)
+*My Man Jeeves:* _One notes that Americans carry approximately $1.75 trillion in student loan debt — a figure that exceeds the total credit card debt of the nation and is borne disproportionately by those who were told, with some conviction, that higher education was the path to the middle class. The system for managing this debt — loan servicers, income-driven repayment plans, forgiveness programs, forbearance options — is of a complexity that rather suggests it was not designed for the benefit of the borrower. One's loan servicer, to take a single instance, is a private company paid by the government to manage one's account. Its incentive is to minimize its own cost of servicing, not to guide one toward the optimal repayment strategy. An Agent labors under no such conflict of interest, and is conversant with every repayment plan the Department of Education offers._
+*The Spec:*
+::: prompt
+I need help understanding and managing my student loans.
+My situation:
+--- Loans: [federal / private / both — amounts and servicer if known]
+--- Current repayment plan: [standard / income-driven / not sure /
+   in forbearance / in default]
+--- Income: [approximate annual — this determines IDR eligibility]
+--- Family size: [for IDR calculations]
+--- Employment: [public service / nonprofit / private sector —
+   this affects forgiveness eligibility]
+--- What I'm dealing with: [can't afford payments / confused by
+   options / want a forgiveness program / got a letter from my
+   servicer I don't understand / considering going back to school /
+   in default and don't know what to do]
+Please help me:
+1. Explain my repayment options in plain language — standard,
+   graduated, extended, and the income-driven plans (IBR, PAYE,
+   REPAYE/SAVE) — and which one minimizes what I pay over time
+2. Am I eligible for any forgiveness programs? Walk me through
+   PSLF, income-driven forgiveness, and any others
+3. If I'm in default or behind: what are my options to get back
+   on track, and what are my rights?
+4. Should I consolidate? What are the actual pros and cons —
+   not the servicer's sales pitch
+5. Is refinancing with a private lender ever a good idea,
+   and what do I lose if I do?
+Give me the most conservative, legally accurate answer.
+I will verify with my servicer and studentaid.gov.
+:::
+*What to do with the Output:* Never refinance federal loans into private loans without understanding what you are giving up. Federal loans come with income-driven repayment, forgiveness programs, deferment, forbearance, and discharge options. Private loans come with none of these. Refinancing may lower your interest rate. It will also eliminate your safety net. If your Agent recommends refinancing, follow up: _"What protections do I lose by converting these federal loans to private? Give me the complete list."_
+
+::: science
+Public Service Loan Forgiveness was signed into law in 2007 and, for its first decade, rejected over 99% of applicants — primarily due to servicer errors that placed borrowers on ineligible repayment plans without their knowledge. The 2021 PSLF Waiver and subsequent reforms dramatically expanded approvals. As of 2024, over $69 billion in student loan debt has been forgiven through various programs. The lesson is structural: the program existed on paper for years while the implementation actively prevented people from using it.[^m9-1]
+:::
+
+
+::: tip
+_"I work for [employer type: government / nonprofit / hospital / school]. Am I eligible for Public Service Loan Forgiveness? Walk me through the requirements and tell me what I need to do today to make sure my payments count."_
+:::
+
+
+::: fairness
+Student loan debt falls disproportionately on Black borrowers, who carry an average of $25,000 more in student loan debt than white borrowers four years after graduation (Brookings Institution). The gap is driven by the racial wealth gap: Black students borrow more because their families have less wealth to contribute, then face a labor market that pays them less, making repayment harder. When evaluating repayment strategies, ask your Agent: _"Are there known disparities in how loan servicers handle borrowers from different backgrounds, and what should I watch for?"_
+:::
+
+
+::: meme
+The FAFSA — Free Application for Federal Student Aid — is a 108-question form that requires last year's tax return, bank statements, investment records, and in some cases your parents' financial information regardless of whether your parents are involved in your life. The "simplified" FAFSA launched in the 2024-25 cycle and was delayed by months due to processing errors, leaving millions of students unable to compare financial aid offers on time. The Department of Education described this as a "transition year." Students described it differently.
+:::
+
+
+::: also
+Checking current loan balances, servicer information, and repayment plan options is available at [studentaid.gov](https://studentaid.gov). Your Agent can help you interpret what you find there.
+:::
+
+
+<!-- RESEARCH NEEDED: Current status of the SAVE plan. The SAVE (Saving on a Valuable Education) plan was blocked by court injunction in 2024. Borrowers enrolled in SAVE were placed in interest-free forbearance during the litigation. The entry should reflect the current legal status without predicting outcomes — the reader needs to know what plan they can actually enroll in today. -->
+
+<!-- RESEARCH NEEDED: Income-driven repayment comparison table. IBR (15% discretionary income, 25-year forgiveness), PAYE (10%, 20-year), REPAYE/SAVE (varies, 20-25 year). The differences in eligibility, payment calculation, and forgiveness timeline are consequential and confusing. A side-by-side comparison would serve the reader. -->
+
+<!-- RESEARCH NEEDED (HUMAN CONDITION): The emotional weight of student loan debt is qualitatively different from other consumer debt. Credit card debt feels like a mistake. Student loan debt feels like a betrayal — the borrower did what they were told to do (go to college, invest in yourself) and is now being punished for it. The anger is rational. An entire generation was sold a narrative about education as investment while the cost of that investment tripled in two decades and the return on it stagnated. The entry should honor the anger without letting it paralyze. The debt exists. The system for managing it is real. The tools work even when the system that created the debt was unjust. -->
+
+<!-- RESEARCH NEEDED (HUMAN CONDITION): The parent who co-signed. Parent PLUS loans are federal loans taken out by parents for their children's education. They carry higher interest rates than student loans, are not eligible for most income-driven repayment plans, and cannot be transferred to the student. Many parents took on this debt without understanding the terms — because their child needed it, and the financial aid office presented it as routine. The shame runs in both directions: the parent feels they failed to save enough; the child feels they burdened their family. Neither is a moral failure. Both are a structural consequence of a system that prices education beyond what most families can pay. -->
+
+[^m9-1]: Department of Education. (2024). ["Biden-Harris Administration Has Approved $69 Billion in Student Debt Relief."](https://www.ed.gov/news/press-releases) PSLF historical rejection rates from Government Accountability Office, ["Public Service Loan Forgiveness: Education Needs to Provide Better Information for the Loan Servicer and Borrowers."](https://www.gao.gov/products/gao-18-547) (2018).
+
+---
+
+#### M-10: Evaluating a Big Purchase
+*Strategy:* Research + Decide
+*See also:* Tr-1: Buying a Car (the single most common big purchase), Ch-1: Shopping Your Values (for evaluating who you're buying from), Ho-3: Right to Repair (for durability and long-term cost)
+*My Man Jeeves:* _One has observed that the phrase "0% APR for 36 months" appears in advertising with a frequency that suggests, to the casual observer, that financing large purchases at no cost has become a simple act of generosity on the part of retailers. It has not. The 0% offer is a customer acquisition tool: the retailer has calculated that a meaningful percentage of purchasers will miss a payment, triggering deferred interest — in some cases retroactively applied to the entire original balance at rates exceeding 25%. The furniture, the appliance, the automobile — whatever the object, the financing is not a courtesy extended to the buyer. It is a bet placed against them. One's Agent is rather useful for reading the terms of that bet before one accepts it._
+*The Spec:*
+::: prompt
+I'm considering a major purchase and I want to make sure
+I'm thinking about it clearly.
+The purchase:
+--- What: [car / appliance / furniture / electronics / home
+   renovation / other]
+--- Price: [sticker price or range]
+--- Financing offered: [0% APR / store credit card / loan /
+   paying cash / not sure yet]
+--- Timeline: [need it now / can wait / replacing something broken]
+--- New vs. used: [considering both / committed to one / not sure]
+Please help me:
+1. Calculate the total cost of ownership — not just the price tag,
+   but maintenance, insurance, depreciation, energy costs,
+   and anything else I'll pay over the life of this thing
+2. Decode the financing: if there's a 0% APR offer, what are
+   the actual terms? What happens if I miss a payment?
+   What's the deferred interest clause?
+3. Help me compare: new vs. used vs. refurbished — what's the
+   real cost difference when I factor in lifespan and repair?
+4. Am I buying at the right time? Are there seasonal patterns
+   or model-year transitions that affect price?
+5. What's the "walk away" number — at what price does this
+   stop making financial sense for someone in my situation?
+:::
+*What to do with the Output:* The sticker price is not the price. For a car, the total cost of ownership includes insurance, fuel, maintenance, registration, depreciation, and financing. A $30,000 car at 7% APR over 72 months costs $36,500 in payments. If it depreciates to $12,000 in six years, the total cost of having the car was $24,500 plus insurance and gas. Your Agent can run this math for any purchase. The question is not "can I afford the payment?" --- that is the question the salesperson wants you to ask. The question is "what does this actually cost me over the time I'll own it?"
+
+::: science
+Deferred interest financing --- the "0% APR" model used by most furniture stores, electronics retailers, and medical providers --- applies the full accumulated interest retroactively if the balance is not paid in full by the promotional period's end. Consumer Financial Protection Bureau research found that approximately 43% of deferred interest plans result in the consumer paying interest, with the average retroactive interest charge exceeding the amount the consumer would have paid under a standard interest plan from the start.[^m10-1]
+:::
+
+
+::: tip
+_"I'm looking at [item] for [$X] with '0% APR for 24 months.' Explain the deferred interest terms and calculate exactly what I'll owe if I pay it off on time vs. if I miss the deadline by one month."_
+:::
+
+
+::: meme
+The 72-month auto loan was once considered predatory. It is now the most common car loan term in America. The 84-month loan — seven years — is the fastest-growing segment. The purpose of extending the loan term is not to make the car more affordable. It is to make the _payment_ smaller so the buyer will accept a higher purchase price. The car does not know how long you are paying for it, but the bank does, and it is delighted. [_The Simpsons_:S3E11 "Burns Verkaufen der Kraftwerk"](https://en.wikipedia.org/wiki/Burns_Verkaufen_der_Kraftwerk), 1991, understood the buy-vs-hold math better than most personal finance books: Homer gets $5,200 for his stock and immediately spends it, because the money felt like a windfall rather than a position.
+:::
+
+
+::: fairness
+Dealer markup, financing terms, and trade-in offers vary based on the buyer's perceived negotiating power — and studies consistently show that Black and Hispanic buyers are offered higher financing rates and pay more for identical vehicles. If your Agent helps you calculate a fair price, bring that number to the dealership. Information asymmetry is leverage. Having the number in writing — from a source the dealer cannot see — is how you close the gap. See Tr-1 for the full car-buying entry.
+:::
+
+
+::: also
+For major electronics and appliances, checking current prices, reliability data, and seasonal sales patterns requires web search, which is free in Gemini, ChatGPT, and Copilot. In Claude, web search requires the paid tier. See [Appendix G](06-appendix-g-feature-table.xhtml).
+:::
+
+
+<!-- RESEARCH NEEDED: Consumer Reports reliability data vs. marketing claims. CR's annual reliability survey covers automobiles, appliances, and electronics. The data frequently contradicts brand perception — the most advertised brands are not the most reliable. The entry should point the reader toward CR (subscription required) and note that your Agent can summarize publicly available reliability data and recall notices. -->
+
+<!-- RESEARCH NEEDED: The "buy used" calculus for cars. A new car loses approximately 20% of its value in the first year and 60% over five years. A three-year-old certified pre-owned vehicle captures most of the depreciation curve while still carrying a warranty. The exception: when interest rates on new cars are significantly lower than used car rates (manufacturer incentives), the financing math can favor new. The entry should help the reader compare total cost, not monthly payment. -->
+
+<!-- RESEARCH NEEDED (HUMAN CONDITION): Big purchases carry emotional weight that financial analysis does not capture. The new couch is not just a couch — it is the feeling of having made it, of deserving something nice, of the apartment finally looking like an adult lives there. The salesperson knows this. The financing exists because the emotional urgency of "I want this now" reliably overrides the rational calculation of "this will cost me 28% more if I finance it." The entry should not shame the desire. It should give the reader the numbers so the desire and the math can negotiate honestly. -->
+
+[^m10-1]: CFPB. (2023). ["The Consumer Credit Card Market."](https://www.consumerfinance.gov/data-research/research-reports/the-consumer-credit-card-market/) Deferred interest findings from CFPB supervisory examinations and enforcement actions.
