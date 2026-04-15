@@ -11,7 +11,7 @@ Last reviewed: 2026-04-15 against spec/ directory and codebase.
 - [x] Field Guide reorganization — WB entries renumbered sequentially (WB-1 through WB-9), Creative domain added (Cr-1 through Cr-4)
 - [x] Field Guide entry labels standardized to Title Case
 - [x] Former stubs drafted: Ho-5, Ho-7, Ch-1, Ch-2, Ch-3, Ch-6 all have substantive content
-- [x] RESEARCH NEEDED markers reduced from 126 → 3 (all in Chores)
+- [x] All footnote citations verified — 5 previously unverified `[^...]` footnotes now have real sources
 - [x] `[companion URL TBD]` markers resolved (none remaining)
 - [x] WB-* entry numbering rationalized (was non-sequential, now WB-1 through WB-9)
 - [x] New appendices added: Appendix I (Spec Literacy), Appendix J (Working with Text)
@@ -117,38 +117,40 @@ Place as `See also:` or footnote citations where they fit:
 
 ---
 
-## Research Needed
+## Research & Editorial Notes
 
-Down from 126 to *3* `<!-- RESEARCH NEEDED -->` comments — all in Chores (Ch-3 plant citation, Ch-6 occupational therapy citation, Ch-6 BLS time-use survey).
+*Footnote citations* — all resolved. Every `[^...]` footnote in the book now has a real, verified source.
 
-74 `<!-- HUMAN CONDITION -->` editorial research notes remain across Part 2. These are sociological/contextual background for the author, not blocking items — but should be reviewed before publication to decide what gets surfaced in the text vs. removed.
+*Editorial research notes* — 60 `<!-- RESEARCH NEEDED: ... -->` and 74 `<!-- HUMAN CONDITION ... -->` comments remain across Part 2. These are author memos: background research directions, sociological context, and expansion ideas. They do not appear in the built ePub and do not correspond to unverified claims in the text. They should be reviewed before publication to decide what gets surfaced, expanded, or removed.
 
-| Domain | HUMAN CONDITION |
-|--------|-----------------|
-| Life | 25 |
-| Civic | 12 |
-| Work | 10 |
-| Health | 8 |
-| Money | 7 |
-| Transportation | 3 |
-| IRL | 3 |
-| Home | 2 |
-| Chores | 2 |
-| Creative | 2 |
+| Domain | RESEARCH NEEDED | HUMAN CONDITION | Total |
+|--------|-----------------|-----------------|-------|
+| Life | 14 | 25 | 39 |
+| Civic | 15 | 12 | 27 |
+| Work | 8 | 10 | 18 |
+| Money | 7 | 7 | 14 |
+| Health | 2 | 8 | 10 |
+| Transportation | 5 | 3 | 8 |
+| IRL | 2 | 3 | 5 |
+| Home | 3 | 2 | 5 |
+| Creative | 1 | 2 | 3 |
+| Legal | 3 | 0 | 3 |
+| Chores | 0 | 2 | 2 |
+| **Total** | **60** | **74** | **134** |
 
-Parts 0, 1, 3, and 4 have zero research comments — clean.
+Parts 0, 1, 3, and 4 have zero research comments — clean. Strategy 3 had two (insurance appeal citation) — now resolved.
 
 ---
 
 ## Pre-Publication Checklist
 
 - [x] All `[companion URL TBD]` resolved
-- [ ] All `<!-- RESEARCH NEEDED -->` resolved or removed (3 remaining)
+- [x] All footnote citations verified (previously 5 unverified `[^...]` footnotes)
 - [x] All stubs drafted (except Ch 33)
 - [ ] Ch 33 written (only remaining stub)
 - [ ] Appendix B complete (50 starters; 8 written)
 - [ ] Appendix A reflects final entry list (91 entries across 12 domains)
-- [ ] `<!-- HUMAN CONDITION -->` notes reviewed — surface or remove
+- [ ] Editorial notes reviewed — 134 `RESEARCH NEEDED` + `HUMAN CONDITION` comments to surface or remove
 - [ ] All art briefs have corresponding images in `src/images/`
 - [ ] XMP metadata embedded in all images
 - [ ] Version bumped and tagged
