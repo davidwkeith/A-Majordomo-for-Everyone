@@ -94,6 +94,27 @@ corrections?
 
 The echo-back checks whether Claude understood your situation. The calibration question, below, checks whether its answer is reliable. These are two different failure modes — wrong understanding versus uncertain knowledge — and they need two different checks.
 
+### Recognizing when the spec is right
+
+The failure modes tell you when the spec is wrong. But the harder question is the opposite: when is it right enough to act on?
+
+A correct spec is not a perfect spec. Perfection is a stalling tactic. A correct spec has four properties you can check:
+
+*It uses its own words, not yours.* When Claude restates your situation, it should paraphrase, not parrot. If the echo-back is your exact sentences rearranged, Claude may be reflecting your words without processing them. A real understanding sounds slightly different from how you said it — the way a good listener says "so what you're dealing with is..." rather than reading your message back to you.
+
+*It names your specifics, not generic categories.* "You're dealing with a landlord dispute" is a category. "Your landlord in Texas has withheld your $1,200 deposit for sixty days citing carpet damage you photographed on move-in" is your situation. If the echo-back could apply to anyone with a vaguely similar problem, it has not locked onto yours.
+
+*It admits what it does not know.* A spec that fills in every detail without asking is guessing. Your Agent should flag assumptions: "I'm assuming you haven't already contacted the landlord in writing — is that correct?" The absence of any hedging is not confidence. It is a sign that gaps are being papered over.
+
+*You could explain the plan to someone else.* Not the Agent's plan — your plan, in your words, after reading the Agent's output. If you cannot summarize what you are about to do and why, you do not understand the recommendation well enough to act on it. This is not a test of the Agent. It is a test of your readiness.
+
+When all four properties hold and the three failure modes are absent, the spec is correct. Act on it — or take it to the professional. The goal is not to keep refining until the answer is perfect. The goal is to refine until you are prepared, and then to move.
+
+::: tip
+If you have corrected the same detail three times and the Agent keeps drifting back, the conversation is not converging. Start a new one with a clean spec that incorporates what you have learned. Two focused conversations beat one that is fighting itself.
+:::
+
+
 ### When to start a new conversation
 
 If you have been going back and forth for thirty messages and the Agent starts repeating itself, losing track of earlier points, or giving vague answers — the conversation is not broken. It is full. Your Agent's working memory holds a lot, but not everything, and the middle of a long conversation gets less reliable attention than the beginning and end.

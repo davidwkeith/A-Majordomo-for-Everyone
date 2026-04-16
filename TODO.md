@@ -60,9 +60,9 @@ Content that exists but could be stronger, more complete, or better connected.
 
 ~~Only Strategies 4 and 9 cross-reference Field Guide entries by ID. The other 8 strategy chapters should too.~~ Done — all 10 strategy chapters now cross-reference 4–5 Field Guide entries by ID, placed between the strategy intro and the worked examples.
 
-### Part 1: Conservative-Answer Convention
+### ~~Part 1: Conservative-Answer Convention~~
 
-Present in Strategy 7 and Strategy 8 but missing from Strategy 2 (Prepare, medical context) where the spec expects it.
+~~Present in Strategy 7 and Strategy 8 but missing from Strategy 2 (Prepare, medical context) where the spec expects it.~~ Done — added conservative-answer language to Strategy 2's oncology example opening prompt.
 
 ### ~~Part 1: [ALSO] Callout Coverage~~
 
@@ -90,9 +90,9 @@ Entry target was ~80; current total is *91* across 12 domains. The target is exc
 
 Priority expansions: Money, Legal, IRL.
 
-### Part 3: "Recognizing a Correct Spec"
+### ~~Part 3: "Recognizing a Correct Spec"~~
 
-The architecture spec says Part 3 should teach "How to recognize a correct spec when Claude proposes one." No chapter covers this explicitly. Ch 30 teaches the Five-Part Frame but not the "when is it good enough?" judgment call.
+~~The architecture spec says Part 3 should teach "How to recognize a correct spec when Claude proposes one." No chapter covers this explicitly.~~ Done — added "Recognizing when the spec is right" section to Ch 32, between the echo-back failure modes and "When to start a new conversation." Covers four positive indicators (own words, names specifics, admits unknowns, explainable plan) as complement to the three failure modes.
 
 ### ~~Part 3: Ch 31 → Ch 32 Connection~~
 
@@ -151,7 +151,7 @@ Parts 0, 1, 3, and 4 have zero research comments — clean. Strategy 3 had two (
 - [x] All footnote citations verified (previously 5 unverified `[^...]` footnotes)
 - [x] All stubs drafted
 - [x] Ch 33 written
-- [ ] Appendix B complete (50 starters; 8 written)
+- [x] Appendix B complete (50 starters across 12 domains)
 - [ ] Appendix A reflects final entry list (88 entries across 12 domains)
 - [ ] Editorial notes reviewed — 134 `RESEARCH NEEDED` + `HUMAN CONDITION` comments to surface or remove
 - [ ] All art briefs have corresponding images in `src/images/`
