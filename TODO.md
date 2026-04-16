@@ -21,28 +21,6 @@ Last reviewed: 2026-04-15 against spec/ directory and codebase.
   - Status: waiting on full draft upload from author
   - Assign entry ID once domain slot confirmed
 
-### Appendix B: Spec Interview Starters
-
-- [ ] **Top off Appendix B** — 47 of ~50 starters written. 3 more needed.
-
----
-
-## Needs Revisiting
-
-Content that exists but could be stronger, more complete, or better connected.
-
-### Cross-Reference Self-Help Books Into Relevant Entries
-
-Place as `See also:` or footnote citations where they fit:
-
-| Book | Author | Where it fits |
-|------|--------|---------------|
-| [Four Thousand Weeks](https://www.amazon.com/Four-Thousand-Weeks-Management-Mortals/dp/0374159122) | Oliver Burkeman | Time/prioritization entries; intro framing |
-| [The Happiness Trap](https://www.amazon.com/Happiness-Trap-Stop-Struggling-Start/dp/1590305841) | Russ Harris | Emotional regulation during high-stakes conversations |
-| Personality communication frameworks (monkey/T-rex/lion/mouse — [Guardian piece](https://www.theguardian.com/books/2026/jan/17/read-this-and-you-will-be-happier-experts-pick-the-self-help-books-that-really-work)) | forensic psych authors | Reading your counterpart in roleplay / IRL negotiations |
-
-- [ ] Go through full draft and tag `See also:` placements for above
-
 ---
 
 ## Editorial Notes
@@ -68,7 +46,6 @@ Place as `See also:` or footnote citations where they fit:
 
 ## Pre-Publication Checklist
 
-- [ ] Appendix B topped off (47/50 starters)
 - [ ] Editorial notes reviewed — 134 `RESEARCH NEEDED` + `HUMAN CONDITION` comments to surface or remove
 - [ ] All art briefs have corresponding images in `src/images/` (17 of 44 missing)
 - [ ] XMP metadata embedded in all images

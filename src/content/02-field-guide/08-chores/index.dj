@@ -202,7 +202,7 @@ To make this Expert Role persistent across sessions, save it as a *Project* (Cla
 
 #### Ch-6: Optimizing Manual Chores
 *Strategy:* Diagnose + Navigate (Expert Role)
-*See also:* Ho-1: Maintaining Your Home (for home systems maintenance), H-8: Wellness and Nutrition Coach (when physical limitations affect chore capacity)
+*See also:* Ho-1: Maintaining Your Home (for home systems maintenance), H-8: Wellness and Nutrition Coach (when physical limitations affect chore capacity). Oliver Burkeman, [_Four Thousand Weeks_](https://www.amazon.com/Four-Thousand-Weeks-Management-Mortals/dp/0374159122) (accepting finite capacity instead of optimizing your way to burnout)
 *My Man Jeeves:* _Domestic labor presents itself as perhaps the only category of work that is simultaneously essential, unpaid, invisible, and expected to organize itself. A factory managing the same number of recurring tasks --- laundry, dishes, floors, surfaces, bathrooms, refuse, meals, groceries --- would employ a process engineer, maintain a schedule, and follow a workflow. A household, by contrast, has one person who noticed the bathroom required attention and two who did not, together with a vague mutual understanding that "we should be better about this" --- an understanding that has not, in recorded history, produced a system. In a properly staffed household, one finds task lists, schedules, and supply inventories. One's Agent is capable of constructing the same infrastructure for the staff one actually has, which is to say, oneself._
 *The Spec:*
 ::: prompt
