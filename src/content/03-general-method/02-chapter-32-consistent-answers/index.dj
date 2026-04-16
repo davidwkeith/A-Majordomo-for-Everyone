@@ -68,7 +68,7 @@ Your Agent will often catch its own oversights — a missed exception, an assump
 
 ### Check the spec before you trust the answer
 
-Claude can give a perfectly coherent, well-reasoned answer to the wrong version of your question. The answer _looks_ right because it _is_ right -- for someone else's situation. Before you act on a plan, an interpretation, or a recommendation, ask your Agent to tell you what it thinks you asked:
+Claude can give a perfectly coherent, well-reasoned answer to the wrong version of your question. The answer _looks_ right because it _is_ right — for someone else's situation. Before you act on a plan, an interpretation, or a recommendation, ask your Agent to tell you what it thinks you asked:
 
 ::: prompt
 Before I act on this -- restate what you understood my situation
@@ -82,7 +82,7 @@ Read the echo-back against what you actually said. You are looking for three thi
 
 *Dropped constraints.* You said "I want to avoid legal escalation" and the first recommendation is to file a formal complaint with a regulatory agency. You said "keep this under $500" and the proposed solution costs $1,200. A constraint you stated got treated as a preference rather than a boundary.
 
-*Invented facts.* Claude assumed your state, your income bracket, your timeline, or your relationship to the other party. The assumption is plausible -- that is what makes it dangerous. It filled in a detail you did not provide, and built its answer on top of it.
+*Invented facts.* Claude assumed your state, your income bracket, your timeline, or your relationship to the other party. The assumption is plausible — that is what makes it dangerous. It filled in a detail you did not provide, and built its answer on top of it.
 
 When you spot one of these, you do not need to start over. Correct the specific misunderstanding:
 
@@ -92,7 +92,7 @@ options, not a step-by-step plan. Can you redo this with those
 corrections?
 :::
 
-The echo-back checks whether Claude understood your situation. The calibration question, below, checks whether its answer is reliable. These are two different failure modes -- wrong understanding versus uncertain knowledge -- and they need two different checks.
+The echo-back checks whether Claude understood your situation. The calibration question, below, checks whether its answer is reliable. These are two different failure modes — wrong understanding versus uncertain knowledge — and they need two different checks.
 
 ### When to start a new conversation
 
