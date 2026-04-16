@@ -21,12 +21,6 @@ Last reviewed: 2026-04-15 against spec/ directory and codebase.
   - Status: waiting on full draft upload from author
   - Assign entry ID once domain slot confirmed
 
-### Appendix B: Spec Interview Starters
-
-- [ ] **Top off Appendix B** — 47 of ~50 starters written. 3 more needed.
-
----
-
 ---
 
 ## Editorial Notes
@@ -52,7 +46,6 @@ Last reviewed: 2026-04-15 against spec/ directory and codebase.
 
 ## Pre-Publication Checklist
 
-- [ ] Appendix B topped off (47/50 starters)
 - [ ] Editorial notes reviewed — 134 `RESEARCH NEEDED` + `HUMAN CONDITION` comments to surface or remove
 - [ ] All art briefs have corresponding images in `src/images/` (17 of 44 missing)
 - [ ] XMP metadata embedded in all images
