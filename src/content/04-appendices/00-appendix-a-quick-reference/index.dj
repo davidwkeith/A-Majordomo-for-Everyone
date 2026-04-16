@@ -52,6 +52,10 @@ _A printable PDF version is available at [a-majordomo-for-everyone.dwk.io/quick-
 | M-4: Collections and Bankruptcy | Assert + Decode | "I am dealing with [debt in collections / considering bankruptcy]..." |
 | M-5: Retirement and Investing | Research + Decide | "I want to understand and improve my retirement situation..." |
 | M-6: Financial Coach | Decide + Research (Expert Role) | "Act as a fee-only financial coach with no products to sell..." |
+| M-7: Understanding Your Taxes | Decode + Prepare | "I want to understand my tax situation better and make sure I'm not overpaying or missing anything." |
+| M-8: Insurance You Actually Need | Research + Decide | "I want to make sure I have the right insurance and am not overpaying or underinsured." |
+| M-9: Navigating Financial Aid and Student Loans | Navigate + Assert | "I need help understanding and managing my student loans." |
+| M-10: Evaluating a Big Purchase | Research + Decide | "I'm considering a major purchase and I want to make sure I'm thinking about it clearly." |
 
 ---
 
@@ -60,9 +64,15 @@ _A printable PDF version is available at [a-majordomo-for-everyone.dwk.io/quick-
 | Entry | Strategy | Spec opener |
 |---|---|---|
 | L-1: Negotiating a Contract | Decode + Assert | "I am about to sign this contract. [Paste the contract...]" |
-| L-2: Small Claims Court | Navigate + Prepare + Draft | _(being drafted)_ |
-| L-3: Writing a Demand Letter | Draft | _(stub -- see full entry)_ |
-| L-4: Navigating a Traffic Ticket | Navigate + Research | _(stub -- see full entry)_ |
+| L-2: Small Claims Court | Navigate + Prepare + Draft | "I want to file a small claims court case..." |
+| L-3: Writing a Demand Letter | Draft | "I need to write a demand letter..." |
+| L-4: Navigating a Traffic Ticket | Navigate + Research | "I got a traffic ticket..." |
+| L-5: Understanding Your Rights as a Tenant | Decode + Assert | "I am a tenant and I need to understand my rights..." |
+| L-6: Navigating Family Court | Navigate + Prepare | "I need to navigate family court..." |
+| L-7: Dealing with Debt Collectors | Assert + Decode | "A debt collector has contacted me..." |
+| L-8: Power of Attorney and Advance Directives | Draft + Prepare | "I need to create advance planning documents..." |
+| L-10: Navigating a Background Check | Decode + Assert | "I need to understand and prepare for a background check..." |
+| L-11: Filing a Consumer Complaint | Assert + Navigate | "I need to file a consumer complaint against a company..." |
 
 ---
 
@@ -77,6 +87,9 @@ _A printable PDF version is available at [a-majordomo-for-everyone.dwk.io/quick-
 | Ho-5: Understanding Your Utility Bill and Energy Options | Decode + Research | "I want to understand my utility bill and find out if there are programs..." |
 | Ho-6: Getting a Home | Navigate + Research | "I need to find a place to live..." |
 | Ho-7: Gardening & Landscaping | Diagnose + Research (Expert Role) | "Act as an experienced Master Gardener..." |
+| Ho-8: Household Disaster Preparedness | Prepare + Research | "I want to create a household emergency preparedness plan." |
+| Ho-9: Decluttering and Organizing | Diagnose + Navigate | "I need help organizing and decluttering my [room / apartment / house / specific area]..." |
+| Ho-10: Home Security and Safety | Research + Decide | "I want to make my home safer and more secure." |
 
 ---
 
@@ -110,6 +123,10 @@ _A printable PDF version is available at [a-majordomo-for-everyone.dwk.io/quick-
 | W-5: Unions | Navigate + Assert | "I want to understand [my rights regarding unionizing]..." |
 | W-6: OSHA and Worker's Comp | Assert + Navigate | "I have a workplace safety concern [or: I was injured at work]..." |
 | W-7: Using Your Agent to Get More Done | Navigate + Draft (Expert Role) | "I want to use my AI Agent to work more efficiently..." |
+| W-8: Freelancing and Self-Employment | Navigate + Prepare | "I am [freelancing / self-employed / considering going independent] in [field or industry]." |
+| W-9: Navigating a Performance Review | Prepare + Assert | "I have a performance review coming up [or: I just received a performance review I want to respond to]." |
+| W-10: Dealing with Workplace Conflict | Prepare + Navigate | "I am dealing with a workplace conflict that I need to handle myself — it is not an HR-level issue (yet)." |
+| W-11: Understanding Your Benefits | Decode + Decide | "I need to understand my workplace benefits and make decisions about them." |
 
 ---
 
@@ -124,6 +141,7 @@ _A printable PDF version is available at [a-majordomo-for-everyone.dwk.io/quick-
 | C-5: Understanding Jury Duty | Decode + Navigate | "I [received a jury duty summons / am currently serving on a jury]..." |
 | C-6: Knowing Your Voter Rights | Assert + Research | "I want to make sure I can vote and that my vote counts..." |
 | C-7: Understanding Your Rights Where You Live | Research + Assert | "I want to understand what rights and protections I actually have where I live..." |
+| C-8: Participating in AI Policy | Research + Draft + Navigate | "I want to participate in AI policy decisions that affect me." |
 
 ---
 
@@ -137,6 +155,11 @@ _A printable PDF version is available at [a-majordomo-for-everyone.dwk.io/quick-
 | Ch-4: Dog Training | Diagnose + Navigate (Expert Role) | "Act as a certified positive-reinforcement dog trainer..." |
 | Ch-5: Cooking and Culinary Skills | Research + Diagnose (Expert Role) | "Act as a culinary instructor..." |
 | Ch-6: Optimizing Manual Chores | Diagnose + Navigate (Expert Role) | "Act as a household operations consultant..." |
+| Ch-7: Meal Planning and Grocery Shopping | Research + Prepare | "I need to plan meals for the week and build a grocery list." |
+| Ch-8: Cleaning and Laundry | Research + Navigate (Expert Role) | "Act as a textile care and cleaning specialist." |
+| Ch-9: Pet Care and Training | Research + Navigate (Expert Role) | "Act as a veterinary-informed pet care advisor." |
+| Ch-10: Seasonal Maintenance | Prepare + Navigate | "I need a seasonal home maintenance checklist." |
+| Ch-11: Managing Subscriptions and Recurring Costs | Decode + Assert | "I need to audit my subscriptions and recurring charges." |
 
 ---
 
@@ -147,6 +170,13 @@ _A printable PDF version is available at [a-majordomo-for-everyone.dwk.io/quick-
 | IRL-1: Navigating Government Offices | Prepare + Navigate | "I need to go to [DMV / Social Security office / county clerk]..." |
 | IRL-2: Getting Help from Customer Service | Prepare + Assert | "I need to resolve a problem with [company] about [issue]..." |
 | IRL-3: First-Time Situations | Prepare + Research | "I am about to [go to / do / attend] [specific situation] for the first time..." |
+| IRL-4: Negotiating a Price | Prepare + Assert | "I need to negotiate a price for [car / furniture / medical bill / rent renewal / contractor work / other]." |
+| IRL-6: Navigating a Hospital Visit | Prepare + Navigate | "I [am going to the hospital / am accompanying someone] for [scheduled surgery / ER visit / labor and delivery / procedure]..." |
+| IRL-7: Talking to a Mechanic | Prepare + Decode | "I need to take my car to a mechanic and I want to be prepared." |
+| IRL-8: Navigating a Parent-Teacher Conference | Prepare + Assert | "I have a parent-teacher conference coming up for my [age/grade] child." |
+| IRL-9: Handling a Car Accident | Prepare + Navigate | "I was just in a car accident. [Or: I want to be prepared in case I'm in one.]" |
+| IRL-10: Attending a Funeral or Memorial | Prepare + Navigate | "I am attending a funeral or memorial service and I want to be prepared." |
+| IRL-11: Job Interviews In Person | Prepare + Assert | "I have an in-person job interview coming up and I want to be fully prepared." |
 
 ---
 
@@ -174,6 +204,13 @@ _A printable PDF version is available at [a-majordomo-for-everyone.dwk.io/quick-
 | Cr-2: Learning Visual Design | Create + Research (Expert Role) | "Act as an expert visual designer. I need help with [a website / a poster / a flyer]..." |
 | Cr-3: Editing a Movie | Create + Navigate | "I want to edit a video..." |
 | Cr-4: Writing a Book (Like This One) | Create + Draft | "I want to write a book about [topic / story / argument]..." |
+| Cr-5: Making Music | Create + Navigate | "I want to make music." |
+| Cr-6: Podcasting and Audio Production | Create + Navigate | "I want to start a podcast." |
+| Cr-7: Drawing and Illustration | Create + Diagnose | "I want to learn to draw." |
+| Cr-8: Crafts and Maker Projects | Create + Research | "I want to make something." |
+| Cr-9: Creative Writing | Create + Draft | "I want to write [a short story / a poem / a personal essay / flash fiction / a screenplay scene]..." |
+| Cr-10: Graphic Design for Real Life | Create + Draft | "I need to design [a flyer / a poster / an invitation / a social media graphic / a resume / a business card]..." |
+| Cr-11: Learning an Instrument | Create + Research (Expert Role) | "I want to learn [guitar / piano / ukulele / bass / drums / violin / harmonica / banjo / another instrument]." |
 
 ---
 
@@ -185,3 +222,9 @@ _A printable PDF version is available at [a-majordomo-for-everyone.dwk.io/quick-
 | Tr-2: Car Maintenance | Diagnose + Research (Expert Role) | "Act as an experienced mechanic and car maintenance advisor..." |
 | Tr-3: Public Transit, Cycling, and Walkability | Research + Navigate | "I want to [reduce my car dependence / go car-free]..." |
 | Tr-4: Air Travel | Prepare + Assert | "I need help with air travel..." |
+| Tr-5: Road Trips and Long-Distance Driving | Prepare + Navigate | "I'm planning a road trip and want to be prepared." |
+| Tr-7: Understanding Rideshare and Delivery Gig Work | Research + Decode | "I want to understand rideshare and delivery gig work." |
+| Tr-8: Navigating International Travel | Prepare + Navigate | "I'm planning international travel and need help preparing." |
+| Tr-9: Accessible Transportation | Assert + Navigate | "I need help with accessible transportation." |
+| Tr-10: Electric Vehicles and the Transition | Research + Decide | "I'm considering an electric vehicle and want the real picture." |
+| Tr-11: Boating, RVs, and Niche Vehicles | Research + Navigate | "I'm looking into [buying / renting / maintaining] a [boat / RV / motorcycle / ATV / other specialty vehicle]." |
