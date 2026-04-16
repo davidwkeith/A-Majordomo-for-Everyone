@@ -100,7 +100,7 @@ The failure modes tell you when the spec is wrong. But the harder question is th
 
 A correct spec is not a perfect spec. Perfection is a stalling tactic. A correct spec has four properties you can check:
 
-*It uses its own words, not yours.* When Claude restates your situation, it should paraphrase, not parrot. If the echo-back is your exact sentences rearranged, Claude may be reflecting your words without processing them. A real understanding sounds slightly different from how you said it — the way a good listener says "so what you're dealing with is..." rather than reading your message back to you.
+*It uses its own words, not yours.* When Claude restates your situation, it should paraphrase, not parrot. If the echo-back is your exact sentences rearranged, your Agent may be reflecting your words without processing them. A real understanding sounds slightly different from how you said it — the way a good listener says "so what you're dealing with is..." rather than reading your message back to you.
 
 *It names your specifics, not generic categories.* "You're dealing with a landlord dispute" is a category. "Your landlord in Texas has withheld your $1,200 deposit for sixty days citing carpet damage you photographed on move-in" is your situation. If the echo-back could apply to anyone with a vaguely similar problem, it has not locked onto yours.
 
