@@ -17,6 +17,9 @@ Last reviewed: 2026-04-15 against spec/ directory and codebase.
 - [x] New appendices added: Appendix I (Spec Literacy), Appendix J (Working with Text)
 - [x] Apple Books highlight sync — design spec, implementation plan, and script skeleton (#23)
 - [x] Build pipeline type-checks clean (`npm run build:check` passes)
+- [x] Ch 33 drafted (Advanced Free Tier Strategies)
+- [x] [ALSO] callouts added to all 10 strategy chapters
+- [x] Conservative-answer convention added to Strategy 7
 
 ---
 
@@ -59,11 +62,11 @@ Content that exists but could be stronger, more complete, or better connected.
 
 ### Part 1: Conservative-Answer Convention
 
-Present in Strategy 8 but missing from Strategy 2 (Prepare, medical context) and Strategy 7 (Research, financial context) where the spec expects it.
+Present in Strategy 7 and Strategy 8 but missing from Strategy 2 (Prepare, medical context) where the spec expects it.
 
-### Part 1: [ALSO] Callout Coverage
+### ~~Part 1: [ALSO] Callout Coverage~~
 
-Only Strategy 0 has an [ALSO] callout. Other strategies reference Claude-specific features without cross-tool translation.
+~~Only Strategy 0 has an [ALSO] callout. Other strategies reference Claude-specific features without cross-tool translation.~~ Done — all 10 strategy chapters now have [ALSO] callouts.
 
 ### ~~Part 2: Domain Size Imbalance~~
 
@@ -73,8 +76,8 @@ Entry target was ~80; current total is *91* across 12 domains. The target is exc
 |--------|-------|-------|
 | Health (H-) | 19 | Strong |
 | Life (Li-) | 12 | Strong |
-| Computer & Web (WB-) | 9 + IT Support | Strong |
-| Civic (C-) | 8 | Solid |
+| Computer & Web (WB-) | 9 | Strong |
+| Civic (C-) | 7 | Solid |
 | Home (Ho-) | 7 | Solid |
 | Work (W-) | 7 | Solid |
 | Money (M-) | 6 | Light — financial complexity warrants 8–10 |
@@ -83,7 +86,7 @@ Entry target was ~80; current total is *91* across 12 domains. The target is exc
 | Legal (L-) | 4 | Light — expand to 6–8 |
 | Transportation (Tr-) | 4 | Light |
 | IRL (IRL-) | 3 | Light — expand to 5+ |
-| **Total** | **91** | **114% of original target** |
+| **Total** | **88** | **110% of original target** |
 
 Priority expansions: Money, Legal, IRL.
 
@@ -146,10 +149,10 @@ Parts 0, 1, 3, and 4 have zero research comments — clean. Strategy 3 had two (
 
 - [x] All `[companion URL TBD]` resolved
 - [x] All footnote citations verified (previously 5 unverified `[^...]` footnotes)
-- [x] All stubs drafted (except Ch 33)
-- [x] Ch 33 written (was only remaining stub)
+- [x] All stubs drafted
+- [x] Ch 33 written
 - [ ] Appendix B complete (50 starters; 8 written)
-- [ ] Appendix A reflects final entry list (91 entries across 12 domains)
+- [ ] Appendix A reflects final entry list (88 entries across 12 domains)
 - [ ] Editorial notes reviewed — 134 `RESEARCH NEEDED` + `HUMAN CONDITION` comments to surface or remove
 - [ ] All art briefs have corresponding images in `src/images/`
 - [ ] XMP metadata embedded in all images

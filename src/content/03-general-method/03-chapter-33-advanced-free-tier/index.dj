@@ -102,7 +102,7 @@ Keep the household context under two paragraphs. The Agent reads it before every
 
 
 ::: also
-The persistent context feature is free in all four major services. Claude Projects, Gemini Gems, and ChatGPT custom GPTs all allow you to set instructions that apply to every conversation in that space. See [Appendix G](06-appendix-g-feature-table.xhtml) for setup steps.
+The persistent context feature is free in the major services. Claude Projects, Gemini Gems, and ChatGPT custom GPTs all allow you to set instructions that apply to every conversation in that space (Copilot's equivalent is more limited). See [Appendix G](06-appendix-g-feature-table.xhtml) for setup steps.
 :::
 
 
