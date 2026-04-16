@@ -119,7 +119,7 @@ How confident are you in this answer, and what are the two
 or three things I should independently verify before acting on it?
 :::
 
-This single question will consistently improve the quality of the guidance you receive. Claude will tell you where its answer is reliable and where it is extrapolating. That boundary is exactly where you should apply your own judgment -- or pick up the phone and call a professional.
+This single question will consistently improve the quality of the guidance you receive. Claude will tell you where its answer is reliable and where it is extrapolating. That boundary is exactly where you should apply your own judgment -- or pick up the phone and call a professional. It is the same line Chapter 31 draws from the other direction: where AI's edge ends and the human's begins.
 
 ::: science
 Research on _algorithm aversion_ -- the human tendency to distrust algorithmic recommendations even when they are demonstrably more accurate -- shows that people accept algorithmic guidance more readily when they can see the reasoning behind it (Dietvorst et al., 2018). Asking Claude to show its work is not just practically useful. It also addresses the well-documented psychological resistance to following advice from a source you cannot fully understand.[^32-1]

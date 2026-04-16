@@ -53,9 +53,9 @@ Last reviewed: 2026-04-15 against spec/ directory and codebase.
 
 Content that exists but could be stronger, more complete, or better connected.
 
-### Part 1: Missing Cross-References to Field Guide
+### ~~Part 1: Missing Cross-References to Field Guide~~
 
-Only Strategies 4 and 9 cross-reference Field Guide entries by ID. The other 8 strategy chapters should too — e.g., Strategy 8 (Assert) → H-4, L-1, W-2; Strategy 1 (Decode) → H-3, M-2, L-1.
+~~Only Strategies 4 and 9 cross-reference Field Guide entries by ID. The other 8 strategy chapters should too.~~ Done — all 10 strategy chapters now cross-reference 4–5 Field Guide entries by ID, placed between the strategy intro and the worked examples.
 
 ### Part 1: Conservative-Answer Convention
 
@@ -91,17 +91,17 @@ Priority expansions: Money, Legal, IRL.
 
 The architecture spec says Part 3 should teach "How to recognize a correct spec when Claude proposes one." No chapter covers this explicitly. Ch 30 teaches the Five-Part Frame but not the "when is it good enough?" judgment call.
 
-### Part 3: Ch 31 → Ch 32 Connection
+### ~~Part 3: Ch 31 → Ch 32 Connection~~
 
-Ch 31 (When to Use a Human) doesn't preview or reference the calibration question, which is the core of Ch 32. These should be linked.
+~~Ch 31 (When to Use a Human) doesn't preview or reference the calibration question, which is the core of Ch 32. These should be linked.~~ Done — Ch 31 already had a forward reference (final paragraph); added a back-reference from Ch 32's calibration question section to Ch 31's human-edge framework.
 
 ### Part 3: Ch 34 Art Brief
 
 Comment references Al Borland pixel art but no `.art.md` sidecar exists in the chapter directory.
 
-### Part 2: Jargon Links in Introduction
+### ~~Part 2: Jargon Links in Introduction~~
 
-"A Note Before You Start" introduces CPT code, EOB, and IRA without linking them on first mention. Spec requires Wikipedia links for all jargon.
+~~"A Note Before You Start" introduces CPT code, EOB, and IRA without linking them on first mention. Spec requires Wikipedia links for all jargon.~~ Already done — all three are linked on first mention (lines 14 and 16).
 
 ### Cross-Reference Self-Help Books Into Relevant Entries
 
