@@ -187,6 +187,66 @@ Negotiation outcomes track with race, gender, and class. Research consistently s
 
 ---
 
+#### IRL-5: Rehearsing What to Say
+*Strategy:* Prepare + Draft
+*See also:* Li-1: Preparing for a Difficult Conversation, IRL-2: Getting Help from Customer Service, IRL-4: Negotiating a Price
+*My Man Jeeves:* _One might observe that the individuals with whom one interacts in the course of daily commerce --- the customer service representative, the mechanic, the landlord, the administrator behind the counter --- have rehearsed their side of the exchange. If not formally, then through repetition: the representative has recited the refusal script two hundred times this quarter; the landlord has fielded the repair request before; the doctor has delivered the diagnosis to someone who is not you. The individual on the other side of the encounter, however --- which is to say, oneself --- is performing without benefit of a single rehearsal. It is perhaps unsurprising that the party who has practiced maintains composure while the party who has not does not. Your Agent, one might note, is capable of playing the opposing role with some conviction --- permitting one to rehearse the encounter as many times as necessary before entering the room where it matters._
+*The Spec:*
+::: prompt
+I want to practice a conversation before I have it for real.
+The situation: [describe --- returning a defective product,
+calling about a medical bill, asking my landlord to fix
+something, requesting a raise, complaining at a restaurant,
+calling my insurance company, talking to a contractor]
+The other person: [their role --- customer service rep, landlord,
+boss, doctor, mechanic, school administrator, store manager]
+What I want: [specific outcome --- a refund, a repair, an
+explanation, a correction, an escalation]
+What I'm worried about: [going blank, getting emotional,
+being dismissed, not knowing what to say when they push back]
+Please play the role of [the other person]. Be realistic ---
+give me the responses I'm most likely to actually hear,
+including pushback and deflection. Don't make it easy.
+After 3-4 exchanges, stop and tell me:
+1. What I said that was effective
+2. Where I lost ground or could be clearer
+3. The one thing to change before I try it for real
+:::
+*What to do with the Output:* Use voice mode for this. Open your Agent's mobile app, switch to voice, and talk. Reading a script silently is preparation. Saying the words to someone who talks back is rehearsal. They are not the same thing. The first time you say "I need to speak with a supervisor" out loud to something that responds like a bored customer service representative, you will hear how you sound. That is the point. Run it two or three times. Each round, your Agent will adjust --- harder pushback, different deflections. When you can handle the third round without freezing, you're ready. After the real conversation, come back: _"Here's how it went: [describe]. What should I do differently next time?"_
+
+::: tip
+_"I'm about to call [company] and I'm nervous. Can you play the customer service rep? I'll practice my opening and you give me realistic pushback. Go."_ --- You can do this in a parking lot, five minutes before you walk in.
+:::
+
+
+::: also
+Voice mode is available on all major AI tools' mobile apps. See [Appendix G](06-appendix-g-feature-table.xhtml). For this entry, voice is not a convenience feature. It is the exercise.
+:::
+
+
+::: science
+Pham and Taylor (1999) found that mentally rehearsing the _process_ of a task --- the steps, the responses, the decision points --- outperformed visualizing a successful outcome by a significant margin. The benefit was not confidence. It was reduced anxiety and better adaptive responses when the situation deviated from the plan.[^irl5-1]
+:::
+
+
+::: meme
+[Seinfeld:S8E13 "The Comeback"](https://en.wikipedia.org/wiki/The_Comeback_(Seinfeld)), 1997 --- George spends an entire week rehearsing the perfect comeback to an insult, arranges an elaborate situation to deliver it, and gets immediately hit with a better one. The lesson is not that rehearsal is pointless. The lesson is that rehearsing one fixed line is brittle. Rehearsing _the conversation_ --- including the part where it goes sideways --- is what works.
+:::
+
+
+::: fairness
+Rehearsal is especially valuable for people navigating conversations across a power differential --- tenants talking to landlords, patients questioning doctors, employees asking for accommodations. The anxiety in these situations is not irrational; the consequences of "saying the wrong thing" are asymmetric. Your Agent levels the practice gap. It does not level the power gap. Know the difference.
+:::
+
+
+<!-- RESEARCH NEEDED: Pham, L.B. & Taylor, S.E. (1999). "From Thought to Action: Effects of Process- Versus Outcome-Based Mental Simulations on Performance." Personality and Social Psychology Bulletin, 25(2), 250–260. Verify citation and find DOI. Also: Ericsson's deliberate practice framework — the mechanism is the same. Professionals are better at conversations because they have more reps, not because they have more talent. -->
+
+<!-- RESEARCH NEEDED (HUMAN CONDITION): The rehearsal gap is a class gap. Executive coaches charge $300/hour to roleplay difficult conversations with their clients. Sales teams rehearse objection handling as standard training. Medical schools use standardized patients — actors who play sick people — because rehearsal is the most effective way to build clinical communication skills. Everyone who interacts with you professionally has likely rehearsed. You have not. Your Agent is not an executive coach. But it is a scene partner who is available at 2 a.m. the night before the conversation, which is when you are most likely to need one. -->
+
+[^irl5-1]: Pham, L.B. & Taylor, S.E. (1999). "From Thought to Action: Effects of Process- Versus Outcome-Based Mental Simulations on Performance." _Personality and Social Psychology Bulletin_, 25(2), 250–260.
+
+---
+
 #### IRL-6: Navigating a Hospital Visit
 *Strategy:* Prepare + Navigate
 *See also:* H-2: Preparing Questions Before a Doctor's Appointment, H-3: Decoding a Medical Bill or EOB, H-7
