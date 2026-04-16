@@ -3,9 +3,128 @@ title: "Advanced Free Tier Strategies"
 part: 3
 order: 3
 strategy: null
-status: "stub"
+status: "draft"
 ---
 
 ## Chapter 33: Advanced Free Tier Strategies
 
-_(Full chapter text to be drafted per outline.)_
+Chapter 3 covered the basics: four services, a bookmark folder, and the rotation. That was enough to start. Now you have been through the strategies, the Field Guide, and the general method. You know what a good spec looks like. You know how to evaluate the output. You know when to call a professional instead. This chapter is about making the free tier work harder --- not by discovering hidden features, but by applying everything you have learned to the mechanics of the tools themselves.
+
+The paid tier exists. It is useful. For most people doing the tasks in this book, it is not necessary. The gap between free and paid is not capability --- it is convenience. The free tier does the same work. It just asks you to be smarter about how you use it.
+
+### Context Is the Currency
+
+The free tier does not limit how smart the AI is. It limits how many conversations you can have in a day. This means the resource you are managing is not intelligence --- it is context. Every conversation you start, every message you send, draws from that daily supply.
+
+The implication: a well-specified conversation that takes three messages is worth more than a vague one that takes fifteen. Everything in this book --- the specification interview, the Five-Part Frame, the calibration question --- makes you more efficient on the free tier by design. Specification literacy is free-tier optimization. You have been training for this since Strategy 0.
+
+### The Conversation Lifecycle
+
+Not every conversation should last forever, and not every problem needs a new one.
+
+*When to continue a conversation:*
+
+- You are still working on the same problem.
+- The Agent's context of your situation is still relevant.
+- You are in a refinement loop --- the spec is close but not right yet.
+
+*When to start fresh:*
+
+- The conversation has gone past twenty or thirty messages. Long conversations degrade --- not because the Agent forgets, but because the middle of a long conversation gets less reliable attention than the beginning and end. Chapter 32 covers this.
+- You got a good answer and want to test it. Start a new conversation with the same question and see if you get the same answer. If both conversations converge on the same recommendation, you can trust it more. If they diverge, you found the boundary between what the Agent knows and what it is guessing.
+- You are switching strategies. The conversation where you decoded the medical bill is not the right conversation to draft the appeal letter. Start fresh, paste the decoded summary, and let the Agent approach the new task without the noise of the first one.
+
+*The handoff:*
+
+When a conversation has produced useful context that you need in the next one, ask:
+
+::: prompt
+Summarize what we've established --- the key facts, decisions,
+and open questions. I'm going to start a new conversation
+and carry forward only what matters.
+:::
+
+Copy. Paste into the new conversation. You have just done what a chief of staff does for a principal between meetings: distilled the record into a clean briefing.
+
+### Spec Recycling
+
+By now you have specs that worked. The question for the landlord. The template for decoding a medical bill. The five-part frame you used for the insurance appeal. These are reusable.
+
+The tool for this already exists --- it is the same persistent context feature Chapter 3 introduced and the Household Majordomo section below expands on. Create a Project (Claude), Gem (Gemini), or custom GPT (ChatGPT) whose instructions contain your best specs. Not the answers --- the questions. When a conversation produces a good result, copy the spec that generated it into that project's instructions.
+
+A good spec library has three to five entries after a month of regular use. After six months, it has a dozen. Every spec you save is a conversation you do not have to build from scratch next time. On the free tier, that means your daily budget goes further because you are spending fewer messages on specification and more on execution.
+
+::: tip
+The spec that worked for your situation will probably work for someone else's. When a friend asks "how do I deal with my insurance company," you can send them the spec instead of trying to explain the process. That message is a tiny act of the teaching described in Chapter 34.
+:::
+
+
+### Using Multiple Services on the Same Problem
+
+Chapter 3 taught the rotation as a conservation strategy --- when one service runs out, use the next. That is the beginner move. The advanced move is using different services on the same problem because they have different strengths.
+
+*The decode-and-draft workflow:*
+
+Use one service to decode a document (Strategy 1). It produces the plain-language summary. Then use a different service to draft the response (Strategy 3). Paste the summary from the first conversation and tell the second Agent what you need to write.
+
+This is not about one Agent being "smarter" than another. It is about starting each conversation with a clean context focused on one task. The Agent that decoded the document is carrying the full weight of that document in its context. The Agent that drafts the letter starts clean, with just the summary and the writing task. Clean context produces better output.
+
+*The second-opinion workflow:*
+
+For high-stakes decisions --- medical, legal, financial --- use two services independently. Give each one the same spec. Compare the answers. Where they agree, you have convergence. Where they disagree, you have found the question you need to take to a professional.
+
+This is the calibration question from Chapter 32, applied across services instead of within one conversation. Two independent assessments that converge are more trustworthy than one assessment that sounds confident.
+
+::: science
+The "[wisdom of crowds](https://en.wikipedia.org/wiki/Wisdom_of_the_crowd)" finding (Surowiecki, 2004) --- that independent estimates aggregated outperform any single expert --- applies to AI tools in a specific and useful way. Two AI services working from the same spec produce genuinely independent outputs because they were trained on different data, by different teams, with different optimization priorities. Their agreement is meaningful in a way that running the same query twice in the same service is not.[^33-1]
+:::
+
+
+### The Household Majordomo
+
+Spec recycling stores the questions you have learned to ask. The household context stores the answers you would otherwise repeat every conversation --- who you are, where you live, what you are dealing with. Both live in the same place: a Project (Claude), Gem (Gemini), or custom GPT (ChatGPT). You can keep them in one project or separate them. Either way, the persistent context feature is doing double duty, and it is free.
+
+The household context is the most powerful free-tier feature for everyday life. It tells the Agent who you are so you do not have to re-explain it every conversation.
+
+A good household context includes:
+
+- Who lives in your household and their ages
+- Your state (for legal and benefits questions)
+- Your insurance type (employer, marketplace, Medicare, Medicaid)
+- Any ongoing situations (the landlord dispute, the medical claim, the school enrollment)
+- Your communication preferences ("I want the most conservative interpretation" or "give me options, not recommendations")
+
+You do not need to include everything on day one. Add to it as situations come up. After a month of use, the document will reflect your actual life, and every conversation in that context starts informed instead of from zero.
+
+::: tip
+Keep the household context under two paragraphs. The Agent reads it before every conversation in that space. A short, specific context is more useful than a long, comprehensive one --- the same principle as a lean conversation.
+:::
+
+
+::: also
+The persistent context feature is free in the major services. Claude Projects, Gemini Gems, and ChatGPT custom GPTs all allow you to set instructions that apply to every conversation in that space (Copilot's equivalent is more limited). See [Appendix G](06-appendix-g-feature-table.xhtml) for setup steps.
+:::
+
+
+### The Compound Return
+
+The first time you used these tools, everything was slow. You were learning the spec interview, figuring out what to paste, discovering what follow-up questions to ask. A single problem --- decoding a medical bill, preparing for an appointment --- took twenty minutes and multiple attempts.
+
+By now, it takes five. The spec is faster because you have written dozens. The follow-up is faster because you know what to look for in the output. The evaluation is faster because you have the calibration question. The whole loop --- specify, execute, evaluate, refine --- compresses with use.
+
+This is the compound return of specification literacy. It is not a metaphor. Each conversation makes you slightly faster at specification, which makes every subsequent conversation slightly cheaper in time and in free-tier budget. The billionaire class pays for convenience. You pay in skill, and skill appreciates.
+
+::: science
+[Deliberate practice](https://en.wikipedia.org/wiki/Practice_(learning_method)#Deliberate_practice) research (Ericsson, Krampe & Tesch-Römer, 1993) shows that skill acquisition in structured domains follows a predictable curve: rapid initial improvement, a plateau, then continued gains from increasingly refined technique. Specification literacy follows this pattern. The initial improvement --- learning to describe your situation at all --- is the steepest part of the curve. What follows is refinement: knowing which details to include, which to omit, when to ask for a second pass, and when the first answer is good enough. The free tier rewards this curve directly, because a practiced specifier uses fewer messages to reach the same result.[^33-2]
+:::
+
+
+---
+
+The free tier is not a compromise. It is the same tool, used with more intention. The paid tier adds convenience --- higher limits, web search, the most capable models. But the gap between a skilled free-tier user and an unskilled paid-tier user is enormous, and it runs in the direction you would expect. The person who knows how to specify, how to recycle, how to hand off context, and how to evaluate output will outperform the person who throws money at vague questions, on any tier, every time.
+
+The billionaire class does not have better tools than you do. They have people who know how to use tools well. This chapter --- and this book --- is that person.
+
+[^33-1]: Surowiecki, J. (2004). [_The Wisdom of Crowds._](https://bookshop.org/p/books/the-wisdom-of-crowds-james-surowiecki/18725220) Anchor Books. The independence condition is critical --- the estimates must be formed without knowledge of each other. Two AI services working from the same spec satisfy this condition naturally.
+
+[^33-2]: Ericsson, K.A., Krampe, R.T. & Tesch-Römer, C. (1993). "[The role of deliberate practice in the acquisition of expert performance](https://doi.org/10.1037/0033-295X.100.3.363)." _Psychological Review_, 100(3), 363-406.
