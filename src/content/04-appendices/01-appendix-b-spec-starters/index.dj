@@ -15,7 +15,7 @@ _(50 opening lines — one per common situation — designed to trigger the spec
 ### Health
 
 *Before a doctor's appointment:*
-> "I have an appointment about [condition] on [date]. Please help me write a list of questions to ask, starting with the most important."
+> "I have an appointment about [condition] on [date]. Please help me write a list of questions to ask, starting with the most important. Give me the most conservative framing — I will verify everything with my doctor."
 
 *After getting a medical bill you don't understand:*
 > "I received this medical bill and don't understand some of the charges. [Paste bill text.] Can you explain each line in plain language?"
@@ -34,7 +34,7 @@ _(50 opening lines — one per common situation — designed to trigger the spec
 ### Money
 
 *When you get a collections notice:*
-> "I received a collections notice for $[amount] from [company]. I'm not sure if this is legitimate. What are my rights and what should I do first?"
+> "I received a collections notice for $[amount] from [company]. I'm not sure if this is legitimate. What are my rights and what should I do first? Give me the most conservative framing — I will verify with a legal aid organization before acting."
 
 *When you're creating a household budget for the first time:*
 > "I want to create a monthly budget. My take-home pay is $[amount]. My fixed expenses are [list what you know]. Help me build a budget and identify where I might be overspending."
@@ -53,7 +53,7 @@ _(50 opening lines — one per common situation — designed to trigger the spec
 ### Legal
 
 *Before signing any contract:*
-> "I am about to sign this agreement. [Paste text.] Please summarize what I am agreeing to, flag anything unusual, and list the three things I should pay most attention to."
+> "I am about to sign this agreement. [Paste text.] Please summarize what I am agreeing to, flag anything unusual, and list the three things I should pay most attention to. Give me the most conservative framing — I will verify with a lawyer before signing."
 
 *When you're reviewing a lease before signing:*
 > "I'm about to sign a lease for an apartment in [state]. [Paste key sections or the full lease.] Can you flag anything unusual, explain my obligations, and list what to negotiate before signing?"
@@ -100,7 +100,7 @@ _(50 opening lines — one per common situation — designed to trigger the spec
 > "I want to travel to [destination] for [duration] with a budget of $[amount]. Help me plan — flights, lodging, food, and activities — and tell me where to save money."
 
 *When you need to find care for an aging parent:*
-> "My [parent] needs [type of help — e.g., in-home care, assisted living]. They're in [location] and their situation is [details]. Where do I start, and what questions should I ask providers?"
+> "My [parent] needs [type of help — e.g., in-home care, assisted living]. They're in [location] and their situation is [details]. Where do I start, and what questions should I ask providers? Give me the most conservative framing — I will verify with a healthcare professional or elder care specialist."
 
 ---
 
@@ -161,7 +161,7 @@ _(50 opening lines — one per common situation — designed to trigger the spec
 > "I need to go to [office] for [reason — e.g., license renewal, permit, title transfer]. What documents should I bring, what should I expect, and how do I avoid wasting a trip?"
 
 *When you've been in a car accident:*
-> "I was just in a car accident. [Brief description — who hit whom, injuries, location.] What do I need to do right now — at the scene, with insurance, and legally?"
+> "I was just in a car accident. [Brief description — who hit whom, injuries, location.] What do I need to do right now — at the scene, with insurance, and legally? Give me the most conservative framing — I will verify with my insurance agent and a lawyer."
 
 *When you need to talk to your kid's teacher about a problem:*
 > "I need to talk to my child's [teacher/principal] about [issue]. I want to advocate for my kid without being adversarial. Help me prepare what to say and what to ask."
