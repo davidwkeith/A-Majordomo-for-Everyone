@@ -6,7 +6,7 @@ Last reviewed: 2026-04-15 against spec/ directory and codebase.
 
 ## Editorial Notes
 
-60 `<!-- RESEARCH NEEDED: ... -->` and 74 `<!-- HUMAN CONDITION ... -->` comments remain across Part 2. These are author memos: background research directions, sociological context, and expansion ideas. They do not appear in the built ePub and do not correspond to unverified claims in the text. They should be reviewed before publication to decide what gets surfaced, expanded, or removed.
+61 `<!-- RESEARCH NEEDED: ... -->` and 75 `<!-- HUMAN CONDITION ... -->` comments remain across Part 2. These are author memos: background research directions, sociological context, and expansion ideas. They do not appear in the built ePub and do not correspond to unverified claims in the text. They should be reviewed before publication to decide what gets surfaced, expanded, or removed.
 
 | Domain | RESEARCH NEEDED | HUMAN CONDITION | Total |
 |--------|-----------------|-----------------|-------|
