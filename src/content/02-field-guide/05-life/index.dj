@@ -14,7 +14,7 @@ _The systems that govern health, money, and legal standing get their own domains
 
 #### Li-1: Preparing for a Difficult Conversation
 *Strategy:* Prepare + Draft
-*See also:* W-3: Working with HR (for workplace conversations), H-7: Preparing for End-of-Life Conversations (for the hardest one)
+*See also:* W-3: Working with HR (for workplace conversations), H-7: Preparing for End-of-Life Conversations (for the hardest one). Russ Harris, [_The Happiness Trap_](https://www.amazon.com/Happiness-Trap-Stop-Struggling-Start/dp/1590305841) (managing the emotions that make you avoid the conversation). [_Read This and You'll Be Happier_](https://www.theguardian.com/books/2026/jan/17/read-this-and-you-will-be-happier-experts-pick-the-self-help-books-that-really-work) (Guardian, 2026) on monkey/T-rex/lion/mouse personality types (reading your counterpart's communication style)
 *My Man Jeeves:* _One might observe that forty years of research on interpersonal conflict converge upon a single finding of some consequence: how a difficult conversation begins predicts its outcome with approximately 96% accuracy. The words selected in the first three minutes, it would appear, determine most of what follows.[^li1-2] It is perhaps worth noting, then, that preparation is not a matter of personal preference. It is the intervention itself. One's Agent can help one prepare._
 *The Spec:*
 ::: prompt
@@ -295,7 +295,7 @@ Parenting research has historically oversampled white, middle-class, two-parent 
 
 #### Li-8: Wellness Coach
 *Strategy:* Research + Draft (Expert Role)
-*See also:* H-8: Wellness and Nutrition Coach (for physical health), H-13: Understanding Addiction, H-1: Understanding a Diagnosis
+*See also:* H-8: Wellness and Nutrition Coach (for physical health), H-13: Understanding Addiction, H-1: Understanding a Diagnosis. Russ Harris, [_The Happiness Trap_](https://www.amazon.com/Happiness-Trap-Stop-Struggling-Start/dp/1590305841) (the ACT framework this entry's thought-pattern work builds on)
 *My Man Jeeves:* _A difficulty of some consequence presents itself in the matter of mental health care in America, where the median wait for a new patient appointment is, by research estimates, between six and ten weeks[^li8-1] and a single therapy session costs $100 to $250 out of pocket. One cannot help but observe that the persons who require assistance most urgently — the isolated, the overwhelmed, the financially strained — face the most formidable barriers to obtaining it. Your Agent is not a therapist. It is, however, available at 2 AM when the therapist is not, and it is capable of performing several things a therapist would recommend one do between sessions._
 *The Spec:*
 ::: prompt
@@ -456,7 +456,7 @@ Your Agent’s language ability varies by language. It is strongest in English, 
 
 #### Li-11: Escaping Social Media
 *Strategy:* Research + Decide
-*See also:* Li-7: Raising Kids (for the screen time conversation), Li-8: Wellness Coach (for compulsive behavior patterns)
+*See also:* Li-7: Raising Kids (for the screen time conversation), Li-8: Wellness Coach (for compulsive behavior patterns). Oliver Burkeman, [_Four Thousand Weeks_](https://www.amazon.com/Four-Thousand-Weeks-Management-Mortals/dp/0374159122) (why the attention economy works and what to do instead)
 *My Man Jeeves:* _The popular discourse, one observes, employs the phrase “screen time.” The research employs the phrase “social media.” These are not the same variable. Using the internet to ascertain how a carburetor functions is a rather different neurological event from scrolling a feed engineered to make one feel slightly worse about oneself at intervals calibrated to sustain the scrolling. The former is the most capable self-education infrastructure ever constructed. The latter is an engagement-optimization engine that colonized it. The intervention, it would appear, is not less internet. It is better internet. One's Agent can help one construct it._
 
 *The Spec:*
@@ -518,7 +518,7 @@ The web evolved from text to graphics to audio to video to interactive simulatio
 [habit-tracker]{.art}
 
 *Strategy:* Research + Draft
-*See also:* Li-8: Wellness Coach (for the emotional side), Li-11: Escaping Social Media (for breaking habits)
+*See also:* Li-8: Wellness Coach (for the emotional side), Li-11: Escaping Social Media (for breaking habits). Oliver Burkeman, [_Four Thousand Weeks_](https://www.amazon.com/Four-Thousand-Weeks-Management-Mortals/dp/0374159122) (why systems beat willpower — same thesis, different angle)
 *My Man Jeeves:* _The self-help industry, one might note, generates $13 billion a year on the premise that one lacks willpower. The applications, the courses, the thirty-day challenges — each monetizes the gap between intention and behaviour. Behavioural science has known for decades that the difficulty is not motivation. It is environment design, cue management, and identity. The research is clear and largely disregarded by the industry, for the understandable reason that “redesign your cues” does not sell books in the manner that “unleash your potential” does. Your Agent has read the actual research. It will assist in designing a system rather than deliver a lecture on discipline._
 *The Spec:*
 ::: prompt

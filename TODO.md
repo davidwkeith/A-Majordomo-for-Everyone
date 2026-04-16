@@ -27,22 +27,6 @@ Last reviewed: 2026-04-15 against spec/ directory and codebase.
 
 ---
 
-## Needs Revisiting
-
-Content that exists but could be stronger, more complete, or better connected.
-
-### Cross-Reference Self-Help Books Into Relevant Entries
-
-Place as `See also:` or footnote citations where they fit:
-
-| Book | Author | Where it fits |
-|------|--------|---------------|
-| [Four Thousand Weeks](https://www.amazon.com/Four-Thousand-Weeks-Management-Mortals/dp/0374159122) | Oliver Burkeman | Time/prioritization entries; intro framing |
-| [The Happiness Trap](https://www.amazon.com/Happiness-Trap-Stop-Struggling-Start/dp/1590305841) | Russ Harris | Emotional regulation during high-stakes conversations |
-| Personality communication frameworks (monkey/T-rex/lion/mouse — [Guardian piece](https://www.theguardian.com/books/2026/jan/17/read-this-and-you-will-be-happier-experts-pick-the-self-help-books-that-really-work)) | forensic psych authors | Reading your counterpart in roleplay / IRL negotiations |
-
-- [ ] Go through full draft and tag `See also:` placements for above
-
 ---
 
 ## Editorial Notes
