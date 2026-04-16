@@ -8,36 +8,207 @@ status: "draft"
 
 ## Appendix B: Spec Interview Starters
 
-_(50 opening lines -- one per common situation -- designed to trigger the specification interview loop. The reader pastes the starter, Claude asks the clarifying questions, and the loop begins. No blank page.)_
+_(50 opening lines — one per common situation — designed to trigger the specification interview loop. The reader pastes the starter, the Agent asks the clarifying questions, and the loop begins. No blank page.)_
+
+---
+
+### Health
 
 *Before a doctor's appointment:*
-> "I have an appointment about [condition] on [date]. Please help me write a list of questions to ask, starting with the most important."
+> "I have an appointment about [condition] on [date]. Please help me write a list of questions to ask, starting with the most important. Give me the most conservative framing — I will verify everything with my doctor."
 
 *After getting a medical bill you don't understand:*
 > "I received this medical bill and don't understand some of the charges. [Paste bill text.] Can you explain each line in plain language?"
 
+*When you need to appeal an insurance denial:*
+> "My insurance denied coverage for [treatment/procedure]. The denial letter says [reason or code, if you have it]. Help me write an appeal letter that addresses the medical necessity. Give me the most conservative, well-grounded answer — I will verify with my doctor before submitting."
+
+*When you're choosing between treatment options:*
+> "My doctor gave me two options for [condition]: [option A] and [option B]. Can you explain the differences, typical outcomes, and what questions I should ask before deciding? Give me the most conservative framing."
+
+*When a loved one gets a serious diagnosis:*
+> "My [relationship] was just diagnosed with [condition]. I'm trying to understand what this means and how to help. Can you explain the basics and help me prepare questions for their next appointment?"
+
+---
+
+### Money
+
+*When you get a collections notice:*
+> "I received a collections notice for $[amount] from [company]. I'm not sure if this is legitimate. What are my rights and what should I do first? Give me the most conservative framing — I will verify with a legal aid organization before acting."
+
+*When you're creating a household budget for the first time:*
+> "I want to create a monthly budget. My take-home pay is $[amount]. My fixed expenses are [list what you know]. Help me build a budget and identify where I might be overspending."
+
+*When you're not sure whether to refinance:*
+> "I have a [mortgage/auto loan/student loan] at [rate]% with [years] remaining. Current rates are around [rate]%. Is refinancing worth it, and what should I ask a lender?"
+
+*When you need to do your own taxes:*
+> "I need to file my taxes. I earned $[amount] from [source]. I [had/did not have] major life changes this year: [list any]. What forms do I need and what deductions should I look into?"
+
+*When you're evaluating a big purchase:*
+> "I'm thinking about buying [item] for $[amount]. Is this a reasonable price? What should I research before committing, and what questions should I ask the seller?"
+
+---
+
+### Legal
+
 *Before signing any contract:*
-> "I am about to sign this agreement. [Paste text.] Please summarize what I am agreeing to, flag anything unusual, and list the three things I should pay most attention to."
+> "I am about to sign this agreement. [Paste text.] Please summarize what I am agreeing to, flag anything unusual, and list the three things I should pay most attention to. Give me the most conservative framing — I will verify with a lawyer before signing."
+
+*When you're reviewing a lease before signing:*
+> "I'm about to sign a lease for an apartment in [state]. [Paste key sections or the full lease.] Can you flag anything unusual, explain my obligations, and list what to negotiate before signing?"
+
+*When you need to write a demand letter:*
+> "I need to write a formal demand letter to [person/company] for $[amount] because [situation]. Please draft a firm, professional letter. I'll verify with a legal aid organization before sending."
+
+*When you need to prepare for small claims court:*
+> "I'm taking [person/company] to small claims court in [state] over [situation]. The amount is $[amount]. Help me organize my evidence and prepare what to say to the judge."
+
+*When you think your landlord is violating your rights:*
+> "My landlord [situation — e.g., won't return deposit, refuses repairs, entered without notice]. I'm in [state]. What are my rights and what should I do first? Give me the most conservative, legally accurate answer."
+
+---
+
+### Home
 
 *When a repair quote seems high:*
 > "I got a quote of $[amount] to repair [item]. Is this within the normal range? What questions should I ask the contractor before agreeing?"
 
-*When you get a collections notice:*
-> "I received a collections notice for $[amount] from [company]. I'm not sure if this is legitimate. What are my rights and what should I do first?"
+*When something breaks and you don't know what it is:*
+> "Something is wrong in my [room] — [describe symptom: noise, leak, smell, malfunction]. I don't know what it is or whether it's dangerous. Can you help me figure out what's happening and whether I need a professional?"
 
-*When you need to write a complaint:*
-> "I need to write a formal complaint to [company] about [situation]. I want to be firm and specific, and I want to ask for [resolution]. Please draft this as a letter."
+*When you're preparing your home for a season change:*
+> "I want to prepare my home for [winter/summer/hurricane season]. It's a [type of home] in [location]. Give me a prioritized checklist of what to do."
+
+*When you want to start a garden:*
+> "I want to start a [vegetable/flower/herb] garden. I'm in [zone or location], my yard gets [sun description], and I've never gardened before. Where do I start?"
+
+---
+
+### Life
 
 *When you're preparing for a difficult conversation:*
 > "I need to talk to [person] about [topic]. I want to [goal]. I'm worried about [concern]. Can you help me think through what to say?"
 
-*When a ballot measure is confusing:*
-> "I am voting on [measure name or paste text]. Please explain in plain language what it does, who supports it and why, and who opposes it and why."
+*When you need to write a eulogy:*
+> "I need to write a eulogy for my [relationship]. The service is [date]. Here are some things I want people to know about them: [notes]. Help me organize this into something I can read aloud."
 
-_(12 additional situations to complete the sheet -- to be added in final draft)_
+*When you think you're being scammed:*
+> "Someone contacted me claiming to be from [organization] asking me to [action]. Here's exactly what they said: [details]. Is this a scam, and what should I do?"
+
+*When you're planning a trip on a tight budget:*
+> "I want to travel to [destination] for [duration] with a budget of $[amount]. Help me plan — flights, lodging, food, and activities — and tell me where to save money."
+
+*When you need to find care for an aging parent:*
+> "My [parent] needs [type of help — e.g., in-home care, assisted living]. They're in [location] and their situation is [details]. Where do I start, and what questions should I ask providers? Give me the most conservative framing — I will verify with a healthcare professional or elder care specialist."
 
 ---
 
-## Appendix B: The Spec Starter Library
+### Work
 
-_(50 fill-in-the-blank templates organized by chapter -- to be completed in final draft)_
+*When you're updating your resume:*
+> "I'm applying for [type of role]. Here's my current resume: [paste text]. Can you help me improve it — stronger action verbs, better structure, and anything I should cut or add?"
+
+*When you're preparing for a job interview:*
+> "I have a job interview for [role] at [company] on [date]. Help me prepare — likely questions, how to answer 'tell me about yourself,' and questions I should ask them."
+
+*When you need to document a workplace problem:*
+> "I'm having an issue at work: [situation]. I want to create a written record in case I need it later. Help me write a factual, professional account of what happened, with dates."
+
+*When you think your workplace is unsafe:*
+> "Something at my job seems unsafe: [describe situation]. I'm in [state/industry]. What are my rights, and how do I report this without putting my job at risk?"
+
+*When you're thinking about going freelance:*
+> "I'm considering freelancing as a [profession]. I currently earn $[salary]. What do I need to set up — taxes, insurance, contracts, pricing — and what should I know before I start?"
+
+---
+
+### Civic
+
+*When a ballot measure is confusing:*
+> "I am voting on [measure name or paste text]. Please explain in plain language what it does, who supports it and why, and who opposes it and why."
+
+*When you want to speak at a public meeting:*
+> "I want to speak at the [city council/school board/planning commission] meeting about [topic]. I've never done this before. Help me write a two-minute statement and tell me how public comment works."
+
+*When you want to push for a change in your community:*
+> "I want to [change — e.g., get a crosswalk installed, change a school policy, oppose a zoning decision] in [location]. Where do I start, who makes this decision, and how do I make my case?"
+
+---
+
+### Chores
+
+*When you need to plan meals for the week:*
+> "I need to plan meals for [number] people for the week. Our grocery budget is $[amount]. We don't eat [restrictions]. Give me a meal plan with a shopping list."
+
+*When you need to organize a move:*
+> "I'm moving from [current location] to [new location] on [date]. Help me create a timeline and checklist — what to do four weeks out, two weeks out, one week out, and moving day."
+
+*When you can't get a stain out:*
+> "I have a [type of stain] on my [material — e.g., cotton shirt, carpet, couch]. I've tried [what you tried]. What's the best way to remove it without ruining the fabric?"
+
+*When you need to hire a house cleaner for the first time:*
+> "I want to hire a house cleaner for the first time. It's a [size] home in [location]. How much should it cost, what should I expect, and what questions should I ask before booking?"
+
+---
+
+### IRL Interactions
+
+*When you need to negotiate a price:*
+> "I'm about to [buy/negotiate] [item or service] and the asking price is $[amount]. I think that's too high. How do I negotiate without being confrontational?"
+
+*When you're going to the DMV or a government office:*
+> "I need to go to [office] for [reason — e.g., license renewal, permit, title transfer]. What documents should I bring, what should I expect, and how do I avoid wasting a trip?"
+
+*When you've been in a car accident:*
+> "I was just in a car accident. [Brief description — who hit whom, injuries, location.] What do I need to do right now — at the scene, with insurance, and legally? Give me the most conservative framing — I will verify with my insurance agent and a lawyer."
+
+*When you need to talk to your kid's teacher about a problem:*
+> "I need to talk to my child's [teacher/principal] about [issue]. I want to advocate for my kid without being adversarial. Help me prepare what to say and what to ask."
+
+---
+
+### Computer & Web
+
+*When you want to learn a new app or tool:*
+> "I need to learn [app or tool] for [purpose]. I'm comfortable with [current skill level]. Can you walk me through the basics and the three most important things to learn first?"
+
+*When you want to build a simple website:*
+> "I want to make a website for [purpose — personal, small business, portfolio]. I have [no/some] technical experience and a budget of [$amount/month]. What are my options and how do I get started?"
+
+*When you want to automate something repetitive:*
+> "I keep doing [repetitive task] on my computer and it takes [time]. Is there a way to automate this? I use [Mac/Windows/Linux]."
+
+---
+
+### Creative
+
+*When you want to start a creative project but don't know where to begin:*
+> "I want to [make/learn/create] [project type] but I don't know where to start. My budget is [amount] and I have [time available]. What do I need and what should I do first?"
+
+*When you want to improve your photography:*
+> "I take photos with my [phone/camera]. I want to get better at [type of photography — portraits, landscapes, food]. Here's what my photos usually look like: [describe]. What's one thing I could improve right now?"
+
+*When you want to write something but you're staring at a blank page:*
+> "I want to write a [blog post/short story/personal essay/letter] about [topic]. I know what I want to say but I can't start. Give me three different opening sentences and a rough outline to choose from."
+
+---
+
+### Transportation
+
+*When your check engine light comes on:*
+> "My check engine light came on in my [year, make, model]. The car [is/isn't] driving differently — [describe any symptoms]. How urgent is this, and what should I do before going to a mechanic?"
+
+*When you're buying a used car:*
+> "I'm looking at a used [year, make, model] with [miles] miles for $[price]. Is this a fair price? What should I inspect, and what questions should I ask the seller?"
+
+*When you're planning a road trip:*
+> "I'm driving from [origin] to [destination] on [dates]. Help me plan stops, estimate gas cost, and flag anything I should know about the route."
+
+---
+
+### General
+
+*When you need to write a complaint:*
+> "I need to write a formal complaint to [company] about [situation]. I want to be firm and specific, and I want to ask for [resolution]. Please draft this as a letter."
+
