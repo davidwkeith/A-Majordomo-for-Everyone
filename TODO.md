@@ -65,7 +65,7 @@ Present in Strategy 8 but missing from Strategy 2 (Prepare, medical context) and
 
 Only Strategy 0 has an [ALSO] callout. Other strategies reference Claude-specific features without cross-tool translation.
 
-### Part 2: Domain Size Imbalance
+### ~~Part 2: Domain Size Imbalance~~
 
 Entry target was ~80; current total is *91* across 12 domains. The target is exceeded overall, but distribution is uneven:
 
@@ -117,7 +117,7 @@ Place as `See also:` or footnote citations where they fit:
 
 ---
 
-## Research & Editorial Notes
+## ~~Research & Editorial Notes~~
 
 *Footnote citations* — all resolved. Every `[^...]` footnote in the book now has a real, verified source.
 

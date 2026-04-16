@@ -66,6 +66,34 @@ were slightly different?
 
 Your Agent will often catch its own oversights — a missed exception, an assumption it made about your circumstances, a detail it glossed over for brevity. This is not a sign the first answer was unreliable. It is the same principle as rereading a contract before signing: the second read catches what the first read missed. For high-stakes questions — legal, medical, financial — a self-review followed by the calibration question below gives you two layers of error-checking before you act.
 
+### Check the spec before you trust the answer
+
+Claude can give a perfectly coherent, well-reasoned answer to the wrong version of your question. The answer _looks_ right because it _is_ right — for someone else's situation. Before you act on a plan, an interpretation, or a recommendation, ask your Agent to tell you what it thinks you asked:
+
+::: prompt
+Before I act on this -- restate what you understood my situation
+to be, what you think I am trying to achieve, and what constraints
+you were working within.
+:::
+
+Read the echo-back against what you actually said. You are looking for three things:
+
+*Goal drift.* You asked for options. It gave you a plan. You wanted to understand a bill. It jumped straight to disputing it. The shape of the answer does not match the shape of the question. This happens because Claude optimizes for helpfulness, and "helpful" often means "action-oriented" even when you asked for understanding.
+
+*Dropped constraints.* You said "I want to avoid legal escalation" and the first recommendation is to file a formal complaint with a regulatory agency. You said "keep this under $500" and the proposed solution costs $1,200. A constraint you stated got treated as a preference rather than a boundary.
+
+*Invented facts.* Claude assumed your state, your income bracket, your timeline, or your relationship to the other party. The assumption is plausible — that is what makes it dangerous. It filled in a detail you did not provide, and built its answer on top of it.
+
+When you spot one of these, you do not need to start over. Correct the specific misunderstanding:
+
+::: prompt
+You assumed I am in California -- I am in Texas. And I asked for
+options, not a step-by-step plan. Can you redo this with those
+corrections?
+:::
+
+The echo-back checks whether Claude understood your situation. The calibration question, below, checks whether its answer is reliable. These are two different failure modes — wrong understanding versus uncertain knowledge — and they need two different checks.
+
 ### When to start a new conversation
 
 If you have been going back and forth for thirty messages and the Agent starts repeating itself, losing track of earlier points, or giving vague answers — the conversation is not broken. It is full. Your Agent's working memory holds a lot, but not everything, and the middle of a long conversation gets less reliable attention than the beginning and end.
