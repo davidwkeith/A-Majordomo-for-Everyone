@@ -22,9 +22,9 @@ Last reviewed: 2026-04-15 against spec/ directory and codebase.
 
 ## Unwritten Content
 
-### Chapter 33: Advanced Free Tier Strategies (Part 3)
+### ~~Chapter 33: Advanced Free Tier Strategies (Part 3)~~
 
-- [ ] **Write Ch 33** — status: "stub" (11 lines), body is placeholder only. Should cover advanced rotation techniques, context management, efficient prompting within free-tier limits. Extends Ch 3 (Free Tier Playbook) for Part 3 readers.
+- [x] ~~**Write Ch 33**~~ — drafted. Covers context as currency, conversation lifecycle, spec recycling, multi-service workflows (decode-and-draft, second-opinion), household majordomo context, and compound return of specification literacy. Extends Ch 3 for Part 3 readers.
 
 ### New Field Guide Entries
 
@@ -147,7 +147,7 @@ Parts 0, 1, 3, and 4 have zero research comments — clean. Strategy 3 had two (
 - [x] All `[companion URL TBD]` resolved
 - [x] All footnote citations verified (previously 5 unverified `[^...]` footnotes)
 - [x] All stubs drafted (except Ch 33)
-- [ ] Ch 33 written (only remaining stub)
+- [x] Ch 33 written (was only remaining stub)
 - [ ] Appendix B complete (50 starters; 8 written)
 - [ ] Appendix A reflects final entry list (91 entries across 12 domains)
 - [ ] Editorial notes reviewed — 134 `RESEARCH NEEDED` + `HUMAN CONDITION` comments to surface or remove
