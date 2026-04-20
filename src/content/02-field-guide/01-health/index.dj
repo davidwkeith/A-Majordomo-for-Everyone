@@ -147,9 +147,20 @@ To make this Expert Role persistent across sessions, save it as a *Project* (Cla
 :::
 
 
-<!-- RESEARCH NEEDED (HUMAN CONDITION): The identity shift that chronic illness forces is one of the least discussed aspects of the human condition. Charmaz (1991, "Good Days, Bad Days") documents how chronic illness fundamentally restructures self-concept, social relationships, and sense of the future. The person you were before the diagnosis is not the person you are after, and there is a grief process for the life you expected that is separate from the medical condition itself. This is not self-pity — it is a documented psychological process that, when unaddressed, worsens outcomes. Needs its own treatment, not just a footnote. -->
+Charmaz's _Good Days, Bad Days_ (1991) names what the medical system rarely does: chronic illness restructures the self. The person before the diagnosis is not the person after, and there is a grief for the life that was expected --- separate from the pain, separate from the fatigue, separate from the losses of mobility or hearing or whatever else the condition quietly takes. This grief is not self-pity. It is a documented psychological process, and when it goes unnamed it worsens outcomes.[^h5-3] Your doctor, in a fifteen-minute visit, cannot hold it. Your family, who watched the change, may not have the vocabulary for it. Your Agent is not a therapist and cannot replace one --- but it is a place where you can say these things in plain language and receive something back that does not flinch.
 
-<!-- RESEARCH NEEDED (HUMAN CONDITION): "Spoon theory" (Miserandino, 2003) — an informal framework developed by a lupus patient — has become the dominant lay framework for explaining energy limitation in chronic illness. It has no formal research backing but has been cited in nursing literature as an effective communication tool. The tension between folk wisdom and formal research is itself interesting. Sometimes the patient community develops better frameworks than the researchers. Consider whether to include as a [MEME] or [SCIENCE] sidebar — it is neither and both. -->
+::: tip
+_"I have [condition] and I'm grieving the life I expected to have. Help me name what I've lost, what I've adapted to, and what I'm still figuring out --- so I can bring the right questions to my doctor, my family, and a therapist if I decide to see one."_
+
+_When you're ready: "Help me find online communities for people with [condition]. Where do they gather? What makes a healthy community? What should I avoid?"_
+:::
+
+
+[^h5-3]: Charmaz, K. (1991). _Good Days, Bad Days: The Self in Chronic Illness and Time._ Rutgers University Press.
+
+::: meme
+In 2003, [Christine Miserandino](https://butyoudontlooksick.com/articles/written-by-christine/the-spoon-theory/) explained lupus to a friend by handing her twelve spoons. Each task --- showering, making breakfast, going to work --- costs spoons, and when they run out, the day is over. Spoon theory was not peer-reviewed. It was named in a diner by a patient who needed a friend to understand, and it has since been cited in nursing literature because it did something their frameworks did not.
+:::
 
 ::: science
 The Stanford Chronic Disease Self-Management Program (Lorig et al., 1999) remains the best-studied model: a randomized trial of 952 adults showed reduced hospitalization, less health distress, and more exercise at a cost of $70 per participant. A meta-analysis of 23 studies (Brady et al., 2013) confirmed consistent small-to-moderate effects, strongest for self-efficacy. The problem is reach: over fifteen years, fewer than 500,000 Americans have completed a structured program — against 194 million adults with at least one chronic condition (CDC, 2023). Lorig's own research found that online delivery produced comparable results to in-person groups, which suggests the educational structure matters more than the peer format. Your Agent can approximate that structure. It cannot replace a room full of people who know what a bad day actually feels like.[^h5-1]
@@ -165,7 +176,6 @@ When patients skip medications, the medical system calls it "non-adherence." In 
 
 [^h5-2]: Yan, D. et al. (2023). ["Cost-Related Insulin Rationing in US Adults Younger Than 65 Years With Diabetes."](https://jamanetwork.com/journals/jama/fullarticle/2803263) _JAMA_, 329(9). CDC/NCHS [Data Brief No. 470](https://www.cdc.gov/nchs/products/databriefs/db470.htm) (2023). "Characteristics of Adults Aged 18–64 Who Did Not Take Medication as Prescribed Due to Cost."
 
-<!-- RESEARCH NEEDED (HUMAN CONDITION): The loneliness of chronic illness. Conditions that limit mobility, energy, or social participation (autoimmune diseases, chronic fatigue, chronic pain) produce isolation as a secondary effect. The isolation worsens the condition. The condition worsens the isolation. This feedback loop is well-documented (Hawkley & Cacioppo, 2010) but poorly addressed by a medical system that treats conditions individually rather than systemically. Your Agent can help you find online communities — which research increasingly suggests provide real health benefits for chronic conditions (Wicks et al., 2010, PatientsLikeMe study). -->
 
 ---
 
@@ -460,26 +470,46 @@ Pain assessment has documented racial and gender bias. Studies show Black patien
 
 ---
 
-#### H-13: Understanding Addiction
+#### H-13: Understanding Addiction (and Finding Help That Works)
 *Strategy:* Research + Navigate
-*See also:* H-14: Harm Reduction, H-18: Finding Treatment and Recovery
-*My Man Jeeves:* _Addiction is not, as the relevant authorities have taken some pains to establish, a failure of willpower. The American Society of Addiction Medicine and the National Institute on Drug Abuse classify it as a chronic brain disorder involving compulsive use despite harmful consequences. The distinction is of some importance, as it determines whether the appropriate response is treatment or punishment. The United States has, for the most part, favored punishment. The results are, one might say, thoroughly documented. One's Agent has read the research on both treatment and recovery, and holds no position on the matter beyond the evidence._
+*See also:* H-14: Harm Reduction, M-6: Financial Coach (for insurance and costs)
+
+::: tip
+_If this is an emergency:_ for an active overdose, call *911* and administer naloxone if available (see H-14). For suicide or a mental health crisis, call *988*. For substance use help, call [SAMHSA's National Helpline](https://www.samhsa.gov/find-help/national-helpline) at *1-800-662-4357* --- free, confidential, 24/7.
+:::
+
+
+*My Man Jeeves:* _Addiction is not, as the relevant authorities have taken some pains to establish, a failure of willpower. The American Society of Addiction Medicine and the National Institute on Drug Abuse classify it as a chronic brain disorder involving compulsive use despite harmful consequences. The distinction is of some importance, as it determines whether the appropriate response is treatment or punishment. The United States has, for the most part, favored punishment. Where it has favored treatment, the industry it has built operates under less regulatory oversight than the restaurant industry --- some facilities excellent, some predatory, the distinction rarely apparent from the website. The task, then, is twofold: to understand the condition as medicine now describes it, and to navigate a marketplace that does not reliably distinguish evidence-based care from something else. One's Agent holds no position beyond the evidence._
 *The Spec:*
 ::: prompt
-I want to understand addiction as the science currently describes it —
-not the moral framework.
-The situation: [I'm concerned about my own use of X /
-someone I love is struggling with X /
-I want to understand the difference between dependence and addiction /
-I want to understand why some people get addicted and others don't]
-Please explain:
+I am trying to understand [my own / my loved one's] substance use,
+and/or find help.
+
+Where I am right now:
+[I'm worried but not sure this qualifies as a problem /
+I know it's a problem and I'm trying to understand it /
+I'm ready to get help and need to find the right kind /
+this is an emergency]
+
+The substance(s): [alcohol / opioids / stimulants / other]
+Location: [city, state --- if we're looking for treatment]
+Insurance: [type, or uninsured]
+
+My own history with substances: [brief --- for context on how
+I'm going to talk about this]
+
+Please help me understand and/or act:
 1. The difference between tolerance, physical dependence,
-   and addiction — these are three different things
-2. What the current science says about why some people
-   are more vulnerable than others
-3. What the evidence says about which approaches to
-   treatment actually work
-4. What I should know right now — tonight — if this is urgent
+   and addiction --- these are three different things
+2. What the current science says about why some people are
+   more vulnerable than others
+3. If treatment is needed: what types exist (inpatient,
+   outpatient, MAT, 12-step, non-12-step) and which have
+   the strongest evidence for [substance]
+4. How to evaluate a treatment facility --- what are the red flags
+5. What my insurance is required to cover (Mental Health Parity Act)
+6. What options exist if I'm uninsured or underinsured
+7. What to do right now --- tonight --- if this is urgent
 :::
 
 ::: science
@@ -493,6 +523,17 @@ Alcohol and benzodiazepine withdrawal can cause fatal seizures — they are amon
 
 
 [^d5-1]: Koob, G.F. & Volkow, N.D. (2016). "Neurobiology of Addiction: A Neurocircuitry Analysis." _The Lancet Psychiatry_, 3(8), 760–773.
+
+::: science
+Medication-assisted treatment (MAT) --- using medications like buprenorphine (Suboxone), methadone, or naltrexone alongside counseling --- is the evidence-based standard of care for opioid use disorder. Studies show MAT reduces overdose death by 50% or more.[^d10-1] Despite this, many treatment facilities do not offer it, and some actively discourage it. If a facility tells you medication is "replacing one addiction with another," that is a red flag, not a treatment philosophy.
+:::
+
+
+[^d10-1]: Wakeman, S.E. et al. (2020). "Comparative Effectiveness of Different Treatment Pathways for Opioid Use Disorder." _JAMA Network Open_, 3(2).
+
+::: also
+[SAMHSA's treatment locator](https://findtreatment.gov) lets you search by substance, location, insurance, and treatment type. It is the most reliable starting point.
+:::
 
 ---
 
@@ -517,7 +558,7 @@ information that keeps people alive.
 :::
 
 ::: science
-Naloxone (brand name Narcan) reverses opioid overdoses and has been available over the counter in the United States since March 2023. It has no effect on someone who has not taken opioids. It cannot be misused. It is estimated to have reversed over 50,000 overdoses in the U.S.[^d6-1] Fentanyl test strips detect fentanyl contamination in drug supplies -- studies show people who test positive modify their behavior (use less, use with others present, keep naloxone nearby).[^d6-2] Both are available at most pharmacies.
+Naloxone (brand name Narcan) reverses opioid overdoses and has been available over the counter in the United States since March 2023. It has no effect on someone who has not taken opioids. It cannot be misused. It is estimated to have reversed over 50,000 overdoses in the U.S.[^d6-1] Fentanyl test strips detect fentanyl contamination in drug supplies --- studies show people who test positive modify their behavior (use less, use with others present, keep naloxone nearby).[^d6-2] Both are available at most pharmacies.
 :::
 
 
@@ -525,7 +566,7 @@ Naloxone (brand name Narcan) reverses opioid overdoses and has been available ov
 [^d6-2]: Peiper, N.C. et al. (2019). "Fentanyl test strips as an opioid overdose prevention strategy." _International Journal of Drug Policy_, 63, 122–128.
 
 ::: meme
-Portugal decriminalized personal possession of all drugs in 2001. Drug-related deaths fell. New HIV infections among people who inject drugs dropped from 1,016 to 18 -- a 98% decline.[^d6-3] Usage rates did not significantly increase. The policy did not make Portugal a drug paradise. It made Portugal a place where drug use is treated as a health issue rather than a criminal one. The experiment is twenty-five years old. The data is in.
+Portugal decriminalized personal possession of all drugs in 2001. Drug-related deaths fell. New HIV infections among people who inject drugs dropped from 1,016 to 18 --- a 98% decline.[^d6-3] Usage rates did not significantly increase. The policy did not make Portugal a drug paradise. It made Portugal a place where drug use is treated as a health issue rather than a criminal one. The experiment is twenty-five years old. The data is in.
 :::
 
 
@@ -600,10 +641,10 @@ Indigenous communities have used psilocybin (mushrooms), peyote, and ayahuasca i
 
 ---
 
-#### H-17: Talking to Your Kids About Drugs
+#### H-17: Talking to Your Kids About Drugs (and Unlearning What You Were Told)
 *Strategy:* Prepare + Research
-*See also:* Li-1: Preparing for a Difficult Conversation, Li-7: Raising Kids
-*My Man Jeeves:* _D.A.R.E. instructed a generation that marijuana and heroin belonged to the same category of threat, and that the appropriate response to all drugs was refusal. When those children discovered that marijuana did not, in the event, ruin their lives, a considerable number concluded that the adults had been unreliable on every point — including those substances that were genuinely dangerous. The program's failure, one might observe, was not insufficient severity of its warnings. It was the decision to substitute fear for credibility. Credibility, once forfeited with a teenager, is not recoverable on what one would call a useful timeline. One's Agent can provide the honest, evidence-based conversation that D.A.R.E. could not._
+*See also:* Li-1: Preparing for a Difficult Conversation, Li-7: Raising Kids, H-13: Understanding Addiction, H-14: Harm Reduction
+*My Man Jeeves:* _D.A.R.E. instructed a generation that marijuana and heroin belonged to the same category of threat, and that the appropriate response to all drugs was refusal. When those children discovered that marijuana did not, in the event, ruin their lives, a considerable number concluded that the adults had been unreliable on every point --- including those substances that were genuinely dangerous. Those children are now parents. The War on Drugs that shaped their education has cost, by the Bureau of Justice Statistics, over $1 trillion and, at its peak, imprisoned 2.1 million Americans --- with Black Americans held for drug offenses at nearly six times the rate of white Americans despite comparable usage rates.[^d11-2] The task before today's parent is therefore twofold: to unlearn what D.A.R.E. taught, and to pass on to one's children what is, on the documentary record, actually the case. One's Agent has read the Bureau's own data._
 *The Spec:*
 ::: prompt
 I want to talk to my [age] year old about drugs.
@@ -611,86 +652,35 @@ My situation: [they haven't asked yet / they asked about something
 specific / I found something / their friends are using /
 I want to be proactive]
 My own history with substances: [brief — this affects credibility]
+My own education about drugs: [D.A.R.E. / Just Say No / family
+messaging — this is what I may need to unlearn before I can
+pass on something accurate]
 What I'm worried about: [specific concern]
+
 Please help me:
 1. Understand what is developmentally appropriate to discuss at this age
-2. Prepare an honest, science-based explanation that does not
-   rely on scare tactics (which don't work) or false equivalence
-   (which destroys credibility)
-3. Know what the actual risks are for the substances most
-   common among [age group] right now
-4. Have a response ready for "but you did it too" if applicable
-5. Keep the conversation open rather than shut it down
-The goal is that my kid trusts me enough to come to me
-when it matters.
+2. Identify where my own beliefs about drugs came from propaganda
+   rather than evidence --- so I don't repeat it
+3. Prepare an honest, science-based explanation of the substances
+   most common among [age group] right now, with the actual
+   documented risks (not the D.A.R.E. version)
+4. Explain the difference between decriminalization and legalization,
+   what other countries have tried, and what the outcomes have been
+5. Have a response ready for "but you did it too" if applicable
+6. Keep the conversation open rather than shut it down
+
+The goal is that my kid trusts me enough to come to me when it
+matters, because the information I give them matches what they
+will later discover to be true.
 :::
-*What to do with the Output:* Have the conversation, not the lecture. The research is clear: teens who report having honest, ongoing conversations with parents about drugs (not one-time "talks") show lower rates of problematic use.[^d9-1] The key word is _ongoing_. This is not a single conversation. It is a relationship.
-
-[^d9-1]: SAMHSA. "Talk. They Hear You." Campaign and associated research. Substance Abuse and Mental Health Services Administration.
-
----
-
-#### H-18: Finding Treatment and Recovery
-*Strategy:* Navigate + Research
-*See also:* H-13: Understanding Addiction, H-14: Harm Reduction, M-6: Financial Coach (for insurance and costs)
-*My Man Jeeves:* _The treatment industry in the United States constitutes a multibillion-dollar market operating, one notes, under less regulatory oversight than the restaurant industry. Some facilities are excellent. Some, one regrets to say, are predatory. The distinction is not readily apparent from the website. One's Agent can assist in evaluating options according to the criteria that addiction medicine specialists employ — criteria that differ, in several material respects, from those favored by the marketing department._
-*The Spec:*
-::: prompt
-I need to find treatment for [substance use disorder / alcohol /
-opioids / stimulants / other].
-The situation: [for myself / for someone I care about]
-Location: [city, state]
-Insurance: [type, or uninsured]
-What I need to understand:
-1. What types of treatment exist (inpatient, outpatient, MAT,
-   12-step, non-12-step) and which have the strongest evidence
-   for [substance]
-2. How to evaluate a treatment facility — what are the red flags
-3. What my insurance is required to cover (Mental Health Parity Act)
-4. What options exist if I'm uninsured or underinsured
-5. What to do right now if this is an emergency
-If this is an emergency: call SAMHSA's National Helpline at
-1-800-662-4357 (free, confidential, 24/7) or call 988.
-:::
-
-::: science
-Medication-assisted treatment (MAT) — using medications like buprenorphine (Suboxone), methadone, or naltrexone alongside counseling — is the evidence-based standard of care for opioid use disorder. Studies show MAT reduces overdose death by 50% or more.[^d10-1] Despite this, many treatment facilities do not offer it, and some actively discourage it. If a facility tells you medication is "replacing one addiction with another," that is a red flag, not a treatment philosophy.
-:::
-
-
-[^d10-1]: Wakeman, S.E. et al. (2020). "Comparative Effectiveness of Different Treatment Pathways for Opioid Use Disorder." _JAMA Network Open_, 3(2).
-
-::: also
-SAMHSA's treatment locator at findtreatment.gov lets you search by substance, location, insurance, and treatment type. It is the most reliable starting point.
-:::
-
-
----
-
-#### H-19: The War on Drugs — What Your Agent Can Tell You That School Didn't
-*Strategy:* Research
-*My Man Jeeves:* _The War on Drugs, declared by Nixon in 1971, has cost the United States in excess of $1 trillion in enforcement spending. The incarcerated population grew from roughly 360,000 in 1972 to a peak of 2.1 million by 2019, with drug offenses accounting for roughly 45% of federal prisoners. Black Americans are incarcerated for drug offenses at nearly six times the rate of white Americans, despite roughly equal usage rates.[^d11-2] These are not, one feels it necessary to clarify, matters of opinion. They are Bureau of Justice Statistics. One's Agent has read them._
-*The Spec:*
-::: prompt
-I want to understand the War on Drugs — not the political argument,
-the documented history and outcomes.
-What I'm trying to understand: [the racial disparities / why
-certain drugs are scheduled the way they are / how drug policy
-differs in other countries / what decriminalization means vs.
-legalization / what the evidence says about what actually works]
-Please give me:
-1. The documented facts and the sources
-2. What the outcomes have been by the government's own metrics
-3. What alternative approaches other countries have tried
-   and what the results were
-4. The distinction between decriminalization and legalization
-Present this as history and data, not advocacy.
-:::
+*What to do with the Output:* Have the conversation, not the lecture. Teens who report having honest, ongoing conversations with parents about drugs (not one-time "talks") show lower rates of problematic use.[^d9-1] The key word is _ongoing_. This is not a single conversation. It is a relationship --- and the substrate of the relationship is the truth. The parent who repeats D.A.R.E. talking points teaches their teen to distrust them. The parent who says _"I was told this, the research actually shows that, and here is how I know"_ teaches their teen to evaluate information the way the parent is now evaluating it.
 
 ::: meme
 John Ehrlichman, Nixon's domestic policy advisor, said in a 1994 interview: _"The Nixon campaign in 1968, and the Nixon White House after that, had two enemies: the antiwar left and Black people... by getting the public to associate the hippies with marijuana and Blacks with heroin, and then criminalizing both heavily, we could disrupt those communities."_[^d11-1] The quote was published in _Harper's_ in 2016. It is a single retrospective statement from a convicted felon. It is also consistent with every enforcement pattern documented in the fifty years since.
 :::
 
+
+[^d9-1]: SAMHSA. "Talk. They Hear You." Campaign and associated research. Substance Abuse and Mental Health Services Administration.
 
 [^d11-1]: Baum, D. (2016). "Legalize It All." _Harper's Magazine_, April 2016.
 
