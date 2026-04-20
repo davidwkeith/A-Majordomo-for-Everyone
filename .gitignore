@@ -4,3 +4,6 @@ dist/
 *.tgz
 .env
 .venv/
+.claude/
+.djot-preview/
+.nova/
