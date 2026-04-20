@@ -22,7 +22,7 @@ _A printable PDF version is available at [a-majordomo-for-everyone.dwk.io/quick-
 |---|---|---|
 | H-1: Understanding a Diagnosis You Just Received | Decode | "My doctor just told me I have [diagnosis]..." |
 | H-2: Preparing Questions Before a Doctor's Appointment | Prepare | "I have an appointment with [specialist type] on [date]..." |
-| H-3: Decoding a Medical Bill or EOB | Decode | "I received this medical bill / Explanation of Benefits..." |
+| H-3: Decoding a Medical Bill or EOB (and Negotiating What You Owe) | Decode + Assert | "I received this medical bill / Explanation of Benefits..." |
 | H-4: Appealing an Insurance Denial | Navigate + Draft | "My insurance denied [procedure/claim] with the reason..." |
 | H-5: Managing a Chronic Condition Day-to-Day | Research | "I have [chronic condition] and I've been managing it for [time period]..." |
 | H-6: Understanding What Medicare or Medicaid Actually Covers | Decode | "I [or my family member] am [turning 65 / disabled / low-income]..." |

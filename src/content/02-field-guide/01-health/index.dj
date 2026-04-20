@@ -59,18 +59,33 @@ This works well with voice mode on your phone — all major tools support it on 
 
 ---
 
-#### H-3: Decoding a Medical Bill or EOB
-*Strategy:* Decode
-*See also:* H-4: Appealing an Insurance Denial (if something looks wrong), M-4: Collections and Bankruptcy (if the bill becomes debt)
-*My Man Jeeves:* _The Explanation of Benefits is, in principle, a document intended to explain one's benefits — a purpose it fulfills, one might venture, with considerable incompleteness. It presents procedure codes, allowed amounts, adjustments, and patient responsibility in a format that rather generously rewards confusion. One would not wish to suggest that the confusion is by design, though the alternative explanation requires a degree of charitable interpretation. One's Agent has read every code on the form and is prepared to translate._
+#### H-3: Decoding a Medical Bill or EOB (and Negotiating What You Owe)
+*Strategy:* Decode + Assert
+*See also:* H-4: Appealing an Insurance Denial (if something looks wrong), M-4: Collections and Bankruptcy (if the bill becomes debt), M-6: Financial Coach (for insurance and costs)
+*My Man Jeeves:* _The Explanation of Benefits is, in principle, a document intended to explain one's benefits --- a purpose it fulfills, one might venture, with considerable incompleteness. It presents procedure codes, allowed amounts, adjustments, and patient responsibility in a format that rather generously rewards confusion. The bill that follows presents a further difficulty: its stated price bears a variable, and largely notional, relation to what one might actually be asked to pay. Nonprofit hospitals are required by federal tax rule to maintain financial assistance programs; they are not, however, required to volunteer the fact at the billing window. One's Agent has read every code on the form and every provision of 26 U.S.C. § 501(r) --- and is prepared both to translate and to negotiate._
 *The Spec:*
 ::: prompt
 I received this medical bill / Explanation of Benefits and I don't
 understand it. [Paste the bill or EOB, removing your name and ID number.]
+
+My situation:
+[I can pay the full amount but want to make sure it's correct /
+I can pay some of it but not all / I cannot pay this /
+this will go to collections if I don't act / this is from a nonprofit
+hospital / this is from a for-profit hospital or physician group]
+
+Insurance status: [type, or uninsured]
+
 Please:
 1. Explain each line item in plain language
 2. Flag anything that seems unusual or potentially incorrect
-3. Tell me if there's anything here I should dispute
+3. Tell me if there's anything here I should dispute (see H-4 for appeals)
+4. Draft a script I can use to call the billing department, including
+   requesting an itemized bill, asking about financial assistance or
+   charity care, and asking about a cash-pay discount or a
+   no-interest payment plan
+5. Tell me what rights I have if this has already gone to collections
+   (see M-4)
 :::
 *What to do with the Output:* Compare every line to the original provider bill. If your Agent flags a charge as unusual, call the billing department and ask them to explain it. The person who calls is the person who gets the adjustment. The person who doesn't call pays the first number they were given.
 
@@ -83,6 +98,15 @@ Paste or upload your document directly — file upload works in Claude, Gemini, 
 If your EOB is a PDF from your insurance portal, copy the text and paste it. If it arrived on paper, photograph it with your phone and copy the text from the photo — both iPhone and Android can do this. Your Agent reads pasted text faster and more accurately than a photo. See [Appendix J](09-appendix-j-working-with-text.xhtml) for why.
 :::
 
+
+::: fairness
+Under [26 U.S.C. § 501(r)](https://www.irs.gov/charities-non-profits/charitable-organizations/requirements-for-501c3-hospitals-under-the-affordable-care-act-section-501r), every nonprofit hospital must maintain a written Financial Assistance Policy, publicize it, cap charges to FAP-eligible patients at the rate generally billed to insured patients, and screen for eligibility before extraordinary collection actions. Enforcement is weak. A 2022 KFF Health News investigation of 528 U.S. hospitals found that more than two-thirds sue patients or pursue other legal action, nearly 40% disclose nothing about their collection practices online, and only 19 of the 528 had publicly committed against extraordinary collection actions.[^h3-1] Eligibility thresholds are also wildly inconsistent: a 2024 _Health Affairs_ study found income limits for free care ranging from 41% to 600% of the federal poverty guideline, with a median discounted-care limit of 400% FPL but values reported between 100% and 1,000%.[^h3-2] Hospital financial counselors can point you at programs and applications, but they are chronically understaffed; the research, the appeals, and the document-gathering fall to the patient. Ask directly: _"What is your financial assistance policy, what is the income threshold for free and discounted care, and can you email me the application today?"_ Keep a record of the date, the staff member's name, and a reference number.
+:::
+
+
+[^h3-1]: Levey, N.N. (2022). ["Hundreds of Hospitals Sue Patients or Threaten Their Credit, a KHN Investigation Finds. Does Yours?"](https://kffhealthnews.org/news/article/medical-debt-hospitals-sue-patients-threaten-credit-khn-investigation/) _KFF Health News_, December 21, 2022. Part of the _Diagnosis: Debt_ investigation series; see also Levey, N.N., ["Patients Eligible For Charity Care Instead Get Big Bills."](https://kffhealthnews.org/news/patients-eligible-for-charity-care-instead-get-big-bills/)
+
+[^h3-2]: Messac, L., Janke, A.T., Rogers, L.H., Fonfield, I., Walker, J., Rushbanks, E., Becker, N.V., & Bai, G. (2024). ["US Nonprofit Hospitals Have Widely Varying Criteria To Decide Who Qualifies For Free And Discounted Charity Care."](https://www.healthaffairs.org/doi/10.1377/hlthaff.2023.01615) _Health Affairs_, 43(11), 1569–1577.
 
 [eob-annotated]{.art}
 
@@ -691,5 +715,4 @@ John Ehrlichman, Nixon's domestic policy advisor, said in a 1994 interview: _"Th
 — H-21: Dental and Vision Insurance — separate systems, separate rules, separate frustrations. Why your teeth are apparently not part of your body.
 — H-22: Mental Health First Aid — what to do when someone is in crisis. 988, de-escalation, how to help without making it worse.
 — H-23: Disability Benefits (SSI/SSDI) — the application process is designed to deny first, approve on appeal. Understanding the system before you enter it.
-— H-24: Negotiating Medical Bills — the sticker price is a fiction. The real price is whatever the billing department agrees to when you call.
 -->
