@@ -192,6 +192,8 @@ Paste or upload your document directly — file upload works in Claude, Gemini, 
 
 [^m3-1]: The [Dodd-Frank Wall Street Reform and Consumer Protection Act](https://www.congress.gov/bill/111th-congress/house-bill/4173) (2010) created the CFPB and standardized mortgage disclosure requirements. The Loan Estimate and Closing Disclosure replaced the prior GFE and HUD-1 forms in 2015.
 
+<!-- RESEARCH NEEDED: Veterans integration --- Cross-reference Ho-6 for full VA home loan specifics (0% down, no PMI, assumable by other VA-eligible buyers, funding fee waived for service-connected disabled vets). IRRRL for refinancing existing VA loans. VA appraisal standards are stricter than conventional and can delay or kill deals. -->
+
 ---
 
 #### M-4: Collections and Bankruptcy
@@ -334,6 +336,8 @@ Americans lost $5.7 billion to investment scams in 2024 (FTC) — more than any 
 [^m5-2]: Buffett, W.E. (2017). Berkshire Hathaway Annual Letter to Shareholders. The bet, made in 2007, was against Protégé Partners' selection of hedge funds.
 
 [^m5-5]: McKinsey & Company. (2024). "North American Asset Management in 2030." The figure covers US defined-contribution plan and IRA fee revenue.
+
+<!-- RESEARCH NEEDED: Veterans integration --- Thrift Savings Plan (TSP) for military and federal civilians; Blended Retirement System (BRS, since 2018) includes a 5% government match. Survivor Benefit Plan (SBP) election at retirement covers spouse to 55% of retired pay; election is once-and-done and is commonly misunderstood. -->
 
 ---
 
@@ -522,6 +526,8 @@ Checking current insurance rates and state regulations requires web search, whic
 
 [^m8-1]: Insurance Information Institute. (2024). "Understanding Umbrella Insurance." Liability gap data from National Association of Insurance Commissioners annual report.
 
+<!-- RESEARCH NEEDED: Veterans integration --- SGLI (Servicemembers' Group Life Insurance): automatic $500K coverage during active duty, premium ~$0.06/$1,000/month. VGLI (Veterans' Group Life Insurance): portable post-service coverage up to the SGLI amount, convertible within a 1-year-240-day window without health underwriting. FSGLI for dependents. -->
+
 ---
 
 #### M-9: Navigating Financial Aid and Student Loans
@@ -594,6 +600,8 @@ Checking current loan balances, servicer information, and repayment plan options
 <!-- RESEARCH NEEDED (HUMAN CONDITION): The parent who co-signed. Parent PLUS loans are federal loans taken out by parents for their children's education. They carry higher interest rates than student loans, are not eligible for most income-driven repayment plans, and cannot be transferred to the student. Many parents took on this debt without understanding the terms — because their child needed it, and the financial aid office presented it as routine. The shame runs in both directions: the parent feels they failed to save enough; the child feels they burdened their family. Neither is a moral failure. Both are a structural consequence of a system that prices education beyond what most families can pay. -->
 
 [^m9-1]: Department of Education. (2024). ["Biden-Harris Administration Has Approved $69 Billion in Student Debt Relief."](https://www.ed.gov/news/press-releases) PSLF historical rejection rates from Government Accountability Office, ["Public Service Loan Forgiveness: Education Needs to Provide Better Information for the Loan Servicer and Borrowers."](https://www.gao.gov/products/gao-18-547) (2018).
+
+<!-- RESEARCH NEEDED: Veterans integration --- Post-9/11 GI Bill (Chapter 33): tuition and fees at the public in-state rate + monthly BAH + book stipend; transferable to spouse/children with 6+ years of service and a 4-year re-enlistment commitment. Yellow Ribbon Program covers the gap at private or out-of-state schools. Montgomery GI Bill (Chapter 30) and REAP (Chapter 1606) have different trade-offs --- the Agent can model them. -->
 
 ---
 
