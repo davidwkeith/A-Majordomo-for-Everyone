@@ -239,17 +239,39 @@ The naming confusion is not trivial. KFF polling finds that 62% of Americans eit
 :::
 
 
-<!-- RESEARCH NEEDED (HUMAN CONDITION): The terror of aging without adequate coverage is one of the defining anxieties of American life. The median retirement savings for Americans 55-64 is approximately $134,000 (Federal Reserve Survey of Consumer Finances, 2022), which covers roughly 14 months of nursing home care. The gap between what people have saved and what long-term care costs is an actuarial crisis disguised as individual failure. The entry should state this flatly. -->
+::: fairness
+The median American household ages 55–64 holds $185,000 in retirement savings[^h6-4] against a semi-private nursing-home bill that, in 2024, averaged $111,325 a year.[^h6-5] That is roughly twenty months of care before the money is gone. Medicaid covers long-term care after a spend-down: in most states, the nursing-home resident must be reduced to $2,000 in countable assets before qualifying, with a 60-month look-back on any transfers made in advance. Community spouses may retain significantly more under federal protections, but the rules are state-specific and unforgiving of error. This is the math no one teaches before a parent is admitted. For World War II–era veterans --- and for those who served in Korea, Vietnam, the Gulf War, or the post-9/11 period --- the VA's _Aid and Attendance_ benefit pays up to $2,358 per month in 2025 for a single veteran, $2,795 for a married veteran, and $1,515 for a surviving spouse, on top of VA pension, to cover long-term care at home or in a facility.[^h6-6] The benefit requires 90+ days of active duty with at least one day during a congressionally recognized wartime period, and application is via VA Form 21-2680 (plus 21-0779 for nursing-home residents). Ask your Agent: _"My [parent / grandparent / I] served in [branch, years, including any wartime dates]. What VA pension and long-term care benefits apply, and what forms, income documentation, and service records do we need?"_
+:::
 
-<!-- RESEARCH NEEDED: Dual eligibility (Medicare + Medicaid) — approximately 12 million Americans qualify for both, and navigating the intersection is so complex that an entire category of state programs exists just to help. The entry should point to State Health Insurance Assistance Programs (SHIP) as a free resource. Also Medicare.gov and 1-800-MEDICARE. -->
 
-<!-- RESEARCH NEEDED: Medicare Advantage (Part C) vs. Original Medicare. The marketing for Medicare Advantage is aggressive and the trade-offs (network restrictions, prior authorization requirements, variable quality) are poorly understood. This is one of the most consequential healthcare decisions older Americans make and one of the least informed. The entry should help the reader understand the trade-off without taking a side. -->
+::: science
+As of 2025, 54% of Medicare beneficiaries --- 34.1 million people --- are enrolled in Medicare Advantage plans; the Congressional Budget Office projects 64% by 2034.[^h6-7] The trade-off is routinely understated in marketing. In 2024, Medicare Advantage insurers processed 53 million prior authorization requests and denied 4.1 million of them (7.7%); UnitedHealth Group, the largest MA insurer, denied 12.8%. Only 11.5% of denials were appealed --- though 80.7% of those appeals were overturned, which suggests most denials are not defensible, but do not have to be.[^h6-8] And the well-marketed fallback of "you can always switch back" is state-dependent. Only four states (Connecticut, Maine, Massachusetts, New York) guarantee Medigap issuance year-round to all beneficiaries 65 and older; in the other 46 states and D.C., a beneficiary who leaves Medicare Advantage for Original Medicare after the first-year trial period can be denied supplemental Medigap coverage on the basis of the very conditions that made them want to leave.[^h6-9] Choose on the ten-year horizon, not the welcome-call pitch.
+:::
+
+
+::: also
+Free, unbiased Medicare counseling is available in every state through the [State Health Insurance Assistance Program (SHIP)](https://www.shiphelp.org/) --- a federally funded network that helps beneficiaries compare plans, challenge denials, and untangle dual-eligibility paperwork. About 12.8 million Americans now qualify for both Medicare and Medicaid.[^h6-10] Call **1-877-839-2675** to reach your local SHIP, or search by ZIP code at shiphelp.org. SHIP counselors are trained, unpaid by plans, and have no financial interest in what you choose --- unlike the licensed agents behind most Medicare television ads.
+:::
 
 [^h6-1]: Kaiser Family Foundation, ["An Overview of the Medicare Part D Prescription Drug Benefit."](https://www.kff.org/medicare/a-current-snapshot-of-the-medicare-part-d-prescription-drug-benefit/) See also [Inflation Reduction Act of 2022, Section 11201](https://www.congress.gov/bill/117th-congress/house-bill/5376).
 
 [^h6-2]: Congressional Budget Office (2025). [Cost estimate, One Big Beautiful Bill Act](https://www.cbo.gov/publication/61461), Medicaid provisions. See also KFF, ["A Closer Look at the Work Requirement Provisions in the 2025 Federal Budget Reconciliation Law."](https://www.kff.org/medicaid/a-closer-look-at-the-work-requirement-provisions-in-the-2025-federal-budget-reconciliation-law/)
 
 [^h6-3]: KFF, ["7 Charts About Public Opinion on Medicaid."](https://www.kff.org/medicaid/7-charts-about-public-opinion-on-medicaid/) See also KFF Health Tracking Poll, ["The Public's Views on Potential Changes to Medicaid."](https://www.kff.org/medicaid/kff-health-tracking-poll-public-views-on-potential-changes-to-medicaid/)
+
+[^h6-4]: Federal Reserve Board. [2022 Survey of Consumer Finances](https://www.federalreserve.gov/econres/scfindex.htm). Median retirement account balance for households with reference person ages 55–64. See also CRS, ["Distribution of Retirement Account Balances: Analysis of the 2022 Survey of Consumer Finances."](https://www.congress.gov/crs-product/IF12928)
+
+[^h6-5]: Genworth & CareScout. ["Cost of Care Survey 2024."](https://www.carescout.com/cost-of-care) National annual median for a semi-private nursing home room, up 7% from 2023. Private-room median: $127,750. Medicaid long-term care asset limits and look-back rules vary by state; for a current overview, see [American Council on Aging / Medicaid Planning Assistance](https://www.medicaidplanningassistance.org/medicaid-eligibility/).
+
+[^h6-6]: U.S. Department of Veterans Affairs. ["VA Aid and Attendance benefits and Housebound allowance."](https://www.va.gov/pension/aid-attendance-housebound/) 2025 maximum annual pension rates published by VA; figures above convert to monthly. Wartime period definitions are set by statute (38 U.S.C. § 1521); WWII, Korea, Vietnam, the Gulf War, and post-9/11 are all congressionally recognized.
+
+[^h6-7]: Ochieng, N., Biniek, J.F., & Neuman, T. (2025). ["Medicare Advantage in 2025: Enrollment Update and Key Trends."](https://www.kff.org/medicare/medicare-advantage-enrollment-update-and-key-trends/) _KFF_. CBO projections from the 2025 Medicare baseline.
+
+[^h6-8]: Biniek, J.F. et al. (2025). ["Medicare Advantage Insurers Made Nearly 53 Million Prior Authorization Determinations in 2024."](https://www.kff.org/medicare/medicare-advantage-insurers-made-nearly-53-million-prior-authorization-determinations-in-2024/) _KFF_. Insurer-level denial rates drawn from the same analysis.
+
+[^h6-9]: KFF. ["Medigap Enrollment and Consumer Protections Vary Across States."](https://www.kff.org/medicare/medigap-enrollment-and-consumer-protections-vary-across-states/) See also Medicare.gov, ["Can I switch or drop my Medigap policy?"](https://www.medicare.gov/health-drug-plans/medigap/ready-to-buy/change-policies/switch-drop) The federal 12-month Medicare Advantage trial right is limited; broader state protections exist only in CT, MA, ME, and NY.
+
+[^h6-10]: MACPAC/MedPAC. ["Beneficiaries Dually Eligible for Medicare and Medicaid Data Book,"](https://www.macpac.gov/wp-content/uploads/2024/01/Jan24_MedPAC_MACPAC_DualsDataBook-508.pdf) January 2024. SHIP is administered by the [Administration for Community Living](https://acl.gov/programs/connecting-people-services/state-health-insurance-assistance-program-ship).
 
 ---
 
