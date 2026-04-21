@@ -220,7 +220,7 @@ Prolonged unemployment is a medical-grade stressor. Paul and Moser's meta-analys
 
 
 ::: fairness
-Salary negotiation is the purest information asymmetry in employment: the employer knows the budget, you do not. Babcock and Laschever documented the gender negotiation gap in _Women Don't Ask;_[^w1-3] two decades of follow-up research found it narrowed but not closed, and extended the finding across race, with Black women in particular penalized more heavily than white men for identical negotiating behavior. Your Agent has no incentive to counsel caution on your behalf. Ask it directly for the aggressive number, the conservative number, and the script for each --- then decide which to use based on the situation, not the stereotype you absorbed from the last person who told you what was reasonable.
+Salary negotiation is the purest information asymmetry in employment: the employer knows the budget, you do not. Babcock and Laschever documented the gender negotiation gap in _Women Don't Ask_;[^w1-3] two decades of follow-up research found it narrowed but not closed, and extended the finding across race, with Black women in particular penalized more heavily than white men for identical negotiating behavior. Your Agent has no incentive to counsel caution on your behalf. Ask it directly for the aggressive number, the conservative number, and the script for each --- then decide which to use based on the situation, not the stereotype you absorbed from the last person who told you what was reasonable.
 :::
 
 
@@ -256,7 +256,7 @@ Veterans receive Federal Veterans' Preference in competitive federal hiring: 5 p
 
 #### W-3: Working with Human Resources
 *Strategy:* Draft + Assert
-*See also:* W-2: Understanding Your Rights If You're Let Go, Li-1: Preparing for a Difficult Conversation
+*See also:* W-2: Leaving a Job, Li-1: Preparing for a Difficult Conversation
 *My Man Jeeves:* _It may be useful to note that Human Resources exists to protect the company. This is not a matter of cynicism — it is the department's actual mandate. An HR representative who assists an employee does so because assisting the employee also serves the company's interest, which is, one acknowledges, frequently the case. An understanding of this alignment — the occasions upon which one's interests and the company's overlap, and those upon which they diverge — represents the difference between employing HR effectively and finding oneself somewhat surprised by the outcome. One's Agent can help one prepare for the interaction with a clear understanding of which category it falls into._
 *The Spec:*
 ::: prompt
@@ -299,7 +299,7 @@ Documenting workplace harassment or discrimination has specific requirements und
 
 #### W-6: Workplace Safety
 *Strategy:* Assert + Navigate
-*See also:* W-2: Understanding Your Rights If You're Let Go (if retaliation follows), L-3: Writing a Demand Letter
+*See also:* W-2: Leaving a Job (if retaliation follows), L-3: Writing a Demand Letter
 *My Man Jeeves:* _One's body is, if one may be permitted the observation, the asset one brings to work. The employer's obligation not to damage it is codified in law, implemented through OSHA, and enforced through a system that requires the worker to know it exists and how to employ it. Workers' compensation is insurance the employer is required to carry. Filing a claim is not an adversarial act — it is the use of the system as designed. The adversarial dimension, one regrets to note, tends to present itself later, should the claim be denied, and it is denied with a frequency that warrants preparation. One's Agent has read the relevant OSHA regulations and can assist with both the filing and the appeal._
 *The Spec:*
 ::: prompt
@@ -422,6 +422,8 @@ Service members and veterans have a parallel benefits track worth naming. TRICAR
 :::
 
 
+[^w11-1]: Vanguard, ["How America Saves 2023."](https://institutional.vanguard.com/content/dam/inst/iig-transformation/has/2023/pdf/has-executive-summary-2023.pdf) The $1,336 figure is the median uncollected match; actual amounts vary by salary and match structure.
+
 [^w11-2]: Social Security Administration, ["Disability Benefits / Basic Facts,"](https://www.ssa.gov/pubs/EN-05-10029.pdf) SSA Publication No. 05-10029. The disability-before-retirement estimate is drawn from SSA's Office of the Chief Actuary projections.
 
 [^w11-3]: TIAA Institute & Global Financial Literacy Excellence Center (GFLEC), ["Personal Finance Index (P-Fin Index),"](https://www.tiaa.org/public/institute/research/personal-finance-index) annual survey.
@@ -429,8 +431,6 @@ Service members and veterans have a parallel benefits track worth naming. TRICAR
 [^w11-4]: IRS, ["Publication 969: Health Savings Accounts and Other Tax-Favored Health Plans,"](https://www.irs.gov/forms-pubs/about-publication-969) and IRS Revenue Procedures (issued annually) for inflation-adjusted limits.
 
 [^w11-5]: Department of Defense, ["Blended Retirement System,"](https://militarypay.defense.gov/BlendedRetirement/) and Thrift Savings Plan, ["Contribution Types,"](https://www.tsp.gov/making-contributions/contribution-types/) at tsp.gov.
-
-[^w11-1]: Vanguard, "How America Saves 2023," https://institutional.vanguard.com/content/dam/inst/iig-transformation/has/2023/pdf/has-executive-summary-2023.pdf. The $1,336 figure is the median uncollected match; actual amounts vary by salary and match structure.
 
 ---
 

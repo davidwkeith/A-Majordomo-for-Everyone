@@ -86,13 +86,11 @@ Carried from the former BRAINSTORM comment in `src/content/02-field-guide/01-hea
 
 ## Pending
 
-- [ ] Editorial notes triage --- domain-by-domain, smallest first (Health, Home, and Work substantially complete; Computer & Web has no memos):
+- [ ] Editorial notes triage --- domain-by-domain, smallest first (Health, Home, Work, Legal, and Money substantially complete; Computer & Web has no memos):
   1. Creative (15)
   2. Chores (17)
-  3. Legal (18)
-  4. IRL (20)
-  5. Transportation (24)
-  6. Civic (27)
-  7. Money (31)
-  8. Life (41)
+  3. IRL (20)
+  4. Transportation (24)
+  5. Civic (27)
+  6. Life (41)
 - [ ] Kidlin's Law ("If you can write the problem down clearly, you're halfway to solving it") --- it's essentially the premise of Strategy 0 and Chapter 4. Decide whether to surface it. Current spec blocks dropping it in as a Strategy 0 epigraph two ways: `spec/editorial/editorial-conventions.md:11` reserves the strategy-chapter epigraph slot for the TRINITRON block, and the same rule bans motivational quotes. Options: (1) add it as a pull-quote between the italic subtitle and the `---` rule, keeping TRINITRON as the epigraph; (2) replace the Seinfeld TRINITRON; (3) amend the spec to allow a second short epigraph on strategy chapters and carve out an aphorism exception. Provenance is also uncertain --- no reliable primary source.
