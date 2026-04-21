@@ -52,3 +52,4 @@ There are also 5 `<!-- EDITORIAL: ... -->` comments (Chores) and 4 `<!-- BRAINST
   9. Civic (27)
   10. Work (31)
   11. Life (39)
+- [ ] Kidlin's Law ("If you can write the problem down clearly, you're halfway to solving it") — it's essentially the premise of Strategy 0 and Chapter 4. Decide whether to surface it. Current spec blocks dropping it in as a Strategy 0 epigraph two ways: `spec/editorial/editorial-conventions.md:11` reserves the strategy-chapter epigraph slot for the TRINITRON block, and the same rule bans motivational quotes. Options: (1) add it as a pull-quote between the italic subtitle and the `---` rule, keeping TRINITRON as the epigraph; (2) replace the Seinfeld TRINITRON; (3) amend the spec to allow a second short epigraph on strategy chapters and carve out an aphorism exception. Provenance is also uncertain — no reliable primary source.
