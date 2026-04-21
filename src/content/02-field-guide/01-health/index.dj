@@ -206,76 +206,107 @@ When patients skip medications, the medical system calls it "non-adherence." In 
 
 ---
 
-#### H-6: Understanding What Medicare or Medicaid Actually Covers
+#### H-6: Understanding What Medicare Actually Covers
 *Strategy:* Decode
-*See also:* H-4: Appealing an Insurance Denial, Li-4: Planning Care for Aging
-*My Man Jeeves:* _Medicare and Medicaid are, it may be helpful to clarify, separate programs with distinct eligibility, distinct coverage, and distinct rules — a distinction that approximately 60% of Americans are unable to describe with accuracy. The former is insurance for age; the latter, for poverty. Both contain gaps of sufficient magnitude to bankrupt the very individuals they were designed to protect. One ventures to suggest that understanding what is covered before the need arises is rather less costly than discovering what is not covered afterward. One's Agent has read both programs and can explain which applies to one's circumstances._
+*See also:* H-4: Appealing an Insurance Denial, H-6b: Understanding What Medicaid Actually Covers, Li-4: Planning Care for Aging
+*My Man Jeeves:* _Medicare is, in principle, straightforward: health insurance for Americans aged 65 and older, or younger if disabled. In practice, it is a four-part system (A, B, C, and D) with enrollment windows that close permanently, late-enrollment penalties that compound for life, and a private-plan alternative (Medicare Advantage) whose marketing budget rather substantially exceeds its obligations of transparency. The most consequential decision --- whether to enroll in Original Medicare or an Advantage plan, and whether to purchase supplemental Medigap coverage --- must be made during windows that the system does not go to great lengths to publicize. One's Agent has read the enrollment rules and can explain which decisions apply to one's circumstances before the window closes._
 *The Spec:*
 ::: prompt
-I [or my family member] am [turning 65 / disabled / low-income /
-helping a parent navigate this] and I need to understand what
-[Medicare / Medicaid / both] actually covers.
-My situation: [state, current insurance, specific health needs,
-income level if relevant to Medicaid]
+I [or my family member] am [turning 65 / disabled / already enrolled
+and reviewing my coverage] and I need to understand what
+Medicare actually covers.
+My situation: [state, current insurance, specific health needs]
 Please explain:
-1. What parts of Medicare or Medicaid apply to my situation
-   (Part A, B, C, D — in plain language)
+1. What parts of Medicare apply to my situation
+   (Part A, B, C, D --- in plain language)
 2. What is NOT covered that people commonly assume is covered
-3. What supplemental coverage I should consider and roughly what it costs
-4. What deadlines or enrollment periods I need to know about
-   — especially penalties for missing them
+3. Whether I should consider Medicare Advantage or stick with
+   Original Medicare --- and what I give up either way
+4. What supplemental (Medigap) coverage I should consider
+   and roughly what it costs
+5. What deadlines or enrollment periods I need to know about
+   --- especially penalties for missing them
 Give me the most conservative, accurate answer --- enrollment mistakes can be permanent.
 :::
-*What to do with the Output:* Circle the deadlines. Medicare enrollment penalties are permanent — missing the initial enrollment period for Part B means a 10% premium increase for every 12-month period you delayed, for the rest of your life. This is the kind of structural penalty that rewards people who already understand the system.
+*What to do with the Output:* Circle the deadlines. Medicare enrollment penalties are permanent --- missing the initial enrollment period for Part B means a 10% premium increase for every 12-month period you delayed, for the rest of your life. This is the kind of structural penalty that rewards people who already understand the system. For Medicaid, long-term care, and dual eligibility, see H-6b.
 
 ::: science
-The Medicare Part D "donut hole" — the coverage gap where beneficiaries paid a larger share of drug costs — was partially closed by the ACA and eliminated by the Inflation Reduction Act of 2022, which restructured Part D to cap total out-of-pocket drug costs at $2,000 in 2025 ($2,100 in 2026, adjusted annually for inflation). Once you hit the cap, covered prescriptions cost $0 for the rest of the year.[^h6-1]
-:::
-
-
-::: fairness
-The One Big Beautiful Bill Act (signed July 2025) restructured Medicaid eligibility. Starting in 2027, expansion-population adults ages 19–64 must document 80 hours per month of work activity or qualify for an exemption — verified every six months, not annually. The Congressional Budget Office estimates 4.8 million people will lose coverage by 2034. If you or a family member is on Medicaid, ask your Agent: _"What are the work requirement exemptions in [my state], and what documentation do I need to stay enrolled?"_ The rules vary by state. The deadlines do not forgive confusion.[^h6-2]
+The Medicare Part D "donut hole" --- the coverage gap where beneficiaries paid a larger share of drug costs --- was partially closed by the ACA and eliminated by the Inflation Reduction Act of 2022, which restructured Part D to cap total out-of-pocket drug costs at $2,000 in 2025 ($2,100 in 2026, adjusted annually for inflation). Once you hit the cap, covered prescriptions cost $0 for the rest of the year.[^h6-1]
 :::
 
 
 ::: science
-The naming confusion is not trivial. KFF polling finds that 62% of Americans either don't know or incorrectly believe that Medicare pays for nursing home and long-term care — it doesn't. Medicaid does. Only 38% get this right. The error is consequential: people plan for retirement assuming Medicare will cover long-term care, then discover at the worst possible moment that it won't. See Li-4.[^h6-3]
-:::
-
-
-::: fairness
-The median American household ages 55–64 holds $185,000 in retirement savings[^h6-4] against a semi-private nursing-home bill that, in 2024, averaged $111,325 a year.[^h6-5] That is roughly 20 months of care before the money is gone. Medicaid covers long-term care after a spend-down: in most states, the nursing-home resident must be reduced to $2,000 in countable assets before qualifying, with a 60-month look-back on any transfers made in advance. Community spouses may retain significantly more under federal protections, but the rules are state-specific and unforgiving of error. This is the math no one teaches before a parent is admitted. For World War II–era veterans --- and for those who served in Korea, Vietnam, the Gulf War, or the post-9/11 period --- VA pension _with Aid and Attendance_ pays a Maximum Annual Pension Rate of up to $2,358 per month in 2025 for a single veteran, $2,795 for a married veteran, and $1,515 for a surviving spouse (figures are the MAPR inclusive of the Aid and Attendance increase, not a separate payment on top), to cover long-term care at home or in a facility.[^h6-6] The benefit requires 90+ days of active duty with at least one day during a congressionally recognized wartime period, and application is via VA Form 21-2680 (plus 21-0779 for nursing-home residents). Ask your Agent: _"My [parent / grandparent / I] served in [branch, years, including any wartime dates]. What VA pension and long-term care benefits apply, and what forms, income documentation, and service records do we need?"_
-:::
-
-
-::: science
-As of 2025, 54% of Medicare beneficiaries --- 34.1 million people --- are enrolled in Medicare Advantage plans; the Congressional Budget Office projects 64% by 2034.[^h6-7] The trade-off is routinely understated in marketing. In 2024, Medicare Advantage insurers processed 53 million prior authorization requests and denied 4.1 million of them (7.7%); UnitedHealth Group, the largest MA insurer, denied 12.8%. Only 11.5% of denials were appealed --- though 80.7% of those appeals were overturned, which suggests most denials are not defensible, but do not have to be.[^h6-8] And the well-marketed fallback of "you can always switch back" is state-dependent. Only four states (Connecticut, Maine, Massachusetts, New York) guarantee Medigap issuance year-round to all beneficiaries 65 and older; in the other 46 states and D.C., a beneficiary who leaves Medicare Advantage for Original Medicare after the first-year trial period can be denied supplemental Medigap coverage on the basis of the very conditions that made them want to leave.[^h6-9] Choose on the 10-year horizon, not the welcome-call pitch.
+As of 2025, 54% of Medicare beneficiaries --- 34.1 million people --- are enrolled in Medicare Advantage plans; the Congressional Budget Office projects 64% by 2034.[^h6-2] The trade-off is routinely understated in marketing. In 2024, Medicare Advantage insurers processed 53 million prior authorization requests and denied 4.1 million of them (7.7%); UnitedHealth Group, the largest MA insurer, denied 12.8%. Only 11.5% of denials were appealed --- though 80.7% of those appeals were overturned, which suggests most denials are not defensible, but do not have to be.[^h6-3] And the well-marketed fallback of "you can always switch back" is state-dependent. Only four states (Connecticut, Maine, Massachusetts, New York) guarantee Medigap issuance year-round to all beneficiaries 65 and older; in the other 46 states and D.C., a beneficiary who leaves Medicare Advantage for Original Medicare after the first-year trial period can be denied supplemental Medigap coverage on the basis of the very conditions that made them want to leave.[^h6-4] Choose on the 10-year horizon, not the welcome-call pitch.
 :::
 
 
 ::: also
-Free, unbiased Medicare counseling is available in every state through the [State Health Insurance Assistance Program (SHIP)](https://www.shiphelp.org/) --- a federally funded network that helps beneficiaries compare plans, challenge denials, and untangle dual-eligibility paperwork. About 12.8 million Americans now qualify for both Medicare and Medicaid.[^h6-10] Call **1-877-839-2675** to reach your local SHIP, or search by ZIP code at shiphelp.org. SHIP counselors are trained, unpaid by plans, and have no financial interest in what you choose --- unlike the licensed agents behind most Medicare television ads.
+Free, unbiased Medicare counseling is available in every state through the [State Health Insurance Assistance Program (SHIP)](https://www.shiphelp.org/) --- a federally funded network that helps beneficiaries compare plans, challenge denials, and untangle dual-eligibility paperwork. About 12.8 million Americans now qualify for both Medicare and Medicaid.[^h6-5] Call **1-877-839-2675** to reach your local SHIP, or search by ZIP code at shiphelp.org. SHIP counselors are trained, unpaid by plans, and have no financial interest in what you choose --- unlike the licensed agents behind most Medicare television ads.
 :::
 
 [^h6-1]: Kaiser Family Foundation, ["An Overview of the Medicare Part D Prescription Drug Benefit."](https://www.kff.org/medicare/a-current-snapshot-of-the-medicare-part-d-prescription-drug-benefit/) See also [Inflation Reduction Act of 2022, Section 11201](https://www.congress.gov/bill/117th-congress/house-bill/5376).
 
-[^h6-2]: Congressional Budget Office (2025). [Cost estimate, One Big Beautiful Bill Act](https://www.cbo.gov/publication/61461), Medicaid provisions. See also KFF, ["A Closer Look at the Work Requirement Provisions in the 2025 Federal Budget Reconciliation Law."](https://www.kff.org/medicaid/a-closer-look-at-the-work-requirement-provisions-in-the-2025-federal-budget-reconciliation-law/)
+[^h6-2]: Ochieng, N., Biniek, J.F., & Neuman, T. (2025). ["Medicare Advantage in 2025: Enrollment Update and Key Trends."](https://www.kff.org/medicare/medicare-advantage-enrollment-update-and-key-trends/) _KFF_. CBO projections from the 2025 Medicare baseline.
 
-[^h6-3]: KFF, ["7 Charts About Public Opinion on Medicaid."](https://www.kff.org/medicaid/7-charts-about-public-opinion-on-medicaid/) See also KFF Health Tracking Poll, ["The Public's Views on Potential Changes to Medicaid."](https://www.kff.org/medicaid/kff-health-tracking-poll-public-views-on-potential-changes-to-medicaid/)
+[^h6-3]: Biniek, J.F. et al. (2025). ["Medicare Advantage Insurers Made Nearly 53 Million Prior Authorization Determinations in 2024."](https://www.kff.org/medicare/medicare-advantage-insurers-made-nearly-53-million-prior-authorization-determinations-in-2024/) _KFF_. Insurer-level denial rates drawn from the same analysis.
 
-[^h6-4]: Federal Reserve Board. [2022 Survey of Consumer Finances](https://www.federalreserve.gov/econres/scfindex.htm). Median retirement account balance for households with reference person ages 55–64. See also CRS, ["Distribution of Retirement Account Balances: Analysis of the 2022 Survey of Consumer Finances."](https://www.congress.gov/crs-product/IF12928)
+[^h6-4]: KFF. ["Medigap Enrollment and Consumer Protections Vary Across States."](https://www.kff.org/medicare/medigap-enrollment-and-consumer-protections-vary-across-states/) See also Medicare.gov, ["Can I switch or drop my Medigap policy?"](https://www.medicare.gov/health-drug-plans/medigap/ready-to-buy/change-policies/switch-drop) The federal 12-month Medicare Advantage trial right is limited; broader state protections exist only in CT, MA, ME, and NY.
 
-[^h6-5]: Genworth & CareScout. ["Cost of Care Survey 2024."](https://www.carescout.com/cost-of-care) National annual median for a semi-private nursing home room, up 7% from 2023. Private-room median: $127,750. Medicaid long-term care asset limits and look-back rules vary by state; for a current overview, see [American Council on Aging / Medicaid Planning Assistance](https://www.medicaidplanningassistance.org/medicaid-eligibility/).
+[^h6-5]: MACPAC/MedPAC. ["Beneficiaries Dually Eligible for Medicare and Medicaid Data Book,"](https://www.macpac.gov/wp-content/uploads/2024/01/Jan24_MedPAC_MACPAC_DualsDataBook-508.pdf) January 2024. SHIP is administered by the [Administration for Community Living](https://acl.gov/programs/connecting-people-services/state-health-insurance-assistance-program-ship).
 
-[^h6-6]: U.S. Department of Veterans Affairs. ["VA Aid and Attendance benefits and Housebound allowance."](https://www.va.gov/pension/aid-attendance-housebound/) 2025 maximum annual pension rates published by VA; figures above convert to monthly. Wartime period definitions are set by statute (38 U.S.C. § 1521); WWII, Korea, Vietnam, the Gulf War, and post-9/11 are all congressionally recognized.
+---
 
-[^h6-7]: Ochieng, N., Biniek, J.F., & Neuman, T. (2025). ["Medicare Advantage in 2025: Enrollment Update and Key Trends."](https://www.kff.org/medicare/medicare-advantage-enrollment-update-and-key-trends/) _KFF_. CBO projections from the 2025 Medicare baseline.
+#### H-6b: Understanding What Medicaid Actually Covers
+*Strategy:* Decode
+*See also:* H-6: Understanding What Medicare Actually Covers, H-4: Appealing an Insurance Denial, Li-4: Planning Care for Aging
+*My Man Jeeves:* _Medicaid occupies, in the public imagination, a rather narrower role than it in fact performs. It is not merely insurance for the very poor --- it is the only major federal program that covers long-term nursing-home care, a fact that approximately 62% of Americans attribute, incorrectly, to Medicare. Following the One Big Beautiful Bill Act of 2025, it is also, for the first time in its history, a program with work requirements --- requirements that the Congressional Budget Office estimates will remove 4.8 million people from coverage by 2034. The eligibility rules are state-specific, the asset limits for long-term care are unforgiving, and the application process assumes a degree of bureaucratic fluency that the populations it serves are, by definition, least likely to possess. One's Agent has read the rules for one's state and can explain what applies before the paperwork is due._
+*The Spec:*
+::: prompt
+I [or my family member] am [low-income / applying for long-term care /
+helping a parent who may need a nursing home / recently lost coverage]
+and I need to understand what Medicaid covers in my state.
+My situation: [state, income level, assets, specific health needs,
+whether this involves long-term care]
+Please explain:
+1. What Medicaid covers in my state --- especially long-term care
+2. What the income and asset limits are for eligibility
+3. Whether work requirements apply to me and what exemptions exist
+4. What happens to a spouse's assets if one partner needs
+   nursing-home care (community spouse protections)
+5. What the application process looks like and what deadlines matter
+Give me the most conservative, accurate answer --- Medicaid rules vary by state
+and mistakes can cost years of eligibility.
+:::
+*What to do with the Output:* Verify the state-specific details directly with your state Medicaid office or a certified application counselor --- rules change annually and your Agent's training data may lag. If long-term care is involved, consult an elder law attorney before transferring any assets; the 60-month look-back is unforgiving.
 
-[^h6-8]: Biniek, J.F. et al. (2025). ["Medicare Advantage Insurers Made Nearly 53 Million Prior Authorization Determinations in 2024."](https://www.kff.org/medicare/medicare-advantage-insurers-made-nearly-53-million-prior-authorization-determinations-in-2024/) _KFF_. Insurer-level denial rates drawn from the same analysis.
+::: fairness
+The One Big Beautiful Bill Act (signed July 2025) requires expansion-population adults ages 19–64 to document 80 hours per month of work activity or qualify for an exemption --- verified every six months, not annually. If you or a family member is on Medicaid, ask your Agent: _"What are the work requirement exemptions in [my state], and what documentation do I need to stay enrolled?"_ The rules vary by state. The deadlines do not forgive confusion.[^h6b-1]
+:::
 
-[^h6-9]: KFF. ["Medigap Enrollment and Consumer Protections Vary Across States."](https://www.kff.org/medicare/medigap-enrollment-and-consumer-protections-vary-across-states/) See also Medicare.gov, ["Can I switch or drop my Medigap policy?"](https://www.medicare.gov/health-drug-plans/medigap/ready-to-buy/change-policies/switch-drop) The federal 12-month Medicare Advantage trial right is limited; broader state protections exist only in CT, MA, ME, and NY.
 
-[^h6-10]: MACPAC/MedPAC. ["Beneficiaries Dually Eligible for Medicare and Medicaid Data Book,"](https://www.macpac.gov/wp-content/uploads/2024/01/Jan24_MedPAC_MACPAC_DualsDataBook-508.pdf) January 2024. SHIP is administered by the [Administration for Community Living](https://acl.gov/programs/connecting-people-services/state-health-insurance-assistance-program-ship).
+::: science
+The confusion shapes retirement planning in a way the research documents as consequential: families spend working lives contributing to Medicare, assume it includes long-term care, and discover at the moment of crisis that it does not. Medicaid is the safety net --- but qualifying for long-term care coverage requires a spend-down to near-zero assets that cannot be planned in advance unless the rules are understood years before they apply. See Li-4.[^h6b-2]
+:::
+
+
+::: fairness
+The median American household ages 55–64 holds $185,000 in retirement savings[^h6b-3] against a semi-private nursing-home bill that, in 2024, averaged $111,325 a year.[^h6b-4] That is roughly 20 months of care before the money is gone. Medicaid covers long-term care after a spend-down: in most states, the nursing-home resident must be reduced to $2,000 in countable assets before qualifying, with a 60-month look-back on any transfers made in advance. Community spouses may retain significantly more under federal protections, but the rules are state-specific and unforgiving of error. This is the math no one teaches before a parent is admitted.
+:::
+
+
+::: also
+For World War II–era veterans --- and for those who served in Korea, Vietnam, the Gulf War, or the post-9/11 period --- VA pension _with Aid and Attendance_ pays a Maximum Annual Pension Rate of up to $2,358 per month in 2025 for a single veteran, $2,795 for a married veteran, and $1,515 for a surviving spouse (figures are the MAPR inclusive of the Aid and Attendance increase, not a separate payment on top), to cover long-term care at home or in a facility.[^h6b-5] The benefit requires 90+ days of active duty with at least one day during a congressionally recognized wartime period, and application is via VA Form 21-2680 (plus 21-0779 for nursing-home residents). Ask your Agent: _"My [parent / grandparent / I] served in [branch, years, including any wartime dates]. What VA pension and long-term care benefits apply, and what forms, income documentation, and service records do we need?"_
+:::
+
+[^h6b-1]: Congressional Budget Office (2025). [Cost estimate, One Big Beautiful Bill Act](https://www.cbo.gov/publication/61461), Medicaid provisions. See also KFF, ["A Closer Look at the Work Requirement Provisions in the 2025 Federal Budget Reconciliation Law."](https://www.kff.org/medicaid/a-closer-look-at-the-work-requirement-provisions-in-the-2025-federal-budget-reconciliation-law/)
+
+[^h6b-2]: KFF, ["7 Charts About Public Opinion on Medicaid."](https://www.kff.org/medicaid/7-charts-about-public-opinion-on-medicaid/) See also KFF Health Tracking Poll, ["The Public's Views on Potential Changes to Medicaid."](https://www.kff.org/medicaid/kff-health-tracking-poll-public-views-on-potential-changes-to-medicaid/)
+
+[^h6b-3]: Federal Reserve Board. [2022 Survey of Consumer Finances](https://www.federalreserve.gov/econres/scfindex.htm). Median retirement account balance for households with reference person ages 55–64. See also CRS, ["Distribution of Retirement Account Balances: Analysis of the 2022 Survey of Consumer Finances."](https://www.congress.gov/crs-product/IF12928)
+
+[^h6b-4]: Genworth & CareScout. ["Cost of Care Survey 2024."](https://www.carescout.com/cost-of-care) National annual median for a semi-private nursing home room, up 7% from 2023. Private-room median: $127,750. Medicaid long-term care asset limits and look-back rules vary by state; for a current overview, see [American Council on Aging / Medicaid Planning Assistance](https://www.medicaidplanningassistance.org/medicaid-eligibility/).
+
+[^h6b-5]: U.S. Department of Veterans Affairs. ["VA Aid and Attendance benefits and Housebound allowance."](https://www.va.gov/pension/aid-attendance-housebound/) 2025 maximum annual pension rates published by VA; figures above convert to monthly. Wartime period definitions are set by statute (38 U.S.C. § 1521); WWII, Korea, Vietnam, the Gulf War, and post-9/11 are all congressionally recognized.
 
 ---
 
