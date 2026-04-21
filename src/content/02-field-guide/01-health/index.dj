@@ -129,7 +129,7 @@ hostile --- I may need to escalate further.
 
 [appeal-letter]{.art}
 
-*Science Note:* First-level internal appeals succeed at rates between 39-59% depending on plan type (KFF, 2023). Most people never file one.[^h4-1]
+*Science Note:* First-level internal appeals succeed at rates between 39--59% depending on plan type (KFF, 2023). Most people never file one.[^h4-1]
 
 [^h4-1]: Kaiser Family Foundation (2023). "Claims Denials and Appeals in ACA Marketplace Plans." The appeal success rate data makes the low filing rate one of the most consequential information asymmetries in American healthcare.
 
@@ -396,20 +396,22 @@ I could adjust first.
 #### Drugs: What the Egg Should Have Been
 
 ::: meme
-In 1987, the Partnership for a Drug-Free America aired a public service announcement showing an egg frying in a pan. _"This is your brain on drugs."_ It ran for a decade. It won awards. It did not distinguish between caffeine and heroin, between a prescribed medication and a street drug, between use and addiction. It replaced pharmacology with a skillet and called it education. A generation learned that all drugs are the same, all use is abuse, and the correct response to a complex neurochemical question is fear. [D.A.R.E.](https://en.wikipedia.org/wiki/Drug%5FAbuse%5FResistance%5FEducation) followed the same logic. Multiple longitudinal studies found it had no significant effect on drug use and may have increased curiosity.[^hd-1] The campaign was funded in part by Philip Morris, Anheuser-Busch, and RJ Reynolds — which may explain why the legal drug responsible for more harm than any other was not in the frying pan.[^hd-1] The entries that follow are what the egg should have been: the science, simplified, without the moralizing.
+In 1987, the Partnership for a Drug-Free America aired a public service announcement showing an egg frying in a pan. _"This is your brain on drugs."_ It ran for a decade. It won awards. It did not distinguish between caffeine and heroin, between a prescribed medication and a street drug, between use and addiction. It replaced pharmacology with a skillet and called it education. A generation learned that all drugs are the same, all use is abuse, and the correct response to a complex neurochemical question is fear. [D.A.R.E.](https://en.wikipedia.org/wiki/Drug%5FAbuse%5FResistance%5FEducation) followed the same logic. Multiple longitudinal studies found it had no significant effect on drug use and may have increased curiosity.[^hd-1] The campaign was funded in part by Philip Morris, Anheuser-Busch, and RJ Reynolds — which may explain why the legal drug responsible for more harm than any other was not in the frying pan.[^hd-2] The entries that follow are what the egg should have been: the science, simplified, without the moralizing.
 :::
 
 
 [^hd-1]: West, S.L. & O'Neal, K.K. (2004). "Project D.A.R.E. Outcome Effectiveness Revisited." _American Journal of Public Health_, 94(6), 1027–1030. A 2002 NIDA-commissioned evaluation of anti-drug media campaigns found no significant effect on reducing drug use.
 
+[^hd-2]: Buchanan, D.R. & Wallack, L. (1998). ["This Is the Partnership for a Drug-Free America: Any Questions?"](https://journals.sagepub.com/doi/10.1177/002204269802800204) _Journal of Drug Issues_, 28(2), 206–224. Documents funding from Philip Morris, RJR Nabisco, and Anheuser-Busch based on the organization's federal tax filings. See also Cotts, C. (1992). "Hard Sell in the Drug War." _The Nation_, March 9, 1992.
+
 You are not dumb for being confused about drugs. You are navigating a system where the legal classification is political, the marketing is pharmaceutical, the enforcement is racial, and the science is locked behind a scheduling regime that makes it illegal to study the substances it claims are too dangerous to study. Your Agent reads the pharmacology, not the politics.
 
 ::: science
-In 2010, David Nutt and colleagues published a harm ranking of 20 drugs in _The Lancet_, scoring each on 16 criteria including mortality, dependence, injury, crime, and social cost. Alcohol ranked first overall --- the most harmful drug when harms to both the user and others were combined. Heroin and crack cocaine ranked second and third. Cannabis ranked eighth. Mushrooms ranked last.[^hd-2] The ranking did not align with the legal schedule in any country studied.
+In 2010, David Nutt and colleagues published a harm ranking of 20 drugs in _The Lancet_, scoring each on 16 criteria including mortality, dependence, injury, crime, and social cost. Alcohol ranked first overall --- the most harmful drug when harms to both the user and others were combined. Heroin and crack cocaine ranked second and third. Cannabis ranked eighth. Mushrooms ranked last.[^hd-3] The ranking did not align with the legal schedule in any country studied.
 :::
 
 
-[^hd-2]: Nutt, D.J., King, L.A., & Phillips, L.D. (2010). "Drug harms in the UK: a multicriteria decision analysis." _The Lancet_, 376(9752), 1558–1565.
+[^hd-3]: Nutt, D.J., King, L.A., & Phillips, L.D. (2010). "Drug harms in the UK: a multicriteria decision analysis." _The Lancet_, 376(9752), 1558–1565.
 
 ---
 
@@ -667,11 +669,11 @@ Give me the most conservative, accurate answer.
 :::
 
 ::: science
-The DEA's scheduling system was established by the Controlled Substances Act of 1970. Schedule I is defined as having "no currently accepted medical use" and "a high potential for abuse." Cannabis, psilocybin, and MDMA are all Schedule I. Cocaine and methamphetamine are Schedule II -- meaning the federal government considers them to have accepted medical uses. Methamphetamine is FDA-approved as Desoxyn for ADHD. Street meth and pharmaceutical meth are the same molecule. The scheduling does not align with the scientific harm rankings.[^h15-1]
+The DEA's scheduling system was established by the Controlled Substances Act of 1970. Schedule I is defined as having "no currently accepted medical use" and "a high potential for abuse." Cannabis, psilocybin, and MDMA are all Schedule I. Cocaine and methamphetamine are Schedule II --- meaning the federal government considers them to have accepted medical uses. Methamphetamine is FDA-approved as Desoxyn for ADHD. Street meth and pharmaceutical meth are the same molecule. The scheduling does not align with the scientific harm rankings.[^h15-1]
 :::
 
 
-[^h15-1]: The DEA initiated a review to potentially reschedule cannabis from Schedule I to Schedule III in 2024. As of this writing, the process is ongoing.
+[^h15-1]: Drug Enforcement Administration. ["Schedules of Controlled Substances: Rescheduling of Marijuana."](https://www.federalregister.gov/documents/2024/05/21/2024-11137/schedules-of-controlled-substances-rescheduling-of-marijuana) 89 Fed. Reg. 44597 (proposed May 21, 2024). The NPRM proposed moving cannabis from Schedule I to Schedule III; DEA received over 42,000 comments and scheduled an administrative hearing. The ALJ postponed the hearing in January 2025 and retired in August 2025 without a replacement. As of this writing, the rulemaking is stalled.
 
 ---
 

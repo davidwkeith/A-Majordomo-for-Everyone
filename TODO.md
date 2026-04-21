@@ -36,9 +36,9 @@ Systematic issues (em dashes, number formatting, footnote IDs) fixed. The follow
 
 ### Citation Issues
 
-- [ ] **Missing citation for tobacco/alcohol funding claim (drugs intro):** "The campaign was funded in part by Philip Morris, Anheuser-Busch, and RJ Reynolds" shares `[^hd-1]` with the DARE effectiveness claim, but the footnote only covers West & O'Neal (2004). The funding claim needs its own source.
-- [ ] **Footnote h15-1 is a status note, not a citation:** "The DEA initiated a review to potentially reschedule cannabis from Schedule I to Schedule III in 2024. As of this writing, the process is ongoing." Either cite the DEA/DOJ announcement or convert to `<!-- RESEARCH NEEDED -->`.
-- [ ] **H-4 Science Note range formatting:** "39-59%" uses a hyphen; style guide says en dash for numeric ranges (`39--59%`).
+- [x] **Missing citation for tobacco/alcohol funding claim (drugs intro):** Split into `[^hd-2]` citing Buchanan & Wallack (1998), _Journal of Drug Issues_.
+- [x] **Footnote h15-1 is a status note, not a citation:** Replaced with 89 Fed. Reg. 44597 (proposed May 21, 2024) and current status (ALJ retired August 2025, rulemaking stalled).
+- [x] **H-4 Science Note range formatting:** Fixed hyphen to en dash (`39--59%`).
 
 ### Structural Issues
 
