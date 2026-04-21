@@ -100,7 +100,7 @@ To make this Expert Role persistent across sessions, save it as a *Project* (Cla
 
 #### Tr-3: Public Transit, Cycling, and Walkability
 *Strategy:* Research + Navigate
-*See also:* Li-5: Planning Trips (for transit in unfamiliar cities), C-4: Advocating for Change (for local transit advocacy)
+*See also:* Li-5: Planning Trips (for transit in unfamiliar cities), C-6: Advocating for Change (for local transit advocacy)
 *My Man Jeeves:* _It would appear that the United States has devoted the better part of seventy years to constructing an infrastructure that assumes every adult to be in possession of a motor car. The consequence, one might observe, is a country in which not driving is regarded as a personal failing rather than a design outcome. In cities where functional transit, cycling infrastructure, and walkable neighborhoods exist, car-free or car-light living saves thousands of dollars per year and improves health outcomes measurably. In cities where these things do not exist, the absence is a policy choice, not an inevitability — and it can be altered at the local level, by those who present themselves at the relevant meetings. One's Agent can help one evaluate the options, calculate the savings, and — should advocacy be required — prepare for the meeting._
 *The Spec:*
 ::: prompt
@@ -276,7 +276,7 @@ Give me the honest math, not the company's recruitment pitch.
 *What to do with the Output:* If you're a rider, the practical move is knowing when not to surge: your Agent can tell you that walking two blocks outside a surge zone, waiting 10 minutes, or switching apps often drops the price 30--50%. If you're a driver, paste your last month's earnings and expenses and ask your Agent to calculate your true hourly wage after all costs. That number is the one the platform doesn't show you.
 
 ::: fairness
-Rideshare companies classify drivers as independent contractors, which shifts the cost of fuel, insurance, maintenance, and health coverage to the driver while the company controls pricing, routing, and access to the platform. The "be your own boss" framing obscures a power imbalance that labor economists describe as algorithmic management. Your Agent can help a driver calculate true earnings, but it can't fix the structural problem. For that, see C-4: Advocating for Change.
+Rideshare companies classify drivers as independent contractors, which shifts the cost of fuel, insurance, maintenance, and health coverage to the driver while the company controls pricing, routing, and access to the platform. The "be your own boss" framing obscures a power imbalance that labor economists describe as algorithmic management. Your Agent can help a driver calculate true earnings, but it can't fix the structural problem. For that, see C-6: Advocating for Change.
 :::
 
 
