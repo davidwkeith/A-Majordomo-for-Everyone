@@ -25,7 +25,8 @@ _A printable PDF version is available at [a-majordomo-for-everyone.dwk.io/quick-
 | H-3: Decoding a Medical Bill or EOB (and Negotiating What You Owe) | Decode + Assert | "I received this medical bill / Explanation of Benefits..." |
 | H-4: Appealing an Insurance Denial | Navigate + Draft | "My insurance denied [procedure/claim] with the reason..." |
 | H-5: Managing a Chronic Condition Day-to-Day | Research | "I have [chronic condition] and I've been managing it for [time period]..." |
-| H-6: Understanding What Medicare or Medicaid Actually Covers | Decode | "I [or my family member] am [turning 65 / disabled / low-income]..." |
+| H-6: Understanding What Medicare Actually Covers | Decode | "I [or my family member] am [turning 65 / disabled / already enrolled]..." |
+| H-6b: Understanding What Medicaid Actually Covers | Decode | "I [or my family member] am [low-income / applying for long-term care]..." |
 | H-7: Preparing for End-of-Life Conversations | Prepare | "I need to have a conversation with [my parent / family member] about their end-of-life wishes..." |
 | H-8: Wellness and Nutrition Coach | Research + Draft (Expert Role) | "Act as a knowledgeable wellness and nutrition coach..." |
 | H-9: Understanding Your Prescription | Decode | "My doctor prescribed [drug name] for [condition]..." |

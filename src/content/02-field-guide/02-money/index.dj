@@ -229,7 +229,7 @@ Despite the [Fair Housing Act](https://www.justice.gov/crt/fair-housing-act-2) (
 
 #### M-4: Collections and Bankruptcy
 *Strategy:* Assert + Decode
-*See also:* L-3: Writing a Demand Letter, M-2: Credit Cards and Debt, H-6: Understanding What Medicare or Medicaid Actually Covers (medical debt is the leading cause of bankruptcy)
+*See also:* L-3: Writing a Demand Letter, M-2: Credit Cards and Debt, H-6: Understanding What Medicare Actually Covers, H-6b: Understanding What Medicaid Actually Covers (medical debt is the leading cause of bankruptcy)
 *My Man Jeeves:* _The debt collection industry, if one may characterize it plainly, is constructed upon the assumption that the person receiving the telephone call is unaware of the protections available to them. A collector who rings has, in the ordinary course of events, purchased the debt for pennies on the dollar and is now endeavoring to recover the full amount plus fees. The Fair Debt Collection Practices Act exists to regulate this interaction. That most people in collections have never encountered it is not, one ventures to suggest, accidental — the business model depends rather entirely upon the information gap. An Agent has read the FDCPA. One would recommend doing so oneself as well._
 *The Spec:*
 ::: prompt
@@ -304,7 +304,7 @@ The psychology of being in collections resembles chronic stress in a measurable 
 
 #### M-5: Retirement and Investing
 *Strategy:* Research + Decide
-*See also:* M-6: Financial Coach, H-6: Understanding What Medicare or Medicaid Actually Covers, Li-4: Planning Care for Aging
+*See also:* M-6: Financial Coach, H-6: Understanding What Medicare Actually Covers, H-6b: Understanding What Medicaid Actually Covers, Li-4: Planning Care for Aging
 *My Man Jeeves:* _One might note that the retirement system in the United States transferred the risk of retirement from employers to individuals in a single generation. One's parents may have enjoyed a pension — a defined benefit that guaranteed income for life. One now has, in its place, a 401(k) — a defined contribution that guarantees nothing beyond the certainty that one bears the investment risk, the longevity risk, and the fee structure. The financial services industry collects in excess of $100 billion per year in fees for the management of Americans' retirement savings.[^m5-5] An Agent, it is perhaps worth observing, charges no fee whatever and has read the same research the fee-charging advisors cite._
 *The Spec:*
 ::: prompt

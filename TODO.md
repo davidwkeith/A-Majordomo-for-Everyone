@@ -52,8 +52,8 @@ Systematic issues (em dashes, number formatting, footnote IDs) fixed. The follow
 
 ### Density / Readability
 
-- [ ] **H-6 fairness callout (nursing home / VA pension) is doing too much:** Single callout covers Medicaid spend-down, 60-month look-back, community spouse protections, AND VA Aid & Attendance. Consider splitting into two callouts.
-- [ ] **H-6 is functionally three entries:** Covers Medicare, Medicaid, Medicare Advantage, Medigap, dual eligibility, and the One Big Beautiful Bill Act. 10 footnotes, 6 callouts. Consider whether Medicare and Medicaid deserve separate entries.
+- [x] **H-6 fairness callout split:** Nursing home math stays in `::: fairness`; VA Aid & Attendance moved to its own `::: also` (following H-7 pattern for veterans benefits).
+- [x] **H-6 split into H-6 + H-6b:** H-6 now covers Medicare (enrollment, Part D, Medicare Advantage, Medigap, SHIP). H-6b covers Medicaid (eligibility, work requirements, long-term care, spend-down, VA pension). Each has its own Jeeves opener, spec, and footnotes. Cross-references updated.
 
 ---
 
