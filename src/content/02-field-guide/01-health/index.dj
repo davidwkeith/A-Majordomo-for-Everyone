@@ -6,7 +6,7 @@ strategy: null
 status: "draft"
 ---
 
-### HEALTH
+### Health
 
 _There is a political movement to Make America Healthy Again. This book is not about that. This book is about making *you* healthy — one diagnosis, one bill, one appointment, one prescription at a time. America's health is a policy debate. Your health is a series of decisions made under pressure, with incomplete information, in a system designed for billing, not for healing. The billionaire class navigates this system with concierge physicians, patient advocates, and attorneys who specialize in insurance appeals. You have your Agent. The entries that follow close the gap between what you can afford and what you can know._
 
@@ -30,6 +30,7 @@ what this means. Please explain in plain language:
 3. What the standard treatment options are
 4. What questions I should ask at my next appointment
 Do not assume any medical knowledge on my part.
+I will bring this to my next appointment to verify.
 :::
 *What to do with the Output:* Use it to make your question list before the next appointment (see H-2). Do not use it to second-guess your doctor's treatment recommendation — use it to understand it. For ongoing conditions, see also H-5: Managing a Chronic Condition and H-8: Wellness and Nutrition Coach.
 
@@ -154,6 +155,7 @@ Please help me:
 2. Identify patterns or triggers I should be tracking
 3. Suggest questions to ask my doctor at my next appointment
 4. Point me toward support resources (online communities, organizations)
+I will discuss any changes with my doctor before starting.
 :::
 *What to do with the Output:* Start a symptom log. Even a simple daily note — what you ate, how you slept, pain level, energy level — gives your doctor data they cannot get any other way and gives your Agent the specificity to help you identify patterns. The log is the treatment between treatments.
 
@@ -222,6 +224,7 @@ Please explain:
 3. What supplemental coverage I should consider and roughly what it costs
 4. What deadlines or enrollment periods I need to know about
    — especially penalties for missing them
+Give me the most conservative, accurate answer --- enrollment mistakes can be permanent.
 :::
 *What to do with the Output:* Circle the deadlines. Medicare enrollment penalties are permanent — missing the initial enrollment period for Part B means a 10% premium increase for every 12-month period you delayed, for the rest of your life. This is the kind of structural penalty that rewards people who already understand the system.
 
@@ -316,7 +319,7 @@ Pauline Boss, who coined the term in the 1970s, describes _ambiguous loss_ as gr
 :::
 
 
-::: tip
+::: science
 Five Wishes meets advance directive requirements in 46 states and D.C. Four states — Kansas, New Hampshire, Ohio, and Texas — require the state statutory form instead. Witness and notarization rules vary: most states require two witnesses; six require notarization. [CaringInfo.org](https://www.caringinfo.org/planning/advance-directives/by-state/) provides free state-specific forms. A separate document — POLST (Physician Orders for Life-Sustaining Treatment) — translates your wishes into medical orders that EMTs are required to follow. An advance directive alone does not do this. Many families have one without the other. Ask your Agent: _"What are the advance directive and POLST requirements in [my state]?"_[^h7-1]
 :::
 
@@ -356,6 +359,7 @@ My situation:
 — Constraints: [dietary restrictions, budget, time, cooking skill]
 — What I've tried before: [if anything]
 What would you recommend, and where should I start?
+If any of this might conflict with a health condition, flag it.
 :::
 *What to do with the Output:* Use it as a starting framework, not a prescription. If you have a specific health condition, verify any significant dietary changes with your doctor. The calibration question applies here: _"How confident are you in this recommendation, and is there anything about my situation where you'd want me to check with a professional?"_
 
@@ -393,7 +397,7 @@ I could adjust first.
 
 ---
 
-#### Drugs: What the Egg Should Have Been
+### Drugs: What the Egg Should Have Been
 
 ::: meme
 In 1987, the Partnership for a Drug-Free America aired a public service announcement showing an egg frying in a pan. _"This is your brain on drugs."_ It ran for a decade. It won awards. It did not distinguish between caffeine and heroin, between a prescribed medication and a street drug, between use and addiction. It replaced pharmacology with a skillet and called it education. A generation learned that all drugs are the same, all use is abuse, and the correct response to a complex neurochemical question is fear. [D.A.R.E.](https://en.wikipedia.org/wiki/Drug%5FAbuse%5FResistance%5FEducation) followed the same logic. Multiple longitudinal studies found it had no significant effect on drug use and may have increased curiosity.[^hd-1] The campaign was funded in part by Philip Morris, Anheuser-Busch, and RJ Reynolds — which may explain why the legal drug responsible for more harm than any other was not in the frying pan.[^hd-2] The entries that follow are what the egg should have been: the science, simplified, without the moralizing.
@@ -493,6 +497,7 @@ I want to understand:
 5. What the actual risk profile looks like — not "drugs are bad,"
    but what the research says about harm at different levels of use
 Use plain language. I want the pharmacology, not the moral lesson.
+If this substance interacts dangerously with common medications, flag it even if I didn't ask.
 :::
 *What to do with the Output:* Use it as a baseline. If you or someone you know uses this substance, the mechanism of action tells you what to watch for. If the risk profile doesn't match the legal classification, that's not a glitch — it's the point of asking.
 
@@ -528,6 +533,7 @@ I want to:
 3. Know what questions to ask about risks and alternatives
 4. Have language that is assertive without being combative
 :::
+*What to do with the Output:* Bring it to the appointment. The clinical terminology your Agent provided is a tool --- it signals that you've done your homework and makes dismissal harder. If the doctor still won't engage, ask them to document their refusal in your chart.
 
 ::: fairness
 Pain assessment has documented racial and gender bias. Studies show Black patients are systematically undertreated for pain compared to white patients, and women's pain is more frequently attributed to psychological causes.[^h12-1] If you feel your pain is being dismissed, you are not imagining it. Ask your Agent to help you document your symptoms with clinical language, and bring the documentation.
@@ -580,7 +586,9 @@ Please help me understand and/or act:
 5. What my insurance is required to cover (Mental Health Parity Act)
 6. What options exist if I'm uninsured or underinsured
 7. What to do right now --- tonight --- if this is urgent
+I will verify treatment recommendations with a medical professional.
 :::
+*What to do with the Output:* If you're looking for treatment, start with [findtreatment.gov](https://findtreatment.gov) and use the red-flag checklist to screen facilities. If this is for someone you care about, the output is also preparation for the conversation with them --- see Li-1.
 
 ::: science
 *Tolerance* means your body adapts to a substance so you need more for the same effect. *Physical dependence* means your body has adapted so that stopping causes withdrawal symptoms. *Addiction* (substance use disorder) means compulsive use despite negative consequences, driven by changes in the brain's reward and decision-making circuits. You can be physically dependent without being addicted — every coffee drinker who gets a headache without caffeine is dependent. And you can be addicted without physical dependence. Genetic factors account for roughly 40–60% of addiction vulnerability, which is why some people can use a substance casually and others cannot. The three concepts are related but not the same.[^h13-1]
@@ -627,7 +635,9 @@ Please give me:
 4. Where to find local resources without involving law enforcement
 Be direct. I am not looking for a lecture. I am looking for
 information that keeps people alive.
+Err on the side of caution.
 :::
+*What to do with the Output:* Save the safety information where you can reach it fast. If naloxone came up, get it before you need it --- it's over the counter at most pharmacies. If the information is for someone else, share it without a lecture attached.
 
 ::: science
 Naloxone (brand name Narcan) reverses opioid overdoses and has been available over the counter in the United States since March 2023. It has no effect on someone who has not taken opioids. It cannot be misused. It is estimated to have reversed over 50,000 overdoses in the U.S.[^h14-2] Fentanyl test strips detect fentanyl contamination in drug supplies --- studies show people who test positive modify their behavior (use less, use with others present, keep naloxone nearby).[^h14-3] Both are available at most pharmacies.
@@ -696,9 +706,10 @@ I want to understand:
 5. What questions I should ask any provider before committing
 I want the science and the skepticism, not the marketing.
 :::
+*What to do with the Output:* Use the provider questions as a screening checklist. If a provider can't answer them directly, that tells you something. Do not proceed with any substance your Agent flagged as risky for your specific conditions or medications without discussing it with your doctor.
 
 ::: science
-The FDA granted "breakthrough therapy" designation to psilocybin for treatment-resistant depression (Compass Pathways, 2018) and to MDMA for PTSD (MAPS, 2017). Breakthrough designation is not approval -- it means the FDA considers the preliminary evidence compelling enough to expedite the review process. Australia became the first country to approve both for supervised psychiatric use in 2023.[^h16-2]
+The FDA granted "breakthrough therapy" designation to psilocybin for treatment-resistant depression (Compass Pathways, 2018) and to MDMA for PTSD (MAPS, 2017). Breakthrough designation is not approval --- it means the FDA considers the preliminary evidence compelling enough to expedite the review process. Australia became the first country to approve both for supervised psychiatric use in 2023.[^h16-2]
 :::
 
 

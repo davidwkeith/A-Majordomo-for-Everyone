@@ -42,11 +42,11 @@ Systematic issues (em dashes, number formatting, footnote IDs) fixed. The follow
 
 ### Structural Issues
 
-- [ ] **Missing "What to do with the Output"** in H-12 (Pain Management), H-13 (Understanding Addiction), H-14 (Harm Reduction), H-16 (Evaluating Psychedelic Therapy). All high-stakes entries where a concrete next step matters.
-- [ ] **"Drugs: What the Egg Should Have Been" heading level:** Currently h4 (`####`), same level as entries. This is a thematic section divider parallel to `### HEALTH` --- should be h3 (`###`).
-- [ ] **Domain heading ALL CAPS:** `### HEALTH` should be `### Health` per title case convention.
-- [ ] **Conservative-answer convention underused:** H-1, H-5, H-6, H-8, H-11, H-13, H-14 are high-stakes entries whose specs lack the guard language ("Give me the most conservative answer" / "I will verify with [professional type]").
-- [ ] **H-7 tip callout (Five Wishes state requirements) is mistyped:** Tagged `::: tip` but contains detailed legal/regulatory information (state acceptance, witness/notarization rules, POLST distinction). Reads as `::: science` or `::: also`.
+- [x] **Missing "What to do with the Output"** in H-12, H-13, H-14, H-16. Added concrete next steps to all four.
+- [x] **"Drugs: What the Egg Should Have Been" heading level:** Changed from h4 to h3.
+- [x] **Domain heading ALL CAPS:** Changed to `### Health`.
+- [x] **Conservative-answer convention:** Added guard language to specs in H-1, H-5, H-6, H-8, H-11, H-13, H-14.
+- [x] **H-7 tip callout (Five Wishes state requirements):** Retyped from `::: tip` to `::: science`.
 
 ### Density / Readability
 
