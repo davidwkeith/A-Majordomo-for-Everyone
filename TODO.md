@@ -30,6 +30,31 @@ Health resolved in the 2026-04-20 session: all 10 original memos surfaced into p
 
 ---
 
+## Health Chapter Editorial Review (2026-04-21)
+
+Systematic issues (em dashes, number formatting, footnote IDs) fixed. The following remain.
+
+### Citation Issues
+
+- [ ] **Missing citation for tobacco/alcohol funding claim (drugs intro):** "The campaign was funded in part by Philip Morris, Anheuser-Busch, and RJ Reynolds" shares `[^hd-1]` with the DARE effectiveness claim, but the footnote only covers West & O'Neal (2004). The funding claim needs its own source.
+- [ ] **Footnote h15-1 is a status note, not a citation:** "The DEA initiated a review to potentially reschedule cannabis from Schedule I to Schedule III in 2024. As of this writing, the process is ongoing." Either cite the DEA/DOJ announcement or convert to `<!-- RESEARCH NEEDED -->`.
+- [ ] **H-4 Science Note range formatting:** "39-59%" uses a hyphen; style guide says en dash for numeric ranges (`39--59%`).
+
+### Structural Issues
+
+- [ ] **Missing "What to do with the Output"** in H-12 (Pain Management), H-13 (Understanding Addiction), H-14 (Harm Reduction), H-16 (Evaluating Psychedelic Therapy). All high-stakes entries where a concrete next step matters.
+- [ ] **"Drugs: What the Egg Should Have Been" heading level:** Currently h4 (`####`), same level as entries. This is a thematic section divider parallel to `### HEALTH` --- should be h3 (`###`).
+- [ ] **Domain heading ALL CAPS:** `### HEALTH` should be `### Health` per title case convention.
+- [ ] **Conservative-answer convention underused:** H-1, H-5, H-6, H-8, H-11, H-13, H-14 are high-stakes entries whose specs lack the guard language ("Give me the most conservative answer" / "I will verify with [professional type]").
+- [ ] **H-7 tip callout (Five Wishes state requirements) is mistyped:** Tagged `::: tip` but contains detailed legal/regulatory information (state acceptance, witness/notarization rules, POLST distinction). Reads as `::: science` or `::: also`.
+
+### Density / Readability
+
+- [ ] **H-6 fairness callout (nursing home / VA pension) is doing too much:** Single callout covers Medicaid spend-down, 60-month look-back, community spouse protections, AND VA Aid & Attendance. Consider splitting into two callouts.
+- [ ] **H-6 is functionally three entries:** Covers Medicare, Medicaid, Medicare Advantage, Medigap, dual eligibility, and the One Big Beautiful Bill Act. 10 footnotes, 6 callouts. Consider whether Medicare and Medicaid deserve separate entries.
+
+---
+
 ## Pre-Publication Checklist
 
 - [ ] Editorial notes reviewed --- 246 `RESEARCH NEEDED` comments (101 `HUMAN CONDITION`, 18 `Veterans integration`) to surface or remove
