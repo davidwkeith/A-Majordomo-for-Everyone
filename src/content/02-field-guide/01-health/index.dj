@@ -79,13 +79,12 @@ Insurance status: [type, or uninsured]
 Please:
 1. Explain each line item in plain language
 2. Flag anything that seems unusual or potentially incorrect
-3. Tell me if there's anything here I should dispute (see H-4 for appeals)
+3. Tell me if there's anything here I should dispute
 4. Draft a script I can use to call the billing department, including
    requesting an itemized bill, asking about financial assistance or
    charity care, and asking about a cash-pay discount or a
    no-interest payment plan
 5. Tell me what rights I have if this has already gone to collections
-   (see M-4)
 :::
 *What to do with the Output:* Compare every line to the original provider bill. If your Agent flags a charge as unusual, call the billing department and ask them to explain it. The person who calls is the person who gets the adjustment. The person who doesn't call pays the first number they were given.
 
@@ -242,7 +241,7 @@ The naming confusion is not trivial. KFF polling finds that 62% of Americans eit
 
 
 ::: fairness
-The median American household ages 55–64 holds $185,000 in retirement savings[^h6-4] against a semi-private nursing-home bill that, in 2024, averaged $111,325 a year.[^h6-5] That is roughly twenty months of care before the money is gone. Medicaid covers long-term care after a spend-down: in most states, the nursing-home resident must be reduced to $2,000 in countable assets before qualifying, with a 60-month look-back on any transfers made in advance. Community spouses may retain significantly more under federal protections, but the rules are state-specific and unforgiving of error. This is the math no one teaches before a parent is admitted. For World War II–era veterans --- and for those who served in Korea, Vietnam, the Gulf War, or the post-9/11 period --- the VA's _Aid and Attendance_ benefit pays up to $2,358 per month in 2025 for a single veteran, $2,795 for a married veteran, and $1,515 for a surviving spouse, on top of VA pension, to cover long-term care at home or in a facility.[^h6-6] The benefit requires 90+ days of active duty with at least one day during a congressionally recognized wartime period, and application is via VA Form 21-2680 (plus 21-0779 for nursing-home residents). Ask your Agent: _"My [parent / grandparent / I] served in [branch, years, including any wartime dates]. What VA pension and long-term care benefits apply, and what forms, income documentation, and service records do we need?"_
+The median American household ages 55–64 holds $185,000 in retirement savings[^h6-4] against a semi-private nursing-home bill that, in 2024, averaged $111,325 a year.[^h6-5] That is roughly twenty months of care before the money is gone. Medicaid covers long-term care after a spend-down: in most states, the nursing-home resident must be reduced to $2,000 in countable assets before qualifying, with a 60-month look-back on any transfers made in advance. Community spouses may retain significantly more under federal protections, but the rules are state-specific and unforgiving of error. This is the math no one teaches before a parent is admitted. For World War II–era veterans --- and for those who served in Korea, Vietnam, the Gulf War, or the post-9/11 period --- VA pension _with Aid and Attendance_ pays a Maximum Annual Pension Rate of up to $2,358 per month in 2025 for a single veteran, $2,795 for a married veteran, and $1,515 for a surviving spouse (figures are the MAPR inclusive of the Aid and Attendance increase, not a separate payment on top), to cover long-term care at home or in a facility.[^h6-6] The benefit requires 90+ days of active duty with at least one day during a congressionally recognized wartime period, and application is via VA Form 21-2680 (plus 21-0779 for nursing-home residents). Ask your Agent: _"My [parent / grandparent / I] served in [branch, years, including any wartime dates]. What VA pension and long-term care benefits apply, and what forms, income documentation, and service records do we need?"_
 :::
 
 
@@ -724,7 +723,7 @@ specific / I found something / their friends are using /
 I want to be proactive]
 My own history with substances: [brief — this affects credibility]
 My own education about drugs: [D.A.R.E. / Just Say No / family
-messaging — this is what I may need to unlearn before I can
+messaging --- this is what I may need to unlearn before I can
 pass on something accurate]
 What I'm worried about: [specific concern]
 

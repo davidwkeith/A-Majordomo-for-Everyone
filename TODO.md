@@ -30,7 +30,7 @@ Health resolved in the 2026-04-20 session: all 10 original memos surfaced into p
 
 ## Pre-Publication Checklist
 
-- [ ] Editorial notes reviewed — 246 `RESEARCH NEEDED` comments (101 `HUMAN CONDITION`, 18 `Veterans integration`) to surface or remove
+- [ ] Editorial notes reviewed --- 246 `RESEARCH NEEDED` comments (101 `HUMAN CONDITION`, 18 `Veterans integration`) to surface or remove
 - [ ] All art briefs have corresponding images in `src/images/` (24 of 44 missing)
 - [ ] XMP metadata embedded in all images
 - [ ] Version bumped and tagged
