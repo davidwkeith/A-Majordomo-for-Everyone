@@ -10,73 +10,14 @@ status: "draft"
 
 _Democracy was designed as a participatory system. In practice, participation requires reading ballot measures written by lawyers, attending meetings held during work hours, understanding zoning codes that predate your grandparents, and navigating bureaucracies that treat citizen input as a compliance requirement rather than a design constraint. The billionaire class participates through lobbyists, counsel, and staff who track every hearing and filing deadline. You participate by showing up after a full workday and hoping you understand the agenda. The entries that follow give you the preparation the lobbyist already has._
 
-_Some companies and governments are now proposing a "Right to AI" — that access to AI should be treated as foundational infrastructure, like electricity or the internet. This book agrees. It also notes that a right you cannot exercise is a right in name only. The entries that follow are the exercise._
+_Some companies and governments are now proposing a "Right to AI" --- that access to AI should be treated as foundational infrastructure, like electricity or the internet. This book agrees. It also notes that a right you cannot exercise is a right in name only. The entries that follow are the exercise._
 
 ---
 
-#### C-1: Understanding a Ballot Measure in Plain Language
-*Strategy:* Decode
-*See also:* C-6: Knowing Your Voter Rights (for the voting process), C-2: Writing a Public Comment (for weighing in before it's on the ballot)
-*My Man Jeeves:* _One might observe that ballot measure language is composed by attorneys whose principal concern is surviving legal challenge rather than informing the electorate. The official title, it would appear, frequently describes something approaching the opposite of what the measure accomplishes. The fiscal analysis, while commendably accurate, presupposes a familiarity with the very system it purports to analyze. That this arrangement is regarded as democratic participation is, perhaps, a matter upon which reasonable persons might reflect. One's Agent, having no particular allegiance to either side of the measure, is tolerably well equipped to render the language into English._
-*The Spec:*
-::: prompt
-I am trying to understand [Measure/Proposition name or number]
-on my ballot. [Paste the official text or describe what you know about it.]
-Please explain:
-1. What this measure actually does, in plain language
-2. Who supports it and why
-3. Who opposes it and why
-4. What happens if it passes vs. fails
-Present both sides fairly -- I want to make up my own mind.
-:::
-*What to do with the Output:* Save the summary to your phone. Review it the night before you vote. If you are mailing your ballot, open the summary side by side with the ballot — the measure numbers are your anchor. Share the plain-language version with one other person who is also voting. Information compounds.
-
-::: also
-Paste or upload your document directly — file upload works in Claude, Gemini, ChatGPT, and Copilot. See [Appendix G](06-appendix-g-feature-table.xhtml).
-:::
-
-
-::: spec
-This same framework works on any policy proposal, white paper, or think-tank report — not just ballot measures. Companies, lobbying groups, and advocacy organizations publish policy documents designed to sound reasonable. Paste one and ask: _"Who published this, what outcome are they seeking, what mechanism does this proposal use to achieve it, and what is left unspecified? Present the strongest version of both support and opposition."_ The distance between a document's stated intent and its actual mechanism is where the politics lives.
-:::
-
-
----
-
-#### C-2: Writing a Public Comment for a City Council Meeting
-*Strategy:* Draft
-*See also:* C-1: Understanding a Ballot Measure (for understanding what you're commenting on), C-4: Advocating for Change (for sustained advocacy beyond a single meeting)
-*My Man Jeeves:* _It may be worth noting that public comment periods exist as a matter of law, though one could not help but observe that they are scheduled at hours that present considerable difficulty for persons who are employed. The allotted time — two to three minutes, as a rule — is not generous. They remain, however, among the few mechanisms through which a citizen may address local decisions that bear directly upon daily life. The distinction between having prepared a written comment and having merely attended is, one finds, the distinction between participation and presence. One's Agent can draft that comment._
-*The Spec:*
-::: prompt
-My city council is voting on [issue] at their meeting on [date].
-I want to speak during public comment.
-My position is: [support/oppose] because [your main reasons].
-I have [2/3] minutes.
-Please write a public comment that states my position clearly,
-gives my strongest reason, and asks the council for a specific action.
-Write it to be spoken aloud -- conversational, not formal.
-:::
-*What to do with the Output:* Print it. Read it out loud three times at home. Time yourself — if it runs over two minutes, cut the weakest point, not the ask. Bring two copies to the meeting: one to read from, one to hand to the clerk for the record. Written comments entered into the record become part of the public file on that decision.
-
-[public-comment-notecard]{.art}
-
-::: also
-This works well with voice mode on your phone — all major tools support it on mobile. See [Appendix G](06-appendix-g-feature-table.xhtml).
-:::
-
-
-::: tip
-This is not just for city hall. Federal agencies accept public comments on proposed regulations through regulations.gov — including rules about AI, data privacy, and algorithmic decision-making. State legislatures accept written testimony on pending bills. The skill is the same: _"[Agency or committee] is accepting public comment on [proposed rule or bill] until [date]. My concern is [specific provision]. Help me write a comment that addresses the regulatory language, not just my general feelings about it."_ The Notice and Comment process is one of the most direct mechanisms of democratic input available. It is also one of the least used by people who are not lobbyists.
-:::
-
-
----
-
-#### C-3: Knowing Your Rights During a Police Encounter
+#### C-1: Knowing Your Rights During a Police Encounter
 *Strategy:* Assert + Research
-*See also:* C-7: Understanding Your Rights as a Citizen or Resident
-*My Man Jeeves:* _A difficulty presents itself in the matter of police encounters: the distance between what an officer may legally do and what officers routinely do during a stop constitutes one of the more consequential information asymmetries in American civic life. A knowledge of one's rights does not, it must be acknowledged, guarantee that those rights will be respected. It does, however, establish a record — verbal or otherwise — that assumes considerable importance afterward. One would venture to suggest that the appropriate moment for acquiring this knowledge is well before the occasion arises. One's Agent can provide it now._
+*See also:* C-3: Understanding Your Rights Where You Live
+*My Man Jeeves:* _A difficulty presents itself in the matter of police encounters: the distance between what an officer may legally do and what officers routinely do during a stop constitutes one of the more consequential information asymmetries in American civic life. A knowledge of one's rights does not, it must be acknowledged, guarantee that those rights will be respected. It does, however, establish a record --- verbal or otherwise --- that assumes considerable importance afterward. One would venture to suggest that the appropriate moment for acquiring this knowledge is well before the occasion arises. One's Agent can provide it now._
 *The Spec:*
 ::: prompt
 I want to understand my rights during a police encounter.
@@ -93,10 +34,20 @@ Please explain:
 5. What to do immediately after the encounter
 Give me the most conservative, legally accurate answer.
 :::
-*What to do with the Output:* Memorize three phrases: _"Am I being detained or am I free to go?"_ _"I am exercising my right to remain silent."_ _"I do not consent to a search."_ These are legally significant sentences. Practice saying them calmly. The calm is the point — rights exercised in anger are still legal, but de-escalation is a survival strategy, not a concession.
+*What to do with the Output:* Memorize three phrases: _"Am I being detained or am I free to go?"_ _"I am exercising my right to remain silent."_ _"I do not consent to a search."_ These are legally significant sentences. Practice saying them calmly. The calm is the point --- rights exercised in anger are still legal, but de-escalation is a survival strategy, not a concession.
 
 ::: fairness
-The experience of a police encounter varies dramatically by race, gender, neighborhood, and income. Your Agent should be direct about this reality. If it gives advice that assumes you are white and middle-class, say so: _"Adjust this for someone who is [your actual demographic] in [your actual neighborhood]."_ The legal rights are the same. The practical risk is not.[^c3-1]
+The experience of a police encounter varies dramatically by race, gender, neighborhood, and income. Your Agent should be direct about this reality. If it gives advice that assumes you are white and middle-class, say so: _"Adjust this for someone who is [your actual demographic] in [your actual neighborhood]."_ The legal rights are the same. The practical risk is not. The Stanford Open Policing Project analyzed over 200 million traffic stops and found consistent racial disparities in stop rates, search rates, and outcomes across jurisdictions.[^c1-1] The person who is Black already knows. The person who isn't may need the data. Both need the practical guidance.
+:::
+
+
+::: science
+Three cases define the landscape of your rights during a police encounter. _Terry v. Ohio_ (1968) established that officers may briefly stop and pat down a person based on reasonable suspicion --- the legal basis for stop-and-frisk. _Miranda v. Arizona_ (1966) requires that you be informed of your rights during custodial interrogation. And _Salinas v. Texas_ (2013) established a rule that most people do not know: remaining silent is not enough to invoke your right to remain silent. You must say so explicitly --- _"I am invoking my right to remain silent"_ --- or your silence can be used against you in court. The right is universally known. The requirement to actively invoke it is not. This is the kind of information asymmetry that changes outcomes.[^c1-2]
+:::
+
+
+::: science
+The conditions of a police encounter --- elevated cortisol, reduced cognitive function, tunnel vision --- are precisely the conditions under which humans are worst at remembering and exercising abstract rights. Research on stress and decision-making confirms that acute stress degrades exactly the kind of deliberative reasoning that rights-assertion requires.[^c1-3] The body does not distinguish between a routine traffic stop and a threat. This is why preparation matters: the knowledge has to be automatic, not recalled under duress. The three phrases in "What to do with the Output" are designed to be memorized, not looked up.
 :::
 
 
@@ -105,116 +56,23 @@ _"I was just [stopped / detained / searched]. Here is what happened: [describe].
 :::
 
 
-<!-- RESEARCH NEEDED: Fourth and Fifth Amendment case law for lay audience. Terry v. Ohio (1968) for stop-and-frisk, Miranda v. Arizona (1966) for custodial interrogation. Critical nuance: "invoking the right to remain silent requires you to say so explicitly" per Salinas v. Texas (2013). The right to remain silent is universally known. The requirement to actively invoke it is not. This is the kind of information asymmetry that changes outcomes. -->
-
-<!-- RESEARCH NEEDED (HUMAN CONDITION): The fear response during a police encounter is a documented physiological event — elevated cortisol, reduced cognitive function, tunnel vision. Starcke & Brand (2012) on stress and decision-making: the conditions of a police encounter are precisely the conditions under which humans are worst at remembering and exercising abstract rights. This is why preparation matters — the knowledge has to be automatic, not recalled under duress. The body does not distinguish between a routine traffic stop and a threat. -->
-
-<!-- RESEARCH NEEDED (HUMAN CONDITION): Racial disparities in policing are among the most extensively documented phenomena in American criminal justice. The Stanford Open Policing Project analyzed 200+ million traffic stops and found consistent racial disparities in stop rates, search rates, and outcomes. Pierson et al. (2020) in Nature Human Behaviour. The entry must name this reality without becoming a policy essay. The reader who is Black already knows. The reader who isn't may need the data. Both need the practical guidance. -->
-
-<!-- RESEARCH NEEDED: Recording rights vary by state — "one-party consent" vs. "two-party consent." In most jurisdictions you have the right to record police in public spaces. The entry should clarify this and point to the ACLU's state-specific guides. Also: the practical mechanics of recording (phone placement, cloud backup, not reaching for your phone during a tense encounter). -->
-
-<!-- RESEARCH NEEDED (HUMAN CONDITION): The aftermath of a police encounter — even a routine one that ends without incident — produces measurable stress responses that persist for hours to days. For communities with intergenerational experience of police violence, the stress is cumulative and heritable in the epigenetic sense (research on intergenerational trauma, Yehuda et al., 2016). The entry should acknowledge that "just cooperate and it'll be fine" is advice that ignores documented experience. -->
-
-[^c3-1]: The Stanford Open Policing Project ([openpolicing.stanford.edu](https://openpolicing.stanford.edu)) provides the most comprehensive public dataset on racial disparities in police encounters.
-
----
-
-#### C-4: Advocating for Change
-*Strategy:* Draft + Navigate
-*See also:* C-2: Writing a Public Comment, C-1: Understanding a Ballot Measure, W-5: Unions (collective action uses the same skills)
-*My Man Jeeves:* _The most frequently offered political counsel in America is "vote." One would not wish to dispute the necessity of this advice, merely to observe that it is, by itself, wildly insufficient. Between elections, decisions are made by those persons who attend meetings, submit comments, telephone offices, organize their neighbors, and apply sustained pressure to specific officials regarding specific matters. These individuals are not, it would appear, possessed of any extraordinary qualities. They are informed, persistent, and — a point that merits emphasis — typically fewer in number than one might suppose. In most local decisions, the margin between prevailing and not is measured in single-digit persons. One's Agent can help one become one of them._
-*The Spec:*
-::: prompt
-I want to advocate for [specific change] in my [city / county /
-school district / state / workplace].
-What I know about the issue: [describe]
-What has been tried: [if anything — petitions, past votes, etc.]
-Who makes the decision: [if you know — city council, school board,
-specific official, or "I don't know"]
-What I can contribute: [time per week, skills, connections, money]
-Please help me:
-1. Identify who actually has the power to make this decision
-2. Map out what has worked for similar changes elsewhere
-3. Draft a strategy — not just a letter, but an actual plan:
-   who to contact, in what order, with what message
-4. Help me write the first communication
-:::
-*What to do with the Output:* Start local. National change requires millions of people. Local change requires dozens, sometimes fewer. Your school board member has fewer constituents than your congressperson by a factor of a thousand. The math is in your favor at the local level.
-
-::: meme
-[Alexander Hamilton](https://en.wikipedia.org/wiki/Alexander%5FHamilton) wrote his way into the Constitutional Convention. Debate and persuasion are not academic exercises — they are the tools of structural change. Your Agent can sharpen your argument the way a coach sharpens a pitch: _"Here is my position on [issue]. Argue against it as effectively as you can so I can strengthen my case."_
-:::
-
-
 ::: tip
-_"I have 2 minutes to speak at [meeting] about [issue]. I'm nervous. Help me write something clear and practice delivering it."_
+_"I want to record [a police interaction / a public official / an encounter] in [state]. Am I in a one-party or two-party consent state? What are my legal rights to record in public spaces, and what are the practical considerations --- phone placement, cloud backup, not reaching for my phone during a tense moment?"_ --- In most jurisdictions you have the right to record police performing their duties in public. The ACLU maintains state-specific guides on recording rights.
 :::
 
 
-::: spec
-When a politician, company, or think tank proposes a new safety net, benefit, or economic reform — a public wealth fund, portable benefits, universal basic income, adaptive unemployment insurance — your Agent can help you evaluate it the way a policy analyst would: _"Here is a proposal for [program]. Who is covered and who is excluded? What triggers the benefit and what ends it? What happens in the gap between the old system and the new one? What is the funding mechanism and is it durable? Where has something like this been tried, and what happened?"_ The ability to evaluate a proposal against its stated objectives — not its marketing language — is the civic skill that matters most between elections.
-:::
+[^c1-1]: Pierson, E., Simoiu, C., Overgoor, J., et al. (2020). ["A large-scale analysis of racial disparities in police stops across the United States."](https://doi.org/10.1038/s41562-020-0858-1) _Nature Human Behaviour_, 4, 736--745. Data from the Stanford Open Policing Project ([openpolicing.stanford.edu](https://openpolicing.stanford.edu)).
 
+[^c1-2]: _Terry v. Ohio_, 392 U.S. 1 (1968); _Miranda v. Arizona_, 384 U.S. 436 (1966); _Salinas v. Texas_, 570 U.S. 178 (2013). The Salinas holding is narrow --- it applies to pre-custodial, voluntary encounters --- but the practical lesson is universal: state your invocation clearly.
 
-<!-- RESEARCH NEEDED: The "who actually decides" problem. Most Americans cannot name their city council representative, school board members, or county commissioners (cite survey data if available). This is not apathy — it is a structural design feature. The entry should point to tools like vote.org, ballotpedia.org, and your Agent's ability to map decision-making authority for any jurisdiction. -->
-
-<!-- RESEARCH NEEDED (HUMAN CONDITION): Political efficacy — the belief that your actions can influence government — is one of the strongest predictors of political participation (Bandura, 1997, "Self-Efficacy"). The decline in efficacy correlates with the rise of national media and the decline of local media. When your news is all national, every problem feels unsolvable. When your news is local, you can see the leverage points. The feeling of helplessness is a symptom of scale, not reality. Shrink the scale and the helplessness recedes. This insight is the entry's core argument and it is well-supported. -->
-
-<!-- RESEARCH NEEDED (HUMAN CONDITION): The "revolution or evolution?" question. Most successful social change in American history has been gradual, local, boring, and persistent — not dramatic, national, or violent. The civil rights movement succeeded through years of organizing, legal strategy, and coalition-building before the marches made the news. The narrative of dramatic revolution is more culturally compelling but less historically accurate as a theory of change. Marshall Ganz's organizing framework (Harvard, "Why David Sometimes Wins," 2009) is the best practical resource for civilians who want to do something. -->
-
-<!-- RESEARCH NEEDED: Debate skills for civilians. The entry mentions Hamilton and Star Trek. The practical skill is argumentation structure: claim, evidence, warrant. Toulmin model (1958) is the standard but needs translation for non-academic readers. "Steelman the opposing argument" is one of the most powerful specs in the book — it forces you to understand the strongest version of the position you oppose, which makes your own argument better and occasionally changes your mind. Both outcomes are useful. -->
+[^c1-3]: Starcke, K. & Brand, M. (2012). ["Decision making under stress: A selective review."](https://doi.org/10.1016/j.neubiorev.2012.02.003) _Neuroscience & Biobehavioral Reviews_, 36(4), 1228--1248. On intergenerational effects of trauma exposure: Yehuda, R., et al. (2016). ["Holocaust Exposure Induced Intergenerational Effects on FKBP5 Methylation."](https://doi.org/10.1016/j.biopsych.2015.08.005) _Biological Psychiatry_, 80(5), 372--380.
 
 ---
 
-#### C-5: Understanding Jury Duty
-*Strategy:* Decode + Navigate
-*See also:* C-7: Understanding Your Rights Where You Live (for jurisdiction-specific requirements), C-3: Knowing Your Rights During a Police Encounter (for understanding the criminal justice system)
-*My Man Jeeves:* _It may not be widely appreciated that jury duty represents the sole context in American civic life in which ordinary citizens exercise direct, binding power over an outcome that the government cannot override. A jury's acquittal, one might note, is not subject to appeal. This power is entirely real, it belongs to the juror, and one cannot help but observe that the system takes some pains to present it as an inconvenience — an informed jury being, perhaps, rather more difficult to predict than an uninformed one. One's Agent can explain the process, the terminology, and the law before one walks in._
-*The Spec:*
-::: prompt
-I [received a jury duty summons / am currently serving on a jury /
-want to understand the jury system].
-My state: [state]
-My situation: [general curiosity / first time / hardship concern /
-currently serving — no case details]
-Please explain:
-1. What the process actually looks like from summons to verdict
-2. What my rights and responsibilities are as a juror
-3. How to evaluate evidence and testimony — what to weigh,
-   what to question
-4. What I should know that the orientation video doesn't cover
-Do not give me legal advice about any specific case.
-:::
-*What to do with the Output:* If you are currently serving, do not share case details with your Agent or anyone else — that is a legal obligation, not a suggestion. Use your Agent for general education about the process, evidence evaluation, and your rights. After a verdict, ask: _"What just happened in that process, and what should I understand about it?"_
-
-::: science
-Jury nullification — the jury's power to acquit even when the evidence supports conviction, because the jury disagrees with the law — is legal, documented, and almost never mentioned in jury instructions. Courts have consistently ruled that jurors have this power but that judges are not required to inform them of it.[^c5-1]
-:::
-
-
-::: tip
-_"I just got a jury summons and I have [hardship: job won't pay, childcare, medical condition]. What are my actual options for deferral or exemption in [state]?"_
-:::
-
-
-<!-- RESEARCH NEEDED: Jury nullification legal history. Bushell's Case (1670), the Zenger trial (1735), Prohibition-era nullification. The entry should explain the concept factually without advocating for or against — just "this exists, and you should know it does." United States v. Dougherty (1972) is the key modern precedent. -->
-
-<!-- RESEARCH NEEDED (HUMAN CONDITION): The cognitive psychology of jury deliberation is rich territory. Confirmation bias, anchoring effects, narrative construction — juries are subject to every cognitive bias in the literature, and the adversarial system is structured around exploiting them. Pennington & Hastie (1992) "Story Model" of jury decision-making: jurors construct narratives and fit evidence into them, rather than weighing evidence independently. Understanding this about yourself makes you a better juror, not a worse one. The entry should help jurors notice their own narrative-building in real time. -->
-
-<!-- RESEARCH NEEDED (HUMAN CONDITION): The emotional toll of jury service, especially in violent crime or child abuse cases, is real and under-supported. Some jurisdictions offer post-trial counseling; most don't. Jurors are expected to absorb graphic evidence, deliberate rationally, and return to normal life without transition. PTSD symptoms in jurors are documented (Robertson et al., 2009) but support systems are minimal. The human cost of this civic duty is borne silently. The entry should mention that this is normal and point to resources. -->
-
-<!-- RESEARCH NEEDED: AI in the courtroom — predictive sentencing tools (COMPAS, etc.) have documented racial bias (ProPublica, 2016). Expert witnesses increasingly include data scientists. Deepfake evidence is an emerging evidentiary challenge. The tools entering the courtroom are the same tools the reader is learning to use in this book. Critical evaluation applies everywhere. The reader who serves on a jury after reading this book will encounter AI-generated evidence within the next five years. -->
-
-<!-- RESEARCH NEEDED: Employer obligations during jury duty vary dramatically by state. Federal employees get full pay. Some states mandate employer pay during service; most don't. Daily juror compensation ranges from $5 to $50 — well below minimum wage. For hourly workers, jury duty is a financial crisis dressed as a civic privilege. The entry should cover this practically and point to hardship exemption procedures. -->
-
-[^c5-1]: See _United States v. Dougherty,_ 473 F.2d 1113 (D.C. Cir. 1972) for the court's explicit acknowledgment of jury nullification power.
-
----
-
-#### C-6: Knowing Your Voter Rights
+#### C-2: Knowing Your Voter Rights
 *Strategy:* Assert + Research
-*See also:* C-1: Understanding a Ballot Measure (know what you're voting on), C-4: Advocating for Change
-*My Man Jeeves:* _One might observe that voter suppression in America does not, as a general matter, present itself as someone blocking the door. It assumes the form of a polling place relocated without notice, a registration purge conducted quietly, an identification requirement that carries a cost to satisfy, and a queue that extends three hours in one neighborhood while lasting fifteen minutes in another. An awareness of one's rights as a voter serves, in effect, as a defense against a system that — one could not avoid noticing — renders participation most difficult for precisely those persons who would alter it. One's Agent can verify one's registration, locate one's polling place, and explain what is on the ballot before one arrives._
+*See also:* C-4: Understanding a Ballot Measure (know what you're voting on), C-6: Advocating for Change
+*My Man Jeeves:* _One might observe that voter suppression in America does not, as a general matter, present itself as someone blocking the door. It assumes the form of a polling place relocated without notice, a registration purge conducted quietly, an identification requirement that carries a cost to satisfy, and a queue that extends three hours in one neighborhood while lasting fifteen minutes in another. An awareness of one's rights as a voter serves, in effect, as a defense against a system that --- one could not avoid noticing --- renders participation most difficult for precisely those persons who would alter it. One's Agent can verify one's registration, locate one's polling place, and explain what is on the ballot before one arrives._
 *The Spec:*
 ::: prompt
 I want to make sure I can vote and that my vote counts.
@@ -229,36 +87,40 @@ Please explain:
 4. What to do if I'm turned away, challenged, or intimidated
 5. The deadlines I cannot miss
 :::
-*What to do with the Output:* Check your registration now — not the week before the election. If your status is incorrect, you have more options to fix it before Election Day than on it. Your Agent can walk you through your state's specific process. Save the deadlines to your calendar.
+*What to do with the Output:* Check your registration now --- not the week before the election. If your status is incorrect, you have more options to fix it before Election Day than on it. Your Agent can walk you through your state's specific process. Save the deadlines to your calendar.
+
+::: science
+In 2013, _Shelby County v. Holder_ gutted Section 5 of the Voting Rights Act, which had required jurisdictions with a history of discrimination to obtain federal approval before changing voting rules. In the years following the decision, the Leadership Conference on Civil Rights documented 1,688 polling place closures in formerly covered jurisdictions --- closures that no longer required federal review. Registration purges, voter ID laws, and reduced early voting hours followed a similar pattern: legal under the new framework, and concentrated in communities with the most to lose.[^c2-1] These are facts, not opinions. Your Agent should present them as such.
+:::
+
 
 ::: tip
-_"I've never understood [ranked choice voting / jungle primaries / caucusing]. Explain how it actually works and how my voting strategy should change compared to a standard primary."_
+_"I've never understood [ranked choice voting / jungle primaries / caucusing]. Explain how it actually works and how my voting strategy should change compared to a standard primary."_ --- [FairVote](https://fairvote.org/) maintains accessible descriptions of alternative voting systems. The comparative evidence is young --- Alaska and Maine are the primary ranked-choice data points --- but understanding how your system works makes you a more effective voter regardless of the system.
 :::
 
 
 ::: fairness
-Voter ID laws and their effects are politically contested. The research is less contested: multiple studies document disparate impact by race, age, and income. Your Agent should present the law as it exists in your state, not as either party argues it should be.[^c6-1]
+Voter ID laws and their effects are politically contested. The research is less contested: multiple studies document disparate impact by race, age, and income. Your Agent should present the law as it exists in your state, not as either party argues it should be.[^c2-2] The person working two jobs who cannot get to the polls is not civically disengaged --- they are civically obstructed. Non-voting is often a rational response to structural barriers, not apathy or ignorance.
 :::
 
 
-<!-- RESEARCH NEEDED: Voter suppression evidence. Brennan Center for Justice has the most comprehensive reporting. Meredith & Morse (2014) on registration purges. Shelby County v. Holder (2013) gutted Section 5 of the Voting Rights Act; the Leadership Conference on Civil Rights (2019) documented 1,688 polling place closures in formerly covered jurisdictions following the decision. These are facts, not opinions, and the entry should present them as such. -->
+::: fairness
+Felon disenfranchisement varies wildly by state. Maine and Vermont allow voting from prison. Most states restore rights after sentence completion. Some require additional petitioning or a gubernatorial pardon. An estimated 4.6 million Americans are affected.[^c2-3] If this applies to you, ask your Agent: _"I have a felony conviction in [state]. What is my current voting eligibility, what is the process for restoration, and what deadlines apply?"_ The answer may be better than you expect --- and your Agent can find it faster than your state's website can explain it.
+:::
 
-<!-- RESEARCH NEEDED (HUMAN CONDITION): The psychology of not voting. "Rational ignorance" (Downs, 1957) — the cost of becoming informed exceeds the expected benefit of a single vote — is the economist's explanation. The behavioral explanation is different: people don't vote when the barriers exceed the motivation, especially for people whose daily survival is already consuming their cognitive bandwidth. The entry should treat non-voting as a rational response to structural barriers, not as apathy or ignorance. The person working two jobs who can't get to the polls is not civically disengaged — they are civically obstructed. -->
 
-<!-- RESEARCH NEEDED (HUMAN CONDITION): Voting as identity. Huddy et al. (2015) and the growing literature on political identity: partisan identity is now as central to self-concept as religious or ethnic identity for many Americans. This has implications for how people process voter-rights information — it is not experienced as neutral. The entry should present rights information without partisan framing while acknowledging that the reader may already experience it through a tribal lens. This is true of the reader and it is true of the Agent's training data. -->
+[^c2-1]: _Shelby County v. Holder_, 570 U.S. 529 (2013). The Leadership Conference Education Fund. (2019). [_Democracy Diverted: Polling Place Closures and the Right to Vote._](https://civilrightsorg.wpenginepowered.com/wp-content/uploads/2019/09/Democracy-Diverted.pdf) See also Meredith, M. & Morse, M. (2014). ["Do Voting Rights Notification Laws Increase Ex-Felon Turnout?"](https://doi.org/10.1177/0002716214525016) _Annals of the American Academy of Political and Social Science_, 651, 220--249.
 
-<!-- RESEARCH NEEDED: Felon disenfranchisement varies wildly by state — Maine and Vermont allow voting from prison; most states restore rights after sentence completion; some require additional petitioning or gubernatorial pardon. The Sentencing Project has the most current state-by-state data. This affects an estimated 4.6 million Americans (Uggen et al., 2022). The entry should cover it practically without editorializing. -->
+[^c2-2]: See the Brennan Center for Justice ([brennancenter.org](https://www.brennancenter.org)) and the bipartisan Election Assistance Commission for voter rights resources by state.
 
-<!-- RESEARCH NEEDED: Voting system comparison — ranked choice voting, approval voting, jungle primaries, direct democracy. FairVote has accessible descriptions. The comparative evidence is young but growing — Alaska and Maine are the primary RCV data points. The entry should help the reader understand different systems, not advocate for any particular one. The reader who understands how their system works votes more effectively regardless of the system. -->
-
-[^c6-1]: See the Brennan Center for Justice ([brennancenter.org](https://www.brennancenter.org)) and the bipartisan Election Assistance Commission for voter rights resources by state.
+[^c2-3]: Uggen, C., Larson, R., Shannon, S., & Stewart, R. (2022). [_Locked Out 2022: Estimates of People Denied Voting Rights._](https://www.sentencingproject.org/reports/locked-out-2022-estimates-of-people-denied-voting-rights/) The Sentencing Project.
 
 ---
 
-#### C-7: Understanding Your Rights Where You Live
+#### C-3: Understanding Your Rights Where You Live
 *Strategy:* Research + Assert
-*See also:* C-3: Knowing Your Rights During a Police Encounter, C-6: Knowing Your Voter Rights, L-1: Negotiating a Contract (for lease and employment agreements)
-*My Man Jeeves:* _It would be uncontroversial to observe that every human on Earth possesses rights. Some are inalienable — the [Universal Declaration of Human Rights](https://en.wikipedia.org/wiki/Universal%5FDeclaration%5Fof%5FHuman%5FRights) enumerates thirty of them. Some are constitutional. Some are statutory. Some depend upon one's state, county, city, employer, and landlord. The practical experience of those rights varies so dramatically by jurisdiction that two persons holding the same citizenship may find themselves living under meaningfully different legal regimes depending upon which side of a state line they happen to sleep on. The billionaire class is, one might note, well aware of this circumstance — it is the reason they select their residence with such care. It would seem prudent for the reader to be similarly informed. One's Agent can explain which rights apply in one's specific jurisdiction._
+*See also:* C-1: Knowing Your Rights During a Police Encounter, C-2: Knowing Your Voter Rights, L-1: Negotiating a Contract (for lease and employment agreements)
+*My Man Jeeves:* _It would be uncontroversial to observe that every human on Earth possesses rights. Some are inalienable --- the [Universal Declaration of Human Rights](https://en.wikipedia.org/wiki/Universal%5FDeclaration%5Fof%5FHuman%5FRights) enumerates thirty of them. Some are constitutional. Some are statutory. Some depend upon one's state, county, city, employer, and landlord. The practical experience of those rights varies so dramatically by jurisdiction that two persons holding the same citizenship may find themselves living under meaningfully different legal regimes depending upon which side of a state line they happen to sleep on. The billionaire class is, one might note, well aware of this circumstance --- it is the reason they select their residence with such care. It would seem prudent for the reader to be similarly informed. One's Agent can explain which rights apply in one's specific jurisdiction._
 *The Spec:*
 ::: prompt
 I want to understand what rights and protections I actually have
@@ -271,50 +133,223 @@ protections, police conduct, healthcare access, education access,
 family law, or "I just want to understand the landscape"]
 Please:
 1. Explain what federal rights apply to everyone regardless
-   of status — and where the gaps are
+   of status --- and where the gaps are
 2. Tell me what my state and local laws add or subtract
    from those protections (anti-discrimination, tenant rights,
    employment law, healthcare access, education)
 3. Flag the biggest differences between where I live and
-   national norms — what's better here, what's worse
+   national norms --- what's better here, what's worse
 4. Point me toward free or low-cost legal resources in my area
 Give me the data, not the vibe. I want specifics I can act on.
 :::
-*What to do with the Output:* This is research, not legal advice. For any situation where enforcement of a right is at stake — discrimination, housing, employment, immigration — a legal aid organization or attorney should get involved. Many offer free consultations and pro bono representation for civil rights cases. Your Agent can help you find them: _"What legal aid organizations in [city/state] handle [type of case] and offer free consultations?"_
+*What to do with the Output:* This is research, not legal advice. For any situation where enforcement of a right is at stake --- discrimination, housing, employment, immigration --- a legal aid organization or attorney should get involved. Many offer free consultations and pro bono representation for civil rights cases. Your Agent can help you find them: _"What legal aid organizations in [city/state] handle [type of case] and offer free consultations?"_
 
 ::: tip
-If you are considering a move: _"Compare the practical rights and protections for someone like me — [your situation] — living in [City A, State] versus [City B, State]. Include anti-discrimination laws, tenant protections, healthcare access, police accountability measures, and public school funding. I want the delta, not the Wikipedia summary."_ This is more useful than a Reddit vibe-check and more specific than a "best cities" listicle.
+If you are considering a move: _"Compare the practical rights and protections for someone like me --- [your situation] --- living in [City A, State] versus [City B, State]. Include anti-discrimination laws, tenant protections, healthcare access, police accountability measures, and public school funding. I want the delta, not the Wikipedia summary."_ This is more useful than a Reddit vibe-check and more specific than a "best cities" listicle.
 :::
 
 
 ::: science
-The [Universal Declaration of Human Rights](https://www.un.org/en/about-us/universal-declaration-of-human-rights) (1948) establishes thirty rights that the global community agreed every human possesses. The American legal system implements some through constitutional law, some through federal statute, and some not at all. The distance between the UDHR and your daily experience is itself a measure of the information asymmetry this book exists to address.[^c7-1]
+The [Universal Declaration of Human Rights](https://www.un.org/en/about-us/universal-declaration-of-human-rights) (1948) establishes thirty rights that the global community agreed every human possesses. The American legal system implements some through constitutional law, some through federal statute, and some not at all. The distance between the UDHR and your daily experience is itself a measure of the information asymmetry this book exists to address.[^c3-1]
 :::
 
 
 ::: fairness
-The experience of rights varies by race, gender, income, disability status, immigration status, and neighborhood — within the same city, under the same laws. If your Agent's answer describes the law without acknowledging the gap between law and enforcement, say so: _"That's what the law says. What's the documented experience for someone who is [your demographic] in [your area]?"_ The data exists. Your Agent has read it.
+The experience of rights varies by race, gender, income, disability status, immigration status, and neighborhood --- within the same city, under the same laws. The law on paper and the law in practice are two different systems that share a name. A trans person in a state with anti-discrimination protections may still face hostile enforcement. A Black resident in a city with police reform laws may still experience disproportionate stops. If your Agent's answer describes the law without acknowledging the gap between law and enforcement, say so: _"That's what the law says. What's the documented experience for someone who is [your demographic] in [your area]?"_ The data exists. Your Agent has read it.
 :::
 
 
-<!-- RESEARCH NEEDED: State-by-state comparison of civil rights protections. The Equality Federation, Movement Advancement Project (MAP), and ACLU all maintain scorecards. The practical differences are enormous: employment anti-discrimination protections range from comprehensive (covering race, sex, gender identity, sexual orientation, disability, age, religion, national origin) in states like California and New York to near-minimum federal floor in states like Mississippi and Alabama. The entry should point to MAP's state equality maps as a starting resource. -->
+::: also
+The [Movement Advancement Project](https://www.lgbtmap.org/equality-maps) (MAP) maintains state equality maps that score civil rights protections across categories --- employment, housing, family law, health, criminal justice. The [ACLU](https://www.aclu.org/know-your-rights) publishes "Know Your Rights" guides by topic. The [Equality Federation](https://www.equalityfederation.org/) tracks state-level policy. These are the scorecards. Your Agent can interpret them for your specific situation: _"Based on MAP's state equality data, how does [my state] compare to [another state] on protections for [my concern]?"_
+:::
 
-<!-- RESEARCH NEEDED: Residency rights vs. citizenship rights. The practical gap: lawful permanent residents (green card holders) have most rights of citizens except voting in federal elections and some state/local elections, jury duty in most jurisdictions, and certain government employment. Visa holders have fewer protections. Undocumented residents still have constitutional protections (due process, equal protection, Fourth Amendment) but the practical exercise of those rights is constrained by fear of enforcement. The entry should enumerate these layers clearly. -->
 
-<!-- RESEARCH NEEDED (HUMAN CONDITION): The concept of "legal climate" — how safe people feel exercising their rights — is distinct from the rights themselves. A trans person in a state with anti-discrimination protections may still face hostile enforcement. A Black resident in a city with police reform laws may still experience disproportionate stops. The law on paper and the law in practice are two different systems that share a name. This gap is the central challenge of civil rights in America and the entry should name it without pretending the law alone resolves it. -->
+::: also
+Legal aid exists but does not reach everyone who needs it. LSC-funded legal aid organizations serve approximately 1.8 million people annually --- but that is only about 20% of eligible low-income Americans.[^c3-2] Start with: your [local legal aid society](https://www.lsc.gov/about-lsc/what-legal-aid/get-legal-help) (LSC maintains a national directory), your state bar association's lawyer referral service, and law school clinics in your area (free representation by supervised law students). For emergencies, call *211* or visit [211.org](https://www.211.org/). Ask your Agent: _"What free or low-cost legal resources in [city, state] handle [type of case]?"_
+:::
 
-<!-- RESEARCH NEEDED (HUMAN CONDITION): The decision to move — across a state line, to a different city — is often driven by rights and protections that people don't articulate as such. Parents of trans kids moving to more protective states. Women of reproductive age considering state abortion laws. Immigrants choosing between sanctuary cities and ICE-cooperative jurisdictions. These are rights-based migrations happening in real time, and they are not equally available to everyone. Mobility is itself a class privilege. The entry should serve both the reader who can move and the reader who cannot. -->
 
-<!-- RESEARCH NEEDED: Legal aid access. LSC-funded legal aid serves approximately 1.8 million people annually but only reaches about 20% of eligible low-income Americans (Legal Services Corporation, 2023 Justice Gap Study). For every client served, another is turned away for lack of resources. Pro bono work from private attorneys fills some of the gap. The entry should point to: local legal aid societies, state bar association referral services, law school clinics, and the LSC website (lsc.gov) as starting points. -->
+[^c3-1]: United Nations General Assembly. (1948). "Universal Declaration of Human Rights." The UDHR is not a treaty and is not legally binding, but its principles are reflected in the International Covenant on Civil and Political Rights (1966), which the U.S. ratified in 1992.
 
-[^c7-1]: United Nations General Assembly. (1948). "Universal Declaration of Human Rights." The UDHR is not a treaty and is not legally binding, but its principles are reflected in the International Covenant on Civil and Political Rights (1966), which the U.S. ratified in 1992.
+[^c3-2]: Legal Services Corporation. (2022). [_The Justice Gap: The Unmet Civil Legal Needs of Low-Income Americans._](https://justicegap.lsc.gov/) For every client served by LSC-funded programs, another is turned away for lack of resources.
+
+---
+
+#### C-4: Understanding a Ballot Measure in Plain Language
+*Strategy:* Decode
+*See also:* C-2: Knowing Your Voter Rights (for the voting process), C-5: Writing a Public Comment (for weighing in before it's on the ballot)
+*My Man Jeeves:* _One might observe that ballot measure language is composed by attorneys whose principal concern is surviving legal challenge rather than informing the electorate. The official title, it would appear, frequently describes something approaching the opposite of what the measure accomplishes. The fiscal analysis, while commendably accurate, presupposes a familiarity with the very system it purports to analyze. That this arrangement is regarded as democratic participation is, perhaps, a matter upon which reasonable persons might reflect. One's Agent, having no particular allegiance to either side of the measure, is tolerably well equipped to render the language into English._
+*The Spec:*
+::: prompt
+I am trying to understand [Measure/Proposition name or number]
+on my ballot. [Paste the official text or describe what you know about it.]
+Please explain:
+1. What this measure actually does, in plain language
+2. Who supports it and why
+3. Who opposes it and why
+4. What happens if it passes vs. fails
+Present both sides fairly -- I want to make up my own mind.
+:::
+*What to do with the Output:* Save the summary to your phone. Review it the night before you vote. If you are mailing your ballot, open the summary side by side with the ballot --- the measure numbers are your anchor. Share the plain-language version with one other person who is also voting. Information compounds.
+
+::: also
+Paste or upload your document directly --- file upload works in Claude, Gemini, ChatGPT, and Copilot. See [Appendix G](06-appendix-g-feature-table.xhtml).
+:::
+
+
+::: spec
+This same framework works on any policy proposal, white paper, or think-tank report --- not just ballot measures. Companies, lobbying groups, and advocacy organizations publish policy documents designed to sound reasonable. Paste one and ask: _"Who published this, what outcome are they seeking, what mechanism does this proposal use to achieve it, and what is left unspecified? Present the strongest version of both support and opposition."_ The distance between a document's stated intent and its actual mechanism is where the politics lives.
+:::
+
+
+---
+
+#### C-5: Writing a Public Comment for a City Council Meeting
+*Strategy:* Draft
+*See also:* C-4: Understanding a Ballot Measure (for understanding what you're commenting on), C-6: Advocating for Change (for sustained advocacy beyond a single meeting)
+*My Man Jeeves:* _It may be worth noting that public comment periods exist as a matter of law, though one could not help but observe that they are scheduled at hours that present considerable difficulty for persons who are employed. The allotted time --- two to three minutes, as a rule --- is not generous. They remain, however, among the few mechanisms through which a citizen may address local decisions that bear directly upon daily life. The distinction between having prepared a written comment and having merely attended is, one finds, the distinction between participation and presence. One's Agent can draft that comment._
+*The Spec:*
+::: prompt
+My city council is voting on [issue] at their meeting on [date].
+I want to speak during public comment.
+My position is: [support/oppose] because [your main reasons].
+I have [2/3] minutes.
+Please write a public comment that states my position clearly,
+gives my strongest reason, and asks the council for a specific action.
+Write it to be spoken aloud -- conversational, not formal.
+:::
+*What to do with the Output:* Print it. Read it out loud three times at home. Time yourself --- if it runs over two minutes, cut the weakest point, not the ask. Bring two copies to the meeting: one to read from, one to hand to the clerk for the record. Written comments entered into the record become part of the public file on that decision.
+
+[public-comment-notecard]{.art}
+
+::: also
+This works well with voice mode on your phone --- all major tools support it on mobile. See [Appendix G](06-appendix-g-feature-table.xhtml).
+:::
+
+
+::: tip
+This is not just for city hall. Federal agencies accept public comments on proposed regulations through regulations.gov --- including rules about AI, data privacy, and algorithmic decision-making. State legislatures accept written testimony on pending bills. The skill is the same: _"[Agency or committee] is accepting public comment on [proposed rule or bill] until [date]. My concern is [specific provision]. Help me write a comment that addresses the regulatory language, not just my general feelings about it."_ The Notice and Comment process is one of the most direct mechanisms of democratic input available. It is also one of the least used by people who are not lobbyists.
+:::
+
+
+---
+
+#### C-6: Advocating for Change
+*Strategy:* Draft + Navigate
+*See also:* C-5: Writing a Public Comment, C-4: Understanding a Ballot Measure, W-5: Unions (collective action uses the same skills)
+*My Man Jeeves:* _The most frequently offered political counsel in America is "vote." One would not wish to dispute the necessity of this advice, merely to observe that it is, by itself, wildly insufficient. Between elections, decisions are made by those persons who attend meetings, submit comments, telephone offices, organize their neighbors, and apply sustained pressure to specific officials regarding specific matters. These individuals are not, it would appear, possessed of any extraordinary qualities. They are informed, persistent, and --- a point that merits emphasis --- typically fewer in number than one might suppose. In most local decisions, the margin between prevailing and not is measured in single-digit persons. One's Agent can help one become one of them._
+*The Spec:*
+::: prompt
+I want to advocate for [specific change] in my [city / county /
+school district / state / workplace].
+What I know about the issue: [describe]
+What has been tried: [if anything --- petitions, past votes, etc.]
+Who makes the decision: [if you know --- city council, school board,
+specific official, or "I don't know"]
+What I can contribute: [time per week, skills, connections, money]
+Please help me:
+1. Identify who actually has the power to make this decision
+2. Map out what has worked for similar changes elsewhere
+3. Draft a strategy --- not just a letter, but an actual plan:
+   who to contact, in what order, with what message
+4. Help me write the first communication
+:::
+*What to do with the Output:* Start local. National change requires millions of people. Local change requires dozens, sometimes fewer. Your school board member has fewer constituents than your congressperson by a factor of a thousand. The math is in your favor at the local level.
+
+::: science
+Political efficacy --- the belief that your actions can influence government --- is one of the strongest predictors of political participation.[^c6-1] The decline in efficacy correlates with the rise of national media and the decline of local media. When your news is all national, every problem feels unsolvable. When your news is local, you can see the leverage points. The feeling of helplessness is a symptom of scale, not reality. Shrink the scale and the helplessness recedes. Most successful social change in American history has been gradual, local, boring, and persistent --- not dramatic, national, or violent. The civil rights movement succeeded through years of organizing, legal strategy, and coalition-building before the marches made the news.[^c6-2]
+:::
+
+
+::: meme
+[Alexander Hamilton](https://en.wikipedia.org/wiki/Alexander%5FHamilton) wrote his way into the Constitutional Convention. Debate and persuasion are not academic exercises --- they are the tools of structural change. Your Agent can sharpen your argument the way a coach sharpens a pitch: _"Here is my position on [issue]. Argue against it as effectively as you can so I can strengthen my case."_ Steelmanning the opposing argument --- constructing the strongest possible version of the position you oppose --- is one of the most powerful specs in the book. It forces you to understand the opposition, which makes your argument better and occasionally changes your mind. Both outcomes are useful.
+:::
+
+
+::: tip
+_"I have 2 minutes to speak at [meeting] about [issue]. I'm nervous. Help me write something clear and practice delivering it."_
+:::
+
+
+::: also
+Most Americans cannot name their city council representative, school board members, or county commissioners. This is not apathy --- it is a structural design feature. [Ballotpedia](https://ballotpedia.org/) covers elected officials at every level. [Open States](https://openstates.org/) tracks state legislation and legislators. [vote.org](https://www.vote.org/) handles registration and polling place lookup. Your Agent can map the decision-making authority for any jurisdiction: _"Who on my [city council / school board / county commission] in [location] has authority over [issue], and what is the best way to contact them?"_
+:::
+
+
+::: spec
+When a politician, company, or think tank proposes a new safety net, benefit, or economic reform --- a public wealth fund, portable benefits, universal basic income, adaptive unemployment insurance --- your Agent can help you evaluate it the way a policy analyst would: _"Here is a proposal for [program]. Who is covered and who is excluded? What triggers the benefit and what ends it? What happens in the gap between the old system and the new one? What is the funding mechanism and is it durable? Where has something like this been tried, and what happened?"_ The ability to evaluate a proposal against its stated objectives --- not its marketing language --- is the civic skill that matters most between elections.
+:::
+
+
+[^c6-1]: Bandura, A. (1997). _Self-Efficacy: The Exercise of Control._ W.H. Freeman. See also the American National Election Studies time-series data on political efficacy, which tracks the decline from the 1960s to present.
+
+[^c6-2]: Ganz, M. (2009). [_Why David Sometimes Wins: Leadership, Organization, and Strategy in the California Farm Workers Movement._](https://global.oup.com/academic/product/why-david-sometimes-wins-9780195162011) Oxford University Press. The best practical framework for civilians who want to organize.
+
+---
+
+#### C-7: Understanding Jury Duty
+*Strategy:* Decode + Navigate
+*See also:* C-3: Understanding Your Rights Where You Live (for jurisdiction-specific requirements), C-1: Knowing Your Rights During a Police Encounter (for understanding the criminal justice system)
+*My Man Jeeves:* _It may not be widely appreciated that jury duty represents the sole context in American civic life in which ordinary citizens exercise direct, binding power over an outcome that the government cannot override. A jury's acquittal, one might note, is not subject to appeal. This power is entirely real, it belongs to the juror, and one cannot help but observe that the system takes some pains to present it as an inconvenience --- an informed jury being, perhaps, rather more difficult to predict than an uninformed one. One's Agent can explain the process, the terminology, and the law before one walks in._
+*The Spec:*
+::: prompt
+I [received a jury duty summons / am currently serving on a jury /
+want to understand the jury system].
+My state: [state]
+My situation: [general curiosity / first time / hardship concern /
+currently serving --- no case details]
+Please explain:
+1. What the process actually looks like from summons to verdict
+2. What my rights and responsibilities are as a juror
+3. How to evaluate evidence and testimony --- what to weigh,
+   what to question
+4. What I should know that the orientation video doesn't cover
+Do not give me legal advice about any specific case.
+:::
+*What to do with the Output:* If you are currently serving, do not share case details with your Agent or anyone else --- that is a legal obligation, not a suggestion. Use your Agent for general education about the process, evidence evaluation, and your rights. After a verdict, ask: _"What just happened in that process, and what should I understand about it?"_
+
+::: science
+Jury nullification --- the jury's power to acquit even when the evidence supports conviction, because the jury disagrees with the law --- is legal, documented, and almost never mentioned in jury instructions. The principle dates to _Bushell's Case_ (1670) in English common law and the acquittal of John Peter Zenger (1735) in colonial New York, where a jury refused to convict a printer for criticizing the governor. Courts have consistently ruled that jurors have this power but that judges are not required to inform them of it.[^c7-1]
+:::
+
+
+::: science
+Jurors construct narratives and fit evidence into them, rather than weighing each piece of evidence independently. Pennington and Hastie's Story Model of jury decision-making (1992) documents this: once a juror builds a coherent story, new evidence is evaluated by how well it fits the existing narrative, not on its own merits.[^c7-2] This is confirmation bias operating inside the most consequential decision-making process most civilians will ever participate in. Understanding this about yourself makes you a better juror, not a worse one. Notice when you are building a story. Ask yourself what evidence would change it.
+:::
+
+
+::: fairness
+Jury duty compensation ranges from $5 to $50 per day in most jurisdictions --- well below minimum wage. Federal employees receive full pay during service; some states mandate employer pay; most do not. For hourly workers, jury duty is a financial crisis dressed as a civic privilege. If this applies to you, ask your Agent: _"What are the juror hardship exemption and deferral procedures in [state], and what documentation do I need?"_ --- and file early, because deadlines are strict.[^c7-3]
+:::
+
+
+::: fairness
+The emotional toll of jury service --- especially in violent crime or child abuse cases --- is real and under-supported. PTSD symptoms in jurors are documented, but most jurisdictions offer no post-trial counseling.[^c7-3] Jurors are expected to absorb graphic evidence, deliberate rationally, and return to normal life without transition. If you have served and are experiencing intrusive thoughts, difficulty sleeping, or emotional distress, that is a normal response to an abnormal experience. Contact your primary care provider or the [SAMHSA National Helpline](https://www.samhsa.gov/find-help/national-helpline) (*1-800-662-4357*), which is free, confidential, and available 24/7.
+:::
+
+
+::: tip
+_"I just got a jury summons and I have [hardship: job won't pay, childcare, medical condition]. What are my actual options for deferral or exemption in [state]?"_
+:::
+
+
+::: tip
+AI-generated evidence and algorithmic tools are entering the courtroom. Predictive sentencing systems like COMPAS have documented racial bias. Expert witnesses increasingly include data scientists. Deepfake evidence is an emerging challenge. The tools entering the courtroom are the same tools the reader is learning to use in this book. If you serve on a jury and encounter AI-derived evidence, ask your Agent afterward: _"What should I understand about [tool or method used in the case] and its known limitations?"_ Critical evaluation applies everywhere.
+:::
+
+
+[^c7-1]: _Bushell's Case_, 124 Eng. Rep. 1006 (C.P. 1670); _United States v. Dougherty_, 473 F.2d 1113 (D.C. Cir. 1972) for the court's explicit acknowledgment of jury nullification power. On the Zenger trial: Katz, S.N. (1990). _Newcastle's New York: Anglo-American Politics, 1732--1753._ Harvard University Press.
+
+[^c7-2]: Pennington, N. & Hastie, R. (1992). ["Explaining the Evidence: Tests of the Story Model for Juror Decision Making."](https://doi.org/10.1037/0022-3514.62.2.189) _Journal of Personality and Social Psychology_, 62(2), 189--206.
+
+[^c7-3]: Robertson, N., Davies, G., & Nettleingham, A. (2009). ["Vicarious traumatisation as a consequence of jury service."](https://doi.org/10.1093/hjl/hzp010) _Howard Journal of Criminal Justice_, 48(1), 1--12. On juror compensation: National Center for State Courts, ["Jury Manager's Toolbox."](https://www.ncsc.org/)
 
 ---
 
 #### C-8: Participating in AI Policy
 *Strategy:* Research + Draft + Navigate
-*See also:* C-2: Writing a Public Comment (the core skill), C-4: Advocating for Change (for sustained engagement), C-1: Understanding a Ballot Measure (for decoding proposals)
-*My Man Jeeves:* _It would appear that governments at every level are, at this moment, determining how AI will be regulated, who will have access to it, and what guardrails will be established. These decisions proceed through the same mechanisms as every other policy matter: legislative hearings, agency rulemaking, public comment periods, and lobbying. The companies building AI maintain full-time policy teams who draft language, attend hearings, and submit comments measured in hundreds of pages. The public comment period is, one might mention, open to the reader as well. It is not a formality — agencies are legally required to consider substantive comments, and a carefully specified comment from a person who will actually live under the rule carries a weight that a form letter, one ventures to suggest, does not. One's Agent can help one write one._
+*See also:* C-5: Writing a Public Comment (the core skill), C-6: Advocating for Change (for sustained engagement), C-4: Understanding a Ballot Measure (for decoding proposals)
+*My Man Jeeves:* _It would appear that governments at every level are, at this moment, determining how AI will be regulated, who will have access to it, and what guardrails will be established. These decisions proceed through the same mechanisms as every other policy matter: legislative hearings, agency rulemaking, public comment periods, and lobbying. The companies building AI maintain full-time policy teams who draft language, attend hearings, and submit comments measured in hundreds of pages. The public comment period is, one might mention, open to the reader as well. It is not a formality --- agencies are legally required to consider substantive comments, and a carefully specified comment from a person who will actually live under the rule carries a weight that a form letter, one ventures to suggest, does not. One's Agent can help one write one._
 *The Spec:*
 ::: prompt
 I want to participate in AI policy decisions that affect me.
@@ -323,23 +358,23 @@ I have a specific regulation I want to comment on]
 My concern: [job displacement / privacy / algorithmic bias /
 children's safety / access and affordability / government
 use of AI / something else: describe]
-My location: [state — for state-level legislation]
+My location: [state --- for state-level legislation]
 Please help me:
 1. Identify what AI-related legislation or rulemaking is currently
    active at the federal and state level that relates to my concern
 2. Explain where I can submit public comment or testimony,
    and the deadlines
-3. Help me understand the proposed language — what does it
+3. Help me understand the proposed language --- what does it
    actually require, what does it leave unspecified, and
    who benefits from the gaps
 4. Help me draft a public comment that addresses the specific
    regulatory language, states my position, and provides
    a concrete recommendation
 :::
-*What to do with the Output:* Submit your comment through the official channel — regulations.gov for federal rules, your state legislature's website for state bills. Written comments become part of the public record. For state and local hearings, the same rules apply as C-2: print it, practice it, show up. A single informed comment from a constituent who will live under the rule is worth more than a thousand form letters. Agencies know the difference.
+*What to do with the Output:* Submit your comment through the official channel --- regulations.gov for federal rules, your state legislature's website for state bills. Written comments become part of the public record. For state and local hearings, the same rules apply as C-5: print it, practice it, show up. A single informed comment from a constituent who will live under the rule is worth more than a thousand form letters. Agencies know the difference.
 
 ::: science
-The federal Notice and Comment process, established by the Administrative Procedure Act of 1946, requires agencies to publish proposed rules, accept public comments, and respond to substantive concerns before finalizing regulations. This is not performative — courts have struck down rules where agencies failed to adequately consider public input. The process was designed for exactly this kind of participation. It is underused because most people do not know it exists.[^c8-1]
+The federal Notice and Comment process, established by the Administrative Procedure Act of 1946, requires agencies to publish proposed rules, accept public comments, and respond to substantive concerns before finalizing regulations. This is not performative --- courts have struck down rules where agencies failed to adequately consider public input. Research on federal rulemaking confirms that substantive comments --- those addressing specific provisions with evidence or lived experience --- are more likely to influence final rules than form letters or general expressions of support.[^c8-1] Public comment participation rates on federal rules are typically in the hundreds to low thousands, out of a population of 330 million. The reader who submits one substantive comment on one AI regulation has done more than 99% of the population. That is not hyperbole.
 :::
 
 
@@ -349,17 +384,16 @@ _"I just read [a news article / company blog post / policy white paper] about AI
 
 
 ::: fairness
-AI policy is being shaped disproportionately by the companies building the technology and by a small number of well-funded advocacy organizations. Public comments from individuals — especially from communities that will be most affected by algorithmic decision-making in hiring, lending, housing, healthcare, and criminal justice — are underrepresented in the record. Your Agent can help you write a comment. It cannot make the system value your input equally. Showing up in the record is necessary but not sufficient. Organizing — C-4 — is what makes the record matter.
+AI policy is being shaped disproportionately by the companies building the technology and by a small number of well-funded advocacy organizations. Public comments from individuals --- especially from communities that will be most affected by algorithmic decision-making in hiring, lending, housing, healthcare, and criminal justice --- are underrepresented in the record. Your Agent can help you write a comment. It cannot make the system value your input equally. Showing up in the record is necessary but not sufficient. Organizing --- C-6 --- is what makes the record matter.
 :::
 
 
-<!-- RESEARCH NEEDED: Current landscape of AI regulation. Federal: NIST AI Risk Management Framework, FTC enforcement actions on algorithmic harm, proposed federal AI legislation. State: comprehensive AI bills (Colorado AI Act, Illinois Artificial Intelligence Video Interview Act, various state AI task forces). EU AI Act as international reference point. The entry should point to resources that track active legislation: the ACLU's technology and civil liberties page, the Electronic Frontier Foundation, the Brennan Center's technology and elections work, and the AI Policy Institute for current legislative tracking. -->
+::: also
+Track active AI legislation and rulemaking: the [Electronic Frontier Foundation](https://www.eff.org/) covers digital rights and surveillance. The [ACLU's technology and civil liberties page](https://www.aclu.org/issues/privacy-technology) tracks algorithmic accountability. The [Brennan Center for Justice](https://www.brennancenter.org/issues/technology-elections) covers technology and elections. [Regulations.gov](https://www.regulations.gov/) is the portal for all open federal comment periods. For state-level bills, [Open States](https://openstates.org/) tracks legislation by topic and jurisdiction.
+:::
 
-<!-- RESEARCH NEEDED: Comment effectiveness. Research on federal rulemaking shows that substantive comments — those that address specific provisions with evidence or lived experience — are more likely to influence final rules than form letters or general expressions of support/opposition (Coglianese, 2006; Farina et al., 2012 on "Regulation Room" experiments in broadening participation). The entry should give the reader confidence that their comment matters while being honest that the process favors repeat players. -->
 
-<!-- RESEARCH NEEDED (HUMAN CONDITION): The "someone else will handle it" problem. Diffusion of responsibility (Darley & Latané, 1968) applies to civic participation as directly as it does to bystander intervention. The larger the perceived group of concerned citizens, the less likely any individual is to act. The antidote is the same: make the individual feel personally responsible and capable. This entry exists to do both. The reader who submits one substantive public comment on one AI regulation has done more than 99% of the population. That is not hyperbole — public comment participation rates on federal rules are typically in the hundreds to low thousands, out of a population of 330 million. -->
-
-[^c8-1]: The Administrative Procedure Act (5 U.S.C. § 553) establishes the notice-and-comment rulemaking process. For an accessible overview, see the Congressional Research Service report "An Overview of Federal Regulations and the Rulemaking Process" and regulations.gov for currently open comment periods.
+[^c8-1]: Administrative Procedure Act, 5 U.S.C. § 553. On comment effectiveness: Coglianese, C. (2006). ["Citizen Participation in Rulemaking: Past, Present, and Future."](https://doi.org/10.1215/03616878-2005-016) _Duke Law Journal_, 55, 943--968. Farina, C.R., et al. (2012). ["Rulemaking vs. Democracy: Judging and Nudging Public Participation That Counts."](https://scholarship.law.cornell.edu/facpub/584/) _Michigan Journal of Environmental and Administrative Law_, 2(1), 123--172. See also regulations.gov for currently open comment periods.
 
 <!-- BRAINSTORM: Future Civic entries
 — C-9: Accessing Public Records (FOIA) — the government's information is your information. Filing requests at federal, state, and local levels.
