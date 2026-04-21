@@ -1,30 +1,32 @@
 # TODO — A Majordomo for Everyone
 
-Last reviewed: 2026-04-20 against spec/ directory and codebase.
+Last reviewed: 2026-04-21 against spec/ directory and codebase.
 
 ---
 
 ## Editorial Notes
 
-246 `<!-- RESEARCH NEEDED: ... -->` comments remain across Part 2, of which 101 carry the `(HUMAN CONDITION)` subtype and 18 carry the `Veterans integration ---` prefix (per the veterans-benefits convention in `spec/editorial/editorial-conventions.md`). The remaining 127 are standard editorial flags: citation verification, statistical updates, legal details to confirm against current law. They do not appear in the built ePub and do not correspond to unverified claims in the text. They should be reviewed before publication to decide what gets surfaced, expanded, or removed.
+145 `<!-- RESEARCH NEEDED: ... -->` and 101 `<!-- RESEARCH NEEDED (HUMAN CONDITION): ... -->` comments remain across Part 2. Of the 145 standard RESEARCH NEEDED, 18 carry the `Veterans integration ---` prefix per the convention in `spec/editorial/editorial-conventions.md`. These are author memos: background research directions, sociological context, and expansion ideas. They do not appear in the built ePub and do not correspond to unverified claims in the text. They should be reviewed before publication to decide what gets surfaced, expanded, or removed.
 
-| Domain | RESEARCH NEEDED | of which HUMAN CONDITION | of which Veterans |
-|--------|-----------------|--------------------------|-------------------|
-| Life | 41 | 25 | 2 |
-| Work | 34 | 14 | 3 |
-| Money | 31 | 12 | 4 |
-| Civic | 27 | 12 | 0 |
-| Transportation | 24 | 7 | 1 |
-| IRL | 20 | 11 | 0 |
-| Legal | 18 | 2 | 3 |
-| Chores | 17 | 5 | 0 |
-| Home | 16 | 5 | 2 |
-| Creative | 15 | 8 | 0 |
+There are also 5 `<!-- EDITORIAL: ... -->` comments (Chores) and 3 `<!-- BRAINSTORM: ... -->` comments (Civic, Life, Computer & Web).
+
+| Domain | RESEARCH NEEDED | HUMAN CONDITION | Total |
+|--------|-----------------|-----------------|-------|
+| Life | 16 | 25 | 41 |
+| Work | 20 | 14 | 34 |
+| Money | 19 | 12 | 31 |
+| Civic | 15 | 12 | 27 |
+| Transportation | 17 | 7 | 24 |
+| IRL | 9 | 11 | 20 |
+| Legal | 16 | 2 | 18 |
+| Chores | 12 | 5 | 17 |
+| Home | 11 | 5 | 16 |
+| Creative | 7 | 8 | 15 |
 | Health | 3 | 0 | 3 |
 | Computer & Web | 0 | 0 | 0 |
-| **Total** | **246** | **101** | **18** |
+| **Total** | **145** | **101** | **246** |
 
-Health resolved in the 2026-04-20 session: all 10 original memos surfaced into prose, callouts, or a restructured TIP (H-5 Charmaz paragraph + spoon theory MEME + community prompt; H-6 retirement-savings / long-term-care FAIRNESS + Medicare Advantage SCIENCE + SHIP ALSO; H-7 consolidated FAIRNESS on cultural variation and disparities + SCIENCE on ambiguous loss + extended TIP for sibling dynamics + VA burial/honors ALSO). H-17 and H-19 merged; H-13 and H-18 merged; H-3 absorbed the H-24 brainstorm on negotiation. The remaining Health memos are the three Veterans-integration markers for H-4, H-12, and H-13.
+Health resolved in the 2026-04-20 session: all 10 original memos surfaced into prose, callouts, or a restructured TIP (H-5 Charmaz paragraph + spoon theory MEME + community prompt; H-6 retirement-savings / long-term-care FAIRNESS + Medicare Advantage SCIENCE + SHIP ALSO; H-7 consolidated FAIRNESS on cultural variation and disparities + SCIENCE on ambiguous loss + extended TIP for sibling dynamics + VA burial/honors ALSO). H-17 and H-19 merged; H-13 and H-18 merged; H-3 absorbed the H-24 brainstorm on negotiation. H-22 Mental Health First Aid drafted 2026-04-21. The remaining Health memos are the three Veterans-integration markers for H-4, H-12, and H-13.
 
 ---
 
@@ -55,4 +57,15 @@ Carried from the former BRAINSTORM comment in `src/content/02-field-guide/01-hea
 
 ## Pending
 
-(none)
+- [ ] Editorial notes triage --- domain-by-domain, smallest first (Health substantially complete; Computer & Web has no memos):
+  1. Creative (15)
+  2. Home (16)
+  3. Chores (17)
+  4. Legal (18)
+  5. IRL (20)
+  6. Transportation (24)
+  7. Civic (27)
+  8. Money (31)
+  9. Work (34)
+  10. Life (41)
+- [ ] Kidlin's Law ("If you can write the problem down clearly, you're halfway to solving it") --- it's essentially the premise of Strategy 0 and Chapter 4. Decide whether to surface it. Current spec blocks dropping it in as a Strategy 0 epigraph two ways: `spec/editorial/editorial-conventions.md:11` reserves the strategy-chapter epigraph slot for the TRINITRON block, and the same rule bans motivational quotes. Options: (1) add it as a pull-quote between the italic subtitle and the `---` rule, keeping TRINITRON as the epigraph; (2) replace the Seinfeld TRINITRON; (3) amend the spec to allow a second short epigraph on strategy chapters and carve out an aphorism exception. Provenance is also uncertain --- no reliable primary source.
