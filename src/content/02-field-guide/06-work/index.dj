@@ -61,6 +61,8 @@ Checking current information requires web search, which is free in Gemini, ChatG
 
 <!-- RESEARCH NEEDED: The "skills gap" discourse. Employers claim they can't find qualified candidates while wages remain flat — this tension is documented (Cappelli, 2012, "Why Good People Can't Get Jobs"). Upskilling with your Agent (online courses, certification prep, portfolio building) is practical, but the entry should note that the "skills gap" is often a "wages gap" wearing a different hat. -->
 
+<!-- RESEARCH NEEDED: Veterans integration --- Federal Veterans' Preference (5-point for honorable discharge; 10-point for service-connected disability or eligible surviving spouse/parent); VEOA and VRA appointment authorities. GI Bill also covers civilian certifications and apprenticeships, not just degrees. -->
+
 ---
 
 #### W-2: Leaving a Job
@@ -86,6 +88,8 @@ Paste or upload your document directly — file upload works in Claude, Gemini, 
 :::
 
 [^w2-1]: The 21-day (or 45-day) review period is required by the Older Workers Benefit Protection Act (OWBPA), 29 U.S.C. § 626(f). See also EEOC, "Understanding Waivers of Discrimination Claims in Employee Severance Agreements," https://www.eeoc.gov/laws/guidance/qa-understanding-waivers-discrimination-claims-employee-severance-agreements.
+
+<!-- RESEARCH NEEDED: Veterans integration --- USERRA (Uniformed Services Employment and Reemployment Rights Act, 38 U.S.C. §§ 4301–4335) protects reservists and National Guard members: reinstatement at pre-service job with equivalent pay, benefits, and seniority following up to 5 cumulative years of service; protected from discharge without cause for up to 1 year after reemployment. -->
 
 ---
 
@@ -445,5 +449,7 @@ Upload your benefits summary directly — PDF and document upload works in Claud
 <!-- RESEARCH NEEDED (HUMAN CONDITION): Benefits confusion is not a failure of intelligence — it is a design outcome. A TIAA Institute study found that only 16% of Americans can correctly answer four basic financial literacy questions. Benefits documents are written in actuarial language, presented during high-workload periods, and structured to make the default option (which favors the employer's cost) the path of least resistance. The shame of not understanding your benefits is misplaced. The document was not designed to be understood. It was designed to be signed. -->
 
 <!-- RESEARCH NEEDED: Disability insurance — the most undervalued benefit. The Social Security Administration estimates that a 20-year-old worker has a 1-in-4 chance of becoming disabled before reaching retirement age. Employer-provided long-term disability insurance typically replaces 50-60% of salary. The gap between that and actual expenses is the risk. Verify current SSA statistics and typical employer LTD terms. -->
+
+<!-- RESEARCH NEEDED: Veterans integration --- TRICARE (active-duty, retirees, eligible family) is separate from VA healthcare. Military service credit for Social Security and federal civilian retirement (FERS). Thrift Savings Plan (TSP) and the Blended Retirement System (BRS, since 2018) include a 5% government match. SBP (Survivor Benefit Plan) election at retirement is once-and-done. -->
 
 [^w11-1]: Vanguard, "How America Saves 2023," https://institutional.vanguard.com/content/dam/inst/iig-transformation/has/2023/pdf/has-executive-summary-2023.pdf. The $1,336 figure is the median uncollected match; actual amounts vary by salary and match structure.

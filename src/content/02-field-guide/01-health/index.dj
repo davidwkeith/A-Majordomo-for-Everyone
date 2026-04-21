@@ -59,18 +59,32 @@ This works well with voice mode on your phone — all major tools support it on 
 
 ---
 
-#### H-3: Decoding a Medical Bill or EOB
-*Strategy:* Decode
-*See also:* H-4: Appealing an Insurance Denial (if something looks wrong), M-4: Collections and Bankruptcy (if the bill becomes debt)
-*My Man Jeeves:* _The Explanation of Benefits is, in principle, a document intended to explain one's benefits — a purpose it fulfills, one might venture, with considerable incompleteness. It presents procedure codes, allowed amounts, adjustments, and patient responsibility in a format that rather generously rewards confusion. One would not wish to suggest that the confusion is by design, though the alternative explanation requires a degree of charitable interpretation. One's Agent has read every code on the form and is prepared to translate._
+#### H-3: Decoding a Medical Bill or EOB (and Negotiating What You Owe)
+*Strategy:* Decode + Assert
+*See also:* H-4: Appealing an Insurance Denial (if something looks wrong), M-4: Collections and Bankruptcy (if the bill becomes debt), M-6: Financial Coach (for insurance and costs)
+*My Man Jeeves:* _The Explanation of Benefits is, in principle, a document intended to explain one's benefits --- a purpose it fulfills, one might venture, with considerable incompleteness. It presents procedure codes, allowed amounts, adjustments, and patient responsibility in a format that rather generously rewards confusion. The bill that follows presents a further difficulty: its stated price bears a variable, and largely notional, relation to what one might actually be asked to pay. Nonprofit hospitals are required by federal tax rule to maintain financial assistance programs; they are not, however, required to volunteer the fact at the billing window. One's Agent has read every code on the form and every provision of 26 U.S.C. § 501(r) --- and is prepared both to translate and to negotiate._
 *The Spec:*
 ::: prompt
 I received this medical bill / Explanation of Benefits and I don't
 understand it. [Paste the bill or EOB, removing your name and ID number.]
+
+My situation:
+[I can pay the full amount but want to make sure it's correct /
+I can pay some of it but not all / I cannot pay this /
+this will go to collections if I don't act / this is from a nonprofit
+hospital / this is from a for-profit hospital or physician group]
+
+Insurance status: [type, or uninsured]
+
 Please:
 1. Explain each line item in plain language
 2. Flag anything that seems unusual or potentially incorrect
 3. Tell me if there's anything here I should dispute
+4. Draft a script I can use to call the billing department, including
+   requesting an itemized bill, asking about financial assistance or
+   charity care, and asking about a cash-pay discount or a
+   no-interest payment plan
+5. Tell me what rights I have if this has already gone to collections
 :::
 *What to do with the Output:* Compare every line to the original provider bill. If your Agent flags a charge as unusual, call the billing department and ask them to explain it. The person who calls is the person who gets the adjustment. The person who doesn't call pays the first number they were given.
 
@@ -83,6 +97,15 @@ Paste or upload your document directly — file upload works in Claude, Gemini, 
 If your EOB is a PDF from your insurance portal, copy the text and paste it. If it arrived on paper, photograph it with your phone and copy the text from the photo — both iPhone and Android can do this. Your Agent reads pasted text faster and more accurately than a photo. See [Appendix J](09-appendix-j-working-with-text.xhtml) for why.
 :::
 
+
+::: fairness
+Under [26 U.S.C. § 501(r)](https://www.irs.gov/charities-non-profits/charitable-organizations/requirements-for-501c3-hospitals-under-the-affordable-care-act-section-501r), every nonprofit hospital must maintain a written Financial Assistance Policy, publicize it, cap charges to FAP-eligible patients at the rate generally billed to insured patients, and screen for eligibility before extraordinary collection actions. Enforcement is weak. A 2022 KFF Health News investigation of 528 U.S. hospitals found that more than two-thirds sue patients or pursue other legal action, nearly 40% disclose nothing about their collection practices online, and only 19 of the 528 had publicly committed against extraordinary collection actions.[^h3-1] Eligibility thresholds are also wildly inconsistent: a 2024 _Health Affairs_ study found income limits for free care ranging from 41% to 600% of the federal poverty guideline, with a median discounted-care limit of 400% FPL but values reported between 100% and 1,000%.[^h3-2] Hospital financial counselors can point you at programs and applications, but they are chronically understaffed; the research, the appeals, and the document-gathering fall to the patient. Ask directly: _"What is your financial assistance policy, what is the income threshold for free and discounted care, and can you email me the application today?"_ Keep a record of the date, the staff member's name, and a reference number.
+:::
+
+
+[^h3-1]: Levey, N.N. (2022). ["Hundreds of Hospitals Sue Patients or Threaten Their Credit, a KHN Investigation Finds. Does Yours?"](https://kffhealthnews.org/news/article/medical-debt-hospitals-sue-patients-threaten-credit-khn-investigation/) _KFF Health News_, December 21, 2022. Part of the _Diagnosis: Debt_ investigation series; see also Levey, N.N., ["Patients Eligible For Charity Care Instead Get Big Bills."](https://kffhealthnews.org/news/patients-eligible-for-charity-care-instead-get-big-bills/)
+
+[^h3-2]: Messac, L., Janke, A.T., Rogers, L.H., Fonfield, I., Walker, J., Rushbanks, E., Becker, N.V., & Bai, G. (2024). ["US Nonprofit Hospitals Have Widely Varying Criteria To Decide Who Qualifies For Free And Discounted Charity Care."](https://www.healthaffairs.org/doi/10.1377/hlthaff.2023.01615) _Health Affairs_, 43(11), 1569–1577.
 
 [eob-annotated]{.art}
 
@@ -109,6 +132,8 @@ hostile -- I may need to escalate further.
 *Science Note:* First-level internal appeals succeed at rates between 39-59% depending on plan type (KFF, 2023). Most people never file one.[^h4-1]
 
 [^h4-1]: Kaiser Family Foundation (2023). "Claims Denials and Appeals in ACA Marketplace Plans." The appeal success rate data makes the low filing rate one of the most consequential information asymmetries in American healthcare.
+
+<!-- RESEARCH NEEDED: Veterans integration --- VA appeals is a parallel system (Board of Veterans' Appeals, Court of Appeals for Veterans Claims); different forms (VA 20-0995 supplemental claim, 20-0996 higher-level review, 10182 BVA appeal), different timelines, different standards. Branch or cross-reference. -->
 
 ---
 
@@ -147,9 +172,20 @@ To make this Expert Role persistent across sessions, save it as a *Project* (Cla
 :::
 
 
-<!-- RESEARCH NEEDED (HUMAN CONDITION): The identity shift that chronic illness forces is one of the least discussed aspects of the human condition. Charmaz (1991, "Good Days, Bad Days") documents how chronic illness fundamentally restructures self-concept, social relationships, and sense of the future. The person you were before the diagnosis is not the person you are after, and there is a grief process for the life you expected that is separate from the medical condition itself. This is not self-pity — it is a documented psychological process that, when unaddressed, worsens outcomes. Needs its own treatment, not just a footnote. -->
+Charmaz's _Good Days, Bad Days_ (1991) names what the medical system rarely does: chronic illness restructures the self. The person before the diagnosis is not the person after, and there is a grief for the life that was expected --- separate from the pain, separate from the fatigue, separate from the losses of mobility or hearing or whatever else the condition quietly takes. This grief is not self-pity. It is a documented psychological process, and when it goes unnamed it worsens outcomes.[^h5-3] Your doctor, in a fifteen-minute visit, cannot hold it. Your family, who watched the change, may not have the vocabulary for it. Your Agent is not a therapist and cannot replace one --- but it is a place where you can say these things in plain language and receive something back that does not flinch.
 
-<!-- RESEARCH NEEDED (HUMAN CONDITION): "Spoon theory" (Miserandino, 2003) — an informal framework developed by a lupus patient — has become the dominant lay framework for explaining energy limitation in chronic illness. It has no formal research backing but has been cited in nursing literature as an effective communication tool. The tension between folk wisdom and formal research is itself interesting. Sometimes the patient community develops better frameworks than the researchers. Consider whether to include as a [MEME] or [SCIENCE] sidebar — it is neither and both. -->
+::: tip
+_"I have [condition] and I'm grieving the life I expected to have. Help me name what I've lost, what I've adapted to, and what I'm still figuring out --- so I can bring the right questions to my doctor, my family, and a therapist if I decide to see one."_
+
+_When you're ready: "Help me find online communities for people with [condition]. Where do they gather? What makes a healthy community? What should I avoid?"_
+:::
+
+
+[^h5-3]: Charmaz, K. (1991). _Good Days, Bad Days: The Self in Chronic Illness and Time._ Rutgers University Press.
+
+::: meme
+In 2003, [Christine Miserandino](https://butyoudontlooksick.com/articles/written-by-christine/the-spoon-theory/) explained lupus to a friend by handing her twelve spoons. Each task --- showering, making breakfast, going to work --- costs spoons, and when they run out, the day is over. Spoon theory was not peer-reviewed. It was named in a diner by a patient who needed a friend to understand, and it has since been cited in nursing literature because it did something their frameworks did not.
+:::
 
 ::: science
 The Stanford Chronic Disease Self-Management Program (Lorig et al., 1999) remains the best-studied model: a randomized trial of 952 adults showed reduced hospitalization, less health distress, and more exercise at a cost of $70 per participant. A meta-analysis of 23 studies (Brady et al., 2013) confirmed consistent small-to-moderate effects, strongest for self-efficacy. The problem is reach: over fifteen years, fewer than 500,000 Americans have completed a structured program — against 194 million adults with at least one chronic condition (CDC, 2023). Lorig's own research found that online delivery produced comparable results to in-person groups, which suggests the educational structure matters more than the peer format. Your Agent can approximate that structure. It cannot replace a room full of people who know what a bad day actually feels like.[^h5-1]
@@ -159,13 +195,12 @@ The Stanford Chronic Disease Self-Management Program (Lorig et al., 1999) remain
 [^h5-1]: Lorig, K.R. et al. (1999). ["Evidence suggesting that a chronic disease self-management program can improve health status while reducing hospitalization."](https://pubmed.ncbi.nlm.nih.gov/10413387/) _Medical Care_, 37(1), 5–14. Brady, T.J. et al. (2013). ["A Meta-Analysis of Health Status, Health Behaviors, and Health Care Utilization Outcomes of the Chronic Disease Self-Management Program."](https://pmc.ncbi.nlm.nih.gov/articles/PMC3547675/) _Preventing Chronic Disease_, 10:E07. Lorig, K.R. et al. (2006). ["Internet-based chronic disease self-management: a randomized trial."](https://pubmed.ncbi.nlm.nih.gov/17063127/) _Medical Care_, 44(11), 964–971.
 
 ::: fairness
-When patients skip medications, the medical system calls it "non-adherence." In 1.3 million cases, it is insulin rationing — skipping doses, using less than prescribed, or delaying refills to afford them. The rate reaches 29% among the uninsured and 23% among Black adults. Cost-related non-adherence contributes to an estimated 100,000 preventable deaths annually. When the barrier is the price, the failure is the system, not the patient. Ask your Agent: _"Are there patient assistance programs, generics, or manufacturer coupons for [my medication]?"_[^h5-2]
+When patients skip medications, the medical system calls it "non-adherence." In 1.3 million cases, it is insulin rationing --- skipping doses, using less than prescribed, or delaying refills to afford them. The rate reaches 29% among the uninsured and 23% among Black adults. Cost-related non-adherence contributes to an estimated 100,000 preventable deaths annually. When the barrier is the price, the failure is the system, not the patient. Ask your Agent: _"Are there patient assistance programs, generics, or manufacturer coupons for [my medication]?"_[^h5-2]
 :::
 
 
 [^h5-2]: Yan, D. et al. (2023). ["Cost-Related Insulin Rationing in US Adults Younger Than 65 Years With Diabetes."](https://jamanetwork.com/journals/jama/fullarticle/2803263) _JAMA_, 329(9). CDC/NCHS [Data Brief No. 470](https://www.cdc.gov/nchs/products/databriefs/db470.htm) (2023). "Characteristics of Adults Aged 18–64 Who Did Not Take Medication as Prescribed Due to Cost."
 
-<!-- RESEARCH NEEDED (HUMAN CONDITION): The loneliness of chronic illness. Conditions that limit mobility, energy, or social participation (autoimmune diseases, chronic fatigue, chronic pain) produce isolation as a secondary effect. The isolation worsens the condition. The condition worsens the isolation. This feedback loop is well-documented (Hawkley & Cacioppo, 2010) but poorly addressed by a medical system that treats conditions individually rather than systemically. Your Agent can help you find online communities — which research increasingly suggests provide real health benefits for chronic conditions (Wicks et al., 2010, PatientsLikeMe study). -->
 
 ---
 
@@ -205,17 +240,39 @@ The naming confusion is not trivial. KFF polling finds that 62% of Americans eit
 :::
 
 
-<!-- RESEARCH NEEDED (HUMAN CONDITION): The terror of aging without adequate coverage is one of the defining anxieties of American life. The median retirement savings for Americans 55-64 is approximately $134,000 (Federal Reserve Survey of Consumer Finances, 2022), which covers roughly 14 months of nursing home care. The gap between what people have saved and what long-term care costs is an actuarial crisis disguised as individual failure. The entry should state this flatly. -->
+::: fairness
+The median American household ages 55–64 holds $185,000 in retirement savings[^h6-4] against a semi-private nursing-home bill that, in 2024, averaged $111,325 a year.[^h6-5] That is roughly twenty months of care before the money is gone. Medicaid covers long-term care after a spend-down: in most states, the nursing-home resident must be reduced to $2,000 in countable assets before qualifying, with a 60-month look-back on any transfers made in advance. Community spouses may retain significantly more under federal protections, but the rules are state-specific and unforgiving of error. This is the math no one teaches before a parent is admitted. For World War II–era veterans --- and for those who served in Korea, Vietnam, the Gulf War, or the post-9/11 period --- VA pension _with Aid and Attendance_ pays a Maximum Annual Pension Rate of up to $2,358 per month in 2025 for a single veteran, $2,795 for a married veteran, and $1,515 for a surviving spouse (figures are the MAPR inclusive of the Aid and Attendance increase, not a separate payment on top), to cover long-term care at home or in a facility.[^h6-6] The benefit requires 90+ days of active duty with at least one day during a congressionally recognized wartime period, and application is via VA Form 21-2680 (plus 21-0779 for nursing-home residents). Ask your Agent: _"My [parent / grandparent / I] served in [branch, years, including any wartime dates]. What VA pension and long-term care benefits apply, and what forms, income documentation, and service records do we need?"_
+:::
 
-<!-- RESEARCH NEEDED: Dual eligibility (Medicare + Medicaid) — approximately 12 million Americans qualify for both, and navigating the intersection is so complex that an entire category of state programs exists just to help. The entry should point to State Health Insurance Assistance Programs (SHIP) as a free resource. Also Medicare.gov and 1-800-MEDICARE. -->
 
-<!-- RESEARCH NEEDED: Medicare Advantage (Part C) vs. Original Medicare. The marketing for Medicare Advantage is aggressive and the trade-offs (network restrictions, prior authorization requirements, variable quality) are poorly understood. This is one of the most consequential healthcare decisions older Americans make and one of the least informed. The entry should help the reader understand the trade-off without taking a side. -->
+::: science
+As of 2025, 54% of Medicare beneficiaries --- 34.1 million people --- are enrolled in Medicare Advantage plans; the Congressional Budget Office projects 64% by 2034.[^h6-7] The trade-off is routinely understated in marketing. In 2024, Medicare Advantage insurers processed 53 million prior authorization requests and denied 4.1 million of them (7.7%); UnitedHealth Group, the largest MA insurer, denied 12.8%. Only 11.5% of denials were appealed --- though 80.7% of those appeals were overturned, which suggests most denials are not defensible, but do not have to be.[^h6-8] And the well-marketed fallback of "you can always switch back" is state-dependent. Only four states (Connecticut, Maine, Massachusetts, New York) guarantee Medigap issuance year-round to all beneficiaries 65 and older; in the other 46 states and D.C., a beneficiary who leaves Medicare Advantage for Original Medicare after the first-year trial period can be denied supplemental Medigap coverage on the basis of the very conditions that made them want to leave.[^h6-9] Choose on the ten-year horizon, not the welcome-call pitch.
+:::
+
+
+::: also
+Free, unbiased Medicare counseling is available in every state through the [State Health Insurance Assistance Program (SHIP)](https://www.shiphelp.org/) --- a federally funded network that helps beneficiaries compare plans, challenge denials, and untangle dual-eligibility paperwork. About 12.8 million Americans now qualify for both Medicare and Medicaid.[^h6-10] Call **1-877-839-2675** to reach your local SHIP, or search by ZIP code at shiphelp.org. SHIP counselors are trained, unpaid by plans, and have no financial interest in what you choose --- unlike the licensed agents behind most Medicare television ads.
+:::
 
 [^h6-1]: Kaiser Family Foundation, ["An Overview of the Medicare Part D Prescription Drug Benefit."](https://www.kff.org/medicare/a-current-snapshot-of-the-medicare-part-d-prescription-drug-benefit/) See also [Inflation Reduction Act of 2022, Section 11201](https://www.congress.gov/bill/117th-congress/house-bill/5376).
 
 [^h6-2]: Congressional Budget Office (2025). [Cost estimate, One Big Beautiful Bill Act](https://www.cbo.gov/publication/61461), Medicaid provisions. See also KFF, ["A Closer Look at the Work Requirement Provisions in the 2025 Federal Budget Reconciliation Law."](https://www.kff.org/medicaid/a-closer-look-at-the-work-requirement-provisions-in-the-2025-federal-budget-reconciliation-law/)
 
 [^h6-3]: KFF, ["7 Charts About Public Opinion on Medicaid."](https://www.kff.org/medicaid/7-charts-about-public-opinion-on-medicaid/) See also KFF Health Tracking Poll, ["The Public's Views on Potential Changes to Medicaid."](https://www.kff.org/medicaid/kff-health-tracking-poll-public-views-on-potential-changes-to-medicaid/)
+
+[^h6-4]: Federal Reserve Board. [2022 Survey of Consumer Finances](https://www.federalreserve.gov/econres/scfindex.htm). Median retirement account balance for households with reference person ages 55–64. See also CRS, ["Distribution of Retirement Account Balances: Analysis of the 2022 Survey of Consumer Finances."](https://www.congress.gov/crs-product/IF12928)
+
+[^h6-5]: Genworth & CareScout. ["Cost of Care Survey 2024."](https://www.carescout.com/cost-of-care) National annual median for a semi-private nursing home room, up 7% from 2023. Private-room median: $127,750. Medicaid long-term care asset limits and look-back rules vary by state; for a current overview, see [American Council on Aging / Medicaid Planning Assistance](https://www.medicaidplanningassistance.org/medicaid-eligibility/).
+
+[^h6-6]: U.S. Department of Veterans Affairs. ["VA Aid and Attendance benefits and Housebound allowance."](https://www.va.gov/pension/aid-attendance-housebound/) 2025 maximum annual pension rates published by VA; figures above convert to monthly. Wartime period definitions are set by statute (38 U.S.C. § 1521); WWII, Korea, Vietnam, the Gulf War, and post-9/11 are all congressionally recognized.
+
+[^h6-7]: Ochieng, N., Biniek, J.F., & Neuman, T. (2025). ["Medicare Advantage in 2025: Enrollment Update and Key Trends."](https://www.kff.org/medicare/medicare-advantage-enrollment-update-and-key-trends/) _KFF_. CBO projections from the 2025 Medicare baseline.
+
+[^h6-8]: Biniek, J.F. et al. (2025). ["Medicare Advantage Insurers Made Nearly 53 Million Prior Authorization Determinations in 2024."](https://www.kff.org/medicare/medicare-advantage-insurers-made-nearly-53-million-prior-authorization-determinations-in-2024/) _KFF_. Insurer-level denial rates drawn from the same analysis.
+
+[^h6-9]: KFF. ["Medigap Enrollment and Consumer Protections Vary Across States."](https://www.kff.org/medicare/medigap-enrollment-and-consumer-protections-vary-across-states/) See also Medicare.gov, ["Can I switch or drop my Medigap policy?"](https://www.medicare.gov/health-drug-plans/medigap/ready-to-buy/change-policies/switch-drop) The federal 12-month Medicare Advantage trial right is limited; broader state protections exist only in CT, MA, ME, and NY.
+
+[^h6-10]: MACPAC/MedPAC. ["Beneficiaries Dually Eligible for Medicare and Medicaid Data Book,"](https://www.macpac.gov/wp-content/uploads/2024/01/Jan24_MedPAC_MACPAC_DualsDataBook-508.pdf) January 2024. SHIP is administered by the [Administration for Community Living](https://acl.gov/programs/connecting-people-services/state-health-insurance-assistance-program-ship).
 
 ---
 
@@ -244,23 +301,42 @@ Please help me:
 
 ::: tip
 _"I want to talk to my parent about advance directives but I don't know how to bring it up without them thinking I'm planning their funeral. Help me find words that open the door without pushing."_
+
+_For the family meeting:_ _"My [siblings / other close family] and I need to coordinate on [parent's] care. Help me prepare for the conversation --- what we need to decide together, what falls naturally to whoever lives closest, and how to keep old childhood dynamics from running the meeting."_
 :::
 
 
-<!-- RESEARCH NEEDED (HUMAN CONDITION): The American denial of death is one of the most documented cultural phenomena in psychology. Becker's "The Denial of Death" (1973, Pulitzer Prize) remains the foundational text. The practical consequence: only 37% of American adults have an advance directive (Yadav et al., 2017, Health Affairs). The percentage is lower for Black and Hispanic Americans, reflecting both cultural differences in how death is discussed and structural distrust of the medical system — distrust that is historically justified (Tuskegee, Henrietta Lacks, maternal mortality disparities). The entry must handle this with care. -->
+::: fairness
+Roughly 36.7% of US adults have completed any type of advance directive; 29.3% have a living will.[^h7-2] Black and Hispanic Americans are about half as likely as non-Hispanic White Americans to have one --- a disparity that researchers trace both to different cultural frameworks around family, death, and spiritual preparation and to well-founded distrust of a medical system with a documented history of abuse, from Tuskegee and Henrietta Lacks to the maternal-mortality disparities that persist today.[^h7-3] The Western palliative model --- autonomy, pain control, acceptance --- is one tradition's picture of a "good death," not a universal one. Many Middle Eastern, Asian, Indigenous, Southern European, and religious traditions center family-directed decision-making or spiritual preparation that the Western legal form does not accommodate.[^h7-4] An advance directive can be written to reflect any of these, but the conversation that precedes it has to start on the family's ground, not the hospital's. Ask your Agent: _"In [my culture / religious tradition / family], what does a good death look like, what conversations usually happen and by whom, and how should I approach [parent / family member] in a way that matches that framework?"_
+:::
 
-<!-- RESEARCH NEEDED (HUMAN CONDITION): The "good death" concept varies enormously by culture. Western palliative care emphasizes autonomy, pain control, and acceptance. Many Eastern, Indigenous, and religious traditions have fundamentally different frameworks — some centering family decision-making over individual autonomy, others incorporating spiritual preparation that the Western medical model does not accommodate. The entry should respect this without privileging the Western model. Ask: "In [my culture/tradition], what does a good death look like, and how does that shape the conversation I need to have?" -->
 
-<!-- RESEARCH NEEDED (HUMAN CONDITION): "Ambiguous loss" — Boss (2000) coined the term for the experience of a person who is physically present but cognitively absent (dementia) or physically absent but status unknown. Families of dementia patients experience a form of grief that has no cultural script, no funeral, no closure, and no socially recognized endpoint. The person is there and not there simultaneously. This is one of the most psychologically destabilizing experiences documented in the caregiving literature and it affects millions of families. It connects to Li-4 but belongs here too. -->
+::: science
+Pauline Boss, who coined the term in the 1970s, describes _ambiguous loss_ as grief without resolution: a family member who is physically present but cognitively absent, as in dementia, or physically absent with status unknown. It has no funeral, no socially recognized endpoint, and no cultural script --- the person is there and not there at the same time. Boss's work has been cited in the caregiving literature for a generation as among the most psychologically destabilizing experiences families endure, and naming the experience --- rather than treating it as a personal failing of grief --- is itself a form of relief.[^h7-5] Millions of US families currently live this pattern; for practical caregiving logistics, see Li-4. Ask your Agent: _"My [family member] has [dementia / another condition causing cognitive decline / an unresolved disappearance]. Help me understand what Boss calls ambiguous loss and find language for talking with the rest of my family about what we are actually going through."_
+:::
+
 
 ::: tip
 Five Wishes meets advance directive requirements in 46 states and D.C. Four states — Kansas, New Hampshire, Ohio, and Texas — require the state statutory form instead. Witness and notarization rules vary: most states require two witnesses; six require notarization. [CaringInfo.org](https://www.caringinfo.org/planning/advance-directives/by-state/) provides free state-specific forms. A separate document — POLST (Physician Orders for Life-Sustaining Treatment) — translates your wishes into medical orders that EMTs are required to follow. An advance directive alone does not do this. Many families have one without the other. Ask your Agent: _"What are the advance directive and POLST requirements in [my state]?"_[^h7-1]
 :::
 
 
+::: also
+Honorably discharged veterans and their eligible family members qualify for burial in a [VA National Cemetery](https://www.cem.va.gov/) at no cost --- plot, interment, headstone or marker, and perpetual care included --- and a spouse or dependent child may be buried there even if they predecease the veteran, with their name inscribed on the shared headstone. Surviving families may request _military funeral honors_ (two-person detail, flag presentation, Taps) through the funeral home or the National Cemetery Scheduling Office at 1-800-535-1117. VA burial allowance is $1,002 each for burial and plot for deaths on or after 1 October 2025 ($978 and $978 for the prior fiscal year), with higher amounts for service-connected deaths; apply via [VA Form 21P-530EZ](https://www.va.gov/find-forms/about-form-21p-530ez/). Surviving spouses and dependent children of wartime-era veterans may also qualify for VA Dependency and Indemnity Compensation (DIC) or pension.[^h7-6]
+:::
+
+
 [^h7-1]: [CaringInfo](https://www.caringinfo.org/planning/advance-directives/by-state/) (National Hospice and Palliative Care Organization). [National POLST](https://polst.org/polst-and-advance-directives/). [Five Wishes state requirements](https://www.fivewishes.org/states/).
 
-<!-- RESEARCH NEEDED (HUMAN CONDITION): The sibling dynamics of end-of-life planning are among the most conflict-generating situations in family life. The sibling who lives closest does the most. The sibling who lives farthest has the most opinions. The sibling dynamics from childhood re-emerge under stress. Your Agent can help you prepare for the family meeting, not just the parent conversation. This is Li-1 (Difficult Conversations) applied to one of the hardest possible contexts. -->
+[^h7-2]: Yadav, K.N. et al. (2017). ["Approximately One In Three US Adults Completes Any Type Of Advance Directive For End-Of-Life Care."](https://www.healthaffairs.org/doi/10.1377/hlthaff.2017.0175) _Health Affairs_, 36(7), 1244–1251.
+
+[^h7-3]: Rao, J.K. et al. (2014). ["Completion of Advance Directives Among U.S. Consumers."](https://pmc.ncbi.nlm.nih.gov/articles/PMC4540332/) _American Journal of Preventive Medicine_, 46(1), 65–70. On demographic and religious factors in possession rates, see Harrison, K.L. et al. (2016). ["Racial and Ethnic Differences in Advance Directive Possession."](https://pmc.ncbi.nlm.nih.gov/articles/PMC4753625/) _Journal of the American Geriatrics Society_. On the historical basis for distrust, see Washington, H.A. (2006). _Medical Apartheid: The Dark History of Medical Experimentation on Black Americans._ Doubleday.
+
+[^h7-4]: For an overview of cultural frameworks in palliative and end-of-life care, see [BMC Palliative Care (2023), "A qualitative exploration of allied health providers' perspectives on cultural humility in palliative and end-of-life care"](https://bmcpalliatcare.biomedcentral.com/articles/10.1186/s12904-023-01214-4); EthnoMed, ["Cultural Considerations for End-of-Life Discussions: A Literature Review"](https://ethnomed.org/resource/cultural-considerations-for-end-of-life-discussions-a-literature-review/); and Palliative Care Network of Wisconsin, ["Culturally Responsive Care for Patients with a Serious Illness."](https://www.mypcnow.org/fast-fact/culturally-responsive-care-for-patients-with-a-serious-illness/)
+
+[^h7-5]: Boss, P. (1999). _Ambiguous Loss: Learning to Live with Unresolved Grief._ Harvard University Press. See also Boss, P. (2011). _Loving Someone Who Has Dementia: How to Find Hope While Coping With Stress and Grief._ Jossey-Bass.
+
+[^h7-6]: U.S. Department of Veterans Affairs. ["Veterans burial allowance and transportation benefits"](https://www.va.gov/burials-memorials/veterans-burial-allowance/); ["Eligibility for burial in a VA national cemetery"](https://www.va.gov/burials-memorials/eligibility/); ["Burial and memorial benefits for family members"](https://www.va.gov/family-and-caregiver-benefits/burials-and-memorials/).
 
 
 ---
@@ -458,28 +534,50 @@ Pain assessment has documented racial and gender bias. Studies show Black patien
 
 [^d4-1]: Hoffman, K.M. et al. (2016). "Racial bias in pain assessment and treatment recommendations." _PNAS_, 113(16), 4296–4301.
 
+<!-- RESEARCH NEEDED: Veterans integration --- VA chronic pain clinics, the VA Opioid Safety Initiative, and presumptive service connection under the PACT Act (2022) change the prescription and documentation landscape for vets. Community Care Network referrals when local VA capacity is insufficient. -->
+
 ---
 
-#### H-13: Understanding Addiction
+#### H-13: Understanding Addiction (and Finding Help That Works)
 *Strategy:* Research + Navigate
-*See also:* H-14: Harm Reduction, H-18: Finding Treatment and Recovery
-*My Man Jeeves:* _Addiction is not, as the relevant authorities have taken some pains to establish, a failure of willpower. The American Society of Addiction Medicine and the National Institute on Drug Abuse classify it as a chronic brain disorder involving compulsive use despite harmful consequences. The distinction is of some importance, as it determines whether the appropriate response is treatment or punishment. The United States has, for the most part, favored punishment. The results are, one might say, thoroughly documented. One's Agent has read the research on both treatment and recovery, and holds no position on the matter beyond the evidence._
+*See also:* H-14: Harm Reduction, M-6: Financial Coach (for insurance and costs)
+
+::: tip
+_If this is an emergency:_ for an active overdose, call *911* and administer naloxone if available (see H-14). For suicide or a mental health crisis, call *988*. For substance use help, call [SAMHSA's National Helpline](https://www.samhsa.gov/find-help/national-helpline) at *1-800-662-4357* --- free, confidential, 24/7.
+:::
+
+
+*My Man Jeeves:* _Addiction is not, as the relevant authorities have taken some pains to establish, a failure of willpower. The American Society of Addiction Medicine and the National Institute on Drug Abuse classify it as a chronic brain disorder involving compulsive use despite harmful consequences. The distinction is of some importance, as it determines whether the appropriate response is treatment or punishment. The United States has, for the most part, favored punishment. Where it has favored treatment, the industry it has built operates under less regulatory oversight than the restaurant industry --- some facilities excellent, some predatory, the distinction rarely apparent from the website. The task, then, is twofold: to understand the condition as medicine now describes it, and to navigate a marketplace that does not reliably distinguish evidence-based care from something else. One's Agent holds no position beyond the evidence._
 *The Spec:*
 ::: prompt
-I want to understand addiction as the science currently describes it —
-not the moral framework.
-The situation: [I'm concerned about my own use of X /
-someone I love is struggling with X /
-I want to understand the difference between dependence and addiction /
-I want to understand why some people get addicted and others don't]
-Please explain:
+I am trying to understand [my own / my loved one's] substance use,
+and/or find help.
+
+Where I am right now:
+[I'm worried but not sure this qualifies as a problem /
+I know it's a problem and I'm trying to understand it /
+I'm ready to get help and need to find the right kind /
+this is an emergency]
+
+The substance(s): [alcohol / opioids / stimulants / other]
+Location: [city, state --- if we're looking for treatment]
+Insurance: [type, or uninsured]
+
+My own history with substances: [brief --- for context on how
+I'm going to talk about this]
+
+Please help me understand and/or act:
 1. The difference between tolerance, physical dependence,
-   and addiction — these are three different things
-2. What the current science says about why some people
-   are more vulnerable than others
-3. What the evidence says about which approaches to
-   treatment actually work
-4. What I should know right now — tonight — if this is urgent
+   and addiction --- these are three different things
+2. What the current science says about why some people are
+   more vulnerable than others
+3. If treatment is needed: what types exist (inpatient,
+   outpatient, MAT, 12-step, non-12-step) and which have
+   the strongest evidence for [substance]
+4. How to evaluate a treatment facility --- what are the red flags
+5. What my insurance is required to cover (Mental Health Parity Act)
+6. What options exist if I'm uninsured or underinsured
+7. What to do right now --- tonight --- if this is urgent
 :::
 
 ::: science
@@ -493,6 +591,19 @@ Alcohol and benzodiazepine withdrawal can cause fatal seizures — they are amon
 
 
 [^d5-1]: Koob, G.F. & Volkow, N.D. (2016). "Neurobiology of Addiction: A Neurocircuitry Analysis." _The Lancet Psychiatry_, 3(8), 760–773.
+
+::: science
+Medication-assisted treatment (MAT) --- using medications like buprenorphine (Suboxone), methadone, or naltrexone alongside counseling --- is the evidence-based standard of care for opioid use disorder. Studies show MAT reduces overdose death by 50% or more.[^d10-1] Despite this, many treatment facilities do not offer it, and some actively discourage it. If a facility tells you medication is "replacing one addiction with another," that is a red flag, not a treatment philosophy.
+:::
+
+
+[^d10-1]: Wakeman, S.E. et al. (2020). "Comparative Effectiveness of Different Treatment Pathways for Opioid Use Disorder." _JAMA Network Open_, 3(2).
+
+::: also
+[SAMHSA's treatment locator](https://findtreatment.gov) lets you search by substance, location, insurance, and treatment type. It is the most reliable starting point.
+:::
+
+<!-- RESEARCH NEEDED: Veterans integration --- Vet Centers (vetcenter.va.gov) offer free, confidential counseling separate from VA medical centers --- for combat vets, MST survivors, and their families, with no appointment and no insurance. VA Substance Use Disorder (SUD) treatment runs parallel to civilian pathways. Military OneSource for active duty. -->
 
 ---
 
@@ -517,7 +628,7 @@ information that keeps people alive.
 :::
 
 ::: science
-Naloxone (brand name Narcan) reverses opioid overdoses and has been available over the counter in the United States since March 2023. It has no effect on someone who has not taken opioids. It cannot be misused. It is estimated to have reversed over 50,000 overdoses in the U.S.[^d6-1] Fentanyl test strips detect fentanyl contamination in drug supplies -- studies show people who test positive modify their behavior (use less, use with others present, keep naloxone nearby).[^d6-2] Both are available at most pharmacies.
+Naloxone (brand name Narcan) reverses opioid overdoses and has been available over the counter in the United States since March 2023. It has no effect on someone who has not taken opioids. It cannot be misused. It is estimated to have reversed over 50,000 overdoses in the U.S.[^d6-1] Fentanyl test strips detect fentanyl contamination in drug supplies --- studies show people who test positive modify their behavior (use less, use with others present, keep naloxone nearby).[^d6-2] Both are available at most pharmacies.
 :::
 
 
@@ -525,7 +636,7 @@ Naloxone (brand name Narcan) reverses opioid overdoses and has been available ov
 [^d6-2]: Peiper, N.C. et al. (2019). "Fentanyl test strips as an opioid overdose prevention strategy." _International Journal of Drug Policy_, 63, 122–128.
 
 ::: meme
-Portugal decriminalized personal possession of all drugs in 2001. Drug-related deaths fell. New HIV infections among people who inject drugs dropped from 1,016 to 18 -- a 98% decline.[^d6-3] Usage rates did not significantly increase. The policy did not make Portugal a drug paradise. It made Portugal a place where drug use is treated as a health issue rather than a criminal one. The experiment is twenty-five years old. The data is in.
+Portugal decriminalized personal possession of all drugs in 2001. Drug-related deaths fell. New HIV infections among people who inject drugs dropped from 1,016 to 18 --- a 98% decline.[^d6-3] Usage rates did not significantly increase. The policy did not make Portugal a drug paradise. It made Portugal a place where drug use is treated as a health issue rather than a criminal one. The experiment is twenty-five years old. The data is in.
 :::
 
 
@@ -600,10 +711,10 @@ Indigenous communities have used psilocybin (mushrooms), peyote, and ayahuasca i
 
 ---
 
-#### H-17: Talking to Your Kids About Drugs
+#### H-17: Talking to Your Kids About Drugs (and Unlearning What You Were Told)
 *Strategy:* Prepare + Research
-*See also:* Li-1: Preparing for a Difficult Conversation, Li-7: Raising Kids
-*My Man Jeeves:* _D.A.R.E. instructed a generation that marijuana and heroin belonged to the same category of threat, and that the appropriate response to all drugs was refusal. When those children discovered that marijuana did not, in the event, ruin their lives, a considerable number concluded that the adults had been unreliable on every point — including those substances that were genuinely dangerous. The program's failure, one might observe, was not insufficient severity of its warnings. It was the decision to substitute fear for credibility. Credibility, once forfeited with a teenager, is not recoverable on what one would call a useful timeline. One's Agent can provide the honest, evidence-based conversation that D.A.R.E. could not._
+*See also:* Li-1: Preparing for a Difficult Conversation, Li-7: Raising Kids, H-13: Understanding Addiction, H-14: Harm Reduction
+*My Man Jeeves:* _D.A.R.E. instructed a generation that marijuana and heroin belonged to the same category of threat, and that the appropriate response to all drugs was refusal. When those children discovered that marijuana did not, in the event, ruin their lives, a considerable number concluded that the adults had been unreliable on every point --- including those substances that were genuinely dangerous. Those children are now parents. The War on Drugs that shaped their education has cost, by the Bureau of Justice Statistics, over $1 trillion and, at its peak, imprisoned 2.1 million Americans --- with Black Americans held for drug offenses at nearly six times the rate of white Americans despite comparable usage rates.[^d11-2] The task before today's parent is therefore twofold: to unlearn what D.A.R.E. taught, and to pass on to one's children what is, on the documentary record, actually the case. One's Agent has read the Bureau's own data._
 *The Spec:*
 ::: prompt
 I want to talk to my [age] year old about drugs.
@@ -611,95 +722,131 @@ My situation: [they haven't asked yet / they asked about something
 specific / I found something / their friends are using /
 I want to be proactive]
 My own history with substances: [brief — this affects credibility]
+My own education about drugs: [D.A.R.E. / Just Say No / family
+messaging --- this is what I may need to unlearn before I can
+pass on something accurate]
 What I'm worried about: [specific concern]
+
 Please help me:
 1. Understand what is developmentally appropriate to discuss at this age
-2. Prepare an honest, science-based explanation that does not
-   rely on scare tactics (which don't work) or false equivalence
-   (which destroys credibility)
-3. Know what the actual risks are for the substances most
-   common among [age group] right now
-4. Have a response ready for "but you did it too" if applicable
-5. Keep the conversation open rather than shut it down
-The goal is that my kid trusts me enough to come to me
-when it matters.
+2. Identify where my own beliefs about drugs came from propaganda
+   rather than evidence --- so I don't repeat it
+3. Prepare an honest, science-based explanation of the substances
+   most common among [age group] right now, with the actual
+   documented risks (not the D.A.R.E. version)
+4. Explain the difference between decriminalization and legalization,
+   what other countries have tried, and what the outcomes have been
+5. Have a response ready for "but you did it too" if applicable
+6. Keep the conversation open rather than shut it down
+
+The goal is that my kid trusts me enough to come to me when it
+matters, because the information I give them matches what they
+will later discover to be true.
 :::
-*What to do with the Output:* Have the conversation, not the lecture. The research is clear: teens who report having honest, ongoing conversations with parents about drugs (not one-time "talks") show lower rates of problematic use.[^d9-1] The key word is _ongoing_. This is not a single conversation. It is a relationship.
-
-[^d9-1]: SAMHSA. "Talk. They Hear You." Campaign and associated research. Substance Abuse and Mental Health Services Administration.
-
----
-
-#### H-18: Finding Treatment and Recovery
-*Strategy:* Navigate + Research
-*See also:* H-13: Understanding Addiction, H-14: Harm Reduction, M-6: Financial Coach (for insurance and costs)
-*My Man Jeeves:* _The treatment industry in the United States constitutes a multibillion-dollar market operating, one notes, under less regulatory oversight than the restaurant industry. Some facilities are excellent. Some, one regrets to say, are predatory. The distinction is not readily apparent from the website. One's Agent can assist in evaluating options according to the criteria that addiction medicine specialists employ — criteria that differ, in several material respects, from those favored by the marketing department._
-*The Spec:*
-::: prompt
-I need to find treatment for [substance use disorder / alcohol /
-opioids / stimulants / other].
-The situation: [for myself / for someone I care about]
-Location: [city, state]
-Insurance: [type, or uninsured]
-What I need to understand:
-1. What types of treatment exist (inpatient, outpatient, MAT,
-   12-step, non-12-step) and which have the strongest evidence
-   for [substance]
-2. How to evaluate a treatment facility — what are the red flags
-3. What my insurance is required to cover (Mental Health Parity Act)
-4. What options exist if I'm uninsured or underinsured
-5. What to do right now if this is an emergency
-If this is an emergency: call SAMHSA's National Helpline at
-1-800-662-4357 (free, confidential, 24/7) or call 988.
-:::
-
-::: science
-Medication-assisted treatment (MAT) — using medications like buprenorphine (Suboxone), methadone, or naltrexone alongside counseling — is the evidence-based standard of care for opioid use disorder. Studies show MAT reduces overdose death by 50% or more.[^d10-1] Despite this, many treatment facilities do not offer it, and some actively discourage it. If a facility tells you medication is "replacing one addiction with another," that is a red flag, not a treatment philosophy.
-:::
-
-
-[^d10-1]: Wakeman, S.E. et al. (2020). "Comparative Effectiveness of Different Treatment Pathways for Opioid Use Disorder." _JAMA Network Open_, 3(2).
-
-::: also
-SAMHSA's treatment locator at findtreatment.gov lets you search by substance, location, insurance, and treatment type. It is the most reliable starting point.
-:::
-
-
----
-
-#### H-19: The War on Drugs — What Your Agent Can Tell You That School Didn't
-*Strategy:* Research
-*My Man Jeeves:* _The War on Drugs, declared by Nixon in 1971, has cost the United States in excess of $1 trillion in enforcement spending. The incarcerated population grew from roughly 360,000 in 1972 to a peak of 2.1 million by 2019, with drug offenses accounting for roughly 45% of federal prisoners. Black Americans are incarcerated for drug offenses at nearly six times the rate of white Americans, despite roughly equal usage rates.[^d11-2] These are not, one feels it necessary to clarify, matters of opinion. They are Bureau of Justice Statistics. One's Agent has read them._
-*The Spec:*
-::: prompt
-I want to understand the War on Drugs — not the political argument,
-the documented history and outcomes.
-What I'm trying to understand: [the racial disparities / why
-certain drugs are scheduled the way they are / how drug policy
-differs in other countries / what decriminalization means vs.
-legalization / what the evidence says about what actually works]
-Please give me:
-1. The documented facts and the sources
-2. What the outcomes have been by the government's own metrics
-3. What alternative approaches other countries have tried
-   and what the results were
-4. The distinction between decriminalization and legalization
-Present this as history and data, not advocacy.
-:::
+*What to do with the Output:* Have the conversation, not the lecture. Teens who report having honest, ongoing conversations with parents about drugs (not one-time "talks") show lower rates of problematic use.[^d9-1] The key word is _ongoing_. This is not a single conversation. It is a relationship --- and the substrate of the relationship is the truth. The parent who repeats D.A.R.E. talking points teaches their teen to distrust them. The parent who says _"I was told this, the research actually shows that, and here is how I know"_ teaches their teen to evaluate information the way the parent is now evaluating it.
 
 ::: meme
 John Ehrlichman, Nixon's domestic policy advisor, said in a 1994 interview: _"The Nixon campaign in 1968, and the Nixon White House after that, had two enemies: the antiwar left and Black people... by getting the public to associate the hippies with marijuana and Blacks with heroin, and then criminalizing both heavily, we could disrupt those communities."_[^d11-1] The quote was published in _Harper's_ in 2016. It is a single retrospective statement from a convicted felon. It is also consistent with every enforcement pattern documented in the fifty years since.
 :::
 
 
+[^d9-1]: SAMHSA. "Talk. They Hear You." Campaign and associated research. Substance Abuse and Mental Health Services Administration.
+
 [^d11-1]: Baum, D. (2016). "Legalize It All." _Harper's Magazine_, April 2016.
 
 [^d11-2]: Incarceration figures: The Sentencing Project, "Trends in U.S. Incarceration" (360,000 in 1972; peak 2.1 million by 2019). Racial disparity: Bureau of Justice Statistics, "Prisoners in 2021" — Black Americans incarcerated for drug offenses at approximately six times the rate of white Americans despite comparable usage rates. The $1 trillion enforcement figure is a commonly cited cumulative estimate; see Drug Policy Alliance, "The Drug War, Mass Incarceration and Race" (2018) for a representative accounting.
 
-<!-- BRAINSTORM: Future Health entries
-— H-20: Navigating Pregnancy and Childbirth — the billing labyrinth, birth plans, postpartum care. The most medicalized natural process in American life.
-— H-21: Dental and Vision Insurance — separate systems, separate rules, separate frustrations. Why your teeth are apparently not part of your body.
-— H-22: Mental Health First Aid — what to do when someone is in crisis. 988, de-escalation, how to help without making it worse.
-— H-23: Disability Benefits (SSI/SSDI) — the application process is designed to deny first, approve on appeal. Understanding the system before you enter it.
-— H-24: Negotiating Medical Bills — the sticker price is a fiction. The real price is whatever the billing department agrees to when you call.
--->
+---
+
+#### H-22: Mental Health First Aid (Helping Someone in Crisis, Including Yourself)
+*Strategy:* Prepare + Assert + Navigate
+*See also:* H-13: Understanding Addiction (and Finding Help That Works), Li-1: Preparing for a Difficult Conversation, Li-7: Raising Kids
+
+::: tip
+_If this is a crisis right now:_ call, text, or chat *988* --- the Suicide and Crisis Lifeline. Veterans: dial *988* and press *1*, or text *838255*. LGBTQ+ youth (Trevor Project): *1-866-488-7386* or text *START* to *678678*. Call *911* if there is an immediate threat of violence, an active overdose, or a medical emergency in progress. [Crisis Text Line](https://www.crisistextline.org/): text *HOME* to *741741*.
+:::
+
+
+*My Man Jeeves:* _A mental-health crisis --- one's own, or that of a family member, a colleague, or a stranger --- tends to arrive without sufficient notice. The expectation, nevertheless, is that the bystander will know what to do; the training, however, has been reserved largely for clinicians and first responders. The 988 Suicide and Crisis Lifeline, established in July 2022 specifically to provide an alternative to the police-dispatch default, has since answered roughly 16.5 million contacts, with 72% of callers reporting substantial help and 88% of suicidal callers saying the conversation stopped them from acting --- outcomes the 911 system is not designed to produce.[^h22a] One's Agent has read the evidence-based Mental Health First Aid curriculum and can rehearse with the reader what the crisis itself will not permit._
+*The Spec:*
+::: prompt
+I am trying to prepare for --- or am currently encountering ---
+a mental health crisis.
+
+The situation:
+[a friend / family member / coworker / I myself / someone I
+don't know well] is [showing warning signs of suicidal thinking /
+in acute distress / experiencing a panic attack / using substances
+dangerously / dissociating / otherwise in what feels like
+a mental-health emergency]
+
+What I can observe: [brief description --- what they've said,
+done, or changed; anything they have access to that concerns me]
+
+What I know about them: [relevant history --- diagnoses, prior
+crises, supports they do or don't have; if I don't know, say so]
+
+What I'm afraid of getting wrong: [being too intrusive / not
+being intrusive enough / saying the wrong thing / calling 911
+when I shouldn't / not calling when I should]
+
+Please help me:
+1. Use the Mental Health First Aid framework (ALGEE) to prepare
+   what to say and do, in order
+2. Name the specific things NOT to say, per AFSP safe-messaging
+   guidelines
+3. Tell me when 988 is the right call and when 911 is the right
+   call, and what to say when I dial each
+4. Identify specialized services that may apply (Veterans Crisis
+   Line, Trevor Project, Trans Lifeline, local mobile crisis team
+   if you can find one for my area)
+5. Tell me how to take care of myself afterward, because
+   bystanders carry this too
+
+Give me the most conservative guidance. If there is any chance
+of imminent harm, say so clearly.
+:::
+*What to do with the Output:* You will not remember all of this in the moment. Save it somewhere you can reach in sixty seconds --- Notes app, a starred email to yourself, a named file your Agent can recall, or your phone's emergency-info card. The real-time version of you will not plan; the calmer version already has.
+
+::: science
+Mental Health First Aid's action plan is ALGEE: *A*ssess for risk of suicide or harm, *L*isten non-judgmentally, *G*ive reassurance and information, *E*ncourage appropriate professional help, and *E*ncourage self-help and other support strategies. It is an evidence-based curriculum; trained MHFA responders show improved recognition of crisis symptoms, higher confidence in assisting someone in distress, and documented application of the framework in real helping situations. The steps are flexible rather than strictly sequential --- a skilled first aider reads the moment.[^h22b] One under-appreciated finding: asking direct questions ("Are you thinking about suicide?") does *not* plant the idea. A thirty-plus-year evidence base shows such questions reduce risk by naming what the person is already thinking.[^h22c]
+:::
+
+
+::: fairness
+Calling 911 for a mental-health crisis summons police by default. In jurisdictions that have fielded civilian mobile crisis response --- Eugene's CAHOOTS program since 1989, Albuquerque, and more than 100 U.S. jurisdictions in the last five years --- roughly 1% of mental-health calls end up requiring police backup; a 2020 review of 911 data in eight major cities estimated that up to 68% of all calls could be handled without an armed officer.[^h22d] Some 988 centers now dispatch mobile crisis teams directly; some cities have stand-alone civilian dispatch via 911; most jurisdictions have neither. The reader's first research task, *before* the crisis, is to find out what their city does. Ask your Agent: _"What crisis response options exist in [my city/county]? Does 988 dispatch a mobile team here? Does 911 offer co-responder or civilian-only alternatives? What number do I call for a non-emergency crisis?"_
+:::
+
+
+::: tip
+_Safe-messaging essentials_ (American Foundation for Suicide Prevention consensus):
+
+- Say _"died by suicide"_ or _"ended their life,"_ not _"committed suicide"_ (the framing of crime) or _"successful/failed attempt."_
+- Do not discuss specific methods, notes, or location --- these details increase contagion risk.
+- Do not frame suicide as caused by a single event (job loss, breakup); the research finds multiple contributing factors.
+- Do emphasize that help is available and that recovery is possible.
+- Do provide the 988 number every time the topic comes up.[^h22e]
+:::
+
+
+::: also
+Specialized crisis lines, for the contact-information card you save in your phone:
+
+- **988 Suicide and Crisis Lifeline**: call, text, or chat. For veterans, dial *988* and press *1*, or text *838255* --- see [988lifeline.org](https://988lifeline.org/).
+- **Crisis Text Line**: text *HOME* to *741741* ([crisistextline.org](https://www.crisistextline.org/)).
+- **The Trevor Project** (LGBTQ+ youth, 24/7): *1-866-488-7386*, or text *START* to *678678* ([thetrevorproject.org](https://www.thetrevorproject.org/)).
+- **Trans Lifeline** (peer-run, by and for trans and questioning people): *1-877-565-8860* ([translifeline.org](https://translifeline.org/)).
+- **SAMHSA National Helpline** (substance use, 24/7 bilingual): *1-800-662-4357* (see H-13).
+- **Your local mobile crisis team**: look it up before you need it. Save the number in your phone.
+:::
+
+
+[^h22a]: Panchal, N. et al. ["988 Suicide & Crisis Lifeline: Two Years After Launch"](https://www.kff.org/mental-health/988-suicide-crisis-lifeline-two-years-after-launch/) and ["Demand for 988 Continues to Grow at Third Anniversary."](https://www.kff.org/mental-health/demand-for-988-continues-to-grow-at-third-anniversary/) _KFF._ The 16.5M-contact figure covers the three years from July 2022 to July 2025. On outcomes, see also [Gould, M.S. et al. (2022), "National Suicide Prevention Lifeline: Evaluation of Crisis Call Outcomes."](https://pmc.ncbi.nlm.nih.gov/articles/PMC12099483/)
+
+[^h22b]: Hadlaczky, G. et al. (2014). ["Mental health first aid is an effective public health intervention for improving knowledge, attitudes and behaviour: A meta-analysis."](https://pmc.ncbi.nlm.nih.gov/articles/PMC6513165/) _International Review of Psychiatry._ See also Maslowski, A.K. et al. (2022). ["Mental Health First Aid: A Systematic Review of Trainee Behavior and Recipient Mental Health Outcomes."](https://pmc.ncbi.nlm.nih.gov/articles/PMC8814050/) _Community Mental Health Journal._ The U.S. curriculum is administered by [Mental Health First Aid USA](https://www.mentalhealthfirstaid.org/) through the National Council for Mental Wellbeing.
+
+[^h22c]: Dazzi, T. et al. (2014). "Does asking about suicide and related behaviours induce suicidal ideation? What is the evidence?" _Psychological Medicine_, 44(16), 3361–3363. For the practical framing, see American Foundation for Suicide Prevention, ["How to Talk Safely About Suicide."](https://afsp.org/how-to-talk-safely-about-suicide/)
+
+[^h22d]: National Alliance on Mental Illness, ["988: Reimagining Crisis Response."](https://www.nami.org/Advocacy/Crisis-Intervention/988-Reimagining-Crisis-Response/) SAMHSA, [National Survey of Mobile Crisis Teams (2024)](https://988crisissystemshelp.samhsa.gov/sites/default/files/2024-11/National%20Mobile%20Crisis%20Survey%20ReportvFINAL.pdf). On CAHOOTS, Albuquerque, and the 911 data review, see [The Marshall Project, "Sending Unarmed Responders Instead of Police: What We've Learned" (2024)](https://www.themarshallproject.org/2024/07/25/police-mental-health-alternative-911).
+
+[^h22e]: American Foundation for Suicide Prevention, ["How to Talk Safely About Suicide"](https://afsp.org/how-to-talk-safely-about-suicide/); Suicide Prevention Resource Center, ["Safe and Effective Messaging and Reporting"](https://sprc.org/keys-to-success/safe-and-effective-messaging-and-reporting/); Action Alliance [Framework for Successful Messaging](https://suicidepreventionmessaging.org/); VA, ["Safe Messaging Best Practices Guide."](https://www.mentalhealth.va.gov/suicide_prevention/docs/safe_messaging_best_practices.pdf)

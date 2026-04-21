@@ -22,7 +22,7 @@ _A printable PDF version is available at [a-majordomo-for-everyone.dwk.io/quick-
 |---|---|---|
 | H-1: Understanding a Diagnosis You Just Received | Decode | "My doctor just told me I have [diagnosis]..." |
 | H-2: Preparing Questions Before a Doctor's Appointment | Prepare | "I have an appointment with [specialist type] on [date]..." |
-| H-3: Decoding a Medical Bill or EOB | Decode | "I received this medical bill / Explanation of Benefits..." |
+| H-3: Decoding a Medical Bill or EOB (and Negotiating What You Owe) | Decode + Assert | "I received this medical bill / Explanation of Benefits..." |
 | H-4: Appealing an Insurance Denial | Navigate + Draft | "My insurance denied [procedure/claim] with the reason..." |
 | H-5: Managing a Chronic Condition Day-to-Day | Research | "I have [chronic condition] and I've been managing it for [time period]..." |
 | H-6: Understanding What Medicare or Medicaid Actually Covers | Decode | "I [or my family member] am [turning 65 / disabled / low-income]..." |
@@ -32,13 +32,12 @@ _A printable PDF version is available at [a-majordomo-for-everyone.dwk.io/quick-
 | H-10: Checking for Drug Interactions | Decode + Research | "I am currently taking: — Prescription medications: [list all, with doses]..." |
 | H-11: Your Brain on Drugs, Simplified | Research | "Explain how [substance] works in the brain..." |
 | H-12: Talking to Your Doctor About Pain Management | Prepare + Assert | "I have [type of pain] that has been going on for [duration]..." |
-| H-13: Understanding Addiction | Research + Navigate | "I want to understand addiction as the science currently describes it..." |
+| H-13: Understanding Addiction (and Finding Help That Works) | Research + Navigate | "I am trying to understand [my own / my loved one's] substance use, and/or find help..." |
 | H-14: Harm Reduction | Research + Diagnose | "I want to understand harm reduction for [substance or situation]..." |
 | H-15: Navigating Drug Laws in Your State | Navigate + Assert | "I want to understand the current drug laws where I live..." |
 | H-16: Evaluating Psychedelic Therapy | Research + Decide | "I am interested in psychedelic therapy for [depression / PTSD / anxiety]..." |
-| H-17: Talking to Your Kids About Drugs | Prepare + Research | "I want to talk to my [age] year old about drugs..." |
-| H-18: Finding Treatment and Recovery | Navigate + Research | "I need to find treatment for [substance use disorder]..." |
-| H-19: The War on Drugs | Research | "I want to understand the War on Drugs -- not the political argument, the documented history..." |
+| H-17: Talking to Your Kids About Drugs (and Unlearning What You Were Told) | Prepare + Research | "I want to talk to my [age] year old about drugs..." |
+| H-22: Mental Health First Aid (Helping Someone in Crisis, Including Yourself) | Prepare + Assert + Navigate | "I am trying to prepare for --- or am currently encountering --- a mental health crisis..." |
 
 ---
 
