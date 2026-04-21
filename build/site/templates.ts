@@ -205,7 +205,7 @@ export function landingPage(meta: BookMeta): string {
       <p class="hero-pitch">The billionaire class has always had access to lawyers, doctors, and financial advisors who explain things in plain language &mdash; now you have something close to that, for free, on your phone.</p>
       <div class="hero-ctas">
         <a href="/read/" class="hero-cta">Read Online</a>
-        <a href="/a-majordomo-for-everyone.epub" class="hero-cta hero-cta-secondary" download>Download ePub</a>
+        <a href="/majordomo.epub" class="hero-cta hero-cta-secondary" download>Download ePub</a>
 
         <a href="https://github.com/davidwkeith/A-Majordomo-for-Everyone" class="hero-cta hero-cta-secondary">View Source</a>
       </div>
@@ -230,11 +230,11 @@ export function landingPage(meta: BookMeta): string {
   <div class="share-section">
     <p class="share-label">Share this book</p>
     <div class="share-links">
-      <a href="https://bsky.app/intent/compose?text=${encodeURIComponent(meta.title + ' — free practical guide to using AI tools for health, legal, financial, and everyday decisions\n\nhttps://a-majordomo-for-everyone.dwk.io')}" target="_blank" rel="noopener" class="share-btn share-bluesky">Bluesky</a>
-      <a href="https://s2f.kytta.dev/?text=${encodeURIComponent(meta.title + ' — free practical guide to using AI tools for health, legal, financial, and everyday decisions')}&url=${encodeURIComponent('https://a-majordomo-for-everyone.dwk.io')}" target="_blank" rel="noopener" class="share-btn share-mastodon">Mastodon</a>
-      <a href="https://twitter.com/intent/tweet?text=${encodeURIComponent(meta.title + ' — free practical guide to using AI tools for health, legal, financial, and everyday decisions')}&url=${encodeURIComponent('https://a-majordomo-for-everyone.dwk.io')}" target="_blank" rel="noopener" class="share-btn share-twitter">Twitter</a>
-      <a href="https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent('https://a-majordomo-for-everyone.dwk.io')}" target="_blank" rel="noopener" class="share-btn share-facebook">Facebook</a>
-      <a href="https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent('https://a-majordomo-for-everyone.dwk.io')}" target="_blank" rel="noopener" class="share-btn share-linkedin">LinkedIn</a>
+      <a href="https://bsky.app/intent/compose?text=${encodeURIComponent(meta.title + ' — free practical guide to using AI tools for health, legal, financial, and everyday decisions\n\nhttps://majordomo.dwk.io')}" target="_blank" rel="noopener" class="share-btn share-bluesky">Bluesky</a>
+      <a href="https://s2f.kytta.dev/?text=${encodeURIComponent(meta.title + ' — free practical guide to using AI tools for health, legal, financial, and everyday decisions')}&url=${encodeURIComponent('https://majordomo.dwk.io')}" target="_blank" rel="noopener" class="share-btn share-mastodon">Mastodon</a>
+      <a href="https://twitter.com/intent/tweet?text=${encodeURIComponent(meta.title + ' — free practical guide to using AI tools for health, legal, financial, and everyday decisions')}&url=${encodeURIComponent('https://majordomo.dwk.io')}" target="_blank" rel="noopener" class="share-btn share-twitter">Twitter</a>
+      <a href="https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent('https://majordomo.dwk.io')}" target="_blank" rel="noopener" class="share-btn share-facebook">Facebook</a>
+      <a href="https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent('https://majordomo.dwk.io')}" target="_blank" rel="noopener" class="share-btn share-linkedin">LinkedIn</a>
     </div>
   </div>
   <footer class="landing-footer">

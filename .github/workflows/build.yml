@@ -28,7 +28,7 @@ jobs:
       - uses: actions/upload-artifact@v7
         with:
           name: epub
-          path: dist/a-majordomo-for-everyone.epub
+          path: dist/majordomo.epub
 
       - uses: actions/upload-artifact@v7
         with:

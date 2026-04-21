@@ -1,4 +1,4 @@
-# A Majordomo for Everyone — Agent Outline
+# Majordomo — Agent Outline
 
 ## What This Book Is
 
@@ -146,7 +146,7 @@ The book aligns with five Roddenberry values: Urgency (lead with friction moment
 
 ## The Central Meme
 
-> *A Majordomo for Everyone has this to say about dealing with large institutions: always know where your specification is.*
+> *Majordomo has this to say about dealing with large institutions: always know where your specification is.*
 
 (Riff on the Hitchhiker's Guide: "always know where your towel is.")
 

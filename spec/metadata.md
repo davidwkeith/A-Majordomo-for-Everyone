@@ -1,14 +1,14 @@
 # ePub Build Specification
 
 ```
-title:        A Majordomo for Everyone
-subtitle:     Managing Your Personal Staff of AI Agents
+title:        Majordomo
+subtitle:     Billionaires have staff, now you do too.
 cover-tag:    DON'T PROMPT (large, warm, friendly letters — see cover notes)
 language:     en-US
 trim:         Mass market paperback / 5.5" x 8.5"
 epub-version: 3.0
 toc-depth:    3
-website:      https://a-majordomo-for-everyone.dwk.io/
+website:      https://majordomo.dwk.io/
 footnotes:    endnotes per chapter (epub), footnotes per page (print)
 distribution: Free. No paywall. No signup required.
 license:      Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0)

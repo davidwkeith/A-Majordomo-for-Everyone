@@ -106,8 +106,8 @@ Over the front lawn: **DONT** / **PROMPT**. Two lines. Large. Over the most acti
 
 ### Zone 1 — Top: Helvetica Black
 
-- *"A Majordomo for Everyone"* — Helvetica Black. Large. At the very top, above the roofline. **Left edge of the text aligns to the red margin line.** The title respects the paper's own grid.
-- *"Managing Your Personal Staff of AI Agents"* — Helvetica Black, smaller. Directly beneath, same left alignment.
+- *"Majordomo"* — Helvetica Black. Large. At the very top, above the roofline. **Left edge of the text aligns to the red margin line.** The title respects the paper's own grid.
+- *"Billionaires have staff, now you do too."* — Helvetica Black, smaller. Directly beneath, same left alignment.
 - The red margin line runs from the title block down through the telephone pole zone. Title left edge, margin line, telephone pole shaft: a vertical conversation running the full height of the cover.
 
 Helvetica Black is typeset, not drawn. It is the system's font — cold, institutional, precise. It contrasts with everything else on the page.

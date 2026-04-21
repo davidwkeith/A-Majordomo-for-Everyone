@@ -1,7 +1,7 @@
 # /// script
 # requires-python = ">=3.12"
 # ///
-"""Sync Apple Books highlights for A Majordomo for Everyone to notes/highlights.md."""
+"""Sync Apple Books highlights for Majordomo to notes/highlights.md."""
 
 import glob
 import logging
@@ -20,7 +20,7 @@ logging.basicConfig(
 log = logging.getLogger(__name__)
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-BOOK_TITLE = "A Majordomo for Everyone"
+BOOK_TITLE = "Majordomo"
 
 ANNOTATION_DB_GLOB = os.path.expanduser(
     "~/Library/Containers/com.apple.iBooksX/Data/Documents/AEAnnotation/*.sqlite"

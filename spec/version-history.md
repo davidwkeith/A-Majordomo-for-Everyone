@@ -80,6 +80,14 @@ v1.7  — Obsession zone system added to Illustration Spec.
 		   compliance plate, Sony logo, screen corners.
 		 Each zone chosen for structural resonance with its chapter's episode
 		   and strategy. Never labeled. Always present.
+v1.8  — Retitled. New title: Majordomo.
+		 New subtitle: Billionaires have staff, now you do too.
+		 Prior title (A Majordomo for Everyone) and subtitle
+		   (Managing Your Personal Staff of AI Agents) retired.
+		 Package slug, ePub/PDF filenames, and companion domain
+		   updated from a-majordomo-for-everyone to majordomo.
+		 In-world self-reference quote shortened to match new title.
+		 Cover typography spec updated; cover art queued for regeneration.
 ```
 
 *If you are reading a version later than the one listed here, someone improved it. That is correct.*
