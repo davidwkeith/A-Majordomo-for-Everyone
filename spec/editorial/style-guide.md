@@ -29,7 +29,7 @@
 ## Punctuation
 
 - **Oxford comma:** Always. "Legal, medical, and financial."
-- **Em dashes:** Per [practicaltypography.com](https://practicaltypography.com/hyphens-and-dashes.html) — no spaces around em dashes. In CommonMark source, use `---` or the Unicode character.
+- **Em dashes:** Spaced — like this — per the book's established convention. In Djot source, use ` --- ` (space-padded triple hyphen) or the Unicode character ` — `. Unspaced em dashes read as cramped in digital typesetting; the spaced form is clearer on screen and in ePub rendering.
 - **Contractions:** Use freely. "Don't," "you're," "it's." The voice is conversational. "Do not" reads stiff for this audience — reserve it for emphasis ("Do not apologize for asking").
 - **Exclamation points:** Almost never. If the sentence needs one to land, rewrite the sentence.
 - **Quotation marks:** Double quotes for direct speech and scare quotes. Single quotes for quotes within quotes. Periods and commas inside closing quotes (Chicago).

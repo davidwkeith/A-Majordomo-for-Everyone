@@ -30,6 +30,31 @@ Health resolved in the 2026-04-20 session: all 10 original memos surfaced into p
 
 ---
 
+## Health Chapter Editorial Review (2026-04-21)
+
+Systematic issues (em dashes, number formatting, footnote IDs) fixed. The following remain.
+
+### Citation Issues
+
+- [x] **Missing citation for tobacco/alcohol funding claim (drugs intro):** Split into `[^hd-2]` citing Buchanan & Wallack (1998), _Journal of Drug Issues_.
+- [x] **Footnote h15-1 is a status note, not a citation:** Replaced with 89 Fed. Reg. 44597 (proposed May 21, 2024) and current status (ALJ retired August 2025, rulemaking stalled).
+- [x] **H-4 Science Note range formatting:** Fixed hyphen to en dash (`39--59%`).
+
+### Structural Issues
+
+- [x] **Missing "What to do with the Output"** in H-12, H-13, H-14, H-16. Added concrete next steps to all four.
+- [x] **"Drugs: What the Egg Should Have Been" heading level:** Changed from h4 to h3.
+- [x] **Domain heading ALL CAPS:** Changed to `### Health`.
+- [x] **Conservative-answer convention:** Added guard language to specs in H-1, H-5, H-6, H-8, H-11, H-13, H-14.
+- [x] **H-7 tip callout (Five Wishes state requirements):** Retyped from `::: tip` to `::: science`.
+
+### Density / Readability
+
+- [ ] **H-6 fairness callout (nursing home / VA pension) is doing too much:** Single callout covers Medicaid spend-down, 60-month look-back, community spouse protections, AND VA Aid & Attendance. Consider splitting into two callouts.
+- [ ] **H-6 is functionally three entries:** Covers Medicare, Medicaid, Medicare Advantage, Medigap, dual eligibility, and the One Big Beautiful Bill Act. 10 footnotes, 6 callouts. Consider whether Medicare and Medicaid deserve separate entries.
+
+---
+
 ## Pre-Publication Checklist
 
 - [ ] Editorial notes reviewed --- 246 `RESEARCH NEEDED` comments (101 `HUMAN CONDITION`, 18 `Veterans integration`) to surface or remove
