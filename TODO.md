@@ -47,8 +47,9 @@ Carried from the former BRAINSTORM comment in `src/content/02-field-guide/01-hea
 
 - **H-20: Navigating Pregnancy and Childbirth** --- the billing labyrinth, birth plans, postpartum care. The most medicalized natural process in American life.
 - **H-21: Dental and Vision Insurance** --- separate systems, separate rules, separate frustrations. Why your teeth are apparently not part of your body.
-- **H-22: Mental Health First Aid** --- what to do when someone is in crisis. 988, de-escalation, how to help without making it worse. Cross-referenced by H-6 (SHIP ALSO) and H-13 (emergency TIP) --- both currently point readers at 988 and other resources the book has not yet taught in full.
 - **H-23: Disability Benefits (SSI/SSDI)** --- the application process is designed to deny first, approve on appeal. Understanding the system before you enter it.
+
+(H-22 Mental Health First Aid drafted 2026-04-21; see `src/content/02-field-guide/01-health/index.dj`.)
 
 ---
 

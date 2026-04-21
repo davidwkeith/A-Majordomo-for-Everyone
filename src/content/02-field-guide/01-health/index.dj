@@ -755,3 +755,98 @@ John Ehrlichman, Nixon's domestic policy advisor, said in a 1994 interview: _"Th
 [^d11-1]: Baum, D. (2016). "Legalize It All." _Harper's Magazine_, April 2016.
 
 [^d11-2]: Incarceration figures: The Sentencing Project, "Trends in U.S. Incarceration" (360,000 in 1972; peak 2.1 million by 2019). Racial disparity: Bureau of Justice Statistics, "Prisoners in 2021" — Black Americans incarcerated for drug offenses at approximately six times the rate of white Americans despite comparable usage rates. The $1 trillion enforcement figure is a commonly cited cumulative estimate; see Drug Policy Alliance, "The Drug War, Mass Incarceration and Race" (2018) for a representative accounting.
+
+---
+
+#### H-22: Mental Health First Aid (Helping Someone in Crisis, Including Yourself)
+*Strategy:* Prepare + Assert + Navigate
+*See also:* H-13: Understanding Addiction (and Finding Help That Works), Li-1: Preparing for a Difficult Conversation, Li-7: Raising Kids
+
+::: tip
+_If this is a crisis right now:_ call, text, or chat *988* --- the Suicide and Crisis Lifeline. Veterans: dial *988* and press *1*, or text *838255*. LGBTQ+ youth (Trevor Project): *1-866-488-7386* or text *START* to *678678*. Call *911* if there is an immediate threat of violence, an active overdose, or a medical emergency in progress. [Crisis Text Line](https://www.crisistextline.org/): text *HOME* to *741741*.
+:::
+
+
+*My Man Jeeves:* _A mental-health crisis --- one's own, or that of a family member, a colleague, or a stranger --- tends to arrive without sufficient notice. The expectation, nevertheless, is that the bystander will know what to do; the training, however, has been reserved largely for clinicians and first responders. The 988 Suicide and Crisis Lifeline, established in July 2022 specifically to provide an alternative to the police-dispatch default, has since answered roughly 16.5 million contacts, with 72% of callers reporting substantial help and 88% of suicidal callers saying the conversation stopped them from acting --- outcomes the 911 system is not designed to produce.[^h22a] One's Agent has read the evidence-based Mental Health First Aid curriculum and can rehearse with the reader what the crisis itself will not permit._
+*The Spec:*
+::: prompt
+I am trying to prepare for --- or am currently encountering ---
+a mental health crisis.
+
+The situation:
+[a friend / family member / coworker / I myself / someone I
+don't know well] is [showing warning signs of suicidal thinking /
+in acute distress / experiencing a panic attack / using substances
+dangerously / dissociating / otherwise in what feels like
+a mental-health emergency]
+
+What I can observe: [brief description --- what they've said,
+done, or changed; anything they have access to that concerns me]
+
+What I know about them: [relevant history --- diagnoses, prior
+crises, supports they do or don't have; if I don't know, say so]
+
+What I'm afraid of getting wrong: [being too intrusive / not
+being intrusive enough / saying the wrong thing / calling 911
+when I shouldn't / not calling when I should]
+
+Please help me:
+1. Use the Mental Health First Aid framework (ALGEE) to prepare
+   what to say and do, in order
+2. Name the specific things NOT to say, per AFSP safe-messaging
+   guidelines
+3. Tell me when 988 is the right call and when 911 is the right
+   call, and what to say when I dial each
+4. Identify specialized services that may apply (Veterans Crisis
+   Line, Trevor Project, Trans Lifeline, local mobile crisis team
+   if you can find one for my area)
+5. Tell me how to take care of myself afterward, because
+   bystanders carry this too
+
+Give me the most conservative guidance. If there is any chance
+of imminent harm, say so clearly.
+:::
+*What to do with the Output:* You will not remember all of this in the moment. Save it somewhere you can reach in sixty seconds --- Notes app, a starred email to yourself, a named file your Agent can recall, or your phone's emergency-info card. The real-time version of you will not plan; the calmer version already has.
+
+::: science
+Mental Health First Aid's action plan is ALGEE: *A*ssess for risk of suicide or harm, *L*isten non-judgmentally, *G*ive reassurance and information, *E*ncourage appropriate professional help, and *E*ncourage self-help and other support strategies. It is an evidence-based curriculum; trained MHFA responders show improved recognition of crisis symptoms, higher confidence in assisting someone in distress, and documented application of the framework in real helping situations. The steps are flexible rather than strictly sequential --- a skilled first aider reads the moment.[^h22b] One under-appreciated finding: asking direct questions ("Are you thinking about suicide?") does *not* plant the idea. A thirty-plus-year evidence base shows such questions reduce risk by naming what the person is already thinking.[^h22c]
+:::
+
+
+::: fairness
+Calling 911 for a mental-health crisis summons police by default. In jurisdictions that have fielded civilian mobile crisis response --- Eugene's CAHOOTS program since 1989, Albuquerque, and more than 100 U.S. jurisdictions in the last five years --- roughly 1% of mental-health calls end up requiring police backup; a 2020 review of 911 data in eight major cities estimated that up to 68% of all calls could be handled without an armed officer.[^h22d] Some 988 centers now dispatch mobile crisis teams directly; some cities have stand-alone civilian dispatch via 911; most jurisdictions have neither. The reader's first research task, *before* the crisis, is to find out what their city does. Ask your Agent: _"What crisis response options exist in [my city/county]? Does 988 dispatch a mobile team here? Does 911 offer co-responder or civilian-only alternatives? What number do I call for a non-emergency crisis?"_
+:::
+
+
+::: tip
+_Safe-messaging essentials_ (American Foundation for Suicide Prevention consensus):
+
+- Say _"died by suicide"_ or _"ended their life,"_ not _"committed suicide"_ (the framing of crime) or _"successful/failed attempt."_
+- Do not discuss specific methods, notes, or location --- these details increase contagion risk.
+- Do not frame suicide as caused by a single event (job loss, breakup); the research finds multiple contributing factors.
+- Do emphasize that help is available and that recovery is possible.
+- Do provide the 988 number every time the topic comes up.[^h22e]
+:::
+
+
+::: also
+Specialized crisis lines, for the contact-information card you save in your phone:
+
+- **988 Suicide and Crisis Lifeline**: call, text, or chat. For veterans, dial *988* and press *1*, or text *838255* --- see [988lifeline.org](https://988lifeline.org/).
+- **Crisis Text Line**: text *HOME* to *741741* ([crisistextline.org](https://www.crisistextline.org/)).
+- **The Trevor Project** (LGBTQ+ youth, 24/7): *1-866-488-7386*, or text *START* to *678678* ([thetrevorproject.org](https://www.thetrevorproject.org/)).
+- **Trans Lifeline** (peer-run, by and for trans and questioning people): *1-877-565-8860* ([translifeline.org](https://translifeline.org/)).
+- **SAMHSA National Helpline** (substance use, 24/7 bilingual): *1-800-662-4357* (see H-13).
+- **Your local mobile crisis team**: look it up before you need it. Save the number in your phone.
+:::
+
+
+[^h22a]: Panchal, N. et al. ["988 Suicide & Crisis Lifeline: Two Years After Launch"](https://www.kff.org/mental-health/988-suicide-crisis-lifeline-two-years-after-launch/) and ["Demand for 988 Continues to Grow at Third Anniversary."](https://www.kff.org/mental-health/demand-for-988-continues-to-grow-at-third-anniversary/) _KFF._ The 16.5M-contact figure covers the three years from July 2022 to July 2025. On outcomes, see also [Gould, M.S. et al. (2022), "National Suicide Prevention Lifeline: Evaluation of Crisis Call Outcomes."](https://pmc.ncbi.nlm.nih.gov/articles/PMC12099483/)
+
+[^h22b]: Hadlaczky, G. et al. (2014). ["Mental health first aid is an effective public health intervention for improving knowledge, attitudes and behaviour: A meta-analysis."](https://pmc.ncbi.nlm.nih.gov/articles/PMC6513165/) _International Review of Psychiatry._ See also Maslowski, A.K. et al. (2022). ["Mental Health First Aid: A Systematic Review of Trainee Behavior and Recipient Mental Health Outcomes."](https://pmc.ncbi.nlm.nih.gov/articles/PMC8814050/) _Community Mental Health Journal._ The U.S. curriculum is administered by [Mental Health First Aid USA](https://www.mentalhealthfirstaid.org/) through the National Council for Mental Wellbeing.
+
+[^h22c]: Dazzi, T. et al. (2014). "Does asking about suicide and related behaviours induce suicidal ideation? What is the evidence?" _Psychological Medicine_, 44(16), 3361–3363. For the practical framing, see American Foundation for Suicide Prevention, ["How to Talk Safely About Suicide."](https://afsp.org/how-to-talk-safely-about-suicide/)
+
+[^h22d]: National Alliance on Mental Illness, ["988: Reimagining Crisis Response."](https://www.nami.org/Advocacy/Crisis-Intervention/988-Reimagining-Crisis-Response/) SAMHSA, [National Survey of Mobile Crisis Teams (2024)](https://988crisissystemshelp.samhsa.gov/sites/default/files/2024-11/National%20Mobile%20Crisis%20Survey%20ReportvFINAL.pdf). On CAHOOTS, Albuquerque, and the 911 data review, see [The Marshall Project, "Sending Unarmed Responders Instead of Police: What We've Learned" (2024)](https://www.themarshallproject.org/2024/07/25/police-mental-health-alternative-911).
+
+[^h22e]: American Foundation for Suicide Prevention, ["How to Talk Safely About Suicide"](https://afsp.org/how-to-talk-safely-about-suicide/); Suicide Prevention Resource Center, ["Safe and Effective Messaging and Reporting"](https://sprc.org/keys-to-success/safe-and-effective-messaging-and-reporting/); Action Alliance [Framework for Successful Messaging](https://suicidepreventionmessaging.org/); VA, ["Safe Messaging Best Practices Guide."](https://www.mentalhealth.va.gov/suicide_prevention/docs/safe_messaging_best_practices.pdf)
