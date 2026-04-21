@@ -53,7 +53,12 @@ Don't paste a 40-page lease. Paste the clause you're confused about, plus the de
 :::
 
 
-<!-- RESEARCH NEEDED: Veterans integration --- SCRA (Servicemembers Civil Relief Act, 50 U.S.C. §§ 3901–4043) protections on active-duty contracts: 6% interest rate cap on pre-service debts, early lease and auto-lease termination on PCS/deployment, stay of civil proceedings. SCRA requires written notice and a copy of orders. -->
+::: tip
+Active-duty servicemembers have contract rights most civilians do not. The [Servicemembers Civil Relief Act](https://www.justice.gov/servicemembers/servicemembers-civil-relief-act-scra) (SCRA, 50 U.S.C. §§ 3901–4043) caps interest on pre-service debts at 6%, permits early termination of residential and auto leases on PCS or deployment orders of 90+ days, and can stay civil proceedings. The protections are not automatic --- most require written notice to the creditor or landlord and a copy of orders. Ask your Agent: _"I am active-duty [branch] with [orders]. Which SCRA protections apply to this contract, and what written notice does [creditor/landlord] require?"_[^l1-1]
+:::
+
+
+[^l1-1]: U.S. Department of Justice, Servicemembers and Veterans Initiative. ["Servicemembers Civil Relief Act (SCRA)"](https://www.justice.gov/servicemembers/servicemembers-civil-relief-act-scra). See also the Consumer Financial Protection Bureau's [SCRA guide](https://www.consumerfinance.gov/consumer-tools/educator-tools/servicemembers/planning/scra/).
 
 ---
 
@@ -136,7 +141,12 @@ The tone of a demand letter matters more than the legal language. Ask your Agent
 :::
 
 
-<!-- RESEARCH NEEDED: FTC and state attorney general complaint processes as alternatives to or supplements for demand letters. Consumer Financial Protection Bureau (CFPB) complaint database resolution rates — the CFPB reports that companies respond to over 97% of complaints forwarded to them. For disputes with businesses, filing a regulatory complaint simultaneously with sending a demand letter creates two pressure points. -->
+::: science
+When the other side is a business, a demand letter alone is rarely the strongest move. Filing a regulatory complaint at the same time creates a second pressure point the company cannot ignore. The [CFPB](https://www.consumerfinance.gov/complaint/) reports that companies provide timely responses to roughly 97% of the consumer complaints it forwards, on a statutory clock. State attorneys general run their own consumer divisions, and several --- Massachusetts, California, New York --- are notably active. See L-11 for the full escalation ladder. The demand letter still goes certified mail. The complaint goes online the same day.[^l3-1]
+:::
+
+
+[^l3-1]: Consumer Financial Protection Bureau. ["Consumer Response Annual Report."](https://www.consumerfinance.gov/data-research/research-reports/) See also the CFPB [public complaint database](https://www.consumerfinance.gov/data-research/consumer-complaints/) and the [National Association of Attorneys General](https://www.naag.org/) directory of state consumer protection divisions.
 
 ---
 
@@ -186,11 +196,21 @@ Racial disparities in traffic enforcement are among the most thoroughly document
 :::
 
 
-<!-- RESEARCH NEEDED: Traffic fine reform. Some jurisdictions have adopted income-based fines (day-fines) modeled on Scandinavian systems. San Francisco's Financial Justice Project has documented how flat fines disproportionately burden low-income residents. A $500 fine is a rounding error for a household earning $500,000 and a catastrophe for a household earning $25,000. The entry should note this structural feature without pretending the reader can change it from this page. -->
+::: science
+A single moving violation raises auto insurance premiums by roughly 20--30% on average, and the surcharge stays on the policy for three to five years depending on insurer and state. For a household already paying $2,000 a year, a $150 ticket becomes an extra $1,200 to $3,000 in premium over the penalty period. Quadrant Information Services and the Insurance Information Institute track these numbers annually. The fine is the visible cost. The surcharge is the invisible one --- and it is the one most people fail to price when deciding whether to fight or pay.[^l4-2]
+:::
 
-<!-- RESEARCH NEEDED: The insurance spiral. A single ticket can increase auto insurance premiums by 20-30% for 3-5 years depending on the insurer and state. For a family already paying $2,000/year, that's an additional $1,200-$3,000 over the penalty period. The fine is the visible cost. The insurance increase is the invisible one. Most people making the pay-or-fight decision are calculating with incomplete information. -->
+
+::: fairness
+Flat traffic fines are regressive by design. A $500 ticket is a rounding error for a household earning $500,000 and a month of groceries for one earning $25,000. A small number of jurisdictions have experimented with income-based "day-fines" modeled on Scandinavian systems, and [San Francisco's Financial Justice Project](https://sfgov.org/financialjustice/) has documented the downstream damage of flat-fine enforcement on low-income residents --- compounding late fees, suspended licenses, lost jobs. The enforcement model is a policy choice. You can't fix it from this page, but you can ask your Agent: _"Does [my county] have a fine-reduction or ability-to-pay program for people below a certain income? How do I apply, and what documentation do I need?"_ Some courts offer these quietly.[^l4-3]
+:::
+
 
 [^l4-1]: Pierson, E., et al. (2020). "A large-scale analysis of racial disparities in police stops across the United States." _Nature Human Behaviour_, 4, 736–745. Data available at [openpolicing.stanford.edu](https://openpolicing.stanford.edu).
+
+[^l4-2]: Insurance Information Institute, ["Auto insurance basics"](https://www.iii.org/article/understanding-your-auto-insurance-policy); surcharge-period and premium-increase ranges are tracked annually by rate-analytics firms including [Quadrant Information Services](https://www.quadinfo.com/) and aggregated by [The Zebra](https://www.thezebra.com/auto-insurance/driving-record/) and [Insurance.com](https://www.insurance.com/). Ranges vary by state, insurer, and violation type.
+
+[^l4-3]: San Francisco Financial Justice Project, ["Pay or Play? How Court Fines and Fees Penalize Low-Income Residents"](https://sfgov.org/financialjustice/). See also Fines & Fees Justice Center, ["Ending the Criminalization of Poverty"](https://finesandfeesjusticecenter.org/). Day-fine pilots have been run in Staten Island (1988), Milwaukee, and Maricopa County; adoption remains rare.
 
 
 ---
@@ -245,13 +265,21 @@ Princeton Eviction Lab data shows that in most American cities, the majority of 
 :::
 
 
-<!-- RESEARCH NEEDED: State-by-state security deposit limits and return deadlines. Many states cap deposits at 1-2 months' rent and require return within 14-30 days with an itemized deduction list. Violations of these statutes often carry penalties of 2x or 3x the deposit amount — a fact most tenants do not know and most landlords count on them not knowing. -->
+::: tip
+Most states cap security deposits at one to two months' rent and require the landlord to return the deposit, minus itemized deductions, within 14 to 30 days after move-out. Statutes commonly include a penalty for noncompliance --- two or three times the withheld amount, plus attorney's fees in some states. Landlords count on tenants not knowing this. Ask your Agent: _"In [state], what is the security deposit cap, the return deadline, the required itemized statement, and the penalty if my landlord misses the deadline?"_ If the deadline has already passed, a demand letter citing the statute often produces the check in a week. See L-3.[^l5-3]
+:::
 
-<!-- RESEARCH NEEDED (HUMAN CONDITION): The power asymmetry of the landlord-tenant relationship is not just informational — it is existential. The landlord risks a vacancy. The tenant risks homelessness. This asymmetry shapes every negotiation, every complaint, every decision about whether to assert a right or stay quiet. The fear of retaliation is rational, not neurotic. The entry should name this without pretending a spec template resolves it. -->
+
+::: fairness
+The landlord-tenant relationship is asymmetric in a way that does not show up in the lease. The landlord risks a vacancy. The tenant risks homelessness. That asymmetry shapes every complaint, every request, every decision about whether to name a violation or stay quiet through it. The fear of retaliation is not neurotic --- it is rational. Most states have anti-retaliation statutes precisely because this dynamic is predictable. Knowing your rights does not resolve the asymmetry. It narrows the range of what the other side can do without consequence, which is not nothing. Ask your Agent: _"Given the retaliation protections in [state], what specifically can my landlord not do after I file a complaint, and what documentation makes retaliation easier to prove later?"_
+:::
+
 
 [^l5-1]: The National Housing Law Project ([nhlp.org](https://www.nhlp.org)) publishes resources on eviction record sealing and tenant screening reform by state.
 
 [^l5-2]: Desmond, Matthew. _Evicted: Poverty and Profit in the American City._ Crown, 2016. See also the Princeton Eviction Lab ([evictionlab.org](https://evictionlab.org)) for current national eviction filing data.
+
+[^l5-3]: State-by-state security deposit statutes are compiled by [Nolo](https://www.nolo.com/legal-encyclopedia/security-deposit-limits-state-charts.html), HUD's [Tenant Rights by State](https://www.hud.gov/topics/rental_assistance/tenantrights), and state attorney general consumer protection offices. Penalty multipliers (2x or 3x the withheld amount) appear in, for example, Massachusetts General Laws ch. 186 § 15B, California Civil Code § 1950.5, and Wisconsin Administrative Code ATCP 134.06. Verify the current text of the statute in your state before sending a demand letter.
 
 ---
 
@@ -305,13 +333,26 @@ The Seinfeld wedding. The Friends divorce (Ross, naturally --- three times). Fra
 :::
 
 
-<!-- RESEARCH NEEDED: Mediation vs. litigation outcomes in family court. Multiple studies suggest that mediated custody agreements have higher compliance rates and lower re-litigation rates than court-imposed orders. Many jurisdictions now require mediation before trial. The cost and process vary widely. -->
+::: science
+Mediated custody agreements produce higher compliance rates and lower re-litigation rates than court-imposed orders. Robert Emery's Charlottesville Mediation Project, which tracked families for twelve years, found that non-residential parents who mediated were significantly more involved with their children --- and more satisfied with the arrangement --- than those who litigated. Most jurisdictions now require mediation before trial in custody disputes. Cost varies: court-connected mediation is often free or sliding-scale, while private mediation runs $200 to $500 per hour. Ask your Agent: _"What mediation options exist in [county], and what does each cost?"_[^l6-2]
+:::
 
-<!-- RESEARCH NEEDED: The "status quo" bias in custody. Family courts tend to preserve existing arrangements. A temporary order that gives one parent primary custody often becomes the permanent order, not because the judge evaluated the merits but because the arrangement has been "working." This means the first filing — and the first temporary order — has disproportionate long-term impact. The entry should flag this without causing panic. -->
+
+::: tip
+Family courts default to preserving existing arrangements. A temporary order that gives one parent primary custody often becomes the permanent order --- not because a judge weighed the merits, but because the arrangement has been "working." This means the first filing and the first temporary hearing carry disproportionate long-term weight. If you are early in the process, ask your Agent: _"What goes into the temporary order in [state], how do I prepare for the temporary hearing, and what evidence matters most at this stage?"_ You do not want to discover the status-quo bias six months in.
+:::
+
+
+::: fairness
+Military families navigating divorce face a separate statutory layer. The [Uniformed Services Former Spouses' Protection Act](https://www.dfas.mil/garnishment/usfspa/) (USFSPA, 10 U.S.C. § 1408) governs how military retirement pay is divided and whether the former spouse receives it directly from DFAS --- the "10/10 rule" requires at least 10 years of marriage overlapping 10 years of creditable service for direct payment. The SCRA can stay civil proceedings while a servicemember is on active duty. Custody orders must also accommodate PCS moves and OCONUS deployments, which ordinary parenting plans do not contemplate. Ask your Agent: _"My spouse is [branch, rank, years of service]. How does USFSPA affect retirement division in [state], and what should a custody order include for deployment and PCS?"_[^l6-3]
+:::
+
 
 [^l6-1]: The Legal Services Corporation ([lsc.gov](https://www.lsc.gov)) funds legal aid programs in every state. Their website includes a searchable directory by state and case type.
 
-<!-- RESEARCH NEEDED: Veterans integration --- Military divorce: USFSPA (Uniformed Services Former Spouses' Protection Act, 10 U.S.C. § 1408) governs division of military retirement; "10/10 rule" for direct DFAS payment to former spouse (10 years of marriage overlapping 10 years of creditable service). SCRA stays civil proceedings for active-duty servicemembers. Custody orders must accommodate OCONUS deployments. -->
+[^l6-2]: Emery, R.E., Laumann-Billings, L., Waldron, M.C., Sbarra, D.A., and Dillon, P. (2001). "Child custody mediation and litigation: custody, contact, and coparenting 12 years after initial dispute resolution." _Journal of Consulting and Clinical Psychology_, 69(2), 323–332. See also the [American Bar Association Section of Dispute Resolution](https://www.americanbar.org/groups/dispute_resolution/).
+
+[^l6-3]: Defense Finance and Accounting Service. ["Uniformed Services Former Spouses' Protection Act."](https://www.dfas.mil/garnishment/usfspa/) See also ABA, ["A Judge's Guide: Making Child-Centered Decisions in Custody Cases,"](https://www.americanbar.org/groups/family_law/) and the [American Bar Association Legal Assistance for Military Personnel](https://www.americanbar.org/groups/legal_assistance_military_personnel/) directory for reduced-fee military family law counsel.
 
 ---
 
@@ -373,15 +414,28 @@ The collector on the phone has a script. The script is designed to create urgenc
 :::
 
 
-<!-- RESEARCH NEEDED: Zombie debt — debts that are past the statute of limitations but still collected upon. In many states, making a partial payment or even verbally acknowledging the debt restarts the clock. Collectors know this. Consumers do not. The validation letter strategy is specifically designed to avoid this trap. -->
+::: science
+"Zombie debt" is debt past the statute of limitations. A collector cannot legally win a lawsuit on it --- but in many states, a single partial payment, or even a verbal acknowledgment that the debt is yours, _restarts_ the statute and brings the debt back to life. Collectors know this. They are trained to ask questions that produce the acknowledgment. The validation letter is designed to avoid the trap: put everything in writing, admit nothing, and require them to prove both the debt and their right to collect it. Ask your Agent: _"In [state], does partial payment or verbal acknowledgment restart the statute of limitations on a [credit card / medical / other] debt? What exactly should I not say on the phone?"_[^l7-3]
+:::
 
-<!-- RESEARCH NEEDED: State-level protections beyond the FDCPA. Several states (California, New York, Texas, others) have debt collection laws that are significantly stronger than the federal floor. Wage garnishment protections vary enormously — some states prohibit it entirely for consumer debt, others allow up to 25% of disposable income. -->
+
+::: tip
+State debt collection laws frequently outrun the federal floor. California's Rosenthal Act extends FDCPA rules to original creditors, not just third-party collectors. New York requires collectors to disclose the statute of limitations in the first communication. Texas, North Carolina, and Pennsylvania prohibit wage garnishment for most consumer debts entirely, while other states permit up to 25% of disposable income under the federal Consumer Credit Protection Act. Ask your Agent: _"What protections does [state] add beyond the FDCPA, and what is the wage garnishment limit for consumer debt here?"_[^l7-4]
+:::
+
+
+::: tip
+Active-duty servicemembers get an additional lever. The [SCRA](https://www.justice.gov/servicemembers/servicemembers-civil-relief-act-scra) (50 U.S.C. §§ 3901–4043) caps interest on pre-service debts at 6% and imposes further limits on collectors during active duty, but the interest cap is not automatic --- the servicemember must give the creditor written notice along with a copy of orders. See L-1 for the full list of SCRA protections applicable to contracts and leases.
+:::
+
 
 [^l7-1]: Consumer Financial Protection Bureau. "Fair Debt Collection Practices Act: CFPB Annual Report 2023." Available at [consumerfinance.gov](https://www.consumerfinance.gov).
 
 [^l7-2]: Fedaseyeu, Viktar, and Robert M. Hunt. "The Economics of Debt Collection: Enforcement of Consumer Credit Contracts." Federal Reserve Bank of Philadelphia Working Paper, 2015. See also Albanesi, Stefania, and Domonkos Vamossy. "Predicting Consumer Default: A Deep Learning Approach." _NBER Working Paper_, 2019.
 
-<!-- RESEARCH NEEDED: Veterans integration --- SCRA 6% interest rate cap on pre-service debts applies once the servicemember provides written notice and a copy of orders. Debt collectors are subject to additional limits during active duty under 50 U.S.C. §§ 3901–4043. -->
+[^l7-3]: Federal Trade Commission. ["Time-Barred Debts."](https://consumer.ftc.gov/articles/time-barred-debts) State rules on what restarts the statute of limitations are summarized by the [National Consumer Law Center](https://www.nclc.org/) and in state-by-state tables maintained by [Nolo](https://www.nolo.com/legal-encyclopedia/statute-of-limitations-state-laws-chart-29941.html). Verify the current rule in your state before making any payment on an old debt.
+
+[^l7-4]: California Civil Code § 1788 et seq. (Rosenthal Act); New York General Business Law § 600 et seq.; Consumer Credit Protection Act, 15 U.S.C. § 1673. See also National Consumer Law Center, ["No Fresh Start: Ineffective State Debt Collection Protections,"](https://www.nclc.org/resources/no-fresh-start-2023/) for a state-by-state ranking.
 
 ---
 
@@ -436,11 +490,19 @@ Power of attorney and advance directives interact with systemic inequality in wa
 :::
 
 
-<!-- RESEARCH NEEDED: State-by-state requirements for power of attorney and advance directives — number of witnesses, notarization requirements, whether registration with a state database is available or required. Some states (like Oregon and Vermont) have POLST (Physician Orders for Life-Sustaining Treatment) forms that are legally binding medical orders, distinct from advance directives. -->
+::: tip
+Execution requirements vary by state. Most require two witnesses, a notary, or both for a durable power of attorney; healthcare proxies often have separate witness rules (some states bar the proxy's named agent or the attending physician from acting as a witness). A [POLST](https://polst.org/) (or MOLST, POST, MOST, depending on the state) is a separate instrument --- a physician-signed medical order for the seriously ill that binds emergency responders in a way an advance directive alone does not. Thirty-plus states have adopted POLST programs. Ask your Agent: _"In [state], what are the witness and notary requirements for [document], and is POLST available for someone in [condition]?"_[^l8-2]
+:::
 
-<!-- RESEARCH NEEDED (HUMAN CONDITION): The emotional weight of these documents is wildly disproportionate to their legal simplicity. Asking someone to be your healthcare proxy is asking them to carry the worst decision of your life. The conversation is harder than the paperwork. The entry should acknowledge this without pathologizing the avoidance — it is rational to postpone thinking about your own incapacity. The task is not to overcome the feeling but to complete the form anyway. -->
+
+::: fairness
+The paperwork is not the hard part. Asking someone to be your healthcare proxy is asking them to carry the worst decision of your life. Postponing that ask is not irrational --- it is the brain protecting the family from a future it can't rehearse. The research is consistent on what actually moves people from intending to signing: a deadline, a witness, and a concrete conversation, usually in that order. The task is not to overcome the feeling. It is to complete the form anyway, and to have the one conversation that turns the form from a file into a shared understanding. See H-7 for how to start that conversation.
+:::
+
 
 [^l8-1]: Yadav, Kuldeep N., et al. "Approximately One in Three US Adults Completes Any Type of Advance Directive for End-of-Life Care." _Health Affairs_, 36(7), 2017, 1244–1251.
+
+[^l8-2]: [National POLST](https://polst.org/) maintains a state-by-state map of program status and form names. State-specific advance directive forms and execution requirements are collected by [CaringInfo](https://www.caringinfo.org/planning/advance-directives/) (National Hospice and Palliative Care Organization) and by the [ABA Commission on Law and Aging](https://www.americanbar.org/groups/law_aging/).
 
 ---
 
@@ -495,13 +557,23 @@ A 2012 National Consumer Law Center report found that FBI background check recor
 :::
 
 
-<!-- RESEARCH NEEDED: Expungement eligibility and process by state. Some states have automatic expungement for certain offenses after a waiting period (e.g., Utah's Clean Slate Act). Others require a petition, a hearing, and a filing fee. The variation is enormous and the practical barriers — cost, complexity, time — mean that many people who are eligible never apply. -->
+::: tip
+Expungement eligibility varies wildly. A growing number of states --- Utah, Pennsylvania, Michigan, Connecticut, New Jersey, California, Virginia, among others --- have passed "Clean Slate" laws that automatically seal or expunge eligible records after a waiting period. Other states still require a petition, a filing fee, and sometimes a hearing, which produces a gap: many people who qualify never apply because the process is invisible or the fee is prohibitive. Ask your Agent: _"In [state], does automatic expungement cover [offense] after [years]? If not, what's the petition process, the filing fee, and any fee waiver I might qualify for?"_[^l10-3]
+:::
 
-<!-- RESEARCH NEEDED: The tenant screening industry specifically. Companies like CoreLogic, TransUnion, and RealPage compile tenant screening reports that include eviction filings (even dismissed ones), criminal records, and credit history. Error rates in these reports are poorly studied but anecdotally high. The right to dispute errors under the FCRA applies to these reports as well. -->
+
+::: fairness
+Tenant screening is a separate industry running in parallel to employment background checks. Companies like CoreLogic, TransUnion SmartMove, and RealPage compile reports that pull eviction filings (including dismissed ones), criminal records, and credit history --- and sell them to landlords. A 2023 CFPB investigation and ongoing class-action suits have documented error rates and mismatched records (wrong person, wrong disposition, resolved cases still flagged) that landlords treat as dispositive. The FCRA dispute process applies to these reports the same way it applies to employment checks. Ask your Agent: _"I was denied a rental based on a tenant screening report from [company]. What does the FCRA require the landlord and the screening company to do now, and how do I dispute an error?"_[^l10-4]
+:::
+
 
 [^l10-1]: Equal Employment Opportunity Commission. "Enforcement Guidance on the Consideration of Arrest and Conviction Records in Employment Decisions under Title VII." 2012. Available at [eeoc.gov](https://www.eeoc.gov).
 
 [^l10-2]: National Consumer Law Center. "Broken Records: How Errors by Criminal Background Check Companies Harm Workers and Businesses." 2012. Available at [nclc.org](https://www.nclc.org).
+
+[^l10-3]: [Clean Slate Initiative](https://cleanslateinitiative.org/) tracks state-by-state adoption of automatic record-clearing laws. See also the [Collateral Consequences Resource Center](https://ccresourcecenter.org/) for petition-based expungement procedures and fees.
+
+[^l10-4]: Consumer Financial Protection Bureau. ["Tenant Background Checks Market Report."](https://www.consumerfinance.gov/data-research/research-reports/tenant-background-checks-market/) November 2022. See also National Consumer Law Center, ["Digital Denials: How Abuse, Bias, and Lack of Transparency in Tenant Screening Harm Renters."](https://www.nclc.org/resources/digital-denials-tenant-screening-report/)
 
 ---
 
@@ -558,8 +630,18 @@ All major AI tools can search publicly available databases. If you ask your Agen
 :::
 
 
-<!-- RESEARCH NEEDED: State attorney general consumer complaint effectiveness. Some state AGs (e.g., Massachusetts, California, New York) are significantly more active in consumer protection than others. The complaint process and typical outcomes vary widely. Filing with both the CFPB and your state AG simultaneously creates two pressure points — the federal and the state — which is generally more effective than either alone. -->
+::: tip
+Federal complaint mechanisms are not interchangeable. The CFPB complaint is a _case_ --- the agency forwards it to the company with a statutory clock, the company has to respond, and the exchange becomes part of a public database. The FTC complaint is a _vote_ --- the FTC does not resolve individual disputes, but it uses complaint data at [ReportFraud.ftc.gov](https://reportfraud.ftc.gov/) to identify patterns and open enforcement actions. Both are worth filing. Ask your Agent to draft each one, targeted to what that agency actually does: specific remedy for the CFPB, pattern evidence for the FTC.[^l11-2]
+:::
 
-<!-- RESEARCH NEEDED: FTC complaint mechanism. The FTC does not resolve individual complaints — it uses complaint data to identify patterns and bring enforcement actions. Filing an FTC complaint is still worthwhile because it contributes to the data the agency uses to decide where to investigate. The reader should understand this distinction: the FTC complaint is a vote, not a case. The CFPB complaint is a case. -->
+
+::: fairness
+State attorney general consumer protection divisions vary dramatically in how active they are. Massachusetts, California, New York, Washington, and Minnesota run some of the most aggressive consumer protection programs in the country; other states publish a complaint form and little else. Filing with both the CFPB and your state AG at the same time creates a second pressure point the company cannot control --- federal and state regulators reading the same complaint. Ask your Agent: _"What does [state] AG's consumer protection division actually do, how do I file, and what do they investigate versus refer elsewhere?"_[^l11-3]
+:::
+
 
 [^l11-1]: Consumer Financial Protection Bureau. "Consumer Response Annual Report." 2023. Available at [consumerfinance.gov](https://www.consumerfinance.gov).
+
+[^l11-2]: Federal Trade Commission, [ReportFraud.ftc.gov](https://reportfraud.ftc.gov/) and ["How the FTC Uses Your Reports."](https://consumer.ftc.gov/consumer-alerts/) Compare with the CFPB's [complaint process](https://www.consumerfinance.gov/complaint/process/), which includes a 15-day response window and public database publication.
+
+[^l11-3]: State consumer protection directories are maintained by [USA.gov](https://www.usa.gov/state-consumer) and the [National Association of Attorneys General](https://www.naag.org/find-my-ag/). Enforcement activity varies by administration; recent filings are searchable on most state AG websites.
