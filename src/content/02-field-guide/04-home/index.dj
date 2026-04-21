@@ -167,7 +167,7 @@ _"I just signed a lease I didn't fully understand. [Paste the section you're wor
 
 
 ::: fairness
-Housing rights enforcement varies dramatically by race, income, and geography. Eviction filings are disproportionately concentrated in Black and Latino neighborhoods, even after controlling for income (Desmond, 2016). If your Agent's advice assumes a responsive landlord or a functional enforcement system, say so: _"My landlord ignores repair requests and I'm worried about retaliation if I push harder. What are my protections?"_
+Housing rights enforcement varies dramatically by race, income, and geography. Matthew Desmond's _Evicted_ (2016) documented how eviction functions less as a legal remedy of last resort than as an instrument of housing control, concentrated in Black and Latino neighborhoods even after controlling for income. The Eviction Lab at Princeton --- which tracks filings across 10 states and more than 30 cities --- recorded just over 1 million eviction cases in 2024, an average filing rate of 7.8% of renter households, with nine of its tracked cities filing above 10%.[^ho4-1] If your Agent's advice assumes a responsive landlord or a functional enforcement system, say so: _"My landlord ignores repair requests and I'm worried about retaliation if I push harder. What are my protections?"_
 :::
 
 
@@ -176,9 +176,14 @@ Paste or upload your lease, HOA rules, or property tax assessment directly — f
 :::
 
 
-<!-- RESEARCH NEEDED: Eviction data — Desmond (2016, "Evicted") is the foundational text. The Eviction Lab at Princeton tracks filing rates by jurisdiction. In many cities, evictions are filed at rates that function as a tool of housing control rather than a legal remedy of last resort. -->
+::: also
+Active-duty servicemembers, National Guard and Reserve members on federal orders of 30+ days, and their dependents are covered by the Servicemembers Civil Relief Act ([50 U.S.C. §§ 3901--4043](https://uscode.house.gov/view.xhtml?path=/prelim@title50/chapter50&edition=prelim)). SCRA allows early lease termination on permanent-change-of-station or 90-day deployment orders (written notice plus a copy of the orders; the lease ends 30 days after the next rent due date), prohibits eviction from residential premises below a statutory rent ceiling (adjusted annually; $4,513.23 per month in 2025) without a court order, and caps interest on pre-service debts --- mortgages, credit cards, auto loans --- at 6% with written notice to the creditor. Ask your Agent: _"I'm [active duty / Guard / Reserve] and I just received [PCS / deployment] orders. Walk me through my SCRA rights for my [lease / mortgage / pre-service credit card]."_[^ho4-2]
+:::
 
-<!-- RESEARCH NEEDED: HOA law varies enormously by state. Some states have homeowner bill of rights legislation; others give HOAs broad power. The reader who wants to change an HOA rule, dissolve an HOA, or fight a fine needs state-specific guidance. The Agent can provide the framework; the specifics require current law. -->
+
+[^ho4-1]: Desmond, M. (2016). [_Evicted: Poverty and Profit in the American City._](https://www.penguinrandomhouse.com/books/247816/evicted-by-matthew-desmond/) Crown. Hepburn, P., Louis, R., & Desmond, M. (2020). ["Racial and Gender Disparities among Evicted Americans."](https://www.pnas.org/doi/10.1073/pnas.2116169119) _Sociological Science_, 7, 649--662. Eviction Lab (2025). ["Preliminary Analysis: Eviction Filing Patterns in 2024."](https://evictionlab.org/ets-report-2024/) Princeton University.
+
+[^ho4-2]: Servicemembers Civil Relief Act, [50 U.S.C. §§ 3901--4043](https://uscode.house.gov/view.xhtml?path=/prelim@title50/chapter50&edition=prelim). U.S. Department of Justice, Servicemembers and Veterans Initiative, ["Financial and Housing Rights."](https://www.justice.gov/servicemembers/financial-and-housing-rights-0) Military OneSource, ["SCRA, The Servicemembers Civil Relief Act."](https://www.militaryonesource.mil/financial-legal/legal/servicemembers-civil-relief-act/)
 
 <!-- RESEARCH NEEDED (HUMAN CONDITION): Sub-topics that deserve their own entries or deeper treatment:
 — HOA disputes and governance: changing bylaws, dissolving HOAs, common area responsibilities, board accountability
@@ -190,8 +195,6 @@ Paste or upload your lease, HOA rules, or property tax assessment directly — f
 — Financial assistance: housing vouchers, emergency rental assistance, support for unhoused individuals
 — Historical districts: modification rules, forming a historic district, preservation incentives and constraints
 These overflow the scope of a single entry but each represents a real information asymmetry. -->
-
-<!-- RESEARCH NEEDED: Veterans integration --- SCRA (50 U.S.C. §§ 3901–4043) grants active-duty servicemembers early lease termination on PCS/deployment orders (30 days' notice), eviction protection up to 90 days, and a 6% interest cap on pre-service debts. -->
 
 ---
 
@@ -267,7 +270,19 @@ Housing discrimination is illegal under the Fair Housing Act but remains pervasi
 :::
 
 
-<!-- RESEARCH NEEDED: Housing affordability crisis data. The National Low Income Housing Coalition's "Out of Reach" report documents the gap between wages and rents by state. In no state can a minimum-wage worker afford a two-bedroom apartment at fair market rent. The structural problem predates any individual search. -->
+::: science
+The National Low Income Housing Coalition's _Out of Reach_ report, which tracks the gap between prevailing wages and HUD Fair Market Rents, found that the 2025 national Housing Wage --- what a full-time worker must earn to afford a modest two-bedroom rental without spending more than 30% of income on housing --- is $33.63 per hour. That is more than four times the federal minimum wage of $7.25. A minimum-wage worker would need to work 116 hours per week to afford a two-bedroom at Fair Market Rent. There is no state, metropolitan area, or county in the United States where a full-time federal, state, or local minimum-wage worker can afford that unit. The math is the point: when your Agent tells you what you "should" be able to afford at 30% of income, compare it to what's actually available in your market. The gap is structural, not personal.[^ho6-1]
+:::
+
+
+::: also
+If you served on active duty --- or as a National Guard or Reserve member with qualifying federal service --- you may be eligible for a [VA home loan](https://www.va.gov/housing-assistance/home-loans/), which requires no down payment, no private mortgage insurance, and no monthly PMI premium at any loan-to-value ratio. Since the Blue Water Navy Vietnam Veterans Act (2020), there is no maximum loan amount for first-time users with full entitlement; VA loans are also assumable by other VA-eligible buyers, which becomes valuable when interest rates rise. The [VA funding fee](https://www.va.gov/housing-assistance/home-loans/funding-fee-and-closing-costs/) is 2.15% for first use with less than 5% down, lower with a larger down payment or on a refinance, and is waived entirely for veterans with a service-connected disability rating, surviving spouses receiving DIC, and Purple Heart recipients on active duty. The [Interest Rate Reduction Refinance Loan (IRRRL)](https://www.va.gov/housing-assistance/home-loans/loan-types/interest-rate-reduction-loan/) allows streamlined refinancing of an existing VA loan with minimal documentation. VA appraisal standards are stricter than conventional; budget time for that. Ask your Agent: _"I'm a [service status] looking to [buy / refinance]. Walk me through VA loan eligibility, the funding fee calculation for my situation, and how a VA loan compares to FHA and conventional for my purchase price and down payment."_[^ho6-2]
+:::
+
+
+[^ho6-1]: National Low Income Housing Coalition (2025). [_Out of Reach 2025: The High Cost of Housing._](https://nlihc.org/oor) Annual report comparing Housing Wage to prevailing wages by state, metro, and county.
+
+[^ho6-2]: U.S. Department of Veterans Affairs. ["VA-backed home loans."](https://www.va.gov/housing-assistance/home-loans/) Funding fee rates, exemptions, and IRRRL program details at VA.gov. Blue Water Navy Vietnam Veterans Act of 2019 ([Pub. L. 116--23](https://www.congress.gov/bill/116th-congress/house-bill/299)) eliminated the conforming loan limit for first-use borrowers with full entitlement.
 
 <!-- RESEARCH NEEDED (HUMAN CONDITION): Sub-topics that deserve deeper treatment:
 — First-time buyers: the full process from savings to closing, demystified
@@ -276,8 +291,6 @@ Housing discrimination is illegal under the Fair Housing Act but remains pervasi
 — Housing crisis resources: shelters, transitional housing, rapid rehousing programs, 211.org
 — Relocation: the cascade of decisions when you move to a new city
 -->
-
-<!-- RESEARCH NEEDED: Veterans integration --- VA home loans: 0% down, no PMI, assumable by VA-eligible buyers, funding fee waived for service-connected disabled vets. IRRRL (Interest Rate Reduction Refinance Loan) for refinancing existing VA loans. No max loan amount for first-time users since the Blue Water Navy Vietnam Veterans Act (2020). VA appraisal standards stricter than conventional. -->
 
 ---
 
@@ -357,7 +370,7 @@ Give me the most conservative, safety-first answer.
 *What to do with the Output:* Do not try to do everything this week. Pick the three highest-priority items from your Agent's list and do those first. A partial kit that exists is infinitely better than a complete plan that doesn't. Store digital copies of your important documents in a cloud account you can access from any device --- your Agent can tell you exactly which documents to photograph and how to organize them.
 
 ::: science
-FEMA's post-disaster surveys consistently find that households with any written plan --- even an incomplete one --- evacuate faster and experience less property loss than those without one. The barrier is not willingness but initiation: people overestimate the effort and underestimate the return.[^ho8-1]
+FEMA's 2024 National Household Survey on Disaster Preparedness found that 83% of respondents reported taking at least three preparedness actions in the past year --- up from 57% in 2023 --- but only 32% felt confident both in their ability to prepare and that preparation would make a significant difference. A persistent gap separates homeowners (73% with emergency supplies) from renters (60%), and cost was the single most common barrier, named by 26% of respondents. The barrier, in other words, is rarely willingness; it is initiation, confidence, and money.[^ho8-1]
 :::
 
 
@@ -367,17 +380,13 @@ _"I have 30 minutes and $50 this weekend. What is the single most impactful thin
 
 
 ::: fairness
-Disaster impact is not distributed equally. Low-income communities, communities of color, and renters are disproportionately affected by natural disasters and disproportionately underserved by recovery programs. If your Agent's advice assumes you own your home, have savings, or can relocate temporarily, say so: _"I rent, I don't have savings for a hotel, and I have no car. What are my options if I need to evacuate?"_
+Disaster impact is not distributed equally. Eric Klinenberg's _Heat Wave_ (2002) reconstructed the 1995 Chicago disaster that killed more than 700 people in a single week and found that mortality concentrated in depleted, largely Black neighborhoods on the city's south and west sides --- not because heat is racist, but because institutional abandonment, social isolation of the elderly, and the privatization of cooling made survival depend on resources the neighborhood had been stripped of. Robert Bullard and Beverly Wright's _Race, Place, and Environmental Justice After Hurricane Katrina_ (2009) extended the pattern to recovery itself: low-income and communities-of-color disaster victims spend more time in temporary housing and shelters, face greater barriers to loans and insurance settlements, and are more vulnerable to permanent displacement.[^ho8-2] If your Agent's advice assumes you own your home, have savings, or can relocate temporarily, say so: _"I rent, I don't have savings for a hotel, and I have no car. What are my options if I need to evacuate?"_
 :::
 
 
-<!-- RESEARCH NEEDED: FEMA National Household Survey data on emergency preparedness rates by income and housing type. The 2022 survey found fewer than half of US households had an emergency plan. Need exact figures and citation. -->
+[^ho8-1]: Federal Emergency Management Agency. (2025). [_2024 National Household Survey on Disaster Preparedness --- Findings._](https://community.fema.gov/ProtectiveActions/s/article/2024-National-Household-Survey-on-Disaster-Preparedness-NHS-Key-Findings) Fielded Q3--Q4 2024; published 2025. See also the FEMA [National Preparedness](https://www.fema.gov/emergency-managers/national-preparedness/plan) resources on writing a family emergency plan.
 
-<!-- RESEARCH NEEDED: Specific statistics on disaster displacement by income and race. The Klinenberg (2002) "Heat Wave" study on the 1995 Chicago heat wave is foundational for the structural inequality argument. Bullard (2012) on environmental justice and disaster recovery disparities. -->
-
-<!-- RESEARCH NEEDED (HUMAN CONDITION): The psychology of disaster preparedness is a procrastination problem, not a knowledge problem. People know they should prepare. They do not prepare. The reasons are structural --- poverty, exhaustion, the cognitive load of daily survival leaving no bandwidth for hypothetical survival --- and they are also emotional. Preparing for a disaster means admitting it could happen to you. That admission is harder than it sounds. The entry should acknowledge this without condescending about it. -->
-
-[^ho8-1]: Federal Emergency Management Agency. (2022). [_National Household Survey on Disaster Preparedness._](https://www.fema.gov/emergency-managers/national-preparedness/plan) FEMA found that fewer than half of US households had developed an emergency plan.
+[^ho8-2]: Klinenberg, E. (2002). [_Heat Wave: A Social Autopsy of Disaster in Chicago._](https://press.uchicago.edu/ucp/books/book/chicago/H/bo20809880.html) University of Chicago Press. Bullard, R.D. & Wright, B. (Eds.) (2009). [_Race, Place, and Environmental Justice After Hurricane Katrina: Struggles to Reclaim, Rebuild, and Revitalize New Orleans and the Gulf Coast._](https://www.routledge.com/Race-Place-and-Environmental-Justice-After-Hurricane-Katrina-Struggles-to-Reclaim-Rebuild-and-Revitalize-New-Orleans-and-the-Gulf-Coast/DBullard-Wright/p/book/9780813344249) Westview Press.
 
 ---
 
@@ -428,18 +437,21 @@ _"I don't want to buy anything. I have [describe what you have --- cardboard box
 :::
 
 
-<!-- RESEARCH NEEDED: Baumeister et al. on decision fatigue / ego depletion. The replication status of ego depletion research is contested (the 2010 Baumeister study had mixed replication results), but the practical observation that people make worse decisions after long decluttering sessions is well-supported by behavioral research on choice overload (Iyengar & Lepper, 2000). Use the choice overload framing instead if ego depletion citation doesn't hold up. -->
+::: fairness
+Hoarding disorder is a recognized mental-health condition in DSM-5, not a lifestyle choice; meta-analyses place its prevalence at roughly 2.5% of adults, with higher rates in older adults and in people living with anxiety or depression.[^ho9-2] When clutter is causing serious distress, functional impairment, household conflict, or safety risks --- blocked exits, mold, fire load, eviction risk --- no organization system is the right tool. The right tool is a clinician trained in hoarding treatment (typically CBT) and, where available, a local hoarding task force. The [International OCD Foundation](https://iocdf.org/about-ocd/related-disorders/hoarding/) maintains a therapist directory. If this sounds like you or someone you love, ask your Agent: _"I think [I / my family member] may be living with hoarding disorder, not just clutter. Help me understand what that means clinically, what gentle steps look like, and how to find a therapist or local task force."_
+:::
 
-<!-- RESEARCH NEEDED (HUMAN CONDITION): Hoarding disorder affects 2-6% of the population and is a recognized mental health condition, not a lifestyle choice. If someone's clutter is causing significant distress or functional impairment, an Agent is not a substitute for professional help. The entry should include a gentle note about when the problem is beyond what organization systems can solve --- not as a disclaimer, but as genuine care. The line between "I need to organize" and "I need help" is one the book should respect. -->
 
 [^ho9-1]: Iyengar, S.S. & Lepper, M.R. (2000). ["When Choice Is Demotivating: Can One Desire Too Much of a Good Thing?"](https://doi.org/10.1037/0022-3514.79.6.995) _Journal of Personality and Social Psychology_, 79(6), 995--1006. The choice overload effect --- decision quality degrades as options increase --- applies directly to the hundreds of keep-or-discard decisions decluttering demands.
+
+[^ho9-2]: Postlethwaite, A., Kellett, S., & Mataix-Cols, D. (2019). ["Prevalence of Hoarding Disorder: A systematic review and meta-analysis."](https://www.sciencedirect.com/science/article/abs/pii/S0165032719301521) _Journal of Affective Disorders_, 256, 309--316 (pooled prevalence 2.5%). See also the [International OCD Foundation](https://iocdf.org/about-ocd/related-disorders/hoarding/) and American Psychiatric Association, ["Hoarding Disorder."](https://www.psychiatry.org/patients-families/hoarding-disorder)
 
 ---
 
 #### Ho-10: Home Security and Safety
 *Strategy:* Research + Decide
 *See also:* Ho-1: Maintaining Your Home (smoke detector batteries are maintenance, not security), Ho-8: Household Disaster Preparedness (security is one layer of a broader safety plan), Ho-4: Knowing Your Rights as a Renter or Homeowner (what your landlord is legally required to provide)
-*My Man Jeeves:* _The home security industry generates approximately $56 billion annually in the United States, a figure that should prompt the observation that its primary product is not security but the feeling of security --- a distinction upon which rather a lot of profit depends. A deadbolt, properly installed, does more than a subscription camera service. A smoke detector with a functioning battery does more than a monitored alarm system. The fundamentals are mechanical, inexpensive, and effective. The industry prefers to sell past them. An Agent can assess what one actually needs --- based on one's housing type, neighbourhood, and specific concerns --- and distinguish the measures that reduce risk from those that merely reduce anxiety at a monthly fee._
+*My Man Jeeves:* _The residential security-alarm industry in the United States generates upwards of $38 billion annually --- a figure that should prompt the observation that its primary product is not security but the feeling of security, a distinction upon which rather a lot of profit depends.[^ho10-0] A deadbolt, properly installed, does more than a subscription camera service. A smoke detector with a functioning battery does more than a monitored alarm system. The fundamentals are mechanical, inexpensive, and effective. The industry prefers to sell past them. An Agent can assess what one actually needs --- based on one's housing type, neighbourhood, and specific concerns --- and distinguish the measures that reduce risk from those that merely reduce anxiety at a monthly fee._
 *The Spec:*
 ::: prompt
 I want to make my home safer and more secure.
@@ -471,7 +483,12 @@ I don't want to be sold a subscription I don't need.
 *What to do with the Output:* Start with the items your Agent flags as missing from the basics --- working smoke detectors on every level, a CO detector near sleeping areas, a fire extinguisher in the kitchen, and functional deadbolts on exterior doors. These are not optional. They are the safety equivalent of seatbelts. Everything after that is risk-specific and budget-dependent. If you rent, check your Agent's output against Ho-4 --- your landlord may be legally required to provide several of these.
 
 ::: science
-The National Fire Protection Association reports that three out of five home fire deaths occur in homes with no working smoke alarms or no smoke alarms at all. Smoke detectors are the single most cost-effective safety measure in any home. Replace batteries annually or switch to 10-year sealed units. Your Agent can remind you, but the battery does not replace itself.[^ho10-1]
+The National Fire Protection Association reports that nearly three out of five home fire deaths occur in properties with no smoke alarms (41%) or alarms that failed to operate (16%). Working alarms cut the risk of dying in a home fire by about 55%. Ninety-nine percent of U.S. households say they have at least one alarm, but 61% test less often than monthly and 33% never test at all --- which is how "I have a smoke alarm" turns into "the smoke alarm did not go off." Replace batteries annually or switch to 10-year sealed units. Your Agent can remind you; the battery does not replace itself.[^ho10-1]
+:::
+
+
+::: science
+The research on visible cameras as deterrents is genuinely mixed and context-dependent. The most rigorous synthesis --- Welsh and Farrington's systematic review and meta-analysis of 44 CCTV evaluations --- found a modest 16% overall reduction in crime in surveilled areas, concentrated in car parks (51% reduction in vehicle crime) and effectively zero for violent crime. A newer 40-year meta-analysis by Piza, Welsh, Farrington, and Thomas found broadly similar results: largest effects for property crime in parking facilities, smaller effects elsewhere, and the strongest programs combine cameras with other active measures (improved lighting, monitoring, response protocols). The honest summary: cameras are better at recording incidents than preventing them, and a doorbell camera is a documentation tool, not a deterrent. Match the tool to the actual risk --- package theft (documentation), break-ins (locks and lighting first), and violent confrontation (the police or, if the person has access to your home, see the FAIRNESS below).[^ho10-2]
 :::
 
 
@@ -481,7 +498,7 @@ _"I rent and my landlord hasn't installed [smoke detectors / CO detectors / prop
 
 
 ::: fairness
-Home security marketing disproportionately targets fear --- and that fear is not evenly distributed. Surveillance technology marketed as "security" can become a tool of harassment in domestic violence situations, and neighborhood surveillance apps have documented patterns of racial profiling. If your concern is personal safety from someone you live with or near, your Agent can help you find resources (the National Domestic Violence Hotline: 1-800-799-7233) rather than cameras.
+Home security marketing disproportionately targets fear --- and that fear is not evenly distributed. Surveillance technology marketed as "security" can become a tool of harassment in domestic violence situations: The Hotline's 2022 research reported that essentially every survivor it surveyed had experienced at least one form of technology-facilitated abuse, from GPS tracking to compromised accounts to weaponized smart-home devices.[^ho10-3] Neighborhood surveillance apps have also documented patterns of racial profiling. If your concern is personal safety from someone you live with or near, hardware is not the answer --- the National Domestic Violence Hotline (**1-800-799-7233**, or text "START" to 88788) can help with a safety plan that accounts for the tech you already have. Ask your Agent: _"I'm worried about [current or former partner / household member] having access to my accounts, location, or smart-home devices. Help me audit what they might reach and take the specific steps to lock it down without escalating the situation."_
 :::
 
 
@@ -490,12 +507,10 @@ The _[Home Improvement:S4E1 "Back in the Saddle Shoe"](https://en.wikipedia.org/
 :::
 
 
-<!-- RESEARCH NEEDED: NFPA smoke alarm statistics. The "three out of five" figure is widely cited; confirm against the most recent NFPA report (likely 2023 or 2024 data). Also need citation for CO detector effectiveness data. -->
+[^ho10-0]: IBISWorld. (2025). ["Security Alarm Services in the US --- Industry Analysis."](https://www.ibisworld.com/united-states/industry/security-alarm-services/1491/) Industry revenue of approximately $38.6 billion in 2025, not including separate segments such as locksmiths, smart-home security hardware, or monitored fire services.
 
-<!-- RESEARCH NEEDED: Home security industry revenue figure ($56 billion). Source is likely Statista or IBISWorld. Confirm current figure and year. -->
+[^ho10-1]: Ahrens, M. & Evarts, B. (2024). ["Smoke Alarms in US Home Fires."](https://www.nfpa.org/education-and-research/research/nfpa-research/fire-statistical-reports/smoke-alarms-in-us-home-fires) National Fire Protection Association. See also [NFPA (2024), "Smoke Alarms at Home"](https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms) for ownership and testing rates from the September 2024 national survey.
 
-<!-- RESEARCH NEEDED: Evidence on effectiveness of visible security cameras as deterrents. The research is mixed --- some studies show modest deterrent effects in specific contexts (parking lots, public spaces) while others show displacement rather than prevention. The honest answer is that cameras are better at recording than preventing. Need a balanced citation. -->
+[^ho10-2]: Welsh, B.C. & Farrington, D.P. (2009). ["Public Area CCTV and Crime Prevention: An Updated Systematic Review and Meta-Analysis."](https://www.tandfonline.com/doi/abs/10.1080/07418820802506206) _Justice Quarterly_, 26(4), 716--745. Piza, E.L., Welsh, B.C., Farrington, D.P., & Thomas, A.L. (2019). ["CCTV surveillance for crime prevention: A 40-year systematic review with meta-analysis."](https://onlinelibrary.wiley.com/doi/abs/10.1111/1745-9133.12419) _Criminology & Public Policy_, 18(1), 135--159.
 
-<!-- RESEARCH NEEDED (HUMAN CONDITION): The entry should handle domestic violence with care. For someone whose safety concern is a person, not a stranger, the security industry's product is irrelevant at best and dangerous at worst. Smart locks and cameras in the hands of an abuser are control tools. The entry should include the DV hotline and a note that if your safety concern is someone with access to your home, the solution is not hardware. This needs to be handled without being preachy --- a single sentence and a phone number, placed where the person who needs it will find it. -->
-
-[^ho10-1]: National Fire Protection Association. (2023). ["Smoke Alarms in US Home Fires."](https://www.nfpa.org/education-and-research/research/nfpa-research/fire-statistical-reports/smoke-alarms-in-us-home-fires) NFPA Research. Three out of five home fire deaths occur in homes with no working smoke alarm.
+[^ho10-3]: National Domestic Violence Hotline. ["Technology-Facilitated Abuse."](https://www.thehotline.org/resources/technology-facilitated-abuse/) See also the [Safety Net project at NNEDV](https://www.techsafety.org/), which publishes guides on auditing smart-home devices and shared accounts in abusive situations.
