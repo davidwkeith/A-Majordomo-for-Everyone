@@ -181,20 +181,54 @@ Active-duty servicemembers, National Guard and Reserve members on federal orders
 :::
 
 
+::: fairness
+The Fair Housing Act requires landlords and HOAs to allow reasonable modifications for people with disabilities --- grab bars, ramp access, wider doorways, lever handles, reserved accessible parking --- at the tenant's expense in rentals, at the association's expense in common areas. It also requires reasonable accommodations in rules and policies: a building with a no-pets policy must permit an assistance animal with documentation of disability-related need from a healthcare provider. Assistance animals under the FHA are not limited to dogs, do not require "certification" or "registration" from any website (those sites are scams, not legal requirements), and cannot be subject to breed, size, or weight restrictions. Landlords cannot charge pet deposits or pet rent for assistance animals. These are federal rights under [42 U.S.C. § 3604(f)](https://www.law.cornell.edu/uscode/text/42/3604). They are violated routinely. The National Fair Housing Alliance's annual trends report consistently finds that disability discrimination accounts for more than half of all fair housing complaints filed nationwide --- more than race, national origin, and every other protected class combined.[^ho4-3] If your landlord or HOA denies a modification or accommodation request, file with HUD (**1-800-669-9777**) or your [local fair housing organization](https://nationalfairhousing.org/find-help/). Ask your Agent: _"My landlord [or HOA] denied my request for [modification / assistance animal / policy exception]. Draft a response citing the specific Fair Housing Act provisions that apply in [my state]."_
+:::
+
+
+::: also
+Housing financial assistance exists at every level --- federal, state, and local --- but no single office explains all of it. The largest program, HUD's Housing Choice Voucher program (Section 8), subsidizes rent for low-income families, but waitlists average 2.5 years and many are closed entirely; check your [local Public Housing Authority](https://www.hud.gov/program_offices/public_indian_housing/pha/contacts) for current status. For emergencies --- imminent eviction, homelessness, domestic violence --- call **211** or visit [211.org](https://www.211.org/) for local shelters, rapid rehousing, and emergency rental assistance. In rural areas, the [USDA Section 502 Direct Loan program](https://www.rd.usda.gov/programs-services/single-family-housing-programs/single-family-housing-direct-home-loans) offers subsidized mortgages with payments as low as 1% interest for very-low-income borrowers --- a program most people have never heard of. Ask your Agent: _"What housing assistance programs am I eligible for in [city, state] given my household income of [amount] and household size of [number]?"_
+:::
+
+
+::: tip
+_"I'm concerned about [water quality / air quality / soil contamination / a nearby industrial facility] near my home in [city, state]. What should I test for, who do I report it to, and what are my rights as a [renter / homeowner]?"_ --- Your Agent can explain what contaminants to test for, identify your state environmental agency's complaint process, and help you understand your legal options. The [EPA's ECHO database](https://echo.epa.gov/) tracks facility compliance near you; for drinking water, your utility's annual [Consumer Confidence Report](https://www.epa.gov/ccr) is public and your Agent can decode it.
+:::
+
+
+*Common housing rights Expert Role specs:*
+::: prompt
+Act as a housing rights advisor. I live in [a community with
+an HOA / a condo association] in [state].
+The issue: [describe --- unreasonable rule, selective enforcement,
+lack of financial transparency, special assessment, restricting
+modifications (including solar panels or EV charging), not
+maintaining common areas, or board overreach].
+What are my rights under state law, what does the board's
+fiduciary duty require, and what is the process for
+challenging this?
+Give me the most conservative, legally accurate answer.
+I will verify with a tenant rights organization or attorney.
+:::
+::: prompt
+Act as a property tax advisor. I own a home in [county, state]
+and I believe my property tax assessment is [too high / based
+on incorrect information about the property].
+Current assessed value: [amount].
+What I believe the correct value is, and why: [comparable sales,
+property condition, errors in square footage or lot size,
+historic district restrictions that limit use].
+Walk me through the appeals process --- deadlines, evidence I need,
+and whether to pursue an informal review or formal hearing.
+Give me the most conservative, legally accurate answer.
+I will verify with my county assessor's office or a tax professional.
+:::
+
 [^ho4-1]: Desmond, M. (2016). [_Evicted: Poverty and Profit in the American City._](https://www.penguinrandomhouse.com/books/247816/evicted-by-matthew-desmond/) Crown. Hepburn, P., Louis, R., & Desmond, M. (2020). ["Racial and Gender Disparities among Evicted Americans."](https://www.pnas.org/doi/10.1073/pnas.2116169119) _Sociological Science_, 7, 649--662. Eviction Lab (2025). ["Preliminary Analysis: Eviction Filing Patterns in 2024."](https://evictionlab.org/ets-report-2024/) Princeton University.
 
 [^ho4-2]: Servicemembers Civil Relief Act, [50 U.S.C. §§ 3901--4043](https://uscode.house.gov/view.xhtml?path=/prelim@title50/chapter50&edition=prelim). U.S. Department of Justice, Servicemembers and Veterans Initiative, ["Financial and Housing Rights."](https://www.justice.gov/servicemembers/financial-and-housing-rights-0) Military OneSource, ["SCRA, The Servicemembers Civil Relief Act."](https://www.militaryonesource.mil/financial-legal/legal/servicemembers-civil-relief-act/) Rent-ceiling figure under 50 U.S.C. § 3951(a)(1)(A)(ii) from Department of Defense, ["Notice of Publication of Housing Price Inflation Adjustment,"](https://www.federalregister.gov/documents/2025/05/20/2025-08911/notice-of-publication-of-housing-price-inflation-adjustment) 90 Fed. Reg. 21473 (May 20, 2025), effective Jan. 1, 2025.
 
-<!-- RESEARCH NEEDED (HUMAN CONDITION): Sub-topics that deserve their own entries or deeper treatment:
-— HOA disputes and governance: changing bylaws, dissolving HOAs, common area responsibilities, board accountability
-— Property rights: tax assessments and appeals, right to roam, water rights, mineral rights, adverse possession
-— Accessibility and accommodations: ADA requirements, service animals vs. pet restrictions, modification rights for renters
-— Pets and housing: breed restrictions, assistance animal rights, local ordinances on exotic animals
-— Energy and sustainability: solar installation rights (renters and HOA), EV charging, utility choice
-— Environmental concerns: pollution reporting, water quality, Superfund sites — channel Erin Brockovich
-— Financial assistance: housing vouchers, emergency rental assistance, support for unhoused individuals
-— Historical districts: modification rules, forming a historic district, preservation incentives and constraints
-These overflow the scope of a single entry but each represents a real information asymmetry. -->
+[^ho4-3]: National Fair Housing Alliance. [_Fair Housing Trends Report._](https://nationalfairhousing.org/reports/) Published annually; disability consistently accounts for more than half of all fair housing complaints. HUD Office of Fair Housing and Equal Opportunity, ["Assistance Animals,"](https://www.hud.gov/program_offices/fair_housing_equal_opp/assistance_animals) including FHEO Notice 2020-01 on evaluating reasonable accommodation requests (January 2020). Fair Housing Act disability provisions: [42 U.S.C. § 3604(f)](https://www.law.cornell.edu/uscode/text/42/3604).
 
 ---
 
@@ -280,17 +314,30 @@ If you served on active duty --- or as a National Guard or Reserve member with q
 :::
 
 
+::: science
+The belief that "renting is throwing money away" is one of the most persistent and least examined financial assumptions in American culture. The actual math: in the first decade of a 30-year mortgage, roughly 60--70% of each payment goes to interest --- money paid to the bank rather than the landlord. Add property taxes (national median effective rate: 1.02% of home value annually), homeowners insurance, maintenance (budget 1--2% of home value per year), and transaction costs (5--6% of sale price when you sell), and the break-even horizon --- the time you must stay in the home for buying to outperform renting and investing the difference --- is typically five to seven years, and longer in high-cost markets.[^ho6-3] The New York Times Rent vs. Buy calculator, which accounts for local data, opportunity cost, and appreciation rates, is the best free tool for running the numbers. Ask your Agent to help you gather the inputs --- the answer is genuinely different for a 28-year-old in Austin than a 55-year-old in Cleveland, and neither answer is wrong.
+:::
+
+
+::: also
+If you or someone you know is experiencing homelessness or at immediate risk of losing housing: call **211** (24/7 in most areas) or visit [211.org](https://www.211.org/) for local shelters, transitional housing, and rapid rehousing programs. [HUD's Find Shelter tool](https://www.hud.gov/findshelter) searches by ZIP code. For domestic violence situations, the National Domestic Violence Hotline (**1-800-799-7233**) connects to emergency shelter. If you have school-age children, the McKinney-Vento Act requires public schools to enroll them immediately --- without records, proof of residency, or proof of guardianship --- and every district is required to have a McKinney-Vento liaison; ask for them by title. These resources are available regardless of immigration status.
+:::
+
+
+::: tip
+_"I'm a first-time homebuyer with household income of [amount] in [city, state]. Walk me through every step from where I am now to closing --- including what I need to save, what first-time buyer and down payment assistance programs exist in my state, and the mistakes that cost first-time buyers the most money."_ --- Down payment assistance programs exist in every state; many first-time buyers qualify and don't know it.
+:::
+
+
+::: tip
+_"I'm relocating from [city, state] to [city, state] by [date]. Walk me through the full cascade: finding housing, utilities, vehicle registration and driver's license, voter registration, finding a doctor and dentist, enrolling kids in school if applicable, and anything I'm not thinking of."_ --- A move involves roughly 40 administrative tasks across two jurisdictions. Your Agent can generate the complete checklist for your specific origin and destination states.
+:::
+
 [^ho6-1]: National Low Income Housing Coalition (2025). [_Out of Reach 2025: The High Cost of Housing._](https://nlihc.org/oor) Annual report comparing Housing Wage to prevailing wages by state, metro, and county.
 
 [^ho6-2]: U.S. Department of Veterans Affairs. ["VA-backed home loans."](https://www.va.gov/housing-assistance/home-loans/) Funding fee rates, exemptions, and IRRRL program details at VA.gov. Blue Water Navy Vietnam Veterans Act of 2019 ([Pub. L. 116--23](https://www.congress.gov/bill/116th-congress/house-bill/299)) eliminated the conforming loan limit for first-use borrowers with full entitlement.
 
-<!-- RESEARCH NEEDED (HUMAN CONDITION): Sub-topics that deserve deeper treatment:
-— First-time buyers: the full process from savings to closing, demystified
-— Refinancing: when it makes sense, when it doesn't, the break-even calculation
-— Renting vs. buying: the actual math, not the cultural pressure
-— Housing crisis resources: shelters, transitional housing, rapid rehousing programs, 211.org
-— Relocation: the cascade of decisions when you move to a new city
--->
+[^ho6-3]: The break-even calculation depends on mortgage rate, home appreciation, investment returns, property taxes, maintenance, and transaction costs; five to seven years is the typical range in moderate-cost markets at historical average rates. For a localized calculation: [New York Times, "Is It Better to Rent or Buy?"](https://www.nytimes.com/interactive/2024/upshot/buy-rent-calculator.html). For the academic framework: Beracha, E. & Johnson, K.H. (2012). ["Lessons from Over 30 Years of Buy versus Rent Decisions."](https://doi.org/10.1111/j.1540-6229.2012.00340.x) _Real Estate Economics_, 40(2), 217--247.
 
 ---
 
