@@ -573,10 +573,86 @@ Habit advice assumes discretionary time. If you are working two jobs or caregivi
 [^li12-1]: Lally, P. et al. (2010). [“How are habits formed: Modelling habit formation in the real world.”](https://doi.org/10.1002/ejsp.674) _European Journal of Social Psychology,_ 40(6), 998–1009.
 
 
+---
+
+#### Li-13: Using Your Public and Academic Library
+*Strategy:* Navigate + Research
+*See also:* WB-10: Doing Real Research with Your Agent (the matched companion — Agent surfaces the claim, library hands you the source), Li-10: Learn a Language (many libraries include Mango and Pimsleur for free), Li-9: Making a Household Budget That Holds (the library replaces several paid subscriptions), M-6: Financial Coach (libraries often host free tax prep and financial counseling)
+*My Man Jeeves:* _A peculiarity of the American civic landscape, one might venture to note, is that a considerable portion of the population pays a monthly fee for streaming services, audiobook subscriptions, and newspaper access while remaining entirely unaware that the building with the flag and the reading room provides most of it gratis. The public library is, in the plainest accounting, the single best deal available to the ordinary citizen — a tax-funded institution that lends books, audiobooks, films, museum passes, internet access, meeting rooms, and the professional assistance of a reference librarian whose job, one feels obliged to mention, is to answer the question one is reluctant to admit one has. The academic library, should one be within driving distance of a state university, is in many jurisdictions equally available — one simply needs to know to walk in. One's Agent can be of considerable assistance in discovering what one's particular library actually offers, which is, as a rule, rather more than one supposed._
+*The Spec:*
+::: prompt
+I want to use my local library more effectively — and any
+academic libraries I'm entitled to use.
+My situation:
+— My city/county: [location]
+— My library card situation: [I have one / I don't / I'm not sure
+   if it's still active / I don't know where to get one]
+— My alma mater, if any: [school] — and whether they offer
+   alumni library privileges
+— What I'm trying to do: [read more / research a topic /
+   learn a skill / access academic papers / save money on
+   streaming / find a quiet place to work / get help with
+   taxes or forms / help my kid with school]
+Please help me:
+1. Inventory what my specific library system offers — borrowing
+   (books, ebooks, audiobooks via Libby/OverDrive, films via
+   Kanopy/Hoopla), databases (JSTOR, Gale, ProQuest, Ancestry,
+   Consumer Reports), and services (tutoring, tax prep, passes,
+   meeting rooms, Wi-Fi hotspots, tool lending)
+2. Tell me which nearby academic libraries I can use as a
+   member of the public — many state universities grant
+   walk-in access, and some offer borrowing cards to residents
+3. Explain interlibrary loan (ILL) — what it is, how to request
+   a book my library doesn't own, and roughly how long it takes
+4. Tell me what I should ask a reference librarian that I've
+   been asking you — where their help beats mine, and where
+   it complements mine
+:::
+*What to do with the Output:* Walk in this week. Not someday — this week. Libraries are one of the few institutions where showing up and saying "I'm new, can you help me?" is the expected move, not the awkward one. Download Libby before you go and link it to your card at the desk; you'll leave with your entire ebook and audiobook backlog handled. If you had a library card once and let it lapse, the staff will reactivate it without comment or fee. Then pair this with your Agent: when your Agent gives you a citation in a research conversation (see WB-10), the library is how you read the actual paper, not the summary.
+
+::: science
+Public libraries serve over 1.2 billion in-person visits per year in the United States and circulate over 2 billion items — more than the combined attendance of every movie theater, concert, and sporting event in the country. Digital circulation alone (OverDrive / Libby) passed 660 million checkouts in 2023. The return on the median library tax — approximately $43 per person per year — is among the highest of any public expenditure, with benefit-cost ratios consistently estimated between 4:1 and 5:1 in municipal studies.[^li13-1]
+:::
+
+
+::: tip
+_"What's the single database or service my library offers that most cardholders never use?"_ — The answer is almost always something expensive (Consumer Reports, Morningstar, Ancestry, Rosetta Stone, The New York Times archive) that would otherwise cost hundreds of dollars a year. Ask specifically.
+:::
+
+
+::: also
+Most U.S. state university libraries admit the public to the physical collection under **state resident** or **community borrower** programs — Ohio's OhioLINK, California's state university system, the Big Ten Academic Alliance, and most SEC and ACC libraries all have a public pathway, typically a free or modest-fee borrower's card for residents of the state. [WorldCat](https://www.worldcat.org/) locates any book in any library in the world and is free to search. The [Library of Congress](https://www.loc.gov/) issues a free reader's card to anyone 16 or older with a photo ID. Your alma mater may grant alumni library privileges — often [JSTOR](https://www.jstor.org/) and database access included — even if you graduated decades ago. Ask.
+:::
+
+
+::: fairness
+The library is the rare American institution that does not ask what you can afford before deciding what you get. It does not means-test. It does not require a purchase. It does not track you across the internet and sell the data. For the reader without home internet, it is the internet. For the reader without a quiet room, it is the quiet room. For the reader whose child needs a printer to submit a school assignment, it is the printer. The defunding of public libraries is not a neutral policy choice — it is a transfer of services from the commons to the market, which is to say, from everyone to those who can afford to replace them. [Support your library](https://www.ala.org/advocacy/). Vote in the levy.
+:::
+
+
+::: meme
+The [Dewey Decimal System](https://en.wikipedia.org/wiki/Dewey%5FDecimal%5FClassification) is older than the electric lightbulb and still better at finding a specific book than any search engine. This is not nostalgia — it is topology. Classifying knowledge by subject, not by popularity, produces a different map than a ranked result list. The library is one of the last places where you find what you were not looking for because it was shelved next to what you were. Your Agent can tell you what you asked. The shelf next to the answer tells you what you should have asked.
+:::
+
+
+<!-- RESEARCH NEEDED: Verify IMLS (Institute of Museum and Library Services) Public Libraries Survey most recent figures on visits, circulation, and per-capita funding. The 1.2B visits and 2B items figures need current-year confirmation. OverDrive/Libby circulation numbers from OverDrive's annual report. Benefit-cost studies vary by methodology — cite at least one specific study (e.g., Florida State University's 2010 Taxpayer Return on Investment study, or more recent state-level work). -->
+
+<!-- RESEARCH NEEDED: Academic library public access — verify current state of walk-in privileges and community borrower programs. Policies vary significantly and change. Specifically confirm: state school residency policies (California, Ohio, New York, Texas), Big Ten Academic Alliance reciprocal borrowing, Library of Congress reader card requirements and process. Alumni library access varies by institution — some provide full remote database access (rare), many provide on-site privileges, some charge for it. -->
+
+<!-- RESEARCH NEEDED (HUMAN CONDITION): Library anxiety is a documented phenomenon (Mellon, 1986, "Library Anxiety: A Grounded Theory and Its Development"). Many adults feel inadequate walking into a library — the sense of not knowing where to go, whom to ask, or whether they're "allowed." This anxiety correlates with socioeconomic status, first-generation college status, and language background. The entry should normalize the experience — librarians are trained to help people who feel lost, because that's most of their job — without being condescending about it. -->
+
+<!-- RESEARCH NEEDED (HUMAN CONDITION): The generational information gap about libraries. Millennials and Gen Z often conceive of libraries as obsolete because they came of age alongside search engines and assume the library's function has been absorbed. The reverse is true in most communities: libraries have expanded into technology lending, maker spaces, passport services, social services referral, and programming for new arrivals. The reader under 40 who last had a library card in high school may have missed two decades of functional expansion. -->
+
+<!-- RESEARCH NEEDED: Veterans integration — VA offers DoD MWR library access, Military OneSource digital library (audiobooks, ebooks, databases free to active duty, Guard, Reserve, and eligible family), and many state library systems have dedicated veterans resource programs. State veterans affairs offices often partner with library systems on benefits navigation — worth naming for the reader whose service status changes the answer. -->
+
+[^li13-1]: Institute of Museum and Library Services (IMLS), [_Public Libraries Survey._](https://www.imls.gov/research-evaluation/data-collection/public-libraries-survey) Annual. See also OverDrive's annual circulation reports and American Library Association (ALA) state-level return-on-investment studies.
+
+---
+
 <!-- BRAINSTORM: Future Life entries
-— Li-13: Wedding Planning — massive information asymmetry, massive emotional stakes, massive industry. Venue contracts, vendor negotiations, the pressure gap between what the industry says you need and what actually matters.
-— Li-14: Grief and Loss — the emotional counterpart to Li-2 (Eulogy) and H-7 (End-of-Life). Navigating grief when the system has no protocol for it. Not therapy — practical support.
-— Li-15: Choosing Childcare — cost, quality signals, waitlists. The information asymmetry between what parents can observe and what determines quality.
-— Li-16: Moving — logistics, costs, lease-breaking, address changes, the cascade of bureaucratic updates. The most common life disruption nobody teaches you to manage.
-— Li-17: New Parent Basics — the gap between "the hospital sent you home with a baby" and "you know what you're doing." Not medical — practical.
+— Li-14: Wedding Planning — massive information asymmetry, massive emotional stakes, massive industry. Venue contracts, vendor negotiations, the pressure gap between what the industry says you need and what actually matters.
+— Li-15: Grief and Loss — the emotional counterpart to Li-2 (Eulogy) and H-7 (End-of-Life). Navigating grief when the system has no protocol for it. Not therapy — practical support.
+— Li-16: Choosing Childcare — cost, quality signals, waitlists. The information asymmetry between what parents can observe and what determines quality.
+— Li-17: Moving — logistics, costs, lease-breaking, address changes, the cascade of bureaucratic updates. The most common life disruption nobody teaches you to manage.
+— Li-18: New Parent Basics — the gap between "the hospital sent you home with a baby" and "you know what you're doing." Not medical — practical.
 -->
