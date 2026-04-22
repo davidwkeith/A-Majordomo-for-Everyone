@@ -18,7 +18,7 @@ import {
 } from '../pipeline.js';
 import { BOOK_META } from '../types.js';
 
-const OUTPUT_PATH = join(ROOT, 'dist', 'a-majordomo-for-everyone.pdf');
+const OUTPUT_PATH = join(ROOT, 'dist', 'majordomo.pdf');
 
 function escapeHtml(str: string): string {
   return str

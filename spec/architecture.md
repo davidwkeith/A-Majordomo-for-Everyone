@@ -91,4 +91,4 @@ PART THREE: THE GENERAL METHOD
 
 **The central meme:**
 
-> *A Majordomo for Everyone has this to say about dealing with large institutions: always know where your specification is.*
+> *Majordomo has this to say about dealing with large institutions: always know where your specification is.*

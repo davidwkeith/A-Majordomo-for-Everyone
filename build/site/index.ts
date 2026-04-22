@@ -89,8 +89,8 @@ async function buildSite(): Promise<void> {
 
   // Copy epub and pdf if they exist (built by earlier steps in build:all)
   for (const file of [
-    'a-majordomo-for-everyone.epub',
-    'a-majordomo-for-everyone.pdf',
+    'majordomo.epub',
+    'majordomo.pdf',
   ]) {
     const src = join(ROOT, 'dist', file);
     try {

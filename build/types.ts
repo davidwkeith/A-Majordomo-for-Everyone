@@ -40,8 +40,8 @@ export interface BookMeta {
 }
 
 export const BOOK_META: BookMeta = {
-  title: 'A Majordomo for Everyone',
-  subtitle: 'Managing Your Personal Staff of AI Agents',
+  title: 'Majordomo',
+  subtitle: 'Billionaires have staff, now you do too.',
   language: 'en-US',
   creator: 'David W. Keith',
   publisher: 'David W. Keith',
