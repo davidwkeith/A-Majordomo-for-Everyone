@@ -5,15 +5,20 @@ import matter from 'gray-matter';
 import { parse, renderHTML, applyFilter } from '@djot/djot';
 import { calloutFilter } from './filters/callouts.js';
 import { discoverBriefs } from './filters/art-briefs.js';
-import type { ArtBrief, ArtBriefContext, XmpData } from './filters/art-briefs.js';
+import type { ArtBrief, ArtBriefContext } from './filters/art-briefs.js';
 import { conversationFilter } from './filters/conversations.js';
 import { EndnoteState, epubOverrides, renderNotesSection } from './filters/endnotes.js';
 import type { ChapterMeta, ProcessedChapter } from './types.js';
+import { BOOK_META } from './types.js';
+import { embedXmp, readXmp, xmpMatches } from './xmp.js';
+import type { XmpFields } from './xmp.js';
 
 export const ROOT = resolve(import.meta.dirname, '..', '..');
 export const CONTENT_DIR = join(ROOT, 'src', 'content');
 export const STYLES_DIR = join(ROOT, 'src', 'styles');
 export const IMAGES_DIR = join(ROOT, 'src', 'images');
+/** Briefs for images sourced outside chapter content (callout icons, etc.). */
+export const ILLUSTRATION_SPEC_DIR = join(ROOT, 'spec', 'illustration');
 export const STYLE_GUIDE = join(
   ROOT,
   'spec',
@@ -24,62 +29,76 @@ export const STYLE_GUIDE = join(
 export { discoverBriefs };
 export type { ArtBrief };
 
-/** Extract XMP metadata fields from an image using Sharp. */
-async function readXmp(imagePath: string): Promise<XmpData> {
-  const result: XmpData = {};
-  try {
-    const meta = await sharp(imagePath).metadata();
-    if (!meta.xmp) return result;
-
-    const xmpStr = meta.xmp.toString('utf-8');
-
-    const altMatch = xmpStr.match(
-      /Iptc4xmpCore:AltTextAccessibility[^>]*>([^<]+)</
-    );
-    if (altMatch) result.altText = altMatch[1].trim();
-
-    const descMatch = xmpStr.match(
-      /dc:description[\s\S]*?<rdf:li[^>]*>([^<]+)<\/rdf:li>/
-    );
-    if (descMatch) result.description = descMatch[1].trim();
-
-    const rightsMatch = xmpStr.match(
-      /dc:rights[\s\S]*?<rdf:li[^>]*>([^<]+)<\/rdf:li>/
-    );
-    if (rightsMatch) result.rights = rightsMatch[1].trim();
-  } catch {
-    // Image unreadable or no XMP — fall back to brief fields
-  }
-  return result;
+/** Resolve the XMP fields for a brief, applying the book-level default rights. */
+export function xmpFieldsFor(brief: ArtBrief): XmpFields {
+  return {
+    alt: brief.alt,
+    description: brief.brief,
+    rights: brief.rights || BOOK_META.rights,
+  };
 }
 
 /**
- * Pre-read XMP data and check image existence for all briefs.
- * Must be called once before processing chapters, since Djot filters
- * are synchronous and cannot do async I/O.
+ * Scan every brief's image in one pass: check existence, compare its XMP
+ * to the sidecar, embed when stale, and build the render cache.
+ *
+ * Combines what used to be two separate passes (sync + prepare) so each
+ * image is stat'd and XMP-read at most once per build. Returns both the
+ * render context and the count of images whose XMP was refreshed.
+ *
+ * The brief is the source of truth: this step makes the PNG
+ * self-describing (alt text and license travel with the file) without
+ * requiring contributors to remember a separate `embed-xmp` step.
  */
 export async function prepareArtContext(
   briefs: Map<string, ArtBrief>,
   imagesDir: string
 ): Promise<ArtBriefContext> {
-  const xmpCache = new Map<string, XmpData>();
+  const xmpCache = new Map<string, Awaited<ReturnType<typeof readXmp>>>();
   const existingImages = new Set<string>();
+  let embeddedCount = 0;
 
   await Promise.all(
     [...briefs.values()].map(async (brief) => {
       const imagePath = join(imagesDir, `${brief.stem}.${brief.format}`);
       try {
         await stat(imagePath);
-        existingImages.add(brief.stem);
-        const xmp = await readXmp(imagePath);
-        xmpCache.set(brief.stem, xmp);
       } catch {
-        // Image does not exist
+        return; // image not generated yet
+      }
+      existingImages.add(brief.stem);
+
+      const current = await readXmp(imagePath);
+      const fields = xmpFieldsFor(brief);
+
+      if (fields.alt && !xmpMatches(current, fields)) {
+        await embedXmp(imagePath, fields);
+        embeddedCount++;
+        // Skip a second readXmp — we just wrote these exact values.
+        xmpCache.set(brief.stem, {
+          altText: fields.alt,
+          description: fields.description,
+          rights: fields.rights,
+        });
+      } else {
+        xmpCache.set(brief.stem, current);
       }
     })
   );
 
-  return { imagesDir, briefs, xmpCache, existingImages };
+  return { imagesDir, briefs, xmpCache, existingImages, embeddedCount };
+}
+
+/**
+ * Sync-only wrapper around `prepareArtContext` — kept for the CLI and
+ * tests that care only about the embed count, not the render cache.
+ */
+export async function syncArtBriefXmp(
+  briefs: Map<string, ArtBrief>,
+  imagesDir: string
+): Promise<number> {
+  const ctx = await prepareArtContext(briefs, imagesDir);
+  return ctx.embeddedCount;
 }
 
 /**
@@ -230,14 +249,26 @@ export async function optimizeImages(
     } else {
       const img = sharp(srcPath);
       const meta = await img.metadata();
-      let pipeline = img;
+      // Preserve XMP through re-encoding so the alt text and license
+      // travel with the image inside the ePub (sharp strips metadata
+      // by default).
+      let pipeline = img.keepXmp();
 
       if (meta.width && meta.width > maxWidth) {
         pipeline = pipeline.resize(maxWidth);
       }
 
       if (ext === '.png') {
-        pipeline = pipeline.png({ compressionLevel: 9 });
+        // Palette mode quantizes to ≤256 colors (pngquant internally).
+        // The notebook-paper + pencil + limited ballpoint palette of
+        // this book's illustrations compresses ~3–5× smaller than 24-bit
+        // PNG with near-invisible loss. `quality` controls the quantizer,
+        // not DCT, so edges stay crisp.
+        pipeline = pipeline.png({
+          palette: true,
+          quality: 80,
+          compressionLevel: 9,
+        });
       } else if (ext === '.jpg' || ext === '.jpeg') {
         pipeline = pipeline.jpeg({ quality: 85 });
       } else if (ext === '.webp') {
