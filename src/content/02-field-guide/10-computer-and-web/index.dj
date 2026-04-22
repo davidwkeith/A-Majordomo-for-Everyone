@@ -639,6 +639,11 @@ Several tools now offer a *deep research* mode that runs longer, browses the web
 :::
 
 
+::: also
+A different category of research tool: **source-grounded notebooks**. Rather than searching the web, you upload the documents yourself — PDFs, web pages, Google Docs, YouTube transcripts, audio — and the tool answers questions only from what you provided, with line-level citations and, crucially, no general-knowledge hallucination. Google's [NotebookLM](https://notebooklm.google.com/) is purpose-built for this: free, generous source limits, automatic study guides and FAQs, and audio overviews that read like a podcast between two hosts. This is the natural next step once Li-13 has handed you the actual papers — the tool that synthesizes across a corpus you have already gathered, without inventing anything that is not in it. For a literature review, a case file, a set of medical records, or a research project built on a specific stack of sources, a grounded notebook beats both a chat turn and a deep-research run.
+:::
+
+
 ::: meme
 [Wikipedia](https://en.wikipedia.org/wiki/Wikipedia) was, when it launched, treated by professors the way professors are now treating AI: forbidden in citations, dismissed as unreliable, regarded as the end of serious scholarship. A generation later, Wikipedia is the most-consulted reference work in human history, its citation graph is a primary tool of academic researchers, and the professors who once banned it use it to look things up before class. The pattern repeats. The right relationship is not abstinence and not credulity. It is the same relationship one has with any encyclopedia: a starting point, never an ending one. Follow the footnotes.
 :::
