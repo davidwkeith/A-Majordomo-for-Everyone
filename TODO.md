@@ -6,25 +6,25 @@ Last reviewed: 2026-04-22 against spec/ directory and codebase.
 
 ## Recommended Next Steps
 
-1. **Continue resolving RESEARCH NEEDED items** — All 12 domains complete. Only 3 Veterans-integration markers remain (Health: H-4, H-12, H-13). The domain-by-domain triage order in "Pending" below is still the right sequence.
+1. **Resolve remaining RESEARCH NEEDED items** — 12 comments remain across 3 domains (Life: 6, Health: 3, Computer & Web: 3), down from 232. Life and Computer & Web comments are from new Skills (Li-13, WB-10) added after the triage pass; Health comments are Veterans-integration markers.
 
-2. **Generate missing illustrations** — 25 art briefs have no corresponding images. Field Guide Skills are the biggest gap (annotated documents, diagrams, icons). Run `npm run build -- --generate` to invoke image generation for missing art, then embed XMP metadata with `npx tsx build/embed-xmp.ts`.
+2. **Generate missing illustrations** — 24 art briefs have no corresponding images. Field Guide Skills are the biggest gap (annotated documents, diagrams, icons). Run `npm run build -- --generate` to invoke image generation for missing art, then embed XMP metadata with `npx tsx build/embed-xmp.ts`.
 
 3. **Apple Books highlights sync** (issue #23) — tooling task, independent of editorial work. Can be picked up as a change-of-pace from content triage.
 
-4. **Full editorial consistency pass** — all 47 chapters are in "draft" status. Before 1.0, the manuscript needs a cover-to-cover pass for voice consistency, cross-reference accuracy, and callout density. This should happen after the RESEARCH NEEDED triage is substantially complete.
+4. **Full editorial consistency pass** — all chapters are in "draft" status. Before 1.0, the manuscript needs a cover-to-cover pass for voice consistency, cross-reference accuracy, and callout density. The RESEARCH NEEDED triage is substantially complete.
 
 ---
 
 ## Editorial Notes
 
-3 `<!-- RESEARCH NEEDED: ... -->` comments remain across Part 2 (down from 134 + 98 = 232 at last count). All three are `Veterans integration ---` markers in Health (H-4, H-12, H-13). These are author memos for surfacing VA-specific benefits. They do not appear in the built ePub and do not correspond to unverified claims in the text.
+12 `<!-- RESEARCH NEEDED: ... -->` comments remain across Part 2 (down from 232 at last count): 8 standard and 4 HUMAN CONDITION. Of the 8 standard, 3 are Veterans-integration markers in Health and 5 are from new Skills added after the triage pass (Li-13, WB-10). These are author memos. They do not appear in the built ePub and do not correspond to unverified claims in the text.
 
 There is also 1 `<!-- EDITORIAL: ... -->` comment (Chores, Ch-5 expansion note) and 3 `<!-- BRAINSTORM: ... -->` comments (Civic, Life, Computer & Web).
 
 | Domain | RESEARCH NEEDED | HUMAN CONDITION | Total |
 |--------|-----------------|-----------------|-------|
-| Life | 0 | 0 | 0 |
+| Life | 4 | 2 | 6 |
 | Transportation | 0 | 0 | 0 |
 | IRL | 0 | 0 | 0 |
 | Chores | 0 | 0 | 0 |
@@ -35,10 +35,10 @@ There is also 1 `<!-- EDITORIAL: ... -->` comment (Chores, Ch-5 expansion note) 
 | Legal | 0 | 0 | 0 |
 | Civic | 0 | 0 | 0 |
 | Work | 0 | 0 | 0 |
-| Computer & Web | 0 | 0 | 0 |
-| **Total** | **3** | **0** | **3** |
+| Computer & Web | 1 | 2 | 3 |
+| **Total** | **8** | **4** | **12** |
 
-Health resolved 2026-04-20. Home resolved 2026-04-21 (HUMAN CONDITION memos in Ho-4 and Ho-6 surfaced into callouts). Work resolved 2026-04-21 (20 RN + 14 HC surfaced into callouts, footnotes, and reordered entries). Money resolved 2026-04-21 (19 RN + 12 HC surfaced into callouts, footnotes, and prose). Legal resolved 2026-04-21 (16 RN + 2 HC). Civic resolved 2026-04-21 (15 RN + 12 HC; entries reordered by impact). Creative resolved 2026-04-22 (7 RN + 8 HC; fixed Chamberlain citation misattribution, corrected Balbag statistic from 36% to 64%, added BandLab ALSO callout, surfaced HC insights into prose). Chores resolved 2026-04-22 (12 RN + 5 HC + 5 EDITORIAL + 2 bare HC; fixed phantom Ch-7 citation, updated FTC click-to-cancel rule status after 8th Circuit vacatur, corrected Ch-10 footnote, surfaced mental-load/first-gen-homeowner/end-of-life insights, converted Ch-5 draft notes to EDITORIAL). IRL resolved 2026-04-22 (9 RN + 11 HC; fixed broken IRL-6 citation, corrected Sackett et al. volume/pages, added DOIs to Galinsky and Pham footnotes, surfaced CFPB escalation and Wrightslaw resources as callouts, added IRL-7 gendered pricing fairness callout). Transportation resolved 2026-04-22 (17 RN + 7 HC; surfaced veterans integration as ALSO callout, added seat pitch data to Tr-4 fairness, added Tr-5 class-coded fairness callout, surfaced Global Entry comparison as tip, surfaced wheelchair damage stats and self-advocacy exhaustion in Tr-9). Life resolved 2026-04-22 (16 RN + 25 HC; surfaced caregiver statistics and care costs as science callout in Li-4, surfaced veterans military honors and caregiver programs as ALSO callouts, added crisis resources to Li-8, softened Baumrind cross-cultural claim in Li-7, surfaced Gen Z fraud data in Li-3 fairness, added solo dining tip in Li-6, added parental guilt sentence in Li-7). The remaining Health memos are the three Veterans-integration markers for H-4, H-12, and H-13.
+Health resolved 2026-04-20. Home resolved 2026-04-21 (HUMAN CONDITION memos in Ho-4 and Ho-6 surfaced into callouts). Work resolved 2026-04-21 (20 RN + 14 HC surfaced into callouts, footnotes, and reordered entries). Money resolved 2026-04-21 (19 RN + 12 HC surfaced into callouts, footnotes, and prose). Legal resolved 2026-04-21 (16 RN + 2 HC). Civic resolved 2026-04-21 (15 RN + 12 HC; entries reordered by impact). Creative resolved 2026-04-22 (7 RN + 8 HC; fixed Chamberlain citation misattribution, corrected Balbag statistic from 36% to 64%, added BandLab ALSO callout, surfaced HC insights into prose). Chores resolved 2026-04-22 (12 RN + 5 HC + 5 EDITORIAL + 2 bare HC; fixed phantom Ch-7 citation, updated FTC click-to-cancel rule status after 8th Circuit vacatur, corrected Ch-10 footnote, surfaced mental-load/first-gen-homeowner/end-of-life insights, converted Ch-5 draft notes to EDITORIAL). IRL resolved 2026-04-22 (9 RN + 11 HC; fixed broken IRL-6 citation, corrected Sackett et al. volume/pages, added DOIs to Galinsky and Pham footnotes, surfaced CFPB escalation and Wrightslaw resources as callouts, added IRL-7 gendered pricing fairness callout). Transportation resolved 2026-04-22 (17 RN + 7 HC; surfaced veterans integration as ALSO callout, added seat pitch data to Tr-4 fairness, added Tr-5 class-coded fairness callout, surfaced Global Entry comparison as tip, surfaced wheelchair damage stats and self-advocacy exhaustion in Tr-9). Life resolved 2026-04-22 (16 RN + 25 HC; surfaced caregiver statistics and care costs as science callout in Li-4, surfaced veterans military honors and caregiver programs as ALSO callouts, added crisis resources to Li-8, softened Baumrind cross-cultural claim in Li-7, surfaced Gen Z fraud data in Li-3 fairness, added solo dining tip in Li-6, added parental guilt sentence in Li-7). The remaining Health memos are the three Veterans-integration markers for H-4, H-12, and H-13. New Skills Li-13 (Using Your Public and Academic Library) and WB-10 (Doing Real Research with Your Agent) were added after the triage pass and carry their own RESEARCH NEEDED comments (6 and 3 respectively).
 
 ---
 
@@ -69,8 +69,8 @@ Systematic issues (em dashes, number formatting, footnote IDs) fixed. The follow
 
 ## Pre-Publication Checklist
 
-- [ ] Editorial notes reviewed --- 3 `RESEARCH NEEDED` comments remain (all Veterans-integration markers in Health: H-4, H-12, H-13)
-- [ ] All art briefs have corresponding images in `src/images/` (25 of 45 missing)
+- [ ] Editorial notes reviewed --- 12 `RESEARCH NEEDED` comments remain (3 Veterans-integration in Health, 6 from Li-13, 3 from WB-10)
+- [ ] All art briefs have corresponding images in `src/images/` (24 of 44 missing)
 - [ ] XMP metadata embedded in all images
 - [ ] Version bumped and tagged
 - [ ] `npm run build` produces clean ePub
@@ -94,5 +94,5 @@ Carried from the former BRAINSTORM comment in `src/content/02-field-guide/01-hea
 
 ## Pending
 
-- [x] Editorial notes triage --- all 12 domains complete. 3 Veterans-integration markers remain in Health (H-4, H-12, H-13).
+- [x] Editorial notes triage --- all 12 original domains complete (232 → 3). New Skills Li-13 and WB-10 added post-triage with 9 new comments.
 - [ ] Kidlin's Law ("If you can write the problem down clearly, you're halfway to solving it") --- it's essentially the premise of Strategy 0 and Chapter 4. Decide whether to surface it. Current spec blocks dropping it in as a Strategy 0 epigraph two ways: `spec/editorial/editorial-conventions.md:11` reserves the strategy-chapter epigraph slot for the TRINITRON block, and the same rule bans motivational quotes. Options: (1) add it as a pull-quote between the italic subtitle and the `---` rule, keeping TRINITRON as the epigraph; (2) replace the Seinfeld TRINITRON; (3) amend the spec to allow a second short epigraph on strategy chapters and carve out an aphorism exception. Provenance is also uncertain --- no reliable primary source.
