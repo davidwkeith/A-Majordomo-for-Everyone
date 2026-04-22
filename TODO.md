@@ -1,12 +1,24 @@
 # TODO — Majordomo
 
-Last reviewed: 2026-04-21 against spec/ directory and codebase.
+Last reviewed: 2026-04-22 against spec/ directory and codebase.
+
+---
+
+## Recommended Next Steps
+
+1. **Continue resolving RESEARCH NEEDED items** — 8 domains remain, down from 12. The smallest domains (Creative, Chores) are the fastest wins. The domain-by-domain triage order in "Pending" below is still the right sequence.
+
+2. **Generate missing illustrations** — 25 art briefs have no corresponding images. Field Guide entries are the biggest gap (annotated documents, diagrams, icons). Run `npm run build -- --generate` to invoke image generation for missing art, then embed XMP metadata with `npx tsx build/embed-xmp.ts`.
+
+3. **Apple Books highlights sync** (issue #23) — tooling task, independent of editorial work. Can be picked up as a change-of-pace from content triage.
+
+4. **Full editorial consistency pass** — all 47 chapters are in "draft" status. Before 1.0, the manuscript needs a cover-to-cover pass for voice consistency, cross-reference accuracy, and callout density. This should happen after the RESEARCH NEEDED triage is substantially complete.
 
 ---
 
 ## Editorial Notes
 
-134 `<!-- RESEARCH NEEDED: ... -->` and 98 `<!-- RESEARCH NEEDED (HUMAN CONDITION): ... -->` comments remain across Part 2. Of the 134 standard RESEARCH NEEDED, 16 carry the `Veterans integration ---` prefix per the convention in `spec/editorial/editorial-conventions.md`. These are author memos: background research directions, sociological context, and expansion ideas. They do not appear in the built ePub and do not correspond to unverified claims in the text. They should be reviewed before publication to decide what gets surfaced, expanded, or removed.
+84 `<!-- RESEARCH NEEDED: ... -->` and 70 `<!-- RESEARCH NEEDED (HUMAN CONDITION): ... -->` comments remain across Part 2 (down from 134 + 98 = 232 at last count). Of the 84 standard RESEARCH NEEDED, the Health entries are the 3 `Veterans integration ---` markers. These are author memos: background research directions, sociological context, and expansion ideas. They do not appear in the built ePub and do not correspond to unverified claims in the text. They should be reviewed before publication to decide what gets surfaced, expanded, or removed.
 
 There are also 5 `<!-- EDITORIAL: ... -->` comments (Chores) and 3 `<!-- BRAINSTORM: ... -->` comments (Civic, Life, Computer & Web).
 
@@ -14,21 +26,19 @@ There are also 5 `<!-- EDITORIAL: ... -->` comments (Chores) and 3 `<!-- BRAINST
 |--------|-----------------|-----------------|-------|
 | Life | 16 | 25 | 41 |
 | Work | 20 | 14 | 34 |
-| Money | 19 | 12 | 31 |
-| Civic | 15 | 12 | 27 |
 | Transportation | 17 | 7 | 24 |
 | IRL | 9 | 11 | 20 |
-| Legal | 16 | 2 | 18 |
 | Chores | 12 | 5 | 17 |
 | Creative | 7 | 8 | 15 |
 | Health | 3 | 0 | 3 |
-| Home | 0 | 2 | 2 |
+| Money | 0 | 0 | 0 |
+| Legal | 0 | 0 | 0 |
+| Civic | 0 | 0 | 0 |
+| Home | 0 | 0 | 0 |
 | Computer & Web | 0 | 0 | 0 |
-| **Total** | **134** | **98** | **232** |
+| **Total** | **84** | **70** | **154** |
 
-Health resolved in the 2026-04-20 session: all 10 original memos surfaced into prose, callouts, or a restructured TIP (H-5 Charmaz paragraph + spoon theory MEME + community prompt; H-6 retirement-savings / long-term-care FAIRNESS + Medicare Advantage SCIENCE + SHIP ALSO; H-7 consolidated FAIRNESS on cultural variation and disparities + SCIENCE on ambiguous loss + extended TIP for sibling dynamics + VA burial/honors ALSO). H-17 and H-19 merged; H-13 and H-18 merged; H-3 absorbed the H-24 brainstorm on negotiation. H-22 Mental Health First Aid drafted 2026-04-21. The remaining Health memos are the three Veterans-integration markers for H-4, H-12, and H-13.
-
-Home resolved in the 2026-04-21 session: 14 of 16 original memos surfaced into cited callouts and footnotes. Ho-4 expanded the eviction FAIRNESS with Eviction Lab 2024 data + a new SCRA ALSO callout (50 U.S.C. §§ 3901--4043). Ho-6 added a SCIENCE on NLIHC _Out of Reach 2025_ and an ALSO on VA home loans (funding fee, IRRRL, Blue Water Navy Act). Ho-8 updated the FEMA footnote to the 2024 National Household Survey and added a FAIRNESS citing Klinenberg's _Heat Wave_ and Bullard & Wright on Katrina. Ho-9 added a hoarding-disorder FAIRNESS with DSM-5 prevalence (2.5%) and referral to the IOCDF directory. Ho-10 swapped the unverified $56B industry figure for the IBISWorld $38.6B citation, updated the NFPA footnote to the 2024 report (ownership and testing rates), added a balanced SCIENCE on CCTV deterrent research (Welsh & Farrington; Piza et al.), and extended the DV FAIRNESS with The Hotline's technology-facilitated-abuse resource. The remaining two Home memos are HUMAN CONDITION planning lists in Ho-4 and Ho-6 that sketch future standalone entries.
+Health resolved 2026-04-20. Home resolved 2026-04-21. Money resolved 2026-04-21 (19 RN + 12 HC surfaced into callouts, footnotes, and prose). Legal resolved 2026-04-21 (16 RN + 2 HC). Civic resolved 2026-04-21 (15 RN + 12 HC; entries reordered by impact). The remaining Health memos are the three Veterans-integration markers for H-4, H-12, and H-13.
 
 ---
 
@@ -59,8 +69,8 @@ Systematic issues (em dashes, number formatting, footnote IDs) fixed. The follow
 
 ## Pre-Publication Checklist
 
-- [ ] Editorial notes reviewed --- 232 `RESEARCH NEEDED` comments (98 `HUMAN CONDITION`, 16 `Veterans integration`) to surface or remove
-- [ ] All art briefs have corresponding images in `src/images/` (24 of 44 missing)
+- [ ] Editorial notes reviewed --- 154 `RESEARCH NEEDED` comments remain (70 `HUMAN CONDITION`, 3 `Veterans integration`) to surface or remove
+- [ ] All art briefs have corresponding images in `src/images/` (25 of 45 missing)
 - [ ] XMP metadata embedded in all images
 - [ ] Version bumped and tagged
 - [ ] `npm run build` produces clean ePub
@@ -84,14 +94,11 @@ Carried from the former BRAINSTORM comment in `src/content/02-field-guide/01-hea
 
 ## Pending
 
-- [ ] Editorial notes triage --- domain-by-domain, smallest first (Health and Home substantially complete; Computer & Web has no memos):
+- [ ] Editorial notes triage --- domain-by-domain, smallest first (Health, Home, Money, Legal, Civic, and Computer & Web complete):
   1. Creative (15)
-  2. Chores (17)
-  3. Legal (18)
-  4. IRL (20)
-  5. Transportation (24)
-  6. Civic (27)
-  7. Money (31)
-  8. Work (34)
-  9. Life (41)
+  2. Chores (17 + 5 EDITORIAL)
+  3. IRL (20)
+  4. Transportation (24)
+  5. Work (34)
+  6. Life (41 + 1 BRAINSTORM)
 - [ ] Kidlin's Law ("If you can write the problem down clearly, you're halfway to solving it") --- it's essentially the premise of Strategy 0 and Chapter 4. Decide whether to surface it. Current spec blocks dropping it in as a Strategy 0 epigraph two ways: `spec/editorial/editorial-conventions.md:11` reserves the strategy-chapter epigraph slot for the TRINITRON block, and the same rule bans motivational quotes. Options: (1) add it as a pull-quote between the italic subtitle and the `---` rule, keeping TRINITRON as the epigraph; (2) replace the Seinfeld TRINITRON; (3) amend the spec to allow a second short epigraph on strategy chapters and carve out an aphorism exception. Provenance is also uncertain --- no reliable primary source.
