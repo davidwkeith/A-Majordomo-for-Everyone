@@ -1,6 +1,6 @@
-# A Majordomo for Everyone
+# Majordomo
 
-*Managing Your Personal Staff of AI Agents*
+*Billionaires have staff, now you do too.*
 
 The billionaire class has always had a staff attorney, a bookkeeper, a chief of staff. The word for that person, in the old houses, was *majordomo* — the one who runs the household, reads the contracts, knows which bill to dispute and which to pay.
 
@@ -17,7 +17,7 @@ npm run build:check  # type-check only
 npm test             # vitest
 ```
 
-The output is `dist/a-majordomo-for-everyone.epub`.
+The output is `dist/majordomo.epub`.
 
 ## Illustrations
 

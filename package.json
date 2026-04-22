@@ -1,7 +1,7 @@
 {
-  "name": "a-majordomo-for-everyone",
-  "version": "0.2.0",
-  "description": "ePub and website build pipeline for A Majordomo for Everyone",
+  "name": "majordomo",
+  "version": "0.3.0",
+  "description": "ePub and website build pipeline for Majordomo",
   "type": "module",
   "private": true,
   "engines": {

@@ -19,7 +19,7 @@ import { assembleEpub } from './epub/assemble.js';
 import { generateMissingArt } from './generate-art.js';
 import { BOOK_META } from './types.js';
 
-const OUTPUT_PATH = join(ROOT, 'dist', 'a-majordomo-for-everyone.epub');
+const OUTPUT_PATH = join(ROOT, 'dist', 'majordomo.epub');
 
 function imageExistsSync(imagesDir: string, brief: ArtBrief): boolean {
   try {

@@ -1,4 +1,4 @@
-# TODO — A Majordomo for Everyone
+# TODO — Majordomo
 
 Last reviewed: 2026-04-21 against spec/ directory and codebase.
 

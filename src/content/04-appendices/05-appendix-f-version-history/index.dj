@@ -8,7 +8,7 @@ status: "draft"
 
 ## Appendix F: Version History
 
-This book is a living document. Each version is numbered and dated. The full changelog is maintained at *[a-majordomo-for-everyone.dwk.io/versions](https://a-majordomo-for-everyone.dwk.io/versions)*.
+This book is a living document. Each version is numbered and dated. The full changelog is maintained at *[majordomo.dwk.io/versions](https://majordomo.dwk.io/versions)*.
 
 ::: prompt
 v0.1  -- Initial outline and chapter scaffolding
@@ -88,6 +88,14 @@ v1.7  -- Obsession zone system added to Illustration Spec.
            compliance plate, Sony logo, screen corners.
          Each zone chosen for structural resonance with its chapter's episode
            and strategy. Never labeled. Always present.
+v1.8  -- Retitled. New title: Majordomo.
+         New subtitle: Billionaires have staff, now you do too.
+         Prior title (A Majordomo for Everyone) and subtitle
+           (Managing Your Personal Staff of AI Agents) retired.
+         Package slug, ePub/PDF filenames, and companion domain
+           updated from a-majordomo-for-everyone to majordomo.
+         In-world self-reference quote shortened to match new title.
+         Cover typography spec updated; cover art queued for regeneration.
 :::
 
 _If you are reading a version later than the one listed here, someone improved it. That is correct._
