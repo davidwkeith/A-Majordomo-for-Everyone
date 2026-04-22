@@ -8,7 +8,7 @@ Last reviewed: 2026-04-22 against spec/ directory and codebase.
 
 1. **Continue resolving RESEARCH NEEDED items** — All 12 domains complete. Only 3 Veterans-integration markers remain (Health: H-4, H-12, H-13). The domain-by-domain triage order in "Pending" below is still the right sequence.
 
-2. **Generate missing illustrations** — 25 art briefs have no corresponding images. Field Guide entries are the biggest gap (annotated documents, diagrams, icons). Run `npm run build -- --generate` to invoke image generation for missing art, then embed XMP metadata with `npx tsx build/embed-xmp.ts`.
+2. **Generate missing illustrations** — 25 art briefs have no corresponding images. Field Guide Skills are the biggest gap (annotated documents, diagrams, icons). Run `npm run build -- --generate` to invoke image generation for missing art, then embed XMP metadata with `npx tsx build/embed-xmp.ts`.
 
 3. **Apple Books highlights sync** (issue #23) — tooling task, independent of editorial work. Can be picked up as a change-of-pace from content triage.
 

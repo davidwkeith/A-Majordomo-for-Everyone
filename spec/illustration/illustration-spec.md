@@ -6,7 +6,7 @@ This spec covers two categories of illustration: **chapter openers** (the Trinit
 
 ## Inline Graphics
 
-Small hand-drawn illustrations placed within the text flow. These appear throughout all parts of the book — in strategy chapters, field guide entries, and appendices — wherever a visual would clarify, compress, or humanize the content.
+Small hand-drawn illustrations placed within the text flow. These appear throughout all parts of the book — in strategy chapters, Skills, and appendices — wherever a visual would clarify, compress, or humanize the content.
 
 ---
 
@@ -43,7 +43,7 @@ Not everything. Inline graphics earn their placement the same way `[MEME]` sideb
 
 - **Domestic objects drawn with the Trinitron's level of attention.** The chapter openers prove the drawer can render a TV in obsessive detail. Inline graphics extend this to the objects that define the book's world: a mailbox with a letter sticking out. A kitchen table with papers spread. A phone showing a Claude conversation. A stethoscope. A front door key. A rubber stamp. Each drawn with the same specificity and care as the Trinitron, but smaller, isolated, floating on nothing.
 
-- **The Al Borland moment.** Small illustrations of the correct tool for the job, drawn in the style of a repair manual diagram that someone sketched from memory. A wrench at the correct angle. A multimeter with labeled probes. The right screwdriver for the right screw. These accompany the Diagnose strategy and Home domain entries.
+- **The Al Borland moment.** Small illustrations of the correct tool for the job, drawn in the style of a repair manual diagram that someone sketched from memory. A wrench at the correct angle. A multimeter with labeled probes. The right screwdriver for the right screw. These accompany the Diagnose strategy and Home domain Skills.
 
 - **Pixel art vignettes.** Small 8-bit scenes — not full Trinitron compositions, just the pixel art itself — for moments that reference specific episodes or cultural touchstones. Colored in ballpoint. No CRT physics (no barrel distortion, no scan lines). Just the image, on transparent ground. These are visual footnotes.
 

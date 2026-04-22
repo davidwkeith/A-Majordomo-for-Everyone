@@ -30,7 +30,7 @@ Every strategy in this book begins here. Before your Agent can Decode, Draft, Na
 
 The insight that makes this book work: *you do not have to write the spec.* Your Agent will interview you into one. Your job is to answer its questions honestly and tell it when the spec it proposes doesn't accurately reflect your situation. That is a human skill you already have. You know your own situation. You just needed someone to ask the right questions.
 
-_In the Field Guide: every entry begins with a Strategy 0 specification interview. Entries using the Expert Role variant include Ho-7 (Gardening), Ch-4 (Dog Training), Tr-2 (Car Maintenance), and H-8 (Wellness Coach)._
+_In the Field Guide: every Skill begins with a Strategy 0 specification interview. Skills using the Expert Role variant include Ho-7 (Gardening), Ch-4 (Dog Training), Tr-2 (Car Maintenance), and H-8 (Wellness Coach)._
 
 ### The Specification Interview Loop
 
@@ -151,7 +151,7 @@ What do I need to know, and what should I do first?
 
 The Expert Role spec works because your Agent has read the training materials, certification curricula, and professional literature for most well-documented fields. It can hold that knowledge in the frame of a specific expert's perspective for the duration of your conversation.
 
-*What it's not:* A licensed professional. The Master Gardener variant will not carry liability for your tomatoes. The personal trainer variant will not spot you. The Expert Role is the knowledgeable friend who happens to have the credentials, not the credentialed professional who carries accountability. For everything in the Everyday Expertise section of the Field Guide, this distinction is fine. For the system-navigation entries — legal, medical, financial — the Expert Role is a starting point, not an endpoint.
+*What it's not:* A licensed professional. The Master Gardener variant will not carry liability for your tomatoes. The personal trainer variant will not spot you. The Expert Role is the knowledgeable friend who happens to have the credentials, not the credentialed professional who carries accountability. For everything in the Everyday Expertise section of the Field Guide, this distinction is fine. For the system-navigation Skills — legal, medical, financial — the Expert Role is a starting point, not an endpoint.
 
 *Works with any AI assistant.* The Expert Role spec functions identically in Claude, ChatGPT, Gemini, and Copilot. Some tools will stay in the role more consistently than others — if one drifts out of the advisor frame and starts adding unnecessary caveats, try the same spec in a different tool.
 

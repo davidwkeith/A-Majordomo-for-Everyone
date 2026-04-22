@@ -20,7 +20,7 @@ All three worked examples link explicitly back to scenarios the reader encounter
 
 ### Single-source examples
 
-The full worked spec loops live here in Strategy 3. When Field Guide entries cover these domains (Ho-X renter negotiation, H-X insurance appeals, C-X civic participation), they provide the Majordomo opener, domain-specific spec template, and "what to do with the output" — then cross-reference back to Strategy 3 for the full pedagogical arc. No duplication.
+The full worked spec loops live here in Strategy 3. When Field Guide Skills cover these domains (Ho-X renter negotiation, H-X insurance appeals, C-X civic participation), they provide the Majordomo opener, domain-specific spec template, and "what to do with the output" — then cross-reference back to Strategy 3 for the full pedagogical arc. No duplication.
 
 ### Zeigarnik treatment
 
@@ -111,7 +111,7 @@ Three new conventions for `spec/editorial/editorial-conventions.md`:
 
 2. **Example chaining:** Worked examples in strategy chapters link explicitly back to scenarios from earlier chapters, building a connected mental model. The reader who decoded a lease clause in Strategy 1 drafts the counteroffer in Strategy 3. Name the connection directly in the opening sentence of the example. The strategies are tools that compose — the examples should demonstrate this.
 
-3. **Single-source examples:** Each worked scenario lives in one canonical location. Strategy chapters own the full spec-loop pedagogy (the teaching arc). Field Guide entries own the domain-specific application (Majordomo opener, spec template, "what to do with the output"). Neither duplicates the other. The Field Guide entry cross-references the Strategy example for the full loop; the Strategy example cross-references the Field Guide entry for the domain context. This keeps content in sync without tooling and follows the DRY principle already stated in the cross-reference convention.
+3. **Single-source examples:** Each worked scenario lives in one canonical location. Strategy chapters own the full spec-loop pedagogy (the teaching arc). Field Guide Skills own the domain-specific application (Majordomo opener, spec template, "what to do with the output"). Neither duplicates the other. The Skill cross-references the Strategy example for the full loop; the Strategy example cross-references the Skill for the domain context. This keeps content in sync without tooling and follows the DRY principle already stated in the cross-reference convention.
 
 ## Footnote IDs
 
