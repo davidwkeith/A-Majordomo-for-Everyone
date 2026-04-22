@@ -25,6 +25,7 @@ const brief = (over: Partial<ArtBrief> = {}): ArtBrief => ({
   size: 'full',
   alt: 'Alt text',
   brief: 'A production brief body.',
+  rights: '',
   sourcePath: '/tmp/x.art.md',
   ...over,
 });
@@ -34,6 +35,7 @@ const ctx = (briefs: ArtBrief[] = []): ArtBriefContext => ({
   briefs: new Map(briefs.map((b) => [b.stem, b])),
   xmpCache: new Map(),
   existingImages: new Set(),
+  embeddedCount: 0,
 });
 
 describe('validateAccessibility', () => {
