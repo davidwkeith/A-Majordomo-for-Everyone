@@ -588,8 +588,77 @@ The grief of digital loss — lost photos, deleted accounts, inaccessible archiv
 
 [^wb6-1]: Internet Archive. [archive.org](https://archive.org/). Founded 1996 by Brewster Kahle. As of 2024, the Wayback Machine contains over 835 billion archived web pages.
 
+---
+
+#### WB-10: Doing Real Research with Your Agent
+*Strategy:* Research + Decode
+*See also:* Li-13: Using Your Public and Academic Library (where the Agent's summary ends and the primary source begins), WB-6: Stop Doomscrolling the Algorithmic Feed (the upstream version of this skill), WB-7: Write in CommonMark, the language of AI (for taking notes the Agent can read back), WB-1: Learning Any App or Digital Skill
+*My Man Jeeves:* _A distinction of some consequence has long obtained between *searching* and *researching*. The former returns ten links ranked by the advertising market; the latter requires one to formulate a question, locate the relevant literature, weigh the contradictory findings, and arrive at a position one can defend. The former has, since approximately 2001, been available to everyone; the latter has remained the province of those with access to a research librarian, a university subscription, and the unhurried hours in which to use them. One's Agent does not make one a scholar. It does, however, perform the preliminary work that a graduate student would once have performed for a professor — framing the question, surveying the field, identifying the disagreements, and indicating where one ought to read next. The reader is then in a position to do the reading._
+*The Spec:*
+::: prompt
+I want to research [topic / question / decision] thoroughly,
+not just look it up.
+What I already know or believe: [your current understanding —
+including where you got it]
+What I need this for: [a decision / an argument / a paper /
+a conversation / general understanding]
+How much I want to trust the answer: [enough to act on it /
+enough to quote it / enough to bet money on it]
+Please:
+1. Restate my question in the most precise form, and tell me
+   if I'm asking the wrong question
+2. Survey what is actually known — distinguish settled findings
+   from contested ones from speculation
+3. Name the strongest source for each major claim, and the
+   strongest source against it
+4. Tell me what you are NOT sure about, and where my next
+   reading should go to close the gap
+5. Flag anything you may have hallucinated — proper nouns,
+   statistics, citations, dates — so I can verify it before
+   I rely on it
+:::
+*What to do with the Output:* Verify before you act. Pull at least one cited source — abstract for a journal article, primary text for a quotation, official page for a regulation — and confirm it says what your Agent said it says. The library entry (Li-13) is the matched companion to this one: the Agent surfaces the claim, the library hands you the document. If you're researching to make a decision, save the conversation, sleep on it, and ask follow-ups in the morning. Real research has a metabolism. Honor it.
+
+::: tip
+_"Show me the sources, then steelman the strongest counterargument to your own summary."_ — A single prompt that catches more confirmation bias than any amount of follow-up questioning.
+:::
+
+
+::: science
+Calibration — the alignment between confidence and accuracy — is the central skill of expert reasoning, and the one most degraded by fluent text. Tetlock & Gardner (2015, _Superforecasting_) found that the best forecasters routinely outperform domain specialists not because they know more, but because they hold beliefs at the correct strength. AI-generated prose reads as confident even when the underlying claim is uncertain, which is the precise failure mode the discipline of calibration is designed to correct. Asking your Agent to mark its confidence — and to name what would change its mind — restores the calibration the prose style erases.[^wb10-1]
+:::
+
+
+::: fairness
+The wealthy have always had research staff. Law firms employ paralegals, congressional offices employ legislative researchers, hedge funds employ analysts, universities employ graduate students, and family offices employ all of the above. The work being done is not exotic — it is framing a question, gathering sources, and synthesizing what is known. What is exotic is the access. Your Agent does not replace a Yale law librarian, but it does close the gap between asking a question and having something coherent to read in response. That gap, until very recently, was the gap between professional-class research and everyone else.
+:::
+
+
+::: also
+Several tools now offer a *deep research* mode that runs longer, browses the web, and returns a cited report rather than a chat reply. In Claude this is the **Research** feature; ChatGPT calls it **Deep Research**; Gemini calls it **Deep Research**; Perplexity calls it **Pro Search** or **Deep Research** depending on tier. Capabilities and pricing change frequently — see [Appendix G](06-appendix-g-feature-table.xhtml) for the current matrix. For multi-source synthesis, this mode is meaningfully better than a single chat turn.
+:::
+
+
+::: also
+A different category of research tool: **source-grounded notebooks**. Rather than searching the web, you upload the documents yourself — PDFs, web pages, Google Docs, YouTube transcripts, audio — and the tool answers questions only from what you provided, with line-level citations and, crucially, no general-knowledge hallucination. Google's [NotebookLM](https://notebooklm.google.com/) is purpose-built for this: free, generous source limits, automatic study guides and FAQs, and audio overviews that read like a podcast between two hosts. This is the natural next step once Li-13 has handed you the actual papers — the tool that synthesizes across a corpus you have already gathered, without inventing anything that is not in it. For a literature review, a case file, a set of medical records, or a research project built on a specific stack of sources, a grounded notebook beats both a chat turn and a deep-research run.
+:::
+
+
+::: meme
+[Wikipedia](https://en.wikipedia.org/wiki/Wikipedia) was, when it launched, treated by professors the way professors are now treating AI: forbidden in citations, dismissed as unreliable, regarded as the end of serious scholarship. A generation later, Wikipedia is the most-consulted reference work in human history, its citation graph is a primary tool of academic researchers, and the professors who once banned it use it to look things up before class. The pattern repeats. The right relationship is not abstinence and not credulity. It is the same relationship one has with any encyclopedia: a starting point, never an ending one. Follow the footnotes.
+:::
+
+
+<!-- RESEARCH NEEDED: Verify Tetlock & Gardner (2015) figures on calibration vs. domain expertise — Good Judgment Project data. Also worth citing Kahneman & Klein (2009) "Conditions for Intuitive Expertise" on when domain expertise is and isn't reliable. -->
+
+<!-- RESEARCH NEEDED (HUMAN CONDITION): Information overwhelm is a class-coded experience. The professional researcher has filters — colleagues who flag what's worth reading, journals whose tables of contents narrow the firehose, librarians who curate. The non-professional researcher has Google, which optimizes for engagement, not signal. The reader who feels they "can't keep up" is not failing; they are operating without the institutional curation that professionals take for granted. The Agent is, among other things, a curator — not a perfect one, but a starting one. The entry should name this without becoming a sermon. -->
+
+<!-- RESEARCH NEEDED (HUMAN CONDITION): The shame of "not knowing how to research" is widespread and rarely admitted. Most adults were taught search techniques (Boolean operators, library catalogs) in middle school and never updated their skills. The reader who admits they "just google it" is admitting to using a 1998 skill in a 2026 information environment. The entry should validate this without lecturing — the skill atrophied because the institution stopped teaching it, not because the reader stopped caring. -->
+
+[^wb10-1]: Tetlock, P.E. & Gardner, D. (2015). [_Superforecasting: The Art and Science of Prediction._](https://www.goodjudgment.com/superforecasting/) Crown. See also Kahneman, D. & Klein, G. (2009). ["Conditions for Intuitive Expertise: A Failure to Disagree."](https://doi.org/10.1037/a0016755) _American Psychologist,_ 64(6), 515–526.
+
 <!-- BRAINSTORM: Future Computer and Web entries
-— WB-10: Privacy and Security Basics — passwords, 2FA, phishing, data brokers. The defensive counterpart to everything else in this domain.
-— WB-11: Digital Cleanup — deleting old accounts, reducing data footprint, cleaning up search results. The maintenance nobody teaches you to do.
-— WB-12: Accessible Technology — assistive tech, screen readers, voice control, adaptive devices. Technology that serves everyone, not just the defaults.
+— WB-11: Privacy and Security Basics — passwords, 2FA, phishing, data brokers. The defensive counterpart to everything else in this domain.
+— WB-12: Digital Cleanup — deleting old accounts, reducing data footprint, cleaning up search results. The maintenance nobody teaches you to do.
+— WB-13: Accessible Technology — assistive tech, screen readers, voice control, adaptive devices. Technology that serves everyone, not just the defaults.
 -->
