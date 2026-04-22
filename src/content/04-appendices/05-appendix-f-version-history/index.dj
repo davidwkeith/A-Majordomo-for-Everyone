@@ -17,7 +17,7 @@ v0.3  -- Voice and audience: DSA Gen-X, majordomo frame, DON'T PROMPT
 v0.4  -- Three-part restructure: Strategies / Field Guide / General Method
          Specification Literacy and interview loop integrated
 v0.5  -- Billionaire class framing applied throughout
-v0.6  -- Everyday Expertise domain (9 entries)
+v0.6  -- Everyday Expertise domain (9 Skills)
          Expert Role technique added to Strategy 0
 v0.7  -- LLM-agnostic framing. Claude as default example.
 v0.8  -- Strategy 9: Create. Holonovel/game narrative frame.
@@ -27,7 +27,7 @@ v1.0  -- Title confirmed: A Majordomo for Everyone
          Subtitle confirmed: Managing Your Personal Staff of AI Agents
          DON'T PROMPT confirmed as cover tag
          All Hitchhiker's Guide title references updated to The Majordomo
-         Field Guide entry labels updated to "The Majordomo says:"
+         Skill labels updated to "The Majordomo says:"
 v1.1  -- 90s sitcom frame added throughout
          Cultural Reference Sheet: full sitcom index by strategy
          Strategy chapter openers: Specify (Murphy Brown / Data),
@@ -96,6 +96,14 @@ v1.8  -- Retitled. New title: Majordomo.
            updated from a-majordomo-for-everyone to majordomo.
          In-world self-reference quote shortened to match new title.
          Cover typography spec updated; cover art queued for regeneration.
+v1.9  -- Field Guide entries renamed to Skills throughout.
+         The human-facing equivalent of an LLM's SKILLS.md:
+           small, named, self-contained recipes the reader reaches
+           for when a situation matches.
+         The "Field Guide" section name is unchanged; the items
+           inside it are now called Skills (not entries).
+         Skill IDs (H-4, M-2, W-1, etc.) and cross-reference
+           format unchanged.
 :::
 
 _If you are reading a version later than the one listed here, someone improved it. That is correct._

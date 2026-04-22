@@ -4,7 +4,7 @@
 
 A practical guide to using AI agents (Claude, ChatGPT, Gemini, Copilot) to navigate the systems of adult life — insurance, legal, medical, financial, civic, housing. "This Old House, but for living in a capitalist society." The central argument: information asymmetry is structural. The billionaire class always had lawyers, doctors, and advisors who explain things in plain language. Now everyone has something close to that, for free, on their phone.
 
-The book teaches one transferable skill: **specification** — how to tell an AI exactly what you need, review what it gives you, and act on the result. Every chapter, strategy, and field guide entry is an application of this skill.
+The book teaches one transferable skill: **specification** — how to tell an AI exactly what you need, review what it gives you, and act on the result. Every chapter, strategy, and Skill is an application of this practice.
 
 ## Voice
 
@@ -59,9 +59,9 @@ Ten strategies. Each opens with a 90s sitcom episode scene (pixel art on a Trini
 
 ### PART TWO: THE FIELD GUIDE — Reference material
 
-~80 short entries organized by life domain. Each entry is a ready-to-use spec template for a specific problem.
+~80 short Skills organized by life domain. Each Skill is a ready-to-use spec template for a specific problem. Skills are the human-facing equivalent of an LLM's `SKILLS.md`: small, named, self-contained recipes you reach for when a situation matches.
 
-**Entry anatomy (fixed order):**
+**Skill anatomy (fixed order):**
 ```
 #### [Prefix]-[#]: [Problem Title]
 Strategy: [which strategies apply]
@@ -74,7 +74,7 @@ Callouts: [SCIENCE], [TIP], [FAIRNESS], [MEME], [ALSO], [SPEC]
 
 **Domains:**
 
-| Prefix | Domain | Entries | Key Topics |
+| Prefix | Domain | Skills | Key Topics |
 |--------|--------|---------|------------|
 | H- | Health | 19 | Diagnosis, medical bills, EOBs, insurance denials, Medicare/Medicaid, chronic conditions, end-of-life, prescriptions, drug interactions, addiction, harm reduction, drug laws, psychedelic therapy, talking to kids, treatment/recovery, War on Drugs |
 | M- | Money | ~10 | Banking, credit/debt, taxes, budgeting, retirement, financial decisions |
@@ -125,8 +125,8 @@ All three beats required. Drop one and it lectures, complains, or sells.
 1. **"Your Agent" not "Claude"** unless discussing Claude-specific features. The skill is AI literacy, not Claude proficiency.
 2. **[ALSO] callouts** translate Claude features to other tools' vocabulary. At least one per domain.
 3. **Conservative-answer convention:** High-stakes specs (Health, Legal, Civic, Money) end with "Give me the most conservative, legally accurate answer" or "I will verify with [professional type]."
-4. **Cross-references use entry IDs:** "see also L-1" not "see the legal chapter." The reader learns the navigation system by using it.
-5. **Problem-centered, not subject-centered:** Entry title is the problem ("Appealing an Insurance Denial"), not the skill ("How to Write Persuasive Letters").
+4. **Cross-references use Skill IDs:** "see also L-1" not "see the legal chapter." The reader learns the navigation system by using it.
+5. **Problem-centered, not subject-centered:** A Skill's title is the problem ("Appealing an Insurance Denial"), not the technique ("How to Write Persuasive Letters").
 6. **Links are currency.** Link to Wikipedia (the Federation Database), DOIs, statutes, tools. Footnote citations must include hyperlinks.
 7. **Episode references:** `[Show:SxEy "Title"](wikipedia-url), Year`
 8. **Six callout types:** `science`, `tip`, `fairness`, `meme`, `spec`, `also` — written as Djot fenced divs (`::: type`).
@@ -142,7 +142,7 @@ All three beats required. Drop one and it lectures, complains, or sells.
 
 ## Roddenberry Foundation Alignment
 
-The book aligns with five Roddenberry values: Urgency (lead with friction moments), Humility (reader is under-resourced not under-capable), Risk-taking (free tier removes financial risk), Diverse (entries reflect full range of American domestic life), Exploration (AI conversations as acts of exploration). Special attention to: human/civil rights, environmental justice, education equity, AI fairness.
+The book aligns with five Roddenberry values: Urgency (lead with friction moments), Humility (reader is under-resourced not under-capable), Risk-taking (free tier removes financial risk), Diverse (Skills reflect the full range of American domestic life), Exploration (AI conversations as acts of exploration). Special attention to: human/civil rights, environmental justice, education equity, AI fairness.
 
 ## The Central Meme
 
@@ -153,6 +153,6 @@ The book aligns with five Roddenberry values: Urgency (lead with friction moment
 ## Current Status
 
 - **Most complete:** Introduction (Part 0), Strategies (Part 1) — all drafted with epigraphs and art briefs
-- **Partially complete:** Field Guide Health domain (19 entries), Legal, Home, Life, Work, Civic (partially drafted)
-- **Stubs:** Chores domain (3 entries), Ch 33 (Advanced Free Tier), Money domain
+- **Partially complete:** Field Guide Health domain (19 Skills), Legal, Home, Life, Work, Civic (partially drafted)
+- **Stubs:** Chores domain (3 Skills), Ch 33 (Advanced Free Tier), Money domain
 - **Build:** Djot → `@djot/djot` filters → ePub 3.0. `npm run build` to build, `npm test` to test.

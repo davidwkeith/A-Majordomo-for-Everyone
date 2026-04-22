@@ -1,6 +1,6 @@
 # Style Guide
 
-*The mechanical rules that keep 80,000+ words consistent across drafting sessions. For voice, audience, and philosophy, see [voice-and-audience.md](voice-and-audience.md) and [principles.md](principles.md). For structural conventions (callouts, entry anatomy, art briefs), see [editorial-conventions.md](editorial-conventions.md).*
+*The mechanical rules that keep 80,000+ words consistent across drafting sessions. For voice, audience, and philosophy, see [voice-and-audience.md](voice-and-audience.md) and [principles.md](principles.md). For structural conventions (callouts, Skill anatomy, art briefs), see [editorial-conventions.md](editorial-conventions.md).*
 
 ---
 
@@ -42,13 +42,14 @@
 | Element | Convention | Example |
 |---------|-----------|---------|
 | Chapter titles | Title case | "Strategy 2: Prepare" |
-| Field Guide entry titles | Title case | "Understanding a Contractor Bid" |
+| Skill titles | Title case | "Understanding a Contractor Bid" |
 | Callout labels | ALL CAPS in brackets | `> **[SCIENCE]**` |
 | Subheadings in prose | Sentence case | "### Ask for numbered steps when sequence matters" |
 | Subheadings inside agent output | Bold sentence case | "**What to bring:**" |
 | Strategy names | Capitalized | Prepare, Decode, Navigate |
 | Part names | Capitalized | "Part Two: The Field Guide" |
 | "Field Guide" | Capitalized (proper noun in this book) | "the Field Guide" |
+| "Skill" / "Skills" | Capitalized when referring to a Field Guide entry | "see Skill H-4," "the Health Skills" |
 | "the spec loop" | Lowercase | "run the spec loop" |
 
 ---
@@ -64,7 +65,7 @@ Preferred terms. Use the left column; never use the right column with the same m
 | specification interview | prompt engineering, prompt crafting |
 | ask / tell your Agent | leverage, utilize, harness, interface with |
 | the book | this guide, this manual, this resource |
-| entry (Field Guide) | article, post, section (for individual entries) |
+| Skill (Field Guide) | entry, article, post, section (for individual Skills) |
 | worked example | demo, tutorial, walkthrough |
 | the reader | the user, the customer, the consumer |
 | high-stakes | high-value, mission-critical, critical |
@@ -148,7 +149,7 @@ This section governs the ePub output and any web rendering.
 
 ## Cross-References
 
-- Reference Field Guide entries by ID: "see H-4" or "see also L-1: Negotiating a Contract."
+- Reference Skills by ID: "see H-4" or "see also L-1: Negotiating a Contract."
 - Reference chapters by title, not number, except within Part 3 where chapter numbers are conventional: "Chapter 32: Getting Consistent, Reliable Answers."
 - Reference strategies by name: "Strategy 2: Prepare" on first mention, "Prepare" thereafter.
 - Never use "above" or "below" — ePub reading order is not guaranteed to match authorial expectation.
@@ -175,7 +176,7 @@ This section governs the ePub output and any web rendering.
 - Every citation must include a hyperlink to the source. Journal articles: link to DOI, PubMed, or PMC. Books: link to the author's page for the book, falling back to bookshop.org, then archive.org for out-of-print titles. Reports and datasets: link to the issuing organization's page. Laws and statutes: link to the authoritative public text (congress.gov, uscode.house.gov, or equivalent).
 - Footnotes reset per chapter. Print = page-bottom. ePub = chapter-end.
 - Footnote ID formats:
-  - Field Guide entries: `[^{prefix}{entry}-{seq}]` (e.g., `[^h4-1]`, `[^li7-1]`)
+  - Skills: `[^{prefix}{skill}-{seq}]` (e.g., `[^h4-1]`, `[^li7-1]`)
   - Strategy chapters: `[^s{number}-{seq}]` (e.g., `[^s2-1]`)
   - Introduction and general-method chapters: `[^{chapter-number}-{seq}]` (e.g., `[^4-1]`, `[^30-1]`)
 - Do not cite sources you have not verified. If a citation is approximate, use `<!-- RESEARCH NEEDED -->`.

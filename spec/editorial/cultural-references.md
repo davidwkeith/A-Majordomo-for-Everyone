@@ -31,13 +31,13 @@ The following references are cleared for use in chapter text without explanation
 
 The 90s sitcom home crisis is its own genre with a completely recognizable structure: something breaks, someone misunderstands the instructions, someone calls the wrong person, someone tries to fix it secretly and makes it worse, the whole thing escalates to a third-act disaster that a single piece of correct information at minute five would have prevented entirely. The Gen-X reader has seen every episode. The book is the information that would have ended them at minute five.
 
-- *Home Improvement* — **Diagnose.** Tim misdiagnoses the problem, applies more power, escalates to structural damage. Al Borland knew what the problem was and said so, politely, every time. Al was the calibration question in human form. Use for Diagnose chapter opener and all appliance/repair entries.
+- *Home Improvement* — **Diagnose.** Tim misdiagnoses the problem, applies more power, escalates to structural damage. Al Borland knew what the problem was and said so, politely, every time. Al was the calibration question in human form. Use for Diagnose chapter opener and all appliance/repair Skills.
 
 - *Roseanne* — **Money, Legal, Assert.** The Conners perpetually navigating bill negotiations, landlord disputes, employer conflicts, and financial decisions made under pressure with incomplete information. The class analysis lives here more honestly than anywhere else in the 90s sitcom canon — Roseanne was explicitly about a working-class household managing systems not designed for them. Use for money chapter and anywhere the billionaire class frame needs grounding.
 
-- *Seinfeld* — **Assert, Navigate.** George is a man who instinctively knows his rights but consistently fails to specify them correctly, producing outcomes that are technically what he asked for and completely wrong. The spec interview would have saved him from himself repeatedly. Use for Assert chapter and any entry where the failure mode is vague specification.
+- *Seinfeld* — **Assert, Navigate.** George is a man who instinctively knows his rights but consistently fails to specify them correctly, producing outcomes that are technically what he asked for and completely wrong. The spec interview would have saved him from himself repeatedly. Use for Assert chapter and any Skill where the failure mode is vague specification.
 
-- *Friends* — **Decide, Draft.** "We were on a break" is a specification failure. Neither party confirmed what the spec meant before executing. The correct spec, confirmed by both parties, would have resolved it in one conversation. Use for Decide chapter opener and any relationship/difficult conversation entry.
+- *Friends* — **Decide, Draft.** "We were on a break" is a specification failure. Neither party confirmed what the spec meant before executing. The correct spec, confirmed by both parties, would have resolved it in one conversation. Use for Decide chapter opener and any relationship/difficult conversation Skill.
 
 - *Married with Children* — **Assert.** Al Bundy is a man who suspects he has rights but has never successfully deployed them. The book's thesis applied to the most uncomfortable possible canvas. Use sparingly — the show's politics are complicated — but Al's fundamental situation is the book's argument. Use for Assert chapter as a secondary reference.
 
@@ -45,6 +45,6 @@ The 90s sitcom home crisis is its own genre with a completely recognizable struc
 
 - *Murphy Brown* — **Draft, Specify.** Murphy went through 93 secretaries because she could not specify what she needed. The spec interview would have ended that subplot in season one. Use for Strategy 0 (Specify) and the Draft chapter as the illustration of what happens without a spec.
 
-- *Mad About You* — **Home, Navigate.** The couple who own an apartment in New York and are perpetually in conflict with contractors, landlords, building managers, and city systems they don't understand. Use for Home domain Field Guide entries and the Navigate strategy chapter.
+- *Mad About You* — **Home, Navigate.** The couple who own an apartment in New York and are perpetually in conflict with contractors, landlords, building managers, and city systems they don't understand. Use for Home domain Skills and the Navigate strategy chapter.
 
 **The meta-pattern across all of them:** Every 90s sitcom home crisis is a specification failure. The disaster was preventable. The information existed. The character either didn't have it, didn't ask for it, or asked for it wrong. The book is the information. Claude is Al Borland. The reader is Tim — except in this version, they actually listen to Al.

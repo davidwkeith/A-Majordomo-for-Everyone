@@ -9,7 +9,7 @@ The Foundation's five core values map directly to this book's design:
 | **Urgency** — problem-solving over paperwork | The book leads with friction moments, not technology explanations. Every chapter prioritizes the reader's immediate situation. |
 | **Humility** — expertise lives in impacted communities | The book never talks down. It assumes the reader is intelligent, experienced in their own life, and simply under-resourced — not under-capable. |
 | **Risk-taking** — experimentation and creativity | Part Three (The General Method) explicitly endorses trying, failing, and trying again. The free tier playbook (Introduction, Chapter 3) removes financial risk from experimentation. |
-| **Diverse** — systemic change requires all walks of life | The Field Guide entries are specifically chosen to reflect the full range of American domestic life, with explicit attention to renters, first-generation homeowners, first-generation college students, immigrant families, and low-income households. |
+| **Diverse** — systemic change requires all walks of life | The Skills are specifically chosen to reflect the full range of American domestic life, with explicit attention to renters, first-generation homeowners, first-generation college students, immigrant families, and low-income households. |
 | **Exploration** — humanity grows through curiosity | The book reframes every AI conversation as an act of exploration — not a transaction, but a step into knowing more than you did before. |
 
 ### Roddenberry Alignment: Focus Areas
@@ -18,16 +18,16 @@ The Foundation's primary program areas require the following specific additions 
 
 **Human and Civil Rights**
 - The Civic domain (Part Two) expanded to include voting rights navigation, understanding your rights as a renter in detail, and immigrant rights resources
-- Field Guide entries covering: understanding your rights if immigration enforcement contacts you or someone you know; navigating a discrimination complaint (housing, employment, public accommodation)
+- Skills covering: understanding your rights if immigration enforcement contacts you or someone you know; navigating a discrimination complaint (housing, employment, public accommodation)
 - Appendix D (When to Call a Real Professional) must include immigration legal aid and civil rights organizations
 
 **Environmental Justice**
-- Home domain entries on using AI to understand utility bills, evaluate solar or heat pump options, understand rebates and incentives, and make climate-informed purchasing decisions that save money
+- Home domain Skills on using AI to understand utility bills, evaluate solar or heat pump options, understand rebates and incentives, and make climate-informed purchasing decisions that save money
 - Framed as personal financial benefit first, environmental benefit second — meeting the reader where they are
 
 **Education Equity**
-- First-generation student entries in the Life domain elevated and expanded
-- Field Guide entry on navigating adult education, GED, and workforce certification as a returning learner
+- First-generation student Skills in the Life domain elevated and expanded
+- A Skill on navigating adult education, GED, and workforce certification as a returning learner
 - Sidebar in the Life domain on the specific barriers faced by first-generation students and how AI levels the guidance gap
 
 **AI Fairness and Critical Use**
