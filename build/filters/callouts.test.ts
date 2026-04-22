@@ -21,6 +21,7 @@ const mockArtCtx: ArtBriefContext = {
   ]),
   xmpCache: new Map(),
   existingImages: new Set(),
+  embeddedCount: 0,
 };
 
 const processWithArt = (dj: string): string => {

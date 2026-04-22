@@ -10,7 +10,6 @@ import {
   STYLE_GUIDE,
   discoverBriefs,
   prepareArtContext,
-  syncArtBriefXmp,
   discoverChapters,
   processChapter,
   sortChapters,
@@ -59,22 +58,18 @@ async function build(): Promise<void> {
     }
   }
 
-  // Embed XMP metadata declared in .art.md sidecars into images that
-  // are missing it or out of sync. Keeps alt text and license travelling
-  // with the file without a manual embed step. Covers callout icons and
-  // other images whose briefs live in spec/illustration/ alongside chapter
-  // content briefs.
-  console.log('Syncing XMP metadata...');
+  // Prepare the render cache and sync XMP metadata from .art.md sidecars
+  // into every image in one pass. Covers callout icons and other images
+  // whose briefs live in spec/illustration/ alongside chapter content briefs
+  // so the sync keeps alt text and license travelling with the file
+  // without a manual embed step.
+  console.log('Preparing art context...');
   const illustrationBriefs = discoverBriefs(ILLUSTRATION_SPEC_DIR);
   const allBriefs = new Map([...briefs, ...illustrationBriefs]);
-  const embedded = await syncArtBriefXmp(allBriefs, IMAGES_DIR);
-  if (embedded > 0) {
-    console.log(`Embedded XMP in ${embedded} image(s)`);
+  const artCtx = await prepareArtContext(allBriefs, IMAGES_DIR);
+  if (artCtx.embeddedCount > 0) {
+    console.log(`Embedded XMP in ${artCtx.embeddedCount} image(s)`);
   }
-
-  // Pre-read XMP data for all briefs (Djot filters are synchronous)
-  console.log('Preparing art context...');
-  const artCtx = await prepareArtContext(briefs, IMAGES_DIR);
 
   console.log('Discovering chapters...');
   const files = await discoverChapters();

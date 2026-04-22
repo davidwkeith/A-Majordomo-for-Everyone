@@ -39,18 +39,25 @@ export function xmpFieldsFor(brief: ArtBrief): XmpFields {
 }
 
 /**
- * Embed XMP metadata from `.art.md` sidecars into every image that lacks it
- * or has stale values. Returns the number of images updated.
+ * Scan every brief's image in one pass: check existence, compare its XMP
+ * to the sidecar, embed when stale, and build the render cache.
  *
- * The brief is the source of truth — this step makes the PNG self-describing
- * (alt text and license travel with the file) without requiring contributors
- * to remember a separate `embed-xmp` step.
+ * Combines what used to be two separate passes (sync + prepare) so each
+ * image is stat'd and XMP-read at most once per build. Returns both the
+ * render context and the count of images whose XMP was refreshed.
+ *
+ * The brief is the source of truth: this step makes the PNG
+ * self-describing (alt text and license travel with the file) without
+ * requiring contributors to remember a separate `embed-xmp` step.
  */
-export async function syncArtBriefXmp(
+export async function prepareArtContext(
   briefs: Map<string, ArtBrief>,
   imagesDir: string
-): Promise<number> {
-  let updated = 0;
+): Promise<ArtBriefContext> {
+  const xmpCache = new Map<string, Awaited<ReturnType<typeof readXmp>>>();
+  const existingImages = new Set<string>();
+  let embeddedCount = 0;
+
   await Promise.all(
     [...briefs.values()].map(async (brief) => {
       const imagePath = join(imagesDir, `${brief.stem}.${brief.format}`);
@@ -59,44 +66,39 @@ export async function syncArtBriefXmp(
       } catch {
         return; // image not generated yet
       }
-      const fields = xmpFieldsFor(brief);
-      if (!fields.alt) return; // spec: no image ships without alt
+      existingImages.add(brief.stem);
+
       const current = await readXmp(imagePath);
-      if (xmpMatches(current, fields)) return;
-      await embedXmp(imagePath, fields);
-      updated++;
-    })
-  );
-  return updated;
-}
+      const fields = xmpFieldsFor(brief);
 
-/**
- * Pre-read XMP data and check image existence for all briefs.
- * Must be called once before processing chapters, since Djot filters
- * are synchronous and cannot do async I/O.
- */
-export async function prepareArtContext(
-  briefs: Map<string, ArtBrief>,
-  imagesDir: string
-): Promise<ArtBriefContext> {
-  const xmpCache = new Map<string, Awaited<ReturnType<typeof readXmp>>>();
-  const existingImages = new Set<string>();
-
-  await Promise.all(
-    [...briefs.values()].map(async (brief) => {
-      const imagePath = join(imagesDir, `${brief.stem}.${brief.format}`);
-      try {
-        await stat(imagePath);
-        existingImages.add(brief.stem);
-        const xmp = await readXmp(imagePath);
-        xmpCache.set(brief.stem, xmp);
-      } catch {
-        // Image does not exist
+      if (fields.alt && !xmpMatches(current, fields)) {
+        await embedXmp(imagePath, fields);
+        embeddedCount++;
+        // Skip a second readXmp — we just wrote these exact values.
+        xmpCache.set(brief.stem, {
+          altText: fields.alt,
+          description: fields.description,
+          rights: fields.rights,
+        });
+      } else {
+        xmpCache.set(brief.stem, current);
       }
     })
   );
 
-  return { imagesDir, briefs, xmpCache, existingImages };
+  return { imagesDir, briefs, xmpCache, existingImages, embeddedCount };
+}
+
+/**
+ * Sync-only wrapper around `prepareArtContext` — kept for the CLI and
+ * tests that care only about the embed count, not the render cache.
+ */
+export async function syncArtBriefXmp(
+  briefs: Map<string, ArtBrief>,
+  imagesDir: string
+): Promise<number> {
+  const ctx = await prepareArtContext(briefs, imagesDir);
+  return ctx.embeddedCount;
 }
 
 /**

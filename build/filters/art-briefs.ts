@@ -23,6 +23,8 @@ export interface ArtBriefContext {
   xmpCache: Map<string, import('../xmp.js').XmpData>;
   /** Set of stems with existing images. Pre-checked before filters run. */
   existingImages: Set<string>;
+  /** Number of images whose XMP was (re-)embedded during this pass. */
+  embeddedCount: number;
 }
 
 /**
