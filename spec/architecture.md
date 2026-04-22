@@ -40,10 +40,13 @@ PART ONE: THE STRATEGIES
 						  the AI writes the sentences.
 
 PART TWO: THE FIELD GUIDE
-  Short entries organized by life domain.
-  Each entry: Majordomo opener + confirmed spec + strategy tag(s).
-  ~80 entries covering the most common situations.
-  Cross-reference related Field Guide entries.
+  Short Skills organized by life domain.
+  Each Skill: Majordomo opener + confirmed spec + strategy tag(s).
+  ~80 Skills covering the most common situations.
+  A Skill is the human-facing equivalent of an LLM's
+  SKILLS.md entry: small, named, self-contained recipes
+  you reach for when a situation matches.
+  Cross-reference related Skills.
   Domains: Health / Money / Legal / Home / Life /
 		   Work / Civic / Chores / IRL Interactions /
 		   Computer & Web / Creative / Transportation
@@ -57,7 +60,7 @@ PART TWO: THE FIELD GUIDE
   to explain are the same structural problem.
 
   Each domain opens with an italic introductory paragraph
-  before the first entry. This is the domain-level equivalent
+  before the first Skill. This is the domain-level equivalent
   of the Majordomo opener: it frames the structural problem
   the domain addresses, positions the reader, and sets the
   tonal register. One paragraph, no heading.
@@ -65,7 +68,7 @@ PART TWO: THE FIELD GUIDE
   The real workflow is iterative, not single-shot:
   initial spec → Agent response → qualifying follow-up →
   refined output. Chapter 4 teaches the follow-up techniques.
-  Many entries include follow-up specs in their "What to do
+  Many Skills include follow-up specs in their "What to do
   with the output" section. The spec is the start of a
   conversation, not a one-way transmission.
 

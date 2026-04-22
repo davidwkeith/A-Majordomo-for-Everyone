@@ -92,11 +92,11 @@ OpenAI proposes a Public Wealth Fund and tax modernization — macro-redistribut
 
 ## Opportunities to Strengthen Civics Arguments
 
-### Priority 1: AI Policy as Civic Participation (New Entry or C-4 Expansion)
+### Priority 1: AI Policy as Civic Participation (New Skill or C-4 Expansion)
 
-The biggest gap in the civic field guide: none of the entries address AI governance itself as a domain of civic participation. OpenAI's document explicitly calls for "mechanisms for public input" on AI alignment. Federal agencies (NIST, FTC, state legislatures) are actively seeking public comment on AI regulation. This is C-2 (Writing a Public Comment) applied to the most consequential policy domain of the decade.
+The biggest gap in the civic Field Guide: none of the Skills address AI governance itself as a domain of civic participation. OpenAI's document explicitly calls for "mechanisms for public input" on AI alignment. Federal agencies (NIST, FTC, state legislatures) are actively seeking public comment on AI regulation. This is C-2 (Writing a Public Comment) applied to the most consequential policy domain of the decade.
 
-**Concrete addition to C-4 or new entry C-8:**
+**Concrete addition to C-4 or new Skill C-8:**
 - How to find and participate in AI policy rulemaking (regulations.gov, state legislature comment periods)
 - How to evaluate AI policy proposals using the specification framework: What does this policy actually specify? What mechanism ensures it achieves its stated objective? What is left unspecified?
 - How to write effective public comment on AI regulation (same skill as C-2, different domain)
@@ -136,7 +136,7 @@ OpenAI proposes portable benefits and adaptive safety nets — these are policy 
 
 The book should explicitly name the fact that its existence *is* the "Right to AI" argument in practice, not just in policy. OpenAI proposes it as a government program. The book delivers it as a Creative Commons guide that anyone can adapt. A line in the foreword, the introduction, or the civic domain intro could connect these:
 
-> Some companies are now proposing a "Right to AI" — that access to AI should be treated as foundational infrastructure, like electricity or the internet. This book agrees. It also notes that a right you can't exercise is a right in name only. The entries that follow are the exercise.
+> Some companies are now proposing a "Right to AI" — that access to AI should be treated as foundational infrastructure, like electricity or the internet. This book agrees. It also notes that a right you can't exercise is a right in name only. The Skills that follow are the exercise.
 
 ---
 

@@ -8,7 +8,7 @@ status: "draft"
 
 ### Computer & Web 
 
-_The internet was built on a promise: anyone could publish, anyone could read, anyone could connect — no permission required. For a decade or so, it delivered. Then the platforms arrived, and the open web was enclosed like common land in the English countryside — fenced, monetized, and rented back to the people who built it. The billionaire class maintained their own domains, their own servers, their own archives. Everyone else got a profile page on someone else's property, governed by someone else's algorithm, deletable at someone else's discretion. The entries that follow are about reclaiming what was always yours: your words, your identity, and your corner of the web._
+_The internet was built on a promise: anyone could publish, anyone could read, anyone could connect — no permission required. For a decade or so, it delivered. Then the platforms arrived, and the open web was enclosed like common land in the English countryside — fenced, monetized, and rented back to the people who built it. The billionaire class maintained their own domains, their own servers, their own archives. Everyone else got a profile page on someone else's property, governed by someone else's algorithm, deletable at someone else's discretion. The Skills that follow are about reclaiming what was always yours: your words, your identity, and your corner of the web._
 
 ::: meme
 The internet was supposed to be [Geocities](https://en.wikipedia.org/wiki/GeoCities) — everyone's weird, personal, hand-built page. Then it became five apps owned by three companies. The [IndieWeb](https://en.wikipedia.org/wiki/IndieWeb) is Geocities with better tools and the same energy: your site, your words, your corner of the internet. The '90s promised us this. We are collecting on that promise.
@@ -232,7 +232,7 @@ The billionaire class treated the personal assistant hire like a casting call �
 
 *Strategy:* Specify + Research
 *See also:* Strategy 0: Specify (the full specification interview method), Chapter 4: How to Ask for What You Actually Want
-*My Man Jeeves:* _This is the entry that instructs one in the use of the tool upon which every other entry depends. If the book may be likened to a workshop, this would be the safety orientation for the power tools. The billionaire class had no occasion to acquire this skill --- they already maintained a staff that translated vague instructions into precise tasks. The chief of staff, the executive assistant, the law clerk --- these are, in essence, human specification interfaces. One is learning the same skill, applied to a rather different kind of assistant._
+*My Man Jeeves:* _This is the Skill that instructs one in the use of the tool upon which every other Skill depends. If the book may be likened to a workshop, this would be the safety orientation for the power tools. The billionaire class had no occasion to acquire this practice --- they already maintained a staff that translated vague instructions into precise tasks. The chief of staff, the executive assistant, the law clerk --- these are, in essence, human specification interfaces. One is learning the same practice, applied to a rather different kind of assistant._
 *The Spec:*
 ::: prompt
 I want to get better at working with AI Agents — not just
@@ -256,10 +256,10 @@ Please help me understand:
 
 *What to do with the Output:* Do the exercise. Then do the same exercise again, but badly — give the Agent a vague, context-free prompt and compare the results. The difference between the two outputs is specification literacy made visible. You will not need to read a book about it after that. You will have felt it.
 
-This entry is recursive by design. You are using your Agent to learn how to use your Agent. The specification interview loop — describe your situation, answer the clarifying questions, review the proposed spec, correct what is wrong — is the same whether you are asking about insurance or asking about the tool itself. The skill is the skill. It transfers to everything.
+This Skill is recursive by design. You are using your Agent to learn how to use your Agent. The specification interview loop — describe your situation, answer the clarifying questions, review the proposed spec, correct what is wrong — is the same whether you are asking about insurance or asking about the tool itself. The practice is the practice. It transfers to everything.
 
 ::: spec
-Here is a full specification interview for this entry:
+Here is a full specification interview for this Skill:
 
 *You:* _I've been using ChatGPT for about six months. It's helpful for simple things but whenever I ask something complicated, the answer feels generic. I want to learn how to get better results._
 
@@ -592,7 +592,7 @@ The grief of digital loss — lost photos, deleted accounts, inaccessible archiv
 
 #### WB-10: Doing Real Research with Your Agent
 *Strategy:* Research + Decode
-*See also:* Li-13: Using Your Public and Academic Library (where the Agent's summary ends and the primary source begins), WB-6: Stop Doomscrolling the Algorithmic Feed (the upstream version of this skill), WB-7: Write in CommonMark, the language of AI (for taking notes the Agent can read back), WB-1: Learning Any App or Digital Skill
+*See also:* Li-13: Using Your Public and Academic Library (where the Agent's summary ends and the primary source begins), WB-6: Stop Doomscrolling the Algorithmic Feed (the upstream version of this Skill), WB-7: Write in CommonMark, the language of AI (for taking notes the Agent can read back), WB-1: Learning Any App or Digital Skill
 *My Man Jeeves:* _A distinction of some consequence has long obtained between *searching* and *researching*. The former returns ten links ranked by the advertising market; the latter requires one to formulate a question, locate the relevant literature, weigh the contradictory findings, and arrive at a position one can defend. The former has, since approximately 2001, been available to everyone; the latter has remained the province of those with access to a research librarian, a university subscription, and the unhurried hours in which to use them. One's Agent does not make one a scholar. It does, however, perform the preliminary work that a graduate student would once have performed for a professor — framing the question, surveying the field, identifying the disagreements, and indicating where one ought to read next. The reader is then in a position to do the reading._
 *The Spec:*
 ::: prompt
@@ -617,7 +617,7 @@ Please:
    statistics, citations, dates — so I can verify it before
    I rely on it
 :::
-*What to do with the Output:* Verify before you act. Pull at least one cited source — abstract for a journal article, primary text for a quotation, official page for a regulation — and confirm it says what your Agent said it says. The library entry (Li-13) is the matched companion to this one: the Agent surfaces the claim, the library hands you the document. If you're researching to make a decision, save the conversation, sleep on it, and ask follow-ups in the morning. Real research has a metabolism. Honor it.
+*What to do with the Output:* Verify before you act. Pull at least one cited source — abstract for a journal article, primary text for a quotation, official page for a regulation — and confirm it says what your Agent said it says. Li-13 (Using Your Public and Academic Library) is the matched companion to this Skill: the Agent surfaces the claim, the library hands you the document. If you're researching to make a decision, save the conversation, sleep on it, and ask follow-ups in the morning. Real research has a metabolism. Honor it.
 
 ::: tip
 _"Show me the sources, then steelman the strongest counterargument to your own summary."_ — A single prompt that catches more confirmation bias than any amount of follow-up questioning.
@@ -651,13 +651,13 @@ A different category of research tool: **source-grounded notebooks**. Rather tha
 
 <!-- RESEARCH NEEDED: Verify Tetlock & Gardner (2015) figures on calibration vs. domain expertise — Good Judgment Project data. Also worth citing Kahneman & Klein (2009) "Conditions for Intuitive Expertise" on when domain expertise is and isn't reliable. -->
 
-<!-- RESEARCH NEEDED (HUMAN CONDITION): Information overwhelm is a class-coded experience. The professional researcher has filters — colleagues who flag what's worth reading, journals whose tables of contents narrow the firehose, librarians who curate. The non-professional researcher has Google, which optimizes for engagement, not signal. The reader who feels they "can't keep up" is not failing; they are operating without the institutional curation that professionals take for granted. The Agent is, among other things, a curator — not a perfect one, but a starting one. The entry should name this without becoming a sermon. -->
+<!-- RESEARCH NEEDED (HUMAN CONDITION): Information overwhelm is a class-coded experience. The professional researcher has filters — colleagues who flag what's worth reading, journals whose tables of contents narrow the firehose, librarians who curate. The non-professional researcher has Google, which optimizes for engagement, not signal. The reader who feels they "can't keep up" is not failing; they are operating without the institutional curation that professionals take for granted. The Agent is, among other things, a curator — not a perfect one, but a starting one. The Skill should name this without becoming a sermon. -->
 
-<!-- RESEARCH NEEDED (HUMAN CONDITION): The shame of "not knowing how to research" is widespread and rarely admitted. Most adults were taught search techniques (Boolean operators, library catalogs) in middle school and never updated their skills. The reader who admits they "just google it" is admitting to using a 1998 skill in a 2026 information environment. The entry should validate this without lecturing — the skill atrophied because the institution stopped teaching it, not because the reader stopped caring. -->
+<!-- RESEARCH NEEDED (HUMAN CONDITION): The shame of "not knowing how to research" is widespread and rarely admitted. Most adults were taught search techniques (Boolean operators, library catalogs) in middle school and never updated their skills. The reader who admits they "just google it" is admitting to using a 1998 skill in a 2026 information environment. The Skill should validate this without lecturing — the skill atrophied because the institution stopped teaching it, not because the reader stopped caring. -->
 
 [^wb10-1]: Tetlock, P.E. & Gardner, D. (2015). [_Superforecasting: The Art and Science of Prediction._](https://www.goodjudgment.com/superforecasting/) Crown. See also Kahneman, D. & Klein, G. (2009). ["Conditions for Intuitive Expertise: A Failure to Disagree."](https://doi.org/10.1037/a0016755) _American Psychologist,_ 64(6), 515–526.
 
-<!-- BRAINSTORM: Future Computer and Web entries
+<!-- BRAINSTORM: Future Computer and Web Skills
 — WB-11: Privacy and Security Basics — passwords, 2FA, phishing, data brokers. The defensive counterpart to everything else in this domain.
 — WB-12: Digital Cleanup — deleting old accounts, reducing data footprint, cleaning up search results. The maintenance nobody teaches you to do.
 — WB-13: Accessible Technology — assistive tech, screen readers, voice control, adaptive devices. Technology that serves everyone, not just the defaults.

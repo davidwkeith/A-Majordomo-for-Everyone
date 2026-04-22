@@ -8,7 +8,7 @@ Last reviewed: 2026-04-22 against spec/ directory and codebase.
 
 1. **Continue resolving RESEARCH NEEDED items** — 5 domains remain, down from 12. The smallest domains (Creative, Chores) are the fastest wins. The domain-by-domain triage order in "Pending" below is still the right sequence.
 
-2. **Generate missing illustrations** — 25 art briefs have no corresponding images. Field Guide entries are the biggest gap (annotated documents, diagrams, icons). Run `npm run build -- --generate` to invoke image generation for missing art, then embed XMP metadata with `npx tsx build/embed-xmp.ts`.
+2. **Generate missing illustrations** — 25 art briefs have no corresponding images. Field Guide Skills are the biggest gap (annotated documents, diagrams, icons). Run `npm run build -- --generate` to invoke image generation for missing art, then embed XMP metadata with `npx tsx build/embed-xmp.ts`.
 
 3. **Apple Books highlights sync** (issue #23) — tooling task, independent of editorial work. Can be picked up as a change-of-pace from content triage.
 
@@ -18,7 +18,7 @@ Last reviewed: 2026-04-22 against spec/ directory and codebase.
 
 ## Editorial Notes
 
-64 `<!-- RESEARCH NEEDED: ... -->` and 58 `<!-- RESEARCH NEEDED (HUMAN CONDITION): ... -->` comments remain across Part 2 (down from 134 + 98 = 232 at last count). Of the 64 standard RESEARCH NEEDED, the Health entries are the 3 `Veterans integration ---` markers. These are author memos: background research directions, sociological context, and expansion ideas. They do not appear in the built ePub and do not correspond to unverified claims in the text. They should be reviewed before publication to decide what gets surfaced, expanded, or removed.
+64 `<!-- RESEARCH NEEDED: ... -->` and 58 `<!-- RESEARCH NEEDED (HUMAN CONDITION): ... -->` comments remain across Part 2 (down from 134 + 98 = 232 at last count). Of the 64 standard RESEARCH NEEDED, the Health Skills are the 3 `Veterans integration ---` markers. These are author memos: background research directions, sociological context, and expansion ideas. They do not appear in the built ePub and do not correspond to unverified claims in the text. They should be reviewed before publication to decide what gets surfaced, expanded, or removed.
 
 There are also 5 `<!-- EDITORIAL: ... -->` comments (Chores) and 3 `<!-- BRAINSTORM: ... -->` comments (Civic, Life, Computer & Web).
 
