@@ -19,12 +19,12 @@ There are also 5 `<!-- EDITORIAL: ... -->` comments (Chores) and 3 `<!-- BRAINST
 | Chores | 12 | 5 | 17 |
 | Creative | 7 | 8 | 15 |
 | Health | 3 | 0 | 3 |
-| Home | 0 | 0 | 0 |
+| Home | 0 | 2 | 2 |
 | Legal | 0 | 0 | 0 |
 | Money | 0 | 0 | 0 |
 | Work | 0 | 0 | 0 |
 | Computer & Web | 0 | 0 | 0 |
-| **Total** | **79** | **68** | **147** |
+| **Total** | **79** | **70** | **149** |
 
 Health resolved in the 2026-04-20 session: all 10 original memos surfaced into prose, callouts, or a restructured TIP (H-5 Charmaz paragraph + spoon theory MEME + community prompt; H-6 retirement-savings / long-term-care FAIRNESS + Medicare Advantage SCIENCE + SHIP ALSO; H-7 consolidated FAIRNESS on cultural variation and disparities + SCIENCE on ambiguous loss + extended TIP for sibling dynamics + VA burial/honors ALSO). H-17 and H-19 merged; H-13 and H-18 merged; H-3 absorbed the H-24 brainstorm on negotiation. H-22 Mental Health First Aid drafted 2026-04-21. The remaining Health memos are the three Veterans-integration markers for H-4, H-12, and H-13.
 
