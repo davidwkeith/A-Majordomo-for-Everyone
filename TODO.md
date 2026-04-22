@@ -6,27 +6,29 @@ Last reviewed: 2026-04-21 against spec/ directory and codebase.
 
 ## Editorial Notes
 
-134 `<!-- RESEARCH NEEDED: ... -->` and 98 `<!-- RESEARCH NEEDED (HUMAN CONDITION): ... -->` comments remain across Part 2. Of the 134 standard RESEARCH NEEDED, 16 carry the `Veterans integration ---` prefix per the convention in `spec/editorial/editorial-conventions.md`. These are author memos: background research directions, sociological context, and expansion ideas. They do not appear in the built ePub and do not correspond to unverified claims in the text. They should be reviewed before publication to decide what gets surfaced, expanded, or removed.
+79 `<!-- RESEARCH NEEDED: ... -->` and 68 `<!-- RESEARCH NEEDED (HUMAN CONDITION): ... -->` comments remain across Part 2. Of the 79 standard RESEARCH NEEDED, 6 carry the `Veterans integration ---` prefix per the convention in `spec/editorial/editorial-conventions.md`. These are author memos: background research directions, sociological context, and expansion ideas. They do not appear in the built ePub and do not correspond to unverified claims in the text. They should be reviewed before publication to decide what gets surfaced, expanded, or removed.
 
 There are also 5 `<!-- EDITORIAL: ... -->` comments (Chores) and 3 `<!-- BRAINSTORM: ... -->` comments (Civic, Life, Computer & Web).
 
 | Domain | RESEARCH NEEDED | HUMAN CONDITION | Total |
 |--------|-----------------|-----------------|-------|
 | Life | 16 | 25 | 41 |
-| Work | 20 | 14 | 34 |
-| Money | 19 | 12 | 31 |
 | Civic | 15 | 12 | 27 |
 | Transportation | 17 | 7 | 24 |
 | IRL | 9 | 11 | 20 |
-| Legal | 16 | 2 | 18 |
 | Chores | 12 | 5 | 17 |
 | Creative | 7 | 8 | 15 |
 | Health | 3 | 0 | 3 |
 | Home | 0 | 2 | 2 |
+| Legal | 0 | 0 | 0 |
+| Money | 0 | 0 | 0 |
+| Work | 0 | 0 | 0 |
 | Computer & Web | 0 | 0 | 0 |
-| **Total** | **134** | **98** | **232** |
+| **Total** | **79** | **70** | **149** |
 
 Health resolved in the 2026-04-20 session: all 10 original memos surfaced into prose, callouts, or a restructured TIP (H-5 Charmaz paragraph + spoon theory MEME + community prompt; H-6 retirement-savings / long-term-care FAIRNESS + Medicare Advantage SCIENCE + SHIP ALSO; H-7 consolidated FAIRNESS on cultural variation and disparities + SCIENCE on ambiguous loss + extended TIP for sibling dynamics + VA burial/honors ALSO). H-17 and H-19 merged; H-13 and H-18 merged; H-3 absorbed the H-24 brainstorm on negotiation. H-22 Mental Health First Aid drafted 2026-04-21. The remaining Health memos are the three Veterans-integration markers for H-4, H-12, and H-13.
+
+Work resolved in the 2026-04-21 session: all 34 original memos surfaced into cited callouts and footnotes, and the entries were reordered from employment-lifecycle order (W-1 ... W-11) to a least-liked-first order (W-9, W-10, W-2, W-1, W-3, W-6, W-11, W-5, W-4, W-8). Stable W-N IDs preserved. W-1 added five callouts (Paul & Moser unemployment meta-analysis; Babcock & Laschever + racial gap FAIRNESS; Dastin 2018 on Amazon's scrapped recruiting AI; Cappelli "skills gap" reframe; federal Veterans' Preference / VEOA / VRA / GI Bill ALSO). W-2 added USERRA ALSO. W-3 added two callouts (HR-mandate FAIRNESS; Title VII / EEOC documentation SCIENCE with 180/300-day deadlines). W-4 added three (class-dimension FAIRNESS; collaboration-vs-control SCIENCE; Surgeon General loneliness advisory FAIRNESS). W-5 added four (NLRA Section 7 SCIENCE on wage discussion; Bronfenbrenner 34% retaliation FAIRNESS; Western & Rosenfeld wage-inequality SCIENCE + Gallup 2023; resurgence MEME). W-6 added three (AFL-CIO _Death on the Job_ OSHA capacity SCIENCE; immigration-intersection FAIRNESS; workers' comp appeal TIP paralleling H-4). W-8 added two (Upwork freelancer loneliness FAIRNESS; SE-tax / 1040-ES SCIENCE with the quote-the-rate prompt). W-9 added three (annual-review reversal SCIENCE; Clance & Imes impostor-phenomenon FAIRNESS; PIP-as-termination TIP). W-10 added two (APA + Eisenberger social-pain SCIENCE; up/across/down managing TIP). W-11 added four (SSA disability SCIENCE; TIAA P-Fin FAIRNESS on benefits-as-design; HSA/FSA TIP; ERISA vesting SCIENCE) plus TRICARE/TSP/BRS/SBP ALSO. Footnotes renumbered within W-5 and W-6 to start at 1.
 
 Home resolved in the 2026-04-21 session: 14 of 16 original memos surfaced into cited callouts and footnotes. Ho-4 expanded the eviction FAIRNESS with Eviction Lab 2024 data + a new SCRA ALSO callout (50 U.S.C. §§ 3901--4043). Ho-6 added a SCIENCE on NLIHC _Out of Reach 2025_ and an ALSO on VA home loans (funding fee, IRRRL, Blue Water Navy Act). Ho-8 updated the FEMA footnote to the 2024 National Household Survey and added a FAIRNESS citing Klinenberg's _Heat Wave_ and Bullard & Wright on Katrina. Ho-9 added a hoarding-disorder FAIRNESS with DSM-5 prevalence (2.5%) and referral to the IOCDF directory. Ho-10 swapped the unverified $56B industry figure for the IBISWorld $38.6B citation, updated the NFPA footnote to the 2024 report (ownership and testing rates), added a balanced SCIENCE on CCTV deterrent research (Welsh & Farrington; Piza et al.), and extended the DV FAIRNESS with The Hotline's technology-facilitated-abuse resource. The remaining two Home memos are HUMAN CONDITION planning lists in Ho-4 and Ho-6 that sketch future standalone entries.
 
@@ -84,14 +86,11 @@ Carried from the former BRAINSTORM comment in `src/content/02-field-guide/01-hea
 
 ## Pending
 
-- [ ] Editorial notes triage --- domain-by-domain, smallest first (Health and Home substantially complete; Computer & Web has no memos):
+- [ ] Editorial notes triage --- domain-by-domain, smallest first (Health, Home, Work, Legal, and Money substantially complete; Computer & Web has no memos):
   1. Creative (15)
   2. Chores (17)
-  3. Legal (18)
-  4. IRL (20)
-  5. Transportation (24)
-  6. Civic (27)
-  7. Money (31)
-  8. Work (34)
-  9. Life (41)
+  3. IRL (20)
+  4. Transportation (24)
+  5. Civic (27)
+  6. Life (41)
 - [ ] Kidlin's Law ("If you can write the problem down clearly, you're halfway to solving it") --- it's essentially the premise of Strategy 0 and Chapter 4. Decide whether to surface it. Current spec blocks dropping it in as a Strategy 0 epigraph two ways: `spec/editorial/editorial-conventions.md:11` reserves the strategy-chapter epigraph slot for the TRINITRON block, and the same rule bans motivational quotes. Options: (1) add it as a pull-quote between the italic subtitle and the `---` rule, keeping TRINITRON as the epigraph; (2) replace the Seinfeld TRINITRON; (3) amend the spec to allow a second short epigraph on strategy chapters and carve out an aphorism exception. Provenance is also uncertain --- no reliable primary source.

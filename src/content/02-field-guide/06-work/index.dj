@@ -17,275 +17,6 @@ George Jetson worked a few hours a day, a few days a week, pushing a single butt
 
 ---
 
-#### W-1: Getting a Job
-*Strategy:* Draft + Prepare
-*See also:* L-1: Negotiating a Contract (for offer letters and non-competes), Li-1: Preparing for a Difficult Conversation (same preparation technique)
-*My Man Jeeves:* _One might observe that the job search is a system designed by employers, for employers, in which the candidate is expected to perform enthusiasm for a position required for survival while conducting oneself as though the power dynamic did not exist. The résumé, it would appear, is a marketing document upon which judgment is passed in approximately six seconds. The cover letter is a genre governed by rules that are nowhere made explicit. The salary negotiation rewards the party in possession of superior information regarding the market rate. The reader's Agent addresses this information asymmetry — which is, one ventures to suggest, the entire purpose of this volume._
-*The Spec:*
-::: prompt
-I am looking for a job in [field/role]. My experience: [brief summary].
-What I'm working with: [currently employed / unemployed / career change /
-re-entering the workforce]
-What I need help with:
-— Résumé: [need to update / need to customize for a specific posting /
-   starting from scratch]
-— Cover letter: [have a posting to respond to / general template]
-— Interview: [have an interview on [date] / want to prepare generally]
-— Salary: [have an offer to evaluate / want to research market rate]
-Please [customize my résumé for this posting / draft a cover letter /
-prepare me for common interview questions / analyze this offer].
-[Paste the job posting or offer if applicable.]
-:::
-*What to do with the Output:* For résumés and cover letters, edit the output into your own voice — recruiters can spot AI-generated text, and your Agent writes like an Agent, not like you. For salary negotiation, the key question is: _"What is the market rate for [role] at [company size] in [city] for someone with [X years] of experience?"_ The answer is the floor, not the target.
-
-::: meme
-The hiring process is now AI screening résumés written by AI, evaluating cover letters drafted by AI, scheduling through AI, and sometimes conducting first-round interviews by AI. The human enters at the end to make a "gut decision." The question is not whether AI belongs in hiring. It is already there. The question is whether you are using it too, or whether you are the last person at the table doing this by hand.
-:::
-
-
-::: tip
-_"I have an interview at [company] for [role] on [date]. What are the three questions they are most likely to ask, and help me practice answering them out loud."_
-:::
-
-
-::: also
-Checking current information requires web search, which is free in Gemini, ChatGPT, and Copilot. In Claude, web search requires the paid tier. See [Appendix G](06-appendix-g-feature-table.xhtml).
-:::
-
-
-<!-- RESEARCH NEEDED (HUMAN CONDITION): Job search depression is clinically documented. Unemployment lasting more than 6 months increases depression risk by approximately 3x (Paul & Moser, 2009, meta-analysis in Journal of Vocational Behavior). The rejection is not personal but the nervous system does not know that. The job search activates the same social-pain circuits as romantic rejection (Eisenberger, 2012). The entry should acknowledge that the emotional toll of job searching is a medical-grade stressor, not a character flaw, and that using your Agent to reduce the mechanical burden (drafting, researching, preparing) preserves cognitive and emotional bandwidth for the parts that actually require you. -->
-
-<!-- RESEARCH NEEDED (HUMAN CONDITION): Salary negotiation is the purest information asymmetry in the employment relationship. The employer knows the budget. You don't. Babcock & Laschever (2003, "Women Don't Ask") documented the gender negotiation gap — women are penalized for negotiating in ways men are not. The research is 20+ years old and the gap has narrowed but not closed. The entry should note this and also address the racial negotiation gap, which is less researched but equally documented in anecdotal data. -->
-
-<!-- RESEARCH NEEDED: AI in hiring — résumé screening AI has documented bias. Dastin (2018, Reuters) reported on Amazon's recruiting tool that systematically penalized women's résumés. The reader should know that the AI on the other side of their application may have biases that their own Agent can help them work around. This is not cheating — it is parity. If the employer uses AI to screen, you should use AI to prepare. -->
-
-<!-- RESEARCH NEEDED: The "skills gap" discourse. Employers claim they can't find qualified candidates while wages remain flat — this tension is documented (Cappelli, 2012, "Why Good People Can't Get Jobs"). Upskilling with your Agent (online courses, certification prep, portfolio building) is practical, but the entry should note that the "skills gap" is often a "wages gap" wearing a different hat. -->
-
-<!-- RESEARCH NEEDED: Veterans integration --- Federal Veterans' Preference (5-point for honorable discharge; 10-point for service-connected disability or eligible surviving spouse/parent); VEOA and VRA appointment authorities. GI Bill also covers civilian certifications and apprenticeships, not just degrees. -->
-
----
-
-#### W-2: Leaving a Job
-*Strategy:* Assert + Decode
-*See also:* L-1: Negotiating a Contract (for the severance agreement), M-1: Banking and Savings (emergency fund while unemployed), W-5: Unions (if you have a CBA)
-*My Man Jeeves:* _It would not be inaccurate to observe that employment law is among those areas in which the distance between what most employees believe their rights to be and what those rights actually are is widest — and where the consequences of the misapprehension are most immediate. The severance agreement carries a signing deadline. The WARN Act notice carries a claim deadline. The clock, one feels compelled to note, begins whether the individual is aware of it or not. One's Agent can read the agreement and identify the deadlines before they expire._
-*The Spec:*
-::: prompt
-I was just [laid off / fired / asked to resign] from my job at [type of company]
-in [state]. I was there for [X years]. I was given [severance offer / no offer].
-I want to understand:
-1. What are my legal rights in this situation?
-2. Is the severance offer I was given typical, low, or negotiable?
-3. Are there any deadlines I need to know about right now?
-4. What should I NOT sign until I understand it better?
-Give me the most conservative answer. I will verify with
-an employment attorney or legal aid organization.
-:::
-*What to do with the Output:* Do not sign anything yet. You usually have 21 days (45 days if part of a group layoff) to review a severance agreement.[^w2-1] Print the output, highlight the deadlines, and call an employment attorney — many offer a free 30-minute consultation. The clock is real but it is longer than your employer implies.
-
-::: also
-Paste or upload your document directly — file upload works in Claude, Gemini, ChatGPT, and Copilot. See [Appendix G](06-appendix-g-feature-table.xhtml).
-:::
-
-[^w2-1]: The 21-day (or 45-day) review period is required by the Older Workers Benefit Protection Act (OWBPA), 29 U.S.C. § 626(f). See also EEOC, "Understanding Waivers of Discrimination Claims in Employee Severance Agreements," https://www.eeoc.gov/laws/guidance/qa-understanding-waivers-discrimination-claims-employee-severance-agreements.
-
-<!-- RESEARCH NEEDED: Veterans integration --- USERRA (Uniformed Services Employment and Reemployment Rights Act, 38 U.S.C. §§ 4301–4335) protects reservists and National Guard members: reinstatement at pre-service job with equivalent pay, benefits, and seniority following up to 5 cumulative years of service; protected from discharge without cause for up to 1 year after reemployment. -->
-
----
-
-#### W-3: Working with Human Resources
-*Strategy:* Draft + Assert
-*See also:* W-2: Understanding Your Rights If You're Let Go, Li-1: Preparing for a Difficult Conversation
-*My Man Jeeves:* _It may be useful to note that Human Resources exists to protect the company. This is not a matter of cynicism — it is the department's actual mandate. An HR representative who assists an employee does so because assisting the employee also serves the company's interest, which is, one acknowledges, frequently the case. An understanding of this alignment — the occasions upon which one's interests and the company's overlap, and those upon which they diverge — represents the difference between employing HR effectively and finding oneself somewhat surprised by the outcome. One's Agent can help one prepare for the interaction with a clear understanding of which category it falls into._
-*The Spec:*
-::: prompt
-I need to deal with an HR situation at work.
-My situation: [performance review / workplace conflict /
-harassment or discrimination / requesting accommodation /
-documenting something / asking about benefits or policy]
-What happened: [describe factually — dates, people, what was
-said or done]
-What I want to happen: [specific outcome]
-Please help me:
-1. Understand how HR is likely to view this situation
-2. Draft what I should say or write — factual, professional, documented
-3. Tell me what to put in writing vs. what to say in person
-4. Flag anything I should be careful about
-:::
-*What to do with the Output:* Put everything in writing. Email yourself a summary after every meeting. Use the phrase "per our conversation on [date]" in follow-up emails. This is not paranoia — it is the documentation standard that HR itself uses. Match their rigor.
-
-::: tip
-_"I need to write my annual self-review. Here are my accomplishments this year: [list]. Write a first draft in first person that is specific, uses metrics where possible, and frames my work in terms of business impact."_
-:::
-
-
-<!-- RESEARCH NEEDED (HUMAN CONDITION): The performance review is one of the most anxiety-producing rituals in modern work life. Murphy (2020, "Performance Evaluation Will Not Die, But It Should") argues that traditional reviews are poor predictors of actual performance and better predictors of reviewer bias. Knowing this doesn't eliminate the anxiety but it contextualizes it — the game is impression management, not objective assessment. Your Agent can help you play the game without pretending it isn't one. -->
-
-<!-- RESEARCH NEEDED (HUMAN CONDITION): Workplace conflict is the most common source of daily stress in American adults (APA Stress in America survey, annual — verify latest year). The vast majority goes unreported because reporting requires trusting a system (HR) that employees correctly perceive as aligned with management. The entry should be honest about this dynamic while still being practically useful: there are times when going to HR serves you, and there are times when documenting independently is the better move. Your Agent can help you assess which is which. -->
-
-<!-- RESEARCH NEEDED: Documentation best practices for workplace harassment and discrimination. EEOC guidelines exist but are written for lawyers. The entry should translate: what to save, how to save it (personal device, personal email, not company systems), the difference between an informal complaint and a formal report, timeline requirements, and the retaliation protections under Title VII (and their practical limits). -->
-
----
-
-#### W-4: Work from Home or RTO?
-*Strategy:* Research + Decide
-*See also:* W-7: Using Your Agent to Get More Done, Li-1: Preparing for a Difficult Conversation (if you need to negotiate)
-*My Man Jeeves:* _One could not help but observe that the remote work debate is conducted primarily by executives possessed of home offices and opinion columnists enjoying flexible schedules, regarding employees whose commute carries a financial cost and whose childcare arrangements permit no margin. The research on productivity, collaboration, and wellbeing is, it would appear, rather more nuanced than either party to the argument is inclined to acknowledge. The reader's Agent may be of assistance in evaluating the evidence, weighing the specifics of one's situation, and — should the need arise to present a case to one's employer — constructing one that relies upon data rather than preference._
-*The Spec:*
-::: prompt
-My company is [requiring return to office / offering hybrid /
-I'm choosing between a remote and in-office role / debating
-whether to push for remote work].
-My situation: [commute time and cost, childcare needs, home
-workspace quality, team dynamics, role requirements]
-What I want to understand:
-1. What does the actual research say about remote vs. in-office
-   productivity for my type of work?
-2. What are the real trade-offs — not the talking points?
-3. If I need to negotiate, what's my strongest case?
-4. What should I be honest with myself about — the parts of
-   remote work that don't serve me?
-:::
-*What to do with the Output:* If you need to make the case to your manager, copy the data points into a one-page memo. Lead with the business case (productivity, retention, cost savings), not the personal case. The personal case is why you want it. The business case is why they will say yes.
-
-::: science
-Bloom et al. (2015) conducted a randomized controlled trial of remote work at Ctrip (n≈249) and found a 13% performance increase for remote workers, along with higher satisfaction and lower attrition. A 2024 follow-up at Trip.com (Ctrip's rebrand, n=1,612) found that hybrid work (3 days in, 2 remote) had no negative effect on productivity or career advancement.[^w4-1]
-:::
-
-
-<!-- RESEARCH NEEDED: Bloom (Stanford) 2015 and 2024 studies are the gold standard. But there is a class dimension the debate ignores: remote work is available primarily to knowledge workers. For service, retail, manufacturing, healthcare, and agricultural workers, "WFH" is not a choice. The entry should acknowledge who it's for and who it doesn't reach. -->
-
-<!-- RESEARCH NEEDED (HUMAN CONDITION): The remote work debate is a proxy for deeper questions about what work is for and who controls the terms. Is physical presence a legitimate collaboration requirement or a management control mechanism? The answer is genuinely "sometimes both," which is why the debate generates more heat than light. The entry should help the reader distinguish between legitimate collaboration needs and managerial anxiety dressed up as collaboration needs. -->
-
-<!-- RESEARCH NEEDED (HUMAN CONDITION): Remote work isolation is real. Murthy (Surgeon General, 2023) identified workplace connection as a key factor in the loneliness epidemic. The entry should not be purely pro-remote — the trade-off between autonomy and connection is genuine, and different people have very different needs on this axis. Some people thrive in isolation. Some deteriorate. Knowing which you are is more useful than knowing what the research average says. -->
-
-[^w4-1]: Bloom, N. et al. (2015). "Does Working from Home Work? Evidence from a Chinese Experiment." _Quarterly Journal of Economics,_ 130(1), 165–218. The 2024 follow-up: Bloom, N. et al. (2024). "Hybrid Working from Home Improves Retention Without Damaging Performance." _Nature,_ 630, 920–925.
-
----
-
-#### W-5: Unions
-*Strategy:* Navigate + Assert
-*See also:* C-6: Advocating for Change (same organizing skills), L-1: Negotiating a Contract (for reading the CBA)
-*My Man Jeeves:* _A union is, at its foundation, a group of employees who arrived at the conclusion that negotiating individually was not producing satisfactory results. The information asymmetry between an employer and a single employee is structural and permanent — the employer is aware of the budget, the market rate, the headcount plan, and the legal landscape. The employee is aware of one's own salary. The union exists to address this disparity. One might gently observe that everything the reader has been told about unions — whether favorable or otherwise — was communicated by a party holding a position on whether that disparity ought to close. The reader's Agent holds no such position. It has the NLRA, the relevant case law, and the current data._
-*The Spec:*
-::: prompt
-I want to understand [my rights regarding unionizing / how to
-start a union / how my existing union works / how to get involved
-in union leadership / how to read my collective bargaining agreement].
-My situation: [industry, state, company size, current union status]
-My specific question: [describe]
-Please:
-1. Explain my legal rights under the NLRA (or relevant law)
-2. Walk me through the practical steps for [what I want to do]
-3. Tell me what my employer can and cannot legally do in response
-4. Flag the common mistakes people make in this process
-Give me the legal answer, not the political one.
-:::
-*What to do with the Output:* If you are organizing, do not discuss it on company devices, in company channels, or during work hours until you understand your protections. Your Agent can explain the legal framework, but a labor attorney or your regional NLRB office is the authoritative source for your specific situation. Many labor attorneys offer free initial consultations for organizing questions.
-
-::: tip
-_"I have a collective bargaining agreement I don't fully understand. [Paste relevant section.] What does this actually mean for me day-to-day, and what rights does it give me that I'm probably not using?"_
-:::
-
-
-<!-- RESEARCH NEEDED: NLRA basics for lay audience. Section 7 rights (right to organize, right to discuss wages), card check vs. election process, unfair labor practices, right-to-work states vs. agency shop states. Many workers don't know that discussing wages with coworkers is a federally protected right regardless of what their employee handbook says. This is one of the most underused rights in American labor law. -->
-
-<!-- RESEARCH NEEDED (HUMAN CONDITION): The fear of organizing is rational. While retaliation is illegal under the NLRA, enforcement is slow and penalties are weak. Bronfenbrenner (2009) found employers fire workers in 34% of union campaigns. The NLRB backlog means unfair labor practice charges take months to resolve, during which the fired worker has no income. The entry should be honest about this risk while also noting that the risk of permanent information asymmetry — no collective bargaining, no grievance process, no voice — is the alternative. -->
-
-<!-- RESEARCH NEEDED (HUMAN CONDITION): Union decline in America — from 35% membership in 1954 to approximately 10% in 2024 — correlates with wage stagnation, rising inequality, and the decline of the middle class. Western & Rosenfeld (2011, American Sociological Review) is the key paper. The correlation is one of the most robust findings in labor economics. The entry should present the data and let the reader draw conclusions. -->
-
-<!-- RESEARCH NEEDED: The current union resurgence — Starbucks Workers United, Amazon Labor Union, Apple Store organizing, graduate student unions, newsroom unions. Gallup 2023 shows 67% public approval of unions, the highest since 1965. But approval and membership are diverging — the gap between wanting a union and having one is the story. The barriers are structural (employer resistance, legal delays, fear of retaliation), not attitudinal. -->
-
----
-
-#### W-6: Workplace Safety
-*Strategy:* Assert + Navigate
-*See also:* W-2: Understanding Your Rights If You're Let Go (if retaliation follows), L-3: Writing a Demand Letter
-*My Man Jeeves:* _One's body is, if one may be permitted the observation, the asset one brings to work. The employer's obligation not to damage it is codified in law, implemented through OSHA, and enforced through a system that requires the worker to know it exists and how to employ it. Workers' compensation is insurance the employer is required to carry. Filing a claim is not an adversarial act — it is the use of the system as designed. The adversarial dimension, one regrets to note, tends to present itself later, should the claim be denied, and it is denied with a frequency that warrants preparation. One's Agent has read the relevant OSHA regulations and can assist with both the filing and the appeal._
-*The Spec:*
-::: prompt
-I have a workplace safety concern [or: I was injured at work].
-My situation: [describe — unsafe conditions, injury type, when it
-happened, what I've reported so far]
-My state: [state]
-My employer's response so far: [cooperative / dismissive /
-retaliatory / I haven't reported yet]
-Please help me:
-1. Understand my rights under OSHA and state worker's comp law
-2. Walk me through the reporting and filing process step by step
-3. Tell me what deadlines I cannot miss
-4. Explain what protections I have against retaliation —
-   and be honest about how strong those protections actually are
-:::
-*What to do with the Output:* Document everything. Photograph conditions. Save communications. If you are injured, report to your employer in writing, seek medical attention, and file a workers' comp claim — in that order, and the first 24 hours set the trajectory of the entire case. Your state's workers' comp board website has the specific filing forms and deadlines.
-
-::: fairness
-Workers in high-risk industries — construction, agriculture, warehousing, meatpacking — have the highest injury rates and the least bargaining power to demand improvements. If your Agent's advice assumes a white-collar office, specify your actual work environment.
-:::
-
-
-<!-- RESEARCH NEEDED: OSHA enforcement capacity. OSHA has approximately 1,850 inspectors for 8 million workplaces in the United States. At current staffing, it would take 165 years to inspect each workplace once (AFL-CIO "Death on the Job" report — verify latest year). This is not a conspiracy. It is a budget. The practical implication: OSHA is reactive, not proactive. Your complaint triggers the inspection. Without your complaint, conditions persist. -->
-
-<!-- RESEARCH NEEDED (HUMAN CONDITION): The fear of reporting unsafe conditions — retaliation, ostracism, being labeled a troublemaker, losing overtime — is the primary barrier to workplace safety. This is a social-psychological problem masquerading as a legal one. The legal protections exist on paper. The social cost of being "that person" is real, daily, and unaddressed by the statute. The entry should acknowledge this honestly. -->
-
-<!-- RESEARCH NEEDED: Workers' comp denial rates and appeals process. Similar dynamic to health insurance denials (H-4): the initial denial is often a business decision, not a medical one. Appeal success rates are significant when workers actually appeal. The information asymmetry — not the merits — is the barrier. -->
-
-<!-- RESEARCH NEEDED (HUMAN CONDITION): The intersection of immigration status and workplace safety is one of the most cynical information asymmetries in American labor. Undocumented workers have the highest workplace fatality rates (particularly in construction and agriculture) and the lowest reporting rates. OSHA protections technically apply regardless of immigration status, but the practical reality is that reporting an unsafe workplace can trigger immigration consequences. The workers most at risk are the least able to use the safety system designed to protect them. The entry should name this. -->
-
----
-
-#### W-8: Freelancing and Self-Employment
-*Strategy:* Navigate + Prepare
-*See also:* M-7: Taxes (1099 complexity is a different animal), L-1: Negotiating a Contract (every engagement needs one), M-8: Insurance (no employer, no group rate)
-*My Man Jeeves:* _One might observe that the freelancer occupies a position of some structural peculiarity in the American labor market — performing the same work as an employee while receiving none of the infrastructure that employment provides. There is no HR department to explain the benefits, because there are no benefits to explain. There is no payroll department to withhold taxes, because the withholding is now the freelancer's responsibility, as is the estimation, the quarterly filing, and the penalty for underestimation. The 1099 form, one ventures to suggest, is not merely a tax classification but a transfer of administrative burden from the entity that profits from the work to the individual who performs it. One's Agent can assist in managing that burden — the contracts, the invoices, the rate calculations, the quarterly estimates — so that one's attention remains upon the work itself rather than the paperwork surrounding it._
-*The Spec:*
-::: prompt
-I am [freelancing / self-employed / considering going independent]
-in [field or industry].
-My situation: [full-time freelance / side work while employed /
-just starting out / have been doing this for X years]
-What I need help with:
---- Contracts: [reviewing a client contract / drafting my own
-   standard agreement / understanding a non-compete or IP clause]
---- Rates: [setting my rate for the first time / raising my rate /
-   evaluating whether a project is worth the quoted rate]
---- Taxes: [understanding 1099 vs. W-2 / setting up quarterly
-   estimated payments / what I can deduct]
---- Invoicing: [creating a professional invoice template /
-   dealing with a client who won't pay]
---- Insurance: [health insurance options without an employer /
-   liability insurance for my work]
-Please [help me with the specific item above]. Give me the most
-conservative tax and legal answer. I will verify with an
-accountant or attorney.
-:::
-*What to do with the Output:* For contracts, never sign a client's template without running it through your Agent first — the IP assignment clause alone can sign away work you have not yet created. For rates, the calculation is not "what feels reasonable" but: (target annual income + self-employment tax + health insurance + retirement contribution + business expenses) / billable hours per year. Most new freelancers undercharge by 30--40% because they calculate from a salary number that already had those costs hidden inside it.
-
-::: science
-The "misclassification" problem is not academic. The IRS estimates that employers misclassify millions of workers as independent contractors to avoid payroll taxes, unemployment insurance, and benefits obligations. The Department of Labor's 2024 rule tightened the test for independent contractor status under the FLSA, but enforcement remains complaint-driven.[^w8-1] If your "freelance" arrangement involves a single client who sets your hours and provides your tools, you may legally be an employee owed back benefits.
-:::
-
-
-::: tip
-_"I want to raise my freelance rate. My current rate is [X]. I have [Y years] of experience in [field]. Help me: (1) research the current market rate for this work, (2) draft an email to existing clients announcing the increase, and (3) calculate what my rate needs to be to cover taxes, insurance, and retirement at the same take-home as a $[Z] salary."_
-:::
-
-
-::: fairness
-AI tools are particularly useful for freelancers drafting contracts and invoices, but they generate legal language, not legal advice. A contract your Agent drafted may be missing jurisdiction-specific requirements or enforceability provisions. For engagements over $5,000, an attorney review is worth the cost — it is a business expense and it is deductible.
-:::
-
-
-<!-- RESEARCH NEEDED: IRS misclassification data — the "tax gap" attributable to 1099 misclassification. GAO and Treasury Inspector General reports have estimates. The DOL's 2024 independent contractor rule (effective March 2024) replaced the Trump-era rule with a stricter economic reality test. Verify current legal status — litigation is ongoing as of early 2025. -->
-
-<!-- RESEARCH NEEDED (HUMAN CONDITION): The loneliness of freelancing is underresearched relative to its prevalence. Approximately 64 million Americans freelanced in 2023 (Upwork "Freelance Forward" report — verify latest). The loss of workplace social infrastructure — casual conversation, shared lunch, someone who notices when you're struggling — is a real cost that freelancers rarely price into the rate calculation. The freedom is genuine. The isolation is also genuine. They coexist. -->
-
-<!-- RESEARCH NEEDED: Self-employment tax rate (currently 15.3% — 12.4% Social Security + 2.9% Medicare) is the single biggest surprise for new freelancers. An employee pays half; the employer pays half. A freelancer pays both halves. The "deductible half" on the 1040 softens it but does not eliminate it. Quarterly estimated payments (Form 1040-ES) are required or penalties accrue. Verify current thresholds and penalty rates. -->
-
-[^w8-1]: U.S. Department of Labor, "Employee or Independent Contractor Classification Under the Fair Labor Standards Act," 89 Fed. Reg. 1638 (January 10, 2024). The rule applies a six-factor "economic reality" test. See also IRS, "Independent Contractor (Self-Employed) or Employee?," https://www.irs.gov/businesses/small-businesses-self-employed/independent-contractor-self-employed-or-employee.
-
----
-
 #### W-9: Navigating a Performance Review
 *Strategy:* Prepare + Assert
 *See also:* W-3: Working with Human Resources (when the review triggers an HR process), W-2: Leaving a Job (if the review is the writing on the wall), Li-1: Preparing for a Difficult Conversation (same preparation framework)
@@ -326,15 +57,31 @@ The performance review was invented in the 1940s by the U.S. military to identif
 :::
 
 
-<!-- RESEARCH NEEDED: Murphy & Cleveland (1995), "Understanding Performance Appraisal" — foundational text on the gap between what reviews measure and what they claim to measure. Also Cappelli & Tavis (2016, HBR) on the movement away from annual reviews and toward continuous feedback. Verify whether major companies that eliminated annual reviews (Deloitte, Adobe, GE) have sustained the change or reverted. -->
+::: science
+In the mid-2010s a wave of large employers --- Deloitte, Adobe, GE, Accenture, Gap --- announced they were abandoning annual performance ratings in favor of continuous feedback. The follow-up is less publicized: most retained the check-in ritual but reintroduced numerical ratings within a few years, because compensation and promotion committees needed a number to distribute money against. Cappelli and Tavis, writing in the _Harvard Business Review_, describe the reversal in detail.[^w9-2] Murphy and Cleveland's foundational text makes the deeper point: reviews are better predictors of reviewer bias than of employee performance, and the gap between what reviews measure and what they claim to measure is the system, not a bug in it.[^w9-3] The ritual you dread is load-bearing --- it is how compensation is justified and defended internally. Your job is to produce the documentation the ritual runs on.
+:::
 
-<!-- RESEARCH NEEDED (HUMAN CONDITION): Performance review anxiety is documented but underresearched as a standalone phenomenon. The review collapses professional identity, financial security, and self-worth into a single conversation with a single person who may or may not have paid attention all year. For workers with impostor syndrome — which research estimates affects roughly 70% of people at some point (Clance & Imes, 1978; Sakulku & Alexander, 2011) — the review is not a feedback mechanism but a threat-detection event. Your Agent cannot fix the system. It can ensure you walk in with documentation that is stronger than your anxiety. -->
 
-<!-- RESEARCH NEEDED: The PIP (Performance Improvement Plan) — in practice, most PIPs are documentation for termination, not genuine improvement plans. Workers placed on PIPs should understand this framing and prepare accordingly: document everything, consult W-2 (Leaving a Job), and consider whether the PIP is a negotiation opening for a severance conversation. Verify employment attorney perspectives on PIP survival rates. -->
+::: fairness
+The impostor phenomenon --- the persistent feeling of being a fraud despite evidence of competence --- affects an estimated 70% of people at some point.[^w9-4] For workers who carry it, the review is not a feedback exchange but a threat-detection event: the single conversation in which professional identity, financial security, and self-worth are collapsed into one rating delivered by one person who may or may not have been paying attention all year. Your Agent cannot resolve this. It can ensure you arrive with documentation that speaks louder than the anxiety.
+:::
+
+
+::: tip
+If you are placed on a Performance Improvement Plan, read it as what it usually is: the documentation trail for a termination that has already been decided. Employment attorneys broadly agree that most PIPs end in separation rather than recovery, though companies do not publish the data. Consult W-2: Leaving a Job and consider whether the PIP is an opening for a severance conversation. The test: ask your manager to write down what "successful completion" looks like, with specific metrics and a deadline. If they cannot or will not, the plan is not about your performance.
+:::
+
 
 [^w9-1]: See Thorsteinson, T. J. (2000). "A Meta-Analysis of Recency Effects in Performance Appraisal." Presented at the Society for Industrial and Organizational Psychology conference. Also Murphy, K. R. (2020). "Performance Evaluation Will Not Die, But It Should." _Annual Review of Organizational Psychology and Organizational Behavior,_ 7, 171--194.
 
+[^w9-2]: Cappelli, P., & Tavis, A. (2016). ["The Performance Management Revolution."](https://hbr.org/2016/10/the-performance-management-revolution) _Harvard Business Review,_ October 2016.
+
+[^w9-3]: Murphy, K. R., & Cleveland, J. N. (1995). _Understanding Performance Appraisal: Social, Organizational, and Goal-Based Perspectives._ Sage.
+
+[^w9-4]: Clance, P. R., & Imes, S. A. (1978). "The Imposter Phenomenon in High Achieving Women: Dynamics and Therapeutic Intervention." _Psychotherapy: Theory, Research & Practice,_ 15(3), 241--247. Prevalence estimate from Sakulku, J., & Alexander, J. (2011). "The Impostor Phenomenon." _International Journal of Behavioral Science,_ 6(1), 75--97.
+
 ---
+
 
 #### W-10: Dealing with Workplace Conflict
 *Strategy:* Prepare + Navigate
@@ -378,17 +125,225 @@ Power dynamics shape which conflicts can be addressed directly. Telling a peer t
 :::
 
 
-<!-- RESEARCH NEEDED: Thomas-Kilmann Conflict Mode Instrument — verify current research on workplace conflict styles. The TKI is widely used but also widely criticized as overly simplistic. More recent frameworks (dual concern model, Rahim, 1983) may be more nuanced. The core insight — that most people default to avoidance and that preparation shifts them toward collaboration — is well-supported regardless of framework. -->
+::: science
+Workplace stress is chronic for most working adults, and the nervous system does not scale its response to the stakes of the specific incident. The APA's annual _Stress in America_ survey consistently ranks work among the top sources of adult stress. Eisenberger, Lieberman, and Williams, using fMRI, showed that social rejection activates the same neural circuitry as physical pain --- the anterior cingulate cortex and right ventral prefrontal cortex.[^w10-3] A passive-aggressive email ruins a Tuesday because the body cannot distinguish a social threat from a physical one. The practical implication is not to toughen up. It is: do not conduct the conversation while the stress response is active. Prepare with your Agent first, then walk in calibrated.
+:::
 
-<!-- RESEARCH NEEDED (HUMAN CONDITION): Workplace conflict is the leading source of daily stress in American workers (APA Stress in America survey — verify latest year and specific statistic). The stress is not proportional to the severity of the conflict — a passive-aggressive email from a coworker can ruin a Tuesday as thoroughly as a formal reprimand. The nervous system does not distinguish between social threat and physical threat (Eisenberger, 2003, "Does Rejection Hurt?"). The entry should normalize the disproportionate emotional response without pathologizing it. -->
 
-<!-- RESEARCH NEEDED: The "just talk to them" advice assumes equal power, equal social risk, and equal communication skills. In practice, the person with more institutional power sets the terms of the interaction. The entry should address the specific dynamics of managing up (conflict with a manager), managing across (conflict with a peer who has more political capital), and managing the person who simply does not care whether you are uncomfortable. -->
+::: tip
+The advice "just talk to them" assumes equal power. The three directions of workplace conflict require different preparation. *Managing up* (conflict with your manager): frame the change as helping them succeed, propose solutions rather than complaints, never appear to be questioning authority. *Managing across* (conflict with a peer): the collaborating posture works if the other party can meet you there; if they cannot, document first, escalate only with evidence, and expect no gratitude for raising it. *Managing down* (conflict with a direct report): you have positional power but limited information, so ask more questions than you answer and put the expectation in writing. Tell your Agent the direction --- the same words land differently depending on who is saying them to whom.
+:::
+
 
 [^w10-1]: Thomas, K. W., & Kilmann, R. H. (1974). _Thomas-Kilmann Conflict Mode Instrument._ Xicom. For meta-analytic evidence on conflict style effectiveness, see De Dreu, C. K. W., & Van Vianen, A. E. M. (2001). "Managing Relationship Conflict and the Effectiveness of Organizational Teams." _Journal of Organizational Behavior,_ 22(3), 309--328.
 
 [^w10-2]: Livingston, R. W., Rosette, A. S., & Washington, E. F. (2012). "Can an Agentic Black Woman Get Ahead?" _Psychological Science,_ 23(4), 354--358. See also Amanatullah, E. T., & Morris, M. W. (2010). "Negotiating Gender Roles: Gender Differences in Assertive Negotiating Are Mediated by Women's Fear of Backlash." _Journal of Personality and Social Psychology,_ 98(2), 256--267.
 
+[^w10-3]: Eisenberger, N. I., Lieberman, M. D., & Williams, K. D. (2003). "Does Rejection Hurt? An fMRI Study of Social Exclusion." _Science,_ 302(5643), 290--292. See also American Psychological Association, [_Stress in America_](https://www.apa.org/news/press/releases/stress) (annual report).
+
 ---
+
+
+#### W-2: Leaving a Job
+*Strategy:* Assert + Decode
+*See also:* L-1: Negotiating a Contract (for the severance agreement), M-1: Banking and Savings (emergency fund while unemployed), W-5: Unions (if you have a CBA)
+*My Man Jeeves:* _It would not be inaccurate to observe that employment law is among those areas in which the distance between what most employees believe their rights to be and what those rights actually are is widest — and where the consequences of the misapprehension are most immediate. The severance agreement carries a signing deadline. The WARN Act notice carries a claim deadline. The clock, one feels compelled to note, begins whether the individual is aware of it or not. One's Agent can read the agreement and identify the deadlines before they expire._
+*The Spec:*
+::: prompt
+I was just [laid off / fired / asked to resign] from my job at [type of company]
+in [state]. I was there for [X years]. I was given [severance offer / no offer].
+I want to understand:
+1. What are my legal rights in this situation?
+2. Is the severance offer I was given typical, low, or negotiable?
+3. Are there any deadlines I need to know about right now?
+4. What should I NOT sign until I understand it better?
+Give me the most conservative answer. I will verify with
+an employment attorney or legal aid organization.
+:::
+*What to do with the Output:* Do not sign anything yet. You usually have 21 days (45 days if part of a group layoff) to review a severance agreement.[^w2-1] Print the output, highlight the deadlines, and call an employment attorney — many offer a free 30-minute consultation. The clock is real but it is longer than your employer implies.
+
+::: also
+Paste or upload your document directly — file upload works in Claude, Gemini, ChatGPT, and Copilot. See [Appendix G](06-appendix-g-feature-table.xhtml).
+:::
+
+::: also
+Reservists and National Guard members are protected by USERRA (the Uniformed Services Employment and Reemployment Rights Act, 38 U.S.C. §§ 4301--4335): reinstatement at your pre-service job with equivalent pay, benefits, and seniority after up to 5 cumulative years of service, and protection from discharge without cause for up to 1 year after reemployment.[^w2-2] If your separation touches military service, the analysis is different from ordinary employment-at-will --- say so to any attorney you consult.
+:::
+
+
+[^w2-1]: The 21-day (or 45-day) review period is required by the Older Workers Benefit Protection Act (OWBPA), 29 U.S.C. § 626(f). See also EEOC, ["Understanding Waivers of Discrimination Claims in Employee Severance Agreements,"](https://www.eeoc.gov/laws/guidance/qa-understanding-waivers-discrimination-claims-employee-severance-agreements) EEOC-NVTA-2009-3.
+
+[^w2-2]: U.S. Department of Labor, Veterans' Employment and Training Service, ["USERRA: Uniformed Services Employment and Reemployment Rights Act,"](https://www.dol.gov/agencies/vets/programs/userra) codified at 38 U.S.C. §§ 4301--4335.
+
+---
+
+
+#### W-1: Getting a Job
+*Strategy:* Draft + Prepare
+*See also:* L-1: Negotiating a Contract (for offer letters and non-competes), Li-1: Preparing for a Difficult Conversation (same preparation technique)
+*My Man Jeeves:* _One might observe that the job search is a system designed by employers, for employers, in which the candidate is expected to perform enthusiasm for a position required for survival while conducting oneself as though the power dynamic did not exist. The résumé, it would appear, is a marketing document upon which judgment is passed in approximately six seconds. The cover letter is a genre governed by rules that are nowhere made explicit. The salary negotiation rewards the party in possession of superior information regarding the market rate. The reader's Agent addresses this information asymmetry — which is, one ventures to suggest, the entire purpose of this volume._
+*The Spec:*
+::: prompt
+I am looking for a job in [field/role]. My experience: [brief summary].
+What I'm working with: [currently employed / unemployed / career change /
+re-entering the workforce]
+What I need help with:
+— Résumé: [need to update / need to customize for a specific posting /
+   starting from scratch]
+— Cover letter: [have a posting to respond to / general template]
+— Interview: [have an interview on [date] / want to prepare generally]
+— Salary: [have an offer to evaluate / want to research market rate]
+Please [customize my résumé for this posting / draft a cover letter /
+prepare me for common interview questions / analyze this offer].
+[Paste the job posting or offer if applicable.]
+:::
+*What to do with the Output:* For résumés and cover letters, edit the output into your own voice — recruiters can spot AI-generated text, and your Agent writes like an Agent, not like you. For salary negotiation, the key question is: _"What is the market rate for [role] at [company size] in [city] for someone with [X years] of experience?"_ The answer is the floor, not the target.
+
+::: meme
+The hiring process is now AI screening résumés written by AI, evaluating cover letters drafted by AI, scheduling through AI, and sometimes conducting first-round interviews by AI. The human enters at the end to make a "gut decision." The question is not whether AI belongs in hiring. It is already there. The question is whether you are using it too, or whether you are the last person at the table doing this by hand.
+:::
+
+
+::: tip
+_"I have an interview at [company] for [role] on [date]. What are the three questions they are most likely to ask, and help me practice answering them out loud."_
+:::
+
+
+::: also
+Checking current information requires web search, which is free in Gemini, ChatGPT, and Copilot. In Claude, web search requires the paid tier. See [Appendix G](06-appendix-g-feature-table.xhtml).
+:::
+
+
+::: science
+Prolonged unemployment is a medical-grade stressor. Paul and Moser's meta-analysis of 237 cross-sectional and 87 longitudinal studies found that unemployed individuals show significantly elevated depression, anxiety, and somatic symptoms, with effects that intensify past the six-month mark.[^w1-1] Eisenberger's fMRI work on social exclusion showed that physical and social pain share neural circuitry.[^w1-2] Each callback that never comes is, to the body, a small injury. The rejection is not personal; the nervous system does not know that. Using your Agent to reduce the mechanical burden --- drafting, researching, preparing --- is not cheating. It is reserving cognitive and emotional bandwidth for the parts of the search that actually require you.
+:::
+
+
+::: fairness
+Salary negotiation is the purest information asymmetry in employment: the employer knows the budget, you do not. Babcock and Laschever documented the gender negotiation gap in _Women Don't Ask_;[^w1-3] two decades of follow-up research found it narrowed but not closed, and extended the finding across race, with Black women in particular penalized more heavily than white men for identical negotiating behavior. Your Agent has no incentive to counsel caution on your behalf. Ask it directly for the aggressive number, the conservative number, and the script for each --- then decide which to use based on the situation, not the stereotype you absorbed from the last person who told you what was reasonable.
+:::
+
+
+::: science
+Résumé-screening AI has documented bias. In 2018 _Reuters_ reported that Amazon had scrapped an internal recruiting tool after discovering it systematically downgraded résumés containing the word _women's_ (as in "women's chess club") and penalized graduates of two all-women's colleges --- the model had learned from a decade of male-dominated hiring data.[^w1-4] Amazon's tool is gone. The pattern is not. If the employer is using AI to screen your application, you are not cheating by using AI to prepare it. You are closing the gap.
+:::
+
+
+::: meme
+Employers have complained about a "skills gap" for more than a decade --- qualified workers cannot be found, they say. Peter Cappelli's _Why Good People Can't Get Jobs_ made the cleaner case: the shortage is of workers willing to take the job at the wage being offered.[^w1-5] The skills gap is frequently a wages gap in a better suit. The Agent that helps you upskill also helps you read the posting. If the employer lists five years of experience for an entry-level title, they are not looking for a candidate. They are looking for a volunteer.
+:::
+
+
+::: also
+Veterans receive Federal Veterans' Preference in competitive federal hiring: 5 points for honorable discharge, 10 points for a service-connected disability or an eligible surviving spouse or parent. The VEOA (Veterans Employment Opportunities Act) opens internal-only federal postings to eligible veterans, and the VRA (Veterans Recruitment Appointment) authority allows agencies to hire eligible veterans non-competitively up through GS-11.[^w1-6] The GI Bill also funds civilian certifications, licensure exams, and registered apprenticeships --- not just degrees. Ask your Agent to identify the authority that applies to your discharge status and the specific postings you are considering.
+:::
+
+
+[^w1-1]: Paul, K. I., & Moser, K. (2009). ["Unemployment impairs mental health: Meta-analyses."](https://doi.org/10.1016/j.jvb.2009.01.001) _Journal of Vocational Behavior,_ 74(3), 264--282.
+
+[^w1-2]: Eisenberger, N. I., Lieberman, M. D., & Williams, K. D. (2003). "Does Rejection Hurt? An fMRI Study of Social Exclusion." _Science,_ 302(5643), 290--292.
+
+[^w1-3]: Babcock, L., & Laschever, S. (2003). _Women Don't Ask: Negotiation and the Gender Divide._ Princeton University Press.
+
+[^w1-4]: Dastin, J. (2018). ["Amazon scraps secret AI recruiting tool that showed bias against women."](https://www.reuters.com/article/us-amazon-com-jobs-automation-insight-idUSKCN1MK08G) _Reuters,_ October 10, 2018.
+
+[^w1-5]: Cappelli, P. (2012). _Why Good People Can't Get Jobs: The Skills Gap and What Companies Can Do About It._ Wharton Digital Press.
+
+[^w1-6]: U.S. Office of Personnel Management, ["Vet Guide for HR Professionals."](https://www.opm.gov/policy-data-oversight/veterans-services/vet-guide-for-hr-professionals/) See also 5 U.S.C. §§ 2108, 3304, 3309--3320 (Veterans' Preference), and U.S. Department of Veterans Affairs, ["About GI Bill Benefits,"](https://www.va.gov/education/about-gi-bill-benefits/) covering degree programs, certifications, apprenticeships, and licensure exams.
+
+---
+
+
+#### W-3: Working with Human Resources
+*Strategy:* Draft + Assert
+*See also:* W-2: Leaving a Job, Li-1: Preparing for a Difficult Conversation
+*My Man Jeeves:* _It may be useful to note that Human Resources exists to protect the company. This is not a matter of cynicism — it is the department's actual mandate. An HR representative who assists an employee does so because assisting the employee also serves the company's interest, which is, one acknowledges, frequently the case. An understanding of this alignment — the occasions upon which one's interests and the company's overlap, and those upon which they diverge — represents the difference between employing HR effectively and finding oneself somewhat surprised by the outcome. One's Agent can help one prepare for the interaction with a clear understanding of which category it falls into._
+*The Spec:*
+::: prompt
+I need to deal with an HR situation at work.
+My situation: [performance review / workplace conflict /
+harassment or discrimination / requesting accommodation /
+documenting something / asking about benefits or policy]
+What happened: [describe factually — dates, people, what was
+said or done]
+What I want to happen: [specific outcome]
+Please help me:
+1. Understand how HR is likely to view this situation
+2. Draft what I should say or write — factual, professional, documented
+3. Tell me what to put in writing vs. what to say in person
+4. Flag anything I should be careful about
+:::
+*What to do with the Output:* Put everything in writing. Email yourself a summary after every meeting. Use the phrase "per our conversation on [date]" in follow-up emails. This is not paranoia — it is the documentation standard that HR itself uses. Match their rigor.
+
+::: tip
+_"I need to write my annual self-review. Here are my accomplishments this year: [list]. Write a first draft in first person that is specific, uses metrics where possible, and frames my work in terms of business impact."_
+:::
+
+
+::: fairness
+HR is not your ally, nor is it your adversary. It is a function whose mandate is to protect the company from legal and regulatory risk. Sometimes that protection and your interest converge (a safety concern, a benefits question, a genuine misunderstanding). Sometimes they do not (a conflict with a favored manager, a harassment complaint against someone senior, a policy grievance that would cost the company money). The first question is not "should I go to HR" but "does HR's mandate align with what I want to happen here?" If yes, file and document. If no, document independently first and weigh whether to engage at all. Ask your Agent to map the incentives before you map the response.
+:::
+
+
+::: science
+Documenting workplace harassment or discrimination has specific requirements under Title VII of the Civil Rights Act of 1964 and state analogs. Keep contemporaneous records --- what happened, when, who witnessed it, verbatim where possible --- on a personal device and in personal email, not in company systems an employer can later revoke. Save the employee handbook. An _informal complaint_ (a verbal raising of the concern) triggers some protections; a _formal complaint_ (a written charge with HR or the EEOC) triggers others. Title VII prohibits retaliation for either, but enforcement is slow and the practical protection is the evidence you gathered before you reported.[^w3-1] The EEOC charge-filing deadline is 180 days from the discriminatory act --- 300 days in states with a deferral agency.[^w3-2] The deadlines run whether or not you know about them.
+:::
+
+
+[^w3-1]: U.S. Equal Employment Opportunity Commission, ["Retaliation,"](https://www.eeoc.gov/retaliation) and ["Facts About Retaliation."](https://www.eeoc.gov/laws/guidance/facts-about-retaliation) Statutory basis: Title VII of the Civil Rights Act of 1964, 42 U.S.C. § 2000e-3(a).
+
+[^w3-2]: EEOC, ["Time Limits for Filing a Charge."](https://www.eeoc.gov/time-limits-filing-charge)
+
+---
+
+
+#### W-6: Workplace Safety
+*Strategy:* Assert + Navigate
+*See also:* W-2: Leaving a Job (if retaliation follows), L-3: Writing a Demand Letter
+*My Man Jeeves:* _One's body is, if one may be permitted the observation, the asset one brings to work. The employer's obligation not to damage it is codified in law, implemented through OSHA, and enforced through a system that requires the worker to know it exists and how to employ it. Workers' compensation is insurance the employer is required to carry. Filing a claim is not an adversarial act — it is the use of the system as designed. The adversarial dimension, one regrets to note, tends to present itself later, should the claim be denied, and it is denied with a frequency that warrants preparation. One's Agent has read the relevant OSHA regulations and can assist with both the filing and the appeal._
+*The Spec:*
+::: prompt
+I have a workplace safety concern [or: I was injured at work].
+My situation: [describe — unsafe conditions, injury type, when it
+happened, what I've reported so far]
+My state: [state]
+My employer's response so far: [cooperative / dismissive /
+retaliatory / I haven't reported yet]
+Please help me:
+1. Understand my rights under OSHA and state worker's comp law
+2. Walk me through the reporting and filing process step by step
+3. Tell me what deadlines I cannot miss
+4. Explain what protections I have against retaliation —
+   and be honest about how strong those protections actually are
+:::
+*What to do with the Output:* Document everything. Photograph conditions. Save communications. If you are injured, report to your employer in writing, seek medical attention, and file a workers' comp claim — in that order, and the first 24 hours set the trajectory of the entire case. Your state's workers' comp board website has the specific filing forms and deadlines.
+
+::: fairness
+Workers in high-risk industries — construction, agriculture, warehousing, meatpacking — have the highest injury rates and the least bargaining power to demand improvements. If your Agent's advice assumes a white-collar office, specify your actual work environment.
+:::
+
+
+::: science
+OSHA employs fewer than 2,000 inspectors to cover more than 8 million workplaces in the United States. The AFL-CIO's annual _Death on the Job_ report estimates it would take well over a century to inspect each workplace once at current staffing.[^w6-1] That is not a conspiracy; it is a budget. The practical implication: OSHA is reactive, not proactive. Your complaint triggers the inspection. Without your complaint, the conditions persist.
+:::
+
+
+::: fairness
+The fear of reporting --- retaliation, ostracism, being labeled the person who "made it about safety" --- is a social-psychological problem masquerading as a legal one. The statutory protections exist; the social cost of being _that person_ is real, daily, and unaddressed by the statute. It is also unequally distributed. Hispanic and foreign-born workers consistently post higher fatal-injury rates than the workforce average, and undocumented workers have some of the highest fatality rates and lowest reporting rates.[^w6-2] OSHA protections technically apply regardless of immigration status, but reporting an unsafe workplace can in practice carry immigration consequences --- and the workers most at risk are often the least able to use the system designed to protect them. If this describes your situation, a worker center (OSHA's Susan Harwood-funded training grantees maintain a directory) or an immigration-aware labor attorney is a safer first call than your employer.
+:::
+
+
+::: tip
+Workers' comp claim denials follow the same pattern as health insurance denials (see H-4): the initial denial is often a business decision, not a medical one, and appeal success rates are meaningful when workers actually appeal. The information asymmetry --- not the merits --- is the barrier. Keep the denial letter, note the appeal deadline on your calendar, and ask your Agent to translate each stated reason into plain English and draft a response citing the treating physician's notes, the reporting timeline, and the relevant section of your state's workers' comp statute.
+:::
+
+
+[^w6-1]: AFL-CIO, ["Death on the Job: The Toll of Neglect."](https://aflcio.org/reports/death-job-toll-neglect-2024) The report is issued annually; staffing-to-workplace ratios and the years-to-inspect figure are published each spring.
+
+[^w6-2]: U.S. Bureau of Labor Statistics, ["Census of Fatal Occupational Injuries,"](https://www.bls.gov/iif/oshcfoi1.htm) tables by worker characteristics. See also Loh, K., & Richardson, S. (2004). ["Foreign-born workers: trends in fatal occupational injuries, 1996--2001."](https://www.bls.gov/opub/mlr/2004/06/art4full.pdf) _Monthly Labor Review,_ 127(6), 42--53.
+
+---
+
 
 #### W-11: Understanding Your Benefits
 *Strategy:* Decode + Decide
@@ -442,14 +397,202 @@ Upload your benefits summary directly — PDF and document upload works in Claud
 :::
 
 
-<!-- RESEARCH NEEDED: HSA vs. FSA comparison — the HSA is one of the most tax-advantaged accounts in the U.S. (triple tax advantage: deductible contribution, tax-free growth, tax-free withdrawal for medical expenses). But it requires a high-deductible health plan (HDHP), which is not appropriate for everyone. The FSA has a "use it or lose it" rule (with a small carryover or grace period — verify current IRS limits). Many employees choose the FSA because it is offered with a conventional plan, not realizing the HSA is portable and investable. Verify 2025/2026 contribution limits for both. -->
+::: science
+Disability insurance is the most undervalued benefit most employees have. The Social Security Administration estimates that roughly one in four of today's 20-year-olds will become disabled before reaching retirement age --- that is, before the expected end of the career, not after it.[^w11-2] Employer-provided long-term disability insurance typically replaces 50--60% of base salary (taxable when the employer pays the premium). The gap between that and your actual monthly expenses is the exposure. If your employer offers supplemental LTD at your own cost, price it against what you would owe if your income stopped tomorrow before you decide whether to decline it.
+:::
 
-<!-- RESEARCH NEEDED: Vesting schedule mechanics — 401(k) employer match vesting (cliff vs. graded), stock option vesting, RSU vesting. The "golden handcuffs" phenomenon: employees staying at jobs they dislike because unvested compensation represents tens of thousands of dollars. The entry should help the reader calculate the actual dollar amount at stake so the decision is informed, not emotional. -->
 
-<!-- RESEARCH NEEDED (HUMAN CONDITION): Benefits confusion is not a failure of intelligence — it is a design outcome. A TIAA Institute study found that only 16% of Americans can correctly answer four basic financial literacy questions. Benefits documents are written in actuarial language, presented during high-workload periods, and structured to make the default option (which favors the employer's cost) the path of least resistance. The shame of not understanding your benefits is misplaced. The document was not designed to be understood. It was designed to be signed. -->
+::: fairness
+Benefits confusion is not a failure of intelligence. It is a design outcome. The TIAA Institute's ongoing Personal Finance Index finds that a minority of Americans can correctly answer basic questions about compound interest, inflation, and risk diversification.[^w11-3] Benefits documents are written in actuarial language, presented during high-workload periods, and structured so the default option (which favors the employer's cost, not your coverage) is the path of least resistance. The shame of not understanding the packet is misplaced. The document was not designed to be understood. It was designed to be signed.
+:::
 
-<!-- RESEARCH NEEDED: Disability insurance — the most undervalued benefit. The Social Security Administration estimates that a 20-year-old worker has a 1-in-4 chance of becoming disabled before reaching retirement age. Employer-provided long-term disability insurance typically replaces 50-60% of salary. The gap between that and actual expenses is the risk. Verify current SSA statistics and typical employer LTD terms. -->
 
-<!-- RESEARCH NEEDED: Veterans integration --- TRICARE (active-duty, retirees, eligible family) is separate from VA healthcare. Military service credit for Social Security and federal civilian retirement (FERS). Thrift Savings Plan (TSP) and the Blended Retirement System (BRS, since 2018) include a 5% government match. SBP (Survivor Benefit Plan) election at retirement is once-and-done. -->
+::: tip
+The Health Savings Account is the single most tax-advantaged account in the U.S. code when it fits: deductible contribution, tax-free growth, tax-free withdrawal for qualified medical expenses. It requires a high-deductible health plan and is not right for everyone. The Flexible Spending Account is the one your HR pairs with a conventional plan --- and it carries a "use it or lose it" rule, with a limited rollover or grace period depending on your employer's election. Many employees default into the FSA because it is what appears next to the conventional plan, not realizing the HSA is portable, investable, and follows them when they leave. If both are offered with compatible plans, ask your Agent to model which one serves you given your actual annual medical spending. Verify current contribution limits with the IRS; they are updated each fall for the following plan year.[^w11-4]
+:::
 
-[^w11-1]: Vanguard, "How America Saves 2023," https://institutional.vanguard.com/content/dam/inst/iig-transformation/has/2023/pdf/has-executive-summary-2023.pdf. The $1,336 figure is the median uncollected match; actual amounts vary by salary and match structure.
+
+::: science
+Vesting schedules convert "total compensation" into actual dollars --- and the gap is often substantial. A 401(k) employer match vests on either a _cliff_ schedule (0% until a specific year, then 100%) or a _graded_ schedule (a fraction per year until fully vested); ERISA caps these at six and seven years respectively for most plans. Stock options and RSUs follow their own schedules, typically four years with a one-year cliff. "Golden handcuffs" is the phenomenon of employees staying at jobs they dislike because unvested compensation represents tens of thousands of dollars that vanish on departure. Before you make a career decision, ask your Agent to calculate the specific dollar amount at stake given your grant schedule and vesting calendar --- so the choice is informed, not emotional.
+:::
+
+
+::: also
+Service members and veterans have a parallel benefits track worth naming. TRICARE (for active-duty members, retirees, and eligible family) is separate from VA healthcare. Military service credit applies toward both Social Security and federal civilian retirement under FERS. The Thrift Savings Plan and the Blended Retirement System --- effective for those who entered service after January 1, 2018, and opt-in-eligible for certain earlier cohorts --- include up to a 5% government match,[^w11-5] the same dynamic as a 401(k) match. Contribute at least 5% or you are declining free compensation. The Survivor Benefit Plan election at retirement is once-and-done: the default is SBP coverage, and declining it requires spousal consent.
+:::
+
+
+[^w11-1]: Vanguard, ["How America Saves 2023."](https://institutional.vanguard.com/content/dam/inst/iig-transformation/has/2023/pdf/has-executive-summary-2023.pdf) The $1,336 figure is the median uncollected match; actual amounts vary by salary and match structure.
+
+[^w11-2]: Social Security Administration, ["Disability Benefits / Basic Facts,"](https://www.ssa.gov/pubs/EN-05-10029.pdf) SSA Publication No. 05-10029. The disability-before-retirement estimate is drawn from SSA's Office of the Chief Actuary projections.
+
+[^w11-3]: TIAA Institute & Global Financial Literacy Excellence Center (GFLEC), ["Personal Finance Index (P-Fin Index),"](https://www.tiaa.org/public/institute/research/personal-finance-index) annual survey.
+
+[^w11-4]: IRS, ["Publication 969: Health Savings Accounts and Other Tax-Favored Health Plans,"](https://www.irs.gov/forms-pubs/about-publication-969) and IRS Revenue Procedures (issued annually) for inflation-adjusted limits.
+
+[^w11-5]: Department of Defense, ["Blended Retirement System,"](https://militarypay.defense.gov/BlendedRetirement/) and Thrift Savings Plan, ["Contribution Types,"](https://www.tsp.gov/making-contributions/contribution-types/) at tsp.gov.
+
+---
+
+
+#### W-5: Unions
+*Strategy:* Navigate + Assert
+*See also:* C-6: Advocating for Change (same organizing skills), L-1: Negotiating a Contract (for reading the CBA)
+*My Man Jeeves:* _A union is, at its foundation, a group of employees who arrived at the conclusion that negotiating individually was not producing satisfactory results. The information asymmetry between an employer and a single employee is structural and permanent — the employer is aware of the budget, the market rate, the headcount plan, and the legal landscape. The employee is aware of one's own salary. The union exists to address this disparity. One might gently observe that everything the reader has been told about unions — whether favorable or otherwise — was communicated by a party holding a position on whether that disparity ought to close. The reader's Agent holds no such position. It has the NLRA, the relevant case law, and the current data._
+*The Spec:*
+::: prompt
+I want to understand [my rights regarding unionizing / how to
+start a union / how my existing union works / how to get involved
+in union leadership / how to read my collective bargaining agreement].
+My situation: [industry, state, company size, current union status]
+My specific question: [describe]
+Please:
+1. Explain my legal rights under the NLRA (or relevant law)
+2. Walk me through the practical steps for [what I want to do]
+3. Tell me what my employer can and cannot legally do in response
+4. Flag the common mistakes people make in this process
+Give me the legal answer, not the political one.
+:::
+*What to do with the Output:* If you are organizing, do not discuss it on company devices, in company channels, or during work hours until you understand your protections. Your Agent can explain the legal framework, but a labor attorney or your regional NLRB office is the authoritative source for your specific situation. Many labor attorneys offer free initial consultations for organizing questions.
+
+::: tip
+_"I have a collective bargaining agreement I don't fully understand. [Paste relevant section.] What does this actually mean for me day-to-day, and what rights does it give me that I'm probably not using?"_
+:::
+
+
+::: science
+Under Section 7 of the National Labor Relations Act, employees have the right to organize, to bargain collectively, and to engage in "concerted activities" for mutual aid or protection --- and this includes discussing wages with coworkers, regardless of what the employee handbook says.[^w5-1] A workplace policy that forbids wage discussion is, in most private-sector contexts, an unfair labor practice. The right is one of the most underused in American labor law.
+:::
+
+
+::: fairness
+The fear of organizing is rational. Bronfenbrenner found that employers terminate workers in about one in three union campaigns.[^w5-2] Retaliation is illegal under the NLRA, but enforcement is slow --- unfair labor practice charges can take many months to resolve, during which the terminated worker has no income. The other side of the calculation is the permanent information asymmetry of remaining unorganized: no collective bargaining, no grievance process, no voice in the conditions of the work. Both risks are real. Your Agent can explain the specific legal protections that apply in your state and industry so the decision is informed rather than ambient.
+:::
+
+
+::: science
+Union membership in the United States has fallen from roughly 35% of workers in 1954 to approximately 10% today. Western and Rosenfeld, writing in _American Sociological Review,_ estimate that this decline accounts for roughly one-third of the growth in wage inequality among male private-sector workers over that period --- one of the most robust findings in labor economics.[^w5-3] Gallup's 2023 polling found 67% public approval of labor unions, the highest since 1965, even as membership continues to fall.[^w5-4] Approval and membership are diverging. The gap between wanting a union and having one is structural (employer resistance, legal delays, fear of retaliation), not attitudinal.
+:::
+
+
+::: meme
+The last decade has brought a visible resurgence: Starbucks Workers United has organized hundreds of stores; the Amazon Labor Union won its first election at a Staten Island warehouse in 2022; Apple retail workers in Towson, Maryland, voted to unionize the same year; graduate students and newsroom workers have organized across dozens of institutions. The tactics are old. The group chats are new. Your Agent can read the NLRB filings, the petition outcomes, and the contracts that resulted --- and translate what your employer is likely to try next.
+:::
+
+
+[^w5-1]: National Labor Relations Act, 29 U.S.C. § 157. See NLRB, ["Concerted Activity,"](https://www.nlrb.gov/about-nlrb/rights-we-protect/your-rights/concerted-activity) and ["Employer/Union Rights and Obligations."](https://www.nlrb.gov/about-nlrb/rights-we-protect/the-law/employer-union-rights-and-obligations) Confidentiality policies that prohibit wage discussion are generally unlawful.
+
+[^w5-2]: Bronfenbrenner, K. (2009). ["No Holds Barred: The Intensification of Employer Opposition to Organizing."](https://www.epi.org/publication/bp235/) _Economic Policy Institute Briefing Paper #235,_ May 20, 2009.
+
+[^w5-3]: Western, B., & Rosenfeld, J. (2011). ["Unions, Norms, and the Rise in U.S. Wage Inequality."](https://doi.org/10.1177/0003122411414817) _American Sociological Review,_ 76(4), 513--537.
+
+[^w5-4]: Saad, L. (2023). ["More in U.S. See Unions Strengthening and Want It That Way."](https://news.gallup.com/poll/510281/unions-strengthening-want-way.aspx) Gallup, August 30, 2023.
+
+---
+
+
+#### W-4: Work from Home or RTO?
+*Strategy:* Research + Decide
+*See also:* Li-1: Preparing for a Difficult Conversation (if you need to negotiate)
+*My Man Jeeves:* _One could not help but observe that the remote work debate is conducted primarily by executives possessed of home offices and opinion columnists enjoying flexible schedules, regarding employees whose commute carries a financial cost and whose childcare arrangements permit no margin. The research on productivity, collaboration, and wellbeing is, it would appear, rather more nuanced than either party to the argument is inclined to acknowledge. The reader's Agent may be of assistance in evaluating the evidence, weighing the specifics of one's situation, and — should the need arise to present a case to one's employer — constructing one that relies upon data rather than preference._
+*The Spec:*
+::: prompt
+My company is [requiring return to office / offering hybrid /
+I'm choosing between a remote and in-office role / debating
+whether to push for remote work].
+My situation: [commute time and cost, childcare needs, home
+workspace quality, team dynamics, role requirements]
+What I want to understand:
+1. What does the actual research say about remote vs. in-office
+   productivity for my type of work?
+2. What are the real trade-offs — not the talking points?
+3. If I need to negotiate, what's my strongest case?
+4. What should I be honest with myself about — the parts of
+   remote work that don't serve me?
+:::
+*What to do with the Output:* If you need to make the case to your manager, copy the data points into a one-page memo. Lead with the business case (productivity, retention, cost savings), not the personal case. The personal case is why you want it. The business case is why they will say yes.
+
+::: science
+Bloom et al. (2015) conducted a randomized controlled trial of remote work at Ctrip (n≈249) and found a 13% performance increase for remote workers, along with higher satisfaction and lower attrition. A 2024 follow-up at Trip.com (Ctrip's rebrand, n=1,612) found that hybrid work (3 days in, 2 remote) had no negative effect on productivity or career advancement.[^w4-1]
+:::
+
+
+::: fairness
+The remote-work debate is conducted primarily by knowledge workers about knowledge workers. For service, retail, manufacturing, healthcare, and agricultural workers, "WFH" is not an option on offer. The class dimension is rarely named in the op-ed pages. If remote work is on the table for you, it is worth recognizing that policies that optimize for one population's convenience can quietly shift cost onto another's --- through rising commercial rents, thinning lunch-hour business for the restaurant whose staff commuted alongside yours, or the outsourcing of "back office" roles that once were co-located with the teams they supported.
+:::
+
+
+::: science
+The remote-work argument often collapses two distinct questions: Is physical presence a legitimate collaboration requirement, or a management-control mechanism? The honest answer is "sometimes both." Apprenticeship, ambiguous creative collaboration, and certain client-facing roles benefit from co-location; other in-office mandates are managerial anxiety dressed as collaboration need. The distinction matters when you negotiate --- a case grounded in specific collaboration requirements lands differently than one that rests on trust or habit. Ask your Agent to separate the two before you draft the memo.
+:::
+
+
+::: fairness
+Remote-work isolation is real. Surgeon General Vivek Murthy's 2023 advisory on the "Epidemic of Loneliness and Isolation" identified workplace connection as a key factor in adult social health.[^w4-2] The trade-off between autonomy and connection is genuine, and people vary widely: some thrive in isolation, some deteriorate. Knowing which you are is more useful than knowing the research average. If you are in the latter group, a fully remote role may cost more than you price it at; if you are in the former, a return-to-office mandate may cost more than your employer prices it at. Ask your Agent to help you name the specific connection you currently get from --- or miss in --- your arrangement, and what you would need to replace or preserve it.
+:::
+
+
+[^w4-1]: Bloom, N. et al. (2015). ["Does Working from Home Work? Evidence from a Chinese Experiment."](https://doi.org/10.1093/qje/qju032) _Quarterly Journal of Economics,_ 130(1), 165--218. The 2024 follow-up: Bloom, N., Han, R., & Liang, J. (2024). ["Hybrid Working from Home Improves Retention Without Damaging Performance."](https://doi.org/10.1038/s41586-024-07500-2) _Nature,_ 630, 920--925.
+
+[^w4-2]: Office of the U.S. Surgeon General (2023). ["Our Epidemic of Loneliness and Isolation: The U.S. Surgeon General's Advisory on the Healing Effects of Social Connection and Community."](https://www.hhs.gov/sites/default/files/surgeon-general-social-connection-advisory.pdf)
+
+---
+
+
+#### W-8: Freelancing and Self-Employment
+*Strategy:* Navigate + Prepare
+*See also:* M-7: Taxes (1099 complexity is a different animal), L-1: Negotiating a Contract (every engagement needs one), M-8: Insurance (no employer, no group rate)
+*My Man Jeeves:* _One might observe that the freelancer occupies a position of some structural peculiarity in the American labor market — performing the same work as an employee while receiving none of the infrastructure that employment provides. There is no HR department to explain the benefits, because there are no benefits to explain. There is no payroll department to withhold taxes, because the withholding is now the freelancer's responsibility, as is the estimation, the quarterly filing, and the penalty for underestimation. The 1099 form, one ventures to suggest, is not merely a tax classification but a transfer of administrative burden from the entity that profits from the work to the individual who performs it. One's Agent can assist in managing that burden — the contracts, the invoices, the rate calculations, the quarterly estimates — so that one's attention remains upon the work itself rather than the paperwork surrounding it._
+*The Spec:*
+::: prompt
+I am [freelancing / self-employed / considering going independent]
+in [field or industry].
+My situation: [full-time freelance / side work while employed /
+just starting out / have been doing this for X years]
+What I need help with:
+--- Contracts: [reviewing a client contract / drafting my own
+   standard agreement / understanding a non-compete or IP clause]
+--- Rates: [setting my rate for the first time / raising my rate /
+   evaluating whether a project is worth the quoted rate]
+--- Taxes: [understanding 1099 vs. W-2 / setting up quarterly
+   estimated payments / what I can deduct]
+--- Invoicing: [creating a professional invoice template /
+   dealing with a client who won't pay]
+--- Insurance: [health insurance options without an employer /
+   liability insurance for my work]
+Please [help me with the specific item above]. Give me the most
+conservative tax and legal answer. I will verify with an
+accountant or attorney.
+:::
+*What to do with the Output:* For contracts, never sign a client's template without running it through your Agent first — the IP assignment clause alone can sign away work you have not yet created. For rates, the calculation is not "what feels reasonable" but: (target annual income + self-employment tax + health insurance + retirement contribution + business expenses) / billable hours per year. Most new freelancers undercharge by 30--40% because they calculate from a salary number that already had those costs hidden inside it.
+
+::: science
+The "misclassification" problem is not academic. The IRS estimates that employers misclassify millions of workers as independent contractors to avoid payroll taxes, unemployment insurance, and benefits obligations. The Department of Labor's 2024 rule tightened the test for independent contractor status under the FLSA, but enforcement remains complaint-driven.[^w8-1] If your "freelance" arrangement involves a single client who sets your hours and provides your tools, you may legally be an employee owed back benefits.
+:::
+
+
+::: tip
+_"I want to raise my freelance rate. My current rate is [X]. I have [Y years] of experience in [field]. Help me: (1) research the current market rate for this work, (2) draft an email to existing clients announcing the increase, and (3) calculate what my rate needs to be to cover taxes, insurance, and retirement at the same take-home as a $[Z] salary."_
+:::
+
+
+::: fairness
+AI tools are particularly useful for freelancers drafting contracts and invoices, but they generate legal language, not legal advice. A contract your Agent drafted may be missing jurisdiction-specific requirements or enforceability provisions. For engagements over $5,000, an attorney review is worth the cost — it is a business expense and it is deductible.
+:::
+
+
+::: fairness
+The loneliness of freelancing is underpriced. Upwork's _Freelance Forward_ surveys have estimated that roughly 64 million Americans did some freelance work in 2023.[^w8-2] The loss of workplace social infrastructure --- casual conversation, shared lunch, the colleague who notices when you are struggling --- is a real cost that rarely appears in the rate calculation. The freedom is genuine. The isolation is also genuine. They coexist. Build substitutes deliberately: a coworking day, a standing weekly call with another freelancer, a professional association that meets in person. The workplace was providing these at no line-item cost. Now you pay for them, in money or in calendar.
+:::
+
+
+::: science
+Self-employment tax is the single largest surprise for new freelancers. The rate is 15.3% --- 12.4% Social Security (on earnings up to the Social Security wage base) plus 2.9% Medicare (uncapped), with an additional 0.9% Medicare surtax above certain income thresholds. An employee's paystub shows only half of that because the employer pays the rest. A freelancer pays both halves. The "deductible half" adjustment on Form 1040 softens the blow but does not eliminate it. Quarterly estimated payments on Form 1040-ES are required; missing them accrues underpayment penalties even if your annual return eventually shows zero owed.[^w8-3] Before you quote a rate, ask your Agent to calculate what a given hourly rate actually nets after SE tax, health insurance, retirement contributions, and unpaid time.
+:::
+
+
+[^w8-1]: U.S. Department of Labor, ["Employee or Independent Contractor Classification Under the Fair Labor Standards Act,"](https://www.federalregister.gov/documents/2024/01/10/2024-00067/employee-or-independent-contractor-classification-under-the-fair-labor-standards-act) 89 Fed. Reg. 1638 (January 10, 2024). The rule applies a six-factor economic-reality test. See also IRS, ["Independent Contractor (Self-Employed) or Employee?"](https://www.irs.gov/businesses/small-businesses-self-employed/independent-contractor-self-employed-or-employee)
+
+[^w8-2]: Upwork, ["Freelance Forward,"](https://www.upwork.com/research/freelance-forward-research) annual editions. The headline figure counts anyone who did paid freelance work during the preceding 12 months; full-time independent workers are a subset.
+
+[^w8-3]: IRS, ["Self-Employment Tax (Social Security and Medicare Taxes),"](https://www.irs.gov/businesses/small-businesses-self-employed/self-employment-tax-social-security-and-medicare-taxes) and ["Estimated Taxes,"](https://www.irs.gov/businesses/small-businesses-self-employed/estimated-taxes) Form 1040-ES. Current thresholds, wage-base caps, and penalty rates are updated annually; verify each tax year.
