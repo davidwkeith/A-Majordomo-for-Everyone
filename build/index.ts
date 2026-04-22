@@ -6,6 +6,7 @@ import {
   CONTENT_DIR,
   STYLES_DIR,
   IMAGES_DIR,
+  ILLUSTRATION_SPEC_DIR,
   STYLE_GUIDE,
   discoverBriefs,
   prepareArtContext,
@@ -58,9 +59,18 @@ async function build(): Promise<void> {
     }
   }
 
-  // Pre-read XMP data for all briefs (Djot filters are synchronous)
+  // Prepare the render cache and sync XMP metadata from .art.md sidecars
+  // into every image in one pass. Covers callout icons and other images
+  // whose briefs live in spec/illustration/ alongside chapter content briefs
+  // so the sync keeps alt text and license travelling with the file
+  // without a manual embed step.
   console.log('Preparing art context...');
-  const artCtx = await prepareArtContext(briefs, IMAGES_DIR);
+  const illustrationBriefs = discoverBriefs(ILLUSTRATION_SPEC_DIR);
+  const allBriefs = new Map([...briefs, ...illustrationBriefs]);
+  const artCtx = await prepareArtContext(allBriefs, IMAGES_DIR);
+  if (artCtx.embeddedCount > 0) {
+    console.log(`Embedded XMP in ${artCtx.embeddedCount} image(s)`);
+  }
 
   console.log('Discovering chapters...');
   const files = await discoverChapters();

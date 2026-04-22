@@ -43,13 +43,9 @@ _"I was just at [office] and they told me [unexpected thing]. Is that correct, o
 
 
 ::: fairness
-Government services are distributed unequally by geography and funding. Wealthier counties have more offices, shorter wait times, and more staff. Rural areas may require a 60-mile drive. If your Agent's advice assumes an urban office, say so: _"The nearest [office] is [X miles] away and open [limited hours]. What can I do remotely?"_
+Government services are distributed unequally by geography and funding. Wealthier counties have more offices, shorter wait times, and more staff. Rural areas may require a 60-mile drive. For the middle class, the DMV is an annoyance. For someone navigating benefits, immigration, or housing assistance, the government office is a high-stakes environment where the person behind the counter has real discretion over your life. The power asymmetry is real. Preparation reduces it. If your Agent's advice assumes an urban office, say so: _"The nearest [office] is [X miles] away and open [limited hours]. What can I do remotely?"_
 :::
 
-
-<!-- RESEARCH NEEDED: Government office wait times and service quality vary dramatically. The SSA has closed hundreds of field offices since 2010 while the population they serve has grown. Average wait time for an SSA disability hearing is over 12 months in some regions. DMV wait times vary from 15 minutes (appointment) to 4 hours (walk-in). The data is available but fragmented. USPS has the most comprehensive service quality tracking of any government office. -->
-
-<!-- RESEARCH NEEDED (HUMAN CONDITION): The anxiety of government offices is class-coded. For the middle class, the DMV is an annoyance. For someone navigating benefits, immigration, or housing assistance, the government office is a high-stakes environment where the person behind the counter has significant discretion over your life. The power asymmetry is real and the fear is rational. Lipsky's "Street-Level Bureaucracy" (1980, updated 2010) remains the foundational text on how front-line government workers exercise discretion — often compassionately, sometimes arbitrarily. -->
 
 ---
 
@@ -89,9 +85,10 @@ _"I've been on hold for 30 minutes with [company]. While I wait, help me draft t
 :::
 
 
-<!-- RESEARCH NEEDED: CFPB complaint database is public and effective — companies respond to CFPB complaints at higher rates than direct customer complaints. Filing a complaint at consumerfinance.gov is free and creates a formal record. The Attorney General's consumer complaint process works similarly at the state level. The reader should know these escalation tools exist. -->
+::: also
+If direct customer service fails, file a complaint at [consumerfinance.gov](https://www.consumerfinance.gov/complaint/) (for financial products) or your state Attorney General's consumer complaint portal. Companies respond to CFPB complaints at higher rates than direct complaints. The filing is free and creates a formal record. Your Agent can draft the complaint.
+:::
 
-<!-- RESEARCH NEEDED (HUMAN CONDITION): The emotional labor of fighting a billing error — the hold times, the transfers, the repeated explanations — is a regressive tax on time and energy. Wealthy people have assistants who handle this. The rest of us spend Saturday morning on hold. Your Agent can reduce the time cost (by preparing what to say) but cannot eliminate it. The structural design of customer service systems that discourage complaints is not a bug — it is a calculated business decision that the cost of resolving complaints exceeds the cost of losing the customers who give up. -->
 
 ---
 
@@ -130,8 +127,6 @@ First-time situations are class experiences. If your parents owned a home, you l
 This works well with voice mode on your phone — all major tools support it on mobile. See [Appendix G](06-appendix-g-feature-table.xhtml).
 :::
 
-
-<!-- RESEARCH NEEDED (HUMAN CONDITION): The sociology of cultural capital (Bourdieu, 1986) explains why some people navigate institutions effortlessly while others struggle. "Knowing how things work" — how to talk to a doctor, how to negotiate at a dealership, how a courtroom operates — is inherited knowledge transmitted through class and family. The people who most need this knowledge are the people least likely to have it. This is the structural argument for the entire book, compressed into a single Skill. -->
 
 [^irl3-1]: Grupe, D.W. & Nitschke, J.B. (2013). "Uncertainty and anticipation in anxiety: an integrated neurobiological and psychological perspective." _Nature Reviews Neuroscience_, 14(7), 488–501.
 
@@ -179,11 +174,7 @@ Negotiation outcomes track with race, gender, and class. Research consistently s
 :::
 
 
-<!-- RESEARCH NEEDED: Galinsky, A.D. & Mussweiler, T. (2001). "First offers as anchors: The role of perspective-taking and negotiator focus." Journal of Personality and Social Psychology, 81(4), 657–669. Verify citation and find DOI. Also: Ayres, I. (1991) "Fair Driving: Gender and Race Discrimination in Retail Car Negotiations" — landmark study on discriminatory pricing at car dealerships. -->
-
-<!-- RESEARCH NEEDED (HUMAN CONDITION): Negotiation aversion is not weakness — it is a rational response to a system where the consequences of "doing it wrong" feel catastrophic and the rules are never explained. The car dealership is designed to create time pressure, information asymmetry, and social discomfort simultaneously. The medical billing office relies on the patient being too exhausted or intimidated to question the number. Rent negotiations happen in a market where the landlord knows you need somewhere to sleep tonight. The power dynamics are real. Preparation does not eliminate them. It makes them visible. -->
-
-[^irl4-1]: Galinsky, A.D. & Mussweiler, T. (2001). "First offers as anchors: The role of perspective-taking and negotiator focus." _Journal of Personality and Social Psychology_, 81(4), 657–669.
+[^irl4-1]: Galinsky, A.D. & Mussweiler, T. (2001). ["First offers as anchors: The role of perspective-taking and negotiator focus."](https://doi.org/10.1037/0022-3514.81.4.657) _Journal of Personality and Social Psychology_, 81(4), 657–669.
 
 ---
 
@@ -239,11 +230,7 @@ Rehearsal is especially valuable for people navigating conversations across a po
 :::
 
 
-<!-- RESEARCH NEEDED: Pham, L.B. & Taylor, S.E. (1999). "From Thought to Action: Effects of Process- Versus Outcome-Based Mental Simulations on Performance." Personality and Social Psychology Bulletin, 25(2), 250–260. Verify citation and find DOI. Also: Ericsson's deliberate practice framework — the mechanism is the same. Professionals are better at conversations because they have more reps, not because they have more talent. -->
-
-<!-- RESEARCH NEEDED (HUMAN CONDITION): The rehearsal gap is a class gap. Executive coaches charge $300/hour to roleplay difficult conversations with their clients. Sales teams rehearse objection handling as standard training. Medical schools use standardized patients — actors who play sick people — because rehearsal is the most effective way to build clinical communication skills. Everyone who interacts with you professionally has likely rehearsed. You have not. Your Agent is not an executive coach. But it is a scene partner who is available at 2 a.m. the night before the conversation, which is when you are most likely to need one. -->
-
-[^irl5-1]: Pham, L.B. & Taylor, S.E. (1999). "From Thought to Action: Effects of Process- Versus Outcome-Based Mental Simulations on Performance." _Personality and Social Psychology Bulletin_, 25(2), 250–260.
+[^irl5-1]: Pham, L.B. & Taylor, S.E. (1999). ["From Thought to Action: Effects of Process- Versus Outcome-Based Mental Simulations on Performance."](https://doi.org/10.1177/0146167299025002010) _Personality and Social Psychology Bulletin_, 25(2), 250–260.
 
 ---
 
@@ -285,7 +272,7 @@ Ask your Agent: _"What is the difference between 'observation status' and 'admit
 
 
 ::: science
-A 2011 study in _Health Affairs_ found that patients with a trained advocate present during hospital stays had 30% fewer adverse events. You don't need a professional advocate. You need someone who knows what questions to ask. Your Agent provides the questions. You or your person provides the presence.[^irl6-1]
+Research on patient safety consistently finds that engaged patients and family advocates catch errors that clinical staff miss --- medication discrepancies, miscommunications between care teams, symptoms that change between rounds. You don't need a professional advocate. You need someone who knows what questions to ask. Your Agent provides the questions. You or your person provides the presence.[^irl6-1]
 :::
 
 
@@ -294,11 +281,7 @@ Hospital outcomes correlate with race, income, and insurance status. Black patie
 :::
 
 
-<!-- RESEARCH NEEDED: Verify the Health Affairs 2011 advocate study — likely Weingart et al. or a related patient safety study. Also: CMS observation status rules, the "Two-Midnight Rule" for Medicare inpatient admission criteria. The observation status issue is one of the most consequential things most patients don't know about. -->
-
-<!-- RESEARCH NEEDED (HUMAN CONDITION): The hospital is where the book's entire thesis compresses into a single experience. You are vulnerable, the system is complex, and the information asymmetry is at its widest precisely when your capacity to close it is at its lowest. The Skills in Health cover the clinical and financial dimensions. This Skill covers the physical and emotional reality of being in the building. -->
-
-[^irl6-1]: Weingart, S.N. et al. (2011). "Patient-reported safety and quality of care in outpatient oncology." _Health Affairs_, 30(10).
+[^irl6-1]: Weingart, S.N. et al. (2005). ["What Can Hospitalized Patients Tell Us About Adverse Events? Learning from Patient-Reported Incidents."](https://doi.org/10.1007/s11606-005-0033-z) _Journal of General Internal Medicine_, 20(9), 830–836. Patient-reported safety events identified errors missed by clinical surveillance, particularly medication-related incidents.
 
 ---
 
@@ -339,9 +322,10 @@ _"The mechanic says I need [repair] and quoted me [amount]. My car is a [year/ma
 :::
 
 
-<!-- RESEARCH NEEDED: AAA data on average repair costs by service type. NHTSA Technical Service Bulletins are public and searchable — the reader should know these exist. RepairPal and similar pricing tools can corroborate Agent output. The FTC's "Auto Repair Basics" page has consumer rights information. -->
+::: fairness
+Auto repair is one of the most heavily gendered information asymmetries in American life. Research consistently shows that women are quoted higher prices and receive more unnecessary repair recommendations than men for identical problems. The anxiety of "being taken advantage of" is not paranoia --- it is a statistically validated concern. Your Agent does not change the dynamics in the shop. It changes whether you walk in knowing what the repair should cost.
+:::
 
-<!-- RESEARCH NEEDED (HUMAN CONDITION): The mechanic's shop is one of the most heavily gendered information asymmetries in American life. Women report being quoted higher prices and receiving more unnecessary repair recommendations than men for identical problems. The Ian Ayres study on auto repair (building on his car sales research) documented this. The anxiety of "being taken advantage of" is not paranoia — it is a statistically validated concern. Your Agent does not change the gender dynamics in the shop. It changes whether you walk in knowing what the repair should cost. -->
 
 ---
 
@@ -391,9 +375,10 @@ Parents who speak the school's language — literally and figuratively — get b
 :::
 
 
-<!-- RESEARCH NEEDED: IDEA (20 U.S.C. §1400 et seq.) and Section 504 of the Rehabilitation Act — verify specific parental rights provisions. Wrightslaw.com is the definitive parent resource for special education law. COPAA (Council of Parent Attorneys and Advocates) provides free resources. The reader should know these exist. -->
+::: also
+[Wrightslaw](https://www.wrightslaw.com/) is the definitive free parent resource for special education law. The Council of Parent Attorneys and Advocates ([COPAA](https://www.copaa.org/)) provides additional free resources and referrals. Your Agent can translate the school system's professional vocabulary --- IEP, 504, RTI, MTSS, BIP --- but these organizations specialize in the fights your Agent cannot have for you.
+:::
 
-<!-- RESEARCH NEEDED (HUMAN CONDITION): The parent-teacher conference is one of the few institutional encounters where the power asymmetry runs through your child. The stakes feel different when the person across the table controls your kid's daily experience. Parents report feeling intimidated, dismissed, or patronized — particularly parents of color and parents without college degrees. The school system's professional vocabulary (IEP, 504, RTI, MTSS, BIP) functions as a gatekeeping language. Your Agent translates it. -->
 
 [^irl8-1]: Individuals with Disabilities Education Act (IDEA), 20 U.S.C. §1414(d)(1)(B) — parental participation in IEP development.
 
@@ -443,10 +428,6 @@ After an accident, police reports and insurance adjusters introduce human judgme
 :::
 
 
-<!-- RESEARCH NEEDED: State-specific rules on fault determination, no-fault vs. at-fault states, statute of limitations for filing claims and lawsuits. The "do not say sorry" advice is legally sound in at-fault states but some states have "apology laws" that make expressions of sympathy inadmissible. Verify state-by-state variation. -->
-
-<!-- RESEARCH NEEDED (HUMAN CONDITION): A car accident is a trauma response compressed into an administrative event. Your hands are shaking, your adrenaline is spiking, and the system requires you to be a calm documentarian. The gap between your physiological state and the task at hand is the widest it will be in any Skill in this book. The preparation-before-you-need-it framing is not a suggestion — it is the entire point. You cannot learn this in the moment. You learn it now. -->
-
 ---
 
 #### IRL-10: Attending a Funeral or Memorial
@@ -489,8 +470,6 @@ Please help me:
 The most useful thing you can do after a funeral is not say "let me know if you need anything." It is to do a specific thing without being asked — bring a meal, mow the lawn, pick up the kids, send a text in three weeks when everyone else has stopped checking in. Ask your Agent: _"My [friend/colleague] lost [person]. It's been [time]. What is a specific, helpful thing I can do right now?"_
 :::
 
-
-<!-- RESEARCH NEEDED (HUMAN CONDITION): Grief follows no schedule and no protocol. The funeral industry in America is a $20 billion business that mediates one of the most universal human experiences through commercial transactions — and the bereaved are making purchasing decisions while in acute grief. The FTC's Funeral Rule requires price disclosure but enforcement is thin. The Skill deliberately focuses on the social and emotional preparation rather than the commercial side — that could be its own Skill (funeral planning, advance directives, costs). The emotional reality: many people avoid funerals entirely because the anxiety of not knowing the protocol exceeds their sense of obligation. This is the IRL-3 dynamic at its most consequential. -->
 
 ---
 
@@ -543,8 +522,9 @@ Interview outcomes are shaped by bias — conscious and unconscious. Identical r
 :::
 
 
-<!-- RESEARCH NEEDED: Schmidt, F.L. & Hunter, J.E. (1998). "The validity and utility of selection methods in personnel psychology." Psychological Bulletin, 124(2), 262–274. Updated by Sackett et al. (2022). Verify both citations and DOIs. Also: Bertrand & Mullainathan (2004) "Are Emily and Greg More Employable Than Lakisha and Jamal?" — the foundational callback study on name-based discrimination in hiring. -->
+::: tip
+Remember: the information asymmetry runs both directions. The company is evaluating you, but you are also evaluating them. _"What happened to the last person in this role?"_ tells you more than _"What does success look like in the first 90 days?"_ Ask your Agent to help you prepare questions that are genuinely evaluative, not performative.
+:::
 
-<!-- RESEARCH NEEDED (HUMAN CONDITION): The job interview is one of the few situations where the information asymmetry runs in both directions — the company is evaluating you, but you are also evaluating them, and most candidates forget this. The power dynamic feels one-directional because you need the job and they have the job. Your Agent can help you prepare questions that are genuinely evaluative, not performative — "What happened to the last person in this role?" tells you more than "What does success look like in the first 90 days?" The anxiety of interviewing while employed is different from the anxiety of interviewing while unemployed. The book should acknowledge both without pretending they're the same. -->
 
-[^irl11-1]: Sackett, P.R. et al. (2022). "Revisiting meta-analytic estimates of validity of personnel selection." _Journal of Applied Psychology_, 107(4), 537–560.
+[^irl11-1]: Sackett, P.R. et al. (2022). ["Revisiting meta-analytic estimates of validity in personnel selection."](https://doi.org/10.1037/apl0000994) _Journal of Applied Psychology_, 107(11), 2040–2068.
