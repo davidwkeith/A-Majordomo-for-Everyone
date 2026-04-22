@@ -5,15 +5,20 @@ import matter from 'gray-matter';
 import { parse, renderHTML, applyFilter } from '@djot/djot';
 import { calloutFilter } from './filters/callouts.js';
 import { discoverBriefs } from './filters/art-briefs.js';
-import type { ArtBrief, ArtBriefContext, XmpData } from './filters/art-briefs.js';
+import type { ArtBrief, ArtBriefContext } from './filters/art-briefs.js';
 import { conversationFilter } from './filters/conversations.js';
 import { EndnoteState, epubOverrides, renderNotesSection } from './filters/endnotes.js';
 import type { ChapterMeta, ProcessedChapter } from './types.js';
+import { BOOK_META } from './types.js';
+import { embedXmp, readXmp, xmpMatches } from './xmp.js';
+import type { XmpFields } from './xmp.js';
 
 export const ROOT = resolve(import.meta.dirname, '..', '..');
 export const CONTENT_DIR = join(ROOT, 'src', 'content');
 export const STYLES_DIR = join(ROOT, 'src', 'styles');
 export const IMAGES_DIR = join(ROOT, 'src', 'images');
+/** Briefs for images sourced outside chapter content (callout icons, etc.). */
+export const ILLUSTRATION_SPEC_DIR = join(ROOT, 'spec', 'illustration');
 export const STYLE_GUIDE = join(
   ROOT,
   'spec',
@@ -24,33 +29,45 @@ export const STYLE_GUIDE = join(
 export { discoverBriefs };
 export type { ArtBrief };
 
-/** Extract XMP metadata fields from an image using Sharp. */
-async function readXmp(imagePath: string): Promise<XmpData> {
-  const result: XmpData = {};
-  try {
-    const meta = await sharp(imagePath).metadata();
-    if (!meta.xmp) return result;
+/** Resolve the XMP fields for a brief, applying the book-level default rights. */
+export function xmpFieldsFor(brief: ArtBrief): XmpFields {
+  return {
+    alt: brief.alt,
+    description: brief.brief,
+    rights: brief.rights || BOOK_META.rights,
+  };
+}
 
-    const xmpStr = meta.xmp.toString('utf-8');
-
-    const altMatch = xmpStr.match(
-      /Iptc4xmpCore:AltTextAccessibility[^>]*>([^<]+)</
-    );
-    if (altMatch) result.altText = altMatch[1].trim();
-
-    const descMatch = xmpStr.match(
-      /dc:description[\s\S]*?<rdf:li[^>]*>([^<]+)<\/rdf:li>/
-    );
-    if (descMatch) result.description = descMatch[1].trim();
-
-    const rightsMatch = xmpStr.match(
-      /dc:rights[\s\S]*?<rdf:li[^>]*>([^<]+)<\/rdf:li>/
-    );
-    if (rightsMatch) result.rights = rightsMatch[1].trim();
-  } catch {
-    // Image unreadable or no XMP — fall back to brief fields
-  }
-  return result;
+/**
+ * Embed XMP metadata from `.art.md` sidecars into every image that lacks it
+ * or has stale values. Returns the number of images updated.
+ *
+ * The brief is the source of truth — this step makes the PNG self-describing
+ * (alt text and license travel with the file) without requiring contributors
+ * to remember a separate `embed-xmp` step.
+ */
+export async function syncArtBriefXmp(
+  briefs: Map<string, ArtBrief>,
+  imagesDir: string
+): Promise<number> {
+  let updated = 0;
+  await Promise.all(
+    [...briefs.values()].map(async (brief) => {
+      const imagePath = join(imagesDir, `${brief.stem}.${brief.format}`);
+      try {
+        await stat(imagePath);
+      } catch {
+        return; // image not generated yet
+      }
+      const fields = xmpFieldsFor(brief);
+      if (!fields.alt) return; // spec: no image ships without alt
+      const current = await readXmp(imagePath);
+      if (xmpMatches(current, fields)) return;
+      await embedXmp(imagePath, fields);
+      updated++;
+    })
+  );
+  return updated;
 }
 
 /**
@@ -62,7 +79,7 @@ export async function prepareArtContext(
   briefs: Map<string, ArtBrief>,
   imagesDir: string
 ): Promise<ArtBriefContext> {
-  const xmpCache = new Map<string, XmpData>();
+  const xmpCache = new Map<string, Awaited<ReturnType<typeof readXmp>>>();
   const existingImages = new Set<string>();
 
   await Promise.all(
@@ -230,7 +247,10 @@ export async function optimizeImages(
     } else {
       const img = sharp(srcPath);
       const meta = await img.metadata();
-      let pipeline = img;
+      // Preserve XMP through re-encoding so the alt text and license
+      // travel with the image inside the ePub (sharp strips metadata
+      // by default).
+      let pipeline = img.keepXmp();
 
       if (meta.width && meta.width > maxWidth) {
         pipeline = pipeline.resize(maxWidth);

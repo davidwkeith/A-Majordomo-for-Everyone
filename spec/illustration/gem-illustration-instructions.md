@@ -201,15 +201,15 @@ The cover has its own detailed brief in the Cover Art Brief document. Key differ
 
 ## Image Metadata
 
-Every image you produce must embed XMP metadata before delivery. The metadata travels with the file — if the image is copied, shared, or archived, its accessibility text and license go with it.
+Every image must carry XMP metadata — if the PNG is copied, shared, or archived on its own, its accessibility text and license go with it. The build pipeline handles the embedding: fields declared in the `.art.md` sidecar are written into the image on every build, so the sidecar is the source of truth and the PNG stays in sync without a manual step.
 
-**Required XMP fields:**
+**Required XMP fields (all sourced from the `.art.md` sidecar):**
 
-- **`Iptc4xmpCore:AltTextAccessibility`** — the alt text for screen readers. This is the description of what the image shows and what it communicates, written for a reader who cannot see it. One to two sentences. This field is an IPTC standard specifically designed for web accessibility.
-- **`dc:description`** — the production brief. What was asked for, in enough detail to reproduce or revise the image. This is the art direction record embedded in the artwork itself.
-- **`dc:rights`** — `Copyright © 2025 David W. Keith. Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).`
+- **`Iptc4xmpCore:AltTextAccessibility`** ← the sidecar's `alt` frontmatter field. The description of what the image shows and what it communicates, written for a reader who cannot see it. One to two sentences. IPTC standard specifically designed for web accessibility.
+- **`dc:description`** ← the sidecar body. The production brief: what was asked for, in enough detail to reproduce or revise the image. The art direction record embedded in the artwork itself.
+- **`dc:rights`** ← the sidecar's optional `rights` frontmatter field, or the book-level default (`Copyright © 2025 David W. Keith. Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).`) when omitted. Also mirrored into `xmpRights:UsageTerms`.
 
-The alt text in the image is authoritative. If the manuscript's `<!-- art -->` comment and the image's XMP disagree, the image wins — it is the final deliverable. The comment is the request; the image metadata is the receipt.
+The `.art.md` file is authoritative. If the image's XMP and the sidecar disagree, the next build overwrites the image's XMP — review happens on the sidecar in git, not by inspecting PNG bytes. The sidecar is the request; the image metadata is the receipt the build keeps stamped.
 
 **File format:** PNG for all images. Inline graphics are generated on a plain white background; the build pipeline removes white to create an alpha channel in post-production. Chapter openers retain their notebook paper background. No JPEG (lossy compression damages pixel art).
 

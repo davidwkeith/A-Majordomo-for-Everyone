@@ -9,21 +9,18 @@ export interface ArtBrief {
   size: string;
   alt: string;
   brief: string;
+  /** Optional override for dc:rights; empty string means "use book default". */
+  rights: string;
   sourcePath: string;
 }
 
-/** Pre-read XMP metadata for an image. */
-export interface XmpData {
-  altText?: string;
-  description?: string;
-  rights?: string;
-}
+export type { XmpData } from '../xmp.js';
 
 export interface ArtBriefContext {
   imagesDir: string;
   briefs: Map<string, ArtBrief>;
   /** Pre-read XMP data keyed by stem. Populated before filters run. */
-  xmpCache: Map<string, XmpData>;
+  xmpCache: Map<string, import('../xmp.js').XmpData>;
   /** Set of stems with existing images. Pre-checked before filters run. */
   existingImages: Set<string>;
 }
@@ -53,6 +50,7 @@ export function discoverBriefs(contentDir: string): Map<string, ArtBrief> {
         size: String(data.size ?? 'full'),
         alt: String(data.alt ?? '').trim(),
         brief: content.trim(),
+        rights: String(data.rights ?? '').trim(),
         sourcePath: fullPath,
       });
     } catch (err) {

@@ -90,11 +90,18 @@ format: png
 size: full | half-left | half-right | margin
 alt: >
   Accessibility description for screen readers.
+# Optional — overrides the book-level CC BY-SA 4.0 default for this image only.
+rights: >
+  Copyright © 2025 David W. Keith. Licensed under CC BY-SA 4.0.
 ---
 
 Production brief for the illustrator. This is the body of the file,
 not a frontmatter field.
 ```
+
+The sidecar is the source of truth for XMP metadata in the image:
+`alt` → `Iptc4xmpCore:AltTextAccessibility`, the brief body → `dc:description`,
+and `rights` (or the book-level default) → `dc:rights` / `xmpRights:UsageTerms`.
 
 **Chapter reference** — an inline span. Without caption, the stem is the text content. With caption, the stem moves to an attribute and the caption becomes the text:
 
@@ -106,7 +113,7 @@ not a frontmatter field.
 
 Captions render as `<figcaption>` inside the `<figure>`. Inline markup (emphasis, links) is supported in captions.
 
-**Image output** always goes to `src/images/`. The build resolves `[name]{.art}` by looking up the `.art.md` sidecar, then checking `src/images/{name}.{format}`. If the image exists and contains XMP metadata, the embedded `Iptc4xmpCore:AltTextAccessibility` is used for alt text. If the image does not exist, a placeholder box renders with the alt text and brief in an expandable `<details>` element.
+**Image output** always goes to `src/images/`. The build resolves `[name]{.art}` by looking up the `.art.md` sidecar, then checking `src/images/{name}.{format}`. Every build syncs the sidecar's XMP fields into the image; if the image does not exist, a placeholder box renders with the alt text and brief in an expandable `<details>` element.
 
 **Missing art** — use `--generate` to invoke image generation for missing images:
 
@@ -114,7 +121,7 @@ Captions render as `<figcaption>` inside the `<figure>`. Inline markup (emphasis
 npm run build -- --generate   # generate missing art, then build ePub
 ```
 
-Embed XMP into produced images:
+XMP is embedded automatically on every build. To refresh a single image by hand (e.g. after regenerating it outside the build), run:
 
 ```bash
 npx tsx build/embed-xmp.ts src/images/file.png --from src/content/path/to/file.art.md

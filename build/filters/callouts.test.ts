@@ -17,7 +17,7 @@ const process = (dj: string): string => {
 const mockArtCtx: ArtBriefContext = {
   imagesDir: '/tmp',
   briefs: new Map([
-    ['test-img', { stem: 'test-img', format: 'png', size: 'full', alt: 'Test alt', brief: 'Brief text', sourcePath: '' }],
+    ['test-img', { stem: 'test-img', format: 'png', size: 'full', alt: 'Test alt', brief: 'Brief text', rights: '', sourcePath: '' }],
   ]),
   xmpCache: new Map(),
   existingImages: new Set(),

@@ -6,9 +6,11 @@ import {
   CONTENT_DIR,
   STYLES_DIR,
   IMAGES_DIR,
+  ILLUSTRATION_SPEC_DIR,
   STYLE_GUIDE,
   discoverBriefs,
   prepareArtContext,
+  syncArtBriefXmp,
   discoverChapters,
   processChapter,
   sortChapters,
@@ -55,6 +57,19 @@ async function build(): Promise<void> {
         `${missing.length} art brief(s) without images (use --generate to create)`
       );
     }
+  }
+
+  // Embed XMP metadata declared in .art.md sidecars into images that
+  // are missing it or out of sync. Keeps alt text and license travelling
+  // with the file without a manual embed step. Covers callout icons and
+  // other images whose briefs live in spec/illustration/ alongside chapter
+  // content briefs.
+  console.log('Syncing XMP metadata...');
+  const illustrationBriefs = discoverBriefs(ILLUSTRATION_SPEC_DIR);
+  const allBriefs = new Map([...briefs, ...illustrationBriefs]);
+  const embedded = await syncArtBriefXmp(allBriefs, IMAGES_DIR);
+  if (embedded > 0) {
+    console.log(`Embedded XMP in ${embedded} image(s)`);
   }
 
   // Pre-read XMP data for all briefs (Djot filters are synchronous)
