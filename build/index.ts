@@ -19,6 +19,7 @@ import type { ArtBrief } from './pipeline.js';
 import { assembleEpub } from './epub/assemble.js';
 import { generateMissingArt } from './generate-art.js';
 import { BOOK_META } from './types.js';
+import { validateAccessibility, formatA11yIssues } from './validators/a11y.js';
 
 const OUTPUT_PATH = join(ROOT, 'dist', 'majordomo.epub');
 
@@ -80,6 +81,17 @@ async function build(): Promise<void> {
     files.map((f) => processChapter(f, artCtx))
   );
   const sorted = sortChapters(chapters);
+
+  // Fail the build if any declared accessibility feature is not satisfied.
+  // The ePub OPF claims WCAG 2.0 AA; shipping a book that does not meet its
+  // own claim is a worse outcome than failing loudly here.
+  const issues = validateAccessibility(BOOK_META, sorted, artCtx);
+  if (issues.length > 0) {
+    console.error(
+      `Accessibility validation failed (${issues.length} issue(s)):\n${formatA11yIssues(issues)}`
+    );
+    process.exit(1);
+  }
 
   // Optimize images to a temp directory for the epub
   const optimizedDir = join(ROOT, 'dist', '.images');
