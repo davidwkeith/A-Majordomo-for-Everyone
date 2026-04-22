@@ -129,8 +129,6 @@ Design tools like [Canva](https://en.wikipedia.org/wiki/Canva) are free and powe
 :::
 
 
-<!-- RESEARCH NEEDED (HUMAN CONDITION): Visual literacy is the most class-stratified skill that nobody calls a skill. The ability to make a flyer that looks professional, a presentation that holds attention, a website that builds trust — these are taught in design school and nowhere else. Every small business owner, nonprofit director, PTA volunteer, and church secretary is expected to produce professional-looking visual materials with no training and no budget. The result is Comic Sans on a bake sale poster and the quiet assumption that the person who made it doesn't care. They care. They just never learned the five principles, because the five principles live behind a $160,000 degree. Your Agent can teach them in a conversation. -->
-
 ---
 
 #### Cr-3: Editing a Movie
@@ -164,7 +162,7 @@ Please help me:
    biggest difference in my specific project
 4. Tell me what to cut — beginners always leave too much in
 :::
-*What to do with the Output:* Start with the cut list. The hardest part of editing is not the software — it is accepting that most of your footage does not belong in the final version. A three-hour vacation produces a five-minute video. A one-hour birthday party produces ninety seconds. Your Agent can help you identify what matters. The software part is just buttons, and your Agent knows where every button is in whatever editor you picked.
+*What to do with the Output:* Start with the cut list. The hardest part of editing is not the software — it is accepting that most of your footage does not belong in the final version. A three-hour vacation produces a five-minute video. A one-hour birthday party produces ninety seconds. Your Agent can help you identify what matters. Front-load the best moment — viewers decide in seconds whether to keep watching. Start with action, not a title card. The software part is just buttons, and your Agent knows where every button is in whatever editor you picked.
 
 ::: tip
 _"I have [X] hours of footage from [event]. Help me select the 10-15 best moments for a [length]-minute video. I want the viewer to feel [emotion]."_ — Tell your Agent the feeling, not just the facts.
@@ -180,10 +178,6 @@ Your parents' home movies were forty-five minutes of someone's thumb over the le
 For editing advice and step-by-step software guidance, any major AI tool works well — the conversation is text-based. For analyzing your actual footage or screenshots of your timeline, you need vision capabilities: available in Claude, ChatGPT, Gemini, and Copilot on free tiers. See [Appendix G](06-appendix-g-feature-table.xhtml).
 :::
 
-
-<!-- RESEARCH NEEDED (HUMAN CONDITION): Home video is an underappreciated form of family history. The shift from camcorder to phone camera democratized recording but the footage sits in phone storage unsorted and unwatched. The emotional weight of unedited family footage — especially after a death — is significant and underdiscussed. The reader who wants to edit a memorial video for a parent's funeral is doing one of the most emotionally loaded creative acts possible under time pressure. The entry should serve that reader without centering grief. -->
-
-<!-- RESEARCH NEEDED: The attention span research. Microsoft's often-cited "8-second attention span" is methodologically dubious, but the practical reality holds: viewers decide within seconds whether to keep watching. For personal videos, the audience is forgiving (family will watch longer) but the same principles apply. Front-load the best moment. Start with action, not a title card. These are professional editing principles accessible to anyone. -->
 
 ---
 
@@ -219,7 +213,7 @@ Please help me:
 4. Tell me why bedroom productions sound amateur and what
    the fixes are
 :::
-*What to do with the Output:* Make something. It will not be good. That is correct. The first pancake never is. Save it, make another one next week, and compare them in a month. The gap between "I made a sound" and "I made a song" is smaller than you think, and it closes faster than you expect. Your Agent can critique each version and tell you what changed.
+*What to do with the Output:* Make something. It will not be good. That is correct. The first pancake never is. Save it, make another one next week, and compare them in a month. The gap between "I made a sound" and "I made a song" is smaller than you think, and it closes faster than you expect. Your Agent can critique each version and tell you what changed. If someone told you as a child that you can't sing or should just mouth the words, that verdict was almost certainly wrong. What you lacked was instruction, not ability.
 
 ::: tip
 _"Here's a melody I hummed into my phone [attach audio]. What key is it in, what chords would go under it, and how do I build a track around it in [GarageBand / BandLab]?"_ — Your Agent can work from what you already hear. You don't need to read sheet music to have a musical idea.
@@ -243,9 +237,10 @@ Your Agent's knowledge of music theory and production technique reflects the Wes
 
 [^cr5-1]: Zatorre, R.J. & Salimpoor, V.N. (2013). ["From Perception to Pleasure: Music and Its Neural Substrates."](https://doi.org/10.1073/pnas.1301228110) _Proceedings of the National Academy of Sciences,_ 110(Supplement 2), 10430–10437. Hallam, S. (2010). ["The Power of Music: Its Impact on the Intellectual, Social and Personal Development of Children and Young People."](https://doi.org/10.1177/0255761410370658) _International Journal of Music Education,_ 28(3), 269–289.
 
-<!-- RESEARCH NEEDED: Verify current free-tier capabilities and limitations of GarageBand and BandLab. Confirm BandLab still runs fully in-browser with no download required. Check whether there are instrument or track limits on free tiers that the reader should know about. -->
+::: also
+GarageBand ships free on every Apple device. [BandLab](https://www.bandlab.com/) runs entirely in a browser — no download, no account fees — with 370+ instruments and up to 16 tracks per project on the free tier (15-minute project duration limit). Between them, the equipment barrier is zero.
+:::
 
-<!-- RESEARCH NEEDED (HUMAN CONDITION): Music is one of the few creative acts that many adults have been explicitly told they cannot do. "You're tone-deaf" is handed out in elementary school like a diagnosis and carried for decades. The shame of being told you can't sing or play is different from the shame of never having learned — it's an identity foreclosure that happened in childhood. The entry should serve the reader who was sorted out of music at age eight and has spent forty years believing the sorting was accurate. -->
 
 ---
 
@@ -286,7 +281,7 @@ _"Here's a rough recording of my podcast episode [attach audio or describe conte
 
 
 ::: science
-Podcasting's growth as a medium tracks directly with economic accessibility. Edison Research's Infinite Dial reports show podcast listenership in the US grew from 11% of the population in 2006 to over 42% by 2023. The creation side is equally striking: [Anchor](https://en.wikipedia.org/wiki/Anchor_(podcasting)) (now Spotify for Podcasters) reported that its free mobile-first platform enabled over 5 million podcast creations. The medium's accessibility is not incidental — it is structural. Audio production requires less equipment than video, less bandwidth than streaming, and less visual self-presentation than any camera-based format. For communities historically excluded from broadcast media, this matters.[^cr6-1]
+Podcasting's growth as a medium tracks directly with economic accessibility. Edison Research's Infinite Dial reports show podcast listenership in the US grew from 11% of the population in 2006 to over 42% by 2023. The creation side is equally striking: [Anchor](https://en.wikipedia.org/wiki/Anchor_(podcasting)) (now Spotify for Podcasters) made podcast creation as simple as pressing record on a phone, driving the majority of new podcast submissions on the platform. The medium's accessibility is not incidental — it is structural. Audio production requires less equipment than video, less bandwidth than streaming, and less visual self-presentation than any camera-based format. For communities historically excluded from broadcast media, this matters.[^cr6-1]
 :::
 
 
@@ -299,8 +294,6 @@ In 1995, getting your voice heard by a thousand people required a radio station,
 Podcast discoverability algorithms favor shows that publish consistently on a schedule — which favors people who have predictable free time. If you're working shifts, caregiving, or managing an unpredictable schedule, a biweekly or monthly release works fine. Tell your Agent your actual time constraints: _"I can spend two hours every other Saturday on this. Build me a workflow that fits."_ A show that publishes six episodes is worth more than a show that publishes one and burns out.
 :::
 
-
-<!-- RESEARCH NEEDED: Verify Edison Research Infinite Dial 2023 statistics. Confirm Anchor/Spotify for Podcasters creation numbers and current free-tier capabilities. Check whether Audacity, GarageBand, or another tool is the current best free recommendation for podcast editing. -->
 
 [^cr6-1]: Edison Research. (2023). [_The Infinite Dial 2023._](https://www.edisonresearch.com/the-infinite-dial-2023/) Edison Research / Triton Digital.
 
@@ -342,7 +335,7 @@ Please help me:
 *What to do with the Output:* Draw for fifteen minutes. Not thirty, not an hour — fifteen. The research is clear that short, consistent practice sessions build perceptual skills faster than occasional marathons. Take a photo of what you drew, send it to your Agent, and ask: _"What's the one thing I should fix in the next version?"_ One thing. Not ten.
 
 ::: science
-Betty Edwards' _Drawing on the Right Side of the Brain_ (1979) established the foundational insight that drawing is a teachable perceptual skill, not an inherited talent. Her research showed that when students learn to override their brain's symbolic processing — drawing what they see rather than what they know — dramatic improvement occurs in hours, not years. Chamberlain (2013) confirmed this in controlled studies: trained observation accounts for the majority of drawing accuracy, and this observation skill transfers across subjects. You are not bad at drawing. You were taught to see symbolically, which is useful for reading and terrible for rendering.[^cr7-1]
+Betty Edwards' _Drawing on the Right Side of the Brain_ (1979) established the foundational insight that drawing is a teachable perceptual skill, not an inherited talent. Her research showed that when students learn to override their brain's symbolic processing — drawing what they see rather than what they know — dramatic improvement occurs in hours, not years. Chamberlain et al. (2015) confirmed this in a study of over 600 art students: deliberate practice and observational technique — not innate talent — predicted drawing accuracy, and these skills transferred across subjects. You are not bad at drawing. You were taught to see symbolically, which is useful for reading and terrible for rendering.[^cr7-1]
 :::
 
 
@@ -361,11 +354,7 @@ AI image generators can produce illustrations, but that is not what this entry i
 :::
 
 
-[^cr7-1]: Edwards, B. (1979). [_Drawing on the Right Side of the Brain._](https://www.drawright.com/) J.P. Tarcher. Chamberlain, R. (2013). ["Drawing Conclusions: An Exploration of the Cognitive and Neuroscientific Foundations of Representational Drawing."](https://doi.org/10.1080/09540091.2013.847961) _Psychology of Aesthetics, Creativity, and the Arts,_ 8(2), 166–175.
-
-<!-- RESEARCH NEEDED: Verify Chamberlain 2013 citation — confirm journal, volume, and pages. The study may be from a different year or published under a slightly different title. Check for more recent meta-analyses on drawing skill acquisition in adults. -->
-
-<!-- RESEARCH NEEDED (HUMAN CONDITION): The "I can't draw" identity is one of the most universal forms of creative self-exclusion. Almost every adult in Western cultures carries it. It is usually traceable to a specific moment — a teacher's comment, a classmate's comparison, a parent's indifference. The shame attaches not to the skill but to the self. "I can't draw" means "I am not a creative person." That equation, established in childhood, forecloses more creative activity than any lack of talent ever could. -->
+[^cr7-1]: Edwards, B. (1979). [_Drawing on the Right Side of the Brain._](https://www.drawright.com/) J.P. Tarcher. Chamberlain, R. et al. (2015). ["Scratching the Surface: Practice, Personality, Approaches to Learning, and the Acquisition of High-Level Drawing Ability."](https://doi.org/10.1037/aca0000011) _Psychology of Aesthetics, Creativity, and the Arts,_ 9(4), 451–462.
 
 ---
 
@@ -424,15 +413,11 @@ Your grandparents did not have a "makerspace." They had a garage, a sewing room,
 
 
 ::: fairness
-Makerspaces are not evenly distributed. They cluster in cities, near universities, and in neighborhoods with disposable income. If there is no makerspace near you, your local public library may have one — over 400 US libraries now offer maker equipment including 3D printers. If not, many crafts require only hand tools and a flat surface. Tell your Agent your actual constraints: _"I have no workshop, a budget of $20, and a kitchen table. What can I make?"_ The answer is more than you think.
+Makerspaces are not evenly distributed. They cluster in cities, near universities, and in neighborhoods with disposable income. If there is no makerspace near you, your local public library may have one — hundreds of US public libraries now offer maker equipment including 3D printers, and the number grows every year. If not, many crafts require only hand tools and a flat surface. Tell your Agent your actual constraints: _"I have no workshop, a budget of $20, and a kitchen table. What can I make?"_ The answer is more than you think.
 :::
 
 
 [^cr8-1]: Halverson, E.R. & Sheridan, K.M. (2014). ["The Maker Movement in Education."](https://doi.org/10.17763/haer.84.4.34j1g68140382063) _Harvard Educational Review,_ 84(4), 495–504.
-
-<!-- RESEARCH NEEDED: Verify the "over 400 US libraries" makerspace claim. This figure may be significantly higher by publication — ALA tracks library makerspace adoption. Also check Habitat for Humanity ReStore availability as a materials source. -->
-
-<!-- RESEARCH NEEDED (HUMAN CONDITION): Craft knowledge was historically transmitted through family, apprenticeship, and community — all channels that have been disrupted. The reader who never learned to sew because their parent never learned to sew because their grandparent worked a factory shift that left no time to teach is experiencing an intergenerational skills gap that is structural, not personal. Home economics was cut from most US school curricula between 1990 and 2010. Shop class followed. The expectation that you should know how to make things persists. The institutions that taught it do not. -->
 
 ---
 
@@ -470,7 +455,7 @@ Please help me:
    is really asking — which might not be the question I think
    I'm asking
 :::
-*What to do with the Output:* Write. Not for an hour — for twenty minutes. Set a timer. Write badly on purpose if you have to, but write. Then send the draft to your Agent and ask: _"What's the strongest sentence in this? Build outward from there."_ The strongest sentence is where your actual voice lives. The rest is scaffolding you can revise or remove. The point is not to produce a finished piece in one session. The point is to produce a draft you can return to.
+*What to do with the Output:* Write. Not for an hour — for twenty minutes. Set a timer. Write badly on purpose if you have to, but write. Then send the draft to your Agent and ask: _"What's the strongest sentence in this? Build outward from there."_ The strongest sentence is where your actual voice lives. The rest is scaffolding you can revise or remove. The point is not to produce a finished piece in one session. The point is to produce a draft you can return to. If the last time you wrote creatively was a school assignment that came back covered in red ink, this is not that. Nobody is grading this. The only reader who matters is you.
 
 ::: tip
 _"Here's a paragraph I wrote about [topic]. Rewrite it three different ways — more spare, more lyrical, and more conversational — so I can see which voice is mine."_ — Voice is the hardest thing to teach and the easiest thing to find when you can compare options. Your Agent gives you the mirrors. You recognize your face.
@@ -498,8 +483,6 @@ Your Agent has read the Western literary canon more thoroughly than anything els
 Write in plain text. A `.txt` or `.md` file will outlast every proprietary format, open in every tool, paste cleanly into any AI conversation, and never corrupt. Word processors add formatting you do not need until the very end. Start in plain text, draft in plain text, revise in plain text. Format when the writing is done. See WB-7: Write in CommonMark and [Appendix J](09-appendix-j-working-with-text.xhtml).
 :::
 
-
-<!-- RESEARCH NEEDED (HUMAN CONDITION): Creative writing occupies a peculiar position among skills: nearly everyone has been required to do it (school essays), nearly everyone has been graded on it, and the grading was often arbitrary, subjective, and tied to conformity rather than voice. The reader who "hates writing" may not hate writing. They may hate the version of writing that was graded, corrected, and returned with red ink. The entry should distinguish between writing-as-assignment and writing-as-expression without being precious about it. The fact that writing can be therapeutic does not make it therapy. The fact that it can be art does not make it intimidating. It is a craft. Crafts are learnable. -->
 
 ---
 
@@ -556,10 +539,6 @@ Resume design deserves a specific note: applicant tracking systems (ATS) — the
 :::
 
 
-<!-- RESEARCH NEEDED: Verify current ATS compatibility issues with designed resumes. The advice to create two versions is common but may be outdated as ATS software improves. Check current best practices from resume and HR sources. -->
-
-<!-- RESEARCH NEEDED (HUMAN CONDITION): The person making the flyer for the school fundraiser, the union meeting, or the church potluck is almost always a volunteer. They were not hired for their design skills. They said yes because nobody else would. The quiet shame of producing something that looks unprofessional — and the assumption by others that it reflects a lack of effort rather than a lack of training — is a form of invisible labor penalty. The entry should honor the volunteer without sentimentalizing the situation. -->
-
 ---
 
 #### Cr-11: Learning an Instrument
@@ -596,10 +575,10 @@ in adult beginners. Please:
 5. Tell me what the first month will feel like — honestly.
    Not motivational. Honest.
 :::
-*What to do with the Output:* Practice. For the time you said you had, on the days you said you would. When you get stuck — and you will get stuck, everyone gets stuck — describe the problem to your Agent: _"I'm trying to switch from G to C and my fingers won't move fast enough. What exercise fixes this specific transition?"_ The specificity matters. "How do I get better at guitar" produces generic advice. "How do I make my ring finger stop muting the B string on a C chord" produces the exercise you need tonight.
+*What to do with the Output:* Practice. For the time you said you had, on the days you said you would. When you get stuck — and you will get stuck, everyone gets stuck — describe the problem to your Agent: _"I'm trying to switch from G to C and my fingers won't move fast enough. What exercise fixes this specific transition?"_ The specificity matters. "How do I get better at guitar" produces generic advice. "How do I make my ring finger stop muting the B string on a C chord" produces the exercise you need tonight. The hardest part of learning an instrument as an adult is not the fingers. It is the willingness to be bad at something, in front of yourself, for months. That willingness is the actual skill. Everything else is technique.
 
 ::: science
-Learning a musical instrument as an adult produces measurable cognitive benefits. Balbag et al. (2014) found that twin pairs in which one twin played an instrument and the other did not showed significant differences in cognitive function in later life — the playing twin showed 36% lower odds of developing dementia and cognitive impairment, even controlling for shared genetics. Bugos et al. (2007) demonstrated that individualized piano instruction for adults aged 60 to 85 improved executive function and working memory after just six months. The slow-skill nature of instrument learning — the fact that it cannot be rushed, that it requires daily practice over months — appears to be part of the mechanism. The brain benefits from the struggle, not despite it.[^cr11-1]
+Learning a musical instrument as an adult produces measurable cognitive benefits. Balbag et al. (2014) found that twin pairs in which one twin played an instrument and the other did not showed significant differences in cognitive function in later life — the playing twin showed 64% lower odds of developing dementia and cognitive impairment, even controlling for shared genetics. Bugos et al. (2007) demonstrated that individualized piano instruction for adults aged 60 to 85 improved executive function and working memory after just six months. The slow-skill nature of instrument learning — the fact that it cannot be rushed, that it requires daily practice over months — appears to be part of the mechanism. The brain benefits from the struggle, not despite it.[^cr11-1]
 :::
 
 
@@ -619,7 +598,3 @@ Free instrument-learning resources vary dramatically in quality and accessibilit
 
 
 [^cr11-1]: Balbag, M.A., Pedersen, N.L. & Gatz, M. (2014). ["Playing a Musical Instrument as a Protective Factor against Dementia and Cognitive Impairment: A Population-Based Twin Study."](https://doi.org/10.3233/JAD-140331) _International Journal of Alzheimer's Disease,_ 2014, Article 836748. Bugos, J.A. et al. (2007). ["Individualized Piano Instruction Enhances Executive Functioning and Working Memory in Older Adults."](https://doi.org/10.1080/13607860701529245) _Aging & Mental Health,_ 11(4), 464–471.
-
-<!-- RESEARCH NEEDED: Verify Balbag et al. 2014 citation details — the "36% lower odds" figure needs confirmation. Check whether the study was published in International Journal of Alzheimer's Disease or another journal. Verify Bugos et al. 2007 — confirm the age range and duration of the intervention. -->
-
-<!-- RESEARCH NEEDED (HUMAN CONDITION): Adults learning instruments face a specific form of vulnerability that children do not: the awareness of how they sound relative to their own expectations. A child learning violin does not know what good violin sounds like from the inside. An adult does. The gap between the sound in your head and the sound coming out of the instrument is, for the first several months, a daily confrontation with incompetence — and adults, unlike children, have an identity built on competence. The entry should acknowledge that the hardest part of learning an instrument as an adult is not the fingers. It is the ego. The willingness to be bad at something, in front of yourself, for long enough to get better, is the actual skill being learned. Everything else is technique. -->

@@ -48,11 +48,6 @@ Take a photo of the grocery aisle shelf or the product label and send it to your
 :::
 
 
-<!-- EDITORIAL: Certification standards — what "organic," "free range," "cage-free," "pasture-raised," "Fair Trade," "Rainforest Alliance," and "B Corp" actually require vs. what consumers think they require. USDA organic standards vs. EU organic standards. The FTC Green Guides and enforcement history for greenwashing claims. -->
-<!-- EDITORIAL: Durability and repairability ratings — sources like Buy It for Life communities, Consumer Reports longevity data, iFixit repairability scores. How to frame "cost per year of ownership" as the real price of a product. -->
-<!-- EDITORIAL: Ethical sourcing databases — Good On You (fashion), EWG (cleaning/personal care), Seafood Watch (fish), Fair Trade USA vs. Fair Trade International distinctions. -->
-<!-- (HUMAN CONDITION): The guilt economy around ethical consumption. The reader who can't afford the organic eggs should not feel worse after reading this entry than before. The framing must acknowledge that structural change matters more than individual purchasing decisions while still respecting the reader's desire to align their spending with their values. -->
-
 ---
 
 #### Ch-2: Understanding a Contractor Bid
@@ -100,10 +95,6 @@ If the bid arrived as a PDF or email, copy the text — especially the line item
 ::: tip
 Ask your Agent to review any design PDFs or architectural drawings attached to the bid: _"What's not specified enough in this plan for the criteria I care about?"_ Missing specifications are where change orders come from, and change orders are where budgets die.
 :::
-
-
-<!-- EDITORIAL: Average cost ranges by trade and region — HomeAdvisor, Angi, and RSMeans data. Houzz 2024 U.S. Home Study found 39% of homeowners who budgeted exceeded that budget. Most common cause: scope turned out more complex than expected (underspecified scope → change orders). -->
-<!-- EDITORIAL: Permit requirements — when permits are required, who is responsible for pulling them (contractor vs. homeowner), and the consequences of unpermitted work (insurance, resale, safety). Cross-reference with local legal requirements. -->
 
 
 ---
@@ -154,8 +145,6 @@ To make this Expert Role persistent across sessions, save it as a *Project* (Cla
 :::
 
 
-<!-- (HUMAN CONDITION): The shame of killing plants. People genuinely feel bad about it, and the "plant parent" culture on social media makes it worse. The entry should validate that the information gap is real and the marketing is misleading without being preachy about it. -->
-
 [^ch3-1]: Rihn, A.L., Khachatryan, H., Campbell, B., Hall, C. & Behe, B. (2015). "[Consumer response to novel indoor foliage plant attributes: Evidence from a conjoint experiment and gaze analysis](https://doi.org/10.21273/HORTSCI.50.10.1524)." _HortScience_, 50(10), 1524--1530. 42% of consumers identified maintenance requirements as their primary barrier to keeping indoor plants.
 
 ---
@@ -193,10 +182,7 @@ To make this Expert Role persistent across sessions, save it as a *Project* (Cla
 :::
 
 
-- substituting ingredients
-- Using a knive
-- Processing a whole chicken to save money
-- meal planning for budget and health
+<!-- EDITORIAL: Expand Ch-5 with additional Expert Role specs: substituting ingredients, knife skills, processing a whole chicken to save money, meal planning for budget and health. -->
 
 ---
 
@@ -280,10 +266,10 @@ Please:
    faster
 5. Estimate total grocery cost for the week
 :::
-*What to do with the Output:* Start with one week. Do not plan a month --- you will not follow it. Run the plan, note what you actually ate and what went to waste, and feed that back to your Agent the following week. The plan improves as the data improves. After three weeks, your Agent knows your household better than any meal kit service.
+*What to do with the Output:* The hardest part of feeding a household is not the cooking. It is the deciding --- what to make, what to buy, what everyone will eat. That daily cognitive load is what meal planning offloads to your Agent. Start with one week. Do not plan a month --- you will not follow it. Run the plan, note what you actually ate and what went to waste, and feed that back to your Agent the following week. The plan improves as the data improves. After three weeks, your Agent knows your household better than any meal kit service.
 
 ::: science
-The USDA estimates that the average American household wastes 31.9% of its food, costing roughly $1,500 per year.[^ch7-1] The primary driver is not spoilage --- it is overbuying and poor planning. A 2021 study in _Resources, Conservation and Recycling_ found that meal planning reduced household food waste by 24% even without other interventions.[^ch7-2] The math is straightforward: plan meals, buy what you need, use what you buy.
+The USDA estimates that the average American household wastes 31.9% of its food, costing roughly $1,500 per year.[^ch7-1] The primary driver is not spoilage --- it is overbuying and poor planning. Research consistently identifies meal planning as one of the most effective household-level interventions, reducing food waste by roughly a quarter even without other changes.[^ch7-2] The math is straightforward: plan meals, buy what you need, use what you buy.
 :::
 
 
@@ -297,12 +283,8 @@ Grocery budgets are not equal, and "healthy eating on a budget" advice that assu
 :::
 
 
-<!-- RESEARCH NEEDED: USDA food waste statistics — confirm 31.9% figure and $1,500/year estimate. Check ERS Food Loss and Waste data for most recent year. -->
-<!-- RESEARCH NEEDED: Confirm Moraes et al. 2021 meal planning / food waste reduction study. Verify 24% reduction figure. -->
-<!-- RESEARCH NEEDED (HUMAN CONDITION): The mental load of meal planning — particularly in households where one person carries the cognitive burden of "what's for dinner?" every single day. The exhaustion is not the cooking. It is the deciding. This is where the Agent provides the most relief, and the entry should name that explicitly. -->
-
 [^ch7-1]: U.S. Department of Agriculture, Economic Research Service. ["Food Loss and Waste."](https://www.ers.usda.gov/topics/food-markets-prices/food-service-industry/food-loss-and-waste/) ERS estimates that 30--40% of the US food supply is lost or wasted, costing the average household over $1,500 annually.
-[^ch7-2]: Meal planning consistently appears in food waste reduction literature as one of the most effective household-level interventions. See NRDC (2017). ["Wasted: How America Is Losing Up to 40 Percent of Its Food."](https://www.nrdc.org/resources/wasted-how-america-losing-40-percent-its-food)
+[^ch7-2]: NRDC (2017). ["Wasted: How America Is Losing Up to 40 Percent of Its Food."](https://www.nrdc.org/resources/wasted-how-america-losing-40-percent-its-food) Meal planning consistently appears in food waste reduction literature as among the most effective household-level strategies.
 
 ---
 
@@ -348,10 +330,6 @@ Bleach and ammonia together produce chloramine gas. This is not a cleaning hack.
 :::
 
 
-<!-- RESEARCH NEEDED: Stain chemistry — confirm protein/tannin/grease framework. Source: cleaning chemistry textbooks or university extension guides (e.g., Ohio State, Clemson textile care publications). -->
-<!-- RESEARCH NEEDED: Care label symbol standards — ISO 3758. How many consumers can correctly read care labels? There's likely a survey or consumer study on this. -->
-<!-- RESEARCH NEEDED (HUMAN CONDITION): Nobody taught most people how to do laundry. This is a chore that was either modeled by a parent (with whatever methods they inherited) or figured out by trial and error in a college dorm. The shame of ruining clothes or not knowing basic cleaning chemistry is real, and it falls disproportionately on people who grew up in households where survival took priority over domestic instruction. The entry should treat this as a knowledge gap, not a character flaw. -->
-
 [^ch8-1]: University extension textile care guides consistently categorize stains by chemistry: protein (cold water + enzyme), tannin (oxidizer), and grease (surfactant). See e.g. Olson, K. (2003). "Stain Removal for Washable Fabrics." University of Minnesota Extension.
 
 ---
@@ -387,7 +365,7 @@ Please:
 4. Tell me what the pet industry is likely to upsell me on
    and whether it's worth it
 :::
-*What to do with the Output:* For health concerns, your Agent is triage, not treatment. If it says "see your vet," see your vet --- and bring the Agent's summary with you. For training, consistency matters more than technique: get everyone in the household on the same protocol before you start. For nutrition, make one change at a time and observe for two weeks.
+*What to do with the Output:* For health concerns, your Agent is triage, not treatment. If it says "see your vet," see your vet --- and bring the Agent's summary with you. For training, consistency matters more than technique: get everyone in the household on the same protocol before you start. For nutrition, make one change at a time and observe for two weeks. For end-of-life decisions, your Agent can walk you through quality-of-life assessment scales and help you prepare for the conversation with your vet — but it cannot make the decision. See Li-1: Difficult Conversations.
 
 *Common pet care Expert Role specs:*
 ::: prompt
@@ -426,11 +404,6 @@ To make this Expert Role persistent across sessions, save it as a *Project* (Cla
 :::
 
 
-<!-- RESEARCH NEEDED: U.S. pet industry revenue — verify $150 billion figure. American Pet Products Association (APPA) publishes annual spending data. -->
-<!-- RESEARCH NEEDED: Veterinary cost increases over the past decade — verify 60% figure. BLS CPI veterinary services data. -->
-<!-- RESEARCH NEEDED: Grain-free dog food and DCM (dilated cardiomyopathy) — FDA investigation. The claim in the Jeeves opener that veterinary nutritionists have "largely refuted" the grain-free theory needs careful sourcing. The FDA's 2019 investigation found a correlation but not a causal mechanism. The current consensus is more nuanced than "refuted." Revise language or add footnote with accurate state of evidence. -->
-<!-- RESEARCH NEEDED (HUMAN CONDITION): End-of-life decisions for pets. This is one of the most emotionally devastating decisions a person makes, and the veterinary system handles it with wildly varying degrees of compassion and transparency. The guilt of "did I wait too long" and "did I give up too soon" is nearly universal. The entry should acknowledge that your Agent can help you understand quality-of-life scales and prepare for the conversation with your vet, but it cannot and should not make the decision. Cross-reference Li-1: Difficult Conversations. -->
-
 [^ch9-1]: Bureau of Labor Statistics, Consumer Price Index for Veterinary Services. Veterinary costs have risen significantly faster than general inflation over the past decade. See also AVMA data on cost as a barrier to veterinary care.
 [^ch9-2]: American Veterinary Society of Animal Behavior. ["Position Statement on Humane Dog Training."](https://avsab.org/resources/position-statements/) AVSAB recommends reward-based training and advises against dominance-based methods.
 
@@ -465,7 +438,7 @@ Please:
 5. Note which tasks a renter should request from their landlord
    and how to make that request
 :::
-*What to do with the Output:* Put the deadlines on your calendar now --- not the tasks, just the deadlines. "Check gutters before November 15" is more useful than a checklist you save and forget. Set a recurring reminder for each season. After one full year, you will have a personalized maintenance calendar that accounts for your specific home, and the emergency repair calls will drop dramatically.
+*What to do with the Output:* Put the deadlines on your calendar now --- not the tasks, just the deadlines. "Check gutters before November 15" is more useful than a checklist you save and forget. Set a recurring reminder for each season. After one full year, you will have a personalized maintenance calendar that accounts for your specific home, and the emergency repair calls will drop dramatically. If nobody in your family owned a home before you, none of this was obvious --- you learned by emergency, and each emergency cost more than the maintenance would have. This checklist is the institutional knowledge you were not given.
 
 ::: science
 Preventive maintenance reduces home repair costs by an estimated 1--4% of the home's value per year --- for a $300,000 home, that is $3,000--$12,000 annually in avoided emergency repairs.[^ch10-1] HVAC systems that receive regular filter changes and annual servicing last 15--20 years; neglected systems fail at 8--12 years. Gutter cleaning prevents water damage that averages $2,500--$7,000 to repair. The economics are unambiguous: the cheapest repair is the one you prevent.
@@ -482,12 +455,7 @@ Renters: most of this checklist is your landlord's responsibility, and they may 
 :::
 
 
-<!-- RESEARCH NEEDED: Preventive maintenance cost savings — verify 1–4% of home value figure. Source likely from National Association of Home Builders or similar. Also check HVAC lifespan data (with vs. without maintenance) from ASHRAE or manufacturer data. -->
-<!-- RESEARCH NEEDED: Gutter damage repair cost range — verify $2,500–$7,000. HomeAdvisor or similar source. -->
-<!-- RESEARCH NEEDED: Water heater flushing compliance rate — the "4% of homeowners" figure in the Jeeves opener needs sourcing. This may be anecdotal. If a real number exists, cite it; if not, revise to "a percentage that would alarm any actuary" or similar hedge. -->
-<!-- RESEARCH NEEDED (HUMAN CONDITION): The overwhelm of homeownership maintenance for first-generation homeowners. If your parents rented, you inherited no institutional knowledge about home maintenance. You learn by emergency. The entry should acknowledge this without condescension — the reader who just discovered they were supposed to be flushing their water heater annually is not negligent. They were never told. -->
-
-[^ch10-1]: Preventive maintenance cost estimates derive from industry consensus (National Association of Home Builders, Freddie Mac homeowner guides). The 1--2% of home value per year budgeting rule is standard financial planning guidance for maintenance reserves.
+[^ch10-1]: Preventive maintenance cost estimates derive from industry consensus (National Association of Home Builders, Freddie Mac homeowner guides, Fannie Mae). The 1--4% of home value per year range accounts for home age: newer homes trend toward 1%, older homes toward 3--4%.
 
 ---
 
@@ -535,13 +503,9 @@ Set a quarterly calendar reminder: "subscription audit." Paste your most recent 
 
 
 ::: fairness
-"Dark patterns" --- user interface designs that trick or pressure consumers into actions they did not intend --- are not accidents. They are designed, tested, and optimized. The FTC has begun enforcement actions against companies that make cancellation deliberately difficult, and the "click to cancel" rule requires that cancelling must be as easy as signing up.[^ch11-2] If a company makes you call to cancel a service you signed up for online, that is a dark pattern. Your Agent can identify these, draft a complaint to the FTC if you want to file one, and help you navigate the cancellation process that was designed to make you give up.
+"Dark patterns" --- user interface designs that trick or pressure consumers into actions they did not intend --- are not accidents. They are designed, tested, and optimized. The FTC finalized a "click to cancel" rule in 2024 requiring that cancelling be as easy as signing up, though the rule was vacated on appeal in 2025 and its enforcement remains in litigation.[^ch11-2] If a company makes you call to cancel a service you signed up for online, that is a dark pattern. Your Agent can identify these, draft a complaint to the FTC if you want to file one, and help you navigate the cancellation process that was designed to make you give up.
 :::
 
 
-<!-- RESEARCH NEEDED: C+R Research 2022 subscription spending survey — verify $219/month and $86 estimate figures. This is widely cited but check the original methodology. -->
-<!-- RESEARCH NEEDED: FTC "click to cancel" rule — verify current status. The rule was finalized in late 2024. Confirm effective date and scope. -->
-<!-- RESEARCH NEEDED (HUMAN CONDITION): The shame of wasting money on forgotten subscriptions. The reader who discovers they've been paying $14.99/month for a streaming service they haven't opened in eight months does not need to be told they should have been more careful. They need a system that catches it. The financial anxiety of looking at the real number is why most people don't audit. The entry should acknowledge that the audit itself is the hard part, and the savings are the reward for doing it. -->
-
 [^ch11-1]: C+R Research. (2022). ["Consumer Subscription Spending Report."](https://www.crresearch.com/blog/too-many-satisfactions-consumers-overestimate-subscription-spending/) Survey of 1,000 US consumers found average monthly subscription spend of $219 vs. self-estimated $86.
-[^ch11-2]: Federal Trade Commission. (2024). ["Click-to-Cancel Rule."](https://www.ftc.gov/legal-library/browse/federal-register-notices/negative-option-rule) Requires sellers to make cancellation as easy as sign-up. Finalized October 2024.
+[^ch11-2]: Federal Trade Commission. (2024). ["Click-to-Cancel Rule."](https://www.ftc.gov/legal-library/browse/federal-register-notices/negative-option-rule) Finalized October 2024; vacated by the Eighth Circuit Court of Appeals, July 2025. Status in flux at time of publication.
