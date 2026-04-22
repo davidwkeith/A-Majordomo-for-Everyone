@@ -257,7 +257,16 @@ export async function optimizeImages(
       }
 
       if (ext === '.png') {
-        pipeline = pipeline.png({ compressionLevel: 9 });
+        // Palette mode quantizes to ≤256 colors (pngquant internally).
+        // The notebook-paper + pencil + limited ballpoint palette of
+        // this book's illustrations compresses ~3–5× smaller than 24-bit
+        // PNG with near-invisible loss. `quality` controls the quantizer,
+        // not DCT, so edges stay crisp.
+        pipeline = pipeline.png({
+          palette: true,
+          quality: 80,
+          compressionLevel: 9,
+        });
       } else if (ext === '.jpg' || ext === '.jpeg') {
         pipeline = pipeline.jpeg({ quality: 85 });
       } else if (ext === '.webp') {
