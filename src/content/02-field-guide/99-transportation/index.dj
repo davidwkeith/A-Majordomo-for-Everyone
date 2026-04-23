@@ -373,9 +373,10 @@ Accessible transportation failures compound. A broken elevator doesn't just add 
 
 
 ::: science
-<!-- RESEARCH NEEDED: airlines damaged or lost over 11,000 wheelchairs/scooters in 2023 — needs source -->
-Airlines damaged or lost over 11,000 wheelchairs and scooters in 2023. A powered wheelchair can cost $30,000 or more. The Air Carrier Access Act (ACAA) requires airlines to accommodate wheelchair users, but enforcement has not kept pace with the damage. File complaints with the DOT Aviation Consumer Protection Division --- your Agent can draft them and cite the specific regulation.
+U.S. airlines mishandled 11,527 wheelchairs and scooters in 2023 --- roughly 31 a day across the largest reporting carriers.[^tr-wc-1] A powered wheelchair can cost $30,000 or more. The Air Carrier Access Act (ACAA) requires airlines to accommodate wheelchair users, but enforcement has not kept pace with the damage. File complaints with the DOT Aviation Consumer Protection Division --- your Agent can draft them and cite the specific regulation.
 :::
+
+[^tr-wc-1]: U.S. Department of Transportation, [Air Travel Consumer Report: December 2023, Full Year 2023 Numbers](https://www.bts.gov/newsroom/air-travel-consumer-report-december-2023-full-year-2023-numbers). Mishandled device totals reported under 14 C.F.R. Part 234.
 
 
 [^tr9-1]: National Council on Disability. (2024). _Progress Report on Transportation for People with Disabilities._
@@ -413,7 +414,7 @@ Please help me:
    do I qualify?
 Give me the math, not the marketing.
 :::
-*What to do with the Output:* The 5-year total cost of ownership is the only number that matters. If the EV is cheaper over 5 years and you can charge it, the decision is arithmetic. If you can't charge at home --- and roughly 40% of Americans can't, because they rent or lack garage access <!-- RESEARCH NEEDED: claim that ~40% of Americans can't home-charge EV due to renting or lacking garage access --> --- the calculus changes significantly. Be honest with your Agent about your charging situation. The best EV for someone with a garage and a 240V outlet is not the best EV for someone who relies on public chargers.
+*What to do with the Output:* The 5-year total cost of ownership is the only number that matters. If the EV is cheaper over 5 years and you can charge it, the decision is arithmetic. If you can't charge at home --- and a substantial share of Americans cannot, because they rent or lack dedicated off-street parking --- the calculus changes significantly. Be honest with your Agent about your charging situation. The best EV for someone with a garage and a 240V outlet is not the best EV for someone who relies on public chargers.
 
 ::: science
 Battery degradation is the most common concern and the least understood. Most modern EV batteries retain 90% or more of their capacity after 100,000 miles (Geotab, 2024). Tesla's million-mile battery data and Nissan's Leaf longevity studies both show degradation curves that are far more gradual than early adopters feared. The used EV market is emerging precisely because the batteries last longer than predicted.[^tr10-1]

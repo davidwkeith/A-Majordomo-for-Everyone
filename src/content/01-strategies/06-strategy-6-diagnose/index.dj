@@ -254,7 +254,7 @@ Your Agent is not a doctor. It cannot examine you, order tests, or account for y
 [^s6-1]: The red-flag screening questions in this example are drawn from standard clinical triage protocols for headache evaluation, including the [SNOOP mnemonic](https://en.wikipedia.org/wiki/SNOOP%5F(mnemonic)) (Systemic symptoms, Neurological signs, Onset sudden, Older age, Pattern change) used in primary care. Your Agent has read these protocols. Your Agent is not licensed to apply them. The distinction matters.
 
 ::: science
-Research on symptom presentation consistently shows that patients who arrive with organized, specific descriptions of their symptoms receive more accurate diagnoses and more efficient care. <!-- RESEARCH NEEDED: year/journal mismatch — text says "2007 study in Patient Education and Counseling" but footnote cites Langewitz 2002 BMJ; verify the correct study for structured-symptom-description diagnostic accuracy claim --> A 2007 study in _Patient Education and Counseling_ found that physician diagnostic accuracy improved significantly when patients used structured symptom descriptions rather than unstructured narratives (Langewitz et al., 2002).[^s6-2]
+Research on symptom presentation consistently shows that patients who arrive with organized, specific descriptions of their symptoms receive more accurate diagnoses and more efficient care. Langewitz and colleagues, in a widely cited _BMJ_ study, found that when patients were allowed to describe their concerns in structured, uninterrupted fashion at the start of a visit, the entire consultation worked better --- not worse --- despite the clinician's instinct to redirect early.[^s6-2]
 :::
 
 

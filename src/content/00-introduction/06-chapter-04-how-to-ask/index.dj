@@ -154,7 +154,6 @@ Your Agent remembers everything within a single conversation but nothing between
 If you are working through a complex problem over multiple sessions, start each new session with a one-paragraph summary of where you left off. Think of it like clearing a cluttered desk — the papers are filed, not thrown away.
 
 ::: also
-<!-- RESEARCH NEEDED: current names for persistent-memory features in Claude, Gemini, and ChatGPT -->
 Claude calls persistent cross-conversation memory simply "Memory" — it can be enabled in settings and will carry facts about you from session to session. Gemini calls this "Personalization." ChatGPT calls it "Memory." All three work similarly: the tool builds a profile of your situation over time so you don't have to re-explain it. This is different from Projects / Gems / Custom GPTs, which are manually configured contexts. See [Appendix G](06-appendix-g-feature-table.xhtml).
 :::
 

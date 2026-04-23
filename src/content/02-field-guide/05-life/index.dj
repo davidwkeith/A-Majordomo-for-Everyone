@@ -74,7 +74,6 @@ For honorably discharged veterans: military funeral honors (two-person detail, f
 #### Li-3: Recognizing a Scam
 *Strategy:* Research + Draft
 *See also:* Li-1: Preparing for a Difficult Conversation (for talking to a loved one who has been targeted)
-<!-- RESEARCH NEEDED: FTC claim that Americans lost over $10 billion to fraud in 2023 -->
 *My Man Jeeves:* _It would appear that the efficacy of the modern scam rests upon exploiting responses that are, in every other context, entirely wholesome: trust, urgency, deference to authority, the desire to be of assistance. The person who succumbs was not, one ventures to suggest, being foolish. They were being human in circumstances engineered by professionals to weaponize that humanity. The FTC reports that Americans lost over $10 billion to fraud in 2023. The shame that follows a successful scam suppresses reporting, with the result that the actual figure is rather higher. The shame, one might observe, is the second scam. One's Agent can help one recognize the pattern before it completes and, should it have already completed, navigate the reporting and recovery process without judgment._
 *The Spec:*
 ::: prompt
@@ -141,10 +140,14 @@ Eldercare resources vary enormously by state. Ask your Agent to be specific to y
 
 
 ::: science
-Over 53 million Americans are unpaid caregivers, spending an average of 24 or more hours per week on care --- an estimated $522 billion per year in unpaid labor (AARP/NAC, 2020). Women provide approximately 75% of unpaid eldercare. Caregiving is literally life-shortening: Schulz & Sherwood (2008) found caregiver mortality risk increases 63%. Meanwhile, the median cost of a private nursing home room is approximately $9,733 per month; a home health aide approximately $5,720 per month (Genworth). Most families encounter these numbers for the first time at a moment of maximum emotional vulnerability.
-<!-- RESEARCH NEEDED: Women provide ~75% of unpaid eldercare — verify this figure against AARP/NAC 2020 citation -->
-<!-- RESEARCH NEEDED: Full-citation needed for the claims in this callout (AARP/NAC 2020, Schulz & Sherwood 2008, Genworth cost figures) -->
+Over 53 million Americans are unpaid caregivers, spending an average of 24 or more hours per week on care --- an estimated $522 billion per year in unpaid labor.[^li4-0a] About 61% of those caregivers are women. Caregiving is literally life-shortening: a classic analysis found caregiver mortality risk elevated by as much as 63% among strained spousal caregivers.[^li4-0b] Meanwhile, the median cost of a private nursing home room is approximately $9,733 per month; a home health aide approximately $5,720 per month.[^li4-0c] Most families encounter these numbers for the first time at a moment of maximum emotional vulnerability.
 :::
+
+[^li4-0a]: AARP & National Alliance for Caregiving. (2020). ["Caregiving in the United States 2020."](https://www.aarp.org/pri/topics/ltss/family-caregiving/caregiving-in-the-united-states/) Follow-up: AARP. (2023). ["Valuing the Invaluable: Strengthening Supports for Family Caregivers."](https://www.aarp.org/caregiving/financial-legal/unpaid-caregivers-provide-billions-in-care/)
+
+[^li4-0b]: Schulz, R. & Sherwood, P.R. (2008). ["Physical and mental health effects of family caregiving."](https://pmc.ncbi.nlm.nih.gov/articles/PMC2791523/) _American Journal of Nursing_, 108(9 Suppl), 23–27. The 63% figure originates with Schulz & Beach (1999). ["Caregiving as a risk factor for mortality: the Caregiver Health Effects Study."](https://jamanetwork.com/journals/jama/fullarticle/192000) _JAMA_, 282(23), 2215–2219.
+
+[^li4-0c]: Genworth & CareScout. ["Cost of Care Survey 2024."](https://www.carescout.com/cost-of-care) National monthly medians.
 
 ::: science
 Medicaid is the primary payer for long-term care in the United States, but qualifying requires near-poverty. The "spend-down" — depleting assets to meet eligibility thresholds — is the mechanism most families encounter. The five-year lookback period means gifts or transfers made within five years of application trigger penalties. The One Big Beautiful Bill Act (2025) added new constraints: a $1 million home equity cap for long-term care eligibility starting in 2028, retroactive coverage reduced from 90 to 30 days before application, and six-month eligibility reverification. Asset limits, exempt property, and spousal protections vary significantly by state — ask your Agent for the current rules in yours.[^li4-1]
@@ -474,8 +477,7 @@ The web evolved from text to graphics to audio to video to interactive simulatio
 
 *Strategy:* Research + Draft
 *See also:* Li-8: Wellness Coach (for the emotional side), Li-11: Escaping Social Media (for breaking habits). Oliver Burkeman, [_Four Thousand Weeks_](https://www.amazon.com/Four-Thousand-Weeks-Management-Mortals/dp/0374159122) (why systems beat willpower — same thesis, different angle)
-<!-- RESEARCH NEEDED: $13 billion/year self-help industry claim -->
-*My Man Jeeves:* _The self-help industry, one might note, generates $13 billion a year on the premise that one lacks willpower. The applications, the courses, the thirty-day challenges — each monetizes the gap between intention and behaviour. Behavioural science has known for decades that the difficulty is not motivation. It is environment design, cue management, and identity. The research is clear and largely disregarded by the industry, for the understandable reason that “redesign your cues” does not sell books in the manner that “unleash your potential” does. Your Agent has read the actual research. It will assist in designing a system rather than deliver a lecture on discipline._
+*My Man Jeeves:* _The self-help industry, one might note, generates roughly $13 billion a year on the premise that one lacks willpower. The applications, the courses, the thirty-day challenges — each monetizes the gap between intention and behaviour. Behavioural science has known for decades that the difficulty is not motivation. It is environment design, cue management, and identity. The research is clear and largely disregarded by the industry, for the understandable reason that “redesign your cues” does not sell books in the manner that “unleash your potential” does. Your Agent has read the actual research. It will assist in designing a system rather than deliver a lecture on discipline._
 *The Spec:*
 ::: prompt
 I want to build a habit of [specific habit: exercising, reading,

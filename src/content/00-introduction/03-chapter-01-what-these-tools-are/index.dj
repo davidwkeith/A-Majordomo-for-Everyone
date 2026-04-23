@@ -75,7 +75,7 @@ Not [Skynet](https://en.wikipedia.org/wiki/Skynet%5F(Terminator)). Not [HAL 9000
 
 
 ::: science
-Transformer models — the architecture behind modern AI — are fundamentally pattern-completion engines. They process context holistically and associatively, finding the shape of things before finding the words. This makes them fluent in analogy, tone, metaphor, and lateral thinking. What they struggle with is long-chain sequential reasoning — holding a complex logical argument without dropping a step. This is why the leading AI labs are now building extended reasoning systems: slower, more deliberate processing layered on top of the fast pattern engine. <!-- RESEARCH NEEDED: claim that leading AI labs are building extended reasoning systems layered on pattern models --> Which is, interestingly, exactly what the human brain does — [fast and slow thinking](https://en.wikipedia.org/wiki/Thinking,%5FFast%5Fand%5FSlow). AI arrived at the same architecture from a completely different direction.[^1-2]
+Transformer models — the architecture behind modern AI — are fundamentally pattern-completion engines. They process context holistically and associatively, finding the shape of things before finding the words. This makes them fluent in analogy, tone, metaphor, and lateral thinking. What they struggle with is long-chain sequential reasoning — holding a complex logical argument without dropping a step. This is why the leading AI labs are now building extended-reasoning systems: slower, more deliberate processing layered on top of the fast pattern engine --- Claude's Extended Thinking, Gemini's Deep Research, OpenAI's reasoning models, Copilot's Think Deeper all name variations of the same move. Which is, interestingly, exactly what the human brain does — [fast and slow thinking](https://en.wikipedia.org/wiki/Thinking,%5FFast%5Fand%5FSlow). AI arrived at the same architecture from a completely different direction.[^1-2]
 :::
 
 
@@ -93,8 +93,7 @@ Fluent AI output has a side effect researchers have started calling _the LLM fal
 
 [^1-3]: International Energy Agency. (2024). ["Data Centres and Data Transmission Networks."](https://www.iea.org/energy-system/buildings/data-centres-and-data-transmission-networks) IEA Tracking Report.
 
-<!-- RESEARCH NEEDED: current free-tier web-search specifics — Gemini/Google index, Copilot/Bing, Claude paid-tier web search -->
-[^1-1]: Most free tiers include limited or no web search. Gemini connects to Google's index. Copilot includes Bing search. Claude's paid tier adds web search. Chapter 3 covers the full rotation strategy.
+[^1-1]: Free-tier web access varies by tool and changes often. Gemini connects to Google's index. Copilot includes Bing search. Claude and ChatGPT both surface web search in the free tier at times and behind a paywall at others. Chapter 3 covers the full rotation strategy; the companion site tracks current status.
 
 [^1-4]: Altman, S. (2025). [Personal blog post.](https://blog.samaltman.com/2279512) "AI will be the most powerful tool for expanding human capability and potential that anyone has ever seen… AI has to be democratized; power cannot be too concentrated. Control of the future belongs to all people and their institutions."
 

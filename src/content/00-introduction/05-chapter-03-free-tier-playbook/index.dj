@@ -30,13 +30,14 @@ Each service's free tier allows a meaningful number of conversations per day. Th
 
 When you hit one service's free limit, you have three other high-quality options at no cost:
 
-<!-- RESEARCH NEEDED: current free-tier specifics for each service (daily limits, GPT-4 access, "generous"/"largely unlimited" claims, Bing search inclusion) -->
 | Service | Best for | Free limit notes |
 |---|---|---|
 | [Claude](https://claude.ai) (Anthropic) | Nuanced writing, complex explanations, documents | Daily soft limit |
-| [ChatGPT](https://chatgpt.com) (OpenAI) | Broad general use, some web search | Daily limit on GPT-4 |
+| [ChatGPT](https://chatgpt.com) (OpenAI) | Broad general use, web search | Daily limit on the flagship model |
 | [Gemini](https://gemini.google.com) (Google) | Gmail and Google Docs integration, current events | Generous free tier |
-| [Copilot](https://copilot.microsoft.com) (Microsoft) | Windows integration, Bing search included | Largely unlimited free |
+| [Copilot](https://copilot.microsoft.com) (Microsoft) | Windows integration, Bing search included | Generous free tier |
+
+_Daily limits, model names, and which features sit behind which paywall change frequently. Verify at the companion site._
 
 ::: also
 The free tier names: Claude's free version is just "Claude." ChatGPT's is "ChatGPT Free." Gemini's free version is "Gemini." Copilot is free by default in Microsoft Edge and Windows. See [Appendix G](06-appendix-g-feature-table.xhtml) for the full feature comparison.
@@ -51,7 +52,7 @@ The point is not that one is better than the others. The point is that each has 
 
 *Make your conversations lean:* Your free budget goes further when you give your Agent only the material it needs. Paste the relevant paragraph, not the whole document. Copy text instead of photographing it when you can. Start a new conversation when one gets long. These are not tricks — they are the same practices that make the paid tier more effective too. [Appendix J](09-appendix-j-working-with-text.xhtml) explains why.
 
-*When it's worth paying:* If you find yourself regularly frustrated by hitting limits, or if you are using these tools for work tasks where speed matters, the paid tiers ($20/month as of this writing) add higher limits, web search, and access to the most capable models. <!-- RESEARCH NEEDED: current $20/month pricing for paid tiers of Claude, ChatGPT, Gemini, Copilot --> For the tasks in this book, the free tier is sufficient for most users.
+*When it's worth paying:* If you find yourself regularly frustrated by hitting limits, or if you are using these tools for work tasks where speed matters, the standard paid tiers (around $20/month as of this writing for Claude Pro, ChatGPT Plus, Google AI Pro, and Copilot Pro) add higher limits, reliable web search, and access to the most capable models. For the tasks in this book, the free tier is sufficient for most users.
 
 *The most powerful free feature most people never use: Projects / Gems / Custom GPTs*
 
@@ -59,7 +60,6 @@ Every major AI tool has a way to create a persistent context — a named space w
 
 For this book, the most useful application is a household context. You tell it: who lives in your home, what your health situation is, what your current ongoing issues are (the landlord dispute, the insurance claim, the renovation). From that point on, every relevant conversation in that context starts from an informed position instead of a blank one.
 
-<!-- RESEARCH NEEDED: current feature names (Claude Projects, Gemini Gems, ChatGPT custom GPTs) and Copilot's equivalent capability -->
 ::: also
 Claude calls this a *Project*. Gemini calls it a *Gem*. ChatGPT calls it a *custom GPT*. Copilot's equivalent is more limited. The setup process differs slightly across tools but the concept is identical. See [Appendix G](06-appendix-g-feature-table.xhtml) for the full comparison and setup guidance.
 :::
