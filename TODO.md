@@ -1,12 +1,12 @@
 # TODO — Majordomo
 
-Last reviewed: 2026-04-22 against spec/ directory and codebase.
+Last reviewed: 2026-04-22 against spec/ directory and codebase. RESEARCH NEEDED triage completed 2026-04-22.
 
 ---
 
 ## Recommended Next Steps
 
-1. **Resolve remaining RESEARCH NEEDED items** — 12 comments remain across 3 domains (Life: 6, Health: 3, Computer & Web: 3), down from 232. Life and Computer & Web comments are from new Skills (Li-13, WB-10) added after the triage pass; Health comments are Veterans-integration markers.
+1. ~~**Resolve remaining RESEARCH NEEDED items**~~ — Done. All 12 comments resolved (232 → 0). See commit history for details.
 
 2. **Generate missing illustrations** — 24 art briefs have no corresponding images. Field Guide Skills are the biggest gap (annotated documents, diagrams, icons). Run `npm run build -- --generate` to invoke image generation for missing art, then embed XMP metadata with `npx tsx build/embed-xmp.ts`.
 
@@ -18,24 +18,20 @@ Last reviewed: 2026-04-22 against spec/ directory and codebase.
 
 ## Editorial Notes
 
-12 `<!-- RESEARCH NEEDED: ... -->` comments remain across Part 2 (down from 232 at last count): 8 standard and 4 HUMAN CONDITION. Of the 8 standard, 3 are Veterans-integration markers in Health and 5 are from new Skills added after the triage pass (Li-13, WB-10). These are author memos. They do not appear in the built ePub and do not correspond to unverified claims in the text.
+All `<!-- RESEARCH NEEDED: ... -->` and `<!-- RESEARCH NEEDED (HUMAN CONDITION): ... -->` comments have been resolved (232 → 0). Resolution history:
 
-There is also 1 `<!-- EDITORIAL: ... -->` comment (Chores, Ch-5 expansion note) and 3 `<!-- BRAINSTORM: ... -->` comments (Civic, Life, Computer & Web).
+- 232 → 3 standard comments by 2026-04-22 (original 12-domain triage)
+- New Skills Li-13 and WB-10 added post-triage with 9 additional comments
+- 3 Health veterans-integration markers (H-4, H-12, H-13) resolved with integrated veterans content
+- All 12 remaining comments resolved 2026-04-22: facts verified, statistics updated, veterans pathways integrated, HUMAN CONDITION insights woven into FAIRNESS/SCIENCE callouts
 
-| Domain | RESEARCH NEEDED | HUMAN CONDITION | Total |
-|--------|-----------------|-----------------|-------|
-| Life | 4 | 2 | 6 |
-| Health | 3 | 0 | 3 |
-| Computer & Web | 1 | 2 | 3 |
-| **Total** | **8** | **4** | **12** |
-
-All 12 original domains triaged (232 → 3 by 2026-04-22). New Skills Li-13 (Using Your Public and Academic Library) and WB-10 (Doing Real Research with Your Agent) were added post-triage and carry their own RESEARCH NEEDED comments (6 and 3 respectively). The 3 Health comments are Veterans-integration markers for H-4, H-12, and H-13.
+There is also 1 `<!-- EDITORIAL: ... -->` comment (Chores, Ch-5 expansion note) and 3 `<!-- BRAINSTORM: ... -->` comments (Civic, Life, Computer & Web). These are retained as author memos for future expansion.
 
 ---
 
 ## Pre-Publication Checklist
 
-- [ ] Editorial notes reviewed --- 12 `RESEARCH NEEDED` comments remain (3 Veterans-integration in Health, 6 from Li-13, 3 from WB-10)
+- [x] Editorial notes reviewed --- all `RESEARCH NEEDED` comments resolved (0 remain)
 - [ ] All art briefs have corresponding images in `src/images/` (24 of 44 missing)
 - [ ] XMP metadata embedded in all images
 - [ ] Version bumped and tagged
