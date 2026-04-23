@@ -1,6 +1,6 @@
 # Version History
 
-This book is a living document. Each version is numbered and dated. The full changelog is maintained at **[companion URL TBD]/versions**.
+This book is a living document. Each version is numbered and dated. This file is the source of truth for the changelog; it is published at **[majordomo.dwk.io/versions](https://majordomo.dwk.io/versions)** and is not reproduced as an appendix inside the book.
 
 ```
 v0.1  — Initial outline and chapter scaffolding
@@ -96,6 +96,12 @@ v1.9  — Field Guide entries renamed to Skills throughout.
 		   inside it are now called Skills (not entries).
 		 Skill IDs (H-4, M-2, W-1, etc.) and cross-reference
 		   format unchanged.
+v1.10 — Version history moved out of the appendices.
+		 The changelog is editorial metadata about the book, not a
+		   reading chapter. It lives at spec/version-history.md in
+		   the repository and is published at the companion URL.
+		 Former Appendix F removed. Remaining appendix letters (G-J)
+		   unchanged; no cross-references affected.
 ```
 
 *If you are reading a version later than the one listed here, someone improved it. That is correct.*
