@@ -144,11 +144,9 @@ All three beats required. Drop one and it lectures, complains, or sells.
 
 The book aligns with five Roddenberry values: Urgency (lead with friction moments), Humility (reader is under-resourced not under-capable), Risk-taking (free tier removes financial risk), Diverse (Skills reflect the full range of American domestic life), Exploration (AI conversations as acts of exploration). Special attention to: human/civil rights, environmental justice, education equity, AI fairness.
 
-## The Central Meme
+## The Central Principle
 
-> *Majordomo has this to say about dealing with large institutions: always know where your specification is.*
-
-(Riff on the Hitchhiker's Guide: "always know where your towel is.")
+> *Know where your specification is kept.*
 
 ## Current Status
 
