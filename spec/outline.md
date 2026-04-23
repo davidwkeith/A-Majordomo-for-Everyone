@@ -114,11 +114,12 @@ All three beats required. Drop one and it lectures, complains, or sells.
 | C | Free Tools Reference | Links to tools |
 | D | When You Need a Real Professional | Includes immigration legal aid, civil rights orgs |
 | E | UN SDG Alignment | |
-| F | Version History | Semver; 0.x.x = draft |
 | G | Feature Translation Table | Claude feature names mapped to other tools |
 | H | Expressing Ideas Digitally | |
 | I | Specification Literacy as Middle School Standard | |
 | — | A Final Note: The Information Was Always There | Closing essay |
+
+The F slot is intentionally skipped: the version history is editorial metadata, not a reading chapter. It lives at `spec/version-history.md` and is published at the companion URL. Existing cross-references to appendices G, H, I, and J are unchanged.
 
 ## Key Editorial Rules
 
