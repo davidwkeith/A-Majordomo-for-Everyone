@@ -76,7 +76,7 @@ For high-stakes decisions --- medical, legal, financial --- use two services ind
 This is the calibration question from Chapter 32, applied across services instead of within one conversation. Two independent assessments that converge are more trustworthy than one assessment that sounds confident.
 
 ::: science
-The "[wisdom of crowds](https://en.wikipedia.org/wiki/Wisdom_of_the_crowd)" finding (Surowiecki, 2004) --- that independent estimates aggregated outperform any single expert --- applies to AI tools in a specific and useful way. <!-- RESEARCH NEEDED: claim that different major AI services are trained on substantively different data and with different optimization priorities such that their outputs constitute genuinely independent estimates --> Two AI services working from the same spec produce genuinely independent outputs because they were trained on different data, by different teams, with different optimization priorities. Their agreement is meaningful in a way that running the same query twice in the same service is not.[^33-1]
+The "[wisdom of crowds](https://en.wikipedia.org/wiki/Wisdom_of_the_crowd)" finding (Surowiecki, 2004) --- that independent estimates aggregated outperform any single expert --- applies to AI tools in a useful way. Two different AI services working from the same spec are not as independent as two human experts --- they are all trained on overlapping slices of the public web and on broadly similar objectives --- but they are trained by different teams, on different data mixes, with different guardrails, and in practice their answers disagree often enough that convergence carries information. Their agreement is meaningful in a way that running the same query twice in the same service is not.[^33-1]
 :::
 
 

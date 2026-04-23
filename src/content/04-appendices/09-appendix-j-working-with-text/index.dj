@@ -18,13 +18,15 @@ When you open a conversation with your Agent, you are opening a shared workspace
 
 A clean desk with one document on it gets full attention. A desk buried under forty pages of irrelevant material gets the same total attention spread across everything — which means less attention on the thing that matters.
 
-Your Agent's working memory is large — tens of thousands of words in a single conversation. But it is not infinite, and not all of it receives equal attention. The beginning and end of a conversation are processed most reliably. The middle can get murky in long sessions. This is not a flaw. It is how the technology works, and knowing it changes how you use it. <!-- RESEARCH NEEDED: "lost in the middle" / position-bias finding for LLMs (Liu et al. 2023 or similar) -->
+Your Agent's working memory is large — tens of thousands of words in a single conversation. But it is not infinite, and not all of it receives equal attention. The beginning and end of a conversation are processed most reliably. The middle can get murky in long sessions — a position bias researchers have named "lost in the middle."[^j-litm] This is not a flaw. It is how the technology works, and knowing it changes how you use it.
+
+[^j-litm]: Liu, N.F. et al. (2024). ["Lost in the Middle: How Language Models Use Long Contexts."](https://arxiv.org/abs/2307.03172) _Transactions of the Association for Computational Linguistics_, 12, 157–173.
 
 ---
 
 ### What Tokens Are
 
-Your Agent reads in units called _tokens_. A token is roughly three-quarters of a word — "compound interest" is two tokens, "Explanation of Benefits" is three or four. <!-- RESEARCH NEEDED: the "~3/4 of a word per token" rule of thumb and the specific word-to-token counts (OpenAI tokenizer docs or equivalent) --> Every message you send, every reply the Agent generates, every document you paste in is measured in tokens. The free tier gives you a daily budget of tokens. The paid tier gives you more.
+Your Agent reads in units called _tokens_. A token is roughly three-quarters of a word — "compound interest" is two tokens, "Explanation of Benefits" is three or four. Every message you send, every reply the Agent generates, every document you paste in is measured in tokens. The free tier gives you a daily budget of tokens. The paid tier gives you more.
 
 You do not need to count tokens. You need to know one thing: *everything you put in the conversation uses some of your budget, including the parts you did not mean to include.* The signature block at the bottom of a forwarded email. The legal disclaimer on a bank statement. The forty-seven previous replies in a forwarded email chain. All of it costs tokens and none of it helps your Agent think about your question.
 
@@ -34,10 +36,9 @@ You do not need to count tokens. You need to know one thing: *everything you put
 
 Your Agent can read both text and images. They are not equal.
 
-<!-- RESEARCH NEEDED: verify "500 words ≈ 650 tokens" and "image of a page ≈ 1,500 tokens" figures against current model tokenizer/image-token docs -->
-*Text is cheap.* A full page of text — about 500 words — costs roughly 650 tokens. Your Agent can read it precisely, search within it, and quote it back to you.
+*Text is cheap.* A full page of text --- roughly 500 words --- weighs in at somewhere around 600 to 700 tokens. Your Agent can read it precisely, search within it, and quote it back to you.
 
-*Images are expensive.* A photograph of that same page costs roughly 1,500 tokens — more than double — and the Agent has to interpret the image before it can work with the content. Handwriting, poor lighting, glare, and low resolution all degrade accuracy.
+*Images are expensive.* A photograph of that same page costs several times as many tokens --- depending on model and resolution, often well over a thousand --- and the Agent has to interpret the image before it can work with the content. Handwriting, poor lighting, glare, and low resolution all degrade accuracy.
 
 The rule is simple: *if you can get the text, paste the text. Use photos only when the visual information _is_ the information* — a rash on your arm, a crack in a wall, a plant you want identified, a stain you need to treat. These are cases where no amount of text can replace what the image shows.
 

@@ -69,7 +69,7 @@ Skip the disclaimers. Talk to me like a smart friend, not
 a customer service bot.
 :::
 
-Where to find it: in Claude, look for *Profile* in settings. In ChatGPT, *Custom Instructions*. In Gemini, *Saved Info*. All three are in the settings menu. <!-- RESEARCH NEEDED: current exact names of settings panels in Claude, ChatGPT, and Gemini -->
+Where to find it: in Claude, look under Settings for *Profile* and *Memory*. In ChatGPT, *Custom Instructions* (and *Memory* for cross-chat recall). In Gemini, *Personalization*. All three live in the settings menu; the exact label moves around as products iterate.
 
 The difference between a generic Agent and _your_ Agent is ten minutes in that panel. For the full setup — what to put in your profile, how to manage it, and what to skip — see WB-3: Customize Your Chat Interface in the Field Guide.
 

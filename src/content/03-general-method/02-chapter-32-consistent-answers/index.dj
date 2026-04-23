@@ -32,7 +32,7 @@ verify with a professional.
 :::
 
 ::: tip
-For complicated questions — anything with multiple parts, tradeoffs, or "it depends" answers — add: _"Think through this step by step before giving me your answer."_ <!-- RESEARCH NEEDED: claim that chain-of-thought prompting measurably improves accuracy (Wei et al. 2022 or similar) --> This sounds simple but it measurably improves accuracy. It forces your Agent to reason through the problem rather than jumping to a conclusion. The more moving parts in your question, the more this helps.
+For complicated questions — anything with multiple parts, tradeoffs, or "it depends" answers — add: _"Think through this step by step before giving me your answer."_ This sounds simple, but "chain-of-thought" prompting is one of the most-studied techniques in the field: asking the model to lay out intermediate reasoning steps measurably improves accuracy on multi-step problems.[^32-cot] The more moving parts in your question, the more this helps.
 :::
 
 
@@ -155,3 +155,5 @@ The inverse phenomenon, _automation bias_ -- over-trusting algorithmic output --
 [^32-1]: Dietvorst, B.J., Logg, J.M., & Lonati, S. (2018). "Algorithm aversion: People erroneously avoid algorithms after seeing them err." _Journal of Experimental Psychology: General_, 144(1), 114-126.
 
 [^32-2]: Cummings, M.L. (2004). "Automation bias in intelligent time critical decision support systems." _AIAA 1st Intelligent Systems Technical Conference._
+
+[^32-cot]: Wei, J. et al. (2022). ["Chain-of-Thought Prompting Elicits Reasoning in Large Language Models."](https://arxiv.org/abs/2201.11903) _NeurIPS 2022._ The finding holds most strongly for sufficiently large models on multi-step arithmetic, commonsense, and symbolic reasoning problems.

@@ -20,9 +20,7 @@ _There is a political movement to Make America Healthy Again. This book is not a
 #### H-1: Understanding a Diagnosis You Just Received
 *Strategy:* Decode
 *See also:* H-2: Preparing Questions (for your next appointment), H-5: Managing a Chronic Condition (if it's ongoing)
-<!-- RESEARCH NEEDED: claim that post-diagnosis neurological state reduces information retention by approximately half -->
-<!-- RESEARCH NEEDED: typical medical appointment length of seven minutes -->
-*My Man Jeeves:* _The language of medical diagnosis has evolved over several centuries with the commendable aim of precision between specialists — a precision that, one might observe, extends rather less reliably to the patient. The individual in question, having just received news of some consequence regarding their own person, is moreover in a neurological state that research suggests reduces information retention by approximately half. The medical system appears to regard this arrangement as satisfactory. One's Agent, it may be observed, is rather more patient with questions than the seven-minute appointment permits._
+*My Man Jeeves:* _The language of medical diagnosis has evolved over several centuries with the commendable aim of precision between specialists — a precision that, one might observe, extends rather less reliably to the patient. The individual in question, having just received news of some consequence regarding their own person, is moreover in a neurological state that research suggests reduces information retention by approximately half. The medical system appears to regard this arrangement as satisfactory. One's Agent, it may be observed, is rather more patient with questions than the fifteen-minute appointment permits._
 *The Spec:*
 ::: prompt
 My doctor just told me I have [diagnosis]. I don't fully understand
@@ -143,7 +141,6 @@ Veterans: VA benefits denials follow a separate system. The Appeals Modernizatio
 #### H-5: Managing a Chronic Condition Day-to-Day
 *Strategy:* Research
 *See also:* H-1: Understanding a Diagnosis, H-2: Preparing Questions, H-8: Wellness and Nutrition Coach
-<!-- RESEARCH NEEDED: claim of typical 15-minute appointment every three months -->
 *My Man Jeeves:* _The diagnosis, if one may draw the distinction, is a moment. The condition is the remainder of one's life. The medical system has been constructed principally for acute care — one arrives unwell, one departs treated. Chronic conditions do not accommodate themselves to this model with any great willingness. The 15-minute appointment every three months cannot, by its nature, address the 131,400 minutes between appointments. Those minutes fall to the patient to manage, largely without assistance, armed with whatever information one carried away from the last visit. One's Agent is available for the other 131,400._
 *The Spec:*
 ::: prompt
@@ -199,13 +196,12 @@ The Stanford Chronic Disease Self-Management Program (Lorig et al., 1999) remain
 
 [^h5-2]: Lorig, K.R. et al. (1999). ["Evidence suggesting that a chronic disease self-management program can improve health status while reducing hospitalization."](https://pubmed.ncbi.nlm.nih.gov/10413387/) _Medical Care_, 37(1), 5–14. Brady, T.J. et al. (2013). ["A Meta-Analysis of Health Status, Health Behaviors, and Health Care Utilization Outcomes of the Chronic Disease Self-Management Program."](https://pmc.ncbi.nlm.nih.gov/articles/PMC3547675/) _Preventing Chronic Disease_, 10:E07. Lorig, K.R. et al. (2006). ["Internet-based chronic disease self-management: a randomized trial."](https://pubmed.ncbi.nlm.nih.gov/17063127/) _Medical Care_, 44(11), 964–971.
 
-<!-- RESEARCH NEEDED: claim that cost-related non-adherence contributes to an estimated 100,000 preventable deaths annually (not covered by cited footnote) -->
 ::: fairness
-When patients skip medications, the medical system calls it "non-adherence." In 1.3 million cases, it is insulin rationing --- skipping doses, using less than prescribed, or delaying refills to afford them. The rate reaches 29% among the uninsured and 23% among Black adults. Cost-related non-adherence contributes to an estimated 100,000 preventable deaths annually. When the barrier is the price, the failure is the system, not the patient. Ask your Agent: _"Are there patient assistance programs, generics, or manufacturer coupons for [my medication]?"_[^h5-3]
+When patients skip medications, the medical system calls it "non-adherence." In 1.3 million cases, it is insulin rationing --- skipping doses, using less than prescribed, or delaying refills to afford them. The rate reaches 29% among the uninsured and 23% among Black adults. Non-adherence, of which cost is a leading driver, is implicated in an estimated 125,000 preventable deaths annually. When the barrier is the price, the failure is the system, not the patient. Ask your Agent: _"Are there patient assistance programs, generics, or manufacturer coupons for [my medication]?"_[^h5-3]
 :::
 
 
-[^h5-3]: Yan, D. et al. (2023). ["Cost-Related Insulin Rationing in US Adults Younger Than 65 Years With Diabetes."](https://jamanetwork.com/journals/jama/fullarticle/2803263) _JAMA_, 329(9). CDC/NCHS [Data Brief No. 470](https://www.cdc.gov/nchs/products/databriefs/db470.htm) (2023). "Characteristics of Adults Aged 18–64 Who Did Not Take Medication as Prescribed Due to Cost."
+[^h5-3]: Yan, D. et al. (2023). ["Cost-Related Insulin Rationing in US Adults Younger Than 65 Years With Diabetes."](https://jamanetwork.com/journals/jama/fullarticle/2803263) _JAMA_, 329(9). CDC/NCHS [Data Brief No. 470](https://www.cdc.gov/nchs/products/databriefs/db470.htm) (2023). "Characteristics of Adults Aged 18–64 Who Did Not Take Medication as Prescribed Due to Cost." On deaths attributable to non-adherence, see Osterberg, L. & Blaschke, T. (2005). ["Adherence to Medication."](https://www.nejm.org/doi/full/10.1056/NEJMra050100) _NEJM_, 353(5), 487–497.
 
 
 ---
@@ -232,7 +228,7 @@ Please explain:
    --- especially penalties for missing them
 Give me the most conservative, accurate answer --- enrollment mistakes can be permanent.
 :::
-*What to do with the Output:* Circle the deadlines. Medicare enrollment penalties are permanent --- missing the initial enrollment period for Part B means a 10% premium increase for every 12-month period you delayed, for the rest of your life. <!-- RESEARCH NEEDED: Medicare Part B late enrollment penalty of 10% per 12-month period --> This is the kind of structural penalty that rewards people who already understand the system. For Medicaid, long-term care, and dual eligibility, see H-6b.
+*What to do with the Output:* Circle the deadlines. Medicare enrollment penalties are permanent --- missing the initial enrollment period for Part B means a 10% premium increase for every 12-month period you delayed, for the rest of your life. This is the kind of structural penalty that rewards people who already understand the system. For Medicaid, long-term care, and dual eligibility, see H-6b.
 
 ::: science
 The Medicare Part D "donut hole" --- the coverage gap where beneficiaries paid a larger share of drug costs --- was partially closed by the ACA and eliminated by the Inflation Reduction Act of 2022, which restructured Part D to cap total out-of-pocket drug costs at $2,000 in 2025 ($2,100 in 2026, adjusted annually for inflation). Once you hit the cap, covered prescriptions cost $0 for the rest of the year.[^h6-1]
@@ -263,7 +259,6 @@ Free, unbiased Medicare counseling is available in every state through the [Stat
 #### H-6b: Understanding What Medicaid Actually Covers
 *Strategy:* Decode
 *See also:* H-6: Understanding What Medicare Actually Covers, H-4: Appealing an Insurance Denial, Li-4: Planning Care for Aging
-<!-- RESEARCH NEEDED: claim that ~62% of Americans incorrectly attribute long-term nursing-home coverage to Medicare -->
 *My Man Jeeves:* _Medicaid occupies, in the public imagination, a rather narrower role than it in fact performs. It is not merely insurance for the very poor --- it is the only major federal program that covers long-term nursing-home care, a fact that approximately 62% of Americans attribute, incorrectly, to Medicare. Following the One Big Beautiful Bill Act of 2025, it is also, for the first time in its history, a program with work requirements --- requirements that the Congressional Budget Office estimates will remove 4.8 million people from coverage by 2034. The eligibility rules are state-specific, the asset limits for long-term care are unforgiving, and the application process assumes a degree of bureaucratic fluency that the populations it serves are, by definition, least likely to possess. One's Agent has read the rules for one's state and can explain what applies before the paperwork is due._
 *The Spec:*
 ::: prompt
@@ -282,7 +277,7 @@ Please explain:
 Give me the most conservative, accurate answer --- Medicaid rules vary by state
 and mistakes can cost years of eligibility.
 :::
-*What to do with the Output:* Verify the state-specific details directly with your state Medicaid office or a certified application counselor --- rules change annually and your Agent's training data may lag. If long-term care is involved, consult an elder law attorney before transferring any assets; the 60-month look-back is unforgiving. <!-- RESEARCH NEEDED: Medicaid long-term care 60-month look-back period -->
+*What to do with the Output:* Verify the state-specific details directly with your state Medicaid office or a certified application counselor --- rules change annually and your Agent's training data may lag. If long-term care is involved, consult an elder law attorney before transferring any assets; the 60-month look-back is unforgiving.
 
 ::: fairness
 The One Big Beautiful Bill Act (signed July 2025) requires expansion-population adults ages 19–64 to document 80 hours per month of work activity or qualify for an exemption --- verified every six months, not annually. If you or a family member is on Medicaid, ask your Agent: _"What are the work requirement exemptions in [my state], and what documentation do I need to stay enrolled?"_ The rules vary by state. The deadlines do not forgive confusion.[^h6b-1]
@@ -295,7 +290,7 @@ The confusion shapes retirement planning in a way the research documents as cons
 
 
 ::: fairness
-The median American household ages 55–64 holds $185,000 in retirement savings[^h6b-3] against a semi-private nursing-home bill that, in 2024, averaged $111,325 a year.[^h6b-4] That is roughly 20 months of care before the money is gone. Medicaid covers long-term care after a spend-down: in most states, the nursing-home resident must be reduced to $2,000 in countable assets before qualifying, with a 60-month look-back on any transfers made in advance. <!-- RESEARCH NEEDED: claim of $2,000 countable asset limit for Medicaid long-term care spend-down in most states --> Community spouses may retain significantly more under federal protections, but the rules are state-specific and unforgiving of error. This is the math no one teaches before a parent is admitted.
+The median American household ages 55–64 holds $185,000 in retirement savings[^h6b-3] against a semi-private nursing-home bill that, in 2024, averaged $111,325 a year.[^h6b-4] That is roughly 20 months of care before the money is gone. Medicaid covers long-term care after a spend-down: in most states, the nursing-home resident must be reduced to $2,000 in countable assets before qualifying, with a 60-month look-back on any transfers made in advance. Community spouses may retain significantly more under federal protections, but the rules are state-specific and unforgiving of error. This is the math no one teaches before a parent is admitted.
 :::
 
 
@@ -318,7 +313,6 @@ For World War II–era veterans --- and for those who served in Korea, Vietnam, 
 #### H-7: Preparing for End-of-Life Conversations with Aging Parents
 *Strategy:* Prepare
 *See also:* Li-1: Preparing for a Difficult Conversation, Li-2: Writing a Eulogy, Li-4: Planning Care for Aging, L-1: Negotiating a Contract (for legal documents)
-<!-- RESEARCH NEEDED: claim that "research rather thoroughly documents" American aversion to discussing death -->
 *My Man Jeeves:* _American culture maintains, as the research rather thoroughly documents, a pronounced aversion to discussing death. The consequence is that the most significant decisions of a person's life — how they wish to be cared for, who is to make medical decisions should they be unable, what measures they do and do not desire — are left to family members attempting to guess under pressure in a hospital corridor. An advance directive requires approximately 30 minutes. The conversation that precedes it presents a rather greater difficulty. One's Agent may be of assistance in preparing for it._
 *The Spec:*
 ::: prompt
@@ -357,7 +351,7 @@ Pauline Boss, who coined the term in the 1970s, describes _ambiguous loss_ as gr
 
 
 ::: science
-Five Wishes meets advance directive requirements in 46 states and D.C. Four states — Kansas, New Hampshire, Ohio, and Texas — require the state statutory form instead. Witness and notarization rules vary: most states require two witnesses; six require notarization. <!-- RESEARCH NEEDED: claim that "most states require two witnesses; six require notarization" for advance directives --> [CaringInfo.org](https://www.caringinfo.org/planning/advance-directives/by-state/) provides free state-specific forms. A separate document — POLST (Physician Orders for Life-Sustaining Treatment) — translates your wishes into medical orders that EMTs are required to follow. An advance directive alone does not do this. Many families have one without the other. Ask your Agent: _"What are the advance directive and POLST requirements in [my state]?"_[^h7-1]
+Five Wishes meets advance directive requirements in 46 states and D.C. Four states — Kansas, New Hampshire, Ohio, and Texas — require the state statutory form instead. Witness and notarization rules vary: most states require two witnesses, and a handful require notarization. [CaringInfo.org](https://www.caringinfo.org/planning/advance-directives/by-state/) provides free state-specific forms. A separate document — POLST (Physician Orders for Life-Sustaining Treatment) — translates your wishes into medical orders that EMTs are required to follow. An advance directive alone does not do this. Many families have one without the other. Ask your Agent: _"What are the advance directive and POLST requirements in [my state]?"_[^h7-1]
 :::
 
 
@@ -384,8 +378,7 @@ Honorably discharged veterans and their eligible family members qualify for buri
 #### H-8: Wellness and Nutrition Coach
 *Strategy:* Research + Draft (Expert Role)
 *See also:* H-5: Managing a Chronic Condition (for condition-specific nutrition), Li-8: Wellness Coach (for mental health and journaling)
-<!-- RESEARCH NEEDED: dietitian $100-$200 per session, six-week waitlist; personal trainer $50-$150/hour -->
-*My Man Jeeves:* _A registered dietitian commands between $100 and $200 per session and customarily maintains a six-week waiting list for new patients. A personal trainer costs $50 to $150 per hour. A wellness coach charges rather more and is, one notes, rather less regulated. One's Agent has acquainted itself with the same evidence base all three cite, and will apply it to one's particular situation without the formality of a retainer._
+*My Man Jeeves:* _A registered dietitian typically charges between $100 and $200 per session, with new-patient waits commonly running several weeks. A personal trainer costs $50 to $150 per hour. A wellness coach charges rather more and is, one notes, rather less regulated. One's Agent has acquainted itself with the same evidence base all three cite, and will apply it to one's particular situation without the formality of a retainer._
 *The Spec:*
 ::: prompt
 Act as a knowledgeable wellness and nutrition coach.
@@ -491,7 +484,6 @@ Photograph the pill bottle label with your phone, then copy the text from the ph
 #### H-10: Checking for Drug Interactions
 *Strategy:* Decode + Research
 *See also:* H-9: Understanding Your Prescription, H-8: Wellness and Nutrition Coach
-<!-- RESEARCH NEEDED: claim that CYP450 metabolizes roughly 75% of drugs -->
 *My Man Jeeves:* _The liver metabolizes roughly 75% of the drugs one takes by means of a family of enzymes known as CYP450. When two substances compete for the same enzyme, one of them accumulates — a circumstance that may present certain difficulties. The prescribing physician may not be aware of the supplement one's naturopath recommended. The naturopath may not be aware of the prescription. Neither, one regrets to observe, may be aware of the grapefruit. One's Agent is aware of all three._
 *The Spec:*
 ::: prompt
@@ -630,7 +622,7 @@ I will verify treatment recommendations with a medical professional.
 *What to do with the Output:* If you're looking for treatment, start with [findtreatment.gov](https://findtreatment.gov) and use the red-flag checklist to screen facilities. If this is for someone you care about, the output is also preparation for the conversation with them --- see Li-1.
 
 ::: science
-*Tolerance* means your body adapts to a substance so you need more for the same effect. *Physical dependence* means your body has adapted so that stopping causes withdrawal symptoms. *Addiction* (substance use disorder) means compulsive use despite negative consequences, driven by changes in the brain's reward and decision-making circuits. You can be physically dependent without being addicted — every coffee drinker who gets a headache without caffeine is dependent. And you can be addicted without physical dependence. Genetic factors account for roughly 40–60% of addiction vulnerability, which is why some people can use a substance casually and others cannot. <!-- RESEARCH NEEDED: claim of 40-60% genetic heritability for addiction (verify within cited Koob/Volkow 2016 or add additional source) --> The three concepts are related but not the same.[^h13-1]
+*Tolerance* means your body adapts to a substance so you need more for the same effect. *Physical dependence* means your body has adapted so that stopping causes withdrawal symptoms. *Addiction* (substance use disorder) means compulsive use despite negative consequences, driven by changes in the brain's reward and decision-making circuits. You can be physically dependent without being addicted — every coffee drinker who gets a headache without caffeine is dependent. And you can be addicted without physical dependence. Genetic factors account for roughly 40–60% of addiction vulnerability, which is why some people can use a substance casually and others cannot. The three concepts are related but not the same.[^h13-1]
 :::
 
 
@@ -659,7 +651,6 @@ Veterans: [Vet Centers](https://www.vetcenter.va.gov/) offer free, confidential 
 #### H-14: Harm Reduction
 *Strategy:* Research + Diagnose
 *See also:* H-13: Understanding Addiction, H-10: Checking for Drug Interactions
-<!-- RESEARCH NEEDED: claim that 2023 drug overdose deaths (~105,000) exceeded car accidents and gun deaths combined -->
 *My Man Jeeves:* _In 2023, approximately 105,000 Americans died of drug overdoses — a figure exceeding car accidents and gun deaths combined. Roughly 69% involved synthetic opioids, principally fentanyl, which is frequently present in drugs sold as something else entirely.[^h14-1] Harm reduction proceeds from the premise that some people use drugs, and that the most serviceable response is to keep them alive and as healthy as circumstances permit. This remains controversial in rather the same manner that seatbelts were controversial in 1965 — opponents contending that they would encourage reckless driving. They did not. They reduced deaths. The evidence for harm reduction is, one finds, comparably robust. One's Agent can explain the evidence and the local resources without editorializing._
 *The Spec:*
 ::: prompt

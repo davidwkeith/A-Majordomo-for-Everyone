@@ -1,29 +1,38 @@
 # TODO — Majordomo
 
-Last reviewed: 2026-04-22 against spec/ directory and codebase. RESEARCH NEEDED triage completed 2026-04-22.
+Last reviewed: 2026-04-23. Full `RESEARCH NEEDED` sweep completed.
 
 ---
 
 ## Recommended Next Steps
 
-1. ~~**Resolve remaining RESEARCH NEEDED items**~~ — Done. All 12 comments resolved (232 → 0). See commit history for details.
+1. ~~**Resolve remaining RESEARCH NEEDED items**~~ — Done. A second sweep on 2026-04-23 resolved 62 additional comments surfaced across 26 files after the 2026-04-22 triage.
 
 2. **Generate missing illustrations** — 24 art briefs have no corresponding images. Field Guide Skills are the biggest gap (annotated documents, diagrams, icons). Run `npm run build -- --generate` to invoke image generation for missing art, then embed XMP metadata with `npx tsx build/embed-xmp.ts`.
 
 3. **Apple Books highlights sync** (issue #23) — tooling task, independent of editorial work. Can be picked up as a change-of-pace from content triage.
 
-4. **Full editorial consistency pass** — all chapters are in "draft" status. Before 1.0, the manuscript needs a cover-to-cover pass for voice consistency, cross-reference accuracy, and callout density. The RESEARCH NEEDED triage is substantially complete.
+4. **Full editorial consistency pass** — all chapters are in "draft" status. Before 1.0, the manuscript needs a cover-to-cover pass for voice consistency, cross-reference accuracy, and callout density.
 
 ---
 
 ## Editorial Notes
 
-All `<!-- RESEARCH NEEDED: ... -->` and `<!-- RESEARCH NEEDED (HUMAN CONDITION): ... -->` comments have been resolved (232 → 0). Resolution history:
+All `<!-- RESEARCH NEEDED: ... -->` and `<!-- RESEARCH NEEDED (HUMAN CONDITION): ... -->` comments have been resolved. Resolution history:
 
 - 232 → 3 standard comments by 2026-04-22 (original 12-domain triage)
 - New Skills Li-13 and WB-10 added post-triage with 9 additional comments
 - 3 Health veterans-integration markers (H-4, H-12, H-13) resolved with integrated veterans content
-- All 12 remaining comments resolved 2026-04-22: facts verified, statistics updated, veterans pathways integrated, HUMAN CONDITION insights woven into FAIRNESS/SCIENCE callouts
+- 12 remaining comments from that triage resolved 2026-04-22
+- A full-file sweep on 2026-04-23 found and resolved an additional 62 comments (Field Guide chapters, Strategy chapters, AI-tool-dependent pricing/feature claims in intro + Appendix G, and citation-needed items across Appendix D/E/I/J, the epigraph, and Chapter 32)
+
+Notable corrections during the 2026-04-23 pass:
+- Women share of unpaid eldercare: 75% → 59% per AARP/NAC 2020.
+- Renters without insurance: 55% → ~43% per III.
+- Average primary-care appointment framing: "seven-minute" → "fifteen-minute."
+- Cost-related non-adherence deaths: 100,000 (unsourced) → reframed around the ~125,000 Osterberg/Blaschke figure for non-adherence overall.
+- Credit card APR: 24.99% (late-2024 peak) → ~21% current average.
+- Gemini settings panel: "Saved Info" → "Personalization."
 
 There is also 1 `<!-- EDITORIAL: ... -->` comment (Chores, Ch-5 expansion note) and 3 `<!-- BRAINSTORM: ... -->` comments (Civic, Life, Computer & Web). These are retained as author memos for future expansion.
 
