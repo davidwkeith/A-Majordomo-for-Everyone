@@ -80,6 +80,11 @@ Transformer models — the architecture behind modern AI — are fundamentally p
 
 
 ::: science
+Fluent AI output has a side effect researchers have started calling _the LLM fallacy_ — users mistake the model's work for proof of their own ability. The mechanism is opacity (you cannot see how the answer was produced), fluency (the prose sounds like something a competent person would have written), and low friction (you barely had to do anything). The three combine to blur the line between what you contributed and what the machine did. The Jeeves frame in this book is the correction — the majordomo is named and the division of labor is explicit. You bring the problem, the context, and the judgment. The library brings the phrasing.[^1-8]
+:::
+
+
+::: science
 "Free" is not free. Every conversation with your Agent runs on servers that consume electricity and water for cooling. The [IEA](https://en.wikipedia.org/wiki/International%5FEnergy%5FAgency) estimates data centers account for 1–1.5% of global electricity use, and AI workloads are the fastest-growing segment. The companies offering free tiers are subsidizing your access with venture capital and advertising revenue — a business model you have seen before and should not mistake for charity. The honest exchange: you are getting a higher quality of life from a tool that costs real energy to run. The structural fix is the same one it has always been — build [solar](https://en.wikipedia.org/wiki/Solar%5Fenergy), build wind, build the grid that makes the computation sustainable. In the meantime, use the tool. It is still the best deal the non-billionaire class has ever been offered.[^1-3]
 :::
 
@@ -98,3 +103,5 @@ Transformer models — the architecture behind modern AI — are fundamentally p
 [^1-6]: Nadella, S. (2023). ["Introducing Microsoft 365 Copilot."](https://blogs.microsoft.com/blog/2023/03/16/introducing-microsoft-365-copilot-your-copilot-for-work/) Microsoft Official Blog.
 
 [^1-7]: Amodei, D. (2024). ["Machines of Loving Grace."](https://www.darioamodei.com/machines-of-loving-grace) Personal essay. Full quote: "Having a very thoughtful and informed AI whose job is to give you everything you're legally entitled to by the government in a way you can understand — and who also helps you comply with often confusing government rules — would be a big deal."
+
+[^1-8]: Kim, H., Yu, H., & Yi, H. (2026). ["The LLM Fallacy: Misattribution in AI-Assisted Cognitive Workflows."](https://arxiv.org/abs/2604.14807) arXiv preprint. A conceptual-framework paper; the authors name the mechanism (opacity, fluency, low-friction interaction) and identify empirical validation as future work.
