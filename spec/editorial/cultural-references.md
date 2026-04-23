@@ -43,7 +43,7 @@ The 90s sitcom home crisis is its own genre with a completely recognizable struc
 
 - *The Fresh Prince of Bel-Air* — **Class analysis.** Will arrives from West Philly into a household with the full staff, the lawyer, the financial advisor, the social infrastructure — and the comedy is his navigation of a world where those systems are suddenly visible rather than absent. The book's thesis is the premise of the show. Use for Foreword and anywhere the class infrastructure needs illustrating warmly.
 
-- *Murphy Brown* — **Draft, Specify.** Murphy went through 93 secretaries because she could not specify what she needed. The spec interview would have ended that subplot in season one. Use for Strategy 0 (Specify) and the Draft chapter as the illustration of what happens without a spec.
+- *Murphy Brown* — **Draft.** Murphy went through 93 secretaries because she could not specify what she needed. The spec interview would have ended that subplot in season one. Use for the Draft chapter as the illustration of what happens without a first draft to react to.
 
 - *Mad About You* — **Home, Navigate.** The couple who own an apartment in New York and are perpetually in conflict with contractors, landlords, building managers, and city systems they don't understand. Use for Home domain Skills and the Navigate strategy chapter.
 

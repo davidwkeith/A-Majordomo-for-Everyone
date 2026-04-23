@@ -92,6 +92,6 @@ PART THREE: THE GENERAL METHOD
 - Want to teach this to a parent or neighbor → Part Three, final chapter
 - Not sure which AI tool to use → Chapter 3 (the rotation strategy works across all of them)
 
-**The central meme:**
+**The central principle:**
 
-> *Majordomo has this to say about dealing with large institutions: always know where your specification is.*
+> *Know where your specification is kept.*
