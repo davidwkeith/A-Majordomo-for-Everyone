@@ -34,6 +34,7 @@ The specification interview loop (Strategy 0) is a general-purpose cognitive too
 
 8th grade is the hinge year. The student is old enough to have real problems — social dynamics, family complexity, academic tracking decisions — and young enough to internalize a thinking pattern before the demands of high school arrive. It is also the last year most school systems have the structural flexibility to add a standalone unit before the subject-area silos of 9th grade lock in.
 
+<!-- RESEARCH NEEDED: Piaget's stages — concrete operational to formal operational transition at ~age 13 -->
 Developmentally, 13-year-olds are moving from concrete to formal operational thinking (Piaget, if you need the citation — but any middle school teacher will confirm it from observation). They are newly capable of reasoning about hypotheticals, considering multiple perspectives, and thinking about their own thinking. Specification literacy gives that emerging capacity a practical outlet.
 
 ---
@@ -50,7 +51,7 @@ This is a standalone unit. It fits inside English Language Arts, Social Studies,
 
 *Day 2 — Specifications in the wild.* Students bring in three documents from home: a recipe, a set of assembly instructions, a form. Class sorts them by precision. Which ones could a stranger follow? Which ones assume you already know something?
 
-*Day 3 — The gap.* Introduce the concept: the distance between what you said and what you meant is the specification gap. Every miscommunication in history — from the Challenger disaster to their last group project — lives in that gap.
+*Day 3 — The gap.* Introduce the concept: the distance between what you said and what you meant is the specification gap. Every miscommunication in history — from the Challenger disaster to their last group project — lives in that gap. <!-- RESEARCH NEEDED: if Challenger is cited as a communication/specification failure, ensure it's tied to a source (e.g., Rogers Commission / Tufte) -->
 
 *Day 4-5 — Write a spec for something you know.* Each student writes a specification for a task they do well (a video game strategy, a recipe, a skateboard trick, braiding hair, a workout routine). Partner reads the spec and attempts to follow it. Debrief: where did the spec break down? What did you assume they already knew?
 
@@ -114,9 +115,11 @@ This is a standalone unit. It fits inside English Language Arts, Social Studies,
 
 This unit maps to existing standards without requiring new ones:
 
+<!-- RESEARCH NEEDED: verify Common Core ELA standard codes (W.8.4, W.8.5, SL.8.1, RI.8.4, RI.8.6) and summaries match official CCSS text -->
 - *Common Core ELA (W.8.4, W.8.5):* Clear, coherent writing appropriate to task and audience; developing and strengthening writing through planning, revising, and editing.
 - *Common Core ELA (SL.8.1):* Collaborative discussions with diverse partners, building on others' ideas and expressing their own clearly.
 - *Common Core ELA (RI.8.4, RI.8.6):* Determining meaning of words and phrases in a text; determining author's point of view or purpose.
+<!-- RESEARCH NEEDED: verify ISTE Standards numbering 1.1, 1.5, 1.6 map to Empowered Learner, Computational Thinker, Creative Communicator -->
 - *ISTE Standards (1.1, 1.5, 1.6):* Empowered learner, computational thinker, creative communicator.
 - *CASEL SEL competencies:* Self-awareness (identifying what you need), social awareness (audience and context), responsible decision-making.
 

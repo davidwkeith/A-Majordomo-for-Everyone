@@ -448,6 +448,7 @@ _"Convert this Word document / Google Doc into clean CommonMark. Preserve the he
 
 
 ::: science
+<!-- RESEARCH NEEDED: specific 25-40% comprehension improvement claim from Schriver 1997 — verify figure -->
 Formatting is not decoration — it is cognition. Research on document design consistently shows that structured text (headings, lists, whitespace) improves comprehension by 25-40% compared to undifferentiated prose (Schriver, 1997). When you format your writing in CommonMark, you are not making it pretty. You are making it readable. The formatting is the thinking made visible.[^wb3-1]
 :::
 
@@ -516,6 +517,7 @@ Accessible formats matter. Not everyone reads. Video, audio, images, and writing
 When you publish online, you decide how your ideas can be shared, remixed, and built upon. [Creative Commons](https://creativecommons.org/) licenses let you specify this in a way that is legally enforceable and machine-readable. This book uses [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) — anyone can share and adapt it, as long as they credit the author and share under the same terms. Ethically built AI systems respect these licenses. That is a line they must not cross. Your Agent can help you choose a license: _"Explain the Creative Commons license options. I want people to share my work but I want credit. Which license should I use?"_
 
 ::: science
+<!-- RESEARCH NEEDED: Substack figure of 35 million active subscriptions and 5 million paying subscribers -->
 [WordPress](https://en.wikipedia.org/wiki/WordPress) powers 43% of all websites ([W3Techs](https://w3techs.com/technologies/details/cm-wordpress), 2025). [Substack](https://en.wikipedia.org/wiki/Substack) has 35 million active subscriptions and 5 million paying subscribers. Blog readership is not declining — it migrated from [RSS](https://en.wikipedia.org/wiki/RSS) readers to newsletters, social sharing, and search. The form is alive; the distribution changed. If you think "no one reads blogs," you are thinking of the 2005 distribution model, not the 2025 one.
 :::
 

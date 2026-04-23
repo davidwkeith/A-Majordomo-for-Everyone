@@ -20,6 +20,7 @@ The [Conners](https://en.wikipedia.org/wiki/Roseanne%5F(TV%5Fseries)) were never
 #### M-1: Banking and Savings
 *Strategy:* Research + Decide
 *See also:* M-2: Credit Cards and Debt (for credit products), Li-9: Making a Household Budget That Holds
+<!-- RESEARCH NEEDED: average American pays $7-$12/month in bank fees -->
 *My Man Jeeves:* _One might observe that the average American pays $7 to $12 per month in bank fees — maintenance fees, overdraft fees, minimum balance fees, ATM fees — for the privilege of depositing money that the bank then lends out at a considerable multiple. That this arrangement is considered normal would appear to be a triumph of institutional inertia over arithmetic. Credit unions, online banks, and high-yield savings accounts present themselves as alternatives, and yet most individuals remain with the bank at which they opened their first account — a loyalty that, if one may say so, rather resembles dining at the first restaurant one ever visited for the remainder of one's life. One's Agent can compare the alternatives in approximately the time it takes the bank to charge the next fee._
 *The Spec:*
 ::: prompt
@@ -75,6 +76,7 @@ Mint shut down in March 2024 — if you were one of its millions of users, you a
 #### M-2: Credit Cards and Debt
 *Strategy:* Decode + Assert
 *See also:* M-1: Banking and Savings, M-4: Collections and Bankruptcy (when debt goes wrong)
+<!-- RESEARCH NEEDED: current average credit card APR of 24.99% (may match m2-2 citation, verify) -->
 *My Man Jeeves:* _It would appear that credit card statements have been arranged so as to display the minimum payment with some prominence while relegating the total interest one will pay over time to a typeface calibrated, one suspects, to discourage closer inspection. A card at 24.99% APR — the current average — transforms a $5,000 balance, at minimum payments, into a repayment spanning decades and costing thousands in interest. The instrument was marketed as a convenience. It was designed as a revenue mechanism. Appreciating the distinction between these two propositions is the first step. Disputing the errors is the second. One's Agent is prepared to assist with both._
 *The Spec:*
 ::: prompt
@@ -507,6 +509,7 @@ Tax anxiety is real, and it is not irrational. The IRS is the only creditor in A
 #### M-8: Insurance You Actually Need
 *Strategy:* Research + Decide
 *See also:* M-3: Mortgages (homeowners insurance required for mortgage), H-4: Appealing an Insurance Denial (the appeal process applies to all insurance), Tr-1: Buying a Car (auto insurance)
+<!-- RESEARCH NEEDED: claim that average American household spends ~$5,000/year on non-health insurance premiums -->
 *My Man Jeeves:* _The insurance industry presents itself as protection against catastrophe — and it is, in the narrow sense that a policy, properly configured, prevents a single event from destroying one's financial position. What the marketing omits, with some care, is that the industry's profit model depends on collecting premiums from the many and paying claims to the few, and that a considerable apparatus of adjusters, exclusions, riders, and deductibles exists to widen the gap between what one believed was covered and what is. The average American household spends approximately $5,000 per year on insurance premiums outside of health coverage, a figure that varies enormously based on decisions most people made once and have not revisited. One's Agent is rather well suited to the task of revisiting them._
 *The Spec:*
 ::: prompt
@@ -552,6 +555,7 @@ _"I'm paying [$X/month] for auto insurance with [coverage limits]. I have [asset
 :::
 
 
+<!-- RESEARCH NEEDED: claim that ~55% of renters do not have renters insurance -->
 ::: meme
 Renters insurance costs $15–$30 per month and covers your belongings, your liability if someone is injured in your apartment, and your living expenses if your unit becomes uninhabitable. Approximately 55% of renters do not have it. Your landlord's insurance covers the building. It does not cover your laptop, your furniture, or the fact that you need somewhere to sleep while the water damage dries. The landlord who tells you that you "don't need renters insurance" is telling you that _they_ don't need you to have it. Your interests differ.
 :::
@@ -594,6 +598,7 @@ Insurance is one of the few products you buy hoping never to use. Every month yo
 #### M-9: Navigating Financial Aid and Student Loans
 *Strategy:* Navigate + Assert
 *See also:* M-2: Credit Cards and Debt (debt management strategies), M-4: Collections and Bankruptcy (when student loans go to collections)
+<!-- RESEARCH NEEDED: current U.S. student loan debt figure (~$1.75 trillion) and claim that it exceeds total credit card debt -->
 *My Man Jeeves:* _One notes that Americans carry approximately $1.75 trillion in student loan debt — a figure that exceeds the total credit card debt of the nation and is borne disproportionately by those who were told, with some conviction, that higher education was the path to the middle class. The system for managing this debt — loan servicers, income-driven repayment plans, forgiveness programs, forbearance options — is of a complexity that rather suggests it was not designed for the benefit of the borrower. One's loan servicer, to take a single instance, is a private company paid by the government to manage one's account. Its incentive is to minimize its own cost of servicing, not to guide one toward the optimal repayment strategy. An Agent labors under no such conflict of interest, and is conversant with every repayment plan the Department of Education offers._
 *The Spec:*
 ::: prompt

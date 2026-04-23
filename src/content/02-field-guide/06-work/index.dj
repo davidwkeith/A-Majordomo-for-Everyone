@@ -11,7 +11,7 @@ status: "draft"
 _The labor market is an information asymmetry with a dress code. The employer knows the salary range, the real reason the last person left, and what the role actually entails. The candidate knows what was in the job posting, which was written by HR to attract applicants and reviewed by legal to limit liability — two goals that have nothing to do with telling you what the job is. Once you're hired, the asymmetry continues: performance reviews, promotion criteria, benefits enrollment, and termination procedures are all systems the company designed and you inherited. The Skills that follow are the preparation the billionaire class's career coaches provide._
 
 ::: meme
-George Jetson worked a few hours a day, a few days a week, pushing a single button. The show aired in 1962 as satire. Sixty years later the average American works 38.7 hours a week and the button has been replaced by a keyboard and seven different apps that all require a login. The Jetsons got the technology right and the outcome wrong. The automation arrived. The free time did not. The Skills in this domain are about using the tools that exist — including your Agent — to get the outcome the Jetsons were promised.
+George Jetson worked a few hours a day, a few days a week, pushing a single button. The show aired in 1962 as satire. Sixty years later the average American works 38.7 hours a week <!-- RESEARCH NEEDED: current average U.S. workweek of 38.7 hours --> and the button has been replaced by a keyboard and seven different apps that all require a login. The Jetsons got the technology right and the outcome wrong. The automation arrived. The free time did not. The Skills in this domain are about using the tools that exist — including your Agent — to get the outcome the Jetsons were promised.
 :::
 
 
@@ -567,6 +567,7 @@ accountant or attorney.
 *What to do with the Output:* For contracts, never sign a client's template without running it through your Agent first — the IP assignment clause alone can sign away work you have not yet created. For rates, the calculation is not "what feels reasonable" but: (target annual income + self-employment tax + health insurance + retirement contribution + business expenses) / billable hours per year. Most new freelancers undercharge by 30--40% because they calculate from a salary number that already had those costs hidden inside it.
 
 ::: science
+<!-- RESEARCH NEEDED: IRS estimate that employers misclassify "millions" of workers -->
 The "misclassification" problem is not academic. The IRS estimates that employers misclassify millions of workers as independent contractors to avoid payroll taxes, unemployment insurance, and benefits obligations. The Department of Labor's 2024 rule tightened the test for independent contractor status under the FLSA, but enforcement remains complaint-driven.[^w8-1] If your "freelance" arrangement involves a single client who sets your hours and provides your tools, you may legally be an employee owed back benefits.
 :::
 

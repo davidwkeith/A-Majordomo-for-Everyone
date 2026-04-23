@@ -32,7 +32,7 @@ verify with a professional.
 :::
 
 ::: tip
-For complicated questions — anything with multiple parts, tradeoffs, or "it depends" answers — add: _"Think through this step by step before giving me your answer."_ This sounds simple but it measurably improves accuracy. It forces your Agent to reason through the problem rather than jumping to a conclusion. The more moving parts in your question, the more this helps.
+For complicated questions — anything with multiple parts, tradeoffs, or "it depends" answers — add: _"Think through this step by step before giving me your answer."_ <!-- RESEARCH NEEDED: claim that chain-of-thought prompting measurably improves accuracy (Wei et al. 2022 or similar) --> This sounds simple but it measurably improves accuracy. It forces your Agent to reason through the problem rather than jumping to a conclusion. The more moving parts in your question, the more this helps.
 :::
 
 
