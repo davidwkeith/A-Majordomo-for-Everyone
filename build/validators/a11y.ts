@@ -20,8 +20,16 @@ export const DECLARED_A11Y_FEATURES = [
   'longDescription',
 ] as const;
 
-const IMG_NO_ALT = /<img\b(?![^>]*\balt=)[^>]*>/i;
-const IMG_EMPTY_ALT = /<img\b[^>]*\balt="\s*"/i;
+// Whitespace before `alt` distinguishes the real attribute from `data-alt`,
+// `srcset-alt`, etc. Both quote styles are accepted, with optional whitespace
+// around `=` and inside the quotes.
+const IMG_NO_ALT = /<img\b(?![^>]*\s+alt\s*=)[^>]*>/gi;
+const IMG_EMPTY_ALT = /<img\b[^>]*\s+alt\s*=\s*(['"])\s*\1/gi;
+
+function snippet(tag: string): string {
+  const flat = tag.replace(/\s+/g, ' ').trim();
+  return flat.length > 80 ? flat.slice(0, 77) + '...' : flat;
+}
 
 export function validateAccessibility(
   meta: BookMeta,
@@ -98,17 +106,17 @@ export function validateAccessibility(
     }
   }
   for (const ch of chapters) {
-    if (IMG_NO_ALT.test(ch.html)) {
+    for (const m of ch.html.matchAll(IMG_NO_ALT)) {
       issues.push({
         feature: 'alternativeText',
-        message: '<img> without alt attribute',
+        message: `<img> without alt attribute: ${snippet(m[0])}`,
         source: ch.meta.sourceFile,
       });
     }
-    if (IMG_EMPTY_ALT.test(ch.html)) {
+    for (const m of ch.html.matchAll(IMG_EMPTY_ALT)) {
       issues.push({
         feature: 'alternativeText',
-        message: '<img> with empty alt attribute',
+        message: `<img> with empty alt attribute: ${snippet(m[0])}`,
         source: ch.meta.sourceFile,
       });
     }

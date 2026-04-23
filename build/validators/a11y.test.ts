@@ -79,6 +79,40 @@ describe('validateAccessibility', () => {
     expect(alt[0].message).toContain('empty alt');
   });
 
+  it('fails on single-quoted empty alt', () => {
+    const html = "<img src='x.png' alt=''/>";
+    const issues = validateAccessibility(BOOK_META, [chapter({}, html)], ctx());
+    const alt = issues.filter((i) => i.feature === 'alternativeText');
+    expect(alt.length).toBe(1);
+    expect(alt[0].message).toContain('empty alt');
+  });
+
+  it('tolerates whitespace around alt=', () => {
+    const present = '<img src="x.png" alt = "A figure."/>';
+    const absent = validateAccessibility(BOOK_META, [chapter({}, present)], ctx());
+    expect(absent.filter((i) => i.feature === 'alternativeText')).toEqual([]);
+
+    const empty = '<img src="x.png" alt = " "/>';
+    const issues = validateAccessibility(BOOK_META, [chapter({}, empty)], ctx());
+    expect(issues.filter((i) => i.feature === 'alternativeText').length).toBe(1);
+  });
+
+  it('does not confuse data-alt with alt', () => {
+    const html = '<img src="x.png" data-alt="not real"/>';
+    const issues = validateAccessibility(BOOK_META, [chapter({}, html)], ctx());
+    const alt = issues.filter((i) => i.feature === 'alternativeText');
+    expect(alt.length).toBe(1);
+    expect(alt[0].message).toContain('without alt');
+  });
+
+  it('reports every violation in a chapter, not just the first', () => {
+    const html =
+      '<img src="a.png"/><img src="b.png" alt=""/><img src="c.png" alt="ok"/><img src="d.png"/>';
+    const issues = validateAccessibility(BOOK_META, [chapter({}, html)], ctx());
+    const alt = issues.filter((i) => i.feature === 'alternativeText');
+    expect(alt.length).toBe(3);
+  });
+
   it('passes on <img> with non-empty alt attribute', () => {
     const html = '<img src="x.png" alt="A figure."/>';
     const issues = validateAccessibility(BOOK_META, [chapter({}, html)], ctx());
