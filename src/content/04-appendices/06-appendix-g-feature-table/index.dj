@@ -53,6 +53,7 @@ The book uses Claude as its default example. Every feature named below exists in
 
 | What it does | Claude | Gemini | ChatGPT | Copilot |
 |---|---|---|---|---|
+<!-- RESEARCH NEEDED: verify current web-search availability and tier per tool (Claude web search status, ChatGPT free-tier search, Gemini/Copilot defaults) -->
 | Search the web in real time | Web search (paid) | Default on | Available (free) | Default on |
 | Cite sources from web results | Yes | Yes | Yes | Yes |
 | Access current news | Paid tier | Yes | Yes | Yes |
@@ -60,6 +61,8 @@ The book uses Claude as its default example. Every feature named below exists in
 ---
 
 ### Extended Thinking and Reasoning
+
+<!-- RESEARCH NEEDED: verify current reasoning mode names and default model names; OpenAI's reasoning models (o1/o3) and GPT-4o designations change frequently -->
 
 | What it does | Claude | Gemini | ChatGPT | Copilot |
 |---|---|---|---|---|
@@ -80,6 +83,8 @@ The book uses Claude as its default example. Every feature named below exists in
 ---
 
 ### Paid vs. Free
+
+<!-- RESEARCH NEEDED: verify current paid tier pricing for Claude Pro, Gemini Advanced, ChatGPT Plus, and Copilot Pro; confirm each tier name is still current -->
 
 | | Claude | Gemini | ChatGPT | Copilot |
 |---|---|---|---|---|
