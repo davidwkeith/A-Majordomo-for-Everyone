@@ -79,7 +79,7 @@ The Jeeves bible supports this range — the risk is drift toward a single tic, 
 
 The two label-swap cases (S0 and S1) demonstrate the typographic transformation. The voice-rewrite cases (S2, S4–S9) and the new-closer case (S3) will be drafted during implementation against this reference pattern.
 
-**Typographic change:** the current wrapper `_"The Majordomo has this to say about X: …"_` carries three pieces of formatting — italic body, quote marks, narrator frame. All three go. The new format is `*My Man Jeeves:*` (bold-italic label) followed by a single italic paragraph with no quote marks.
+**Typographic change:** the current wrapper `_"The Majordomo has this to say about X: …"_` carries three pieces of formatting — italic body, quote marks, narrator frame. All three go. The new format is `*My Man Jeeves:*` (bold label) followed by a single italic paragraph with no quote marks.
 
 **Strategy 0 — before:**
 
