@@ -33,7 +33,7 @@ There is also 1 `<!-- EDITORIAL: ... -->` comment (Chores, Ch-5 expansion note) 
 
 - [x] Editorial notes reviewed --- all `RESEARCH NEEDED` comments resolved (0 remain)
 - [ ] All art briefs have corresponding images in `src/images/` (24 of 44 missing)
-- [ ] XMP metadata embedded in all images
+- [x] XMP metadata embedded in all existing images (27 of 27)
 - [ ] Version bumped and tagged
 - [ ] `npm run build` produces clean ePub
 - [ ] `npm test` passes
