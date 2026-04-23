@@ -25,45 +25,11 @@ There is also 1 `<!-- EDITORIAL: ... -->` comment (Chores, Ch-5 expansion note) 
 | Domain | RESEARCH NEEDED | HUMAN CONDITION | Total |
 |--------|-----------------|-----------------|-------|
 | Life | 4 | 2 | 6 |
-| Transportation | 0 | 0 | 0 |
-| IRL | 0 | 0 | 0 |
-| Chores | 0 | 0 | 0 |
-| Creative | 0 | 0 | 0 |
 | Health | 3 | 0 | 3 |
-| Home | 0 | 0 | 0 |
-| Money | 0 | 0 | 0 |
-| Legal | 0 | 0 | 0 |
-| Civic | 0 | 0 | 0 |
-| Work | 0 | 0 | 0 |
 | Computer & Web | 1 | 2 | 3 |
 | **Total** | **8** | **4** | **12** |
 
-Health resolved 2026-04-20. Home resolved 2026-04-21 (HUMAN CONDITION memos in Ho-4 and Ho-6 surfaced into callouts). Work resolved 2026-04-21 (20 RN + 14 HC surfaced into callouts, footnotes, and reordered entries). Money resolved 2026-04-21 (19 RN + 12 HC surfaced into callouts, footnotes, and prose). Legal resolved 2026-04-21 (16 RN + 2 HC). Civic resolved 2026-04-21 (15 RN + 12 HC; entries reordered by impact). Creative resolved 2026-04-22 (7 RN + 8 HC; fixed Chamberlain citation misattribution, corrected Balbag statistic from 36% to 64%, added BandLab ALSO callout, surfaced HC insights into prose). Chores resolved 2026-04-22 (12 RN + 5 HC + 5 EDITORIAL + 2 bare HC; fixed phantom Ch-7 citation, updated FTC click-to-cancel rule status after 8th Circuit vacatur, corrected Ch-10 footnote, surfaced mental-load/first-gen-homeowner/end-of-life insights, converted Ch-5 draft notes to EDITORIAL). IRL resolved 2026-04-22 (9 RN + 11 HC; fixed broken IRL-6 citation, corrected Sackett et al. volume/pages, added DOIs to Galinsky and Pham footnotes, surfaced CFPB escalation and Wrightslaw resources as callouts, added IRL-7 gendered pricing fairness callout). Transportation resolved 2026-04-22 (17 RN + 7 HC; surfaced veterans integration as ALSO callout, added seat pitch data to Tr-4 fairness, added Tr-5 class-coded fairness callout, surfaced Global Entry comparison as tip, surfaced wheelchair damage stats and self-advocacy exhaustion in Tr-9). Life resolved 2026-04-22 (16 RN + 25 HC; surfaced caregiver statistics and care costs as science callout in Li-4, surfaced veterans military honors and caregiver programs as ALSO callouts, added crisis resources to Li-8, softened Baumrind cross-cultural claim in Li-7, surfaced Gen Z fraud data in Li-3 fairness, added solo dining tip in Li-6, added parental guilt sentence in Li-7). The remaining Health memos are the three Veterans-integration markers for H-4, H-12, and H-13. New Skills Li-13 (Using Your Public and Academic Library) and WB-10 (Doing Real Research with Your Agent) were added after the triage pass and carry their own RESEARCH NEEDED comments (6 and 3 respectively).
-
----
-
-## Health Chapter Editorial Review (2026-04-21)
-
-Systematic issues (em dashes, number formatting, footnote IDs) fixed. The following remain.
-
-### Citation Issues
-
-- [x] **Missing citation for tobacco/alcohol funding claim (drugs intro):** Split into `[^hd-2]` citing Buchanan & Wallack (1998), _Journal of Drug Issues_.
-- [x] **Footnote h15-1 is a status note, not a citation:** Replaced with 89 Fed. Reg. 44597 (proposed May 21, 2024) and current status (ALJ retired August 2025, rulemaking stalled).
-- [x] **H-4 Science Note range formatting:** Fixed hyphen to en dash (`39--59%`).
-
-### Structural Issues
-
-- [x] **Missing "What to do with the Output"** in H-12, H-13, H-14, H-16. Added concrete next steps to all four.
-- [x] **"Drugs: What the Egg Should Have Been" heading level:** Changed from h4 to h3.
-- [x] **Domain heading ALL CAPS:** Changed to `### Health`.
-- [x] **Conservative-answer convention:** Added guard language to specs in H-1, H-5, H-6, H-8, H-11, H-13, H-14.
-- [x] **H-7 tip callout (Five Wishes state requirements):** Retyped from `::: tip` to `::: science`.
-
-### Density / Readability
-
-- [x] **H-6 fairness callout split:** Nursing home math stays in `::: fairness`; VA Aid & Attendance moved to its own `::: also` (following H-7 pattern for veterans benefits).
-- [x] **H-6 split into H-6 + H-6b:** H-6 now covers Medicare (enrollment, Part D, Medicare Advantage, Medigap, SHIP). H-6b covers Medicaid (eligibility, work requirements, long-term care, spend-down, VA pension). Each has its own Jeeves opener, spec, and footnotes. Cross-references updated.
+All 12 original domains triaged (232 → 3 by 2026-04-22). New Skills Li-13 (Using Your Public and Academic Library) and WB-10 (Doing Real Research with Your Agent) were added post-triage and carry their own RESEARCH NEEDED comments (6 and 3 respectively). The 3 Health comments are Veterans-integration markers for H-4, H-12, and H-13.
 
 ---
 
@@ -94,5 +60,4 @@ Carried from the former BRAINSTORM comment in `src/content/02-field-guide/01-hea
 
 ## Pending
 
-- [x] Editorial notes triage --- all 12 original domains complete (232 → 3). New Skills Li-13 and WB-10 added post-triage with 9 new comments.
 - [ ] Kidlin's Law ("If you can write the problem down clearly, you're halfway to solving it") --- it's essentially the premise of Strategy 0 and Chapter 4. Decide whether to surface it. Current spec blocks dropping it in as a Strategy 0 epigraph two ways: `spec/editorial/editorial-conventions.md:11` reserves the strategy-chapter epigraph slot for the TRINITRON block, and the same rule bans motivational quotes. Options: (1) add it as a pull-quote between the italic subtitle and the `---` rule, keeping TRINITRON as the epigraph; (2) replace the Seinfeld TRINITRON; (3) amend the spec to allow a second short epigraph on strategy chapters and carve out an aphorism exception. Provenance is also uncertain --- no reliable primary source.
