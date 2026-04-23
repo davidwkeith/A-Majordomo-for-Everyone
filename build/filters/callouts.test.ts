@@ -118,6 +118,22 @@ describe('endnotes', () => {
     expect(html).toContain('Source.');
   });
 
+  it('emits a reference id and matching backlink', () => {
+    const dj = 'A claim.[^n1]\n\n[^n1]: Source.';
+    const html = process(dj);
+    expect(html).toContain('id="fnref-n1"');
+    expect(html).toContain('epub:type="backlink"');
+    expect(html).toContain('href="#fnref-n1"');
+    expect(html).toContain('aria-label="Back to reference 1"');
+  });
+
+  it('only attaches fnref id to the first reference when a note is cited twice', () => {
+    const dj = 'First.[^n1] Second.[^n1]\n\n[^n1]: Source.';
+    const html = process(dj);
+    const matches = html.match(/id="fnref-n1"/g) || [];
+    expect(matches.length).toBe(1);
+  });
+
   it('suppresses section wrapping', () => {
     const dj = '## A heading\n\nSome text.';
     const html = process(dj);
