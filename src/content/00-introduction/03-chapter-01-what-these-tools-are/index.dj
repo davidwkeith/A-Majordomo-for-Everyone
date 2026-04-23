@@ -74,6 +74,11 @@ Not [Skynet](https://en.wikipedia.org/wiki/Skynet%5F(Terminator)). Not [HAL 9000
 :::
 
 
+::: fairness
+Nilay Patel at The Verge calls it _software brain_: the tech-industry habit of treating the world as a series of databases to be managed with structured language and code.[^1-8] It is why [DOGE](https://en.wikipedia.org/wiki/Department%5Fof%5FGovernment%5FEfficiency) failed — a country is not a database — and why the smart-home decade produced mostly things no one asked for. Software brain is what is being done _to_ you when an insurer replaces its appeals desk with a model trained to deny claims, when a landlord screens applicants through an algorithm, when a hospital bills by code instead of by visit. This book is about the other direction — the same class of tool, on your side of the table, reading the database back to you in plain language. The distinction is the whole game. Notice which one you are looking at.
+:::
+
+
 ::: science
 Transformer models — the architecture behind modern AI — are fundamentally pattern-completion engines. They process context holistically and associatively, finding the shape of things before finding the words. This makes them fluent in analogy, tone, metaphor, and lateral thinking. What they struggle with is long-chain sequential reasoning — holding a complex logical argument without dropping a step. This is why the leading AI labs are now building extended reasoning systems: slower, more deliberate processing layered on top of the fast pattern engine. Which is, interestingly, exactly what the human brain does — [fast and slow thinking](https://en.wikipedia.org/wiki/Thinking,%5FFast%5Fand%5FSlow). AI arrived at the same architecture from a completely different direction.[^1-2]
 :::
@@ -97,3 +102,5 @@ Transformer models — the architecture behind modern AI — are fundamentally p
 [^1-6]: Nadella, S. (2023). ["Introducing Microsoft 365 Copilot."](https://blogs.microsoft.com/blog/2023/03/16/introducing-microsoft-365-copilot-your-copilot-for-work/) Microsoft Official Blog.
 
 [^1-7]: Amodei, D. (2024). ["Machines of Loving Grace."](https://www.darioamodei.com/machines-of-loving-grace) Personal essay. Full quote: "Having a very thoughtful and informed AI whose job is to give you everything you're legally entitled to by the government in a way you can understand — and who also helps you comply with often confusing government rules — would be a big deal."
+
+[^1-8]: Patel, N. (2026). ["Beware 'Software Brain.'"](https://www.theverge.com/podcast/917029/software-brain-ai-backlash-databases-automation) _The Vergecast_. "It's when you see the whole world as a series of databases that can be controlled with structured language and software code."
