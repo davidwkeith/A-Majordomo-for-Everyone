@@ -630,7 +630,7 @@ Calibration — the alignment between confidence and accuracy — is the central
 
 
 ::: fairness
-The wealthy have always had research staff. Law firms employ paralegals, congressional offices employ legislative researchers, hedge funds employ analysts, universities employ graduate students, and family offices employ all of the above. The work being done is not exotic — it is framing a question, gathering sources, and synthesizing what is known. What is exotic is the access. Your Agent does not replace a Yale law librarian, but it does close the gap between asking a question and having something coherent to read in response. That gap, until very recently, was the gap between professional-class research and everyone else.
+The wealthy have always had research staff. Law firms employ paralegals, congressional offices employ legislative researchers, hedge funds employ analysts, universities employ graduate students, and family offices employ all of the above. The work being done is not exotic — it is framing a question, gathering sources, and synthesizing what is known. What is exotic is the access — and, subtler still, the _curation_. The professional researcher has colleagues who flag what's worth reading, journals that narrow the field, librarians who filter the firehose. The non-professional researcher has a search engine that optimizes for engagement, not signal. If you feel you "can't keep up," you are not failing — you are operating without institutional filters that professionals take for granted. And if your research method for the last two decades has been "I just google it," that is not a personal failing. Search techniques were last taught in middle school; the information environment has changed completely since then. The skill atrophied because the institutions that should have taught it stopped updating the curriculum, not because you stopped caring. Your Agent does not replace a Yale law librarian, but it does close the gap between asking a question and having something coherent to read in response. That gap, until very recently, was the gap between professional-class research and everyone else.
 :::
 
 
@@ -649,11 +649,6 @@ A different category of research tool: **source-grounded notebooks**. Rather tha
 :::
 
 
-<!-- RESEARCH NEEDED: Verify Tetlock & Gardner (2015) figures on calibration vs. domain expertise — Good Judgment Project data. Also worth citing Kahneman & Klein (2009) "Conditions for Intuitive Expertise" on when domain expertise is and isn't reliable. -->
-
-<!-- RESEARCH NEEDED (HUMAN CONDITION): Information overwhelm is a class-coded experience. The professional researcher has filters — colleagues who flag what's worth reading, journals whose tables of contents narrow the firehose, librarians who curate. The non-professional researcher has Google, which optimizes for engagement, not signal. The reader who feels they "can't keep up" is not failing; they are operating without the institutional curation that professionals take for granted. The Agent is, among other things, a curator — not a perfect one, but a starting one. The Skill should name this without becoming a sermon. -->
-
-<!-- RESEARCH NEEDED (HUMAN CONDITION): The shame of "not knowing how to research" is widespread and rarely admitted. Most adults were taught search techniques (Boolean operators, library catalogs) in middle school and never updated their skills. The reader who admits they "just google it" is admitting to using a 1998 skill in a 2026 information environment. The Skill should validate this without lecturing — the skill atrophied because the institution stopped teaching it, not because the reader stopped caring. -->
 
 [^wb10-1]: Tetlock, P.E. & Gardner, D. (2015). [_Superforecasting: The Art and Science of Prediction._](https://www.goodjudgment.com/superforecasting/) Crown. See also Kahneman, D. & Klein, G. (2009). ["Conditions for Intuitive Expertise: A Failure to Disagree."](https://doi.org/10.1037/a0016755) _American Psychologist,_ 64(6), 515–526.
 
