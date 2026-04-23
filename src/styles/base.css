@@ -325,6 +325,12 @@ th {
   color: var(--link);
 }
 
+.endnote-backlink {
+  margin-left: 0.4em;
+  text-decoration: none;
+  color: var(--link);
+}
+
 /* ---- Chapter Opener Illustrations (Trinitron) ---- */
 
 .illustration {

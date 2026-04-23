@@ -26,6 +26,7 @@ export class EndnoteState {
   index = 0;
   labelToNum = new Map<string, number>();
   footnoteOrder: { label: string; num: number }[] = [];
+  refEmitted = new Set<string>();
 
   getNum(label: string): number {
     let num = this.labelToNum.get(label);
@@ -181,7 +182,13 @@ export function epubOverrides(
     ): string => {
       const label = node.text;
       const num = state.getNum(label);
-      return `<a epub:type="noteref" href="#en-${escapeHtml(label)}" class="endnote-ref">[${num}]</a>`;
+      const escaped = escapeHtml(label);
+      // Only the first reference for a given label gets the id; subsequent
+      // references to the same footnote omit it to avoid duplicate ids.
+      const isFirst = !state.refEmitted.has(label);
+      state.refEmitted.add(label);
+      const idAttr = isFirst ? ` id="fnref-${escaped}"` : '';
+      return `<a epub:type="noteref" role="doc-noteref" href="#en-${escaped}"${idAttr} class="endnote-ref">[${num}]</a>`;
     },
 
     section: (node: Section, renderer: HTMLRenderer): string => {
@@ -220,7 +227,7 @@ export function renderNotesSection(
   if (state.footnoteOrder.length === 0) return '';
 
   const notes: string[] = [];
-  for (const { label } of state.footnoteOrder) {
+  for (const { label, num } of state.footnoteOrder) {
     const fn = doc.footnotes[label];
     if (!fn) continue;
 
@@ -232,9 +239,13 @@ export function renderNotesSection(
       children: fn.children,
     };
     const content = renderHTML(tempDoc);
+    const escaped = escapeHtml(label);
+    const backlink =
+      `<a epub:type="backlink" role="doc-backlink" class="endnote-backlink" ` +
+      `href="#fnref-${escaped}" aria-label="Back to reference ${num}">\u21a9</a>`;
 
     notes.push(
-      `<aside epub:type="endnote" id="en-${escapeHtml(label)}" class="endnote">\n${content}</aside>`
+      `<aside epub:type="endnote" role="doc-endnote" id="en-${escaped}" class="endnote">\n${content}${backlink}\n</aside>`
     );
   }
 
