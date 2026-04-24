@@ -7,6 +7,9 @@ import type {
   ThematicBreak,
   FootnoteReference,
   Footnote,
+  OrderedList,
+  BulletList,
+  ListItem,
   Visitor,
   HTMLRenderer,
 } from '@djot/djot';
@@ -203,18 +206,54 @@ export function epubOverrides(
 
 /**
  * Extract text from a conversation div's children, applying prose wrapping:
- * single newlines become spaces, blank lines become <br/> breaks.
+ * paragraphs are separated by blank-line breaks, and ordered/bullet lists are
+ * flattened to one item per line so the content renders inside <kbd>/<samp>
+ * without introducing block-level list markup.
  */
 function extractConversationText(node: Div, renderer: HTMLRenderer): string {
-  // Render each child paragraph, then join with <br/><br/> breaks
   const parts: string[] = [];
   for (const child of node.children) {
-    if (child.tag === 'para') {
-      const html = renderer.renderChildren(child);
-      parts.push(html);
-    }
+    const rendered = renderConversationBlock(child, renderer);
+    if (rendered) parts.push(rendered);
   }
   return parts.join('<br/><br/>');
+}
+
+function renderConversationBlock(
+  block: Div['children'][number],
+  renderer: HTMLRenderer
+): string {
+  if (block.tag === 'para') {
+    return renderer.renderChildren(block);
+  }
+  if (block.tag === 'ordered_list' || block.tag === 'bullet_list') {
+    return renderConversationList(block, renderer);
+  }
+  return '';
+}
+
+function renderConversationList(
+  list: OrderedList | BulletList,
+  renderer: HTMLRenderer
+): string {
+  const isOrdered = list.tag === 'ordered_list';
+  let num = isOrdered ? (list as OrderedList).start ?? 1 : 0;
+  const lines: string[] = [];
+  for (const item of list.children) {
+    if (item.tag !== 'list_item') continue;
+    const marker = isOrdered ? `${num++}. ` : '— ';
+    lines.push(marker + renderListItemContent(item, renderer));
+  }
+  return lines.join('<br/>');
+}
+
+function renderListItemContent(item: ListItem, renderer: HTMLRenderer): string {
+  const parts: string[] = [];
+  for (const child of item.children) {
+    const rendered = renderConversationBlock(child, renderer);
+    if (rendered) parts.push(rendered);
+  }
+  return parts.join('<br/>');
 }
 
 /**

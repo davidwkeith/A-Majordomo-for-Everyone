@@ -98,6 +98,36 @@ describe('conversationFilter', () => {
     expect(html).toContain('<samp>');
     expect(html).toContain('I can help with that.');
   });
+
+  it('renders an ordered list inside a prompt div', () => {
+    const dj = '::: prompt\n1. First answer.\n2. Second answer.\n:::';
+    const html = process(dj);
+    expect(html).toContain('conversation-prompt');
+    expect(html).toContain('1. First answer.');
+    expect(html).toContain('2. Second answer.');
+  });
+
+  it('renders a paragraph followed by a list inside an agent div', () => {
+    const dj = '::: agent\nA few questions:\n\n1. What type?\n2. What reason?\n:::';
+    const html = process(dj);
+    expect(html).toContain('A few questions:');
+    expect(html).toContain('1. What type?');
+    expect(html).toContain('2. What reason?');
+  });
+
+  it('renders a bullet list inside a prompt div', () => {
+    const dj = '::: prompt\n- alpha\n- beta\n:::';
+    const html = process(dj);
+    expect(html).toContain('alpha');
+    expect(html).toContain('beta');
+  });
+
+  it('respects ordered list start number', () => {
+    const dj = '::: prompt\n3. third\n4. fourth\n:::';
+    const html = process(dj);
+    expect(html).toContain('3. third');
+    expect(html).toContain('4. fourth');
+  });
 });
 
 describe('endnotes', () => {
