@@ -481,10 +481,13 @@ th {
   height: 5em;
 }
 
-/* Dark mode: boost pencil-on-transparent visibility */
+/* Dark mode: transparent inline graphics need a light "paper" behind them.
+   Inverting the pixels would distort skin tones in drawings of people. */
 @media (prefers-color-scheme: dark) {
   .inline-graphic img {
-    filter: invert(1) hue-rotate(180deg);
+    background: #f5f3f0;
+    padding: 0.6em;
+    border-radius: 2px;
   }
 }
 

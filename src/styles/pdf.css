@@ -98,11 +98,7 @@ a {
   color: var(--link);
 }
 
-/* Don't invert images in print */
-.inline-graphic img {
-  filter: none !important;
-}
-
+/* Don't invert callout icons in print */
 .callout-label::before {
   filter: none !important;
 }
