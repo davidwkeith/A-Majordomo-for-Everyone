@@ -17,6 +17,7 @@ _Your Agent can draft the letter, research the law, prepare the argument, and re
 *See also:* C-3: Understanding Your Rights Where You Live, H-6: Understanding What Medicare Actually Covers
 *My Man Jeeves:* _One might observe that the DMV, the Social Security office, the county clerk, the courthouse, and the unemployment office represent the physical interfaces of government — designed, it would appear, with the same attentiveness to the visitor's experience as a website of the 1997 vintage. The forms are available online, though the answers, regrettably, are not. The hours are limited. The queues are considerable. The individual behind the counter has fielded one's question some four hundred times previously and may or may not possess the authority to be of assistance. A difficulty presents itself: the distinction between a single visit and three lies entirely in knowing what to bring, what to request, and what to say when the initial response is "no." One's Agent can tell one all three before one walks in._
 *The Spec:*
+
 ::: prompt
 I need to go to [DMV / Social Security office / county clerk /
 courthouse / unemployment office / other government office]
@@ -32,6 +33,7 @@ Please help me:
 4. What should I say if I'm told [I need a different form /
    I'm missing a document / I need to come back / my request is denied]?
 5. Is there anything I can do online first to reduce the in-person time?
+
 :::
 *What to do with the Output:* Print the document checklist. Bring everything. The single most common reason for a wasted government office visit is a missing document. The second most common is arriving at the wrong office. The third is not knowing that what you need can be done online. Your Agent can prevent all three.
 
@@ -39,11 +41,13 @@ Please help me:
 
 ::: tip
 _"I was just at [office] and they told me [unexpected thing]. Is that correct, or should I push back? What are my options?"_ — Ask in the parking lot, before the next visit.
+
 :::
 
 
 ::: fairness
 Government services are distributed unequally by geography and funding. Wealthier counties have more offices, shorter wait times, and more staff. Rural areas may require a 60-mile drive. For the middle class, the DMV is an annoyance. For someone navigating benefits, immigration, or housing assistance, the government office is a high-stakes environment where the person behind the counter has real discretion over your life. The power asymmetry is real. Preparation reduces it. If your Agent's advice assumes an urban office, say so: _"The nearest [office] is [X miles] away and open [limited hours]. What can I do remotely?"_
+
 :::
 
 
@@ -54,6 +58,7 @@ Government services are distributed unequally by geography and funding. Wealthie
 *See also:* L-3: Writing a Demand Letter (when the call doesn't work), H-4: Appealing an Insurance Denial (same escalation technique)
 *My Man Jeeves:* _It would not be inaccurate to characterize customer service as a system arranged to resolve the least costly complaints while gently exhausting those individuals whose difficulties prove more expensive. The first-tier representative is authorized to perform approximately three actions. The supervisor, perhaps six. The retention department — which one reaches only by employing certain specific phrases — is capable of considerably more. The architecture, one might note, rewards those who are familiar with the escalation path. Your Agent is familiar with the escalation path._
 *The Spec:*
+
 ::: prompt
 I need to resolve a problem with [company] about [issue:
 billing error, defective product, canceled service, denied claim,
@@ -72,21 +77,25 @@ Please help me:
    file a formal complaint," "Please connect me to retention")
 4. Tell me what to do if the call doesn't resolve it —
    next steps including regulatory complaints and dispute options
+
 :::
 *What to do with the Output:* Call, don't chat. Phone representatives have more authority than chat agents. Be polite, be specific, be documented. Write down the representative's name and the call reference number. If the first call doesn't resolve it, ask your Agent to draft a written complaint — the paper trail is what makes the second call work.
 
 ::: tip
 _"I've been on hold for 30 minutes with [company]. While I wait, help me draft the most effective opening statement for when someone picks up. I have [issue] and I want [outcome]."_
+
 :::
 
 
 ::: meme
 [Seinfeld:S3E3 "The Pen"](https://en.wikipedia.org/wiki/The%5FPen%5F(Seinfeld)) — Jerry can't say no to a pen he doesn't want, triggering an escalating social debt. Customer service works the same way in reverse: you can't get what you're owed because each representative passes you to the next. The system assumes you will give up. Do not give up. The system is testing your resolve, not your case.
+
 :::
 
 
 ::: also
 If direct customer service fails, file a complaint at [consumerfinance.gov](https://www.consumerfinance.gov/complaint/) (for financial products) or your state Attorney General's consumer complaint portal. Companies respond to CFPB complaints at higher rates than direct complaints. The filing is free and creates a formal record. Your Agent can draft the complaint.
+
 :::
 
 
@@ -97,6 +106,7 @@ If direct customer service fails, file a complaint at [consumerfinance.gov](http
 *See also:* Li-5: Planning Trips (same preparation pattern), H-2: Preparing Questions Before a Doctor's Appointment
 *My Man Jeeves:* _There exists a variety of apprehension that has, to date, received no clinical designation, yet it would appear to affect nearly everyone: the discomfort of not knowing how a place operates. Upon entering a courtroom, a therapist's office, a car dealership, a parent-teacher conference, a funeral home, a real estate closing, a voting booth, or a gymnasium for the first time, one finds oneself uncertain where to stand, what to say initially, what the unwritten conventions are, or what everyone else seems already to know. This apprehension, one might observe, suppresses action. Individuals delay medical appointments, forgo voting, avoid the gymnasium, and accept less favorable terms in negotiations — the unknown procedure proving more daunting than the known unsatisfactory outcome. Your Agent, however, has attended all of these situations. It is in a position to describe precisely what to expect._
 *The Spec:*
+
 ::: prompt
 I am about to [go to / do / attend] [specific situation] for
 the first time and I don't know what to expect.
@@ -115,16 +125,19 @@ Please:
    difference between a good experience and a bad one
 Be specific. I want the "what will actually happen" version,
 not the official description.
+
 :::
 *What to do with the Output:* Read it the night before. The preparation reduces anxiety not because it eliminates uncertainty — you will still encounter surprises — but because it reduces the _amount_ of uncertainty to a manageable level. Research on anticipatory anxiety (Grupe & Nitschke, 2013) consistently shows that intolerance of uncertainty is a better predictor of anxiety than the actual threat level of the situation.[^irl3-1]
 
 ::: fairness
 First-time situations are class experiences. If your parents owned a home, you learned the closing process by osmosis. If they didn't, your first closing is a wall of unfamiliar paperwork with a stranger asking you to sign thirty documents. The information gap is not about intelligence — it is about what your household of origin happened to model for you. Your Agent closes that gap.
+
 :::
 
 
 ::: also
 This works well with voice mode on your phone — all major tools support it on mobile. See [Appendix G](06-appendix-g-feature-table.xhtml).
+
 :::
 
 
@@ -138,6 +151,7 @@ This works well with voice mode on your phone — all major tools support it on 
 *My Man Jeeves:* _One observes that every price in the American economy falls into one of two categories: the fixed and the negotiable. The distinction, however, is rarely advertised. The sticker on the car, the estimate from the surgeon, the first month's rent, the figure on the mattress tag — each represents not a fact but an opening position. The party who knows this negotiates. The party who does not pays the posted amount and is regarded, by the system, as having consented. It is perhaps worth noting that the billionaire class does not pay sticker price for anything, including, one might add, their tax obligations. Your Agent has read the negotiation research. It can tell you the fair price, the walk-away number, and the sentence that moves the conversation._
 
 *The Spec:*
+
 ::: prompt
 I need to negotiate a price for [car / furniture / medical bill /
 rent renewal / appliance / contractor work / other].
@@ -155,22 +169,26 @@ Please help me:
 4. Give me responses for the three most likely counter-arguments
 5. What is my walk-away point, and how do I signal it
    without bluffing?
+
 :::
 
 *What to do with the Output:* Practice the opening line out loud. It sounds ridiculous and it works. The reason negotiation feels unnatural is that you haven't rehearsed. The car salesperson has done this eight times today. You've done it zero times this year. Reading the script once closes most of that gap. Print the counter-arguments. Bring them.
 
 ::: science
 Galinsky and Mussweiler (2001) demonstrated that the first number spoken in a negotiation anchors the entire outcome. The party who names a price first sets the range. Your Agent can tell you what that number should be — and whether you should be the one to say it.[^irl4-1]
+
 :::
 
 
 ::: tip
 Medical bills are negotiable. Hospitals have charity care policies they are legally required to maintain (for nonprofit hospitals) and financially motivated to offer (for all hospitals, because some payment beats collections). Ask your Agent: _"This hospital billed me [amount] for [procedure]. I [have / don't have] insurance. What are my options for reducing this bill?"_ The answer will surprise you.
+
 :::
 
 
 ::: fairness
 Negotiation outcomes track with race, gender, and class. Research consistently shows that women and people of color receive worse initial offers and face more resistance when counter-offering. Your Agent gives you the same preparation that a $400/hour consultant would. It does not fix the structural bias in the room. It does fix the information asymmetry you walked in with.
+
 :::
 
 
@@ -183,6 +201,7 @@ Negotiation outcomes track with race, gender, and class. Research consistently s
 *See also:* Li-1: Preparing for a Difficult Conversation, IRL-2: Getting Help from Customer Service, IRL-4: Negotiating a Price
 *My Man Jeeves:* _One might observe that the individuals with whom one interacts in the course of daily commerce --- the customer service representative, the mechanic, the landlord, the administrator behind the counter --- have rehearsed their side of the exchange. If not formally, then through repetition: the representative has recited the refusal script two hundred times this quarter; the landlord has fielded the repair request before; the doctor has delivered the diagnosis to someone who is not you. The individual on the other side of the encounter, however --- which is to say, oneself --- is performing without benefit of a single rehearsal. It is perhaps unsurprising that the party who has practiced maintains composure while the party who has not does not. Your Agent, one might note, is capable of playing the opposing role with some conviction --- permitting one to rehearse the encounter as many times as necessary before entering the room where it matters._
 *The Spec:*
+
 ::: prompt
 I want to practice a conversation before I have it for real.
 The situation: [describe --- returning a defective product,
@@ -202,31 +221,37 @@ After 3-4 exchanges, stop and tell me:
 1. What I said that was effective
 2. Where I lost ground or could be clearer
 3. The one thing to change before I try it for real
+
 :::
 *What to do with the Output:* Use voice mode for this. Open your Agent's mobile app, switch to voice, and talk. Reading a script silently is preparation. Saying the words to someone who talks back is rehearsal. They are not the same thing. The first time you say "I need to speak with a supervisor" out loud to something that responds like a bored customer service representative, you will hear how you sound. That is the point. Run it two or three times. Each round, your Agent will adjust --- harder pushback, different deflections. When you can handle the third round without freezing, you're ready. After the real conversation, come back: _"Here's how it went: [describe]. What should I do differently next time?"_
 
 ::: tip
 _"I'm about to call [company] and I'm nervous. Can you play the customer service rep? I'll practice my opening and you give me realistic pushback. Go."_ --- You can do this in a parking lot, five minutes before you walk in.
+
 :::
 
 
 ::: also
 Voice mode is available on all major AI tools' mobile apps. See [Appendix G](06-appendix-g-feature-table.xhtml). For this Skill, voice is not a convenience feature. It is the exercise.
+
 :::
 
 
 ::: science
 Pham and Taylor (1999) found that mentally rehearsing the _process_ of a task --- the steps, the responses, the decision points --- outperformed visualizing a successful outcome by a significant margin. The benefit was not confidence. It was reduced anxiety and better adaptive responses when the situation deviated from the plan.[^irl5-1]
+
 :::
 
 
 ::: meme
 [Seinfeld:S8E13 "The Comeback"](https://en.wikipedia.org/wiki/The_Comeback_(Seinfeld)), 1997 --- George spends an entire week rehearsing the perfect comeback to an insult, arranges an elaborate situation to deliver it, and gets immediately hit with a better one. The lesson is not that rehearsal is pointless. The lesson is that rehearsing one fixed line is brittle. Rehearsing _the conversation_ --- including the part where it goes sideways --- is what works.
+
 :::
 
 
 ::: fairness
 Rehearsal is especially valuable for people navigating conversations across a power differential --- tenants talking to landlords, patients questioning doctors, employees asking for accommodations. The anxiety in these situations is not irrational; the consequences of "saying the wrong thing" are asymmetric. Your Agent levels the practice gap. It does not level the power gap. Know the difference.
+
 :::
 
 
@@ -240,6 +265,7 @@ Rehearsal is especially valuable for people navigating conversations across a po
 *My Man Jeeves:* _The hospital is, one might observe, the only institution in which an individual is expected simultaneously to make consequential decisions about their own care, recall unfamiliar terminology under duress, track which of the several individuals entering the room is authorized to make which determinations, and do so while wearing a garment that opens at the back. The system presumes an advocate — a spouse, a parent, a friend who knows what questions to ask. Many individuals arrive without one. Your Agent cannot accompany you into the room, but it can tell you, beforehand, everything the advocate would have known._
 
 *The Spec:*
+
 ::: prompt
 I [am going to the hospital / am accompanying someone] for
 [scheduled surgery / ER visit / labor and delivery /
@@ -262,22 +288,26 @@ Please help me:
    back vs. when to go to the ER
 Give me the most conservative, medically accurate answer.
 I will verify with my care team.
+
 :::
 
 *What to do with the Output:* Print it. Bring it. Hospitals are loud, exhausting, and disorienting. You will not remember what your Agent told you at 2 a.m. when the hospitalist asks whether you want to proceed. A printed list in your bag is worth more than a memorized briefing. If you're the advocate for someone else, this is your script.
 
 ::: tip
 Ask your Agent: _"What is the difference between 'observation status' and 'admitted' at a hospital? Why does it matter for my insurance?"_ The answer affects whether Medicare or your insurer covers the stay. Observation status can leave you with the full bill. Hospitals are not required to tell you which one you're on.
+
 :::
 
 
 ::: science
 Research on patient safety consistently finds that engaged patients and family advocates catch errors that clinical staff miss --- medication discrepancies, miscommunications between care teams, symptoms that change between rounds. You don't need a professional advocate. You need someone who knows what questions to ask. Your Agent provides the questions. You or your person provides the presence.[^irl6-1]
+
 :::
 
 
 ::: fairness
 Hospital outcomes correlate with race, income, and insurance status. Black patients are less likely to receive adequate pain management. Uninsured patients receive fewer diagnostic tests. Non-English speakers face communication barriers even when interpreters are legally required. Your Agent cannot fix these structural failures. It can help you document them, name them to staff, and file complaints when they occur.
+
 :::
 
 
@@ -291,6 +321,7 @@ Hospital outcomes correlate with race, income, and insurance status. Black patie
 *My Man Jeeves:* _The automobile repair industry operates upon a remarkably efficient information asymmetry: the mechanic possesses specialized knowledge regarding the vehicle's condition, and the vehicle's owner possesses, in the main, the awareness that a sound has begun that was not previously present. Into this gap, one observes, a considerable amount of revenue flows. Not all of it is unwarranted — the profession is skilled and the work is genuinely necessary. But the distinction between "your brake pads are worn and you will die" and "this cabin air filter could be fresher" is one the owner ought to be equipped to make. Your Agent has read every Technical Service Bulletin for your vehicle. The mechanic may not expect that._
 
 *The Spec:*
+
 ::: prompt
 I need to take my car to a mechanic and I want to be prepared.
 The situation:
@@ -308,22 +339,26 @@ Please help me:
 4. What questions should I ask the mechanic to show I've
    done my homework — without being adversarial?
 5. Is this a repair I should get a second opinion on?
+
 :::
 
 *What to do with the Output:* Get the diagnosis first. Most reputable mechanics will diagnose for free or for a nominal fee. Get the diagnosis in writing before you authorize the repair. Then ask your Agent to evaluate it. The conversation you want with the mechanic is: "I understand this is the issue. I've looked up the fair price. Let's talk about the work." That's a different conversation than "I don't know what's wrong with it. Fix it."
 
 ::: meme
 [Home Improvement:S1E1 "Pilot"](https://en.wikipedia.org/wiki/Home%5FImprovement%5F(TV%5Fseries)%5F(season%5F1)), 1991 — Tim Taylor's entire arc is a man who would rather attempt the repair himself than admit he doesn't understand the repair. The show ran eight seasons on this premise. Do not be Tim Taylor. Know enough to have the conversation. Then let the professional do the work.
+
 :::
 
 
 ::: tip
 _"The mechanic says I need [repair] and quoted me [amount]. My car is a [year/make/model]. Is that a fair price? Is this urgent or can it wait until next month?"_ — Ask this before you authorize anything. Two minutes of preparation can save hundreds of dollars.
+
 :::
 
 
 ::: fairness
 Auto repair is one of the most heavily gendered information asymmetries in American life. Research consistently shows that women are quoted higher prices and receive more unnecessary repair recommendations than men for identical problems. The anxiety of "being taken advantage of" is not paranoia --- it is a statistically validated concern. Your Agent does not change the dynamics in the shop. It changes whether you walk in knowing what the repair should cost.
+
 :::
 
 
@@ -335,6 +370,7 @@ Auto repair is one of the most heavily gendered information asymmetries in Ameri
 *My Man Jeeves:* _The parent-teacher conference presents itself as a collaborative exchange regarding the child's progress. In practice, one observes, it is a twenty-minute encounter in which the teacher has prepared remarks and the parent is expected to receive them. The parent who arrives with questions — specific, informed, documented — shifts the conversation from monologue to dialogue. When the matter involves an IEP or a 504 plan, the shift is not merely social but legal: the parent is a required member of the team, with rights established by federal statute, and the school is obligated to respond to their concerns in writing. Many parents are not informed of this. The school system does not appear to regard the omission as urgent. Your Agent has read IDEA. It can prepare you to exercise rights you may not know you have._
 
 *The Spec:*
+
 ::: prompt
 I have a parent-teacher conference coming up for my
 [age/grade] child.
@@ -356,27 +392,32 @@ Please help me:
    being combative — I want collaboration, not conflict
 5. What are the red flags — things the school might say that
    I should push back on?
+
 :::
 
 *What to do with the Output:* Bring notes. Take notes. The single most important thing you can do in a parent-teacher conference is write down what was agreed to and email a summary afterward: "Thank you for meeting today. Here's my understanding of what we discussed and the next steps." That email is a record. If the school doesn't respond to correct it, it stands.
 
 ::: science
 Under IDEA (Individuals with Disabilities Education Act), parents are equal members of the IEP team. The school cannot change an IEP without parental consent. Parents have the right to request an IEE (Independent Educational Evaluation) at public expense if they disagree with the school's assessment. Most parents don't know either of these facts.[^irl8-1]
+
 :::
 
 
 ::: tip
 _"The school wants to remove an accommodation from my child's 504 plan. What are my rights? What should I say in the meeting? What should I put in writing?"_ — Your Agent knows the federal framework. Your school may not volunteer it.
+
 :::
 
 
 ::: fairness
 Parents who speak the school's language — literally and figuratively — get better outcomes for their kids. Schools with higher-income populations have more parent engagement infrastructure. Schools with lower-income populations have larger class sizes and fewer counselors. If English is not your first language, you have the legal right to an interpreter at IEP meetings. Ask your Agent to draft the request.
+
 :::
 
 
 ::: also
 [Wrightslaw](https://www.wrightslaw.com/) is the definitive free parent resource for special education law. The Council of Parent Attorneys and Advocates ([COPAA](https://www.copaa.org/)) provides additional free resources and referrals. Your Agent can translate the school system's professional vocabulary --- IEP, 504, RTI, MTSS, BIP --- but these organizations specialize in the fights your Agent cannot have for you.
+
 :::
 
 
@@ -390,6 +431,7 @@ Parents who speak the school's language — literally and figuratively — get b
 *My Man Jeeves:* _The fifteen minutes following a motor vehicle collision are, one might venture, among the least suitable for clear decision-making in the entire human experience — and yet they are precisely the interval during which the decisions that determine the subsequent six months of insurance negotiations, potential litigation, and financial exposure are made. What one says to the other driver, to the police officer, and to one's insurance company in those first minutes becomes the record. The record is remarkably difficult to amend. Your Agent cannot be consulted at the moment of impact, but it can be consulted ten minutes later, in the passenger seat, while you are waiting for the police to arrive._
 
 *The Spec:*
+
 ::: prompt
 I was just in a car accident. [Or: I want to be prepared
 in case I'm in one.]
@@ -409,22 +451,26 @@ Please help me:
    volunteer
 6. Do I need a lawyer? When does it make sense to get one?
 Give me the most conservative, legally accurate answer.
+
 :::
 
 *What to do with the Output:* Do not say "I'm sorry" to the other driver. Do not say "it was my fault." Do not speculate about what happened. Exchange insurance information, take photos of everything (both cars, the scene, license plates, road conditions, traffic signs), and get the police report number. Then sit in your car and read what your Agent told you before you call your insurance company.
 
 ::: tip
 Save this spec on your phone now, before you need it. Change the situation details when the time comes. The moment after an accident is not the moment to learn what to do after an accident.
+
 :::
 
 
 ::: meme
 [Seinfeld:S7E12 "The Caddy"](https://en.wikipedia.org/wiki/The%5FCaddy%5F(Seinfeld)), 1996 — Kramer and a car accident that spirals into an insurance catastrophe because nobody documented anything and everybody assumed. The episode is a comedy. Your insurance claim is not. Document everything.
+
 :::
 
 
 ::: fairness
 After an accident, police reports and insurance adjusters introduce human judgment — and human bias. Studies show that fault determination and claim payouts correlate with the demographics of the parties involved, not just the facts. If you feel the police report is inaccurate, you have the right to submit a supplemental statement. Your Agent can draft it. Your record does not have to be someone else's summary of what happened.
+
 :::
 
 
@@ -436,6 +482,7 @@ After an accident, police reports and insurance adjusters introduce human judgme
 *My Man Jeeves:* _There exists no social occasion at which the fear of saying the wrong thing is more acute, or at which the wrong thing is more frequently said. Funerals and memorial services operate according to customs that vary by religion, culture, region, and family — and one is expected to navigate these customs while managing one's own grief, or supporting someone else who is managing theirs. The system provides no orientation. One arrives, one is uncertain whether to speak or remain silent, whether to bring food or flowers or neither, what to wear, what to say to the family, and what, precisely, one does with one's hands. Your Agent cannot grieve with you. It can tell you what to expect so that your attention is free for the only thing that matters: being present._
 
 *The Spec:*
+
 ::: prompt
 I am attending a funeral or memorial service and I want to
 be prepared.
@@ -457,17 +504,20 @@ Please help me:
    tradition but not to an outsider?
 5. What do I do after — follow-up, checking in, the part
    that actually matters most?
+
 :::
 
 *What to do with the Output:* Read it. Showing up is the thing that matters. The fear of doing it wrong keeps people from showing up at all, and absence is always worse than awkwardness. If you don't know what to say, "I'm here" is enough. If you don't know the customs, follow the people around you. Your Agent handles the logistics so you can handle the being human.
 
 ::: meme
 [Seinfeld:S6E1 "The Chaperone"](https://en.wikipedia.org/wiki/The%5FChaperone%5F(Seinfeld)), 1994 — The show's entire run is a master class in the anxiety of social conventions. Every episode is someone doing the wrong thing at the wrong time because nobody explained the rules. Funerals are the one context where the stakes of that anxiety are real. Prepare, so you can be present instead of panicking.
+
 :::
 
 
 ::: tip
 The most useful thing you can do after a funeral is not say "let me know if you need anything." It is to do a specific thing without being asked — bring a meal, mow the lawn, pick up the kids, send a text in three weeks when everyone else has stopped checking in. Ask your Agent: _"My [friend/colleague] lost [person]. It's been [time]. What is a specific, helpful thing I can do right now?"_
+
 :::
 
 
@@ -479,6 +529,7 @@ The most useful thing you can do after a funeral is not say "let me know if you 
 *My Man Jeeves:* _The in-person interview is, one might observe, a performance in which both parties have agreed to pretend that the exchange of pleasantries, the firm handshake, and the question regarding one's greatest weakness constitute a reliable method of evaluating professional competence. Research suggests they do not. The interview persists, nevertheless, because the hiring manager believes in it, and the hiring manager is the audience. What this means, practically, is that preparation for an interview is not preparation to demonstrate competence — it is preparation to demonstrate the appearance of competence to a specific person, in a specific room, for approximately forty-five minutes. Your Agent has read every question they are likely to ask. It can rehearse your answers until they sound unrehearsed._
 
 *The Spec:*
+
 ::: prompt
 I have an in-person job interview coming up and I want to
 be fully prepared.
@@ -503,27 +554,32 @@ Please help me:
    the handshake, the small talk, the close, the follow-up
 6. Help me draft a follow-up email I can send within 2 hours
    of leaving
+
 :::
 
 *What to do with the Output:* Rehearse out loud. Answers that exist only in your head sound different from answers you've said to a room. Practice with your Agent using voice mode if available — tell it to ask you the questions one at a time and give you honest feedback on your answers. Print the company research and your question list. Arrive 10 minutes early. Bring two copies of your resume, a pen, and a notebook. The follow-up email is the most overlooked part: send it the same day, reference something specific from the conversation, and keep it to three sentences.
 
 ::: science
 Meta-analyses of interview validity (Schmidt & Hunter, 1998; updated Sackett et al., 2022) consistently show that unstructured interviews are among the weakest predictors of job performance. Structured interviews — where every candidate gets the same questions — are significantly better. You cannot control which type you get. You can prepare for both. Your Agent helps you anticipate the structure and rehearse within it.[^irl11-1]
+
 :::
 
 
 ::: tip
 _"I just left the interview. Here's what happened: [describe]. Help me draft a follow-up email that references [specific moment from the conversation] and reinforces that I'm the right fit for [specific aspect of the role]."_ — Do this in the parking lot. Two hours is the window.
+
 :::
 
 
 ::: fairness
 Interview outcomes are shaped by bias — conscious and unconscious. Identical resumes with different names receive different callback rates. Candidates who "fit the culture" are often candidates who look like the existing team. Your Agent cannot change the interviewer's biases. It can ensure that the things within your control — preparation, answers, follow-up — are as strong as possible. The structural unfairness is real. So is your preparation.
+
 :::
 
 
 ::: tip
 Remember: the information asymmetry runs both directions. The company is evaluating you, but you are also evaluating them. _"What happened to the last person in this role?"_ tells you more than _"What does success look like in the first 90 days?"_ Ask your Agent to help you prepare questions that are genuinely evaluative, not performative.
+
 :::
 
 

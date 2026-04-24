@@ -42,6 +42,7 @@ When a conversation has produced useful context that you need in the next one, a
 Summarize what we've established --- the key facts, decisions,
 and open questions. I'm going to start a new conversation
 and carry forward only what matters.
+
 :::
 
 Copy. Paste into the new conversation. You have just done what a chief of staff does for a principal between meetings: distilled the record into a clean briefing.
@@ -56,6 +57,7 @@ A good spec library has three to five entries after a month of regular use. Afte
 
 ::: tip
 The spec that worked for your situation will probably work for someone else's. When a friend asks "how do I deal with my insurance company," you can send them the spec instead of trying to explain the process. That message is a tiny act of the teaching described in Chapter 34.
+
 :::
 
 
@@ -77,6 +79,7 @@ This is the calibration question from Chapter 32, applied across services instea
 
 ::: science
 The "[wisdom of crowds](https://en.wikipedia.org/wiki/Wisdom_of_the_crowd)" finding (Surowiecki, 2004) --- that independent estimates aggregated outperform any single expert --- applies to AI tools in a useful way. Two different AI services working from the same spec are not as independent as two human experts --- they are all trained on overlapping slices of the public web and on broadly similar objectives --- but they are trained by different teams, on different data mixes, with different guardrails, and in practice their answers disagree often enough that convergence carries information. Their agreement is meaningful in a way that running the same query twice in the same service is not.[^33-1]
+
 :::
 
 
@@ -98,11 +101,13 @@ You do not need to include everything on day one. Add to it as situations come u
 
 ::: tip
 Keep the household context under two paragraphs. The Agent reads it before every conversation in that space. A short, specific context is more useful than a long, comprehensive one --- the same principle as a lean conversation.
+
 :::
 
 
 ::: also
 The persistent context feature is free in the major services. Claude Projects, Gemini Gems, and ChatGPT custom GPTs all allow you to set instructions that apply to every conversation in that space (Copilot's equivalent is more limited). See [Appendix G](06-appendix-g-feature-table.xhtml) for setup steps.
+
 :::
 
 
@@ -116,6 +121,7 @@ This is the compound return of specification literacy. It is not a metaphor. Eac
 
 ::: science
 [Deliberate practice](https://en.wikipedia.org/wiki/Practice_(learning_method)#Deliberate_practice) research (Ericsson, Krampe & Tesch-Römer, 1993) shows that skill acquisition in structured domains follows a predictable curve: rapid initial improvement, a plateau, then continued gains from increasingly refined technique. Specification literacy follows this pattern. The initial improvement --- learning to describe your situation at all --- is the steepest part of the curve. What follows is refinement: knowing which details to include, which to omit, when to ask for a second pass, and when the first answer is good enough. The free tier rewards this curve directly, because a practiced specifier uses fewer messages to reach the same result.[^33-2]
+
 :::
 
 

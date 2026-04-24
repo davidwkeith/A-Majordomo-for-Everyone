@@ -12,6 +12,7 @@ _There is a political movement to Make America Healthy Again. This book is not a
 
 ::: meme
 "Make America Healthy Again" versus "Make _Me_ Healthy." One requires a political movement. The other requires a good question and twenty minutes. [Darwin](https://en.wikipedia.org/wiki/Charles%5FDarwin) would note that individual adaptation does not wait for the species to catch up. Start with your own oxygen mask.
+
 :::
 
 
@@ -22,6 +23,7 @@ _There is a political movement to Make America Healthy Again. This book is not a
 *See also:* H-2: Preparing Questions (for your next appointment), H-5: Managing a Chronic Condition (if it's ongoing)
 *My Man Jeeves:* _The language of medical diagnosis has evolved over several centuries with the commendable aim of precision between specialists — a precision that, one might observe, extends rather less reliably to the patient. The individual in question, having just received news of some consequence regarding their own person, is moreover in a neurological state that research suggests reduces information retention by approximately half. The medical system appears to regard this arrangement as satisfactory. One's Agent, it may be observed, is rather more patient with questions than the fifteen-minute appointment permits._
 *The Spec:*
+
 ::: prompt
 My doctor just told me I have [diagnosis]. I don't fully understand
 what this means. Please explain in plain language:
@@ -31,6 +33,7 @@ what this means. Please explain in plain language:
 4. What questions I should ask at my next appointment
 Do not assume any medical knowledge on my part.
 I will bring this to my next appointment to verify.
+
 :::
 *What to do with the Output:* Use it to make your question list before the next appointment (see H-2). Do not use it to second-guess your doctor's treatment recommendation — use it to understand it. For ongoing conditions, see also H-5: Managing a Chronic Condition and H-8: Wellness and Nutrition Coach.
 
@@ -41,16 +44,19 @@ I will bring this to my next appointment to verify.
 *See also:* H-1: Understanding a Diagnosis (if you just received one), H-5: Managing a Chronic Condition (for ongoing questions)
 *My Man Jeeves:* _Research across multiple medical systems has established, with some consistency, that patients who arrive with written questions receive more information, report higher satisfaction, and reach better-informed decisions than those who do not. It is perhaps worth noting that the medical system has not seen fit to adjust its appointment length to accommodate this finding. One's Agent, however, is tolerably well suited to assist in composing the list._
 *The Spec:*
+
 ::: prompt
 I have an appointment with [specialist type] on [date] about [condition
 or concern]. My main worry is [specific concern]. I want to make sure
 I understand [specific thing]. Please help me write a list of questions
 to ask, starting with the most important. I have about [X] minutes.
+
 :::
 *What to do with the Output:* Print the list. Bring it to the appointment. Hand it to the doctor at the start — "I wrote down my questions so I don't forget." This saves both of you time and signals that you are an active participant, not a passive recipient.
 
 ::: also
 This works well with voice mode on your phone — all major tools support it on mobile. See [Appendix G](06-appendix-g-feature-table.xhtml).
+
 :::
 
 
@@ -65,6 +71,7 @@ This works well with voice mode on your phone — all major tools support it on 
 *See also:* H-4: Appealing an Insurance Denial (if something looks wrong), M-4: Collections and Bankruptcy (if the bill becomes debt), M-6: Financial Coach (for insurance and costs)
 *My Man Jeeves:* _The Explanation of Benefits is, in principle, a document intended to explain one's benefits --- a purpose it fulfills, one might venture, with considerable incompleteness. It presents procedure codes, allowed amounts, adjustments, and patient responsibility in a format that rather generously rewards confusion. The bill that follows presents a further difficulty: its stated price bears a variable, and largely notional, relation to what one might actually be asked to pay. Nonprofit hospitals are required by federal tax rule to maintain financial assistance programs; they are not, however, required to volunteer the fact at the billing window. One's Agent has read every code on the form and every provision of 26 U.S.C. § 501(r) --- and is prepared both to translate and to negotiate._
 *The Spec:*
+
 ::: prompt
 I received this medical bill / Explanation of Benefits and I don't
 understand it. [Paste the bill or EOB, removing your name and ID number.]
@@ -86,21 +93,25 @@ Please:
    charity care, and asking about a cash-pay discount or a
    no-interest payment plan
 5. Tell me what rights I have if this has already gone to collections
+
 :::
 *What to do with the Output:* Compare every line to the original provider bill. If your Agent flags a charge as unusual, call the billing department and ask them to explain it. The person who calls is the person who gets the adjustment. The person who doesn't call pays the first number they were given.
 
 ::: also
 Paste or upload your document directly — file upload works in Claude, Gemini, ChatGPT, and Copilot. See [Appendix G](06-appendix-g-feature-table.xhtml).
+
 :::
 
 
 ::: tip
 If your EOB is a PDF from your insurance portal, copy the text and paste it. If it arrived on paper, photograph it with your phone and copy the text from the photo — both iPhone and Android can do this. Your Agent reads pasted text faster and more accurately than a photo. See [Appendix J](09-appendix-j-working-with-text.xhtml) for why.
+
 :::
 
 
 ::: fairness
 Under [26 U.S.C. § 501(r)](https://www.irs.gov/charities-non-profits/charitable-organizations/requirements-for-501c3-hospitals-under-the-affordable-care-act-section-501r), every nonprofit hospital must maintain a written Financial Assistance Policy, publicize it, cap charges to FAP-eligible patients at the rate generally billed to insured patients, and screen for eligibility before extraordinary collection actions. Enforcement is weak. A 2022 KFF Health News investigation of 528 U.S. hospitals found that more than two-thirds sue patients or pursue other legal action, nearly 40% disclose nothing about their collection practices online, and only 19 of the 528 had publicly committed against extraordinary collection actions.[^h3-1] Eligibility thresholds are also wildly inconsistent: a 2024 _Health Affairs_ study found income limits for free care ranging from 41% to 600% of the federal poverty guideline, with a median discounted-care limit of 400% FPL but values reported between 100% and 1,000%.[^h3-2] Hospital financial counselors can point you at programs and applications, but they are chronically understaffed; the research, the appeals, and the document-gathering fall to the patient. Ask directly: _"What is your financial assistance policy, what is the income threshold for free and discounted care, and can you email me the application today?"_ Keep a record of the date, the staff member's name, and a reference number.
+
 :::
 
 
@@ -117,6 +128,7 @@ Under [26 U.S.C. § 501(r)](https://www.irs.gov/charities-non-profits/charitable
 *See also:* L-1: Negotiating a Contract (for understanding the policy itself), L-3: Writing a Demand Letter (same drafting technique, different context)
 *My Man Jeeves:* _Insurance companies deny claims at a rate that, one observes, ensures a profitable percentage of denials are never contested — the appeal process requiring, as it does, that the policyholder be aware appeal is possible, conversant with the procedure for filing one, and in possession of sufficient energy to pursue the matter while already unwell. The industry appears to find this arrangement commercially sound. One's Agent is conversant with the appeal process and is not, at present, unwell._
 *The Spec:*
+
 ::: prompt
 My insurance denied [procedure/claim] with the reason: [paste denial reason].
 The procedure was ordered by my doctor for [condition].
@@ -125,6 +137,7 @@ My doctor can provide a letter of medical necessity.
 Please draft an appeal letter that cites the denial reason,
 references the right to appeal, and is firm without being
 hostile --- I may need to escalate further.
+
 :::
 *What to do with the Output:* Send the letter. Keep a copy with the date you sent it. If you have a deadline for the appeal (check your denial letter — it's usually 30-180 days), mark it on your calendar. Follow up in writing if you don't hear back within the stated timeframe.
 
@@ -143,6 +156,7 @@ Veterans: VA benefits denials follow a separate system. The Appeals Modernizatio
 *See also:* H-1: Understanding a Diagnosis, H-2: Preparing Questions, H-8: Wellness and Nutrition Coach
 *My Man Jeeves:* _The diagnosis, if one may draw the distinction, is a moment. The condition is the remainder of one's life. The medical system has been constructed principally for acute care — one arrives unwell, one departs treated. Chronic conditions do not accommodate themselves to this model with any great willingness. The 15-minute appointment every three months cannot, by its nature, address the 131,400 minutes between appointments. Those minutes fall to the patient to manage, largely without assistance, armed with whatever information one carried away from the last visit. One's Agent is available for the other 131,400._
 *The Spec:*
+
 ::: prompt
 I have [chronic condition] and I've been managing it for [time period].
 My current treatment: [medications, therapy, lifestyle changes]
@@ -156,21 +170,25 @@ Please help me:
 3. Suggest questions to ask my doctor at my next appointment
 4. Point me toward support resources (online communities, organizations)
 I will discuss any changes with my doctor before starting.
+
 :::
 *What to do with the Output:* Start a symptom log. Even a simple daily note — what you ate, how you slept, pain level, energy level — gives your doctor data they cannot get any other way and gives your Agent the specificity to help you identify patterns. The log is the treatment between treatments.
 
 ::: tip
 _"I have [condition] and I'm having a bad day. What are the three things I should check first — hydration, medication timing, sleep — and what's the most common thing people with this condition overlook?"_
+
 :::
 
 
 ::: fairness
 Chronic pain and invisible illness face documented medical dismissal, particularly for women and people of color. If your Agent's advice assumes your doctor is listening, but your doctor isn't, say so: _"My doctor has dismissed this concern. Help me prepare a case for why this needs attention."_ See H-2 and H-4.
+
 :::
 
 
 ::: also
 To make this Expert Role persistent across sessions, save it as a *Project* (Claude), *Gem* (Gemini), or *Custom GPT* (ChatGPT). See [Appendix G](06-appendix-g-feature-table.xhtml).
+
 :::
 
 
@@ -180,6 +198,7 @@ Charmaz's _Good Days, Bad Days_ (1991) names what the medical system rarely does
 _"I have [condition] and I'm grieving the life I expected to have. Help me name what I've lost, what I've adapted to, and what I'm still figuring out --- so I can bring the right questions to my doctor, my family, and a therapist if I decide to see one."_
 
 _When you're ready: "Help me find online communities for people with [condition]. Where do they gather? What makes a healthy community? What should I avoid?"_
+
 :::
 
 
@@ -187,10 +206,12 @@ _When you're ready: "Help me find online communities for people with [condition]
 
 ::: meme
 In 2003, [Christine Miserandino](https://butyoudontlooksick.com/articles/written-by-christine/the-spoon-theory/) explained lupus to a friend by handing her twelve spoons. Each task --- showering, making breakfast, going to work --- costs spoons, and when they run out, the day is over. Spoon theory was not peer-reviewed. It was named in a diner by a patient who needed a friend to understand, and it has since been cited in nursing literature because it did something their frameworks did not.
+
 :::
 
 ::: science
 The Stanford Chronic Disease Self-Management Program (Lorig et al., 1999) remains the best-studied model: a randomized trial of 952 adults showed reduced hospitalization, less health distress, and more exercise at a cost of $70 per participant. A meta-analysis of 23 studies (Brady et al., 2013) confirmed consistent small-to-moderate effects, strongest for self-efficacy. The problem is reach: over 15 years, fewer than 500,000 Americans have completed a structured program — against 194 million adults with at least one chronic condition (CDC, 2023). Lorig's own research found that online delivery produced comparable results to in-person groups, which suggests the educational structure matters more than the peer format. Your Agent can approximate that structure. It cannot replace a room full of people who know what a bad day actually feels like.[^h5-2]
+
 :::
 
 
@@ -198,6 +219,7 @@ The Stanford Chronic Disease Self-Management Program (Lorig et al., 1999) remain
 
 ::: fairness
 When patients skip medications, the medical system calls it "non-adherence." In 1.3 million cases, it is insulin rationing --- skipping doses, using less than prescribed, or delaying refills to afford them. The rate reaches 29% among the uninsured and 23% among Black adults. Non-adherence, of which cost is a leading driver, is implicated in an estimated 125,000 preventable deaths annually. When the barrier is the price, the failure is the system, not the patient. Ask your Agent: _"Are there patient assistance programs, generics, or manufacturer coupons for [my medication]?"_[^h5-3]
+
 :::
 
 
@@ -211,6 +233,7 @@ When patients skip medications, the medical system calls it "non-adherence." In 
 *See also:* H-4: Appealing an Insurance Denial, H-6b: Understanding What Medicaid Actually Covers, Li-4: Planning Care for Aging
 *My Man Jeeves:* _Medicare is, in principle, straightforward: health insurance for Americans aged 65 and older, or younger if disabled. In practice, it is a four-part system (A, B, C, and D) with enrollment windows that close permanently, late-enrollment penalties that compound for life, and a private-plan alternative (Medicare Advantage) whose marketing budget rather substantially exceeds its obligations of transparency. The most consequential decision --- whether to enroll in Original Medicare or an Advantage plan, and whether to purchase supplemental Medigap coverage --- must be made during windows that the system does not go to great lengths to publicize. One's Agent has read the enrollment rules and can explain which decisions apply to one's circumstances before the window closes._
 *The Spec:*
+
 ::: prompt
 I [or my family member] am [turning 65 / disabled / already enrolled
 and reviewing my coverage] and I need to understand what
@@ -227,21 +250,25 @@ Please explain:
 5. What deadlines or enrollment periods I need to know about
    --- especially penalties for missing them
 Give me the most conservative, accurate answer --- enrollment mistakes can be permanent.
+
 :::
 *What to do with the Output:* Circle the deadlines. Medicare enrollment penalties are permanent --- missing the initial enrollment period for Part B means a 10% premium increase for every 12-month period you delayed, for the rest of your life. This is the kind of structural penalty that rewards people who already understand the system. For Medicaid, long-term care, and dual eligibility, see H-6b.
 
 ::: science
 The Medicare Part D "donut hole" --- the coverage gap where beneficiaries paid a larger share of drug costs --- was partially closed by the ACA and eliminated by the Inflation Reduction Act of 2022, which restructured Part D to cap total out-of-pocket drug costs at $2,000 in 2025 ($2,100 in 2026, adjusted annually for inflation). Once you hit the cap, covered prescriptions cost $0 for the rest of the year.[^h6-1]
+
 :::
 
 
 ::: science
 As of 2025, 54% of Medicare beneficiaries --- 34.1 million people --- are enrolled in Medicare Advantage plans; the Congressional Budget Office projects 64% by 2034.[^h6-2] The trade-off is routinely understated in marketing. In 2024, Medicare Advantage insurers processed 53 million prior authorization requests and denied 4.1 million of them (7.7%); UnitedHealth Group, the largest MA insurer, denied 12.8%. Only 11.5% of denials were appealed --- though 80.7% of those appeals were overturned, which suggests most denials are not defensible, but do not have to be.[^h6-3] And the well-marketed fallback of "you can always switch back" is state-dependent. Only four states (Connecticut, Maine, Massachusetts, New York) guarantee Medigap issuance year-round to all beneficiaries 65 and older; in the other 46 states and D.C., a beneficiary who leaves Medicare Advantage for Original Medicare after the first-year trial period can be denied supplemental Medigap coverage on the basis of the very conditions that made them want to leave.[^h6-4] Choose on the 10-year horizon, not the welcome-call pitch.
+
 :::
 
 
 ::: also
 Free, unbiased Medicare counseling is available in every state through the [State Health Insurance Assistance Program (SHIP)](https://www.shiphelp.org/) --- a federally funded network that helps beneficiaries compare plans, challenge denials, and untangle dual-eligibility paperwork. About 12.8 million Americans now qualify for both Medicare and Medicaid.[^h6-5] Call **1-877-839-2675** to reach your local SHIP, or search by ZIP code at shiphelp.org. SHIP counselors are trained, unpaid by plans, and have no financial interest in what you choose --- unlike the licensed agents behind most Medicare television ads.
+
 :::
 
 [^h6-1]: Kaiser Family Foundation, ["An Overview of the Medicare Part D Prescription Drug Benefit."](https://www.kff.org/medicare/a-current-snapshot-of-the-medicare-part-d-prescription-drug-benefit/) See also [Inflation Reduction Act of 2022, Section 11201](https://www.congress.gov/bill/117th-congress/house-bill/5376).
@@ -261,6 +288,7 @@ Free, unbiased Medicare counseling is available in every state through the [Stat
 *See also:* H-6: Understanding What Medicare Actually Covers, H-4: Appealing an Insurance Denial, Li-4: Planning Care for Aging
 *My Man Jeeves:* _Medicaid occupies, in the public imagination, a rather narrower role than it in fact performs. It is not merely insurance for the very poor --- it is the only major federal program that covers long-term nursing-home care, a fact that approximately 62% of Americans attribute, incorrectly, to Medicare. Following the One Big Beautiful Bill Act of 2025, it is also, for the first time in its history, a program with work requirements --- requirements that the Congressional Budget Office estimates will remove 4.8 million people from coverage by 2034. The eligibility rules are state-specific, the asset limits for long-term care are unforgiving, and the application process assumes a degree of bureaucratic fluency that the populations it serves are, by definition, least likely to possess. One's Agent has read the rules for one's state and can explain what applies before the paperwork is due._
 *The Spec:*
+
 ::: prompt
 I [or my family member] am [low-income / applying for long-term care /
 helping a parent who may need a nursing home / recently lost coverage]
@@ -276,26 +304,31 @@ Please explain:
 5. What the application process looks like and what deadlines matter
 Give me the most conservative, accurate answer --- Medicaid rules vary by state
 and mistakes can cost years of eligibility.
+
 :::
 *What to do with the Output:* Verify the state-specific details directly with your state Medicaid office or a certified application counselor --- rules change annually and your Agent's training data may lag. If long-term care is involved, consult an elder law attorney before transferring any assets; the 60-month look-back is unforgiving.
 
 ::: fairness
 The One Big Beautiful Bill Act (signed July 2025) requires expansion-population adults ages 19–64 to document 80 hours per month of work activity or qualify for an exemption --- verified every six months, not annually. If you or a family member is on Medicaid, ask your Agent: _"What are the work requirement exemptions in [my state], and what documentation do I need to stay enrolled?"_ The rules vary by state. The deadlines do not forgive confusion.[^h6b-1]
+
 :::
 
 
 ::: science
 The confusion shapes retirement planning in a way the research documents as consequential: families spend working lives contributing to Medicare, assume it includes long-term care, and discover at the moment of crisis that it does not. Medicaid is the safety net --- but qualifying for long-term care coverage requires a spend-down to near-zero assets that cannot be planned in advance unless the rules are understood years before they apply. See Li-4.[^h6b-2]
+
 :::
 
 
 ::: fairness
 The median American household ages 55–64 holds $185,000 in retirement savings[^h6b-3] against a semi-private nursing-home bill that, in 2024, averaged $111,325 a year.[^h6b-4] That is roughly 20 months of care before the money is gone. Medicaid covers long-term care after a spend-down: in most states, the nursing-home resident must be reduced to $2,000 in countable assets before qualifying, with a 60-month look-back on any transfers made in advance. Community spouses may retain significantly more under federal protections, but the rules are state-specific and unforgiving of error. This is the math no one teaches before a parent is admitted.
+
 :::
 
 
 ::: also
 For World War II–era veterans --- and for those who served in Korea, Vietnam, the Gulf War, or the post-9/11 period --- VA pension _with Aid and Attendance_ pays a Maximum Annual Pension Rate of up to $2,358 per month in 2025 for a single veteran, $2,795 for a married veteran, and $1,515 for a surviving spouse (figures are the MAPR inclusive of the Aid and Attendance increase, not a separate payment on top), to cover long-term care at home or in a facility.[^h6b-5] The benefit requires 90+ days of active duty with at least one day during a congressionally recognized wartime period, and application is via VA Form 21-2680 (plus 21-0779 for nursing-home residents). Ask your Agent: _"My [parent / grandparent / I] served in [branch, years, including any wartime dates]. What VA pension and long-term care benefits apply, and what forms, income documentation, and service records do we need?"_
+
 :::
 
 [^h6b-1]: Congressional Budget Office (2025). [Cost estimate, One Big Beautiful Bill Act](https://www.cbo.gov/publication/61461), Medicaid provisions. See also KFF, ["A Closer Look at the Work Requirement Provisions in the 2025 Federal Budget Reconciliation Law."](https://www.kff.org/medicaid/a-closer-look-at-the-work-requirement-provisions-in-the-2025-federal-budget-reconciliation-law/)
@@ -315,6 +348,7 @@ For World War II–era veterans --- and for those who served in Korea, Vietnam, 
 *See also:* Li-1: Preparing for a Difficult Conversation, Li-2: Writing a Eulogy, Li-4: Planning Care for Aging, L-1: Negotiating a Contract (for legal documents)
 *My Man Jeeves:* _American culture maintains, as the research rather thoroughly documents, a pronounced aversion to discussing death. The consequence is that the most significant decisions of a person's life — how they wish to be cared for, who is to make medical decisions should they be unable, what measures they do and do not desire — are left to family members attempting to guess under pressure in a hospital corridor. An advance directive requires approximately 30 minutes. The conversation that precedes it presents a rather greater difficulty. One's Agent may be of assistance in preparing for it._
 *The Spec:*
+
 ::: prompt
 I need to have a conversation with [my parent / family member]
 about their end-of-life wishes. This conversation has not happened
@@ -330,6 +364,7 @@ Please help me:
 3. List the specific documents that should exist (advance directive,
    healthcare proxy, power of attorney, will)
 4. Tell me what happens if these documents don't exist when they're needed
+
 :::
 *What to do with the Output:* The documents matter more than the conversation going perfectly. If the conversation goes badly, try again later. If the documents don't exist when a crisis arrives, there is no later. Start with the healthcare proxy — it is the most immediately critical and the least emotionally charged of the documents. [Five Wishes](https://fivewishes.org) is a widely used advance directive written in plain language.
 
@@ -337,26 +372,31 @@ Please help me:
 _"I want to talk to my parent about advance directives but I don't know how to bring it up without them thinking I'm planning their funeral. Help me find words that open the door without pushing."_
 
 _For the family meeting:_ _"My [siblings / other close family] and I need to coordinate on [parent's] care. Help me prepare for the conversation --- what we need to decide together, what falls naturally to whoever lives closest, and how to keep old childhood dynamics from running the meeting."_
+
 :::
 
 
 ::: fairness
 Roughly 36.7% of US adults have completed any type of advance directive; 29.3% have a living will.[^h7-2] Black and Hispanic Americans are about half as likely as non-Hispanic White Americans to have one --- a disparity that researchers trace both to different cultural frameworks around family, death, and spiritual preparation and to well-founded distrust of a medical system with a documented history of abuse, from Tuskegee and Henrietta Lacks to the maternal-mortality disparities that persist today.[^h7-3] The Western palliative model --- autonomy, pain control, acceptance --- is one tradition's picture of a "good death," not a universal one. Many Middle Eastern, Asian, Indigenous, Southern European, and religious traditions center family-directed decision-making or spiritual preparation that the Western legal form does not accommodate.[^h7-4] An advance directive can be written to reflect any of these, but the conversation that precedes it has to start on the family's ground, not the hospital's. Ask your Agent: _"In [my culture / religious tradition / family], what does a good death look like, what conversations usually happen and by whom, and how should I approach [parent / family member] in a way that matches that framework?"_
+
 :::
 
 
 ::: science
 Pauline Boss, who coined the term in the 1970s, describes _ambiguous loss_ as grief without resolution: a family member who is physically present but cognitively absent, as in dementia, or physically absent with status unknown. It has no funeral, no socially recognized endpoint, and no cultural script --- the person is there and not there at the same time. Boss's work has been cited in the caregiving literature for a generation as among the most psychologically destabilizing experiences families endure, and naming the experience --- rather than treating it as a personal failing of grief --- is itself a form of relief.[^h7-5] Millions of US families currently live this pattern; for practical caregiving logistics, see Li-4. Ask your Agent: _"My [family member] has [dementia / another condition causing cognitive decline / an unresolved disappearance]. Help me understand what Boss calls ambiguous loss and find language for talking with the rest of my family about what we are actually going through."_
+
 :::
 
 
 ::: science
 Five Wishes meets advance directive requirements in 46 states and D.C. Four states — Kansas, New Hampshire, Ohio, and Texas — require the state statutory form instead. Witness and notarization rules vary: most states require two witnesses, and a handful require notarization. [CaringInfo.org](https://www.caringinfo.org/planning/advance-directives/by-state/) provides free state-specific forms. A separate document — POLST (Physician Orders for Life-Sustaining Treatment) — translates your wishes into medical orders that EMTs are required to follow. An advance directive alone does not do this. Many families have one without the other. Ask your Agent: _"What are the advance directive and POLST requirements in [my state]?"_[^h7-1]
+
 :::
 
 
 ::: also
 Honorably discharged veterans and their eligible family members qualify for burial in a [VA National Cemetery](https://www.cem.va.gov/) at no cost --- plot, interment, headstone or marker, and perpetual care included --- and a spouse or dependent child may be buried there even if they predecease the veteran, with their name inscribed on the shared headstone. Surviving families may request _military funeral honors_ (two-person detail, flag presentation, Taps) through the funeral home or the National Cemetery Scheduling Office at 1-800-535-1117. VA burial allowance is $1,002 each for burial and plot for deaths on or after 1 October 2025 ($978 and $978 for the prior fiscal year), with higher amounts for service-connected deaths; apply via [VA Form 21P-530EZ](https://www.va.gov/find-forms/about-form-21p-530ez/). Surviving spouses and dependent children of wartime-era veterans may also qualify for VA Dependency and Indemnity Compensation (DIC) or pension.[^h7-6]
+
 :::
 
 
@@ -380,6 +420,7 @@ Honorably discharged veterans and their eligible family members qualify for buri
 *See also:* H-5: Managing a Chronic Condition (for condition-specific nutrition), Li-8: Wellness Coach (for mental health and journaling)
 *My Man Jeeves:* _A registered dietitian typically charges between $100 and $200 per session, with new-patient waits commonly running several weeks. A personal trainer costs $50 to $150 per hour. A wellness coach charges rather more and is, one notes, rather less regulated. One's Agent has acquainted itself with the same evidence base all three cite, and will apply it to one's particular situation without the formality of a retainer._
 *The Spec:*
+
 ::: prompt
 Act as a knowledgeable wellness and nutrition coach.
 My situation:
@@ -391,32 +432,38 @@ My situation:
 — What I've tried before: [if anything]
 What would you recommend, and where should I start?
 If any of this might conflict with a health condition, flag it.
+
 :::
 *What to do with the Output:* Use it as a starting framework, not a prescription. If you have a specific health condition, verify any significant dietary changes with your doctor. The calibration question applies here: _"How confident are you in this recommendation, and is there anything about my situation where you'd want me to check with a professional?"_
 
 ::: fairness
 Wellness advice reflects the demographics of the research base it draws from. If your Agent's suggestions feel like they assume a certain income level, kitchen setup, or food access, say so explicitly: _"I shop at a discount grocery store and have a small kitchen. Please adjust your recommendations."_
+
 :::
 
 
 ::: also
 To make this Expert Role persistent across sessions, save it as a *Project* (Claude), *Gem* (Gemini), or *Custom GPT* (ChatGPT). See [Appendix G](06-appendix-g-feature-table.xhtml).
+
 :::
 
 
 *Common wellness Expert Role specs:*
+
 ::: prompt
 Act as a nutrition coach. I want to eat better but I have
 [budget constraint / time constraint / dietary restriction].
 I currently eat [brief description].
 What are the three highest-impact changes I could make
 without overhauling everything at once?
+
 :::
 ::: prompt
 Act as a personal trainer. I want to [goal] but I have
 [constraint: bad knee / no gym / only 20 minutes / working
 from home all day].
 What's a realistic starting routine?
+
 :::
 ::: prompt
 Act as a wellness coach. I have been feeling [symptom:
@@ -424,6 +471,7 @@ low energy / poor sleep / constant stress] for [timeframe].
 I am not looking for a diagnosis. I want to understand
 what lifestyle factors might be contributing and what
 I could adjust first.
+
 :::
 
 ---
@@ -432,6 +480,7 @@ I could adjust first.
 
 ::: meme
 In 1987, the Partnership for a Drug-Free America aired a public service announcement showing an egg frying in a pan. _"This is your brain on drugs."_ It ran for a decade. It won awards. It did not distinguish between caffeine and heroin, between a prescribed medication and a street drug, between use and addiction. It replaced pharmacology with a skillet and called it education. A generation learned that all drugs are the same, all use is abuse, and the correct response to a complex neurochemical question is fear. [D.A.R.E.](https://en.wikipedia.org/wiki/Drug%5FAbuse%5FResistance%5FEducation) followed the same logic. Multiple longitudinal studies found it had no significant effect on drug use and may have increased curiosity.[^hd-1] The campaign was funded in part by Philip Morris, Anheuser-Busch, and RJ Reynolds — which may explain why the legal drug responsible for more harm than any other was not in the frying pan.[^hd-2] The Skills that follow are what the egg should have been: the science, simplified, without the moralizing.
+
 :::
 
 
@@ -443,6 +492,7 @@ You are not dumb for being confused about drugs. You are navigating a system whe
 
 ::: science
 In 2010, David Nutt and colleagues published a harm ranking of 20 drugs in _The Lancet_, scoring each on 16 criteria including mortality, dependence, injury, crime, and social cost. Alcohol ranked first overall --- the most harmful drug when harms to both the user and others were combined. Heroin and crack cocaine ranked second and third. Cannabis ranked eighth. Mushrooms ranked last.[^hd-3] The ranking did not align with the legal schedule in any country studied.
+
 :::
 
 
@@ -455,6 +505,7 @@ In 2010, David Nutt and colleagues published a harm ranking of 20 drugs in _The 
 *See also:* H-10: Checking for Drug Interactions, H-1: Understanding a Diagnosis
 *My Man Jeeves:* _One's physician prescribed a medication in a 7-minute appointment. The pharmacist furnished a stapled printout in 8-point type listing "side effects may include" followed by what one can only describe as every symptom known to medicine. The printout, one understands, is required by law. Comprehending it is not. One's Agent, having read the pharmacology, is prepared to explain what the printout means in one's specific case._
 *The Spec:*
+
 ::: prompt
 My doctor prescribed [drug name] for [condition].
 The dose is [amount, frequency].
@@ -466,16 +517,19 @@ Please explain in plain language:
 4. Whether any of my other medications interact with this one
 5. What happens if I miss a dose, and what happens if I stop
 Do not assume any medical background on my part.
+
 :::
 *What to do with the Output:* Use it to write your questions for your next appointment (see H-2). Do not change your dose or stop a medication based on your Agent's answer alone --- use the answer to have a better conversation with your doctor. If the interaction check in item 4 raises a flag, call your pharmacist before your next dose.
 
 ::: fairness
 Pharmaceutical marketing targets doctors with the same information asymmetry this book addresses. Your doctor may have prescribed a brand-name drug when a generic is identical. Ask your Agent: _"Is there a generic equivalent for [drug], and is there any clinical reason to prefer the brand name?"_
+
 :::
 
 
 ::: tip
 Photograph the pill bottle label with your phone, then copy the text from the photo and paste it. Both iPhone and Android can extract text from photos — you get the drug name, dosage, frequency, prescriber, and pharmacy without typing any of it. If the label is too small or damaged for text recognition, send the photo directly.
+
 :::
 
 
@@ -486,6 +540,7 @@ Photograph the pill bottle label with your phone, then copy the text from the ph
 *See also:* H-9: Understanding Your Prescription, H-8: Wellness and Nutrition Coach
 *My Man Jeeves:* _The liver metabolizes roughly 75% of the drugs one takes by means of a family of enzymes known as CYP450. When two substances compete for the same enzyme, one of them accumulates — a circumstance that may present certain difficulties. The prescribing physician may not be aware of the supplement one's naturopath recommended. The naturopath may not be aware of the prescription. Neither, one regrets to observe, may be aware of the grapefruit. One's Agent is aware of all three._
 *The Spec:*
+
 ::: prompt
 I am currently taking:
 — Prescription medications: [list all, with doses]
@@ -500,11 +555,13 @@ Please check for:
    (including grapefruit, alcohol, caffeine)
 4. Which of these I should not stop suddenly
 Flag anything urgent first.
+
 :::
 *What to do with the Output:* If your Agent flags a serious interaction, call your pharmacist --- not your doctor's office, your pharmacist. Pharmacists are drug interaction specialists. They are faster to reach and trained to answer exactly this question. Verify before adjusting anything.
 
 ::: science
 Serotonin syndrome --- caused by combining drugs that increase serotonin (SSRIs, MDMA, tramadol, St. John's Wort, some migraine medications) --- is underdiagnosed because its early symptoms (agitation, rapid heart rate, dilated pupils) are easily attributed to anxiety. It can be fatal. If your Agent's interaction check flags a serotonin risk, take it seriously.[^h10-1]
+
 :::
 
 
@@ -516,6 +573,7 @@ Serotonin syndrome --- caused by combining drugs that increase serotonin (SSRIs,
 *Strategy:* Research
 *My Man Jeeves:* _Every psychoactive substance operates by altering the manner in which one's brain cells communicate. That sentence, one might note, contains the entirety of what the egg commercial conveyed. The subsequent questions — how, and with what consequences, and at what dose, and for what duration — are where the useful information may be said to begin. One's Agent is prepared to address them without recourse to eggs._
 *The Spec:*
+
 ::: prompt
 Explain how [substance] works in the brain.
 I want to understand:
@@ -529,16 +587,19 @@ I want to understand:
    but what the research says about harm at different levels of use
 Use plain language. I want the pharmacology, not the moral lesson.
 If this substance interacts dangerously with common medications, flag it even if I didn't ask.
+
 :::
 *What to do with the Output:* Use it as a baseline. If you or someone you know uses this substance, the mechanism of action tells you what to watch for. If the risk profile doesn't match the legal classification, that's not a glitch — it's the point of asking.
 
 ::: science
 The four major neurotransmitter systems most drugs affect, simplified: *Dopamine* — reward and motivation (stimulants, nicotine). *Serotonin* — mood and perception (psychedelics, SSRIs, MDMA). *GABA* — the brain's brakes (alcohol, benzodiazepines, barbiturates). *Endorphins/opioid receptors* — pain and euphoria (opioids, endogenous endorphins from exercise). Most substances affect more than one system, which is why effects are complicated and why combining substances is risky.
+
 :::
 
 
 ::: tip
 Ask your Agent to compare two substances: _"Compare the harm profile of alcohol and cannabis using the Nutt scale. What does the research say about relative risk at moderate use levels?"_ The answer will not match the legal classification. That is the point.
+
 :::
 
 
@@ -549,6 +610,7 @@ Ask your Agent to compare two substances: _"Compare the harm profile of alcohol 
 *See also:* H-2: Preparing Questions Before a Doctor's Appointment, H-9: Understanding Your Prescription
 *My Man Jeeves:* _The opioid crisis has, one observes, produced two populations of individuals who cannot obtain adequate care: those with addiction who require treatment, and those with pain who require management. Physicians, situated as they are between DEA scrutiny and patient suffering, now on occasion undertreat pain from what one might characterize as liability apprehension. It may prove necessary to advocate for oneself — not to obtain opioids specifically, but to secure an honest conversation regarding all available options. One's Agent can help one prepare for that conversation._
 *The Spec:*
+
 ::: prompt
 I have [type of pain: chronic back pain / post-surgical / nerve pain /
 arthritis / migraines / other] that has been going on for [duration].
@@ -563,11 +625,13 @@ I want to:
 2. Understand all my options (not just medication)
 3. Know what questions to ask about risks and alternatives
 4. Have language that is assertive without being combative
+
 :::
 *What to do with the Output:* Bring it to the appointment. The clinical terminology your Agent provided is a tool --- it signals that you've done your homework and makes dismissal harder. If the doctor still won't engage, ask them to document their refusal in your chart.
 
 ::: fairness
 Pain assessment has documented racial and gender bias. Studies show Black patients are systematically undertreated for pain compared to white patients, and women's pain is more frequently attributed to psychological causes.[^h12-1] If you feel your pain is being dismissed, you are not imagining it. Ask your Agent to help you document your symptoms with clinical language, and bring the documentation.
+
 :::
 
 
@@ -583,11 +647,13 @@ Veterans: VA chronic pain management operates under the Opioid Safety Initiative
 
 ::: tip
 _If this is an emergency:_ for an active overdose, call *911* and administer naloxone if available (see H-14). For suicide or a mental health crisis, call *988*. For substance use help, call [SAMHSA's National Helpline](https://www.samhsa.gov/find-help/national-helpline) at *1-800-662-4357* --- free, confidential, 24/7.
+
 :::
 
 
 *My Man Jeeves:* _Addiction is not, as the relevant authorities have taken some pains to establish, a failure of willpower. The American Society of Addiction Medicine and the National Institute on Drug Abuse classify it as a chronic brain disorder involving compulsive use despite harmful consequences. The distinction is of some importance, as it determines whether the appropriate response is treatment or punishment. The United States has, for the most part, favored punishment. Where it has favored treatment, the industry it has built operates under less regulatory oversight than the restaurant industry --- some facilities excellent, some predatory, the distinction rarely apparent from the website. The task, then, is twofold: to understand the condition as medicine now describes it, and to navigate a marketplace that does not reliably distinguish evidence-based care from something else. One's Agent holds no position beyond the evidence._
 *The Spec:*
+
 ::: prompt
 I am trying to understand [my own / my loved one's] substance use,
 and/or find help.
@@ -618,16 +684,19 @@ Please help me understand and/or act:
 6. What options exist if I'm uninsured or underinsured
 7. What to do right now --- tonight --- if this is urgent
 I will verify treatment recommendations with a medical professional.
+
 :::
 *What to do with the Output:* If you're looking for treatment, start with [findtreatment.gov](https://findtreatment.gov) and use the red-flag checklist to screen facilities. If this is for someone you care about, the output is also preparation for the conversation with them --- see Li-1.
 
 ::: science
 *Tolerance* means your body adapts to a substance so you need more for the same effect. *Physical dependence* means your body has adapted so that stopping causes withdrawal symptoms. *Addiction* (substance use disorder) means compulsive use despite negative consequences, driven by changes in the brain's reward and decision-making circuits. You can be physically dependent without being addicted — every coffee drinker who gets a headache without caffeine is dependent. And you can be addicted without physical dependence. Genetic factors account for roughly 40–60% of addiction vulnerability, which is why some people can use a substance casually and others cannot. The three concepts are related but not the same.[^h13-1]
+
 :::
 
 
 ::: tip
 Alcohol and benzodiazepine withdrawal can cause fatal seizures — they are among the only drugs where stopping abruptly can kill you. Opioid withdrawal is miserable but rarely lethal. If someone you know wants to stop using alcohol or benzodiazepines after heavy daily use, they need medical supervision. Do not let them quit cold turkey.
+
 :::
 
 
@@ -635,6 +704,7 @@ Alcohol and benzodiazepine withdrawal can cause fatal seizures — they are amon
 
 ::: science
 Medication-assisted treatment (MAT) --- using medications like buprenorphine (Suboxone), methadone, or naltrexone alongside counseling --- is the evidence-based standard of care for opioid use disorder. Studies show MAT reduces overdose death by 50% or more.[^h13-2] Despite this, many treatment facilities do not offer it, and some actively discourage it. If a facility tells you medication is "replacing one addiction with another," that is a red flag, not a treatment philosophy.
+
 :::
 
 
@@ -642,6 +712,7 @@ Medication-assisted treatment (MAT) --- using medications like buprenorphine (Su
 
 ::: also
 [SAMHSA's treatment locator](https://findtreatment.gov) lets you search by substance, location, insurance, and treatment type. It is the most reliable starting point.
+
 :::
 
 Veterans: [Vet Centers](https://www.vetcenter.va.gov/) offer free, confidential counseling in community-based settings separate from VA medical centers --- for combat veterans, military sexual trauma (MST) survivors, and their families. Walk-ins are welcome at most of the 300+ locations; call 1-877-927-8387 for the nearest center. VA Substance Use Disorder (SUD) treatment integrates addiction care with mental health services (PTSD, TBI, depression) --- a structural advantage over civilian pathways, where these are often treated separately. Active-duty service members can access confidential support through [Military OneSource](https://www.militaryonesource.mil/) (800-342-9647), which remains available for 365 days after separation.
@@ -653,6 +724,7 @@ Veterans: [Vet Centers](https://www.vetcenter.va.gov/) offer free, confidential 
 *See also:* H-13: Understanding Addiction, H-10: Checking for Drug Interactions
 *My Man Jeeves:* _In 2023, approximately 105,000 Americans died of drug overdoses — a figure exceeding car accidents and gun deaths combined. Roughly 69% involved synthetic opioids, principally fentanyl, which is frequently present in drugs sold as something else entirely.[^h14-1] Harm reduction proceeds from the premise that some people use drugs, and that the most serviceable response is to keep them alive and as healthy as circumstances permit. This remains controversial in rather the same manner that seatbelts were controversial in 1965 — opponents contending that they would encourage reckless driving. They did not. They reduced deaths. The evidence for harm reduction is, one finds, comparably robust. One's Agent can explain the evidence and the local resources without editorializing._
 *The Spec:*
+
 ::: prompt
 I want to understand harm reduction for [substance or situation].
 My situation: [I use X occasionally / someone I care about uses X /
@@ -667,11 +739,13 @@ Please give me:
 Be direct. I am not looking for a lecture. I am looking for
 information that keeps people alive.
 Err on the side of caution.
+
 :::
 *What to do with the Output:* Save the safety information where you can reach it fast. If naloxone came up, get it before you need it --- it's over the counter at most pharmacies. If the information is for someone else, share it without a lecture attached.
 
 ::: science
 Naloxone (brand name Narcan) reverses opioid overdoses and has been available over the counter in the United States since March 2023. It has no effect on someone who has not taken opioids. It cannot be misused. It is estimated to have reversed over 50,000 overdoses in the U.S.[^h14-2] Fentanyl test strips detect fentanyl contamination in drug supplies --- studies show people who test positive modify their behavior (use less, use with others present, keep naloxone nearby).[^h14-3] Both are available at most pharmacies.
+
 :::
 
 
@@ -680,6 +754,7 @@ Naloxone (brand name Narcan) reverses opioid overdoses and has been available ov
 
 ::: meme
 Portugal decriminalized personal possession of all drugs in 2001. Drug-related deaths fell. New HIV infections among people who inject drugs dropped from 1,016 to 18 --- a 98% decline.[^h14-4] Usage rates did not significantly increase. The policy did not make Portugal a drug paradise. It made Portugal a place where drug use is treated as a health issue rather than a criminal one. The experiment is 25 years old. The data is in.
+
 :::
 
 
@@ -694,6 +769,7 @@ Portugal decriminalized personal possession of all drugs in 2001. Drug-related d
 *See also:* C-3: Understanding Your Rights Where You Live
 *My Man Jeeves:* _Cannabis is legal in one's state and a federal crime. Psilocybin is decriminalized in one's city yet a felony in the neighboring county. Kratom is banned in several states and available at the gas station in the other 44. The legal landscape for drugs in the United States is not, one feels compelled to observe, a landscape in any coherent sense. It is rather a patchwork quilt sewn by 50 different legislatures, several federal agencies, and occasional ballot initiatives — each operating on a different timeline and, in certain cases, a different century's understanding of pharmacology. One's Agent can clarify the law as it stands in one's specific jurisdiction, which is the only jurisdiction that matters._
 *The Spec:*
+
 ::: prompt
 I want to understand the current drug laws where I live.
 My location: [city, state]
@@ -707,10 +783,12 @@ Please tell me:
 4. What my rights are if I am stopped or searched
 5. How this differs from federal law, and when federal law applies
 Give me the most conservative, accurate answer.
+
 :::
 
 ::: science
 The DEA's scheduling system was established by the Controlled Substances Act of 1970. Schedule I is defined as having "no currently accepted medical use" and "a high potential for abuse." Cannabis, psilocybin, and MDMA are all Schedule I. Cocaine and methamphetamine are Schedule II --- meaning the federal government considers them to have accepted medical uses. Methamphetamine is FDA-approved as Desoxyn for ADHD. Street meth and pharmaceutical meth are the same molecule. The scheduling does not align with the scientific harm rankings.[^h15-1]
+
 :::
 
 
@@ -723,6 +801,7 @@ The DEA's scheduling system was established by the Controlled Substances Act of 
 *See also:* H-1: Understanding a Diagnosis, H-11: Your Brain on Drugs
 *My Man Jeeves:* _Psychedelic-assisted therapy represents, one might suggest, the most promising and most overhyped development in mental health treatment since SSRIs. Clinical trials for psilocybin in depression and MDMA in PTSD have produced significant results. The FDA declined to approve MDMA therapy in 2024, citing trial design concerns, ethical violations at trial sites, and data integrity issues.[^h16-1] Psilocybin trials continue. In the meantime, unregulated ketamine clinics have proliferated, Oregon has legalized psilocybin services outside the medical system, and the gap between the research and the marketplace has grown sufficient to accommodate, one estimates, a modestly sized retreat center. One's Agent can help one evaluate the evidence for a specific treatment against its current legal and clinical standing._
 *The Spec:*
+
 ::: prompt
 I am interested in psychedelic therapy for [depression / PTSD /
 anxiety / end-of-life distress / addiction / personal growth].
@@ -736,11 +815,13 @@ I want to understand:
    current medications]
 5. What questions I should ask any provider before committing
 I want the science and the skepticism, not the marketing.
+
 :::
 *What to do with the Output:* Use the provider questions as a screening checklist. If a provider can't answer them directly, that tells you something. Do not proceed with any substance your Agent flagged as risky for your specific conditions or medications without discussing it with your doctor.
 
 ::: science
 The FDA granted "breakthrough therapy" designation to psilocybin for treatment-resistant depression (Compass Pathways, 2018) and to MDMA for PTSD (MAPS, 2017). Breakthrough designation is not approval --- it means the FDA considers the preliminary evidence compelling enough to expedite the review process. Australia became the first country to approve both for supervised psychiatric use in 2023.[^h16-2]
+
 :::
 
 
@@ -750,6 +831,7 @@ The FDA granted "breakthrough therapy" designation to psilocybin for treatment-r
 
 ::: fairness
 Indigenous communities have used psilocybin (mushrooms), peyote, and ayahuasca in ceremonial contexts for centuries. The current psychedelic therapy movement has largely developed without their input and, in some cases, threatens their access to traditional medicines through increased demand and commercialization. Be aware of this context when evaluating providers who market "traditional" or "ceremonial" experiences.
+
 :::
 
 
@@ -760,6 +842,7 @@ Indigenous communities have used psilocybin (mushrooms), peyote, and ayahuasca i
 *See also:* Li-1: Preparing for a Difficult Conversation, Li-7: Raising Kids, H-13: Understanding Addiction, H-14: Harm Reduction
 *My Man Jeeves:* _D.A.R.E. instructed a generation that marijuana and heroin belonged to the same category of threat, and that the appropriate response to all drugs was refusal. When those children discovered that marijuana did not, in the event, ruin their lives, a considerable number concluded that the adults had been unreliable on every point --- including those substances that were genuinely dangerous. Those children are now parents. The War on Drugs that shaped their education has cost, by the Bureau of Justice Statistics, over $1 trillion and, at its peak, imprisoned 2.1 million Americans --- with Black Americans held for drug offenses at nearly six times the rate of white Americans despite comparable usage rates.[^h17-1] The task before today's parent is therefore twofold: to unlearn what D.A.R.E. taught, and to pass on to one's children what is, on the documentary record, actually the case. One's Agent has read the Bureau's own data._
 *The Spec:*
+
 ::: prompt
 I want to talk to my [age] year old about drugs.
 My situation: [they haven't asked yet / they asked about something
@@ -786,11 +869,13 @@ Please help me:
 The goal is that my kid trusts me enough to come to me when it
 matters, because the information I give them matches what they
 will later discover to be true.
+
 :::
 *What to do with the Output:* Have the conversation, not the lecture. Teens who report having honest, ongoing conversations with parents about drugs (not one-time "talks") show lower rates of problematic use.[^h17-2] The key word is _ongoing_. This is not a single conversation. It is a relationship --- and the substrate of the relationship is the truth. The parent who repeats D.A.R.E. talking points teaches their teen to distrust them. The parent who says _"I was told this, the research actually shows that, and here is how I know"_ teaches their teen to evaluate information the way the parent is now evaluating it.
 
 ::: meme
 John Ehrlichman, Nixon's domestic policy advisor, said in a 1994 interview: _"The Nixon campaign in 1968, and the Nixon White House after that, had two enemies: the antiwar left and Black people... by getting the public to associate the hippies with marijuana and Blacks with heroin, and then criminalizing both heavily, we could disrupt those communities."_[^h17-3] The quote was published in _Harper's_ in 2016. It is a single retrospective statement from a convicted felon. It is also consistent with every enforcement pattern documented in the 50 years since.
+
 :::
 
 
@@ -808,11 +893,13 @@ John Ehrlichman, Nixon's domestic policy advisor, said in a 1994 interview: _"Th
 
 ::: tip
 _If this is a crisis right now:_ call, text, or chat *988* --- the Suicide and Crisis Lifeline. Veterans: dial *988* and press *1*, or text *838255*. LGBTQ+ youth (Trevor Project): *1-866-488-7386* or text *START* to *678678*. Call *911* if there is an immediate threat of violence, an active overdose, or a medical emergency in progress. [Crisis Text Line](https://www.crisistextline.org/): text *HOME* to *741741*.
+
 :::
 
 
 *My Man Jeeves:* _A mental-health crisis --- one's own, or that of a family member, a colleague, or a stranger --- tends to arrive without sufficient notice. The expectation, nevertheless, is that the bystander will know what to do; the training, however, has been reserved largely for clinicians and first responders. The 988 Suicide and Crisis Lifeline, established in July 2022 specifically to provide an alternative to the police-dispatch default, has since answered roughly 16.5 million contacts, with 72% of callers reporting substantial help and 88% of suicidal callers saying the conversation stopped them from acting --- outcomes the 911 system is not designed to produce.[^h22-1] One's Agent has read the evidence-based Mental Health First Aid curriculum and can rehearse with the reader what the crisis itself will not permit._
 *The Spec:*
+
 ::: prompt
 I am trying to prepare for --- or am currently encountering ---
 a mental health crisis.
@@ -849,16 +936,19 @@ Please help me:
 
 Give me the most conservative guidance. If there is any chance
 of imminent harm, say so clearly.
+
 :::
 *What to do with the Output:* You will not remember all of this in the moment. Save it somewhere you can reach in 60 seconds --- Notes app, a starred email to yourself, a named file your Agent can recall, or your phone's emergency-info card. The real-time version of you will not plan; the calmer version already has.
 
 ::: science
 Mental Health First Aid's action plan is ALGEE: *A*ssess for risk of suicide or harm, *L*isten non-judgmentally, *G*ive reassurance and information, *E*ncourage appropriate professional help, and *E*ncourage self-help and other support strategies. It is an evidence-based curriculum; trained MHFA responders show improved recognition of crisis symptoms, higher confidence in assisting someone in distress, and documented application of the framework in real helping situations. The steps are flexible rather than strictly sequential --- a skilled first aider reads the moment.[^h22-2] One under-appreciated finding: asking direct questions ("Are you thinking about suicide?") does *not* plant the idea. A 30-plus-year evidence base shows such questions reduce risk by naming what the person is already thinking.[^h22-3]
+
 :::
 
 
 ::: fairness
 Calling 911 for a mental-health crisis summons police by default. In jurisdictions that have fielded civilian mobile crisis response --- Eugene's CAHOOTS program since 1989, Albuquerque, and more than 100 U.S. jurisdictions in the last five years --- roughly 1% of mental-health calls end up requiring police backup; a 2020 review of 911 data in eight major cities estimated that up to 68% of all calls could be handled without an armed officer.[^h22-4] Some 988 centers now dispatch mobile crisis teams directly; some cities have stand-alone civilian dispatch via 911; most jurisdictions have neither. The reader's first research task, *before* the crisis, is to find out what their city does. Ask your Agent: _"What crisis response options exist in [my city/county]? Does 988 dispatch a mobile team here? Does 911 offer co-responder or civilian-only alternatives? What number do I call for a non-emergency crisis?"_
+
 :::
 
 
@@ -870,6 +960,7 @@ _Safe-messaging essentials_ (American Foundation for Suicide Prevention consensu
 - Do not frame suicide as caused by a single event (job loss, breakup); the research finds multiple contributing factors.
 - Do emphasize that help is available and that recovery is possible.
 - Do provide the 988 number every time the topic comes up.[^h22-5]
+
 :::
 
 
@@ -882,6 +973,7 @@ Specialized crisis lines, for the contact-information card you save in your phon
 - **Trans Lifeline** (peer-run, by and for trans and questioning people): *1-877-565-8860* ([translifeline.org](https://translifeline.org/)).
 - **SAMHSA National Helpline** (substance use, 24/7 bilingual): *1-800-662-4357* (see H-13).
 - **Your local mobile crisis team**: look it up before you need it. Save the number in your phone.
+
 :::
 
 

@@ -60,6 +60,7 @@ Generate everything else within these constraints:
 - [Constraint: tone, POV, pacing, length]
 - [Constraint: what has to be established in this passage]
 - [Constraint: what must NOT be resolved yet]
+
 :::
 
 ---
@@ -80,6 +81,7 @@ interview me about:
 — the plot points I'm sure about
 — the tone and audience
 One area at a time. I'll tell you when I'm ready to move on.
+
 :::
 
 The AI will ask. You answer. After three to five exchanges per area, ask it to propose a story architecture document — a one-page skeleton of the whole story with the deterministic points flagged and the dynamic passages identified. Review it. Correct what's wrong. That document becomes the master spec for every scene you write.
@@ -110,6 +112,7 @@ Constraints:
 — Tone: dread mixed with recognition, not shock
 — 600-900 words
 — Don't resolve her suspicion — deepen it
+
 :::
 
 The AI generates the scene. You read it. For each element, one of three things is true:
@@ -122,6 +125,7 @@ Most first drafts will have elements in all three categories. That is normal. A 
 
 ::: meme
 "Save early, save often." The [Sierra Adventures](https://en.wikipedia.org/wiki/Sierra%5FEntertainment) generation knows. Keep your architecture doc. Keep every scene draft. The version you're rejecting today is the one you'll want back in three weeks.
+
 :::
 
 
@@ -149,12 +153,14 @@ How they talk:
 
 Reference voice (optional): [a character from fiction or film whose
 voice is similar — not to copy, but to calibrate]
+
 :::
 
 Paste this spec at the top of any scene request involving that character. The AI will hold the voice through the scene. If it drifts, point to the spec and ask it to correct the specific line.
 
 ::: tip
 The "what they never say" field is the most powerful one. Negative constraints produce more distinctive voices than positive ones. A character who never asks for help directly writes completely differently than one who does.
+
 :::
 
 
@@ -180,12 +186,14 @@ Path B — she says nothing:
 — Her first move — what does she do?
 — She can't find the key witness yet — save that for Ch. 11
 — Next scene: the investigation begins
+
 :::
 
 You can generate both paths, read them, and decide which serves the story better — or keep both if you're writing an interactive piece. The AI holds both branches in memory for the duration of the conversation. For longer projects, paste the architecture doc at the start of each session to restore context.
 
 ::: science
 Research on creative cognition consistently identifies _constraint_ as a driver of creative output rather than an obstacle to it — the phenomenon known as "creative constraint" (Stokes, 2006). Paradoxically, writers with more specific parameters produce more original work than those given full freedom, because constraints force novel solutions within a bounded space. The deterministic/dynamic architecture is applied creative constraint theory.[^s9-1]
+
 :::
 
 
@@ -217,6 +225,7 @@ The tool does not write the book. The writer writes the book. What changes is th
 
 ::: meme
 _"The first draft of anything is shit."_ [Hemingway](https://en.wikipedia.org/wiki/Ernest%5FHemingway) said this before AI existed. He would have used it.
+
 :::
 
 ---
@@ -239,6 +248,7 @@ to now.
 I know the stories I want to tell but I don't know how to
 structure this. I've never given a speech to 150 people. Help me
 build the outline before I start writing anything.
+
 :::
 
 *Your Agent:*
@@ -251,6 +261,7 @@ structure.
 First---the bride. What's her name, and what's the one thing about
 her that the people who love her would all recognize? Not a
 fact---a quality. The thing that makes her her.
+
 :::
 
 *Your answer:*
@@ -261,6 +272,7 @@ remembers everything you've ever told her. You mention once that
 you like a weird flavor of tea and two years later it's in your
 Christmas stocking. She pays attention to people in a way that
 makes you feel like you matter.
+
 :::
 
 *Your Agent:*
@@ -319,6 +331,7 @@ CONSTRAINTS
 
 What stories are you thinking for slots 1 and 2? Give me the
 short versions and I'll tell you which is stronger where.
+
 :::
 
 *Your follow-up:*
@@ -340,6 +353,7 @@ whole birthday scavenger hunt last year with clues based on
 things she'd mentioned in passing. She cried. I thought: okay,
 he gets it. He pays attention to the person who pays attention
 to everyone else.
+
 :::
 
 *Your Agent:*
@@ -371,10 +385,12 @@ SLIDESHOW SEQUENCE
 
 Want me to draft the full 700-word toast with these stories, or do
 you want to write it yourself and have me time-check it?
+
 :::
 
 ::: tip
 The architecture has five slots and a time budget. That is the whole skill. Most wedding toasts fail because the speaker has twelve stories and no structure---they keep adding material until the planner is waving from the back of the room. The spec fixed the word count first (700 words, five minutes), then built the arc to fit. The slideshow is a separate constraint: it supports the toast but doesn't drive it. The Agent proposed cutting from Story 1 if you're over time---because the close is the part the room will remember and the part most people cut when they're panicking about the clock.
+
 :::
 
 
@@ -400,6 +416,7 @@ divorced, was close to her father, and is doing the apartment
 alone because there's no one else to do it. The photos stop
 in 1996---the sibling would have been about 12. She doesn't
 know why they stop.
+
 :::
 
 *Your Agent:*
@@ -469,6 +486,7 @@ Which paths should I draft first? I'd suggest A1 and B1---they're
 the sharpest contrast. One ends with two people in a room. The
 other ends with a box in a closet. Comparing them will tell you
 whether the story is about connection or about inheritance.
+
 :::
 
 *Your follow-up (after reading both drafts):*
@@ -481,6 +499,7 @@ B1 is quieter but the last image---inheriting the secret along
 with the apartment---is devastating. What if she tracks him down,
 has the phone call from A1, but then they both decide not to meet?
 The connection happens and they choose not to continue it.
+
 :::
 
 *Your Agent:*
@@ -507,10 +526,12 @@ story:
 
 I can draft the full 3,000-word version with this combined
 architecture. Ready?
+
 :::
 
 ::: tip
 You did not choose the story's direction before you saw the directions. You generated multiple paths, read them, and combined the strongest elements from different branches into something none of the individual paths contained on their own. The branching structure is not just an interactive fiction technique---it is a generative tool. It gives your instinct material to react to instead of blank space.
+
 :::
 
 
@@ -559,6 +580,7 @@ herself when nervous. Uses "I don't know" as a shield.
 Never says: What happened the night before he disappeared---not
 because she's hiding it, but because she hasn't processed it.
 Reference voice: Early-season [Eleven](https://en.wikipedia.org/wiki/Eleven_(Stranger_Things)) from [Stranger Things](https://en.wikipedia.org/wiki/Stranger_Things).
+
 :::
 
 *Your Agent:*
@@ -617,6 +639,7 @@ MAEVE: I said what I saw.
 
 [She goes back to wiping the bar. The conversation is over
 unless the player returns with a specific question.]
+
 :::
 
 *Your follow-up:*
@@ -627,6 +650,7 @@ said "I'm not going to tell you what I think it means." That's
 too self-aware for her. She wouldn't frame withholding as a
 choice she's announcing. She'd just stop talking. Did you
 catch that?
+
 :::
 
 *Your Agent:*
@@ -650,25 +674,30 @@ MAEVE: I said what I saw.
 
 She closes the door by not being there anymore, not by
 announcing the door is closing. Want me to draft Dex and Rin?
+
 :::
 
 ::: tip
 "That line was mine, not hers." This is the most useful revision note in AI-assisted creative work. When a line is technically competent but does not belong to the character, it belongs to the Agent. The character voice spec tells you whose it should be. Point to the spec, point to the line, and say which character it sounds like and which it should sound like. Negative feedback---"Maeve wouldn't editorialize"---is more actionable than positive: it tells the Agent which constraint was violated.
+
 :::
 
 
 ::: also
 All four major AI tools handle creative writing and dialogue generation. Claude's extended conversations maintain character voice across long sessions. ChatGPT's custom GPTs can store a character bible permanently. Gemini's large context window holds novel-length architectures in a single session. Copilot integrates with Word for prose drafting. For game narrative specifically, the dialogue your Agent generates can be exported directly into [Ink](https://www.inklestudios.com/ink/), [Twine](https://twinery.org/), or [Yarn Spinner](https://yarnspinner.dev/)---your Agent writes the words, your narrative engine handles the branching logic.
+
 :::
 
 
 ::: fairness
 The [MFA](https://en.wikipedia.org/wiki/Master_of_Fine_Arts) costs $40,000 to $120,000. The residential writing conference runs a couple thousand dollars a week. The developmental editor charges $3,000 to $10,000 per manuscript. These are the people who teach story architecture, character consistency, and structural revision---the skills this chapter covers. They have always existed, and they have always served the writers who could reach them. Your Agent does not replace an editor, a workshop, or a writing community---those are human infrastructure, and they matter. But the specific problem this chapter addresses---"I have a story and I don't know how to organize it"---was a cost barrier. The architecture interview takes fifteen minutes and costs nothing.
+
 :::
 
 
 ::: meme
 [Moriarty](https://en.wikipedia.org/wiki/Moriarty%5F(Star%5FTrek)) in the corridor of the [Enterprise](https://en.wikipedia.org/wiki/USS_Enterprise_(NCC-1701-D)), breathing air he believes is real. The holodeck arch is gone. The walls are solid. He has escaped. He is free. He is the protagonist. Except every wall is a projection. Every detail was generated within someone else's constraints. The holodeck rendered his world without a single error---and that was the problem. A perfect rendering of someone else's architecture is still someone else's architecture.
+
 :::
 
 

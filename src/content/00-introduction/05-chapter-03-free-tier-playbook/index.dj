@@ -23,6 +23,7 @@ Each service's free tier allows a meaningful number of conversations per day. Th
 
 ::: meme
 [nohello.net](https://nohello.net) — the rule your office already knows. Do not Slack a coworker "Hi" and wait. Send the context, the question, and what you need, in one message. Same principle here, except on the free tier every round trip costs you one of a limited daily supply. Proofread before you send. Is the document attached? Did you say what you need back? One complete message is worth three that circle the question.
+
 :::
 
 
@@ -41,6 +42,7 @@ _Daily limits, model names, and which features sit behind which paywall change f
 
 ::: also
 The free tier names: Claude's free version is just "Claude." ChatGPT's is "ChatGPT Free." Gemini's free version is "Gemini." Copilot is free by default in Microsoft Edge and Windows. See [Appendix G](06-appendix-g-feature-table.xhtml) for the full feature comparison.
+
 :::
 
 
@@ -62,11 +64,13 @@ For this book, the most useful application is a household context. You tell it: 
 
 ::: also
 Claude calls this a *Project*. Gemini calls it a *Gem*. ChatGPT calls it a *custom GPT*. Copilot's equivalent is more limited. The setup process differs slightly across tools but the concept is identical. See [Appendix G](06-appendix-g-feature-table.xhtml) for the full comparison and setup guidance.
+
 :::
 
 
 ::: tip
 If you're hitting a limit and have an urgent task, Copilot (free, built into Microsoft Edge) has the most generous free access and includes web search. It is the best backup when your primary service is throttled.
+
 :::
 
 

@@ -47,10 +47,12 @@ This is a paragraph. **This is bold.** *This is italic.*
 
 ::: science
 This is a sidebar with a citation.[^1]
+
 :::
 
 
 [^1]: Author (Year). "Title." *Journal*, vol, pages.
+
 ::: prompt
 
 CommonMark compiles to XHTML. XHTML is what ePub chapters are. The pipeline is deterministic — the same input always produces the same output. The manuscript is version-controlled in Git. Every change is tracked. Every version is recoverable. Collaboration is branching, merging, and pull requests — the same tools that build software.
@@ -70,6 +72,7 @@ part: 2
 order: 3
 status: "draft"
 ---
+
 :::
 
 The build pipeline reads the frontmatter, sorts by part and order, and assembles the ePub. Reorder chapters by changing a number. Add a chapter by adding a file. Remove a chapter by deleting a file. The filesystem is the table of contents. There is no separate document to maintain.
@@ -84,6 +87,7 @@ Every illustration is specified where it appears, as an HTML comment in the manu
 
 ```markdown
 [eob-annotated-appendix]{.art}
+
 ::: prompt
 
 This is Strategy 0 applied to visual content. The `alt` field is what the reader needs to know. The `brief` field is what the illustrator needs to produce. Both are written at the same time, by the same person, in the same place as the text they accompany.

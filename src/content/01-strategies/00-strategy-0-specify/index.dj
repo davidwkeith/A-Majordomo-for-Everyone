@@ -66,6 +66,7 @@ If it's not right, the spec was incomplete.
 Ask: "What did I not tell you that would have changed this answer?"
 That question surfaces the missing piece.
 Add it. Run the loop again.
+
 :::
 
 ### A Full Example
@@ -76,6 +77,7 @@ The situation: you got a letter from your health insurance company saying they'r
 
 ::: prompt
 My insurance denied a claim. I need to appeal it.
+
 :::
 
 *Your Agent's clarifying questions:*
@@ -91,6 +93,7 @@ I give you the right approach:
    about this, or is this your first step?
 4. What outcome do you want — to get the procedure
    approved, to get a past procedure paid for, or both?
+
 :::
 
 *Your answers:*
@@ -101,6 +104,7 @@ I give you the right approach:
 2. The letter says "not medically necessary."
 3. Haven't contacted them yet. Just got the letter today.
 4. I want the MRI approved.
+
 :::
 
 *Your Agent proposes the spec:*
@@ -123,6 +127,7 @@ I'll help you draft an appeal letter that:
 
 Does this match your situation? Anything I got wrong
 or anything important I missed?
+
 :::
 
 *Your correction:*
@@ -130,12 +135,14 @@ or anything important I missed?
 ::: prompt
 Yes, but also — my doctor's office said they can provide
 a letter of medical necessity. Can the appeal reference that?
+
 :::
 
 *Your Agent confirms and executes.*
 
 ::: science
 The interview-to-specification process maps directly to what therapists call _collaborative formulation_ — the structured process by which a therapist and client jointly develop an accurate description of the presenting problem before attempting to address it. Research consistently shows that collaborative formulation produces better treatment outcomes than clinician-only assessment, because the client's corrections to the initial formulation contain essential information the clinician could not have known (Kuyken et al., 2009).[^s0-1]
+
 :::
 
 
@@ -152,6 +159,7 @@ Act as an experienced [Master Gardener / certified dog trainer /
 right-to-repair technician / personal trainer / etc.].
 Here is my situation: [describe it specifically].
 What do I need to know, and what should I do first?
+
 :::
 
 The Expert Role spec works because your Agent has read the training materials, certification curricula, and professional literature for most well-documented fields. It can hold that knowledge in the frame of a specific expert's perspective for the duration of your conversation.
@@ -162,16 +170,19 @@ The Expert Role spec works because your Agent has read the training materials, c
 
 ::: also
 To make an Expert Role persistent across sessions — so your AI majordomo is always the Master Gardener when you open a particular context — save it as a Project instruction (Claude), Gem instruction (Gemini), or custom GPT instruction (ChatGPT). Paste: _"You are an experienced Master Gardener. My garden is in [zone]. Always respond in that role unless I explicitly ask you to step out of it."_ See [Appendix G](06-appendix-g-feature-table.xhtml).
+
 :::
 
 
 ::: meme
 "I know kung fu." The Expert Role spec is not the Matrix download. You still have to do the work. But knowing what work to do, in what order, and why — that part just got faster.
+
 :::
 
 
 ::: science
 Research on informal expert consultation — asking a friend who happens to have professional knowledge — consistently shows outcomes comparable to formal consultation for routine, non-crisis situations (Pescosolido, 1992). The key variable is not the formal credential but the quality of the information and the specificity of its application to the person's situation. The Expert Role spec replicates the informal expert consultation at scale.[^s0-2]
+
 :::
 
 

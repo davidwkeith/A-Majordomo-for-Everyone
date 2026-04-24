@@ -17,6 +17,7 @@ Most people ask questions the way they type them into Google: short, keyword-hea
 
 ::: meme
 "Instructions unclear." That is what your Agent produces when you type "help with insurance." It is not the tool's fault. Give it something to work with.
+
 :::
 
 
@@ -31,6 +32,7 @@ I need [what you want to accomplish].
 Here is the situation: [the specific facts].
 I want to avoid [the outcome you're worried about].
 Please give me [the format you need: a letter, a list, an explanation, options].
+
 :::
 
 You do not need to use these exact words. But every good prompt has these five elements somewhere in it. Here is the same template applied to a real situation:
@@ -42,6 +44,7 @@ before I can pursue any other options. The leak is in my bedroom ceiling
 and has damaged a lamp I own. I want to be firm without being aggressive,
 because I plan to renew my lease if this gets resolved. Please write me
 a one-page demand letter in plain language.
+
 :::
 
 Compare that to: _"Help me write a letter to my landlord."_
@@ -58,11 +61,13 @@ If you need a list, ask for a list. If you need a letter, ask for a letter. If y
 
 ::: tip
 Adding "please explain in plain language a high-school student could follow" to any medical, legal, or financial prompt will dramatically improve the readability of the response.
+
 :::
 
 
 ::: tip
 Describe the style you want, not the style you don't. "Explain in plain language a high-school student could follow" works better than "don't use jargon." "Be direct and specific" works better than "don't be vague." Your Agent responds more consistently to a target than to a list of things to avoid.
+
 :::
 
 
@@ -80,12 +85,14 @@ This bill is for the 20% copay on a $340 test. You owe $68.
 This is correct and not worth appealing."
 
 Now do the same thing for this EOB: [paste the EOB]
+
 :::
 
 One good example communicates format, reading level, length, and tone — all at once. It does the work of a whole paragraph of instructions.
 
 ::: tip
 When your Agent keeps giving you answers in the wrong shape — too long, too formal, too many hedge words — pasting a single example of what you actually want will fix it faster than any amount of explaining.
+
 :::
 
 
@@ -97,6 +104,7 @@ When you are making a decision, ask for options rather than a single recommendat
 I'm trying to decide whether to repair or replace my 12-year-old
 dishwasher. The repair quote is $340. Can you give me three ways
 to think about this decision, with the tradeoffs of each?
+
 :::
 
 ### When the First Answer Isn't Enough
@@ -121,11 +129,13 @@ These techniques work on your Agent. They also work on your doctor, your lawyer,
 
 ::: tip
 If an answer is too long, say _"Summarize that in three bullet points."_ If it is too technical, say _"Explain that to someone who has never heard of this."_ If it missed the point, say _"That's not what I'm asking. My actual question is [restate]."_ Correcting your Agent is not rude. It is how the tool works.
+
 :::
 
 
 ::: tip
 If follow-ups are not getting you closer, start over with different words. The same question asked a different way often produces a different — and better — answer. This is true across every major Agent: Claude, ChatGPT, Gemini, all of them. Different phrasing activates different patterns. If "What are my options for appealing this?" is not working, try "Walk me through the appeals process for a denied insurance claim, step by step."
+
 :::
 
 
@@ -155,16 +165,19 @@ If you are working through a complex problem over multiple sessions, start each 
 
 ::: also
 Claude calls persistent cross-conversation memory simply "Memory" — it can be enabled in settings and will carry facts about you from session to session. Gemini calls this "Personalization." ChatGPT calls it "Memory." All three work similarly: the tool builds a profile of your situation over time so you don't have to re-explain it. This is different from Projects / Gems / Custom GPTs, which are manually configured contexts. See [Appendix G](06-appendix-g-feature-table.xhtml).
+
 :::
 
 
 ::: also
 For ongoing household projects — managing a renovation, tracking a medical situation, handling a long legal dispute — Claude's *Projects* feature lets you store background documents and instructions that persist across every conversation in that project. Gemini's equivalent is a *Gem*. ChatGPT's equivalent is a *custom GPT*. Setting one up for your household is the single highest-leverage thing you can do with any of these tools. Chapter 3 explains how.
+
 :::
 
 
 ::: science
 Decades of research on _[expertise](https://en.wikipedia.org/wiki/Expert)_ show that the primary difference between novices and experts is not intelligence — it is the quality of the questions they ask (Berliner, 1988). Experts ask more specific questions, frame problems more precisely, and break large problems into smaller pieces. The prompt template in this chapter is a transferable expertise skill: using it makes you more effective not just with AI, but in any situation where you need help from another person.[^4-3]
+
 :::
 
 

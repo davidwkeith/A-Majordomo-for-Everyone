@@ -37,10 +37,12 @@ My goal is [specific outcome].
 I'm worried about [specific concern].
 Please help me prepare a list of questions to ask and
 key points to make sure I cover.
+
 :::
 
 ::: science
 Patients who arrive at medical appointments with written questions report higher satisfaction scores, greater perceived control over their care, and better recall of physician instructions (Roter et al., 1987; Street et al., 2009). The benefit concentrates in the act of writing the questions, not just thinking them — the physical act of specification produces the cognitive benefit.[^s2-1]
+
 :::
 
 
@@ -52,6 +54,7 @@ _In the Field Guide: H-2 (Doctor's Appointments), Li-1 (Difficult Conversations)
 
 ::: tip
 For high-stakes appointments — medical, legal, financial — end your preparation spec with: "Give me the most conservative framing. I will verify everything with the professional." This ensures the question list helps you ask, not conclude.
+
 :::
 
 
@@ -60,6 +63,7 @@ For high-stakes appointments — medical, legal, financial — end your preparat
 The situation: your primary care doctor called about your blood work. Something is elevated. She's referring you to an oncologist. The appointment is in ten days. You don't know what to ask, what the blood work means, or what the appointment will involve. You're scared, and the fear is making it harder to think, not easier.
 
 *Your opening message:*
+
 ::: prompt
 My doctor is referring me to an oncologist because
 something in my blood work is elevated. The appointment
@@ -74,9 +78,11 @@ Here's what I know:
 
 Give me the most conservative framing. I will verify
 everything with the oncologist.
+
 :::
 
 *Your Agent's clarifying questions:*
+
 ::: agent
 I understand this is stressful. Let me help you walk
 into that appointment prepared. A few questions first:
@@ -93,9 +99,11 @@ into that appointment prepared. A few questions first:
 6. How do you best absorb information — do you want
    everything written out, or a short list you can
    have on your phone?
+
 :::
 
 *Your answers:*
+
 ::: prompt
 1. She said elevated LDH can mean a lot of things —
    liver issues, infection, or something more serious.
@@ -107,9 +115,11 @@ into that appointment prepared. A few questions first:
 5. My partner is coming with me.
 6. A list on my phone would be perfect. I know I'm
    going to freeze up in the room.
+
 :::
 
 *Your Agent prepares you:*
+
 ::: agent
 Here's your preparation kit. Save this to your phone.
 
@@ -169,16 +179,20 @@ Write down the one thing you most want to know when
 you leave that appointment. Not five things. One.
 If you get nothing else answered, get that one
 answered.
+
 :::
 
 *Your follow-up:*
+
 ::: prompt
 What if they want to schedule something right away,
 like a biopsy? How do I know if I should say yes
 on the spot?
+
 :::
 
 *Your Agent:*
+
 ::: agent
 You don't have to decide anything in the room. The
 sentence is: "I'd like to understand the full picture
@@ -196,10 +210,12 @@ pre-authorized with my insurance, or do I need to
 call first?" Unauthorized procedures on a high-
 deductible plan can cost thousands. Five minutes on
 the phone with your insurer prevents that.
+
 :::
 
 ::: fairness
 Your Agent is not a doctor and cannot interpret your specific blood work. What it can do is prepare you to use your appointment time efficiently, ask the right questions, and avoid making decisions under pressure that you'd make differently with twenty minutes of preparation. If the oncologist's answers conflict with anything your Agent told you, trust the oncologist — they have your chart. The AI has the library. The doctor has the life.[^s2-2]
+
 :::
 
 
@@ -207,6 +223,7 @@ Your Agent is not a doctor and cannot interpret your specific blood work. What i
 
 ::: tip
 The phrase "I'd like to understand the full picture before I schedule anything" is not stalling. It is informed consent in practice. Every medical professional who respects informed consent will respect that sentence. Any who don't just told you something important about how they practice.
+
 :::
 
 
@@ -215,6 +232,7 @@ The phrase "I'd like to understand the full picture before I schedule anything" 
 The situation: you've been at your job for two years. Your annual review is next week. You've been told informally that "it went well" — but nobody has mentioned a raise, and you're making $12,000 less than market rate for your role. You've never negotiated salary before. The thought makes you nauseous.
 
 *Your opening message:*
+
 ::: prompt
 I have my annual performance review next Tuesday and
 I want to ask for a raise. I've been here 2 years,
@@ -230,9 +248,11 @@ Details:
 - I've taken on project management responsibilities
   that aren't in my job description
 - My review feedback has been positive both years
+
 :::
 
 *Your Agent's clarifying questions:*
+
 ::: agent
 This is exactly the kind of conversation that
 preparation changes completely. A few questions:
@@ -251,9 +271,11 @@ preparation changes completely. A few questions:
    below which you'd be disappointed?
 6. Is leaving the company a realistic option if they
    say no, or do you need to stay?
+
 :::
 
 *Your answers:*
+
 ::: prompt
 1. I looked on Glassdoor and it says $72,000-78,000
    for Marketing Coordinator in Denver. So I'm about
@@ -270,9 +292,11 @@ preparation changes completely. A few questions:
    with less than $68,000.
 6. I could leave but I'd rather stay. I like the
    work and the team.
+
 :::
 
 *Your Agent prepares you:*
+
 ::: agent
 Here's your preparation for Tuesday. Practice saying
 these out loud once — not to memorize, but so the
@@ -355,16 +379,20 @@ IF SHE SAYS NO:
 specific milestones that would justify a raise at
 the next review cycle, so I know what to aim for?"
 This turns a no into a documented roadmap.
+
 :::
 
 *Your follow-up:*
+
 ::: prompt
 I'm worried that if I ask for a raise right after a
 good review it'll seem like I'm only in it for the
 money. Is that a real concern?
+
 :::
 
 *Your Agent:*
+
 ::: agent
 No. The annual review exists for this conversation.
 This is the institutionally designated time to discuss
@@ -377,10 +405,12 @@ from employees who feel awkward asking for market rate.
 That awkwardness is not a personality flaw. It is a
 feature of a system that saves money when you don't
 ask. You are asking.
+
 :::
 
 ::: science
 Salary negotiation research consistently shows that employees who negotiate receive higher compensation than those who don't — and that the gap compounds over a career. Estimates of the lifetime cost of skipping the starting-salary negotiation run into the hundreds of thousands of dollars once annual raises and pension contributions are stacked on the initial shortfall. The effect is larger for women and people of color, who face documented social penalties for negotiating — making preparation more important, not less.[^s2-3]
+
 :::
 
 
@@ -391,6 +421,7 @@ Salary negotiation research consistently shows that employees who negotiate rece
 The situation: your kitchen faucet has been leaking for a month. You called a plumber. He's coming Thursday for a "walkthrough and estimate." You have no idea what a reasonable price is, what questions to ask, or how to tell if he's recommending work you don't need. Your last contractor experience ended with a $3,000 bill for what turned out to be a $400 repair.
 
 *Your opening message:*
+
 ::: prompt
 A plumber is coming Thursday to look at my leaking
 kitchen faucet and give me an estimate. Last time I
@@ -405,9 +436,11 @@ Here's what I know:
 - I rent (landlord said I can hire someone and deduct
   from rent, with receipts)
 - I'm in a second-floor apartment
+
 :::
 
 *Your Agent's clarifying questions:*
+
 ::: agent
 Good — getting prepared before the plumber arrives
 saves money directly. A few questions:
@@ -424,9 +457,11 @@ saves money directly. A few questions:
    (text or email)?
 6. Is there a cap on what the landlord agreed to
    reimburse?
+
 :::
 
 *Your answers:*
+
 ::: prompt
 1. I'll check — I think it says Moen on the front.
 2. Just the spout.
@@ -435,9 +470,11 @@ saves money directly. A few questions:
 5. Yes, I have a text saying "go ahead and get it
    fixed, save receipts, I'll take it off rent."
 6. She didn't mention a cap.
+
 :::
 
 *Your Agent prepares you:*
+
 ::: agent
 Here's your preparation for Thursday.
 
@@ -509,15 +546,19 @@ your landlord the estimate before work begins — not
 for permission (you already have it), but for
 documentation. If there's ever a dispute about the
 rent deduction, you want a paper trail.
+
 :::
 
 *Your follow-up:*
+
 ::: prompt
 What if he says the whole faucet needs replacing and
 quotes me $800? How do I push back without being rude?
+
 :::
 
 *Your Agent:*
+
 ::: agent
 You don't push back. You ask questions. The questions
 do the work.
@@ -540,19 +581,23 @@ a trip charge (ask in advance if there is one).
 Being prepared is not being rude. It is being a good
 client. The plumbers who are worth hiring prefer
 clients who ask questions.
+
 :::
 
 ::: tip
 "I'd like a written estimate before any work begins" and "Can I get a separate estimate for that?" are the two most valuable sentences for any contractor interaction. They apply to plumbers, electricians, mechanics, roofers, and every other trade. They are not adversarial. They are standard.
+
 :::
 
 
 ::: also
 If a contractor gives you a verbal quote and you want a sanity check, type the details into any AI assistant: "I was quoted $X for [work] on [equipment] in [city]. Is this reasonable?" Claude, ChatGPT, Gemini, and Copilot all have enough pricing data to flag outliers. This is not a precise appraisal — it is a sanity check that takes thirty seconds.
+
 :::
 
 
 ::: meme
 Tim spent the episode fixing things that weren't broken. He did not prepare for the one conversation where preparation would have mattered. Every question he should have written down beforehand had to be asked reactively, under stress, in the wrong order. Your Agent writes the list. You bring the list. Tim never had a list.
+
 :::
 

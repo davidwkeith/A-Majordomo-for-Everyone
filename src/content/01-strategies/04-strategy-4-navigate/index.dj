@@ -36,10 +36,12 @@ I have never done this before.
 My current situation is [where you are in the process, if anywhere].
 Please give me numbered steps in the exact order I need to do them,
 including any deadlines or time-sensitive elements I should know about.
+
 :::
 
 ::: meme
 ["It's a Unix system. I know this."](https://en.wikipedia.org/wiki/Jurassic%5FPark%5F(film)) The Jurassic Park scene works because Lex has just enough knowledge of the interface to navigate a system she's never seen before and get out alive. Your Agent is the Unix system. This book is the thirty seconds of orientation.
+
 :::
 
 
@@ -50,12 +52,15 @@ _In the Field Guide: W-2 (If You're Let Go), H-4 (Insurance Appeals), L-2 (Small
 The situation: you were let go last Friday. An email from the CEO said "position eliminated, replaced by AI." You have never filed for unemployment. You don't know if you qualify, where to start, or what the deadlines are.
 
 *Your opening message:*
+
 ::: prompt
 I just lost my job. I think I can file for unemployment
 but I don't know how.
+
 :::
 
 *Your Agent's clarifying questions:*
+
 ::: agent
 I can help you navigate this. A few questions first:
 
@@ -64,18 +69,22 @@ I can help you navigate this. A few questions first:
 3. How long were you employed at this job?
 4. Were you a W-2 employee or a contractor (1099)?
 5. Have you filed for unemployment before?
+
 :::
 
 *Your answers:*
+
 ::: prompt
 1. California
 2. Laid off — they said "position eliminated."
 3. About two and a half years.
 4. W-2 employee.
 5. Never. I have no idea how this works.
+
 :::
 
 *Your Agent proposes the navigation:*
+
 ::: agent
 Here's your step-by-step path. California unemployment
 is handled through the EDD (Employment Development
@@ -115,14 +124,18 @@ DEADLINES:
 
 Does this match your situation? Anything I should
 adjust — for example, did you receive any severance?
+
 :::
 
 *Your correction:*
+
 ::: prompt
 Yes, I did get two weeks severance. Does that change anything?
+
 :::
 
 *Your Agent adjusts:*
+
 ::: agent
 Severance can delay when benefits start, depending on
 how your employer reports it. In California, if the
@@ -134,10 +147,12 @@ When you file, report the severance honestly. EDD will
 determine how it applies. The important thing: file NOW
 even with the severance. Don't wait until the severance
 runs out — the claim date still matters.
+
 :::
 
 ::: science
 Research on administrative burden (Herd & Moynihan, 2018) shows that complex application processes function as de facto gatekeeping — the people most in need of benefits are the least likely to complete multi-step enrollment because the cognitive cost of navigating the process compounds with the stress of the situation that created the need. Having the steps laid out before you start is not a convenience. It is the difference between completing the process and abandoning it.[^s4-1]
+
 :::
 
 
@@ -148,12 +163,15 @@ Research on administrative burden (Herd & Moynihan, 2018) shows that complex app
 The situation: your insurance denied coverage for an MRI your doctor ordered. The letter says "not medically necessary." You know you can appeal but have no idea what the process looks like or how long you have.
 
 *Your opening message:*
+
 ::: prompt
 My insurance denied my MRI. The letter says I can appeal.
 How do I do this?
+
 :::
 
 *Your Agent's clarifying questions:*
+
 ::: agent
 I'll walk you through the process. Let me ask:
 
@@ -165,9 +183,11 @@ I'll walk you through the process. Let me ask:
 4. Has your doctor said anything about next steps?
 5. Is the MRI for something urgent, or can it wait
    a few weeks while the appeal is processed?
+
 :::
 
 *Your answers:*
+
 ::: prompt
 1. Employer-provided — through work.
 2. Anthem Blue Cross.
@@ -176,9 +196,11 @@ I'll walk you through the process. Let me ask:
    medical necessity if I need one.
 5. My doctor wants it done within a month but it's not
    an emergency.
+
 :::
 
 *Your Agent proposes the navigation:*
+
 ::: agent
 Good — you have time and your doctor is willing to
 support the appeal. Here's the path:
@@ -221,15 +243,19 @@ TIMELINE:
 
 Want me to draft the appeal letter now, or do you want
 to gather the information from Steps 1 and 2 first?
+
 :::
 
 *Your evaluation:*
+
 ::: prompt
 I'll get the info first. But — what if the external
 review also denies it?
+
 :::
 
 *Your Agent:*
+
 ::: agent
 After external review, you have two more escalation
 paths most people never reach:
@@ -244,10 +270,12 @@ paths most people never reach:
 
 The escalation ladder exists. The insurance company is
 betting you'll stop at step one.
+
 :::
 
 ::: tip
 The question "what happens if this step fails?" is the Navigate power move. Every bureaucratic process has an escalation path. Your Agent knows what it is. Ask.
+
 :::
 
 
@@ -256,13 +284,16 @@ The question "what happens if this step fails?" is the Navigate power move. Ever
 The situation: your former landlord kept your $2,400 security deposit. It's been 45 days. You sent a demand letter (see Strategy 3: Draft). No response. You want to take them to small claims court but have never done it.
 
 *Your opening message:*
+
 ::: prompt
 My landlord kept my security deposit. I sent a demand
 letter three weeks ago, no response. I want to file
 in small claims court. I've never done this.
+
 :::
 
 *Your Agent's clarifying questions:*
+
 ::: agent
 Small claims court is designed for exactly this. Let me
 confirm a few details:
@@ -275,9 +306,11 @@ confirm a few details:
    statement?
 5. Do you know the landlord's legal name and address
    for service?
+
 :::
 
 *Your answers:*
+
 ::: prompt
 1. Santa Clara County, California.
 2. $2,400.
@@ -285,9 +318,11 @@ confirm a few details:
    the demand letter I sent certified mail.
 4. No itemized statement. Nothing.
 5. Yes, it's on the lease.
+
 :::
 
 *Your Agent proposes the navigation:*
+
 ::: agent
 You have a strong case. In California, a landlord must
 return the deposit OR provide an itemized statement of
@@ -336,14 +371,17 @@ DEADLINES:
 — Bring 2 copies of everything to court
 
 Want me to help you fill out the SC-100 form?
+
 :::
 
 ::: fairness
 Small claims court was designed to be accessible without a lawyer, but "accessible" assumes familiarity with forms, filing procedures, and courtroom norms that many people encounter for the first time under stress. If English is not your primary language, request an interpreter — the court is required to provide one. If you have a disability that affects your ability to attend in person, request accommodation when you file. These rights exist. They are not always offered. Ask.
+
 :::
 
 
 ::: also
 When your Agent gives you a multi-step navigation like this, save the conversation. In Claude, use a Project to keep all related conversations in one place. In ChatGPT, pin the conversation or use a custom GPT. In Gemini, use a Gem with the case context saved as instructions. You'll come back to this conversation multiple times as you move through the steps.
+
 :::
 

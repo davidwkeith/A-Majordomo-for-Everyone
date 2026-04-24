@@ -71,21 +71,25 @@ You are not one input among many, to be weighted and averaged with the machine's
 
 ::: meme
 Not [Skynet](https://en.wikipedia.org/wiki/Skynet%5F(Terminator)). Not [HAL 9000](https://en.wikipedia.org/wiki/HAL%5F9000). Not the [paperclip maximizer](https://en.wikipedia.org/wiki/Instrumental%5Fconvergence#Paperclip%5Fmaximizer). Much more boring and much more useful than any of those: well-read agents that will explain your insurance denial without charging you $350 an hour.
+
 :::
 
 
 ::: science
 Transformer models — the architecture behind modern AI — are fundamentally pattern-completion engines. They process context holistically and associatively, finding the shape of things before finding the words. This makes them fluent in analogy, tone, metaphor, and lateral thinking. What they struggle with is long-chain sequential reasoning — holding a complex logical argument without dropping a step. This is why the leading AI labs are now building extended-reasoning systems: slower, more deliberate processing layered on top of the fast pattern engine --- Claude's Extended Thinking, Gemini's Deep Research, OpenAI's reasoning models, Copilot's Think Deeper all name variations of the same move. Which is, interestingly, exactly what the human brain does — [fast and slow thinking](https://en.wikipedia.org/wiki/Thinking,%5FFast%5Fand%5FSlow). AI arrived at the same architecture from a completely different direction.[^1-2]
+
 :::
 
 
 ::: science
 Fluent AI output has a side effect researchers have started calling _the LLM fallacy_ — users mistake the model's work for proof of their own ability. The mechanism is opacity (you cannot see how the answer was produced), fluency (the prose sounds like something a competent person would have written), and low friction (you barely had to do anything). The three combine to blur the line between what you contributed and what the machine did. The Jeeves frame in this book is the correction — the majordomo is named and the division of labor is explicit. You bring the problem, the context, and the judgment. The library brings the phrasing.[^1-8]
+
 :::
 
 
 ::: science
 "Free" is not free. Every conversation with your Agent runs on servers that consume electricity and water for cooling. The [IEA](https://en.wikipedia.org/wiki/International%5FEnergy%5FAgency) estimates data centers account for 1–1.5% of global electricity use, and AI workloads are the fastest-growing segment. The companies offering free tiers are subsidizing your access with venture capital and advertising revenue — a business model you have seen before and should not mistake for charity. The honest exchange: you are getting a higher quality of life from a tool that costs real energy to run. The structural fix is the same one it has always been — build [solar](https://en.wikipedia.org/wiki/Solar%5Fenergy), build wind, build the grid that makes the computation sustainable. In the meantime, use the tool. It is still the best deal the non-billionaire class has ever been offered.[^1-3]
+
 :::
 
 
