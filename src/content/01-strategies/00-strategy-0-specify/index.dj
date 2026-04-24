@@ -36,7 +36,7 @@ _In the Field Guide: every Skill begins with a Strategy 0 specification intervie
 
 Here is the full loop, annotated. This is what every `[SPEC]` sidebar in this book is showing you.
 
-::: prompt
+::: spec
 STEP 1: Describe your situation loosely.
 Don't worry about being precise. Just say what's going on.
 
