@@ -109,7 +109,6 @@ All three beats required. Drop one and it lectures, complains, or sells.
 
 | ID | Title | Notes |
 |----|-------|-------|
-| A | Field Guide Quick Reference | Print-ready 8.5x11 from ePub |
 | B | Spec Interview Starters | Print-ready 8.5x11 from ePub |
 | C | Free Tools Reference | Links to tools |
 | D | When You Need a Real Professional | Includes immigration legal aid, civil rights orgs |
@@ -119,7 +118,7 @@ All three beats required. Drop one and it lectures, complains, or sells.
 | I | Specification Literacy as Middle School Standard | |
 | — | A Final Note: The Information Was Always There | Closing essay |
 
-The F slot is intentionally skipped: the version history is editorial metadata, not a reading chapter. It lives at `spec/version-history.md` and is published at the companion URL. Existing cross-references to appendices G, H, I, and J are unchanged.
+The A and F slots are intentionally skipped. The Field Guide quick reference (A) lives on the companion site at [majordomo.dwk.io](https://majordomo.dwk.io/) — ePub search and the website's lookup tools replace the static card. The version history (F) is editorial metadata, not a reading chapter; it lives at `spec/version-history.md` and is published at the companion URL. Existing cross-references to appendices G, H, I, and J are unchanged.
 
 ## Key Editorial Rules
 
