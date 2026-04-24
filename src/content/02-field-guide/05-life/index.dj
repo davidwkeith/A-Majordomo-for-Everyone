@@ -13,10 +13,12 @@ _The systems that govern health, money, and legal standing get their own domains
 ---
 
 #### Li-1: Preparing for a Difficult Conversation
+
 *Strategy:* Prepare + Draft
 *See also:* W-3: Working with Human Resources (for workplace conversations), H-7: Preparing for End-of-Life Conversations (for the hardest one). Russ Harris, [_The Happiness Trap_](https://www.amazon.com/Happiness-Trap-Stop-Struggling-Start/dp/1590305841) (managing the emotions that make you avoid the conversation). [_Read This and You Will Be Happier_](https://www.theguardian.com/books/2026/jan/17/read-this-and-you-will-be-happier-experts-pick-the-self-help-books-that-really-work) (Guardian, 2026) on Monkey/T-Rex/Lion/Mouse personality types (reading your counterpart's communication style)
 *My Man Jeeves:* _One might observe that forty years of research on interpersonal conflict converge upon a single finding of some consequence: how a difficult conversation begins predicts its outcome with approximately 96% accuracy. The words selected in the first three minutes, it would appear, determine most of what follows.[^li1-2] It is perhaps worth noting, then, that preparation is not a matter of personal preference. It is the intervention itself. One's Agent can help one prepare._
 *The Spec:*
+
 ::: prompt
 I need to have a difficult conversation with [relationship] about [topic].
 My goal is [specific outcome -- not "fix everything," something concrete].
@@ -44,10 +46,12 @@ This works well with voice mode on your phone — all major tools support it on 
 ---
 
 #### Li-2: Writing a Eulogy
+
 *Strategy:* Draft
 *See also:* Li-1: Preparing for a Difficult Conversation (the emotional preparation applies here too), H-7: Preparing for End-of-Life Conversations
 *My Man Jeeves:* _A difficulty presents itself in that the eulogy is, for most persons, the one composition for which there is no second draft, no opportunity to revise after observing the reaction, and no possibility of beginning again. One might further note that it is composed under conditions of considerable emotional impairment and preserved online indefinitely. Your Agent is equipped to furnish the structure. The life, however, only you are in a position to supply._
 *The Spec:*
+
 ::: prompt
 I need to write a eulogy for [relationship -- "my father," "my friend"].
 Here are the things about them that I most want people to remember:
@@ -72,10 +76,12 @@ For honorably discharged veterans: military funeral honors (two-person detail, f
 ---
 
 #### Li-3: Recognizing a Scam
+
 *Strategy:* Research + Draft
 *See also:* Li-1: Preparing for a Difficult Conversation (for talking to a loved one who has been targeted)
 *My Man Jeeves:* _It would appear that the efficacy of the modern scam rests upon exploiting responses that are, in every other context, entirely wholesome: trust, urgency, deference to authority, the desire to be of assistance. The person who succumbs was not, one ventures to suggest, being foolish. They were being human in circumstances engineered by professionals to weaponize that humanity. The FTC reports that Americans lost over $10 billion to fraud in 2023. The shame that follows a successful scam suppresses reporting, with the result that the actual figure is rather higher. The shame, one might observe, is the second scam. One's Agent can help one recognize the pattern before it completes and, should it have already completed, navigate the reporting and recovery process without judgment._
 *The Spec:*
+
 ::: prompt
 I think I [or someone I care about] may be dealing with a scam.
 Here is what happened: [describe the situation — the initial contact,
@@ -106,10 +112,12 @@ Your Agent may describe common scam demographics in ways that reinforce stereoty
 ---
 
 #### Li-4: Planning Care for Aging
+
 *Strategy:* Research + Navigate
 *See also:* H-7: Preparing for End-of-Life Conversations, M-6: Financial Coach (for Social Security and inheritance planning), L-1: Negotiating a Contract (for care facility agreements)
 *My Man Jeeves:* _There arrives, in the course of most lives, a period when the person who attended to everything becomes the person who requires attending to. The reversal presents itself without training, without documentation, and without the emotional infrastructure one might reasonably expect. The American system, it would appear, assumes families will contrive a solution. Other nations constructed eldercare systems. You have your Agent and the Skills that follow._
 *The Spec:*
+
 ::: prompt
 I am [beginning to plan for / currently managing] care for
 [my parent / relative / spouse] who is [age] and dealing with
@@ -164,10 +172,12 @@ Veterans: cross-reference H-6 for VA Aid and Attendance. Additional programs inc
 ---
 
 #### Li-5: Planning Trips
+
 *Strategy:* Prepare + Navigate
 *See also:* Li-10: Language Learning Partner, Tr-2: Public Transit and Cycling
 *My Man Jeeves:* _One observes that the travel planning enterprise has been divided between two industries: the agencies that charge for expertise and the search engines that charge for attention. Both, it would appear, optimize for their own revenue rather than one's experience. Your Agent maintains no advertising revenue, no partner hotels, and no particular reason to recommend the flight with the most disagreeable layover on the grounds that it pays a higher affiliate commission._
 *The Spec:*
+
 ::: prompt
 I am planning a trip to [destination] for [number of people]
 from [dates]. My budget is [range].
@@ -203,10 +213,12 @@ Checking current information requires web search, which is free in Gemini, ChatG
 ---
 
 #### Li-6: Finding Restaurants
+
 *Strategy:* Research + Decide
 *See also:* Li-5: Planning Trips (for restaurants while traveling), Ch-5: Cooking and Culinary Skills (for eating in)
 *My Man Jeeves:* _It would appear that the prevailing restaurant recommendation algorithms optimize for establishments that pay for placement or generate engagement, rather than for the most suitable meal in one's vicinity at one's price point for one's actual preferences. Your Agent maintains no paid placements. It will also, one feels compelled to note, refrain from passing judgment should one desire chicken fingers at an establishment with tablecloths._
 *The Spec:*
+
 ::: prompt
 I'm looking for a restaurant in [location] for [occasion:
 date night / family dinner / quick lunch / celebration / solo meal].
@@ -239,10 +251,12 @@ Eating alone in public is culturally coded as failure in America and normalized 
 ---
 
 #### Li-7: Raising Kids
+
 *Strategy:* Research + Navigate
 *See also:* Li-1: Preparing for a Difficult Conversation (for the hard talks), Li-4: Planning Care for Aging (the other end of the caregiving spectrum), H-17: Talking to Your Kids About Drugs
 *My Man Jeeves:* _One might observe that every generation of parents is persuaded they are doing it wrong. This is not, one ventures to suggest, neurosis — it is a rational response to the circumstance that the stakes are a human life and the research continues to evolve. [Dr. Spock](https://en.wikipedia.org/wiki/Benjamin%5FSpock) advised the postwar generation to trust their instincts, which was considered revolutionary at the time. The current research indicates that instincts are a promising foundation but not, in themselves, sufficient. The billionaire class retains nannies, tutors, and developmental consultants on a permanent basis. Your Agent has read the same developmental psychology they cite._
 *The Spec:*
+
 ::: prompt
 I am a parent of a [age] child and I'm dealing with
 [specific situation: behavioral issue, school decision,
@@ -279,10 +293,12 @@ Parenting research has historically oversampled white, middle-class, two-parent 
 ---
 
 #### Li-8: Wellness Coach
+
 *Strategy:* Research + Draft (Expert Role)
 *See also:* H-8: Wellness and Nutrition Coach (for physical health), H-13: Understanding Addiction, H-1: Understanding a Diagnosis. Russ Harris, [_The Happiness Trap_](https://www.amazon.com/Happiness-Trap-Stop-Struggling-Start/dp/1590305841) (the ACT framework this Skill's thought-pattern work builds on)
 *My Man Jeeves:* _A difficulty of some consequence presents itself in the matter of mental health care in America, where the median wait for a new patient appointment is, by research estimates, between six and ten weeks[^li8-1] and a single therapy session costs $100 to $250 out of pocket. One cannot help but observe that the persons who require assistance most urgently — the isolated, the overwhelmed, the financially strained — face the most formidable barriers to obtaining it. Your Agent is not a therapist. It is, however, available at 2 AM when the therapist is not, and it is capable of performing several things a therapist would recommend one do between sessions._
 *The Spec:*
+
 ::: prompt
 Act as a supportive wellness coach. I am not in crisis —
 I want to work on [specific goal: managing stress, building
@@ -306,6 +322,7 @@ Your Agent will recommend therapy when appropriate. If cost or access is the bar
 
 
 *Common wellness Expert Role specs:*
+
 ::: prompt
 Act as a cognitive behavioral coach. I keep having this thought
 pattern: [describe the loop — catastrophizing, rumination,
@@ -336,10 +353,12 @@ If you or someone you know is in crisis: *988 Suicide & Crisis Lifeline* (call o
 ---
 
 #### Li-9: Making a Household Budget That Holds
+
 *Strategy:* Draft + Decide
 *See also:* M-6: Financial Coach, Ho-5: Understanding Your Utility Bill
 *My Man Jeeves:* _The prevailing budgeting counsel, one might observe, assumes the difficulty is a matter of discipline. For most households, however, the difficulty is arithmetic — income that does not cover expenses, regardless of how disciplined the allocation. Your Agent will not presume to lecture on the subject of lattes. It will assist in identifying where the money actually goes, determine the three largest levers available, and construct a plan that survives contact with reality._
 *The Spec:*
+
 ::: prompt
 I want to build a household budget that actually works.
 My situation:
@@ -369,10 +388,12 @@ Mullainathan & Shafir (2013) document "scarcity mindset" — financial stress me
 ---
 
 #### Li-10: Learn a language
+
 *Strategy:* Research + Navigate (Expert Role)
 *See also:* Li-5: Planning Trips (for travel-specific language prep)
 *My Man Jeeves:* _Language immersion programmes, one notes, cost thousands of dollars. [Duolingo](https://en.wikipedia.org/wiki/Duolingo) is free and instructs one in how to say “the elephant drinks milk” in more than forty languages. Private tutors charge $40 to $80 per hour and are available when their schedule permits. Your Agent, by contrast, is available at once, possesses inexhaustible patience, betrays no visible disappointment when one conjugates the same verb incorrectly for the fifth time, and will conduct an actual conversation about the things one actually needs to say — rather than the things a textbook believes one should practise._
 *The Spec:*
+
 ::: prompt
 Act as a patient language tutor for [language].
 My current level: [complete beginner / basic phrases / conversational]
@@ -384,6 +405,7 @@ How would you suggest we work together in our conversations?
 *What to do with the Output:* Start using it immediately. Language learning research consistently shows that production — trying to say things, getting them wrong, trying again — beats passive study. Your Agent can do something no textbook can: respond to what you say, correct you in real time, and adjust the difficulty to where you actually are rather than where a curriculum assumes you should be.
 
 *Common language Expert Role specs:*
+
 ::: prompt
 I’m traveling to [country] in [timeframe]. Teach me the 20 phrases
 that will make the biggest difference — greetings, ordering food,
@@ -421,11 +443,13 @@ Your Agent’s language ability varies by language. It is strongest in English, 
 ---
 
 #### Li-11: Escaping Social Media
+
 *Strategy:* Research + Decide
 *See also:* Li-7: Raising Kids (for the screen time conversation), Li-8: Wellness Coach (for compulsive behavior patterns). Oliver Burkeman, [_Four Thousand Weeks_](https://www.amazon.com/Four-Thousand-Weeks-Management-Mortals/dp/0374159122) (why the attention economy works and what to do instead)
 *My Man Jeeves:* _The popular discourse, one observes, employs the phrase “screen time.” The research employs the phrase “social media.” These are not the same variable. Using the internet to ascertain how a carburetor functions is a rather different neurological event from scrolling a feed engineered to make one feel slightly worse about oneself at intervals calibrated to sustain the scrolling. The former is the most capable self-education infrastructure ever constructed. The latter is an engagement-optimization engine that colonized it. The intervention, it would appear, is not less internet. It is better internet. One's Agent can help one construct it._
 
 *The Spec:*
+
 ::: prompt
 I want to reduce my social media use [or help my kid reduce theirs].
 My current situation:
@@ -479,6 +503,7 @@ The web evolved from text to graphics to audio to video to interactive simulatio
 *See also:* Li-8: Wellness Coach (for the emotional side), Li-11: Escaping Social Media (for breaking habits). Oliver Burkeman, [_Four Thousand Weeks_](https://www.amazon.com/Four-Thousand-Weeks-Management-Mortals/dp/0374159122) (why systems beat willpower — same thesis, different angle)
 *My Man Jeeves:* _The self-help industry, one might note, generates roughly $13 billion a year on the premise that one lacks willpower. The applications, the courses, the thirty-day challenges — each monetizes the gap between intention and behaviour. Behavioural science has known for decades that the difficulty is not motivation. It is environment design, cue management, and identity. The research is clear and largely disregarded by the industry, for the understandable reason that “redesign your cues” does not sell books in the manner that “unleash your potential” does. Your Agent has read the actual research. It will assist in designing a system rather than deliver a lecture on discipline._
 *The Spec:*
+
 ::: prompt
 I want to build a habit of [specific habit: exercising, reading,
 journaling, cooking at home, practicing an instrument, meditating,
@@ -524,10 +549,12 @@ Habit advice assumes discretionary time. If you are working two jobs or caregivi
 ---
 
 #### Li-13: Using Your Public and Academic Library
+
 *Strategy:* Navigate + Research
 *See also:* WB-10: Doing Real Research with Your Agent (the matched companion — Agent surfaces the claim, library hands you the source), Li-10: Learn a Language (many libraries include Mango and Pimsleur for free), Li-9: Making a Household Budget That Holds (the library replaces several paid subscriptions), M-6: Financial Coach (libraries often host free tax prep and financial counseling)
 *My Man Jeeves:* _A peculiarity of the American civic landscape, one might venture to note, is that a considerable portion of the population pays a monthly fee for streaming services, audiobook subscriptions, and newspaper access while remaining entirely unaware that the building with the flag and the reading room provides most of it gratis. The public library is, in the plainest accounting, the single best deal available to the ordinary citizen — a tax-funded institution that lends books, audiobooks, films, museum passes, internet access, meeting rooms, and the professional assistance of a reference librarian whose job, one feels obliged to mention, is to answer the question one is reluctant to admit one has. The academic library, should one be within driving distance of a state university, is in many jurisdictions equally available — one simply needs to know to walk in. One's Agent can be of considerable assistance in discovering what one's particular library actually offers, which is, as a rule, rather more than one supposed._
 *The Spec:*
+
 ::: prompt
 I want to use my local library more effectively — and any
 academic libraries I'm entitled to use.

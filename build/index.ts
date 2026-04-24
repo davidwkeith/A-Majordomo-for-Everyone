@@ -1,6 +1,8 @@
 import 'dotenv/config';
 import { accessSync } from 'node:fs';
+import { readFile } from 'node:fs/promises';
 import { join } from 'node:path';
+import matter from 'gray-matter';
 import {
   ROOT,
   CONTENT_DIR,
@@ -12,10 +14,12 @@ import {
   prepareArtContext,
   discoverChapters,
   processChapter,
+  parseSlug,
   sortChapters,
   optimizeImages,
+  buildRefRegistry,
 } from './pipeline.js';
-import type { ArtBrief } from './pipeline.js';
+import type { ArtBrief, RefWarning } from './pipeline.js';
 import { assembleEpub } from './epub/assemble.js';
 import { generateMissingArt } from './generate-art.js';
 import { BOOK_META } from './types.js';
@@ -76,11 +80,33 @@ async function build(): Promise<void> {
   const files = await discoverChapters();
   console.log(`Found ${files.length} chapter files`);
 
+  // Build the cross-reference registry from every chapter's heading codes
+  // before rendering any of them, so that `ref:code` links can resolve
+  // across chapter boundaries.
+  console.log('Building ref registry...');
+  const chapterSources = await Promise.all(
+    files.map(async (f) => {
+      const raw = await readFile(f, 'utf-8');
+      const { content } = matter(raw);
+      return { slug: parseSlug(f), content };
+    })
+  );
+  const refRegistry = buildRefRegistry(chapterSources);
+  const refWarnings: RefWarning[] = [];
+  console.log(`Registered ${refRegistry.size} ref target(s)`);
+
   console.log('Processing chapters...');
   const chapters = await Promise.all(
-    files.map((f) => processChapter(f, artCtx))
+    files.map((f) => processChapter(f, artCtx, { registry: refRegistry, warnings: refWarnings }))
   );
   const sorted = sortChapters(chapters);
+
+  if (refWarnings.length > 0) {
+    console.warn(`\n${refWarnings.length} unresolved ref(s):`);
+    for (const w of refWarnings) {
+      console.warn(`  ref:${w.tag}${w.sourceFile ? ` in ${w.sourceFile}` : ''}`);
+    }
+  }
 
   // Fail the build if any declared accessibility feature is not satisfied.
   // The ePub OPF claims WCAG 2.0 AA; shipping a book that does not meet its

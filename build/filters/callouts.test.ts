@@ -157,6 +157,22 @@ describe('endnotes', () => {
     expect(html).toContain('aria-label="Back to reference 1"');
   });
 
+  it('renders the backlink inline inside the note paragraph', () => {
+    const dj = 'A claim.[^n1]\n\n[^n1]: Source.';
+    const html = process(dj);
+    // Backlink must be inside the last <p>, not a sibling block after it.
+    expect(html).toMatch(/<a[^>]*epub:type="backlink"[^>]*>\u21a9<\/a><\/p>/);
+    expect(html).not.toMatch(/<\/p>\s*<a[^>]*epub:type="backlink"/);
+  });
+
+  it('prefixes each endnote with its visible number label', () => {
+    const dj = 'A.[^n1] B.[^n2]\n\n[^n1]: First.\n\n[^n2]: Second.';
+    const html = process(dj);
+    // Each note opens with <p><span class="endnote-num">[N]</span> ...
+    expect(html).toMatch(/<p><span class="endnote-num">\[1\]<\/span> First\./);
+    expect(html).toMatch(/<p><span class="endnote-num">\[2\]<\/span> Second\./);
+  });
+
   it('only attaches fnref id to the first reference when a note is cited twice', () => {
     const dj = 'First.[^n1] Second.[^n1]\n\n[^n1]: Source.';
     const html = process(dj);

@@ -13,10 +13,12 @@ _Getting from one place to another is the second largest expense in most America
 ---
 
 #### Tr-1: Car Ownership
+
 *Strategy:* Research + Decide + Assert
 *See also:* L-1: Negotiating a Contract (for the purchase agreement), M-6: Financial Coach (for the financing decision)
 *My Man Jeeves:* _One might observe that the automobile dealership represents perhaps the most refined information asymmetry in American commerce. The dealer is in possession of the invoice price, the holdback, the manufacturer incentives, the floor plan cost, the trade-in wholesale value, and the financing margin. The customer, by contrast, is in possession of the sticker price — a figure the dealer has placed there with the express intention that one will negotiate downward from it and experience a sense of victory. It would appear that an Agent, having access to the invoice price as well, alters the nature of the exchange rather considerably._
 *The Spec:*
+
 ::: prompt
 I need to [buy / lease / sell] a car.
 My situation:
@@ -66,10 +68,12 @@ Veterans with a service-connected disability may qualify for the VA Automobile A
 ---
 
 #### Tr-2: Car Maintenance
+
 *Strategy:* Diagnose + Research (Expert Role)
 *See also:* Tr-1: Car Ownership, L-1: Negotiating a Contract (for understanding service agreements)
 *My Man Jeeves:* _A difficulty presents itself in the automotive repair trade, which operates on the well-documented principle that most vehicle owners do not know what their car requires, cannot verify whether the work was performed, and will pay to resolve the uncertainty. One might note that an Agent, having consulted the service manual, is rather better positioned to assess the situation. It is worth observing that persons of considerable means do not, as a rule, accept the first quotation. There would seem to be no reason why anyone else should._
 *The Spec:*
+
 ::: prompt
 Act as an experienced mechanic and car maintenance advisor.
 My car: [year, make, model, approximate mileage]
@@ -96,10 +100,12 @@ To make this Expert Role persistent across sessions, save it as a *Project* (Cla
 ---
 
 #### Tr-3: Public Transit, Cycling, and Walkability
+
 *Strategy:* Research + Navigate
 *See also:* Li-5: Planning Trips (for transit in unfamiliar cities), C-6: Advocating for Change (for local transit advocacy)
 *My Man Jeeves:* _It would appear that the United States has devoted the better part of seventy years to constructing an infrastructure that assumes every adult to be in possession of a motor car. The consequence, one might observe, is a country in which not driving is regarded as a personal failing rather than a design outcome. In cities where functional transit, cycling infrastructure, and walkable neighborhoods exist, car-free or car-light living saves thousands of dollars per year and improves health outcomes measurably. In cities where these things do not exist, the absence is a policy choice, not an inevitability — and it can be altered at the local level, by those who present themselves at the relevant meetings. One's Agent can help one evaluate the options, calculate the savings, and — should advocacy be required — prepare for the meeting._
 *The Spec:*
+
 ::: prompt
 I want to [reduce my car dependence / go car-free / understand
 my transit options / make my commute better / advocate for
@@ -137,10 +143,12 @@ Transit access is deeply unequal. Wealthier neighborhoods get better service. Ca
 ---
 
 #### Tr-4: Air Travel
+
 *Strategy:* Prepare + Assert
 *See also:* Li-5: Planning Trips (for trip planning broadly), IRL-3: First-Time Situations (for first-time flyers)
 *My Man Jeeves:* _One might characterize air travel as a system that charges variable prices for the same seat, enforces rules that shift by airline, route, and day of the week, and operates under federal consumer protection laws that most passengers have not had occasion to read. The airline is aware of one's fare class, one's rebooking options, and the compensation it owes. The passenger, as a general rule, is aware of a confirmation number. An Agent, it would appear, has access to the same regulations the airline's customer service team consults — which places one in the rather more agreeable position of being able to cite them as well._
 *The Spec:*
+
 ::: prompt
 I need help with air travel.
 My situation: [booking a flight / flight was canceled or delayed /
@@ -186,10 +194,12 @@ TSA procedures are opaque by design and anxiety-producing by experience. The pro
 ---
 
 #### Tr-5: Road Trips and Long-Distance Driving
+
 *Strategy:* Prepare + Navigate
 *See also:* Tr-2: Car Maintenance, Li-5: Planning Trips
 *My Man Jeeves:* _One might observe that the interstate highway system, for all its considerable merits, was designed under the assumption that the traveler is in possession of a reliable vehicle, a full tank, and the good fortune not to require medical attention between exits. The reality, one has found, is rather less accommodating. Rest stops close without notice. Cell service evaporates for stretches that are precisely as long as one's capacity for anxiety. The distance between fuel stations in the American West can exceed the range of a vehicle whose gauge reads optimistic in the best of circumstances. An Agent, consulted before departure, can identify every one of these gaps --- and suggest what to put in the boot to address them._
 *The Spec:*
+
 ::: prompt
 I'm planning a road trip and want to be prepared.
 My route: [origin to destination, or a multi-stop itinerary]
@@ -237,10 +247,12 @@ Road trip preparation is class-coded. Wealthier families have newer cars, AAA me
 ---
 
 #### Tr-7: Understanding Rideshare and Delivery Gig Work
+
 *Strategy:* Research + Decode
 *See also:* W-8: Gig Work and Self-Employment, M-7: Taxes
 *My Man Jeeves:* _The rideshare arrangement presents a matter of some interest from both sides of the transaction. The passenger perceives a taxi that has been made more convenient; the driver perceives a job that has been made less stable. The company, one might note, has structured the arrangement so that neither party is in full possession of how the pricing works. Surge pricing is presented to the passenger as supply and demand. To the driver, the surge multiplier and the fare the passenger pays are not, as it happens, the same number. One's Agent can decode both sides of this equation --- which is rather the point._
 *The Spec:*
+
 ::: prompt
 I want to understand rideshare and delivery gig work.
 My perspective: [I'm a rider/customer / I'm considering driving /
@@ -282,10 +294,12 @@ _"I spent $[amount] on rideshares last month. Based on my typical trips, would a
 ---
 
 #### Tr-8: Navigating International Travel
+
 *Strategy:* Prepare + Navigate
 *See also:* Tr-4: Air Travel, IRL-3: First-Time Situations, Li-5: Planning Trips
 *My Man Jeeves:* _International travel, one has observed, is governed by a set of interlocking bureaucracies --- passports, visas, customs declarations, foreign transit systems, currency exchange --- each of which operates under rules that are fully public, entirely discoverable, and almost never consulted by the traveler until the evening before departure. The consequence is predictable. One finds oneself at passport control in a country whose entry requirements one has not verified, holding a document that expires in four months when the requirement is six. An Agent, consulted in advance, would have mentioned this. They are, in this respect, rather like a good valet: most useful when engaged before the crisis, not during it._
 *The Spec:*
+
 ::: prompt
 I'm planning international travel and need help preparing.
 My destination: [country or countries]
@@ -333,10 +347,12 @@ Ask your Agent to compare Global Entry, TSA PreCheck, and CLEAR. Global Entry ($
 ---
 
 #### Tr-9: Accessible Transportation
+
 *Strategy:* Assert + Navigate
 *See also:* Tr-3: Public Transit, Cycling, and Walkability, C-7: Disability Rights
 *My Man Jeeves:* _The Americans with Disabilities Act, one might observe, guarantees accessible public transportation as a matter of federal law. The distance between the guarantee and the experience, however, is considerable. Paratransit services operate within rules that are technically compliant and practically hostile --- narrow booking windows, multi-hour pickup ranges, penalties for no-shows that assume the rider's schedule is infinitely flexible. The elevator at the train station is broken again. The bus ramp does not deploy. The rideshare driver cancels upon seeing the wheelchair. These are not edge cases. They are the system as experienced by the people it claims to serve. An Agent can help one know precisely what the law requires, file the complaint when it is not provided, and identify the alternatives that actually function._
 *The Spec:*
+
 ::: prompt
 I need help with accessible transportation.
 My situation: [describe --- mobility aid user, visual impairment,
@@ -384,10 +400,12 @@ U.S. airlines mishandled 11,527 wheelchairs and scooters in 2023 --- roughly 31 
 ---
 
 #### Tr-10: Electric Vehicles and the Transition
+
 *Strategy:* Research + Decide
 *See also:* Tr-1: Car Ownership, M-10: Big Financial Decisions
 *My Man Jeeves:* _The electric vehicle market, one has observed, generates a quantity of opinion that bears very little relation to the quantity of data available. One camp insists that the technology is not ready. The other insists it will save the planet by Tuesday. Neither, it would appear, has consulted a spreadsheet. The pertinent questions are rather more pedestrian: can one charge it where one lives, what does it cost to own over five years compared to what one drives now, and does the used market offer anything that a household of ordinary means can afford. An Agent, being unburdened by ideology on the matter, can answer all three --- which places one in the agreeable position of making a decision based on arithmetic rather than allegiance._
 *The Spec:*
+
 ::: prompt
 I'm considering an electric vehicle and want the real picture.
 My situation:
@@ -436,10 +454,12 @@ The EV transition has a class problem. Federal tax credits require enough tax li
 ---
 
 #### Tr-11: Boating, RVs, and Niche Vehicles
+
 *Strategy:* Research + Navigate
 *See also:* Tr-1: Car Ownership, M-8: Insurance
 *My Man Jeeves:* _The purchase of a boat, a recreational vehicle, or a similarly specialized conveyance introduces one to a regulatory environment that appears to have been designed by a committee whose members were not on speaking terms. Registration requirements vary by state and by waterway. Insurance is mandatory in some jurisdictions, optional in others, and confusingly priced in all of them. Licensing requirements range from nonexistent to Coast Guard certification, depending on the vessel's length and one's state of residence. The RV, for its part, occupies an existential category --- part vehicle, part dwelling --- that satisfies the requirements of neither the DMV nor the building code with any particular enthusiasm. One's Agent, having no emotional attachment to the open water or the open road, can sort through the bureaucracy rather efficiently._
 *The Spec:*
+
 ::: prompt
 I'm looking into [buying / renting / maintaining] a
 [boat / RV / motorcycle / ATV / other specialty vehicle].

@@ -50,7 +50,7 @@ Bluma Zeigarnik's 1927 research established that the brain actively maintains in
 
 [^s3-1]: Zeigarnik, B. (1927). "Über das Behalten von erledigten und unerledigten Handlungen." _Psychologische Forschung_, 9, 1-85. Masicampo, E.J. & Baumeister, R.F. (2011). "Consider it done! Plan making can eliminate the cognitive effects of unfulfilled goals." _JPSP_, 101(4), 667-683.
 
-_In the Field Guide: H-4 (Insurance Appeals), Li-2 (Eulogies), C-5 (Public Comments), L-3 (Demand Letters), W-1 (Job Search)._
+_In the Field Guide: [H-4 (Insurance Appeals)](ref:h-4), [Li-2 (Eulogies)](ref:li-2), [C-5 (Public Comments)](ref:c-5), [L-3 (Demand Letters)](ref:l-3), [W-1 (Job Search)](ref:w-1)._
 
 *Worked examples:* A demand letter to a landlord. A Medicare denial appeal. A public comment for a city council meeting.
 
@@ -61,6 +61,7 @@ In Strategy 1: Decode, you found a new early termination clause buried in your l
 This is the gap Draft closes. You have the analysis. You have the position. You do not have the first sentence. The first sentence is the most expensive part of the email---not because it's hard to write, but because the blank screen turns "I know what I want to say" into "I don't know how to start." Your Agent writes the first sentence. You write everything after that.
 
 *Your opening message:*
+
 ::: prompt
 In my last conversation with you, we decoded an early
 termination clause in my lease renewal. You flagged the
@@ -77,6 +78,7 @@ leave. I'm proposing changes that make the clause fair.
 :::
 
 *Your Agent's clarifying questions:*
+
 ::: agent
 I can draft that. A few things will make the email
 land better:
@@ -96,6 +98,7 @@ land better:
 :::
 
 *Your answers:*
+
 ::: prompt
 1. Firm but not hostile. I want them to take it
    seriously but I don't want to blow up the
@@ -115,6 +118,7 @@ land better:
 :::
 
 *Your Agent drafts:*
+
 ::: agent
 Here's a draft. Read it, change anything that doesn't
 sound like you, and don't send it until it does.
@@ -175,6 +179,7 @@ yours.
 :::
 
 *Your follow-up:*
+
 ::: prompt
 This is good but it sounds too formal. I usually just
 text my landlord. Can you make it more casual but keep
@@ -182,6 +187,7 @@ the substance?
 :::
 
 *Your Agent:*
+
 ::: agent
 Here's a casual version. Same substance, different
 register.
@@ -240,6 +246,7 @@ In Strategy 0: Specify, you decoded an insurance denial---an MRI your doctor ord
 You have been fighting this for weeks. The first appeal felt like filling out a form---follow the steps, attach the letter, submit. This one is different. The external appeal goes to an independent medical reviewer, not customer service. It is a formal document with real requirements and a real audience: a physician who will read your case and decide whether the denial stands. The blank page is harder this time because the stakes are higher, the format is less familiar, and you have already been told no twice.
 
 *Your opening message:*
+
 ::: prompt
 My internal appeal for the MRI was denied. Second denial
 says the same thing---"not medically necessary"---but
@@ -253,6 +260,7 @@ draft it?
 :::
 
 *Your Agent's clarifying questions:*
+
 ::: agent
 I can help you draft that. I need to understand exactly
 what you're working with:
@@ -273,6 +281,7 @@ what you're working with:
 :::
 
 *Your answers:*
+
 ::: prompt
 1. Same reason: "not medically necessary." Then it says
    "The documentation provided does not support medical
@@ -291,6 +300,7 @@ what you're working with:
 :::
 
 *Your Agent drafts the appeal letter:*
+
 ::: agent
 Here's the appeal letter. It's addressed to the external
 review organization. Read it carefully---every claim in
@@ -399,12 +409,14 @@ date it was received. Keep copies of everything you send.
 :::
 
 *Your follow-up:*
+
 ::: prompt
 This is really long. Will someone actually read all of
 this?
 :::
 
 *Your Agent:*
+
 ::: agent
 Yes. The external reviewer is a physician. They read
 dozens of these. They are looking for three things:
@@ -447,11 +459,13 @@ The appeal letter that wins is written at a level most patients cannot produce w
 In Strategy 1: Decode, you translated Measure H---a zoning downzone that would reduce housing supply in your neighborhood. You learned what it actually does: caps density at eight units per acre, requires conditional use permits for four or more units, and limits height to 35 feet in R-3 zones within 500 feet of single-family areas. You learned that "predatory developer" is campaign language, not a legal term. You learned the measure protects existing homeowners at the expense of future renters and housing supply. Now your city council is holding a public hearing before the vote. You have two minutes at the microphone. You've never spoken at a public hearing. You know what you think---the measure hurts renters---but you cannot get past the first sentence. The room will be full. A timer will count down. Your name and address go on the public record. Knowing the policy is one skill. Saying it out loud to a row of council members is a different one.
 
 *Your opening message:*
+
 ::: prompt
 Remember when we decoded Measure H---the zoning downzone on my ballot? The city council is holding a public hearing on it next Tuesday. I want to speak against it. I have two minutes. I've never spoken at a public hearing before. I don't want to sound like a policy wonk---I want to sound like a person who lives there.
 :::
 
 *Your Agent's clarifying questions:*
+
 ::: agent
 I remember the Measure H analysis. Good---you already know the substance. Now we need to turn that into something you can say out loud under pressure. A few questions before I draft:
 
@@ -467,6 +481,7 @@ I remember the Measure H analysis. Good---you already know the substance. Now we
 :::
 
 *Your answers:*
+
 ::: prompt
 Yes, renter in an R-3 zone. Four years in my apartment. This neighborhood is where I want to stay long-term.
 
@@ -480,6 +495,7 @@ Not sure if anyone else is going. I don't know anyone else planning to speak aga
 :::
 
 *Your Agent drafts:*
+
 ::: agent
 Here's a two-minute comment written for speaking, not reading. Practice it once out loud---time yourself. If it runs over 1:45, we'll cut.
 
@@ -503,11 +519,13 @@ This runs about a minute. You have margin. Do not fill it---short and clear beat
 :::
 
 *Your follow-up:*
+
 ::: prompt
 This sounds like a policy paper. I want to sound like a person who lives in the neighborhood, not someone who studied zoning law.
 :::
 
 *Your Agent:*
+
 ::: agent
 Fair. Here's the revision.
 

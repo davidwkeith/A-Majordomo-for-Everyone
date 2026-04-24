@@ -72,13 +72,14 @@ Legal boilerplate is written at a 16th-grade reading level on average — four g
 
 The hardest part of Decode is not the skill. It is the habit. The next time you receive a document from an institution — any document, any institution — paste it into your Agent before you do anything else. Before you sign. Before you pay. Before you panic. Before you throw it on the pile. Paste it. Ask what it says. That is the entire strategy.
 
-_In the Field Guide: H-3 (Medical Bills), L-1 (Contracts), C-4 (Ballot Measures), Ho-5 (Utility Bills), M-3 (Mortgages)._
+_In the Field Guide: [H-3 (Medical Bills)](ref:h-3), [L-1 (Contracts)](ref:l-1), [C-4 (Ballot Measures)](ref:c-4), [Ho-5 (Utility Bills)](ref:ho-5), [M-3 (Mortgages)](ref:m-3)._
 
 ### Example 1: An Insurance EOB After a Doctor's Visit
 
 The situation: you had blood work done at your annual physical. Three weeks later, an Explanation of Benefits arrives. It has procedure codes, columns labeled "amount billed," "plan discount," "plan paid," and "your responsibility." One number says $347. You don't know if you owe $347 or not. The document is designed to explain your benefits. It does not explain your benefits.
 
 *Your opening message:*
+
 ::: prompt
 I got this EOB from my insurance and I can't tell if I
 owe money. Here's what it says:
@@ -98,6 +99,7 @@ from your provider."
 :::
 
 *Your Agent's clarifying questions:*
+
 ::: agent
 Good instinct to check — EOBs are designed to confuse.
 Let me clarify a couple things:
@@ -110,6 +112,7 @@ Let me clarify a couple things:
 :::
 
 *Your answers:*
+
 ::: prompt
 1. Yes, I paid a $30 copay at the office.
 2. Not yet. Just this EOB.
@@ -117,6 +120,7 @@ Let me clarify a couple things:
 :::
 
 *Your Agent decodes:*
+
 ::: agent
 Here's what this EOB actually says:
 
@@ -154,12 +158,14 @@ should.
 :::
 
 *Your follow-up:*
+
 ::: prompt
 Wait — so the $347 was never real? Why does it even
 show that number?
 :::
 
 *Your Agent:*
+
 ::: agent
 The $347 is the "chargemaster" rate — the provider's
 list price before any insurance negotiation. Almost
@@ -191,6 +197,7 @@ When pasting an EOB, you can type the key fields (as above) or take a photo. Cla
 The situation: your landlord sent your lease renewal. You've been here two years, you like the apartment, and you're inclined to sign. The rent went up $75/month — annoying but expected. But there's a new section on page 4 that wasn't in your original lease. It's three paragraphs of dense legal text under the heading "Early Termination."
 
 *Your opening message:*
+
 ::: prompt
 My landlord sent a lease renewal. There's a new clause
 I don't remember from the original lease. Can you tell
@@ -210,6 +217,7 @@ termination of this Lease."
 :::
 
 *Your Agent's clarifying questions:*
+
 ::: agent
 This is worth reading carefully. A few questions:
 
@@ -223,6 +231,7 @@ This is worth reading carefully. A few questions:
 :::
 
 *Your answers:*
+
 ::: prompt
 1. No, the original lease just said I needed to give
    30 days notice if I wasn't renewing. Nothing about
@@ -232,6 +241,7 @@ This is worth reading carefully. A few questions:
 :::
 
 *Your Agent decodes:*
+
 ::: agent
 Here's what this clause actually says, line by line:
 
@@ -307,6 +317,7 @@ Contract comprehension research consistently shows that readers focus on the ter
 The situation: it's October. Your ballot arrived. There's a local measure — Measure H — that's been all over yard signs and mailers. The campaign for it says "Protect Our Neighborhoods." The campaign against it says "Stop the Housing Ban." You have no idea what it actually does. The official text is 1,400 words of legal language. You want to vote. You want to vote correctly.
 
 *Your opening message:*
+
 ::: prompt
 I'm trying to understand Measure H on my ballot.
 Here's the official summary from the voter guide:
@@ -324,6 +335,7 @@ What does this actually do?
 :::
 
 *Your Agent's clarifying questions:*
+
 ::: agent
 Good question — the official text is doing a lot of
 work to sound neutral. Let me ask:
@@ -335,6 +347,7 @@ work to sound neutral. Let me ask:
 :::
 
 *Your answers:*
+
 ::: prompt
 1. [City name], California.
 2. I rent.
@@ -343,6 +356,7 @@ work to sound neutral. Let me ask:
 :::
 
 *Your Agent decodes:*
+
 ::: agent
 Here's what Measure H actually does:
 
@@ -404,12 +418,14 @@ Future renters and the regional housing supply.
 :::
 
 *Your follow-up:*
+
 ::: prompt
 The mailer I got says it "protects against predatory
 developers." Is that real?
 :::
 
 *Your Agent:*
+
 ::: agent
 "Predatory developer" is a framing choice, not a
 legal term. The measure does not define it, regulate it,

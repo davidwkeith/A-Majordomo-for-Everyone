@@ -63,6 +63,14 @@ function sizeToClass(size: string): string {
   }
 }
 
+/** Flatten a heading's inline children to plain text for id generation. */
+function extractHeadingText(node: any): string {
+  if (!node) return '';
+  if (typeof node.text === 'string') return node.text;
+  if (Array.isArray(node.children)) return node.children.map(extractHeadingText).join('');
+  return '';
+}
+
 /** Check if a para contains only a single art span. */
 function isArtPara(node: Para): boolean {
   return (
@@ -195,7 +203,21 @@ export function epubOverrides(
     },
 
     section: (node: Section, renderer: HTMLRenderer): string => {
-      return renderer.renderChildren(node);
+      // Hoist an id onto the first heading so cross-references can link
+      // directly to a skill section. Prefer a code-based slug (e.g. "H-2"
+      // or "Ho-7") extracted from the heading text — that gives stable,
+      // predictable anchors that match the code used in cross-refs.
+      const children = renderer.renderChildren(node);
+      const first = node.children?.[0] as any;
+      if (first?.tag !== 'heading') return children;
+      const headingText = extractHeadingText(first);
+      const codeMatch = headingText.match(/^([A-Za-z]{1,3}-\d+[a-z]?):/);
+      const id = codeMatch ? codeMatch[1].toLowerCase() : undefined;
+      if (!id) return children;
+      const openTag = children.match(/^<h[1-6]/);
+      if (!openTag) return children;
+      const insertAt = openTag[0].length;
+      return children.slice(0, insertAt) + ` id="${escapeHtml(id)}"` + children.slice(insertAt);
     },
 
     thematic_break: (_node: ThematicBreak, _renderer: HTMLRenderer): string => {
@@ -279,12 +301,30 @@ export function renderNotesSection(
     };
     const content = renderHTML(tempDoc);
     const escaped = escapeHtml(label);
+    const numLabel = `<span class="endnote-num">[${num}]</span> `;
     const backlink =
       `<a epub:type="backlink" role="doc-backlink" class="endnote-backlink" ` +
       `href="#fnref-${escaped}" aria-label="Back to reference ${num}">\u21a9</a>`;
 
+    // Inject the visible number label inside the first paragraph and the
+    // backlink inside the last — both inline so they flow with the prose
+    // instead of sitting on their own lines.
+    let rendered = content;
+    const openPMatch = rendered.match(/<p(\s[^>]*)?>/);
+    if (openPMatch && openPMatch.index != null) {
+      const insertAt = openPMatch.index + openPMatch[0].length;
+      rendered = rendered.slice(0, insertAt) + numLabel + rendered.slice(insertAt);
+    } else {
+      rendered = numLabel + rendered;
+    }
+    const lastPIdx = rendered.lastIndexOf('</p>');
+    rendered =
+      lastPIdx >= 0
+        ? rendered.slice(0, lastPIdx) + backlink + rendered.slice(lastPIdx)
+        : rendered.replace(/\s+$/, '') + backlink;
+
     notes.push(
-      `<aside epub:type="endnote" role="doc-endnote" id="en-${escaped}" class="endnote">\n${content}${backlink}\n</aside>`
+      `<aside epub:type="endnote" role="doc-endnote" id="en-${escaped}" class="endnote">\n${rendered}</aside>`
     );
   }
 
