@@ -195,7 +195,7 @@ Every icon should feel like it was drawn in the same class, by the same hand, in
 
 ## Cover
 
-The cover has its own detailed brief in the Cover Art Brief document. Key difference from chapter openers: the cover paper is **horizontal** (blue lines run straight across, not diagonal). The cover establishes the system; the chapters play with it. The composition is a pencil-drawn suburban house — the sitcom establishing shot — with a DON'T PROMPT rubber stamp over the lawn and three typographic zones.
+The cover has its own detailed brief in `cover.art.md`. Key difference from chapter openers: the cover paper is **horizontal** (blue lines run straight across, not diagonal). The cover establishes the system; the chapters play with it. The composition is a pencil-drawn suburban house — the sitcom establishing shot — with a DON'T PROMPT rubber stamp over the lawn and three typographic zones.
 
 ---
 
