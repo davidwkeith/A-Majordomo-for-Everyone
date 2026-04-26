@@ -19,7 +19,6 @@ If the order of operations is important -- a legal process, a repair procedure, 
 ::: prompt
 Please give me numbered steps, in the order I should do them,
 with no steps combined.
-
 :::
 
 ### Ask Claude to show its work
@@ -30,12 +29,10 @@ For factual claims with real stakes, ask Claude to identify the basis for each m
 For each main point in your answer, please tell me briefly
 what it is based on, and flag anything I should independently
 verify with a professional.
-
 :::
 
 ::: tip
 For complicated questions — anything with multiple parts, tradeoffs, or "it depends" answers — add: _"Think through this step by step before giving me your answer."_ This sounds simple, but "chain-of-thought" prompting is one of the most-studied techniques in the field: asking the model to lay out intermediate reasoning steps measurably improves accuracy on multi-step problems.[^32-cot] The more moving parts in your question, the more this helps.
-
 :::
 
 
@@ -46,7 +43,6 @@ For legal, medical, and financial questions:
 ::: prompt
 Please give me the most cautious, conservative interpretation.
 I would rather over-prepare than be caught off guard.
-
 :::
 
 ### Ask for a checklist instead of advice
@@ -56,7 +52,6 @@ When you need to act on something -- not just understand it -- ask Claude to con
 ::: prompt
 Can you turn that into a checklist I can print out and work
 through item by item?
-
 :::
 
 ### Ask your Agent to review its own answer
@@ -67,7 +62,6 @@ For important questions, ask your Agent to take a second pass before you act on 
 Now review what you just told me. What did you get wrong,
 oversimplify, or leave out? What would change if my situation
 were slightly different?
-
 :::
 
 Your Agent will often catch its own oversights — a missed exception, an assumption it made about your circumstances, a detail it glossed over for brevity. This is not a sign the first answer was unreliable. It is the same principle as rereading a contract before signing: the second read catches what the first read missed. For high-stakes questions — legal, medical, financial — a self-review followed by the calibration question below gives you two layers of error-checking before you act.
@@ -80,7 +74,6 @@ Claude can give a perfectly coherent, well-reasoned answer to the wrong version 
 Before I act on this -- restate what you understood my situation
 to be, what you think I am trying to achieve, and what constraints
 you were working within.
-
 :::
 
 Read the echo-back against what you actually said. You are looking for three things:
@@ -97,7 +90,6 @@ When you spot one of these, you do not need to start over. Correct the specific 
 You assumed I am in California -- I am in Texas. And I asked for
 options, not a step-by-step plan. Can you redo this with those
 corrections?
-
 :::
 
 The echo-back checks whether Claude understood your situation. The calibration question, below, checks whether its answer is reliable. These are two different failure modes — wrong understanding versus uncertain knowledge — and they need two different checks.
@@ -120,7 +112,6 @@ When all four properties hold and the three failure modes are absent, the spec i
 
 ::: tip
 If you have corrected the same detail three times and the Agent keeps drifting back, the conversation is not converging. Start a new one with a clean spec that incorporates what you have learned. Two focused conversations beat one that is fighting itself.
-
 :::
 
 
@@ -134,7 +125,6 @@ The fix is not to push harder. It is to start fresh — but not from scratch. As
 Summarize the key facts, decisions, and open questions from
 this conversation. I am going to start a new conversation
 and I want to carry forward only what matters.
-
 :::
 
 Copy the summary. Open a new conversation. Paste it in with your next question. You now have a clean workspace with all the context that matters and none of the noise that doesn't. Two focused conversations will outperform one sprawling one every time.
@@ -148,20 +138,17 @@ After any important answer, before you close the conversation:
 ::: prompt
 How confident are you in this answer, and what are the two
 or three things I should independently verify before acting on it?
-
 :::
 
 This single question will consistently improve the quality of the guidance you receive. Claude will tell you where its answer is reliable and where it is extrapolating. That boundary is exactly where you should apply your own judgment -- or pick up the phone and call a professional. It is the same line Chapter 31 draws from the other direction: where AI's edge ends and the human's begins.
 
 ::: science
 Research on _algorithm aversion_ -- the human tendency to distrust algorithmic recommendations even when they are demonstrably more accurate -- shows that people accept algorithmic guidance more readily when they can see the reasoning behind it (Dietvorst et al., 2018). Asking Claude to show its work is not just practically useful. It also addresses the well-documented psychological resistance to following advice from a source you cannot fully understand.[^32-1]
-
 :::
 
 
 ::: science
 The inverse phenomenon, _automation bias_ -- over-trusting algorithmic output -- is equally documented and arguably more dangerous (Cummings, 2004). The calibration question ("how confident are you, and what should I verify?") is a structured defense against automation bias. It keeps the human in the loop at exactly the moment when the stakes are highest.[^32-2]
-
 :::
 
 

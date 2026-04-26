@@ -39,7 +39,6 @@ Please:
    pay close attention to
 3. List the two or three things that matter most for
    someone in my position
-
 :::
 
 *When the document is long:* Paste the full document first, then put your question after it. Your Agent reads your entire message before it starts answering — putting the document up front gives it the full picture before you ask anything.
@@ -57,18 +56,15 @@ Please:
 2. Summarize each one in plain language
 3. Flag anything unusual or that limits my options
 4. List the two or three things that matter most before I sign
-
 :::
 
 ::: tip
 When you paste a document, put it _before_ your question, not after. The order matters — your Agent pays closest attention to what comes just before the question. Document first, question last.
-
 :::
 
 
 ::: science
 Legal boilerplate is written at a 16th-grade reading level on average — four grades above the standard proficient adult reader benchmark. At that complexity, meaningful comprehension collapses for most adult readers without a college background. Millions of Americans sign documents every year whose terms they cannot parse. This is not a literacy problem. It is a design problem.[^s1-1]
-
 :::
 
 
@@ -100,7 +96,6 @@ Patient balance: $0.00
 But then there's a separate line that says:
 "This is not a bill. You may receive a separate bill
 from your provider."
-
 :::
 
 *Your Agent's clarifying questions:*
@@ -114,7 +109,6 @@ Let me clarify a couple things:
    Diagnostics or your doctor's office?
 3. Is this from your insurance company (like Anthem,
    UnitedHealthcare, Aetna) or from the lab?
-
 :::
 
 *Your answers:*
@@ -123,7 +117,6 @@ Let me clarify a couple things:
 1. Yes, I paid a $30 copay at the office.
 2. Not yet. Just this EOB.
 3. From my insurance — Anthem.
-
 :::
 
 *Your Agent decodes:*
@@ -162,7 +155,6 @@ $0 patient balance. Call Quest, give them the EOB claim
 number, and tell them the claim was processed with zero
 patient responsibility. This happens more often than it
 should.
-
 :::
 
 *Your follow-up:*
@@ -170,7 +162,6 @@ should.
 ::: prompt
 Wait — so the $347 was never real? Why does it even
 show that number?
-
 :::
 
 *Your Agent:*
@@ -189,18 +180,15 @@ changed hands. The EOB shows you the full accounting
 so you can verify it — but the format makes it look
 like the $347 is the real number and the $82 is the
 discount. It's the opposite.
-
 :::
 
 ::: tip
 Paste every EOB you receive. The document is three sentences of useful information formatted as a spreadsheet designed by an actuary. Your Agent will tell you the three sentences. The entire interaction takes ninety seconds and replaces twenty minutes of confused Googling — or, worse, paying a bill you don't owe because the EOB looked like one.
-
 :::
 
 
 ::: also
 When pasting an EOB, you can type the key fields (as above) or take a photo. Claude, ChatGPT, and Gemini all accept image uploads — snap a picture of the EOB and ask "what does this say and do I owe anything?" Copilot can read pasted text but image support varies.
-
 :::
 
 
@@ -226,7 +214,6 @@ of the Security Deposit. Landlord's acceptance of
 early termination shall be at Landlord's sole
 discretion. This provision shall survive the
 termination of this Lease."
-
 :::
 
 *Your Agent's clarifying questions:*
@@ -241,7 +228,6 @@ This is worth reading carefully. A few questions:
 3. How much is your security deposit?
 4. Are you planning to stay the full lease term, or is
    there any chance you might need to leave early?
-
 :::
 
 *Your answers:*
@@ -252,7 +238,6 @@ This is worth reading carefully. A few questions:
    early termination fees.
 2. Currently $2,100, going up to $2,175.
 3. Security deposit is $2,100.
-
 :::
 
 *Your Agent decodes:*
@@ -318,12 +303,10 @@ YOUR OPTIONS:
 
 Want me to draft a response to your landlord proposing
 a modified early termination clause?
-
 :::
 
 ::: science
 Contract comprehension research consistently shows that readers focus on the terms they expect (rent amount, lease dates) and skim terms they don't (penalty clauses, liability waivers, arbitration agreements). Landlords, insurers, and employers know this. The clause that changes your financial exposure by thousands of dollars is never on page one. It is on page four, in the paragraph after the one you stopped reading.[^s1-2]
-
 :::
 
 
@@ -349,7 +332,6 @@ permits for developments exceeding 4 units, and
 establishing a 35-foot height limit in affected areas?"
 
 What does this actually do?
-
 :::
 
 *Your Agent's clarifying questions:*
@@ -362,7 +344,6 @@ work to sound neutral. Let me ask:
 2. Do you rent or own in this area?
 3. Are you near one of the affected zones, or is this
    more of a general policy question for you?
-
 :::
 
 *Your answers:*
@@ -372,7 +353,6 @@ work to sound neutral. Let me ask:
 2. I rent.
 3. My apartment is in what I think is an R-3 zone,
    based on the map in the voter guide.
-
 :::
 
 *Your Agent decodes:*
@@ -435,7 +415,6 @@ Existing single-family homeowners near R-3 zones.
 
 WHO BENEFITS IF IT FAILS:
 Future renters and the regional housing supply.
-
 :::
 
 *Your follow-up:*
@@ -443,7 +422,6 @@ Future renters and the regional housing supply.
 ::: prompt
 The mailer I got says it "protects against predatory
 developers." Is that real?
-
 :::
 
 *Your Agent:*
@@ -464,12 +442,10 @@ does: naming an enemy that everyone dislikes and
 attaching it to a policy that benefits a specific
 group. Your Agent can decode the policy. The campaign
 is a separate document — and you can paste that too.
-
 :::
 
 ::: fairness
 Ballot measures are uniquely difficult to decode because the official text is written to survive legal challenge, the campaign materials are written to persuade, and neither is written to inform. Your Agent can translate the legal text and analyze the campaign framing, but it cannot tell you how to vote. That judgment — weighing your interests, your values, and your community's needs — is yours. The AI brings the library. You bring the life. This is the line.[^s1-3]
-
 :::
 
 
@@ -477,6 +453,5 @@ Ballot measures are uniquely difficult to decode because the official text is wr
 
 ::: meme
 "PIVOT! PIVOT! PIVOT!" Ross decoded the staircase wrong and applied more force. Every document in this chapter has a geometry. Your Agent reads the geometry. You decide whether the couch fits.
-
 :::
 

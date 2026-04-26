@@ -36,19 +36,16 @@ Please:
 3. Flag any greenwashing or misleading labels I should watch for
 4. If my priorities conflict (e.g., ethical + cheapest),
    show me the tradeoff honestly
-
 :::
 *What to do with the Output:* Start with one category you buy regularly --- eggs, coffee, cleaning supplies, whatever you spend the most on without thinking. Run it through your Agent once. The research compounds: once you know which brands align with your values, the weekly shop gets faster, not slower.
 
 ::: tip
 Take a photo of the grocery aisle shelf or the product label and send it to your Agent. Ask: _"Which of these options best fits [your priorities]? What do these certifications actually guarantee?"_ This works in the store, in real time, on your phone.
-
 :::
 
 
 ::: fairness
 "Vote with your dollar" is real, but it is also a framework that works better the more dollars you have. Ethical consumption is easier at $120,000 a year than at $35,000. Your Agent will not judge your budget. If you tell it your priority is price, it will optimize for price. If you tell it your priority is ethics within a budget, it will find the best available option --- not lecture you about what you should be spending. The tool works for your values at your price point.
-
 :::
 
 
@@ -77,7 +74,6 @@ Please:
 4. Tell me what questions to ask the contractor before signing
 5. If this is a "fast, cheap, or done right — pick two"
    situation, which two is this bid optimizing for?
-
 :::
 *What to do with the Output:* Get at least two more bids for comparison --- your Agent can tell you what to ask for to make the bids comparable. The lowest bid is not the best bid. The bid that accounts for the most contingencies usually is. Before signing, read the bid with L-1: Negotiating a Contract --- once you sign, the bid becomes the contract.
 
@@ -85,25 +81,21 @@ Please:
 
 ::: meme
 Fast, cheap, and correctly done --- pick any two. This is the iron triangle of contractor work, and it is the single most useful framework for evaluating a bid. A bid that promises all three is lying about at least one. Ask your Agent which two the bid is optimizing for, and whether that matches what you actually need.
-
 :::
 
 
 ::: also
 Paste or upload your document directly — file upload works in Claude, Gemini, ChatGPT, and Copilot. See [Appendix G](06-appendix-g-feature-table.xhtml).
-
 :::
 
 
 ::: tip
 If the bid arrived as a PDF or email, copy the text — especially the line items and totals. If it is a printed estimate, photograph it with your phone and copy the text from the photo. Handwritten on a yellow pad? Send the photo directly — text recognition struggles with handwriting. See [Appendix J](09-appendix-j-working-with-text.xhtml).
-
 :::
 
 
 ::: tip
 Ask your Agent to review any design PDFs or architectural drawings attached to the bid: _"What's not specified enough in this plan for the criteria I care about?"_ Missing specifications are where change orders come from, and change orders are where budgets die.
-
 :::
 
 
@@ -138,25 +130,21 @@ Please:
    how to check if it needs water, light and humidity needs
 4. Tell me the one thing most people get wrong with this
    species
-
 :::
 *What to do with the Output:* Change one variable at a time and wait two weeks before concluding it didn't work. Plants respond slowly. If the diagnosis is "too much water," your job is to resist watering for longer than feels comfortable. Most houseplants are killed by overwatering, not neglect.
 
 ::: tip
 Send a photo. Your Agent can identify most common houseplants from a clear photo of the leaves and growth habit. Include a photo of the problem area --- the yellowing leaf, the brown tips, the white residue on the soil. Visual diagnosis is dramatically more accurate than text description for plants.
-
 :::
 
 
 ::: science
 The "green thumb" is not a personality trait. It is a knowledge gap. A 2015 study in _HortScience_ found that the primary barrier keeping consumers from buying --- and successfully keeping --- indoor plants was a deficit of practical knowledge about watering and light requirements, not inexperience or lack of botanical talent.[^ch3-1] University extension services consistently identify overwatering as the leading cause of houseplant death --- a problem that disappears once you know the species-specific requirements. Know the plant. Follow the requirements. That's the whole secret.
-
 :::
 
 
 ::: also
 To make this Expert Role persistent across sessions, save it as a *Project* (Claude), *Gem* (Gemini), or *Custom GPT* (ChatGPT). See [Appendix G](06-appendix-g-feature-table.xhtml).
-
 :::
 
 
@@ -176,7 +164,6 @@ The dish or technique I'm working on: [describe]
 What went wrong (or what I want to improve): [describe specifically]
 My equipment and skill level: [describe]
 What am I doing wrong, and what should I do differently?
-
 :::
 
 *Common culinary Expert Role specs:*
@@ -186,20 +173,17 @@ Act as a culinary instructor. I want to learn [technique:
 how to properly sauté / how to make a pan sauce / how to
 sharpen a knife / how to make stock from scratch].
 Explain the underlying principle and the step-by-step method.
-
 :::
 ::: prompt
 Act as a culinary instructor. My [dish] came out [problem:
 too salty / rubbery / bland / fell apart / didn't set].
 What went wrong and how do I fix it -- or if it's too late to fix,
 how do I prevent it next time?
-
 :::
 *What to do with the Output:* Follow the technique once exactly as described before adjusting. Cooking is chemistry — changing two variables at once means you will never know which one mattered. Keep a notes file on your phone for what worked and what did not.
 
 ::: also
 To make this Expert Role persistent across sessions, save it as a *Project* (Claude), *Gem* (Gemini), or *Custom GPT* (ChatGPT). See [Appendix G](06-appendix-g-feature-table.xhtml).
-
 :::
 
 
@@ -238,25 +222,21 @@ Please:
    increments
 4. Flag where the household friction is likely coming from
    and suggest a system, not a conversation
-
 :::
 *What to do with the Output:* Print the schedule or put it on a shared digital calendar. The system only works if everyone in the household can see it. Run it for two weeks before adjusting --- most chore systems fail because they get revised after three days, before anyone has had a chance to build the habit.
 
 ::: science
 Cognitive psychologists have measured the cost of switching between dissimilar tasks: each switch burns time on "goal-shifting" and "rule-activation," and the losses compound across a day of bouncing between unrelated chores.[^ch6-1] Occupational therapists apply a parallel insight --- grouping similar activities and planning task sequences in advance reduces both physical fatigue and decision load. The research consistently points the same direction: the obstacle to a clean house is not motivation. It is the absence of a system that works with your actual energy and schedule.
-
 :::
 
 
 ::: tip
 Ask your Agent for the _minimum effective frequency_ for each chore. Toilets need cleaning weekly. Baseboards do not. Sheets should be washed every one to two weeks. The inside of your oven can go months. Most people either clean everything too often (burnout) or nothing often enough (chaos). Your Agent can build a tiered schedule: daily tasks (5 minutes), weekly tasks (30 minutes each), and monthly tasks (one per weekend).
-
 :::
 
 
 ::: fairness
 The unequal distribution of domestic labor is one of the most documented findings in sociology. In heterosexual households, women perform roughly 60% of housework even when both partners work full-time --- and the gap is larger for households with children. This Skill builds systems, not guilt. But a system that makes the labor visible --- on a calendar, with names attached --- does more to equalize the distribution than any conversation about "helping out more" ever has.[^ch6-2]
-
 :::
 
 
@@ -292,25 +272,21 @@ Please:
 4. Identify what I should prep on Sunday to make weeknights
    faster
 5. Estimate total grocery cost for the week
-
 :::
 *What to do with the Output:* The hardest part of feeding a household is not the cooking. It is the deciding --- what to make, what to buy, what everyone will eat. That daily cognitive load is what meal planning offloads to your Agent. Start with one week. Do not plan a month --- you will not follow it. Run the plan, note what you actually ate and what went to waste, and feed that back to your Agent the following week. The plan improves as the data improves. After three weeks, your Agent knows your household better than any meal kit service.
 
 ::: science
 The USDA estimates that the average American household wastes 31.9% of its food, costing roughly $1,500 per year.[^ch7-1] The primary driver is not spoilage --- it is overbuying and poor planning. Research consistently identifies meal planning as one of the most effective household-level interventions, reducing food waste by roughly a quarter even without other changes.[^ch7-2] The math is straightforward: plan meals, buy what you need, use what you buy.
-
 :::
 
 
 ::: tip
 Take a photo of the inside of your fridge and pantry before you plan. Send the photos to your Agent with the spec. It can identify what you have, suggest meals that use up what's about to expire, and build the grocery list around what you're missing --- not what a recipe assumes you're starting from scratch with.
-
 :::
 
 
 ::: fairness
 Grocery budgets are not equal, and "healthy eating on a budget" advice that assumes access to a well-stocked grocery store is useless if you live in a food desert. Tell your Agent where you actually shop --- including dollar stores, ethnic markets, and discount grocers. It will plan around your real options, not the Whole Foods fantasy. If SNAP benefits are part of your budget, say so --- your Agent can optimize around benefit timing and eligible items without judgment.
-
 :::
 
 
@@ -344,25 +320,21 @@ Please:
    try first that sets the stain or damages the surface
 4. If I need a product I probably don't have, tell me what
    common household item substitutes
-
 :::
 *What to do with the Output:* For stain emergencies, act immediately --- stains set with time and heat. For laundry sorting and product questions, save your Agent's answers in a note on your phone. You will look this up again. Build a household cleaning reference over time: one conversation for stains, one for surfaces, one for laundry. After a few sessions, you will know 90% of what you need and only consult for the unusual cases.
 
 ::: science
 The chemistry of stain removal follows consistent principles: protein stains (blood, egg, milk) require cold water and enzymatic cleaners because heat denatures the protein and bonds it to fabric. Tannin stains (wine, coffee, tea) respond to oxidizing agents. Grease responds to surfactants. Most commercial stain removers are combinations of these three mechanisms with marketing attached. Understanding which mechanism your stain requires eliminates the guesswork --- and the shelf of 12 products you bought for 12 different stains that all needed the same enzyme.[^ch8-1]
-
 :::
 
 
 ::: tip
 Take a photo of the care label and send it to your Agent. It will decode every symbol and tell you, in plain English, exactly how to wash the garment. This is faster than Googling "what does the square with a circle inside it mean" every laundry day.
-
 :::
 
 
 ::: meme
 Bleach and ammonia together produce chloramine gas. This is not a cleaning hack. This is a chemical weapon. Your Agent will flag dangerous combinations before you mix them. If nothing else in this Skill sticks, this does: never mix bleach with ammonia, vinegar, or rubbing alcohol. Ask your Agent before combining any cleaning products you are unsure about.
-
 :::
 
 
@@ -401,7 +373,6 @@ Please:
    reinforcement methods only
 4. Tell me what the pet industry is likely to upsell me on
    and whether it's worth it
-
 :::
 *What to do with the Output:* For health concerns, your Agent is triage, not treatment. If it says "see your vet," see your vet --- and bring the Agent's summary with you. For training, consistency matters more than technique: get everyone in the household on the same protocol before you start. For nutrition, make one change at a time and observe for two weeks. For end-of-life decisions, your Agent can walk you through quality-of-life assessment scales and help you prepare for the conversation with your vet — but it cannot make the decision. See Li-1: Difficult Conversations.
 
@@ -412,7 +383,6 @@ Act as a veterinary-informed pet care advisor. I just adopted a
 [species, age, breed]. What do I need for the first two weeks ---
 supplies, vet visit checklist, household setup, and the most
 common new-owner mistakes for this species?
-
 :::
 ::: prompt
 Act as a positive-reinforcement animal trainer. My [species]
@@ -420,7 +390,6 @@ Act as a positive-reinforcement animal trainer. My [species]
 pulls on leash / won't use the litter box / is aggressive with
 other animals]. What is this behavior communicating, and what's
 the evidence-based approach?
-
 :::
 ::: prompt
 Act as a veterinary-informed pet care advisor. My [species] is
@@ -428,24 +397,20 @@ Act as a veterinary-informed pet care advisor. My [species] is
 on [date]. Help me prepare: what should I observe and record
 before the visit, what questions should I ask, and what tests
 or treatments might the vet recommend?
-
 :::
 
 ::: fairness
 Veterinary costs have increased 60% over the past decade, and pet insurance --- unlike human health insurance --- is unregulated in most states. The reader who cannot afford a $3,000 emergency surgery is not a bad pet owner. They are a person living in a country that has no safety net for veterinary care. Your Agent can help you find low-cost clinics, veterinary schools that offer reduced-price services, breed-specific rescue organizations that sometimes fund medical care, and payment plans. It can also help you understand when a $200 vet visit is genuinely necessary and when the symptom is something you can monitor at home --- a distinction that saves money and reduces unnecessary stress for the animal.[^ch9-1]
-
 :::
 
 
 ::: science
 The American Veterinary Society of Animal Behavior published a position statement in 2021 confirming that positive reinforcement is the most effective and least harmful training method across species, and that dominance-based techniques (alpha rolls, leash corrections, shock collars) increase fear, anxiety, and aggression.[^ch9-2] If a trainer --- or a search result --- recommends "showing the dog who's boss," the science says they are wrong. Your Agent draws from the current evidence base, not the 1990s.
-
 :::
 
 
 ::: also
 To make this Expert Role persistent across sessions, save it as a *Project* (Claude), *Gem* (Gemini), or *Custom GPT* (ChatGPT). See [Appendix G](06-appendix-g-feature-table.xhtml).
-
 :::
 
 
@@ -483,25 +448,21 @@ Please:
    get to everything
 5. Note which tasks a renter should request from their landlord
    and how to make that request
-
 :::
 *What to do with the Output:* Put the deadlines on your calendar now --- not the tasks, just the deadlines. "Check gutters before November 15" is more useful than a checklist you save and forget. Set a recurring reminder for each season. After one full year, you will have a personalized maintenance calendar that accounts for your specific home, and the emergency repair calls will drop dramatically. If nobody in your family owned a home before you, none of this was obvious --- you learned by emergency, and each emergency cost more than the maintenance would have. This checklist is the institutional knowledge you were not given.
 
 ::: science
 Preventive maintenance reduces home repair costs by an estimated 1--4% of the home's value per year --- for a $300,000 home, that is $3,000--$12,000 annually in avoided emergency repairs.[^ch10-1] HVAC systems that receive regular filter changes and annual servicing last 15--20 years; neglected systems fail at 8--12 years. Gutter cleaning prevents water damage that averages $2,500--$7,000 to repair. The economics are unambiguous: the cheapest repair is the one you prevent.
-
 :::
 
 
 ::: tip
 Ask your Agent to build the checklist as a calendar you can import. Most Agents can output tasks in a format you can paste into Google Calendar, Apple Reminders, or a shared household calendar. The checklist on the fridge works too --- but the one that sends you a notification on October 15 saying "clean gutters this weekend" works better.
-
 :::
 
 
 ::: fairness
 Renters: most of this checklist is your landlord's responsibility, and they may not be doing it. Your Agent can help you identify which seasonal maintenance items are legally the landlord's obligation in your state, draft a written request, and document the request in case the landlord does not act. See Ho-4: Knowing Your Rights as a Renter for the full framework. Preventing damage to the unit protects you --- deferred maintenance that causes damage can turn into a security deposit dispute, and the tenant who documented their maintenance requests in writing wins that dispute.
-
 :::
 
 
@@ -535,31 +496,26 @@ Please:
    and any retention offers I might be offered
 5. Identify where I'm paying for overlapping services
    (multiple streaming, multiple cloud storage, etc.)
-
 :::
 *What to do with the Output:* Cancel at least one thing today. Not tomorrow, not "this weekend" --- today. The activation energy for subscription cancellation drops to zero if you do the first one immediately. For services with cancellation dark patterns (looking at you, every gym and cable company), see IRL-2: Customer Service Calls for the exact script.
 
 ::: science
 A 2022 C+R Research survey found that the average American spends $219 per month on subscriptions but estimates their spending at $86 --- a 154% underestimation gap.[^ch11-1] The behavioral economics are well-documented: subscription pricing exploits status quo bias (the tendency to leave existing arrangements in place) and the "pain of paying" asymmetry (signing up feels like one small charge; cancelling feels like giving something up). Companies know this. The cancellation flow is designed around it. Your Agent does not have status quo bias. It sees a number.
-
 :::
 
 
 ::: meme
 The "free trial to paid subscription" pipeline is the Hotel California of consumer finance: you can check out any time you like, but you can never leave. Or rather, you can leave, but only by navigating a cancellation flow that requires you to call during business hours, talk to a "retention specialist," decline three increasingly desperate offers, and confirm twice that yes, you really do want to cancel the thing you never used. Your Agent can map the cancellation path before you start, so you know exactly what to expect and what to say.
-
 :::
 
 
 ::: tip
 Set a quarterly calendar reminder: "subscription audit." Paste your most recent credit card statement into your Agent and ask it to flag every recurring charge. This takes ten minutes and saves, on average, $50--$100 per quarter in forgotten or unused subscriptions. The reminder is the system. Without it, you will not do this.
-
 :::
 
 
 ::: fairness
 "Dark patterns" --- user interface designs that trick or pressure consumers into actions they did not intend --- are not accidents. They are designed, tested, and optimized. The FTC finalized a "click to cancel" rule in 2024 requiring that cancelling be as easy as signing up, though the rule was vacated on appeal in 2025 and its enforcement remains in litigation.[^ch11-2] If a company makes you call to cancel a service you signed up for online, that is a dark pattern. Your Agent can identify these, draft a complaint to the FTC if you want to file one, and help you navigate the cancellation process that was designed to make you give up.
-
 :::
 
 

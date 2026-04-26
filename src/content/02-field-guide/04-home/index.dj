@@ -12,7 +12,6 @@ _A house is the most expensive thing most people will ever be responsible for, w
 
 ::: meme
 Every episode of _[Home Improvement](https://en.wikipedia.org/wiki/Home%5FImprovement%5F(TV%5Fseries))_ followed the same structure: Tim had a theory, the theory was wrong, the drill came out, something structural failed. Al knew what the problem was from the beginning. Al said so. Tim did not listen. The third act was always preventable. The Skills in this domain are Al Borland. You are a version of Tim who is actually going to listen.
-
 :::
 
 
@@ -34,13 +33,11 @@ Please tell me:
 3. If I do need a professional, what type, and what should I
    tell them when I call?
 4. Are there any safety concerns I need to address immediately?
-
 :::
 *What to do with the Output:* If there's a safety concern, handle that first — your Agent will tell you if something needs to be turned off, unplugged, or evacuated from immediately. For everything else, try the simplest fix your Agent suggests before calling a professional. Most service calls start at $150 just to show up.
 
 ::: also
 Paste or upload your document directly — file upload works in Claude, Gemini, ChatGPT, and Copilot. See [Appendix G](06-appendix-g-feature-table.xhtml).
-
 :::
 
 
@@ -68,13 +65,11 @@ My skill level: [never done repairs / basic / comfortable with tools]
 Tools I have: [basic hand tools / power tools / neither]
 Is this urgent (affecting habitability or safety)? [yes/no]
 What do I need to know before I start, and what are the steps?
-
 :::
 *What to do with the Output:* Read the full list of steps before you start — not while you're holding a wrench. If there's a part you need, your Agent can help you find it by name and part number. Take a photo of what you're working on before you take anything apart. Future you will thank present you.
 
 ::: also
 Checking current information requires web search, which is free in Gemini, ChatGPT, and Copilot. In Claude, web search requires the paid tier. See [Appendix G](06-appendix-g-feature-table.xhtml).
-
 :::
 
 
@@ -85,14 +80,12 @@ Act as a home repair advisor. I need to [patch a hole in drywall /
 fix a running toilet / caulk a bathtub / replace a light switch /
 fix a leaking faucet]. I have never done this before.
 What do I need, and walk me through it step by step.
-
 :::
 ::: prompt
 Act as a home repair advisor. I'm trying to figure out
 whether I can do this myself or need a professional:
 [describe the repair]. My skill level is [beginner/intermediate].
 Give me an honest assessment.
-
 :::
 
 ---
@@ -113,13 +106,11 @@ My comfort level with disassembly: [never done it / done basic repairs /
 comfortable with electronics / comfortable with appliances]
 What is likely wrong, and what are my repair options
 from easiest to most involved?
-
 :::
 *What to do with the Output:* Before ordering any parts, verify part numbers against the manufacturer's parts diagram if available. [iFixit.com](https://www.ifixit.com) and YouTube are the best secondary sources for your specific model once your Agent has identified what needs fixing.
 
 ::: meme
 "It's not a bug, it's a feature." The manufacturer calling your appliance "unrepairable" is a business model, not a technical assessment. Start with your Agent's diagnosis before accepting the quote for a replacement.
-
 :::
 
 
@@ -130,20 +121,17 @@ Act as a right-to-repair technician. My [washing machine /
 dishwasher / refrigerator / dryer] is [symptom].
 It is a [brand] [model if known], approximately [age] years old.
 Walk me through diagnosing this step by step.
-
 :::
 ::: prompt
 Act as a bicycle mechanic. My [component] is [symptom].
 The bike is a [type: road/mountain/hybrid], [approximate age].
 What needs adjustment or replacement, and can I do it myself
 with basic tools?
-
 :::
 ::: prompt
 Act as a small engine repair technician. My [lawn mower /
 generator / chainsaw] [symptom]. It was last serviced [when].
 What should I check first?
-
 :::
 
 ---
@@ -176,49 +164,41 @@ Please help me:
    and what documentation do I need?
 Give me the most conservative, legally accurate answer.
 I will verify with a tenant rights organization or attorney.
-
 :::
 *What to do with the Output:* Document everything in writing. If your landlord or HOA is violating your rights, your Agent can help you draft the letter — but send it by email or certified mail so there is a record. Many cities have free tenant rights hotlines and legal aid organizations; ask your Agent to find the one in your jurisdiction. The clock on most housing disputes starts running whether you know about the deadline or not.
 
 ::: tip
 _"I just signed a lease I didn't fully understand. [Paste the section you're worried about.] What did I actually agree to, and is any of it unenforceable in [state]?"_ — The time to understand your lease is now, not when there is a dispute.
-
 :::
 
 
 ::: fairness
 Housing rights enforcement varies dramatically by race, income, and geography. Matthew Desmond's _Evicted_ (2016) documented how eviction functions less as a legal remedy of last resort than as an instrument of housing control, concentrated in Black and Latino neighborhoods even after controlling for income. The Eviction Lab at Princeton --- which tracks filings across 10 states and more than 30 cities --- recorded just over 1 million eviction cases in 2024, an average filing rate of 7.8% of renter households, with nine of its tracked cities filing above 10%.[^ho4-1] If your Agent's advice assumes a responsive landlord or a functional enforcement system, say so: _"My landlord ignores repair requests and I'm worried about retaliation if I push harder. What are my protections?"_
-
 :::
 
 
 ::: also
 Paste or upload your lease, HOA rules, or property tax assessment directly — file upload works in Claude, Gemini, ChatGPT, and Copilot. See [Appendix G](06-appendix-g-feature-table.xhtml).
-
 :::
 
 
 ::: also
 Active-duty servicemembers, National Guard and Reserve members on federal orders of 30+ days, and their dependents are covered by the Servicemembers Civil Relief Act ([50 U.S.C. §§ 3901--4043](https://uscode.house.gov/view.xhtml?path=/prelim@title50/chapter50&edition=prelim)). SCRA allows early lease termination on permanent-change-of-station or 90-day deployment orders (written notice plus a copy of the orders; the lease ends 30 days after the next rent due date), prohibits eviction from residential premises below a statutory rent ceiling (adjusted annually by the Secretary of Defense; $10,239.63 per month for 2025) without a court order, and caps interest on pre-service debts --- mortgages, credit cards, auto loans --- at 6% with written notice to the creditor. Ask your Agent: _"I'm [active duty / Guard / Reserve] and I just received [PCS / deployment] orders. Walk me through my SCRA rights for my [lease / mortgage / pre-service credit card]."_[^ho4-2]
-
 :::
 
 
 ::: fairness
 The Fair Housing Act requires landlords and HOAs to allow reasonable modifications for people with disabilities --- grab bars, ramp access, wider doorways, lever handles, reserved accessible parking --- at the tenant's expense in rentals, at the association's expense in common areas. It also requires reasonable accommodations in rules and policies: a building with a no-pets policy must permit an assistance animal with documentation of disability-related need from a healthcare provider. Assistance animals under the FHA are not limited to dogs, do not require "certification" or "registration" from any website (those sites are scams, not legal requirements), and cannot be subject to breed, size, or weight restrictions. Landlords cannot charge pet deposits or pet rent for assistance animals. These are federal rights under [42 U.S.C. § 3604(f)](https://www.law.cornell.edu/uscode/text/42/3604). They are violated routinely. The National Fair Housing Alliance's annual trends report consistently finds that disability discrimination accounts for more than half of all fair housing complaints filed nationwide --- more than race, national origin, and every other protected class combined.[^ho4-3] If your landlord or HOA denies a modification or accommodation request, file with HUD (**1-800-669-9777**) or your [local fair housing organization](https://nationalfairhousing.org/find-help/). Ask your Agent: _"My landlord [or HOA] denied my request for [modification / assistance animal / policy exception]. Draft a response citing the specific Fair Housing Act provisions that apply in [my state]."_
-
 :::
 
 
 ::: also
 Housing financial assistance exists at every level --- federal, state, and local --- but no single office explains all of it. The largest program, HUD's Housing Choice Voucher program (Section 8), subsidizes rent for low-income families, but waitlists average 2.5 years and many are closed entirely; check your [local Public Housing Authority](https://www.hud.gov/program_offices/public_indian_housing/pha/contacts) for current status. For emergencies --- imminent eviction, homelessness, domestic violence --- call **211** or visit [211.org](https://www.211.org/) for local shelters, rapid rehousing, and emergency rental assistance. In rural areas, the [USDA Section 502 Direct Loan program](https://www.rd.usda.gov/programs-services/single-family-housing-programs/single-family-housing-direct-home-loans) offers subsidized mortgages with payments as low as 1% interest for very-low-income borrowers --- a program most people have never heard of. Ask your Agent: _"What housing assistance programs am I eligible for in [city, state] given my household income of [amount] and household size of [number]?"_
-
 :::
 
 
 ::: tip
 _"I'm concerned about [water quality / air quality / soil contamination / a nearby industrial facility] near my home in [city, state]. What should I test for, who do I report it to, and what are my rights as a [renter / homeowner]?"_ --- Your Agent can explain what contaminants to test for, identify your state environmental agency's complaint process, and help you understand your legal options. The [EPA's ECHO database](https://echo.epa.gov/) tracks facility compliance near you; for drinking water, your utility's annual [Consumer Confidence Report](https://www.epa.gov/ccr) is public and your Agent can decode it.
-
 :::
 
 
@@ -236,7 +216,6 @@ fiduciary duty require, and what is the process for
 challenging this?
 Give me the most conservative, legally accurate answer.
 I will verify with a tenant rights organization or attorney.
-
 :::
 ::: prompt
 Act as a property tax advisor. I own a home in [county, state]
@@ -250,7 +229,6 @@ Walk me through the appeals process --- deadlines, evidence I need,
 and whether to pursue an informal review or formal hearing.
 Give me the most conservative, legally accurate answer.
 I will verify with my county assessor's office or a tax professional.
-
 :::
 
 [^ho4-1]: Desmond, M. (2016). [_Evicted: Poverty and Profit in the American City._](https://www.penguinrandomhouse.com/books/247816/evicted-by-matthew-desmond/) Crown. Hepburn, P., Louis, R., & Desmond, M. (2020). ["Racial and Gender Disparities among Evicted Americans."](https://www.pnas.org/doi/10.1073/pnas.2116169119) _Sociological Science_, 7, 649--662. Eviction Lab (2025). ["Preliminary Analysis: Eviction Filing Patterns in 2024."](https://evictionlab.org/ets-report-2024/) Princeton University.
@@ -276,7 +254,6 @@ Please:
 1. Explain what the main charges on a typical utility bill mean
 2. Tell me what rebate or assistance programs I likely qualify for
 3. Give me the steps to apply for the most impactful one
-
 :::
 *What to do with the Output:* Apply for the program your Agent identifies first — the one with the biggest impact and the simplest application. Most assistance programs are first-come, first-served and have enrollment windows. Do it today, not next billing cycle.
 
@@ -284,7 +261,6 @@ Please:
 
 ::: also
 Paste or upload your document directly — file upload works in Claude, Gemini, ChatGPT, and Copilot. See [Appendix G](06-appendix-g-feature-table.xhtml).
-
 :::
 
 
@@ -324,55 +300,46 @@ Please help me:
    or contracts?
 5. If I'm in a crisis situation, what immediate resources
    exist in my area?
-
 :::
 *What to do with the Output:* Start with the financial math — not what you can pay, but what you can carry without stress. Housing cost below 30% of gross income is the standard guideline, but it is a ceiling, not a target. For renters: ask your Agent to help you read the lease before you sign it (see L-1). For buyers: get pre-approved before you start looking, not after you find the place you love (see M-3). For anyone in a housing crisis: 211.org and your local Continuum of Care are the first calls.
 
 ::: tip
 _"I found a listing I like. Here is the description: [paste]. What questions should I ask at the showing that the listing doesn't answer? What am I not seeing?"_
-
 :::
 
 
 ::: fairness
 Housing discrimination is illegal under the Fair Housing Act but remains pervasive. Testing studies consistently show that Black and Latino renters and buyers are shown fewer units, quoted higher prices, and steered to different neighborhoods than white applicants with identical qualifications. If you suspect discrimination, document everything and file with HUD (1-800-669-9777) or your local fair housing organization. Your Agent can help you identify the pattern and draft the complaint.
-
 :::
 
 
 ::: science
 The National Low Income Housing Coalition's _Out of Reach_ report, which tracks the gap between prevailing wages and HUD Fair Market Rents, found that the 2025 national Housing Wage --- what a full-time worker must earn to afford a modest two-bedroom rental without spending more than 30% of income on housing --- is $33.63 per hour. That is more than four times the federal minimum wage of $7.25. A federal-minimum-wage worker would need to work roughly 186 hours per week --- about 4.6 full-time jobs --- to afford a two-bedroom at Fair Market Rent. There is no state, metropolitan area, or county in the United States where a full-time federal, state, or local minimum-wage worker can afford that unit. The math is the point: when your Agent tells you what you "should" be able to afford at 30% of income, compare it to what's actually available in your market. The gap is structural, not personal.[^ho6-1]
-
 :::
 
 
 ::: also
 If you served on active duty --- or as a National Guard or Reserve member with qualifying federal service --- you may be eligible for a [VA home loan](https://www.va.gov/housing-assistance/home-loans/), which requires no down payment, no private mortgage insurance, and no monthly PMI premium at any loan-to-value ratio. Since the Blue Water Navy Vietnam Veterans Act (2020), there is no maximum loan amount for first-time users with full entitlement; VA loans are also assumable by other VA-eligible buyers, which becomes valuable when interest rates rise. The [VA funding fee](https://www.va.gov/housing-assistance/home-loans/funding-fee-and-closing-costs/) is 2.15% for first use with less than 5% down, lower with a larger down payment or on a refinance, and is waived entirely for veterans with a service-connected disability rating, surviving spouses receiving DIC, and Purple Heart recipients on active duty. The [Interest Rate Reduction Refinance Loan (IRRRL)](https://www.va.gov/housing-assistance/home-loans/loan-types/interest-rate-reduction-loan/) allows streamlined refinancing of an existing VA loan with minimal documentation. VA appraisal standards are stricter than conventional; budget time for that. Ask your Agent: _"I'm a [service status] looking to [buy / refinance]. Walk me through VA loan eligibility, the funding fee calculation for my situation, and how a VA loan compares to FHA and conventional for my purchase price and down payment."_[^ho6-2]
-
 :::
 
 
 ::: science
 The belief that "renting is throwing money away" is one of the most persistent and least examined financial assumptions in American culture. The actual math: in the first decade of a 30-year mortgage, roughly 60--70% of each payment goes to interest --- money paid to the bank rather than the landlord. Add property taxes (national median effective rate: 1.02% of home value annually), homeowners insurance, maintenance (budget 1--2% of home value per year), and transaction costs (5--6% of sale price when you sell), and the break-even horizon --- the time you must stay in the home for buying to outperform renting and investing the difference --- is typically five to seven years, and longer in high-cost markets.[^ho6-3] The New York Times Rent vs. Buy calculator, which accounts for local data, opportunity cost, and appreciation rates, is the best free tool for running the numbers. Ask your Agent to help you gather the inputs --- the answer is genuinely different for a 28-year-old in Austin than a 55-year-old in Cleveland, and neither answer is wrong.
-
 :::
 
 
 ::: also
 If you or someone you know is experiencing homelessness or at immediate risk of losing housing: call **211** (24/7 in most areas) or visit [211.org](https://www.211.org/) for local shelters, transitional housing, and rapid rehousing programs. [HUD's Find Shelter tool](https://www.hud.gov/findshelter) searches by ZIP code. For domestic violence situations, the National Domestic Violence Hotline (**1-800-799-7233**) connects to emergency shelter. If you have school-age children, the McKinney-Vento Act requires public schools to enroll them immediately --- without records, proof of residency, or proof of guardianship --- and every district is required to have a McKinney-Vento liaison; ask for them by title. These resources are available regardless of immigration status.
-
 :::
 
 
 ::: tip
 _"I'm a first-time homebuyer with household income of [amount] in [city, state]. Walk me through every step from where I am now to closing --- including what I need to save, what first-time buyer and down payment assistance programs exist in my state, and the mistakes that cost first-time buyers the most money."_ --- Down payment assistance programs exist in every state; many first-time buyers qualify and don't know it.
-
 :::
 
 
 ::: tip
 _"I'm relocating from [city, state] to [city, state] by [date]. Walk me through the full cascade: finding housing, utilities, vehicle registration and driver's license, voter registration, finding a doctor and dentist, enrolling kids in school if applicable, and anything I'm not thinking of."_ --- A move involves roughly 40 administrative tasks across two jurisdictions. Your Agent can generate the complete checklist for your specific origin and destination states.
-
 :::
 
 [^ho6-1]: National Low Income Housing Coalition (2025). [_Out of Reach 2025: The High Cost of Housing._](https://nlihc.org/oor) Annual report comparing Housing Wage to prevailing wages by state, metro, and county.
@@ -399,19 +366,16 @@ Here is my situation:
 — How long it's been going on: [timeframe]
 — Recent changes: [new fertilizer, watering change, weather event, etc.]
 What is likely causing this, and what should I do?
-
 :::
 *What to do with the Output:* Start with the least invasive intervention your Agent suggests. If the problem persists after one week, come back and describe what changed (or didn't). The refinement loop applies to plants as well as paperwork.
 
 ::: tip
 Add your soil type, sun exposure, and recent rainfall to the spec if you have it. The more specific the situation, the more specific the advice.
-
 :::
 
 
 ::: also
 To make this Expert Role persistent across sessions, save it as a *Project* (Claude), *Gem* (Gemini), or *Custom GPT* (ChatGPT). See [Appendix G](06-appendix-g-feature-table.xhtml).
-
 :::
 
 
@@ -423,14 +387,12 @@ Act as a Master Gardener. I want to start a vegetable garden in
 I want to grow [goals: food for family / cut flowers / low maintenance].
 My experience level is [beginner/intermediate].
 What should I plant, when, and in what order of priority?
-
 :::
 ::: prompt
 Act as a Master Gardener specializing in soil health.
 My soil is [clay/sandy/unknown]. My plants seem to be
 [struggling / doing fine but I want to improve].
 What amendments should I add, and how do I apply them?
-
 :::
 
 ---
@@ -463,25 +425,21 @@ Please help me:
 5. How do I set up a family communication plan --- who
    calls whom, what if phones are down?
 Give me the most conservative, safety-first answer.
-
 :::
 *What to do with the Output:* Do not try to do everything this week. Pick the three highest-priority items from your Agent's list and do those first. A partial kit that exists is infinitely better than a complete plan that doesn't. Store digital copies of your important documents in a cloud account you can access from any device --- your Agent can tell you exactly which documents to photograph and how to organize them.
 
 ::: science
 FEMA's 2024 National Household Survey on Disaster Preparedness found that 83% of respondents reported taking at least three preparedness actions in the past year --- up from 57% in 2023 --- but only 32% felt confident both in their ability to prepare and that preparation would make a significant difference. A persistent gap separates homeowners (73% with emergency supplies) from renters (60%), and cost was the single most common barrier, named by 26% of respondents. The barrier, in other words, is rarely willingness; it is initiation, confidence, and money.[^ho8-1]
-
 :::
 
 
 ::: tip
 _"I have 30 minutes and $50 this weekend. What is the single most impactful thing I can do right now to be more prepared for an emergency in [my city]?"_ --- Start small. Your Agent will prioritize by risk.
-
 :::
 
 
 ::: fairness
 Disaster impact is not distributed equally. Eric Klinenberg's _Heat Wave_ (2002) reconstructed the 1995 Chicago disaster that killed more than 700 people in a single week and found that mortality concentrated in depleted, largely Black neighborhoods on the city's south and west sides --- not because heat is racist, but because institutional abandonment, social isolation of the elderly, and the privatization of cooling made survival depend on resources the neighborhood had been stripped of. Robert Bullard and Beverly Wright's _Race, Place, and Environmental Justice After Hurricane Katrina_ (2009) extended the pattern to recovery itself: low-income and communities-of-color disaster victims spend more time in temporary housing and shelters, face greater barriers to loans and insurance settlements, and are more vulnerable to permanent displacement.[^ho8-2] If your Agent's advice assumes you own your home, have savings, or can relocate temporarily, say so: _"I rent, I don't have savings for a hotel, and I have no car. What are my options if I need to evacuate?"_
-
 :::
 
 
@@ -521,31 +479,26 @@ Please help me:
    works for my living situation?
 5. What should I donate vs. trash vs. sell, and where
    specifically in [my city] can I do each?
-
 :::
 *What to do with the Output:* Start with the first zone your Agent identifies --- the one that will make the biggest daily difference. Do not reorganize the garage before you can find your keys. Set a timer for two hours, work the plan, and stop. Decluttering in marathon sessions leads to decision fatigue and a pile of things in the hallway that stays there for a month.
 
 ::: science
 Decision fatigue is real and measurable. Studies on cognitive depletion show that the quality of decisions degrades after sustained periods of choosing, which is exactly what decluttering demands --- hundreds of keep-or-discard decisions in sequence. Working in short, focused sessions with clear categories (not "does this spark joy?" but "have I used this in 12 months?") reduces the cognitive load and produces better outcomes.[^ho9-1]
-
 :::
 
 
 ::: meme
 In _[Friends:S6E6 "The One on the Last Night"](https://en.wikipedia.org/wiki/The_One_on_the_Last_Night)_, 2000 --- Monica cannot let Chandler move in without reorganizing the entire apartment first. The lesson, as always with Monica, is that the system matters more than the sentiment. She is correct. She is also exhausting. Your Agent has the organizational instinct without the 3 a.m. label maker.
-
 :::
 
 
 ::: tip
 _"I don't want to buy anything. I have [describe what you have --- cardboard boxes, some bins, a small closet]. How do I organize [area] with only what I already own?"_ --- The best organization system is the one you'll maintain with zero additional purchases.
-
 :::
 
 
 ::: fairness
 Hoarding disorder is a recognized mental-health condition in DSM-5, not a lifestyle choice; meta-analyses place its prevalence at roughly 2.5% of adults, with higher rates in older adults and in people living with anxiety or depression.[^ho9-2] When clutter is causing serious distress, functional impairment, household conflict, or safety risks --- blocked exits, mold, fire load, eviction risk --- no organization system is the right tool. The right tool is a clinician trained in hoarding treatment (typically CBT) and, where available, a local hoarding task force. The [International OCD Foundation](https://iocdf.org/about-ocd/related-disorders/hoarding/) maintains a therapist directory. If this sounds like you or someone you love, ask your Agent: _"I think [I / my family member] may be living with hoarding disorder, not just clutter. Help me understand what that means clinically, what gentle steps look like, and how to find a therapist or local task force."_
-
 :::
 
 
@@ -587,37 +540,31 @@ Please help me:
    what must my landlord provide?
 Give me practical, evidence-based recommendations.
 I don't want to be sold a subscription I don't need.
-
 :::
 *What to do with the Output:* Start with the items your Agent flags as missing from the basics --- working smoke detectors on every level, a CO detector near sleeping areas, a fire extinguisher in the kitchen, and functional deadbolts on exterior doors. These are not optional. They are the safety equivalent of seatbelts. Everything after that is risk-specific and budget-dependent. If you rent, check your Agent's output against Ho-4 --- your landlord may be legally required to provide several of these.
 
 ::: science
 The National Fire Protection Association reports that nearly three out of five home fire deaths occur in properties with no smoke alarms (41%) or alarms that failed to operate (16%). Working alarms cut the risk of dying in a home fire by about 55%. Ninety-nine percent of U.S. households say they have at least one alarm, but 61% test less often than monthly and 33% never test at all --- which is how "I have a smoke alarm" turns into "the smoke alarm did not go off." Replace batteries annually or switch to 10-year sealed units. Your Agent can remind you; the battery does not replace itself.[^ho10-2]
-
 :::
 
 
 ::: science
 The research on visible cameras as deterrents is genuinely mixed and context-dependent. The most rigorous synthesis --- Welsh and Farrington's systematic review and meta-analysis of 44 CCTV evaluations --- found a modest 16% overall reduction in crime in surveilled areas, concentrated in car parks (51% reduction in vehicle crime) and effectively zero for violent crime. A newer 40-year meta-analysis by Piza, Welsh, Farrington, and Thomas found broadly similar results: largest effects for property crime in parking facilities, smaller effects elsewhere, and the strongest programs combine cameras with other active measures (improved lighting, monitoring, response protocols). The honest summary: cameras are better at recording incidents than preventing them, and a doorbell camera is a documentation tool, not a deterrent. Match the tool to the actual risk --- package theft (documentation), break-ins (locks and lighting first), and violent confrontation (the police or, if the person has access to your home, see the FAIRNESS below).[^ho10-3]
-
 :::
 
 
 ::: tip
 _"I rent and my landlord hasn't installed [smoke detectors / CO detectors / proper locks]. What does [my state] law require them to provide, and what's the most effective way to make them do it?"_ --- Combine this with Ho-4 for the legal framework.
-
 :::
 
 
 ::: fairness
 Home security marketing disproportionately targets fear --- and that fear is not evenly distributed. Surveillance technology marketed as "security" can become a tool of harassment in domestic violence situations: The Hotline's 2022 research reported that essentially every survivor it surveyed had experienced at least one form of technology-facilitated abuse, from GPS tracking to compromised accounts to weaponized smart-home devices.[^ho10-4] Neighborhood surveillance apps have also documented patterns of racial profiling. If your concern is personal safety from someone you live with or near, hardware is not the answer --- the National Domestic Violence Hotline (**1-800-799-7233**, or text "START" to 88788) can help with a safety plan that accounts for the tech you already have. Ask your Agent: _"I'm worried about [current or former partner / household member] having access to my accounts, location, or smart-home devices. Help me audit what they might reach and take the specific steps to lock it down without escalating the situation."_
-
 :::
 
 
 ::: meme
 The _[Home Improvement:S4E1 "Back in the Saddle Shoe"](https://en.wikipedia.org/wiki/Home_Improvement_(season_4))_, 1994 --- Tim installs a home security system. It goes off seventeen times in the first night. Al would have started with the locks. Start with the locks.
-
 :::
 
 

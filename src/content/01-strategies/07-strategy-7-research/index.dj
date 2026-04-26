@@ -41,12 +41,10 @@ My situation is [relevant context].
 Please give me what I need to know, flag anything I should
 specifically ask about, and tell me what I should verify
 independently before proceeding.
-
 :::
 
 ::: science
 Research on [health literacy](https://en.wikipedia.org/wiki/Health%5Fliteracy) consistently identifies pre-decision information-seeking as a significant predictor of patient satisfaction and outcomes (Berkman et al., 2011). The same principle applies to financial and legal decisions: the quality of commitment correlates with the quality of pre-commitment information. Your Agent reduces the cost of that research to nearly zero.[^s7-1]
-
 :::
 
 
@@ -54,7 +52,6 @@ Research on [health literacy](https://en.wikipedia.org/wiki/Health%5Fliteracy) c
 
 ::: tip
 "Tell me what I should verify independently before proceeding." This is the Research power move. It forces your Agent to sort its own knowledge into two categories: things it can explain confidently, and things that require a phone call, a second opinion, or a document you haven't read yet. Every Research spec should end with this line. It turns a question into a checklist.
-
 :::
 
 
@@ -72,7 +69,6 @@ The situation: your orthopedist looked at an MRI and recommended arthroscopic su
 My doctor says I need knee surgery for a torn meniscus.
 It's arthroscopic, outpatient. They want to schedule it
 for next month. What should I know before I say yes?
-
 :::
 
 *Your Agent's clarifying questions:*
@@ -92,7 +88,6 @@ sharpen the research:
    on-your-feet work.
 5. Is there a medical reason for the urgency, or is this
    scheduling convenience?
-
 :::
 
 *Your answers:*
@@ -106,7 +101,6 @@ sharpen the research:
    after that.
 4. On my feet most of the day---I work in a warehouse.
 5. No urgency mentioned. Just "let's get you scheduled."
-
 :::
 
 *Your Agent:*
@@ -176,7 +170,6 @@ WHAT TO VERIFY INDEPENDENTLY
 
 Give me the most conservative answer. I will verify
 with my orthopedist before deciding.
-
 :::
 
 *Your follow-up:*
@@ -184,7 +177,6 @@ with my orthopedist before deciding.
 ::: prompt
 Wait---my doctor didn't mention physical therapy as
 an option. Is that normal?
-
 :::
 
 *Your Agent:*
@@ -208,12 +200,10 @@ opinion your insurance already covers.
 You are not challenging your doctor by asking
 questions. You are doing what the billionaire class
 has always done: showing up informed.
-
 :::
 
 ::: also
 All four major AI tools can read medical documents. Upload your MRI report as a PDF or photo. Claude calls this document analysis, ChatGPT calls it file upload, Gemini reads documents natively in conversation, and Copilot handles PDFs in Microsoft Edge. The radiology terminology is the same across all of them. The feature name is the only thing that changes.
-
 :::
 
 
@@ -230,7 +220,6 @@ I'm starting a new job as a vet tech and the employment
 agreement has a non-compete clause. It says I can't work
 in veterinary services within 20 miles for 18 months if
 I leave. Is this normal? Should I be worried?
-
 :::
 
 *Your Agent's clarifying questions:*
@@ -249,7 +238,6 @@ things will sharpen the research:
    non-compete?
 5. Have you signed yet, or are you reviewing before
    your start date?
-
 :::
 
 *Your answers:*
@@ -262,7 +250,6 @@ things will sharpen the research:
 4. No signing bonus. No training clause. Just the
    standard employment agreement.
 5. Haven't signed yet. Start date is in two weeks.
-
 :::
 
 *Your Agent:*
@@ -324,7 +311,6 @@ WHAT TO VERIFY INDEPENDENTLY
   against a departing employee?" The answer tells you
   whether this is a real business concern or
   boilerplate.
-
 :::
 
 *Your follow-up:*
@@ -333,7 +319,6 @@ WHAT TO VERIFY INDEPENDENTLY
 Can I actually negotiate this? I'm a vet tech, not
 a lawyer. I don't want to lose the job offer by
 making waves before I even start.
-
 :::
 
 *Your Agent:*
@@ -362,12 +347,10 @@ started.
 Either way, you're making the decision with
 information instead of without it. That's what
 Research is for.
-
 :::
 
 ::: fairness
 Non-competes disproportionately bind workers with the least negotiating power. A senior veterinarian with a portable client book can negotiate the clause, absorb the restriction, or hire a lawyer to challenge it. A vet tech making $48,000 cannot afford 18 months of career freeze within a 20-mile radius. The same clause applied to both workers has radically different impacts. Several states have recognized this asymmetry and passed salary thresholds below which non-competes are unenforceable. Your Agent can tell you whether your state is one of them---and what your options are if it isn't.
-
 :::
 
 ### Example 3: Between Two College Financial Aid Letters
@@ -414,7 +397,6 @@ Financial Aid:
   Federal Direct Unsubsidized Loan: $2,000
 Total Aid: $43,395
 Remaining Cost: $9,405
-
 :::
 
 *Your Agent's clarifying questions:*
@@ -437,7 +419,6 @@ comparison:
 5. Do you have a 529 plan or other savings, or
    would the remaining cost come from income and
    loans?
-
 :::
 
 *Your answers:*
@@ -452,7 +433,6 @@ comparison:
    experience.
 5. No 529. No savings. Whatever isn't covered,
    we'd have to figure out---loans, I guess.
-
 :::
 
 *Your Agent:*
@@ -556,7 +536,6 @@ WHAT TO VERIFY BEFORE YOU COMMIT
 
 I will verify these figures with each school's
 financial aid office before committing.
-
 :::
 
 *Your follow-up:*
@@ -564,7 +543,6 @@ financial aid office before committing.
 ::: prompt
 School B looks cheaper in year one but you're
 saying it might not be in year two?
-
 :::
 
 *Your Agent:*
@@ -603,12 +581,10 @@ encounter. It is not designed to be understood.
 It is designed to look generous. Your job is to
 call the number on the letter and ask the
 questions the letter didn't answer.
-
 :::
 
 ::: science
 First-generation college students and their families consistently overestimate the value of financial aid packages and underestimate the true cost of attendance. Perna (2006) found that information asymmetry in college choice is not random---it falls along class and race lines, with low-income and first-generation families receiving less effective financial counseling at every stage of the process. The financial aid letter is where this asymmetry does its most expensive work.[^s7-3]
-
 :::
 
 
@@ -616,7 +592,6 @@ First-generation college students and their families consistently overestimate t
 
 ::: meme
 The Conners at the kitchen table. Papers spread out between them. Coffee going cold. Roseanne doing the math on the back of an envelope while Dan reads the fine print with his glasses pushed up on his forehead. The information existed---the grant renewal policy, the surgical alternative, and the non-compete case law in their state. The financial aid office was not going to volunteer it. The surgeon's scheduler was not going to mention physical therapy. The HR department was not going to flag that the clause might be unenforceable. Roseanne would have called every number on the list. Now you have the list.
-
 :::
 
 ---

@@ -40,31 +40,26 @@ Please help me:
 3. Explain the composition rules that matter most for what
    I photograph — skip the ones that don't apply
 4. Tell me what my phone camera can do that I'm probably not using
-
 :::
 *What to do with the Output:* Take ten photos using the advice. Compare them to your last ten. The difference between a snapshot and a photograph is usually three things: where you stand, where the light is, and what you leave out of the frame. Your Agent can tell you all three. You have to move your feet.
 
 ::: tip
 _"Here's a photo I took [attach image]. What would a professional photographer change about the composition, lighting, and framing?"_ — Your Agent can analyze the specific photo and give you feedback you can apply to the next one.
-
 :::
 
 
 ::: also
 Photo analysis requires vision capabilities, available on free tiers in Claude, ChatGPT, Gemini, and Copilot. Upload the image directly — no special mode needed. See [Appendix G](06-appendix-g-feature-table.xhtml).
-
 :::
 
 
 ::: meme
 Everyone alive is carrying a camera more capable than anything Ansel Adams ever used. Most of us use it to photograph our parking spot so we remember where we parked, and the whiteboard after a meeting. The camera is not the problem. Nobody taught us to see.
-
 :::
 
 
 ::: science
 The gap between a snapshot and a photograph is not equipment or talent — it is a handful of learnable composition principles. The [iPhone Photography Awards](https://www.ippawards.com/) have showcased gallery-quality work shot entirely on phones since 2007, proving the sensor in your pocket is not the constraint. What separates those images is a vocabulary — the rule of thirds, leading lines, negative space, the quality and direction of light — that working photographers internalize through training most people never receive. Arnheim (1954) established that visual perception follows predictable organizational principles; Freeman (2007) translated those principles into practical photographic technique used in photography programs worldwide. The rules are teachable in an afternoon. The billionaire class pays someone who already knows them.[^cr1-1]
-
 :::
 
 
@@ -103,7 +98,6 @@ Please:
    not a list of ten, one combination that works
 4. Tell me what makes amateur design look amateur and
    how to fix it in my specific piece
-
 :::
 *What to do with the Output:* Make the thing. Then screenshot it and send it back to your Agent: _"Here's what I made. What would a professional designer change?"_ Design is iterative — the first version is never the final one. Each round of feedback teaches you something the principles alone cannot: how to see what is wrong. That skill transfers to everything you design after this.
 
@@ -115,31 +109,26 @@ nonprofit / community organization] called [name]. Help me
 develop a simple visual identity: one font pairing, a color
 palette of 3-4 colors, and guidelines I can follow so
 everything I make looks like it belongs together.
-
 :::
 ::: prompt
 Act as an accessibility consultant. Here's my [poster / website
 screenshot / flyer]. Tell me what someone with low vision,
 color blindness, or a reading disability would struggle with,
 and how to fix it without starting over.
-
 :::
 
 ::: tip
 _"I made this flyer in Canva [attach screenshot]. It looks wrong but I can't figure out why. Diagnose it like a design teacher would."_ — The diagnosis is worth more than a new template. Once you can see the problem, you stop making it.
-
 :::
 
 
 ::: also
 Visual critique requires image upload. Claude, ChatGPT, Gemini, and Copilot all support this on free tiers. See [Appendix G](06-appendix-g-feature-table.xhtml).
-
 :::
 
 
 ::: fairness
 Design tools like [Canva](https://en.wikipedia.org/wiki/Canva) are free and powerful, but their templates encode specific aesthetic assumptions — minimalist, tech-industry, predominantly Western. If your audience is a Black church congregation, a quinceañera, or a Lunar New Year celebration, the default templates will not serve you. Tell your Agent who the audience is and what visual traditions they expect. Design that ignores its audience is not design. It is decoration.
-
 :::
 
 
@@ -176,25 +165,21 @@ Please help me:
 3. Tell me the three editing principles that will make the
    biggest difference in my specific project
 4. Tell me what to cut — beginners always leave too much in
-
 :::
 *What to do with the Output:* Start with the cut list. The hardest part of editing is not the software — it is accepting that most of your footage does not belong in the final version. A three-hour vacation produces a five-minute video. A one-hour birthday party produces ninety seconds. Your Agent can help you identify what matters. Front-load the best moment — viewers decide in seconds whether to keep watching. Start with action, not a title card. The software part is just buttons, and your Agent knows where every button is in whatever editor you picked.
 
 ::: tip
 _"I have [X] hours of footage from [event]. Help me select the 10-15 best moments for a [length]-minute video. I want the viewer to feel [emotion]."_ — Tell your Agent the feeling, not just the facts.
-
 :::
 
 
 ::: meme
 Your parents' home movies were forty-five minutes of someone's thumb over the lens, a child blowing out candles from across the room, and an abrupt cut to a parking lot. They are still the most valuable footage the family owns. The goal is not a Spielberg film. The goal is a version of those forty-five minutes that someone will actually watch again.
-
 :::
 
 
 ::: also
 For editing advice and step-by-step software guidance, any major AI tool works well — the conversation is text-based. For analyzing your actual footage or screenshots of your timeline, you need vision capabilities: available in Claude, ChatGPT, Gemini, and Copilot on free tiers. See [Appendix G](06-appendix-g-feature-table.xhtml).
-
 :::
 
 
@@ -232,31 +217,26 @@ Please help me:
    in order, with specific steps for my tool
 4. Tell me why bedroom productions sound amateur and what
    the fixes are
-
 :::
 *What to do with the Output:* Make something. It will not be good. That is correct. The first pancake never is. Save it, make another one next week, and compare them in a month. The gap between "I made a sound" and "I made a song" is smaller than you think, and it closes faster than you expect. Your Agent can critique each version and tell you what changed. If someone told you as a child that you can't sing or should just mouth the words, that verdict was almost certainly wrong. What you lacked was instruction, not ability.
 
 ::: tip
 _"Here's a melody I hummed into my phone [attach audio]. What key is it in, what chords would go under it, and how do I build a track around it in [GarageBand / BandLab]?"_ — Your Agent can work from what you already hear. You don't need to read sheet music to have a musical idea.
-
 :::
 
 
 ::: science
 Music-making is one of the most thoroughly studied forms of human cognitive engagement. Zatorre & Salimpoor (2013) demonstrated that music activates the brain's reward system — the same dopamine pathways triggered by food and social bonding — and that this activation occurs during both listening and creating. Importantly, the barrier to these cognitive benefits is participation, not expertise: Hallam (2010) found that active music-making at any skill level improves executive function, working memory, and emotional regulation in adults. The expensive part was never the brain's willingness to engage. It was the $40-a-lesson price of participation.[^cr5-1]
-
 :::
 
 
 ::: meme
 The Beatles recorded _Sgt. Pepper's_ on a four-track tape machine with less processing power than a greeting card that plays "Happy Birthday." You have more music production capability on your phone than existed in any recording studio before 1990. The technology is not the constraint. The constraint is that nobody handed you the manual.
-
 :::
 
 
 ::: fairness
 Your Agent's knowledge of music theory and production technique reflects the Western popular and classical traditions that dominate its training data. If you're making music rooted in other traditions — West African polyrhythm, Indian raga, Latin American clave patterns, Appalachian modal tuning — tell your Agent explicitly. _"I'm working in [tradition]. Don't default to Western chord progressions or 4/4 time signatures."_ The theory is not universal. The impulse to make music is.
-
 :::
 
 
@@ -264,7 +244,6 @@ Your Agent's knowledge of music theory and production technique reflects the Wes
 
 ::: also
 GarageBand ships free on every Apple device. [BandLab](https://www.bandlab.com/) runs entirely in a browser — no download, no account fees — with 370+ instruments and up to 16 tracks per project on the free tier (15-minute project duration limit). Between them, the equipment barrier is zero.
-
 :::
 
 
@@ -299,31 +278,26 @@ Please help me:
    workflow for a typical episode
 4. Explain how to set up an RSS feed and get listed on Apple
    Podcasts and Spotify — step by step
-
 :::
 *What to do with the Output:* Record your first episode. It will be too long. That is normal. The single most useful edit you can make to any podcast episode is cutting the first two minutes — the part where you were warming up and didn't realize it. Your Agent can help you find the real start.
 
 ::: tip
 _"Here's a rough recording of my podcast episode [attach audio or describe content]. Help me write a cut list: what to remove, what to tighten, and where I'm losing the listener."_ — Editing audio is the same skill as editing video: knowing what to cut matters more than knowing which buttons to press.
-
 :::
 
 
 ::: science
 Podcasting's growth as a medium tracks directly with economic accessibility. Edison Research's Infinite Dial reports show podcast listenership in the US grew from 11% of the population in 2006 to over 42% by 2023. The creation side is equally striking: [Anchor](https://en.wikipedia.org/wiki/Anchor_(podcasting)) (now Spotify for Podcasters) made podcast creation as simple as pressing record on a phone, driving the majority of new podcast submissions on the platform. The medium's accessibility is not incidental — it is structural. Audio production requires less equipment than video, less bandwidth than streaming, and less visual self-presentation than any camera-based format. For communities historically excluded from broadcast media, this matters.[^cr6-1]
-
 :::
 
 
 ::: meme
 In 1995, getting your voice heard by a thousand people required a radio station, a record label, or a very large megaphone. In 2025, it requires a phone and an RSS feed. The gatekeepers did not open the gate. Someone built a different road. You're allowed to use it.
-
 :::
 
 
 ::: fairness
 Podcast discoverability algorithms favor shows that publish consistently on a schedule — which favors people who have predictable free time. If you're working shifts, caregiving, or managing an unpredictable schedule, a biweekly or monthly release works fine. Tell your Agent your actual time constraints: _"I can spend two hours every other Saturday on this. Build me a workflow that fits."_ A show that publishes six episodes is worth more than a show that publishes one and burns out.
-
 :::
 
 
@@ -364,31 +338,26 @@ Please help me:
    anything from basic geometric forms
 4. Show me how to see what I'm actually looking at instead of
    what I think I'm looking at — the core Edwards technique
-
 :::
 *What to do with the Output:* Draw for fifteen minutes. Not thirty, not an hour — fifteen. The research is clear that short, consistent practice sessions build perceptual skills faster than occasional marathons. Take a photo of what you drew, send it to your Agent, and ask: _"What's the one thing I should fix in the next version?"_ One thing. Not ten.
 
 ::: science
 Betty Edwards' _Drawing on the Right Side of the Brain_ (1979) established the foundational insight that drawing is a teachable perceptual skill, not an inherited talent. Her research showed that when students learn to override their brain's symbolic processing — drawing what they see rather than what they know — dramatic improvement occurs in hours, not years. Chamberlain et al. (2015) confirmed this in a study of over 600 art students: deliberate practice and observational technique — not innate talent — predicted drawing accuracy, and these skills transferred across subjects. You are not bad at drawing. You were taught to see symbolically, which is useful for reading and terrible for rendering.[^cr7-1]
-
 :::
 
 
 ::: tip
 _"I drew this [attach photo of drawing]. Don't tell me it's good. Tell me what a drawing instructor would say: what's the one structural problem, and what exercise would fix it?"_ — Honest critique is the most expensive thing about art instruction. Your Agent provides it for free and without the awkward classroom silence.
-
 :::
 
 
 ::: meme
 Every adult who says "I can't draw" means "I stopped drawing at age ten and the last thing I drew was a house with a sun in the corner and smoke coming out of the chimney in a perfect spiral." That house is where your drawing development was frozen. It has been waiting for you to come back.
-
 :::
 
 
 ::: fairness
 AI image generators can produce illustrations, but that is not what this Skill is about. This Skill is about _you_ learning to draw — the perceptual practice, the hand-eye coordination, the satisfaction of making a mark that means what you intended. Your Agent is the teacher, not the artist. It explains perspective, critiques your proportions, and designs your practice routine. The pencil is in your hand. That is the point.
-
 :::
 
 
@@ -433,31 +402,26 @@ Please help me:
    about where beginners typically make mistakes
 4. Teach me the one fundamental skill this project uses that
    transfers to everything else in this craft
-
 :::
 *What to do with the Output:* Make the thing. Use the cheapest materials available for your first version — fabric from a thrift store, scrap wood from a construction site or Habitat ReStore, free filament samples from a makerspace. Your first attempt is a learning tool, not a finished product. Take photos as you go and send them to your Agent when you hit a problem. _"I'm at step 4 and it looks like this [attach photo]. What am I doing wrong?"_ The feedback loop is what makes craft learnable without an apprenticeship.
 
 ::: science
 The maker movement's educational value is well-documented. Halverson & Sheridan (2014) found that making — defined as the design and construction of physical artifacts — develops spatial reasoning, iterative problem-solving, and a tolerance for productive failure that transfers to domains far beyond the workshop. Notably, the benefits are not contingent on the sophistication of the tools: hand-sewing produces the same cognitive engagement as CNC machining. The skill is the design thinking, not the equipment.[^cr8-1]
-
 :::
 
 
 ::: tip
 _"I want to fix [this specific thing that's broken — attach photo]. It's made of [material]. I have [these tools]. Walk me through the repair like I've never done this before."_ — Repair is the entry point to craft. Every object you fix teaches you how that object was made. See also Ho-3: Right to Repair.
-
 :::
 
 
 ::: meme
 Your grandparents did not have a "makerspace." They had a garage, a sewing room, and the reasonable expectation that a grown adult could hem a pair of pants, fix a leaky faucet, and build a bookshelf without hiring someone. Then the economy decided it was more profitable to sell you new pants, a new faucet, and a bookshelf from IKEA. The skills didn't become obsolete. They became optional. You can opt back in.
-
 :::
 
 
 ::: fairness
 Makerspaces are not evenly distributed. They cluster in cities, near universities, and in neighborhoods with disposable income. If there is no makerspace near you, your local public library may have one — hundreds of US public libraries now offer maker equipment including 3D printers, and the number grows every year. If not, many crafts require only hand tools and a flat surface. Tell your Agent your actual constraints: _"I have no workshop, a budget of $20, and a kitchen table. What can I make?"_ The answer is more than you think.
-
 :::
 
 
@@ -499,31 +463,26 @@ Please help me:
    what's working, what isn't, and what question the piece
    is really asking — which might not be the question I think
    I'm asking
-
 :::
 *What to do with the Output:* Write. Not for an hour — for twenty minutes. Set a timer. Write badly on purpose if you have to, but write. Then send the draft to your Agent and ask: _"What's the strongest sentence in this? Build outward from there."_ The strongest sentence is where your actual voice lives. The rest is scaffolding you can revise or remove. The point is not to produce a finished piece in one session. The point is to produce a draft you can return to. If the last time you wrote creatively was a school assignment that came back covered in red ink, this is not that. Nobody is grading this. The only reader who matters is you.
 
 ::: tip
 _"Here's a paragraph I wrote about [topic]. Rewrite it three different ways — more spare, more lyrical, and more conversational — so I can see which voice is mine."_ — Voice is the hardest thing to teach and the easiest thing to find when you can compare options. Your Agent gives you the mirrors. You recognize your face.
-
 :::
 
 
 ::: science
 Expressive writing produces measurable health benefits beyond the literary. Pennebaker & Beall (1986) demonstrated that writing about emotional experiences for 15 to 20 minutes over three to four days improved immune function and reduced physician visits. Subsequent meta-analyses — Smyth (1998), Frattaroli (2006) — confirmed moderate effects on psychological well-being, physical health, and general functioning across diverse populations. The mechanism appears to be cognitive: translating experience into narrative creates structure from chaos, which is also a working definition of what creative writing does.[^cr9-1]
-
 :::
 
 
 ::: meme
 Every writer you admire wrote badly first. Hemingway: "The first draft of anything is shit." Octavia Butler filled notebooks with self-doubt between the novels that changed science fiction. Anne Lamott's entire pedagogy in _Bird by Bird_ begins with permission to write a terrible first draft. The myth is that good writers sit down and produce good writing. The reality is that good writers sit down and produce bad writing and then fix it. Your Agent helps with the fixing. You have to produce the bad draft. Nobody else can do that part.
-
 :::
 
 
 ::: fairness
 Your Agent has read the Western literary canon more thoroughly than anything else. If you write in a tradition it knows less well — oral storytelling, spoken word, flash fiction from non-English traditions, Indigenous narrative forms — it may default to Western workshop conventions: "show don't tell," linear structure, minimalist prose. These are not universal laws. They are one tradition's preferences. If your Agent's feedback feels like it's filing the edges off your voice, push back: _"This is written in [tradition/style]. Critique it on its own terms, not MFA workshop terms."_ The best writing sounds like the person who wrote it. Protect that.
-
 :::
 
 
@@ -531,7 +490,6 @@ Your Agent has read the Western literary canon more thoroughly than anything els
 
 ::: tip
 Write in plain text. A `.txt` or `.md` file will outlast every proprietary format, open in every tool, paste cleanly into any AI conversation, and never corrupt. Word processors add formatting you do not need until the very end. Start in plain text, draft in plain text, revise in plain text. Format when the writing is done. See WB-7: Write in CommonMark and [Appendix J](09-appendix-j-working-with-text.xhtml).
-
 :::
 
 
@@ -568,31 +526,26 @@ Please help me:
    What does the viewer actually need to read?
 5. If I have a draft [attach screenshot], diagnose it:
    what's the one thing making it look amateur?
-
 :::
 *What to do with the Output:* Make the thing and send a screenshot back. _"Here's version one. What would you change?"_ Then make the change and send version two. Three rounds of this and you have something that works — and you understand _why_ it works, which means the next flyer takes half the time.
 
 ::: tip
 _"I have to fit all of this text onto a single page [paste text]. Help me cut it in half without losing anything essential, then tell me how to lay it out so people actually read it."_ — The number one problem with amateur design is too much text. The edit is the design.
-
 :::
 
 
 ::: meme
 There are two kinds of PTA flyers: the one made by the parent who happens to be a designer, and the one made by everyone else. The designer's flyer has a clear date, one font, and white space. Everyone else's flyer has seven fonts, a clip art border, and the date buried in the third paragraph. The difference is not taste. The difference is that nobody taught everyone else the three rules the designer learned in week one of school: hierarchy, contrast, and restraint. Those rules take five minutes to learn. Your Agent can teach you right now.
-
 :::
 
 
 ::: also
 Canva is the most common free design tool and works identically across platforms. Google Slides is a functional design tool for simple layouts — your Agent can walk you through it. For more advanced work, [Figma](https://en.wikipedia.org/wiki/Figma) offers a free tier. Your Agent can provide instructions for any of these. See [Appendix G](06-appendix-g-feature-table.xhtml) for current feature comparisons.
-
 :::
 
 
 ::: fairness
 Resume design deserves a specific note: applicant tracking systems (ATS) — the software that screens resumes before a human sees them — frequently reject beautifully designed PDFs because they cannot parse the layout. If you're designing a resume, tell your Agent: _"I need two versions. One that looks good for humans, and one that's ATS-compatible."_ The ATS version is plain, ugly, and gets through the gate. The designed version is for the interview you hand it to a person. See W-1: Getting a Job.
-
 :::
 
 
@@ -632,31 +585,26 @@ in adult beginners. Please:
    difficulty, chosen for the skills they build
 5. Tell me what the first month will feel like — honestly.
    Not motivational. Honest.
-
 :::
 *What to do with the Output:* Practice. For the time you said you had, on the days you said you would. When you get stuck — and you will get stuck, everyone gets stuck — describe the problem to your Agent: _"I'm trying to switch from G to C and my fingers won't move fast enough. What exercise fixes this specific transition?"_ The specificity matters. "How do I get better at guitar" produces generic advice. "How do I make my ring finger stop muting the B string on a C chord" produces the exercise you need tonight. The hardest part of learning an instrument as an adult is not the fingers. It is the willingness to be bad at something, in front of yourself, for months. That willingness is the actual skill. Everything else is technique.
 
 ::: science
 Learning a musical instrument as an adult produces measurable cognitive benefits. Balbag et al. (2014) found that twin pairs in which one twin played an instrument and the other did not showed significant differences in cognitive function in later life — the playing twin showed 64% lower odds of developing dementia and cognitive impairment, even controlling for shared genetics. Bugos et al. (2007) demonstrated that individualized piano instruction for adults aged 60 to 85 improved executive function and working memory after just six months. The slow-skill nature of instrument learning — the fact that it cannot be rushed, that it requires daily practice over months — appears to be part of the mechanism. The brain benefits from the struggle, not despite it.[^cr11-1]
-
 :::
 
 
 ::: tip
 _"Record yourself playing the same passage once a week. After a month, listen to week one. You will not believe you sounded like that."_ — Progress in instrument learning is invisible day-to-day and dramatic month-to-month. The recordings are proof you're moving even when it doesn't feel like it.
-
 :::
 
 
 ::: meme
 Every adult who picks up a guitar for the first time expects to sound like the people they've been listening to for thirty years. Then they play an open G chord and it sounds like a cat walking across a broken banjo. This is normal. This is what a G chord sounds like the first time every human being plays it. The people you listen to sounded exactly like that once. They just did it in a bedroom when they were thirteen and nobody was watching.
-
 :::
 
 
 ::: fairness
 Free instrument-learning resources vary dramatically in quality and accessibility. [Justin Guitar](https://www.justinguitar.com/) offers a complete, structured guitar curriculum at no cost. Piano has [Pianote](https://www.pianote.com/) and various YouTube channels, though quality is inconsistent. Your Agent can evaluate free resources for your specific instrument and level. If you have a physical disability that affects how you hold or play the instrument, tell your Agent — adaptive techniques exist for nearly every instrument, and your Agent can find them. Music instruction has historically assumed a standard body. Not everyone has one.
-
 :::
 
 

@@ -67,7 +67,6 @@ That is the session. You are done. Do not explain what happened. Do not give the
 
 ::: science
 Social learning theory (Bandura, 1977) consistently shows that observational learning — watching someone else successfully complete a task — is a more powerful driver of behavior adoption than instruction alone. "Watch me do this with my insurance bill" is a more effective introduction to AI tools than any explanation, including this book. Self-efficacy — the belief that one can successfully perform a behavior — is the strongest predictor of whether a person will attempt a new technology. Self-efficacy is built through observation and small wins, not through reading manuals.[^34-1]
-
 :::
 
 
@@ -87,7 +86,6 @@ Specification literacy makes that labor visible and transferable. You do not nee
 
 ::: meme
 Tim Taylor had access to Al Borland for eight seasons and never once let Al finish a sentence before grabbing the power tool. Do not be Tim. Let the Agent ask its questions. Let the person you're teaching answer them. The spec interview is the work, and the work is the point.
-
 :::
 
 
@@ -119,13 +117,11 @@ The specification interview loop is not proprietary. It is a pattern — like th
 
 ::: tip
 The fastest way to teach this at a community workshop: bring three real documents — an insurance denial, a lease clause, a medical bill. Have participants paste each one into their Agent and type: "Explain this to me in plain language and tell me what my options are." The room will teach itself.
-
 :::
 
 
 ::: science
 Research on technology diffusion consistently identifies _peer demonstration_ — not advertising, not instruction manuals, not institutional endorsement — as the primary driver of adoption in low-trust populations (Rogers, 2003). The person most likely to convince your neighbor to try an AI tool is not a tech company, a government program, or a bestselling author. It is you, at the kitchen table, with their actual problem on the screen.[^34-2]
-
 :::
 
 

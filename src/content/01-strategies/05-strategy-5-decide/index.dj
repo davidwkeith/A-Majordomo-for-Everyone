@@ -40,12 +40,10 @@ My situation is [specific context].
 The factors that matter most to me are [list].
 Please give me the genuine tradeoffs of each option —
 not a recommendation, just the honest analysis.
-
 :::
 
 ::: science
 Decision fatigue — the degradation of decision quality after a sustained period of choices — is one of the most replicated findings in behavioral economics (Baumeister et al., 1998; Danziger et al., 2011). Offloading the _analysis_ to your Agent does not require willpower. It restores the cognitive resources needed for the final judgment call, which remains entirely yours.[^s5-1]
-
 :::
 
 
@@ -63,7 +61,6 @@ The situation: your washing machine stopped draining mid-cycle. It's 8 years old
 My washing machine broke. The repair is $380, a new one
 is $650. The machine is 8 years old. Should I fix it or
 replace it?
-
 :::
 
 *Your Agent's clarifying questions:*
@@ -81,7 +78,6 @@ the analysis:
    larger capacity, energy efficiency, quieter operation?
 5. How important is it that the fix happens this week
    vs. next month?
-
 :::
 
 *Your answers:*
@@ -93,7 +89,6 @@ the analysis:
 4. Not really. It does what I need.
 5. I need a working machine within a week. I have
    two kids.
-
 :::
 
 *Your Agent maps the options:*
@@ -145,12 +140,10 @@ of use, or $650 now for 10--13 years. The per-year cost:
 The replacement is cheaper per year. The repair is
 cheaper this week. Which constraint matters more to you
 right now is not something I can calculate.
-
 :::
 
 ::: tip
 "What assumption am I making?" is the Decide power move. Your Agent will name the thing you haven't examined. In this case: both options assume the repair quote is accurate. Getting a second quote costs nothing and takes a phone call.
-
 :::
 
 
@@ -158,7 +151,6 @@ right now is not something I can calculate.
 
 ::: prompt
 What if I repair it and something else breaks in a year?
-
 :::
 
 *Your Agent:*
@@ -177,12 +169,10 @@ it, but because the math is close enough that your
 comfort with uncertainty is the tiebreaker.
 
 That's a gut call, not a spreadsheet call.
-
 :::
 
 ::: also
 All four major AI tools handle decision-mapping well. If you want to compare options side by side, Claude's artifact feature renders tables and comparison charts. ChatGPT's canvas mode lets you iterate on a decision matrix. Gemini integrates with Google Sheets if you want to save the analysis. Copilot works within Microsoft 365 for the same purpose.
-
 :::
 
 
@@ -197,7 +187,6 @@ I can save about $200/month and someone told me to open
 an IRA. I don't understand the difference between Roth
 and traditional. I don't have a financial advisor.
 Can you explain my options without telling me what to do?
-
 :::
 
 *Your Agent's clarifying questions:*
@@ -215,7 +204,6 @@ your situation:
 4. Do you have any existing retirement savings?
 5. How old are you, roughly? (This affects how long the
    money has to grow.)
-
 :::
 
 *Your answers:*
@@ -226,7 +214,6 @@ your situation:
 3. Yes, they match 50% up to 6%. I'm contributing 6%.
 4. I have about $8,000 in my 401(k) from my last job.
 5. 34.
-
 :::
 
 *Your Agent maps the options:*
@@ -305,12 +292,10 @@ The certainty heavily favors Roth — paying zero tax
 later is a known quantity; guessing your future tax
 rate is not. But "slightly favors" is not the same as
 "obviously correct." This is your call.
-
 :::
 
 ::: science
 The behavioral economics finding most relevant to retirement saving is not about which account to choose — it's about whether you start at all. Madrian and Shea (2001) found that automatic enrollment in retirement plans increased participation from 49% to 86%. The choice between Roth and traditional matters less than the choice between $200/month and $0/month. If the analysis above makes you less likely to start because you're not sure which is "right," pick either one and start. You can change later. You cannot get the years of compound growth back.[^s5-2]
-
 :::
 
 
@@ -321,7 +306,6 @@ The behavioral economics finding most relevant to retirement saving is not about
 ::: prompt
 Wait — should I be maxing out my 401(k) match before
 I do any of this?
-
 :::
 
 *Your Agent:*
@@ -343,12 +327,10 @@ priority order:
 
 You've got step 1 covered. The $200/month is step 2.
 You're asking the right questions in the right order.
-
 :::
 
 ::: fairness
 Financial advice from any source — human or AI — carries implicit assumptions about income stability, employment continuity, and the luxury of a 31-year time horizon. If you're in a precarious employment situation, the Roth's ability to withdraw contributions without penalty may matter more than any tax calculation. If $200/month is the difference between contributing to retirement and having enough for groceries, the groceries win and there's no shame in that. The system that made retirement savings a personal responsibility instead of a structural guarantee is the problem, not you.
-
 :::
 
 
@@ -363,7 +345,6 @@ My apartment has mold that my landlord won't fix. I've
 reported it twice. I'm worried about my kid's health but
 I'm also worried about getting evicted if I push too hard.
 What are my options?
-
 :::
 
 *Your Agent's clarifying questions:*
@@ -381,7 +362,6 @@ so let me be precise. A few questions:
 5. Have you contacted your local health department or
    housing inspection office?
 6. What's your monthly rent, roughly?
-
 :::
 
 *Your answers:*
@@ -397,7 +377,6 @@ so let me be precise. A few questions:
    environmental trigger" at a visit in December.
 5. No. I didn't know that was an option.
 6. $1,850.
-
 :::
 
 *Your Agent maps the options:*
@@ -487,7 +466,6 @@ WHAT I CAN'T WEIGH FOR YOU:
 Those factors are yours. The legal landscape is above.
 Give me the most conservative, legally accurate answer —
 I will verify with a legal aid organization before acting.
-
 :::
 
 *Your correction:*
@@ -496,7 +474,6 @@ I will verify with a legal aid organization before acting.
 I didn't know about the retaliation protection. That
 changes things. But what if I do Option A and the
 landlord just ignores the code enforcement notice too?
-
 :::
 
 *Your Agent:*
@@ -531,12 +508,10 @@ choose: take new photos of the mold with a timestamp.
 Your November and January photos show a pattern.
 A March photo shows it's ongoing. The timeline is your
 evidence.
-
 :::
 
 ::: science
 Mold exposure in residential settings is associated with a 30--50% increase in respiratory symptoms and asthma development in children, with the strongest effects in children under 5 (Fisk, Lei-Gomez & Mendell, 2007). The health cost of inaction is not hypothetical — it is measurable, and it falls disproportionately on renters in low-income housing where deferred maintenance is most common and tenants are least likely to assert their rights.[^s5-3]
-
 :::
 
 
@@ -544,6 +519,5 @@ Mold exposure in residential settings is associated with a 30--50% increase in r
 
 ::: meme
 "We were on a break." Ross and Rachel's problem was not the break. It was the ambiguous spec. Your landlord dispute has the same structure: the word "resolved" means different things to you and the landlord. Paint over the mold? Resolved. Mold comes back in 3 weeks? Not resolved. A code enforcement inspection resolves the ambiguity the same way a clarifying question would have resolved Ross and Rachel's — by putting the definition on the record before anyone acts on it.
-
 :::
 

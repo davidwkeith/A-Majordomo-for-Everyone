@@ -41,12 +41,10 @@ I want to [specific goal].
 I want to avoid [specific outcome].
 Tone should be [formal/firm/warm/conciliatory].
 Please write a first draft I can edit.
-
 :::
 
 ::: science
 Bluma Zeigarnik's 1927 research established that the brain actively maintains incomplete tasks in working memory, consuming cognitive resources until the task is closed. A drafted letter you haven't sent is still open. A drafted letter that exists — even imperfectly — is closer to closed. The relief is not metaphorical. It is the release of sustained cognitive load.[^s3-1]
-
 :::
 
 
@@ -77,7 +75,6 @@ Can you draft an email proposing modifications to the
 early termination clause? I want to keep the tone
 professional but not hostile. I'm not threatening to
 leave. I'm proposing changes that make the clause fair.
-
 :::
 
 *Your Agent's clarifying questions:*
@@ -98,7 +95,6 @@ land better:
    forfeiture, or all three?
 5. Has your landlord shown flexibility before---on the
    rent increase, maintenance requests, anything?
-
 :::
 
 *Your answers:*
@@ -119,7 +115,6 @@ land better:
 5. Yes---they originally proposed a $100/month rent
    increase and came down to $75 when I asked. So
    there's precedent for negotiation.
-
 :::
 
 *Your Agent drafts:*
@@ -181,7 +176,6 @@ Read this out loud before you send it. If any sentence
 sounds like someone else wrote it, rewrite that
 sentence. The structure is right---the voice has to be
 yours.
-
 :::
 
 *Your follow-up:*
@@ -190,7 +184,6 @@ yours.
 This is good but it sounds too formal. I usually just
 text my landlord. Can you make it more casual but keep
 the substance?
-
 :::
 
 *Your Agent:*
@@ -235,18 +228,15 @@ The casual tone works because you have a good
 relationship. If that changes---if they push back hard
 or get hostile---switch to the formal version. Formal
 language is a tool, not a personality.
-
 :::
 
 ::: tip
 Ask for two or three tone variants and pick the one closest to your voice. You can also paste in a message you've sent before and say "match this tone." Editing down from a draft that sounds approximately like you is faster than generating from nothing.
-
 :::
 
 
 ::: also
 Claude and ChatGPT both support inline editing---you can highlight a section of the response and ask for a revision without regenerating the whole thing. In Gemini, use a follow-up message to request changes to specific parts. Revision is the workflow. The first draft is raw material.
-
 :::
 
 ### Example 2: The Medicare Denial Appeal Letter
@@ -267,7 +257,6 @@ My doctor wrote a letter of medical necessity. I have 60
 days to file an external appeal. I don't know how formal
 this needs to be or what to include. Can you help me
 draft it?
-
 :::
 
 *Your Agent's clarifying questions:*
@@ -289,7 +278,6 @@ what you're working with:
 5. What's the procedure and the clinical picture? MRI
    of what body part, and what symptoms are you dealing
    with?
-
 :::
 
 *Your answers:*
@@ -309,7 +297,6 @@ what you're working with:
    weeks ago.
 5. MRI of the lumbar spine. Shooting pain down my left
    leg for two months. Physical therapy hasn't helped.
-
 :::
 
 *Your Agent drafts the appeal letter:*
@@ -419,7 +406,6 @@ Print this. Attach your doctor's letter of medical
 necessity and your physical therapy records. Send it
 certified mail---you want proof of delivery and the
 date it was received. Keep copies of everything you send.
-
 :::
 
 *Your follow-up:*
@@ -427,7 +413,6 @@ date it was received. Keep copies of everything you send.
 ::: prompt
 This is really long. Will someone actually read all of
 this?
-
 :::
 
 *Your Agent:*
@@ -457,19 +442,16 @@ two-page letter that's specific wins.
 That said---want me to cut this to one page? I can keep
 the clinical argument and remove the background. Some
 people prefer a tighter document. Your call.
-
 :::
 
 ::: science
 External appeals succeed more often than most patients expect. When external reviewers overturn denials, the cases that win almost always share two features: they cite specific clinical criteria or policy language, and they attach supporting documentation from the treating physician. Vague appeals---"my doctor says I need this"---fail at higher rates than appeals that name the diagnosis, the failed treatments, and the clinical guidelines that support the request.[^s3-2]
-
 :::
 
 [^s3-2]: Kaiser Family Foundation (2024). "[Claims Denials and Appeals in ACA Marketplace Plans in 2024](https://www.kff.org/patient-consumer-protections/claims-denials-and-appeals-in-aca-marketplace-plans-in-2024/)." Fewer than 1% of denied claims are appealed; of those, roughly 34% of internal appeals succeed. Cross-state external review data shows approximately 45--50% of external appeals overturn the original denial. The AMA separately reports that over 80% of prior authorization appeals succeed when filed with full clinical documentation --- see AMA (2022), "[Over 80% of prior auth appeals succeed](https://www.ama-assn.org/practice-management/prior-authorization/over-80-prior-auth-appeals-succeed-why-aren-t-there-more)."
 
 ::: fairness
 The appeal letter that wins is written at a level most patients cannot produce without help. It requires clinical vocabulary, policy citation, and a structured argument---skills the denial letter itself does not teach. The system requires a document the system's own communications make impossible to write. Your Agent closes this gap. The gap is structural, not personal---and closing it does not make the system fair. It makes you less disadvantaged within an unfair system.
-
 :::
 
 ### Example 3: The Zoning Public Comment
@@ -480,7 +462,6 @@ In Strategy 1: Decode, you translated Measure H---a zoning downzone that would r
 
 ::: prompt
 Remember when we decoded Measure H---the zoning downzone on my ballot? The city council is holding a public hearing on it next Tuesday. I want to speak against it. I have two minutes. I've never spoken at a public hearing before. I don't want to sound like a policy wonk---I want to sound like a person who lives there.
-
 :::
 
 *Your Agent's clarifying questions:*
@@ -497,7 +478,6 @@ I remember the Measure H analysis. Good---you already know the substance. Now we
 4. Are you comfortable being identified by name and address at the hearing? Public comment is public record---it goes in the minutes and sometimes gets recorded on video.
 
 5. Do you know if anyone else is planning to speak against the measure, or will you be the only renter voice in the room?
-
 :::
 
 *Your answers:*
@@ -512,7 +492,6 @@ The one thing: I want them to know that renters live here too and this measure p
 Yes, fine with name and address.
 
 Not sure if anyone else is going. I don't know anyone else planning to speak against it.
-
 :::
 
 *Your Agent drafts:*
@@ -537,14 +516,12 @@ I'm asking you to vote no. Thank you.
 ---
 
 This runs about a minute. You have margin. Do not fill it---short and clear beats long and thorough at a public hearing. The council has heard dozens tonight. Yours needs to be the one they remember because it was specific and human, not because it was comprehensive.
-
 :::
 
 *Your follow-up:*
 
 ::: prompt
 This sounds like a policy paper. I want to sound like a person who lives in the neighborhood, not someone who studied zoning law.
-
 :::
 
 *Your Agent:*
@@ -565,17 +542,14 @@ Vote no on Measure H. Thank you.
 ---
 
 Read this version out loud. If you stumble on a sentence, it's too long. Shorten it until you can say it without thinking about the words. At the microphone, you want to be thinking about the council members' faces, not your script.
-
 :::
 
 ::: meme
 Murphy Brown could interview a senator without notes. She could not start the memo. You can have a strong opinion about zoning and still freeze at the microphone. These are different skills. Draft handles the second one.
-
 :::
 
 ::: tip
 When drafting something you'll say out loud, tell your Agent "write this for speaking, not reading." Spoken language uses shorter sentences, more repetition, and fewer subordinate clauses than written prose. Read the draft aloud before the hearing---if you stumble on a sentence, the sentence is too long.
-
 :::
 
 
@@ -585,7 +559,6 @@ Three examples. Three blank pages. The landlord email, the appeal letter, the pu
 
 ::: meme
 Murphy went through 93 secretaries. The problem was never the secretary. It was the blank page between Murphy and the work she could already do. Your Agent is secretary number 94. It will not quit. And it does not need you to know the first sentence---it will write one for you to cross out.
-
 :::
 
 

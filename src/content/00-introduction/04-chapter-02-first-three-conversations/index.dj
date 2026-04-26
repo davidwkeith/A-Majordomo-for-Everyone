@@ -25,7 +25,6 @@ Think of something — a word, a concept, a thing everyone around you seems to u
 I've always nodded along when people talk about compound interest
 but I've never truly understood it. Can you explain it to me clearly,
 using an example with real numbers?
-
 :::
 
 *Conversation 2: Decode something a doctor said*
@@ -49,19 +48,16 @@ Paste one of these into your settings, start a new conversation, and ask it anyt
 ::: prompt
 Respond like Yoda. Inverted syntax, wise but brief.
 Call me "young Padawan."
-
 :::
 
 ::: prompt
 Respond in the style of Snoop Dogg — laid back, keep it real.
 Call me "cuz."
-
 :::
 
 ::: prompt
 Respond like Commander Data from Star Trek TNG — precise,
 literal, no contractions. Address me as "colleague."
-
 :::
 
 Now try the one that actually matters:
@@ -71,7 +67,6 @@ My name is [your name]. Keep responses short — three sentences
 unless I ask for more. No bullet points unless I request them.
 Skip the disclaimers. Talk to me like a smart friend, not
 a customer service bot.
-
 :::
 
 Where to find it: in Claude, look under Settings for *Profile* and *Memory*. In ChatGPT, *Custom Instructions* (and *Memory* for cross-chat recall). In Gemini, *Personalization*. All three live in the settings menu; the exact label moves around as products iterate.
@@ -80,7 +75,6 @@ The difference between a generic Agent and _your_ Agent is ten minutes in that p
 
 ::: science
 There are two kinds of fit: the friend you like and the co-worker who makes you better. Psychologists call them [supplementary fit and complementary fit](https://en.wikipedia.org/wiki/Person%E2%80%93environment%5Ffit) (Muchinsky & Monahan, 1987). Supplementary fit — similarity in tone, values, communication style — predicts satisfaction and trust. You keep talking to the Agent because it feels right. Complementary fit — difference in thinking style — predicts performance. The detail-oriented person who pairs with a big-picture challenger makes better decisions than two detail people agreeing with each other (Belbin, 1981; Humphrey et al., 2007). The practical version: match your Agent's _voice_ to yours for comfort, but consider setting its _thinking style_ to challenge yours. _"When I present a plan, push back on the weakest part before agreeing"_ is a custom instruction that makes your Agent a better co-worker, not a nicer friend.[^2-3]
-
 :::
 
 
@@ -88,7 +82,6 @@ There are two kinds of fit: the friend you like and the co-worker who makes you 
 
 ::: science
 The simple act of typing out a problem before asking for help produces measurable cognitive benefits independent of the answer received. [Pennebaker & Seagal (1999)](https://doi.org/10.1002/(SICI)1097-4679(199910)55:10%3C1243::AID-JCLP6%3E3.0.CO;2-N) found that translating experience into language — even privately — reduces physiological stress markers and improves working memory. Writing your question is part of the solution.[^2-2]
-
 :::
 
 

@@ -38,12 +38,10 @@ Other relevant details: [what changed recently, what you've tried].
 I want to understand: what is likely causing this, how serious is it,
 and what is the first step I should take — including whether
 I actually need a professional or can handle this myself.
-
 :::
 
 ::: meme
 ["Have you tried turning it off and on again?"](https://en.wikipedia.org/wiki/The%5FIT%5FCrowd) is the entire history of first-level technical support compressed into one question. Diagnose is that question, applied to appliances, symptoms, legal situations, and financial problems, with substantially more useful follow-up.
-
 :::
 
 
@@ -59,7 +57,6 @@ The situation: your washing machine started making a loud grinding noise during 
 My washing machine is making a grinding noise during
 the spin cycle. It started two days ago. I don't know
 if this is serious or something I can fix.
-
 :::
 
 *Your Agent's clarifying questions:*
@@ -79,7 +76,6 @@ A few questions:
    high speed?
 6. Any other symptoms — vibration, leaking, clothes
    not getting fully spun out?
-
 :::
 
 *Your answers:*
@@ -93,7 +89,6 @@ A few questions:
 5. Mostly at high speed.
 6. It vibrates more than it used to. No leaking.
    Clothes seem fine.
-
 :::
 
 *Your Agent's diagnosis:*
@@ -144,7 +139,6 @@ That sentence saves you the $150 diagnostic visit on
 most calls — many techs will quote the bearing
 replacement over the phone if you describe it that
 specifically.
-
 :::
 
 *Your follow-up:*
@@ -152,7 +146,6 @@ specifically.
 ::: prompt
 I checked — there's a small wire stuck in the gasket.
 Could that be it?
-
 :::
 
 *Your Agent:*
@@ -163,12 +156,10 @@ pliers, run a short empty cycle, and listen. If the
 grinding stops, you just saved yourself a repair call.
 If it continues, it's the bearings — but now you know,
 and you've ruled out the cheap fix first.
-
 :::
 
 ::: tip
 The diagnostic questions your Agent asks are the same ones a good repair technician would ask on the phone before scheduling a visit. The difference: the technician charges for the visit whether or not the problem required one. Your Agent charges nothing, and if the answer is "pull the wire out of the gasket," you're done.
-
 :::
 
 
@@ -182,7 +173,6 @@ The situation: you've had headaches nearly every day for two weeks. They weren't
 I've been having headaches almost every day for about
 two weeks. This isn't normal for me. I don't know if
 I should be worried.
-
 :::
 
 *Your Agent's clarifying questions:*
@@ -207,7 +197,6 @@ what to tell your doctor. A few questions:
    head injury?
 7. What have you tried — OTC pain meds, rest,
    hydration? What helped?
-
 :::
 
 *Your answers:*
@@ -222,7 +211,6 @@ what to tell your doctor. A few questions:
    weeks ago. A lot more screen time. I've also been
    drinking more coffee.
 7. Ibuprofen helps for a few hours.
-
 :::
 
 *Your Agent's assessment:*
@@ -266,12 +254,10 @@ no sudden onset, no visual changes, no neck stiffness."
 
 That description uses the vocabulary your doctor uses
 and saves the first five minutes of the appointment.
-
 :::
 
 ::: fairness
 Your Agent is not a doctor. It cannot examine you, order tests, or account for your full medical history. What it can do — and what this example shows — is help you distinguish "see your doctor this week" from "go to the ER tonight," and prepare you to use your appointment time efficiently. If any of the red-flag symptoms in question 4 were present, the only correct answer is "go now." The AI knows this and will say so.[^s6-1]
-
 :::
 
 
@@ -279,7 +265,6 @@ Your Agent is not a doctor. It cannot examine you, order tests, or account for y
 
 ::: science
 Research on symptom presentation consistently shows that patients who arrive with organized, specific descriptions of their symptoms receive more accurate diagnoses and more efficient care. Langewitz and colleagues, in a widely cited _BMJ_ study, found that when patients were allowed to describe their concerns in structured, uninterrupted fashion at the start of a visit, the entire consultation worked better --- not worse --- despite the clinician's instinct to redirect early.[^s6-2]
-
 :::
 
 
@@ -296,7 +281,6 @@ I got a quote for $8,200 to replace my HVAC system.
 The tech said the compressor is shot and it's not
 worth repairing. I don't know if that's true or if
 this price is reasonable.
-
 :::
 
 *Your Agent's clarifying questions:*
@@ -317,7 +301,6 @@ Let me help you evaluate it. A few questions:
 6. Did they give you a written quote with line items,
    or just a verbal number?
 7. Is this a company you've used before?
-
 :::
 
 *Your answers:*
@@ -332,7 +315,6 @@ Let me help you evaluate it. A few questions:
 5. I'm not sure. He just said $8,200 installed.
 6. Verbal. He said he'd email the written quote.
 7. No, first time. Found them on Google.
-
 :::
 
 *Your Agent's diagnosis of the quote:*
@@ -391,7 +373,6 @@ YOUR NEXT STEPS:
 
 Want me to help you evaluate the written quote once
 you receive it?
-
 :::
 
 *Your follow-up:*
@@ -399,7 +380,6 @@ you receive it?
 ::: prompt
 He also mentioned something about a "conversion to
 R-410A" — is that a thing?
-
 :::
 
 *Your Agent:*
@@ -412,17 +392,14 @@ system. But make sure the quote includes new refrigerant
 lines compatible with R-410A. Some contractors reuse
 old lines, which can cause problems. That should be a
 line item on the written quote.
-
 :::
 
 ::: tip
 The phrase "is there a repair option, and what would it cost versus replacement?" is the single most valuable Diagnose question for any contractor interaction. It forces them to justify the more expensive recommendation. If they can't — or won't — that tells you something.
-
 :::
 
 
 ::: also
 For complex diagnostic conversations like this, paste the contractor's written quote directly into the chat. In Claude, you can upload the PDF. In ChatGPT, paste the text or upload an image of the quote. In Gemini, paste the text. Your Agent will read every line item the way a second contractor would — except it has no incentive to upsell you.
-
 :::
 

@@ -28,13 +28,11 @@ Please help me:
 1. Identify the key thing I need to say clearly
 2. Anticipate the most likely responses and how to handle them
 3. Draft an opening statement I could use to start the conversation
-
 :::
 *What to do with the Output:* Save this as a note on your phone. Read it once before you walk in. You don't need to memorize the opening statement — just having it reduces the panic of "how do I start this." If the conversation goes sideways, you can come back to your Agent afterward and ask: _"It went like this: [describe]. What should I try next?"_
 
 ::: also
 This works well with voice mode on your phone — all major tools support it on mobile. See [Appendix G](06-appendix-g-feature-table.xhtml).
-
 :::
 
 
@@ -62,7 +60,6 @@ I have about [X] minutes.
 Please draft a eulogy I can edit into my own voice.
 The stories should come from what I've told you -- please don't
 invent details I haven't given you.
-
 :::
 *What to do with the Output:* Edit it until it sounds like you, not like a machine. Read it out loud — twice. The parts that feel wrong in your mouth are the parts that need your words, not your Agent's. Print it on a card you can hold. Having something in your hands steadies them.
 
@@ -71,7 +68,6 @@ invent details I haven't given you.
 
 ::: also
 For honorably discharged veterans: military funeral honors (two-person detail, flag presentation, Taps) are available at no cost through the DOD Military Funeral Honors program. Request through the funeral home or the National Cemetery Scheduling Office (1-800-535-1117). A veteran's eulogy fittingly references branch, rank, service era, and theater.
-
 :::
 
 
@@ -95,19 +91,16 @@ Please:
 4. If money or information has already been sent, what recovery
    options exist
 Be direct. I need the honest answer.
-
 :::
 *What to do with the Output:* If you are helping a loved one, lead with concern, not correction. The shame is already doing damage. Your Agent can help you draft that conversation (see Li-1). If you are the one targeted, file with the FTC at [reportfraud.ftc.gov](https://reportfraud.ftc.gov) and your state attorney general. Speed matters — some financial transactions can be reversed within 24-48 hours.
 
 ::: science
 Cialdini's six principles of influence (1984) — reciprocity, commitment, social proof, authority, liking, scarcity — are also a scam operator's playbook. The same cognitive shortcuts that make human cooperation possible make human exploitation possible.[^li3-1]
-
 :::
 
 
 ::: fairness
 Your Agent may describe common scam demographics in ways that reinforce stereotypes. FTC data shows Gen Z reports more fraud incidents than Boomers — familiarity with technology breeds overconfidence, not immunity. Boomers lose more per incident. Scam vulnerability correlates with cognitive load and isolation, not intelligence or age. Ask your Agent to focus on _patterns of approach_ rather than _profiles of victims._
-
 :::
 
 
@@ -137,25 +130,21 @@ Please help me:
 2. What programs or benefits they may qualify for
 3. What legal documents should be in place if they aren't already
 4. What decisions I should NOT delay
-
 :::
 *What to do with the Output:* Make a list of the time-sensitive items — power of attorney, healthcare proxy, benefit applications — and do those first. The emotional work is real but the paperwork has deadlines. See H-7 for the conversation itself.
 
 ::: tip
 _"My [parent] has [condition] and [Medicare/Medicaid/no insurance]. What is the single most important thing I should do this week that I am probably not doing?"_ — Start with the gap you don't know about.
-
 :::
 
 
 ::: fairness
 Eldercare resources vary enormously by state. Ask your Agent to be specific to your state and county. Federal programs are the floor, not the ceiling.
-
 :::
 
 
 ::: science
 Over 53 million Americans are unpaid caregivers, spending an average of 24 or more hours per week on care --- an estimated $522 billion per year in unpaid labor.[^li4-0a] About 61% of those caregivers are women. Caregiving is literally life-shortening: a classic analysis found caregiver mortality risk elevated by as much as 63% among strained spousal caregivers.[^li4-0b] Meanwhile, the median cost of a private nursing home room is approximately $9,733 per month; a home health aide approximately $5,720 per month.[^li4-0c] Most families encounter these numbers for the first time at a moment of maximum emotional vulnerability.
-
 :::
 
 [^li4-0a]: AARP & National Alliance for Caregiving. (2020). ["Caregiving in the United States 2020."](https://www.aarp.org/pri/topics/ltss/family-caregiving/caregiving-in-the-united-states/) Follow-up: AARP. (2023). ["Valuing the Invaluable: Strengthening Supports for Family Caregivers."](https://www.aarp.org/caregiving/financial-legal/unpaid-caregivers-provide-billions-in-care/)
@@ -166,7 +155,6 @@ Over 53 million Americans are unpaid caregivers, spending an average of 24 or mo
 
 ::: science
 Medicaid is the primary payer for long-term care in the United States, but qualifying requires near-poverty. The "spend-down" — depleting assets to meet eligibility thresholds — is the mechanism most families encounter. The five-year lookback period means gifts or transfers made within five years of application trigger penalties. The One Big Beautiful Bill Act (2025) added new constraints: a $1 million home equity cap for long-term care eligibility starting in 2028, retroactive coverage reduced from 90 to 30 days before application, and six-month eligibility reverification. Asset limits, exempt property, and spousal protections vary significantly by state — ask your Agent for the current rules in yours.[^li4-1]
-
 :::
 
 
@@ -174,7 +162,6 @@ Medicaid is the primary payer for long-term care in the United States, but quali
 
 ::: also
 Veterans: cross-reference H-6 for VA Aid and Attendance. Additional programs include VA Geriatrics and Extended Care (GEC), VA respite care, VA Community Living Centers (VA nursing homes), and the VA Caregiver Support Program (1-855-260-3274). Ask your Agent for eligibility requirements.
-
 :::
 
 
@@ -200,25 +187,21 @@ Please help me:
 3. Tell me what I'm likely to overpay for and where to save
 4. Give me the three things about this destination that most
    travelers wish they'd known before arriving
-
 :::
 *What to do with the Output:* Print the itinerary. Share it with everyone going. Ask your Agent for a packing list specific to the destination and season. Before you leave, ask: _"What documents do I need, and what happens if I lose them?"_
 
 ::: meme
 [_The Amazing Race_](https://en.wikipedia.org/wiki/The%5FAmazing%5FRace) has aired for 38 seasons on the premise that navigating airports, language barriers, and unfamiliar transit systems is so stressful it qualifies as entertainment. Your Agent eliminates the entertainment value and keeps the trip.
-
 :::
 
 
 ::: tip
 _"I have a 4-hour layover in [city]. What can I actually do with that time, and what's the latest I can leave the airport and still make my connection?"_
-
 :::
 
 
 ::: also
 Checking current information requires web search, which is free in Gemini, ChatGPT, and Copilot. In Claude, web search requires the paid tier. See [Appendix G](06-appendix-g-feature-table.xhtml).
-
 :::
 
 
@@ -241,25 +224,21 @@ What I'm in the mood for: [cuisine type, or "surprise me"]
 What I want to avoid: [specific dislikes or past bad experiences]
 Give me 3-5 options with why each one fits, and tell me
 which one you'd pick if you were me.
-
 :::
 *What to do with the Output:* Pick the one that fits your mood, not the one that sounds most impressive. Check the hours and whether you need a reservation — your Agent may not have current information. If you're going with other people, send them the short list and let them weigh in. The best restaurant for the night is the one everyone agrees to go to.
 
 ::: also
 Checking current information requires web search, which is free in Gemini, ChatGPT, and Copilot. In Claude, web search requires the paid tier. See [Appendix G](06-appendix-g-feature-table.xhtml).
-
 :::
 
 
 ::: tip
 _"I eat at [restaurant] once a week and I'm bored. Based on what I like about it — [describe] — what else should I try?"_
-
 :::
 
 
 ::: tip
 Eating alone in public is culturally coded as failure in America and normalized elsewhere. Your Agent can recommend restaurants with good bar seating or counter service for solo diners. It will not ask why you're dining alone. Neither should anyone else.
-
 :::
 
 
@@ -284,25 +263,21 @@ Please:
 2. Give me 2-3 specific things I can do this week
 3. Tell me what's normal vs. what might need professional attention
 4. Be honest about what the research doesn't know yet
-
 :::
 *What to do with the Output:* Parenting advice from any source — including your Agent — should be filtered through your knowledge of your specific child. If the advice doesn't fit, say so: _"That doesn't match what I see with my kid. Here's what actually happens: [describe]. What else should I try?"_ Your Agent adjusts. Books don't. And if you feel guilty about how you're doing --- you will, every parent does, the research treats it as a baseline --- that guilt is the tax on caring. It does not mean you are doing it wrong. It means you are paying attention.
 
 ::: meme
 We used to change the channel by walking to the TV and watched reruns of children using washboards on [_Nick at Nite_](https://en.wikipedia.org/wiki/Nick%5Fat%5FNite). Now smart homes automate everything and robots fold laundry in viral videos. The nature of work is changing. So should chores. The number one skill to teach a child is not any specific task — it is knowing when to ask for help and how to evaluate the answer.
-
 :::
 
 
 ::: science
 Baumrind's parenting styles framework (1966) — authoritative, authoritarian, permissive — remains the most replicated finding in developmental psychology, with authoritative parenting (high warmth, high structure) consistently producing strong outcomes, though cross-cultural research (Chao, 1994; Deater-Deckard et al., 2011) shows the framework has boundary conditions --- what counts as "authoritative" looks different in different cultural contexts.[^li7-1]
-
 :::
 
 
 ::: fairness
 Parenting research has historically oversampled white, middle-class, two-parent households. When your Agent generalizes about "what research shows," ask: _"Is this finding consistent across income levels and family structures?"_ The answer is sometimes no.
-
 :::
 
 
@@ -330,13 +305,11 @@ Please:
 2. Suggest one specific practice I can start today
 3. Tell me when this is something I should bring to
    a professional instead
-
 :::
 *What to do with the Output:* Start with the one thing. Not three things. One. If the Agent suggests journaling, write for five minutes tonight. If it suggests a breathing exercise, do it once. The compound effect of small consistent actions is better documented than the effect of ambitious plans that last three days.
 
 ::: fairness
 Your Agent will recommend therapy when appropriate. If cost or access is the barrier, say so: _"I can't afford therapy right now. What can I do on my own that has the most evidence behind it?"_ The answer exists and is better than nothing.
-
 :::
 
 
@@ -348,28 +321,24 @@ pattern: [describe the loop — catastrophizing, rumination,
 all-or-nothing thinking, etc.].
 Help me identify what's happening and give me a specific
 technique to interrupt it.
-
 :::
 ::: prompt
 Act as a journaling coach. I want to start journaling but
 I don't know what to write about and I feel self-conscious.
 Give me a simple framework I can use for 5-10 minutes a day
 that doesn't require me to be a good writer.
-
 :::
 ::: prompt
 Act as an occupational therapy coach. I am struggling with
 [daily living task: morning routine, household organization,
 time management, sensory overload, task initiation] and I want
 practical strategies, not motivational advice.
-
 :::
 
 [^li8-1]: Busch, S.H. et al. (2022). "Wait Times for New Psychiatric Appointments." _Psychiatric Services_, 73(12). In-person psychiatry median 67 days; telepsychiatry 43 days.
 
 ::: also
 If you or someone you know is in crisis: *988 Suicide & Crisis Lifeline* (call or text 988), *Crisis Text Line* (text HOME to 741741). Your Agent can walk you through standard self-assessment tools (PHQ-9, GAD-7) as a first step --- not a diagnosis, but a way to understand whether what you are experiencing warrants professional attention.
-
 :::
 
 
@@ -397,13 +366,11 @@ Please:
 3. Build a realistic monthly plan that includes some flexibility
    — a plan I'll actually follow, not an ideal I'll abandon
 4. Tell me honestly: is this a budgeting problem or an income problem?
-
 :::
 *What to do with the Output:* Track actual spending for one month before adjusting the budget. Most people are surprised by at least one category. Ask your Agent: _"Here's what I actually spent last month: [list]. How does this compare to the plan, and what's the one change that would have the biggest impact?"_
 
 ::: science
 Mullainathan & Shafir (2013) document "scarcity mindset" — financial stress measurably reduces cognitive bandwidth, making financial decisions harder precisely when they matter most.[^li9-1]
-
 :::
 
 
@@ -424,7 +391,6 @@ My goal: [travel / family communication / work / general learning]
 What I struggle with most: [pronunciation / grammar / vocabulary /
 understanding native speakers]
 How would you suggest we work together in our conversations?
-
 :::
 *What to do with the Output:* Start using it immediately. Language learning research consistently shows that production — trying to say things, getting them wrong, trying again — beats passive study. Your Agent can do something no textbook can: respond to what you say, correct you in real time, and adjust the difficulty to where you actually are rather than where a curriculum assumes you should be.
 
@@ -435,36 +401,30 @@ I’m traveling to [country] in [timeframe]. Teach me the 20 phrases
 that will make the biggest difference — greetings, ordering food,
 asking for help, being polite. Prioritize what locals actually
 appreciate hearing from visitors.
-
 :::
 ::: prompt
 I’m trying to reconnect with [language] that my [parent/grandparent]
 spoke. I understand some when I hear it but I can’t produce it.
 Start me where I am, not at the beginning.
-
 :::
 ::: prompt
 I need to [give a presentation / attend a meeting / make small talk]
 in [language] for work. My level is [X]. Help me prepare
 the specific phrases and responses I’ll need.
-
 :::
 
 ::: tip
 _”Pretend you’re a [waiter / taxi driver / shopkeeper / colleague] in [city] and only respond in [language]. If I get stuck, give me the phrase I need, then let me try again.”_ — Role-play with your Agent is the closest thing to immersion without a plane ticket.
-
 :::
 
 
 ::: science
 Krashen’s [input hypothesis](https://en.wikipedia.org/wiki/Input%5Fhypothesis) (1982) argues that language acquisition happens when learners receive input slightly above their current level — “i+1.” Your Agent can calibrate to exactly this level in real time, something classroom instruction cannot do for 25 students simultaneously. The evidence for comprehensible input as the primary driver of acquisition is among the most replicated findings in applied linguistics.[^li10-1]
-
 :::
 
 
 ::: fairness
 Your Agent’s language ability varies by language. It is strongest in English, Mandarin, Spanish, French, German, and Japanese. For less-resourced languages — many Indigenous languages, regional dialects, signed languages — its accuracy drops significantly. If you are working in a less common language, verify key phrases with a native speaker or community resource. Your Agent will tell you when it is less confident if you ask.
-
 :::
 
 
@@ -495,31 +455,26 @@ Please help me:
    willpower I don’t have — change the cues, not the person
 4. Suggest what to replace the habit with — the gap needs filling
    or the habit comes back
-
 :::
 *What to do with the Output:* Start with one platform. The one that makes you feel worst, or the one that eats the most time. Remove it from your phone — not your life, just your pocket. You can still use it on a computer, which introduces enough friction to break the automatic-checking loop. The research is clear: the harm concentrates in compulsive mobile checking, not in deliberate use.
 
 ::: science
 A landmark study in the _American Economic Review_ exploited Facebook’s staggered rollout across U.S. college campuses as a natural experiment. College-wide Facebook access caused a 7% increase in severe depression and a 20% increase in anxiety disorders — effects roughly one-fifth the magnitude of losing a job. The mechanism is not use itself but emotional dependency: routine use correlates with positive outcomes, while compulsive checking driven by fear of missing out correlates negatively across every measure.[^li11-1]
-
 :::
 
 
 ::: science
 The distinction between purposeful and passive internet use is not a value judgment — it is a measurable difference. Research on primary school students found that using the internet to search for information favors educational outcomes, while social network use hinders them. These are categorically different activities, not points on a single spectrum.[^li11-2]
-
 :::
 
 
 ::: meme
 The web evolved from text to graphics to audio to video to interactive simulation — mapping almost precisely onto the full range of human learning modalities. Then social media arrived and replaced “learn anything” with “react to everything.” The infrastructure is still there. The feeds are in the way. Moving the feeds is the project.
-
 :::
 
 
 ::: fairness
 “Just delete it” is advice that ignores the people for whom social media is their primary connection to community — isolated caregivers, people with disabilities, immigrants maintaining ties to home. The goal is not abstinence. The goal is shifting the ratio from reactive to purposeful. Ask your Agent: _”I need social media for [specific reason]. Help me keep that function and reduce the rest.”_
-
 :::
 
 
@@ -559,25 +514,21 @@ Please help me:
    miss days — because I will
 4. Tell me what the research says about how long this
    actually takes (it is not 21 days)
-
 :::
 *What to do with the Output:* Do the minimum version today. Not tomorrow. The research says the hardest gap to close is between “I should” and “I did it once.” Everything after the first time is easier. If your Agent suggests a two-minute version of the habit and that feels too small, it is the right size. Scale up after it is automatic, not before.
 
 ::: science
 Lally et al. (2010) found habit formation takes an average of 66 days — not 21. The range was 18 to 254 days depending on the habit and the person. The “21 days” myth comes from a plastic surgeon’s anecdotal observation about patients adjusting to their new appearance, not from behavioral research. Your Agent can help you set expectations that match the science, not the marketing.[^li12-1]
-
 :::
 
 
 ::: tip
 _”I failed at [habit] again yesterday. Don’t motivate me. Help me figure out what went wrong structurally and fix the design.”_ — The most useful thing your Agent can do is diagnose the cue, not restore your enthusiasm.
-
 :::
 
 
 ::: fairness
 Habit advice assumes discretionary time. If you are working two jobs or caregiving full-time, “just add a morning routine” is not a plan — it is an insult. Tell your Agent your actual constraints, including time, energy, and what your day actually looks like. Ask for something that fits inside your real life, not an idealized one.
-
 :::
 
 
@@ -626,55 +577,46 @@ Please help me:
 5. Tell me what I should ask a reference librarian that I've
    been asking you — where their help beats mine, and where
    it complements mine
-
 :::
 *What to do with the Output:* Walk in this week. Not someday — this week. Libraries are one of the few institutions where showing up and saying "I'm new, can you help me?" is the expected move, not the awkward one. Download Libby before you go and link it to your card at the desk; you'll leave with your entire ebook and audiobook backlog handled. If you had a library card once and let it lapse, the staff will reactivate it without comment or fee. If you last walked into a library in high school and assumed the building had been replaced by the internet, the reverse happened — most libraries now lend technology, host maker spaces, process passport applications, and connect patrons with social services. You did not outgrow the library. It outgrew your last visit. Then pair this with your Agent: when your Agent gives you a citation in a research conversation (see WB-10), the library is how you read the actual paper, not the summary.
 
 ::: science
 U.S. public libraries served over 800 million in-person visits in the most recent federal survey year (IMLS, FY2023) — recovering from pandemic lows and climbing toward the pre-pandemic peak of 1.25 billion. Digital circulation has surged past those levels: OverDrive / Libby alone reached 820 million checkouts in 2025.[^li13-1] The return on the median library tax — approximately $43 per person per year — is among the highest of any public expenditure, with benefit-cost ratios consistently estimated between 4:1 and 5:1 in state-level studies.[^li13-2]
-
 :::
 
 
 ::: tip
 _"What's the single database or service my library offers that most cardholders never use?"_ — The answer is almost always something expensive (Consumer Reports, Morningstar, Ancestry, Rosetta Stone, The New York Times archive) that would otherwise cost hundreds of dollars a year. Ask specifically.
-
 :::
 
 
 ::: also
 Most U.S. state university libraries admit the public to the physical collection under **state resident** or **community borrower** programs — Ohio's OhioLINK, California's state university system, the Big Ten Academic Alliance, and most SEC and ACC libraries all have a public pathway, typically a free or modest-fee borrower's card for residents of the state. [WorldCat](https://www.worldcat.org/) locates any book in any library in the world and is free to search. The [Library of Congress](https://www.loc.gov/) issues a free reader's card to anyone 16 or older with a photo ID. Your alma mater may grant alumni library privileges — often [JSTOR](https://www.jstor.org/) and database access included — even if you graduated decades ago. Ask.
-
 :::
 
 
 ::: also
 **Open to the world, no card required.** A class of digital archives is free to anyone with an internet connection — no residency, no card, no login. Three anchors worth knowing by name: the [Internet Archive](https://archive.org/) ([Wayback Machine](https://web.archive.org/), films, audio, software, public-domain books); the [Library of Congress Digital Collections](https://www.loc.gov/collections/) (manuscripts, maps, historical newspapers, recordings); and [Project Gutenberg](https://www.gutenberg.org/) (the original public-domain ebook archive). Beyond those, the landscape is enormous — public libraries, state archives, university special collections, national libraries, government agencies, and museums all publish open digital collections, and new ones appear constantly. Rather than work from any list, ask your Agent: _"What open digital archives would be most useful for [my topic]?"_ The reader in a rural county with a small library has the same access to these as a Harvard graduate student.
-
 :::
 
 
 ::: tip
 _"I'm researching [specific topic — a person, a place, a period, an industry, a family history question]. What open archives, digitized special collections, or government databases are most likely to hold primary sources? Rank by likely usefulness and tell me exactly what to search for in each."_ — The value of an archive depends entirely on your question. Ask specifically.
-
 :::
 
 
 ::: fairness
 The library is the rare American institution that does not ask what you can afford before deciding what you get. It does not means-test. It does not require a purchase. It does not track you across the internet and sell the data. For the reader without home internet, it is the internet. For the reader without a quiet room, it is the quiet room. For the reader whose child needs a printer to submit a school assignment, it is the printer. The defunding of public libraries is not a neutral policy choice — it is a transfer of services from the commons to the market, which is to say, from everyone to those who can afford to replace them. [Support your library](https://www.ala.org/advocacy/). Vote in the levy.
-
 :::
 
 
 ::: meme
 The [Dewey Decimal System](https://en.wikipedia.org/wiki/Dewey%5FDecimal%5FClassification) is older than the electric lightbulb and still better at finding a specific book than any search engine. This is not nostalgia — it is topology. Classifying knowledge by subject, not by popularity, produces a different map than a ranked result list. The library is one of the last places where you find what you were not looking for because it was shelved next to what you were. Your Agent can tell you what you asked. The shelf next to the answer tells you what you should have asked.
-
 :::
 
 
 ::: science
 Library anxiety — the feeling of inadequacy, confusion, or intimidation when navigating a library — is a documented phenomenon, first described by Mellon (1986) and confirmed across decades of subsequent research.[^li13-3] It disproportionately affects people navigating an unfamiliar institutional environment, including non-native English speakers, first-generation college students, and adults returning after a long absence. If you feel lost walking into a library, you are not unusual — 75--85% of students in Mellon's original study described their initial library experience in terms of fear. Librarians know this. Helping people who feel lost is most of their job.
-
 :::
 
 

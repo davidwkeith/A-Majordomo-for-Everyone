@@ -34,37 +34,31 @@ Please explain:
 4. What I should document and how
 5. What to do immediately after the encounter
 Give me the most conservative, legally accurate answer.
-
 :::
 *What to do with the Output:* Memorize three phrases: _"Am I being detained or am I free to go?"_ _"I am invoking my right to remain silent."_ _"I do not consent to a search."_ These are legally significant sentences. Practice saying them calmly. The calm is the point --- rights exercised in anger are still legal, but de-escalation is a survival strategy, not a concession.
 
 ::: fairness
 The experience of a police encounter varies dramatically by race, gender, neighborhood, and income. Your Agent should be direct about this reality. If it gives advice that assumes you are white and middle-class, say so: _"Adjust this for someone who is [your actual demographic] in [your actual neighborhood]."_ The legal rights are the same. The practical risk is not. The Stanford Open Policing Project analyzed over 200 million traffic stops and found consistent racial disparities in stop rates, search rates, and outcomes across jurisdictions.[^c1-1] The person who is Black already knows. The person who isn't may need the data. Both need the practical guidance.
-
 :::
 
 
 ::: science
 Three cases define the landscape of your rights during a police encounter. _Terry v. Ohio_ (1968) established that officers may briefly stop and pat down a person based on reasonable suspicion --- the legal basis for stop-and-frisk. _Miranda v. Arizona_ (1966) requires that you be informed of your rights during custodial interrogation. And _Salinas v. Texas_ (2013) established a rule that most people do not know: remaining silent is not enough to invoke your right to remain silent. You must say so explicitly --- _"I am invoking my right to remain silent"_ --- or your silence can be used against you in court. The right is universally known. The requirement to actively invoke it is not. This is the kind of information asymmetry that changes outcomes.[^c1-2]
-
 :::
 
 
 ::: science
 The conditions of a police encounter --- elevated cortisol, reduced cognitive function, tunnel vision --- are precisely the conditions under which humans are worst at remembering and exercising abstract rights. Research on stress and decision-making confirms that acute stress degrades exactly the kind of deliberative reasoning that rights-assertion requires.[^c1-3] The body does not distinguish between a routine traffic stop and a threat. This is why preparation matters: the knowledge has to be automatic, not recalled under duress. The three phrases in "What to do with the Output" are designed to be memorized, not looked up.
-
 :::
 
 
 ::: tip
 _"I was just [stopped / detained / searched]. Here is what happened: [describe]. Was any of this a violation of my rights, and what should I do now?"_
-
 :::
 
 
 ::: tip
 _"I want to record [a police interaction / a public official / an encounter] in [state]. Am I in a one-party or two-party consent state? What are my legal rights to record in public spaces, and what are the practical considerations --- phone placement, cloud backup, not reaching for my phone during a tense moment?"_ --- In most jurisdictions you have the right to record police performing their duties in public. The ACLU maintains state-specific guides on recording rights.
-
 :::
 
 
@@ -94,31 +88,26 @@ Please explain:
 3. What provisional ballots are and when to insist on one
 4. What to do if I'm turned away, challenged, or intimidated
 5. The deadlines I cannot miss
-
 :::
 *What to do with the Output:* Check your registration now --- not the week before the election. If your status is incorrect, you have more options to fix it before Election Day than on it. Your Agent can walk you through your state's specific process. Save the deadlines to your calendar.
 
 ::: science
 In 2013, _Shelby County v. Holder_ gutted Section 5 of the Voting Rights Act, which had required jurisdictions with a history of discrimination to obtain federal approval before changing voting rules. In the years following the decision, the Leadership Conference on Civil Rights documented 1,688 polling place closures in formerly covered jurisdictions --- closures that no longer required federal review. Registration purges, voter ID laws, and reduced early voting hours followed a similar pattern: legal under the new framework, and concentrated in communities with the most to lose.[^c2-1] These are facts, not opinions. Your Agent should present them as such.
-
 :::
 
 
 ::: tip
 _"I've never understood [ranked choice voting / jungle primaries / caucusing]. Explain how it actually works and how my voting strategy should change compared to a standard primary."_ --- [FairVote](https://fairvote.org/) maintains accessible descriptions of alternative voting systems. The comparative evidence is young --- Alaska and Maine are the primary ranked-choice data points --- but understanding how your system works makes you a more effective voter regardless of the system.
-
 :::
 
 
 ::: fairness
 Voter ID laws and their effects are politically contested. The research is less contested: multiple studies document disparate impact by race, age, and income. Your Agent should present the law as it exists in your state, not as either party argues it should be.[^c2-2] The person working two jobs who cannot get to the polls is not civically disengaged --- they are civically obstructed. Non-voting is often a rational response to structural barriers, not apathy or ignorance.
-
 :::
 
 
 ::: fairness
 Felon disenfranchisement varies wildly by state. Maine and Vermont allow voting from prison. Most states restore rights after sentence completion. Some require additional petitioning or a gubernatorial pardon. An estimated 4.6 million Americans are affected.[^c2-3] If this applies to you, ask your Agent: _"I have a felony conviction in [state]. What is my current voting eligibility, what is the process for restoration, and what deadlines apply?"_ The answer may be better than you expect --- and your Agent can find it faster than your state's website can explain it.
-
 :::
 
 
@@ -155,37 +144,31 @@ Please:
    national norms --- what's better here, what's worse
 4. Point me toward free or low-cost legal resources in my area
 Give me the data, not the vibe. I want specifics I can act on.
-
 :::
 *What to do with the Output:* This is research, not legal advice. For any situation where enforcement of a right is at stake --- discrimination, housing, employment, immigration --- a legal aid organization or attorney should get involved. Many offer free consultations and pro bono representation for civil rights cases. Your Agent can help you find them: _"What legal aid organizations in [city/state] handle [type of case] and offer free consultations?"_
 
 ::: tip
 If you are considering a move: _"Compare the practical rights and protections for someone like me --- [your situation] --- living in [City A, State] versus [City B, State]. Include anti-discrimination laws, tenant protections, healthcare access, police accountability measures, and public school funding. I want the delta, not the Wikipedia summary."_ This is more useful than a Reddit vibe-check and more specific than a "best cities" listicle.
-
 :::
 
 
 ::: science
 The [Universal Declaration of Human Rights](https://www.un.org/en/about-us/universal-declaration-of-human-rights) (1948) establishes thirty rights that the global community agreed every human possesses. The American legal system implements some through constitutional law, some through federal statute, and some not at all. The distance between the UDHR and your daily experience is itself a measure of the information asymmetry this book exists to address.[^c3-1]
-
 :::
 
 
 ::: fairness
 The experience of rights varies by race, gender, income, disability status, immigration status, and neighborhood --- within the same city, under the same laws. The law on paper and the law in practice are two different systems that share a name. A trans person in a state with anti-discrimination protections may still face hostile enforcement. A Black resident in a city with police reform laws may still experience disproportionate stops. If your Agent's answer describes the law without acknowledging the gap between law and enforcement, say so: _"That's what the law says. What's the documented experience for someone who is [your demographic] in [your area]?"_ The data exists. Your Agent has read it.
-
 :::
 
 
 ::: also
 The [Movement Advancement Project](https://www.lgbtmap.org/equality-maps) (MAP) maintains state equality maps that score civil rights protections across categories --- employment, housing, family law, health, criminal justice. The [ACLU](https://www.aclu.org/know-your-rights) publishes "Know Your Rights" guides by topic. The [Equality Federation](https://www.equalityfederation.org/) tracks state-level policy. These are the scorecards. Your Agent can interpret them for your specific situation: _"Based on MAP's state equality data, how does [my state] compare to [another state] on protections for [my concern]?"_
-
 :::
 
 
 ::: also
 Legal aid exists but does not reach everyone who needs it. LSC-funded legal aid organizations serve approximately 1.8 million people annually --- but that is only about 20% of eligible low-income Americans.[^c3-2] Start with: your [local legal aid society](https://www.lsc.gov/about-lsc/what-legal-aid/get-legal-help) (LSC maintains a national directory), your state bar association's lawyer referral service, and law school clinics in your area (free representation by supervised law students). For emergencies, call *211* or visit [211.org](https://www.211.org/). Ask your Agent: _"What free or low-cost legal resources in [city, state] handle [type of case]?"_
-
 :::
 
 
@@ -210,19 +193,16 @@ Please explain:
 3. Who opposes it and why
 4. What happens if it passes vs. fails
 Present both sides fairly -- I want to make up my own mind.
-
 :::
 *What to do with the Output:* Save the summary to your phone. Review it the night before you vote. If you are mailing your ballot, open the summary side by side with the ballot --- the measure numbers are your anchor. Share the plain-language version with one other person who is also voting. Information compounds.
 
 ::: also
 Paste or upload your document directly --- file upload works in Claude, Gemini, ChatGPT, and Copilot. See [Appendix G](06-appendix-g-feature-table.xhtml).
-
 :::
 
 
 ::: spec
 This same framework works on any policy proposal, white paper, or think-tank report --- not just ballot measures. Companies, lobbying groups, and advocacy organizations publish policy documents designed to sound reasonable. Paste one and ask: _"Who published this, what outcome are they seeking, what mechanism does this proposal use to achieve it, and what is left unspecified? Present the strongest version of both support and opposition."_ The distance between a document's stated intent and its actual mechanism is where the politics lives.
-
 :::
 
 
@@ -242,7 +222,6 @@ I have [2/3] minutes.
 Please write a public comment that states my position clearly,
 gives my strongest reason, and asks the council for a specific action.
 Write it to be spoken aloud -- conversational, not formal.
-
 :::
 *What to do with the Output:* Print it. Read it out loud three times at home. Time yourself --- if it runs over two minutes, cut the weakest point, not the ask. Bring two copies to the meeting: one to read from, one to hand to the clerk for the record. Written comments entered into the record become part of the public file on that decision.
 
@@ -250,13 +229,11 @@ Write it to be spoken aloud -- conversational, not formal.
 
 ::: also
 This works well with voice mode on your phone --- all major tools support it on mobile. See [Appendix G](06-appendix-g-feature-table.xhtml).
-
 :::
 
 
 ::: tip
 This is not just for city hall. Federal agencies accept public comments on proposed regulations through regulations.gov --- including rules about AI, data privacy, and algorithmic decision-making. State legislatures accept written testimony on pending bills. The skill is the same: _"[Agency or committee] is accepting public comment on [proposed rule or bill] until [date]. My concern is [specific provision]. Help me write a comment that addresses the regulatory language, not just my general feelings about it."_ The Notice and Comment process is one of the most direct mechanisms of democratic input available. It is also one of the least used by people who are not lobbyists.
-
 :::
 
 
@@ -282,37 +259,31 @@ Please help me:
 3. Draft a strategy --- not just a letter, but an actual plan:
    who to contact, in what order, with what message
 4. Help me write the first communication
-
 :::
 *What to do with the Output:* Start local. National change requires millions of people. Local change requires dozens, sometimes fewer. Your school board member has fewer constituents than your congressperson by a factor of a thousand. The math is in your favor at the local level.
 
 ::: science
 Political efficacy --- the belief that your actions can influence government --- is one of the strongest predictors of political participation.[^c6-1] The decline in efficacy correlates with the rise of national media and the decline of local media. When your news is all national, every problem feels unsolvable. When your news is local, you can see the leverage points. The feeling of helplessness is a symptom of scale, not reality. Shrink the scale and the helplessness recedes. Most successful social change in American history has been gradual, local, boring, and persistent --- not dramatic, national, or violent. The civil rights movement succeeded through years of organizing, legal strategy, and coalition-building before the marches made the news.[^c6-2]
-
 :::
 
 
 ::: meme
 [Alexander Hamilton](https://en.wikipedia.org/wiki/Alexander%5FHamilton) wrote his way into the Constitutional Convention. Debate and persuasion are not academic exercises --- they are the tools of structural change. Your Agent can sharpen your argument the way a coach sharpens a pitch: _"Here is my position on [issue]. Argue against it as effectively as you can so I can strengthen my case."_ Steelmanning the opposing argument --- constructing the strongest possible version of the position you oppose --- is one of the most powerful specs in the book. It forces you to understand the opposition, which makes your argument better and occasionally changes your mind. Both outcomes are useful.
-
 :::
 
 
 ::: tip
 _"I have 2 minutes to speak at [meeting] about [issue]. I'm nervous. Help me write something clear and practice delivering it."_
-
 :::
 
 
 ::: also
 Most Americans cannot name their city council representative, school board members, or county commissioners. This is not apathy --- it is a structural design feature. [Ballotpedia](https://ballotpedia.org/) covers elected officials at every level. [Open States](https://openstates.org/) tracks state legislation and legislators. [vote.org](https://www.vote.org/) handles registration and polling place lookup. Your Agent can map the decision-making authority for any jurisdiction: _"Who on my [city council / school board / county commission] in [location] has authority over [issue], and what is the best way to contact them?"_
-
 :::
 
 
 ::: spec
 When a politician, company, or think tank proposes a new safety net, benefit, or economic reform --- a public wealth fund, portable benefits, universal basic income, adaptive unemployment insurance --- your Agent can help you evaluate it the way a policy analyst would: _"Here is a proposal for [program]. Who is covered and who is excluded? What triggers the benefit and what ends it? What happens in the gap between the old system and the new one? What is the funding mechanism and is it durable? Where has something like this been tried, and what happened?"_ The ability to evaluate a proposal against its stated objectives --- not its marketing language --- is the civic skill that matters most between elections.
-
 :::
 
 
@@ -341,43 +312,36 @@ Please explain:
    what to question
 4. What I should know that the orientation video doesn't cover
 Do not give me legal advice about any specific case.
-
 :::
 *What to do with the Output:* If you are currently serving, do not share case details with your Agent or anyone else --- that is a legal obligation, not a suggestion. Use your Agent for general education about the process, evidence evaluation, and your rights. After a verdict, ask: _"What just happened in that process, and what should I understand about it?"_
 
 ::: science
 Jury nullification --- the jury's power to acquit even when the evidence supports conviction, because the jury disagrees with the law --- is legal, documented, and almost never mentioned in jury instructions. The principle dates to _Bushell's Case_ (1670) in English common law and the acquittal of John Peter Zenger (1735) in colonial New York, where a jury refused to convict a printer for criticizing the governor. Courts have consistently ruled that jurors have this power but that judges are not required to inform them of it.[^c7-1]
-
 :::
 
 
 ::: science
 Jurors construct narratives and fit evidence into them, rather than weighing each piece of evidence independently. Pennington and Hastie's Story Model of jury decision-making (1992) documents this: once a juror builds a coherent story, new evidence is evaluated by how well it fits the existing narrative, not on its own merits.[^c7-2] This is confirmation bias operating inside the most consequential decision-making process most civilians will ever participate in. Understanding this about yourself makes you a better juror, not a worse one. Notice when you are building a story. Ask yourself what evidence would change it.
-
 :::
 
 
 ::: fairness
 Jury duty compensation ranges from $5 to $50 per day in most jurisdictions --- well below minimum wage. Federal employees receive full pay during service; some states mandate employer pay; most do not. For hourly workers, jury duty is a financial crisis dressed as a civic privilege. If this applies to you, ask your Agent: _"What are the juror hardship exemption and deferral procedures in [state], and what documentation do I need?"_ --- and file early, because deadlines are strict.
-
 :::
 
 
 ::: fairness
 The emotional toll of jury service --- especially in violent crime or child abuse cases --- is real and under-supported. PTSD symptoms in jurors are documented, but most jurisdictions offer no post-trial counseling.[^c7-3] Jurors are expected to absorb graphic evidence, deliberate rationally, and return to normal life without transition. If you have served and are experiencing intrusive thoughts, difficulty sleeping, or emotional distress, that is a normal response to an abnormal experience. Contact your primary care provider or the [SAMHSA National Helpline](https://www.samhsa.gov/find-help/national-helpline) (*1-800-662-4357*), which is free, confidential, and available 24/7.
-
 :::
 
 
 ::: tip
 _"I just got a jury summons and I have [hardship: job won't pay, childcare, medical condition]. What are my actual options for deferral or exemption in [state]?"_
-
 :::
 
 
 ::: tip
 AI-generated evidence and algorithmic tools are entering the courtroom. Predictive sentencing systems like COMPAS have documented racial bias. Expert witnesses increasingly include data scientists. Deepfake evidence is an emerging challenge. The tools entering the courtroom are the same tools the reader is learning to use in this book. If you serve on a jury and encounter AI-derived evidence, ask your Agent afterward: _"What should I understand about [tool or method used in the case] and its known limitations?"_ Critical evaluation applies everywhere.
-
 :::
 
 
@@ -414,31 +378,26 @@ Please help me:
 4. Help me draft a public comment that addresses the specific
    regulatory language, states my position, and provides
    a concrete recommendation
-
 :::
 *What to do with the Output:* Submit your comment through the official channel --- regulations.gov for federal rules, your state legislature's website for state bills. Written comments become part of the public record. For state and local hearings, the same rules apply as C-5: print it, practice it, show up. A single informed comment from a constituent who will live under the rule is worth more than a thousand form letters. Agencies know the difference.
 
 ::: science
 The federal Notice and Comment process, established by the Administrative Procedure Act of 1946, requires agencies to publish proposed rules, accept public comments, and respond to substantive concerns before finalizing regulations. This is not performative --- courts have struck down rules where agencies failed to adequately consider public input. Research on federal rulemaking confirms that substantive comments --- those addressing specific provisions with evidence or lived experience --- are more likely to influence final rules than form letters or general expressions of support.[^c8-1] Public comment participation rates on federal rules are typically in the hundreds to low thousands, out of a population of 330 million. The reader who submits one substantive comment on one AI regulation has done more than 99% of the population. That is not hyperbole.
-
 :::
 
 
 ::: tip
 _"I just read [a news article / company blog post / policy white paper] about AI policy. Paste: [text]. Help me understand: What is this actually proposing? What would it require in practice? Who benefits and who bears the cost? What is the strongest argument for and against? And is there an open comment period or legislative process where I can weigh in?"_
-
 :::
 
 
 ::: fairness
 AI policy is being shaped disproportionately by the companies building the technology and by a small number of well-funded advocacy organizations. Public comments from individuals --- especially from communities that will be most affected by algorithmic decision-making in hiring, lending, housing, healthcare, and criminal justice --- are underrepresented in the record. Your Agent can help you write a comment. It cannot make the system value your input equally. Showing up in the record is necessary but not sufficient. Organizing --- C-6 --- is what makes the record matter.
-
 :::
 
 
 ::: also
 Track active AI legislation and rulemaking: the [Electronic Frontier Foundation](https://www.eff.org/) covers digital rights and surveillance. The [ACLU's technology and civil liberties page](https://www.aclu.org/issues/privacy-technology) tracks algorithmic accountability. The [Brennan Center for Justice](https://www.brennancenter.org/issues/technology-elections) covers technology and elections. [Regulations.gov](https://www.regulations.gov/) is the portal for all open federal comment periods. For state-level bills, [Open States](https://openstates.org/) tracks legislation by topic and jurisdiction.
-
 :::
 
 

@@ -47,7 +47,6 @@ This is a paragraph. **This is bold.** *This is italic.*
 
 ::: science
 This is a sidebar with a citation.[^1]
-
 :::
 
 
@@ -72,7 +71,6 @@ part: 2
 order: 3
 status: "draft"
 ---
-
 :::
 
 The build pipeline reads the frontmatter, sorts by part and order, and assembles the ePub. Reorder chapters by changing a number. Add a chapter by adding a file. Remove a chapter by deleting a file. The filesystem is the table of contents. There is no separate document to maintain.
@@ -137,7 +135,6 @@ If you are writing a guide for a community that needs it, license it so the comm
 ### The Build
 
 The entire book compiles from CommonMark source to ePub with a single command:
-
 :::
 npm run build
 ```
