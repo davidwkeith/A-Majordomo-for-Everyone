@@ -29,7 +29,7 @@ export const STYLE_GUIDE = join(
   ROOT,
   'spec',
   'illustration',
-  'gem-illustration-instructions.md'
+  'illustration-instructions.md'
 );
 
 export { discoverBriefs, buildRefRegistry };

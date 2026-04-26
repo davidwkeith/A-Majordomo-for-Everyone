@@ -63,7 +63,7 @@ npm run build -- --generate --max=3  # generate up to 3
 
 #### Cloud generation with Gemini (default)
 
-Uses the [Gemini API](https://ai.google.dev/gemini-api/docs/image-generation) (`@google/genai`). The full style guide from `spec/illustration/gem-illustration-instructions.md` is prepended to each prompt. Gemini handles complex, multi-layered art briefs that diffusion models cannot interpret.
+Uses the [Gemini API](https://ai.google.dev/gemini-api/docs/image-generation) (`@google/genai`). The full style guide from `spec/illustration/illustration-instructions.md` is prepended to each prompt. Gemini handles complex, multi-layered art briefs that diffusion models cannot interpret.
 
 ```bash
 export GOOGLE_API_KEY=your-key-here
@@ -104,7 +104,7 @@ Embed XMP metadata (alt text, brief, license) into a produced image:
 npx tsx build/embed-xmp.ts src/images/file.png --from src/content/path/to/chapter/file.art.md
 ```
 
-See `spec/illustration/gem-illustration-instructions.md` for the full visual style guide.
+See `spec/illustration/illustration-instructions.md` for the full visual style guide.
 
 ## Structure
 

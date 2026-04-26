@@ -12,8 +12,8 @@ The `spec/` directory defines how this book is written, illustrated, voiced, and
 - `spec/editorial/cultural-references.md` — episode index and cultural reference sheet
 - `spec/editorial/episode-index.md` — episode-to-strategy mapping
 - `spec/editorial/roddenberry.md` — Star Trek thematic framework
-- `spec/illustration/gem-illustration-instructions.md` — illustrator agent instructions
-- `spec/illustration/cover-spec.md` — cover art brief
+- `spec/illustration/illustration-instructions.md` — illustrator agent instructions
+- `spec/illustration/cover.art.md` — cover art brief (`.art.md` sidecar for `src/images/cover.png`)
 - `spec/architecture.md` — book structure and chapter organization
 
 The spec is version-controlled. If the spec and the content disagree, fix one of them — do not leave them in conflict.
