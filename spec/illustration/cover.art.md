@@ -31,7 +31,7 @@ Drawn in the left margin — in the narrow space between the left frame edge and
 
 The pole is vertical, running from the bottom of the frame to near the top. Its shaft cuts slightly into the left corner of the house — the house's left edge extends past the margin line, and the pole overlaps it, partially obscuring the left corner of the house. The way a real telephone pole would, if you were standing at the curb.
 
-On the pole are a lost dog and yard sale poster. Dot-matrix printer paper stapled to the tree. Made with and early version PrintShop on a dot matrix printer. The details are unreadable.
+On the pole are a lost dog and yard sale poster. Dot-matrix printer paper stapled to the pole. Made with an early version of PrintShop on a dot matrix printer. The details are unreadable.
 
 Telephone wires extend from the top of the pole to the right, drooping in catenary curves across the upper portion of the composition. They run toward the roofline and off the right edge. Drawn in #2 pencil, same medium as the house.
 
@@ -97,7 +97,7 @@ The color is casual, not comprehensive. The same kid who obsessively rendered th
 
 ## The DON'T PROMPT Stamp
 
-Over the front lawn: **DONT** / **PROMPT**. Two lines. Large. Over the most active part on the bottom right of the composition. Askew from everything.
+Over the front lawn: **DON'T** / **PROMPT**. Two lines. Large. Over the most active part on the bottom right of the composition. Askew from everything.
 
 - *Red:* Stamp-pad red, slightly different from the printed margin line — more orange, more saturated.
 - *Stamp quality:* Uneven ink, bleed halo at letter edges, slightly off horizontal. Placed by a hand, not a machine. Applied after the drawing was complete.
