@@ -13,7 +13,7 @@ import {
   discoverBriefs,
   prepareArtContext,
   discoverChapters,
-  processChapter,
+  processChapterFromSource,
   parseSlug,
   sortChapters,
   optimizeImages,
@@ -80,24 +80,32 @@ async function build(): Promise<void> {
   const files = await discoverChapters();
   console.log(`Found ${files.length} chapter files`);
 
-  // Build the cross-reference registry from every chapter's heading codes
-  // before rendering any of them, so that `ref:code` links can resolve
-  // across chapter boundaries.
-  console.log('Building ref registry...');
-  const chapterSources = await Promise.all(
-    files.map(async (f) => {
-      const raw = await readFile(f, 'utf-8');
-      const { content } = matter(raw);
-      return { slug: parseSlug(f), content };
-    })
+  // Read each source file once. The raw content feeds both the
+  // cross-reference registry pass (which scans heading codes) and the
+  // per-chapter render pass below.
+  const sources = await Promise.all(
+    files.map(async (filePath) => ({
+      filePath,
+      raw: await readFile(filePath, 'utf-8'),
+    }))
   );
-  const refRegistry = buildRefRegistry(chapterSources);
+
+  console.log('Building ref registry...');
+  const refRegistry = buildRefRegistry(
+    sources.map(({ filePath, raw }) => ({
+      slug: parseSlug(filePath),
+      content: matter(raw).content,
+    }))
+  );
   const refWarnings: RefWarning[] = [];
   console.log(`Registered ${refRegistry.size} ref target(s)`);
 
   console.log('Processing chapters...');
-  const chapters = await Promise.all(
-    files.map((f) => processChapter(f, artCtx, { registry: refRegistry, warnings: refWarnings }))
+  const chapters = sources.map(({ filePath, raw }) =>
+    processChapterFromSource(filePath, raw, artCtx, {
+      registry: refRegistry,
+      warnings: refWarnings,
+    })
   );
   const sorted = sortChapters(chapters);
 

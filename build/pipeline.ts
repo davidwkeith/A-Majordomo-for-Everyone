@@ -11,6 +11,7 @@ import { EndnoteState, epubOverrides, renderNotesSection } from './filters/endno
 import {
   buildRefRegistry,
   refLinksFilter,
+  headingIdsFilter,
 } from './filters/ref-links.js';
 import type { RefRegistry, RefWarning } from './filters/ref-links.js';
 import type { ChapterMeta, ProcessedChapter } from './types.js';
@@ -123,6 +124,7 @@ export function processContent(
 
   applyFilter(doc, calloutFilter);
   applyFilter(doc, conversationFilter);
+  applyFilter(doc, headingIdsFilter());
   if (opts.refRegistry && opts.refWarnings) {
     applyFilter(
       doc,
@@ -161,12 +163,17 @@ export function parseSlug(filePath: string): string {
   return name;
 }
 
-export async function processChapter(
+/**
+ * Process a chapter from already-read raw source. Used by the ePub build
+ * to avoid reading each file twice (once for the ref registry, once for
+ * rendering); see `processChapter` for the file-reading wrapper.
+ */
+export function processChapterFromSource(
   filePath: string,
+  raw: string,
   artCtx: ArtBriefContext,
   refCtx?: { registry: RefRegistry; warnings: RefWarning[] }
-): Promise<ProcessedChapter> {
-  const raw = await readFile(filePath, 'utf-8');
+): ProcessedChapter {
   const { data, content } = matter(raw);
 
   const meta: ChapterMeta = {
@@ -196,6 +203,15 @@ export async function processChapter(
   }
 
   return { meta, html, endnotes: [] };
+}
+
+export async function processChapter(
+  filePath: string,
+  artCtx: ArtBriefContext,
+  refCtx?: { registry: RefRegistry; warnings: RefWarning[] }
+): Promise<ProcessedChapter> {
+  const raw = await readFile(filePath, 'utf-8');
+  return processChapterFromSource(filePath, raw, artCtx, refCtx);
 }
 
 export function sortChapters(chapters: ProcessedChapter[]): ProcessedChapter[] {

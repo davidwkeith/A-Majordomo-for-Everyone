@@ -76,6 +76,25 @@ type FilterPart = Record<string, Transform>;
 type Filter = () => FilterPart | FilterPart[];
 
 /**
+ * Djot filter that assigns `id="<code>"` to headings whose text starts with
+ * a code prefix like `H-2:` or `Ho-7:`. Runs before render so the standard
+ * djot renderer emits the id naturally — no string hoisting required.
+ * Preserves any id already set by explicit djot `{#id}` attributes.
+ */
+export function headingIdsFilter(): Filter {
+  return () => ({
+    heading: (node: any): void => {
+      const text = extractText(node);
+      const m = text.match(/^([A-Za-z]{1,3}-\d+[a-z]?):/);
+      if (!m) return;
+      if (!node.attributes) node.attributes = {};
+      if (node.attributes.id) return;
+      node.attributes.id = m[1].toLowerCase();
+    },
+  });
+}
+
+/**
  * Djot filter that rewrites `ref:` URLs to concrete chapter anchors.
  * Emits warnings into the supplied array; unresolved links are replaced
  * by their text content so the reader still sees something sensible.
@@ -89,7 +108,7 @@ export function refLinksFilter(
     link: (node: any): void | AstNode[] => {
       const dest: unknown = node.destination;
       if (typeof dest !== 'string' || !dest.startsWith('ref:')) return;
-      const tag = dest.slice('ref:'.length);
+      const tag = dest.slice('ref:'.length).toLowerCase();
       const target = registry.get(tag);
       if (target) {
         node.destination = `${target.slug}.xhtml#${target.anchor}`;

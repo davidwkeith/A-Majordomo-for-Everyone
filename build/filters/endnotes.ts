@@ -63,14 +63,6 @@ function sizeToClass(size: string): string {
   }
 }
 
-/** Flatten a heading's inline children to plain text for id generation. */
-function extractHeadingText(node: any): string {
-  if (!node) return '';
-  if (typeof node.text === 'string') return node.text;
-  if (Array.isArray(node.children)) return node.children.map(extractHeadingText).join('');
-  return '';
-}
-
 /** Check if a para contains only a single art span. */
 function isArtPara(node: Para): boolean {
   return (
@@ -202,22 +194,11 @@ export function epubOverrides(
       return `<a epub:type="noteref" role="doc-noteref" href="#en-${escaped}"${idAttr} class="endnote-ref">[${num}]</a>`;
     },
 
+    // Suppress the implicit <section> wrapper djot generates around each
+    // heading. Headings render flat inside the chapter body; the heading
+    // id (set by headingIdsFilter) is the anchor target.
     section: (node: Section, renderer: HTMLRenderer): string => {
-      // Hoist an id onto the first heading so cross-references can link
-      // directly to a skill section. Prefer a code-based slug (e.g. "H-2"
-      // or "Ho-7") extracted from the heading text — that gives stable,
-      // predictable anchors that match the code used in cross-refs.
-      const children = renderer.renderChildren(node);
-      const first = node.children?.[0] as any;
-      if (first?.tag !== 'heading') return children;
-      const headingText = extractHeadingText(first);
-      const codeMatch = headingText.match(/^([A-Za-z]{1,3}-\d+[a-z]?):/);
-      const id = codeMatch ? codeMatch[1].toLowerCase() : undefined;
-      if (!id) return children;
-      const openTag = children.match(/^<h[1-6]/);
-      if (!openTag) return children;
-      const insertAt = openTag[0].length;
-      return children.slice(0, insertAt) + ` id="${escapeHtml(id)}"` + children.slice(insertAt);
+      return renderer.renderChildren(node);
     },
 
     thematic_break: (_node: ThematicBreak, _renderer: HTMLRenderer): string => {
