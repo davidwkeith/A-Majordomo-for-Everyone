@@ -51,6 +51,7 @@ This is a sidebar with a citation.[^1]
 
 
 [^1]: Author (Year). "Title." *Journal*, vol, pages.
+
 ::: prompt
 
 CommonMark compiles to XHTML. XHTML is what ePub chapters are. The pipeline is deterministic — the same input always produces the same output. The manuscript is version-controlled in Git. Every change is tracked. Every version is recoverable. Collaboration is branching, merging, and pull requests — the same tools that build software.
@@ -84,6 +85,7 @@ Every illustration is specified where it appears, as an HTML comment in the manu
 
 ```markdown
 [eob-annotated-appendix]{.art}
+
 ::: prompt
 
 This is Strategy 0 applied to visual content. The `alt` field is what the reader needs to know. The `brief` field is what the illustrator needs to produce. Both are written at the same time, by the same person, in the same place as the text they accompany.
@@ -133,7 +135,6 @@ If you are writing a guide for a community that needs it, license it so the comm
 ### The Build
 
 The entire book compiles from CommonMark source to ePub with a single command:
-
 :::
 npm run build
 ```
