@@ -30,38 +30,32 @@ Every strategy in this book begins here. Before your Agent can Decode, Draft, Na
 
 The insight that makes this book work: *you do not have to write the spec.* Your Agent will interview you into one. Your job is to answer its questions honestly and tell it when the spec it proposes doesn't accurately reflect your situation. That is a human skill you already have. You know your own situation. You just needed someone to ask the right questions.
 
-_In the Field Guide: every Skill begins with a Strategy 0 specification interview. Skills using the Expert Role variant include [Ho-7: Gardening & Landscaping](04-home.xhtml), [Ch-9: Pet Care and Training](08-chores.xhtml), [Tr-2: Car Maintenance](99-transportation.xhtml), and [H-8: Wellness and Nutrition Coach](01-health.xhtml)._
+_In the Field Guide: every Skill begins with a Strategy 0 specification interview. Skills using the Expert Role variant include [Ho-7: Gardening & Landscaping](ref:ho-7), [Ch-9: Pet Care and Training](ref:ch-9), [Tr-2: Car Maintenance](ref:tr-2), and [H-8: Wellness and Nutrition Coach](ref:h-8)._
 
 ### The Specification Interview Loop
 
 Here is the full loop, annotated. This is what every `[SPEC]` sidebar in this book is showing you.
 
 ::: spec
-STEP 1: Describe your situation loosely.
+1. Describe your situation loosely.
 Don't worry about being precise. Just say what's going on.
-
-STEP 2: Your Agent asks clarifying questions.
+2. Your Agent asks clarifying questions.
 Usually three to five. Answer them honestly.
 If you don't know the answer to one, say so.
-
-STEP 3: Your Agent proposes a specification.
+3. Your Agent proposes a specification.
 It will say something like: "Based on what you've told me,
 here is what I understand you need..." followed by a clear,
 structured description of the task.
-
-STEP 4: You review the spec.
+4. You review the spec.
 Ask yourself: does this accurately describe my situation?
 Does it include everything that matters?
 Does it leave out anything important?
-
-STEP 5: You correct anything that's wrong.
+5. You correct anything that's wrong.
 One or two corrections is normal. More than that means
 step back and re-describe the situation — something
 important didn't come through.
-
-STEP 6: Your Agent executes against the confirmed spec.
-
-STEP 7: You evaluate the output.
+6. Your Agent executes against the confirmed spec.
+7. You evaluate the output.
 If it's not right, the spec was incomplete.
 Ask: "What did I not tell you that would have changed this answer?"
 That question surfaces the missing piece.

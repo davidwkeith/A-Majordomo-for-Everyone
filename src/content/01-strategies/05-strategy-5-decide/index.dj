@@ -49,13 +49,14 @@ Decision fatigue — the degradation of decision quality after a sustained perio
 
 [^s5-1]: Baumeister, R.F. et al. (1998). "Ego depletion: Is the active self a limited resource?" _JPSP_, 74(5), 1252-1265. Danziger, S. et al. (2011). "Extraneous factors in judicial decisions." _PNAS_, 108(17), 6889-6892.
 
-_In the Field Guide: M-5 (Retirement), M-1 (Banking), Li-9 (Household Budget), Ch-1 (Shopping Your Values), Tr-1 (Car Ownership)._
+_In the Field Guide: [M-5 (Retirement)](ref:m-5), [M-1 (Banking)](ref:m-1), [Li-9 (Household Budget)](ref:li-9), [Ch-1 (Shopping Your Values)](ref:ch-1), [Tr-1 (Car Ownership)](ref:tr-1)._
 
 ### Example 1: Repair or Replace a Washing Machine
 
 The situation: your washing machine stopped draining mid-cycle. It's 8 years old — a basic top-loader you bought at a big-box store. A repair tech came out, diagnosed a failed drain pump, and quoted $380 for parts and labor. A new comparable machine is $650. You're not sure which option is smarter.
 
 *Your opening message:*
+
 ::: prompt
 My washing machine broke. The repair is $380, a new one
 is $650. The machine is 8 years old. Should I fix it or
@@ -63,6 +64,7 @@ replace it?
 :::
 
 *Your Agent's clarifying questions:*
+
 ::: agent
 I can lay out the tradeoffs. A few things will sharpen
 the analysis:
@@ -79,6 +81,7 @@ the analysis:
 :::
 
 *Your answers:*
+
 ::: prompt
 1. It's a Whirlpool WTW4816FW. Basic model.
 2. No other repairs. This is the first problem.
@@ -89,6 +92,7 @@ the analysis:
 :::
 
 *Your Agent maps the options:*
+
 ::: agent
 Here are your two paths with the actual numbers:
 
@@ -144,11 +148,13 @@ right now is not something I can calculate.
 
 
 *Your follow-up:*
+
 ::: prompt
 What if I repair it and something else breaks in a year?
 :::
 
 *Your Agent:*
+
 ::: agent
 Then you've spent $380 + whatever the next repair costs.
 If the next repair is another $300+, you've crossed the
@@ -175,6 +181,7 @@ All four major AI tools handle decision-mapping well. If you want to compare opt
 The situation: you started a new job with a 401(k) match. Your coworker mentioned you should also open an IRA. You've heard of Roth and traditional but don't really understand the difference — something about taxes. You have about $200 a month you could put somewhere. You don't have a financial advisor. You don't have a trust fund. You have a paycheck and a vague sense that you should be doing something with it.
 
 *Your opening message:*
+
 ::: prompt
 I can save about $200/month and someone told me to open
 an IRA. I don't understand the difference between Roth
@@ -183,6 +190,7 @@ Can you explain my options without telling me what to do?
 :::
 
 *Your Agent's clarifying questions:*
+
 ::: agent
 A few things will make the comparison specific to
 your situation:
@@ -199,6 +207,7 @@ your situation:
 :::
 
 *Your answers:*
+
 ::: prompt
 1. About $62,000.
 2. Single.
@@ -208,6 +217,7 @@ your situation:
 :::
 
 *Your Agent maps the options:*
+
 ::: agent
 Here's the comparison in plain language:
 
@@ -292,12 +302,14 @@ The behavioral economics finding most relevant to retirement saving is not about
 [^s5-2]: Madrian, B.C. & Shea, D.F. (2001). ["The Power of Suggestion: Inertia in 401(k) Participation and Savings Behavior."](https://doi.org/10.1162/00335530152466232) _Quarterly Journal of Economics_, 116(4), 1149-1187.
 
 *Your follow-up:*
+
 ::: prompt
 Wait — should I be maxing out my 401(k) match before
 I do any of this?
 :::
 
 *Your Agent:*
+
 ::: agent
 Yes. The 401(k) match is not an investment option — it
 is free money with a 100% immediate return. Your employer
@@ -327,6 +339,7 @@ Financial advice from any source — human or AI — carries implicit assumption
 The situation: your apartment has had a persistent mold problem in the bathroom. You reported it 4 months ago. The landlord sent someone who painted over it. The mold came back within 3 weeks. You reported it again. The landlord hasn't responded in 6 weeks. Your kid has been coughing more. You want it fixed. You're also afraid of retaliation — you're month-to-month, and you know the landlord can end your tenancy with 60 days notice.
 
 *Your opening message:*
+
 ::: prompt
 My apartment has mold that my landlord won't fix. I've
 reported it twice. I'm worried about my kid's health but
@@ -335,6 +348,7 @@ What are my options?
 :::
 
 *Your Agent's clarifying questions:*
+
 ::: agent
 This is a situation with real health and housing stakes,
 so let me be precise. A few questions:
@@ -351,6 +365,7 @@ so let me be precise. A few questions:
 :::
 
 *Your answers:*
+
 ::: prompt
 1. California.
 2. Month-to-month. I was on a 1-year lease that
@@ -365,6 +380,7 @@ so let me be precise. A few questions:
 :::
 
 *Your Agent maps the options:*
+
 ::: agent
 You have more protection than you think. Let me lay out
 three paths with their real tradeoffs.
@@ -453,6 +469,7 @@ I will verify with a legal aid organization before acting.
 :::
 
 *Your correction:*
+
 ::: prompt
 I didn't know about the retaliation protection. That
 changes things. But what if I do Option A and the
@@ -460,6 +477,7 @@ landlord just ignores the code enforcement notice too?
 :::
 
 *Your Agent:*
+
 ::: agent
 If the landlord ignores a code enforcement notice,
 the stakes escalate — for the landlord, not for you:

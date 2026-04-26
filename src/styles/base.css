@@ -325,6 +325,11 @@ th {
   color: var(--link);
 }
 
+.endnote-num {
+  font-weight: bold;
+  margin-right: 0.3em;
+}
+
 .endnote-backlink {
   margin-left: 0.4em;
   text-decoration: none;

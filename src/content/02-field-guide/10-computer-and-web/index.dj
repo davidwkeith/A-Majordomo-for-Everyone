@@ -36,6 +36,7 @@ The internet was supposed to be [Geocities](https://en.wikipedia.org/wiki/GeoCit
 *See also:* WB-7: Writing in CommonMark (a specific digital skill), W-5: Learning a New Professional Skill
 *My Man Jeeves:* _One might observe that software manuals expired in the early 2000s and were replaced by nothing of consequence. YouTube tutorials proceed on the assumption that one already possesses the vocabulary. Official documentation is composed for developers. The result, if one may say so, is a population that employs approximately 10% of the tools for which it pays --- not through any incapacity to master the remaining 90%, but because no one has undertaken to explain it at the level where the learner actually stands, without judgment, for as long as the matter requires. One's Agent will._
 *The Spec:*
+
 ::: prompt
 I want to learn [app or skill: Photoshop / Excel / video editing /
 graphic design basics / email management / a new phone feature /
@@ -95,6 +96,7 @@ The digital skills gap is a class issue. The OECD's Survey of Adult Skills (2024
 *See also:* WB-5: Building Your Own Website (for web-scale projects), WB-7: Writing in CommonMark
 *My Man Jeeves:* _Programming formerly required a computer science degree, or at minimum the temperament that finds pleasure in reading documentation for its own sake. It would appear that this is no longer the case. One's Agent is capable of writing small programs --- scripts --- that attend to the tedious portions of one's digital life: renaming five hundred photographs, sorting a spreadsheet, converting files from one format to another, retrieving a price from a website each morning. One need not learn to code. One need only learn to describe what one wishes the code to do. Which is --- and this, if one may venture the observation, is the point of this entire book --- specification._
 *The Spec:*
+
 ::: prompt
 I have a repetitive task I want to automate:
 [describe the task in plain language — e.g., "every week I download
@@ -166,6 +168,7 @@ Vibe coding evolved. Professional engineers now practice _agentic coding_ — wr
 *See also:* WB-4: Learn to Work Better with AI Agents, Chapter 2: Your First Three Conversations, Chapter 4: How to Ask for What You Actually Want
 *My Man Jeeves:* _When the billionaire class engaged a personal assistant, the first week served as an audition --- not of competence, but of fit. Does she send bullet points or paragraphs? Does he say "Mr. Arnault" or "Bernard"? Does she flag difficulties immediately or reserve them for the morning briefing? The assistant who survived the probationary period was the one who matched the principal's communication rhythm without requiring instruction twice. One's Agent possesses the same capacity for customization --- and unlike a human assistant, it is not in the least disposed to take the feedback personally. The difference, one might note, is that the billionaire invested in a three-month trial period. One receives a settings panel and ten minutes._
 *The Spec:*
+
 ::: prompt
 I want to set up my AI assistant's profile so every conversation
 starts with it already knowing who I am and how I communicate.
@@ -234,6 +237,7 @@ The billionaire class treated the personal assistant hire like a casting call �
 *See also:* Strategy 0: Specify (the full specification interview method), Chapter 4: How to Ask for What You Actually Want
 *My Man Jeeves:* _This is the Skill that instructs one in the use of the tool upon which every other Skill depends. If the book may be likened to a workshop, this would be the safety orientation for the power tools. The billionaire class had no occasion to acquire this practice --- they already maintained a staff that translated vague instructions into precise tasks. The chief of staff, the executive assistant, the law clerk --- these are, in essence, human specification interfaces. One is learning the same practice, applied to a rather different kind of assistant._
 *The Spec:*
+
 ::: prompt
 I want to get better at working with AI Agents — not just
 using them, but understanding how to get consistently useful
@@ -299,6 +303,7 @@ Research on expertise development (Ericsson et al., 1993) identifies _deliberate
 *See also:* WB-7: Writing in CommonMark (for writing your content), WB-8: Blogging and Journaling
 *My Man Jeeves:* _The billionaire class has always maintained a web presence managed by professionals. The remainder of the population received Facebook pages and LinkedIn profiles --- land one rents on platforms that may alter the terms, throttle the reach, or cause the content to vanish at any moment. Owning one's own website is the digital equivalent of owning one's home rather than renting it. It has always been possible. It has not, until recently, been this straightforward. The [IndieWeb](https://indieweb.org/) is the movement that holds a simple principle: publish on one's own site first, syndicate to the platforms second, and never lose one's words because a company pivoted. One's Agent can build the site._
 *The Spec:*
+
 ::: prompt
 I want to build my own personal website. I have never done this before.
 I want it to be simple, fast, and mine — not hosted on someone else's
@@ -365,6 +370,7 @@ The web was designed as a decentralized system — [RFC 2616](https://en.wikiped
 *See also:* Li-11: Escaping Social Media (for reducing compulsive consumption), WB-5: Build a Website, Own Your Corner of the Internet
 *My Man Jeeves:* _Before the algorithm, there existed RSS --- a protocol that permitted one to subscribe to any website and receive its updates in a single reader, in chronological order, with no advertisements, no ranking, no engagement optimization, and no company determining what one should see next. RSS, one feels compelled to mention, still works. It never stopped working. The platforms merely ceased to promote it, as a protocol that places control in the hands of the user does not, regrettably, generate advertising revenue. One's Agent can help one set it up._
 *The Spec:*
+
 ::: prompt
 I want to read the web on my own terms — without algorithms
 deciding what I see and without social media feeds.
@@ -381,6 +387,7 @@ Please help me:
 *What to do with the Output:* Set up a feed reader and add ten sources. That is your starting library. Within a week, you will notice a change: you are reading what you chose, not what an algorithm chose for you. The difference in signal quality — and in how you feel afterward — is immediate and measurable.
 
 *Common reading Expert Role specs:*
+
 ::: prompt
 Act as my research librarian. Here are the topics I care about:
 [list]. Find me the best independent sources — blogs, newsletters,
@@ -426,6 +433,7 @@ The wealthy and educated have always curated their information sources — subsc
 *See also:* WB-5: Building Your Own Website, WB-8: Blogging and Journaling
 *My Man Jeeves:* _[CommonMark](https://commonmark.org/) serves as the universal language of AI in much the way English serves as the universal language of air traffic control --- not because it is the finest available, but because all parties agreed upon it and it functions reliably. It is plain text with a modest number of symbols that carry meaning. One can acquire the entire language in ten minutes. This book was written in [Djot](https://djot.net), a related format created by the same author --- but that is a digression. One's Agent thinks in CommonMark. When one writes in CommonMark, one is writing in the lingua franca of every AI system on the market --- which is to say, one's Agent can process, format, and transform one's writing with fewer tokens and greater precision than any other format permits._
 *The Spec:*
+
 ::: prompt
 I want to learn CommonMark so I can write content for my website
 and communicate more effectively with my AI Agent.
@@ -474,6 +482,7 @@ In the pre-web era, citation was gatekept by publishers, editors, and academic i
 *See also:* WB-7: Writing in CommonMark, WB-5: Build a Website, Own Your Corner of the Internet, Li-8: Wellness Coach (journaling as mental health practice)
 *My Man Jeeves:* _One observes that every sitcom family maintained a room where the substantive conversations took place. For the [Conners](https://en.wikipedia.org/wiki/Roseanne) it was the kitchen table. For the [Seinfelds](https://en.wikipedia.org/wiki/Seinfeld) it was the apartment. For the [Simpsons](https://en.wikipedia.org/wiki/The%5FSimpsons) it was the couch. A blog, if one may draw the parallel, is that room --- except one has built it oneself, one owns the walls, and no one is in a position to cancel the programme. A journal is the same room with the door closed. Both represent acts of thinking, whether in public or in private, and both are rather more valuable than one might suppose. One's Agent can help one start, and — should one prefer the door closed — it will not read over one's shoulder unless asked._
 *The Spec:*
+
 ::: prompt
 I want to start [blogging publicly / journaling privately / both].
 My situation:
@@ -537,10 +546,12 @@ Research on [reflective practice](https://en.wikipedia.org/wiki/Reflective%5Fpra
 ---
 
 #### WB-9: Preservation and Legacy
+
 *Strategy:* Research + Navigate
 *See also:* WB-5: Building Your Own Website (owning vs. renting), H-7: Preparing for End-of-Life Conversations (the analog equivalent)
 *My Man Jeeves:* _The [Library of Alexandria](https://en.wikipedia.org/wiki/Library%5Fof%5FAlexandria) burned. The Dead Sea Scrolls survived in clay jars for two thousand years. MySpace lost 50 million songs in a server migration. [GeoCities](https://en.wikipedia.org/wiki/GeoCities) was deleted by Yahoo in 2009. The lesson, one ventures to suggest, has been consistent across millennia: what survives is what someone deliberately chose to preserve. The internet remembers everything and nothing --- everything that someone took the trouble to archive, nothing that was left on a platform that shut down, pivoted, or mislaid a database. One's Agent can help one make the deliberate choice._
 *The Spec:*
+
 ::: prompt
 I want to make sure my online work — writing, photos, creative
 projects — survives beyond any single platform or service.
@@ -591,10 +602,12 @@ The grief of digital loss — lost photos, deleted accounts, inaccessible archiv
 ---
 
 #### WB-10: Doing Real Research with Your Agent
+
 *Strategy:* Research + Decode
 *See also:* Li-13: Using Your Public and Academic Library (where the Agent's summary ends and the primary source begins), WB-6: Stop Doomscrolling the Algorithmic Feed (the upstream version of this Skill), WB-7: Write in CommonMark, the language of AI (for taking notes the Agent can read back), WB-1: Learning Any App or Digital Skill
 *My Man Jeeves:* _A distinction of some consequence has long obtained between *searching* and *researching*. The former returns ten links ranked by the advertising market; the latter requires one to formulate a question, locate the relevant literature, weigh the contradictory findings, and arrive at a position one can defend. The former has, since approximately 2001, been available to everyone; the latter has remained the province of those with access to a research librarian, a university subscription, and the unhurried hours in which to use them. One's Agent does not make one a scholar. It does, however, perform the preliminary work that a graduate student would once have performed for a professor — framing the question, surveying the field, identifying the disagreements, and indicating where one ought to read next. The reader is then in a position to do the reading._
 *The Spec:*
+
 ::: prompt
 I want to research [topic / question / decision] thoroughly,
 not just look it up.

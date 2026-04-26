@@ -18,10 +18,12 @@ _There is a political movement to Make America Healthy Again. This book is not a
 ---
 
 #### H-1: Understanding a Diagnosis You Just Received
+
 *Strategy:* Decode
 *See also:* H-2: Preparing Questions (for your next appointment), H-5: Managing a Chronic Condition (if it's ongoing)
 *My Man Jeeves:* _The language of medical diagnosis has evolved over several centuries with the commendable aim of precision between specialists — a precision that, one might observe, extends rather less reliably to the patient. The individual in question, having just received news of some consequence regarding their own person, is moreover in a neurological state that research suggests reduces information retention by approximately half. The medical system appears to regard this arrangement as satisfactory. One's Agent, it may be observed, is rather more patient with questions than the fifteen-minute appointment permits._
 *The Spec:*
+
 ::: prompt
 My doctor just told me I have [diagnosis]. I don't fully understand
 what this means. Please explain in plain language:
@@ -37,10 +39,12 @@ I will bring this to my next appointment to verify.
 ---
 
 #### H-2: Preparing Questions Before a Doctor's Appointment
+
 *Strategy:* Prepare
 *See also:* H-1: Understanding a Diagnosis (if you just received one), H-5: Managing a Chronic Condition (for ongoing questions)
 *My Man Jeeves:* _Research across multiple medical systems has established, with some consistency, that patients who arrive with written questions receive more information, report higher satisfaction, and reach better-informed decisions than those who do not. It is perhaps worth noting that the medical system has not seen fit to adjust its appointment length to accommodate this finding. One's Agent, however, is tolerably well suited to assist in composing the list._
 *The Spec:*
+
 ::: prompt
 I have an appointment with [specialist type] on [date] about [condition
 or concern]. My main worry is [specific concern]. I want to make sure
@@ -61,10 +65,12 @@ This works well with voice mode on your phone — all major tools support it on 
 ---
 
 #### H-3: Decoding a Medical Bill or EOB (and Negotiating What You Owe)
+
 *Strategy:* Decode + Assert
 *See also:* H-4: Appealing an Insurance Denial (if something looks wrong), M-4: Collections and Bankruptcy (if the bill becomes debt), M-6: Financial Coach (for insurance and costs)
 *My Man Jeeves:* _The Explanation of Benefits is, in principle, a document intended to explain one's benefits --- a purpose it fulfills, one might venture, with considerable incompleteness. It presents procedure codes, allowed amounts, adjustments, and patient responsibility in a format that rather generously rewards confusion. The bill that follows presents a further difficulty: its stated price bears a variable, and largely notional, relation to what one might actually be asked to pay. Nonprofit hospitals are required by federal tax rule to maintain financial assistance programs; they are not, however, required to volunteer the fact at the billing window. One's Agent has read every code on the form and every provision of 26 U.S.C. § 501(r) --- and is prepared both to translate and to negotiate._
 *The Spec:*
+
 ::: prompt
 I received this medical bill / Explanation of Benefits and I don't
 understand it. [Paste the bill or EOB, removing your name and ID number.]
@@ -113,10 +119,12 @@ Under [26 U.S.C. § 501(r)](https://www.irs.gov/charities-non-profits/charitable
 ---
 
 #### H-4: Appealing an Insurance Denial
+
 *Strategy:* Navigate + Draft
 *See also:* L-1: Negotiating a Contract (for understanding the policy itself), L-3: Writing a Demand Letter (same drafting technique, different context)
 *My Man Jeeves:* _Insurance companies deny claims at a rate that, one observes, ensures a profitable percentage of denials are never contested — the appeal process requiring, as it does, that the policyholder be aware appeal is possible, conversant with the procedure for filing one, and in possession of sufficient energy to pursue the matter while already unwell. The industry appears to find this arrangement commercially sound. One's Agent is conversant with the appeal process and is not, at present, unwell._
 *The Spec:*
+
 ::: prompt
 My insurance denied [procedure/claim] with the reason: [paste denial reason].
 The procedure was ordered by my doctor for [condition].
@@ -139,10 +147,12 @@ Veterans: VA benefits denials follow a separate system. The Appeals Modernizatio
 ---
 
 #### H-5: Managing a Chronic Condition Day-to-Day
+
 *Strategy:* Research
 *See also:* H-1: Understanding a Diagnosis, H-2: Preparing Questions, H-8: Wellness and Nutrition Coach
 *My Man Jeeves:* _The diagnosis, if one may draw the distinction, is a moment. The condition is the remainder of one's life. The medical system has been constructed principally for acute care — one arrives unwell, one departs treated. Chronic conditions do not accommodate themselves to this model with any great willingness. The 15-minute appointment every three months cannot, by its nature, address the 131,400 minutes between appointments. Those minutes fall to the patient to manage, largely without assistance, armed with whatever information one carried away from the last visit. One's Agent is available for the other 131,400._
 *The Spec:*
+
 ::: prompt
 I have [chronic condition] and I've been managing it for [time period].
 My current treatment: [medications, therapy, lifestyle changes]
@@ -207,10 +217,12 @@ When patients skip medications, the medical system calls it "non-adherence." In 
 ---
 
 #### H-6: Understanding What Medicare Actually Covers
+
 *Strategy:* Decode
 *See also:* H-4: Appealing an Insurance Denial, H-6b: Understanding What Medicaid Actually Covers, Li-4: Planning Care for Aging
 *My Man Jeeves:* _Medicare is, in principle, straightforward: health insurance for Americans aged 65 and older, or younger if disabled. In practice, it is a four-part system (A, B, C, and D) with enrollment windows that close permanently, late-enrollment penalties that compound for life, and a private-plan alternative (Medicare Advantage) whose marketing budget rather substantially exceeds its obligations of transparency. The most consequential decision --- whether to enroll in Original Medicare or an Advantage plan, and whether to purchase supplemental Medigap coverage --- must be made during windows that the system does not go to great lengths to publicize. One's Agent has read the enrollment rules and can explain which decisions apply to one's circumstances before the window closes._
 *The Spec:*
+
 ::: prompt
 I [or my family member] am [turning 65 / disabled / already enrolled
 and reviewing my coverage] and I need to understand what
@@ -257,10 +269,12 @@ Free, unbiased Medicare counseling is available in every state through the [Stat
 ---
 
 #### H-6b: Understanding What Medicaid Actually Covers
+
 *Strategy:* Decode
 *See also:* H-6: Understanding What Medicare Actually Covers, H-4: Appealing an Insurance Denial, Li-4: Planning Care for Aging
 *My Man Jeeves:* _Medicaid occupies, in the public imagination, a rather narrower role than it in fact performs. It is not merely insurance for the very poor --- it is the only major federal program that covers long-term nursing-home care, a fact that approximately 62% of Americans attribute, incorrectly, to Medicare. Following the One Big Beautiful Bill Act of 2025, it is also, for the first time in its history, a program with work requirements --- requirements that the Congressional Budget Office estimates will remove 4.8 million people from coverage by 2034. The eligibility rules are state-specific, the asset limits for long-term care are unforgiving, and the application process assumes a degree of bureaucratic fluency that the populations it serves are, by definition, least likely to possess. One's Agent has read the rules for one's state and can explain what applies before the paperwork is due._
 *The Spec:*
+
 ::: prompt
 I [or my family member] am [low-income / applying for long-term care /
 helping a parent who may need a nursing home / recently lost coverage]
@@ -311,10 +325,12 @@ For World War II–era veterans --- and for those who served in Korea, Vietnam, 
 ---
 
 #### H-7: Preparing for End-of-Life Conversations with Aging Parents
+
 *Strategy:* Prepare
 *See also:* Li-1: Preparing for a Difficult Conversation, Li-2: Writing a Eulogy, Li-4: Planning Care for Aging, L-1: Negotiating a Contract (for legal documents)
 *My Man Jeeves:* _American culture maintains, as the research rather thoroughly documents, a pronounced aversion to discussing death. The consequence is that the most significant decisions of a person's life — how they wish to be cared for, who is to make medical decisions should they be unable, what measures they do and do not desire — are left to family members attempting to guess under pressure in a hospital corridor. An advance directive requires approximately 30 minutes. The conversation that precedes it presents a rather greater difficulty. One's Agent may be of assistance in preparing for it._
 *The Spec:*
+
 ::: prompt
 I need to have a conversation with [my parent / family member]
 about their end-of-life wishes. This conversation has not happened
@@ -376,10 +392,12 @@ Honorably discharged veterans and their eligible family members qualify for buri
 ---
 
 #### H-8: Wellness and Nutrition Coach
+
 *Strategy:* Research + Draft (Expert Role)
 *See also:* H-5: Managing a Chronic Condition (for condition-specific nutrition), Li-8: Wellness Coach (for mental health and journaling)
 *My Man Jeeves:* _A registered dietitian typically charges between $100 and $200 per session, with new-patient waits commonly running several weeks. A personal trainer costs $50 to $150 per hour. A wellness coach charges rather more and is, one notes, rather less regulated. One's Agent has acquainted itself with the same evidence base all three cite, and will apply it to one's particular situation without the formality of a retainer._
 *The Spec:*
+
 ::: prompt
 Act as a knowledgeable wellness and nutrition coach.
 My situation:
@@ -405,6 +423,7 @@ To make this Expert Role persistent across sessions, save it as a *Project* (Cla
 
 
 *Common wellness Expert Role specs:*
+
 ::: prompt
 Act as a nutrition coach. I want to eat better but I have
 [budget constraint / time constraint / dietary restriction].
@@ -451,10 +470,12 @@ In 2010, David Nutt and colleagues published a harm ranking of 20 drugs in _The 
 ---
 
 #### H-9: Understanding Your Prescription
+
 *Strategy:* Decode
 *See also:* H-10: Checking for Drug Interactions, H-1: Understanding a Diagnosis
 *My Man Jeeves:* _One's physician prescribed a medication in a 7-minute appointment. The pharmacist furnished a stapled printout in 8-point type listing "side effects may include" followed by what one can only describe as every symptom known to medicine. The printout, one understands, is required by law. Comprehending it is not. One's Agent, having read the pharmacology, is prepared to explain what the printout means in one's specific case._
 *The Spec:*
+
 ::: prompt
 My doctor prescribed [drug name] for [condition].
 The dose is [amount, frequency].
@@ -482,10 +503,12 @@ Photograph the pill bottle label with your phone, then copy the text from the ph
 ---
 
 #### H-10: Checking for Drug Interactions
+
 *Strategy:* Decode + Research
 *See also:* H-9: Understanding Your Prescription, H-8: Wellness and Nutrition Coach
 *My Man Jeeves:* _The liver metabolizes roughly 75% of the drugs one takes by means of a family of enzymes known as CYP450. When two substances compete for the same enzyme, one of them accumulates — a circumstance that may present certain difficulties. The prescribing physician may not be aware of the supplement one's naturopath recommended. The naturopath may not be aware of the prescription. Neither, one regrets to observe, may be aware of the grapefruit. One's Agent is aware of all three._
 *The Spec:*
+
 ::: prompt
 I am currently taking:
 — Prescription medications: [list all, with doses]
@@ -513,9 +536,11 @@ Serotonin syndrome --- caused by combining drugs that increase serotonin (SSRIs,
 ---
 
 #### H-11: Your Brain on Drugs, Simplified
+
 *Strategy:* Research
 *My Man Jeeves:* _Every psychoactive substance operates by altering the manner in which one's brain cells communicate. That sentence, one might note, contains the entirety of what the egg commercial conveyed. The subsequent questions — how, and with what consequences, and at what dose, and for what duration — are where the useful information may be said to begin. One's Agent is prepared to address them without recourse to eggs._
 *The Spec:*
+
 ::: prompt
 Explain how [substance] works in the brain.
 I want to understand:
@@ -545,10 +570,12 @@ Ask your Agent to compare two substances: _"Compare the harm profile of alcohol 
 ---
 
 #### H-12: Talking to Your Doctor About Pain Management
+
 *Strategy:* Prepare + Assert
 *See also:* H-2: Preparing Questions Before a Doctor's Appointment, H-9: Understanding Your Prescription
 *My Man Jeeves:* _The opioid crisis has, one observes, produced two populations of individuals who cannot obtain adequate care: those with addiction who require treatment, and those with pain who require management. Physicians, situated as they are between DEA scrutiny and patient suffering, now on occasion undertreat pain from what one might characterize as liability apprehension. It may prove necessary to advocate for oneself — not to obtain opioids specifically, but to secure an honest conversation regarding all available options. One's Agent can help one prepare for that conversation._
 *The Spec:*
+
 ::: prompt
 I have [type of pain: chronic back pain / post-surgical / nerve pain /
 arthritis / migraines / other] that has been going on for [duration].
@@ -578,6 +605,7 @@ Veterans: VA chronic pain management operates under the Opioid Safety Initiative
 ---
 
 #### H-13: Understanding Addiction (and Finding Help That Works)
+
 *Strategy:* Research + Navigate
 *See also:* H-14: Harm Reduction, M-6: Financial Coach (for insurance and costs)
 
@@ -588,6 +616,7 @@ _If this is an emergency:_ for an active overdose, call *911* and administer nal
 
 *My Man Jeeves:* _Addiction is not, as the relevant authorities have taken some pains to establish, a failure of willpower. The American Society of Addiction Medicine and the National Institute on Drug Abuse classify it as a chronic brain disorder involving compulsive use despite harmful consequences. The distinction is of some importance, as it determines whether the appropriate response is treatment or punishment. The United States has, for the most part, favored punishment. Where it has favored treatment, the industry it has built operates under less regulatory oversight than the restaurant industry --- some facilities excellent, some predatory, the distinction rarely apparent from the website. The task, then, is twofold: to understand the condition as medicine now describes it, and to navigate a marketplace that does not reliably distinguish evidence-based care from something else. One's Agent holds no position beyond the evidence._
 *The Spec:*
+
 ::: prompt
 I am trying to understand [my own / my loved one's] substance use,
 and/or find help.
@@ -649,10 +678,12 @@ Veterans: [Vet Centers](https://www.vetcenter.va.gov/) offer free, confidential 
 ---
 
 #### H-14: Harm Reduction
+
 *Strategy:* Research + Diagnose
 *See also:* H-13: Understanding Addiction, H-10: Checking for Drug Interactions
 *My Man Jeeves:* _In 2023, approximately 105,000 Americans died of drug overdoses — a figure exceeding car accidents and gun deaths combined. Roughly 69% involved synthetic opioids, principally fentanyl, which is frequently present in drugs sold as something else entirely.[^h14-1] Harm reduction proceeds from the premise that some people use drugs, and that the most serviceable response is to keep them alive and as healthy as circumstances permit. This remains controversial in rather the same manner that seatbelts were controversial in 1965 — opponents contending that they would encourage reckless driving. They did not. They reduced deaths. The evidence for harm reduction is, one finds, comparably robust. One's Agent can explain the evidence and the local resources without editorializing._
 *The Spec:*
+
 ::: prompt
 I want to understand harm reduction for [substance or situation].
 My situation: [I use X occasionally / someone I care about uses X /
@@ -690,10 +721,12 @@ Portugal decriminalized personal possession of all drugs in 2001. Drug-related d
 ---
 
 #### H-15: Navigating Drug Laws in Your State
+
 *Strategy:* Navigate + Assert
 *See also:* C-3: Understanding Your Rights Where You Live
 *My Man Jeeves:* _Cannabis is legal in one's state and a federal crime. Psilocybin is decriminalized in one's city yet a felony in the neighboring county. Kratom is banned in several states and available at the gas station in the other 44. The legal landscape for drugs in the United States is not, one feels compelled to observe, a landscape in any coherent sense. It is rather a patchwork quilt sewn by 50 different legislatures, several federal agencies, and occasional ballot initiatives — each operating on a different timeline and, in certain cases, a different century's understanding of pharmacology. One's Agent can clarify the law as it stands in one's specific jurisdiction, which is the only jurisdiction that matters._
 *The Spec:*
+
 ::: prompt
 I want to understand the current drug laws where I live.
 My location: [city, state]
@@ -719,10 +752,12 @@ The DEA's scheduling system was established by the Controlled Substances Act of 
 ---
 
 #### H-16: Evaluating Psychedelic Therapy
+
 *Strategy:* Research + Decide
 *See also:* H-1: Understanding a Diagnosis, H-11: Your Brain on Drugs
 *My Man Jeeves:* _Psychedelic-assisted therapy represents, one might suggest, the most promising and most overhyped development in mental health treatment since SSRIs. Clinical trials for psilocybin in depression and MDMA in PTSD have produced significant results. The FDA declined to approve MDMA therapy in 2024, citing trial design concerns, ethical violations at trial sites, and data integrity issues.[^h16-1] Psilocybin trials continue. In the meantime, unregulated ketamine clinics have proliferated, Oregon has legalized psilocybin services outside the medical system, and the gap between the research and the marketplace has grown sufficient to accommodate, one estimates, a modestly sized retreat center. One's Agent can help one evaluate the evidence for a specific treatment against its current legal and clinical standing._
 *The Spec:*
+
 ::: prompt
 I am interested in psychedelic therapy for [depression / PTSD /
 anxiety / end-of-life distress / addiction / personal growth].
@@ -756,10 +791,12 @@ Indigenous communities have used psilocybin (mushrooms), peyote, and ayahuasca i
 ---
 
 #### H-17: Talking to Your Kids About Drugs (and Unlearning What You Were Told)
+
 *Strategy:* Prepare + Research
 *See also:* Li-1: Preparing for a Difficult Conversation, Li-7: Raising Kids, H-13: Understanding Addiction, H-14: Harm Reduction
 *My Man Jeeves:* _D.A.R.E. instructed a generation that marijuana and heroin belonged to the same category of threat, and that the appropriate response to all drugs was refusal. When those children discovered that marijuana did not, in the event, ruin their lives, a considerable number concluded that the adults had been unreliable on every point --- including those substances that were genuinely dangerous. Those children are now parents. The War on Drugs that shaped their education has cost, by the Bureau of Justice Statistics, over $1 trillion and, at its peak, imprisoned 2.1 million Americans --- with Black Americans held for drug offenses at nearly six times the rate of white Americans despite comparable usage rates.[^h17-1] The task before today's parent is therefore twofold: to unlearn what D.A.R.E. taught, and to pass on to one's children what is, on the documentary record, actually the case. One's Agent has read the Bureau's own data._
 *The Spec:*
+
 ::: prompt
 I want to talk to my [age] year old about drugs.
 My situation: [they haven't asked yet / they asked about something
@@ -803,6 +840,7 @@ John Ehrlichman, Nixon's domestic policy advisor, said in a 1994 interview: _"Th
 ---
 
 #### H-22: Mental Health First Aid (Helping Someone in Crisis, Including Yourself)
+
 *Strategy:* Prepare + Assert + Navigate
 *See also:* H-13: Understanding Addiction (and Finding Help That Works), Li-1: Preparing for a Difficult Conversation, Li-7: Raising Kids
 
@@ -813,6 +851,7 @@ _If this is a crisis right now:_ call, text, or chat *988* --- the Suicide and C
 
 *My Man Jeeves:* _A mental-health crisis --- one's own, or that of a family member, a colleague, or a stranger --- tends to arrive without sufficient notice. The expectation, nevertheless, is that the bystander will know what to do; the training, however, has been reserved largely for clinicians and first responders. The 988 Suicide and Crisis Lifeline, established in July 2022 specifically to provide an alternative to the police-dispatch default, has since answered roughly 16.5 million contacts, with 72% of callers reporting substantial help and 88% of suicidal callers saying the conversation stopped them from acting --- outcomes the 911 system is not designed to produce.[^h22-1] One's Agent has read the evidence-based Mental Health First Aid curriculum and can rehearse with the reader what the crisis itself will not permit._
 *The Spec:*
+
 ::: prompt
 I am trying to prepare for --- or am currently encountering ---
 a mental health crisis.

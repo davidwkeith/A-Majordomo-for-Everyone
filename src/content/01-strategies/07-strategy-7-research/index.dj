@@ -55,7 +55,7 @@ Research on [health literacy](https://en.wikipedia.org/wiki/Health%5Fliteracy) c
 :::
 
 
-_In the Field Guide: H-5 (Chronic Conditions), L-1 (Contracts), M-5 (Retirement), Li-3 (Scams), C-3 (Your Rights Where You Live)._
+_In the Field Guide: [H-5 (Chronic Conditions)](ref:h-5), [L-1 (Contracts)](ref:l-1), [M-5 (Retirement)](ref:m-5), [Li-3 (Scams)](ref:li-3), [C-3 (Your Rights Where You Live)](ref:c-3)._
 
 *Worked examples:* Before a knee arthroscopy. Before signing a non-compete clause. Between two college financial aid offers.
 
@@ -64,6 +64,7 @@ _In the Field Guide: H-5 (Chronic Conditions), L-1 (Contracts), M-5 (Retirement)
 The situation: your orthopedist looked at an MRI and recommended arthroscopic surgery for a medial meniscus tear. Outpatient, routine. The scheduler called to book it before you left the office. You don't feel scared---you feel handled. Everything is moving and nobody asked if you had questions. The gap isn't fear; it's speed. The institution is optimized to move you from diagnosis to operating room. Your job is to slow down long enough to find out whether the operating room is the right next step.
 
 *Your opening message:*
+
 ::: prompt
 My doctor says I need knee surgery for a torn meniscus.
 It's arthroscopic, outpatient. They want to schedule it
@@ -71,6 +72,7 @@ for next month. What should I know before I say yes?
 :::
 
 *Your Agent's clarifying questions:*
+
 ::: agent
 I can lay out what you need to know. A few things will
 sharpen the research:
@@ -89,6 +91,7 @@ sharpen the research:
 :::
 
 *Your answers:*
+
 ::: prompt
 1. MRI says medial meniscus tear. Didn't say what kind
    of surgery they're planning.
@@ -101,6 +104,7 @@ sharpen the research:
 :::
 
 *Your Agent:*
+
 ::: agent
 Here is what you need to know before you say yes:
 
@@ -169,12 +173,14 @@ with my orthopedist before deciding.
 :::
 
 *Your follow-up:*
+
 ::: prompt
 Wait---my doctor didn't mention physical therapy as
 an option. Is that normal?
 :::
 
 *Your Agent:*
+
 ::: agent
 Yes, common. Orthopedic surgeons recommend surgery---that's
 their training and their practice. That doesn't
@@ -208,6 +214,7 @@ All four major AI tools can read medical documents. Upload your MRI report as a 
 The situation: you're a vet tech who's been offered a new job. Better pay, better hours, better commute. The employment agreement arrived by email---"please review and sign before your start date." Standard onboarding language. Page 6, paragraph 14: a non-compete clause. You noticed it because the language was unusually specific: "shall not engage in competitive employment within a radius of twenty (20) miles for a period of eighteen (18) months following termination of employment." You don't know if this is standard, aggressive, or meaningless. You don't want to make trouble before your first day. You also don't want to sign something that could prevent you from working if this job doesn't work out.
 
 *Your opening message:*
+
 ::: prompt
 I'm starting a new job as a vet tech and the employment
 agreement has a non-compete clause. It says I can't work
@@ -216,6 +223,7 @@ I leave. Is this normal? Should I be worried?
 :::
 
 *Your Agent's clarifying questions:*
+
 ::: agent
 This is worth understanding before you sign. A few
 things will sharpen the research:
@@ -233,6 +241,7 @@ things will sharpen the research:
 :::
 
 *Your answers:*
+
 ::: prompt
 1. Texas.
 2. $48,000.
@@ -244,6 +253,7 @@ things will sharpen the research:
 :::
 
 *Your Agent:*
+
 ::: agent
 Here is what you need to know before you sign:
 
@@ -304,6 +314,7 @@ WHAT TO VERIFY INDEPENDENTLY
 :::
 
 *Your follow-up:*
+
 ::: prompt
 Can I actually negotiate this? I'm a vet tech, not
 a lawyer. I don't want to lose the job offer by
@@ -311,6 +322,7 @@ making waves before I even start.
 :::
 
 *Your Agent:*
+
 ::: agent
 The fear is real---the power dynamic is real. You
 need the job; they have other applicants. That's
@@ -346,6 +358,7 @@ Non-competes disproportionately bind workers with the least negotiating power. A
 The situation: you are a first-generation college parent at the kitchen table---maybe with your daughter, maybe alone at midnight after she went to bed. Two acceptance letters. Two financial aid award letters. Both look generous. School B's package covers more of the sticker price, and you want to feel good about that. But something doesn't add up. One school calls it "Institutional Grant." The other calls it "Merit Scholarship." One includes "Federal Work-Study" in the total. The other doesn't. You are trying to compare two documents that were designed, by two different institutions, to resist comparison. The numbers in the two letters don't seem to mean the same things. They don't. This is the deepest information gap in the chapter.
 
 *Your opening message:*
+
 ::: prompt
 My daughter got into two schools and we got the
 financial aid letters. I'm trying to compare them
@@ -387,6 +400,7 @@ Remaining Cost: $9,405
 :::
 
 *Your Agent's clarifying questions:*
+
 ::: agent
 This is exactly the right instinct---these two
 letters are not telling you the same story in the
@@ -408,6 +422,7 @@ comparison:
 :::
 
 *Your answers:*
+
 ::: prompt
 1. Yes, in-state for School A. School B is out
    of state.
@@ -421,6 +436,7 @@ comparison:
 :::
 
 *Your Agent:*
+
 ::: agent
 Here is the full comparison. Your instinct that
 something feels off is correct---the two letters
@@ -523,12 +539,14 @@ financial aid office before committing.
 :::
 
 *Your follow-up:*
+
 ::: prompt
 School B looks cheaper in year one but you're
 saying it might not be in year two?
 :::
 
 *Your Agent:*
+
 ::: agent
 That's the pattern. Some schools use large
 institutional grants in year one to attract

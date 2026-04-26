@@ -8,6 +8,12 @@ import { discoverBriefs } from './filters/art-briefs.js';
 import type { ArtBrief, ArtBriefContext } from './filters/art-briefs.js';
 import { conversationFilter } from './filters/conversations.js';
 import { EndnoteState, epubOverrides, renderNotesSection } from './filters/endnotes.js';
+import {
+  buildRefRegistry,
+  refLinksFilter,
+  headingIdsFilter,
+} from './filters/ref-links.js';
+import type { RefRegistry, RefWarning } from './filters/ref-links.js';
 import type { ChapterMeta, ProcessedChapter } from './types.js';
 import { BOOK_META } from './types.js';
 import { embedXmp, readXmp, xmpMatches } from './xmp.js';
@@ -26,8 +32,8 @@ export const STYLE_GUIDE = join(
   'gem-illustration-instructions.md'
 );
 
-export { discoverBriefs };
-export type { ArtBrief };
+export { discoverBriefs, buildRefRegistry };
+export type { ArtBrief, RefRegistry, RefWarning };
 
 /** Resolve the XMP fields for a brief, applying the book-level default rights. */
 export function xmpFieldsFor(brief: ArtBrief): XmpFields {
@@ -103,10 +109,13 @@ export async function syncArtBriefXmp(
 
 /**
  * Process Djot content through the full filter pipeline and render to HTML.
+ * If a ref registry is provided, `ref:` cross-reference links are resolved
+ * to concrete chapter anchors (unresolved refs are dropped with a warning).
  */
 export function processContent(
   content: string,
-  artCtx: ArtBriefContext
+  artCtx: ArtBriefContext,
+  opts: { refRegistry?: RefRegistry; refWarnings?: RefWarning[]; sourceFile?: string } = {}
 ): string {
   // Strip HTML comments (editorial notes like RESEARCH NEEDED)
   const cleaned = content.replace(/<!--[\s\S]*?-->/g, '');
@@ -115,6 +124,13 @@ export function processContent(
 
   applyFilter(doc, calloutFilter);
   applyFilter(doc, conversationFilter);
+  applyFilter(doc, headingIdsFilter());
+  if (opts.refRegistry && opts.refWarnings) {
+    applyFilter(
+      doc,
+      refLinksFilter(opts.refRegistry, opts.refWarnings, opts.sourceFile)
+    );
+  }
 
   // Render HTML with epub overrides (handles art briefs, callouts,
   // conversations, endnotes, sections, and XHTML self-closing tags)
@@ -147,11 +163,17 @@ export function parseSlug(filePath: string): string {
   return name;
 }
 
-export async function processChapter(
+/**
+ * Process a chapter from already-read raw source. Used by the ePub build
+ * to avoid reading each file twice (once for the ref registry, once for
+ * rendering); see `processChapter` for the file-reading wrapper.
+ */
+export function processChapterFromSource(
   filePath: string,
-  artCtx: ArtBriefContext
-): Promise<ProcessedChapter> {
-  const raw = await readFile(filePath, 'utf-8');
+  raw: string,
+  artCtx: ArtBriefContext,
+  refCtx?: { registry: RefRegistry; warnings: RefWarning[] }
+): ProcessedChapter {
   const { data, content } = matter(raw);
 
   const meta: ChapterMeta = {
@@ -164,7 +186,11 @@ export async function processChapter(
     sourceFile: filePath,
   };
 
-  let html = processContent(content, artCtx);
+  let html = processContent(content, artCtx, {
+    refRegistry: refCtx?.registry,
+    refWarnings: refCtx?.warnings,
+    sourceFile: filePath,
+  });
 
   // Strip the first heading if it duplicates the frontmatter title.
   if (meta.title) {
@@ -177,6 +203,15 @@ export async function processChapter(
   }
 
   return { meta, html, endnotes: [] };
+}
+
+export async function processChapter(
+  filePath: string,
+  artCtx: ArtBriefContext,
+  refCtx?: { registry: RefRegistry; warnings: RefWarning[] }
+): Promise<ProcessedChapter> {
+  const raw = await readFile(filePath, 'utf-8');
+  return processChapterFromSource(filePath, raw, artCtx, refCtx);
 }
 
 export function sortChapters(chapters: ProcessedChapter[]): ProcessedChapter[] {

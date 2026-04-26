@@ -20,6 +20,7 @@ _Creativity was never the exclusive domain of artists, writers, and filmmakers. 
 *See also:* WB-1: Learning Any App or Digital Skill, Li-5: Planning Trips (for travel photography)
 *My Man Jeeves:* _One might observe that a professional portrait photographer commands $200 to $500 per session, that a wedding photographer expects $2,000 to $5,000, and that photography courses range from $20 online to $500 and up in person, proceeding upward with some enthusiasm in either direction. The difficulty, if one may say so, has never been the camera — the device in one's pocket has been more than adequate for some years now. The difficulty is that composition, light, and the rather undervalued discipline of knowing what to exclude from the frame are learnable skills that have historically required either formal instruction or prolonged apprenticeship to acquire. It would appear that those of considerable means retain a personal photographer for such purposes. The reader, however, now has access to a tutor of considerable patience, one that has studied every composition technique Annie Leibovitz ever employed and is prepared to explain them in terms of the photograph one is about to take._
 *The Spec:*
+
 ::: prompt
 I want to take better photos with [my phone / my camera].
 My situation:
@@ -67,10 +68,12 @@ The gap between a snapshot and a photograph is not equipment or talent — it is
 ---
 
 #### Cr-2: Learning Visual Design
+
 *Strategy:* Create + Research (Expert Role)
 *See also:* Cr-1: Taking Better Photos (the same compositional principles apply), WB-5: Build a Website, Own Your Corner of the Internet (for applying design to your site), WB-1: Learning Any App or Digital Skill (for learning design software)
 *My Man Jeeves:* _It may be worth noting that a graphic designer charges $25 to $150 an hour, and that a brand identity package — logo, colors, typography, templates — begins at $5,000 with a willingness to ascend from there. Design school, one understands, is a four-year degree that imparts principles one might acquire in an afternoon, along with taste, which one develops only through practice. The principles themselves are not closely guarded. Hierarchy, contrast, alignment, proximity, repetition — five words that govern every poster, website, business card, and yard sale flyer one has ever encountered. The distinction between the yard sale flyer that produces results and the one that goes unread is not a matter of talent. It is a matter of knowing those five words and what they mean. Those of substantial means maintain a design team on retainer. The reader has an Agent, and it is conversant with the same principles._
 *The Spec:*
+
 ::: prompt
 Act as an expert visual designer. I need help with
 [a website / a poster / a flyer / a business card /
@@ -100,6 +103,7 @@ Please:
 *What to do with the Output:* Make the thing. Then screenshot it and send it back to your Agent: _"Here's what I made. What would a professional designer change?"_ Design is iterative — the first version is never the final one. Each round of feedback teaches you something the principles alone cannot: how to see what is wrong. That skill transfers to everything you design after this.
 
 *Common visual design Expert Role specs:*
+
 ::: prompt
 Act as a brand designer. I'm starting a [small business /
 nonprofit / community organization] called [name]. Help me
@@ -139,6 +143,7 @@ Design tools like [Canva](https://en.wikipedia.org/wiki/Canva) are free and powe
 *See also:* Cr-1: Taking Better Photos (the visual skills transfer), WB-1: Learning Any App or Digital Skill (for learning the software)
 *My Man Jeeves:* _A difficulty presents itself in the matter of film editing. Film school costs six figures and requires four years. YouTube tutorials on the subject proceed from the assumption that one already knows what a "J-cut" is and why one might desire one. Professional editors charge $50 to $150 an hour and are engaged months in advance. The software, one might observe, is now free — [DaVinci Resolve](https://en.wikipedia.org/wiki/DaVinci%5FResolve) accomplishes what a $100,000 Avid suite accomplished in 1995 — yet the storytelling craft of editing, the part in which raw footage becomes something a viewer wishes to watch, has not been similarly democratized. It remains the province of film schools and editing suites. One's Agent, however, is conversant with the craft. It is prepared to explain why the pacing feels wrong, what to cut, and where the story actually begins. It is never the first clip._
 *The Spec:*
+
 ::: prompt
 I want to edit a video.
 My situation:
@@ -187,6 +192,7 @@ For editing advice and step-by-step software guidance, any major AI tool works w
 *See also:* Cr-11: Learning an Instrument (the performance side), Cr-6: Podcasting and Audio Production (audio skills transfer), WB-1: Learning Any App or Digital Skill
 *My Man Jeeves:* _One observes that a recording studio charges $50 to $500 an hour, that a music production course at a community college runs $800 to $2,000 per semester, and that the instruments alone — even before one considers microphones, cables, and the various boxes that make sounds louder or different — represent an investment that has historically excluded anyone who could not first afford the investment. The difficulty, if one may say so, is not musical. [GarageBand](https://en.wikipedia.org/wiki/GarageBand) ships free with every Apple device. [BandLab](https://en.wikipedia.org/wiki/BandLab_Technologies) runs in a browser and costs nothing. Between them, one has access to more instruments, effects, and recording capability than the Beatles had at Abbey Road in 1967. What one does not have — and what no free tool provides — is the craft knowledge: why a chord progression feels finished, why a rhythm track feels alive or mechanical, why a melody stays in someone's head or doesn't. Those of considerable means retain a producer. The reader now has an Agent conversant with music theory, arrangement, and the specific capabilities of whichever free tool sits open on their screen._
 *The Spec:*
+
 ::: prompt
 I want to make music.
 My situation:
@@ -250,6 +256,7 @@ GarageBand ships free on every Apple device. [BandLab](https://www.bandlab.com/)
 *See also:* Cr-5: Making Music (audio skills transfer), WB-5: Build a Website, Own Your Corner of the Internet, Cr-3: Editing a Movie (same storytelling principles)
 *My Man Jeeves:* _It may be worth observing that podcasting is the most democratic broadcast medium to emerge in some time. The equipment required is a telephone and a quiet room. The cost of distribution is zero — [RSS](https://en.wikipedia.org/wiki/RSS) is an open standard that no company owns and no company can revoke. A radio license costs hundreds of thousands of dollars and requires federal permission. A YouTube channel requires a camera, lighting, and the willingness to be looked at. A podcast requires a voice, a topic, and the ability to press record. The difficulty, if one may venture it, is not the recording. It is everything that separates a recording from a show: structure, pacing, the edit that removes the forty-five seconds of throat-clearing at the top, the audio quality that lets the listener forget they are listening to audio at all. Those of substantial means hire a producer. The reader has an Agent who is conversant with the entire production chain, from microphone placement to RSS feed configuration, and who has never once suggested that the reader needs a $400 microphone to begin._
 *The Spec:*
+
 ::: prompt
 I want to start a podcast.
 My situation:
@@ -305,6 +312,7 @@ Podcast discoverability algorithms favor shows that publish consistently on a sc
 *See also:* Cr-2: Learning Visual Design (principles overlap), Cr-1: Taking Better Photos (same compositional eye)
 *My Man Jeeves:* _A persistent belief holds that drawing is a talent — that one is born able to render a horse or one is not, and that no instruction can bridge the distance between the two conditions. One might gently observe that this belief is incorrect. Betty Edwards demonstrated in 1979 that drawing is a learnable perceptual skill, not an innate gift, and that the primary obstacle is not the hand but the brain's preference for symbols over observation — one draws what one _thinks_ a face looks like rather than what one _sees_. Drawing instruction costs $30 to $80 per class at a community center, $200 to $500 for a structured course, and $40,000 to $200,000 for an art school degree that teaches the same fundamentals one might acquire with a pencil, a piece of paper, and a tutor of sufficient patience. The reader has such a tutor. It will not judge the first attempt, which is more than can be said for the average middle-school art class._
 *The Spec:*
+
 ::: prompt
 I want to learn to draw.
 My situation:
@@ -364,6 +372,7 @@ AI image generators can produce illustrations, but that is not what this Skill i
 *See also:* Ho-2: Home Repair and DIY (tool skills transfer), Ho-3: Right to Repair (same philosophy of ownership), Ch-1: Shopping Your Values (materials sourcing)
 *My Man Jeeves:* _One notes with some interest that the maker movement represents a return to a set of skills that were, within living memory, simply called "knowing how to do things." Sewing, woodworking, basic metalwork, and the repair of household objects were not hobbies in one's grandparents' generation. They were the baseline. The professionalisation of craft — and the simultaneous availability of disposable goods priced to make repair irrational — converted self-sufficiency into a specialty interest. A sewing class now costs $30 to $75 per session. A woodworking course runs $200 to $600. Access to a [makerspace](https://en.wikipedia.org/wiki/Hackerspace) with a laser cutter and 3D printer costs $50 to $150 per month in membership fees, assuming one lives near enough to one. Those of means commission bespoke furniture and tailored clothing. The reader has an Agent that can teach pattern-reading, joint selection, material calculation, and the specific operational procedures of whatever tools are available — from a $15 hand saw to a $3,000 laser cutter._
 *The Spec:*
+
 ::: prompt
 I want to make something.
 My situation:
@@ -427,6 +436,7 @@ Makerspaces are not evenly distributed. They cluster in cities, near universitie
 *See also:* WB-8: Blogging and Journaling (a regular writing practice), Li-2: Writing a Eulogy (specific application of craft under pressure)
 *My Man Jeeves:* _One observes that creative writing has always presented a particular difficulty in the matter of instruction. The craft can be taught — the evidence of university programs, workshops, and apprenticeships spanning centuries confirms as much — yet the teaching has been unevenly distributed, to put the matter with some delicacy. An MFA program costs $30,000 to $60,000 and accepts a small fraction of applicants. A community workshop, if one exists in one's vicinity, costs $200 to $500 and may or may not be led by someone who has published. The alternative has historically been to write alone, in the dark, hoping that the instincts one absorbed from reading were sufficient to produce something worth reading in return. Sometimes they were. Often they were not, and there was nobody qualified to explain why. Those of considerable means have always retained editors. Workshop seats at [Iowa](https://en.wikipedia.org/wiki/Iowa_Writers%27_Workshop) and [Bread Loaf](https://en.wikipedia.org/wiki/Bread_Loaf_Writers%27_Conference) have always gone disproportionately to those with the connections to know such things existed and the means to attend. The reader now has a writing tutor that has read more widely than any workshop instructor alive and is available at two in the morning, which is when most writing happens._
 *The Spec:*
+
 ::: prompt
 I want to write [a short story / a poem / a personal essay /
 flash fiction / a screenplay scene / I'm not sure what form yet].
@@ -492,6 +502,7 @@ Write in plain text. A `.txt` or `.md` file will outlast every proprietary forma
 *See also:* Cr-2: Learning Visual Design (the principles behind the practice), WB-5: Build a Website, Own Your Corner of the Internet, W-1: Getting a Job (resume design)
 *My Man Jeeves:* _One might draw attention to a difficulty that presents itself with some regularity in the lives of those who are not, by profession, graphic designers — which is to say, nearly everyone. The school requests a flyer for the bake sale. The union local needs a poster for the meeting. A relative's birthday requires an invitation. The small business requires a social media graphic that does not resemble a ransom note. The community garden needs a sign. In each case, the person assigned the task possesses no training in typography, layout, color theory, or the rather critical discipline of visual hierarchy. They open [Canva](https://en.wikipedia.org/wiki/Canva), stare at five thousand templates, choose one at random, change the colors until it looks worse, and publish the result with a quiet sense of defeat. Those of considerable means employ a designer. The reader has an Agent capable of diagnosing why the flyer looks wrong and providing the specific remedies — which font to use, which one to remove, where the eye is going and where it should go instead._
 *The Spec:*
+
 ::: prompt
 I need to design [a flyer / a poster / an invitation /
 a social media graphic / a resume / a business card /
@@ -547,6 +558,7 @@ Resume design deserves a specific note: applicant tracking systems (ATS) — the
 *See also:* Cr-5: Making Music (the production side), Li-12: Developing a Habit (the practice discipline)
 *My Man Jeeves:* _A matter of some delicacy arises when one considers the learning of a musical instrument as an adult. Private music lessons run $30 to $80 per session, weekly, for a duration that competent instructors describe as "indefinite" — a term that, in financial contexts, one would regard with some suspicion. Group classes at community music schools cost $150 to $400 per term and proceed at the pace of the least prepared student. The instruments themselves range from $50 for a serviceable ukulele to figures one prefers not to contemplate for a piano. The greater difficulty, however, is not financial. It is that learning an instrument as an adult is slow, physically uncomfortable, and acutely humbling in a way that few other skills replicate. One's fingers do not cooperate. The sounds one produces bear no resemblance to the sounds one intended. Progress is measured in weeks, not hours. Those who persevere acquire a skill that research identifies as uniquely beneficial to cognitive health, emotional regulation, and the particular satisfaction of making a sound that is, at last, the sound one meant to make. One's Agent cannot hold the instrument. It can, however, design the practice routine, explain the theory, diagnose the plateau, and maintain the patient, unhurried encouragement that a $60-per-hour instructor provides in rather more limited supply._
 *The Spec:*
+
 ::: prompt
 I want to learn [guitar / piano / ukulele / bass / drums /
 violin / harmonica / banjo / another instrument].

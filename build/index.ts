@@ -1,6 +1,8 @@
 import 'dotenv/config';
 import { accessSync } from 'node:fs';
+import { readFile } from 'node:fs/promises';
 import { join } from 'node:path';
+import matter from 'gray-matter';
 import {
   ROOT,
   CONTENT_DIR,
@@ -11,11 +13,13 @@ import {
   discoverBriefs,
   prepareArtContext,
   discoverChapters,
-  processChapter,
+  processChapterFromSource,
+  parseSlug,
   sortChapters,
   optimizeImages,
+  buildRefRegistry,
 } from './pipeline.js';
-import type { ArtBrief } from './pipeline.js';
+import type { ArtBrief, RefWarning } from './pipeline.js';
 import { assembleEpub } from './epub/assemble.js';
 import { generateMissingArt } from './generate-art.js';
 import { BOOK_META } from './types.js';
@@ -76,11 +80,41 @@ async function build(): Promise<void> {
   const files = await discoverChapters();
   console.log(`Found ${files.length} chapter files`);
 
+  // Read each source file once. The raw content feeds both the
+  // cross-reference registry pass (which scans heading codes) and the
+  // per-chapter render pass below.
+  const sources = await Promise.all(
+    files.map(async (filePath) => ({
+      filePath,
+      raw: await readFile(filePath, 'utf-8'),
+    }))
+  );
+
+  console.log('Building ref registry...');
+  const refRegistry = buildRefRegistry(
+    sources.map(({ filePath, raw }) => ({
+      slug: parseSlug(filePath),
+      content: matter(raw).content,
+    }))
+  );
+  const refWarnings: RefWarning[] = [];
+  console.log(`Registered ${refRegistry.size} ref target(s)`);
+
   console.log('Processing chapters...');
-  const chapters = await Promise.all(
-    files.map((f) => processChapter(f, artCtx))
+  const chapters = sources.map(({ filePath, raw }) =>
+    processChapterFromSource(filePath, raw, artCtx, {
+      registry: refRegistry,
+      warnings: refWarnings,
+    })
   );
   const sorted = sortChapters(chapters);
+
+  if (refWarnings.length > 0) {
+    console.warn(`\n${refWarnings.length} unresolved ref(s):`);
+    for (const w of refWarnings) {
+      console.warn(`  ref:${w.tag}${w.sourceFile ? ` in ${w.sourceFile}` : ''}`);
+    }
+  }
 
   // Fail the build if any declared accessibility feature is not satisfied.
   // The ePub OPF claims WCAG 2.0 AA; shipping a book that does not meet its

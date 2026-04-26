@@ -194,6 +194,9 @@ export function epubOverrides(
       return `<a epub:type="noteref" role="doc-noteref" href="#en-${escaped}"${idAttr} class="endnote-ref">[${num}]</a>`;
     },
 
+    // Suppress the implicit <section> wrapper djot generates around each
+    // heading. Headings render flat inside the chapter body; the heading
+    // id (set by headingIdsFilter) is the anchor target.
     section: (node: Section, renderer: HTMLRenderer): string => {
       return renderer.renderChildren(node);
     },
@@ -279,12 +282,30 @@ export function renderNotesSection(
     };
     const content = renderHTML(tempDoc);
     const escaped = escapeHtml(label);
+    const numLabel = `<span class="endnote-num">[${num}]</span> `;
     const backlink =
       `<a epub:type="backlink" role="doc-backlink" class="endnote-backlink" ` +
       `href="#fnref-${escaped}" aria-label="Back to reference ${num}">\u21a9</a>`;
 
+    // Inject the visible number label inside the first paragraph and the
+    // backlink inside the last — both inline so they flow with the prose
+    // instead of sitting on their own lines.
+    let rendered = content;
+    const openPMatch = rendered.match(/<p(\s[^>]*)?>/);
+    if (openPMatch && openPMatch.index != null) {
+      const insertAt = openPMatch.index + openPMatch[0].length;
+      rendered = rendered.slice(0, insertAt) + numLabel + rendered.slice(insertAt);
+    } else {
+      rendered = numLabel + rendered;
+    }
+    const lastPIdx = rendered.lastIndexOf('</p>');
+    rendered =
+      lastPIdx >= 0
+        ? rendered.slice(0, lastPIdx) + backlink + rendered.slice(lastPIdx)
+        : rendered.replace(/\s+$/, '') + backlink;
+
     notes.push(
-      `<aside epub:type="endnote" role="doc-endnote" id="en-${escaped}" class="endnote">\n${content}${backlink}\n</aside>`
+      `<aside epub:type="endnote" role="doc-endnote" id="en-${escaped}" class="endnote">\n${rendered}</aside>`
     );
   }
 

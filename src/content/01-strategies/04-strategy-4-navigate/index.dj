@@ -43,19 +43,21 @@ including any deadlines or time-sensitive elements I should know about.
 :::
 
 
-_In the Field Guide: W-2 (If You're Let Go), H-4 (Insurance Appeals), L-2 (Small Claims Court), Ho-6 (Getting a Home), IRL-1 (Government Offices)._
+_In the Field Guide: [W-2 (If You're Let Go)](ref:w-2), [H-4 (Insurance Appeals)](ref:h-4), [L-2 (Small Claims Court)](ref:l-2), [Ho-6 (Getting a Home)](ref:ho-6), [IRL-1 (Government Offices)](ref:irl-1)._
 
 ### Example 1: Filing for Unemployment Benefits
 
 The situation: you were let go last Friday. An email from the CEO said "position eliminated, replaced by AI." You have never filed for unemployment. You don't know if you qualify, where to start, or what the deadlines are.
 
 *Your opening message:*
+
 ::: prompt
 I just lost my job. I think I can file for unemployment
 but I don't know how.
 :::
 
 *Your Agent's clarifying questions:*
+
 ::: agent
 I can help you navigate this. A few questions first:
 
@@ -67,6 +69,7 @@ I can help you navigate this. A few questions first:
 :::
 
 *Your answers:*
+
 ::: prompt
 1. California
 2. Laid off — they said "position eliminated."
@@ -76,6 +79,7 @@ I can help you navigate this. A few questions first:
 :::
 
 *Your Agent proposes the navigation:*
+
 ::: agent
 Here's your step-by-step path. California unemployment
 is handled through the EDD (Employment Development
@@ -118,11 +122,13 @@ adjust — for example, did you receive any severance?
 :::
 
 *Your correction:*
+
 ::: prompt
 Yes, I did get two weeks severance. Does that change anything?
 :::
 
 *Your Agent adjusts:*
+
 ::: agent
 Severance can delay when benefits start, depending on
 how your employer reports it. In California, if the
@@ -148,12 +154,14 @@ Research on administrative burden (Herd & Moynihan, 2018) shows that complex app
 The situation: your insurance denied coverage for an MRI your doctor ordered. The letter says "not medically necessary." You know you can appeal but have no idea what the process looks like or how long you have.
 
 *Your opening message:*
+
 ::: prompt
 My insurance denied my MRI. The letter says I can appeal.
 How do I do this?
 :::
 
 *Your Agent's clarifying questions:*
+
 ::: agent
 I'll walk you through the process. Let me ask:
 
@@ -168,6 +176,7 @@ I'll walk you through the process. Let me ask:
 :::
 
 *Your answers:*
+
 ::: prompt
 1. Employer-provided — through work.
 2. Anthem Blue Cross.
@@ -179,6 +188,7 @@ I'll walk you through the process. Let me ask:
 :::
 
 *Your Agent proposes the navigation:*
+
 ::: agent
 Good — you have time and your doctor is willing to
 support the appeal. Here's the path:
@@ -224,12 +234,14 @@ to gather the information from Steps 1 and 2 first?
 :::
 
 *Your evaluation:*
+
 ::: prompt
 I'll get the info first. But — what if the external
 review also denies it?
 :::
 
 *Your Agent:*
+
 ::: agent
 After external review, you have two more escalation
 paths most people never reach:
@@ -256,6 +268,7 @@ The question "what happens if this step fails?" is the Navigate power move. Ever
 The situation: your former landlord kept your $2,400 security deposit. It's been 45 days. You sent a demand letter (see Strategy 3: Draft). No response. You want to take them to small claims court but have never done it.
 
 *Your opening message:*
+
 ::: prompt
 My landlord kept my security deposit. I sent a demand
 letter three weeks ago, no response. I want to file
@@ -263,6 +276,7 @@ in small claims court. I've never done this.
 :::
 
 *Your Agent's clarifying questions:*
+
 ::: agent
 Small claims court is designed for exactly this. Let me
 confirm a few details:
@@ -278,6 +292,7 @@ confirm a few details:
 :::
 
 *Your answers:*
+
 ::: prompt
 1. Santa Clara County, California.
 2. $2,400.
@@ -288,6 +303,7 @@ confirm a few details:
 :::
 
 *Your Agent proposes the navigation:*
+
 ::: agent
 You have a strong case. In California, a landlord must
 return the deposit OR provide an itemized statement of

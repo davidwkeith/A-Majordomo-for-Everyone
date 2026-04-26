@@ -18,6 +18,7 @@ Paul and Jamie Buchman spent seven seasons of _[Mad About You](https://en.wikipe
 ---
 
 #### L-1: Negotiating a Contract
+
 *Strategy:* Decode + Assert
 *See also:* Ho-4: Knowing Your Rights as a Renter or Homeowner (for lease-specific rights), Ch-2: Understanding a Contractor Bid, M-3: Mortgages
 *My Man Jeeves:* _One might observe that a contract is, in its essential nature, a document composed by attorneys for the benefit of attorneys, with the quiet assumption that all parties to the arrangement have retained counsel of their own. When one party has not, the contract does not malfunction. It performs precisely as designed. The distinction between possessing rights under an agreement and comprehending what one has agreed to is, if one may say so, rather the point. Your Agent has read the contract. It would be pleased to translate._
@@ -25,6 +26,7 @@ Paul and Jamie Buchman spent seven seasons of _[Mad About You](https://en.wikipe
 [contract-highlighted]{.art}
 
 *The Spec:*
+
 ::: prompt
 I am about to sign this contract. [Paste the contract or
 the section you're concerned about.]
@@ -63,10 +65,12 @@ Active-duty servicemembers have contract rights most civilians do not. The [Serv
 ---
 
 #### L-2: Small Claims Court
+
 *Strategy:* Navigate + Prepare + Draft
 *See also:* L-1: Negotiating a Contract (if the dispute stems from a contract), L-3: Writing a Demand Letter (often the step before filing)
 *My Man Jeeves:* _It would appear that small claims court was designed with the admirable intention of permitting ordinary individuals to resolve disputes without the expense of legal representation. The filing fee is modest, the rules are simplified, and the presiding judge expects one to be a regular person rather than a trained advocate. The difficulty, however, presents itself in the matter of preparation. Knowing what the court expects, which evidence carries weight, and how to arrange it coherently — this information is freely available, though one finds it scattered across courthouse websites last updated, in many instances, in 2009. One might further note that the landlord's property management company has filed in small claims dozens of times, while the typical tenant has filed precisely none. The experience gap, rather than the law itself, is the genuine disadvantage. One's Agent can close it._
 *The Spec:*
+
 ::: prompt
 I want to file a small claims court case.
 My state and county: [state, county]
@@ -108,10 +112,12 @@ File and document upload — paste or attach a contract to your conversation —
 ---
 
 #### L-3: Writing a Demand Letter
+
 *Strategy:* Draft
 *See also:* L-2: Small Claims Court (the next step if the letter doesn't work), L-1: Negotiating a Contract (if the dispute involves a signed agreement)
 *My Man Jeeves:* _It is a common misapprehension that a demand letter is an instrument requiring legal credentials to compose. It is not. A demand letter is, at bottom, a written statement conveying four particulars: that a sum is owed, the basis for the obligation, the evidence supporting it, and the course of action one intends to pursue should payment not be forthcoming. Any person may write one. Any person may send one. The efficacy of such a letter derives not from legal authority but from a subtler mechanism — most people and businesses, upon reflection, would rather settle than contend with what follows. The letter itself constitutes the leverage. One might note that a well-composed demand letter resolves more disputes than small claims court, for the simple reason that most defendants perform the arithmetic and pay. One's Agent can compose the letter._
 *The Spec:*
+
 ::: prompt
 I need to write a demand letter.
 The situation: [describe the dispute — what was promised,
@@ -151,10 +157,12 @@ When the other side is a business, a demand letter alone is rarely the strongest
 ---
 
 #### L-4: Navigating a Traffic Ticket
+
 *Strategy:* Navigate + Research
 *See also:* Tr-1: Car Ownership (tickets affect total cost of ownership), C-1: Knowing Your Rights During a Police Encounter (if the ticket involves a stop), L-2: Small Claims Court (if the ticket leads to a larger dispute)
 *My Man Jeeves:* _One observes that traffic tickets occupy a rather unusual position in American law. They are, technically, criminal citations. They carry fines that function, in practice, as a regressive tax. They trigger insurance increases that frequently exceed the fine itself. And they arrive accompanied by a collection of widely circulated beliefs — "the officer must appear or the matter is dismissed," "one may have it reduced simply by requesting" — which prove sometimes accurate, sometimes not, and invariably dependent upon the jurisdiction. A difficulty presents itself in the disparity of consequence: the billionaire pays the fine and the insurance increase without particular notice. The ordinary household notices a great deal. That distinction is what the following Skill endeavors to address. One's Agent can research the options specific to one's jurisdiction and violation._
 *The Spec:*
+
 ::: prompt
 I got a traffic ticket.
 My state: [state]
@@ -216,11 +224,13 @@ Flat traffic fines are regressive by design. A $500 ticket is a rounding error f
 ---
 
 #### L-5: Understanding Your Rights as a Tenant
+
 *Strategy:* Decode + Assert
 *See also:* Ho-4: Knowing Your Rights as a Renter or Homeowner (the practical side --- maintenance, deposits, inspections), L-1: Negotiating a Contract (for reading your lease), L-3: Writing a Demand Letter (if your landlord will not act)
 *My Man Jeeves:* _One observes that the relationship between landlord and tenant is, in most American jurisdictions, governed by a rather comprehensive body of law that the landlord has read and the tenant has not. This is not, one might note, an oversight. The lease itself is the landlord's document, composed by the landlord's attorney, printed on the landlord's letterhead, and presented to the tenant at a moment of maximum vulnerability --- when one has already packed, hired movers, and informed one's current residence of departure. The implied warranty of habitability, the statutory limits on security deposits, the protections against retaliatory eviction --- these exist in every state, though they vary with a creativity that borders on the artistic. The difficulty is not that the tenant lacks rights. It is that exercising them requires knowing they exist, which the lease is under no obligation to mention. One's Agent has read your state's landlord-tenant statute. It is prepared to be specific._
 
 *The Spec:*
+
 ::: prompt
 I am a tenant and I need to understand my rights.
 My state and city: [state, city]
@@ -284,11 +294,13 @@ The landlord-tenant relationship is asymmetric in a way that does not show up in
 ---
 
 #### L-6: Navigating Family Court
+
 *Strategy:* Navigate + Prepare
 *See also:* L-1: Negotiating a Contract (settlement agreements are contracts --- read them like one), Li-1: Difficult Conversations (the emotional side of what this Skill handles procedurally)
 *My Man Jeeves:* _It is perhaps worth observing that family court occupies a singular position in the American legal system. It is the one court where both parties arrive already in crisis, where the stakes are not financial but existential --- the daily proximity to one's children --- and where the proceedings are governed by a standard, "the best interest of the child," that sounds reassuringly clear and proves, upon examination, to be interpreted differently by every judge in every county. One further notes that the system assumes both parties can afford attorneys, take time off work for hearings, and produce documentation on short notice. When one party can and the other cannot, the procedural advantage compounds with each filing. The law itself may be neutral. The capacity to navigate it is not. One's Agent cannot represent you in court. It can ensure you arrive prepared rather than bewildered, which is, if one may say so, a meaningful distinction._
 
 *The Spec:*
+
 ::: prompt
 I need to navigate family court.
 My state and county: [state, county]
@@ -357,11 +369,13 @@ Military families navigating divorce face a separate statutory layer. The [Unifo
 ---
 
 #### L-7: Dealing with Debt Collectors
+
 *Strategy:* Assert + Decode
 *See also:* M-4: Collections and Bankruptcy (the financial strategy side), M-2: Credit Card Debt (if that is the underlying debt), L-3: Writing a Demand Letter (the same technique works in reverse --- you can demand they stop)
 *My Man Jeeves:* _One might observe that the debt collection industry operates within a set of federal and state regulations that are, in their particulars, rather favorable to the debtor --- and that this fact is precisely the one the industry relies upon the debtor not knowing. The Fair Debt Collection Practices Act specifies what a collector may say, when they may call, what they must prove when challenged, and what they must cease doing when instructed. Violations of these provisions carry statutory damages. The difficulty, as so often, presents itself in the gap between the law as written and the experience of receiving a telephone call at dinner from a person whose professional training consists of creating urgency in the uninformed. The collector's advantage is not legal. It is informational. One's Agent is familiar with the FDCPA. It can level the conversation rather promptly._
 
 *The Spec:*
+
 ::: prompt
 A debt collector has contacted me.
 My state: [state]
@@ -440,11 +454,13 @@ Active-duty servicemembers get an additional lever. The [SCRA](https://www.justi
 ---
 
 #### L-8: Power of Attorney and Advance Directives
+
 *Strategy:* Draft + Prepare
 *See also:* H-7: End-of-Life Conversations (the emotional and medical side of these decisions), Li-4: Planning Care for Aging Parents (the caregiving context where these documents become urgent)
 *My Man Jeeves:* _One ventures to suggest that there are certain documents which every adult requires and which, by a most inconvenient feature of human nature, no adult wishes to contemplate. A power of attorney, a healthcare proxy, and an advance directive are not instruments of pessimism. They are instruments of agency --- they ensure that when one cannot speak for oneself, the person who speaks in one's place knows what one would have said. The difficulty is not that these documents are legally complex. A basic power of attorney is, in most states, a single form. The difficulty is that the conversation they require --- who do you trust, what do you want, under what circumstances --- is one that most families postpone until the decision must be made in a hospital corridor at two in the morning by a person who has no legal authority to make it. The documents exist to prevent that moment. One's Agent can draft them. The conversation, one regrets to observe, remains yours to have._
 
 *The Spec:*
+
 ::: prompt
 I need to create advance planning documents.
 My state: [state]
@@ -507,11 +523,13 @@ The paperwork is not the hard part. Asking someone to be your healthcare proxy i
 ---
 
 #### L-10: Navigating a Background Check
+
 *Strategy:* Decode + Assert
 *See also:* W-1: Getting a Job (where background checks gatekeep employment), Ho-6: Getting a Home (where they gatekeep housing --- rental applications)
 *My Man Jeeves:* _One cannot help but observe that the background check has become, in contemporary American life, a document of considerable consequence that the subject of the check is permitted neither to see in advance nor to review for accuracy before it is presented to the party making a decision. An employer, a landlord, or a licensing board receives a report that purports to summarize one's relationship with the law. The report may be accurate. It may not. A 2012 study by the National Consumer Law Center found error rates sufficiently alarming to suggest that accuracy is, for the industry, more of an aspiration than a practice. The Fair Credit Reporting Act provides the right to dispute errors, and many states provide the right to review one's own record. The difficulty is that most people exercise these rights after a rejection --- which is to say, after the damage is done. One's Agent can help you review your record before anyone else does._
 
 *The Spec:*
+
 ::: prompt
 I need to understand and prepare for a background check.
 My state: [state]
@@ -578,11 +596,13 @@ Tenant screening is a separate industry running in parallel to employment backgr
 ---
 
 #### L-11: Filing a Consumer Complaint
+
 *Strategy:* Assert + Navigate
 *See also:* IRL-2: Customer Service (the conversation --- try this first), L-3: Writing a Demand Letter (the written escalation --- try this second)
 *My Man Jeeves:* _One observes that the American consumer possesses, at any given moment, access to a rather formidable array of regulatory complaint mechanisms --- the Consumer Financial Protection Bureau, the Federal Trade Commission, the state attorney general's consumer protection division, and in many instances a local consumer affairs office --- and that the typical consumer, upon being wronged by a corporation, is aware of precisely none of them. This is not, one ventures to say, because the agencies are secretive. They are not. Their complaint portals are public, free, and in several cases genuinely effective. The CFPB, by way of illustration, forwards complaints to the named company with a statutory deadline for response, and publishes both the complaint and the response in a searchable public database. The difficulty is navigational: knowing which agency handles which type of complaint, what information to include, and how to frame the complaint so that it receives attention rather than a form letter. One's Agent knows the escalation ladder. It would be pleased to assist you in climbing it._
 
 *The Spec:*
+
 ::: prompt
 I need to file a consumer complaint against a company.
 The company: [name]

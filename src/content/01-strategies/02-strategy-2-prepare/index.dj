@@ -48,7 +48,7 @@ Patients who arrive at medical appointments with written questions report higher
 
 Preparation does not require expertise. It requires ten minutes and a list. The doctor, the HR director, and the contractor all expect you to show up without one. The list is what changes the power dynamic in the room. Every example in this chapter follows the same pattern: tell your Agent what's coming, answer its clarifying questions, and walk in with a list on your phone. That is the entire strategy.
 
-_In the Field Guide: H-2 (Doctor's Appointments), Li-1 (Difficult Conversations), IRL-1 (Government Offices), IRL-2 (Customer Service), Tr-4 (Air Travel)._
+_In the Field Guide: [H-2 (Doctor's Appointments)](ref:h-2), [Li-1 (Difficult Conversations)](ref:li-1), [IRL-1 (Government Offices)](ref:irl-1), [IRL-2 (Customer Service)](ref:irl-2), [Tr-4 (Air Travel)](ref:tr-4)._
 
 ::: tip
 For high-stakes appointments — medical, legal, financial — end your preparation spec with: "Give me the most conservative framing. I will verify everything with the professional." This ensures the question list helps you ask, not conclude.
@@ -60,6 +60,7 @@ For high-stakes appointments — medical, legal, financial — end your preparat
 The situation: your primary care doctor called about your blood work. Something is elevated. She's referring you to an oncologist. The appointment is in ten days. You don't know what to ask, what the blood work means, or what the appointment will involve. You're scared, and the fear is making it harder to think, not easier.
 
 *Your opening message:*
+
 ::: prompt
 My doctor is referring me to an oncologist because
 something in my blood work is elevated. The appointment
@@ -77,6 +78,7 @@ everything with the oncologist.
 :::
 
 *Your Agent's clarifying questions:*
+
 ::: agent
 I understand this is stressful. Let me help you walk
 into that appointment prepared. A few questions first:
@@ -96,6 +98,7 @@ into that appointment prepared. A few questions first:
 :::
 
 *Your answers:*
+
 ::: prompt
 1. She said elevated LDH can mean a lot of things —
    liver issues, infection, or something more serious.
@@ -110,6 +113,7 @@ into that appointment prepared. A few questions first:
 :::
 
 *Your Agent prepares you:*
+
 ::: agent
 Here's your preparation kit. Save this to your phone.
 
@@ -172,6 +176,7 @@ answered.
 :::
 
 *Your follow-up:*
+
 ::: prompt
 What if they want to schedule something right away,
 like a biopsy? How do I know if I should say yes
@@ -179,6 +184,7 @@ on the spot?
 :::
 
 *Your Agent:*
+
 ::: agent
 You don't have to decide anything in the room. The
 sentence is: "I'd like to understand the full picture
@@ -215,6 +221,7 @@ The phrase "I'd like to understand the full picture before I schedule anything" 
 The situation: you've been at your job for two years. Your annual review is next week. You've been told informally that "it went well" — but nobody has mentioned a raise, and you're making $12,000 less than market rate for your role. You've never negotiated salary before. The thought makes you nauseous.
 
 *Your opening message:*
+
 ::: prompt
 I have my annual performance review next Tuesday and
 I want to ask for a raise. I've been here 2 years,
@@ -233,6 +240,7 @@ Details:
 :::
 
 *Your Agent's clarifying questions:*
+
 ::: agent
 This is exactly the kind of conversation that
 preparation changes completely. A few questions:
@@ -254,6 +262,7 @@ preparation changes completely. A few questions:
 :::
 
 *Your answers:*
+
 ::: prompt
 1. I looked on Glassdoor and it says $72,000-78,000
    for Marketing Coordinator in Denver. So I'm about
@@ -273,6 +282,7 @@ preparation changes completely. A few questions:
 :::
 
 *Your Agent prepares you:*
+
 ::: agent
 Here's your preparation for Tuesday. Practice saying
 these out loud once — not to memorize, but so the
@@ -358,6 +368,7 @@ This turns a no into a documented roadmap.
 :::
 
 *Your follow-up:*
+
 ::: prompt
 I'm worried that if I ask for a raise right after a
 good review it'll seem like I'm only in it for the
@@ -365,6 +376,7 @@ money. Is that a real concern?
 :::
 
 *Your Agent:*
+
 ::: agent
 No. The annual review exists for this conversation.
 This is the institutionally designated time to discuss
@@ -391,6 +403,7 @@ Salary negotiation research consistently shows that employees who negotiate rece
 The situation: your kitchen faucet has been leaking for a month. You called a plumber. He's coming Thursday for a "walkthrough and estimate." You have no idea what a reasonable price is, what questions to ask, or how to tell if he's recommending work you don't need. Your last contractor experience ended with a $3,000 bill for what turned out to be a $400 repair.
 
 *Your opening message:*
+
 ::: prompt
 A plumber is coming Thursday to look at my leaking
 kitchen faucet and give me an estimate. Last time I
@@ -408,6 +421,7 @@ Here's what I know:
 :::
 
 *Your Agent's clarifying questions:*
+
 ::: agent
 Good — getting prepared before the plumber arrives
 saves money directly. A few questions:
@@ -427,6 +441,7 @@ saves money directly. A few questions:
 :::
 
 *Your answers:*
+
 ::: prompt
 1. I'll check — I think it says Moen on the front.
 2. Just the spout.
@@ -438,6 +453,7 @@ saves money directly. A few questions:
 :::
 
 *Your Agent prepares you:*
+
 ::: agent
 Here's your preparation for Thursday.
 
@@ -512,12 +528,14 @@ rent deduction, you want a paper trail.
 :::
 
 *Your follow-up:*
+
 ::: prompt
 What if he says the whole faucet needs replacing and
 quotes me $800? How do I push back without being rude?
 :::
 
 *Your Agent:*
+
 ::: agent
 You don't push back. You ask questions. The questions
 do the work.
