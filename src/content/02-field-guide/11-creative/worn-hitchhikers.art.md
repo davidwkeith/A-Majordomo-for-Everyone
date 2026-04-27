@@ -12,7 +12,7 @@ field, no surface or table line drawn beneath them.
 1990, drawn with the same obsessive detail as the Trinitron. The
 small CRT screen, the floppy slot below it, the flat front bezel,
 the rainbow Apple logo, the keyboard cable exiting the back. On the
-screen, MS Word (or a generic period word processor) is open in a
+screen, a generic period word processor is open in a
 single window, drawn at unhinged detail --- title bar, menu bar,
 ruler, blinking cursor in the upper-left of the document --- but
 the document body is **completely empty**. Nothing written. The
