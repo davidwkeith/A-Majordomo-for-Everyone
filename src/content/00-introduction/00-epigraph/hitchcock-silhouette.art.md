@@ -2,35 +2,55 @@
 format: png
 size: margin
 alt: >
-  The iconic line-drawing profile of Alfred Hitchcock — the nine-stroke caricature from the opening of "Alfred Hitchcock Presents."
+  The iconic solid black profile silhouette of Alfred Hitchcock from the opening of "Alfred Hitchcock Presents" — rounded bald head, small nose, protruding lower lip, double chin, round belly.
 ---
 
-The Hitchcock profile caricature — the same minimal nine-stroke line
-drawing that opens "Alfred Hitchcock Presents." Not a photographic
-silhouette. Not a filled-in shape. A caricature reduced to the
-fewest possible strokes: the rounded forehead, the bump of the brow,
-the small nose, the protruding lower lip, the soft double chin, the
-slope into the round belly. Side view, facing left.
+**This is a SILHOUETTE. Read this paragraph twice.** The image is a
+single solid black shape on a white field --- as if Hitchcock's profile
+were cut from black construction paper and pasted onto white.
+Equivalently: the closing image of the "Alfred Hitchcock Presents"
+title sequence, where Hitchcock steps into his own caricature and
+becomes a flat black shadow. The reference is **a shadow puppet**, not
+a portrait.
 
-**Rendered in #2 pencil with the same hand as the rest of the book.**
-Visible graphite strokes — pressure variation along each line, a
-slight wobble that says freehand, the occasional faint construction
-mark. Open contour: the strokes outline the profile and stop. The
-interior is empty white space, not a fill, not shading, not crosshatching.
-Think "kid copying the Hitchcock logo into the margin of their
-notebook in pencil," not "vector logo" and not "charcoal portrait."
+**Profile, facing left.** The contour --- and only the contour --- reads
+as Hitchcock: rounded bald forehead, slight brow bump, small nose,
+gentle dip below the nose, protruding lower lip, soft double chin, and
+the slope of the round belly. Side view, no three-quarter rotation, no
+tilt. Cropped at the chest. Recognizable from the silhouette alone.
 
-**Do not include:** facial features (eyes, eyebrows, mouth, ears),
-hair texture, collar, tie, suit, hands, body below the belly curve,
-background, drop shadow, ink outlines, solid black fill, gradient
-fill, photographic shading, crosshatched interior, or any detail
-that would not survive being reproduced as a six- to nine-stroke
-caricature. If a stroke does not appear in Hitchcock's own line
-self-portrait, it does not appear here.
+**The fill is solid and uniform.** Rendered in #2 pencil with heavy
+uniform pressure, packed graphite, fully opaque --- dark enough to read
+as a single black shape at thumbnail size. No tonal variation inside
+the shape. No lighter areas, no highlights, no shading gradient. One
+flat fill, edge to edge. The silhouette's outline is the boundary of
+the fill against the paper; there is no separate outline stroke around
+it.
 
-**Background: pure white, `#FFFFFF`, flat.** Not gray, not off-white,
-not cream, not paper texture. The pencil contour sits on a clean
-white field. The build removes white to create transparency, so any
-gray will show as a halo in the ePub.
+**The interior is empty of all features. This is the failure mode --- read carefully:**
 
-Margin-sized — approximately the height of three lines of body text.
+- NO eye, eyebrow, eyelash, or eye socket
+- NO ear, ear canal, or ear outline
+- NO mouth, lip line, smile, or chin crease
+- NO nostril or nose detail beyond the silhouette edge
+- NO hair, hairline, scalp texture, or stray hairs
+- NO collar, necktie, lapel, shirt button, or clothing line
+- NO neck wrinkle, jaw line, or jowl seam
+- NO highlights, no rim light, no internal shading
+- NO sketch lines, construction lines, or pencil hatching showing through
+
+If you can see *anything* inside the black shape, the image is wrong.
+If the result looks like a pencil portrait of Hitchcock with shaded
+features, the image is wrong. The correct output looks like a black
+paper cutout. The contour does all the work.
+
+**This is not a sketch.** Not a profile drawing. Not a caricature
+with shading. Not a "stylized portrait." Not "Hitchcock with simplified
+features." A silhouette --- a flat, featureless, fully-filled shape.
+
+**Background:** pure white, `#FFFFFF`, flat. Not gray, not off-white,
+not cream, not paper texture. The build removes white to create
+transparency; any gray in the background will show as a halo in the
+ePub.
+
+Margin-sized --- approximately the height of three lines of body text.
