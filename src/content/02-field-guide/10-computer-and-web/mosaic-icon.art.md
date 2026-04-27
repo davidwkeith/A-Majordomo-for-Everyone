@@ -2,21 +2,35 @@
 format: png
 size: half-right
 alt: >
-  A hand-drawn 8-bit pixel art rendering of the NCSA Mosaic browser icon — a stylized blue ribbon curled into an M shape with a small globe in the center — sitting on a Mac System 7 desktop tile.
+  A hand-drawn 8-bit pixel art rendering of the NCSA Mosaic browser icon — a blue S-shaped ribbon with spherical balls at each end, passing behind a small Earth globe in the center — sitting on a Mac System 7 desktop tile.
 ---
 
 The NCSA Mosaic web browser icon (1993), rendered in 8-bit pixel
 art as it would appear at 32x32 on a Mac System 7 desktop.
 
-**The icon shape:** A stylized blue ribbon curled into an "M"
-silhouette --- two looping curves rising from lower-left and
-lower-right and meeting in the middle. Each curl ends in a small
-sphere bulb. At the center, where the curls cross, a small globe
-of the Earth: blue oceans, tan/brown landmasses suggesting the
-Americas, no political detail. The ribbon reads as 3D --- darker
-shading on one side of each curl, lighter on the other --- but
-within the constraints of an 8-bit icon: pixel-stepped highlight
-and shadow, not smooth gradient.
+**The icon shape:** A blue ribbon in the shape of a flowing **"S"**
+(or stylized treble-clef curve) that runs diagonally from
+upper-right to lower-left. The S is **a single continuous ribbon,
+not two separate curls.** At each end of the S --- upper-right and
+lower-left --- the ribbon terminates in a **3D spherical ball**
+(navy/blue, with a small lighter highlight pixel suggesting a sheen
+on the upper-left of each sphere). At the **center** of the S,
+where the ribbon makes its strongest bend, a 3D **globe of the
+Earth** sits **in front of** the ribbon: blue oceans, tan/brown
+landmasses suggesting the Americas, no political detail. The
+ribbon passes **behind** the globe --- the globe occludes the
+middle of the S. The ribbon reads as a 3D shaded form: pixel-
+stepped highlight on the lit side, pixel-stepped shadow on the
+opposite side. Constraints of an 8-bit icon apply --- stepped
+highlights, not smooth gradients.
+
+**Composition (this is the failure mode --- read carefully):**
+- Single S-shaped ribbon, NOT two looping curls or an "M" shape
+- One ball at each end of the S, total of TWO balls (upper-right
+  and lower-left), not more
+- Globe is centered, in FRONT of the ribbon, occluding its middle
+- The ribbon appears to pass behind the globe and re-emerge on
+  the other side
 
 **Palette (from the master palette):** Blue and Navy for the
 ribbon (Navy on the shadow side, Blue on the lit side); Skin Mid
