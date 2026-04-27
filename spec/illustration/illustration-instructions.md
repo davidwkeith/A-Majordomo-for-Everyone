@@ -140,6 +140,18 @@ The TV screen displays a 90's TV Show scene in 8-bit pixel art.
 - Each scene uses 4 to 16 colors drawn from the master palette below. Flat fills, no gradients.
 - Characters recognizable by silhouette and context, not facial detail.
 
+**True pixel grid — non-negotiable:** The image must be rendered on a literal, uniform grid of square pixels — as if captured from the framebuffer of a Nintendo or Super Nintendo and then enlarged. This is not "a blocky illustration" or "a chunky drawing style." It is pixel art in the strict sense:
+
+- *Every pixel is the same size.* The grid is uniform across the entire image. No "smaller pixels" for fine detail areas. If a feature is too small to render at the chosen resolution, it gets simplified or omitted, not detailed at sub-pixel scale.
+- *Pixels are axis-aligned squares.* No diamonds, no rotated grids, no rounded pixels, no soft edges, no glow.
+- *No anti-aliasing.* Edges between colors are hard. Diagonals are stair-stepped, not smoothed. Curves are made of right-angle staircases. A circle is a sequence of pixel jumps, not a smooth arc.
+- *No sub-pixel rendering or blending.* Each pixel is a single flat color from the palette. No partial-opacity pixels, no dithering with non-palette intermediates, no soft shadows, no airbrush.
+- *The grid must be visibly countable.* When the image is rendered at the size it will appear in the book, the viewer should be able to see and count individual pixels along an edge. If the pixels disappear into a smooth illustration, the brief has failed.
+
+The reference is the actual NES, Game Boy, or SNES — not a modern illustrator's interpretation of "retro." Think Super Mario Bros, Mega Man, Final Fantasy IV, Link's Awakening. Not a stylized blocky vector illustration that gestures at pixel art.
+
+**No meta-elements — non-negotiable:** The illustration must contain only the subject matter. Do not include color swatches, palettes, legends, keys, labels, hex codes, callouts, arrows pointing at parts of the drawing, "draft" notations, or any UI explaining the colors or technique used. No text appears in the image unless it is a natural part of the object being drawn — a logo on a TV, a label on a folder, signage in the world, or the closed captions specified above. The master palette is a constraint to follow, not an element to depict. The drawing is a finished artifact, not a draft with technical notes. A kid in a boring class is not labeling their work.
+
 **Closed captions:**
 Every chapter opener includes an OTA-style closed caption rendered at the bottom of the TV screen. The caption describes the scene in more detail than the pixel art can convey — it is the dialogue or stage direction for the moment depicted. White text on a black caption box, using the fixed-width captioning font of the era (EIA-608 standard — blocky, monospaced, slightly aliased, the font that appeared when you pressed CC on the remote). Two to three lines maximum. The caption sits inside the screen image, subject to the same barrel distortion and scan line effects as the pixel art. It is part of the broadcast, not an overlay.
 
@@ -167,6 +179,8 @@ The same hand as the chapter openers. #2 pencil for all structure and detail. Mu
 
 Pencil strokes should have natural value variation — heavier pressure is darker, lighter pressure is fainter. Ballpoint pen color is fully saturated where applied, sitting on top of the pencil work.
 
+**No meta-elements — non-negotiable:** The illustration must contain only the subject matter. Do not include color swatches, palettes, legends, keys, labels, hex codes, callouts, arrows pointing at parts of the drawing, "draft" notations, or any UI explaining the colors or technique used. No text appears in the image unless it is a natural part of the object being drawn — a logo, a product label, signage, the words on a page being depicted. The master palette is a constraint to follow, not an element to depict. The drawing is a finished artifact, not a draft with technical notes. A kid in a boring class is not labeling their work.
+
 ### What Gets an Inline Graphic
 
 Not everything. An inline graphic earns its placement by doing work that text alone cannot. A graphic that merely decorates should be cut.
@@ -181,15 +195,19 @@ Not everything. An inline graphic earns its placement by doing work that text al
 
 - **The right tool for the job.** Small illustrations in the style of a repair manual diagram sketched from memory. A wrench at the correct angle. A multimeter with labeled probes. The right screwdriver for the right screw.
 
-- **Pixel art vignettes.** Small 8-bit scenes — just the pixel art itself, no CRT physics (no barrel distortion, no scan lines). Colored in ballpoint. Plain white background. Visual footnotes.
+- **Pixel art vignettes.** Small 8-bit scenes — just the pixel art itself, no CRT physics (no barrel distortion, no scan lines). Colored in ballpoint. Plain white background. Visual footnotes. **The "True pixel grid — non-negotiable" rules from the Chapter Openers > Pixel Art Specs section apply in full.** A pixel art vignette is rendered on a literal uniform grid of axis-aligned square pixels with no anti-aliasing, no smooth curves, no sub-pixel detail. Not a blocky illustration. Actual pixel art, as if captured from a NES / Game Boy / SNES framebuffer.
 
 ---
 
 ## Callout Icons
 
-All callout types get hand-drawn notebook doodle icons. Each icon is redrawn slightly differently every time it appears — same doodle, different day, the way a real kid would redraw the same thing across a school year. All are #2 pencil on plain white background, margin-sized. No ballpoint color.
+All callout types get hand-drawn notebook doodle icons. Each icon is redrawn slightly differently every time it appears — same doodle, different day, the way a real kid would redraw the same thing across a school year. All are #2 pencil on pure white background, margin-sized. No ballpoint color.
 
-Every icon should feel like it was drawn in the same class, by the same hand, in the same notebook as the Trinitron. The variation is natural — pencil sharpness, speed, care — not stylistic. The kid is not trying to make each one different. They just are. Pure white background.
+Every icon should feel like it was drawn in the same class, by the same hand, in the same notebook as the Trinitron. The variation is natural — pencil sharpness, speed, care — not stylistic. The kid is not trying to make each one different. They just are.
+
+**Background — non-negotiable:** Pure white, `#FFFFFF`, flat. Not off-white, not cream, not gray, not light gray, not a paper texture, not a notebook page, not a card, not a checkerboard, not a gradient, not a drop shadow, not a vignette, not a bounding box. The pencil drawing sits on a perfectly clean white field with nothing behind it. The build pipeline removes white pixels to create transparency — any gray in the background will survive into the final ePub as visible halo around the icon. If the model wants to "make it look like paper," do not. Paper is for chapter openers; callout icons are pure white.
+
+**No meta-elements — non-negotiable:** Just the icon. No name tag, no caption, no callout-type label ("TIP", "ALSO", "FAIRNESS"), no color swatch, no hex code, no arrow pointing at the doodle, no border, no frame. A real kid drawing a star in the margin does not write "STAR" next to it. The icon stands alone.
 
 ---
 
