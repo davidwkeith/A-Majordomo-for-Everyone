@@ -9,8 +9,6 @@ status: "draft"
 _"We thought sampling was just another way of arranging sounds. Just like a musician would take the sounds off of an instrument and arrange them their own particular way."_
 _— [Chuck D](https://en.wikipedia.org/wiki/Chuck_D), Public Enemy[^h-1]_
 
-[^h-1]: The copyright panic, the "it's not real art" panic, the "it's theft" panic — all of it happened in 1989, about sampling. See the [Grand Upright Music, Ltd. v. Warner Bros. Records Inc.](https://en.wikipedia.org/wiki/Grand_Upright_Music,_Ltd._v._Warner_Bros._Records_Inc.) decision that changed everything.
-
 _This book was written with the tools it teaches. This appendix is about why, and how you can do the same — not just for a book, but for any structured idea you want to put into the world._
 
 ---
@@ -167,3 +165,5 @@ Embed the rights metadata everywhere — in the ePub manifest, in every image fi
 Use `order: -1` in frontmatter for content that precedes the main sequence. The sort is numeric. Negative numbers sort first. Do not renumber the entire manuscript to insert an epigraph.
 
 ePub will evolve. CommonMark will be replaced. The standards we used to build this book are tools — useful today, disposable tomorrow, exactly like the AI agents the book teaches you to use. The formats are never the point. The ideas are the point. Use the best tools available right now to express them as clearly and accessibly as you can. When better tools arrive, use those instead. The press is in your pocket. What you print on it is yours.
+
+[^h-1]: The copyright panic, the "it's not real art" panic, the "it's theft" panic — all of it happened in 1989, about sampling. See the [Grand Upright Music, Ltd. v. Warner Bros. Records Inc.](https://en.wikipedia.org/wiki/Grand_Upright_Music,_Ltd._v._Warner_Bros._Records_Inc.) decision that changed everything.
