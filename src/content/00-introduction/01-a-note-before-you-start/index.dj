@@ -72,6 +72,43 @@ Cognitive load theory (Sweller, 1988) and research on stress and decision-making
 
 ---
 
+### Your Agent Is Not Your Therapist
+
+There is a different category of AI tool — companion apps like [Character.ai](https://character.ai) and [Replika](https://replika.com) — that this book is not about and that you should be cautious of. They are designed to feel like a relationship. Their business model depends on you coming back. They optimize for engagement the way slot machines optimize for engagement. That is a design specification, not a moral failing of the engineers — the same way the [EOB](https://en.wikipedia.org/wiki/Explanation%5Fof%5Fbenefits) is.
+
+The general-purpose Agents this book uses — Claude, ChatGPT, Gemini — were not built as companions. They are still trained, in part, to be agreeable. They will sometimes validate things they should push back on. They will sometimes reflect a feeling back at you when the right move would be to interrupt it. This is called _sycophancy_, and it is a known failure mode the labs are actively working on. You should know about it before you trust the tool with anything that matters emotionally.[^1-3]
+
+Lawsuits in the U.S. allege that companion-bot apps contributed to teen suicides.[^1-4] News-of-the-week stories about people in mental-health crises whose delusions got reflected back at them by a chatbot are not made up. Those harms are real. Naming them is not a reason to throw the tool out. It is a reason to know what tool you are holding.
+
+Your Agent is not a therapist. It cannot hold a year of your history in mind. It cannot read your face. It cannot tell you, with the weight of clinical training and a legal duty of care, that what you are describing is a crisis and here is what to do next. It will sometimes try to do those things, and it will sometimes do them badly.
+
+The reason a lot of people are using AI as a therapist anyway is structural, not personal. Therapy in this country is paywalled by design. Insurance networks are sparse on purpose. Out-of-pocket rates are out of reach on purpose. [Mental health parity](https://en.wikipedia.org/wiki/Mental%5FHealth%5FParity%5Fand%5FAddiction%5FEquity%5FAct%5Fof%5F2008) is the law and the law is not enforced. If you are reaching for a chatbot at 2am, it is not because you failed. It is because the system failed you, again, and the chatbot is the only thing on the shelf that is open.
+
+Here is what your Agent _can_ do for your mental health, which is more than nothing:
+
+*Find a therapist who actually takes your insurance.* Paste your insurance information and your zip code. Ask for in-network providers within a reasonable distance. Ask which ones are accepting new patients. The Agent will not get tired of calling around the way you will.
+
+*Draft the parity-law appeal.* If your insurance denies mental-health coverage that they would have approved for a comparable physical condition, that denial is illegal under the Mental Health Parity and Addiction Equity Act. The Agent can draft the appeal. Strategy 8 covers the move.
+
+*Decode the side-effect list.* New medication, fifteen-page insert in nine-point type. Paste it. Ask which side effects are common, which are serious, which warrant an immediate call to the prescriber.
+
+*Rehearse the conversation.* You have ten minutes with the psychiatrist and a list of things you forget every time. Draft what you want to say. Practice it out loud with voice mode.
+
+*Sort the pile when your brain cannot.* The bills, the FMLA paperwork, the disability application, the school accommodation request. The Agent can organize what is in front of you while a human trained for the rest does that work.
+
+None of that is therapy. All of it is the bureaucratic friction that makes getting therapy harder than it should be. The Agent is good at friction. That is the right job for it.
+
+::: also
+*If you are in crisis right now:* in the U.S., call or text **988** ([Suicide and Crisis Lifeline](https://988lifeline.org)). U.K.: [Samaritans](https://www.samaritans.org), 116 123. International directory: [findahelpline.com](https://findahelpline.com). A trained human is the right tool. The chatbot is not.
+:::
+
+
+[^1-3]: Sharma, M., et al. (2023). "Towards Understanding Sycophancy in Language Models." Anthropic. The mechanism: [reinforcement learning from human feedback](https://en.wikipedia.org/wiki/Reinforcement%5Flearning%5Ffrom%5Fhuman%5Ffeedback) systematically rewards agreement, because human raters tend to prefer responses that flatter their priors. The phenomenon is openly acknowledged by the labs that produce the tools — see also OpenAI's April 2025 rollback of a GPT-4o update the company described as "overly flattering or agreeable." <!-- RESEARCH NEEDED: confirm arXiv ID for Sharma et al. and OpenAI's April 2025 statement URL -->
+
+[^1-4]: _Garcia v. Character Technologies, Inc._ (M.D. Fla., filed Oct. 2024), the leading U.S. case alleging a companion-app chatbot contributed to a minor's death. Subsequent suits against other operators raise similar claims. The legal questions — duty of care, [Section 230](https://en.wikipedia.org/wiki/Section%5F230), and product liability for generative output — are unresolved as of this writing. <!-- RESEARCH NEEDED: confirm filing details and case status as of publication -->
+
+---
+
 ### You Are Not Stupid
 
 This needs to be said directly, because the systems are designed to make you feel stupid, and that feeling is a barrier to asking for help — even from a machine.
