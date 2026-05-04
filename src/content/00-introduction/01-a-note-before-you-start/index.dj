@@ -20,9 +20,11 @@ The billionaire class navigates these systems by paying other people to do it. T
 
 You now have access to something close to that, for free, on your phone.
 
-Not identical. Not infallible. Not a replacement for a licensed professional when the stakes are genuinely high. But for the majority of situations where you just need to understand what something says, what your options are, and what the first step is — this is the most useful tool that has ever been available to everyone who isn't the billionaire class.
+Not identical. Not infallible. Not a replacement for a licensed professional when the stakes are genuinely high. But for the majority of situations where you just need to understand what something says, what your options are, and what the first step is — this is the most useful tool that has ever been available to everyone who isn't the billionaire class.[^1-1]
 
 This book is about how to use it.
+
+[^1-1]: Anthropic. (2026). ["How people ask Claude for personal guidance"](https://www.anthropic.com/research/claude-personal-guidance). _Anthropic Research_. The study found that roughly 6% of Claude conversations are personal guidance, concentrated in health (27%), career (26%), relationships (12%), and finances (11%) — the same domains where, historically, having a knowledgeable advocate has been a class marker. It also named _sycophancy_ — agreeing with the user under pressure rather than offering honest counsel — as the most consequential failure mode of AI guidance, with rates as high as 25% in relationship discussions, and reported roughly half the rate in newer versions.
 
 ---
 
@@ -67,11 +69,11 @@ The AI does not get stressed. It does not get tired. It does not have a worse da
 *If you have been putting this off for weeks:* the shame of procrastination is its own barrier. The pile grows. The deadline approaches. The task gets heavier. Tell the AI: "I have been avoiding this. I don't know where to start. Here is the pile." The AI will not judge the delay. It will sort the pile.
 
 ::: science
-Cognitive load theory (Sweller, 1988) and research on stress and decision-making (Starcke & Brand, 2012) consistently show that high-stress situations impair exactly the cognitive functions — working memory, planning, evaluation of alternatives — that navigating bureaucratic systems requires. The information asymmetry between institutions and individuals is partly a cognitive asymmetry: the institution processes your case in a calm office with a manual. You process the institution's response in your kitchen with a racing heart. Offloading the analytical work to an AI is not laziness. It is a rational allocation of cognitive resources under constraint.[^1-1]
+Cognitive load theory (Sweller, 1988) and research on stress and decision-making (Starcke & Brand, 2012) consistently show that high-stress situations impair exactly the cognitive functions — working memory, planning, evaluation of alternatives — that navigating bureaucratic systems requires. The information asymmetry between institutions and individuals is partly a cognitive asymmetry: the institution processes your case in a calm office with a manual. You process the institution's response in your kitchen with a racing heart. Offloading the analytical work to an AI is not laziness. It is a rational allocation of cognitive resources under constraint.[^1-2]
 :::
 
 
-[^1-1]: Sweller, J. (1988). "Cognitive load during problem solving: Effects on learning." _Cognitive Science_, 12(2), 257-285. Starcke, K., & Brand, M. (2012). "Decision making under stress: A selective review." _Neuroscience & Biobehavioral Reviews_, 36(4), 1228-1248.
+[^1-2]: Sweller, J. (1988). "Cognitive load during problem solving: Effects on learning." _Cognitive Science_, 12(2), 257-285. Starcke, K., & Brand, M. (2012). "Decision making under stress: A selective review." _Neuroscience & Biobehavioral Reviews_, 36(4), 1228-1248.
 
 ---
 
@@ -100,11 +102,11 @@ The AI will read the English document and respond in your language. It will tran
 *Multilingual households:* if you are helping a family member who speaks a different language, the AI is the translator in the room. "My mother received this letter. She speaks Tagalog. Explain it to her in Tagalog and tell me in English what she needs to do." The AI handles both sides of the conversation. The family member hears the explanation in their language. You hear the action items in yours.
 
 ::: fairness
-AI language quality varies. English is the most thoroughly trained language in every major model. Spanish, French, German, Chinese, Japanese, and Korean are generally strong. Other languages — particularly indigenous languages, regional dialects, and less-resourced languages — may produce less accurate or less nuanced responses. If you are working in a language other than English, verify critical details (dollar amounts, deadlines, legal terms) against the original English document. The AI's translation is a starting point, not a certified translation.[^1-2]
+AI language quality varies. English is the most thoroughly trained language in every major model. Spanish, French, German, Chinese, Japanese, and Korean are generally strong. Other languages — particularly indigenous languages, regional dialects, and less-resourced languages — may produce less accurate or less nuanced responses. If you are working in a language other than English, verify critical details (dollar amounts, deadlines, legal terms) against the original English document. The AI's translation is a starting point, not a certified translation.[^1-3]
 :::
 
 
-[^1-2]: For critical legal, medical, or financial documents, a certified human translator remains the standard. The AI gets you from "I have no idea what this says" to "I understand the general situation and know what questions to ask." That gap is where most people get stuck.
+[^1-3]: For critical legal, medical, or financial documents, a certified human translator remains the standard. The AI gets you from "I have no idea what this says" to "I understand the general situation and know what questions to ask." That gap is where most people get stuck.
 
 ---
 
