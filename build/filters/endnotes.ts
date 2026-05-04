@@ -7,6 +7,9 @@ import type {
   ThematicBreak,
   FootnoteReference,
   Footnote,
+  OrderedList,
+  BulletList,
+  ListItem,
   Visitor,
   HTMLRenderer,
 } from '@djot/djot';
@@ -191,6 +194,9 @@ export function epubOverrides(
       return `<a epub:type="noteref" role="doc-noteref" href="#en-${escaped}"${idAttr} class="endnote-ref">[${num}]</a>`;
     },
 
+    // Suppress the implicit <section> wrapper djot generates around each
+    // heading. Headings render flat inside the chapter body; the heading
+    // id (set by headingIdsFilter) is the anchor target.
     section: (node: Section, renderer: HTMLRenderer): string => {
       return renderer.renderChildren(node);
     },
@@ -203,18 +209,54 @@ export function epubOverrides(
 
 /**
  * Extract text from a conversation div's children, applying prose wrapping:
- * single newlines become spaces, blank lines become <br/> breaks.
+ * paragraphs are separated by blank-line breaks, and ordered/bullet lists are
+ * flattened to one item per line so the content renders inside <kbd>/<samp>
+ * without introducing block-level list markup.
  */
 function extractConversationText(node: Div, renderer: HTMLRenderer): string {
-  // Render each child paragraph, then join with <br/><br/> breaks
   const parts: string[] = [];
   for (const child of node.children) {
-    if (child.tag === 'para') {
-      const html = renderer.renderChildren(child);
-      parts.push(html);
-    }
+    const rendered = renderConversationBlock(child, renderer);
+    if (rendered) parts.push(rendered);
   }
   return parts.join('<br/><br/>');
+}
+
+function renderConversationBlock(
+  block: Div['children'][number],
+  renderer: HTMLRenderer
+): string {
+  if (block.tag === 'para') {
+    return renderer.renderChildren(block);
+  }
+  if (block.tag === 'ordered_list' || block.tag === 'bullet_list') {
+    return renderConversationList(block, renderer);
+  }
+  return '';
+}
+
+function renderConversationList(
+  list: OrderedList | BulletList,
+  renderer: HTMLRenderer
+): string {
+  const isOrdered = list.tag === 'ordered_list';
+  let num = isOrdered ? (list as OrderedList).start ?? 1 : 0;
+  const lines: string[] = [];
+  for (const item of list.children) {
+    if (item.tag !== 'list_item') continue;
+    const marker = isOrdered ? `${num++}. ` : '— ';
+    lines.push(marker + renderListItemContent(item, renderer));
+  }
+  return lines.join('<br/>');
+}
+
+function renderListItemContent(item: ListItem, renderer: HTMLRenderer): string {
+  const parts: string[] = [];
+  for (const child of item.children) {
+    const rendered = renderConversationBlock(child, renderer);
+    if (rendered) parts.push(rendered);
+  }
+  return parts.join('<br/>');
 }
 
 /**
@@ -240,12 +282,30 @@ export function renderNotesSection(
     };
     const content = renderHTML(tempDoc);
     const escaped = escapeHtml(label);
+    const numLabel = `<span class="endnote-num">[${num}]</span> `;
     const backlink =
       `<a epub:type="backlink" role="doc-backlink" class="endnote-backlink" ` +
       `href="#fnref-${escaped}" aria-label="Back to reference ${num}">\u21a9</a>`;
 
+    // Inject the visible number label inside the first paragraph and the
+    // backlink inside the last — both inline so they flow with the prose
+    // instead of sitting on their own lines.
+    let rendered = content;
+    const openPMatch = rendered.match(/<p(\s[^>]*)?>/);
+    if (openPMatch && openPMatch.index != null) {
+      const insertAt = openPMatch.index + openPMatch[0].length;
+      rendered = rendered.slice(0, insertAt) + numLabel + rendered.slice(insertAt);
+    } else {
+      rendered = numLabel + rendered;
+    }
+    const lastPIdx = rendered.lastIndexOf('</p>');
+    rendered =
+      lastPIdx >= 0
+        ? rendered.slice(0, lastPIdx) + backlink + rendered.slice(lastPIdx)
+        : rendered.replace(/\s+$/, '') + backlink;
+
     notes.push(
-      `<aside epub:type="endnote" role="doc-endnote" id="en-${escaped}" class="endnote">\n${content}${backlink}\n</aside>`
+      `<aside epub:type="endnote" role="doc-endnote" id="en-${escaped}" class="endnote">\n${rendered}</aside>`
     );
   }
 

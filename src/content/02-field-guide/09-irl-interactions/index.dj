@@ -13,10 +13,12 @@ _Your Agent can draft the letter, research the law, prepare the argument, and re
 ---
 
 #### IRL-1: Navigating Government Offices
+
 *Strategy:* Prepare + Navigate
 *See also:* C-3: Understanding Your Rights Where You Live, H-6: Understanding What Medicare Actually Covers
 *My Man Jeeves:* _One might observe that the DMV, the Social Security office, the county clerk, the courthouse, and the unemployment office represent the physical interfaces of government — designed, it would appear, with the same attentiveness to the visitor's experience as a website of the 1997 vintage. The forms are available online, though the answers, regrettably, are not. The hours are limited. The queues are considerable. The individual behind the counter has fielded one's question some four hundred times previously and may or may not possess the authority to be of assistance. A difficulty presents itself: the distinction between a single visit and three lies entirely in knowing what to bring, what to request, and what to say when the initial response is "no." One's Agent can tell one all three before one walks in._
 *The Spec:*
+
 ::: prompt
 I need to go to [DMV / Social Security office / county clerk /
 courthouse / unemployment office / other government office]
@@ -50,10 +52,12 @@ Government services are distributed unequally by geography and funding. Wealthie
 ---
 
 #### IRL-2: Getting Help from Customer Service
+
 *Strategy:* Prepare + Assert
 *See also:* L-3: Writing a Demand Letter (when the call doesn't work), H-4: Appealing an Insurance Denial (same escalation technique)
 *My Man Jeeves:* _It would not be inaccurate to characterize customer service as a system arranged to resolve the least costly complaints while gently exhausting those individuals whose difficulties prove more expensive. The first-tier representative is authorized to perform approximately three actions. The supervisor, perhaps six. The retention department — which one reaches only by employing certain specific phrases — is capable of considerably more. The architecture, one might note, rewards those who are familiar with the escalation path. Your Agent is familiar with the escalation path._
 *The Spec:*
+
 ::: prompt
 I need to resolve a problem with [company] about [issue:
 billing error, defective product, canceled service, denied claim,
@@ -93,10 +97,12 @@ If direct customer service fails, file a complaint at [consumerfinance.gov](http
 ---
 
 #### IRL-3: First-Time Situations
+
 *Strategy:* Prepare + Research
 *See also:* Li-5: Planning Trips (same preparation pattern), H-2: Preparing Questions Before a Doctor's Appointment
 *My Man Jeeves:* _There exists a variety of apprehension that has, to date, received no clinical designation, yet it would appear to affect nearly everyone: the discomfort of not knowing how a place operates. Upon entering a courtroom, a therapist's office, a car dealership, a parent-teacher conference, a funeral home, a real estate closing, a voting booth, or a gymnasium for the first time, one finds oneself uncertain where to stand, what to say initially, what the unwritten conventions are, or what everyone else seems already to know. This apprehension, one might observe, suppresses action. Individuals delay medical appointments, forgo voting, avoid the gymnasium, and accept less favorable terms in negotiations — the unknown procedure proving more daunting than the known unsatisfactory outcome. Your Agent, however, has attended all of these situations. It is in a position to describe precisely what to expect._
 *The Spec:*
+
 ::: prompt
 I am about to [go to / do / attend] [specific situation] for
 the first time and I don't know what to expect.
@@ -133,11 +139,13 @@ This works well with voice mode on your phone — all major tools support it on 
 ---
 
 #### IRL-4: Negotiating a Price
+
 *Strategy:* Prepare + Assert
 *See also:* Tr-1, M-3, H-3. [_Read This and You Will Be Happier_](https://www.theguardian.com/books/2026/jan/17/read-this-and-you-will-be-happier-experts-pick-the-self-help-books-that-really-work) (Guardian, 2026) on Monkey/T-Rex/Lion/Mouse personality types (reading the person across the table)
 *My Man Jeeves:* _One observes that every price in the American economy falls into one of two categories: the fixed and the negotiable. The distinction, however, is rarely advertised. The sticker on the car, the estimate from the surgeon, the first month's rent, the figure on the mattress tag — each represents not a fact but an opening position. The party who knows this negotiates. The party who does not pays the posted amount and is regarded, by the system, as having consented. It is perhaps worth noting that the billionaire class does not pay sticker price for anything, including, one might add, their tax obligations. Your Agent has read the negotiation research. It can tell you the fair price, the walk-away number, and the sentence that moves the conversation._
 
 *The Spec:*
+
 ::: prompt
 I need to negotiate a price for [car / furniture / medical bill /
 rent renewal / appliance / contractor work / other].
@@ -179,10 +187,12 @@ Negotiation outcomes track with race, gender, and class. Research consistently s
 ---
 
 #### IRL-5: Rehearsing What to Say
+
 *Strategy:* Prepare + Draft
 *See also:* Li-1: Preparing for a Difficult Conversation, IRL-2: Getting Help from Customer Service, IRL-4: Negotiating a Price
 *My Man Jeeves:* _One might observe that the individuals with whom one interacts in the course of daily commerce --- the customer service representative, the mechanic, the landlord, the administrator behind the counter --- have rehearsed their side of the exchange. If not formally, then through repetition: the representative has recited the refusal script two hundred times this quarter; the landlord has fielded the repair request before; the doctor has delivered the diagnosis to someone who is not you. The individual on the other side of the encounter, however --- which is to say, oneself --- is performing without benefit of a single rehearsal. It is perhaps unsurprising that the party who has practiced maintains composure while the party who has not does not. Your Agent, one might note, is capable of playing the opposing role with some conviction --- permitting one to rehearse the encounter as many times as necessary before entering the room where it matters._
 *The Spec:*
+
 ::: prompt
 I want to practice a conversation before I have it for real.
 The situation: [describe --- returning a defective product,
@@ -235,11 +245,13 @@ Rehearsal is especially valuable for people navigating conversations across a po
 ---
 
 #### IRL-6: Navigating a Hospital Visit
+
 *Strategy:* Prepare + Navigate
 *See also:* H-2: Preparing Questions Before a Doctor's Appointment, H-3: Decoding a Medical Bill or EOB, H-7
 *My Man Jeeves:* _The hospital is, one might observe, the only institution in which an individual is expected simultaneously to make consequential decisions about their own care, recall unfamiliar terminology under duress, track which of the several individuals entering the room is authorized to make which determinations, and do so while wearing a garment that opens at the back. The system presumes an advocate — a spouse, a parent, a friend who knows what questions to ask. Many individuals arrive without one. Your Agent cannot accompany you into the room, but it can tell you, beforehand, everything the advocate would have known._
 
 *The Spec:*
+
 ::: prompt
 I [am going to the hospital / am accompanying someone] for
 [scheduled surgery / ER visit / labor and delivery /
@@ -286,11 +298,13 @@ Hospital outcomes correlate with race, income, and insurance status. Black patie
 ---
 
 #### IRL-7: Talking to a Mechanic
+
 *Strategy:* Prepare + Decode
 *See also:* Tr-2, Ch-2
 *My Man Jeeves:* _The automobile repair industry operates upon a remarkably efficient information asymmetry: the mechanic possesses specialized knowledge regarding the vehicle's condition, and the vehicle's owner possesses, in the main, the awareness that a sound has begun that was not previously present. Into this gap, one observes, a considerable amount of revenue flows. Not all of it is unwarranted — the profession is skilled and the work is genuinely necessary. But the distinction between "your brake pads are worn and you will die" and "this cabin air filter could be fresher" is one the owner ought to be equipped to make. Your Agent has read every Technical Service Bulletin for your vehicle. The mechanic may not expect that._
 
 *The Spec:*
+
 ::: prompt
 I need to take my car to a mechanic and I want to be prepared.
 The situation:
@@ -330,11 +344,13 @@ Auto repair is one of the most heavily gendered information asymmetries in Ameri
 ---
 
 #### IRL-8: Navigating a Parent-Teacher Conference
+
 *Strategy:* Prepare + Assert
 *See also:* Li-7, IRL-3: First-Time Situations
 *My Man Jeeves:* _The parent-teacher conference presents itself as a collaborative exchange regarding the child's progress. In practice, one observes, it is a twenty-minute encounter in which the teacher has prepared remarks and the parent is expected to receive them. The parent who arrives with questions — specific, informed, documented — shifts the conversation from monologue to dialogue. When the matter involves an IEP or a 504 plan, the shift is not merely social but legal: the parent is a required member of the team, with rights established by federal statute, and the school is obligated to respond to their concerns in writing. Many parents are not informed of this. The school system does not appear to regard the omission as urgent. Your Agent has read IDEA. It can prepare you to exercise rights you may not know you have._
 
 *The Spec:*
+
 ::: prompt
 I have a parent-teacher conference coming up for my
 [age/grade] child.
@@ -385,11 +401,13 @@ Parents who speak the school's language — literally and figuratively — get b
 ---
 
 #### IRL-9: Handling a Car Accident
+
 *Strategy:* Prepare + Navigate
 *See also:* Tr-1, L-4, M-8
 *My Man Jeeves:* _The fifteen minutes following a motor vehicle collision are, one might venture, among the least suitable for clear decision-making in the entire human experience — and yet they are precisely the interval during which the decisions that determine the subsequent six months of insurance negotiations, potential litigation, and financial exposure are made. What one says to the other driver, to the police officer, and to one's insurance company in those first minutes becomes the record. The record is remarkably difficult to amend. Your Agent cannot be consulted at the moment of impact, but it can be consulted ten minutes later, in the passenger seat, while you are waiting for the police to arrive._
 
 *The Spec:*
+
 ::: prompt
 I was just in a car accident. [Or: I want to be prepared
 in case I'm in one.]
@@ -431,11 +449,13 @@ After an accident, police reports and insurance adjusters introduce human judgme
 ---
 
 #### IRL-10: Attending a Funeral or Memorial
+
 *Strategy:* Prepare + Navigate
 *See also:* Li-2, IRL-3: First-Time Situations
 *My Man Jeeves:* _There exists no social occasion at which the fear of saying the wrong thing is more acute, or at which the wrong thing is more frequently said. Funerals and memorial services operate according to customs that vary by religion, culture, region, and family — and one is expected to navigate these customs while managing one's own grief, or supporting someone else who is managing theirs. The system provides no orientation. One arrives, one is uncertain whether to speak or remain silent, whether to bring food or flowers or neither, what to wear, what to say to the family, and what, precisely, one does with one's hands. Your Agent cannot grieve with you. It can tell you what to expect so that your attention is free for the only thing that matters: being present._
 
 *The Spec:*
+
 ::: prompt
 I am attending a funeral or memorial service and I want to
 be prepared.
@@ -474,11 +494,13 @@ The most useful thing you can do after a funeral is not say "let me know if you 
 ---
 
 #### IRL-11: Job Interviews In Person
+
 *Strategy:* Prepare + Assert
 *See also:* W-1, Li-1
 *My Man Jeeves:* _The in-person interview is, one might observe, a performance in which both parties have agreed to pretend that the exchange of pleasantries, the firm handshake, and the question regarding one's greatest weakness constitute a reliable method of evaluating professional competence. Research suggests they do not. The interview persists, nevertheless, because the hiring manager believes in it, and the hiring manager is the audience. What this means, practically, is that preparation for an interview is not preparation to demonstrate competence — it is preparation to demonstrate the appearance of competence to a specific person, in a specific room, for approximately forty-five minutes. Your Agent has read every question they are likely to ask. It can rehearse your answers until they sound unrehearsed._
 
 *The Spec:*
+
 ::: prompt
 I have an in-person job interview coming up and I want to
 be fully prepared.

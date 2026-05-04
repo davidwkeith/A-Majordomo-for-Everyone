@@ -8,6 +8,9 @@ status: "draft"
 
 [choose-your-own-adventure]{.art}
 
+_"The creative act is not performed by the artist alone; the spectator brings the work into contact with the external world by deciphering and interpreting its inner qualifications and thus adds his contribution to the creative act."_
+_— [Marcel Duchamp](https://www.toutfait.com/on-the-creative-act/), "The Creative Act," 1957_
+
 This is not a book you read cover to cover. It is a book you keep on your smartphone and pull out when something breaks, arrives in the mail, or gets denied.
 
 *One thing before you start:* This book says "your Agent" to mean whichever AI assistant you have open — [Claude](https://claude.ai), [ChatGPT](https://chatgpt.com), [Gemini](https://gemini.google.com), [Copilot](https://copilot.microsoft.com), or whatever ships next year. The strategies are the skill. The tool is whichever one is in front of you. When a feature is specific to one tool — like Claude's Projects or Gemini's Gems — the book names it and provides the equivalent for the others in an `[ALSO]` sidebar. If you've never used any of them, the Introduction will get you started. If you already use one, keep using it — the specs and techniques in this book will work exactly the same.

@@ -15,7 +15,8 @@ license:      Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0)
 			  Share, adapt, and build on this work for any purpose,
 			  including commercial, with attribution and same license.
 updates:      Living document. Author updates regularly.
-			  Version history maintained in Appendix F.
+			  Version history maintained at spec/version-history.md
+			  and published at https://majordomo.dwk.io/versions.
 companion:    All time-sensitive references use inline hyperlinks
 			  to a maintained companion site, not static tables.
 sidebar-style: callout blocks, six types:

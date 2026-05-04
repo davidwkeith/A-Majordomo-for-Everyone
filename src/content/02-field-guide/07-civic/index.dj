@@ -15,10 +15,12 @@ _Some companies and governments are now proposing a "Right to AI" --- that acces
 ---
 
 #### C-1: Knowing Your Rights During a Police Encounter
+
 *Strategy:* Assert + Research
 *See also:* C-3: Understanding Your Rights Where You Live
 *My Man Jeeves:* _A difficulty presents itself in the matter of police encounters: the distance between what an officer may legally do and what officers routinely do during a stop constitutes one of the more consequential information asymmetries in American civic life. A knowledge of one's rights does not, it must be acknowledged, guarantee that those rights will be respected. It does, however, establish a record --- verbal or otherwise --- that assumes considerable importance afterward. One would venture to suggest that the appropriate moment for acquiring this knowledge is well before the occasion arises. One's Agent can provide it now._
 *The Spec:*
+
 ::: prompt
 I want to understand my rights during a police encounter.
 My situation: [traffic stop / stopped while walking / police
@@ -70,10 +72,12 @@ _"I want to record [a police interaction / a public official / an encounter] in 
 ---
 
 #### C-2: Knowing Your Voter Rights
+
 *Strategy:* Assert + Research
 *See also:* C-4: Understanding a Ballot Measure (know what you're voting on), C-6: Advocating for Change
 *My Man Jeeves:* _One might observe that voter suppression in America does not, as a general matter, present itself as someone blocking the door. It assumes the form of a polling place relocated without notice, a registration purge conducted quietly, an identification requirement that carries a cost to satisfy, and a queue that extends three hours in one neighborhood while lasting fifteen minutes in another. An awareness of one's rights as a voter serves, in effect, as a defense against a system that --- one could not avoid noticing --- renders participation most difficult for precisely those persons who would alter it. One's Agent can verify one's registration, locate one's polling place, and explain what is on the ballot before one arrives._
 *The Spec:*
+
 ::: prompt
 I want to make sure I can vote and that my vote counts.
 My state: [state]
@@ -118,10 +122,12 @@ Felon disenfranchisement varies wildly by state. Maine and Vermont allow voting 
 ---
 
 #### C-3: Understanding Your Rights Where You Live
+
 *Strategy:* Research + Assert
 *See also:* C-1: Knowing Your Rights During a Police Encounter, C-2: Knowing Your Voter Rights, L-1: Negotiating a Contract (for lease and employment agreements)
 *My Man Jeeves:* _It would be uncontroversial to observe that every human on Earth possesses rights. Some are inalienable --- the [Universal Declaration of Human Rights](https://en.wikipedia.org/wiki/Universal%5FDeclaration%5Fof%5FHuman%5FRights) enumerates thirty of them. Some are constitutional. Some are statutory. Some depend upon one's state, county, city, employer, and landlord. The practical experience of those rights varies so dramatically by jurisdiction that two persons holding the same citizenship may find themselves living under meaningfully different legal regimes depending upon which side of a state line they happen to sleep on. The billionaire class is, one might note, well aware of this circumstance --- it is the reason they select their residence with such care. It would seem prudent for the reader to be similarly informed. One's Agent can explain which rights apply in one's specific jurisdiction._
 *The Spec:*
+
 ::: prompt
 I want to understand what rights and protections I actually have
 where I live [or: where I'm considering moving].
@@ -176,10 +182,12 @@ Legal aid exists but does not reach everyone who needs it. LSC-funded legal aid 
 ---
 
 #### C-4: Understanding a Ballot Measure in Plain Language
+
 *Strategy:* Decode
 *See also:* C-2: Knowing Your Voter Rights (for the voting process), C-5: Writing a Public Comment (for weighing in before it's on the ballot)
 *My Man Jeeves:* _One might observe that ballot measure language is composed by attorneys whose principal concern is surviving legal challenge rather than informing the electorate. The official title, it would appear, frequently describes something approaching the opposite of what the measure accomplishes. The fiscal analysis, while commendably accurate, presupposes a familiarity with the very system it purports to analyze. That this arrangement is regarded as democratic participation is, perhaps, a matter upon which reasonable persons might reflect. One's Agent, having no particular allegiance to either side of the measure, is tolerably well equipped to render the language into English._
 *The Spec:*
+
 ::: prompt
 I am trying to understand [Measure/Proposition name or number]
 on my ballot. [Paste the official text or describe what you know about it.]
@@ -205,10 +213,12 @@ This same framework works on any policy proposal, white paper, or think-tank rep
 ---
 
 #### C-5: Writing a Public Comment for a City Council Meeting
+
 *Strategy:* Draft
 *See also:* C-4: Understanding a Ballot Measure (for understanding what you're commenting on), C-6: Advocating for Change (for sustained advocacy beyond a single meeting)
 *My Man Jeeves:* _It may be worth noting that public comment periods exist as a matter of law, though one could not help but observe that they are scheduled at hours that present considerable difficulty for persons who are employed. The allotted time --- two to three minutes, as a rule --- is not generous. They remain, however, among the few mechanisms through which a citizen may address local decisions that bear directly upon daily life. The distinction between having prepared a written comment and having merely attended is, one finds, the distinction between participation and presence. One's Agent can draft that comment._
 *The Spec:*
+
 ::: prompt
 My city council is voting on [issue] at their meeting on [date].
 I want to speak during public comment.
@@ -235,10 +245,12 @@ This is not just for city hall. Federal agencies accept public comments on propo
 ---
 
 #### C-6: Advocating for Change
+
 *Strategy:* Draft + Navigate
 *See also:* C-5: Writing a Public Comment, C-4: Understanding a Ballot Measure, W-5: Unions (collective action uses the same skills)
 *My Man Jeeves:* _The most frequently offered political counsel in America is "vote." One would not wish to dispute the necessity of this advice, merely to observe that it is, by itself, wildly insufficient. Between elections, decisions are made by those persons who attend meetings, submit comments, telephone offices, organize their neighbors, and apply sustained pressure to specific officials regarding specific matters. These individuals are not, it would appear, possessed of any extraordinary qualities. They are informed, persistent, and --- a point that merits emphasis --- typically fewer in number than one might suppose. In most local decisions, the margin between prevailing and not is measured in single-digit persons. One's Agent can help one become one of them._
 *The Spec:*
+
 ::: prompt
 I want to advocate for [specific change] in my [city / county /
 school district / state / workplace].
@@ -288,10 +300,12 @@ When a politician, company, or think tank proposes a new safety net, benefit, or
 ---
 
 #### C-7: Understanding Jury Duty
+
 *Strategy:* Decode + Navigate
 *See also:* C-3: Understanding Your Rights Where You Live (for jurisdiction-specific requirements), C-1: Knowing Your Rights During a Police Encounter (for understanding the criminal justice system)
 *My Man Jeeves:* _It may not be widely appreciated that jury duty represents the sole context in American civic life in which ordinary citizens exercise direct, binding power over an outcome that the government cannot override. A jury's acquittal, one might note, is not subject to appeal. This power is entirely real, it belongs to the juror, and one cannot help but observe that the system takes some pains to present it as an inconvenience --- an informed jury being, perhaps, rather more difficult to predict than an uninformed one. One's Agent can explain the process, the terminology, and the law before one walks in._
 *The Spec:*
+
 ::: prompt
 I [received a jury duty summons / am currently serving on a jury /
 want to understand the jury system].
@@ -347,10 +361,12 @@ AI-generated evidence and algorithmic tools are entering the courtroom. Predicti
 ---
 
 #### C-8: Participating in AI Policy
+
 *Strategy:* Research + Draft + Navigate
 *See also:* C-5: Writing a Public Comment (the core skill), C-6: Advocating for Change (for sustained engagement), C-4: Understanding a Ballot Measure (for decoding proposals)
 *My Man Jeeves:* _It would appear that governments at every level are, at this moment, determining how AI will be regulated, who will have access to it, and what guardrails will be established. These decisions proceed through the same mechanisms as every other policy matter: legislative hearings, agency rulemaking, public comment periods, and lobbying. The companies building AI maintain full-time policy teams who draft language, attend hearings, and submit comments measured in hundreds of pages. The public comment period is, one might mention, open to the reader as well. It is not a formality --- agencies are legally required to consider substantive comments, and a carefully specified comment from a person who will actually live under the rule carries a weight that a form letter, one ventures to suggest, does not. One's Agent can help one write one._
 *The Spec:*
+
 ::: prompt
 I want to participate in AI policy decisions that affect me.
 My level: [I'm new to this / I've been following AI policy /

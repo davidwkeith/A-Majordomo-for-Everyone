@@ -75,12 +75,17 @@ Not [Skynet](https://en.wikipedia.org/wiki/Skynet%5F(Terminator)). Not [HAL 9000
 
 
 ::: fairness
-Nilay Patel at The Verge calls it _software brain_: the tech-industry habit of treating the world as a series of databases to be managed with structured language and code.[^1-8] It is why [DOGE](https://en.wikipedia.org/wiki/Department%5Fof%5FGovernment%5FEfficiency) failed — a country is not a database — and why the smart-home decade produced mostly things no one asked for. Software brain is what is being done _to_ you when an insurer replaces its appeals desk with a model trained to deny claims, when a landlord screens applicants through an algorithm, when a hospital bills by code instead of by visit. This book is about the other direction — the same class of tool, on your side of the table, reading the database back to you in plain language. The distinction is the whole game. Notice which one you are looking at.
+Nilay Patel at The Verge calls it _software brain_: the tech-industry habit of treating the world as a series of databases to be managed with structured language and code.[^1-9] It is why [DOGE](https://en.wikipedia.org/wiki/Department%5Fof%5FGovernment%5FEfficiency) failed — a country is not a database — and why the smart-home decade produced mostly things no one asked for. Software brain is what is being done _to_ you when an insurer replaces its appeals desk with a model trained to deny claims, when a landlord screens applicants through an algorithm, when a hospital bills by code instead of by visit. This book is about the other direction — the same class of tool, on your side of the table, reading the database back to you in plain language. The distinction is the whole game. Notice which one you are looking at.
 :::
 
 
 ::: science
-Transformer models — the architecture behind modern AI — are fundamentally pattern-completion engines. They process context holistically and associatively, finding the shape of things before finding the words. This makes them fluent in analogy, tone, metaphor, and lateral thinking. What they struggle with is long-chain sequential reasoning — holding a complex logical argument without dropping a step. This is why the leading AI labs are now building extended reasoning systems: slower, more deliberate processing layered on top of the fast pattern engine. Which is, interestingly, exactly what the human brain does — [fast and slow thinking](https://en.wikipedia.org/wiki/Thinking,%5FFast%5Fand%5FSlow). AI arrived at the same architecture from a completely different direction.[^1-2]
+Transformer models — the architecture behind modern AI — are fundamentally pattern-completion engines. They process context holistically and associatively, finding the shape of things before finding the words. This makes them fluent in analogy, tone, metaphor, and lateral thinking. What they struggle with is long-chain sequential reasoning — holding a complex logical argument without dropping a step. This is why the leading AI labs are now building extended-reasoning systems: slower, more deliberate processing layered on top of the fast pattern engine --- Claude's Extended Thinking, Gemini's Deep Research, OpenAI's reasoning models, Copilot's Think Deeper all name variations of the same move. Which is, interestingly, exactly what the human brain does — [fast and slow thinking](https://en.wikipedia.org/wiki/Thinking,%5FFast%5Fand%5FSlow). AI arrived at the same architecture from a completely different direction.[^1-2]
+:::
+
+
+::: science
+Fluent AI output has a side effect researchers have started calling _the LLM fallacy_ — users mistake the model's work for proof of their own ability. The mechanism is opacity (you cannot see how the answer was produced), fluency (the prose sounds like something a competent person would have written), and low friction (you barely had to do anything). The three combine to blur the line between what you contributed and what the machine did. The Jeeves frame in this book is the correction — the majordomo is named and the division of labor is explicit. You bring the problem, the context, and the judgment. The library brings the phrasing.[^1-8]
 :::
 
 
@@ -93,7 +98,7 @@ Transformer models — the architecture behind modern AI — are fundamentally p
 
 [^1-3]: International Energy Agency. (2024). ["Data Centres and Data Transmission Networks."](https://www.iea.org/energy-system/buildings/data-centres-and-data-transmission-networks) IEA Tracking Report.
 
-[^1-1]: Most free tiers include limited or no web search. Gemini connects to Google's index. Copilot includes Bing search. Claude's paid tier adds web search. Chapter 3 covers the full rotation strategy.
+[^1-1]: Free-tier web access varies by tool and changes often. Gemini connects to Google's index. Copilot includes Bing search. Claude and ChatGPT both surface web search in the free tier at times and behind a paywall at others. Chapter 3 covers the full rotation strategy; the companion site tracks current status.
 
 [^1-4]: Altman, S. (2025). [Personal blog post.](https://blog.samaltman.com/2279512) "AI will be the most powerful tool for expanding human capability and potential that anyone has ever seen… AI has to be democratized; power cannot be too concentrated. Control of the future belongs to all people and their institutions."
 
@@ -103,4 +108,6 @@ Transformer models — the architecture behind modern AI — are fundamentally p
 
 [^1-7]: Amodei, D. (2024). ["Machines of Loving Grace."](https://www.darioamodei.com/machines-of-loving-grace) Personal essay. Full quote: "Having a very thoughtful and informed AI whose job is to give you everything you're legally entitled to by the government in a way you can understand — and who also helps you comply with often confusing government rules — would be a big deal."
 
-[^1-8]: Patel, N. (2026). ["Beware 'Software Brain.'"](https://www.theverge.com/podcast/917029/software-brain-ai-backlash-databases-automation) _The Vergecast_. "It's when you see the whole world as a series of databases that can be controlled with structured language and software code."
+[^1-8]: Kim, H., Yu, H., & Yi, H. (2026). ["The LLM Fallacy: Misattribution in AI-Assisted Cognitive Workflows."](https://arxiv.org/abs/2604.14807) arXiv preprint. A conceptual-framework paper; the authors name the mechanism (opacity, fluency, low-friction interaction) and identify empirical validation as future work.
+
+[^1-9]: Patel, N. (2026). ["Beware 'Software Brain.'"](https://www.theverge.com/podcast/917029/software-brain-ai-backlash-databases-automation) _The Vergecast_. "It's when you see the whole world as a series of databases that can be controlled with structured language and software code."

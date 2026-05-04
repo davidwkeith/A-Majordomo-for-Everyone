@@ -109,16 +109,16 @@ All three beats required. Drop one and it lectures, complains, or sells.
 
 | ID | Title | Notes |
 |----|-------|-------|
-| A | Field Guide Quick Reference | Print-ready 8.5x11 from ePub |
 | B | Spec Interview Starters | Print-ready 8.5x11 from ePub |
 | C | Free Tools Reference | Links to tools |
 | D | When You Need a Real Professional | Includes immigration legal aid, civil rights orgs |
 | E | UN SDG Alignment | |
-| F | Version History | Semver; 0.x.x = draft |
 | G | Feature Translation Table | Claude feature names mapped to other tools |
 | H | Expressing Ideas Digitally | |
 | I | Specification Literacy as Middle School Standard | |
 | — | A Final Note: The Information Was Always There | Closing essay |
+
+The A and F slots are intentionally skipped. The Field Guide quick reference (A) lives on the companion site at [majordomo.dwk.io](https://majordomo.dwk.io/) — ePub search and the website's lookup tools replace the static card. The version history (F) is editorial metadata, not a reading chapter; it lives at `spec/version-history.md` and is published at the companion URL. Existing cross-references to appendices G, H, I, and J are unchanged.
 
 ## Key Editorial Rules
 
@@ -144,11 +144,9 @@ All three beats required. Drop one and it lectures, complains, or sells.
 
 The book aligns with five Roddenberry values: Urgency (lead with friction moments), Humility (reader is under-resourced not under-capable), Risk-taking (free tier removes financial risk), Diverse (Skills reflect the full range of American domestic life), Exploration (AI conversations as acts of exploration). Special attention to: human/civil rights, environmental justice, education equity, AI fairness.
 
-## The Central Meme
+## The Central Principle
 
-> *Majordomo has this to say about dealing with large institutions: always know where your specification is.*
-
-(Riff on the Hitchhiker's Guide: "always know where your towel is.")
+> *Know where your specification is kept.*
 
 ## Current Status
 

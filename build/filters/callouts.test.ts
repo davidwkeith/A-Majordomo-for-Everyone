@@ -98,6 +98,36 @@ describe('conversationFilter', () => {
     expect(html).toContain('<samp>');
     expect(html).toContain('I can help with that.');
   });
+
+  it('renders an ordered list inside a prompt div', () => {
+    const dj = '::: prompt\n1. First answer.\n2. Second answer.\n:::';
+    const html = process(dj);
+    expect(html).toContain('conversation-prompt');
+    expect(html).toContain('1. First answer.');
+    expect(html).toContain('2. Second answer.');
+  });
+
+  it('renders a paragraph followed by a list inside an agent div', () => {
+    const dj = '::: agent\nA few questions:\n\n1. What type?\n2. What reason?\n:::';
+    const html = process(dj);
+    expect(html).toContain('A few questions:');
+    expect(html).toContain('1. What type?');
+    expect(html).toContain('2. What reason?');
+  });
+
+  it('renders a bullet list inside a prompt div', () => {
+    const dj = '::: prompt\n- alpha\n- beta\n:::';
+    const html = process(dj);
+    expect(html).toContain('alpha');
+    expect(html).toContain('beta');
+  });
+
+  it('respects ordered list start number', () => {
+    const dj = '::: prompt\n3. third\n4. fourth\n:::';
+    const html = process(dj);
+    expect(html).toContain('3. third');
+    expect(html).toContain('4. fourth');
+  });
 });
 
 describe('endnotes', () => {
@@ -125,6 +155,22 @@ describe('endnotes', () => {
     expect(html).toContain('epub:type="backlink"');
     expect(html).toContain('href="#fnref-n1"');
     expect(html).toContain('aria-label="Back to reference 1"');
+  });
+
+  it('renders the backlink inline inside the note paragraph', () => {
+    const dj = 'A claim.[^n1]\n\n[^n1]: Source.';
+    const html = process(dj);
+    // Backlink must be inside the last <p>, not a sibling block after it.
+    expect(html).toMatch(/<a[^>]*epub:type="backlink"[^>]*>\u21a9<\/a><\/p>/);
+    expect(html).not.toMatch(/<\/p>\s*<a[^>]*epub:type="backlink"/);
+  });
+
+  it('prefixes each endnote with its visible number label', () => {
+    const dj = 'A.[^n1] B.[^n2]\n\n[^n1]: First.\n\n[^n2]: Second.';
+    const html = process(dj);
+    // Each note opens with <p><span class="endnote-num">[N]</span> ...
+    expect(html).toMatch(/<p><span class="endnote-num">\[1\]<\/span> First\./);
+    expect(html).toMatch(/<p><span class="endnote-num">\[2\]<\/span> Second\./);
   });
 
   it('only attaches fnref id to the first reference when a note is cited twice', () => {
