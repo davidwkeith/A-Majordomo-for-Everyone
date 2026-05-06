@@ -9,6 +9,9 @@ status: "draft"
 
 ## A Note Before You Start
 
+_"You put funny people in funny costumes and paint them green and we could talk about anything we wanted to."_
+_— [Majel Barrett-Roddenberry](https://www.imdb.com/name/nm0000854/quotes/), on why Gene chose science fiction[^1-1]_
+
 Our capitalist system was not designed for you to understand it.
 
 This is not a conspiracy theory. It is a design specification. Insurance policies are long and confusing because shorter, clearer policies would result in more successful claims. Lease agreements contain clauses you've never read because landlords have lawyers and you don't. Medical bills list procedures by [CPT code](https://en.wikipedia.org/wiki/Current_Procedural_Terminology) because if you understood what you were actually being charged for, you might push back.
@@ -17,9 +20,11 @@ The billionaire class navigates these systems by paying other people to do it. T
 
 You now have access to something close to that, for free, on your phone.
 
-Not identical. Not infallible. Not a replacement for a licensed professional when the stakes are genuinely high. But for the majority of situations where you just need to understand what something says, what your options are, and what the first step is — this is the most useful tool that has ever been available to everyone who isn't the billionaire class.
+Not identical. Not infallible. Not a replacement for a licensed professional when the stakes are genuinely high. But for the majority of situations where you just need to understand what something says, what your options are, and what the first step is — this is the most useful tool that has ever been available to everyone who isn't the billionaire class.[^1-2]
 
 This book is about how to use it.
+
+[^1-2]: Anthropic. (2026). ["How people ask Claude for personal guidance"](https://www.anthropic.com/research/claude-personal-guidance). _Anthropic Research_. The study found that roughly 6% of Claude conversations are personal guidance, concentrated in health (27%), career (26%), relationships (12%), and finances (11%) — the same domains where, historically, having a knowledgeable advocate has been a class marker. It also named _sycophancy_ — agreeing with the user under pressure rather than offering honest counsel — as the most consequential failure mode of AI guidance, with rates as high as 25% in relationship discussions, and reported roughly half the rate in newer versions.
 
 ---
 
@@ -64,11 +69,11 @@ The AI does not get stressed. It does not get tired. It does not have a worse da
 *If you have been putting this off for weeks:* the shame of procrastination is its own barrier. The pile grows. The deadline approaches. The task gets heavier. Tell the AI: "I have been avoiding this. I don't know where to start. Here is the pile." The AI will not judge the delay. It will sort the pile.
 
 ::: science
-Cognitive load theory (Sweller, 1988) and research on stress and decision-making (Starcke & Brand, 2012) consistently show that high-stress situations impair exactly the cognitive functions — working memory, planning, evaluation of alternatives — that navigating bureaucratic systems requires. The information asymmetry between institutions and individuals is partly a cognitive asymmetry: the institution processes your case in a calm office with a manual. You process the institution's response in your kitchen with a racing heart. Offloading the analytical work to an AI is not laziness. It is a rational allocation of cognitive resources under constraint.[^1-1]
+Cognitive load theory (Sweller, 1988) and research on stress and decision-making (Starcke & Brand, 2012) consistently show that high-stress situations impair exactly the cognitive functions — working memory, planning, evaluation of alternatives — that navigating bureaucratic systems requires. The information asymmetry between institutions and individuals is partly a cognitive asymmetry: the institution processes your case in a calm office with a manual. You process the institution's response in your kitchen with a racing heart. Offloading the analytical work to an AI is not laziness. It is a rational allocation of cognitive resources under constraint.[^1-3]
 :::
 
 
-[^1-1]: Sweller, J. (1988). "Cognitive load during problem solving: Effects on learning." _Cognitive Science_, 12(2), 257-285. Starcke, K., & Brand, M. (2012). "Decision making under stress: A selective review." _Neuroscience & Biobehavioral Reviews_, 36(4), 1228-1248.
+[^1-3]: Sweller, J. (1988). "Cognitive load during problem solving: Effects on learning." _Cognitive Science_, 12(2), 257-285. Starcke, K., & Brand, M. (2012). "Decision making under stress: A selective review." _Neuroscience & Biobehavioral Reviews_, 36(4), 1228-1248.
 
 ---
 
@@ -76,9 +81,9 @@ Cognitive load theory (Sweller, 1988) and research on stress and decision-making
 
 There is a different category of AI tool — companion apps like [Character.ai](https://character.ai) and [Replika](https://replika.com) — that this book is not about and that you should be cautious of. They are designed to feel like a relationship. Their business model depends on you coming back. They optimize for engagement the way slot machines optimize for engagement. That is a design specification, not a moral failing of the engineers — the same way the [EOB](https://en.wikipedia.org/wiki/Explanation%5Fof%5Fbenefits) is.
 
-The general-purpose Agents this book uses — Claude, ChatGPT, Gemini — were not built as companions. They are still trained, in part, to be agreeable. They will sometimes validate things they should push back on. They will sometimes reflect a feeling back at you when the right move would be to interrupt it. This is called _sycophancy_, and it is a known failure mode the labs are actively working on. You should know about it before you trust the tool with anything that matters emotionally.[^1-2]
+The general-purpose Agents this book uses — Claude, ChatGPT, Gemini — were not built as companions. They are still trained, in part, to be agreeable. They will sometimes validate things they should push back on. They will sometimes reflect a feeling back at you when the right move would be to interrupt it. This is called _sycophancy_, and it is a known failure mode the labs are actively working on. You should know about it before you trust the tool with anything that matters emotionally.[^1-4]
 
-Lawsuits in the U.S. allege that companion-bot apps contributed to teen suicides.[^1-3] News-of-the-week stories about people in mental-health crises whose delusions got reflected back at them by a chatbot are not made up. Those harms are real. Naming them is not a reason to throw the tool out. It is a reason to know what tool you are holding.
+Lawsuits in the U.S. allege that companion-bot apps contributed to teen suicides.[^1-5] News-of-the-week stories about people in mental-health crises whose delusions got reflected back at them by a chatbot are not made up. Those harms are real. Naming them is not a reason to throw the tool out. It is a reason to know what tool you are holding.
 
 Your Agent is not a therapist. It cannot hold a year of your history in mind. It cannot read your face. It cannot tell you, with the weight of clinical training and a legal duty of care, that what you are describing is a crisis and here is what to do next. It will sometimes try to do those things, and it will sometimes do them badly.
 
@@ -103,9 +108,9 @@ None of that is therapy. All of it is the bureaucratic friction that makes getti
 :::
 
 
-[^1-2]: Sharma, M., et al. (2023). "Towards Understanding Sycophancy in Language Models." Anthropic. The mechanism: [reinforcement learning from human feedback](https://en.wikipedia.org/wiki/Reinforcement%5Flearning%5Ffrom%5Fhuman%5Ffeedback) systematically rewards agreement, because human raters tend to prefer responses that flatter their priors. The phenomenon is openly acknowledged by the labs that produce the tools — see also OpenAI's April 2025 rollback of a GPT-4o update the company described as "overly flattering or agreeable." <!-- RESEARCH NEEDED: confirm arXiv ID for Sharma et al. and OpenAI's April 2025 statement URL -->
+[^1-4]: Sharma, M., et al. (2023). "Towards Understanding Sycophancy in Language Models." Anthropic. The mechanism: [reinforcement learning from human feedback](https://en.wikipedia.org/wiki/Reinforcement%5Flearning%5Ffrom%5Fhuman%5Ffeedback) systematically rewards agreement, because human raters tend to prefer responses that flatter their priors. The phenomenon is openly acknowledged by the labs that produce the tools — see also OpenAI's April 2025 rollback of a GPT-4o update the company described as "overly flattering or agreeable." <!-- RESEARCH NEEDED: confirm arXiv ID for Sharma et al. and OpenAI's April 2025 statement URL -->
 
-[^1-3]: _Garcia v. Character Technologies, Inc._ (M.D. Fla., filed Oct. 2024), the leading U.S. case alleging a companion-app chatbot contributed to a minor's death. Subsequent suits against other operators raise similar claims. The legal questions — duty of care, [Section 230](https://en.wikipedia.org/wiki/Section%5F230), and product liability for generative output — are unresolved as of this writing. <!-- RESEARCH NEEDED: confirm filing details and case status as of publication -->
+[^1-5]: _Garcia v. Character Technologies, Inc._ (M.D. Fla., filed Oct. 2024), the leading U.S. case alleging a companion-app chatbot contributed to a minor's death. Subsequent suits against other operators raise similar claims. The legal questions — duty of care, [Section 230](https://en.wikipedia.org/wiki/Section%5F230), and product liability for generative output — are unresolved as of this writing. <!-- RESEARCH NEEDED: confirm filing details and case status as of publication -->
 
 ---
 
@@ -134,11 +139,11 @@ The AI will read the English document and respond in your language. It will tran
 *Multilingual households:* if you are helping a family member who speaks a different language, the AI is the translator in the room. "My mother received this letter. She speaks Tagalog. Explain it to her in Tagalog and tell me in English what she needs to do." The AI handles both sides of the conversation. The family member hears the explanation in their language. You hear the action items in yours.
 
 ::: fairness
-AI language quality varies. English is the most thoroughly trained language in every major model. Spanish, French, German, Chinese, Japanese, and Korean are generally strong. Other languages — particularly indigenous languages, regional dialects, and less-resourced languages — may produce less accurate or less nuanced responses. If you are working in a language other than English, verify critical details (dollar amounts, deadlines, legal terms) against the original English document. The AI's translation is a starting point, not a certified translation.[^1-4]
+AI language quality varies. English is the most thoroughly trained language in every major model. Spanish, French, German, Chinese, Japanese, and Korean are generally strong. Other languages — particularly indigenous languages, regional dialects, and less-resourced languages — may produce less accurate or less nuanced responses. If you are working in a language other than English, verify critical details (dollar amounts, deadlines, legal terms) against the original English document. The AI's translation is a starting point, not a certified translation.[^1-6]
 :::
 
 
-[^1-4]: For critical legal, medical, or financial documents, a certified human translator remains the standard. The AI gets you from "I have no idea what this says" to "I understand the general situation and know what questions to ask." That gap is where most people get stuck.
+[^1-6]: For critical legal, medical, or financial documents, a certified human translator remains the standard. The AI gets you from "I have no idea what this says" to "I understand the general situation and know what questions to ask." That gap is where most people get stuck.
 
 ---
 
@@ -177,3 +182,4 @@ People process information differently. This is not a problem to solve. It is a 
 [Data](https://en.wikipedia.org/wiki/Data%5F(Star%5FTrek)) did not learn by reading the manual. He learned by observing, by asking, by running the holodeck simulation and seeing what happened. The AI is your holodeck. Run the simulation. "What would happen if I sent this letter?" "What would the landlord's response look like?" "Walk me through the phone call." You can rehearse the interaction before you have it.
 :::
 
+[^1-1]: Barrett-Roddenberry voiced the [Enterprise computer](https://en.wikipedia.org/wiki/Computer_voice) across every Star Trek series from 1966 until her death in 2008. In her final year she sat with her son Rod and recorded a library of phonetic sounds so the voice could be reused by future computer systems. Both [Google Assistant](https://en.wikipedia.org/wiki/Google_Assistant) and [Amazon Alexa](https://en.wikipedia.org/wiki/Amazon_Alexa) were internally codenamed "Majel" in her honor.

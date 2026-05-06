@@ -8,9 +8,16 @@ status: "draft"
 
 [choose-your-own-adventure]{.art}
 
+_"The creative act is not performed by the artist alone; the spectator brings the work into contact with the external world by deciphering and interpreting its inner qualifications and thus adds his contribution to the creative act."_
+_— [Marcel Duchamp](https://www.toutfait.com/on-the-creative-act/), "The Creative Act," 1957_
+
 This is not a book you read cover to cover. It is a book you keep on your smartphone and pull out when something breaks, arrives in the mail, or gets denied.
 
 *One thing before you start:* This book says "your Agent" to mean whichever AI assistant you have open — [Claude](https://claude.ai), [ChatGPT](https://chatgpt.com), [Gemini](https://gemini.google.com), [Copilot](https://copilot.microsoft.com), or whatever ships next year. The strategies are the skill. The tool is whichever one is in front of you. When a feature is specific to one tool — like Claude's Projects or Gemini's Gems — the book names it and provides the equivalent for the others in an `[ALSO]` sidebar. If you've never used any of them, the Introduction will get you started. If you already use one, keep using it — the specs and techniques in this book will work exactly the same.
+
+*One more thing:* For four decades, computers required you to think like the computer — file systems, exact keywords, the precise menu in the precise order. [Steve Jobs](https://en.wikipedia.org/wiki/Steve%5FJobs) called the computer a bicycle for the mind in 1980, and he was right about the amplification. He left out the part where you had to learn to ride the bike — and that the people who never learned became the people who paid more for everything.
+
+That bicycle just learned to listen. AI is the first tool in computing's history where the machine adapts to the human, not the other way around. The new skill is not technical. It is the skill of briefing a competent contractor: tell them what you want, give them context, ask follow-ups when the first answer doesn't smell right, verify before acting on anything with consequences. You have been doing this for decades — with plumbers, doctors, substitute teachers, the person who waters your plants when you travel. The book teaches you to do it with the computer.
 
 If you have never used AI before: read the Introduction, then go to Part One, Strategy 0 (Specify). That chapter will teach you the one skill that makes everything else work.
 
