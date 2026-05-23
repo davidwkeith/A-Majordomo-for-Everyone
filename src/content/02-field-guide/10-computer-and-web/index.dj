@@ -237,7 +237,7 @@ The billionaire class treated the personal assistant hire like a casting call �
 [eliza-icon]{.art}
 
 *Strategy:* Specify + Research
-*See also:* Strategy 0: Specify (the full specification interview method), Chapter 4: How to Ask for What You Actually Want
+*See also:* Strategy 0: Specify (the full specification interview method), Chapter 4: How to Ask for What You Actually Want, WB-7: Write in CommonMark, the language of AI
 *My Man Jeeves:* _This is the Skill that instructs one in the use of the tool upon which every other Skill depends. If the book may be likened to a workshop, this would be the safety orientation for the power tools. The billionaire class had no occasion to acquire this practice --- they already maintained a staff that translated vague instructions into precise tasks. The chief of staff, the executive assistant, the law clerk --- these are, in essence, human specification interfaces. One is learning the same practice, applied to a rather different kind of assistant._
 *The Spec:*
 
@@ -279,6 +279,10 @@ Here is a full specification interview for this Skill:
 
 
 This also includes finding spec formats, standardized forms of spec produce better output than ad hoc. Includes the apps the Agents are trapped in.
+
+It includes the output, too --- not only what your Agent says but the _form_ in which it hands it back. A chat reply is Markdown by default: plain text with a handful of symbols, the lingua franca your Agent shares with every other tool (see WB-7), and the right choice for anything you will keep editing or pass back and forth. But when the result's whole job is to be _looked at_ --- a report, a side-by-side comparison, a packing list, a small budget calculator --- ask for it as a self-contained web page: _"give me this as one HTML file I can open in my browser."_ A web page can do things a chat reply cannot --- like sortable tables, interactive checklists, or fields that update totals as you type. Even when it is just text, it arrives laid out and finished: it opens with a double-click on any device, prints cleanly, and travels as a single file. The trade-off is that HTML is awkward to edit by hand, so it is the last step, not the working draft. Markdown for the conversation; HTML for the thing you walk away with.
+
+The same split runs through data and documents. Your Agent reads and writes [CSV](https://en.wikipedia.org/wiki/Comma-separated%5Fvalues) --- the spreadsheet's plain-text form --- as easily as it reads Markdown: hand it a messy bank export and it will sort, dedupe, and total it in seconds. But almost nobody wants a CSV at the end. They want an Excel workbook, with formatting and formulas and more than one sheet --- so ask for `.xlsx`. A letter that has to land in someone's Word: ask for `.docx`. Something you will sign, submit, or file away unchanged: ask for PDF. One caveat: tools differ in whether they can hand you the finished file or only its contents --- Claude and ChatGPT can usually generate the file itself; if yours cannot, take the content it gives you and do that last conversion yourself, or ask it how. Plain text --- Markdown, CSV --- to think and work in; a real file in the format your recipient expects for the thing you deliver.
 
 ::: science
 Research on expertise development (Ericsson et al., 1993) identifies _deliberate practice_ — structured, feedback-rich repetition focused on specific weaknesses — as the primary mechanism of skill acquisition. Using an AI Agent well is a skill, and it develops the same way other skills do: through repeated use with attention to what works and what doesn't. The calibration question ("how confident are you?") is the built-in feedback mechanism.[^wb10-1]
