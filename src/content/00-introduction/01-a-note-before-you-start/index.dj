@@ -10,7 +10,7 @@ status: "draft"
 ## A Note Before You Start
 
 _"You put funny people in funny costumes and paint them green and we could talk about anything we wanted to."_
-_— [Majel Barrett-Roddenberry](https://www.imdb.com/name/nm0000854/quotes/), on why Gene chose science fiction[^1-1]_
+_— [Majel Barrett-Roddenberry](https://www.imdb.com/name/nm0000854/quotes/), allegedly, on why Gene chose science fiction[^1-1]_
 
 Our capitalist system was not designed for you to understand it.
 
@@ -73,7 +73,7 @@ Cognitive load theory (Sweller, 1988) and research on stress and decision-making
 :::
 
 
-[^1-3]: Sweller, J. (1988). "Cognitive load during problem solving: Effects on learning." _Cognitive Science_, 12(2), 257-285. Starcke, K., & Brand, M. (2012). "Decision making under stress: A selective review." _Neuroscience & Biobehavioral Reviews_, 36(4), 1228-1248.
+[^1-3]: Sweller, J. (1988). ["Cognitive load during problem solving: Effects on learning."](https://doi.org/10.1207/s15516709cog1202_4) _Cognitive Science_, 12(2), 257-285. Starcke, K., & Brand, M. (2012). ["Decision making under stress: A selective review."](https://doi.org/10.1016/j.neubiorev.2012.02.003) _Neuroscience & Biobehavioral Reviews_, 36(4), 1228-1248.
 
 ---
 
@@ -95,9 +95,9 @@ Here is what your Agent _can_ do for your mental health, which is more than noth
 
 *Draft the parity-law appeal.* If your insurance denies mental-health coverage that they would have approved for a comparable physical condition, that denial is illegal under the Mental Health Parity and Addiction Equity Act. The Agent can draft the appeal. Strategy 8 covers the move.
 
-*Decode the side-effect list.* New medication, fifteen-page insert in nine-point type. Paste it. Ask which side effects are common, which are serious, which warrant an immediate call to the prescriber.
+*Decode the side-effect list.* New medication, 15-page insert in 9-point type. Paste it. Ask which side effects are common, which are serious, which warrant an immediate call to the prescriber.
 
-*Rehearse the conversation.* You have ten minutes with the psychiatrist and a list of things you forget every time. Draft what you want to say. Practice it out loud with voice mode.
+*Rehearse the conversation.* You have 10 minutes with the psychiatrist and a list of things you forget every time. Draft what you want to say. Practice it out loud with voice mode.
 
 *Sort the pile when your brain cannot.* The bills, the FMLA paperwork, the disability application, the school accommodation request. The Agent can organize what is in front of you while a human trained for the rest does that work.
 
@@ -108,9 +108,9 @@ None of that is therapy. All of it is the bureaucratic friction that makes getti
 :::
 
 
-[^1-4]: Sharma, M., et al. (2023). "Towards Understanding Sycophancy in Language Models." Anthropic. The mechanism: [reinforcement learning from human feedback](https://en.wikipedia.org/wiki/Reinforcement%5Flearning%5Ffrom%5Fhuman%5Ffeedback) systematically rewards agreement, because human raters tend to prefer responses that flatter their priors. The phenomenon is openly acknowledged by the labs that produce the tools — see also OpenAI's April 2025 rollback of a GPT-4o update the company described as "overly flattering or agreeable." <!-- RESEARCH NEEDED: confirm arXiv ID for Sharma et al. and OpenAI's April 2025 statement URL -->
+[^1-4]: Sharma, M., et al. (2023). ["Towards Understanding Sycophancy in Language Models."](https://arxiv.org/abs/2310.13548) arXiv:2310.13548. The mechanism: [reinforcement learning from human feedback](https://en.wikipedia.org/wiki/Reinforcement%5Flearning%5Ffrom%5Fhuman%5Ffeedback) systematically rewards agreement, because human raters tend to prefer responses that flatter their priors. The phenomenon is openly acknowledged by the labs that produce the tools — see also OpenAI's [April 2025 rollback](https://openai.com/index/sycophancy-in-gpt-4o/) of a GPT-4o update the company described as "overly flattering or agreeable."
 
-[^1-5]: _Garcia v. Character Technologies, Inc._ (M.D. Fla., filed Oct. 2024), the leading U.S. case alleging a companion-app chatbot contributed to a minor's death. Subsequent suits against other operators raise similar claims. The legal questions — duty of care, [Section 230](https://en.wikipedia.org/wiki/Section%5F230), and product liability for generative output — are unresolved as of this writing. <!-- RESEARCH NEEDED: confirm filing details and case status as of publication -->
+[^1-5]: [_Garcia v. Character Technologies, Inc._](https://techjusticelaw.org/cases/garcia-v-character-technologies-google-and-character-ai-co-founders-daniel-de-frietas-and-noam-shazeer/) (M.D. Fla., No. 6:24-cv-01903, filed Oct. 2024), the leading U.S. case alleging a companion-app chatbot contributed to a minor's death. Subsequent suits against other operators raise similar claims. The legal questions — duty of care, [Section 230](https://en.wikipedia.org/wiki/Section%5F230), and product liability for generative output — remain in active dispute. In [May 2025](https://www.fire.org/research-learn/order-motion-dismiss-garcia-v-character-technologies-inc) the court denied the defendants' motion to dismiss in part, holding that chatbot outputs are not First Amendment–protected speech and that Character.AI is a product subject to product-liability claims — the most authoritative U.S. ruling to date on whether generative-AI outputs are products subject to tort law.
 
 ---
 
@@ -168,7 +168,7 @@ People process information differently. This is not a problem to solve. It is a 
 
 *If you need step-by-step structure:* tell the AI "give me numbered steps, one at a time." It will break any process into a sequence. When you finish step one, tell it "done, what's next." The AI holds the full plan. You hold one step.
 
-*If you need the big picture first:* tell the AI "before the details, give me the overall situation in three sentences." Once you have the shape of the thing, you can zoom in. Some people cannot follow step one until they understand where step ten ends up. That is a valid way to think. Ask for the map before the directions.
+*If you need the big picture first:* tell the AI "before the details, give me the overall situation in three sentences." Once you have the shape of the thing, you can zoom in. Some people cannot follow step one until they understand where step 10 ends up. That is a valid way to think. Ask for the map before the directions.
 
 *If the AI gives you a wall of text:* say "shorter." Say "bullet points." Say "just the next thing I need to do." You are not being rude. You are specifying the output format, the same way you specify the problem. The AI will comply. It has no ego about its paragraph structure.
 
