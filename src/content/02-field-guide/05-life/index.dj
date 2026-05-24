@@ -24,10 +24,10 @@ _The systems that govern health, money, and legal standing get their own domains
 
 ::: prompt
 I need to have a difficult conversation with [relationship] about [topic].
-My goal is [specific outcome -- not "fix everything," something concrete].
+My goal is [specific outcome — not "fix everything," something concrete].
 I'm worried about [specific thing that could go wrong].
 I want to [preserve the relationship / set a clear boundary /
-reach a specific agreement -- choose one].
+reach a specific agreement — choose one].
 Please help me:
 1. Identify the key thing I need to say clearly
 2. Anticipate the most likely responses and how to handle them
@@ -40,11 +40,11 @@ This works well with voice mode on your phone — all major tools support it on 
 :::
 
 
-*Science Note:* Gottman (1999) identifies the "soft startup" as the single highest-leverage intervention in difficult conversations -- how you begin determines nearly everything that follows.[^li1-1]
+*Science Note:* Gottman (1999) identifies the "soft startup" as the single highest-leverage intervention in difficult conversations — how you begin determines nearly everything that follows.[^li1-1]
 
 [^li1-1]: Gottman, J.M. (1999). [_The Marriage Clinic._](https://www.gottman.com/product/the-new-marriage-clinic/) W.W. Norton.
 
-[^li1-2]: Gottman, J.M. et al. (1998). "Predicting Marital Happiness and Stability from Newlywed Interactions." _Journal of Marriage and the Family_, 60(1), 5–22.
+[^li1-2]: Gottman, J.M. et al. (1998). ["Predicting Marital Happiness and Stability from Newlywed Interactions."](https://doi.org/10.2307/353438) _Journal of Marriage and the Family_, 60(1), 5–22.
 
 ---
 
@@ -56,14 +56,14 @@ This works well with voice mode on your phone — all major tools support it on 
 *The Spec:*
 
 ::: prompt
-I need to write a eulogy for [relationship -- "my father," "my friend"].
+I need to write a eulogy for [relationship — "my father," "my friend"].
 Here are the things about them that I most want people to remember:
 [list 3-5 specific memories, qualities, or stories]
 The tone should be [celebratory / reflective / a mix].
 The audience is [family and close friends / a large public service].
 I have about [X] minutes.
 Please draft a eulogy I can edit into my own voice.
-The stories should come from what I've told you -- please don't
+The stories should come from what I've told you — please don't
 invent details I haven't given you.
 :::
 *What to do with the Output:* Edit it until it sounds like you, not like a machine. Read it out loud — twice. The parts that feel wrong in your mouth are the parts that need your words, not your Agent's. Print it on a card you can hold. Having something in your hands steadies them.
@@ -110,7 +110,7 @@ Your Agent may describe common scam demographics in ways that reinforce stereoty
 :::
 
 
-[^li3-1]: Cialdini, R.B. (1984). _Influence: The Psychology of Persuasion._ William Morrow.
+[^li3-1]: Cialdini, R.B. (1984). _[Influence: The Psychology of Persuasion.](https://bookshop.org/p/books/influence-the-psychology-of-persuasion-robert-b-cialdini-phd/2aa611fccc8d8228)_ William Morrow.
 
 ---
 
@@ -291,7 +291,7 @@ Parenting research has historically oversampled white, middle-class, two-parent 
 :::
 
 
-[^li7-1]: Baumrind, D. (1966). "Effects of Authoritative Parental Control on Child Behavior." _Child Development,_ 37(4), 887–907.
+[^li7-1]: Baumrind, D. (1966). ["Effects of Authoritative Parental Control on Child Behavior."](https://doi.org/10.2307/1126611) _Child Development,_ 37(4), 887–907.
 
 ---
 
@@ -346,7 +346,7 @@ time management, sensory overload, task initiation] and I want
 practical strategies, not motivational advice.
 :::
 
-[^li8-1]: Busch, S.H. et al. (2022). "Wait Times for New Psychiatric Appointments." _Psychiatric Services_, 73(12). In-person psychiatry median 67 days; telepsychiatry 43 days.
+[^li8-1]: Sun, C.F., Correll, C.U., Trestman, R.L., et al. (2023). ["Low availability, long wait times, and high geographic disparity of psychiatric outpatient care in the US."](https://doi.org/10.1016/j.genhosppsych.2023.05.012) _General Hospital Psychiatry_, 84, 12–17. In-person psychiatry median 67 days; telepsychiatry 43 days.
 
 ::: also
 If you or someone you know is in crisis: *988 Suicide & Crisis Lifeline* (call or text 988), *Crisis Text Line* (text HOME to 741741). Your Agent can walk you through standard self-assessment tools (PHQ-9, GAD-7) as a first step --- not a diagnosis, but a way to understand whether what you are experiencing warrants professional attention.
@@ -386,7 +386,7 @@ Mullainathan & Shafir (2013) document "scarcity mindset" — financial stress me
 :::
 
 
-[^li9-1]: Mullainathan, S. & Shafir, E. (2013). _Scarcity: Why Having Too Little Means So Much._ Times Books.
+[^li9-1]: Mullainathan, S. & Shafir, E. (2013). _[Scarcity: Why Having Too Little Means So Much.](https://bookshop.org/p/books/scarcity-the-new-science-of-having-less-and-how-it-defines-our-lives-eldar-shafir/e505ab081c672791)_ Times Books.
 
 ---
 
@@ -441,7 +441,7 @@ Your Agent’s language ability varies by language. It is strongest in English, 
 :::
 
 
-[^li10-1]: Krashen, S.D. (1982). _Principles and Practice in Second Language Acquisition._ Pergamon Press.
+[^li10-1]: Krashen, S.D. (1982). _[Principles and Practice in Second Language Acquisition.](https://www.sdkrashen.com/content/books/principles_and_practice.pdf)_ Pergamon Press.
 
 ---
 
@@ -492,9 +492,9 @@ The web evolved from text to graphics to audio to video to interactive simulatio
 :::
 
 
-[^li11-1]: Braghieri, L., Levy, R., & Makarin, A. “Social Media and Mental Health.” _American Economic Review._ See also Bekalu, M.A. et al. (2020) at Harvard T.H. Chan School of Public Health on the routine-vs-compulsive use distinction.
+[^li11-1]: Braghieri, L., Levy, R., & Makarin, A. (2022). [“Social Media and Mental Health.”](https://doi.org/10.1257/aer.20211218) _American Economic Review_, 112(11), 3660–3693. See also Bekalu, M.A., McCloud, R.F., & Viswanath, K. (2019). [“Association of Social Media Use With Social Well-Being, Positive Mental Health, and Self-Rated Health: Disentangling Routine Use From Emotional Connection to Use.”](https://doi.org/10.1177/1090198119863768) _Health Education & Behavior_, 46, 69S–80S (Harvard T.H. Chan School of Public Health).
 
-[^li11-2]: Prieto-Latorre, C. et al. (2022). “Internet use and academic performance: An interval approach.” _Education and Information Technologies._ See also Firth, J. et al. (2019). “The ‘online brain’: how the Internet may be changing our cognition.” _World Psychiatry._
+[^li11-2]: Prieto-Latorre, C. et al. (2022). [“Internet use and academic performance: An interval approach.”](https://doi.org/10.1007/s10639-022-11095-4) _Education and Information Technologies_. See also Firth, J. et al. (2019). [“The ‘online brain’: how the Internet may be changing our cognition.”](https://doi.org/10.1002/wps.20617) _World Psychiatry_, 18(2), 119–129.
 
 ---
 
@@ -641,7 +641,7 @@ Veterans and active-duty service members: the DoD Morale, Welfare, and Recreatio
 
 [^li13-2]: Bureau of Business Research, University of Texas at Austin (2017), [_Texas Public Libraries: Economic Benefits and Return on Investment_](https://www.tsl.texas.gov/roi): $4.64 returned per dollar invested (FY2015 data). Library Research Service, Colorado (2006), [_Public Libraries — A Wise Investment_](https://www.lrs.org/): approximately 5:1.
 
-[^li13-3]: Mellon, C.A. (1986). "Library Anxiety: A Grounded Theory and Its Development." _College & Research Libraries_, 47(2), 160–165. See also Jiao, Q.G. & Onwuegbuzie, A.J. (1997). "Antecedents of Library Anxiety." _Library Quarterly_, 67(4), 372–389.
+[^li13-3]: Mellon, C.A. (1986). ["Library Anxiety: A Grounded Theory and Its Development."](https://doi.org/10.5860/crl_47_02_160) _College & Research Libraries_, 47(2), 160–165. See also Jiao, Q.G. & Onwuegbuzie, A.J. (1997). ["Antecedents of Library Anxiety."](https://doi.org/10.1086/629972) _Library Quarterly_, 67(4), 372–389.
 
 ---
 
