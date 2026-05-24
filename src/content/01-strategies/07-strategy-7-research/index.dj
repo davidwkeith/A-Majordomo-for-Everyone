@@ -61,7 +61,7 @@ _In the Field Guide: [H-5 (Chronic Conditions)](ref:h-5), [L-1 (Contracts)](ref:
 
 ### Example 1: Before a Knee Arthroscopy
 
-The situation: your orthopedist looked at an MRI and recommended arthroscopic surgery for a medial meniscus tear. Outpatient, routine. The scheduler called to book it before you left the office. You don't feel scared---you feel handled. Everything is moving and nobody asked if you had questions. The gap isn't fear; it's speed. The institution is optimized to move you from diagnosis to operating room. Your job is to slow down long enough to find out whether the operating room is the right next step.
+The situation: your orthopedist looked at an MRI and recommended arthroscopic surgery for a medial meniscus tear. Outpatient, routine. The scheduler called to book it before you left the office. You don't feel scared — you feel handled. Everything is moving and nobody asked if you had questions. The gap isn't fear; it's speed. The institution is optimized to move you from diagnosis to operating room. Your job is to slow down long enough to find out whether the operating room is the right next step.
 
 *Your opening message:*
 
@@ -99,7 +99,7 @@ sharpen the research:
    surgery."
 3. $1,200 left on my deductible. I have an 80/20 plan
    after that.
-4. On my feet most of the day---I work in a warehouse.
+4. On my feet most of the day — I work in a warehouse.
 5. No urgency mentioned. Just "let's get you scheduled."
 :::
 
@@ -175,14 +175,14 @@ with my orthopedist before deciding.
 *Your follow-up:*
 
 ::: prompt
-Wait---my doctor didn't mention physical therapy as
+Wait — my doctor didn't mention physical therapy as
 an option. Is that normal?
 :::
 
 *Your Agent:*
 
 ::: agent
-Yes, common. Orthopedic surgeons recommend surgery---that's
+Yes, common. Orthopedic surgeons recommend surgery — that's
 their training and their practice. That doesn't
 mean PT won't work. It means a surgeon's default
 recommendation is the tool they specialize in.
@@ -211,7 +211,7 @@ All four major AI tools can read medical documents. Upload your MRI report as a 
 
 ### Example 2: Before Signing a Non-Compete Clause
 
-The situation: you're a vet tech who's been offered a new job. Better pay, better hours, better commute. The employment agreement arrived by email---"please review and sign before your start date." Standard onboarding language. Page 6, paragraph 14: a non-compete clause. You noticed it because the language was unusually specific: "shall not engage in competitive employment within a radius of twenty (20) miles for a period of eighteen (18) months following termination of employment." You don't know if this is standard, aggressive, or meaningless. You don't want to make trouble before your first day. You also don't want to sign something that could prevent you from working if this job doesn't work out.
+The situation: you're a vet tech who's been offered a new job. Better pay, better hours, better commute. The employment agreement arrived by email — "please review and sign before your start date." Standard onboarding language. Page 6, paragraph 14: a non-compete clause. You noticed it because the language was unusually specific: "shall not engage in competitive employment within a radius of twenty (20) miles for a period of eighteen (18) months following termination of employment." You don't know if this is standard, aggressive, or meaningless. You don't want to make trouble before your first day. You also don't want to sign something that could prevent you from working if this job doesn't work out.
 
 *Your opening message:*
 
@@ -245,7 +245,7 @@ things will sharpen the research:
 ::: prompt
 1. Texas.
 2. $48,000.
-3. It says "veterinary services"---no further
+3. It says "veterinary services" — no further
    definition.
 4. No signing bonus. No training clause. Just the
    standard employment agreement.
@@ -257,7 +257,7 @@ things will sharpen the research:
 ::: agent
 Here is what you need to know before you sign:
 
-TEXAS NON-COMPETE LAW---THE SHORT VERSION
+TEXAS NON-COMPETE LAW — THE SHORT VERSION
 Texas enforces non-competes, with requirements. Under
 Texas Business & Commerce Code §15.50, a non-compete
 must be: (1) ancillary to an otherwise enforceable
@@ -278,7 +278,7 @@ $48,000, this is a career freeze.
 
 THE CONSIDERATION PROBLEM
 Texas requires the non-compete be tied to
-consideration---something of value in exchange.
+consideration — something of value in exchange.
 A signing bonus, proprietary training access, or
 trade secrets can qualify. A standard employment
 agreement without additional consideration may
@@ -302,7 +302,7 @@ adjusting the radius to 10 miles and the duration
 to 12 months? I think that's fair for both of us."
 
 WHAT TO VERIFY INDEPENDENTLY
-— Read Texas Business & Commerce Code §15.50---it's
+— Read Texas Business & Commerce Code §15.50 — it's
   short and readable.
 — Many employment attorneys offer a free 30-minute
   consultation. One call can tell you whether this
@@ -324,7 +324,7 @@ making waves before I even start.
 *Your Agent:*
 
 ::: agent
-The fear is real---the power dynamic is real. You
+The fear is real — the power dynamic is real. You
 need the job; they have other applicants. That's
 the situation.
 
@@ -337,7 +337,7 @@ The suggested language is deliberately
 non-confrontational. It opens with enthusiasm,
 frames the request as mutual, and asks a question
 rather than making a demand. If the employer
-refuses any modification---won't change a word---
+refuses any modification — won't change a word---
 you've learned something important about how they
 treat employees. A workplace that insists on maximum
 legal restriction before you've started is telling
@@ -350,12 +350,12 @@ Research is for.
 :::
 
 ::: fairness
-Non-competes disproportionately bind workers with the least negotiating power. A senior veterinarian with a portable client book can negotiate the clause, absorb the restriction, or hire a lawyer to challenge it. A vet tech making $48,000 cannot afford 18 months of career freeze within a 20-mile radius. The same clause applied to both workers has radically different impacts. Several states have recognized this asymmetry and passed salary thresholds below which non-competes are unenforceable. Your Agent can tell you whether your state is one of them---and what your options are if it isn't.
+Non-competes disproportionately bind workers with the least negotiating power. A senior veterinarian with a portable client book can negotiate the clause, absorb the restriction, or hire a lawyer to challenge it. A vet tech making $48,000 cannot afford 18 months of career freeze within a 20-mile radius. The same clause applied to both workers has radically different impacts. Several states have recognized this asymmetry and passed salary thresholds below which non-competes are unenforceable. Your Agent can tell you whether your state is one of them — and what your options are if it isn't.
 :::
 
 ### Example 3: Between Two College Financial Aid Letters
 
-The situation: you are a first-generation college parent at the kitchen table---maybe with your daughter, maybe alone at midnight after she went to bed. Two acceptance letters. Two financial aid award letters. Both look generous. School B's package covers more of the sticker price, and you want to feel good about that. But something doesn't add up. One school calls it "Institutional Grant." The other calls it "Merit Scholarship." One includes "Federal Work-Study" in the total. The other doesn't. You are trying to compare two documents that were designed, by two different institutions, to resist comparison. The numbers in the two letters don't seem to mean the same things. They don't. This is the deepest information gap in the chapter.
+The situation: you are a first-generation college parent at the kitchen table — maybe with your daughter, maybe alone at midnight after she went to bed. Two acceptance letters. Two financial aid award letters. Both look generous. School B's package covers more of the sticker price, and you want to feel good about that. But something doesn't add up. One school calls it "Institutional Grant." The other calls it "Merit Scholarship." One includes "Federal Work-Study" in the total. The other doesn't. You are trying to compare two documents that were designed, by two different institutions, to resist comparison. The numbers in the two letters don't seem to mean the same things. They don't. This is the deepest information gap in the chapter.
 
 *Your opening message:*
 
@@ -363,7 +363,7 @@ The situation: you are a first-generation college parent at the kitchen table---
 My daughter got into two schools and we got the
 financial aid letters. I'm trying to compare them
 but they don't seem to work the same way. School B
-looks like a better deal---it covers more. But
+looks like a better deal — it covers more. But
 something feels off.
 
 School A (State University, in-state):
@@ -402,7 +402,7 @@ Remaining Cost: $9,405
 *Your Agent's clarifying questions:*
 
 ::: agent
-This is exactly the right instinct---these two
+This is exactly the right instinct — these two
 letters are not telling you the same story in the
 same language. A few things will sharpen the
 comparison:
@@ -412,7 +412,7 @@ comparison:
    This affects whether the Pell Grant stays
    stable year to year.
 3. Does either letter mention renewal
-   conditions---does the grant or scholarship
+   conditions — does the grant or scholarship
    continue at the same level for all four years?
 4. Does your daughter plan to live on campus at
    both schools?
@@ -429,24 +429,24 @@ comparison:
 2. About $55,000 household.
 3. I don't know. Neither letter says anything
    about that.
-4. On campus at both---she wants the full
+4. On campus at both — she wants the full
    experience.
 5. No 529. No savings. Whatever isn't covered,
-   we'd have to figure out---loans, I guess.
+   we'd have to figure out — loans, I guess.
 :::
 
 *Your Agent:*
 
 ::: agent
 Here is the full comparison. Your instinct that
-something feels off is correct---the two letters
+something feels off is correct — the two letters
 are measuring different things and calling them
 by similar names.
 
-FIRST---LET'S SEPARATE REAL AID FROM DEBT
+FIRST — LET'S SEPARATE REAL AID FROM DEBT
 
 Both letters list Federal Direct Loans as "aid."
-Loans are not aid---they are debt your daughter
+Loans are not aid — they are debt your daughter
 repays with interest after graduation. Both
 letters include $5,500 in federal loans ($3,500
 subsidized + $2,000 unsubsidized). Strip those
@@ -460,7 +460,7 @@ position, or doesn't work full hours, that
 number is $0. It is not money the school is
 giving her. It is permission to work for it.
 
-THE REAL COMPARISON---GIFT AID ONLY
+THE REAL COMPARISON — GIFT AID ONLY
 
 Gift aid is money that does not get repaid.
 
@@ -480,7 +480,7 @@ School B real annual cost:
 $52,800 − $34,895 = $17,905
 
 School A is $4,900 per year cheaper in real
-cost---the opposite of what the letters suggest.
+cost — the opposite of what the letters suggest.
 
 BUT THE REAL QUESTION IS YEAR 2
 
@@ -489,12 +489,12 @@ BUT THE REAL QUESTION IS YEAR 2
   you should qualify at or near full Pell for all
   four years. The state grant typically renews
   with satisfactory academic progress. The $4,000
-  institutional scholarship---you need to check
+  institutional scholarship — you need to check
   whether it's renewable.
 — School B's $28,000 institutional grant is the
   variable. Some private colleges guarantee that
   grant for all four years. Others reduce it
-  after freshman year---what's sometimes called
+  after freshman year — what's sometimes called
   the "tuition discount bait-and-switch." This
   is not rare.
 — Neither letter says whether the grant renews.
@@ -526,7 +526,7 @@ WHAT TO VERIFY BEFORE YOU COMMIT
    GPA?" Listen carefully. "We expect it to be
    similar" is not "yes." "It's reviewed
    annually" is closer to "no."
-2. Call School A---same question about the $4,000
+2. Call School A — same question about the $4,000
    scholarship.
 3. Ask both schools: "What was the average change
    in institutional aid from freshman to sophomore
@@ -551,7 +551,7 @@ saying it might not be in year two?
 That's the pattern. Some schools use large
 institutional grants in year one to attract
 enrollment, then reduce aid after freshman year.
-The student is already enrolled---has friends,
+The student is already enrolled — has friends,
 has credits that may not transfer cleanly to
 another school. Leaving is expensive. The school
 knows this. Not every school does it, but enough
@@ -566,13 +566,13 @@ Here is the exact question to ask, and what
 the answers mean:
 
 — "Yes, guaranteed for four years at the same
-  level"---good answer. Get it in writing.
+  level" — good answer. Get it in writing.
 — "Reviewed annually based on academic
-  performance and financial need"---this means
+  performance and financial need" — this means
   it can change. Ask for specific retention
   percentages.
 — "I can't give you a specific number for
-  future years"---this is the answer that should
+  future years" — this is the answer that should
   concern you most.
 
 The financial aid letter is the single most
@@ -584,16 +584,16 @@ questions the letter didn't answer.
 :::
 
 ::: science
-First-generation college students and their families consistently overestimate the value of financial aid packages and underestimate the true cost of attendance. Perna (2006) found that information asymmetry in college choice is not random---it falls along class and race lines, with low-income and first-generation families receiving less effective financial counseling at every stage of the process. The financial aid letter is where this asymmetry does its most expensive work.[^s7-3]
+First-generation college students and their families consistently overestimate the value of financial aid packages and underestimate the true cost of attendance. Perna (2006) found that information asymmetry in college choice is not random — it falls along class and race lines, with low-income and first-generation families receiving less effective financial counseling at every stage of the process. The financial aid letter is where this asymmetry does its most expensive work.[^s7-3]
 :::
 
 
 [^s7-3]: Perna, L.W. (2006). "[Studying College Access and Choice: A Proposed Conceptual Model](https://doi.org/10.1007/1-4020-4512-3_5)." In J.C. Smart (Ed.), _Higher Education: Handbook of Theory and Research_, Vol. 21, 99--157.
 
 ::: meme
-The Conners at the kitchen table. Papers spread out between them. Coffee going cold. Roseanne doing the math on the back of an envelope while Dan reads the fine print with his glasses pushed up on his forehead. The information existed---the grant renewal policy, the surgical alternative, and the non-compete case law in their state. The financial aid office was not going to volunteer it. The surgeon's scheduler was not going to mention physical therapy. The HR department was not going to flag that the clause might be unenforceable. Roseanne would have called every number on the list. Now you have the list.
+The Conners at the kitchen table. Papers spread out between them. Coffee going cold. Roseanne doing the math on the back of an envelope while Dan reads the fine print with his glasses pushed up on his forehead. The information existed — the grant renewal policy, the surgical alternative, and the non-compete case law in their state. The financial aid office was not going to volunteer it. The surgeon's scheduler was not going to mention physical therapy. The HR department was not going to flag that the clause might be unenforceable. Roseanne would have called every number on the list. Now you have the list.
 :::
 
 ---
 
-Three examples. Three commitments---a surgery, a job, and a four-year investment---each one with an institution on the other side that knew more than the person signing. The kitchen table still has the papers spread across it. But now there's a library sitting next to the coffee cups. The information asymmetry hasn't disappeared---institutions still know more than you do. But the cost of closing the gap dropped to zero. The Conners deserved that. So do you.
+Three examples. Three commitments — a surgery, a job, and a four-year investment — each one with an institution on the other side that knew more than the person signing. The kitchen table still has the papers spread across it. But now there's a library sitting next to the coffee cups. The information asymmetry hasn't disappeared — institutions still know more than you do. But the cost of closing the gap dropped to zero. The Conners deserved that. So do you.
