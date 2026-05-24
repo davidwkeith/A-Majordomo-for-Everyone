@@ -19,9 +19,7 @@ const mockArtCtx: ArtBriefContext = {
   briefs: new Map([
     ['test-img', { stem: 'test-img', format: 'png', size: 'full', alt: 'Test alt', brief: 'Brief text', rights: '', sourcePath: '' }],
   ]),
-  xmpCache: new Map(),
   existingImages: new Set(),
-  embeddedCount: 0,
 };
 
 const processWithArt = (dj: string): string => {

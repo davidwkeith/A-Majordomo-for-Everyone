@@ -14,17 +14,11 @@ export interface ArtBrief {
   sourcePath: string;
 }
 
-export type { XmpData } from '../xmp.js';
-
 export interface ArtBriefContext {
   imagesDir: string;
   briefs: Map<string, ArtBrief>;
-  /** Pre-read XMP data keyed by stem. Populated before filters run. */
-  xmpCache: Map<string, import('../xmp.js').XmpData>;
   /** Set of stems with existing images. Pre-checked before filters run. */
   existingImages: Set<string>;
-  /** Number of images whose XMP was (re-)embedded during this pass. */
-  embeddedCount: number;
 }
 
 /**

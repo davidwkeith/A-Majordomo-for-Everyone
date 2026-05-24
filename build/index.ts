@@ -63,18 +63,14 @@ async function build(): Promise<void> {
     }
   }
 
-  // Prepare the render cache and sync XMP metadata from .art.md sidecars
-  // into every image in one pass. Covers callout icons and other images
-  // whose briefs live in spec/illustration/ alongside chapter content briefs
-  // so the sync keeps alt text and license travelling with the file
-  // without a manual embed step.
+  // Build the render context. Covers callout icons and other images whose
+  // briefs live in spec/illustration/ alongside chapter content briefs.
+  // Sidecars are the source of truth — XMP is embedded into the built
+  // images during the optimize pass below, not into the source PNGs.
   console.log('Preparing art context...');
   const illustrationBriefs = discoverBriefs(ILLUSTRATION_SPEC_DIR);
   const allBriefs = new Map([...briefs, ...illustrationBriefs]);
   const artCtx = await prepareArtContext(allBriefs, IMAGES_DIR);
-  if (artCtx.embeddedCount > 0) {
-    console.log(`Embedded XMP in ${artCtx.embeddedCount} image(s)`);
-  }
 
   console.log('Discovering chapters...');
   const files = await discoverChapters();
@@ -127,10 +123,11 @@ async function build(): Promise<void> {
     process.exit(1);
   }
 
-  // Optimize images to a temp directory for the epub
+  // Optimize images to a temp directory for the epub. Pass the full
+  // brief map so sidecar XMP is embedded into the dist copies (only).
   const optimizedDir = join(ROOT, 'dist', '.images');
   console.log('Optimizing images...');
-  await optimizeImages(IMAGES_DIR, optimizedDir, 800);
+  await optimizeImages(IMAGES_DIR, optimizedDir, 800, allBriefs);
 
   console.log('Assembling ePub...');
   await assembleEpub(

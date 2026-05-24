@@ -219,7 +219,7 @@ The cover has its own detailed brief in `cover.art.md`. Key difference from chap
 
 ## Image Metadata
 
-Every image must carry XMP metadata — if the PNG is copied, shared, or archived on its own, its accessibility text and license go with it. The build pipeline handles the embedding: fields declared in the `.art.md` sidecar are written into the image on every build, so the sidecar is the source of truth and the PNG stays in sync without a manual step.
+Every image shipped from this book carries XMP metadata — if the PNG is copied, shared, or archived on its own, its accessibility text and license go with it. The `.art.md` sidecar is the **single source of truth**; the build embeds XMP into the built copies (the ePub, website, and PDF) at assembly time, and source PNGs in `src/images/` stay byte-stable in the repo.
 
 **Required XMP fields (all sourced from the `.art.md` sidecar):**
 
@@ -227,7 +227,7 @@ Every image must carry XMP metadata — if the PNG is copied, shared, or archive
 - **`dc:description`** ← the sidecar body. The production brief: what was asked for, in enough detail to reproduce or revise the image. The art direction record embedded in the artwork itself.
 - **`dc:rights`** ← the sidecar's optional `rights` frontmatter field, or the book-level default (`Copyright © 2025 David W. Keith. Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).`) when omitted. Also mirrored into `xmpRights:UsageTerms`.
 
-The `.art.md` file is authoritative. If the image's XMP and the sidecar disagree, the next build overwrites the image's XMP — review happens on the sidecar in git, not by inspecting PNG bytes. The sidecar is the request; the image metadata is the receipt the build keeps stamped.
+Review happens on the sidecar in git, not by inspecting PNG bytes. The sidecar is the request; the embedded metadata in the shipped artifact is the receipt. If you need to stamp XMP into a source PNG by hand (e.g. before sharing the file outside the build), run `npx tsx build/embed-xmp.ts <image> --from <art.md>`.
 
 **File format:** PNG for all images. Inline graphics are generated on a plain white background; the build pipeline removes white to create an alpha channel in post-production. Chapter openers retain their notebook paper background. No JPEG (lossy compression damages pixel art).
 
