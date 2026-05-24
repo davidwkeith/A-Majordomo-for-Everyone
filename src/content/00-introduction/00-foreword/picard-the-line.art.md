@@ -1,6 +1,6 @@
 ---
 format: png
-size: half-right
+size: full
 alt: >
   An 8-bit pixel art rendering of Captain Picard on the bridge,
   one arm extended forward, giving the order.
