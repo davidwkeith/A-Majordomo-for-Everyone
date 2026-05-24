@@ -1,5 +1,9 @@
 # Apple Books Highlight Sync
 
+> **Superseded by [2026-05-23-apple-books-notes-sync-design.md](./2026-05-23-apple-books-notes-sync-design.md).**
+> Architecture pivoted from "commit `notes/highlights.md` to the repo" to "file each typed note as a GitHub Issue."
+> The current implementation plan is in the superseding spec.
+
 **Issue:** [#23](https://github.com/davidwkeith/A-Majordomo-for-Everyone/issues/23)
 **Date:** 2026-04-14
 
