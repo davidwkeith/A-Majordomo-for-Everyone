@@ -159,7 +159,7 @@ To make this Expert Role persistent across sessions, save it as a *Project* (Cla
 
 *Strategy:* Research + Diagnose (Expert Role)
 *See also:* Ch-1: Shopping Your Values (for sourcing ingredients), H-8: Wellness and Nutrition Coach (for dietary guidance)
-*My Man Jeeves:* _Culinary school, one might note, costs between $20,000 and $100,000. The core knowledge it transmits -- the reasons things cook as they do, the method of correcting a dish that has gone astray, which substitutions succeed and on what principle -- is thoroughly documented and has been set forth in considerable detail by every food science writer since [Harold McGee](https://en.wikipedia.org/wiki/Harold%5FMcGee). One's Agent has read Harold McGee._
+*My Man Jeeves:* _Culinary school, one might note, costs between $20,000 and $100,000. The core knowledge it transmits — the reasons things cook as they do, the method of correcting a dish that has gone astray, which substitutions succeed and on what principle — is thoroughly documented and has been set forth in considerable detail by every food science writer since [Harold McGee](https://en.wikipedia.org/wiki/Harold%5FMcGee). One's Agent has read Harold McGee._
 *The Spec:*
 
 ::: prompt
@@ -181,7 +181,7 @@ Explain the underlying principle and the step-by-step method.
 ::: prompt
 Act as a culinary instructor. My [dish] came out [problem:
 too salty / rubbery / bland / fell apart / didn't set].
-What went wrong and how do I fix it -- or if it's too late to fix,
+What went wrong and how do I fix it — or if it's too late to fix,
 how do I prevent it next time?
 :::
 *What to do with the Output:* Follow the technique once exactly as described before adjusting. Cooking is chemistry — changing two variables at once means you will never know which one mattered. Keep a notes file on your phone for what worked and what did not.
@@ -345,7 +345,7 @@ Bleach and ammonia together produce chloramine gas. This is not a cleaning hack.
 :::
 
 
-[^ch8-1]: University extension textile care guides consistently categorize stains by chemistry: protein (cold water + enzyme), tannin (oxidizer), and grease (surfactant). See e.g. Olson, K. (2003). "Stain Removal for Washable Fabrics." University of Minnesota Extension.
+[^ch8-1]: University extension textile care guides consistently categorize stains by chemistry: protein (cold water + enzyme), tannin (oxidizer), and grease (surfactant). See e.g. University of Missouri Extension, ["Stain Removal From Washable Fabrics"](https://extension.missouri.edu/publications/mp663) (MP663) — a North Central Regional Cooperative Extension stain-care guide.
 
 ---
 
@@ -422,7 +422,7 @@ To make this Expert Role persistent across sessions, save it as a *Project* (Cla
 :::
 
 
-[^ch9-1]: Bureau of Labor Statistics, Consumer Price Index for Veterinary Services. Veterinary costs have risen significantly faster than general inflation over the past decade. See also AVMA data on cost as a barrier to veterinary care.
+[^ch9-1]: Bureau of Labor Statistics, [Consumer Price Index for Veterinary Services](https://www.bls.gov/cpi/) (see also BLS, ["A 'tail' of productivity in pet care services"](https://www.bls.gov/opub/btn/volume-13/a-tail-of-productivity-in-pet-care-services-new-technology-enables-rapid-growth.htm), 2024). Veterinary costs have risen significantly faster than general inflation over the past decade. See also [AVMA](https://www.avma.org/) data on cost as a barrier to veterinary care.
 [^ch9-2]: American Veterinary Society of Animal Behavior. ["Position Statement on Humane Dog Training."](https://avsab.org/resources/position-statements/) AVSAB recommends reward-based training and advises against dominance-based methods.
 
 ---
@@ -475,7 +475,7 @@ Renters: most of this checklist is your landlord's responsibility, and they may 
 :::
 
 
-[^ch10-1]: Preventive maintenance cost estimates derive from industry consensus (National Association of Home Builders, Freddie Mac homeowner guides, Fannie Mae). The 1--4% of home value per year range accounts for home age: newer homes trend toward 1%, older homes toward 3--4%.
+[^ch10-1]: Preventive maintenance cost estimates derive from industry consensus ([National Association of Home Builders](https://www.nahb.org/), [Freddie Mac _Caring for Your Home_](https://sf.freddiemac.com/docs/pdf/fact-sheet/caring_for_your_home.pdf), [Fannie Mae](https://www.fanniemae.com/)). The 1--4% of home value per year range accounts for home age: newer homes trend toward 1%, older homes toward 3--4%.
 
 ---
 
