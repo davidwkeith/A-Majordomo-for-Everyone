@@ -288,7 +288,8 @@ export async function optimizeImages(
 
       // Sidecar → built image: alt text and license travel with the
       // PNG inside the ePub without writing XMP back to the source file.
-      const stem = basename(entry, ext);
+      // Use original-case extname so basename strips suffixes like `.PNG`.
+      const stem = basename(entry, extname(entry));
       const brief = briefs?.get(stem);
       if (brief) {
         pipeline = pipeline.withXmp(buildXmpXml(xmpFieldsFor(brief)));
