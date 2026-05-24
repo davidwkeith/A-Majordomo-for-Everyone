@@ -1,6 +1,6 @@
 {
   "name": "majordomo",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "ePub and website build pipeline for Majordomo",
   "type": "module",
   "private": true,
@@ -16,18 +16,25 @@
     "dev": "npm run build:site && wrangler dev",
     "test": "vitest run",
     "test:watch": "vitest",
-    "clean": "rm -rf dist"
+    "clean": "rm -rf dist",
+    "sync:notes": "tsx build/scripts/sync-apple-books-notes.ts",
+    "sync:notes:status": "tsx build/scripts/sync-apple-books-notes-status.ts",
+    "sync:notes:install": "tsx build/scripts/install-notes-sync.ts",
+    "sync:notes:uninstall": "tsx build/scripts/uninstall-notes-sync.ts"
   },
   "dependencies": {
     "@djot/djot": "^0.3.2",
     "@google/genai": "^1.48.0",
+    "better-sqlite3": "^12.10.0",
     "dotenv": "^17.4.1",
     "gray-matter": "^4.0.3",
     "jszip": "^3.10.1",
     "sharp": "^0.34.5"
   },
   "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
     "@types/node": "^20.0.0",
+    "tsx": "^4.22.3",
     "typescript": "^5.4.0",
     "vitest": "^4.1.2",
     "wrangler": "^4.94.0"
