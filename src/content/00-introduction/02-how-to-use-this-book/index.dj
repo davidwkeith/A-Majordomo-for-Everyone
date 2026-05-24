@@ -21,13 +21,9 @@ This is not a book you read cover to cover. It is a book you keep on your smartp
 
 That bicycle just learned to listen. AI is the first tool in computing's history where the machine adapts to the human, not the other way around. The new skill is not technical. It is the skill of briefing a competent contractor: tell them what you want, give them context, ask follow-ups when the first answer doesn't smell right, verify before acting on anything with consequences. You have been doing this for decades — with plumbers, doctors, substitute teachers, the person who waters your plants when you travel. The book teaches you to do it with the computer.
 
-If you have never used AI before: read the Introduction, then go to Part One, Strategy 0 (Specify). That chapter will teach you the one skill that makes everything else work.
+If you have never used AI before: read the Introduction, then go to Part One, Strategy 0: Specify. That chapter will teach you the one skill that makes everything else work.
 
-If you have a specific problem right now: go directly to Part Two (The Field Guide) and find your domain. The Skill will show you the confirmed spec and tell you which strategy it uses.
+If you have a specific problem right now: go directly to Part Two: The Field Guide and find your domain. The Skill will show you the confirmed spec and tell you which strategy it uses.
 
-If your situation is not in the Field Guide: go to Part Three (The General Method). It will show you how to build a spec for anything.
-
-::: meme
-Consider this book the "You are here" arrow on the map of a system that was designed without maps for you.
-:::
+If your situation is not in the Field Guide: go to Part Three: The General Method. It will show you how to build a spec for anything.
 
