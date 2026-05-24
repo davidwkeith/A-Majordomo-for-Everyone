@@ -47,8 +47,18 @@ export async function findLibraryDbPath(home: string = homedir()): Promise<strin
   return null;
 }
 
-export function openReadonly(path: string): Database.Database {
-  return new Database(path, { readonly: true, fileMustExist: true });
+export async function openReadonly(path: string): Promise<Database.Database> {
+  try {
+    return new Database(path, { readonly: true, fileMustExist: true });
+  } catch (e) {
+    const msg = e instanceof Error ? e.message : String(e);
+    if (/SQLITE_BUSY|database is locked/i.test(msg)) {
+      // Single retry after 500ms — matches spec failure-mode table.
+      await new Promise((r) => setTimeout(r, 500));
+      return new Database(path, { readonly: true, fileMustExist: true });
+    }
+    throw e;
+  }
 }
 
 export function findAssetId(libraryDb: Database.Database, title: string): string | null {

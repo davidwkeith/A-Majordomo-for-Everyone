@@ -61,6 +61,17 @@ describe('reconcile', () => {
     expect(actions[0].type).toBe('create');
   });
 
+  it('dedupes annotations by UUID, processing only the first occurrence', () => {
+    const a1 = ann({ uuid: 'UUID-DUP', note: 'first' });
+    const a2 = ann({ uuid: 'UUID-DUP', note: 'second (should be ignored)' });
+    const actions = reconcile([a1, a2], []);
+    expect(actions).toHaveLength(1);
+    expect(actions[0].type).toBe('create');
+    if (actions[0].type === 'create') {
+      expect(actions[0].rendered.body).toContain('first');
+    }
+  });
+
   it('returns a mix of create / update / noop in one call', () => {
     const a1 = ann({ uuid: 'A1', note: 'a1' });
     const a2 = ann({ uuid: 'A2', note: 'a2 new' });

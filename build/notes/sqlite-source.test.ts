@@ -1,12 +1,13 @@
 import { describe, it, expect, beforeEach } from 'vitest';
 import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
+import { fileURLToPath } from 'node:url';
 import Database from 'better-sqlite3';
 import { findAssetId, listAnnotations } from './sqlite-source.js';
 import { BOOK_TITLE } from './types.js';
 
 const fixtureSql = readFileSync(
-  join(import.meta.dirname, '__fixtures__', 'aeannotation.sql'),
+  fileURLToPath(new URL('./__fixtures__/aeannotation.sql', import.meta.url)),
   'utf8'
 );
 

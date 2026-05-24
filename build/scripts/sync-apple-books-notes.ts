@@ -7,6 +7,7 @@
  */
 
 import { stat } from 'node:fs/promises';
+import type Database from 'better-sqlite3';
 import { homedir } from 'node:os';
 import { reconcile } from '../notes/reconcile.js';
 import {
@@ -29,6 +30,19 @@ import {
 import type { Action } from '../notes/types.js';
 import { BOOK_TITLE } from '../notes/types.js';
 
+async function maxMtime(paths: string[]): Promise<string> {
+  let max = 0;
+  for (const p of paths) {
+    try {
+      const s = await stat(p);
+      if (s.mtimeMs > max) max = s.mtimeMs;
+    } catch {
+      // file may not exist (e.g., no -shm yet); skip
+    }
+  }
+  return new Date(max).toISOString();
+}
+
 function log(severity: 'info' | 'warn' | 'error', event: string, fields: Record<string, unknown> = {}): void {
   const pairs = Object.entries(fields)
     .map(([k, v]) => `${k}=${String(v)}`)
@@ -48,8 +62,10 @@ async function main(): Promise<number> {
     return 0;
   }
 
-  const annStat = await stat(annPath);
-  const annMtimeIso = annStat.mtime.toISOString();
+  // WAL-aware mtime: Apple Books uses SQLite WAL journaling, so new
+  // iCloud-synced annotations may only touch -wal/-shm. Use the max
+  // mtime across all three files.
+  const annMtimeIso = await maxMtime([annPath, `${annPath}-wal`, `${annPath}-shm`]);
   if (annMtimeIso === state.lastSqliteMtime) {
     log('info', 'run-start', { 'mtime-changed': false, 'skip-reason': 'mtime-stable' });
     state.runs.total += 1;
@@ -66,7 +82,7 @@ async function main(): Promise<number> {
       log('warn', 'run-end', { ok: false, reason: 'library-db-missing' });
       return 0;
     }
-    const libDb = openReadonly(libPath);
+    const libDb = await openReadonly(libPath);
     try {
       assetId = findAssetId(libDb, BOOK_TITLE);
     } finally {
@@ -83,7 +99,17 @@ async function main(): Promise<number> {
     state.majordomoAssetId = assetId;
   }
 
-  const annDb = openReadonly(annPath);
+  let annDb: Database.Database;
+  try {
+    annDb = await openReadonly(annPath);
+  } catch (e) {
+    const msg = e instanceof Error ? e.message : String(e);
+    if (/SQLITE_BUSY|database is locked/i.test(msg)) {
+      log('warn', 'run-end', { ok: false, reason: 'sqlite-busy' });
+      return 0;
+    }
+    throw e;
+  }
   let annotations;
   try {
     annotations = listAnnotations(annDb, assetId);
@@ -131,14 +157,23 @@ async function main(): Promise<number> {
       }
     } catch (e) {
       const msg = e instanceof Error ? e.message : String(e);
+      if (/rate limit/i.test(msg) || /dial tcp|getaddrinfo/i.test(msg)) {
+        // Transient: surface as warn, bail out of the loop (any later
+        // action is likely to hit the same condition). exitCode stays 0
+        // so the LaunchAgent doesn't escalate.
+        log('warn', 'action-transient', { type: a.type, uuid: a.uuid, message: msg });
+        break;
+      }
       log('error', 'action-failed', { type: a.type, uuid: a.uuid, message: msg });
       exitCode = 1;
     }
   }
 
   state.runs.total += 1;
-  state.lastSqliteMtime = annMtimeIso;
-  if (exitCode === 0) state.lastSuccessfulSync = new Date().toISOString();
+  if (exitCode === 0) {
+    state.lastSqliteMtime = annMtimeIso;
+    state.lastSuccessfulSync = new Date().toISOString();
+  }
   await writeState(sPath, state);
 
   log('info', 'run-end', {

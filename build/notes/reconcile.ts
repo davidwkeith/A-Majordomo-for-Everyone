@@ -11,6 +11,16 @@ export function reconcile(
   annotations: readonly Annotation[],
   existing: readonly IssueRecord[]
 ): Action[] {
+  // Defensive: if sqlite somehow returns two rows with the same UUID,
+  // process only the first occurrence (spec failure-mode table).
+  const seen = new Set<string>();
+  const uniqueAnnotations: Annotation[] = [];
+  for (const ann of annotations) {
+    if (seen.has(ann.uuid)) continue;
+    seen.add(ann.uuid);
+    uniqueAnnotations.push(ann);
+  }
+
   const byUuid = new Map<string, IssueRecord>();
   for (const issue of existing) {
     const uuid = parseUuid(issue.body);
@@ -18,7 +28,7 @@ export function reconcile(
   }
 
   const actions: Action[] = [];
-  for (const ann of annotations) {
+  for (const ann of uniqueAnnotations) {
     const rendered = render(ann);
     const found = byUuid.get(ann.uuid);
     if (!found) {
