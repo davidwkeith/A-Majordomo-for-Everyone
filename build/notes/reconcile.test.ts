@@ -7,8 +7,7 @@ const ann = (overrides: Partial<Annotation> = {}): Annotation => ({
   uuid: 'UUID-A',
   selectedText: 'passage',
   note: 'note A',
-  chapterTitle: 'Ch 1',
-  locationPercent: 0.1,
+  chapter: 'ch1',
   modifiedAt: new Date('2026-05-23T14:11:00Z'),
   ...overrides,
 });

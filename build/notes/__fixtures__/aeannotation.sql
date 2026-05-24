@@ -1,5 +1,4 @@
--- Schema snapshot of the columns used from Apple Books's sqlite
--- databases. Updates here flag schema drift on real Apple updates.
+-- Schema snapshot of the columns used from Apple Books's sqlite databases.
 
 CREATE TABLE ZBKLIBRARYASSET (
   Z_PK INTEGER PRIMARY KEY,
@@ -12,58 +11,58 @@ CREATE TABLE ZAEANNOTATION (
   ZANNOTATIONUUID TEXT,
   ZANNOTATIONASSETID TEXT,
   ZANNOTATIONSELECTEDTEXT TEXT,
+  ZANNOTATIONREPRESENTATIVETEXT TEXT,
   ZANNOTATIONNOTE TEXT,
-  ZFUTUREPROOFING5 TEXT,
   ZANNOTATIONLOCATION TEXT,
   ZANNOTATIONMODIFICATIONDATE REAL,
   ZANNOTATIONDELETED INTEGER
 );
 
-INSERT INTO ZBKLIBRARYASSET VALUES (1, 'ASSET-MAJORDOMO', 'A Majordomo for Everyone');
+INSERT INTO ZBKLIBRARYASSET VALUES (1, 'ASSET-MAJORDOMO', 'Majordomo');
 INSERT INTO ZBKLIBRARYASSET VALUES (2, 'ASSET-OTHER',     'Some Other Book');
 
 INSERT INTO ZAEANNOTATION VALUES (
   101, 'UUID-A', 'ASSET-MAJORDOMO',
+  'A library is a building',
   'A library is a building; a life is a way of living.',
   'fix this metaphor about libraries',
-  'Chapter 1: Introduction',
-  '0.12',
+  'epubcfi(/6/4[00-epigraph]!/4/2/6/2/1,:3,:55)',
   801238260.0,
   0
 );
 INSERT INTO ZAEANNOTATION VALUES (
   102, 'UUID-B', 'ASSET-MAJORDOMO',
+  'bare highlight',
   'A bare highlight with no typed note.',
   NULL,
-  'Chapter 1: Introduction',
-  '0.13',
+  'epubcfi(/6/4[00-epigraph]!/4/2/8/1,:0,:36)',
   801238300.0,
   0
 );
 INSERT INTO ZAEANNOTATION VALUES (
   103, 'UUID-C', 'ASSET-MAJORDOMO',
+  'Another passage',
   'Another passage I marked.',
   'rewrite the second paragraph',
-  'Chapter 2: Engage',
-  '0.45',
+  'epubcfi(/6/8[01-chapter-01]!/4/4/2,:0,:24)',
   801238400.0,
   0
 );
 INSERT INTO ZAEANNOTATION VALUES (
   104, 'UUID-D', 'ASSET-MAJORDOMO',
+  'deleted',
   'A passage on a deleted annotation.',
   'will be filtered out',
-  'Chapter 2: Engage',
-  '0.46',
+  'epubcfi(/6/8[01-chapter-01]!/4/4/4,:0,:31)',
   801238500.0,
   1
 );
 INSERT INTO ZAEANNOTATION VALUES (
   201, 'UUID-OTHER', 'ASSET-OTHER',
+  'From other',
   'From a different book entirely.',
   'should not appear',
-  'Some Chapter',
-  '0.5',
+  'epubcfi(/6/2[chapter-1]!/4/2/1,:0,:30)',
   801238600.0,
   0
 );

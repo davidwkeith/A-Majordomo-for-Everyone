@@ -3,7 +3,7 @@ import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import Database from 'better-sqlite3';
-import { findAssetId, listAnnotations } from './sqlite-source.js';
+import { findAssetId, listAnnotations, parseChapter } from './sqlite-source.js';
 import { BOOK_TITLE } from './types.js';
 
 const fixtureSql = readFileSync(
@@ -58,13 +58,32 @@ describe('listAnnotations', () => {
     expect(a!.modifiedAt.toISOString()).toBe('2026-05-23T14:11:00.000Z');
   });
 
-  it('decodes location string to a number', () => {
+  it('parses chapter slug from CFI', () => {
     const rows = listAnnotations(annotationDb, 'ASSET-MAJORDOMO');
     const a = rows.find((r) => r.uuid === 'UUID-A');
-    expect(a!.locationPercent).toBeCloseTo(0.12);
+    expect(a!.chapter).toBe('00-epigraph');
   });
 
   it('returns an empty array for an unknown asset_id', () => {
     expect(listAnnotations(annotationDb, 'ASSET-MISSING')).toEqual([]);
+  });
+});
+
+describe('parseChapter', () => {
+  it('extracts the bracketed id from a typical CFI', () => {
+    expect(parseChapter('epubcfi(/6/4[00-epigraph]!/4/2/6/2/1,:3,:55)')).toBe('00-epigraph');
+  });
+
+  it('returns null when the CFI has no bracketed id', () => {
+    expect(parseChapter('epubcfi(/6/4!/4/2)')).toBeNull();
+  });
+
+  it('returns null on null/empty input', () => {
+    expect(parseChapter(null)).toBeNull();
+    expect(parseChapter('')).toBeNull();
+  });
+
+  it('returns the first bracket if multiple are present', () => {
+    expect(parseChapter('[first]/...[second]')).toBe('first');
   });
 });

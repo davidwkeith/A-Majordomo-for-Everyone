@@ -7,8 +7,7 @@ const sample: Annotation = {
   uuid: '4F3A-AB12-B891',
   selectedText: 'A library is a building; a life is a way of living.',
   note: 'fix this metaphor about libraries',
-  chapterTitle: 'Chapter 1: Introduction',
-  locationPercent: 0.12,
+  chapter: '01-introduction',
   modifiedAt: new Date('2026-05-23T14:11:00Z'),
 };
 
@@ -64,15 +63,15 @@ describe('render', () => {
     const out = render(sample);
     expect(out.title).toBe('fix this metaphor about libraries');
     expect(out.body).toContain('> A library is a building; a life is a way of living.');
-    expect(out.body).toContain('— Chapter 1: Introduction (12%)');
+    expect(out.body).toContain('— 01-introduction');
     expect(out.body).toContain('fix this metaphor about libraries');
     expect(out.body).toContain('<!-- apple-books-uuid: 4F3A-AB12-B891 -->');
     expect(out.body).toContain('<!-- apple-books-modified: 2026-05-23T14:11:00.000Z -->');
   });
 
-  it('handles a null chapter title gracefully', () => {
-    const out = render({ ...sample, chapterTitle: null });
-    expect(out.body).toContain('— Uncategorized (12%)');
+  it('handles a null chapter gracefully', () => {
+    const out = render({ ...sample, chapter: null });
+    expect(out.body).toContain('— unknown');
   });
 
   it('quotes each line of a multi-line passage', () => {
@@ -87,10 +86,5 @@ describe('render', () => {
     expect(out.body.length).toBeLessThanOrEqual(GITHUB_BODY_MAX);
     expect(out.body).toContain('_[truncated]_');
     expect(out.body).toContain('<!-- apple-books-uuid: 4F3A-AB12-B891 -->');
-  });
-
-  it('renders location as an integer percentage', () => {
-    const out = render({ ...sample, locationPercent: 0.0735 });
-    expect(out.body).toContain('(7%)');
   });
 });

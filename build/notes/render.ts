@@ -33,17 +33,13 @@ function quoteLines(text: string): string {
     .join('\n');
 }
 
-function locationLabel(percent: number): string {
-  return `${Math.round(percent * 100)}%`;
-}
-
 export function render(ann: Annotation): RenderedIssue {
   const title = deriveTitle(ann.note);
-  const chapter = ann.chapterTitle ?? 'Uncategorized';
+  const chapter = ann.chapter ?? 'unknown';
 
   const body =
     quoteLines(ann.selectedText) +
-    `\n>\n> — ${chapter} (${locationLabel(ann.locationPercent)})\n\n` +
+    `\n>\n> — ${chapter}\n\n` +
     ann.note +
     `\n\n<!-- apple-books-uuid: ${ann.uuid} -->\n` +
     `<!-- apple-books-modified: ${ann.modifiedAt.toISOString()} -->\n`;

@@ -68,11 +68,24 @@ export function findAssetId(libraryDb: Database.Database, title: string): string
   return row?.ZASSETID ?? null;
 }
 
+/**
+ * Extract the chapter identifier from an EPUB CFI.
+ * CFIs look like `epubcfi(/6/4[00-epigraph]!/4/2/6/2/1,:3,:55)` — the
+ * bracketed part inside the spine reference is the spine item's idref,
+ * which in this book's build matches the source-tree chapter directory.
+ * Returns the slug (e.g. "00-epigraph") or null if not found.
+ */
+export function parseChapter(cfi: string | null): string | null {
+  if (!cfi) return null;
+  const m = cfi.match(/\[([^\]]+)\]/);
+  return m ? m[1] : null;
+}
+
 interface AnnotationRow {
   ZANNOTATIONUUID: string;
+  ZANNOTATIONREPRESENTATIVETEXT: string | null;
   ZANNOTATIONSELECTEDTEXT: string;
   ZANNOTATIONNOTE: string;
-  ZFUTUREPROOFING5: string | null;
   ZANNOTATIONLOCATION: string | null;
   ZANNOTATIONMODIFICATIONDATE: number;
 }
@@ -82,9 +95,9 @@ export function listAnnotations(annotationDb: Database.Database, assetId: string
     .prepare<[string], AnnotationRow>(
       `SELECT
          ZANNOTATIONUUID,
+         ZANNOTATIONREPRESENTATIVETEXT,
          ZANNOTATIONSELECTEDTEXT,
          ZANNOTATIONNOTE,
-         ZFUTUREPROOFING5,
          ZANNOTATIONLOCATION,
          ZANNOTATIONMODIFICATIONDATE
        FROM ZAEANNOTATION
@@ -97,10 +110,11 @@ export function listAnnotations(annotationDb: Database.Database, assetId: string
 
   return rows.map((r) => ({
     uuid: r.ZANNOTATIONUUID,
-    selectedText: r.ZANNOTATIONSELECTEDTEXT,
+    // Prefer the representative (full natural unit); fall back to the
+    // user's literal selection if Apple didn't populate the representative.
+    selectedText: r.ZANNOTATIONREPRESENTATIVETEXT ?? r.ZANNOTATIONSELECTEDTEXT,
     note: r.ZANNOTATIONNOTE,
-    chapterTitle: r.ZFUTUREPROOFING5,
-    locationPercent: r.ZANNOTATIONLOCATION ? parseFloat(r.ZANNOTATIONLOCATION) : 0,
+    chapter: parseChapter(r.ZANNOTATIONLOCATION),
     modifiedAt: nsdateToDate(r.ZANNOTATIONMODIFICATIONDATE),
   }));
 }

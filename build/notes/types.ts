@@ -5,14 +5,21 @@
 export interface Annotation {
   /** ZANNOTATIONUUID — stable across edits, primary dedup key. */
   uuid: string;
-  /** ZSELECTEDTEXT — the passage highlighted in Apple Books. */
+  /**
+   * Apple's expanded natural-unit (typically a sentence) around the user's
+   * finger-selection. Sourced from ZANNOTATIONREPRESENTATIVETEXT rather than
+   * ZANNOTATIONSELECTEDTEXT because the literal selection is often truncated
+   * mid-word and gives less context.
+   */
   selectedText: string;
   /** ZANNOTATIONNOTE — the user's typed note. Non-empty by filter. */
   note: string;
-  /** ZFUTUREPROOFING5 — chapter title captured at annotation time. */
-  chapterTitle: string | null;
-  /** ZLOCATIONRANGESTART — 0.0 to 1.0 position in the book. */
-  locationPercent: number;
+  /**
+   * Chapter slug parsed from the CFI bracket in ZANNOTATIONLOCATION
+   * (e.g. "00-epigraph" from `epubcfi(/6/4[00-epigraph]!/...)`).
+   * Null if the CFI is missing or doesn't contain a bracketed ID.
+   */
+  chapter: string | null;
   /** ZANNOTATIONMODIFICATIONDATE — already converted from NSDate. */
   modifiedAt: Date;
 }
@@ -48,7 +55,12 @@ export interface SyncState {
 
 /** Constants shared across modules. */
 export const LABEL_NAME = 'from:apple-books';
-export const BOOK_TITLE = 'A Majordomo for Everyone';
+/**
+ * The ePub's `dc:title` as set by the build pipeline (see BOOK_META in
+ * build/types.ts). This is the value Apple Books stores in ZTITLE on
+ * ZBKLIBRARYASSET — NOT the GitHub repo name.
+ */
+export const BOOK_TITLE = 'Majordomo';
 export const GITHUB_BODY_MAX = 65536;
 /** Seconds between Unix epoch and Core Data NSDate epoch (2001-01-01 UTC). */
 export const NSDATE_EPOCH_OFFSET = 978307200;
