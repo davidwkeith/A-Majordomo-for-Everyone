@@ -6,7 +6,7 @@
  *   ~/Library/Containers/com.apple.iBooksX/Data/Documents/AEAnnotation/AEAnnotation_*.sqlite
  */
 
-import { glob } from 'node:fs/promises';
+import { readdir } from 'node:fs/promises';
 import { homedir } from 'node:os';
 import { join } from 'node:path';
 import Database from 'better-sqlite3';
@@ -16,14 +16,34 @@ import { nsdateToDate } from './render.js';
 const BOOKS_CONTAINER = 'Library/Containers/com.apple.iBooksX/Data/Documents';
 
 export async function findAnnotationDbPath(home: string = homedir()): Promise<string | null> {
-  const pattern = join(home, BOOKS_CONTAINER, 'AEAnnotation', 'AEAnnotation_*.sqlite');
-  for await (const match of glob(pattern)) return match;
+  const dir = join(home, BOOKS_CONTAINER, 'AEAnnotation');
+  let entries: string[];
+  try {
+    entries = await readdir(dir);
+  } catch {
+    return null;
+  }
+  for (const f of entries) {
+    if (f.startsWith('AEAnnotation_') && f.endsWith('.sqlite')) {
+      return join(dir, f);
+    }
+  }
   return null;
 }
 
 export async function findLibraryDbPath(home: string = homedir()): Promise<string | null> {
-  const pattern = join(home, BOOKS_CONTAINER, 'BKLibrary', 'BKLibrary-*.sqlite');
-  for await (const match of glob(pattern)) return match;
+  const dir = join(home, BOOKS_CONTAINER, 'BKLibrary');
+  let entries: string[];
+  try {
+    entries = await readdir(dir);
+  } catch {
+    return null;
+  }
+  for (const f of entries) {
+    if (f.startsWith('BKLibrary-') && f.endsWith('.sqlite')) {
+      return join(dir, f);
+    }
+  }
   return null;
 }
 
