@@ -128,10 +128,8 @@ export function epubOverrides(
         : '';
 
       if (artCtx.existingImages.has(stem)) {
-        const xmp = artCtx.xmpCache.get(stem);
-        const alt = xmp?.altText || brief.alt;
         const cls = sizeToClass(brief.size);
-        return `<figure class="${cls}"><img src="../images/${escapeHtml(imageFile)}" alt="${escapeHtml(alt)}"/>${caption}</figure>`;
+        return `<figure class="${cls}"><img src="../images/${escapeHtml(imageFile)}" alt="${escapeHtml(brief.alt)}"/>${caption}</figure>`;
       }
 
       const cls = `art-placeholder art-placeholder-${brief.size}`;

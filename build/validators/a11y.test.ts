@@ -33,9 +33,7 @@ const brief = (over: Partial<ArtBrief> = {}): ArtBrief => ({
 const ctx = (briefs: ArtBrief[] = []): ArtBriefContext => ({
   imagesDir: '/tmp',
   briefs: new Map(briefs.map((b) => [b.stem, b])),
-  xmpCache: new Map(),
   existingImages: new Set(),
-  embeddedCount: 0,
 });
 
 describe('validateAccessibility', () => {

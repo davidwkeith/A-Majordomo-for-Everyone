@@ -16,7 +16,7 @@ import {
 import type { RefRegistry, RefWarning } from './filters/ref-links.js';
 import type { ChapterMeta, ProcessedChapter } from './types.js';
 import { BOOK_META } from './types.js';
-import { embedXmp, readXmp, xmpMatches } from './xmp.js';
+import { buildXmpXml, embedXmp, readXmp, xmpMatches } from './xmp.js';
 import type { XmpFields } from './xmp.js';
 
 export const ROOT = resolve(import.meta.dirname, '..', '..');
@@ -45,66 +45,60 @@ export function xmpFieldsFor(brief: ArtBrief): XmpFields {
 }
 
 /**
- * Scan every brief's image in one pass: check existence, compare its XMP
- * to the sidecar, embed when stale, and build the render cache.
+ * Build the render context: scan every brief's image to record which
+ * ones exist. Read-only — source PNGs in `src/images/` are byte-stable
+ * and never modified by the build.
  *
- * Combines what used to be two separate passes (sync + prepare) so each
- * image is stat'd and XMP-read at most once per build. Returns both the
- * render context and the count of images whose XMP was refreshed.
- *
- * The brief is the source of truth: this step makes the PNG
- * self-describing (alt text and license travel with the file) without
- * requiring contributors to remember a separate `embed-xmp` step.
+ * The sidecar carries the authoritative alt text, brief, and rights;
+ * XMP is embedded into image copies only at build time (see
+ * `optimizeImages`), so the ePub/site/PDF artifacts ship self-describing
+ * PNGs without dirtying the working tree.
  */
 export async function prepareArtContext(
   briefs: Map<string, ArtBrief>,
   imagesDir: string
 ): Promise<ArtBriefContext> {
-  const xmpCache = new Map<string, Awaited<ReturnType<typeof readXmp>>>();
   const existingImages = new Set<string>();
-  let embeddedCount = 0;
+  await Promise.all(
+    [...briefs.values()].map(async (brief) => {
+      try {
+        await stat(join(imagesDir, `${brief.stem}.${brief.format}`));
+        existingImages.add(brief.stem);
+      } catch {
+        // image not generated yet
+      }
+    })
+  );
+  return { imagesDir, briefs, existingImages };
+}
 
+/**
+ * Embed XMP from each sidecar into the matching source image in place.
+ * Used by the `embed-xmp` CLI for the rare "refresh metadata in an
+ * existing PNG" case; not called by the default build pipeline.
+ */
+export async function syncArtBriefXmp(
+  briefs: Map<string, ArtBrief>,
+  imagesDir: string
+): Promise<number> {
+  let embeddedCount = 0;
   await Promise.all(
     [...briefs.values()].map(async (brief) => {
       const imagePath = join(imagesDir, `${brief.stem}.${brief.format}`);
       try {
         await stat(imagePath);
       } catch {
-        return; // image not generated yet
+        return;
       }
-      existingImages.add(brief.stem);
-
       const current = await readXmp(imagePath);
       const fields = xmpFieldsFor(brief);
-
       if (fields.alt && !xmpMatches(current, fields)) {
         await embedXmp(imagePath, fields);
         embeddedCount++;
-        // Skip a second readXmp — we just wrote these exact values.
-        xmpCache.set(brief.stem, {
-          altText: fields.alt,
-          description: fields.description,
-          rights: fields.rights,
-        });
-      } else {
-        xmpCache.set(brief.stem, current);
       }
     })
   );
-
-  return { imagesDir, briefs, xmpCache, existingImages, embeddedCount };
-}
-
-/**
- * Sync-only wrapper around `prepareArtContext` — kept for the CLI and
- * tests that care only about the embed count, not the render cache.
- */
-export async function syncArtBriefXmp(
-  briefs: Map<string, ArtBrief>,
-  imagesDir: string
-): Promise<number> {
-  const ctx = await prepareArtContext(briefs, imagesDir);
-  return ctx.embeddedCount;
+  return embeddedCount;
 }
 
 /**
@@ -256,11 +250,17 @@ const IMAGE_EXTS = new Set(['.png', '.jpg', '.jpeg', '.webp']);
  * Copy images from src/images/ to an output directory, resizing any
  * that exceed maxWidth and re-compressing PNGs. SVGs and small images
  * pass through unchanged. Returns the number of images processed.
+ *
+ * When a `briefs` map is supplied, each output image whose stem matches
+ * a brief is stamped with XMP synthesized from the sidecar (alt text,
+ * description, rights). Source PNGs are read-only — XMP lives in the
+ * sidecar and is embedded only into these built copies.
  */
 export async function optimizeImages(
   srcDir: string,
   destDir: string,
-  maxWidth = 1200
+  maxWidth = 1200,
+  briefs?: Map<string, ArtBrief>
 ): Promise<number> {
   await mkdir(destDir, { recursive: true });
   const entries = await readdir(srcDir, { recursive: true });
@@ -284,10 +284,16 @@ export async function optimizeImages(
     } else {
       const img = sharp(srcPath);
       const meta = await img.metadata();
-      // Preserve XMP through re-encoding so the alt text and license
-      // travel with the image inside the ePub (sharp strips metadata
-      // by default).
-      let pipeline = img.keepXmp();
+      let pipeline = img;
+
+      // Sidecar → built image: alt text and license travel with the
+      // PNG inside the ePub without writing XMP back to the source file.
+      // Use original-case extname so basename strips suffixes like `.PNG`.
+      const stem = basename(entry, extname(entry));
+      const brief = briefs?.get(stem);
+      if (brief) {
+        pipeline = pipeline.withXmp(buildXmpXml(xmpFieldsFor(brief)));
+      }
 
       if (meta.width && meta.width > maxWidth) {
         pipeline = pipeline.resize(maxWidth);

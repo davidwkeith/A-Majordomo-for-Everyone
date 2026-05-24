@@ -5,6 +5,7 @@ import { chromium } from 'playwright';
 import {
   ROOT,
   CONTENT_DIR,
+  ILLUSTRATION_SPEC_DIR,
   STYLES_DIR,
   IMAGES_DIR,
   discoverBriefs,
@@ -31,11 +32,12 @@ function escapeHtml(str: string): string {
 async function buildPdf(): Promise<void> {
   console.log('Discovering art briefs...');
   const briefs = discoverBriefs(CONTENT_DIR);
-  console.log(`Found ${briefs.size} art brief(s)`);
+  const illustrationBriefs = discoverBriefs(ILLUSTRATION_SPEC_DIR);
+  const allBriefs = new Map([...briefs, ...illustrationBriefs]);
+  console.log(`Found ${allBriefs.size} art brief(s)`);
 
-  // Pre-read XMP data for all briefs (Djot filters are synchronous)
   console.log('Preparing art context...');
-  const artCtx = await prepareArtContext(briefs, IMAGES_DIR);
+  const artCtx = await prepareArtContext(allBriefs, IMAGES_DIR);
 
   console.log('Discovering chapters...');
   const files = await discoverChapters();
@@ -47,10 +49,10 @@ async function buildPdf(): Promise<void> {
   );
   const sorted = sortChapters(chapters);
 
-  // Optimize images
+  // Optimize images — embed sidecar XMP into the dist copies only.
   const imgDir = join(ROOT, 'dist', '.pdf-images');
   console.log('Optimizing images...');
-  await optimizeImages(IMAGES_DIR, imgDir, 800);
+  await optimizeImages(IMAGES_DIR, imgDir, 800, allBriefs);
 
   // Read and fix CSS image paths for local rendering
   const imgUrl = pathToFileURL(imgDir).href;

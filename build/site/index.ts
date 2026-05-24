@@ -3,6 +3,7 @@ import { join } from 'node:path';
 import {
   ROOT,
   CONTENT_DIR,
+  ILLUSTRATION_SPEC_DIR,
   STYLES_DIR,
   IMAGES_DIR,
   discoverBriefs,
@@ -25,11 +26,12 @@ const OUTPUT_DIR = join(ROOT, 'dist', 'site');
 async function buildSite(): Promise<void> {
   console.log('Discovering art briefs...');
   const briefs = discoverBriefs(CONTENT_DIR);
-  console.log(`Found ${briefs.size} art brief(s)`);
+  const illustrationBriefs = discoverBriefs(ILLUSTRATION_SPEC_DIR);
+  const allBriefs = new Map([...briefs, ...illustrationBriefs]);
+  console.log(`Found ${allBriefs.size} art brief(s)`);
 
-  // Pre-read XMP data for all briefs (Djot filters are synchronous)
   console.log('Preparing art context...');
-  const artCtx = await prepareArtContext(briefs, IMAGES_DIR);
+  const artCtx = await prepareArtContext(allBriefs, IMAGES_DIR);
 
   console.log('Discovering chapters...');
   const files = await discoverChapters();
@@ -55,9 +57,14 @@ async function buildSite(): Promise<void> {
     baseCss + '\n' + siteCss
   );
 
-  // Optimize and copy images
+  // Optimize and copy images — embed sidecar XMP into the dist copies only.
   console.log('Optimizing images...');
-  const imgCount = await optimizeImages(IMAGES_DIR, join(OUTPUT_DIR, 'images'));
+  const imgCount = await optimizeImages(
+    IMAGES_DIR,
+    join(OUTPUT_DIR, 'images'),
+    1200,
+    allBriefs
+  );
   console.log(`Optimized ${imgCount} images`);
 
   // Landing page

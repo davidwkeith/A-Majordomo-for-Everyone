@@ -99,9 +99,12 @@ Production brief for the illustrator. This is the body of the file,
 not a frontmatter field.
 ```
 
-The sidecar is the source of truth for XMP metadata in the image:
+The sidecar is the **single source of truth** for image metadata:
 `alt` → `Iptc4xmpCore:AltTextAccessibility`, the brief body → `dc:description`,
 and `rights` (or the book-level default) → `dc:rights` / `xmpRights:UsageTerms`.
+Source PNGs in `src/images/` stay byte-stable — XMP is embedded only into
+built artifacts (ePub, site, PDF) so downloaded images still carry their
+accessibility text and license without dirtying the working tree.
 
 **Chapter reference** — an inline span. Without caption, the stem is the text content. With caption, the stem moves to an attribute and the caption becomes the text:
 
@@ -113,7 +116,7 @@ and `rights` (or the book-level default) → `dc:rights` / `xmpRights:UsageTerms
 
 Captions render as `<figcaption>` inside the `<figure>`. Inline markup (emphasis, links) is supported in captions.
 
-**Image output** always goes to `src/images/`. The build resolves `[name]{.art}` by looking up the `.art.md` sidecar, then checking `src/images/{name}.{format}`. Every build syncs the sidecar's XMP fields into the image; if the image does not exist, a placeholder box renders with the alt text and brief in an expandable `<details>` element.
+**Image output** always goes to `src/images/`. The build resolves `[name]{.art}` by looking up the `.art.md` sidecar, then checking `src/images/{name}.{format}`. If the image does not exist, a placeholder box renders with the alt text and brief in an expandable `<details>` element.
 
 **Missing art** — use `--generate` to invoke image generation for missing images:
 
@@ -121,7 +124,7 @@ Captions render as `<figcaption>` inside the `<figure>`. Inline markup (emphasis
 npm run build -- --generate   # generate missing art, then build ePub
 ```
 
-XMP is embedded automatically on every build. To refresh a single image by hand (e.g. after regenerating it outside the build), run:
+XMP is embedded into the built copies during the optimize pass; source PNGs are never modified. To stamp XMP into a source PNG by hand (e.g. when sharing an image directly, outside the build), use the manual CLI:
 
 ```bash
 npx tsx build/embed-xmp.ts src/images/file.png --from src/content/path/to/file.art.md
