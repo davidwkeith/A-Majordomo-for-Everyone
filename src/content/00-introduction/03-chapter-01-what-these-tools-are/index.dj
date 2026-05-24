@@ -80,7 +80,7 @@ Nilay Patel at The Verge calls it _software brain_: the tech-industry habit of t
 
 
 ::: science
-Transformer models — the architecture behind modern AI — are fundamentally pattern-completion engines. They process context holistically and associatively, finding the shape of things before finding the words. This makes them fluent in analogy, tone, metaphor, and lateral thinking. What they struggle with is long-chain sequential reasoning — holding a complex logical argument without dropping a step. This is why the leading AI labs are now building extended-reasoning systems: slower, more deliberate processing layered on top of the fast pattern engine --- Claude's Extended Thinking, Gemini's Deep Research, OpenAI's reasoning models, Copilot's Think Deeper all name variations of the same move. Which is, interestingly, exactly what the human brain does — [fast and slow thinking](https://en.wikipedia.org/wiki/Thinking,%5FFast%5Fand%5FSlow). AI arrived at the same architecture from a completely different direction.[^1-7]
+Transformer models — the architecture behind modern AI — are fundamentally pattern-completion engines. They process context holistically and associatively, finding the shape of things before finding the words. This makes them fluent in analogy, tone, metaphor, and lateral thinking. What they struggle with is long-chain sequential reasoning — holding a complex logical argument without dropping a step. This is why the leading AI labs are now building extended-reasoning systems: slower, more deliberate processing layered on top of the fast pattern engine — Claude's Extended Thinking, Gemini's Deep Research, OpenAI's reasoning models, Copilot's Think Deeper all name variations of the same move. Which is, interestingly, exactly what the human brain does — [fast and slow thinking](https://en.wikipedia.org/wiki/Thinking,%5FFast%5Fand%5FSlow). AI arrived at the same architecture from a completely different direction.[^1-7]
 :::
 
 
@@ -94,7 +94,7 @@ Fluent AI output has a side effect researchers have started calling _the LLM fal
 :::
 
 
-[^1-1]: Altman, S. (2025). [Personal blog post.](https://blog.samaltman.com/2279512) "AI will be the most powerful tool for expanding human capability and potential that anyone has ever seen… AI has to be democratized; power cannot be too concentrated. Control of the future belongs to all people and their institutions."
+[^1-1]: Altman, S. (2025). [Personal blog post.](https://blog.samaltman.com/2279512) "AI will be the most powerful tool for expanding human capability and potential that anyone has ever seen . . . AI has to be democratized; power cannot be too concentrated. Control of the future belongs to all people and their institutions."
 
 [^1-2]: Zuckerberg, M. (2024). ["Open Source AI Is the Path Forward."](https://about.fb.com/news/2024/07/open-source-ai-is-the-path-forward/) Meta blog.
 
