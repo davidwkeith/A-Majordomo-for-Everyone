@@ -165,7 +165,7 @@ The diagnostic questions your Agent asks are the same ones a good repair technic
 
 ### Example 2: Persistent Headaches That Started Two Weeks Ago
 
-The situation: you've had headaches nearly every day for two weeks. They weren't there before. You're caught between "it's probably nothing" and "what if it's serious" — the exact paralysis that makes people either ignore symptoms for months or go to the ER for something that's a Tuesday PCP visit.
+The situation: you've had headaches nearly every day for two weeks. They weren't there before. You're caught between "it's probably nothing" and "what if it's serious" — the exact paralysis that makes people either ignore symptoms for months or go to the ER for something that's a Tuesday [PCP](https://en.wikipedia.org/wiki/Primary%5Fcare%5Fphysician) visit.
 
 *Your opening message:*
 
@@ -264,7 +264,7 @@ Your Agent is not a doctor. It cannot examine you, order tests, or account for y
 [^s6-1]: The red-flag screening questions in this example are drawn from standard clinical triage protocols for headache evaluation, including the [SNOOP mnemonic](https://en.wikipedia.org/wiki/SNOOP%5F(mnemonic)) (Systemic symptoms, Neurological signs, Onset sudden, Older age, Pattern change) used in primary care. Your Agent has read these protocols. Your Agent is not licensed to apply them. The distinction matters.
 
 ::: science
-Research on symptom presentation consistently shows that patients who arrive with organized, specific descriptions of their symptoms receive more accurate diagnoses and more efficient care. Langewitz and colleagues, in a widely cited _BMJ_ study, found that when patients were allowed to describe their concerns in structured, uninterrupted fashion at the start of a visit, the entire consultation worked better --- not worse --- despite the clinician's instinct to redirect early.[^s6-2]
+Research on symptom presentation consistently shows that patients who arrive with organized, specific descriptions of their symptoms receive more accurate diagnoses and more efficient care. Langewitz and colleagues, in a widely cited _BMJ_ study, found that when patients were allowed to describe their concerns in structured, uninterrupted fashion at the start of a visit, the entire consultation worked better — not worse — despite the clinician's instinct to redirect early.[^s6-2]
 :::
 
 
@@ -272,7 +272,7 @@ Research on symptom presentation consistently shows that patients who arrive wit
 
 ### Example 3: An HVAC Quote That Seems High
 
-The situation: your air conditioning stopped cooling. You called an HVAC company. The technician came out, spent twenty minutes, and quoted you $8,200 to replace the entire system. You have no idea if the system actually needs replacing or if the quote is fair. You're about to spend more than you've ever spent on a single purchase based on one person's assessment.
+The situation: your air conditioning stopped cooling. You called an HVAC company. The technician came out, spent 20 minutes, and quoted you $8,200 to replace the entire system. You have no idea if the system actually needs replacing or if the quote is fair. You're about to spend more than you've ever spent on a single purchase based on one person's assessment.
 
 *Your opening message:*
 
