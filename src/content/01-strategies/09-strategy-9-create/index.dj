@@ -205,7 +205,7 @@ A first draft from an AI is a first draft. It is not a failure if it needs revis
 
 *Pass 4 — Read aloud.* Every writer's final pass, AI-assisted or not. Anything that stumbles when spoken needs revision.
 
-The target is not a draft that needs no revision. The target is a draft where Pass 3 takes twenty minutes instead of two hours.
+The target is not a draft that needs no revision. The target is a draft where Pass 3 takes 20 minutes instead of two hours.
 
 ---
 
@@ -225,14 +225,14 @@ _"The first draft of anything is shit."_ [Hemingway](https://en.wikipedia.org/wi
 
 ### Example 1: A Wedding Toast
 
-The situation: your best friend is getting married in six weeks and you are the maid of honor. You have five minutes for the toast---the wedding planner was specific about this. You have a phone full of photos from college through last year. You know the stories you want to tell. You have no idea which to keep, which to cut, or how to organize them so the whole thing doesn't turn into a rambling This Is Your Life that loses the room at minute two. You also want a slideshow running behind you---not a karaoke prompter, just photos that match the moments you're talking about. The problem is not material. The problem is architecture: five minutes, one arc, a room full of people who mostly don't know you.
+The situation: your best friend is getting married in six weeks and you are the maid of honor. You have five minutes for the toast — the wedding planner was specific about this. You have a phone full of photos from college through last year. You know the stories you want to tell. You have no idea which to keep, which to cut, or how to organize them so the whole thing doesn't turn into a rambling This Is Your Life that loses the room at minute two. You also want a slideshow running behind you — not a karaoke prompter, just photos that match the moments you're talking about. The problem is not material. The problem is architecture: five minutes, one arc, a room full of people who mostly don't know you.
 
 *Your opening message:*
 
 ::: prompt
 I'm the maid of honor at my best friend's wedding. I have 5
 minutes for the toast. I want to do a slideshow of photos behind
-me while I talk---not reading off the slides, just having them
+me while I talk — not reading off the slides, just having them
 match what I'm saying. I've got about 40 photos from college
 to now.
 
@@ -248,9 +248,9 @@ Five minutes is about 650-750 words spoken at a natural pace.
 That's less than most people think. I'll interview you into the
 structure.
 
-First---the bride. What's her name, and what's the one thing about
+First — the bride. What's her name, and what's the one thing about
 her that the people who love her would all recognize? Not a
-fact---a quality. The thing that makes her her.
+fact — a quality. The thing that makes her her.
 :::
 
 *Your answer:*
@@ -266,11 +266,11 @@ makes you feel like you matter.
 *Your Agent:*
 
 ::: agent
-That's the spine of the toast---Lena pays attention. Every story
+That's the spine of the toast — Lena pays attention. Every story
 you tell should be an example of that quality in action. Here's the
 architecture.
 
-OUTLINE---5 MINUTES, 700 WORDS
+OUTLINE — 5 MINUTES, 700 WORDS
 
 1. OPENING (30 sec, ~90 words)
    — Introduce yourself and your relationship to Lena
@@ -281,20 +281,20 @@ OUTLINE---5 MINUTES, 700 WORDS
 2. STORY 1: THE SMALL MOMENT (60 sec, ~150 words)
    — A specific, concrete example of Lena paying attention to
      someone in a way that surprised you
-   — This should be a story the room can picture---a moment,
+   — This should be a story the room can picture — a moment,
      not a summary
    — Slides: 2-3 photos from this era
 
 3. STORY 2: THE BIG MOMENT (60 sec, ~150 words)
    — A time Lena's attention to people mattered when things
-     were hard---not a crisis story, but a moment where that
+     were hard — not a crisis story, but a moment where that
      quality carried real weight
    — This is the emotional center of the toast
    — Slides: 2-3 photos
 
 4. THE TURN TO THE COUPLE (60 sec, ~150 words)
    — When you first saw that the partner gets the same
-     treatment---or better, a moment where you saw the partner
+     treatment — or better, a moment where you saw the partner
      paying attention to Lena the same way she pays attention
      to everyone else
    — This is where the toast becomes about the marriage, not
@@ -303,7 +303,7 @@ OUTLINE---5 MINUTES, 700 WORDS
 
 5. CLOSE (30 sec, ~90 words)
    — One line back to the quality
-   — The toast itself---raise the glass
+   — The toast itself — raise the glass
    — Slide: one photo of Lena laughing. End on her face.
 
 CONSTRAINTS
@@ -311,7 +311,7 @@ CONSTRAINTS
   4:45, cut from Story 1, not the close.
 — No inside jokes the room can't follow. If you have to explain
   it, cut it.
-— No "I remember when"---start in the scene. "It was junior year
+— No "I remember when" — start in the scene. "It was junior year
   and Lena showed up at my door with..." not "I remember when
   Lena came to my door."
 — The slideshow is atmosphere, not script. You should be able to
@@ -326,7 +326,7 @@ short versions and I'll tell you which is stronger where.
 ::: prompt
 Story 1: sophomore year, I was stressed about a chem final and
 mentioned I hadn't eaten. The next morning there was a bag on my
-door handle---a bagel, an orange, and a note that said "eat this
+door handle — a bagel, an orange, and a note that said "eat this
 then go pass that test." She never mentioned it again.
 
 Story 2: my mom got diagnosed with MS our senior year. Lena
@@ -335,7 +335,7 @@ every other weekend without me asking. Four hours round trip.
 She'd bring snacks and never once ask how I was feeling about
 it. She just showed up.
 
-For the couple part---I watched Lena's fiancé Dev make her a
+For the couple part — I watched Lena's fiancé Dev make her a
 whole birthday scavenger hunt last year with clues based on
 things she'd mentioned in passing. She cried. I thought: okay,
 he gets it. He pays attention to the person who pays attention
@@ -345,9 +345,9 @@ to everyone else.
 *Your Agent:*
 
 ::: agent
-All three land. The bagel story is the right Story 1---small,
+All three land. The bagel story is the right Story 1 — small,
 specific, visual. The room can see the bag on the door handle.
-The MS story is Story 2---it carries weight without being heavy
+The MS story is Story 2 — it carries weight without being heavy
 because you're describing what she did, not how you felt. The Dev
 scavenger hunt is a strong turn to the couple.
 
@@ -360,7 +360,7 @@ before the toast.
 SLIDESHOW SEQUENCE
 — Opening: you and Lena, early college. Something candid.
 — Story 1: a photo from sophomore year. Doesn't need to be the
-  exact day---just that era, the two of you.
+  exact day — just that era, the two of you.
 — Story 2: a photo from senior year. If you have one of the
   drives home, use it. If not, anything from that period where
   you're together.
@@ -374,13 +374,13 @@ you want to write it yourself and have me time-check it?
 :::
 
 ::: tip
-The architecture has five slots and a time budget. That is the whole skill. Most wedding toasts fail because the speaker has twelve stories and no structure---they keep adding material until the planner is waving from the back of the room. The spec fixed the word count first (700 words, five minutes), then built the arc to fit. The slideshow is a separate constraint: it supports the toast but doesn't drive it. The Agent proposed cutting from Story 1 if you're over time---because the close is the part the room will remember and the part most people cut when they're panicking about the clock.
+The architecture has five slots and a time budget. That is the whole skill. Most wedding toasts fail because the speaker has 12 stories and no structure — they keep adding material until the planner is waving from the back of the room. The spec fixed the word count first (700 words, five minutes), then built the arc to fit. The slideshow is a separate constraint: it supports the toast but doesn't drive it. The Agent proposed cutting from Story 1 if you're over time — because the close is the part the room will remember and the part most people cut when they're panicking about the clock.
 :::
 
 
 ### Example 2: A Branching Short Story
 
-The situation: you have a short story you want to write. A woman cleaning out her late father's apartment finds a shoebox in the back of his closet---letters, birthday cards, school photos of a child she has never seen. The return address is in another city. The photos span about ten years and then stop in 1996. She has a half-sibling she never knew about. You know the premise but you're stuck on the ending---you can see at least two directions and you don't know which is stronger. Two branch points: whether she tracks down the sibling or leaves it alone, and whether the sibling already knew about her or didn't. Four paths. You want to generate all four and pick the strongest before committing to a linear version.
+The situation: you have a short story you want to write. A woman cleaning out her late father's apartment finds a shoebox in the back of his closet — letters, birthday cards, school photos of a child she has never seen. The return address is in another city. The photos span about 10 years and then stop in 1996. She has a half-sibling she never knew about. You know the premise but you're stuck on the ending — you can see at least two directions and you don't know which is stronger. Two branch points: whether she tracks down the sibling or leaves it alone, and whether the sibling already knew about her or didn't. Four paths. You want to generate all four and pick the strongest before committing to a linear version.
 
 *Your opening message:*
 
@@ -398,7 +398,7 @@ Four possible endings. I want to spec all four and pick the
 strongest. Here's what I know: she's 47,
 divorced, was close to her father, and is doing the apartment
 alone because there's no one else to do it. The photos stop
-in 1996---the sibling would have been about 12. She doesn't
+in 1996 — the sibling would have been about 12. She doesn't
 know why they stop.
 :::
 
@@ -407,13 +407,13 @@ know why they stop.
 ::: agent
 Four paths from two binary choices. Here are the specs:
 
-THE FIXED FRAME---ALL FOUR PATHS SHARE THIS
+THE FIXED FRAME — ALL FOUR PATHS SHARE THIS
 — Opening: Claire is packing her father's apartment. The
   closet. The shoebox. She opens it expecting old tax returns.
   Instead: a child's face she doesn't recognize, repeated across
-  ten years of school photos, birthday cards signed "Dad," and
+  10 years of school photos, birthday cards signed "Dad," and
   letters from an address in Dayton, Ohio.
-— Her emotional state at the branch point: not anger---a strange,
+— Her emotional state at the branch point: not anger — a strange,
   retroactive loneliness. Her father had a whole person he never
   mentioned. She had a sibling and didn't know it. The grief she's
   been managing just got larger.
@@ -432,11 +432,11 @@ PATH A1: TRACK DOWN + SIBLING KNEW
 PATH A2: TRACK DOWN + SIBLING DIDN'T KNOW
 — Deterministic: Claire finds Paul. He had no idea she existed.
   His mother told him his father left when he was 12.
-— Dynamic: his reaction---the recalculation of his own story
+— Dynamic: his reaction — the recalculation of his own story
 — Constraint: he is not angry at Claire. He is angry at a dead
   man, which is a particular kind of anger that has nowhere to go.
 — Ending: they exchange photos. He has pictures she's never
-  seen---her father younger, in a different city, in a life she
+  seen — her father younger, in a different city, in a life she
   didn't know about. She has the school photos from the box. They
   are trading pieces of the same person.
 
@@ -448,14 +448,14 @@ PATH B1: LEAVE IT ALONE + SIBLING KNEW
   what she thinks about at 2 AM, whether she tells anyone
 — Constraint: this is not cowardice. She has calculated the cost
   of a revelation she cannot undo and decided the cost is too
-  high---for her, and possibly for someone in Dayton who may have
+  high — for her, and possibly for someone in Dayton who may have
   built a life without this information.
 — Ending: she keeps the box. It sits in her own closet now.
   She has inherited her father's secret and his silence.
 
 PATH B2: LEAVE IT ALONE + SIBLING DIDN'T KNOW
 — Deterministic: Claire puts the box back. But the sibling
-  didn't know, and never will---the story that almost happened.
+  didn't know, and never will — the story that almost happened.
 — Dynamic: Claire moving through ordinary days with the
   knowledge that someone exists who shares her blood and
   her father's face and doesn't know it
@@ -465,7 +465,7 @@ PATH B2: LEAVE IT ALONE + SIBLING DIDN'T KNOW
   the right age with something familiar in his face. It is not
   him. It is never him. But she will keep looking.
 
-Which paths should I draft first? I'd suggest A1 and B1---they're
+Which paths should I draft first? I'd suggest A1 and B1 — they're
 the sharpest contrast. One ends with two people in a room. The
 other ends with a box in a closet. Comparing them will tell you
 whether the story is about connection or about inheritance.
@@ -474,11 +474,11 @@ whether the story is about connection or about inheritance.
 *Your follow-up (after reading both drafts):*
 
 ::: prompt
-I read both. A1 has the best single scene---the phone call where
+I read both. A1 has the best single scene — the phone call where
 Paul says "I know who you are" and she realizes she's not
 delivering news, she's arriving late. But the ending flattens out.
-B1 is quieter but the last image---inheriting the secret along
-with the apartment---is devastating. What if she tracks him down,
+B1 is quieter but the last image — inheriting the secret along
+with the apartment — is devastating. What if she tracks him down,
 has the phone call from A1, but then they both decide not to meet?
 The connection happens and they choose not to continue it.
 :::
@@ -486,7 +486,7 @@ The connection happens and they choose not to continue it.
 *Your Agent:*
 
 ::: agent
-That's the strongest version---you couldn't have found it without
+That's the strongest version — you couldn't have found it without
 generating both paths first. Here's the architecture for the linear
 story:
 
@@ -495,7 +495,7 @@ story:
   answers. "I know who you are." The conversation is real---
   careful, loaded, two people holding the same broken thing
   from different ends.
-— Turn (new): They talk for forty minutes. They learn what
+— Turn (new): They talk for 40 minutes. They learn what
   they needed to learn. And then, without either of them saying
   it directly, they agree that this call is enough. Not because
   they don't care. Because the relationship their father never
@@ -510,13 +510,13 @@ architecture. Ready?
 :::
 
 ::: tip
-You did not choose the story's direction before you saw the directions. You generated multiple paths, read them, and combined the strongest elements from different branches into something none of the individual paths contained on their own. The branching structure is not just an interactive fiction technique---it is a generative tool. It gives your instinct material to react to instead of blank space.
+You did not choose the story's direction before you saw the directions. You generated multiple paths, read them, and combined the strongest elements from different branches into something none of the individual paths contained on their own. The branching structure is not just an interactive fiction technique — it is a generative tool. It gives your instinct material to react to instead of blank space.
 :::
 
 
 ### Example 3: A Game Narrative Prototype
 
-The situation: you are building an indie RPG and you need to prototype the first social location---a tavern where the player meets three characters who each know something about a missing blacksmith. You know what each character knows and what the player should learn from them. You do not want to write a dozen conversation trees from scratch. You want deterministic quest information delivered through dynamic dialogue that responds to how the player approaches each character.
+The situation: you are building an indie RPG and you need to prototype the first social location — a tavern where the player meets three characters who each know something about a missing blacksmith. You know what each character knows and what the player should learn from them. You do not want to write a dozen conversation trees from scratch. You want deterministic quest information delivered through dynamic dialogue that responds to how the player approaches each character.
 
 *Your opening message:*
 
@@ -532,7 +532,7 @@ Surface want: Customers to pay their tabs.
 Deep want: To be left alone. She's tired.
 Afraid of: Being the person who tells someone something that
 gets them killed.
-Speech: Short sentences. Doesn't ask questions---makes
+Speech: Short sentences. Doesn't ask questions — makes
 statements. Never says anyone's name. Calls everyone "love."
 Never says: Anything about her own past. Anything that sounds
 like gossip.
@@ -545,7 +545,7 @@ Deep want: Information. He collects it and sells it elsewhere.
 Afraid of: Being in one place too long.
 Speech: Fast. Talks in lists. Changes subject without warning.
 Asks questions to avoid answering them.
-Never says: Where he's going next. Anything definitive---always
+Never says: Where he's going next. Anything definitive — always
 "I heard" or "people say."
 Reference voice: [Columbo](https://en.wikipedia.org/wiki/Columbo).
 
@@ -556,7 +556,7 @@ Deep want: Reassurance that it's not her fault he left.
 Afraid of: That he left because of something she did.
 Speech: Starts sentences and doesn't finish them. Repeats
 herself when nervous. Uses "I don't know" as a shield.
-Never says: What happened the night before he disappeared---not
+Never says: What happened the night before he disappeared — not
 because she's hiding it, but because she hasn't processed it.
 Reference voice: Early-season [Eleven](https://en.wikipedia.org/wiki/Eleven_(Stranger_Things)) from [Stranger Things](https://en.wikipedia.org/wiki/Stranger_Things).
 :::
@@ -572,7 +572,7 @@ DETERMINISTIC QUEST INFORMATION
   volunteer this. She will confirm it only if the player asks
   the right question.
 — Dex knows: the blacksmith ordered unusual materials last
-  month---silver-alloy stock, not standard iron. He'll mention
+  month — silver-alloy stock, not standard iron. He'll mention
   it casually if the player talks trade.
 — Rin knows: the blacksmith was working on something he wouldn't
   show her. He locked the forge two nights before he disappeared.
@@ -585,7 +585,7 @@ CONSTRAINTS
 — None of them lie. They withhold, deflect, or haven't processed
   what they know.
 
-MAEVE---FIRST APPROACH
+MAEVE — FIRST APPROACH
 
 [Player approaches the bar]
 
@@ -632,7 +632,7 @@ catch that?
 *Your Agent:*
 
 ::: agent
-You're right---that line was mine, not hers. She wouldn't
+You're right — that line was mine, not hers. She wouldn't
 editorialize about withholding. Corrected version ends on the
 observable fact:
 
@@ -653,25 +653,25 @@ announcing the door is closing. Want me to draft Dex and Rin?
 :::
 
 ::: tip
-"That line was mine, not hers." This is the most useful revision note in AI-assisted creative work. When a line is technically competent but does not belong to the character, it belongs to the Agent. The character voice spec tells you whose it should be. Point to the spec, point to the line, and say which character it sounds like and which it should sound like. Negative feedback---"Maeve wouldn't editorialize"---is more actionable than positive: it tells the Agent which constraint was violated.
+"That line was mine, not hers." This is the most useful revision note in AI-assisted creative work. When a line is technically competent but does not belong to the character, it belongs to the Agent. The character voice spec tells you whose it should be. Point to the spec, point to the line, and say which character it sounds like and which it should sound like. Negative feedback — "Maeve wouldn't editorialize" — is more actionable than positive: it tells the Agent which constraint was violated.
 :::
 
 
 ::: also
-All four major AI tools handle creative writing and dialogue generation. Claude's extended conversations maintain character voice across long sessions. ChatGPT's custom GPTs can store a character bible permanently. Gemini's large context window holds novel-length architectures in a single session. Copilot integrates with Word for prose drafting. For game narrative specifically, the dialogue your Agent generates can be exported directly into [Ink](https://www.inklestudios.com/ink/), [Twine](https://twinery.org/), or [Yarn Spinner](https://yarnspinner.dev/)---your Agent writes the words, your narrative engine handles the branching logic.
+All four major AI tools handle creative writing and dialogue generation. Claude's extended conversations maintain character voice across long sessions. ChatGPT's custom GPTs can store a character bible permanently. Gemini's large context window holds novel-length architectures in a single session. Copilot integrates with Word for prose drafting. For game narrative specifically, the dialogue your Agent generates can be exported directly into [Ink](https://www.inklestudios.com/ink/), [Twine](https://twinery.org/), or [Yarn Spinner](https://yarnspinner.dev/) — your Agent writes the words, your narrative engine handles the branching logic.
 :::
 
 
 ::: fairness
-The [MFA](https://en.wikipedia.org/wiki/Master_of_Fine_Arts) costs $40,000 to $120,000. The residential writing conference runs a couple thousand dollars a week. The developmental editor charges $3,000 to $10,000 per manuscript. These are the people who teach story architecture, character consistency, and structural revision---the skills this chapter covers. They have always existed, and they have always served the writers who could reach them. Your Agent does not replace an editor, a workshop, or a writing community---those are human infrastructure, and they matter. But the specific problem this chapter addresses---"I have a story and I don't know how to organize it"---was a cost barrier. The architecture interview takes fifteen minutes and costs nothing.
+The [MFA](https://en.wikipedia.org/wiki/Master_of_Fine_Arts) costs $40,000 to $120,000. The residential writing conference runs a couple thousand dollars a week. The developmental editor charges $3,000 to $10,000 per manuscript. These are the people who teach story architecture, character consistency, and structural revision — the skills this chapter covers. They have always existed, and they have always served the writers who could reach them. Your Agent does not replace an editor, a workshop, or a writing community — those are human infrastructure, and they matter. But the specific problem this chapter addresses — "I have a story and I don't know how to organize it" — was a cost barrier. The architecture interview takes 15 minutes and costs nothing.
 :::
 
 
 ::: meme
-[Moriarty](https://en.wikipedia.org/wiki/Moriarty%5F(Star%5FTrek)) in the corridor of the [Enterprise](https://en.wikipedia.org/wiki/USS_Enterprise_(NCC-1701-D)), breathing air he believes is real. The holodeck arch is gone. The walls are solid. He has escaped. He is free. He is the protagonist. Except every wall is a projection. Every detail was generated within someone else's constraints. The holodeck rendered his world without a single error---and that was the problem. A perfect rendering of someone else's architecture is still someone else's architecture.
+[Moriarty](https://en.wikipedia.org/wiki/Moriarty%5F(Star%5FTrek)) in the corridor of the [Enterprise](https://en.wikipedia.org/wiki/USS_Enterprise_(NCC-1701-D)), breathing air he believes is real. The holodeck arch is gone. The walls are solid. He has escaped. He is free. He is the protagonist. Except every wall is a projection. Every detail was generated within someone else's constraints. The holodeck rendered his world without a single error — and that was the problem. A perfect rendering of someone else's architecture is still someone else's architecture.
 :::
 
 
 ---
 
-Three projects. Three blank pages that stopped being blank---a wedding toast with five slots and a time budget that turned forty photos and a lifetime of friendship into five minutes that will make a room full of strangers cry, a short story whose strongest version came from combining two branches the writer could not have found by choosing one path in advance, and a tavern where three characters reveal information through the constraints that make them people instead of quest dispensers. None of these were written by the Agent. The Agent wrote sentences. The writers owned the architecture---the deterministic points, the constraints, the character bibles, the decisions about what matters and what is negotiable. Moriarty's tragedy was not that he was fictional. It was that he lived inside a story he believed he had written. The plot points were someone else's. The constraints were someone else's. The holodeck rendered his world beautifully, but the spec belonged to [Picard](https://en.wikipedia.org/wiki/Jean-Luc_Picard) and [Data](https://en.wikipedia.org/wiki/Data_(Star_Trek)). Your spec doesn't. The holodeck is rendering. The story is yours.
+Three projects. Three blank pages that stopped being blank — a wedding toast with five slots and a time budget that turned 40 photos and a lifetime of friendship into five minutes that will make a room full of strangers cry, a short story whose strongest version came from combining two branches the writer could not have found by choosing one path in advance, and a tavern where three characters reveal information through the constraints that make them people instead of quest dispensers. None of these were written by the Agent. The Agent wrote sentences. The writers owned the architecture — the deterministic points, the constraints, the character bibles, the decisions about what matters and what is negotiable. Moriarty's tragedy was not that he was fictional. It was that he lived inside a story he believed he had written. The plot points were someone else's. The constraints were someone else's. The holodeck rendered his world beautifully, but the spec belonged to [Picard](https://en.wikipedia.org/wiki/Jean-Luc_Picard) and [Data](https://en.wikipedia.org/wiki/Data_(Star_Trek)). Your spec doesn't. The holodeck is rendering. The story is yours.
