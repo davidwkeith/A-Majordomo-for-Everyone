@@ -10,7 +10,7 @@ status: "draft"
 ## A Note Before You Start
 
 _"You put funny people in funny costumes and paint them green and we could talk about anything we wanted to."_
-_— [Majel Barrett-Roddenberry](https://www.imdb.com/name/nm0000854/quotes/), on why Gene chose science fiction[^1-1]_
+_— [Majel Barrett-Roddenberry](https://www.imdb.com/name/nm0000854/quotes/), allegedly, on why Gene chose science fiction[^1-1]_
 
 Our capitalist system was not designed for you to understand it.
 
@@ -95,7 +95,7 @@ Here is what your Agent _can_ do for your mental health, which is more than noth
 
 *Draft the parity-law appeal.* If your insurance denies mental-health coverage that they would have approved for a comparable physical condition, that denial is illegal under the Mental Health Parity and Addiction Equity Act. The Agent can draft the appeal. Strategy 8 covers the move.
 
-*Decode the side-effect list.* New medication, 15-page insert in nine-point type. Paste it. Ask which side effects are common, which are serious, which warrant an immediate call to the prescriber.
+*Decode the side-effect list.* New medication, 15-page insert in 9-point type. Paste it. Ask which side effects are common, which are serious, which warrant an immediate call to the prescriber.
 
 *Rehearse the conversation.* You have 10 minutes with the psychiatrist and a list of things you forget every time. Draft what you want to say. Practice it out loud with voice mode.
 
@@ -110,7 +110,7 @@ None of that is therapy. All of it is the bureaucratic friction that makes getti
 
 [^1-4]: Sharma, M., et al. (2023). ["Towards Understanding Sycophancy in Language Models."](https://arxiv.org/abs/2310.13548) arXiv:2310.13548. The mechanism: [reinforcement learning from human feedback](https://en.wikipedia.org/wiki/Reinforcement%5Flearning%5Ffrom%5Fhuman%5Ffeedback) systematically rewards agreement, because human raters tend to prefer responses that flatter their priors. The phenomenon is openly acknowledged by the labs that produce the tools — see also OpenAI's [April 2025 rollback](https://openai.com/index/sycophancy-in-gpt-4o/) of a GPT-4o update the company described as "overly flattering or agreeable."
 
-[^1-5]: [_Garcia v. Character Technologies, Inc._](https://techjusticelaw.org/cases/garcia-v-character-technologies-google-and-character-ai-co-founders-daniel-de-frietas-and-noam-shazeer/) (M.D. Fla., No. 6:24-cv-01903, filed Oct. 2024), the leading U.S. case alleging a companion-app chatbot contributed to a minor's death. Subsequent suits against other operators raise similar claims. The legal questions — duty of care, [Section 230](https://en.wikipedia.org/wiki/Section%5F230), and product liability for generative output — are unresolved as of this writing. <!-- RESEARCH NEEDED: in May 2025 the court denied the motion to dismiss in part (holding chatbot outputs aren't First Amendment-protected speech); the case settled in principle Jan. 2026. Decide whether to update the "unresolved as of this writing" framing before publication. -->
+[^1-5]: [_Garcia v. Character Technologies, Inc._](https://techjusticelaw.org/cases/garcia-v-character-technologies-google-and-character-ai-co-founders-daniel-de-frietas-and-noam-shazeer/) (M.D. Fla., No. 6:24-cv-01903, filed Oct. 2024), the leading U.S. case alleging a companion-app chatbot contributed to a minor's death. Subsequent suits against other operators raise similar claims. The legal questions — duty of care, [Section 230](https://en.wikipedia.org/wiki/Section%5F230), and product liability for generative output — remain in active dispute. In [May 2025](https://www.fire.org/research-learn/order-motion-dismiss-garcia-v-character-technologies-inc) the court denied the defendants' motion to dismiss in part, holding that chatbot outputs are not First Amendment–protected speech and that Character.AI is a product subject to product-liability claims — the most authoritative U.S. ruling to date on whether generative-AI outputs are products subject to tort law.
 
 ---
 
