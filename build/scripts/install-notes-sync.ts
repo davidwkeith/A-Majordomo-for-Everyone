@@ -115,6 +115,12 @@ async function main(): Promise<void> {
   console.log(`  • Status:        npm run sync:notes:status`);
   console.log(`  • Manual run:    npm run sync:notes`);
   console.log(`  • Uninstall:     npm run sync:notes:uninstall`);
+  console.log('');
+  console.log('⚠️  If the daemon hangs on first launch, grant Full Disk Access to:');
+  console.log(`     ${process.execPath}`);
+  console.log('   (System Settings → Privacy & Security → Full Disk Access → +)');
+  console.log('   Then re-kickstart:');
+  console.log(`     launchctl kickstart -p "gui/$(id -u)/io.dwk.majordomo.notes-sync"`);
 }
 
 main().catch((e) => die(e instanceof Error ? e.message : String(e)));

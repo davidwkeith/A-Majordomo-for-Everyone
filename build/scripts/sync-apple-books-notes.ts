@@ -6,7 +6,8 @@
  * Exit 0 = success or soft-fail. Exit 1 = user needs to look at the log.
  */
 
-import { stat } from 'node:fs/promises';
+import { access, stat } from 'node:fs/promises';
+import { constants as fsConstants } from 'node:fs';
 import type Database from 'better-sqlite3';
 import { homedir } from 'node:os';
 import { reconcile } from '../notes/reconcile.js';
@@ -52,9 +53,41 @@ function log(severity: 'info' | 'warn' | 'error', event: string, fields: Record<
 
 async function main(): Promise<number> {
   const t0 = Date.now();
+
+  // Daemon-wide hard timeout: if anything async stalls (network,
+  // unexpected sqlite lock, etc.), bail before the LaunchAgent considers
+  // us still running and skips the next hourly fire.
+  const hardTimeout = setTimeout(() => {
+    log('error', 'hard-timeout', { 'elapsed-ms': Date.now() - t0 });
+    process.exit(1);
+  }, 60_000);
+  hardTimeout.unref();
+
   const home = homedir();
   const sPath = statePath(home);
   const state = await readState(sPath);
+
+  // FDA preflight: in launchd context the daemon may be denied access
+  // to ~/Library/Containers/com.apple.iBooksX/ even though the installer
+  // (run from the user's interactive shell) could see it. Use fs.access
+  // wrapped in a 5s timeout so a denied-or-stalled check fails fast
+  // rather than hanging the whole hourly slot.
+  const annDir = `${home}/Library/Containers/com.apple.iBooksX/Data/Documents/AEAnnotation`;
+  try {
+    await Promise.race([
+      access(annDir, fsConstants.R_OK),
+      new Promise<never>((_, reject) =>
+        setTimeout(() => reject(new Error('fda-timeout')), 5000)
+      ),
+    ]);
+  } catch (e) {
+    const msg = e instanceof Error ? e.message : String(e);
+    log('error', 'fda-check-failed', {
+      message: msg,
+      hint: `grant Full Disk Access to ${process.execPath}`,
+    });
+    return 1;
+  }
 
   const annPath = await findAnnotationDbPath(home);
   if (!annPath) {

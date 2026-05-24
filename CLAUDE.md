@@ -48,7 +48,11 @@ State lives outside the repo:
 - `~/Library/Application Support/majordomo/notes-sync-state.json` (mtime cache, asset_id, counters)
 - `~/Library/Logs/majordomo-notes-sync.log` (structured one-line-per-event log)
 
-Requires `gh auth login` to have been run once. See [the design spec](docs/superpowers/specs/2026-05-23-apple-books-notes-sync-design.md) for the full architecture.
+Requires `gh auth login` to have been run once.
+
+**macOS Full Disk Access:** The LaunchAgent-spawned daemon needs Full Disk Access to read `~/Library/Containers/com.apple.iBooksX/`. Interactive shells inherit this from Terminal/iTerm/Claude Code; LaunchAgents are attributed to their own responsible code and need explicit grants. After running `sync:notes:install`, open **System Settings → Privacy & Security → Full Disk Access**, click **+**, navigate to (Cmd+Shift+G) the node binary path printed by the installer (e.g. `/opt/homebrew/Cellar/node@22/22.22.2_1/bin/node`), and toggle it on. Then kickstart the daemon: `launchctl kickstart -p "gui/$(id -u)/io.dwk.majordomo.notes-sync"`.
+
+See [the design spec](docs/superpowers/specs/2026-05-23-apple-books-notes-sync-design.md) for the full architecture.
 
 ## Project Structure
 
