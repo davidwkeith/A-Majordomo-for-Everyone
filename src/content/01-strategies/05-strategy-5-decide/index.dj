@@ -53,7 +53,7 @@ _In the Field Guide: [M-5 (Retirement)](ref:m-5), [M-1 (Banking)](ref:m-1), [Li-
 
 ### Example 1: Repair or Replace a Washing Machine
 
-The situation: your washing machine stopped draining mid-cycle. It's 8 years old — a basic top-loader you bought at a big-box store. A repair tech came out, diagnosed a failed drain pump, and quoted $380 for parts and labor. A new comparable machine is $650. You're not sure which option is smarter.
+The situation: your washing machine stopped draining mid-cycle. It's eight years old — a basic top-loader you bought at a big-box store. A repair tech came out, diagnosed a failed drain pump, and quoted $380 for parts and labor. A new comparable machine is $650. You're not sure which option is smarter.
 
 *Your opening message:*
 
@@ -336,7 +336,7 @@ Financial advice from any source — human or AI — carries implicit assumption
 
 ### Example 3: Settle or Escalate a Landlord Dispute
 
-The situation: your apartment has had a persistent mold problem in the bathroom. You reported it 4 months ago. The landlord sent someone who painted over it. The mold came back within 3 weeks. You reported it again. The landlord hasn't responded in 6 weeks. Your kid has been coughing more. You want it fixed. You're also afraid of retaliation — you're month-to-month, and you know the landlord can end your tenancy with 60 days notice.
+The situation: your apartment has had a persistent mold problem in the bathroom. You reported it four months ago. The landlord sent someone who painted over it. The mold came back within three weeks. You reported it again. The landlord hasn't responded in six weeks. Your kid has been coughing more. You want it fixed. You're also afraid of retaliation — you're month-to-month, and you know the landlord can end your tenancy with 60 days notice.
 
 *Your opening message:*
 
@@ -389,7 +389,7 @@ OPTION A: ESCALATE THROUGH CODE ENFORCEMENT
 — Contact your city's code enforcement or housing
   inspection department. Request a habitability inspection
   for mold. In California, mold in a rental is a
-  habitability violation under Civil Code §1941.
+  habitability violation under Civil Code [§1941](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1941).
 — The inspector comes out, documents the mold, and
   issues a notice to the landlord requiring remediation
   within a set timeframe (usually 30 days).
@@ -404,7 +404,7 @@ OPTION B: NEGOTIATE DIRECTLY WITH DOCUMENTATION
 — Send the landlord a formal written demand citing the
   habitability violation, your documentation (texts,
   emails, photos, pediatrician's note), and California's
-  repair-and-deduct remedy (Civil Code §1942).
+  repair-and-deduct remedy (Civil Code [§1942](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1942)).
 — Under repair-and-deduct, if a landlord fails to make
   repairs within 30 days of written notice, you can hire
   someone to fix it yourself and deduct the cost from
@@ -433,7 +433,7 @@ OPTION C: SETTLE — ACCEPT THE SITUATION AND PLAN TO MOVE
 
 NOW — THE RETALIATION QUESTION:
 This is the thing keeping you up at night, so let me
-be specific. California Civil Code §1942.5 makes it
+be specific. California Civil Code [§1942.5](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1942.5) makes it
 illegal for a landlord to retaliate against a tenant
 who has complained about habitability violations. If
 your landlord tries to end your month-to-month tenancy
@@ -518,6 +518,6 @@ Mold exposure in residential settings is associated with a 30--50% increase in r
 [^s5-3]: Fisk, W.J., Lei-Gomez, Q. & Mendell, M.J. (2007). ["Meta-analyses of the associations of respiratory health effects with dampness and mold in homes."](https://doi.org/10.1111/j.1600-0668.2007.00475.x) _Indoor Air_, 17(4), 284-296.
 
 ::: meme
-"We were on a break." Ross and Rachel's problem was not the break. It was the ambiguous spec. Your landlord dispute has the same structure: the word "resolved" means different things to you and the landlord. Paint over the mold? Resolved. Mold comes back in 3 weeks? Not resolved. A code enforcement inspection resolves the ambiguity the same way a clarifying question would have resolved Ross and Rachel's — by putting the definition on the record before anyone acts on it.
+"We were on a break." Ross and Rachel's problem was not the break. It was the ambiguous spec. Your landlord dispute has the same structure: the word "resolved" means different things to you and the landlord. Paint over the mold? Resolved. Mold comes back in three weeks? Not resolved. A code enforcement inspection resolves the ambiguity the same way a clarifying question would have resolved Ross and Rachel's — by putting the definition on the record before anyone acts on it.
 :::
 
