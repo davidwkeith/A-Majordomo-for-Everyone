@@ -39,9 +39,19 @@ async function main(): Promise<void> {
   const home = homedir();
   const repo = repoRoot();
   const tsx = resolve(repo, 'node_modules', '.bin', 'tsx');
-  const path = '/usr/local/bin:/opt/homebrew/bin:/usr/bin:/bin';
+  // Prepend the install-time node's bin dir so the daemon uses the same
+  // node that built the better-sqlite3 native module. Without this, a
+  // user with multiple node versions (e.g. node@22 in their shell PATH
+  // but the default `/opt/homebrew/bin/node` being a newer release) would
+  // hit a NODE_MODULE_VERSION mismatch when launchd's PATH resolves to
+  // the wrong node.
+  const nodeDir = dirname(process.execPath);
+  const path = [nodeDir, '/usr/local/bin', '/opt/homebrew/bin', '/usr/bin', '/bin']
+    .filter((p, i, arr) => arr.indexOf(p) === i)
+    .join(':');
 
   console.log('[install-notes-sync] preflight...');
+  console.log(`[install-notes-sync]   node:  ${process.execPath} (${process.version})`);
 
   checkTool('gh');
 
