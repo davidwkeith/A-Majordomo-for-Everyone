@@ -24,10 +24,10 @@ _The systems that govern health, money, and legal standing get their own domains
 
 ::: prompt
 I need to have a difficult conversation with [relationship] about [topic].
-My goal is [specific outcome -- not "fix everything," something concrete].
+My goal is [specific outcome — not "fix everything," something concrete].
 I'm worried about [specific thing that could go wrong].
 I want to [preserve the relationship / set a clear boundary /
-reach a specific agreement -- choose one].
+reach a specific agreement — choose one].
 Please help me:
 1. Identify the key thing I need to say clearly
 2. Anticipate the most likely responses and how to handle them
@@ -40,11 +40,11 @@ This works well with voice mode on your phone — all major tools support it on 
 :::
 
 
-*Science Note:* Gottman (1999) identifies the "soft startup" as the single highest-leverage intervention in difficult conversations -- how you begin determines nearly everything that follows.[^li1-1]
+*Science Note:* Gottman (1999) identifies the "soft startup" as the single highest-leverage intervention in difficult conversations — how you begin determines nearly everything that follows.[^li1-1]
 
 [^li1-1]: Gottman, J.M. (1999). [_The Marriage Clinic._](https://www.gottman.com/product/the-new-marriage-clinic/) W.W. Norton.
 
-[^li1-2]: Gottman, J.M. et al. (1998). "Predicting Marital Happiness and Stability from Newlywed Interactions." _Journal of Marriage and the Family_, 60(1), 5–22.
+[^li1-2]: Gottman, J.M. et al. (1998). ["Predicting Marital Happiness and Stability from Newlywed Interactions."](https://doi.org/10.2307/353438) _Journal of Marriage and the Family_, 60(1), 5–22.
 
 ---
 
@@ -56,14 +56,14 @@ This works well with voice mode on your phone — all major tools support it on 
 *The Spec:*
 
 ::: prompt
-I need to write a eulogy for [relationship -- "my father," "my friend"].
+I need to write a eulogy for [relationship — "my father," "my friend"].
 Here are the things about them that I most want people to remember:
 [list 3-5 specific memories, qualities, or stories]
 The tone should be [celebratory / reflective / a mix].
 The audience is [family and close friends / a large public service].
 I have about [X] minutes.
 Please draft a eulogy I can edit into my own voice.
-The stories should come from what I've told you -- please don't
+The stories should come from what I've told you — please don't
 invent details I haven't given you.
 :::
 *What to do with the Output:* Edit it until it sounds like you, not like a machine. Read it out loud — twice. The parts that feel wrong in your mouth are the parts that need your words, not your Agent's. Print it on a card you can hold. Having something in your hands steadies them.
