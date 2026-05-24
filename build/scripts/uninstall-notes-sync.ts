@@ -12,8 +12,12 @@ import { join } from 'node:path';
 const LABEL = 'io.dwk.majordomo.notes-sync';
 
 async function main(): Promise<void> {
+  if (typeof process.getuid !== 'function') {
+    console.error('This script requires a POSIX environment (macOS).');
+    process.exit(1);
+  }
   const home = homedir();
-  const uid = process.getuid?.() ?? 0;
+  const uid = process.getuid!();
   const dest = join(home, 'Library', 'LaunchAgents', `${LABEL}.plist`);
 
   console.log('[uninstall-notes-sync] booting out...');

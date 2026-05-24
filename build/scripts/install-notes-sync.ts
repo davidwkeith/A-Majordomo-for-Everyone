@@ -36,6 +36,10 @@ function repoRemote(repo: string): string {
 }
 
 async function main(): Promise<void> {
+  if (typeof process.getuid !== 'function') {
+    console.error('This script requires a POSIX environment (macOS).');
+    process.exit(1);
+  }
   const home = homedir();
   const repo = repoRoot();
   const tsx = resolve(repo, 'node_modules', '.bin', 'tsx');
@@ -90,10 +94,10 @@ async function main(): Promise<void> {
   console.log(`[install-notes-sync]   wrote ${dest}`);
 
   console.log('[install-notes-sync] loading via launchctl bootstrap...');
-  const uid = process.getuid?.() ?? 0;
+  const uid = process.getuid!();
   const bootstrap = spawnSync('launchctl', ['bootstrap', `gui/${uid}`, dest], { encoding: 'utf8' });
   if (bootstrap.status !== 0) {
-    if (/already loaded|Bootstrap failed/i.test(bootstrap.stderr)) {
+    if (/already loaded|already bootstrapped/i.test(bootstrap.stderr)) {
       console.log('[install-notes-sync]   already loaded — replacing');
       spawnSync('launchctl', ['bootout', `gui/${uid}/${LABEL_PLIST}`], { encoding: 'utf8' });
       const second = spawnSync('launchctl', ['bootstrap', `gui/${uid}`, dest], { encoding: 'utf8' });

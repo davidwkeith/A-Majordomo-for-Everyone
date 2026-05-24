@@ -31,6 +31,12 @@ describe('findAssetId', () => {
   it('returns null for a title that does not exist', () => {
     expect(findAssetId(libraryDb, 'No Such Book')).toBeNull();
   });
+
+  it('returns the most-recently-added asset when multiple share the title', () => {
+    // Seed an additional row with a higher Z_PK and the same title
+    libraryDb.exec("INSERT INTO ZBKLIBRARYASSET VALUES (99, 'ASSET-NEWER', 'Majordomo');");
+    expect(findAssetId(libraryDb, BOOK_TITLE)).toBe('ASSET-NEWER');
+  });
 });
 
 describe('listAnnotations', () => {
@@ -43,6 +49,11 @@ describe('listAnnotations', () => {
   it('filters out soft-deleted annotations', () => {
     const rows = listAnnotations(annotationDb, 'ASSET-MAJORDOMO');
     expect(rows.find((r) => r.uuid === 'UUID-D')).toBeUndefined();
+  });
+
+  it('filters out annotations with empty/whitespace-only notes', () => {
+    const rows = listAnnotations(annotationDb, 'ASSET-MAJORDOMO');
+    expect(rows.find((r) => r.uuid === 'UUID-E')).toBeUndefined();
   });
 
   it('filters by asset_id (no annotations from other books)', () => {

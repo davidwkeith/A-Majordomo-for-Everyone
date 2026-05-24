@@ -21,6 +21,7 @@ import {
   editIssue,
   listAutoFiledIssues,
 } from '../notes/github-target.js';
+import { parseUuid } from '../notes/uuid-parse.js';
 import {
   findAnnotationDbPath,
   findAssetId,
@@ -167,7 +168,8 @@ async function main(): Promise<number> {
     log('error', 'gh-list-failed', { message: msg });
     return 1;
   }
-  log('info', 'gh-list', { existing: existing.length, 'with-uuid': existing.length });
+  const withUuid = existing.filter((i) => parseUuid(i.body) !== null).length;
+  log('info', 'gh-list', { existing: existing.length, 'with-uuid': withUuid });
 
   const actions: Action[] = reconcile(annotations, existing);
   const counts = { create: 0, update: 0, noop: 0 };

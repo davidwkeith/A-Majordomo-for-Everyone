@@ -63,7 +63,9 @@ export async function openReadonly(path: string): Promise<Database.Database> {
 
 export function findAssetId(libraryDb: Database.Database, title: string): string | null {
   const row = libraryDb
-    .prepare<[string], { ZASSETID: string }>('SELECT ZASSETID FROM ZBKLIBRARYASSET WHERE ZTITLE = ?')
+    .prepare<[string], { ZASSETID: string }>(
+      'SELECT ZASSETID FROM ZBKLIBRARYASSET WHERE ZTITLE = ? ORDER BY Z_PK DESC LIMIT 1'
+    )
     .get(title);
   return row?.ZASSETID ?? null;
 }
@@ -103,6 +105,7 @@ export function listAnnotations(annotationDb: Database.Database, assetId: string
        FROM ZAEANNOTATION
        WHERE ZANNOTATIONASSETID = ?
          AND ZANNOTATIONNOTE IS NOT NULL
+         AND length(trim(ZANNOTATIONNOTE)) > 0
          AND (ZANNOTATIONDELETED IS NULL OR ZANNOTATIONDELETED = 0)
        ORDER BY ZANNOTATIONLOCATION`
     )

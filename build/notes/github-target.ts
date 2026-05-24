@@ -8,21 +8,12 @@ import { spawnSync } from 'node:child_process';
 import type { IssueRecord, RenderedIssue } from './types.js';
 import { LABEL_NAME } from './types.js';
 
-interface SpawnResult {
-  status: number | null;
-  stdout: string | Buffer;
-  stderr: string | Buffer;
-  signal: NodeJS.Signals | null;
-}
-
 function runGh(args: string[]): { stdout: string; stderr: string } {
-  const r = spawnSync('gh', args, { encoding: 'utf8' }) as unknown as SpawnResult;
-  const stdout = typeof r.stdout === 'string' ? r.stdout : r.stdout.toString('utf8');
-  const stderr = typeof r.stderr === 'string' ? r.stderr : r.stderr.toString('utf8');
+  const r = spawnSync('gh', args, { encoding: 'utf8' });
   if (r.status !== 0) {
-    throw new Error(`gh ${args.join(' ')} exited ${r.status}: ${stderr.trim()}`);
+    throw new Error(`gh ${args.join(' ')} exited ${r.status}: ${r.stderr.trim()}`);
   }
-  return { stdout, stderr };
+  return { stdout: r.stdout, stderr: r.stderr };
 }
 
 export async function listAutoFiledIssues(): Promise<IssueRecord[]> {
@@ -57,9 +48,8 @@ export async function createLabelIfMissing(): Promise<boolean> {
     'gh',
     ['label', 'create', LABEL_NAME, '--description', 'Auto-filed from Apple Books annotations', '--color', 'ededed'],
     { encoding: 'utf8' }
-  ) as unknown as SpawnResult;
-  const stderr = typeof r.stderr === 'string' ? r.stderr : r.stderr.toString('utf8');
+  );
   if (r.status === 0) return true;
-  if (/already exists/i.test(stderr)) return false;
-  throw new Error(`gh label create exited ${r.status}: ${stderr.trim()}`);
+  if (/already exists/i.test(r.stderr)) return false;
+  throw new Error(`gh label create exited ${r.status}: ${r.stderr.trim()}`);
 }

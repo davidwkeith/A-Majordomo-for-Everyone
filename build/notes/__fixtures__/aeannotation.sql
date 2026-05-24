@@ -58,6 +58,15 @@ INSERT INTO ZAEANNOTATION VALUES (
   1
 );
 INSERT INTO ZAEANNOTATION VALUES (
+  105, 'UUID-E', 'ASSET-MAJORDOMO',
+  'empty whitespace note',
+  'A row with a whitespace-only ZANNOTATIONNOTE.',
+  '   ',
+  'epubcfi(/6/4[00-epigraph]!/4/2/10/1,:0,:20)',
+  801238550.0,
+  0
+);
+INSERT INTO ZAEANNOTATION VALUES (
   201, 'UUID-OTHER', 'ASSET-OTHER',
   'From other',
   'From a different book entirely.',
