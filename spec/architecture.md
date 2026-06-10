@@ -84,7 +84,7 @@ PART THREE: THE GENERAL METHOD
 
 **Navigation guide for the impatient reader:**
 
-- Want to build your own website → Part Two, Online Presence domain
+- Want to build your own website → Part Two, Computer & Web domain
 - Need to fight an insurance denial tonight → Part Two, Health domain
 - Want to understand the skill before using it → Part One, Strategy 1 (Decode) or Strategy 8 (Assert)
 - Have a situation this book doesn't cover → Part Three
