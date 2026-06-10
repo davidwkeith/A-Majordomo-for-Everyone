@@ -54,7 +54,7 @@ PART TWO: THE FIELD GUIDE
 		   W- / C- / Ch- / IRL- / WB- / Cr- / Tr-
 
   Note: Drugs (formerly a separate domain with D- prefix)
-  is merged into the Health domain as H-9 through H-19,
+  is merged into the Health domain as H-9 through H-17,
   introduced by a sub-section heading. The health system
   and the substances it prescribes, regulates, and fails
   to explain are the same structural problem.
