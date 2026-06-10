@@ -3,7 +3,7 @@
 ```
 title:        Majordomo
 subtitle:     Billionaires have staff, now you do too.
-cover-tag:    DON'T PROMPT (large, warm, friendly letters — see spec/illustration/cover.art.md)
+cover-tag:    DON'T PROMPT (blocky, institutional rubber stamp — see spec/illustration/cover.art.md)
 language:     en-US
 trim:         Mass market paperback / 5.5" x 8.5"
 epub-version: 3.0
