@@ -3,7 +3,7 @@
 ```
 title:        Majordomo
 subtitle:     Billionaires have staff, now you do too.
-cover-tag:    DON'T PROMPT (large, warm, friendly letters — see cover notes)
+cover-tag:    DON'T PROMPT (large, warm, friendly letters — see spec/illustration/cover.art.md)
 language:     en-US
 trim:         Mass market paperback / 5.5" x 8.5"
 epub-version: 3.0
@@ -31,6 +31,6 @@ illustrations: Trinitron chapter openers (10, one per strategy chapter),
 			   inline graphics throughout all parts, introduction
 			   epigraph vignettes, callout doodle icons (6 types).
 			   See Illustration Spec and Master Episode Index.
-cover-image:  tbd — see cover notes below
+cover-image:  src/images/cover.png — brief at spec/illustration/cover.art.md
 rights:       © 2025 David W. Keith. CC BY-SA 4.0.
 ```
