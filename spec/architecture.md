@@ -11,12 +11,12 @@ INTRODUCTION
   Chapter 1: What These Tools Are.
   Chapter 2: Your First Three Conversations.
   Chapter 3: The Free Tier Playbook.
-  Chapter 4: How to Ask.
+  Chapter 4: How to Ask for What You Actually Want.
 
 PART ONE: THE STRATEGIES
   Ten chapters. One meta-strategy (Specify) and nine applications.
   Each chapter teaches one skill through two or three worked examples.
-  Each example includes a full [SPEC] loop:
+  The canonical [SPEC] loop, shown end to end in Strategy 0:
 	— reader's loose opening situation
 	— Claude's clarifying questions
 	— reader's answers
@@ -24,6 +24,10 @@ PART ONE: THE STRATEGIES
 	— reader reviews and corrects
 	— Claude executes
 	— reader evaluates; refinement if needed
+  Other chapters may compress the propose/review/correct beats
+  (opening → clarifying questions → answers → execution) when the
+  example's teaching focus is elsewhere. The full loop is Strategy 0's
+  job; the applications show the compressed working rhythm.
 
   Strategy 0: Specify  — the meta-strategy. Runs before all others.
 						  Claude interviews you into a spec.
@@ -42,7 +46,7 @@ PART ONE: THE STRATEGIES
 PART TWO: THE FIELD GUIDE
   Short Skills organized by life domain.
   Each Skill: Majordomo opener + confirmed spec + strategy tag(s).
-  ~80 Skills covering the most common situations.
+  ~130 Skills covering the most common situations.
   A Skill is the human-facing equivalent of an LLM's
   SKILLS.md entry: small, named, self-contained recipes
   you reach for when a situation matches.
@@ -63,7 +67,10 @@ PART TWO: THE FIELD GUIDE
   before the first Skill. This is the domain-level equivalent
   of the Majordomo opener: it frames the structural problem
   the domain addresses, positions the reader, and sets the
-  tonal register. One paragraph, no heading.
+  tonal register. One paragraph, no heading. A domain may
+  additionally open with a short attributed epigraph quote
+  before the intro paragraph when the quote earns its place
+  (Life, Computer & Web, and Creative do this).
 
   The real workflow is iterative, not single-shot:
   initial spec → Agent response → qualifying follow-up →
@@ -79,6 +86,8 @@ PART THREE: THE GENERAL METHOD
   How to recognize a correct spec when Claude proposes one.
   When to use a human instead.
   The calibration question.
+  Advanced free-tier strategies (rotation, cross-checking,
+  the Household Majordomo).
   How to teach this to someone else.
 ```
 

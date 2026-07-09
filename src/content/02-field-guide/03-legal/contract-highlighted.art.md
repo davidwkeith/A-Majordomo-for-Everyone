@@ -2,7 +2,8 @@
 format: png
 size: half-right
 alt: >
-  A printed contract page with three clauses marked in different colors — red for one-sided terms, yellow for unusual clauses, green for standard language
+  A contract page marked by risk: red on a one-sided clause, yellow on
+  an unusual clause, green on standard language.
 ---
 
 Hand-drawn #2 pencil sketch of a single contract page on plain white

@@ -20,7 +20,7 @@ _Triage the problem before you call someone expensive._
 
 The repair manual existed. The diagnostic question existed. Al existed. Tim had a drill and a theory and a show to tape.
 
-*The lesson:* The repairperson, the specialist, and the contractor all charge from the moment of contact. Getting the diagnosis wrong before you call them costs you the price of the wrong fix plus the price of the right one. The AI has read the repair manual. It will ask the diagnostic questions Al always asked. Unlike Tim, you are going to listen.
+*The lesson:* The repairperson, the specialist, and the contractor all charge from the moment of contact. Getting the diagnosis wrong before you call them costs you the price of the wrong fix plus the price of the right one. Your Agent has read the repair manual. It will ask the diagnostic questions Al always asked. Unlike Tim, you are going to listen.
 
 *My Man Jeeves:* _Mr. Taylor's approach, which consists of forming a confident theory, proceeding at maximum torque, and occasionally destroying the object under repair, has the advantage of being entirely within his control; it has, regrettably, no other advantages. The diagnostic remark that would have corrected him was, on every occasion, spoken politely and immediately by Mr. Borland and treated as an interruption. Mr. Borland was, throughout, available at ordinary volume and without charge._
 
@@ -99,7 +99,7 @@ in order of probability:
 
 1. WORN DRUM BEARINGS (most likely). Front-loaders
    rely on bearings that support the drum as it spins.
-   After 5-7 years of regular use, they wear out. The
+   After 5--7 years of regular use, they wear out. The
    grinding at high speed + increased vibration is the
    classic signature. This will get worse over time
    and can eventually damage the drum or outer tub.
@@ -117,7 +117,7 @@ in order of probability:
 HOW SERIOUS: Not an emergency, but don't ignore it.
 Worn bearings won't destroy the machine tomorrow, but
 running it for weeks will damage other components and
-turn a $200-300 repair into a $600+ one or a
+turn a $200--300 repair into a $600+ one or a
 replacement.
 
 FIRST STEPS YOU CAN DO NOW:
@@ -187,7 +187,7 @@ what to tell your doctor. A few questions:
    head, one side, all over?
 2. How would you describe it — throbbing, squeezing,
    sharp, dull pressure?
-3. How severe on a 1-10 scale, and does it vary?
+3. How severe on a 1--10 scale, and does it vary?
 4. Any of these: sudden onset (like a thunderclap),
    worst headache of your life, vision changes,
    numbness, neck stiffness, fever, confusion?
@@ -204,7 +204,7 @@ what to tell your doctor. A few questions:
 ::: prompt
 1. Mostly temples and forehead.
 2. Dull pressure, like a band around my head.
-3. About a 4-5 most days. Some days a 6.
+3. About a 4--5 most days. Some days a 6.
 4. None of those, no.
 5. Worse in the afternoon and evening.
 6. Now that you mention it — I started a new job two
@@ -247,7 +247,7 @@ BEFORE YOUR APPOINTMENT, TRY:
 
 WHAT TO TELL YOUR DOCTOR:
 "New daily headaches for two weeks. Bilateral, pressure-
-type, 4-6/10, worse in afternoon, responsive to
+type, 4--6/10, worse in afternoon, responsive to
 ibuprofen. Coincided with a new job with significantly
 more screen time and increased caffeine. No red flags —
 no sudden onset, no visual changes, no neck stiffness."
@@ -257,7 +257,7 @@ and saves the first five minutes of the appointment.
 :::
 
 ::: fairness
-Your Agent is not a doctor. It cannot examine you, order tests, or account for your full medical history. What it can do — and what this example shows — is help you distinguish "see your doctor this week" from "go to the ER tonight," and prepare you to use your appointment time efficiently. If any of the red-flag symptoms in question 4 were present, the only correct answer is "go now." The AI knows this and will say so.[^s6-1]
+Your Agent is not a doctor. It cannot examine you, order tests, or account for your full medical history. What it can do — and what this example shows — is help you distinguish "see your doctor this week" from "go to the ER tonight," and prepare you to use your appointment time efficiently. If any of the red-flag symptoms in question 4 were present, the only correct answer is "go now." Your Agent knows this and will say so.[^s6-1]
 :::
 
 
@@ -268,7 +268,7 @@ Research on symptom presentation consistently shows that patients who arrive wit
 :::
 
 
-[^s6-2]: Langewitz, W., Denz, M., Keller, A., Kiss, A., Rüttimann, S., & Wössmer, B. (2002). "Spontaneous talking time at start of consultation in outpatient clinic." [_BMJ_, 325(7366), 682-683.](https://doi.org/10.1136/bmj.325.7366.682)
+[^s6-2]: Langewitz, W., Denz, M., Keller, A., Kiss, A., Rüttimann, S., & Wössmer, B. (2002). "Spontaneous talking time at start of consultation in outpatient clinic." [_BMJ_, 325(7366), 682--683.](https://doi.org/10.1136/bmj.325.7366.682)
 
 ### Example 3: An HVAC Quote That Seems High
 
@@ -326,8 +326,8 @@ are several things to check before committing to $8,200.
 THE DIAGNOSIS:
 The R-22 detail is real and important. R-22 (Freon) was
 phased out in 2020. If your system uses R-22, recharging
-it is expensive ($75-150/lb, and a full charge can be
-10-15 lbs). A compressor replacement on an R-22 system
+it is expensive ($75--150/lb, and a full charge can be
+10--15 lbs). A compressor replacement on an R-22 system
 at 14 years old is genuinely a borderline repair-vs-
 replace situation. The tech isn't necessarily wrong.
 
@@ -353,8 +353,8 @@ BUT — WHAT TO VERIFY:
    What's the square footage of your home?
 
 WHAT $8,200 SHOULD GET YOU:
-For a standard 3-ton, 14-16 SEER system with
-installation in most markets, $7,000-10,000 is a
+For a standard 3-ton, 14--16 SEER system with
+installation in most markets, $7,000--10,000 is a
 normal range. So $8,200 isn't outrageous — but you
 can't evaluate it without line items.
 
@@ -368,7 +368,7 @@ YOUR NEXT STEPS:
    if so, what would it cost vs. replacement?" Make
    them justify the replace recommendation.
 4. Check if your utility offers rebates for high-SEER
-   replacements — many do, and it can knock $500-1,500
+   replacements — many do, and it can knock $500--1,500
    off the price.
 
 Want me to help you evaluate the written quote once

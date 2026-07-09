@@ -2,7 +2,8 @@
 format: png
 size: half-right
 alt: >
-  A hand holding an original iPhone in portrait orientation, camera app open, the screen showing an 8-bit pixel-art rendering of the famous Patterson-Gimlin Bigfoot frame — a dark figure walking away through forest, turning to look back. The thumb hovers over the shutter button.
+  A thumb hovers over an iPhone shutter button; the screen shows the
+  famous Bigfoot film frame, mid-stride, looking back.
 ---
 
 Hand-drawn #2 pencil sketch of a hand holding an original iPhone in

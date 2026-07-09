@@ -2,7 +2,8 @@
 format: png
 size: half-right
 alt: >
-  A hand-drawn 8-bit pixel art rendering of the NCSA Mosaic browser icon — a blue S-shaped ribbon with spherical balls at each end, passing behind a small Earth globe in the center — sitting on a Mac System 7 desktop tile.
+  The NCSA Mosaic browser icon — a blue ribbon curling behind a small
+  Earth — on a Mac System 7 desktop.
 ---
 
 The NCSA Mosaic web browser icon (1993), rendered in 8-bit pixel

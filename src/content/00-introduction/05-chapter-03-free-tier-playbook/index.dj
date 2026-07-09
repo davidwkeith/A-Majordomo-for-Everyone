@@ -56,7 +56,7 @@ The point is not that one is better than the others. The point is that each has 
 
 *The most powerful free feature most people never use: Projects / Gems / Custom GPTs*
 
-Every major AI tool has a way to create a persistent context — a named space where you store background information about your situation, instructions for how you want the AI to respond, and a history of related conversations. You set it up once. Every conversation in that space starts with your majordomo already briefed.
+Every major AI tool has a way to create a persistent context — a named space where you store background information about your situation, instructions for how you want your Agent to respond, and a history of related conversations. You set it up once. Every conversation in that space starts with your majordomo already briefed.
 
 For this book, the most useful application is a household context. You tell it: who lives in your home, what your health situation is, what your current ongoing issues are (the landlord dispute, the insurance claim, the renovation). From that point on, every relevant conversation in that context starts from an informed position instead of a blank one.
 

@@ -2,7 +2,8 @@
 format: png
 size: half-right
 alt: >
-  A Sony Handycam camcorder from the early 1990s, drawn with obsessive detail — every button labeled, the flip-out viewfinder extended, a tiny 8-bit Jaws shark visible on the LCD screen.
+  An early-1990s Sony Handycam with a tiny Jaws shark fin on its
+  flip-out screen.
 ---
 
 Hand-drawn #2 pencil sketch of a Sony CCD-TRV70E Handycam, circa

@@ -2,7 +2,8 @@
 format: png
 size: full
 alt: >
-  A hand-drawn Explanation of Benefits (EOB) form with three fields circled in red ballpoint and connected by pencil arrows to handwritten margin notes in plain language.
+  An Explanation of Benefits form with three fields circled and
+  translated into plain language in the margin.
 ---
 
 Hand-drawn #2 pencil sketch of a one-page EOB (Explanation of

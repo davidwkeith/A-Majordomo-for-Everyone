@@ -2,7 +2,8 @@
 format: png
 size: half-left
 alt: >
-  A wall calendar page with X marks tracking a habit across the month — most days marked, but with visible gaps on several days. The gaps are not failures. They are part of the design.
+  A calendar page tracking a habit in X marks — most days marked, with
+  gaps that are part of the design, not failures.
 ---
 
 Hand-drawn #2 pencil sketch of a single month torn from a wall

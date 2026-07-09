@@ -64,7 +64,7 @@ NCUA data for Q4 2025 shows the rate gap plainly. Credit unions averaged 5.44% o
 
 
 ::: tip
-Mint shut down in March 2024 — if you were one of its millions of users, you are not alone in the scramble. The current landscape: YNAB ($14.99/month), Monarch ($14.99/month), and Copilot ($13/month, Apple only), all with annual discounts and free trials. But the tool matters less than the habit, and budgeting apps lose most of their users within the first month. Your Agent can help close that gap — ask it to check in weekly on your spending and flag what changed. The accountability is free and it will not judge you. See Li-9 and Developing a Habit.
+Mint shut down in March 2024 — if you were one of its millions of users, you are not alone in the scramble. The current landscape: YNAB ($14.99/month), Monarch ($14.99/month), and Copilot ($13/month, Apple only), all with annual discounts and free trials. But the tool matters less than the habit, and budgeting apps lose most of their users within the first month. Your Agent can help close that gap — ask it to check in weekly on your spending and flag what changed. The accountability is free and it will not judge you. See Li-9: Making a Household Budget That Holds and Li-12: Developing a Habit.
 :::
 
 
@@ -103,7 +103,7 @@ Please help me:
 *What to do with the Output:* If you have a charge you do not recognize, dispute it immediately — you have 60 days under the Fair Credit Billing Act. Call the number on the back of the card, not a number from an email. For debt payoff: the avalanche method (highest interest rate first) saves the most money. The snowball method (smallest balance first) builds momentum. The research slightly favors snowball for completion rates because the psychology of small wins matters more than the math of optimal interest.[^m2-1] Either is better than paying the minimum on everything.
 
 ::: science
-The average American household carries approximately $10,000 in credit card debt at an average APR of 24.99% (Federal Reserve, 2024). The minimum payment is typically calculated as 1-2% of the balance plus interest — a formula designed to maximize the total interest paid over the life of the debt. At minimum payments, a $10,000 balance at 25% APR takes over 30 years to pay off and costs approximately $22,000 in total.[^m2-2]
+The average American household carries approximately $10,000 in credit card debt at an average APR of 24.99% (Federal Reserve, 2024). The minimum payment is typically calculated as 1--2% of the balance plus interest — a formula designed to maximize the total interest paid over the life of the debt. At minimum payments, a $10,000 balance at 25% APR takes over 30 years to pay off and costs approximately $22,000 in total.[^m2-2]
 :::
 
 
@@ -177,7 +177,7 @@ Please help me:
 4. Identify what's negotiable in the process and what isn't
 5. Tell me the three most expensive mistakes first-time buyers make
 :::
-*What to do with the Output:* The bank will approve you for more than you should borrow. The general guideline — total housing cost under 28% of gross income — is a ceiling, not a target. Ask your Agent to calculate the full monthly cost including taxes, insurance, PMI, and a maintenance reserve (1-2% of home value per year). That is the real number. If it makes you uncomfortable, listen to the discomfort — it is doing math your optimism is not.
+*What to do with the Output:* The bank will approve you for more than you should borrow. The general guideline — total housing cost under 28% of gross income — is a ceiling, not a target. Ask your Agent to calculate the full monthly cost including taxes, insurance, PMI, and a maintenance reserve (1--2% of home value per year). That is the real number. If it makes you uncomfortable, listen to the discomfort — it is doing math your optimism is not.
 
 ::: science
 The 2008 financial crisis was, at its core, a mortgage information asymmetry on a systemic scale — lenders knew the risk of the loans they were packaging, borrowers did not, and the rating agencies that were supposed to bridge the gap were paid by the lenders. The Dodd-Frank Act and CFPB were created in response. The CFPB's Loan Estimate and Closing Disclosure forms are designed to make mortgage terms comparable and readable. They are better than what existed before. They are still not simple.[^m3-1]
@@ -237,7 +237,7 @@ Despite the [Fair Housing Act](https://www.justice.gov/crt/fair-housing-act-2) (
 
 *Strategy:* Assert + Decode
 *See also:* L-3: Writing a Demand Letter, M-2: Credit Cards and Debt, H-6: Understanding What Medicare Actually Covers, H-6b: Understanding What Medicaid Actually Covers (medical debt is the leading cause of bankruptcy)
-*My Man Jeeves:* _The debt collection industry, if one may characterize it plainly, is constructed upon the assumption that the person receiving the telephone call is unaware of the protections available to them. A collector who rings has, in the ordinary course of events, purchased the debt for pennies on the dollar and is now endeavoring to recover the full amount plus fees. The Fair Debt Collection Practices Act exists to regulate this interaction. That most people in collections have never encountered it is not, one ventures to suggest, accidental — the business model depends rather entirely upon the information gap. An Agent has read the FDCPA. One would recommend doing so oneself as well._
+*My Man Jeeves:* _The debt collection industry, if one may characterize it plainly, is constructed upon the assumption that the person receiving the telephone call is unaware of the protections available to them. A collector who rings has, in the ordinary course of events, purchased the debt for pennies on the dollar and is now endeavouring to recover the full amount plus fees. The Fair Debt Collection Practices Act exists to regulate this interaction. That most people in collections have never encountered it is not, one ventures to suggest, accidental — the business model depends rather entirely upon the information gap. An Agent has read the FDCPA. One would recommend doing so oneself as well._
 *The Spec:*
 
 ::: prompt
@@ -345,10 +345,10 @@ Please help me:
 5. What are the biggest mistakes people my age make with
    retirement planning?
 :::
-*What to do with the Output:* If your employer offers a 401(k) match and you are not contributing enough to get the full match, fix that this week. It is a 50-100% guaranteed return on your money — there is no investment on Earth that competes with it. After that, the priority order is generally: full employer match → high-interest debt payoff → Roth IRA (if eligible) → max 401(k) → taxable brokerage. Your Agent can customize this for your situation.
+*What to do with the Output:* If your employer offers a 401(k) match and you are not contributing enough to get the full match, fix that this week. It is a 50--100% guaranteed return on your money — there is no investment on Earth that competes with it. After that, the priority order is generally: full employer match → high-interest debt payoff → Roth IRA (if eligible) → max 401(k) → taxable brokerage. Your Agent can customize this for your situation.
 
 ::: science
-Index funds — which track the entire market rather than trying to beat it — outperform actively managed funds over 15-year periods approximately 90% of the time (S&P SPIVA Scorecard, annual). The fees are the primary reason: the average actively managed fund charges 0.5-1.0% per year; a total market index fund charges 0.03-0.10%. Over a career, the fee difference alone can cost hundreds of thousands of dollars.[^m5-1]
+Index funds — which track the entire market rather than trying to beat it — outperform actively managed funds over 15-year periods approximately 90% of the time (S&P SPIVA Scorecard, annual). The fees are the primary reason: the average actively managed fund charges 0.5--1.0% per year; a total market index fund charges 0.03--0.10%. Over a career, the fee difference alone can cost hundreds of thousands of dollars.[^m5-1]
 :::
 
 
@@ -385,7 +385,7 @@ The anxiety of not having saved enough is one of the most pervasive financial st
 
 *Veterans note:* If you are on active duty, federal civilian service, or a reservist with federal TSP access, the [Thrift Savings Plan](https://www.tsp.gov) is the largest and lowest-cost defined-contribution plan in the country. Its core funds — G (government securities), F (bond index), C (S&P 500), S (extended U.S. market), I (international), and the L (lifecycle) target-date funds — carry expense ratios in the single basis points. The **Blended Retirement System**, mandatory for servicemembers who entered on or after January 1, 2018, adds a 1% automatic agency contribution plus a match of up to 4% for a total of 5% when you contribute at least 5% yourself. Getting the full match is the first-priority retirement move for any servicemember the BRS applies to — turning it down is turning down pay. The reduced defined-benefit multiplier (2.0% per year of service vs. the legacy 2.5%) is the trade. The **Survivor Benefit Plan** election at retirement pays a surviving spouse 55% of the retired-pay base you elect; the decision is made once, on [DD Form 2656](https://www.esd.whs.mil/Directives/forms/dd2500_2999/), and it is commonly misunderstood — walk your Agent through your specific situation before you sign.[^m5-7]
 
-[^m5-1]: S&P Dow Jones Indices. [_SPIVA U.S. Scorecard._](https://www.spglobal.com/spdji/en/research-insights/spiva/) Published annually. The 15-year data consistently shows 85-92% of actively managed large-cap funds underperforming the S&P 500.
+[^m5-1]: S&P Dow Jones Indices. [_SPIVA U.S. Scorecard._](https://www.spglobal.com/spdji/en/research-insights/spiva/) Published annually. The 15-year data consistently shows 85--92% of actively managed large-cap funds underperforming the S&P 500.
 
 [^m5-2]: Buffett, W.E. (2017). [Berkshire Hathaway Annual Letter to Shareholders.](https://www.berkshirehathaway.com/letters/2017ltr.pdf) The bet, made in 2007, was against Protégé Partners' selection of hedge funds.
 
@@ -401,7 +401,7 @@ The anxiety of not having saved enough is one of the most pervasive financial st
 
 *Strategy:* Decide + Research (Expert Role)
 *See also:* Li-9: Making a Household Budget That Holds, M-1: Banking and Savings
-*My Man Jeeves:* _A fee-only financial advisor charges $200 to $400 per hour and is of greatest utility when one has significant assets requiring management. For the financial questions that most people actually possess — whether a debt merits early repayment, whether savings are optimally situated, whether an insurance policy represents sound value, whether one is, to put the matter delicately, being overcharged — an Agent covers the ground at no cost. The operative phrase is "fee-only": an advisor who earns commissions on the products they recommend labors under a structural conflict of interest that no quantity of good faith can altogether eliminate._
+*My Man Jeeves:* _A fee-only financial advisor charges $200 to $400 per hour and is of greatest utility when one has significant assets requiring management. For the financial questions that most people actually possess — whether a debt merits early repayment, whether savings are optimally situated, whether an insurance policy represents sound value, whether one is, to put the matter delicately, being overcharged — an Agent covers the ground at no cost. The operative phrase is "fee-only": an advisor who earns commissions on the products they recommend labours under a structural conflict of interest that no quantity of good faith can altogether eliminate._
 *The Spec:*
 
 ::: prompt
@@ -522,7 +522,7 @@ Tax anxiety is real, and it is not irrational. The IRS is the only creditor in A
 #### M-8: Insurance You Actually Need
 
 *Strategy:* Research + Decide
-*See also:* M-3: Mortgages (homeowners insurance required for mortgage), H-4: Appealing an Insurance Denial (the appeal process applies to all insurance), Tr-1: Buying a Car (auto insurance)
+*See also:* M-3: Mortgages (homeowners insurance required for mortgage), H-4: Appealing an Insurance Denial (the appeal process applies to all insurance), Tr-1: Car Ownership (auto insurance)
 *My Man Jeeves:* _The insurance industry presents itself as protection against catastrophe — and it is, in the narrow sense that a policy, properly configured, prevents a single event from destroying one's financial position. What the marketing omits, with some care, is that the industry's profit model depends on collecting premiums from the many and paying claims to the few, and that a considerable apparatus of adjusters, exclusions, riders, and deductibles exists to widen the gap between what one believed was covered and what is. A typical American household spends several thousand dollars a year on insurance premiums outside of health coverage, a figure that varies enormously based on decisions most people made once and have not revisited. One's Agent is rather well suited to the task of revisiting them._
 *The Spec:*
 
@@ -585,7 +585,7 @@ Checking current insurance rates and state regulations requires web search, whic
 
 
 ::: science
-*Life insurance in plain numbers.* The "10-12x income" rule of thumb is an industry heuristic, not a law of finance. The **DIME** method gives a more honest total: **D**ebts + **I**ncome × years your family needs support + **M**ortgage balance + **E**ducation costs for children. Term life — coverage for a fixed period, typically 20 or 30 years — is almost always the right answer for people under 60: the premium covers the years your family cannot absorb the loss of your income, and you drop it when they can. Whole life bundles insurance with a low-return investment component and carries commissions that can reach 100% of the first year's premium plus ongoing trailers, which is why agents pitch it. "Buy term and invest the difference" is the endorsement from almost every fee-only planner and [Consumer Reports](https://www.consumerreports.org/money/life-insurance/). Whole life has legitimate niche uses — estate-tax liquidity, special-needs trusts, high earners who have already maxed out other tax-advantaged accounts — but those are narrow cases. The industry's default sales pitch is not one of them.[^m8-2]
+*Life insurance in plain numbers.* The "10--12x income" rule of thumb is an industry heuristic, not a law of finance. The **DIME** method gives a more honest total: **D**ebts + **I**ncome × years your family needs support + **M**ortgage balance + **E**ducation costs for children. Term life — coverage for a fixed period, typically 20 or 30 years — is almost always the right answer for people under 60: the premium covers the years your family cannot absorb the loss of your income, and you drop it when they can. Whole life bundles insurance with a low-return investment component and carries commissions that can reach 100% of the first year's premium plus ongoing trailers, which is why agents pitch it. "Buy term and invest the difference" is the endorsement from almost every fee-only planner and [Consumer Reports](https://www.consumerreports.org/money/life-insurance/). Whole life has legitimate niche uses — estate-tax liquidity, special-needs trusts, high earners who have already maxed out other tax-advantaged accounts — but those are narrow cases. The industry's default sales pitch is not one of them.[^m8-2]
 :::
 
 
@@ -612,7 +612,7 @@ Insurance is one of the few products you buy hoping never to use. Every month yo
 
 *Strategy:* Navigate + Assert
 *See also:* M-2: Credit Cards and Debt (debt management strategies), M-4: Collections and Bankruptcy (when student loans go to collections)
-*My Man Jeeves:* _One notes that Americans carry approximately $1.75 trillion in student loan debt — a figure that exceeds the total credit card debt of the nation and is borne disproportionately by those who were told, with some conviction, that higher education was the path to the middle class. The system for managing this debt — loan servicers, income-driven repayment plans, forgiveness programs, forbearance options — is of a complexity that rather suggests it was not designed for the benefit of the borrower. One's loan servicer, to take a single instance, is a private company paid by the government to manage one's account. Its incentive is to minimize its own cost of servicing, not to guide one toward the optimal repayment strategy. An Agent labors under no such conflict of interest, and is conversant with every repayment plan the Department of Education offers._
+*My Man Jeeves:* _One notes that Americans carry approximately $1.75 trillion in student loan debt — a figure that exceeds the total credit card debt of the nation and is borne disproportionately by those who were told, with some conviction, that higher education was the path to the middle class. The system for managing this debt — loan servicers, income-driven repayment plans, forgiveness programmes, forbearance options — is of a complexity that rather suggests it was not designed for the benefit of the borrower. One's loan servicer, to take a single instance, is a private company paid by the government to manage one's account. Its incentive is to minimize its own cost of servicing, not to guide one toward the optimal repayment strategy. An Agent labours under no such conflict of interest, and is conversant with every repayment plan the Department of Education offers._
 *The Spec:*
 
 ::: prompt
@@ -662,7 +662,7 @@ Student loan debt falls disproportionately on Black borrowers, who carry an aver
 
 
 ::: meme
-The FAFSA — Free Application for Federal Student Aid — is a 108-question form that requires last year's tax return, bank statements, investment records, and in some cases your parents' financial information regardless of whether your parents are involved in your life. The "simplified" FAFSA launched in the 2024-25 cycle and was delayed by months due to processing errors, leaving millions of students unable to compare financial aid offers on time. The Department of Education described this as a "transition year." Students described it differently.
+The FAFSA — Free Application for Federal Student Aid — is a 108-question form that requires last year's tax return, bank statements, investment records, and in some cases your parents' financial information regardless of whether your parents are involved in your life. The "simplified" FAFSA launched in the 2024--25 cycle and was delayed by months due to processing errors, leaving millions of students unable to compare financial aid offers on time. The Department of Education described this as a "transition year." Students described it differently.
 :::
 
 
@@ -698,7 +698,7 @@ The emotional weight of student loan debt is qualitatively different from credit
 #### M-10: Evaluating a Big Purchase
 
 *Strategy:* Research + Decide
-*See also:* Tr-1: Buying a Car (the single most common big purchase), Ch-1: Shopping Your Values (for evaluating who you're buying from), Ho-3: Right to Repair (for durability and long-term cost)
+*See also:* Tr-1: Car Ownership (the single most common big purchase), Ch-1: Shopping Your Values (for evaluating who you're buying from), Ho-3: Right to Repair (for durability and long-term cost)
 *My Man Jeeves:* _One has observed that the phrase "0% APR for 36 months" appears in advertising with a frequency that suggests, to the casual observer, that financing large purchases at no cost has become a simple act of generosity on the part of retailers. It has not. The 0% offer is a customer acquisition tool: the retailer has calculated that a meaningful percentage of purchasers will miss a payment, triggering deferred interest — in some cases retroactively applied to the entire original balance at rates exceeding 25%. The furniture, the appliance, the automobile — whatever the object, the financing is not a courtesy extended to the buyer. It is a bet placed against them. One's Agent is rather useful for reading the terms of that bet before one accepts it._
 *The Spec:*
 

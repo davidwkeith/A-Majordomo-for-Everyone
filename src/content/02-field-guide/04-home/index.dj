@@ -56,7 +56,7 @@ Paste or upload your document directly — file upload works in Claude, Gemini, 
 
 *Strategy:* Diagnose + Navigate (Expert Role)
 *See also:* Ho-1: Maintaining Your Home (for diagnosing first), Ho-3: Right-to-Repair (when a product resists repair), Ch-2: Understanding a Contractor Bid (when to hire instead)
-*My Man Jeeves:* _Home repair knowledge was, until comparatively recently, transmitted between generations in much the way that changing a tyre or hemming a pair of trousers was once considered a baseline competency. Several decades of planned obsolescence and the gradual replacement of repairable objects with disposable ones have, one might observe, rather thoroughly interrupted that transmission. The knowledge itself, however, has not vanished — it has merely migrated. An Agent received it regardless._
+*My Man Jeeves:* _Home repair knowledge was, until comparatively recently, transmitted between generations in much the way that changing a tyre or hemming a pair of trousers was once considered a baseline competency. Several decades of planned obsolescence and the gradual replacement of repairable objects with disposable ones have, one might observe, rather thoroughly interrupted that transmission. The knowledge itself, however, has not vanished — it has merely migrated, and an Agent was among the recipients._
 *The Spec:*
 
 ::: prompt
@@ -96,7 +96,7 @@ Give me an honest assessment.
 
 *Strategy:* Diagnose + Navigate (Expert Role)
 *See also:* Ho-2: Home Repair and DIY (for the repair itself), Ho-1: Maintaining Your Home (for preventive maintenance)
-*My Man Jeeves:* _Whether one characterizes it as enshittification, planned obsolescence, or buyer lock-in, the underlying mechanism is the same: by manufacturing products that resist repair, companies ensure a recurring revenue stream at the consumer's expense. The practice is, if one may say so, rather more deliberate than the word "obsolescence" suggests. An Agent can assess, at whatever skill level one possesses, whether a given item merits repair or replacement — and, should replacement prove necessary, recommend more durable alternatives. One is not, strictly speaking, defeating the system. One is merely removing the information asymmetry upon which it depends._
+*My Man Jeeves:* _Whether one characterizes it as planned obsolescence, buyer lock-in, or — to borrow the current vernacular, if one may be forgiven the word — enshittification, the underlying mechanism is the same: by manufacturing products that resist repair, companies ensure a recurring revenue stream at the consumer's expense. The practice is, if one may say so, rather more deliberate than the word "obsolescence" suggests. An Agent can assess, at whatever skill level one possesses, whether a given item merits repair or replacement — and, should replacement prove necessary, recommend more durable alternatives. One is not, strictly speaking, defeating the system. One is merely removing the information asymmetry upon which it depends._
 *The Spec:*
 
 ::: prompt
@@ -407,7 +407,7 @@ What amendments should I add, and how do I apply them?
 #### Ho-8: Household Disaster Preparedness
 
 *Strategy:* Prepare + Research
-*See also:* M-8: Understanding Insurance (for documenting what you own before you need to), Ho-1: Maintaining Your Home (preventive maintenance is the first line of defense), IRL-9: Handling a Car Accident (the same "be ready before the crisis" mindset)
+*See also:* M-8: Insurance You Actually Need (for documenting what you own before you need to), Ho-1: Maintaining Your Home (preventive maintenance is the first line of defense), IRL-9: Handling a Car Accident (the same "be ready before the crisis" mindset)
 *My Man Jeeves:* _One observes that the federal government maintains a website --- ready.gov --- which advises citizens to prepare a 72-hour emergency kit, an evacuation plan, and a communication strategy. One further observes that the overwhelming majority of households have done none of these things, not because the advice is inaccessible but because the task presents itself as a single, undifferentiated mass of anxiety rather than a series of manageable steps. The structural difficulty is familiar: the people best positioned to weather a disaster are those who can afford to outsource the planning, while the people most likely to be displaced by one are expected to assemble the plan themselves, from scattered government PDFs, during a period of calm they cannot quite believe will end. An Agent can convert the undifferentiated mass into a checklist, prioritized by consequence, completed in stages, and tailored to the specific threats that apply where one actually lives._
 *The Spec:*
 

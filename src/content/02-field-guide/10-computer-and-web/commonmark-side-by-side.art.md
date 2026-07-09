@@ -2,7 +2,8 @@
 format: png
 size: full
 alt: >
-  A split-panel illustration: on the left, a CommonMark source document with plain text and formatting symbols (hash signs for headings, asterisks for emphasis, hyphens for list bullets, square-bracket links). On the right, the rendered output showing headings, bold text, a bulleted list, and a hyperlink.
+  Markdown source on the left; the same text rendered on the right as
+  a heading, bold and italic runs, a list, and a link.
 ---
 
 Hand-drawn #2 pencil split-panel illustration. Two side-by-side

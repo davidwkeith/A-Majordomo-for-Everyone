@@ -52,13 +52,13 @@ This works well with voice mode on your phone — all major tools support it on 
 
 *Strategy:* Draft
 *See also:* Li-1: Preparing for a Difficult Conversation (the emotional preparation applies here too), H-7: Preparing for End-of-Life Conversations
-*My Man Jeeves:* _A difficulty presents itself in that the eulogy is, for most persons, the one composition for which there is no second draft, no opportunity to revise after observing the reaction, and no possibility of beginning again. One might further note that it is composed under conditions of considerable emotional impairment and preserved online indefinitely. Your Agent is equipped to furnish the structure. The life, however, only you are in a position to supply._
+*My Man Jeeves:* _A difficulty presents itself in that the eulogy is, for most persons, the one composition for which there is no second draft, no opportunity to revise after observing the reaction, and no possibility of beginning again. One might further note that it is composed under conditions of considerable emotional impairment and preserved online indefinitely. One's Agent is equipped to furnish the structure. The life, however, one alone is in a position to supply._
 *The Spec:*
 
 ::: prompt
 I need to write a eulogy for [relationship — "my father," "my friend"].
 Here are the things about them that I most want people to remember:
-[list 3-5 specific memories, qualities, or stories]
+[list 3--5 specific memories, qualities, or stories]
 The tone should be [celebratory / reflective / a mix].
 The audience is [family and close friends / a large public service].
 I have about [X] minutes.
@@ -98,7 +98,7 @@ Please:
    options exist
 Be direct. I need the honest answer.
 :::
-*What to do with the Output:* If you are helping a loved one, lead with concern, not correction. The shame is already doing damage. Your Agent can help you draft that conversation (see Li-1). If you are the one targeted, file with the FTC at [reportfraud.ftc.gov](https://reportfraud.ftc.gov) and your state attorney general. Speed matters — some financial transactions can be reversed within 24-48 hours.
+*What to do with the Output:* If you are helping a loved one, lead with concern, not correction. The shame is already doing damage. Your Agent can help you draft that conversation (see Li-1). If you are the one targeted, file with the FTC at [reportfraud.ftc.gov](https://reportfraud.ftc.gov) and your state attorney general. Speed matters — some financial transactions can be reversed within 24--48 hours.
 
 ::: science
 Cialdini's six principles of influence (1984) — reciprocity, commitment, social proof, authority, liking, scarcity — are also a scam operator's playbook. The same cognitive shortcuts that make human cooperation possible make human exploitation possible.[^li3-1]
@@ -118,7 +118,7 @@ Your Agent may describe common scam demographics in ways that reinforce stereoty
 
 *Strategy:* Research + Navigate
 *See also:* H-7: Preparing for End-of-Life Conversations, M-6: Financial Coach (for Social Security and inheritance planning), L-1: Negotiating a Contract (for care facility agreements)
-*My Man Jeeves:* _There arrives, in the course of most lives, a period when the person who attended to everything becomes the person who requires attending to. The reversal presents itself without training, without documentation, and without the emotional infrastructure one might reasonably expect. The American system, it would appear, assumes families will contrive a solution. Other nations constructed eldercare systems. You have your Agent and the Skills that follow._
+*My Man Jeeves:* _There arrives, in the course of most lives, a period when the person who attended to everything becomes the person who requires attending to. The reversal presents itself without training, without documentation, and without the emotional infrastructure one might reasonably expect. The American system, it would appear, assumes families will contrive a solution. Other nations constructed eldercare systems. One has one's Agent and the Skills that follow._
 *The Spec:*
 
 ::: prompt
@@ -177,8 +177,8 @@ Veterans: cross-reference H-6 for VA Aid and Attendance. Additional programs inc
 #### Li-5: Planning Trips
 
 *Strategy:* Prepare + Navigate
-*See also:* Li-10: Language Learning Partner, Tr-2: Public Transit and Cycling
-*My Man Jeeves:* _One observes that the travel planning enterprise has been divided between two industries: the agencies that charge for expertise and the search engines that charge for attention. Both, it would appear, optimize for their own revenue rather than one's experience. Your Agent maintains no advertising revenue, no partner hotels, and no particular reason to recommend the flight with the most disagreeable layover on the grounds that it pays a higher affiliate commission._
+*See also:* Li-10: Learn a language, Tr-3: Public Transit, Cycling, and Walkability
+*My Man Jeeves:* _One observes that the travel planning enterprise has been divided between two industries: the agencies that charge for expertise and the search engines that charge for attention. Both, it would appear, optimize for their own revenue rather than one's experience. One's Agent maintains no advertising revenue, no partner hotels, and no particular reason to recommend the flight with the most disagreeable layover on the grounds that it pays a higher affiliate commission._
 *The Spec:*
 
 ::: prompt
@@ -219,7 +219,7 @@ Checking current information requires web search, which is free in Gemini, ChatG
 
 *Strategy:* Research + Decide
 *See also:* Li-5: Planning Trips (for restaurants while traveling), Ch-4: Cooking and Culinary Skills (for eating in)
-*My Man Jeeves:* _It would appear that the prevailing restaurant recommendation algorithms optimize for establishments that pay for placement or generate engagement, rather than for the most suitable meal in one's vicinity at one's price point for one's actual preferences. Your Agent maintains no paid placements. It will also, one feels compelled to note, refrain from passing judgment should one desire chicken fingers at an establishment with tablecloths._
+*My Man Jeeves:* _It would appear that the prevailing restaurant recommendation algorithms optimize for establishments that pay for placement or generate engagement, rather than for the most suitable meal in one's vicinity at one's price point for one's actual preferences. One's Agent maintains no paid placements. It will also, one feels compelled to note, refrain from passing judgment should one desire chicken fingers at an establishment with tablecloths._
 *The Spec:*
 
 ::: prompt
@@ -231,7 +231,7 @@ Must accommodate: [dietary restrictions, kids, wheelchair access,
 noise sensitivity, etc.]
 What I'm in the mood for: [cuisine type, or "surprise me"]
 What I want to avoid: [specific dislikes or past bad experiences]
-Give me 3-5 options with why each one fits, and tell me
+Give me 3--5 options with why each one fits, and tell me
 which one you'd pick if you were me.
 :::
 *What to do with the Output:* Pick the one that fits your mood, not the one that sounds most impressive. Check the hours and whether you need a reservation — your Agent may not have current information. If you're going with other people, send them the short list and let them weigh in. The best restaurant for the night is the one everyone agrees to go to.
@@ -257,7 +257,7 @@ Eating alone in public is culturally coded as failure in America and normalized 
 
 *Strategy:* Research + Navigate
 *See also:* Li-1: Preparing for a Difficult Conversation (for the hard talks), Li-4: Planning Care for Aging (the other end of the caregiving spectrum), H-17: Talking to Your Kids About Drugs
-*My Man Jeeves:* _One might observe that every generation of parents is persuaded they are doing it wrong. This is not, one ventures to suggest, neurosis — it is a rational response to the circumstance that the stakes are a human life and the research continues to evolve. [Dr. Spock](https://en.wikipedia.org/wiki/Benjamin%5FSpock) advised the postwar generation to trust their instincts, which was considered revolutionary at the time. The current research indicates that instincts are a promising foundation but not, in themselves, sufficient. The billionaire class retains nannies, tutors, and developmental consultants on a permanent basis. Your Agent has read the same developmental psychology they cite._
+*My Man Jeeves:* _One might observe that every generation of parents is persuaded they are doing it wrong. This is not, one ventures to suggest, neurosis — it is a rational response to the circumstance that the stakes are a human life and the research continues to evolve. [Dr. Spock](https://en.wikipedia.org/wiki/Benjamin%5FSpock) advised the postwar generation to trust their instincts, which was considered revolutionary at the time. The current research indicates that instincts are a promising foundation but not, in themselves, sufficient. The billionaire class retains nannies, tutors, and developmental consultants on a permanent basis. One's Agent has read the same developmental psychology they cite._
 *The Spec:*
 
 ::: prompt
@@ -270,7 +270,7 @@ My family situation: [relevant context — single parent, blended
 family, co-parenting, grandparent involvement, etc.]
 Please:
 1. Tell me what the current research says about this
-2. Give me 2-3 specific things I can do this week
+2. Give me 2--3 specific things I can do this week
 3. Tell me what's normal vs. what might need professional attention
 4. Be honest about what the research doesn't know yet
 :::
@@ -299,7 +299,7 @@ Parenting research has historically oversampled white, middle-class, two-parent 
 
 *Strategy:* Research + Draft (Expert Role)
 *See also:* H-8: Wellness and Nutrition Coach (for physical health), H-13: Understanding Addiction, H-1: Understanding a Diagnosis. Russ Harris, [_The Happiness Trap_](https://www.amazon.com/Happiness-Trap-Stop-Struggling-Start/dp/1590305841) (the ACT framework this Skill's thought-pattern work builds on)
-*My Man Jeeves:* _A difficulty of some consequence presents itself in the matter of mental health care in America, where the median wait for a new patient appointment is, by research estimates, between six and ten weeks[^li8-1] and a single therapy session costs $100 to $250 out of pocket. One cannot help but observe that the persons who require assistance most urgently — the isolated, the overwhelmed, the financially strained — face the most formidable barriers to obtaining it. Your Agent is not a therapist. It is, however, available at 2 AM when the therapist is not, and it is capable of performing several things a therapist would recommend one do between sessions._
+*My Man Jeeves:* _A difficulty of some consequence presents itself in the matter of mental health care in America, where the median wait for a new patient appointment is, by research estimates, between six and ten weeks[^li8-1] and a single therapy session costs $100 to $250 out of pocket. One cannot help but observe that the persons who require assistance most urgently — the isolated, the overwhelmed, the financially strained — face the most formidable barriers to obtaining it. One's Agent is not a therapist. It is, however, available at 2 AM when the therapist is not, and it is capable of performing several things a therapist would recommend one do between sessions._
 *The Spec:*
 
 ::: prompt
@@ -336,7 +336,7 @@ technique to interrupt it.
 ::: prompt
 Act as a journaling coach. I want to start journaling but
 I don't know what to write about and I feel self-conscious.
-Give me a simple framework I can use for 5-10 minutes a day
+Give me a simple framework I can use for 5--10 minutes a day
 that doesn't require me to be a good writer.
 :::
 ::: prompt
@@ -359,7 +359,7 @@ If you or someone you know is in crisis: *988 Suicide & Crisis Lifeline* (call o
 
 *Strategy:* Draft + Decide
 *See also:* M-6: Financial Coach, Ho-5: Understanding Your Utility Bill
-*My Man Jeeves:* _The prevailing budgeting counsel, one might observe, assumes the difficulty is a matter of discipline. For most households, however, the difficulty is arithmetic — income that does not cover expenses, regardless of how disciplined the allocation. Your Agent will not presume to lecture on the subject of lattes. It will assist in identifying where the money actually goes, determine the three largest levers available, and construct a plan that survives contact with reality._
+*My Man Jeeves:* _The prevailing budgeting counsel, one might observe, assumes the difficulty is a matter of discipline. For most households, however, the difficulty is arithmetic — income that does not cover expenses, regardless of how disciplined the allocation. One's Agent will not presume to lecture on the subject of lattes. It will assist in identifying where the money actually goes, determine the three largest levers available, and construct a plan that survives contact with reality._
 *The Spec:*
 
 ::: prompt
@@ -373,7 +373,7 @@ My situation:
    one emergency away from crisis]
 Please:
 1. Help me categorize my spending into needs, wants, and debts
-2. Identify the 2-3 biggest levers I have — the places where
+2. Identify the 2--3 biggest levers I have — the places where
    a change would make the most difference
 3. Build a realistic monthly plan that includes some flexibility
    — a plan I'll actually follow, not an ideal I'll abandon
@@ -394,7 +394,7 @@ Mullainathan & Shafir (2013) document "scarcity mindset" — financial stress me
 
 *Strategy:* Research + Navigate (Expert Role)
 *See also:* Li-5: Planning Trips (for travel-specific language prep)
-*My Man Jeeves:* _Language immersion programmes, one notes, cost thousands of dollars. [Duolingo](https://en.wikipedia.org/wiki/Duolingo) is free and instructs one in how to say “the elephant drinks milk” in more than forty languages. Private tutors charge $40 to $80 per hour and are available when their schedule permits. Your Agent, by contrast, is available at once, possesses inexhaustible patience, betrays no visible disappointment when one conjugates the same verb incorrectly for the fifth time, and will conduct an actual conversation about the things one actually needs to say — rather than the things a textbook believes one should practise._
+*My Man Jeeves:* _Language immersion programmes, one notes, cost thousands of dollars. [Duolingo](https://en.wikipedia.org/wiki/Duolingo) is free and instructs one in how to say “the elephant drinks milk” in more than forty languages. Private tutors charge $40 to $80 per hour and are available when their schedule permits. One's Agent, by contrast, is available at once, possesses inexhaustible patience, betrays no visible disappointment when one conjugates the same verb incorrectly for the fifth time, and will conduct an actual conversation about the things one actually needs to say — rather than the things a textbook believes one should practise._
 *The Spec:*
 
 ::: prompt
@@ -504,7 +504,7 @@ The web evolved from text to graphics to audio to video to interactive simulatio
 
 *Strategy:* Research + Draft
 *See also:* Li-8: Wellness Coach (for the emotional side), Li-11: Escaping Social Media (for breaking habits). Oliver Burkeman, [_Four Thousand Weeks_](https://www.amazon.com/Four-Thousand-Weeks-Management-Mortals/dp/0374159122) (why systems beat willpower — same thesis, different angle)
-*My Man Jeeves:* _The self-help industry, one might note, generates roughly $13 billion a year on the premise that one lacks willpower. The applications, the courses, the thirty-day challenges — each monetizes the gap between intention and behaviour. Behavioural science has known for decades that the difficulty is not motivation. It is environment design, cue management, and identity. The research is clear and largely disregarded by the industry, for the understandable reason that “redesign your cues” does not sell books in the manner that “unleash your potential” does. Your Agent has read the actual research. It will assist in designing a system rather than deliver a lecture on discipline._
+*My Man Jeeves:* _The self-help industry, one might note, generates roughly $13 billion a year on the premise that one lacks willpower. The applications, the courses, the thirty-day challenges — each monetizes the gap between intention and behaviour. Behavioural science has known for decades that the difficulty is not motivation. It is environment design, cue management, and identity. The research is clear and largely disregarded by the industry, for the understandable reason that “redesign your cues” does not sell books in the manner that “unleash your potential” does. One's Agent has read the actual research. It will assist in designing a system rather than deliver a lecture on discipline._
 *The Spec:*
 
 ::: prompt

@@ -2,7 +2,8 @@
 format: png
 size: half-left
 alt: >
-  A 4x6 notecard with a simple eulogy outline written in pencil — opening memory, three qualities, a story for each, and a closing line — sections labeled with small brackets in the margin
+  A notecard eulogy outline: an opening memory, three qualities with a
+  story each, and a closing line.
 ---
 
 Hand-drawn #2 pencil sketch of a single 4x6 lined index card lying

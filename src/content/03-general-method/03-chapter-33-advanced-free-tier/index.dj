@@ -17,7 +17,7 @@ The paid tier exists. It is useful. For most people doing the tasks in this book
 
 ### Context Is the Currency
 
-The free tier does not limit how smart the AI is. It limits how many conversations you can have in a day. This means the resource you are managing is not intelligence --- it is context. Every conversation you start, every message you send, draws from that daily supply.
+The free tier does not limit how smart your Agent is. It limits how many conversations you can have in a day. This means the resource you are managing is not intelligence --- it is context. Every conversation you start, every message you send, draws from that daily supply.
 
 The implication: a well-specified conversation that takes three messages is worth more than a vague one that takes fifteen. Everything in this book --- the specification interview, the Five-Part Frame, the calibration question --- makes you more efficient on the free tier by design. Specification literacy is free-tier optimization. You have been training for this since Strategy 0.
 
@@ -130,4 +130,4 @@ The billionaire class does not have better tools than you do. They have people w
 
 [^33-1]: Surowiecki, J. (2004). [_The Wisdom of Crowds._](https://bookshop.org/p/books/the-wisdom-of-crowds-james-surowiecki/18725220) Anchor Books. The independence condition is critical --- the estimates must be formed without knowledge of each other. Two AI services working from the same spec satisfy this condition naturally.
 
-[^33-2]: Ericsson, K.A., Krampe, R.T. & Tesch-Römer, C. (1993). "[The role of deliberate practice in the acquisition of expert performance](https://doi.org/10.1037/0033-295X.100.3.363)." _Psychological Review_, 100(3), 363-406.
+[^33-2]: Ericsson, K.A., Krampe, R.T. & Tesch-Römer, C. (1993). "[The role of deliberate practice in the acquisition of expert performance](https://doi.org/10.1037/0033-295X.100.3.363)." _Psychological Review_, 100(3), 363--406.

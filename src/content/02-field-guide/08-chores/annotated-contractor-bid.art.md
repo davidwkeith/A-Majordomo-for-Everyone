@@ -2,7 +2,8 @@
 format: png
 size: half-right
 alt: >
-  A typed contractor bid document with red ballpoint annotations highlighting line items for materials, labor, and contingency, with question marks beside unclear terms and a sticky note on top reading "get second bid"
+  A contractor bid annotated in red pen, question marks beside vague
+  fees, a sticky note on top reading 'get 2nd bid'.
 ---
 
 Hand-drawn #2 pencil sketch of a single typed contractor bid on

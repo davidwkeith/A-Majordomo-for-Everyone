@@ -78,7 +78,7 @@ You are not teaching someone to use a tool. You are teaching them that they alre
 
 That is specification literacy. It is not a technical skill. It is the human skill of knowing what you need and saying it out loud. Everyone already has it. Most people just need to see it work once to believe it transfers to a conversation with a machine.
 
-The old saying gets it exactly backward. "Those who can, do; those who can't, teach." But specification is where doing and teaching converge. When you write a spec, you are teaching the AI your situation. When you review the spec it proposes back to you, you are teaching it where the generic version misses your reality. Every conversation with your Agent is an act of teaching — patient, iterative, grounded in what you know about your own life.
+The old saying gets it exactly backward. "Those who can, do; those who can't, teach." But specification is where doing and teaching converge. When you write a spec, you are teaching your Agent your situation. When you review the spec it proposes back to you, you are teaching it where the generic version misses your reality. Every conversation with your Agent is an act of teaching — patient, iterative, grounded in what you know about your own life.
 
 The billionaire class has always had people to do the teaching for them. The lawyer who explains the situation to the other lawyer. The chief of staff who briefs the consultant. The executive assistant who translates the principal's vague instruction into a specific task. That translation layer — turning a loose human situation into a precise working document — was expensive labor, and it was invisible to the people who benefited from it most.
 
@@ -135,6 +135,6 @@ The billionaire class maintained its information advantage partly through scarci
 
 The old saying needs updating. Those who can, do. Those who can, also teach. With specification literacy, they are the same verb.
 
-[^34-1]: Bandura, A. (1977). [_Social Learning Theory._](https://archive.org/details/sociallearningth0000band) Prentice Hall. See also: Compeau, D.R. & Higgins, C.A. (1995). "Computer self-efficacy: Development of a measure and initial test." _MIS Quarterly_, 19(2), 189-211. Self-efficacy is the strongest predictor of whether a person will attempt a new technology.
+[^34-1]: Bandura, A. (1977). [_Social Learning Theory._](https://archive.org/details/sociallearningth0000band) Prentice Hall. See also: Compeau, D.R. & Higgins, C.A. (1995). "Computer self-efficacy: Development of a measure and initial test." _MIS Quarterly_, 19(2), 189--211. Self-efficacy is the strongest predictor of whether a person will attempt a new technology.
 
 [^34-2]: Rogers, E.M. (2003). [_Diffusion of Innovations_](https://bookshop.org/p/books/diffusion-of-innovations-5th-edition-everett-m-rogers/951236), 5th ed. Free Press. Rogers' research across five decades shows that interpersonal channels — especially near-peers who have recently adopted the innovation themselves — are more influential than mass media at every stage of adoption except initial awareness. The kitchen table is the adoption channel.

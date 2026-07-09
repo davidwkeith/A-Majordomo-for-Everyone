@@ -41,7 +41,7 @@ Paste in all the recipes you want to make this week. Ask your Agent to pull out 
 
 You just had three conversations with a stranger. Time to fix that.
 
-Every major AI tool lets you write permanent instructions that apply to every conversation — an onboarding note for your new assistant. The billionaire class spent weeks calibrating this with a human hire: _short briefings or detailed memos? "Mr. Arnault" or "Bernard"? Flag problems immediately or save them for the end of the day?_ The assistant who survived the probation period was the one who matched the boss's rhythm without being told twice. You get a settings panel and 10 minutes.
+Every major AI tool lets you write permanent instructions that apply to every conversation — an onboarding note for a new hire. The billionaire class spent weeks calibrating this with a human hire: _short briefings or detailed memos? "Mr. Arnault" or "Bernard"? Flag problems immediately or save them for the end of the day?_ The assistant who survived the probation period was the one who matched the boss's rhythm without being told twice. You get a settings panel and 10 minutes.
 
 Paste one of these into your settings, start a new conversation, and ask it anything:
 
@@ -85,4 +85,4 @@ The simple act of typing out a problem before asking for help produces measurabl
 :::
 
 
-[^2-2]: Pennebaker, J.W. & Seagal, J.D. (1999). ["Forming a story: The health benefits of narrative."](https://doi.org/10.1002/(SICI)1097-4679(199910)55:10%3C1243::AID-JCLP6%3E3.0.CO;2-N) _Journal of Clinical Psychology_, 55(10), 1243-1254.
+[^2-2]: Pennebaker, J.W. & Seagal, J.D. (1999). ["Forming a story: The health benefits of narrative."](https://doi.org/10.1002/(SICI)1097-4679(199910)55:10%3C1243::AID-JCLP6%3E3.0.CO;2-N) _Journal of Clinical Psychology_, 55(10), 1243--1254.

@@ -24,8 +24,20 @@ The following references are cleared for use in chapter text without explanation
 - *Office Space* — the relationship between bureaucratic systems and human dignity
 - *Clerks* — competence under conditions you didn't choose
 - *Reality Bites* — the specific exhaustion of a generation told to work harder in systems designed to extract from them
-- Chuck D / Public Enemy — "Fight the Power" as a legitimate framework for civic engagement chapters
+- Chuck D / Public Enemy — "Fight the Power" as a legitimate framework for civic engagement chapters; the sampling-panic history (Grand Upright, 1991) as the precedent for the AI copyright panic
 - The Napster era — the original promise of information democratization, and who killed it
+
+**Artists and thinkers (cleared for epigraphs):**
+- George Bernard Shaw — teaching and communication epigraphs
+- David Bowie — reinvention, collaboration with new tools (Chapter 32)
+- Kraftwerk / Ralf Hütter — the man-machine as a working partnership, not a replacement (Chapter 33)
+- Laurie Anderson — technology as a language humans speak back (Chapter 31)
+- William Gibson — "the street finds its own uses for things"; the future unevenly distributed (final note)
+- Björk — technology as an instrument, not an enemy (Life domain epigraph)
+- David Hockney — new mediums exciting old subjects; iPad painting at 73 (Computer & Web domain epigraph)
+- Nam June Paik — the artist's job is to humanize technology (Creative domain epigraph)
+- Marcel Duchamp — the viewer completes the work (Introduction epigraph)
+- Alfred Hitchcock — suspense as information asymmetry (Introduction)
 
 **90s sitcom home crises (indexed by strategy):**
 

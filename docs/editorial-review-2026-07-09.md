@@ -1,10 +1,26 @@
 # Full Editorial Review — 2026-07-09
 
-> **Status:** all §1 (Critical) items were fixed on this branch on 2026-07-09, including
-> the license correction to CC BY-SA 4.0, plus the matching `episode-index.md` Strategy 2
-> spec entry and Strategy 8's `status: stub`. Verified: type-check, 110/110 tests, clean
-> ePub build, footnote ref/def balance. Sections 2–6 (systemic rulings, renumbering
-> debris, draft debris, citation metadata, style mechanics) remain open.
+> **Status (2026-07-09):**
+> - **§1 (Critical): fixed** — license to CC BY-SA 4.0, all verified factual errors,
+>   `episode-index.md` Strategy 2 entry, Strategy 8 `status: stub` (commit c5c135c).
+> - **§3 (Renumbering debris): fixed** — 45 stale footnote prefixes renamed (mapping
+>   derived from actual Skill headings), 22 stale/wrong cross-refs corrected, Work
+>   domain reordered W-1..W-10.
+> - **§2 (Systemic): fixed except two deferred rulings.** Rulings written into specs:
+>   voice bible (address form "one's Agent", Agent = "it", British orthography in
+>   Jeeves passages), architecture.md (~130 Skills, compressed spec-loop allowance,
+>   Chapter 33, Chapter 4 title, domain epigraphs), cultural-references.md (epigraph
+>   registry). Sweeps executed: "the AI"→"your Agent" (48), "prompt"→"spec" in Ch. 4,
+>   "Claude"→"your Agent" in Ch. 30–32 + App. D (33), Jeeves normalization across all
+>   132 passages, 34 alt texts trimmed to ≤125 chars, 84 numeric ranges to en dashes,
+>   `07-final-note/` → `10-final-note/`.
+> - **Deferred to the author (two taste-level rulings):** (a) subheading case — style
+>   guide says sentence case, Parts 0/1 use Title Case; pick a side, then one sweep;
+>   (b) appendix relettering — closing the A/F gaps renames reader-visible letters and
+>   many "Appendix G" references; decide before 1.0.
+> - **Still open:** §4 (draft debris), §5 (citation metadata/link policy), §6 (style
+>   mechanics). Verified after each phase: type-check, 110/110 tests, clean ePub build,
+>   footnote ref/def balance.
 
 Eight parallel review passes over the entire manuscript (45 chapters, ~14,200 lines, 131
 Field Guide Skills, 286 footnotes, 159 science callouts), each grounded in the `spec/`

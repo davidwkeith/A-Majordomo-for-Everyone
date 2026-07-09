@@ -2,7 +2,8 @@
 format: png
 size: full
 alt: >
-  A still life: a Mac Classic with a blank, open word processor on screen, a battered paperback of The Hitchhiker's Guide to the Galaxy resting in front of the keyboard, a sharpened #2 pencil lying diagonally across the book, and a couple of small Post-It doodles around the workspace.
+  A blank word processor on a Mac Classic, a worn Hitchhiker's Guide
+  paperback and a pencil resting in front of it.
 ---
 
 Hand-drawn #2 pencil still life. Three drawn objects on a pure white

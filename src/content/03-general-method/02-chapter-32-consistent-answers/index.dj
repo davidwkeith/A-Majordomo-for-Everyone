@@ -11,22 +11,22 @@ status: "draft"
 _"I think the potential of what the Internet is going to do to society, both good and bad, is unimaginable. I think we're actually on the cusp of something exhilarating and terrifying."_
 _— [David Bowie](https://www.snopes.com/fact-check/david-bowie-1999-internet/), BBC Newsnight interview, 1999_
 
-Claude does not always give identical answers to identical questions. This is by design — the same way two conversations with the same knowledgeable friend might go differently depending on how the question was framed. For most tasks in this book, that variability is fine. For others — when you need a checklist, a step-by-step process, or a conservative interpretation of something with real stakes — you want to reduce variability and increase reliability.
+Your Agent does not always give identical answers to identical questions. This is by design — the same way two conversations with the same knowledgeable friend might go differently depending on how the question was framed. For most tasks in this book, that variability is fine. For others — when you need a checklist, a step-by-step process, or a conservative interpretation of something with real stakes — you want to reduce variability and increase reliability.
 
 Here is how.
 
 ### Ask for numbered steps when sequence matters
 
-If the order of operations is important — a legal process, a repair procedure, a medical preparation checklist — ask explicitly for numbered steps. Claude will default to numbered steps only if you ask for them.
+If the order of operations is important — a legal process, a repair procedure, a medical preparation checklist — ask explicitly for numbered steps. Your Agent will default to numbered steps only if you ask for them.
 
 ::: prompt
 Please give me numbered steps, in the order I should do them,
 with no steps combined.
 :::
 
-### Ask Claude to show its work
+### Ask your Agent to show its work
 
-For factual claims with real stakes, ask Claude to identify the basis for each main point and flag any areas where it is less certain. This is not about doubting Claude — it is about knowing where to verify independently.
+For factual claims with real stakes, ask your Agent to identify the basis for each main point and flag any areas where it is less certain. This is not about doubting your Agent — it is about knowing where to verify independently.
 
 ::: prompt
 For each main point in your answer, please tell me briefly
@@ -35,7 +35,7 @@ verify with a professional.
 :::
 
 ::: tip
-For complicated questions — anything with multiple parts, tradeoffs, or "it depends" answers — add: _"Think through this step by step before giving me your answer."_ This sounds simple, but "chain-of-thought" prompting is one of the most-studied techniques in the field: asking the model to lay out intermediate reasoning steps measurably improves accuracy on multi-step problems.[^32-cot] The more moving parts in your question, the more this helps.
+For complicated questions — anything with multiple parts, tradeoffs, or "it depends" answers — add: _"Think through this step by step before giving me your answer."_ This sounds simple, but "chain-of-thought" prompting is one of the most-studied techniques in the field: asking your Agent to lay out intermediate reasoning steps measurably improves accuracy on multi-step problems.[^32-cot] The more moving parts in your question, the more this helps.
 :::
 
 
@@ -50,7 +50,7 @@ I would rather over-prepare than be caught off guard.
 
 ### Ask for a checklist instead of advice
 
-When you need to act on something — not just understand it — ask Claude to convert its answer into a yes/no or done/not-done checklist.
+When you need to act on something — not just understand it — ask your Agent to convert its answer into a yes/no or done/not-done checklist.
 
 ::: prompt
 Can you turn that into a checklist I can print out and work
@@ -71,7 +71,7 @@ Your Agent will often catch its own oversights — a missed exception, an assump
 
 ### Check the spec before you trust the answer
 
-Claude can give a perfectly coherent, well-reasoned answer to the wrong version of your question. The answer _looks_ right because it _is_ right — for someone else's situation. Before you act on a plan, an interpretation, or a recommendation, ask your Agent to tell you what it thinks you asked:
+Your Agent can give a perfectly coherent, well-reasoned answer to the wrong version of your question. The answer _looks_ right because it _is_ right — for someone else's situation. Before you act on a plan, an interpretation, or a recommendation, ask your Agent to tell you what it thinks you asked:
 
 ::: prompt
 Before I act on this — restate what you understood my situation
@@ -81,11 +81,11 @@ you were working within.
 
 Read the echo-back against what you actually said. You are looking for three things:
 
-*Goal drift.* You asked for options. It gave you a plan. You wanted to understand a bill. It jumped straight to disputing it. The shape of the answer does not match the shape of the question. This happens because Claude optimizes for helpfulness, and "helpful" often means "action-oriented" even when you asked for understanding.
+*Goal drift.* You asked for options. It gave you a plan. You wanted to understand a bill. It jumped straight to disputing it. The shape of the answer does not match the shape of the question. This happens because your Agent optimizes for helpfulness, and "helpful" often means "action-oriented" even when you asked for understanding.
 
 *Dropped constraints.* You said "I want to avoid legal escalation" and the first recommendation is to file a formal complaint with a regulatory agency. You said "keep this under $500" and the proposed solution costs $1,200. A constraint you stated got treated as a preference rather than a boundary.
 
-*Invented facts.* Claude assumed your state, your income bracket, your timeline, or your relationship to the other party. The assumption is plausible — that is what makes it dangerous. It filled in a detail you did not provide, and built its answer on top of it.
+*Invented facts.* Your Agent assumed your state, your income bracket, your timeline, or your relationship to the other party. The assumption is plausible — that is what makes it dangerous. It filled in a detail you did not provide, and built its answer on top of it.
 
 When you spot one of these, you do not need to start over. Correct the specific misunderstanding:
 
@@ -95,7 +95,7 @@ options, not a step-by-step plan. Can you redo this with those
 corrections?
 :::
 
-The echo-back checks whether Claude understood your situation. The calibration question, below, checks whether its answer is reliable. These are two different failure modes — wrong understanding versus uncertain knowledge — and they need two different checks.
+The echo-back checks whether your Agent understood your situation. The calibration question, below, checks whether its answer is reliable. These are two different failure modes — wrong understanding versus uncertain knowledge — and they need two different checks.
 
 ### Recognizing when the spec is right
 
@@ -103,7 +103,7 @@ The failure modes tell you when the spec is wrong. But the harder question is th
 
 A correct spec is not a perfect spec. Perfection is a stalling tactic. A correct spec has four properties you can check:
 
-*It uses its own words, not yours.* When Claude restates your situation, it should paraphrase, not parrot. If the echo-back is your exact sentences rearranged, your Agent may be reflecting your words without processing them. A real understanding sounds slightly different from how you said it — the way a good listener says "so what you're dealing with is..." rather than reading your message back to you.
+*It uses its own words, not yours.* When your Agent restates your situation, it should paraphrase, not parrot. If the echo-back is your exact sentences rearranged, your Agent may be reflecting your words without processing them. A real understanding sounds slightly different from how you said it — the way a good listener says "so what you're dealing with is..." rather than reading your message back to you.
 
 *It names your specifics, not generic categories.* "You're dealing with a landlord dispute" is a category. "Your landlord in Texas has withheld your $1,200 deposit for sixty days citing carpet damage you photographed on move-in" is your situation. If the echo-back could apply to anyone with a vaguely similar problem, it has not locked onto yours.
 
@@ -143,10 +143,10 @@ How confident are you in this answer, and what are the two
 or three things I should independently verify before acting on it?
 :::
 
-This single question will consistently improve the quality of the guidance you receive. Claude will tell you where its answer is reliable and where it is extrapolating. That boundary is exactly where you should apply your own judgment — or pick up the phone and call a professional. It is the same line Chapter 31 draws from the other direction: where AI's edge ends and the human's begins.
+This single question will consistently improve the quality of the guidance you receive. Your Agent will tell you where its answer is reliable and where it is extrapolating. That boundary is exactly where you should apply your own judgment — or pick up the phone and call a professional. It is the same line Chapter 31 draws from the other direction: where AI's edge ends and the human's begins.
 
 ::: science
-Research on _algorithm aversion_ — the human tendency to distrust algorithmic recommendations even when they are demonstrably more accurate — shows that people abandon an algorithm after watching it err (Dietvorst et al., 2015), but stay with one when they keep some control over the final output (Dietvorst et al., 2018). The spec loop gives you exactly that control: you review, you correct, you decide. Asking Claude to show its work keeps the final judgment yours.[^32-1]
+Research on _algorithm aversion_ — the human tendency to distrust algorithmic recommendations even when they are demonstrably more accurate — shows that people abandon an algorithm after watching it err (Dietvorst et al., 2015), but stay with one when they keep some control over the final output (Dietvorst et al., 2018). The spec loop gives you exactly that control: you review, you correct, you decide. Asking your Agent to show its work keeps the final judgment yours.[^32-1]
 :::
 
 
@@ -155,7 +155,7 @@ The inverse phenomenon, _automation bias_ — over-trusting algorithmic output �
 :::
 
 
-[^32-1]: Dietvorst, B.J., Simmons, J.P., & Massey, C. (2015). ["Algorithm aversion: People erroneously avoid algorithms after seeing them err."](https://doi.org/10.1037/xge0000033) _Journal of Experimental Psychology: General_, 144(1), 114-126. Dietvorst, B.J., Simmons, J.P., & Massey, C. (2018). ["Overcoming algorithm aversion: People will use imperfect algorithms if they can (even slightly) modify them."](https://doi.org/10.1287/mnsc.2016.2643) _Management Science_, 64(3), 1155-1170.
+[^32-1]: Dietvorst, B.J., Simmons, J.P., & Massey, C. (2015). ["Algorithm aversion: People erroneously avoid algorithms after seeing them err."](https://doi.org/10.1037/xge0000033) _Journal of Experimental Psychology: General_, 144(1), 114--126. Dietvorst, B.J., Simmons, J.P., & Massey, C. (2018). ["Overcoming algorithm aversion: People will use imperfect algorithms if they can (even slightly) modify them."](https://doi.org/10.1287/mnsc.2016.2643) _Management Science_, 64(3), 1155--1170.
 
 [^32-2]: Cummings, M.L. (2004). "Automation bias in intelligent time critical decision support systems." _AIAA 1st Intelligent Systems Technical Conference._
 

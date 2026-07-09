@@ -2,10 +2,8 @@
 format: png
 size: full
 alt: >
-  A Trinitron TV on notebook paper showing an 8-bit scene of Picard
-  and Data in a Victorian drawing room. Through the window behind
-  them, barely visible, the hexagonal grid lines of a holodeck.
-  One holds a book that should not exist outside the simulation.
+  Picard and Data in a Victorian drawing room; a faint holodeck grid
+  in the window reveals the room is not real.
 ---
 
 TRINITRON CHAPTER OPENER. Picard and Data in what appears to be a

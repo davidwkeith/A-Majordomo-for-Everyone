@@ -2,11 +2,8 @@
 format: png
 size: full
 alt: >
-  An 8-bit pixel art scene of a windowless conference room. One man
-  sits on the left side of a table, slightly slouched, an open file
-  folder in front of him. Two men in matching suits sit on the right
-  side, one writing on a legal pad, one gesturing with a pen. Behind
-  them, an interior window looks out onto a cubicle floor.
+  Peter across a conference table from the two Bobs, being asked to
+  explain what, exactly, he does here.
 ---
 
 The interview scene from Office Space, rendered in 8-bit pixel art

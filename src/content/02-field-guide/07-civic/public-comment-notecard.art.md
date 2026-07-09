@@ -2,7 +2,8 @@
 format: png
 size: half-right
 alt: >
-  A 3x5 lined notecard with a three-part public comment structure handwritten in ballpoint pen — Position, Reason, Ask — and a small digital timer in the corner reading 1:45.
+  A notecard with a three-part public comment — Position, Reason, Ask
+  — beside a timer reading 1:45.
 ---
 
 Hand-drawn #2 pencil sketch of a single 3x5 lined index card, lying

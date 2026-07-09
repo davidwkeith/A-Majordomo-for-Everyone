@@ -2,7 +2,7 @@
 format: png
 size: margin
 alt: >
-  The iconic solid black profile silhouette of Alfred Hitchcock from the opening of "Alfred Hitchcock Presents" — rounded bald head, small nose, protruding lower lip, double chin, round belly.
+  Alfred Hitchcock's famous profile silhouette in solid black.
 ---
 
 **This is a SILHOUETTE. Read this paragraph twice.** The image is a

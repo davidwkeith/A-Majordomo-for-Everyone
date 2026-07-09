@@ -2,10 +2,8 @@
 format: png
 size: full
 alt: >
-  A Trinitron TV on notebook paper showing an 8-bit scene of Ross on
-  his couch, early morning, phone in hand. His expression is the
-  precise look of someone who has just realized what he did and what
-  she thinks he did are not the same thing.
+  Ross on his couch with the phone, realizing what he did and what she
+  thinks he did are not the same thing.
 ---
 
 TRINITRON CHAPTER OPENER. Ross on his couch, early morning, cordless phone
