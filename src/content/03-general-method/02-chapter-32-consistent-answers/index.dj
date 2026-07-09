@@ -146,7 +146,7 @@ or three things I should independently verify before acting on it?
 This single question will consistently improve the quality of the guidance you receive. Claude will tell you where its answer is reliable and where it is extrapolating. That boundary is exactly where you should apply your own judgment — or pick up the phone and call a professional. It is the same line Chapter 31 draws from the other direction: where AI's edge ends and the human's begins.
 
 ::: science
-Research on _algorithm aversion_ — the human tendency to distrust algorithmic recommendations even when they are demonstrably more accurate — shows that people accept algorithmic guidance more readily when they can see the reasoning behind it (Dietvorst et al., 2018). Asking Claude to show its work is not just practically useful. It also addresses the well-documented psychological resistance to following advice from a source you cannot fully understand.[^32-1]
+Research on _algorithm aversion_ — the human tendency to distrust algorithmic recommendations even when they are demonstrably more accurate — shows that people abandon an algorithm after watching it err (Dietvorst et al., 2015), but stay with one when they keep some control over the final output (Dietvorst et al., 2018). The spec loop gives you exactly that control: you review, you correct, you decide. Asking Claude to show its work keeps the final judgment yours.[^32-1]
 :::
 
 
@@ -155,7 +155,7 @@ The inverse phenomenon, _automation bias_ — over-trusting algorithmic output �
 :::
 
 
-[^32-1]: Dietvorst, B.J., Simmons, J.P., & Massey, C. (2015). ["Algorithm aversion: People erroneously avoid algorithms after seeing them err."](https://doi.org/10.1037/xge0000033) _Journal of Experimental Psychology: General_, 144(1), 114-126. <!-- RESEARCH NEEDED: original citation listed authors as "Dietvorst, Logg, & Lonati (2018)" and the volume/pages above match the 2015 paper by Dietvorst, Simmons & Massey — corrected the author list and year per the actual published source. Please verify before publication. -->
+[^32-1]: Dietvorst, B.J., Simmons, J.P., & Massey, C. (2015). ["Algorithm aversion: People erroneously avoid algorithms after seeing them err."](https://doi.org/10.1037/xge0000033) _Journal of Experimental Psychology: General_, 144(1), 114-126. Dietvorst, B.J., Simmons, J.P., & Massey, C. (2018). ["Overcoming algorithm aversion: People will use imperfect algorithms if they can (even slightly) modify them."](https://doi.org/10.1287/mnsc.2016.2643) _Management Science_, 64(3), 1155-1170.
 
 [^32-2]: Cummings, M.L. (2004). "Automation bias in intelligent time critical decision support systems." _AIAA 1st Intelligent Systems Technical Conference._
 

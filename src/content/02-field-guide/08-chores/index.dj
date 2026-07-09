@@ -142,7 +142,7 @@ Send a photo. Your Agent can identify most common houseplants from a clear photo
 
 
 ::: science
-The "green thumb" is not a personality trait. It is a knowledge gap. A 2015 study in _HortScience_ found that the primary barrier keeping consumers from buying --- and successfully keeping --- indoor plants was a deficit of practical knowledge about watering and light requirements, not inexperience or lack of botanical talent.[^ch3-1] University extension services consistently identify overwatering as the leading cause of houseplant death --- a problem that disappears once you know the species-specific requirements. Know the plant. Follow the requirements. That's the whole secret.
+The "green thumb" is not a personality trait. It is a knowledge gap. University extension services consistently identify overwatering as the leading cause of houseplant death --- a problem that disappears once you know the species-specific requirements, because most people water on a schedule instead of checking the soil. Know the plant. Follow the requirements. That's the whole secret.
 :::
 
 
@@ -150,8 +150,6 @@ The "green thumb" is not a personality trait. It is a knowledge gap. A 2015 stud
 To make this Expert Role persistent across sessions, save it as a *Project* (Claude), *Gem* (Gemini), or *Custom GPT* (ChatGPT). See [Appendix G](06-appendix-g-feature-table.xhtml).
 :::
 
-
-[^ch3-1]: Rihn, A.L., Khachatryan, H., Campbell, B., Hall, C. & Behe, B. (2015). "[Consumer response to novel indoor foliage plant attributes: Evidence from a conjoint experiment and gaze analysis](https://doi.org/10.21273/HORTSCI.50.10.1524)." _HortScience_, 50(10), 1524--1530. 42% of consumers identified maintenance requirements as their primary barrier to keeping indoor plants.
 
 ---
 

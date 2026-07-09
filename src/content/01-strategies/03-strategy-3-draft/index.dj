@@ -52,7 +52,7 @@ Bluma Zeigarnik's 1927 research established that the brain actively maintains in
 
 _In the Field Guide: [H-4 (Insurance Appeals)](ref:h-4), [Li-2 (Eulogies)](ref:li-2), [C-5 (Public Comments)](ref:c-5), [L-3 (Demand Letters)](ref:l-3), [W-1 (Job Search)](ref:w-1)._
 
-*Worked examples:* A demand letter to a landlord. A Medicare denial appeal. A public comment for a city council meeting.
+*Worked examples:* A demand letter to a landlord. An insurance denial appeal. A public comment for a city council meeting.
 
 ### Example 1: The Landlord Counteroffer
 
@@ -239,9 +239,9 @@ Ask for two or three tone variants and pick the one closest to your voice. You c
 Claude and ChatGPT both support inline editing — you can highlight a section of the response and ask for a revision without regenerating the whole thing. In Gemini, use a follow-up message to request changes to specific parts. Revision is the workflow. The first draft is raw material.
 :::
 
-### Example 2: The Medicare Denial Appeal Letter
+### Example 2: The Insurance Denial Appeal Letter
 
-In Strategy 0: Specify, you decoded an insurance denial — an MRI your doctor ordered, denied as "not medically necessary." Your Agent helped you understand what the denial meant, what a first-level internal appeal looks like, and how to file one. You filed it. Your doctor's office provided a letter of medical necessity, just like they said they would. The appeal was denied. Now you need to write the next one.
+In Strategy 0: Specify, you worked through an insurance denial — an MRI your doctor ordered, denied as "not medically necessary." Your Agent helped you understand what the denial meant, what a first-level internal appeal looks like, and how to file one. You filed it. Your doctor's office provided a letter of medical necessity, just like they said they would. The appeal was denied. Now you need to write the next one.
 
 You have been fighting this for weeks. The first appeal felt like filling out a form — follow the steps, attach the letter, submit. This one is different. The external appeal goes to an independent medical reviewer, not customer service. It is a formal document with real requirements and a real audience: a physician who will read your case and decide whether the denial stands. The blank page is harder this time because the stakes are higher, the format is less familiar, and you have already been told no twice.
 

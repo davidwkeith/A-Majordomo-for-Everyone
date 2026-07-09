@@ -25,12 +25,12 @@
 ---
 
 **Strategy 2: Prepare**
-*Home Improvement*, "The Longest Day" (Season 4, approximate)
-**The problem:** Tim takes Randy to the doctor for a routine checkup that turns into something more serious. Tim, who has spent the episode confident and in control, suddenly finds himself in a waiting room with no questions prepared, no understanding of what the tests mean, and no framework for the conversation he's about to have with the doctor.
+*Home Improvement*, "The Longest Day" (Season 5, Episode 22, 1996)
+**The problem:** Jill takes the boys to the doctor for routine checkups, and Randy's turns into something more serious — the doctor finds something on his thyroid that needs more tests. Tim, who has spent the episode confident and in control, suddenly finds himself in a waiting room with no questions prepared, no understanding of what the tests mean, and no framework for the conversation he's about to have with the doctor.
 **The iconic scene:** Tim in the hospital waiting room, sitting still — which Tim almost never does. Jill is there. Neither of them knows what to ask. The doctor comes out and speaks in clinical terms neither of them is prepared to parse.
 **The irony:** Tim spent the episode fixing things that weren't broken. He did not prepare for the one conversation where preparation would have mattered. Every question he should have written down beforehand has to be asked reactively, under stress, in the wrong order.
 **Pixel art scene brief:** Tim and Jill on a waiting room bench, both leaning forward, elbows on knees. A doctor stands before them holding a clipboard. Tim's hands are empty — no notes, no list. The look on both their faces is the specific expression of people who have questions they haven't formed yet.
-**Caption:** *Home Improvement, "The Longest Day" (approx. 1994) — Tim fixed the garbage disposal this morning. He did not write down what to ask the doctor.*
+**Caption:** *Home Improvement, "The Longest Day" (1996) — Tim fixed the garbage disposal this morning. Nobody wrote down what to ask the doctor.*
 
 ---
 

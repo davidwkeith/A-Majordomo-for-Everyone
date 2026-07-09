@@ -157,7 +157,7 @@ Vibe coding evolved. Professional engineers now practice _agentic coding_ — wr
 
 [^wb9-2]: Karpathy, A. (2025). ["Vibe coding."](https://x.com/karpathy/status/1886192184808149383) X post, February 2, 2025. Collins Dictionary Word of the Year, 2025.
 
-[^wb9-1]: Scaffidi, C., Shaw, M., & Myers, B. (2005). ["Estimating the numbers of end users and end user programmers."](https://doi.org/10.1109/VLHCC.2005.34) _2005 IEEE Symposium on Visual Languages and Human-Centric Computing_, 207–214. For the AI-era update: Gargioni, L. et al. (2024). ["Feasibility of AI-Assisted Programming for End-User Development."](https://arxiv.org/abs/2512.05666) arXiv:2512.05666 — non-programmers successfully built web applications through AI interaction, suggesting AI-assisted coding may complement or replace low-code/no-code platforms.
+[^wb9-1]: Scaffidi, C., Shaw, M., & Myers, B. (2005). ["Estimating the numbers of end users and end user programmers."](https://doi.org/10.1109/VLHCC.2005.34) _2005 IEEE Symposium on Visual Languages and Human-Centric Computing_, 207–214. For the AI-era update: Weber, I. (2025). ["Feasibility of AI-Assisted Programming for End-User Development."](https://arxiv.org/abs/2512.05666) arXiv:2512.05666 — non-programmers successfully built web applications through AI interaction, suggesting AI-assisted coding may complement or replace low-code/no-code platforms.
 
 ---
 
@@ -285,7 +285,7 @@ It includes the output, too --- not only what your Agent says but the _form_ in 
 The same split runs through data and documents. Your Agent reads and writes [CSV](https://en.wikipedia.org/wiki/Comma-separated%5Fvalues) --- the spreadsheet's plain-text form --- as easily as it reads Markdown: hand it a messy bank export and it will sort, dedupe, and total it in seconds. But almost nobody wants a CSV at the end. They want an Excel workbook, with formatting and formulas and more than one sheet --- so ask for `.xlsx`. A letter that has to land in someone's Word: ask for `.docx`. Something you will sign, submit, or file away unchanged: ask for PDF. One caveat: tools differ in whether they can hand you the finished file or only its contents --- Claude and ChatGPT can usually generate the file itself; if yours cannot, take the content it gives you and do that last conversion yourself, or ask it how. Plain text --- Markdown, CSV --- to think and work in; a real file in the format your recipient expects for the thing you deliver.
 
 ::: science
-Research on expertise development (Ericsson et al., 1993) identifies _deliberate practice_ — structured, feedback-rich repetition focused on specific weaknesses — as the primary mechanism of skill acquisition. Using an AI Agent well is a skill, and it develops the same way other skills do: through repeated use with attention to what works and what doesn't. The calibration question ("how confident are you?") is the built-in feedback mechanism.[^wb10-1]
+Research on expertise development (Ericsson et al., 1993) identifies _deliberate practice_ — structured, feedback-rich repetition focused on specific weaknesses — as the primary mechanism of skill acquisition. Using an AI Agent well is a skill, and it develops the same way other skills do: through repeated use with attention to what works and what doesn't. The calibration question ("how confident are you?") is the built-in feedback mechanism.[^wb4-1]
 :::
 
 
@@ -294,7 +294,7 @@ Research on expertise development (Ericsson et al., 1993) identifies _deliberate
 :::
 
 
-[^wb10-1]: Ericsson, K.A., Krampe, R.T., & Tesch-Römer, C. (1993). ["The role of deliberate practice in the acquisition of expert performance."](https://doi.org/10.1037/0033-295X.100.3.363) _Psychological Review_, 100(3), 363–406.
+[^wb4-1]: Ericsson, K.A., Krampe, R.T., & Tesch-Römer, C. (1993). ["The role of deliberate practice in the acquisition of expert performance."](https://doi.org/10.1037/0033-295X.100.3.363) _Psychological Review_, 100(3), 363–406.
 
 ---
 
@@ -602,7 +602,7 @@ The grief of digital loss — lost photos, deleted accounts, inaccessible archiv
 :::
 
 
-[^wb6-2]: Zittrain, J., Albert, K., & Lessig, L. (2021). ["Perma: Scoping and Addressing the Problem of Link and Reference Rot in Legal Citations."](https://doi.org/10.2139/ssrn.3742357) _Harvard Law Review_, 127(4). See also Lepore, J. (2015). ["The Cobweb."](https://www.newyorker.com/magazine/2015/01/26/cobweb) _The New Yorker_.
+[^wb6-2]: Zittrain, J., Bowers, J., & Stanton, C. (2021). ["The Paper of Record Meets an Ephemeral Web: An Examination of Linkrot and Content Drift within The New York Times."](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3833133) SSRN. On the Supreme Court and legal citations: Zittrain, J., Albert, K., & Lessig, L. (2014). ["Perma: Scoping and Addressing the Problem of Link and Reference Rot in Legal Citations."](https://harvardlawreview.org/forum/vol-127/perma-scoping-and-addressing-the-problem-of-link-and-reference-rot-in-legal-citations/) _Harvard Law Review Forum_, 127. See also Lepore, J. (2015). ["The Cobweb."](https://www.newyorker.com/magazine/2015/01/26/cobweb) _The New Yorker_.
 
 [^wb6-1]: Internet Archive. [archive.org](https://archive.org/). Founded 1996 by Brewster Kahle. As of 2024, the Wayback Machine contains over 835 billion archived web pages.
 
