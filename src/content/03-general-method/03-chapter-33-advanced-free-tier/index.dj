@@ -11,7 +11,7 @@ status: "draft"
 _"We cannot play science fiction music on the guitar — it's an instrument that was invented in the middle ages in Spain. So, when we want to do the spirit of today you have to choose the medium of today to do it."_
 _— [Ralf Hütter](https://en.wikipedia.org/wiki/Kraftwerk), Kraftwerk, 1978_
 
-Chapter 3 covered the basics: four services, a bookmark folder, and the rotation. That was enough to start. Now you have been through the strategies, the Field Guide, and the general method. You know what a good spec looks like. You know how to evaluate the output. You know when to call a professional instead. This chapter is about making the free tier work harder --- not by discovering hidden features, but by applying everything you have learned to the mechanics of the tools themselves.
+Chapter 3: The Free Tier Playbook covered the basics: four services, a bookmark folder, and the rotation. That was enough to start. Now you have been through the strategies, the Field Guide, and the general method. You know what a good spec looks like. You know how to evaluate the output. You know when to call a professional instead. This chapter is about making the free tier work harder --- not by discovering hidden features, but by applying everything you have learned to the mechanics of the tools themselves.
 
 The paid tier exists. It is useful. For most people doing the tasks in this book, it is not necessary. The gap between free and paid is not capability --- it is convenience. The free tier does the same work. It just asks you to be smarter about how you use it.
 
@@ -53,7 +53,7 @@ Copy. Paste into the new conversation. You have just done what a chief of staff 
 
 By now you have specs that worked. The question for the landlord. The template for decoding a medical bill. The five-part frame you used for the insurance appeal. These are reusable.
 
-The tool for this already exists --- it is the same persistent context feature Chapter 3 introduced and the Household Majordomo section below expands on. Create a Project (Claude), Gem (Gemini), or custom GPT (ChatGPT) whose instructions contain your best specs. Not the answers --- the questions. When a conversation produces a good result, copy the spec that generated it into that project's instructions.
+The tool for this already exists --- it is the same persistent context feature Chapter 3 introduced and the Household Majordomo section later in this chapter expands on. Create a Project (Claude), Gem (Gemini), or custom GPT (ChatGPT) whose instructions contain your best specs. Not the answers --- the questions. When a conversation produces a good result, copy the spec that generated it into that project's instructions.
 
 A good spec library has three to five entries after a month of regular use. After six months, it has a dozen. Every spec you save is a conversation you do not have to build from scratch next time. On the free tier, that means your daily budget goes further because you are spending fewer messages on specification and more on execution.
 
@@ -64,7 +64,7 @@ The spec that worked for your situation will probably work for someone else's. W
 
 ### Using Multiple Services on the Same Problem
 
-Chapter 3 taught the rotation as a conservation strategy --- when one service runs out, use the next. That is the beginner move. The advanced move is using different services on the same problem because they have different strengths.
+Chapter 3: The Free Tier Playbook taught the rotation as a conservation strategy --- when one service runs out, use the next. That is the beginner move. The advanced move is using different services on the same problem because they have different strengths.
 
 *The decode-and-draft workflow:*
 
@@ -128,6 +128,6 @@ The free tier is not a compromise. It is the same tool, used with more intention
 
 The billionaire class does not have better tools than you do. They have people who know how to use tools well. This chapter --- and this book --- is that person.
 
-[^33-1]: Surowiecki, J. (2004). [_The Wisdom of Crowds._](https://bookshop.org/p/books/the-wisdom-of-crowds-james-surowiecki/18725220) Anchor Books. The independence condition is critical --- the estimates must be formed without knowledge of each other. Two AI services working from the same spec satisfy this condition naturally.
+[^33-1]: Surowiecki, J. (2004). [_The Wisdom of Crowds._](https://bookshop.org/p/books/the-wisdom-of-crowds-james-surowiecki/18725220) Anchor Books. The independence condition is critical --- the estimates must be formed without knowledge of each other. Two AI services working from the same spec are not fully independent --- they share training data and failure modes --- but their errors are uncorrelated enough that agreement raises confidence and disagreement flags exactly the points needing verification.
 
 [^33-2]: Ericsson, K.A., Krampe, R.T. & Tesch-Römer, C. (1993). "[The role of deliberate practice in the acquisition of expert performance](https://doi.org/10.1037/0033-295X.100.3.363)." _Psychological Review_, 100(3), 363--406.

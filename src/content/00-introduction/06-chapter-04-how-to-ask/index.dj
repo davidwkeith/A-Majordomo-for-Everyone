@@ -8,8 +8,10 @@ status: "draft"
 
 ## Chapter 4: How to Ask for What You Actually Want
 
-[_"Could you please clarify what you mean by 'normal'?"_]{.art stem="epigraph-ch4-data"}
+_"Could you please clarify what you mean by 'normal'?"_
 _— [Data](https://en.wikipedia.org/wiki/Data%5F(Star%5FTrek)), probably, in every episode_
+
+[epigraph-ch4-data]{.art}
 
 This is the most important chapter in the book. The difference between a frustrating conversation with your Agent and a genuinely useful one almost always comes down to how the question was asked.
 
@@ -159,7 +161,7 @@ Claude calls persistent cross-conversation memory simply "Memory" — it can be 
 
 
 ::: also
-For ongoing household projects — managing a renovation, tracking a medical situation, handling a long legal dispute — Claude's *Projects* feature lets you store background documents and instructions that persist across every conversation in that project. Gemini's equivalent is a *Gem*. ChatGPT's equivalent is a *custom GPT*. Setting one up for your household is the single highest-leverage thing you can do with any of these tools. Chapter 3 explains how.
+For ongoing household projects — managing a renovation, tracking a medical situation, handling a long legal dispute — Claude's *Projects* feature lets you store background documents and instructions that persist across every conversation in that project. Gemini's equivalent is a *Gem*. ChatGPT's equivalent is a *custom GPT*. Setting one up for your household is the most useful single thing you can do with any of these tools. Chapter 3: The Free Tier Playbook explains how.
 :::
 
 

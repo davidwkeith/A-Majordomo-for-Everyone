@@ -30,7 +30,7 @@
   ```
 
   **Required:** Problem title, Strategy, My Man Jeeves, The Spec, at least one callout.
-  **Expected for most Skills:** See also, What to do with the Output.
+  **Expected for most Skills:** See also, What to do with the Output. A *See also* line may end with at most one external resource (a canonical book or site) when it is the standard reference for the Skill's domain.
   **Conditional:** Expert Role Specs (only when the Skill uses the "Act as a..." pattern), Science Note (inline variant of [SCIENCE] for brief citations within prose).
 
 - **Cross-references between Skills:** Skills that share concepts, strategies, or institutions should reference each other inline — e.g., "see also L-1: Negotiating a Contract" or "the appeal process in H-4 applies here." This is the DRY principle applied to a book: teach a concept once, reference it everywhere it recurs. The reader who arrives at Ho-5 (renter rights) from a lease dispute should find the contract-reading technique in L-1 rather than a second, lesser explanation of the same technique. Cross-references use the Skill ID format (`H-4`, `L-1`, `Ho-3`) so the reader learns the book's navigation system by using it.

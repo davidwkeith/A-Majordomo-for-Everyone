@@ -10,7 +10,7 @@ status: "draft"
 
 _The [ALSO] blocks throughout this book point here for the full reference. This table is a living document — tool features change, names change, new tools emerge. Current version maintained at [majordomo.dwk.io/features](https://majordomo.dwk.io/features)._
 
-The book uses Claude as its default example. Every feature named below exists in some form across all major tools, but the names differ. This table is your vocabulary key.
+The book uses Claude as its default example. Every feature named in this table exists in some form across all major tools, but the names differ. This table is your vocabulary key.
 
 ---
 

@@ -35,7 +35,7 @@ verify with a professional.
 :::
 
 ::: tip
-For complicated questions — anything with multiple parts, tradeoffs, or "it depends" answers — add: _"Think through this step by step before giving me your answer."_ This sounds simple, but "chain-of-thought" prompting is one of the most-studied techniques in the field: asking your Agent to lay out intermediate reasoning steps measurably improves accuracy on multi-step problems.[^32-cot] The more moving parts in your question, the more this helps.
+For complicated questions — anything with multiple parts, tradeoffs, or "it depends" answers — add: _"Think through this step by step before giving me your answer."_ This sounds simple, but "chain-of-thought" prompting is one of the most-studied techniques in the field: asking your Agent to lay out intermediate reasoning steps measurably improves accuracy on multi-step problems.[^32-3] The more moving parts in your question, the more this helps.
 :::
 
 
@@ -67,7 +67,7 @@ oversimplify, or leave out? What would change if my situation
 were slightly different?
 :::
 
-Your Agent will often catch its own oversights — a missed exception, an assumption it made about your circumstances, a detail it glossed over for brevity. This is not a sign the first answer was unreliable. It is the same principle as rereading a contract before signing: the second read catches what the first read missed. For high-stakes questions — legal, medical, financial — a self-review followed by the calibration question below gives you two layers of error-checking before you act.
+Your Agent will often catch its own oversights — a missed exception, an assumption it made about your circumstances, a detail it glossed over for brevity. This is not a sign the first answer was unreliable. It is the same principle as rereading a contract before signing: the second read catches what the first read missed. For high-stakes questions — legal, medical, financial — a self-review followed by the calibration question later in this chapter gives you two layers of error-checking before you act.
 
 ### Check the spec before you trust the answer
 
@@ -79,7 +79,7 @@ to be, what you think I am trying to achieve, and what constraints
 you were working within.
 :::
 
-Read the echo-back against what you actually said. You are looking for three things:
+Read the read-back against what you actually said. You are looking for three things:
 
 *Goal drift.* You asked for options. It gave you a plan. You wanted to understand a bill. It jumped straight to disputing it. The shape of the answer does not match the shape of the question. This happens because your Agent optimizes for helpfulness, and "helpful" often means "action-oriented" even when you asked for understanding.
 
@@ -95,7 +95,7 @@ options, not a step-by-step plan. Can you redo this with those
 corrections?
 :::
 
-The echo-back checks whether your Agent understood your situation. The calibration question, below, checks whether its answer is reliable. These are two different failure modes — wrong understanding versus uncertain knowledge — and they need two different checks.
+The read-back checks whether your Agent understood your situation. The calibration question, covered later in this chapter, checks whether its answer is reliable. These are two different failure modes — wrong understanding versus uncertain knowledge — and they need two different checks.
 
 ### Recognizing when the spec is right
 
@@ -103,9 +103,9 @@ The failure modes tell you when the spec is wrong. But the harder question is th
 
 A correct spec is not a perfect spec. Perfection is a stalling tactic. A correct spec has four properties you can check:
 
-*It uses its own words, not yours.* When your Agent restates your situation, it should paraphrase, not parrot. If the echo-back is your exact sentences rearranged, your Agent may be reflecting your words without processing them. A real understanding sounds slightly different from how you said it — the way a good listener says "so what you're dealing with is..." rather than reading your message back to you.
+*It uses its own words, not yours.* When your Agent restates your situation, it should paraphrase, not parrot. If the read-back is your exact sentences rearranged, your Agent may be reflecting your words without processing them. A real understanding sounds slightly different from how you said it — the way a good listener says "so what you're dealing with is..." rather than reading your message back to you.
 
-*It names your specifics, not generic categories.* "You're dealing with a landlord dispute" is a category. "Your landlord in Texas has withheld your $1,200 deposit for sixty days citing carpet damage you photographed on move-in" is your situation. If the echo-back could apply to anyone with a vaguely similar problem, it has not locked onto yours.
+*It names your specifics, not generic categories.* "You're dealing with a landlord dispute" is a category. "Your landlord in Texas has withheld your $1,200 deposit for 60 days citing carpet damage you photographed on move-in" is your situation. If the read-back could apply to anyone with a vaguely similar problem, it has not locked onto yours.
 
 *It admits what it does not know.* A spec that fills in every detail without asking is guessing. Your Agent should flag assumptions: "I'm assuming you haven't already contacted the landlord in writing — is that correct?" The absence of any hedging is not confidence. It is a sign that gaps are being papered over.
 
@@ -159,4 +159,4 @@ The inverse phenomenon, _automation bias_ — over-trusting algorithmic output �
 
 [^32-2]: Cummings, M.L. (2004). ["Automation bias in intelligent time critical decision support systems."](https://doi.org/10.2514/6.2004-6313) _AIAA 1st Intelligent Systems Technical Conference._
 
-[^32-cot]: Wei, J. et al. (2022). ["Chain-of-Thought Prompting Elicits Reasoning in Large Language Models."](https://arxiv.org/abs/2201.11903) _NeurIPS 2022._ The finding holds most strongly for sufficiently large models on multi-step arithmetic, commonsense, and symbolic reasoning problems.
+[^32-3]: Wei, J. et al. (2022). ["Chain-of-Thought Prompting Elicits Reasoning in Large Language Models."](https://arxiv.org/abs/2201.11903) _NeurIPS 2022._ The finding holds most strongly for sufficiently large models on multi-step arithmetic, commonsense, and symbolic reasoning problems.

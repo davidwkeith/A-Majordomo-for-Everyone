@@ -179,4 +179,7 @@ This section governs the ePub output and any web rendering.
   - Skills: `[^{prefix}{skill}-{seq}]` (e.g., `[^h4-1]`, `[^li7-1]`)
   - Strategy chapters: `[^s{number}-{seq}]` (e.g., `[^s2-1]`)
   - Introduction and general-method chapters: `[^{chapter-number}-{seq}]` (e.g., `[^4-1]`, `[^30-1]`)
+  - Appendices: `[^{letter}-{seq}]` (e.g., `[^h-1]` in Appendix H, `[^j-1]` in Appendix J); the final note uses `[^fn-{seq}]`
+  - Introduction front matter (pieces without chapter numbers, e.g. "A Note Before You Start"): `[^n-{seq}]`
+  - Part Two prose outside a Skill (domain intros, section intros): a short stable slug, `[^{slug}-{seq}]` (e.g., `[^jeeves-1]` in the Field Guide intro, `[^hd-1]` in the Health drugs section)
 - Do not cite sources you have not verified. If a citation is approximate, use `<!-- RESEARCH NEEDED -->`.

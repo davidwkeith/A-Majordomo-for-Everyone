@@ -6,7 +6,7 @@ strategy: null
 status: "draft"
 ---
 
-### CHORES
+### Chores
 
 _The domestic labor that keeps a household running — shopping, cooking, cleaning, maintaining, scheduling — is invisible until it stops happening. It is also where most consumer decisions are made: which products to buy, which contractors to hire, which repairs to attempt, which to outsource. The billionaire class delegates this to staff who comparison-shop, vet vendors, and manage maintenance schedules. Everyone else does it in the margins of a full workday, making decisions under time pressure with whatever information is on the label or the first page of search results. The Skills that follow turn your Agent into the household staff you don't have._
 
@@ -167,6 +167,7 @@ What went wrong (or what I want to improve): [describe specifically]
 My equipment and skill level: [describe]
 What am I doing wrong, and what should I do differently?
 :::
+*What to do with the Output:* Follow the technique once exactly as described before adjusting. Cooking is chemistry — changing two variables at once means you will never know which one mattered. Keep a notes file on your phone for what worked and what did not.
 
 *Common culinary Expert Role specs:*
 
@@ -182,7 +183,6 @@ too salty / rubbery / bland / fell apart / didn't set].
 What went wrong and how do I fix it — or if it's too late to fix,
 how do I prevent it next time?
 :::
-*What to do with the Output:* Follow the technique once exactly as described before adjusting. Cooking is chemistry — changing two variables at once means you will never know which one mattered. Keep a notes file on your phone for what worked and what did not.
 
 ::: also
 To make this Expert Role persistent across sessions, save it as a *Project* (Claude), *Gem* (Gemini), or *Custom GPT* (ChatGPT). See [Appendix G](06-appendix-g-feature-table.xhtml).

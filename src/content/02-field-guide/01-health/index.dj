@@ -36,6 +36,11 @@ I will bring this to my next appointment to verify.
 :::
 *What to do with the Output:* Use it to make your question list before the next appointment (see H-2). Do not use it to second-guess your doctor's treatment recommendation — use it to understand it. For ongoing conditions, see also H-5: Managing a Chronic Condition and H-8: Wellness and Nutrition Coach.
 
+::: tip
+_"Explain this diagnosis three ways: to me, to my ten-year-old, and the way you would explain it to another doctor. Then give me the three questions I should ask at my next appointment."_ The version that finally makes sense is the one to keep.
+:::
+
+
 ---
 
 #### H-2: Preparing Questions Before a Doctor's Appointment
@@ -412,16 +417,6 @@ If any of this might conflict with a health condition, flag it.
 :::
 *What to do with the Output:* Use it as a starting framework, not a prescription. If you have a specific health condition, verify any significant dietary changes with your doctor. The calibration question applies here: _"How confident are you in this recommendation, and is there anything about my situation where you'd want me to check with a professional?"_
 
-::: fairness
-Wellness advice reflects the demographics of the research base it draws from. If your Agent's suggestions feel like they assume a certain income level, kitchen setup, or food access, say so explicitly: _"I shop at a discount grocery store and have a small kitchen. Please adjust your recommendations."_
-:::
-
-
-::: also
-To make this Expert Role persistent across sessions, save it as a *Project* (Claude), *Gem* (Gemini), or *Custom GPT* (ChatGPT). See [Appendix G](06-appendix-g-feature-table.xhtml).
-:::
-
-
 *Common wellness Expert Role specs:*
 
 ::: prompt
@@ -444,6 +439,16 @@ I am not looking for a diagnosis. I want to understand
 what lifestyle factors might be contributing and what
 I could adjust first.
 :::
+
+::: fairness
+Wellness advice reflects the demographics of the research base it draws from. If your Agent's suggestions feel like they assume a certain income level, kitchen setup, or food access, say so explicitly: _"I shop at a discount grocery store and have a small kitchen. Please adjust your recommendations."_
+:::
+
+
+::: also
+To make this Expert Role persistent across sessions, save it as a *Project* (Claude), *Gem* (Gemini), or *Custom GPT* (ChatGPT). See [Appendix G](06-appendix-g-feature-table.xhtml).
+:::
+
 
 ---
 
@@ -836,6 +841,10 @@ John Ehrlichman, Nixon's domestic policy advisor, said in a 1994 interview: _"Th
 [^h17-3]: Baum, D. (2016). ["Legalize It All."](https://harpers.org/archive/2016/04/legalize-it-all/) _Harper's Magazine_, April 2016.
 
 [^h17-1]: Incarceration figures: The Sentencing Project, ["Mass Incarceration Trends"](https://www.sentencingproject.org/reports/mass-incarceration-trends/) (360,000 in 1972; peak 2.1 million by 2019). Racial disparity: Bureau of Justice Statistics, ["Prisoners in 2021"](https://bjs.ojp.gov/library/publications/prisoners-2021-statistical-tables) — Black Americans incarcerated for drug offenses at approximately six times the rate of white Americans despite comparable usage rates. The $1 trillion enforcement figure is a commonly cited cumulative estimate; see Drug Policy Alliance, ["The Drug War, Mass Incarceration and Race"](https://www.unodc.org/documents/ungass2016/Contributions/Civil/DrugPolicyAlliance/DPA_Fact_Sheet_Drug_War_Mass_Incarceration_and_Race_June2015.pdf) for a representative accounting.
+
+---
+
+### Mental Health
 
 ---
 

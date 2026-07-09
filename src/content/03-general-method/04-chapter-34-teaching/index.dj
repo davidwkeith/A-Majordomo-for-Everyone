@@ -31,7 +31,7 @@ The single most common mistake people make when introducing someone to AI tools 
 
 Do not explain what a large language model is. Do not explain prompting. Do not explain tokens, context windows, or temperature. Do not explain why one tool is better than another. None of this information is necessary for the first session, and all of it creates the impression that this is complicated and technical — which is the opposite of true.
 
-The first session has one job: produce a result the other person finds genuinely useful, on a problem they already have, in under ten minutes.
+The first session has one job: produce a result the other person finds genuinely useful, on a problem they already have, in under 10 minutes.
 
 ### The Kitchen Table Method
 
@@ -63,7 +63,7 @@ They just did the specification interview loop. They did not need to know it was
 
 The Agent produces the output — the letter, the explanation, the list of options. The person reads it and says some version of "oh, that's actually useful" or "wait, it can do that?" or "I need to change this part."
 
-That is the session. You are done. Do not explain what happened. Do not give them a tutorial. Do not show them three more features. One problem, one result, ten minutes. The explanation comes later, if they ask for it. Most will not ask. They will just use it again tomorrow, on the next thing that's bugging them.
+That is the session. You are done. Do not explain what happened. Do not give them a tutorial. Do not show them three more features. One problem, one result, 10 minutes. The explanation comes later, if they ask for it. Most will not ask. They will just use it again tomorrow, on the next thing that's bugging them.
 
 ::: science
 Social learning theory (Bandura, 1977) consistently shows that observational learning — watching someone else successfully complete a task — is a more powerful driver of behavior adoption than instruction alone. "Watch me do this with my insurance bill" is a more effective introduction to AI tools than any explanation, including this book. Self-efficacy — the belief that one can successfully perform a behavior — is the strongest predictor of whether a person will attempt a new technology. Self-efficacy is built through observation and small wins, not through reading manuals.[^34-1]
@@ -97,7 +97,7 @@ If the first session worked — if the person used the tool on their own within 
 
 They will have had a conversation where the Agent's answer was fine but not quite right. Too general. Too cautious. Missing the part they cared about. This is normal, and it is the moment where most people either give up ("it didn't really understand me") or push through ("how do I fix this?").
 
-The second session teaches the echo-back: pick a word from the Agent's answer and repeat it as a question. "You mentioned a 60-day window — what exactly do I need to do before that deadline?" That one technique — pulling one thread from the Agent's response — converts a passive reader into an active collaborator. Chapter 4 has five follow-up techniques. On day two, they need one.
+The second session teaches the echo-back: pick a word from the Agent's answer and repeat it as a question. "You mentioned a 60-day window — what exactly do I need to do before that deadline?" That one technique — pulling one thread from the Agent's response — converts a passive reader into an active collaborator. Chapter 4: How to Ask for What You Actually Want has five follow-up techniques. On day two, they need one.
 
 ### The Third Session (If There Is One)
 
@@ -111,7 +111,7 @@ This is the moment to hand them the book. Not before. A book about specification
 
 This book is licensed [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). That means you can copy it, remix it, adapt it, and redistribute it — for any purpose, including commercial — as long as you give credit and share your version under the same license.
 
-Make a podcast episode. Film a ten-minute video. Run a workshop at your library. Rewrite Chapter 4 for a Gen-Z audience — embrace the brainrot, just cite your sources. Translate it into Spanish. Read a chapter at your union meeting.
+Make a podcast episode. Film a 10-minute video. Run a workshop at your library. Rewrite Chapter 4 for a Gen-Z audience — embrace the brainrot, just cite your sources. Translate it into Spanish. Read a chapter at your union meeting.
 
 The specification interview loop is not proprietary. It is a pattern — like the scientific method, or the Socratic method, or the way a good doctor does an intake interview. It belongs to anyone who uses it.
 

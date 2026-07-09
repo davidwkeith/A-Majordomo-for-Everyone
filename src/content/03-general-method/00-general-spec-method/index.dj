@@ -34,9 +34,9 @@ homeowner's association before...
 The facts, as specifically as possible. Dates matter. Amounts matter. What was said or written matters. If you have a document — a letter, a contract, a bill — paste the relevant section directly into the conversation.
 
 ::: prompt
-...I received a letter dated October 3rd stating that my fence
+...I received a letter dated October 3 stating that my fence
 is in violation of HOA guidelines, with a fine of $150 per day
-starting October 17th. I was not aware of any fence height
+starting October 17. I was not aware of any fence height
 restrictions when I purchased the home...
 :::
 
@@ -70,13 +70,13 @@ confrontational.
 
 ### The Complete Spec
 
-Assembled, the example above looks like this:
+Assembled, the example looks like this:
 
 ::: prompt
 I am a first-generation homeowner who has never dealt with a
-homeowner's association before. I received a letter dated October 3rd
+homeowner's association before. I received a letter dated October 3
 stating that my fence is in violation of HOA guidelines, with a fine
-of $150 per day starting October 17th. I was not aware of any fence
+of $150 per day starting October 17. I was not aware of any fence
 height restrictions when I purchased the home.
 
 I want to understand whether I have grounds to dispute this fine,

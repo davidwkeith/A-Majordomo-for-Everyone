@@ -6,7 +6,7 @@ strategy: null
 status: "draft"
 ---
 
-### HOME
+### Home
 
 _A house is the most expensive thing most people will ever be responsible for, whether they own it or rent it. It breaks constantly, in ways that require knowledge from a dozen different trades — plumbing, electrical, HVAC, roofing, structural, pest, appliance — and the person standing in the kitchen when the water heater fails is expected to diagnose the problem, find the right contractor, evaluate the quote, and make the repair-or-replace decision, all before the floor is ruined. The billionaire class has a property manager. You have YouTube and a growing sense of dread. The Skills that follow are Al Borland in your pocket: the diagnostic step before the drill comes out._
 
@@ -72,11 +72,6 @@ What do I need to know before I start, and what are the steps?
 :::
 *What to do with the Output:* Read the full list of steps before you start — not while you're holding a wrench. If there's a part you need, your Agent can help you find it by name and part number. Take a photo of what you're working on before you take anything apart. Future you will thank present you.
 
-::: also
-Checking current information requires web search, which is free in Gemini, ChatGPT, and Copilot. In Claude, web search requires the paid tier. See [Appendix G](06-appendix-g-feature-table.xhtml).
-:::
-
-
 *Common home repair Expert Role specs:*
 
 ::: prompt
@@ -91,6 +86,11 @@ whether I can do this myself or need a professional:
 [describe the repair]. My skill level is [beginner/intermediate].
 Give me an honest assessment.
 :::
+
+::: also
+Checking current information requires web search, which is free in Gemini, ChatGPT, and Copilot. In Claude, web search requires the paid tier. See [Appendix G](06-appendix-g-feature-table.xhtml).
+:::
+
 
 ---
 
@@ -114,11 +114,6 @@ from easiest to most involved?
 :::
 *What to do with the Output:* Before ordering any parts, verify part numbers against the manufacturer's parts diagram if available. [iFixit.com](https://www.ifixit.com) and YouTube are the best secondary sources for your specific model once your Agent has identified what needs fixing.
 
-::: meme
-"It's not a bug, it's a feature." The manufacturer calling your appliance "unrepairable" is a business model, not a technical assessment. Start with your Agent's diagnosis before accepting the quote for a replacement.
-:::
-
-
 *Common right-to-repair Expert Role specs:*
 
 ::: prompt
@@ -138,6 +133,11 @@ Act as a small engine repair technician. My [lawn mower /
 generator / chainsaw] [symptom]. It was last serviced [when].
 What should I check first?
 :::
+
+::: meme
+"It's not a bug, it's a feature." The manufacturer calling your appliance "unrepairable" is a business model, not a technical assessment. Start with your Agent's diagnosis before accepting the quote for a replacement.
+:::
+
 
 ---
 
@@ -173,6 +173,35 @@ I will verify with a tenant rights organization or attorney.
 :::
 *What to do with the Output:* Document everything in writing. If your landlord or HOA is violating your rights, your Agent can help you draft the letter — but send it by email or certified mail so there is a record. Many cities have free tenant rights hotlines and legal aid organizations; ask your Agent to find the one in your jurisdiction. The clock on most housing disputes starts running whether you know about the deadline or not.
 
+*Common housing rights Expert Role specs:*
+
+::: prompt
+Act as a housing rights advisor. I live in [a community with
+an HOA / a condo association] in [state].
+The issue: [describe --- unreasonable rule, selective enforcement,
+lack of financial transparency, special assessment, restricting
+modifications (including solar panels or EV charging), not
+maintaining common areas, or board overreach].
+What are my rights under state law, what does the board's
+fiduciary duty require, and what is the process for
+challenging this?
+Give me the most conservative, legally accurate answer.
+I will verify with a tenant rights organization or attorney.
+:::
+::: prompt
+Act as a property tax advisor. I own a home in [county, state]
+and I believe my property tax assessment is [too high / based
+on incorrect information about the property].
+Current assessed value: [amount].
+What I believe the correct value is, and why: [comparable sales,
+property condition, errors in square footage or lot size,
+historic district restrictions that limit use].
+Walk me through the appeals process --- deadlines, evidence I need,
+and whether to pursue an informal review or formal hearing.
+Give me the most conservative, legally accurate answer.
+I will verify with my county assessor's office or a tax professional.
+:::
+
 ::: tip
 _"I just signed a lease I didn't fully understand. [Paste the section you're worried about.] What did I actually agree to, and is any of it unenforceable in [state]?"_ — The time to understand your lease is now, not when there is a dispute.
 :::
@@ -207,35 +236,6 @@ Housing financial assistance exists at every level --- federal, state, and local
 _"I'm concerned about [water quality / air quality / soil contamination / a nearby industrial facility] near my home in [city, state]. What should I test for, who do I report it to, and what are my rights as a [renter / homeowner]?"_ --- Your Agent can explain what contaminants to test for, identify your state environmental agency's complaint process, and help you understand your legal options. The [EPA's ECHO database](https://echo.epa.gov/) tracks facility compliance near you; for drinking water, your utility's annual [Consumer Confidence Report](https://www.epa.gov/ccr) is public and your Agent can decode it.
 :::
 
-
-*Common housing rights Expert Role specs:*
-
-::: prompt
-Act as a housing rights advisor. I live in [a community with
-an HOA / a condo association] in [state].
-The issue: [describe --- unreasonable rule, selective enforcement,
-lack of financial transparency, special assessment, restricting
-modifications (including solar panels or EV charging), not
-maintaining common areas, or board overreach].
-What are my rights under state law, what does the board's
-fiduciary duty require, and what is the process for
-challenging this?
-Give me the most conservative, legally accurate answer.
-I will verify with a tenant rights organization or attorney.
-:::
-::: prompt
-Act as a property tax advisor. I own a home in [county, state]
-and I believe my property tax assessment is [too high / based
-on incorrect information about the property].
-Current assessed value: [amount].
-What I believe the correct value is, and why: [comparable sales,
-property condition, errors in square footage or lot size,
-historic district restrictions that limit use].
-Walk me through the appeals process --- deadlines, evidence I need,
-and whether to pursue an informal review or formal hearing.
-Give me the most conservative, legally accurate answer.
-I will verify with my county assessor's office or a tax professional.
-:::
 
 [^ho4-1]: Desmond, M. (2016). [_Evicted: Poverty and Profit in the American City._](https://www.penguinrandomhouse.com/books/247816/evicted-by-matthew-desmond/) Crown. Hepburn, P., Louis, R., & Desmond, M. (2020). ["Racial and Gender Disparities among Evicted Americans."](https://doi.org/10.15195/v7.a27) _Sociological Science_, 7, 649--662. Eviction Lab (2025). ["Preliminary Analysis: Eviction Filing Patterns in 2024."](https://evictionlab.org/ets-report-2024/) Princeton University.
 
@@ -380,16 +380,6 @@ What is likely causing this, and what should I do?
 :::
 *What to do with the Output:* Start with the least invasive intervention your Agent suggests. If the problem persists after one week, come back and describe what changed (or didn't). The refinement loop applies to plants as well as paperwork.
 
-::: tip
-Add your soil type, sun exposure, and recent rainfall to the spec if you have it. The more specific the situation, the more specific the advice.
-:::
-
-
-::: also
-To make this Expert Role persistent across sessions, save it as a *Project* (Claude), *Gem* (Gemini), or *Custom GPT* (ChatGPT). See [Appendix G](06-appendix-g-feature-table.xhtml).
-:::
-
-
 *Extended Expert Role specs for gardening:*
 
 ::: prompt
@@ -405,6 +395,16 @@ My soil is [clay/sandy/unknown]. My plants seem to be
 [struggling / doing fine but I want to improve].
 What amendments should I add, and how do I apply them?
 :::
+
+::: tip
+Add your soil type, sun exposure, and recent rainfall to the spec if you have it. The more specific the situation, the more specific the advice.
+:::
+
+
+::: also
+To make this Expert Role persistent across sessions, save it as a *Project* (Claude), *Gem* (Gemini), or *Custom GPT* (ChatGPT). See [Appendix G](06-appendix-g-feature-table.xhtml).
+:::
+
 
 ---
 
@@ -501,7 +501,7 @@ Decision fatigue is real and measurable. Studies on cognitive depletion show tha
 
 
 ::: meme
-In _[Friends:S6E7 "The One Where Phoebe Runs"](https://en.wikipedia.org/wiki/Friends_season_6)_, 1999 --- Chandler cleans the apartment as a surprise, then spends the rest of the day in quiet terror: Monica will know that every object is an inch from where it lives. The lesson, as always with Monica, is that the system matters more than the sentiment. She is correct. She is also exhausting. Your Agent has the organizational instinct without the 3 a.m. label maker.
+In [Friends:S6E7 "The One Where Phoebe Runs"](https://en.wikipedia.org/wiki/Friends_season_6), 1999 --- Chandler cleans the apartment as a surprise, then spends the rest of the day in quiet terror: Monica will know that every object is an inch from where it lives. The lesson, as always with Monica, is that the system matters more than the sentiment. She is correct. She is also exhausting. Your Agent has the organizational instinct without the 3 a.m. label maker.
 :::
 
 
@@ -578,7 +578,7 @@ Home security marketing disproportionately targets fear --- and that fear is not
 
 
 ::: meme
-In _[Home Improvement:S5E25 "Alarmed by Burglars"](https://en.wikipedia.org/wiki/Home_Improvement_season_5)_, 1996 --- Tim installs a home security system. It will not stop going off. Al would have started with the locks. Start with the locks.
+In [Home Improvement:S5E25 "Alarmed by Burglars"](https://en.wikipedia.org/wiki/Home_Improvement_season_5), 1996 --- Tim installs a home security system. It will not stop going off. Al would have started with the locks. Start with the locks.
 :::
 
 

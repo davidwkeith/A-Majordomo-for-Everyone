@@ -35,11 +35,29 @@
 >   Kasparov re-cited to 2010 NYRB essay, Hemingway flagged apocryphal, Humphrey 92(3),
 >   Patel Decoder quote, Grand Upright 1991, Appendix G product names). Every added
 >   URL/DOI curl-verified.
-> - **Still open:** §6 (style mechanics: above/below, bare chapter-number refs,
->   ordinal dates, footnote-format spec gaps, epigraph anatomy, echo-back term
->   collision, Ch. 33 independence footnote, MRI-thread continuity, lesson/body
->   near-duplicates in S0/S6/S8). Verified after each phase: type-check, 110/110
->   tests, clean ePub build, footnote ref/def balance.
+> - **§6 (Style mechanics): fixed** — all banned above/below references, bare
+>   chapter-number cross-refs titled, number style normalized (ordinal dates,
+>   spelled-out 10+ values, appendix-i ordinals), Chapter 4 epigraph anatomy aligned
+>   with Chapters 1–3, Note footnotes de-collided from Chapter 1 (`[^n-*]`),
+>   remaining nonconforming footnote IDs renamed (32-cot→32-3, li4-0*→li4-1..3,
+>   tr-wc-1→tr8-2, j-litm→j-1) with formats documented in the style guide, domain
+>   headings Title Case, Civic second intro → fairness callout, H-1 callout added,
+>   `### Mental Health` section closes Drugs before H-18, two Skill titles
+>   title-cased with cross-ref sweep, episode-ref format nits fixed (Fresh Prince
+>   claim dropped), Skill-anatomy order restored in 6 Skills, Ch. 32 "echo-back"
+>   renamed "read-back" (term collision with Ch. 4/34), Ch. 33 footnote no longer
+>   contradicts its callout, MRI-thread continuity sentence added, S6/S8
+>   lesson/body duplicates trimmed, Appendix B's 50 starters converted to prompt
+>   blocks, Appendix D directory linked (4 dead URLs replaced), Appendix E/J title
+>   mismatches aligned, `_spec.md` → `_qualifying-questions.md`, CLAUDE.md order
+>   schema widened to `-1..N`, See-also external-resource allowance documented.
+>
+> **The review is fully executed** except: the two deferred author rulings
+> (subheading case; appendix relettering), Strategy 8's worked examples (drafting,
+> not editing), missing art (15 placeholders — `npm run build -- --generate`), and
+> a note that benefits.gov is decommissioned (redirects to usa.gov/benefit-finder;
+> entry kept but consider renaming). Verified after every phase: type-check,
+> 110/110 tests, clean ePub build, footnote ref/def balance.
 
 Eight parallel review passes over the entire manuscript (45 chapters, ~14,200 lines, 131
 Field Guide Skills, 286 footnotes, 159 science callouts), each grounded in the `spec/`
