@@ -103,7 +103,7 @@ Please help me:
 *What to do with the Output:* If you have a charge you do not recognize, dispute it immediately — you have 60 days under the Fair Credit Billing Act. Call the number on the back of the card, not a number from an email. For debt payoff: the avalanche method (highest interest rate first) saves the most money. The snowball method (smallest balance first) builds momentum. The research slightly favors snowball for completion rates because the psychology of small wins matters more than the math of optimal interest.[^m2-1] Either is better than paying the minimum on everything.
 
 ::: science
-The average American household carries approximately $10,000 in credit card debt at an average APR of 24.99% (Federal Reserve, 2024). The minimum payment is typically calculated as 1--2% of the balance plus interest — a formula designed to maximize the total interest paid over the life of the debt. At minimum payments, a $10,000 balance at 25% APR takes over 30 years to pay off and costs approximately $22,000 in total.[^m2-2]
+Among American households that carry a credit card balance, the average debt is approximately $10,000, and the average APR on accounts assessed interest ran near 23% in 2024 (Federal Reserve G.19). The minimum payment is typically calculated as 1--2% of the balance plus interest — a formula designed to maximize the total interest paid over the life of the debt. At minimum payments, a $10,000 balance at that rate takes decades to pay off and costs, in interest, nearly double the original balance.[^m2-2]
 :::
 
 
@@ -145,7 +145,7 @@ Financial shame is the most powerful barrier to financial literacy. People who a
 
 [^m2-3]: Fair Credit Billing Act, [15 U.S.C. § 1666](https://www.law.cornell.edu/uscode/text/15/1666); implementing regulation at [12 C.F.R. § 1026.13](https://www.consumerfinance.gov/rules-policy/regulations/1026/13/). Fair Debt Collection Practices Act, [15 U.S.C. § 1692](https://www.law.cornell.edu/uscode/text/15/1692). CFPB, ["Debt Collection Rule FAQs."](https://www.consumerfinance.gov/compliance/compliance-resources/other-applicable-requirements/debt-collection/debt-collection-rule-faqs/)
 
-[^m2-4]: Shapiro, G.K., & Burchell, B.J. (2012). ["Measuring Financial Anxiety."](https://www.researchgate.net/publication/285756499_Measuring_Financial_Anxiety) _Journal of Neuroscience, Psychology, and Economics_, 5(2), 92–103.
+[^m2-4]: Shapiro, G.K., & Burchell, B.J. (2012). ["Measuring Financial Anxiety."](https://doi.org/10.1037/a0027647) _Journal of Neuroscience, Psychology, and Economics_, 5(2), 92–103.
 
 ---
 
@@ -389,7 +389,7 @@ The anxiety of not having saved enough is one of the most pervasive financial st
 
 [^m5-2]: Buffett, W.E. (2017). [Berkshire Hathaway Annual Letter to Shareholders.](https://www.berkshirehathaway.com/letters/2017ltr.pdf) The bet, made in 2007, was against Protégé Partners' selection of hedge funds.
 
-[^m5-5]: Estimated from US retirement-asset totals ($49.1 trillion at year-end 2025, with IRAs and employer-sponsored defined-contribution plans accounting for 68%) and industry-average expense ratios (typically 0.3–1.0%). See Investment Company Institute, _[2025 Investment Company Fact Book](https://www.icifactbook.org/pdf/2025-factbook-ch8.pdf)_, ch. 8 (US Retirement Market).
+[^m5-5]: Estimated from US retirement-asset totals ($44.1 trillion at year-end 2024, with IRAs and employer-sponsored defined-contribution plans accounting for 67%) and industry-average expense ratios (typically 0.3–1.0%). See Investment Company Institute, _[2025 Investment Company Fact Book](https://www.icifactbook.org/pdf/2025-factbook-ch8.pdf)_, ch. 8 (US Retirement Market).
 
 [^m5-6]: Federal Reserve Board. ["2022 Survey of Consumer Finances."](https://www.federalreserve.gov/econres/scfindex.htm) Retirement account balance by age, Table 2.
 
@@ -647,7 +647,7 @@ I will verify with my servicer and studentaid.gov.
 *What to do with the Output:* Never refinance federal loans into private loans without understanding what you are giving up. Federal loans come with income-driven repayment, forgiveness programs, deferment, forbearance, and discharge options. Private loans come with none of these. Refinancing may lower your interest rate. It will also eliminate your safety net. If your Agent recommends refinancing, follow up: _"What protections do I lose by converting these federal loans to private? Give me the complete list."_
 
 ::: science
-Public Service Loan Forgiveness was signed into law in 2007 and, for its first decade, rejected over 99% of applicants — primarily due to servicer errors that placed borrowers on ineligible repayment plans without their knowledge. The 2021 PSLF Waiver and subsequent reforms dramatically expanded approvals. As of 2024, over $69 billion in student loan debt has been forgiven through various programs. The lesson is structural: the program existed on paper for years while the implementation actively prevented people from using it.[^m9-1]
+Public Service Loan Forgiveness was signed into law in 2007, and in the first years after applications opened (2017–2019) it rejected over 99% of applicants — primarily due to servicer errors that placed borrowers on ineligible repayment plans without their knowledge. The 2021 PSLF Waiver and subsequent reforms dramatically expanded approvals. As of 2024, over $69 billion in student loan debt has been forgiven through various programs. The lesson is structural: the program existed on paper for years while the implementation actively prevented people from using it.[^m9-1]
 :::
 
 
@@ -755,7 +755,7 @@ For major electronics and appliances, checking current prices, reliability data,
 
 
 ::: science
-Consumer Reports' 2026 Auto Brand Report Card (published December 2025) put Toyota back on top, followed by Subaru and Lexus — Tesla was named most improved, but sits in the middle of the pack overall. Brand perception diverges from measured reliability more often than marketing suggests: Samsung and LG, both heavily advertised in major appliances, score poorly on icemaker and compressor failure rates; quieter brands routinely outperform them. CR's methodology pools member survey data with in-lab testing and is the single most-cited source on consumer product reliability; the full rankings require a [subscription](https://www.consumerreports.org/) (roughly $39/year digital), but the methodology is public and your Agent can summarize what reviewers and [J.D. Power](https://www.jdpower.com/business/press-releases/) have published in their free tiers. For cars specifically, [RepairPal](https://repairpal.com/) gives free reliability scores and realistic repair-cost estimates by make, model, and year.[^m10-2]
+Consumer Reports' 2026 Auto Brand Report Card (published December 2025) put Subaru on top, followed by BMW and Porsche — Toyota, Subaru, and Lexus led CR's separate November 2025 reliability rankings, and Tesla was named most improved, cracking the overall top 10. Brand perception diverges from measured reliability more often than marketing suggests: Samsung and LG, both heavily advertised in major appliances, score poorly on icemaker and compressor failure rates; quieter brands routinely outperform them. CR's methodology pools member survey data with in-lab testing and is the single most-cited source on consumer product reliability; the full rankings require a [subscription](https://www.consumerreports.org/) (roughly $39/year digital), but the methodology is public and your Agent can summarize what reviewers and [J.D. Power](https://www.jdpower.com/business/press-releases/) have published in their free tiers. For cars specifically, [RepairPal](https://repairpal.com/) gives free reliability scores and realistic repair-cost estimates by make, model, and year.[^m10-2]
 :::
 
 

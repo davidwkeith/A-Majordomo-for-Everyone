@@ -42,13 +42,15 @@ Paste or upload your document directly — file upload works in Claude, Gemini, 
 :::
 
 
-- Stain Removal
-- DIY or Contractor
-- Emergency Service
-- Surface cleaning
-- Tools
-- Assistance programs
-- Accessibility upgrades
+<!-- BRAINSTORM: Ho-1 expansion topics
+— Stain removal
+— DIY or contractor
+— Emergency service
+— Surface cleaning
+— Tools
+— Assistance programs
+— Accessibility upgrades
+-->
 
 ---
 
@@ -235,7 +237,7 @@ Give me the most conservative, legally accurate answer.
 I will verify with my county assessor's office or a tax professional.
 :::
 
-[^ho4-1]: Desmond, M. (2016). [_Evicted: Poverty and Profit in the American City._](https://www.penguinrandomhouse.com/books/247816/evicted-by-matthew-desmond/) Crown. Hepburn, P., Louis, R., & Desmond, M. (2020). ["Racial and Gender Disparities among Evicted Americans."](https://www.pnas.org/doi/10.1073/pnas.2116169119) _Sociological Science_, 7, 649--662. Eviction Lab (2025). ["Preliminary Analysis: Eviction Filing Patterns in 2024."](https://evictionlab.org/ets-report-2024/) Princeton University.
+[^ho4-1]: Desmond, M. (2016). [_Evicted: Poverty and Profit in the American City._](https://www.penguinrandomhouse.com/books/247816/evicted-by-matthew-desmond/) Crown. Hepburn, P., Louis, R., & Desmond, M. (2020). ["Racial and Gender Disparities among Evicted Americans."](https://doi.org/10.15195/v7.a27) _Sociological Science_, 7, 649--662. Eviction Lab (2025). ["Preliminary Analysis: Eviction Filing Patterns in 2024."](https://evictionlab.org/ets-report-2024/) Princeton University.
 
 [^ho4-2]: Servicemembers Civil Relief Act, [50 U.S.C. §§ 3901--4043](https://uscode.house.gov/view.xhtml?path=/prelim@title50/chapter50&edition=prelim). U.S. Department of Justice, Servicemembers and Veterans Initiative, ["Financial and Housing Rights."](https://www.justice.gov/servicemembers/financial-and-housing-rights-0) Military OneSource, ["SCRA, The Servicemembers Civil Relief Act."](https://www.militaryonesource.mil/financial-legal/legal/servicemembers-civil-relief-act/) Rent-ceiling figure under 50 U.S.C. § 3951(a)(1)(A)(ii) from Department of Defense, ["Notice of Publication of Housing Price Inflation Adjustment,"](https://www.federalregister.gov/documents/2025/05/20/2025-08911/notice-of-publication-of-housing-price-inflation-adjustment) 90 Fed. Reg. 21473 (May 20, 2025), effective Jan. 1, 2025.
 
@@ -269,10 +271,12 @@ Paste or upload your document directly — file upload works in Claude, Gemini, 
 :::
 
 
-- Assistance programs
-- Rebates & Incentives
-- Installing solar and renewables
-- Going off-grid
+<!-- BRAINSTORM: Ho-5 expansion topics
+— Assistance programs
+— Rebates & incentives
+— Installing solar and renewables
+— Going off-grid
+-->
 
 ---
 
@@ -554,7 +558,7 @@ I don't want to be sold a subscription I don't need.
 *What to do with the Output:* Start with the items your Agent flags as missing from the basics --- working smoke detectors on every level, a CO detector near sleeping areas, a fire extinguisher in the kitchen, and functional deadbolts on exterior doors. These are not optional. They are the safety equivalent of seatbelts. Everything after that is risk-specific and budget-dependent. If you rent, check your Agent's output against Ho-4 --- your landlord may be legally required to provide several of these.
 
 ::: science
-The National Fire Protection Association reports that nearly three out of five home fire deaths occur in properties with no smoke alarms (41%) or alarms that failed to operate (16%). Working alarms cut the risk of dying in a home fire by about 55%. Ninety-nine percent of U.S. households say they have at least one alarm, but 61% test less often than monthly and 33% never test at all --- which is how "I have a smoke alarm" turns into "the smoke alarm did not go off." Replace batteries annually or switch to 10-year sealed units. Your Agent can remind you; the battery does not replace itself.[^ho10-2]
+The National Fire Protection Association reports that nearly three out of five home fire deaths occur in properties with no smoke alarms (43%) or alarms that failed to operate (16%). Working alarms cut the death rate in home fires by about 60%. Ninety-nine percent of U.S. households say they have at least one alarm, but 61% test less often than monthly and 33% never test at all --- which is how "I have a smoke alarm" turns into "the smoke alarm did not go off." Replace batteries annually or switch to 10-year sealed units. Your Agent can remind you; the battery does not replace itself.[^ho10-2]
 :::
 
 
@@ -580,7 +584,7 @@ In _[Home Improvement:S5E25 "Alarmed by Burglars"](https://en.wikipedia.org/wiki
 
 [^ho10-1]: IBISWorld. (2025). ["Security Alarm Services in the US --- Industry Analysis."](https://www.ibisworld.com/united-states/industry/security-alarm-services/1491/) Industry revenue of approximately $38.6 billion in 2025, not including separate segments such as locksmiths, smart-home security hardware, or monitored fire services.
 
-[^ho10-2]: Ahrens, M. & Evarts, B. (2024). ["Smoke Alarms in US Home Fires."](https://www.nfpa.org/education-and-research/research/nfpa-research/fire-statistical-reports/smoke-alarms-in-us-home-fires) National Fire Protection Association. See also [NFPA (2024), "Smoke Alarms at Home"](https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms) for ownership and testing rates from the September 2024 national survey.
+[^ho10-2]: McGree, T. (2024). ["Smoke Alarms in US Home Fires."](https://www.nfpa.org/education-and-research/research/nfpa-research/fire-statistical-reports/smoke-alarms-in-us-home-fires) National Fire Protection Association. See also [NFPA (2024), "Smoke Alarms at Home"](https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms) for ownership and testing rates from the September 2024 national survey.
 
 [^ho10-3]: Welsh, B.C. & Farrington, D.P. (2009). ["Public Area CCTV and Crime Prevention: An Updated Systematic Review and Meta-Analysis."](https://www.tandfonline.com/doi/abs/10.1080/07418820802506206) _Justice Quarterly_, 26(4), 716--745. Piza, E.L., Welsh, B.C., Farrington, D.P., & Thomas, A.L. (2019). ["CCTV surveillance for crime prevention: A 40-year systematic review with meta-analysis."](https://onlinelibrary.wiley.com/doi/abs/10.1111/1745-9133.12419) _Criminology & Public Policy_, 18(1), 135--159.
 

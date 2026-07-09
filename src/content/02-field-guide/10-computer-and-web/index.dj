@@ -24,9 +24,9 @@ The internet was supposed to be [Geocities](https://en.wikipedia.org/wiki/GeoCit
 
 ---
 
-#### IT Support
+[it-crowd-ipad]{.art}
 
-[_Before the web, before the website, before the blog — there is the machine on the table. The billionaire class has always had someone to choose, configure, and maintain their technology. An IT department. A "tech guy." A personal assistant who handled the setup and called the help desk. Everyone else got a shrink-wrapped box, a quick-start guide written for an imagined user who already understood everything, and the unspoken message that if you couldn't figure it out, the problem was you. It was never you. The problem was a consumer electronics industry that made products for a technical audience and marketed them to everyone. Your Agent can close that gap — not by making you technical, but by translating the technical into the specific._]{.art stem="it-crowd-ipad"}
+_Before the web, before the website, before the blog — there is the machine on the table. The billionaire class has always had someone to choose, configure, and maintain their technology. An IT department. A "tech guy." A personal assistant who handled the setup and called the help desk. Everyone else got a shrink-wrapped box, a quick-start guide written for an imagined user who already understood everything, and the unspoken message that if you couldn't figure it out, the problem was you. It was never you. The problem was a consumer electronics industry that made products for a technical audience and marketed them to everyone. Your Agent can close that gap — not by making you technical, but by translating the technical into the specific._
 
 
 ---
@@ -278,7 +278,7 @@ Here is a full specification interview for this Skill:
 :::
 
 
-This also includes finding spec formats, standardized forms of spec produce better output than ad hoc. Includes the apps the Agents are trapped in.
+The skill extends beyond wording. A standardized spec format --- a template someone has already refined for the task, like the ones throughout this Field Guide --- produces better output than a request improvised from scratch. Part of working well with Agents is collecting the formats that work, and knowing which apps your Agent lives inside, since that determines where your specs can travel.
 
 It includes the output, too --- not only what your Agent says but the _form_ in which it hands it back. A chat reply is Markdown by default: plain text with a handful of symbols, the lingua franca your Agent shares with every other tool (see WB-7), and the right choice for anything you will keep editing or pass back and forth. But when the result's whole job is to be _looked at_ --- a report, a side-by-side comparison, a packing list, a small budget calculator --- ask for it as a self-contained web page: _"give me this as one HTML file I can open in my browser."_ A web page can do things a chat reply cannot --- like sortable tables, interactive checklists, or fields that update totals as you type. Even when it is just text, it arrives laid out and finished: it opens with a double-click on any device, prints cleanly, and travels as a single file. The trade-off is that HTML is awkward to edit by hand, so it is the last step, not the working draft. Markdown for the conversation; HTML for the thing you walk away with.
 
@@ -363,7 +363,7 @@ The web was designed as a decentralized system — [RFC 2616](https://en.wikiped
 :::
 
 
-[^wb5-1]: International Energy Agency. (2024). "Data Centres and Data Transmission Networks." IEA Tracking Report. See also The Green Web Foundation, [thegreenwebfoundation.org](https://www.thegreenwebfoundation.org/).
+[^wb5-1]: International Energy Agency. (2024). ["Data Centres and Data Transmission Networks."](https://www.iea.org/energy-system/buildings/data-centres-and-data-transmission-networks) IEA Tracking Report. See also The Green Web Foundation, [thegreenwebfoundation.org](https://www.thegreenwebfoundation.org/).
 
 [^wb5-2]: W3C. (2018). ["ActivityPub."](https://www.w3.org/TR/activitypub/) W3C Recommendation, 23 January 2018. Mastodon user data from Mastodon project statistics, 2023.
 
@@ -508,7 +508,7 @@ Please help me:
 :::
 *What to do with the Output:* Publish the first post. It does not need to be good. The act of publishing — putting your thinking where others can find it — is the point. Captain's Log, Star Date today. Every blog post is a contribution to the public record of how people think, what they know, and what they care about. Your ideas matter, even when you are echoing what others say, because your particular combination of experience and perspective is unique. That is not a platitude. It is information theory.
 
-Could be audio, video, writing. Any format, storage is cheap, hosting is free.
+The format is yours to choose --- writing, audio, video, or all three. Storage is cheap and hosting is free; the only scarce input is your willingness to keep making the thing.
 
 Letters to the editor used to require an editor's approval. Now, if you own your domain, you can speak your mind — back it up with research, or don't. Make jokes that only one in a thousand will understand. Find that community. The one-in-a-million is the point. The internet has enough people that one-in-a-million is still a football stadium full of people who get the joke.
 

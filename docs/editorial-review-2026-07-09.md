@@ -18,9 +18,28 @@
 >   guide says sentence case, Parts 0/1 use Title Case; pick a side, then one sweep;
 >   (b) appendix relettering — closing the A/F gaps renames reader-visible letters and
 >   many "Appendix G" references; decide before 1.0.
-> - **Still open:** §4 (draft debris), §5 (citation metadata/link policy), §6 (style
->   mechanics). Verified after each phase: type-check, 110/110 tests, clean ePub build,
->   footnote ref/def balance.
+> - **§4 (Draft debris): fixed** — Home stub lists preserved as BRAINSTORM comments,
+>   WB-4/WB-8 fragments rewritten as prose, empty Civic heading removed, "IT Support"
+>   pseudo-Skill restructured (caption → body prose, heading dropped), Appendix D
+>   doubled rule removed, `worn-hitchhikers` placed in Cr-8, `eob-annotated-appendix`
+>   now renders in Appendix H.
+> - **§5 (Citation metadata): fixed** — all wrong DOIs corrected (Robertson,
+>   Coglianese, Balbag, Hepburn, Dazzi, m2-4); every previously unlinked citation
+>   linked (Cummings, Compeau & Higgins, Eisenberger, Omura, Shelby County, statutes,
+>   IEA, Washington); Amazon → bookshop.org; stat corrections applied and re-verified
+>   against primary sources (CFPB 2024/2017-survey, NFPA June 2024 = 43%/16%/60%,
+>   Fed G.19 ~23%, ICI 2025 Fact Book = $44.1T year-end 2024, PSLF 2017–2019,
+>   CR 2026 Brand Report Card, BLS CES 2023 $13,174, AAA 2025 $11,577, Genworth 2024
+>   care costs aligned across H-6b and Li-4, naloxone timeline, cannabis Schedule III
+>   as of April 2026, Edison ever-listened 11%→64%, OverDrive 2025, IRA 2026 = $7,500,
+>   Kasparov re-cited to 2010 NYRB essay, Hemingway flagged apocryphal, Humphrey 92(3),
+>   Patel Decoder quote, Grand Upright 1991, Appendix G product names). Every added
+>   URL/DOI curl-verified.
+> - **Still open:** §6 (style mechanics: above/below, bare chapter-number refs,
+>   ordinal dates, footnote-format spec gaps, epigraph anatomy, echo-back term
+>   collision, Ch. 33 independence footnote, MRI-thread continuity, lesson/body
+>   near-duplicates in S0/S6/S8). Verified after each phase: type-check, 110/110
+>   tests, clean ePub build, footnote ref/def balance.
 
 Eight parallel review passes over the entire manuscript (45 chapters, ~14,200 lines, 131
 Field Guide Skills, 286 footnotes, 159 science callouts), each grounded in the `spec/`

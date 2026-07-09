@@ -104,9 +104,9 @@ Fluent AI output has a side effect researchers have started calling _the LLM fal
 
 [^1-5]: Free-tier web access varies by tool and changes often. Gemini connects to Google's index. Copilot includes Bing search. Claude and ChatGPT both surface web search in the free tier at times and behind a paywall at others. Chapter 3 covers the full rotation strategy; the companion site tracks current status.
 
-[^1-6]: Patel, N. (2026). ["Beware 'Software Brain.'"](https://www.theverge.com/podcast/917029/software-brain-ai-backlash-databases-automation) _The Vergecast_. "It's when you see the whole world as a series of databases that can be controlled with structured language and software code."
+[^1-6]: Patel, N. (2026). ["Beware 'Software Brain.'"](https://www.theverge.com/podcast/917029/software-brain-ai-backlash-databases-automation) _Decoder_, The Verge. Software brain is "when you see the whole world as a series of databases that can be controlled with the structured language of software code."
 
-[^1-7]: Kahneman, D. (2011). [_Thinking, Fast and Slow_](https://bookshop.org/p/books/thinking-fast-and-slow-daniel-kahneman/943943). The dual-process model of cognition — fast, intuitive System 1 and slow, deliberate System 2 — maps remarkably well to the architecture of modern AI: a fast pattern-matching base model with an extended reasoning layer for deliberate analysis.
+[^1-7]: Kahneman, D. (2011). [_Thinking, Fast and Slow_](https://bookshop.org/p/books/thinking-fast-and-slow-daniel-kahneman/943943). Farrar, Straus and Giroux. The dual-process model of cognition — fast, intuitive System 1 and slow, deliberate System 2 — maps remarkably well to the architecture of modern AI: a fast pattern-matching base model with an extended reasoning layer for deliberate analysis.
 
 [^1-8]: Kim, H., Yu, H., & Yi, H. (2026). ["The LLM Fallacy: Misattribution in AI-Assisted Cognitive Workflows."](https://arxiv.org/abs/2604.14807) arXiv preprint. A conceptual-framework paper; the authors name the mechanism (opacity, fluency, low-friction interaction) and identify empirical validation as future work.
 

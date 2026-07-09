@@ -97,6 +97,10 @@ This is Strategy 0 applied to visual content. The `alt` field is what the reader
 
 The sidecar is permanent. When the image is produced, the sidecar stays — it is the specification, the art direction record, the basis for revision. The sidecar is the request. The image is the result. Both live together.
 
+That reference resolves to the figure below — or, until the image is produced, to a placeholder carrying the alt text and the brief. Either way the reader gets the specification doing its job:
+
+[eob-annotated-appendix]{.art}
+
 If you are using an AI agent to illustrate, your style guide is a system prompt — agentic instructions, not a reference document. The same specification interview that works for an insurance appeal works for an illustration: describe what you want precisely enough that someone who has never seen your vision can execute it correctly.
 
 ---
@@ -169,4 +173,4 @@ Use `order: -1` in frontmatter for content that precedes the main sequence. The 
 
 ePub will evolve. Djot will be replaced. The standards we used to build this book are tools — useful today, disposable tomorrow, exactly like the AI agents the book teaches you to use. The formats are never the point. The ideas are the point. Use the best tools available right now to express them as clearly and accessibly as you can. When better tools arrive, use those instead. The press is in your pocket. What you print on it is yours.
 
-[^h-1]: The copyright panic, the "it's not real art" panic, the "it's theft" panic — all of it happened in 1989, about sampling. See the [Grand Upright Music, Ltd. v. Warner Bros. Records Inc.](https://en.wikipedia.org/wiki/Grand_Upright_Music,_Ltd._v._Warner_Bros._Records_Inc.) decision that changed everything.
+[^h-1]: The copyright panic, the "it's not real art" panic, the "it's theft" panic — all of it happened in 1991, about sampling. See the [Grand Upright Music, Ltd. v. Warner Bros. Records Inc.](https://en.wikipedia.org/wiki/Grand_Upright_Music,_Ltd._v._Warner_Bros._Records_Inc.) decision that changed everything.
