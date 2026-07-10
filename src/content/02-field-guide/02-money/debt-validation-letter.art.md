@@ -2,7 +2,8 @@
 format: png
 size: half-left
 alt: >
-  A debt validation letter template with key phrases highlighted — the validation request, the cease communication line, and the certified mail notation
+  A debt validation letter with the validation request,
+  cease-communication line, and certified-mail note highlighted.
 ---
 
 Hand-drawn #2 pencil letter on plain white paper, standard business

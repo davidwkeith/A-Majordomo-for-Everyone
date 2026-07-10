@@ -2,10 +2,8 @@
 format: png
 size: full
 alt: >
-  A Trinitron TV on notebook paper showing an 8-bit scene of George
-  and Jerry at the NBC conference table. George gestures at a blank
-  whiteboard. Two executives sit in polite confusion. Jerry is
-  quietly horrified.
+  George pitches at a blank whiteboard while NBC executives sit in
+  polite confusion and Jerry is quietly horrified.
 ---
 
 TRINITRON CHAPTER OPENER. George and Jerry at the NBC conference table.

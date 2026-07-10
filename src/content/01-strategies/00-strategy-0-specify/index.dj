@@ -20,9 +20,9 @@ _The meta-strategy. Runs before all others._
 
 The show gets made anyway — badly, expensively, disastrously — because nobody stopped at the beginning and asked George clarifying questions.
 
-*The lesson:* An empty spec doesn't produce nothing. It produces something — just not what you wanted. The AI, like NBC, will execute against whatever specification it receives. If the specification is "a show about nothing," you will get something about nothing. The clarifying questions are not an obstacle. They are the work.
+*The lesson:* An empty spec doesn't produce nothing. It produces something — just not what you wanted. Your Agent, like NBC, will execute against whatever specification it receives. If the specification is "a show about nothing," you will get something about nothing. The clarifying questions are not an obstacle. They are the work.
 
-*My Man Jeeves:* _Requests conveyed without specification are, invariably, carried out. The article delivered bears to the article intended a resemblance that one might describe, generously, as figurative, and the matter is, as a matter of course, taken up a second time. One had only to ask five clarifying questions._
+*My Man Jeeves:* _Requests conveyed without specification are, invariably, carried out. The article delivered bears to the article intended a resemblance that one might describe, generously, as figurative, and the matter is, in the usual course of things, taken up a second time. One had only to ask five clarifying questions._
 
 ---
 
@@ -133,7 +133,7 @@ The interview-to-specification process maps directly to what therapists call _co
 :::
 
 
-[^s0-1]: Kuyken, W., Padesky, C.A., & Dudley, R. (2009). [_Collaborative Case Conceptualization._](https://www.guilford.com/books/Collaborative-Case-Conceptualization/Kuyken-Padesky-Dudley/9781462504480) Guilford Press. The parallel to AI specification is direct: the user's corrections to the Agent's proposed spec contain exactly the contextual information that distinguishes their situation from the generic case.
+[^s0-1]: Kuyken, W., Padesky, C.A., & Dudley, R. (2009). [_Collaborative Case Conceptualization._](https://www.guilford.com/books/Collaborative-Case-Conceptualization/Kuyken-Padesky-Dudley/9781462504480) Guilford Press. The parallel to AI specification is direct: the reader's corrections to the Agent's proposed spec contain exactly the contextual information that distinguishes their situation from the generic case.
 
 ### The Expert Role Variant
 
@@ -160,7 +160,7 @@ To make an Expert Role persistent across sessions — so your AI majordomo is al
 
 
 ::: meme
-"I know kung fu." The Expert Role spec is not the Matrix download. You still have to do the work. But knowing what work to do, in what order, and why — that part just got faster.
+"[I know kung fu.](https://en.wikipedia.org/wiki/The%5FMatrix)" The Expert Role spec is not the Matrix download. You still have to do the work. But knowing what work to do, in what order, and why — that part just got faster.
 :::
 
 
@@ -169,4 +169,4 @@ Research on informal expert consultation — asking a friend who happens to have
 :::
 
 
-[^s0-2]: Pescosolido, B.A. (1992). ["Beyond rational choice: The social dynamics of how people seek help."](https://doi.org/10.1086/229863) _American Journal of Sociology_, 97(4), 1096-1138.
+[^s0-2]: Pescosolido, B.A. (1992). ["Beyond rational choice: The social dynamics of how people seek help."](https://doi.org/10.1086/229863) _American Journal of Sociology_, 97(4), 1096--1138.

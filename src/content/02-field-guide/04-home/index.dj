@@ -6,7 +6,7 @@ strategy: null
 status: "draft"
 ---
 
-### HOME
+### Home
 
 _A house is the most expensive thing most people will ever be responsible for, whether they own it or rent it. It breaks constantly, in ways that require knowledge from a dozen different trades — plumbing, electrical, HVAC, roofing, structural, pest, appliance — and the person standing in the kitchen when the water heater fails is expected to diagnose the problem, find the right contractor, evaluate the quote, and make the repair-or-replace decision, all before the floor is ruined. The billionaire class has a property manager. You have YouTube and a growing sense of dread. The Skills that follow are Al Borland in your pocket: the diagnostic step before the drill comes out._
 
@@ -42,13 +42,15 @@ Paste or upload your document directly — file upload works in Claude, Gemini, 
 :::
 
 
-- Stain Removal
-- DIY or Contractor
-- Emergency Service
-- Surface cleaning
-- Tools
-- Assistance programs
-- Accessibility upgrades
+<!-- BRAINSTORM: Ho-1 expansion topics
+— Stain removal
+— DIY or contractor
+— Emergency service
+— Surface cleaning
+— Tools
+— Assistance programs
+— Accessibility upgrades
+-->
 
 ---
 
@@ -56,7 +58,7 @@ Paste or upload your document directly — file upload works in Claude, Gemini, 
 
 *Strategy:* Diagnose + Navigate (Expert Role)
 *See also:* Ho-1: Maintaining Your Home (for diagnosing first), Ho-3: Right-to-Repair (when a product resists repair), Ch-2: Understanding a Contractor Bid (when to hire instead)
-*My Man Jeeves:* _Home repair knowledge was, until comparatively recently, transmitted between generations in much the way that changing a tyre or hemming a pair of trousers was once considered a baseline competency. Several decades of planned obsolescence and the gradual replacement of repairable objects with disposable ones have, one might observe, rather thoroughly interrupted that transmission. The knowledge itself, however, has not vanished — it has merely migrated. An Agent received it regardless._
+*My Man Jeeves:* _Home repair knowledge was, until comparatively recently, transmitted between generations in much the way that changing a tyre or hemming a pair of trousers was once considered a baseline competency. Several decades of planned obsolescence and the gradual replacement of repairable objects with disposable ones have, one might observe, rather thoroughly interrupted that transmission. The knowledge itself, however, has not vanished — it has merely migrated, and an Agent was among the recipients._
 *The Spec:*
 
 ::: prompt
@@ -69,11 +71,6 @@ Is this urgent (affecting habitability or safety)? [yes/no]
 What do I need to know before I start, and what are the steps?
 :::
 *What to do with the Output:* Read the full list of steps before you start — not while you're holding a wrench. If there's a part you need, your Agent can help you find it by name and part number. Take a photo of what you're working on before you take anything apart. Future you will thank present you.
-
-::: also
-Checking current information requires web search, which is free in Gemini, ChatGPT, and Copilot. In Claude, web search requires the paid tier. See [Appendix G](06-appendix-g-feature-table.xhtml).
-:::
-
 
 *Common home repair Expert Role specs:*
 
@@ -90,13 +87,18 @@ whether I can do this myself or need a professional:
 Give me an honest assessment.
 :::
 
+::: also
+Checking current information requires web search, which is free in Gemini, ChatGPT, and Copilot. In Claude, web search requires the paid tier. See [Appendix G](06-appendix-g-feature-table.xhtml).
+:::
+
+
 ---
 
 #### Ho-3: Right-to-Repair
 
 *Strategy:* Diagnose + Navigate (Expert Role)
 *See also:* Ho-2: Home Repair and DIY (for the repair itself), Ho-1: Maintaining Your Home (for preventive maintenance)
-*My Man Jeeves:* _Whether one characterizes it as enshittification, planned obsolescence, or buyer lock-in, the underlying mechanism is the same: by manufacturing products that resist repair, companies ensure a recurring revenue stream at the consumer's expense. The practice is, if one may say so, rather more deliberate than the word "obsolescence" suggests. An Agent can assess, at whatever skill level one possesses, whether a given item merits repair or replacement — and, should replacement prove necessary, recommend more durable alternatives. One is not, strictly speaking, defeating the system. One is merely removing the information asymmetry upon which it depends._
+*My Man Jeeves:* _Whether one characterizes it as planned obsolescence, buyer lock-in, or — to borrow the current vernacular, if one may be forgiven the word — enshittification, the underlying mechanism is the same: by manufacturing products that resist repair, companies ensure a recurring revenue stream at the consumer's expense. The practice is, if one may say so, rather more deliberate than the word "obsolescence" suggests. An Agent can assess, at whatever skill level one possesses, whether a given item merits repair or replacement — and, should replacement prove necessary, recommend more durable alternatives. One is not, strictly speaking, defeating the system. One is merely removing the information asymmetry upon which it depends._
 *The Spec:*
 
 ::: prompt
@@ -111,11 +113,6 @@ What is likely wrong, and what are my repair options
 from easiest to most involved?
 :::
 *What to do with the Output:* Before ordering any parts, verify part numbers against the manufacturer's parts diagram if available. [iFixit.com](https://www.ifixit.com) and YouTube are the best secondary sources for your specific model once your Agent has identified what needs fixing.
-
-::: meme
-"It's not a bug, it's a feature." The manufacturer calling your appliance "unrepairable" is a business model, not a technical assessment. Start with your Agent's diagnosis before accepting the quote for a replacement.
-:::
-
 
 *Common right-to-repair Expert Role specs:*
 
@@ -136,6 +133,11 @@ Act as a small engine repair technician. My [lawn mower /
 generator / chainsaw] [symptom]. It was last serviced [when].
 What should I check first?
 :::
+
+::: meme
+"It's not a bug, it's a feature." The manufacturer calling your appliance "unrepairable" is a business model, not a technical assessment. Start with your Agent's diagnosis before accepting the quote for a replacement.
+:::
+
 
 ---
 
@@ -170,6 +172,35 @@ Give me the most conservative, legally accurate answer.
 I will verify with a tenant rights organization or attorney.
 :::
 *What to do with the Output:* Document everything in writing. If your landlord or HOA is violating your rights, your Agent can help you draft the letter — but send it by email or certified mail so there is a record. Many cities have free tenant rights hotlines and legal aid organizations; ask your Agent to find the one in your jurisdiction. The clock on most housing disputes starts running whether you know about the deadline or not.
+
+*Common housing rights Expert Role specs:*
+
+::: prompt
+Act as a housing rights advisor. I live in [a community with
+an HOA / a condo association] in [state].
+The issue: [describe --- unreasonable rule, selective enforcement,
+lack of financial transparency, special assessment, restricting
+modifications (including solar panels or EV charging), not
+maintaining common areas, or board overreach].
+What are my rights under state law, what does the board's
+fiduciary duty require, and what is the process for
+challenging this?
+Give me the most conservative, legally accurate answer.
+I will verify with a tenant rights organization or attorney.
+:::
+::: prompt
+Act as a property tax advisor. I own a home in [county, state]
+and I believe my property tax assessment is [too high / based
+on incorrect information about the property].
+Current assessed value: [amount].
+What I believe the correct value is, and why: [comparable sales,
+property condition, errors in square footage or lot size,
+historic district restrictions that limit use].
+Walk me through the appeals process --- deadlines, evidence I need,
+and whether to pursue an informal review or formal hearing.
+Give me the most conservative, legally accurate answer.
+I will verify with my county assessor's office or a tax professional.
+:::
 
 ::: tip
 _"I just signed a lease I didn't fully understand. [Paste the section you're worried about.] What did I actually agree to, and is any of it unenforceable in [state]?"_ — The time to understand your lease is now, not when there is a dispute.
@@ -206,36 +237,7 @@ _"I'm concerned about [water quality / air quality / soil contamination / a near
 :::
 
 
-*Common housing rights Expert Role specs:*
-
-::: prompt
-Act as a housing rights advisor. I live in [a community with
-an HOA / a condo association] in [state].
-The issue: [describe --- unreasonable rule, selective enforcement,
-lack of financial transparency, special assessment, restricting
-modifications (including solar panels or EV charging), not
-maintaining common areas, or board overreach].
-What are my rights under state law, what does the board's
-fiduciary duty require, and what is the process for
-challenging this?
-Give me the most conservative, legally accurate answer.
-I will verify with a tenant rights organization or attorney.
-:::
-::: prompt
-Act as a property tax advisor. I own a home in [county, state]
-and I believe my property tax assessment is [too high / based
-on incorrect information about the property].
-Current assessed value: [amount].
-What I believe the correct value is, and why: [comparable sales,
-property condition, errors in square footage or lot size,
-historic district restrictions that limit use].
-Walk me through the appeals process --- deadlines, evidence I need,
-and whether to pursue an informal review or formal hearing.
-Give me the most conservative, legally accurate answer.
-I will verify with my county assessor's office or a tax professional.
-:::
-
-[^ho4-1]: Desmond, M. (2016). [_Evicted: Poverty and Profit in the American City._](https://www.penguinrandomhouse.com/books/247816/evicted-by-matthew-desmond/) Crown. Hepburn, P., Louis, R., & Desmond, M. (2020). ["Racial and Gender Disparities among Evicted Americans."](https://www.pnas.org/doi/10.1073/pnas.2116169119) _Sociological Science_, 7, 649--662. Eviction Lab (2025). ["Preliminary Analysis: Eviction Filing Patterns in 2024."](https://evictionlab.org/ets-report-2024/) Princeton University.
+[^ho4-1]: Desmond, M. (2016). [_Evicted: Poverty and Profit in the American City._](https://www.penguinrandomhouse.com/books/247816/evicted-by-matthew-desmond/) Crown. Hepburn, P., Louis, R., & Desmond, M. (2020). ["Racial and Gender Disparities among Evicted Americans."](https://doi.org/10.15195/v7.a27) _Sociological Science_, 7, 649--662. Eviction Lab (2025). ["Preliminary Analysis: Eviction Filing Patterns in 2024."](https://evictionlab.org/ets-report-2024/) Princeton University.
 
 [^ho4-2]: Servicemembers Civil Relief Act, [50 U.S.C. §§ 3901--4043](https://uscode.house.gov/view.xhtml?path=/prelim@title50/chapter50&edition=prelim). U.S. Department of Justice, Servicemembers and Veterans Initiative, ["Financial and Housing Rights."](https://www.justice.gov/servicemembers/financial-and-housing-rights-0) Military OneSource, ["SCRA, The Servicemembers Civil Relief Act."](https://www.militaryonesource.mil/financial-legal/legal/servicemembers-civil-relief-act/) Rent-ceiling figure under 50 U.S.C. § 3951(a)(1)(A)(ii) from Department of Defense, ["Notice of Publication of Housing Price Inflation Adjustment,"](https://www.federalregister.gov/documents/2025/05/20/2025-08911/notice-of-publication-of-housing-price-inflation-adjustment) 90 Fed. Reg. 21473 (May 20, 2025), effective Jan. 1, 2025.
 
@@ -269,10 +271,12 @@ Paste or upload your document directly — file upload works in Claude, Gemini, 
 :::
 
 
-- Assistance programs
-- Rebates & Incentives
-- Installing solar and renewables
-- Going off-grid
+<!-- BRAINSTORM: Ho-5 expansion topics
+— Assistance programs
+— Rebates & incentives
+— Installing solar and renewables
+— Going off-grid
+-->
 
 ---
 
@@ -376,16 +380,6 @@ What is likely causing this, and what should I do?
 :::
 *What to do with the Output:* Start with the least invasive intervention your Agent suggests. If the problem persists after one week, come back and describe what changed (or didn't). The refinement loop applies to plants as well as paperwork.
 
-::: tip
-Add your soil type, sun exposure, and recent rainfall to the spec if you have it. The more specific the situation, the more specific the advice.
-:::
-
-
-::: also
-To make this Expert Role persistent across sessions, save it as a *Project* (Claude), *Gem* (Gemini), or *Custom GPT* (ChatGPT). See [Appendix G](06-appendix-g-feature-table.xhtml).
-:::
-
-
 *Extended Expert Role specs for gardening:*
 
 ::: prompt
@@ -402,12 +396,22 @@ My soil is [clay/sandy/unknown]. My plants seem to be
 What amendments should I add, and how do I apply them?
 :::
 
+::: tip
+Add your soil type, sun exposure, and recent rainfall to the spec if you have it. The more specific the situation, the more specific the advice.
+:::
+
+
+::: also
+To make this Expert Role persistent across sessions, save it as a *Project* (Claude), *Gem* (Gemini), or *Custom GPT* (ChatGPT). See [Appendix G](06-appendix-g-feature-table.xhtml).
+:::
+
+
 ---
 
 #### Ho-8: Household Disaster Preparedness
 
 *Strategy:* Prepare + Research
-*See also:* M-8: Understanding Insurance (for documenting what you own before you need to), Ho-1: Maintaining Your Home (preventive maintenance is the first line of defense), IRL-9: Handling a Car Accident (the same "be ready before the crisis" mindset)
+*See also:* M-8: Insurance You Actually Need (for documenting what you own before you need to), Ho-1: Maintaining Your Home (preventive maintenance is the first line of defense), IRL-9: Handling a Car Accident (the same "be ready before the crisis" mindset)
 *My Man Jeeves:* _One observes that the federal government maintains a website --- ready.gov --- which advises citizens to prepare a 72-hour emergency kit, an evacuation plan, and a communication strategy. One further observes that the overwhelming majority of households have done none of these things, not because the advice is inaccessible but because the task presents itself as a single, undifferentiated mass of anxiety rather than a series of manageable steps. The structural difficulty is familiar: the people best positioned to weather a disaster are those who can afford to outsource the planning, while the people most likely to be displaced by one are expected to assemble the plan themselves, from scattered government PDFs, during a period of calm they cannot quite believe will end. An Agent can convert the undifferentiated mass into a checklist, prioritized by consequence, completed in stages, and tailored to the specific threats that apply where one actually lives._
 *The Spec:*
 
@@ -497,7 +501,7 @@ Decision fatigue is real and measurable. Studies on cognitive depletion show tha
 
 
 ::: meme
-In _[Friends:S6E6 "The One on the Last Night"](https://en.wikipedia.org/wiki/The_One_on_the_Last_Night)_, 2000 --- Monica cannot let Chandler move in without reorganizing the entire apartment first. The lesson, as always with Monica, is that the system matters more than the sentiment. She is correct. She is also exhausting. Your Agent has the organizational instinct without the 3 a.m. label maker.
+In [Friends:S6E7 "The One Where Phoebe Runs"](https://en.wikipedia.org/wiki/Friends_season_6), 1999 --- Chandler cleans the apartment as a surprise, then spends the rest of the day in quiet terror: Monica will know that every object is an inch from where it lives. The lesson, as always with Monica, is that the system matters more than the sentiment. She is correct. She is also exhausting. Your Agent has the organizational instinct without the 3 a.m. label maker.
 :::
 
 
@@ -554,7 +558,7 @@ I don't want to be sold a subscription I don't need.
 *What to do with the Output:* Start with the items your Agent flags as missing from the basics --- working smoke detectors on every level, a CO detector near sleeping areas, a fire extinguisher in the kitchen, and functional deadbolts on exterior doors. These are not optional. They are the safety equivalent of seatbelts. Everything after that is risk-specific and budget-dependent. If you rent, check your Agent's output against Ho-4 --- your landlord may be legally required to provide several of these.
 
 ::: science
-The National Fire Protection Association reports that nearly three out of five home fire deaths occur in properties with no smoke alarms (41%) or alarms that failed to operate (16%). Working alarms cut the risk of dying in a home fire by about 55%. Ninety-nine percent of U.S. households say they have at least one alarm, but 61% test less often than monthly and 33% never test at all --- which is how "I have a smoke alarm" turns into "the smoke alarm did not go off." Replace batteries annually or switch to 10-year sealed units. Your Agent can remind you; the battery does not replace itself.[^ho10-2]
+The National Fire Protection Association reports that nearly three out of five home fire deaths occur in properties with no smoke alarms (43%) or alarms that failed to operate (16%). Working alarms cut the death rate in home fires by about 60%. Ninety-nine percent of U.S. households say they have at least one alarm, but 61% test less often than monthly and 33% never test at all --- which is how "I have a smoke alarm" turns into "the smoke alarm did not go off." Replace batteries annually or switch to 10-year sealed units. Your Agent can remind you; the battery does not replace itself.[^ho10-2]
 :::
 
 
@@ -574,13 +578,13 @@ Home security marketing disproportionately targets fear --- and that fear is not
 
 
 ::: meme
-The _[Home Improvement:S4E1 "Back in the Saddle Shoe"](https://en.wikipedia.org/wiki/Home_Improvement_(season_4))_, 1994 --- Tim installs a home security system. It goes off seventeen times in the first night. Al would have started with the locks. Start with the locks.
+In [Home Improvement:S5E25 "Alarmed by Burglars"](https://en.wikipedia.org/wiki/Home_Improvement_season_5), 1996 --- Tim installs a home security system. It will not stop going off. Al would have started with the locks. Start with the locks.
 :::
 
 
 [^ho10-1]: IBISWorld. (2025). ["Security Alarm Services in the US --- Industry Analysis."](https://www.ibisworld.com/united-states/industry/security-alarm-services/1491/) Industry revenue of approximately $38.6 billion in 2025, not including separate segments such as locksmiths, smart-home security hardware, or monitored fire services.
 
-[^ho10-2]: Ahrens, M. & Evarts, B. (2024). ["Smoke Alarms in US Home Fires."](https://www.nfpa.org/education-and-research/research/nfpa-research/fire-statistical-reports/smoke-alarms-in-us-home-fires) National Fire Protection Association. See also [NFPA (2024), "Smoke Alarms at Home"](https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms) for ownership and testing rates from the September 2024 national survey.
+[^ho10-2]: McGree, T. (2024). ["Smoke Alarms in US Home Fires."](https://www.nfpa.org/education-and-research/research/nfpa-research/fire-statistical-reports/smoke-alarms-in-us-home-fires) National Fire Protection Association. See also [NFPA (2024), "Smoke Alarms at Home"](https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms) for ownership and testing rates from the September 2024 national survey.
 
 [^ho10-3]: Welsh, B.C. & Farrington, D.P. (2009). ["Public Area CCTV and Crime Prevention: An Updated Systematic Review and Meta-Analysis."](https://www.tandfonline.com/doi/abs/10.1080/07418820802506206) _Justice Quarterly_, 26(4), 716--745. Piza, E.L., Welsh, B.C., Farrington, D.P., & Thomas, A.L. (2019). ["CCTV surveillance for crime prevention: A 40-year systematic review with meta-analysis."](https://onlinelibrary.wiley.com/doi/abs/10.1111/1745-9133.12419) _Criminology & Public Policy_, 18(1), 135--159.
 

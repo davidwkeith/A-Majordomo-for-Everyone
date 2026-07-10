@@ -2,7 +2,8 @@
 format: png
 size: half-left
 alt: >
-  A hand-drawn pencil sketch of an original Apple iPad held in portrait orientation, with 8-bit pixel art of Roy and Moss from The IT Crowd on the screen.
+  An original iPad showing Roy and Moss from The IT Crowd on its
+  screen.
 ---
 
 #2 pencil sketch of an original Apple iPad (2010, first generation),

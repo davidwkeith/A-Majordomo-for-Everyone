@@ -20,7 +20,7 @@ _Get past the blank page._
 
 Murphy goes through 93 secretaries over the course of the series. The secretaries are not the problem. Murphy cannot specify what she needs clearly enough for anyone to deliver it, and she cannot get herself past the first draft alone.
 
-*The lesson:* The blank page is not a writing problem. It is a starting problem. The first draft does not have to be right. It has to exist. Once it exists, you can fix it. The AI's job is to hand you something to react to — a first draft you can edit into your voice, a structure you can accept or reject, a starting point that costs you nothing to improve. Murphy needed someone to write the first sentence. Now you have one.
+*The lesson:* The blank page is not a writing problem. It is a starting problem. The first draft does not have to be right. It has to exist. Once it exists, you can fix it. Your Agent's job is to hand you something to react to — a first draft you can edit into your voice, a structure you can accept or reject, a starting point that costs you nothing to improve. Murphy needed someone to write the first sentence. Now you have one.
 
 *My Man Jeeves:* _The obstacle is not the content of the memo but the first sentence of it. One knows what one wishes to say. One cannot begin. The remedy has always been a draft to correct rather than a page to fill — a service which, until recently, required keeping a secretary on staff and a certain degree of patience with the profession. The draft is no longer on salary._
 
@@ -28,7 +28,7 @@ Murphy goes through 93 secretaries over the course of the series. The secretarie
 
 The blank page is the most expensive piece of real estate in your life. It costs you hours of avoidance, low-grade anxiety, and the gradual accumulation of unfinished business that the [Zeigarnik effect](https://en.wikipedia.org/wiki/Zeigarnik%5Feffect) turns into a constant low-level drain on your mental bandwidth. Your Agent does not write the final version. It writes the first version, which is the only one that costs you anything.
 
-The draft it produces will be competent and generic. That is the point. The competent generic draft is not your voice — it is a surface to push against. Your voice emerges in the editing, in the places where you cross out what the AI wrote and replace it with what you actually mean. The AI has read ten thousand demand letters. It knows what a demand letter sounds like. It does not know what _your_ demand letter sounds like — the specific weight of your anger, the particular history with this landlord, the sentence where you stop being polite. That part arrives when you edit. The AI brings the library. You bring the life. The draft is where they meet.
+The draft it produces will be competent and generic. That is the point. The competent generic draft is not your voice — it is a surface to push against. Your voice emerges in the editing, in the places where you cross out what your Agent wrote and replace it with what you actually mean. Your Agent has read ten thousand demand letters. It knows what a demand letter sounds like. It does not know what _your_ demand letter sounds like — the specific weight of your anger, the particular history with this landlord, the sentence where you stop being polite. That part arrives when you edit. Your Agent brings the library. You bring the life. The draft is where they meet.
 
 *What Draft is for:* Any writing task where the obstacle is starting. Demand letters. Appeal letters. Complaint emails. Eulogies. Apologies. HR grievances. Public comments. Performance self-reviews.
 
@@ -48,11 +48,11 @@ Bluma Zeigarnik's 1927 research established that the brain actively maintains in
 :::
 
 
-[^s3-1]: Zeigarnik, B. (1927). ["Über das Behalten von erledigten und unerledigten Handlungen."](https://www.interruptions.net/literature/Zeigarnik-PsychologischeForschung27.pdf) _Psychologische Forschung_, 9, 1-85. Masicampo, E.J. & Baumeister, R.F. (2011). ["Consider it done! Plan making can eliminate the cognitive effects of unfulfilled goals."](https://doi.org/10.1037/a0024192) _Journal of Personality and Social Psychology_, 101(4), 667-683.
+[^s3-1]: Zeigarnik, B. (1927). ["Über das Behalten von erledigten und unerledigten Handlungen."](https://www.interruptions.net/literature/Zeigarnik-PsychologischeForschung27.pdf) _Psychologische Forschung_, 9, 1--85. Masicampo, E.J. & Baumeister, R.F. (2011). ["Consider it done! Plan making can eliminate the cognitive effects of unfulfilled goals."](https://doi.org/10.1037/a0024192) _Journal of Personality and Social Psychology_, 101(4), 667--683.
 
-_In the Field Guide: [H-4 (Insurance Appeals)](ref:h-4), [Li-2 (Eulogies)](ref:li-2), [C-5 (Public Comments)](ref:c-5), [L-3 (Demand Letters)](ref:l-3), [W-1 (Job Search)](ref:w-1)._
+_In the Field Guide: [H-4 (Insurance Appeals)](ref:h-4), [Li-2 (Eulogies)](ref:li-2), [C-5 (Public Comments)](ref:c-5), [L-3 (Demand Letters)](ref:l-3), [W-1 (Getting a Job)](ref:w-1)._
 
-*Worked examples:* A demand letter to a landlord. A Medicare denial appeal. A public comment for a city council meeting.
+*Worked examples:* A demand letter to a landlord. An insurance denial appeal. A public comment for a city council meeting.
 
 ### Example 1: The Landlord Counteroffer
 
@@ -239,9 +239,9 @@ Ask for two or three tone variants and pick the one closest to your voice. You c
 Claude and ChatGPT both support inline editing — you can highlight a section of the response and ask for a revision without regenerating the whole thing. In Gemini, use a follow-up message to request changes to specific parts. Revision is the workflow. The first draft is raw material.
 :::
 
-### Example 2: The Medicare Denial Appeal Letter
+### Example 2: The Insurance Denial Appeal Letter
 
-In Strategy 0: Specify, you decoded an insurance denial — an MRI your doctor ordered, denied as "not medically necessary." Your Agent helped you understand what the denial meant, what a first-level internal appeal looks like, and how to file one. You filed it. Your doctor's office provided a letter of medical necessity, just like they said they would. The appeal was denied. Now you need to write the next one.
+In Strategy 0: Specify, you worked through an insurance denial — an MRI your doctor ordered, denied as "not medically necessary." Your Agent helped you understand what the denial meant, what a first-level internal appeal looks like, and how to file one. You filed it. Your doctor's office provided a letter of medical necessity, just like they said they would. The appeal was denied. Now you need to write the next one.
 
 You have been fighting this for weeks. The first appeal felt like filling out a form — follow the steps, attach the letter, submit. This one is different. The external appeal goes to an independent medical reviewer, not customer service. It is a formal document with real requirements and a real audience: a physician who will read your case and decide whether the denial stands. The blank page is harder this time because the stakes are higher, the format is less familiar, and you have already been told no twice.
 
@@ -558,4 +558,4 @@ Murphy Brown could interview a senator without notes. She could not start the me
 :::
 
 
-_The AI brings the library. You bring the life. The draft is where they meet._
+_Your Agent brings the library. You bring the life. The draft is where they meet._

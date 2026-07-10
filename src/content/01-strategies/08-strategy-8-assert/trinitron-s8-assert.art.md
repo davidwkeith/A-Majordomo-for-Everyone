@@ -2,10 +2,8 @@
 format: png
 size: full
 alt: >
-  A Trinitron TV on notebook paper showing an 8-bit scene of Al Bundy
-  behind a shoe store counter, pointing at nothing in particular.
-  A customer sits in the chair. Al's face shows the look of a man
-  who is right and cannot leverage that rightness into an outcome.
+  Al Bundy behind the shoe-store counter, right about everything and
+  unable to turn it into an outcome.
 ---
 
 TRINITRON CHAPTER OPENER. Al behind the shoe store counter,

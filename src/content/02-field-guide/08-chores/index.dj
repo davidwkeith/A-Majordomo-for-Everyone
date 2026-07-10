@@ -6,7 +6,7 @@ strategy: null
 status: "draft"
 ---
 
-### CHORES
+### Chores
 
 _The domestic labor that keeps a household running — shopping, cooking, cleaning, maintaining, scheduling — is invisible until it stops happening. It is also where most consumer decisions are made: which products to buy, which contractors to hire, which repairs to attempt, which to outsource. The billionaire class delegates this to staff who comparison-shop, vet vendors, and manage maintenance schedules. Everyone else does it in the margins of a full workday, making decisions under time pressure with whatever information is on the label or the first page of search results. The Skills that follow turn your Agent into the household staff you don't have._
 
@@ -56,7 +56,7 @@ Take a photo of the grocery aisle shelf or the product label and send it to your
 
 *Strategy:* Decode + Research
 *See also:* L-1: Negotiating a Contract (the bid becomes a contract), Ho-2: Home Repair and DIY (should you even hire someone?), Ho-1: Maintaining Your Home (for diagnosing the problem first)
-*My Man Jeeves:* _A contractor bid is a document that proceeds on the assumption that one knows what one is looking at. It enumerates materials one cannot evaluate, labor rates one cannot benchmark, and timelines one cannot verify, then requests a signature at the bottom. The contractor, one might note, has composed hundreds of such documents. The homeowner has perhaps encountered three in a lifetime, all for different trades, none of which adequately prepared one for the present specimen. This asymmetry is not, in the main, a matter of dishonesty --- the majority of contractors are perfectly reputable --- but it does present a difficulty: the honest tradesman and the dishonest one produce documents of remarkably similar appearance, and distinguishing between the two requires research that most households have neither the time nor the background to conduct. One's Agent, having reviewed thousands of such bids, is rather better positioned to assess what each line item ought to cost in one's area._
+*My Man Jeeves:* _A contractor bid is a document that proceeds on the assumption that one knows what one is looking at. It enumerates materials one cannot evaluate, labour rates one cannot benchmark, and timelines one cannot verify, then requests a signature at the bottom. The contractor, one might note, has composed hundreds of such documents. The homeowner has perhaps encountered three in a lifetime, all for different trades, none of which adequately prepared one for the present specimen. This asymmetry is not, in the main, a matter of dishonesty --- the majority of contractors are perfectly reputable --- but it does present a difficulty: the honest tradesman and the dishonest one produce documents of remarkably similar appearance, and distinguishing between the two requires research that most households have neither the time nor the background to conduct. One's Agent, having reviewed thousands of such bids, is rather better positioned to assess what each line item ought to cost in one's area._
 *The Spec:*
 
 ::: prompt
@@ -142,7 +142,7 @@ Send a photo. Your Agent can identify most common houseplants from a clear photo
 
 
 ::: science
-The "green thumb" is not a personality trait. It is a knowledge gap. A 2015 study in _HortScience_ found that the primary barrier keeping consumers from buying --- and successfully keeping --- indoor plants was a deficit of practical knowledge about watering and light requirements, not inexperience or lack of botanical talent.[^ch3-1] University extension services consistently identify overwatering as the leading cause of houseplant death --- a problem that disappears once you know the species-specific requirements. Know the plant. Follow the requirements. That's the whole secret.
+The "green thumb" is not a personality trait. It is a knowledge gap. University extension services consistently identify overwatering as the leading cause of houseplant death --- a problem that disappears once you know the species-specific requirements, because most people water on a schedule instead of checking the soil. Know the plant. Follow the requirements. That's the whole secret.
 :::
 
 
@@ -150,8 +150,6 @@ The "green thumb" is not a personality trait. It is a knowledge gap. A 2015 stud
 To make this Expert Role persistent across sessions, save it as a *Project* (Claude), *Gem* (Gemini), or *Custom GPT* (ChatGPT). See [Appendix G](06-appendix-g-feature-table.xhtml).
 :::
 
-
-[^ch3-1]: Rihn, A.L., Khachatryan, H., Campbell, B., Hall, C. & Behe, B. (2015). "[Consumer response to novel indoor foliage plant attributes: Evidence from a conjoint experiment and gaze analysis](https://doi.org/10.21273/HORTSCI.50.10.1524)." _HortScience_, 50(10), 1524--1530. 42% of consumers identified maintenance requirements as their primary barrier to keeping indoor plants.
 
 ---
 
@@ -169,6 +167,7 @@ What went wrong (or what I want to improve): [describe specifically]
 My equipment and skill level: [describe]
 What am I doing wrong, and what should I do differently?
 :::
+*What to do with the Output:* Follow the technique once exactly as described before adjusting. Cooking is chemistry — changing two variables at once means you will never know which one mattered. Keep a notes file on your phone for what worked and what did not.
 
 *Common culinary Expert Role specs:*
 
@@ -184,7 +183,6 @@ too salty / rubbery / bland / fell apart / didn't set].
 What went wrong and how do I fix it — or if it's too late to fix,
 how do I prevent it next time?
 :::
-*What to do with the Output:* Follow the technique once exactly as described before adjusting. Cooking is chemistry — changing two variables at once means you will never know which one mattered. Keep a notes file on your phone for what worked and what did not.
 
 ::: also
 To make this Expert Role persistent across sessions, save it as a *Project* (Claude), *Gem* (Gemini), or *Custom GPT* (ChatGPT). See [Appendix G](06-appendix-g-feature-table.xhtml).
@@ -198,8 +196,8 @@ To make this Expert Role persistent across sessions, save it as a *Project* (Cla
 #### Ch-5: Optimizing Manual Chores
 
 *Strategy:* Diagnose + Navigate (Expert Role)
-*See also:* Ho-1: Maintaining Your Home (for home systems maintenance), H-8: Wellness and Nutrition Coach (when physical limitations affect chore capacity). Oliver Burkeman, [_Four Thousand Weeks_](https://www.amazon.com/Four-Thousand-Weeks-Management-Mortals/dp/0374159122) (accepting finite capacity instead of optimizing your way to burnout)
-*My Man Jeeves:* _Domestic labor presents itself as perhaps the only category of work that is simultaneously essential, unpaid, invisible, and expected to organize itself. A factory managing the same number of recurring tasks --- laundry, dishes, floors, surfaces, bathrooms, refuse, meals, groceries --- would employ a process engineer, maintain a schedule, and follow a workflow. A household, by contrast, has one person who noticed the bathroom required attention and two who did not, together with a vague mutual understanding that "we should be better about this" --- an understanding that has not, in recorded history, produced a system. In a properly staffed household, one finds task lists, schedules, and supply inventories. One's Agent is capable of constructing the same infrastructure for the staff one actually has, which is to say, oneself._
+*See also:* Ho-1: Maintaining Your Home (for home systems maintenance), H-8: Wellness and Nutrition Coach (when physical limitations affect chore capacity). Oliver Burkeman, [_Four Thousand Weeks_](https://bookshop.org/p/books/four-thousand-weeks-time-management-for-mortals-oliver-burkeman/e804097e7cf37bdf) (accepting finite capacity instead of optimizing your way to burnout)
+*My Man Jeeves:* _Domestic labour presents itself as perhaps the only category of work that is simultaneously essential, unpaid, invisible, and expected to organize itself. A factory managing the same number of recurring tasks --- laundry, dishes, floors, surfaces, bathrooms, refuse, meals, groceries --- would employ a process engineer, maintain a schedule, and follow a workflow. A household, by contrast, has one person who noticed the bathroom required attention and two who did not, together with a vague mutual understanding that "we should be better about this" --- an understanding that has not, in recorded history, produced a system. In a properly staffed household, one finds task lists, schedules, and supply inventories. One's Agent is capable of constructing the same infrastructure for the staff one actually has, which is to say, oneself._
 *The Spec:*
 
 ::: prompt
@@ -231,7 +229,7 @@ Please:
 *What to do with the Output:* Print the schedule or put it on a shared digital calendar. The system only works if everyone in the household can see it. Run it for two weeks before adjusting --- most chore systems fail because they get revised after three days, before anyone has had a chance to build the habit.
 
 ::: science
-Cognitive psychologists have measured the cost of switching between dissimilar tasks: each switch burns time on "goal-shifting" and "rule-activation," and the losses compound across a day of bouncing between unrelated chores.[^ch6-1] Occupational therapists apply a parallel insight --- grouping similar activities and planning task sequences in advance reduces both physical fatigue and decision load. The research consistently points the same direction: the obstacle to a clean house is not motivation. It is the absence of a system that works with your actual energy and schedule.
+Cognitive psychologists have measured the cost of switching between dissimilar tasks: each switch burns time on "goal-shifting" and "rule-activation," and the losses compound across a day of bouncing between unrelated chores.[^ch5-1] Occupational therapists apply a parallel insight --- grouping similar activities and planning task sequences in advance reduces both physical fatigue and decision load. The research consistently points the same direction: the obstacle to a clean house is not motivation. It is the absence of a system that works with your actual energy and schedule.
 :::
 
 
@@ -241,12 +239,12 @@ Ask your Agent for the _minimum effective frequency_ for each chore. Toilets nee
 
 
 ::: fairness
-The unequal distribution of domestic labor is one of the most documented findings in sociology. In heterosexual households, women perform roughly 60% of housework even when both partners work full-time --- and the gap is larger for households with children. This Skill builds systems, not guilt. But a system that makes the labor visible --- on a calendar, with names attached --- does more to equalize the distribution than any conversation about "helping out more" ever has.[^ch6-2]
+The unequal distribution of domestic labor is one of the most documented findings in sociology. In heterosexual households, women perform roughly 60% of housework even when both partners work full-time --- and the gap is larger for households with children. This Skill builds systems, not guilt. But a system that makes the labor visible --- on a calendar, with names attached --- does more to equalize the distribution than any conversation about "helping out more" ever has.[^ch5-2]
 :::
 
 
-[^ch6-1]: Rubinstein, J.S., Meyer, D.E. & Evans, J.E. (2001). "[Executive control of cognitive processes in task switching](https://doi.org/10.1037/0096-1523.27.4.763)." _Journal of Experimental Psychology: Human Perception and Performance_, 27(4), 763--797. For the OT application to household activity planning, see Omura, K.M. et al. (2022). "Energy conservation, minimum steps, and adaptations when needed: A scoping review." _Hong Kong Journal of Occupational Therapy_, 35(2), 125--136.
-[^ch6-2]: Milkie, M.A., Sayer, L.C., Nomaguchi, K. & Yan, H.X. (2025). "[Who's doing the housework and childcare in America now?](https://doi.org/10.1177/23780231251314667)" _Socius_, 11. Using ATUS 2003--2023 data: married women average 17.7 hours/week of housework vs. 11.2 for married men (60.8% women's share). The gap widens with children.
+[^ch5-1]: Rubinstein, J.S., Meyer, D.E. & Evans, J.E. (2001). "[Executive control of cognitive processes in task switching](https://doi.org/10.1037/0096-1523.27.4.763)." _Journal of Experimental Psychology: Human Perception and Performance_, 27(4), 763--797. For the OT application to household activity planning, see Omura, K.M. et al. (2022). "[Energy conservation, minimum steps, and adaptations when needed: A scoping review.](https://pmc.ncbi.nlm.nih.gov/articles/PMC9716468/)" _Hong Kong Journal of Occupational Therapy_, 35(2), 125--136.
+[^ch5-2]: Milkie, M.A., Sayer, L.C., Nomaguchi, K. & Yan, H.X. (2025). "[Who's doing the housework and childcare in America now?](https://doi.org/10.1177/23780231251314667)" _Socius_, 11. Using ATUS 2003--2023 data: married women average 17.7 hours/week of housework vs. 11.2 for married men (60.8% women's share). The gap widens with children.
 
 ---
 
@@ -282,7 +280,7 @@ Please:
 *What to do with the Output:* The hardest part of feeding a household is not the cooking. It is the deciding --- what to make, what to buy, what everyone will eat. That daily cognitive load is what meal planning offloads to your Agent. Start with one week. Do not plan a month --- you will not follow it. Run the plan, note what you actually ate and what went to waste, and feed that back to your Agent the following week. The plan improves as the data improves. After three weeks, your Agent knows your household better than any meal kit service.
 
 ::: science
-The USDA estimates that the average American household wastes 31.9% of its food, costing roughly $1,500 per year.[^ch7-1] The primary driver is not spoilage --- it is overbuying and poor planning. Research consistently identifies meal planning as one of the most effective household-level interventions, reducing food waste by roughly a quarter even without other changes.[^ch7-2] The math is straightforward: plan meals, buy what you need, use what you buy.
+The USDA estimates that the average American household wastes 31.9% of its food, costing roughly $1,500 per year.[^ch6-1] The primary driver is not spoilage --- it is overbuying and poor planning. Research consistently identifies meal planning as one of the most effective household-level interventions, reducing food waste by roughly a quarter even without other changes.[^ch6-2] The math is straightforward: plan meals, buy what you need, use what you buy.
 :::
 
 
@@ -296,8 +294,8 @@ Grocery budgets are not equal, and "healthy eating on a budget" advice that assu
 :::
 
 
-[^ch7-1]: U.S. Department of Agriculture, Economic Research Service. ["Food Loss and Waste."](https://www.ers.usda.gov/topics/food-markets-prices/food-service-industry/food-loss-and-waste/) ERS estimates that 30--40% of the US food supply is lost or wasted, costing the average household over $1,500 annually.
-[^ch7-2]: NRDC (2017). ["Wasted: How America Is Losing Up to 40 Percent of Its Food."](https://www.nrdc.org/resources/wasted-how-america-losing-40-percent-its-food) Meal planning consistently appears in food waste reduction literature as among the most effective household-level strategies.
+[^ch6-1]: U.S. Department of Agriculture, Economic Research Service. ["Food Loss and Waste."](https://www.ers.usda.gov/topics/food-markets-prices/food-service-industry/food-loss-and-waste/) ERS estimates that 30--40% of the US food supply is lost or wasted, costing the average household over $1,500 annually.
+[^ch6-2]: NRDC (2017). ["Wasted: How America Is Losing Up to 40 Percent of Its Food."](https://www.nrdc.org/resources/wasted-how-america-losing-40-percent-its-food) Meal planning consistently appears in food waste reduction literature as among the most effective household-level strategies.
 
 ---
 
@@ -331,7 +329,7 @@ Please:
 *What to do with the Output:* For stain emergencies, act immediately --- stains set with time and heat. For laundry sorting and product questions, save your Agent's answers in a note on your phone. You will look this up again. Build a household cleaning reference over time: one conversation for stains, one for surfaces, one for laundry. After a few sessions, you will know 90% of what you need and only consult for the unusual cases.
 
 ::: science
-The chemistry of stain removal follows consistent principles: protein stains (blood, egg, milk) require cold water and enzymatic cleaners because heat denatures the protein and bonds it to fabric. Tannin stains (wine, coffee, tea) respond to oxidizing agents. Grease responds to surfactants. Most commercial stain removers are combinations of these three mechanisms with marketing attached. Understanding which mechanism your stain requires eliminates the guesswork --- and the shelf of 12 products you bought for 12 different stains that all needed the same enzyme.[^ch8-1]
+The chemistry of stain removal follows consistent principles: protein stains (blood, egg, milk) require cold water and enzymatic cleaners because heat denatures the protein and bonds it to fabric. Tannin stains (wine, coffee, tea) respond to oxidizing agents. Grease responds to surfactants. Most commercial stain removers are combinations of these three mechanisms with marketing attached. Understanding which mechanism your stain requires eliminates the guesswork --- and the shelf of 12 products you bought for 12 different stains that all needed the same enzyme.[^ch7-1]
 :::
 
 
@@ -345,7 +343,7 @@ Bleach and ammonia together produce chloramine gas. This is not a cleaning hack.
 :::
 
 
-[^ch8-1]: University extension textile care guides consistently categorize stains by chemistry: protein (cold water + enzyme), tannin (oxidizer), and grease (surfactant). See e.g. University of Missouri Extension, ["Stain Removal From Washable Fabrics"](https://extension.missouri.edu/publications/mp663) (MP663) — a North Central Regional Cooperative Extension stain-care guide.
+[^ch7-1]: University extension textile care guides consistently categorize stains by chemistry: protein (cold water + enzyme), tannin (oxidizer), and grease (surfactant). See e.g. University of Missouri Extension, ["Stain Removal From Washable Fabrics"](https://extension.missouri.edu/publications/mp663) (MP663) — a North Central Regional Cooperative Extension stain-care guide.
 
 ---
 
@@ -353,7 +351,7 @@ Bleach and ammonia together produce chloramine gas. This is not a cleaning hack.
 
 *Strategy:* Research + Navigate (Expert Role)
 *See also:* H-8: Wellness and Nutrition Coach (same Expert Role pattern for a different species), Ch-1: Shopping Your Values (pet food and products), Li-1: Difficult Conversations (for end-of-life decisions with your vet)
-*My Man Jeeves:* _The pet industry generates approximately $150 billion in annual revenue in the United States alone --- a figure that rather complicates the notion that one is simply caring for an animal. One is, in fact, navigating a market that sells grain-free dog food for $80 a bag on the basis of a theory whose scientific support remains contested --- the FDA's investigation found a correlation with dilated cardiomyopathy but not definitive causation, training services at $150 per session from practitioners who may hold no credential of any kind, and "wellness plans" at the veterinary office that bundle services one's pet may not require. Meanwhile, the questions that actually determine an animal's quality of life --- appropriate nutrition for the species and breed, exercise requirements, behavioral needs, when a symptom warrants a vet visit and when it does not --- are answerable from the veterinary literature, which the average pet owner has neither the time nor the training to consult. One's Agent has read the literature. It cannot examine your pet, but it can prepare you for every conversation with someone who can._
+*My Man Jeeves:* _The pet industry generates approximately $150 billion in annual revenue in the United States alone --- a figure that rather complicates the notion that one is simply caring for an animal. One is, in fact, navigating a market that sells grain-free dog food for $80 a bag on the basis of a theory whose scientific support remains contested --- the FDA's investigation found a correlation with dilated cardiomyopathy but not definitive causation, training services at $150 per session from practitioners who may hold no credential of any kind, and "wellness plans" at the veterinary office that bundle services one's pet may not require. Meanwhile, the questions that actually determine an animal's quality of life --- appropriate nutrition for the species and breed, exercise requirements, behavioural needs, when a symptom warrants a vet visit and when it does not --- are answerable from the veterinary literature, which the average pet owner has neither the time nor the training to consult. One's Agent has read the literature. It cannot examine one's pet, but it can prepare one for every conversation with someone who can._
 *The Spec:*
 
 ::: prompt
@@ -408,12 +406,12 @@ or treatments might the vet recommend?
 :::
 
 ::: fairness
-Veterinary costs have increased 60% over the past decade, and pet insurance --- unlike human health insurance --- is unregulated in most states. The reader who cannot afford a $3,000 emergency surgery is not a bad pet owner. They are a person living in a country that has no safety net for veterinary care. Your Agent can help you find low-cost clinics, veterinary schools that offer reduced-price services, breed-specific rescue organizations that sometimes fund medical care, and payment plans. It can also help you understand when a $200 vet visit is genuinely necessary and when the symptom is something you can monitor at home --- a distinction that saves money and reduces unnecessary stress for the animal.[^ch9-1]
+Veterinary costs have increased 60% over the past decade, and pet insurance --- unlike human health insurance --- is unregulated in most states. The reader who cannot afford a $3,000 emergency surgery is not a bad pet owner. They are a person living in a country that has no safety net for veterinary care. Your Agent can help you find low-cost clinics, veterinary schools that offer reduced-price services, breed-specific rescue organizations that sometimes fund medical care, and payment plans. It can also help you understand when a $200 vet visit is genuinely necessary and when the symptom is something you can monitor at home --- a distinction that saves money and reduces unnecessary stress for the animal.[^ch8-1]
 :::
 
 
 ::: science
-The American Veterinary Society of Animal Behavior published a position statement in 2021 confirming that positive reinforcement is the most effective and least harmful training method across species, and that dominance-based techniques (alpha rolls, leash corrections, shock collars) increase fear, anxiety, and aggression.[^ch9-2] If a trainer --- or a search result --- recommends "showing the dog who's boss," the science says they are wrong. Your Agent draws from the current evidence base, not the 1990s.
+The American Veterinary Society of Animal Behavior published a position statement in 2021 confirming that positive reinforcement is the most effective and least harmful training method across species, and that dominance-based techniques (alpha rolls, leash corrections, shock collars) increase fear, anxiety, and aggression.[^ch8-2] If a trainer --- or a search result --- recommends "showing the dog who's boss," the science says they are wrong. Your Agent draws from the current evidence base, not the 1990s.
 :::
 
 
@@ -422,8 +420,8 @@ To make this Expert Role persistent across sessions, save it as a *Project* (Cla
 :::
 
 
-[^ch9-1]: Bureau of Labor Statistics, [Consumer Price Index for Veterinary Services](https://www.bls.gov/cpi/) (see also BLS, ["A 'tail' of productivity in pet care services"](https://www.bls.gov/opub/btn/volume-13/a-tail-of-productivity-in-pet-care-services-new-technology-enables-rapid-growth.htm), 2024). Veterinary costs have risen significantly faster than general inflation over the past decade. See also [AVMA](https://www.avma.org/) data on cost as a barrier to veterinary care.
-[^ch9-2]: American Veterinary Society of Animal Behavior. ["Position Statement on Humane Dog Training."](https://avsab.org/resources/position-statements/) AVSAB recommends reward-based training and advises against dominance-based methods.
+[^ch8-1]: Bureau of Labor Statistics, [Consumer Price Index for Veterinary Services](https://www.bls.gov/cpi/) (see also BLS, ["A 'tail' of productivity in pet care services"](https://www.bls.gov/opub/btn/volume-13/a-tail-of-productivity-in-pet-care-services-new-technology-enables-rapid-growth.htm), 2024). Veterinary costs have risen significantly faster than general inflation over the past decade. See also [AVMA](https://www.avma.org/) data on cost as a barrier to veterinary care.
+[^ch8-2]: American Veterinary Society of Animal Behavior. ["Position Statement on Humane Dog Training."](https://avsab.org/resources/position-statements/) AVSAB recommends reward-based training and advises against dominance-based methods.
 
 ---
 
@@ -431,7 +429,7 @@ To make this Expert Role persistent across sessions, save it as a *Project* (Cla
 
 *Strategy:* Prepare + Navigate
 *See also:* Ho-1: Maintaining Your Home (for ongoing maintenance), Ho-2: Home Repair and DIY (for when maintenance reveals a repair), Ch-5: Optimizing Manual Chores (for scheduling the recurring tasks)
-*My Man Jeeves:* _A house, if one may observe, operates on a calendar that its occupants rarely consult. The gutters require attention in autumn. The HVAC filters require replacement quarterly. The water heater requires flushing annually --- a task that a vanishingly small fraction of homeowners perform, the remainder discovering the consequence when the unit fails, which it does, on average, at the ten-year mark, on a Saturday, when plumbers charge emergency rates. The difficulty is not that these tasks are complex. Most require thirty minutes and no specialized skill. The difficulty is that no one tells you they need doing until the consequence arrives, at which point the cost of the repair is several multiples of the cost of the prevention. In a properly maintained household, one finds a seasonal checklist and a person who follows it. One's Agent can produce the checklist. The person, regrettably, must be supplied independently._
+*My Man Jeeves:* _A house, if one may observe, operates on a calendar that its occupants rarely consult. The gutters require attention in autumn. The HVAC filters require replacement quarterly. The water heater requires flushing annually --- a task that a vanishingly small fraction of homeowners perform, the remainder discovering the consequence when the unit fails, which it does, on average, at the ten-year mark, on a Saturday, when plumbers charge emergency rates. The difficulty is not that these tasks are complex. Most require thirty minutes and no specialized skill. The difficulty is that no one mentions they need doing until the consequence arrives, at which point the cost of the repair is several multiples of the cost of the prevention. In a properly maintained household, one finds a seasonal checklist and a person who follows it. One's Agent can produce the checklist. The person, regrettably, must be supplied independently._
 *The Spec:*
 
 ::: prompt
@@ -461,7 +459,7 @@ Please:
 *What to do with the Output:* Put the deadlines on your calendar now --- not the tasks, just the deadlines. "Check gutters before November 15" is more useful than a checklist you save and forget. Set a recurring reminder for each season. After one full year, you will have a personalized maintenance calendar that accounts for your specific home, and the emergency repair calls will drop dramatically. If nobody in your family owned a home before you, none of this was obvious --- you learned by emergency, and each emergency cost more than the maintenance would have. This checklist is the institutional knowledge you were not given.
 
 ::: science
-Preventive maintenance reduces home repair costs by an estimated 1--4% of the home's value per year --- for a $300,000 home, that is $3,000--$12,000 annually in avoided emergency repairs.[^ch10-1] HVAC systems that receive regular filter changes and annual servicing last 15--20 years; neglected systems fail at 8--12 years. Gutter cleaning prevents water damage that averages $2,500--$7,000 to repair. The economics are unambiguous: the cheapest repair is the one you prevent.
+Preventive maintenance reduces home repair costs by an estimated 1--4% of the home's value per year --- for a $300,000 home, that is $3,000--$12,000 annually in avoided emergency repairs.[^ch9-1] HVAC systems that receive regular filter changes and annual servicing last 15--20 years; neglected systems fail at 8--12 years. Gutter cleaning prevents water damage that averages $2,500--$7,000 to repair. The economics are unambiguous: the cheapest repair is the one you prevent.
 :::
 
 
@@ -475,14 +473,14 @@ Renters: most of this checklist is your landlord's responsibility, and they may 
 :::
 
 
-[^ch10-1]: Preventive maintenance cost estimates derive from industry consensus ([National Association of Home Builders](https://www.nahb.org/), [Freddie Mac _Caring for Your Home_](https://sf.freddiemac.com/docs/pdf/fact-sheet/caring_for_your_home.pdf), [Fannie Mae](https://www.fanniemae.com/)). The 1--4% of home value per year range accounts for home age: newer homes trend toward 1%, older homes toward 3--4%.
+[^ch9-1]: Preventive maintenance cost estimates derive from industry consensus ([National Association of Home Builders](https://www.nahb.org/), [Freddie Mac _Caring for Your Home_](https://sf.freddiemac.com/docs/pdf/fact-sheet/caring_for_your_home.pdf), [Fannie Mae](https://www.fanniemae.com/)). The 1--4% of home value per year range accounts for home age: newer homes trend toward 1%, older homes toward 3--4%.
 
 ---
 
 #### Ch-10: Managing Subscriptions and Recurring Costs
 
 *Strategy:* Decode + Assert
-*See also:* M-1: Understanding Your Bank Account (for spotting charges), M-2: Understanding Your Credit Card Statement (for the audit trail), IRL-2: Customer Service Calls (for the cancellation call)
+*See also:* M-1: Banking and Savings (for spotting charges), M-2: Credit Cards and Debt (for the audit trail), IRL-2: Getting Help from Customer Service (for the cancellation call)
 *My Man Jeeves:* _One might observe that the subscription model has achieved a remarkable efficiency: it converts a single purchasing decision into an indefinite revenue stream, secured by the knowledge that the consumer will, in the majority of cases, forget it exists. The average American maintains approximately 12 paid subscriptions and underestimates the monthly total by roughly 80% --- a gap between perception and expenditure that the industry has, one cannot help but notice, very little incentive to close. Cancellation, when attempted, encounters a friction that is precisely calibrated: not so difficult as to invite regulatory scrutiny, but sufficiently inconvenient to discourage all but the most determined. In well-managed households, a financial officer reviews recurring charges quarterly. One's Agent is capable of conducting this audit in approximately ten minutes, provided one is willing to look at the number._
 *The Spec:*
 
@@ -507,10 +505,10 @@ Please:
 5. Identify where I'm paying for overlapping services
    (multiple streaming, multiple cloud storage, etc.)
 :::
-*What to do with the Output:* Cancel at least one thing today. Not tomorrow, not "this weekend" --- today. The activation energy for subscription cancellation drops to zero if you do the first one immediately. For services with cancellation dark patterns (looking at you, every gym and cable company), see IRL-2: Customer Service Calls for the exact script.
+*What to do with the Output:* Cancel at least one thing today. Not tomorrow, not "this weekend" --- today. The activation energy for subscription cancellation drops to zero if you do the first one immediately. For services with cancellation dark patterns (looking at you, every gym and cable company), see IRL-2: Getting Help from Customer Service for the exact script.
 
 ::: science
-A 2022 C+R Research survey found that the average American spends $219 per month on subscriptions but estimates their spending at $86 --- a 154% underestimation gap.[^ch11-1] The behavioral economics are well-documented: subscription pricing exploits status quo bias (the tendency to leave existing arrangements in place) and the "pain of paying" asymmetry (signing up feels like one small charge; cancelling feels like giving something up). Companies know this. The cancellation flow is designed around it. Your Agent does not have status quo bias. It sees a number.
+A 2022 C+R Research survey found that the average American spends $219 per month on subscriptions but estimates their spending at $86 --- a 154% underestimation gap.[^ch10-1] The behavioral economics are well-documented: subscription pricing exploits status quo bias (the tendency to leave existing arrangements in place) and the "pain of paying" asymmetry (signing up feels like one small charge; cancelling feels like giving something up). Companies know this. The cancellation flow is designed around it. Your Agent does not have status quo bias. It sees a number.
 :::
 
 
@@ -525,9 +523,9 @@ Set a quarterly calendar reminder: "subscription audit." Paste your most recent 
 
 
 ::: fairness
-"Dark patterns" --- user interface designs that trick or pressure consumers into actions they did not intend --- are not accidents. They are designed, tested, and optimized. The FTC finalized a "click to cancel" rule in 2024 requiring that cancelling be as easy as signing up, though the rule was vacated on appeal in 2025 and its enforcement remains in litigation.[^ch11-2] If a company makes you call to cancel a service you signed up for online, that is a dark pattern. Your Agent can identify these, draft a complaint to the FTC if you want to file one, and help you navigate the cancellation process that was designed to make you give up.
+"Dark patterns" --- user interface designs that trick or pressure consumers into actions they did not intend --- are not accidents. They are designed, tested, and optimized. The FTC finalized a "click to cancel" rule in 2024 requiring that cancelling be as easy as signing up, though the rule was vacated on appeal in 2025 and its enforcement remains in litigation.[^ch10-2] If a company makes you call to cancel a service you signed up for online, that is a dark pattern. Your Agent can identify these, draft a complaint to the FTC if you want to file one, and help you navigate the cancellation process that was designed to make you give up.
 :::
 
 
-[^ch11-1]: C+R Research. (2022). ["Consumer Subscription Spending Report."](https://www.crresearch.com/blog/too-many-satisfactions-consumers-overestimate-subscription-spending/) Survey of 1,000 US consumers found average monthly subscription spend of $219 vs. self-estimated $86.
-[^ch11-2]: Federal Trade Commission. (2024). ["Click-to-Cancel Rule."](https://www.ftc.gov/legal-library/browse/federal-register-notices/negative-option-rule) Finalized October 2024; vacated by the Eighth Circuit Court of Appeals, July 2025. Status in flux at time of publication.
+[^ch10-1]: C+R Research. (2022). ["Consumer Subscription Spending Report."](https://www.crresearch.com/blog/too-many-satisfactions-consumers-overestimate-subscription-spending/) Survey of 1,000 US consumers found average monthly subscription spend of $219 vs. self-estimated $86.
+[^ch10-2]: Federal Trade Commission. (2024). ["Click-to-Cancel Rule."](https://www.ftc.gov/legal-library/browse/federal-register-notices/negative-option-rule) Finalized October 2024; vacated by the Eighth Circuit Court of Appeals, July 2025. Status in flux at time of publication.

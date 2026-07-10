@@ -17,13 +17,13 @@ _(He was describing the 24th century. We will work with what we have.)_
 
 ---
 
-These tools — the ones this book calls "your Agent" — are a new category of software that does not have a good name yet. "AI assistant" is accurate but vague. "Chatbot" carries twenty years of terrible customer service baggage. "Large language model" is what the engineers who build them call them, which is useful in the same way that "internal combustion engine" is useful when you are trying to get somewhere.
+These tools — the ones this book calls "your Agent" — are a new category of software that does not have a good name yet. "AI assistant" is accurate but vague. "Chatbot" carries 20 years of terrible customer service baggage. "Large language model" is what the engineers who build them call them, which is useful in the same way that "internal combustion engine" is useful when you are trying to get somewhere.
 
 For this book: they are AI agents. This book says "your Agent" to mean whichever one you have open. The distinction between tools matters less than the skill of using any of them well, which is what this book teaches.
 
 None of them are search engines. Google finds pages. These tools read them, synthesize what they say, and explain it in the same way a knowledgeable person would if you described your situation to them.
 
-None of them are the customer service chatbots that have spent twenty years failing to understand why you are calling. They do not have decision trees. They do not need you to say "AGENT" in all caps.
+None of them are the customer service chatbots that have spent 20 years failing to understand why you are calling. They do not have decision trees. They do not need you to say "AGENT" in all caps.
 
 The closest real-world equivalent is [Data from TNG](https://en.wikipedia.org/wiki/Data%5F(Star%5FTrek)) — minus the yellow eyes, minus the immortality, and with considerably more willingness to say "I'm not sure, you should verify this." Data had access to the entire [Federation database](https://en.wikipedia.org/wiki/Memory%5FAlpha) and could translate it into plain language on request, without judgment, without billing by the hour, and without making you feel foolish for not already knowing the answer. He also occasionally got things wrong and had to be corrected. That part is accurate too.
 
@@ -39,13 +39,13 @@ That last one is the thesis of this book, written by the CEO of the company that
 - Read any document you paste in and explain it in plain language
 - Help you draft letters, complaints, appeals, and messages you don't know how to start
 - Lay out your options without telling you what to do — you decide; they inform
-- Translate medical, legal, financial, and bureaucratic language into English
+- Translate medical, legal, financial, and bureaucratic language into plain language
 - Ask you clarifying questions when your situation is complicated
 - Play the role of a knowledgeable expert advisor for any well-documented field
 - Give you the starting draft that gets you past the blank page
 
 *What they cannot do:*
-- Browse the internet in real time on the free tier[^1-5]
+- Reliably browse the internet in real time on every free tier[^1-5]
 - Remember your previous conversations (you have to give context each time but context can be saved and reused)
 - Guarantee accuracy — they can be wrong, and you should verify anything with real consequences
 - Replace a licensed professional when accountability genuinely matters (see Part Three)
@@ -59,9 +59,9 @@ Here is the most important thing to understand about these tools, and almost nob
 
 An AI trained on human text has not just accumulated facts. It has absorbed the _structure_ of human thought — thousands of years of philosophy, literature, law, moral reasoning, scientific argument, compressed into something you can query conversationally. It knows what a medical denial means, what a lease clause implies, what a financial instrument does. It knows the patterns because it has read them all.
 
-What it does not have is the thing you have: a life. The stomach drop when you open the envelope. The memory of the last time you were in a waiting room and nobody explained what was happening. The twenty years of experience that tell you when someone is being evasive, even when their words are technically polite. Moral intuition — the compressed wisdom of every decision that cost you something, every person you failed or protected, every moment where the framework ran out and you were left with only what you actually believed. You cannot read your way to that. You have to live your way to it.
+What it does not have is the thing you have: a life. The stomach drop when you open the envelope. The memory of the last time you were in a waiting room and nobody explained what was happening. The 20 years of experience that tell you when someone is being evasive, even when their words are technically polite. Moral intuition — the compressed wisdom of every decision that cost you something, every person you failed or protected, every moment where the framework ran out and you were left with only what you actually believed. You cannot read your way to that. You have to live your way to it.
 
-The partnership works because the division of labor is honest. The AI brings the library. You bring the life. The AI knows what the insurance code means. You know what it means _for you_. The AI can lay out five options. You know which one you can live with. The AI can draft the letter. You know whether it sounds like you.
+The partnership works because the division of labor is honest. Your Agent brings the library. You bring the life. Your Agent knows what the insurance code means. You know what it means _for you_. Your Agent can lay out five options. You know which one you can live with. Your Agent can draft the letter. You know whether it sounds like you.
 
 You are not one input among many, to be weighted and averaged with the machine's output. You are the reason any of it matters. The embodied, fallible, mortal human who has lived the life the library is about — you are not the limitation in the system. You are the point of the whole thing.
 
@@ -89,7 +89,7 @@ Fluent AI output has a side effect researchers have started calling _the LLM fal
 :::
 
 
-::: science
+::: fairness
 "Free" is not free. Every conversation with your Agent runs on servers that consume electricity and water for cooling. The [IEA](https://en.wikipedia.org/wiki/International%5FEnergy%5FAgency) estimates data centers account for 1–1.5% of global electricity use, and AI workloads are the fastest-growing segment. The companies offering free tiers are subsidizing your access with venture capital and advertising revenue — a business model you have seen before and should not mistake for charity. The honest exchange: you are getting a higher quality of life from a tool that costs real energy to run. The structural fix is the same one it has always been — build [solar](https://en.wikipedia.org/wiki/Solar%5Fenergy), build wind, build the grid that makes the computation sustainable. In the meantime, use the tool. It is still the best deal the non-billionaire class has ever been offered.[^1-9]
 :::
 
@@ -102,11 +102,11 @@ Fluent AI output has a side effect researchers have started calling _the LLM fal
 
 [^1-4]: Amodei, D. (2024). ["Machines of Loving Grace."](https://www.darioamodei.com/machines-of-loving-grace) Personal essay. Full quote: "Having a very thoughtful and informed AI whose job is to give you everything you're legally entitled to by the government in a way you can understand — and who also helps you comply with often confusing government rules — would be a big deal."
 
-[^1-5]: Free-tier web access varies by tool and changes often. Gemini connects to Google's index. Copilot includes Bing search. Claude and ChatGPT both surface web search in the free tier at times and behind a paywall at others. Chapter 3 covers the full rotation strategy; the companion site tracks current status.
+[^1-5]: Free-tier web access varies by tool and changes often. Gemini connects to Google's index. Copilot includes Bing search. Claude and ChatGPT both surface web search in the free tier at times and behind a paywall at others. Chapter 3: The Free Tier Playbook covers the full rotation strategy; the companion site tracks current status.
 
-[^1-6]: Patel, N. (2026). ["Beware 'Software Brain.'"](https://www.theverge.com/podcast/917029/software-brain-ai-backlash-databases-automation) _The Vergecast_. "It's when you see the whole world as a series of databases that can be controlled with structured language and software code."
+[^1-6]: Patel, N. (2026). ["Beware 'Software Brain.'"](https://www.theverge.com/podcast/917029/software-brain-ai-backlash-databases-automation) _Decoder_, The Verge. Software brain is "when you see the whole world as a series of databases that can be controlled with the structured language of software code."
 
-[^1-7]: Kahneman, D. (2011). [_Thinking, Fast and Slow_](https://bookshop.org/p/books/thinking-fast-and-slow-daniel-kahneman/943943). The dual-process model of cognition — fast, intuitive System 1 and slow, deliberate System 2 — maps remarkably well to the architecture of modern AI: a fast pattern-matching base model with an extended reasoning layer for deliberate analysis.
+[^1-7]: Kahneman, D. (2011). [_Thinking, Fast and Slow_](https://bookshop.org/p/books/thinking-fast-and-slow-daniel-kahneman/943943). Farrar, Straus and Giroux. The dual-process model of cognition — fast, intuitive System 1 and slow, deliberate System 2 — maps remarkably well to the architecture of modern AI: a fast pattern-matching base model with an extended reasoning layer for deliberate analysis.
 
 [^1-8]: Kim, H., Yu, H., & Yi, H. (2026). ["The LLM Fallacy: Misattribution in AI-Assisted Cognitive Workflows."](https://arxiv.org/abs/2604.14807) arXiv preprint. A conceptual-framework paper; the authors name the mechanism (opacity, fluency, low-friction interaction) and identify empirical validation as future work.
 

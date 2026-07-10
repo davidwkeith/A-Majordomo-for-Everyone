@@ -2,9 +2,8 @@
 format: png
 size: full
 alt: >
-  A Trinitron TV on notebook paper showing an 8-bit scene of Jerry
-  and Kramer leaning over a hospital observation gallery railing with
-  expressions of dawning horror. A surgeon looks up at them from below.
+  Jerry and Kramer lean over a hospital gallery railing in dawning
+  horror as the surgeon looks up at them.
 ---
 
 TRINITRON CHAPTER OPENER. Jerry and Kramer side by side in a

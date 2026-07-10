@@ -6,6 +6,8 @@ strategy: null
 status: "draft"
 ---
 
+## Appendix H: Expressing Ideas Digitally
+
 _"We thought sampling was just another way of arranging sounds. Just like a musician would take the sounds off of an instrument and arrange them their own particular way."_
 _— [Chuck D](https://en.wikipedia.org/wiki/Chuck_D), Public Enemy[^h-1]_
 
@@ -17,7 +19,7 @@ _This book was written with the tools it teaches. This appendix is about why, an
 
 Gutenberg gave us movable type. For five hundred years, expressing an idea to a large audience meant access to a press, a publisher, a distribution chain, and capital. [Project Gutenberg](https://en.wikipedia.org/wiki/Project%5FGutenberg) digitized the output of that era — tens of thousands of books, free, online. That was the first revolution: making the _reading_ of ideas free.
 
-We are in the second revolution: making the _expression_ of ideas free. Not just the reading. The writing, the illustrating, the structuring, the publishing, the distributing. Every step that used to require a professional or a budget now has a free, open tool. CommonMark for writing. AI agents for illustration. Open standards for packaging. The internet for distribution. Creative Commons for licensing.
+We are in the second revolution: making the _expression_ of ideas free. Not just the reading. The writing, the illustrating, the structuring, the publishing, the distributing. Every step that used to require a professional or a budget now has a free, open tool. Plain-text markup — [Djot](https://djot.net), a refinement of CommonMark — for writing. AI agents for illustration. Open standards for packaging. The internet for distribution. Creative Commons for licensing.
 
 This book is not a PDF of a printed book. It is not a word processor document exported to a file format. It is a structured digital artifact — semantic content, embedded metadata, accessibility baked in, licensing embedded in every file — designed from the ground up to be read on any device, forked by any community, and built by one person with no budget.
 
@@ -41,24 +43,24 @@ Everything downstream — web pages, PDFs, print layouts, audiobook scripts — 
 
 ### Plain Text as Source
 
-The manuscript is CommonMark — plain text with minimal formatting marks. Not a word processor. Not a proprietary format. Not a platform.
+The manuscript is Djot — plain text with minimal formatting marks, from the CommonMark family. Not a word processor. Not a proprietary format. Not a platform.
 
-```markdown
+```djot
 ## Chapter Title
 
-This is a paragraph. **This is bold.** *This is italic.*
+This is a paragraph. *This is bold.* _This is italic._
 
 ::: science
 This is a sidebar with a citation.[^1]
 :::
 
 
-[^1]: Author (Year). "Title." *Journal*, vol, pages.
+[^1]: Author (Year). "Title." _Journal_, vol, pages.
 ```
 
-CommonMark compiles to XHTML. XHTML is what ePub chapters are. The pipeline is deterministic — the same input always produces the same output. The manuscript is version-controlled in Git. Every change is tracked. Every version is recoverable. Collaboration is branching, merging, and pull requests — the same tools that build software.
+Djot compiles to XHTML. XHTML is what ePub chapters are. The pipeline is deterministic — the same input always produces the same output. The manuscript is version-controlled in Git. Every change is tracked. Every version is recoverable. Collaboration is branching, merging, and pull requests — the same tools that build software.
 
-Your word processor saves a binary file that you cannot diff, cannot merge, and cannot inspect without the application that created it. Your CommonMark file is a text file that will be readable in fifty years by any tool that can open a file.
+Your word processor saves a binary file that you cannot diff, cannot merge, and cannot inspect without the application that created it. Your Djot file is a text file that will be readable in fifty years by any tool that can open a file.
 
 ---
 
@@ -83,15 +85,21 @@ This is the same principle the book teaches in Strategy 0: the specification is 
 
 ### Art Direction as Specification
 
-Every illustration is specified where it appears, as an HTML comment in the manuscript:
+Every illustration is specified where it appears. The chapter carries an inline reference:
 
-```markdown
+```djot
 [eob-annotated-appendix]{.art}
 ```
 
-This is Strategy 0 applied to visual content. The `alt` field is what the reader needs to know. The `brief` field is what the illustrator needs to produce. Both are written at the same time, by the same person, in the same place as the text they accompany.
+and next to the chapter lives a sidecar file — `eob-annotated-appendix.art.md` — whose frontmatter holds the image's format, size, and alt text, and whose body is the production brief for the illustrator.
 
-The comment is permanent. When the image is produced, the comment stays — it is the specification, the art direction record, the basis for revision. The comment is the request. The image is the result. Both live together.
+This is Strategy 0 applied to visual content. The `alt` field is what the reader needs to know. The brief is what the illustrator needs to produce. Both are written at the same time, by the same person, next to the text they accompany.
+
+The sidecar is permanent. When the image is produced, the sidecar stays — it is the specification, the art direction record, the basis for revision. The sidecar is the request. The image is the result. Both live together.
+
+That reference resolves to the figure below — or, until the image is produced, to a placeholder carrying the alt text and the brief. Either way the reader gets the specification doing its job:
+
+[eob-annotated-appendix]{.art}
 
 If you are using an AI agent to illustrate, your style guide is a system prompt — agentic instructions, not a reference document. The same specification interview that works for an insurance appeal works for an illustration: describe what you want precisely enough that someone who has never seen your vision can execute it correctly.
 
@@ -135,13 +143,13 @@ If you are writing a guide for a community that needs it, license it so the comm
 
 ### The Build
 
-The entire book compiles from CommonMark source to ePub with a single command:
+The entire book compiles from Djot source to ePub with a single command:
 
 ```bash
 npm run build
 ```
 
-The pipeline is a series of transformations — parse the markdown, transform callout blockquotes into semantic asides, render art brief placeholders, collect footnotes into chapter endnotes, generate XHTML, assemble the ZIP. Each step is a plugin. Each plugin does one thing. The output is a single `.epub` file.
+The pipeline is a series of transformations — parse the Djot, transform callout blocks into semantic asides, resolve art briefs, collect footnotes into chapter endnotes, generate XHTML, assemble the ZIP. Each step is a plugin. Each plugin does one thing. The output is a single `.epub` file.
 
 This is the same principle as the book's content: the specification is the work, and the machine executes the specification. You do not manually lay out pages. You do not manually number chapters. You do not manually copy images into a folder structure. You write content, specify metadata, and run the build. The build is deterministic — the same source always produces the same output.
 
@@ -163,6 +171,6 @@ Embed the rights metadata everywhere — in the ePub manifest, in every image fi
 
 Use `order: -1` in frontmatter for content that precedes the main sequence. The sort is numeric. Negative numbers sort first. Do not renumber the entire manuscript to insert an epigraph.
 
-ePub will evolve. CommonMark will be replaced. The standards we used to build this book are tools — useful today, disposable tomorrow, exactly like the AI agents the book teaches you to use. The formats are never the point. The ideas are the point. Use the best tools available right now to express them as clearly and accessibly as you can. When better tools arrive, use those instead. The press is in your pocket. What you print on it is yours.
+ePub will evolve. Djot will be replaced. The standards we used to build this book are tools — useful today, disposable tomorrow, exactly like the AI agents the book teaches you to use. The formats are never the point. The ideas are the point. Use the best tools available right now to express them as clearly and accessibly as you can. When better tools arrive, use those instead. The press is in your pocket. What you print on it is yours.
 
-[^h-1]: The copyright panic, the "it's not real art" panic, the "it's theft" panic — all of it happened in 1989, about sampling. See the [Grand Upright Music, Ltd. v. Warner Bros. Records Inc.](https://en.wikipedia.org/wiki/Grand_Upright_Music,_Ltd._v._Warner_Bros._Records_Inc.) decision that changed everything.
+[^h-1]: The copyright panic, the "it's not real art" panic, the "it's theft" panic — all of it happened in 1991, about sampling. See the [Grand Upright Music, Ltd. v. Warner Bros. Records Inc.](https://en.wikipedia.org/wiki/Grand_Upright_Music,_Ltd._v._Warner_Bros._Records_Inc.) decision that changed everything.

@@ -36,6 +36,11 @@ I will bring this to my next appointment to verify.
 :::
 *What to do with the Output:* Use it to make your question list before the next appointment (see H-2). Do not use it to second-guess your doctor's treatment recommendation — use it to understand it. For ongoing conditions, see also H-5: Managing a Chronic Condition and H-8: Wellness and Nutrition Coach.
 
+::: tip
+_"Explain this diagnosis three ways: to me, to my 10-year-old, and the way you would explain it to another doctor. Then give me the three questions I should ask at my next appointment."_ The version that finally makes sense is the one to keep.
+:::
+
+
 ---
 
 #### H-2: Preparing Questions Before a Doctor's Appointment
@@ -68,7 +73,7 @@ This works well with voice mode on your phone — all major tools support it on 
 
 *Strategy:* Decode + Assert
 *See also:* H-4: Appealing an Insurance Denial (if something looks wrong), M-4: Collections and Bankruptcy (if the bill becomes debt), M-6: Financial Coach (for insurance and costs)
-*My Man Jeeves:* _The Explanation of Benefits is, in principle, a document intended to explain one's benefits --- a purpose it fulfills, one might venture, with considerable incompleteness. It presents procedure codes, allowed amounts, adjustments, and patient responsibility in a format that rather generously rewards confusion. The bill that follows presents a further difficulty: its stated price bears a variable, and largely notional, relation to what one might actually be asked to pay. Nonprofit hospitals are required by federal tax rule to maintain financial assistance programs; they are not, however, required to volunteer the fact at the billing window. One's Agent has read every code on the form and every provision of 26 U.S.C. § 501(r) --- and is prepared both to translate and to negotiate._
+*My Man Jeeves:* _The Explanation of Benefits is, in principle, a document intended to explain one's benefits --- a purpose it fulfils, one might venture, with considerable incompleteness. It presents procedure codes, allowed amounts, adjustments, and patient responsibility in a format that rather generously rewards confusion. The bill that follows presents a further difficulty: its stated price bears a variable, and largely notional, relation to what one might actually be asked to pay. Nonprofit hospitals are required by federal tax rule to maintain financial assistance programmes; they are not, however, required to volunteer the fact at the billing window. One's Agent has read every code on the form and every provision of 26 U.S.C. § 501(r) --- and is prepared both to translate and to negotiate._
 *The Spec:*
 
 ::: prompt
@@ -134,7 +139,7 @@ Please draft an appeal letter that cites the denial reason,
 references the right to appeal, and is firm without being
 hostile --- I may need to escalate further.
 :::
-*What to do with the Output:* Send the letter. Keep a copy with the date you sent it. If you have a deadline for the appeal (check your denial letter — it's usually 30-180 days), mark it on your calendar. Follow up in writing if you don't hear back within the stated timeframe.
+*What to do with the Output:* Send the letter. Keep a copy with the date you sent it. If you have a deadline for the appeal (check your denial letter — it's usually 30--180 days), mark it on your calendar. Follow up in writing if you don't hear back within the stated timeframe.
 
 [appeal-letter]{.art}
 
@@ -211,7 +216,7 @@ When patients skip medications, the medical system calls it "non-adherence." In 
 :::
 
 
-[^h5-3]: Yan, D. et al. (2023). ["Cost-Related Insulin Rationing in US Adults Younger Than 65 Years With Diabetes."](https://jamanetwork.com/journals/jama/fullarticle/2803263) _JAMA_, 329(9). CDC/NCHS [Data Brief No. 470](https://www.cdc.gov/nchs/products/databriefs/db470.htm) (2023). "Characteristics of Adults Aged 18–64 Who Did Not Take Medication as Prescribed Due to Cost." On deaths attributable to non-adherence, see Osterberg, L. & Blaschke, T. (2005). ["Adherence to Medication."](https://www.nejm.org/doi/full/10.1056/NEJMra050100) _NEJM_, 353(5), 487–497.
+[^h5-3]: Gaffney, A., Himmelstein, D.U., & Woolhandler, S. (2022). ["Prevalence and Correlates of Patient Rationing of Insulin in the United States."](https://doi.org/10.7326/M22-2477) _Annals of Internal Medicine_, 175(11), 1623–1626. See also Fang, M. & Selvin, E. (2023). ["Cost-Related Insulin Rationing in US Adults Younger Than 65 Years With Diabetes."](https://jamanetwork.com/journals/jama/fullarticle/2803263) _JAMA_, 329(19), 1700–1702. CDC/NCHS [Data Brief No. 470](https://www.cdc.gov/nchs/products/databriefs/db470.htm) (2023). "Characteristics of Adults Aged 18–64 Who Did Not Take Medication as Prescribed Due to Cost." On deaths attributable to non-adherence, see Osterberg, L. & Blaschke, T. (2005). ["Adherence to Medication."](https://www.nejm.org/doi/full/10.1056/NEJMra050100) _NEJM_, 353(5), 487–497.
 
 
 ---
@@ -220,7 +225,7 @@ When patients skip medications, the medical system calls it "non-adherence." In 
 
 *Strategy:* Decode
 *See also:* H-4: Appealing an Insurance Denial, H-6b: Understanding What Medicaid Actually Covers, Li-4: Planning Care for Aging
-*My Man Jeeves:* _Medicare is, in principle, straightforward: health insurance for Americans aged 65 and older, or younger if disabled. In practice, it is a four-part system (A, B, C, and D) with enrollment windows that close permanently, late-enrollment penalties that compound for life, and a private-plan alternative (Medicare Advantage) whose marketing budget rather substantially exceeds its obligations of transparency. The most consequential decision --- whether to enroll in Original Medicare or an Advantage plan, and whether to purchase supplemental Medigap coverage --- must be made during windows that the system does not go to great lengths to publicize. One's Agent has read the enrollment rules and can explain which decisions apply to one's circumstances before the window closes._
+*My Man Jeeves:* _Medicare is, in principle, straightforward: health insurance for Americans aged 65 and older, or younger if disabled. In practice, it is a four-part system (A, B, C, and D) with enrolment windows that close permanently, late-enrolment penalties that compound for life, and a private-plan alternative (Medicare Advantage) whose marketing budget rather substantially exceeds its obligations of transparency. The most consequential decision --- whether to enrol in Original Medicare or an Advantage plan, and whether to purchase supplemental Medigap coverage --- must be made during windows that the system does not go to great lengths to publicize. One's Agent has read the enrolment rules and can explain which decisions apply to one's circumstances before the window closes._
 *The Spec:*
 
 ::: prompt
@@ -272,7 +277,7 @@ Free, unbiased Medicare counseling is available in every state through the [Stat
 
 *Strategy:* Decode
 *See also:* H-6: Understanding What Medicare Actually Covers, H-4: Appealing an Insurance Denial, Li-4: Planning Care for Aging
-*My Man Jeeves:* _Medicaid occupies, in the public imagination, a rather narrower role than it in fact performs. It is not merely insurance for the very poor --- it is the only major federal program that covers long-term nursing-home care, a fact that approximately 62% of Americans attribute, incorrectly, to Medicare. Following the One Big Beautiful Bill Act of 2025, it is also, for the first time in its history, a program with work requirements --- requirements that the Congressional Budget Office estimates will remove 4.8 million people from coverage by 2034. The eligibility rules are state-specific, the asset limits for long-term care are unforgiving, and the application process assumes a degree of bureaucratic fluency that the populations it serves are, by definition, least likely to possess. One's Agent has read the rules for one's state and can explain what applies before the paperwork is due._
+*My Man Jeeves:* _Medicaid occupies, in the public imagination, a rather narrower role than it in fact performs. It is not merely insurance for the very poor --- it is the only major federal programme that covers long-term nursing-home care, a fact that approximately 62% of Americans attribute, incorrectly, to Medicare. Following the One Big Beautiful Bill Act of 2025, it is also, for the first time in its history, a programme with work requirements --- requirements that the Congressional Budget Office estimates will remove 4.8 million people from coverage by 2034. The eligibility rules are state-specific, the asset limits for long-term care are unforgiving, and the application process assumes a degree of bureaucratic fluency that the populations it serves are, by definition, least likely to possess. One's Agent has read the rules for one's state and can explain what applies before the paperwork is due._
 *The Spec:*
 
 ::: prompt
@@ -380,7 +385,7 @@ Honorably discharged veterans and their eligible family members qualify for buri
 
 [^h7-2]: Yadav, K.N. et al. (2017). ["Approximately One In Three US Adults Completes Any Type Of Advance Directive For End-Of-Life Care."](https://www.healthaffairs.org/doi/10.1377/hlthaff.2017.0175) _Health Affairs_, 36(7), 1244–1251.
 
-[^h7-3]: Rao, J.K. et al. (2014). ["Completion of Advance Directives Among U.S. Consumers."](https://pmc.ncbi.nlm.nih.gov/articles/PMC4540332/) _American Journal of Preventive Medicine_, 46(1), 65–70. On demographic and religious factors in possession rates, see Harrison, K.L. et al. (2016). ["Racial and Ethnic Differences in Advance Directive Possession."](https://pmc.ncbi.nlm.nih.gov/articles/PMC4753625/) _Journal of the American Geriatrics Society_. On the historical basis for distrust, see Washington, H.A. (2006). _Medical Apartheid: The Dark History of Medical Experimentation on Black Americans._ Doubleday.
+[^h7-3]: Rao, J.K. et al. (2014). ["Completion of Advance Directives Among U.S. Consumers."](https://pmc.ncbi.nlm.nih.gov/articles/PMC4540332/) _American Journal of Preventive Medicine_, 46(1), 65–70. On demographic and religious factors in possession rates, see Harrison, K.L. et al. (2016). ["Racial and Ethnic Differences in Advance Directive Possession."](https://pmc.ncbi.nlm.nih.gov/articles/PMC4753625/) _Journal of the American Geriatrics Society_. On the historical basis for distrust, see Washington, H.A. (2006). [_Medical Apartheid: The Dark History of Medical Experimentation on Black Americans._](https://bookshop.org/p/books/medical-apartheid-the-dark-history-of-medical-experimentation-on-black-americans-from-colonial-times-to-the-present-harriet-a-washington/8541599) Doubleday.
 
 [^h7-4]: For an overview of cultural frameworks in palliative and end-of-life care, see [BMC Palliative Care (2023), "A qualitative exploration of allied health providers' perspectives on cultural humility in palliative and end-of-life care"](https://bmcpalliatcare.biomedcentral.com/articles/10.1186/s12904-023-01214-4); EthnoMed, ["Cultural Considerations for End-of-Life Discussions: A Literature Review"](https://ethnomed.org/resource/cultural-considerations-for-end-of-life-discussions-a-literature-review/); and Palliative Care Network of Wisconsin, ["Culturally Responsive Care for Patients with a Serious Illness."](https://www.mypcnow.org/fast-fact/culturally-responsive-care-for-patients-with-a-serious-illness/)
 
@@ -412,16 +417,6 @@ If any of this might conflict with a health condition, flag it.
 :::
 *What to do with the Output:* Use it as a starting framework, not a prescription. If you have a specific health condition, verify any significant dietary changes with your doctor. The calibration question applies here: _"How confident are you in this recommendation, and is there anything about my situation where you'd want me to check with a professional?"_
 
-::: fairness
-Wellness advice reflects the demographics of the research base it draws from. If your Agent's suggestions feel like they assume a certain income level, kitchen setup, or food access, say so explicitly: _"I shop at a discount grocery store and have a small kitchen. Please adjust your recommendations."_
-:::
-
-
-::: also
-To make this Expert Role persistent across sessions, save it as a *Project* (Claude), *Gem* (Gemini), or *Custom GPT* (ChatGPT). See [Appendix G](06-appendix-g-feature-table.xhtml).
-:::
-
-
 *Common wellness Expert Role specs:*
 
 ::: prompt
@@ -444,6 +439,16 @@ I am not looking for a diagnosis. I want to understand
 what lifestyle factors might be contributing and what
 I could adjust first.
 :::
+
+::: fairness
+Wellness advice reflects the demographics of the research base it draws from. If your Agent's suggestions feel like they assume a certain income level, kitchen setup, or food access, say so explicitly: _"I shop at a discount grocery store and have a small kitchen. Please adjust your recommendations."_
+:::
+
+
+::: also
+To make this Expert Role persistent across sessions, save it as a *Project* (Claude), *Gem* (Gemini), or *Custom GPT* (ChatGPT). See [Appendix G](06-appendix-g-feature-table.xhtml).
+:::
+
 
 ---
 
@@ -614,7 +619,7 @@ _If this is an emergency:_ for an active overdose, call *911* and administer nal
 :::
 
 
-*My Man Jeeves:* _Addiction is not, as the relevant authorities have taken some pains to establish, a failure of willpower. The American Society of Addiction Medicine and the National Institute on Drug Abuse classify it as a chronic brain disorder involving compulsive use despite harmful consequences. The distinction is of some importance, as it determines whether the appropriate response is treatment or punishment. The United States has, for the most part, favored punishment. Where it has favored treatment, the industry it has built operates under less regulatory oversight than the restaurant industry --- some facilities excellent, some predatory, the distinction rarely apparent from the website. The task, then, is twofold: to understand the condition as medicine now describes it, and to navigate a marketplace that does not reliably distinguish evidence-based care from something else. One's Agent holds no position beyond the evidence._
+*My Man Jeeves:* _Addiction is not, as the relevant authorities have taken some pains to establish, a failure of willpower. The American Society of Addiction Medicine and the National Institute on Drug Abuse classify it as a chronic brain disorder involving compulsive use despite harmful consequences. The distinction is of some importance, as it determines whether the appropriate response is treatment or punishment. The United States has, for the most part, favoured punishment. Where it has favoured treatment, the industry it has built operates under less regulatory oversight than the restaurant industry --- some facilities excellent, some predatory, the distinction rarely apparent from the website. The task, then, is twofold: to understand the condition as medicine now describes it, and to navigate a marketplace that does not reliably distinguish evidence-based care from something else. One's Agent holds no position beyond the evidence._
 *The Spec:*
 
 ::: prompt
@@ -702,7 +707,7 @@ Err on the side of caution.
 *What to do with the Output:* Save the safety information where you can reach it fast. If naloxone came up, get it before you need it --- it's over the counter at most pharmacies. If the information is for someone else, share it without a lecture attached.
 
 ::: science
-Naloxone (brand name Narcan) reverses opioid overdoses and has been available over the counter in the United States since March 2023. It has no effect on someone who has not taken opioids. It cannot be misused. It is estimated to have reversed over 50,000 overdoses in the U.S.[^h14-2] Fentanyl test strips detect fentanyl contamination in drug supplies --- studies show people who test positive modify their behavior (use less, use with others present, keep naloxone nearby).[^h14-3] Both are available at most pharmacies.
+Naloxone (brand name Narcan) reverses opioid overdoses and was approved for over-the-counter sale in the United States in March 2023, reaching store shelves that September. It has no effect on someone who has not taken opioids. It cannot be misused. It is estimated to have reversed over 50,000 overdoses in the U.S.[^h14-2] Fentanyl test strips detect fentanyl contamination in drug supplies --- studies show people who test positive modify their behavior (use less, use with others present, keep naloxone nearby).[^h14-3] Both are available at most pharmacies.
 :::
 
 
@@ -724,7 +729,7 @@ Portugal decriminalized personal possession of all drugs in 2001. Drug-related d
 
 *Strategy:* Navigate + Assert
 *See also:* C-3: Understanding Your Rights Where You Live
-*My Man Jeeves:* _Cannabis is legal in one's state and a federal crime. Psilocybin is decriminalized in one's city yet a felony in the neighboring county. Kratom is banned in several states and available at the gas station in the other 44. The legal landscape for drugs in the United States is not, one feels compelled to observe, a landscape in any coherent sense. It is rather a patchwork quilt sewn by 50 different legislatures, several federal agencies, and occasional ballot initiatives — each operating on a different timeline and, in certain cases, a different century's understanding of pharmacology. One's Agent can clarify the law as it stands in one's specific jurisdiction, which is the only jurisdiction that matters._
+*My Man Jeeves:* _Cannabis is legal in one's state and a federal crime. Psilocybin is decriminalized in one's city yet a felony in the neighbouring county. Kratom is banned in several states and available at the gas station in the other 44. The legal landscape for drugs in the United States is not, one feels compelled to observe, a landscape in any coherent sense. It is rather a patchwork quilt sewn by 50 different legislatures, several federal agencies, and occasional ballot initiatives — each operating on a different timeline and, in certain cases, a different century's understanding of pharmacology. One's Agent can clarify the law as it stands in one's specific jurisdiction, which is the only jurisdiction that matters._
 *The Spec:*
 
 ::: prompt
@@ -743,11 +748,11 @@ Give me the most conservative, accurate answer.
 :::
 
 ::: science
-The DEA's scheduling system was established by the Controlled Substances Act of 1970. Schedule I is defined as having "no currently accepted medical use" and "a high potential for abuse." Cannabis, psilocybin, and MDMA are all Schedule I. Cocaine and methamphetamine are Schedule II --- meaning the federal government considers them to have accepted medical uses. Methamphetamine is FDA-approved as Desoxyn for ADHD. Street meth and pharmaceutical meth are the same molecule. The scheduling does not align with the scientific harm rankings.[^h15-1]
+The DEA's scheduling system was established by the Controlled Substances Act of 1970. Schedule I is defined as having "no currently accepted medical use" and "a high potential for abuse." Psilocybin and MDMA are Schedule I. Cannabis was too, for more than half a century --- until April 2026, when the Department of Justice moved state-licensed medical cannabis to Schedule III; recreational cannabis remains Schedule I while a broader rescheduling proceeding continues. Cocaine and methamphetamine are Schedule II --- meaning the federal government considers them to have accepted medical uses. Methamphetamine is FDA-approved as Desoxyn for ADHD. Street meth and pharmaceutical meth are the same molecule. The scheduling does not align with the scientific harm rankings.[^h15-1]
 :::
 
 
-[^h15-1]: Drug Enforcement Administration. ["Schedules of Controlled Substances: Rescheduling of Marijuana."](https://www.federalregister.gov/documents/2024/05/21/2024-11137/schedules-of-controlled-substances-rescheduling-of-marijuana) 89 Fed. Reg. 44597 (proposed May 21, 2024). The NPRM proposed moving cannabis from Schedule I to Schedule III; DEA received over 42,000 comments and scheduled an administrative hearing. The ALJ postponed the hearing in January 2025 and retired in August 2025 without a replacement. As of this writing, the rulemaking is stalled.
+[^h15-1]: Drug Enforcement Administration. ["Schedules of Controlled Substances: Rescheduling of Marijuana."](https://www.federalregister.gov/documents/2024/05/21/2024-11137/schedules-of-controlled-substances-rescheduling-of-marijuana) 89 Fed. Reg. 44597 (proposed May 21, 2024). The NPRM proposed moving cannabis from Schedule I to Schedule III; DEA received over 42,000 comments and scheduled an administrative hearing, which stalled when the ALJ postponed it in January 2025 and retired without a replacement. In April 2026, DOJ issued an order immediately placing state-licensed medical cannabis in Schedule III, terminated the stalled proceedings, and restarted an expedited hearing process on broader rescheduling; as of this writing, a final rule on adult-use cannabis is still pending. See Foley Hoag LLP. (2026). ["DOJ Immediately Reschedules State-Licensed Medical Cannabis to Schedule III and Restarts the Clock."](https://foleyhoag.com/news-and-insights/publications/alerts-and-updates/2026/april/doj-immediately-reschedules-state-licensed-medical-cannabis-to-schedule-iii-and-restarts-the-clock/)
 
 ---
 
@@ -755,7 +760,7 @@ The DEA's scheduling system was established by the Controlled Substances Act of 
 
 *Strategy:* Research + Decide
 *See also:* H-1: Understanding a Diagnosis, H-11: Your Brain on Drugs
-*My Man Jeeves:* _Psychedelic-assisted therapy represents, one might suggest, the most promising and most overhyped development in mental health treatment since SSRIs. Clinical trials for psilocybin in depression and MDMA in PTSD have produced significant results. The FDA declined to approve MDMA therapy in 2024, citing trial design concerns, ethical violations at trial sites, and data integrity issues.[^h16-1] Psilocybin trials continue. In the meantime, unregulated ketamine clinics have proliferated, Oregon has legalized psilocybin services outside the medical system, and the gap between the research and the marketplace has grown sufficient to accommodate, one estimates, a modestly sized retreat center. One's Agent can help one evaluate the evidence for a specific treatment against its current legal and clinical standing._
+*My Man Jeeves:* _Psychedelic-assisted therapy represents, one might suggest, the most promising and most overhyped development in mental health treatment since SSRIs. Clinical trials for psilocybin in depression and MDMA in PTSD have produced significant results. The FDA declined to approve MDMA therapy in 2024, citing trial design concerns, ethical violations at trial sites, and data integrity issues.[^h16-1] Psilocybin trials continue. In the meantime, unregulated ketamine clinics have proliferated, Oregon has legalized psilocybin services outside the medical system, and the gap between the research and the marketplace has grown sufficient to accommodate, one estimates, a modestly sized retreat centre. One's Agent can help one evaluate the evidence for a specific treatment against its current legal and clinical standing._
 *The Spec:*
 
 ::: prompt
@@ -781,7 +786,7 @@ The FDA granted "breakthrough therapy" designation to psilocybin for treatment-r
 
 [^h16-2]: Therapeutic Goods Administration, Australia. (2023). ["Rescheduling of psilocybin and MDMA."](https://www.tga.gov.au/news/media-releases/change-classification-psilocybin-and-mdma-enable-prescribing-authorised-psychiatrists) The approval is limited to specific psychiatric uses under specialist supervision.
 
-[^h16-1]: FDA. (2024). ["FDA Declines to Approve MDMA-Assisted Therapy for PTSD."](https://www.fda.gov/news-events/press-announcements/fda-declines-approve-mdma-assisted-therapy-ptsd) August 9, 2024.
+[^h16-1]: The decision came as a Complete Response Letter to Lykos Therapeutics, [announced August 9, 2024](https://www.npr.org/sections/shots-health-news/2024/08/09/nx-s1-5068634/mdma-therapy-fda-decision-ptsd-psychedelic-treatment); the FDA [released the letter publicly](https://maps.org/2025/09/04/fda-public-release-of-crl/) in September 2025.
 
 ::: fairness
 Indigenous communities have used psilocybin (mushrooms), peyote, and ayahuasca in ceremonial contexts for centuries. The current psychedelic therapy movement has largely developed without their input and, in some cases, threatens their access to traditional medicines through increased demand and commercialization. Be aware of this context when evaluating providers who market "traditional" or "ceremonial" experiences.
@@ -794,7 +799,7 @@ Indigenous communities have used psilocybin (mushrooms), peyote, and ayahuasca i
 
 *Strategy:* Prepare + Research
 *See also:* Li-1: Preparing for a Difficult Conversation, Li-7: Raising Kids, H-13: Understanding Addiction, H-14: Harm Reduction
-*My Man Jeeves:* _D.A.R.E. instructed a generation that marijuana and heroin belonged to the same category of threat, and that the appropriate response to all drugs was refusal. When those children discovered that marijuana did not, in the event, ruin their lives, a considerable number concluded that the adults had been unreliable on every point --- including those substances that were genuinely dangerous. Those children are now parents. The War on Drugs that shaped their education has cost, by the Bureau of Justice Statistics, over $1 trillion and, at its peak, imprisoned 2.1 million Americans --- with Black Americans held for drug offenses at nearly six times the rate of white Americans despite comparable usage rates.[^h17-1] The task before today's parent is therefore twofold: to unlearn what D.A.R.E. taught, and to pass on to one's children what is, on the documentary record, actually the case. One's Agent has read the Bureau's own data._
+*My Man Jeeves:* _D.A.R.E. instructed a generation that marijuana and heroin belonged to the same category of threat, and that the appropriate response to all drugs was refusal. When those children discovered that marijuana did not, in the event, ruin their lives, a considerable number concluded that the adults had been unreliable on every point --- including those substances that were genuinely dangerous. Those children are now parents. The War on Drugs that shaped their education has cost, by the Bureau of Justice Statistics, over $1 trillion and, at its peak, imprisoned 2.1 million Americans --- with Black Americans held for drug offences at nearly six times the rate of white Americans despite comparable usage rates.[^h17-1] The task before today's parent is therefore twofold: to unlearn what D.A.R.E. taught, and to pass on to one's children what is, on the documentary record, actually the case. One's Agent has read the Bureau's own data._
 *The Spec:*
 
 ::: prompt
@@ -839,6 +844,10 @@ John Ehrlichman, Nixon's domestic policy advisor, said in a 1994 interview: _"Th
 
 ---
 
+### Mental Health
+
+---
+
 #### H-18: Mental Health First Aid (Helping Someone in Crisis, Including Yourself)
 
 *Strategy:* Prepare + Assert + Navigate
@@ -849,7 +858,7 @@ _If this is a crisis right now:_ call, text, or chat *988* --- the Suicide and C
 :::
 
 
-*My Man Jeeves:* _A mental-health crisis --- one's own, or that of a family member, a colleague, or a stranger --- tends to arrive without sufficient notice. The expectation, nevertheless, is that the bystander will know what to do; the training, however, has been reserved largely for clinicians and first responders. The 988 Suicide and Crisis Lifeline, established in July 2022 specifically to provide an alternative to the police-dispatch default, has since answered roughly 16.5 million contacts, with 72% of callers reporting substantial help and 88% of suicidal callers saying the conversation stopped them from acting --- outcomes the 911 system is not designed to produce.[^h22-1] One's Agent has read the evidence-based Mental Health First Aid curriculum and can rehearse with the reader what the crisis itself will not permit._
+*My Man Jeeves:* _A mental-health crisis --- one's own, or that of a family member, a colleague, or a stranger --- tends to arrive without sufficient notice. The expectation, nevertheless, is that the bystander will know what to do; the training, however, has been reserved largely for clinicians and first responders. The 988 Suicide and Crisis Lifeline, established in July 2022 specifically to provide an alternative to the police-dispatch default, has since answered a volume of calls one might fairly describe as considerable --- and 88% of its suicidal callers report that the conversation stopped them from acting, an outcome the 911 system is not designed to produce.[^h18-1] One's Agent has read the evidence-based Mental Health First Aid curriculum and can rehearse with one what the crisis itself will not permit._
 *The Spec:*
 
 ::: prompt
@@ -892,12 +901,12 @@ of imminent harm, say so clearly.
 *What to do with the Output:* You will not remember all of this in the moment. Save it somewhere you can reach in 60 seconds --- Notes app, a starred email to yourself, a named file your Agent can recall, or your phone's emergency-info card. The real-time version of you will not plan; the calmer version already has.
 
 ::: science
-Mental Health First Aid's action plan is ALGEE: *A*ssess for risk of suicide or harm, *L*isten non-judgmentally, *G*ive reassurance and information, *E*ncourage appropriate professional help, and *E*ncourage self-help and other support strategies. It is an evidence-based curriculum; trained MHFA responders show improved recognition of crisis symptoms, higher confidence in assisting someone in distress, and documented application of the framework in real helping situations. The steps are flexible rather than strictly sequential --- a skilled first aider reads the moment.[^h22-2] One under-appreciated finding: asking direct questions ("Are you thinking about suicide?") does *not* plant the idea. A 30-plus-year evidence base shows such questions reduce risk by naming what the person is already thinking.[^h22-3]
+Mental Health First Aid's action plan is ALGEE: *A*ssess for risk of suicide or harm, *L*isten non-judgmentally, *G*ive reassurance and information, *E*ncourage appropriate professional help, and *E*ncourage self-help and other support strategies. It is an evidence-based curriculum; trained MHFA responders show improved recognition of crisis symptoms, higher confidence in assisting someone in distress, and documented application of the framework in real helping situations. The steps are flexible rather than strictly sequential --- a skilled first aider reads the moment.[^h18-2] One under-appreciated finding: asking direct questions ("Are you thinking about suicide?") does *not* plant the idea. A 30-plus-year evidence base shows such questions reduce risk by naming what the person is already thinking.[^h18-3]
 :::
 
 
 ::: fairness
-Calling 911 for a mental-health crisis summons police by default. In jurisdictions that have fielded civilian mobile crisis response --- Eugene's CAHOOTS program since 1989, Albuquerque, and more than 100 U.S. jurisdictions in the last five years --- roughly 1% of mental-health calls end up requiring police backup; a 2020 review of 911 data in eight major cities estimated that up to 68% of all calls could be handled without an armed officer.[^h22-4] Some 988 centers now dispatch mobile crisis teams directly; some cities have stand-alone civilian dispatch via 911; most jurisdictions have neither. The reader's first research task, *before* the crisis, is to find out what their city does. Ask your Agent: _"What crisis response options exist in [my city/county]? Does 988 dispatch a mobile team here? Does 911 offer co-responder or civilian-only alternatives? What number do I call for a non-emergency crisis?"_
+Calling 911 for a mental-health crisis summons police by default. In jurisdictions that have fielded civilian mobile crisis response --- Eugene's CAHOOTS program since 1989, Albuquerque, and more than 100 U.S. jurisdictions in the last five years --- roughly 1% of mental-health calls end up requiring police backup; a 2020 review of 911 data in eight major cities estimated that up to 68% of all calls could be handled without an armed officer.[^h18-4] Some 988 centers now dispatch mobile crisis teams directly; some cities have stand-alone civilian dispatch via 911; most jurisdictions have neither. The reader's first research task, *before* the crisis, is to find out what their city does. Ask your Agent: _"What crisis response options exist in [my city/county]? Does 988 dispatch a mobile team here? Does 911 offer co-responder or civilian-only alternatives? What number do I call for a non-emergency crisis?"_
 :::
 
 
@@ -908,7 +917,7 @@ _Safe-messaging essentials_ (American Foundation for Suicide Prevention consensu
 - Do not discuss specific methods, notes, or location --- these details increase contagion risk.
 - Do not frame suicide as caused by a single event (job loss, breakup); the research finds multiple contributing factors.
 - Do emphasize that help is available and that recovery is possible.
-- Do provide the 988 number every time the topic comes up.[^h22-5]
+- Do provide the 988 number every time the topic comes up.[^h18-5]
 :::
 
 
@@ -924,12 +933,12 @@ Specialized crisis lines, for the contact-information card you save in your phon
 :::
 
 
-[^h22-1]: Panchal, N. et al. ["988 Suicide & Crisis Lifeline: Two Years After Launch"](https://www.kff.org/mental-health/988-suicide-crisis-lifeline-two-years-after-launch/) and ["Demand for 988 Continues to Grow at Third Anniversary."](https://www.kff.org/mental-health/demand-for-988-continues-to-grow-at-third-anniversary/) _KFF._ The 16.5M-contact figure covers the three years from July 2022 to July 2025. On outcomes, see also [Gould, M.S. et al. (2022), "National Suicide Prevention Lifeline: Evaluation of Crisis Call Outcomes."](https://pmc.ncbi.nlm.nih.gov/articles/PMC12099483/)
+[^h18-1]: Panchal, N. et al. ["988 Suicide & Crisis Lifeline: Two Years After Launch"](https://www.kff.org/mental-health/988-suicide-crisis-lifeline-two-years-after-launch/) and ["Demand for 988 Continues to Grow at Third Anniversary."](https://www.kff.org/mental-health/demand-for-988-continues-to-grow-at-third-anniversary/) _KFF._ The 16.5M-contact figure covers the three years from July 2022 to July 2025. On outcomes, see also [Gould, M.S. et al. (2022), "National Suicide Prevention Lifeline: Evaluation of Crisis Call Outcomes."](https://pmc.ncbi.nlm.nih.gov/articles/PMC12099483/)
 
-[^h22-2]: Hadlaczky, G. et al. (2014). ["Mental health first aid is an effective public health intervention for improving knowledge, attitudes and behaviour: A meta-analysis."](https://pmc.ncbi.nlm.nih.gov/articles/PMC6513165/) _International Review of Psychiatry._ See also Maslowski, A.K. et al. (2022). ["Mental Health First Aid: A Systematic Review of Trainee Behavior and Recipient Mental Health Outcomes."](https://pmc.ncbi.nlm.nih.gov/articles/PMC8814050/) _Community Mental Health Journal._ The U.S. curriculum is administered by [Mental Health First Aid USA](https://www.mentalhealthfirstaid.org/) through the National Council for Mental Wellbeing.
+[^h18-2]: Hadlaczky, G. et al. (2014). ["Mental health first aid is an effective public health intervention for improving knowledge, attitudes and behaviour: A meta-analysis."](https://pmc.ncbi.nlm.nih.gov/articles/PMC6513165/) _International Review of Psychiatry._ See also Maslowski, A.K. et al. (2022). ["Mental Health First Aid: A Systematic Review of Trainee Behavior and Recipient Mental Health Outcomes."](https://pmc.ncbi.nlm.nih.gov/articles/PMC8814050/) _Community Mental Health Journal._ The U.S. curriculum is administered by [Mental Health First Aid USA](https://www.mentalhealthfirstaid.org/) through the National Council for Mental Wellbeing.
 
-[^h22-3]: Dazzi, T. et al. (2014). "Does asking about suicide and related behaviours induce suicidal ideation? What is the evidence?" _Psychological Medicine_, 44(16), 3361–3363. For the practical framing, see American Foundation for Suicide Prevention, ["How to Talk Safely About Suicide."](https://afsp.org/how-to-talk-safely-about-suicide/)
+[^h18-3]: Dazzi, T. et al. (2014). ["Does asking about suicide and related behaviours induce suicidal ideation? What is the evidence?"](https://doi.org/10.1017/S0033291714001299) _Psychological Medicine_, 44(16), 3361–3363. For the practical framing, see American Foundation for Suicide Prevention, ["How to Talk Safely About Suicide."](https://afsp.org/how-to-talk-safely-about-suicide/)
 
-[^h22-4]: National Alliance on Mental Illness, ["988: Reimagining Crisis Response."](https://www.nami.org/Advocacy/Crisis-Intervention/988-Reimagining-Crisis-Response/) SAMHSA, [National Survey of Mobile Crisis Teams (2024)](https://988crisissystemshelp.samhsa.gov/sites/default/files/2024-11/National%20Mobile%20Crisis%20Survey%20ReportvFINAL.pdf). On CAHOOTS, Albuquerque, and the 911 data review, see [The Marshall Project, "Sending Unarmed Responders Instead of Police: What We've Learned" (2024)](https://www.themarshallproject.org/2024/07/25/police-mental-health-alternative-911).
+[^h18-4]: National Alliance on Mental Illness, ["988: Reimagining Crisis Response."](https://www.nami.org/Advocacy/Crisis-Intervention/988-Reimagining-Crisis-Response/) SAMHSA, [National Survey of Mobile Crisis Teams (2024)](https://988crisissystemshelp.samhsa.gov/sites/default/files/2024-11/National%20Mobile%20Crisis%20Survey%20ReportvFINAL.pdf). On CAHOOTS, Albuquerque, and the 911 data review, see [The Marshall Project, "Sending Unarmed Responders Instead of Police: What We've Learned" (2024)](https://www.themarshallproject.org/2024/07/25/police-mental-health-alternative-911).
 
-[^h22-5]: American Foundation for Suicide Prevention, ["How to Talk Safely About Suicide"](https://afsp.org/how-to-talk-safely-about-suicide/); Suicide Prevention Resource Center, ["Safe and Effective Messaging and Reporting"](https://sprc.org/keys-to-success/safe-and-effective-messaging-and-reporting/); Action Alliance [Framework for Successful Messaging](https://suicidepreventionmessaging.org/); VA, ["Safe Messaging Best Practices Guide."](https://www.mentalhealth.va.gov/suicide_prevention/docs/safe_messaging_best_practices.pdf)
+[^h18-5]: American Foundation for Suicide Prevention, ["How to Talk Safely About Suicide"](https://afsp.org/how-to-talk-safely-about-suicide/); Suicide Prevention Resource Center, ["Safe and Effective Messaging and Reporting"](https://sprc.org/keys-to-success/safe-and-effective-messaging-and-reporting/); Action Alliance [Framework for Successful Messaging](https://suicidepreventionmessaging.org/); VA, ["Safe Messaging Best Practices Guide."](https://www.mentalhealth.va.gov/suicide_prevention/docs/safe_messaging_best_practices.pdf)

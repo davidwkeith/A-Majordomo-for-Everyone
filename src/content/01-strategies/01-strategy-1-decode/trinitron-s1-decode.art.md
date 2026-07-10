@@ -2,9 +2,8 @@
 format: png
 size: full
 alt: >
-  A Trinitron TV on notebook paper showing an 8-bit scene of Ross on
-  a staircase pushing a couch from below. Rachel and Chandler push
-  back from above. The couch is jammed impossibly against the wall.
+  Ross shouting 'Pivot!' as the couch jams impossibly on the staircase
+  between him, Rachel, and Chandler.
 ---
 
 TRINITRON CHAPTER OPENER. Ross on the staircase, pushing the couch

@@ -20,7 +20,7 @@ _Map your options when you're at a fork._
 
 It is one of the most famous unresolved disputes in 90s television. It was entirely preventable. One question — _"when you say 'a break,' do you mean we're broken up?"_ — asked before anyone did anything, would have resolved it in thirty seconds.
 
-*The lesson:* A decision with an ambiguous spec produces an outcome nobody wanted. The AI's job in this strategy is not to make the decision for you. It is to surface the options, name the tradeoffs, and identify the assumptions you're making before you act — so you don't spend the next three seasons arguing about what you meant.
+*The lesson:* A decision with an ambiguous spec produces an outcome nobody wanted. Your Agent's job in this strategy is not to make the decision for you. It is to surface the options, name the tradeoffs, and identify the assumptions you're making before you act — so you don't spend the next three seasons arguing about what you meant.
 
 *My Man Jeeves:* _A decision arrived at under an ambiguous specification is a decision to which one party will, at a moment of considerable inconvenience, prove to have agreed to a different thing entirely. The remedy, which consists of a single clarifying question posed before anyone does anything, has been available the whole of human history. Its deployment, one observes, has not followed the pattern its availability would predict._
 
@@ -28,7 +28,7 @@ It is one of the most famous unresolved disputes in 90s television. It was entir
 
 The financial advisor who recommends a product has a commission structure. The contractor who says you need a full replacement has a margin on materials. Your Agent has neither. It will give you the map. You drive.
 
-This is where the library meets the life. The AI can tell you the five-year cost difference between refinancing and staying put. It cannot tell you whether stability matters more to you than savings right now. It can lay out the medical options with their success rates. It cannot tell you how much risk your family can absorb this year. Those decisions live in your gut — the compressed wisdom of every hard choice you have already made, every person you are responsible for, every value you have tested against reality. That is not a feeling that occasionally overrides logic. It is the most expensive data you own, paid for in years of being alive. The AI has the library. You have the scar tissue. The scar tissue decides.
+This is where the library meets the life. Your Agent can tell you the five-year cost difference between refinancing and staying put. It cannot tell you whether stability matters more to you than savings right now. It can lay out the medical options with their success rates. It cannot tell you how much risk your family can absorb this year. Those decisions live in your gut — the compressed wisdom of every hard choice you have already made, every person you are responsible for, every value you have tested against reality. That is not a feeling that occasionally overrides logic. It is the most expensive data you own, paid for in years of being alive. Your Agent has the library. You have the scar tissue. The scar tissue decides.
 
 *What Decide is for:* Any situation where you're choosing between options and you want to understand the real tradeoffs before you commit.
 
@@ -43,11 +43,11 @@ not a recommendation, just the honest analysis.
 :::
 
 ::: science
-Decision fatigue — the degradation of decision quality after a sustained period of choices — is one of the most replicated findings in behavioral economics (Baumeister et al., 1998; Danziger et al., 2011). Offloading the _analysis_ to your Agent does not require willpower. It restores the cognitive resources needed for the final judgment call, which remains entirely yours.[^s5-1]
+Decision fatigue — the idea that decision quality degrades over a sustained run of choices — has a messier research record than the headlines suggest: the foundational ego-depletion studies (Baumeister et al., 1998) and the famous "hungry judges" finding (Danziger et al., 2011) have both faced serious replication challenges. What survives scrutiny is more modest and more useful: analysis is effortful, and effort spent mapping the options is effort unavailable for judging them. Offloading the _analysis_ to your Agent leaves your attention for the final judgment call, which remains entirely yours.[^s5-1]
 :::
 
 
-[^s5-1]: Baumeister, R.F. et al. (1998). ["Ego depletion: Is the active self a limited resource?"](https://doi.org/10.1037/0022-3514.74.5.1252) _Journal of Personality and Social Psychology_, 74(5), 1252-1265. Danziger, S. et al. (2011). ["Extraneous factors in judicial decisions."](https://doi.org/10.1073/pnas.1018033108) _Proceedings of the National Academy of Sciences_, 108(17), 6889-6892.
+[^s5-1]: Baumeister, R.F. et al. (1998). ["Ego depletion: Is the active self a limited resource?"](https://doi.org/10.1037/0022-3514.74.5.1252) _Journal of Personality and Social Psychology_, 74(5), 1252--1265. Danziger, S. et al. (2011). ["Extraneous factors in judicial decisions."](https://doi.org/10.1073/pnas.1018033108) _Proceedings of the National Academy of Sciences_, 108(17), 6889--6892. For the challenges: a large registered replication found no ego-depletion effect — Hagger, M.S. et al. (2016). ["A multilab preregistered replication of the ego-depletion effect."](https://doi.org/10.1177/1745691616652873) _Perspectives on Psychological Science_, 11(4), 546--573 — and the judicial finding has been attributed to the ordering of cases rather than fatigue: Weinshall-Margel, K. & Shapard, J. (2011). ["Overlooked factors in the analysis of parole decisions."](https://doi.org/10.1073/pnas.1110910108) _Proceedings of the National Academy of Sciences_, 108(42), E833.
 
 _In the Field Guide: [M-5 (Retirement)](ref:m-5), [M-1 (Banking)](ref:m-1), [Li-9 (Household Budget)](ref:li-9), [Ch-1 (Shopping Your Values)](ref:ch-1), [Tr-1 (Car Ownership)](ref:tr-1)._
 
@@ -223,8 +223,8 @@ Here's the comparison in plain language:
 
 WHAT THEY HAVE IN COMMON:
 Both are retirement accounts. Both grow tax-free while
-the money is inside. The 2026 contribution limit for
-either is $7,000/year ($583/month). At $200/month,
+the money is inside. The [2026 contribution limit](https://www.irs.gov/newsroom/401k-limit-increases-to-24500-for-2026-ira-limit-increases-to-7500)
+for either is $7,500/year ($625/month). At $200/month,
 you're well under the cap. The same investments
 (index funds, target-date funds) are available in both.
 
@@ -295,11 +295,11 @@ rate is not. But "slightly favors" is not the same as
 :::
 
 ::: science
-The behavioral economics finding most relevant to retirement saving is not about which account to choose — it's about whether you start at all. Madrian and Shea (2001) found that automatic enrollment in retirement plans increased participation from 49% to 86%. The choice between Roth and traditional matters less than the choice between $200/month and $0/month. If the analysis above makes you less likely to start because you're not sure which is "right," pick either one and start. You can change later. You cannot get the years of compound growth back.[^s5-2]
+The behavioral economics finding most relevant to retirement saving is not about which account to choose — it's about whether you start at all. Madrian and Shea (2001) found that automatic enrollment in retirement plans increased participation from 49% to 86%. The choice between Roth and traditional matters less than the choice between $200/month and $0/month. If this analysis makes you less likely to start because you're not sure which is "right," pick either one and start. You can change later. You cannot get the years of compound growth back.[^s5-2]
 :::
 
 
-[^s5-2]: Madrian, B.C. & Shea, D.F. (2001). ["The Power of Suggestion: Inertia in 401(k) Participation and Savings Behavior."](https://doi.org/10.1162/00335530152466232) _Quarterly Journal of Economics_, 116(4), 1149-1187.
+[^s5-2]: Madrian, B.C. & Shea, D.F. (2001). ["The Power of Suggestion: Inertia in 401(k) Participation and Savings Behavior."](https://doi.org/10.1162/00335530152466232) _Quarterly Journal of Economics_, 116(4), 1149--1187.
 
 *Your follow-up:*
 
@@ -396,7 +396,7 @@ OPTION A: ESCALATE THROUGH CODE ENFORCEMENT
 — Cost to you: $0. Time: one phone call to start.
 — Advantage: creates an official government record of
   the violation. This record is your strongest protection
-  against retaliation (see below).
+  against retaliation — covered next.
 — Risk: the landlord may resent the inspection. But the
   record it creates is exactly what protects you.
 
@@ -463,9 +463,8 @@ WHAT I CAN'T WEIGH FOR YOU:
   practical terms — are they otherwise responsive, or
   is this part of a pattern?
 
-Those factors are yours. The legal landscape is above.
-Give me the most conservative, legally accurate answer —
-I will verify with a legal aid organization before acting.
+Those factors are yours. The legal landscape is not —
+it is the same no matter how you feel about it.
 :::
 
 *Your correction:*
@@ -474,6 +473,8 @@ I will verify with a legal aid organization before acting.
 I didn't know about the retaliation protection. That
 changes things. But what if I do Option A and the
 landlord just ignores the code enforcement notice too?
+Give me the most conservative, legally accurate answer —
+I will verify with a legal aid organization before acting.
 :::
 
 *Your Agent:*
@@ -515,7 +516,7 @@ Mold exposure in residential settings is associated with a 30--50% increase in r
 :::
 
 
-[^s5-3]: Fisk, W.J., Lei-Gomez, Q. & Mendell, M.J. (2007). ["Meta-analyses of the associations of respiratory health effects with dampness and mold in homes."](https://doi.org/10.1111/j.1600-0668.2007.00475.x) _Indoor Air_, 17(4), 284-296.
+[^s5-3]: Fisk, W.J., Lei-Gomez, Q. & Mendell, M.J. (2007). ["Meta-analyses of the associations of respiratory health effects with dampness and mold in homes."](https://doi.org/10.1111/j.1600-0668.2007.00475.x) _Indoor Air_, 17(4), 284--296.
 
 ::: meme
 "We were on a break." Ross and Rachel's problem was not the break. It was the ambiguous spec. Your landlord dispute has the same structure: the word "resolved" means different things to you and the landlord. Paint over the mold? Resolved. Mold comes back in three weeks? Not resolved. A code enforcement inspection resolves the ambiguity the same way a clarifying question would have resolved Ross and Rachel's — by putting the definition on the record before anyone acts on it.

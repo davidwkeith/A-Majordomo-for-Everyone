@@ -24,9 +24,9 @@ The internet was supposed to be [Geocities](https://en.wikipedia.org/wiki/GeoCit
 
 ---
 
-#### IT Support
+[it-crowd-ipad]{.art}
 
-[_Before the web, before the website, before the blog — there is the machine on the table. The billionaire class has always had someone to choose, configure, and maintain their technology. An IT department. A "tech guy." A personal assistant who handled the setup and called the help desk. Everyone else got a shrink-wrapped box, a quick-start guide written for an imagined user who already understood everything, and the unspoken message that if you couldn't figure it out, the problem was you. It was never you. The problem was a consumer electronics industry that made products for a technical audience and marketed them to everyone. Your Agent can close that gap — not by making you technical, but by translating the technical into the specific._]{.art stem="it-crowd-ipad"}
+_Before the web, before the website, before the blog — there is the machine on the table. The billionaire class has always had someone to choose, configure, and maintain their technology. An IT department. A "tech guy." A personal assistant who handled the setup and called the help desk. Everyone else got a shrink-wrapped box, a quick-start guide written for an imagined user who already understood everything, and the unspoken message that if you couldn't figure it out, the problem was you. It was never you. The problem was a consumer electronics industry that made products for a technical audience and marketed them to everyone. Your Agent can close that gap — not by making you technical, but by translating the technical into the specific._
 
 
 ---
@@ -36,7 +36,7 @@ The internet was supposed to be [Geocities](https://en.wikipedia.org/wiki/GeoCit
 <!-- image idea: #2 sketch of hypercard's icon -->
 
 *Strategy:* Decode + Navigate
-*See also:* WB-7: Writing in CommonMark (a specific digital skill), W-5: Learning a New Professional Skill
+*See also:* WB-7: Write in CommonMark, the Language of AI (a specific digital skill)
 *My Man Jeeves:* _One might observe that software manuals expired in the early 2000s and were replaced by nothing of consequence. YouTube tutorials proceed on the assumption that one already possesses the vocabulary. Official documentation is composed for developers. The result, if one may say so, is a population that employs approximately 10% of the tools for which it pays --- not through any incapacity to master the remaining 90%, but because no one has undertaken to explain it at the level where the learner actually stands, without judgment, for as long as the matter requires. One's Agent will._
 *The Spec:*
 
@@ -76,18 +76,18 @@ Claude, ChatGPT, and Gemini can all accept image uploads — paste a screenshot 
 
 
 ::: science
-The "80/20 rule" in skill acquisition is well-documented: approximately 20% of a tool's features account for 80% of typical use (Koch, 1998, applying Pareto's principle to productivity). Learning the critical 20% first — rather than working through a curriculum designed to cover everything — is consistently more effective for adult learners who have a specific goal (Knowles, 1984).[^wb8-1]
+The "80/20 rule" in skill acquisition is well-documented: approximately 20% of a tool's features account for 80% of typical use (Koch, 1998, applying Pareto's principle to productivity). Learning the critical 20% first — rather than working through a curriculum designed to cover everything — is consistently more effective for adult learners who have a specific goal (Knowles, 1984).[^wb1-1]
 :::
 
 
 ::: science
-The digital skills gap is a class issue. The OECD's Survey of Adult Skills (2024) found a 42-point gap in adaptive problem-solving linked to parental education — a larger effect than age alone. Helsper & Eynon (2010) found that education and experience predict Internet skill as strongly as generation, and Hargittai (2010) showed wide skill variation _within_ the "digital native" cohort. Kirschner & De Bruyckere (2017) called the digital native "a yeti with a smartphone" — a conclusion endorsed by _Nature_. The real divide is not access to devices but access to patient instruction.[^wb8-2]
+The digital skills gap is a class issue. The OECD's Survey of Adult Skills (2024) found a 42-point gap in adaptive problem-solving linked to parental education — a larger effect than age alone. Helsper & Eynon (2010) found that education and experience predict Internet skill as strongly as generation, and Hargittai (2010) showed wide skill variation _within_ the "digital native" cohort. Kirschner & De Bruyckere (2017) called the digital native "a yeti with a smartphone" — a conclusion endorsed by _Nature_. The real divide is not access to devices but access to patient instruction.[^wb1-2]
 :::
 
 
-[^wb8-1]: Koch, R. (1998). [_The 80/20 Principle._](https://richardkoch.net/books/320-the-80-20-principle-the-secret-to-achieving-more-with-less) Doubleday. See also: Knowles, M.S. (1984). [_Andragogy in Action._](https://archive.org/details/andragogyinactio0000unse) Jossey-Bass.
+[^wb1-1]: Koch, R. (1998). [_The 80/20 Principle._](https://richardkoch.net/books/320-the-80-20-principle-the-secret-to-achieving-more-with-less) Doubleday. See also: Knowles, M.S. (1984). [_Andragogy in Action._](https://archive.org/details/andragogyinactio0000unse) Jossey-Bass.
 
-[^wb8-2]: OECD (2024). [_Survey of Adult Skills 2023._](https://www.oecd.org/en/publications/survey-of-adult-skills-2023%5F1ab54c9e-en.html) Helsper, E.J. & Eynon, R. (2010). ["Digital natives: where is the evidence?"](https://doi.org/10.1080/01411920902989227) _British Educational Research Journal_, 36(3), 503–520. Hargittai, E. (2010). ["Digital Na(t)ives? Variation in Internet Skills and Uses among Members of the 'Net Generation'."](https://doi.org/10.1111/j.1475-682X.2009.00317.x) _Sociological Inquiry_, 80(1), 92–113. Kirschner, P.A. & De Bruyckere, P. (2017). ["The myths of the digital native and the multitasker."](https://doi.org/10.1016/j.tate.2017.06.001) _Teaching and Teacher Education_, 67, 135–142.
+[^wb1-2]: OECD (2024). [_Survey of Adult Skills 2023._](https://www.oecd.org/en/publications/survey-of-adult-skills-2023%5F1ab54c9e-en.html) Helsper, E.J. & Eynon, R. (2010). ["Digital natives: where is the evidence?"](https://doi.org/10.1080/01411920902989227) _British Educational Research Journal_, 36(3), 503–520. Hargittai, E. (2010). ["Digital Na(t)ives? Variation in Internet Skills and Uses among Members of the 'Net Generation'."](https://doi.org/10.1111/j.1475-682X.2009.00317.x) _Sociological Inquiry_, 80(1), 92–113. Kirschner, P.A. & De Bruyckere, P. (2017). ["The myths of the digital native and the multitasker."](https://doi.org/10.1016/j.tate.2017.06.001) _Teaching and Teacher Education_, 67, 135–142.
 
 ---
 
@@ -96,8 +96,8 @@ The digital skills gap is a class issue. The OECD's Survey of Adult Skills (2024
 [applescript-icon]{.art}
 
 *Strategy:* Create + Navigate
-*See also:* WB-5: Building Your Own Website (for web-scale projects), WB-7: Writing in CommonMark
-*My Man Jeeves:* _Programming formerly required a computer science degree, or at minimum the temperament that finds pleasure in reading documentation for its own sake. It would appear that this is no longer the case. One's Agent is capable of writing small programs --- scripts --- that attend to the tedious portions of one's digital life: renaming five hundred photographs, sorting a spreadsheet, converting files from one format to another, retrieving a price from a website each morning. One need not learn to code. One need only learn to describe what one wishes the code to do. Which is --- and this, if one may venture the observation, is the point of this entire book --- specification._
+*See also:* WB-5: Build a Website, Own Your Corner of the Internet (for web-scale projects), WB-7: Write in CommonMark, the Language of AI
+*My Man Jeeves:* _Programming formerly required a computer science degree, or at minimum the temperament that finds pleasure in reading documentation for its own sake. It would appear that this is no longer the case. One's Agent is capable of writing small programs --- scripts --- that attend to the tedious portions of one's digital life: renaming 500 photographs, sorting a spreadsheet, converting files from one format to another, retrieving a price from a website each morning. One need not learn to code. One need only learn to describe what one wishes the code to do. Which is --- and this, if one may venture the observation, is the point of this entire book --- specification._
 *The Spec:*
 
 ::: prompt
@@ -131,7 +131,7 @@ Start with something small and annoying. "Rename all the files in this folder fr
 
 
 ::: science
-End-user programming research (Scaffidi et al., 2005) estimated that by 2012 there would be 55 million "end-user programmers" in the United States — people who write scripts, macros, and formulas as part of their non-programming jobs — compared to 3 million professional developers. AI-assisted code generation does not create a new category. It dramatically lowers the barrier to a category that already existed.[^wb9-1]
+End-user programming research (Scaffidi et al., 2005) estimated that by 2012 there would be 55 million "end-user programmers" in the United States — people who write scripts, macros, and formulas as part of their non-programming jobs — compared to 3 million professional developers. AI-assisted code generation does not create a new category. It dramatically lowers the barrier to a category that already existed.[^wb2-1]
 :::
 
 
@@ -141,7 +141,7 @@ Your Agent will default to writing scripts in Python, which requires installatio
 
 
 ::: science
-Andrej Karpathy coined the term _vibe coding_ in February 2025 — "fully give in to the vibes, embrace exponentials, and forget that the code even exists." The concept is older: end-user development, programming by example, and natural language programming have been research areas for decades. What changed is that AI is now good enough that "describe what you want" produces working code for simple tasks. The success rate for file operations, data formatting, and text processing is high. The success rate for complex applications drops sharply with ambiguity in the spec — which is the same pattern as everything else in this book.[^wb9-2]
+Andrej Karpathy coined the term _vibe coding_ in February 2025 — "fully give in to the vibes, embrace exponentials, and forget that the code even exists." The concept is older: end-user development, programming by example, and natural language programming have been research areas for decades. What changed is that AI is now good enough that "describe what you want" produces working code for simple tasks. The success rate for file operations, data formatting, and text processing is high. The success rate for complex applications drops sharply with ambiguity in the spec — which is the same pattern as everything else in this book.[^wb2-2]
 :::
 
 
@@ -155,9 +155,9 @@ Vibe coding evolved. Professional engineers now practice _agentic coding_ — wr
 :::
 
 
-[^wb9-2]: Karpathy, A. (2025). ["Vibe coding."](https://x.com/karpathy/status/1886192184808149383) X post, February 2, 2025. Collins Dictionary Word of the Year, 2025.
+[^wb2-2]: Karpathy, A. (2025). ["Vibe coding."](https://x.com/karpathy/status/1886192184808149383) X post, February 2, 2025. Collins Dictionary Word of the Year, 2025.
 
-[^wb9-1]: Scaffidi, C., Shaw, M., & Myers, B. (2005). ["Estimating the numbers of end users and end user programmers."](https://doi.org/10.1109/VLHCC.2005.34) _2005 IEEE Symposium on Visual Languages and Human-Centric Computing_, 207–214. For the AI-era update: Gargioni, L. et al. (2024). ["Feasibility of AI-Assisted Programming for End-User Development."](https://arxiv.org/abs/2512.05666) arXiv:2512.05666 — non-programmers successfully built web applications through AI interaction, suggesting AI-assisted coding may complement or replace low-code/no-code platforms.
+[^wb2-1]: Scaffidi, C., Shaw, M., & Myers, B. (2005). ["Estimating the numbers of end users and end user programmers."](https://doi.org/10.1109/VLHCC.2005.34) _2005 IEEE Symposium on Visual Languages and Human-Centric Computing_, 207–214. For the AI-era update: Weber, I. (2025). ["Feasibility of AI-Assisted Programming for End-User Development."](https://arxiv.org/abs/2512.05666) arXiv:2512.05666 — non-programmers successfully built web applications through AI interaction, suggesting AI-assisted coding may complement or replace low-code/no-code platforms.
 
 ---
 
@@ -224,11 +224,11 @@ The billionaire class treated the personal assistant hire like a casting call �
 
 
 ::: science
-[Communication accommodation theory](https://en.wikipedia.org/wiki/Communication%5Faccommodation%5Ftheory) (Giles, 1973) shows that people naturally adjust their speech — vocabulary, pace, formality — to match their conversational partner, and that this matching predicts both satisfaction and trust. You do this instinctively with other humans. Your Agent cannot do it instinctively with you, but your custom instructions give it the information it needs to match your register from the first message. You are not being frivolous by specifying how your Agent should talk. You are doing deliberately what skilled communicators do unconsciously.[^wb7-1]
+[Communication accommodation theory](https://en.wikipedia.org/wiki/Communication%5Faccommodation%5Ftheory) (Giles, 1973) shows that people naturally adjust their speech — vocabulary, pace, formality — to match their conversational partner, and that this matching predicts both satisfaction and trust. You do this instinctively with other humans. Your Agent cannot do it instinctively with you, but your custom instructions give it the information it needs to match your register from the first message. You are not being frivolous by specifying how your Agent should talk. You are doing deliberately what skilled communicators do unconsciously.[^wb3-1]
 :::
 
 
-[^wb7-1]: Giles, H. (1973). "Accent mobility: A model and some data." _Anthropological Linguistics_, 15(2), 87–105. For the broader theory: Giles, H., Coupland, N., & Coupland, J. (1991). ["Accommodation theory: Communication, context, and consequence."](https://doi.org/10.1017/CBO9780511663673) In H. Giles, J. Coupland, & N. Coupland (Eds.), _Contexts of Accommodation._ Cambridge University Press.
+[^wb3-1]: Giles, H. (1973). "Accent mobility: A model and some data." _Anthropological Linguistics_, 15(2), 87–105. For the broader theory: Giles, H., Coupland, N., & Coupland, J. (1991). ["Accommodation theory: Communication, context, and consequence."](https://doi.org/10.1017/CBO9780511663673) In H. Giles, J. Coupland, & N. Coupland (Eds.), _Contexts of Accommodation._ Cambridge University Press.
 
 ---
 
@@ -237,7 +237,7 @@ The billionaire class treated the personal assistant hire like a casting call �
 [eliza-icon]{.art}
 
 *Strategy:* Specify + Research
-*See also:* Strategy 0: Specify (the full specification interview method), Chapter 4: How to Ask for What You Actually Want, WB-7: Write in CommonMark, the language of AI
+*See also:* Strategy 0: Specify (the full specification interview method), Chapter 4: How to Ask for What You Actually Want, WB-7: Write in CommonMark, the Language of AI
 *My Man Jeeves:* _This is the Skill that instructs one in the use of the tool upon which every other Skill depends. If the book may be likened to a workshop, this would be the safety orientation for the power tools. The billionaire class had no occasion to acquire this practice --- they already maintained a staff that translated vague instructions into precise tasks. The chief of staff, the executive assistant, the law clerk --- these are, in essence, human specification interfaces. One is learning the same practice, applied to a rather different kind of assistant._
 *The Spec:*
 
@@ -278,14 +278,14 @@ Here is a full specification interview for this Skill:
 :::
 
 
-This also includes finding spec formats, standardized forms of spec produce better output than ad hoc. Includes the apps the Agents are trapped in.
+The skill extends beyond wording. A standardized spec format --- a template someone has already refined for the task, like the ones throughout this Field Guide --- produces better output than a request improvised from scratch. Part of working well with Agents is collecting the formats that work, and knowing which apps your Agent lives inside, since that determines where your specs can travel.
 
 It includes the output, too --- not only what your Agent says but the _form_ in which it hands it back. A chat reply is Markdown by default: plain text with a handful of symbols, the lingua franca your Agent shares with every other tool (see WB-7), and the right choice for anything you will keep editing or pass back and forth. But when the result's whole job is to be _looked at_ --- a report, a side-by-side comparison, a packing list, a small budget calculator --- ask for it as a self-contained web page: _"give me this as one HTML file I can open in my browser."_ A web page can do things a chat reply cannot --- like sortable tables, interactive checklists, or fields that update totals as you type. Even when it is just text, it arrives laid out and finished: it opens with a double-click on any device, prints cleanly, and travels as a single file. The trade-off is that HTML is awkward to edit by hand, so it is the last step, not the working draft. Markdown for the conversation; HTML for the thing you walk away with.
 
 The same split runs through data and documents. Your Agent reads and writes [CSV](https://en.wikipedia.org/wiki/Comma-separated%5Fvalues) --- the spreadsheet's plain-text form --- as easily as it reads Markdown: hand it a messy bank export and it will sort, dedupe, and total it in seconds. But almost nobody wants a CSV at the end. They want an Excel workbook, with formatting and formulas and more than one sheet --- so ask for `.xlsx`. A letter that has to land in someone's Word: ask for `.docx`. Something you will sign, submit, or file away unchanged: ask for PDF. One caveat: tools differ in whether they can hand you the finished file or only its contents --- Claude and ChatGPT can usually generate the file itself; if yours cannot, take the content it gives you and do that last conversion yourself, or ask it how. Plain text --- Markdown, CSV --- to think and work in; a real file in the format your recipient expects for the thing you deliver.
 
 ::: science
-Research on expertise development (Ericsson et al., 1993) identifies _deliberate practice_ — structured, feedback-rich repetition focused on specific weaknesses — as the primary mechanism of skill acquisition. Using an AI Agent well is a skill, and it develops the same way other skills do: through repeated use with attention to what works and what doesn't. The calibration question ("how confident are you?") is the built-in feedback mechanism.[^wb10-1]
+Research on expertise development (Ericsson et al., 1993) identifies _deliberate practice_ — structured, feedback-rich repetition focused on specific weaknesses — as the primary mechanism of skill acquisition. Using an AI Agent well is a skill, and it develops the same way other skills do: through repeated use with attention to what works and what doesn't. The calibration question ("how confident are you?") is the built-in feedback mechanism.[^wb4-1]
 :::
 
 
@@ -294,7 +294,7 @@ Research on expertise development (Ericsson et al., 1993) identifies _deliberate
 :::
 
 
-[^wb10-1]: Ericsson, K.A., Krampe, R.T., & Tesch-Römer, C. (1993). ["The role of deliberate practice in the acquisition of expert performance."](https://doi.org/10.1037/0033-295X.100.3.363) _Psychological Review_, 100(3), 363–406.
+[^wb4-1]: Ericsson, K.A., Krampe, R.T., & Tesch-Römer, C. (1993). ["The role of deliberate practice in the acquisition of expert performance."](https://doi.org/10.1037/0033-295X.100.3.363) _Psychological Review_, 100(3), 363–406.
 
 ---
 
@@ -307,7 +307,7 @@ Research on expertise development (Ericsson et al., 1993) identifies _deliberate
 [mosaic-icon]{.art}
 
 *Strategy:* Create + Navigate
-*See also:* WB-7: Writing in CommonMark (for writing your content), WB-8: Blogging and Journaling
+*See also:* WB-7: Write in CommonMark, the Language of AI (for writing your content), WB-8: Blogging and Journaling
 *My Man Jeeves:* _The billionaire class has always maintained a web presence managed by professionals. The remainder of the population received Facebook pages and LinkedIn profiles --- land one rents on platforms that may alter the terms, throttle the reach, or cause the content to vanish at any moment. Owning one's own website is the digital equivalent of owning one's home rather than renting it. It has always been possible. It has not, until recently, been this straightforward. The [IndieWeb](https://indieweb.org/) is the movement that holds a simple principle: publish on one's own site first, syndicate to the platforms second, and never lose one's words because a company pivoted. One's Agent can build the site._
 *The Spec:*
 
@@ -329,7 +329,7 @@ Keep it simple. I want something I can maintain myself.
 *What to do with the Output:* Follow the steps. Your first site does not have to be perfect. It has to exist. You can improve it every week for the rest of your life — and unlike a social media profile, every improvement accrues to something you own. A static site (plain HTML files, no database, no server-side code) is the simplest, fastest, cheapest, and most durable option. It is also the greenest — a static site uses a fraction of the energy of a WordPress installation because there is nothing to compute, only files to serve.
 
 ::: science
-The environmental cost of the internet is non-trivial — data centers account for roughly 1-1.5% of global electricity use (IEA, 2024). A static website served from a green host produces orders of magnitude less carbon per page view than a dynamic site running on a cloud server that spins up computation for every visitor. The [Green Web Foundation](https://www.thegreenwebfoundation.org/) maintains a directory of verified green hosts.[^wb1-1]
+The environmental cost of the internet is non-trivial — data centers account for roughly 1--1.5% of global electricity use (IEA, 2024). A static website served from a green host produces orders of magnitude less carbon per page view than a dynamic site running on a cloud server that spins up computation for every visitor. The [Green Web Foundation](https://www.thegreenwebfoundation.org/) maintains a directory of verified green hosts.[^wb5-1]
 :::
 
 
@@ -359,13 +359,13 @@ Owning your own domain correlates with education and technical literacy, which c
 
 
 ::: science
-The web was designed as a decentralized system — [RFC 2616](https://en.wikipedia.org/wiki/HTTP) (HTTP), [RFC 3986](https://en.wikipedia.org/wiki/Uniform%5FResource%5FIdentifier) (URIs), and HTML all assume independent servers communicating as peers. The centralization that followed was not a technical inevitability but an economic one — network effects and venture capital concentrated users on platforms. The [ActivityPub](https://en.wikipedia.org/wiki/ActivityPub) protocol (W3C, 2018) and the [Fediverse](https://en.wikipedia.org/wiki/Fediverse) represent the first large-scale technical effort to reverse this centralization. [Mastodon](https://en.wikipedia.org/wiki/Mastodon%5F(social%5Fnetwork)), the most visible implementation, reached 10 million registered users by 2023. Growth is slow — but the technical barriers that kept decentralized tools difficult to set up are exactly the kind of problem AI agents solve. And there is no venture capitalist waiting for an IPO on the other side of your [Fediverse](https://en.wikipedia.org/wiki/Fediverse) account.[^wb1-2]
+The web was designed as a decentralized system — [RFC 2616](https://en.wikipedia.org/wiki/HTTP) (HTTP), [RFC 3986](https://en.wikipedia.org/wiki/Uniform%5FResource%5FIdentifier) (URIs), and HTML all assume independent servers communicating as peers. The centralization that followed was not a technical inevitability but an economic one — network effects and venture capital concentrated users on platforms. The [ActivityPub](https://en.wikipedia.org/wiki/ActivityPub) protocol (W3C, 2018) and the [Fediverse](https://en.wikipedia.org/wiki/Fediverse) represent the first large-scale technical effort to reverse this centralization. [Mastodon](https://en.wikipedia.org/wiki/Mastodon%5F(social%5Fnetwork)), the most visible implementation, reached 10 million registered users by 2023. Growth is slow — but the technical barriers that kept decentralized tools difficult to set up are exactly the kind of problem AI agents solve. And there is no venture capitalist waiting for an IPO on the other side of your [Fediverse](https://en.wikipedia.org/wiki/Fediverse) account.[^wb5-2]
 :::
 
 
-[^wb1-1]: International Energy Agency. (2024). "Data Centres and Data Transmission Networks." IEA Tracking Report. See also The Green Web Foundation, [thegreenwebfoundation.org](https://www.thegreenwebfoundation.org/).
+[^wb5-1]: International Energy Agency. (2024). ["Data Centres and Data Transmission Networks."](https://www.iea.org/energy-system/buildings/data-centres-and-data-transmission-networks) IEA Tracking Report. See also The Green Web Foundation, [thegreenwebfoundation.org](https://www.thegreenwebfoundation.org/).
 
-[^wb1-2]: W3C. (2018). ["ActivityPub."](https://www.w3.org/TR/activitypub/) W3C Recommendation, 23 January 2018. Mastodon user data from Mastodon project statistics, 2023.
+[^wb5-2]: W3C. (2018). ["ActivityPub."](https://www.w3.org/TR/activitypub/) W3C Recommendation, 23 January 2018. Mastodon user data from Mastodon project statistics, 2023.
 
 ---
 
@@ -414,7 +414,7 @@ The algorithm shows you what keeps you scrolling. An RSS feed shows you what you
 
 
 ::: science
-Pariser's _The Filter Bubble_ (2011) documented how algorithmic curation narrows exposure to diverse viewpoints — a finding that has only strengthened as recommendation systems have become more sophisticated. Bakshy et al. (2015) in _Science_ found that Facebook's algorithm reduced exposure to ideologically cross-cutting content by 5-8% beyond users' own choices. The effect is small per interaction but compounds over years of daily use.[^wb2-1]
+Pariser's _The Filter Bubble_ (2011) documented how algorithmic curation narrows exposure to diverse viewpoints — a finding that has only strengthened as recommendation systems have become more sophisticated. Bakshy et al. (2015) in _Science_ found that Facebook's algorithm reduced exposure to ideologically cross-cutting content by 5--8% beyond users' own choices. The effect is small per interaction but compounds over years of daily use.[^wb6-1]
 :::
 
 
@@ -428,16 +428,16 @@ The wealthy and educated have always curated their information sources — subsc
 :::
 
 
-[^wb2-1]: Bakshy, E., Messing, S., & Adamic, L.A. (2015). ["Exposure to ideologically diverse news and opinion on Facebook."](https://doi.org/10.1126/science.aaa1160) _Science_, 348(6239), 1130–1132.
+[^wb6-1]: Bakshy, E., Messing, S., & Adamic, L.A. (2015). ["Exposure to ideologically diverse news and opinion on Facebook."](https://doi.org/10.1126/science.aaa1160) _Science_, 348(6239), 1130–1132.
 
 ---
 
-#### WB-7: Write in CommonMark, the language of AI
+#### WB-7: Write in CommonMark, the Language of AI
 
 [commonmark-logo]{.art}
 
 *Strategy:* Decode + Draft
-*See also:* WB-5: Building Your Own Website, WB-8: Blogging and Journaling
+*See also:* WB-5: Build a Website, Own Your Corner of the Internet, WB-8: Blogging and Journaling
 *My Man Jeeves:* _[CommonMark](https://commonmark.org/) serves as the universal language of AI in much the way English serves as the universal language of air traffic control --- not because it is the finest available, but because all parties agreed upon it and it functions reliably. It is plain text with a modest number of symbols that carry meaning. One can acquire the entire language in ten minutes. This book was written in [Djot](https://djot.net), a related format created by the same author --- but that is a digression. One's Agent thinks in CommonMark. When one writes in CommonMark, one is writing in the lingua franca of every AI system on the market --- which is to say, one's Agent can process, format, and transform one's writing with fewer tokens and greater precision than any other format permits._
 *The Spec:*
 
@@ -463,7 +463,7 @@ _"Convert this Word document / Google Doc into clean CommonMark. Preserve the he
 
 
 ::: science
-Formatting is not decoration --- it is cognition. Research on document design consistently shows that structured text (headings, lists, whitespace) measurably improves comprehension and task-completion compared to undifferentiated prose.[^wb3-1] When you format your writing in CommonMark, you are not making it pretty. You are making it readable. The formatting is the thinking made visible.
+Formatting is not decoration --- it is cognition. Research on document design consistently shows that structured text (headings, lists, whitespace) measurably improves comprehension and task-completion compared to undifferentiated prose.[^wb7-1] When you format your writing in CommonMark, you are not making it pretty. You are making it readable. The formatting is the thinking made visible.
 :::
 
 
@@ -477,7 +477,7 @@ In the pre-web era, citation was gatekept by publishers, editors, and academic i
 :::
 
 
-[^wb3-1]: Schriver, K.A. (1997). [_Dynamics in Document Design._](https://archive.org/details/dynamicsindocume0000schr) John Wiley & Sons. The research on structured text and comprehension is extensive and consistent across both print and digital contexts.
+[^wb7-1]: Schriver, K.A. (1997). [_Dynamics in Document Design._](https://archive.org/details/dynamicsindocume0000schr) John Wiley & Sons. The research on structured text and comprehension is extensive and consistent across both print and digital contexts.
 
 ---
 
@@ -486,7 +486,7 @@ In the pre-web era, citation was gatekept by publishers, editors, and academic i
 [composition-notebook]{.art}
 
 *Strategy:* Create + Draft
-*See also:* WB-7: Writing in CommonMark, WB-5: Build a Website, Own Your Corner of the Internet, Li-8: Wellness Coach (journaling as mental health practice)
+*See also:* WB-7: Write in CommonMark, the Language of AI, WB-5: Build a Website, Own Your Corner of the Internet, Li-8: Wellness Coach (journaling as mental health practice)
 *My Man Jeeves:* _One observes that every sitcom family maintained a room where the substantive conversations took place. For the [Conners](https://en.wikipedia.org/wiki/Roseanne) it was the kitchen table. For the [Seinfelds](https://en.wikipedia.org/wiki/Seinfeld) it was the apartment. For the [Simpsons](https://en.wikipedia.org/wiki/The%5FSimpsons) it was the couch. A blog, if one may draw the parallel, is that room --- except one has built it oneself, one owns the walls, and no one is in a position to cancel the programme. A journal is the same room with the door closed. Both represent acts of thinking, whether in public or in private, and both are rather more valuable than one might suppose. One's Agent can help one start, and — should one prefer the door closed — it will not read over one's shoulder unless asked._
 *The Spec:*
 
@@ -508,12 +508,12 @@ Please help me:
 :::
 *What to do with the Output:* Publish the first post. It does not need to be good. The act of publishing — putting your thinking where others can find it — is the point. Captain's Log, Star Date today. Every blog post is a contribution to the public record of how people think, what they know, and what they care about. Your ideas matter, even when you are echoing what others say, because your particular combination of experience and perspective is unique. That is not a platitude. It is information theory.
 
-Could be audio, video, writing. Any format, storage is cheap, hosting is free.
+The format is yours to choose --- writing, audio, video, or all three. Storage is cheap and hosting is free; the only scarce input is your willingness to keep making the thing.
 
 Letters to the editor used to require an editor's approval. Now, if you own your domain, you can speak your mind — back it up with research, or don't. Make jokes that only one in a thousand will understand. Find that community. The one-in-a-million is the point. The internet has enough people that one-in-a-million is still a football stadium full of people who get the joke.
 
 ::: science
-There's a reason Starfleet strongly encourages officers to log. Pennebaker's expressive writing research (1986, replicated extensively) shows measurable immune function improvement from writing about difficult experiences for 15-20 minutes over 3-4 days. The mechanism is not fully understood — possibly narrative coherence, possibly emotional processing, possibly both. Journaling is one of the cheapest, most accessible, most evidence-backed interventions in psychology.[^wb5-1] 
+There's a reason Starfleet strongly encourages officers to log. Pennebaker's expressive writing research (1986, replicated extensively) shows measurable immune function improvement from writing about difficult experiences for 15--20 minutes over 3--4 days. The mechanism is not fully understood — possibly narrative coherence, possibly emotional processing, possibly both. Journaling is one of the cheapest, most accessible, most evidence-backed interventions in psychology.[^wb8-1] 
 :::
 
 
@@ -542,20 +542,20 @@ The fear of publishing is universal and specific: fear of judgment, fear of bein
 
 
 ::: science
-Research on [reflective practice](https://en.wikipedia.org/wiki/Reflective%5Fpractice) (Schön, 1983, [_The Reflective Practitioner_](https://archive.org/details/reflectivepracti0000scho)) shows that the act of articulating experience transforms understanding — whether or not anyone else sees it. Journaling, blogging into the void, writing for an audience of zero: all produce cognitive benefits for the writer. The audience is a bonus, not the point.[^wb5-2]
+Research on [reflective practice](https://en.wikipedia.org/wiki/Reflective%5Fpractice) (Schön, 1983, [_The Reflective Practitioner_](https://archive.org/details/reflectivepracti0000scho)) shows that the act of articulating experience transforms understanding — whether or not anyone else sees it. Journaling, blogging into the void, writing for an audience of zero: all produce cognitive benefits for the writer. The audience is a bonus, not the point.[^wb8-2]
 :::
 
 
-[^wb5-2]: Schön, D.A. (1983). [_The Reflective Practitioner._](https://archive.org/details/reflectivepracti0000scho) Basic Books. Elbow, P. (1973). [_Writing Without Teachers._](https://archive.org/details/writingwithoutte0000elbo) Oxford University Press.
+[^wb8-2]: Schön, D.A. (1983). [_The Reflective Practitioner._](https://archive.org/details/reflectivepracti0000scho) Basic Books. Elbow, P. (1973). [_Writing Without Teachers._](https://archive.org/details/writingwithoutte0000elbo) Oxford University Press.
 
-[^wb5-1]: Pennebaker, J.W. & Beall, S.K. (1986). ["Confronting a traumatic event: Toward an understanding of inhibition and disease."](https://doi.org/10.1037/0021-843X.95.3.274) _Journal of Abnormal Psychology_, 95(3), 274–281.
+[^wb8-1]: Pennebaker, J.W. & Beall, S.K. (1986). ["Confronting a traumatic event: Toward an understanding of inhibition and disease."](https://doi.org/10.1037/0021-843X.95.3.274) _Journal of Abnormal Psychology_, 95(3), 274–281.
 
 ---
 
 #### WB-9: Preservation and Legacy
 
 *Strategy:* Research + Navigate
-*See also:* WB-5: Building Your Own Website (owning vs. renting), H-7: Preparing for End-of-Life Conversations (the analog equivalent)
+*See also:* WB-5: Build a Website, Own Your Corner of the Internet (owning vs. renting), H-7: Preparing for End-of-Life Conversations (the analog equivalent)
 *My Man Jeeves:* _The [Library of Alexandria](https://en.wikipedia.org/wiki/Library%5Fof%5FAlexandria) burned. The Dead Sea Scrolls survived in clay jars for two thousand years. MySpace lost 50 million songs in a server migration. [GeoCities](https://en.wikipedia.org/wiki/GeoCities) was deleted by Yahoo in 2009. The lesson, one ventures to suggest, has been consistent across millennia: what survives is what someone deliberately chose to preserve. The internet remembers everything and nothing --- everything that someone took the trouble to archive, nothing that was left on a platform that shut down, pivoted, or mislaid a database. One's Agent can help one make the deliberate choice._
 *The Spec:*
 
@@ -578,7 +578,7 @@ Please help me:
 *What to do with the Output:* Submit your website to the [Wayback Machine](https://web.archive.org/) today. It takes thirty seconds. Then export your content from every platform you use — most offer a data export buried in their settings. Store the exports somewhere you control. The domain you choose is your handle, your identity, the name you are known by online. Pick it as carefully as you would a pen name — it is the digital equivalent, and it can outlast you.
 
 ::: science
-The [Internet Archive](https://archive.org/) has preserved over 835 billion web pages since 1996. It is a nonprofit, donation-funded, and legally contested — publishers have sued to limit its digital lending library. It is also the single most important preservation project in the history of human knowledge, because the web it archives was never designed to be permanent.[^wb6-1]
+The [Internet Archive](https://archive.org/) has preserved over 835 billion web pages since 1996. It is a nonprofit, donation-funded, and legally contested — publishers have sued to limit its digital lending library. It is also the single most important preservation project in the history of human knowledge, because the web it archives was never designed to be permanent.[^wb9-1]
 :::
 
 
@@ -598,21 +598,21 @@ The grief of digital loss — lost photos, deleted accounts, inaccessible archiv
 
 
 ::: science
-[Link rot](https://en.wikipedia.org/wiki/Link%5Frot) is not a metaphor. Zittrain et al. (2021) found that 25% of links in _New York Times_ articles from 1996 to 2019 are broken. The Supreme Court's opinions fare even worse. The web is not permanent by default. It is permanent only by effort. Your own site, preserved in the [Wayback Machine](https://web.archive.org/), is more durable than a link to a social media post.[^wb6-2]
+[Link rot](https://en.wikipedia.org/wiki/Link%5Frot) is not a metaphor. Zittrain et al. (2021) found that 25% of links in _New York Times_ articles from 1996 to 2019 are broken. The Supreme Court's opinions fare even worse. The web is not permanent by default. It is permanent only by effort. Your own site, preserved in the [Wayback Machine](https://web.archive.org/), is more durable than a link to a social media post.[^wb9-2]
 :::
 
 
-[^wb6-2]: Zittrain, J., Albert, K., & Lessig, L. (2021). ["Perma: Scoping and Addressing the Problem of Link and Reference Rot in Legal Citations."](https://doi.org/10.2139/ssrn.3742357) _Harvard Law Review_, 127(4). See also Lepore, J. (2015). ["The Cobweb."](https://www.newyorker.com/magazine/2015/01/26/cobweb) _The New Yorker_.
+[^wb9-2]: Zittrain, J., Bowers, J., & Stanton, C. (2021). ["The Paper of Record Meets an Ephemeral Web: An Examination of Linkrot and Content Drift within The New York Times."](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3833133) SSRN. On the Supreme Court and legal citations: Zittrain, J., Albert, K., & Lessig, L. (2014). ["Perma: Scoping and Addressing the Problem of Link and Reference Rot in Legal Citations."](https://harvardlawreview.org/forum/vol-127/perma-scoping-and-addressing-the-problem-of-link-and-reference-rot-in-legal-citations/) _Harvard Law Review Forum_, 127. See also Lepore, J. (2015). ["The Cobweb."](https://www.newyorker.com/magazine/2015/01/26/cobweb) _The New Yorker_.
 
-[^wb6-1]: Internet Archive. [archive.org](https://archive.org/). Founded 1996 by Brewster Kahle. As of 2024, the Wayback Machine contains over 835 billion archived web pages.
+[^wb9-1]: Internet Archive. [archive.org](https://archive.org/). Founded 1996 by Brewster Kahle. As of 2024, the Wayback Machine contains over 835 billion archived web pages.
 
 ---
 
 #### WB-10: Doing Real Research with Your Agent
 
 *Strategy:* Research + Decode
-*See also:* Li-13: Using Your Public and Academic Library (where the Agent's summary ends and the primary source begins), WB-6: Stop Doomscrolling the Algorithmic Feed (the upstream version of this Skill), WB-7: Write in CommonMark, the language of AI (for taking notes the Agent can read back), WB-1: Learning Any App or Digital Skill
-*My Man Jeeves:* _A distinction of some consequence has long obtained between *searching* and *researching*. The former returns ten links ranked by the advertising market; the latter requires one to formulate a question, locate the relevant literature, weigh the contradictory findings, and arrive at a position one can defend. The former has, since approximately 2001, been available to everyone; the latter has remained the province of those with access to a research librarian, a university subscription, and the unhurried hours in which to use them. One's Agent does not make one a scholar. It does, however, perform the preliminary work that a graduate student would once have performed for a professor — framing the question, surveying the field, identifying the disagreements, and indicating where one ought to read next. The reader is then in a position to do the reading._
+*See also:* Li-13: Using Your Public and Academic Library (where the Agent's summary ends and the primary source begins), WB-6: Stop Doomscrolling the Algorithmic Feed (the upstream version of this Skill), WB-7: Write in CommonMark, the Language of AI (for taking notes the Agent can read back), WB-1: Learning Any App or Digital Skill
+*My Man Jeeves:* _A distinction of some consequence has long obtained between *searching* and *researching*. The former returns 10 links ranked by the advertising market; the latter requires one to formulate a question, locate the relevant literature, weigh the contradictory findings, and arrive at a position one can defend. The former has, since approximately 2001, been available to everyone; the latter has remained the province of those with access to a research librarian, a university subscription, and the unhurried hours in which to use them. One's Agent does not make one a scholar. It does, however, perform the preliminary work that a graduate student would once have performed for a professor — framing the question, surveying the field, identifying the disagreements, and indicating where one ought to read next. One is then in a position to do the reading._
 *The Spec:*
 
 ::: prompt

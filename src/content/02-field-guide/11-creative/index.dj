@@ -6,7 +6,7 @@ strategy: null
 status: "draft"
 ---
 
-### CREATIVE
+### Creative
 
 _"Someday artists will work with capacitors, resistors, and semiconductors as they work today with brushes, violins, and junk."_
 _— [Nam June Paik](https://en.wikiquote.org/wiki/Nam_June_Paik), 1965_
@@ -21,7 +21,7 @@ _Creativity was never the exclusive domain of artists, writers, and filmmakers. 
 
 *Strategy:* Create + Diagnose
 *See also:* WB-1: Learning Any App or Digital Skill, Li-5: Planning Trips (for travel photography)
-*My Man Jeeves:* _One might observe that a professional portrait photographer commands $200 to $500 per session, that a wedding photographer expects $2,000 to $5,000, and that photography courses range from $20 online to $500 and up in person, proceeding upward with some enthusiasm in either direction. The difficulty, if one may say so, has never been the camera — the device in one's pocket has been more than adequate for some years now. The difficulty is that composition, light, and the rather undervalued discipline of knowing what to exclude from the frame are learnable skills that have historically required either formal instruction or prolonged apprenticeship to acquire. It would appear that those of considerable means retain a personal photographer for such purposes. The reader, however, now has access to a tutor of considerable patience, one that has studied every composition technique Annie Leibovitz ever employed and is prepared to explain them in terms of the photograph one is about to take._
+*My Man Jeeves:* _One might observe that a professional portrait photographer commands $200 to $500 per session, that a wedding photographer expects $2,000 to $5,000, and that photography courses range from $20 online to $500 and up in person, proceeding upward with some enthusiasm in either direction. The difficulty, if one may say so, has never been the camera — the device in one's pocket has been more than adequate for some years now. The difficulty is that composition, light, and the rather undervalued discipline of knowing what to exclude from the frame are learnable skills that have historically required either formal instruction or prolonged apprenticeship to acquire. It would appear that those of considerable means retain a personal photographer for such purposes. One, however, now has access to a tutor of considerable patience, one that has studied every composition technique Annie Leibovitz ever employed and is prepared to explain them in terms of the photograph one is about to take._
 *The Spec:*
 
 ::: prompt
@@ -36,7 +36,7 @@ My situation:
    "fine" but never "good" / I don't know what's wrong, I just
    know they're not what I see in my head]
 Please help me:
-1. Based on what I described, identify the 2-3 things I'm
+1. Based on what I described, identify the 2--3 things I'm
    probably doing wrong
 2. Give me specific fixes I can try right now — not theory,
    techniques I can practice in the next ten minutes
@@ -74,7 +74,7 @@ The gap between a snapshot and a photograph is not equipment or talent — it is
 
 *Strategy:* Create + Research (Expert Role)
 *See also:* Cr-1: Taking Better Photos (the same compositional principles apply), WB-5: Build a Website, Own Your Corner of the Internet (for applying design to your site), WB-1: Learning Any App or Digital Skill (for learning design software)
-*My Man Jeeves:* _It may be worth noting that a graphic designer charges $25 to $150 an hour, and that a brand identity package — logo, colors, typography, templates — begins at $5,000 with a willingness to ascend from there. Design school, one understands, is a four-year degree that imparts principles one might acquire in an afternoon, along with taste, which one develops only through practice. The principles themselves are not closely guarded. Hierarchy, contrast, alignment, proximity, repetition — five words that govern every poster, website, business card, and yard sale flyer one has ever encountered. The distinction between the yard sale flyer that produces results and the one that goes unread is not a matter of talent. It is a matter of knowing those five words and what they mean. Those of substantial means maintain a design team on retainer. The reader has an Agent, and it is conversant with the same principles._
+*My Man Jeeves:* _It may be worth noting that a graphic designer charges $25 to $150 an hour, and that a brand identity package — logo, colours, typography, templates — begins at $5,000 with a willingness to ascend from there. Design school, one understands, is a four-year degree that imparts principles one might acquire in an afternoon, along with taste, which one develops only through practice. The principles themselves are not closely guarded. Hierarchy, contrast, alignment, proximity, repetition — five words that govern every poster, website, business card, and yard sale flyer one has ever encountered. The distinction between the yard sale flyer that produces results and the one that goes unread is not a matter of talent. It is a matter of knowing those five words and what they mean. Those of substantial means maintain a design team on retainer. One has an Agent, and it is conversant with the same principles._
 *The Spec:*
 
 ::: prompt
@@ -94,7 +94,7 @@ My situation:
    where to start / it looks "homemade" and I can't
    figure out why]
 Please:
-1. Tell me the 2-3 design principles that matter most
+1. Tell me the 2--3 design principles that matter most
    for what I'm making
 2. Critique what I have so far — or if I'm starting
    from scratch, give me a layout to start with
@@ -111,7 +111,7 @@ Please:
 Act as a brand designer. I'm starting a [small business /
 nonprofit / community organization] called [name]. Help me
 develop a simple visual identity: one font pairing, a color
-palette of 3-4 colors, and guidelines I can follow so
+palette of 3--4 colors, and guidelines I can follow so
 everything I make looks like it belongs together.
 :::
 ::: prompt
@@ -173,7 +173,7 @@ Please help me:
 *What to do with the Output:* Start with the cut list. The hardest part of editing is not the software — it is accepting that most of your footage does not belong in the final version. A three-hour vacation produces a five-minute video. A one-hour birthday party produces ninety seconds. Your Agent can help you identify what matters. Front-load the best moment — viewers decide in seconds whether to keep watching. Start with action, not a title card. The software part is just buttons, and your Agent knows where every button is in whatever editor you picked.
 
 ::: tip
-_"I have [X] hours of footage from [event]. Help me select the 10-15 best moments for a [length]-minute video. I want the viewer to feel [emotion]."_ — Tell your Agent the feeling, not just the facts.
+_"I have [X] hours of footage from [event]. Help me select the 10--15 best moments for a [length]-minute video. I want the viewer to feel [emotion]."_ — Tell your Agent the feeling, not just the facts.
 :::
 
 
@@ -193,7 +193,7 @@ For editing advice and step-by-step software guidance, any major AI tool works w
 
 *Strategy:* Create + Navigate
 *See also:* Cr-10: Learning an Instrument (the performance side), Cr-5: Podcasting and Audio Production (audio skills transfer), WB-1: Learning Any App or Digital Skill
-*My Man Jeeves:* _One observes that a recording studio charges $50 to $500 an hour, that a music production course at a community college runs $800 to $2,000 per semester, and that the instruments alone — even before one considers microphones, cables, and the various boxes that make sounds louder or different — represent an investment that has historically excluded anyone who could not first afford the investment. The difficulty, if one may say so, is not musical. [GarageBand](https://en.wikipedia.org/wiki/GarageBand) ships free with every Apple device. [BandLab](https://en.wikipedia.org/wiki/BandLab_Technologies) runs in a browser and costs nothing. Between them, one has access to more instruments, effects, and recording capability than the Beatles had at Abbey Road in 1967. What one does not have — and what no free tool provides — is the craft knowledge: why a chord progression feels finished, why a rhythm track feels alive or mechanical, why a melody stays in someone's head or doesn't. Those of considerable means retain a producer. The reader now has an Agent conversant with music theory, arrangement, and the specific capabilities of whichever free tool sits open on their screen._
+*My Man Jeeves:* _One observes that a recording studio charges $50 to $500 an hour, that a music production course at a community college runs $800 to $2,000 per semester, and that the instruments alone — even before one considers microphones, cables, and the various boxes that make sounds louder or different — represent an investment that has historically excluded anyone who could not first afford the investment. The difficulty, if one may say so, is not musical. [GarageBand](https://en.wikipedia.org/wiki/GarageBand) ships free with every Apple device. [BandLab](https://en.wikipedia.org/wiki/BandLab_Technologies) runs in a browser and costs nothing. Between them, one has access to more instruments, effects, and recording capability than the Beatles had at Abbey Road in 1967. What one does not have — and what no free tool provides — is the craft knowledge: why a chord progression feels finished, why a rhythm track feels alive or mechanical, why a melody stays in someone's head and why another does not. Those of considerable means retain a producer. One now has an Agent conversant with music theory, arrangement, and the specific capabilities of whichever free tool sits open on one's screen._
 *The Spec:*
 
 ::: prompt
@@ -230,7 +230,7 @@ _"Here's a melody I hummed into my phone [attach audio]. What key is it in, what
 
 
 ::: science
-Music-making is one of the most thoroughly studied forms of human cognitive engagement. Zatorre & Salimpoor (2013) demonstrated that music activates the brain's reward system — the same dopamine pathways triggered by food and social bonding — and that this activation occurs during both listening and creating. Importantly, the barrier to these cognitive benefits is participation, not expertise: Hallam (2010) found that active music-making at any skill level improves executive function, working memory, and emotional regulation in adults. The expensive part was never the brain's willingness to engage. It was the $40-a-lesson price of participation.[^cr5-1]
+Music-making is one of the most thoroughly studied forms of human cognitive engagement. Zatorre & Salimpoor (2013) demonstrated that music activates the brain's reward system — the same dopamine pathways triggered by food and social bonding — and that this activation occurs during both listening and creating. Importantly, the barrier to these cognitive benefits is participation, not expertise: Hallam (2010) found that active music-making at any skill level improves executive function, working memory, and emotional regulation in adults. The expensive part was never the brain's willingness to engage. It was the $40-a-lesson price of participation.[^cr4-1]
 :::
 
 
@@ -244,7 +244,7 @@ Your Agent's knowledge of music theory and production technique reflects the Wes
 :::
 
 
-[^cr5-1]: Zatorre, R.J. & Salimpoor, V.N. (2013). ["From Perception to Pleasure: Music and Its Neural Substrates."](https://doi.org/10.1073/pnas.1301228110) _Proceedings of the National Academy of Sciences,_ 110(Supplement 2), 10430–10437. Hallam, S. (2010). ["The Power of Music: Its Impact on the Intellectual, Social and Personal Development of Children and Young People."](https://doi.org/10.1177/0255761410370658) _International Journal of Music Education,_ 28(3), 269–289.
+[^cr4-1]: Zatorre, R.J. & Salimpoor, V.N. (2013). ["From Perception to Pleasure: Music and Its Neural Substrates."](https://doi.org/10.1073/pnas.1301228110) _Proceedings of the National Academy of Sciences,_ 110(Supplement 2), 10430–10437. Hallam, S. (2010). ["The Power of Music: Its Impact on the Intellectual, Social and Personal Development of Children and Young People."](https://doi.org/10.1177/0255761410370658) _International Journal of Music Education,_ 28(3), 269–289.
 
 ::: also
 GarageBand ships free on every Apple device. [BandLab](https://www.bandlab.com/) runs entirely in a browser — no download, no account fees — with 370+ instruments and up to 16 tracks per project on the free tier (15-minute project duration limit). Between them, the equipment barrier is zero.
@@ -257,7 +257,7 @@ GarageBand ships free on every Apple device. [BandLab](https://www.bandlab.com/)
 
 *Strategy:* Create + Navigate
 *See also:* Cr-4: Making Music (audio skills transfer), WB-5: Build a Website, Own Your Corner of the Internet, Cr-3: Editing a Movie (same storytelling principles)
-*My Man Jeeves:* _It may be worth observing that podcasting is the most democratic broadcast medium to emerge in some time. The equipment required is a telephone and a quiet room. The cost of distribution is zero — [RSS](https://en.wikipedia.org/wiki/RSS) is an open standard that no company owns and no company can revoke. A radio license costs hundreds of thousands of dollars and requires federal permission. A YouTube channel requires a camera, lighting, and the willingness to be looked at. A podcast requires a voice, a topic, and the ability to press record. The difficulty, if one may venture it, is not the recording. It is everything that separates a recording from a show: structure, pacing, the edit that removes the forty-five seconds of throat-clearing at the top, the audio quality that lets the listener forget they are listening to audio at all. Those of substantial means hire a producer. The reader has an Agent who is conversant with the entire production chain, from microphone placement to RSS feed configuration, and who has never once suggested that the reader needs a $400 microphone to begin._
+*My Man Jeeves:* _It may be worth observing that podcasting is the most democratic broadcast medium to emerge in some time. The equipment required is a telephone and a quiet room. The cost of distribution is zero — [RSS](https://en.wikipedia.org/wiki/RSS) is an open standard that no company owns and no company can revoke. A radio licence costs hundreds of thousands of dollars and requires federal permission. A YouTube channel requires a camera, lighting, and the willingness to be looked at. A podcast requires a voice, a topic, and the ability to press record. The difficulty, if one may venture it, is not the recording. It is everything that separates a recording from a show: structure, pacing, the edit that removes the forty-five seconds of throat-clearing at the top, the audio quality that lets the listener forget they are listening to audio at all. Those of substantial means hire a producer. One has an Agent that is conversant with the entire production chain, from microphone placement to RSS feed configuration, and that has never once suggested one needs a $400 microphone to begin._
 *The Spec:*
 
 ::: prompt
@@ -291,7 +291,7 @@ _"Here's a rough recording of my podcast episode [attach audio or describe conte
 
 
 ::: science
-Podcasting's growth as a medium tracks directly with economic accessibility. Edison Research's Infinite Dial reports show podcast listenership in the US grew from 11% of the population in 2006 to over 42% by 2023. The creation side is equally striking: [Anchor](https://en.wikipedia.org/wiki/Anchor_(podcasting)) (now Spotify for Podcasters) made podcast creation as simple as pressing record on a phone, driving the majority of new podcast submissions on the platform. The medium's accessibility is not incidental — it is structural. Audio production requires less equipment than video, less bandwidth than streaming, and less visual self-presentation than any camera-based format. For communities historically excluded from broadcast media, this matters.[^cr6-1]
+Podcasting's growth as a medium tracks directly with economic accessibility. Edison Research's Infinite Dial reports show the share of Americans who have ever listened to a podcast grew from 11% in 2006 to 64% by 2023. The creation side is equally striking: [Anchor](https://en.wikipedia.org/wiki/Anchor_(podcasting)) (now Spotify for Podcasters) made podcast creation as simple as pressing record on a phone, driving the majority of new podcast submissions on the platform. The medium's accessibility is not incidental — it is structural. Audio production requires less equipment than video, less bandwidth than streaming, and less visual self-presentation than any camera-based format. For communities historically excluded from broadcast media, this matters.[^cr5-1]
 :::
 
 
@@ -305,7 +305,7 @@ Podcast discoverability algorithms favor shows that publish consistently on a sc
 :::
 
 
-[^cr6-1]: Edison Research. (2023). [_The Infinite Dial 2023._](https://www.edisonresearch.com/the-infinite-dial-2023/) Edison Research / Triton Digital.
+[^cr5-1]: Edison Research. (2023). [_The Infinite Dial 2023._](https://www.edisonresearch.com/the-infinite-dial-2023/) Edison Research / Triton Digital.
 
 ---
 
@@ -313,7 +313,7 @@ Podcast discoverability algorithms favor shows that publish consistently on a sc
 
 *Strategy:* Create + Diagnose
 *See also:* Cr-2: Learning Visual Design (principles overlap), Cr-1: Taking Better Photos (same compositional eye)
-*My Man Jeeves:* _A persistent belief holds that drawing is a talent — that one is born able to render a horse or one is not, and that no instruction can bridge the distance between the two conditions. One might gently observe that this belief is incorrect. Betty Edwards demonstrated in 1979 that drawing is a learnable perceptual skill, not an innate gift, and that the primary obstacle is not the hand but the brain's preference for symbols over observation — one draws what one _thinks_ a face looks like rather than what one _sees_. Drawing instruction costs $30 to $80 per class at a community center, $200 to $500 for a structured course, and $40,000 to $200,000 for an art school degree that teaches the same fundamentals one might acquire with a pencil, a piece of paper, and a tutor of sufficient patience. The reader has such a tutor. It will not judge the first attempt, which is more than can be said for the average middle-school art class._
+*My Man Jeeves:* _A persistent belief holds that drawing is a talent — that one is born able to render a horse or one is not, and that no instruction can bridge the distance between the two conditions. One might gently observe that this belief is incorrect. Betty Edwards demonstrated in 1979 that drawing is a learnable perceptual skill, not an innate gift, and that the primary obstacle is not the hand but the brain's preference for symbols over observation — one draws what one _thinks_ a face looks like rather than what one _sees_. Drawing instruction costs $30 to $80 per class at a community centre, $200 to $500 for a structured course, and $40,000 to $200,000 for an art school degree that teaches the same fundamentals one might acquire with a pencil, a piece of paper, and a tutor of sufficient patience. One has such a tutor. It will not judge the first attempt, which is more than can be said for the average middle-school art class._
 *The Spec:*
 
 ::: prompt
@@ -346,7 +346,7 @@ Please help me:
 *What to do with the Output:* Draw for fifteen minutes. Not thirty, not an hour — fifteen. The research is clear that short, consistent practice sessions build perceptual skills faster than occasional marathons. Take a photo of what you drew, send it to your Agent, and ask: _"What's the one thing I should fix in the next version?"_ One thing. Not ten.
 
 ::: science
-Betty Edwards' _Drawing on the Right Side of the Brain_ (1979) established the foundational insight that drawing is a teachable perceptual skill, not an inherited talent. Her research showed that when students learn to override their brain's symbolic processing — drawing what they see rather than what they know — dramatic improvement occurs in hours, not years. Chamberlain et al. (2015) confirmed this in a study of over 600 art students: deliberate practice and observational technique — not innate talent — predicted drawing accuracy, and these skills transferred across subjects. You are not bad at drawing. You were taught to see symbolically, which is useful for reading and terrible for rendering.[^cr7-1]
+Betty Edwards' _Drawing on the Right Side of the Brain_ (1979) established the foundational insight that drawing is a teachable perceptual skill, not an inherited talent. Her research showed that when students learn to override their brain's symbolic processing — drawing what they see rather than what they know — dramatic improvement occurs in hours, not years. Chamberlain et al. (2015) confirmed this in a study of over 600 art students: deliberate practice and observational technique — not innate talent — predicted drawing accuracy, and these skills transferred across subjects. You are not bad at drawing. You were taught to see symbolically, which is useful for reading and terrible for rendering.[^cr6-1]
 :::
 
 
@@ -365,7 +365,7 @@ AI image generators can produce illustrations, but that is not what this Skill i
 :::
 
 
-[^cr7-1]: Edwards, B. (1979). [_Drawing on the Right Side of the Brain._](https://www.drawright.com/) J.P. Tarcher. Chamberlain, R. et al. (2015). ["Scratching the Surface: Practice, Personality, Approaches to Learning, and the Acquisition of High-Level Drawing Ability."](https://doi.org/10.1037/aca0000011) _Psychology of Aesthetics, Creativity, and the Arts,_ 9(4), 451–462.
+[^cr6-1]: Edwards, B. (1979). [_Drawing on the Right Side of the Brain._](https://www.drawright.com/) J.P. Tarcher. Chamberlain, R. et al. (2015). ["Scratching the Surface: Practice, Personality, Approaches to Learning, and the Acquisition of High-Level Representational Drawing Ability."](https://doi.org/10.1037/aca0000011) _Psychology of Aesthetics, Creativity, and the Arts,_ 9(4), 451–462.
 
 ---
 
@@ -373,7 +373,7 @@ AI image generators can produce illustrations, but that is not what this Skill i
 
 *Strategy:* Create + Research
 *See also:* Ho-2: Home Repair and DIY (tool skills transfer), Ho-3: Right to Repair (same philosophy of ownership), Ch-1: Shopping Your Values (materials sourcing)
-*My Man Jeeves:* _One notes with some interest that the maker movement represents a return to a set of skills that were, within living memory, simply called "knowing how to do things." Sewing, woodworking, basic metalwork, and the repair of household objects were not hobbies in one's grandparents' generation. They were the baseline. The professionalisation of craft — and the simultaneous availability of disposable goods priced to make repair irrational — converted self-sufficiency into a specialty interest. A sewing class now costs $30 to $75 per session. A woodworking course runs $200 to $600. Access to a [makerspace](https://en.wikipedia.org/wiki/Hackerspace) with a laser cutter and 3D printer costs $50 to $150 per month in membership fees, assuming one lives near enough to one. Those of means commission bespoke furniture and tailored clothing. The reader has an Agent that can teach pattern-reading, joint selection, material calculation, and the specific operational procedures of whatever tools are available — from a $15 hand saw to a $3,000 laser cutter._
+*My Man Jeeves:* _One notes with some interest that the maker movement represents a return to a set of skills that were, within living memory, simply called "knowing how to do things." Sewing, woodworking, basic metalwork, and the repair of household objects were not hobbies in one's grandparents' generation. They were the baseline. The professionalisation of craft — and the simultaneous availability of disposable goods priced to make repair irrational — converted self-sufficiency into a specialty interest. A sewing class now costs $30 to $75 per session. A woodworking course runs $200 to $600. Access to a [makerspace](https://en.wikipedia.org/wiki/Hackerspace) with a laser cutter and 3D printer costs $50 to $150 per month in membership fees, assuming one lives near enough to one. Those of means commission bespoke furniture and tailored clothing. One has an Agent that can teach pattern-reading, joint selection, material calculation, and the specific operational procedures of whatever tools are available — from a $15 hand saw to a $3,000 laser cutter._
 *The Spec:*
 
 ::: prompt
@@ -389,7 +389,7 @@ My situation:
 — My tools and space: [basic hand tools / a sewing machine /
    access to a makerspace / a workshop / just my kitchen
    table and a utility knife]
-— My budget for materials: [$0-20 / $20-50 / $50-100 /
+— My budget for materials: [$0--20 / $20--50 / $50--100 /
    flexible if the project is worth it]
 — What's stopping me: [I don't know where to start /
    I'm afraid of wasting materials / I tried and the result
@@ -410,7 +410,7 @@ Please help me:
 *What to do with the Output:* Make the thing. Use the cheapest materials available for your first version — fabric from a thrift store, scrap wood from a construction site or Habitat ReStore, free filament samples from a makerspace. Your first attempt is a learning tool, not a finished product. Take photos as you go and send them to your Agent when you hit a problem. _"I'm at step 4 and it looks like this [attach photo]. What am I doing wrong?"_ The feedback loop is what makes craft learnable without an apprenticeship.
 
 ::: science
-The maker movement's educational value is well-documented. Halverson & Sheridan (2014) found that making — defined as the design and construction of physical artifacts — develops spatial reasoning, iterative problem-solving, and a tolerance for productive failure that transfers to domains far beyond the workshop. Notably, the benefits are not contingent on the sophistication of the tools: hand-sewing produces the same cognitive engagement as CNC machining. The skill is the design thinking, not the equipment.[^cr8-1]
+The maker movement's educational value is well-documented. Halverson & Sheridan (2014) found that making — defined as the design and construction of physical artifacts — develops spatial reasoning, iterative problem-solving, and a tolerance for productive failure that transfers to domains far beyond the workshop. Notably, the benefits are not contingent on the sophistication of the tools: hand-sewing produces the same cognitive engagement as CNC machining. The skill is the design thinking, not the equipment.[^cr7-1]
 :::
 
 
@@ -429,7 +429,7 @@ Makerspaces are not evenly distributed. They cluster in cities, near universitie
 :::
 
 
-[^cr8-1]: Halverson, E.R. & Sheridan, K.M. (2014). ["The Maker Movement in Education."](https://doi.org/10.17763/haer.84.4.34j1g68140382063) _Harvard Educational Review,_ 84(4), 495–504.
+[^cr7-1]: Halverson, E.R. & Sheridan, K.M. (2014). ["The Maker Movement in Education."](https://doi.org/10.17763/haer.84.4.34j1g68140382063) _Harvard Educational Review,_ 84(4), 495–504.
 
 ---
 
@@ -437,7 +437,7 @@ Makerspaces are not evenly distributed. They cluster in cities, near universitie
 
 *Strategy:* Create + Draft
 *See also:* WB-8: Blogging and Journaling (a regular writing practice), Li-2: Writing a Eulogy (specific application of craft under pressure)
-*My Man Jeeves:* _One observes that creative writing has always presented a particular difficulty in the matter of instruction. The craft can be taught — the evidence of university programs, workshops, and apprenticeships spanning centuries confirms as much — yet the teaching has been unevenly distributed, to put the matter with some delicacy. An MFA program costs $30,000 to $60,000 and accepts a small fraction of applicants. A community workshop, if one exists in one's vicinity, costs $200 to $500 and may or may not be led by someone who has published. The alternative has historically been to write alone, in the dark, hoping that the instincts one absorbed from reading were sufficient to produce something worth reading in return. Sometimes they were. Often they were not, and there was nobody qualified to explain why. Those of considerable means have always retained editors. Workshop seats at [Iowa](https://en.wikipedia.org/wiki/Iowa_Writers%27_Workshop) and [Bread Loaf](https://en.wikipedia.org/wiki/Bread_Loaf_Writers%27_Conference) have always gone disproportionately to those with the connections to know such things existed and the means to attend. The reader now has a writing tutor that has read more widely than any workshop instructor alive and is available at two in the morning, which is when most writing happens._
+*My Man Jeeves:* _One observes that creative writing has always presented a particular difficulty in the matter of instruction. The craft can be taught — the evidence of university programmes, workshops, and apprenticeships spanning centuries confirms as much — yet the teaching has been unevenly distributed, to put the matter with some delicacy. An MFA programme costs $30,000 to $60,000 and accepts a small fraction of applicants. A community workshop, if one exists in one's vicinity, costs $200 to $500 and may or may not be led by someone who has published. The alternative has historically been to write alone, in the dark, hoping that the instincts one absorbed from reading were sufficient to produce something worth reading in return. Sometimes they were. Often they were not, and there was nobody qualified to explain why. Those of considerable means have always retained editors. Workshop seats at [Iowa](https://en.wikipedia.org/wiki/Iowa_Writers%27_Workshop) and [Bread Loaf](https://en.wikipedia.org/wiki/Bread_Loaf_Writers%27_Conference) have always gone disproportionately to those with the connections to know such things existed and the means to attend. One now has a writing tutor that has read more widely than any workshop instructor alive and is available at two in the morning, which is when most writing happens._
 *The Spec:*
 
 ::: prompt
@@ -470,13 +470,15 @@ Please help me:
 :::
 *What to do with the Output:* Write. Not for an hour — for twenty minutes. Set a timer. Write badly on purpose if you have to, but write. Then send the draft to your Agent and ask: _"What's the strongest sentence in this? Build outward from there."_ The strongest sentence is where your actual voice lives. The rest is scaffolding you can revise or remove. The point is not to produce a finished piece in one session. The point is to produce a draft you can return to. If the last time you wrote creatively was a school assignment that came back covered in red ink, this is not that. Nobody is grading this. The only reader who matters is you.
 
+[_The document is blank. The book that made you want to write is right there. DON'T PANIC._]{.art stem="worn-hitchhikers"}
+
 ::: tip
 _"Here's a paragraph I wrote about [topic]. Rewrite it three different ways — more spare, more lyrical, and more conversational — so I can see which voice is mine."_ — Voice is the hardest thing to teach and the easiest thing to find when you can compare options. Your Agent gives you the mirrors. You recognize your face.
 :::
 
 
 ::: science
-Expressive writing produces measurable health benefits beyond the literary. Pennebaker & Beall (1986) demonstrated that writing about emotional experiences for 15 to 20 minutes over three to four days improved immune function and reduced physician visits. Subsequent meta-analyses — Smyth (1998), Frattaroli (2006) — confirmed moderate effects on psychological well-being, physical health, and general functioning across diverse populations. The mechanism appears to be cognitive: translating experience into narrative creates structure from chaos, which is also a working definition of what creative writing does.[^cr9-1]
+Expressive writing produces measurable health benefits beyond the literary. Pennebaker & Beall (1986) demonstrated that writing about emotional experiences for 15 to 20 minutes over three to four days improved immune function and reduced physician visits. Subsequent meta-analyses — Smyth (1998), Frattaroli (2006) — confirmed moderate effects on psychological well-being, physical health, and general functioning across diverse populations. The mechanism appears to be cognitive: translating experience into narrative creates structure from chaos, which is also a working definition of what creative writing does.[^cr8-1]
 :::
 
 
@@ -490,7 +492,7 @@ Your Agent has read the Western literary canon more thoroughly than anything els
 :::
 
 
-[^cr9-1]: Pennebaker, J.W. & Beall, S.K. (1986). ["Confronting a Traumatic Event: Toward an Understanding of Inhibition and Disease."](https://doi.org/10.1037/0021-843X.95.3.274) _Journal of Abnormal Psychology,_ 95(3), 274–281. Smyth, J.M. (1998). ["Written Emotional Expression: Effect Sizes, Outcome Types, and Moderating Variables."](https://doi.org/10.1037/0022-006X.66.1.174) _Journal of Consulting and Clinical Psychology,_ 66(1), 174–184. Frattaroli, J. (2006). ["Experimental Disclosure and Its Moderators: A Meta-Analysis."](https://doi.org/10.1037/0033-2909.132.6.823) _Psychological Bulletin,_ 132(6), 823–865.
+[^cr8-1]: Pennebaker, J.W. & Beall, S.K. (1986). ["Confronting a Traumatic Event: Toward an Understanding of Inhibition and Disease."](https://doi.org/10.1037/0021-843X.95.3.274) _Journal of Abnormal Psychology,_ 95(3), 274–281. Smyth, J.M. (1998). ["Written Emotional Expression: Effect Sizes, Outcome Types, and Moderating Variables."](https://doi.org/10.1037/0022-006X.66.1.174) _Journal of Consulting and Clinical Psychology,_ 66(1), 174–184. Frattaroli, J. (2006). ["Experimental Disclosure and Its Moderators: A Meta-Analysis."](https://doi.org/10.1037/0033-2909.132.6.823) _Psychological Bulletin,_ 132(6), 823–865.
 
 ::: tip
 Write in plain text. A `.txt` or `.md` file will outlast every proprietary format, open in every tool, paste cleanly into any AI conversation, and never corrupt. Word processors add formatting you do not need until the very end. Start in plain text, draft in plain text, revise in plain text. Format when the writing is done. See WB-7: Write in CommonMark and [Appendix J](09-appendix-j-working-with-text.xhtml).
@@ -503,7 +505,7 @@ Write in plain text. A `.txt` or `.md` file will outlast every proprietary forma
 
 *Strategy:* Create + Draft
 *See also:* Cr-2: Learning Visual Design (the principles behind the practice), WB-5: Build a Website, Own Your Corner of the Internet, W-1: Getting a Job (resume design)
-*My Man Jeeves:* _One might draw attention to a difficulty that presents itself with some regularity in the lives of those who are not, by profession, graphic designers — which is to say, nearly everyone. The school requests a flyer for the bake sale. The union local needs a poster for the meeting. A relative's birthday requires an invitation. The small business requires a social media graphic that does not resemble a ransom note. The community garden needs a sign. In each case, the person assigned the task possesses no training in typography, layout, color theory, or the rather critical discipline of visual hierarchy. They open [Canva](https://en.wikipedia.org/wiki/Canva), stare at five thousand templates, choose one at random, change the colors until it looks worse, and publish the result with a quiet sense of defeat. Those of considerable means employ a designer. The reader has an Agent capable of diagnosing why the flyer looks wrong and providing the specific remedies — which font to use, which one to remove, where the eye is going and where it should go instead._
+*My Man Jeeves:* _One might draw attention to a difficulty that presents itself with some regularity in the lives of those who are not, by profession, graphic designers — which is to say, nearly everyone. The school requests a flyer for the bake sale. The union local needs a poster for the meeting. A relative's birthday requires an invitation. The small business requires a social media graphic that does not resemble a ransom note. The community garden needs a sign. In each case, the person assigned the task possesses no training in typography, layout, colour theory, or the rather critical discipline of visual hierarchy. They open [Canva](https://en.wikipedia.org/wiki/Canva), stare at 5,000 templates, choose one at random, change the colours until it looks worse, and publish the result with a quiet sense of defeat. Those of considerable means employ a designer. One has an Agent capable of diagnosing why the flyer looks wrong and providing the specific remedies — which font to use, which one to remove, where the eye is going and where it should go instead._
 *The Spec:*
 
 ::: prompt
@@ -593,7 +595,7 @@ in adult beginners. Please:
 *What to do with the Output:* Practice. For the time you said you had, on the days you said you would. When you get stuck — and you will get stuck, everyone gets stuck — describe the problem to your Agent: _"I'm trying to switch from G to C and my fingers won't move fast enough. What exercise fixes this specific transition?"_ The specificity matters. "How do I get better at guitar" produces generic advice. "How do I make my ring finger stop muting the B string on a C chord" produces the exercise you need tonight. The hardest part of learning an instrument as an adult is not the fingers. It is the willingness to be bad at something, in front of yourself, for months. That willingness is the actual skill. Everything else is technique.
 
 ::: science
-Learning a musical instrument as an adult produces measurable cognitive benefits. Balbag et al. (2014) found that twin pairs in which one twin played an instrument and the other did not showed significant differences in cognitive function in later life — the playing twin showed 64% lower odds of developing dementia and cognitive impairment, even controlling for shared genetics. Bugos et al. (2007) demonstrated that individualized piano instruction for adults aged 60 to 85 improved executive function and working memory after just six months. The slow-skill nature of instrument learning — the fact that it cannot be rushed, that it requires daily practice over months — appears to be part of the mechanism. The brain benefits from the struggle, not despite it.[^cr11-1]
+Learning a musical instrument as an adult produces measurable cognitive benefits. Balbag et al. (2014) found that twin pairs in which one twin played an instrument and the other did not showed significant differences in cognitive function in later life — the playing twin showed 64% lower odds of developing dementia and cognitive impairment, even controlling for shared genetics. Bugos et al. (2007) demonstrated that individualized piano instruction for adults aged 60 to 85 improved executive function and working memory after just six months. The slow-skill nature of instrument learning — the fact that it cannot be rushed, that it requires daily practice over months — appears to be part of the mechanism. The brain benefits from the struggle, not despite it.[^cr10-1]
 :::
 
 
@@ -612,4 +614,4 @@ Free instrument-learning resources vary dramatically in quality and accessibilit
 :::
 
 
-[^cr11-1]: Balbag, M.A., Pedersen, N.L. & Gatz, M. (2014). ["Playing a Musical Instrument as a Protective Factor against Dementia and Cognitive Impairment: A Population-Based Twin Study."](https://doi.org/10.3233/JAD-140331) _International Journal of Alzheimer's Disease,_ 2014, Article 836748. Bugos, J.A. et al. (2007). ["Individualized Piano Instruction Enhances Executive Functioning and Working Memory in Older Adults."](https://doi.org/10.1080/13607860701529245) _Aging & Mental Health,_ 11(4), 464–471.
+[^cr10-1]: Balbag, M.A., Pedersen, N.L. & Gatz, M. (2014). ["Playing a Musical Instrument as a Protective Factor against Dementia and Cognitive Impairment: A Population-Based Twin Study."](https://doi.org/10.1155/2014/836748) _International Journal of Alzheimer's Disease,_ 2014, Article 836748. Bugos, J.A. et al. (2007). ["Individualized Piano Instruction Enhances Executive Functioning and Working Memory in Older Adults."](https://doi.org/10.1080/13607860701529245) _Aging & Mental Health,_ 11(4), 464–471.

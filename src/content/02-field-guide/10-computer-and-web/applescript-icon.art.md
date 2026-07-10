@@ -2,7 +2,7 @@
 format: png
 size: margin
 alt: >
-  The original AppleScript icon — a paper scroll, slightly curled at top and bottom — rendered in 8-bit pixel art on a Mac System 7 desktop tile
+  The original AppleScript scroll icon on a Mac System 7 desktop.
 ---
 
 The original AppleScript icon from the early 90s, rendered in 8-bit

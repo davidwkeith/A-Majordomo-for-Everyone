@@ -2,7 +2,8 @@
 format: png
 size: half-left
 alt: >
-  A small thermal-printed paper queue ticket numbered 847 from a government office, shown front and back — the back has a handwritten checklist of required documents in ballpoint pen
+  DMV queue ticket number 847, front and back; the back holds a
+  handwritten checklist of required documents.
 ---
 
 Hand-drawn #2 pencil sketch of a small thermal-printed queue ticket,

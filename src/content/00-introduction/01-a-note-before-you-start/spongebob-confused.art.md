@@ -2,8 +2,7 @@
 format: png
 size: margin
 alt: >
-  An 8-bit pixel art rendering of the confused SpongeBob meme — a
-  small yellow figure with arms slightly raised in bewilderment.
+  The confused SpongeBob meme — arms raised, utterly bewildered.
 ---
 
 The confused SpongeBob meme (the one where he's sitting with the

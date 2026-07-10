@@ -2,9 +2,8 @@
 format: png
 size: full
 alt: >
-  A Trinitron TV on notebook paper showing an 8-bit scene of Murphy
-  at her desk, eyes on the ceiling. A secretary sits across from her
-  with a notepad. A typewriter between them has a blank page.
+  Murphy Brown stares at the ceiling while her secretary waits, pen
+  poised, over a typewriter holding a blank page.
 ---
 
 TRINITRON CHAPTER OPENER. Murphy at her desk, eyes on the ceiling.

@@ -2,7 +2,8 @@
 format: png
 size: full
 alt: >
-  A simplified side-view diagram of a generic sedan in pencil, with six labeled arrows pointing to common maintenance areas: engine oil, coolant, air filter, brakes, battery, and tires.
+  Side view of a sedan with arrows marking six maintenance points:
+  oil, coolant, air filter, brakes, battery, and tires.
 ---
 
 Hand-drawn #2 pencil side-profile diagram of a generic 4-door sedan,

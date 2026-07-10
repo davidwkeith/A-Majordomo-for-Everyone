@@ -93,7 +93,7 @@ Content files use [Djot](https://djot.net) markup (`.dj` extension). Key differe
 ---
 title: "Chapter Title"
 part: 0-4
-order: 0-N
+order: -1..N
 strategy: null | 0-9
 status: "draft" | "stub"
 ---

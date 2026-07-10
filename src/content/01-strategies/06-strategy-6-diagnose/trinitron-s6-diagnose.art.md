@@ -2,10 +2,8 @@
 format: png
 size: full
 alt: >
-  A Trinitron TV on notebook paper showing an 8-bit scene of Tim in a
-  workshop with a large power tool angled dangerously. Al stands
-  beside him, arms crossed, watching a slow-motion disaster he
-  cannot stop.
+  Tim angles a power tool toward disaster while Al watches, arms
+  crossed, unable to stop what happens next.
 ---
 
 TRINITRON CHAPTER OPENER. Tim in a workshop, large power tool at

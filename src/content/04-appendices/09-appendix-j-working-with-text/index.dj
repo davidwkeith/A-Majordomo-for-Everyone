@@ -1,12 +1,12 @@
 ---
-title: "Appendix J: Working With Text — How Your Agent Reads"
+title: "Appendix J: Working with Text — How Your Agent Reads"
 part: 4
 order: 9
 strategy: null
 status: "draft"
 ---
 
-## Appendix J: Working With Text
+## Appendix J: Working with Text — How Your Agent Reads
 
 _You do not need to read this appendix to use this book. Every technique in these pages works without understanding the machinery. This is the owner's manual for people who want to look under the hood._
 
@@ -18,9 +18,9 @@ When you open a conversation with your Agent, you are opening a shared workspace
 
 A clean desk with one document on it gets full attention. A desk buried under forty pages of irrelevant material gets the same total attention spread across everything — which means less attention on the thing that matters.
 
-Your Agent's working memory is large — tens of thousands of words in a single conversation. But it is not infinite, and not all of it receives equal attention. The beginning and end of a conversation are processed most reliably. The middle can get murky in long sessions — a position bias researchers have named "lost in the middle."[^j-litm] This is not a flaw. It is how the technology works, and knowing it changes how you use it.
+Your Agent's working memory is large — tens of thousands of words in a single conversation. But it is not infinite, and not all of it receives equal attention. The beginning and end of a conversation are processed most reliably. The middle can get murky in long sessions — a position bias researchers have named "lost in the middle."[^j-1] This is not a flaw. It is how the technology works, and knowing it changes how you use it.
 
-[^j-litm]: Liu, N.F. et al. (2024). ["Lost in the Middle: How Language Models Use Long Contexts."](https://arxiv.org/abs/2307.03172) _Transactions of the Association for Computational Linguistics_, 12, 157–173.
+[^j-1]: Liu, N.F. et al. (2024). ["Lost in the Middle: How Language Models Use Long Contexts."](https://arxiv.org/abs/2307.03172) _Transactions of the Association for Computational Linguistics_, 12, 157–173.
 
 ---
 
@@ -28,7 +28,7 @@ Your Agent's working memory is large — tens of thousands of words in a single 
 
 Your Agent reads in units called _tokens_. A token is roughly three-quarters of a word — "compound interest" is two tokens, "Explanation of Benefits" is three or four. Every message you send, every reply the Agent generates, every document you paste in is measured in tokens. The free tier gives you a daily budget of tokens. The paid tier gives you more.
 
-You do not need to count tokens. You need to know one thing: *everything you put in the conversation uses some of your budget, including the parts you did not mean to include.* The signature block at the bottom of a forwarded email. The legal disclaimer on a bank statement. The forty-seven previous replies in a forwarded email chain. All of it costs tokens and none of it helps your Agent think about your question.
+You do not need to count tokens. You need to know one thing: *everything you put in the conversation uses some of your budget, including the parts you did not mean to include.* The signature block at the bottom of a forwarded email. The legal disclaimer on a bank statement. The 47 previous replies in a forwarded email chain. All of it costs tokens and none of it helps your Agent think about your question.
 
 ---
 
@@ -61,7 +61,7 @@ For everything else — bills, labels, contracts, printed letters — get the te
 
 The single most effective thing you can do to improve your Agent's responses is give it less to read — but make sure what you give it is the right material.
 
-This is the majordomo principle in reverse. The billionaire's chief of staff did not hand the boss a filing cabinet. She read the filing cabinet, extracted the relevant page, highlighted the relevant paragraph, and handed over one sheet of paper. You can do the same thing for your Agent — or you can ask your Agent to do it for you.
+This is the majordomo principle in reverse. The billionaire's chief of staff did not hand the boss a filing cabinet. They read the filing cabinet, extracted the relevant page, highlighted the relevant paragraph, and handed over one sheet of paper. You can do the same thing for your Agent — or you can ask your Agent to do it for you.
 
 *Don't paste the whole document when one section will do.* A 40-page lease has one clause you're confused about. Paste that clause, plus the definitions section if there is one. Your Agent will give you a better answer from two focused paragraphs than from forty pages of boilerplate.
 

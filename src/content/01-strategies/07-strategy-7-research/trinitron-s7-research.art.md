@@ -2,10 +2,8 @@
 format: png
 size: full
 alt: >
-  A Trinitron TV on notebook paper showing an 8-bit scene of Roseanne
-  and Dan at the kitchen table, papers and bills spread between them,
-  both leaning forward with the exhausted focus of people trying to
-  make a good decision from bad information.
+  Roseanne and Dan at the kitchen table over bills and a contract,
+  trying to make a good decision from bad information.
 ---
 
 TRINITRON CHAPTER OPENER. Roseanne and Dan at the kitchen table,

@@ -2,7 +2,8 @@
 format: png
 size: margin
 alt: >
-  A System 7 desktop icon for ELIZA, the 1966 chatbot — a speech bubble containing a question mark — rendered in 8-bit pixel art with the label "ELIZA" beneath in Chicago-style hand-lettering
+  System 7 desktop icon for ELIZA, the 1966 chatbot: a speech bubble
+  containing a question mark, labeled 'ELIZA'.
 ---
 
 A Mac System 7 app icon for ELIZA --- the 1966 MIT chatbot, the

@@ -6,11 +6,13 @@ strategy: null
 status: "draft"
 ---
 
-### CIVIC
+### Civic
 
 _Democracy was designed as a participatory system. In practice, participation requires reading ballot measures written by lawyers, attending meetings held during work hours, understanding zoning codes that predate your grandparents, and navigating bureaucracies that treat citizen input as a compliance requirement rather than a design constraint. The billionaire class participates through lobbyists, counsel, and staff who track every hearing and filing deadline. You participate by showing up after a full workday and hoping you understand the agenda. The Skills that follow give you the preparation the lobbyist already has._
 
-_Some companies and governments are now proposing a "Right to AI" --- that access to AI should be treated as foundational infrastructure, like electricity or the internet. This book agrees. It also notes that a right you cannot exercise is a right in name only. The Skills that follow are the exercise._
+::: fairness
+Some companies and governments are now proposing a "Right to AI" --- that access to AI should be treated as foundational infrastructure, like electricity or the internet. This book agrees. It also notes that a right you cannot exercise is a right in name only. The Skills that follow are the exercise.
+:::
 
 ---
 
@@ -75,7 +77,7 @@ _"I want to record [a police interaction / a public official / an encounter] in 
 
 *Strategy:* Assert + Research
 *See also:* C-4: Understanding a Ballot Measure (know what you're voting on), C-6: Advocating for Change
-*My Man Jeeves:* _One might observe that voter suppression in America does not, as a general matter, present itself as someone blocking the door. It assumes the form of a polling place relocated without notice, a registration purge conducted quietly, an identification requirement that carries a cost to satisfy, and a queue that extends three hours in one neighborhood while lasting fifteen minutes in another. An awareness of one's rights as a voter serves, in effect, as a defense against a system that --- one could not avoid noticing --- renders participation most difficult for precisely those persons who would alter it. One's Agent can verify one's registration, locate one's polling place, and explain what is on the ballot before one arrives._
+*My Man Jeeves:* _One might observe that voter suppression in America does not, as a general matter, present itself as someone blocking the door. It assumes the form of a polling place relocated without notice, a registration purge conducted quietly, an identification requirement that carries a cost to satisfy, and a queue that extends three hours in one neighbourhood while lasting 15 minutes in another. An awareness of one's rights as a voter serves, in effect, as a defence against a system that --- one could not avoid noticing --- renders participation most difficult for precisely those persons who would alter it. One's Agent can verify one's registration, locate one's polling place, and explain what is on the ballot before one arrives._
 *The Spec:*
 
 ::: prompt
@@ -113,7 +115,7 @@ Felon disenfranchisement varies wildly by state. Maine and Vermont allow voting 
 :::
 
 
-[^c2-1]: _Shelby County v. Holder_, 570 U.S. 529 (2013). The Leadership Conference Education Fund. (2019). [_Democracy Diverted: Polling Place Closures and the Right to Vote._](https://civilrightsorg.wpenginepowered.com/wp-content/uploads/2019/09/Democracy-Diverted.pdf) See also Meredith, M. & Morse, M. (2014). ["Do Voting Rights Notification Laws Increase Ex-Felon Turnout?"](https://doi.org/10.1177/0002716214525016) _Annals of the American Academy of Political and Social Science_, 651, 220--249.
+[^c2-1]: [_Shelby County v. Holder_, 570 U.S. 529 (2013)](https://www.law.cornell.edu/supremecourt/text/12-96). The Leadership Conference Education Fund. (2019). [_Democracy Diverted: Polling Place Closures and the Right to Vote._](https://civilrightsorg.wpenginepowered.com/wp-content/uploads/2019/09/Democracy-Diverted.pdf) See also Meredith, M. & Morse, M. (2014). ["Do Voting Rights Notification Laws Increase Ex-Felon Turnout?"](https://doi.org/10.1177/0002716214525016) _Annals of the American Academy of Political and Social Science_, 651, 220--249.
 
 [^c2-2]: See the Brennan Center for Justice ([brennancenter.org](https://www.brennancenter.org)) and the bipartisan Election Assistance Commission for voter rights resources by state.
 
@@ -125,7 +127,7 @@ Felon disenfranchisement varies wildly by state. Maine and Vermont allow voting 
 
 *Strategy:* Research + Assert
 *See also:* C-1: Knowing Your Rights During a Police Encounter, C-2: Knowing Your Voter Rights, L-1: Negotiating a Contract (for lease and employment agreements)
-*My Man Jeeves:* _It would be uncontroversial to observe that every human on Earth possesses rights. Some are inalienable --- the [Universal Declaration of Human Rights](https://en.wikipedia.org/wiki/Universal%5FDeclaration%5Fof%5FHuman%5FRights) enumerates thirty of them. Some are constitutional. Some are statutory. Some depend upon one's state, county, city, employer, and landlord. The practical experience of those rights varies so dramatically by jurisdiction that two persons holding the same citizenship may find themselves living under meaningfully different legal regimes depending upon which side of a state line they happen to sleep on. The billionaire class is, one might note, well aware of this circumstance --- it is the reason they select their residence with such care. It would seem prudent for the reader to be similarly informed. One's Agent can explain which rights apply in one's specific jurisdiction._
+*My Man Jeeves:* _It would be uncontroversial to observe that every human on Earth possesses rights. Some are inalienable --- the [Universal Declaration of Human Rights](https://en.wikipedia.org/wiki/Universal%5FDeclaration%5Fof%5FHuman%5FRights) enumerates thirty of them. Some are constitutional. Some are statutory. Some depend upon one's state, county, city, employer, and landlord. The practical experience of those rights varies so dramatically by jurisdiction that two persons holding the same citizenship may find themselves living under meaningfully different legal regimes depending upon which side of a state line they happen to sleep on. The billionaire class is, one might note, well aware of this circumstance --- it is the reason they select their residence with such care. It would seem prudent for one to be similarly informed. One's Agent can explain which rights apply in one's specific jurisdiction._
 *The Spec:*
 
 ::: prompt
@@ -185,7 +187,7 @@ Legal aid exists but does not reach everyone who needs it. LSC-funded legal aid 
 
 *Strategy:* Decode
 *See also:* C-2: Knowing Your Voter Rights (for the voting process), C-5: Writing a Public Comment (for weighing in before it's on the ballot)
-*My Man Jeeves:* _One might observe that ballot measure language is composed by attorneys whose principal concern is surviving legal challenge rather than informing the electorate. The official title, it would appear, frequently describes something approaching the opposite of what the measure accomplishes. The fiscal analysis, while commendably accurate, presupposes a familiarity with the very system it purports to analyze. That this arrangement is regarded as democratic participation is, perhaps, a matter upon which reasonable persons might reflect. One's Agent, having no particular allegiance to either side of the measure, is tolerably well equipped to render the language into English._
+*My Man Jeeves:* _One might observe that ballot measure language is composed by attorneys whose principal concern is surviving legal challenge rather than informing the electorate. The official title, it would appear, frequently describes something approaching the opposite of what the measure accomplishes. The fiscal analysis, while commendably accurate, presupposes a familiarity with the very system it purports to analyse. That this arrangement is regarded as democratic participation is, perhaps, a matter upon which reasonable persons might reflect. One's Agent, having no particular allegiance to either side of the measure, is tolerably well equipped to render the language into English._
 *The Spec:*
 
 ::: prompt
@@ -248,7 +250,7 @@ This is not just for city hall. Federal agencies accept public comments on propo
 
 *Strategy:* Draft + Navigate
 *See also:* C-5: Writing a Public Comment, C-4: Understanding a Ballot Measure, W-5: Unions (collective action uses the same skills)
-*My Man Jeeves:* _The most frequently offered political counsel in America is "vote." One would not wish to dispute the necessity of this advice, merely to observe that it is, by itself, wildly insufficient. Between elections, decisions are made by those persons who attend meetings, submit comments, telephone offices, organize their neighbors, and apply sustained pressure to specific officials regarding specific matters. These individuals are not, it would appear, possessed of any extraordinary qualities. They are informed, persistent, and --- a point that merits emphasis --- typically fewer in number than one might suppose. In most local decisions, the margin between prevailing and not is measured in single-digit persons. One's Agent can help one become one of them._
+*My Man Jeeves:* _The most frequently offered political counsel in America is "vote." One would not wish to dispute the necessity of this advice, merely to observe that it is, by itself, wildly insufficient. Between elections, decisions are made by those persons who attend meetings, submit comments, telephone offices, organize their neighbours, and apply sustained pressure to specific officials regarding specific matters. These individuals are not, it would appear, possessed of any extraordinary qualities. They are informed, persistent, and --- a point that merits emphasis --- typically fewer in number than one might suppose. In most local decisions, the margin between prevailing and not is measured in single-digit persons. One's Agent can help one become one of them._
 *The Spec:*
 
 ::: prompt
@@ -356,7 +358,7 @@ AI-generated evidence and algorithmic tools are entering the courtroom. Predicti
 
 [^c7-2]: Pennington, N. & Hastie, R. (1992). ["Explaining the Evidence: Tests of the Story Model for Juror Decision Making."](https://doi.org/10.1037/0022-3514.62.2.189) _Journal of Personality and Social Psychology_, 62(2), 189--206.
 
-[^c7-3]: Robertson, N., Davies, G., & Nettleingham, A. (2009). ["Vicarious traumatisation as a consequence of jury service."](https://doi.org/10.1093/hjl/hzp010) _Howard Journal of Criminal Justice_, 48(1), 1--12. On juror compensation: National Center for State Courts, ["Jury Manager's Toolbox."](https://www.ncsc.org/)
+[^c7-3]: Robertson, N., Davies, G., & Nettleingham, A. (2009). ["Vicarious traumatisation as a consequence of jury service."](https://doi.org/10.1111/j.1468-2311.2008.00539.x) _Howard Journal of Criminal Justice_, 48(1), 1--12. On juror compensation: National Center for State Courts, ["Jury Manager's Toolbox."](https://www.ncsc.org/)
 
 ---
 
@@ -364,7 +366,7 @@ AI-generated evidence and algorithmic tools are entering the courtroom. Predicti
 
 *Strategy:* Research + Draft + Navigate
 *See also:* C-5: Writing a Public Comment (the core skill), C-6: Advocating for Change (for sustained engagement), C-4: Understanding a Ballot Measure (for decoding proposals)
-*My Man Jeeves:* _It would appear that governments at every level are, at this moment, determining how AI will be regulated, who will have access to it, and what guardrails will be established. These decisions proceed through the same mechanisms as every other policy matter: legislative hearings, agency rulemaking, public comment periods, and lobbying. The companies building AI maintain full-time policy teams who draft language, attend hearings, and submit comments measured in hundreds of pages. The public comment period is, one might mention, open to the reader as well. It is not a formality --- agencies are legally required to consider substantive comments, and a carefully specified comment from a person who will actually live under the rule carries a weight that a form letter, one ventures to suggest, does not. One's Agent can help one write one._
+*My Man Jeeves:* _It would appear that governments at every level are, at this moment, determining how AI will be regulated, who will have access to it, and what guardrails will be established. These decisions proceed through the same mechanisms as every other policy matter: legislative hearings, agency rulemaking, public comment periods, and lobbying. The companies building AI maintain full-time policy teams who draft language, attend hearings, and submit comments measured in hundreds of pages. The public comment period is, one might mention, open to oneself as well. It is not a formality --- agencies are legally required to consider substantive comments, and a carefully specified comment from a person who will actually live under the rule carries a weight that a form letter, one ventures to suggest, does not. One's Agent can help one write one._
 *The Spec:*
 
 ::: prompt
@@ -409,14 +411,10 @@ Track active AI legislation and rulemaking: the [Electronic Frontier Foundation]
 :::
 
 
-[^c8-1]: Administrative Procedure Act, 5 U.S.C. § 553. On comment effectiveness: Coglianese, C. (2006). ["Citizen Participation in Rulemaking: Past, Present, and Future."](https://doi.org/10.1215/03616878-2005-016) _Duke Law Journal_, 55, 943--968. Farina, C.R., et al. (2012). ["Rulemaking vs. Democracy: Judging and Nudging Public Participation That Counts."](https://scholarship.law.cornell.edu/facpub/584/) _Michigan Journal of Environmental and Administrative Law_, 2(1), 123--172. See also regulations.gov for currently open comment periods.
+[^c8-1]: Administrative Procedure Act, 5 U.S.C. § 553. On comment effectiveness: Coglianese, C. (2006). ["Citizen Participation in Rulemaking: Past, Present, and Future."](https://scholarship.law.duke.edu/dlj/vol55/iss5/2/) _Duke Law Journal_, 55, 943--968. Farina, C.R., et al. (2012). ["Rulemaking vs. Democracy: Judging and Nudging Public Participation That Counts."](https://scholarship.law.cornell.edu/facpub/584/) _Michigan Journal of Environmental and Administrative Law_, 2(1), 123--172. See also regulations.gov for currently open comment periods.
 
 <!-- BRAINSTORM: Future Civic Skills
 — C-9: Accessing Public Records (FOIA) — the government's information is your information. Filing requests at federal, state, and local levels.
 — C-10: Census and Redistricting — how you get counted determines how you get represented. The structural math of democracy.
 — C-11: Starting a Nonprofit — forming a 501(c)(3), governance, fundraising, compliance. The legal infrastructure of doing good.
 -->
-
----
-
-### Starting a non-profit

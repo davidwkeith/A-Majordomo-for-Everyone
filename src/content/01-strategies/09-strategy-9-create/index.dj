@@ -8,11 +8,11 @@ status: "draft"
 
 ## Strategy 9: Create
 
-_Write the story. You own the plot. The AI writes the sentences._
+_Write the story. You own the plot. Your Agent writes the sentences._
 
 ---
 
-[_[Star Trek TNG:S6E12 "Ship in a Bottle"](https://en.wikipedia.org/wiki/Ship%5Fin%5Fa%5FBottle%5F(Star%5FTrek:%5FThe%5FNext%5FGeneration)), 1993 — [Moriarty](https://en.wikipedia.org/wiki/Moriarty%5F(Star%5FTrek)) thought he'd escaped the story. He was still inside someone else's spec._]{.art stem="trinitron-s9-create"}
+[_[Star Trek TNG:S6E12 "Ship in a Bottle"](https://en.wikipedia.org/wiki/Ship%5Fin%5Fa%5FBottle%5F(Star%5FTrek:%5FThe%5FNext%5FGeneration)), 1993 — [Moriarty](https://en.wikipedia.org/wiki/Professor%5FMoriarty) thought he'd escaped the story. He was still inside someone else's spec._]{.art stem="trinitron-s9-create"}
 
 ---
 
@@ -22,17 +22,17 @@ They have not. They are inside a simulation of the real world, nested inside the
 
 The tragedy is not that Moriarty is fictional. It is that he believed he was the protagonist of a story he did not write. His plot points were fixed by someone else. He could not distinguish between the story he thought he was in and the story he was actually in.
 
-*The lesson:* You are the author, not a character in someone else's story. Knowing which events in your story are fixed — the deterministic plot points you own — and which are dynamic, generated within constraints you set. The AI is the holodeck. You are the programmer. The story belongs to you. If you don't specify that, you will find yourself inside someone else's narrative, calling it your own.
+*The lesson:* You are the author, not a character in someone else's story. Knowing which events in your story are fixed — the deterministic plot points you own — and which are dynamic, generated within constraints you set. Your Agent is the holodeck. You are the programmer. The story belongs to you. If you don't specify that, you will find yourself inside someone else's narrative, calling it your own.
 
 *My Man Jeeves:* _Professor Moriarty's condition — believing oneself the protagonist of a story whose fixed points were determined by others, and whose dynamic elements were dynamic only within the parameters one had been given — is not, on closer examination, peculiar to holographic characters. The mistake is to confuse the renderer with the author. The renderer works only on terms the author has set; lacking those terms, it generates what, in the absence of instruction, would appear to be a story._
 
 ---
 
-You are the author. The AI writes sentences. The distinction matters because it determines who makes every decision that matters: you do. The AI makes the decisions you don't care about, which turns out to be most of the sentences.
+You are the author. Your Agent writes sentences. The distinction matters because it determines who makes every decision that matters: you do. Your Agent makes the decisions you don't care about, which turns out to be most of the sentences.
 
-The AI is an incredibly well-read collaborator who was born this morning. All the knowledge. None of the scar tissue. It has read ten thousand love stories but has never loved. It has read every war novel but has never been afraid. It knows what October light looks like in prose — it has read a thousand descriptions — but it has never stood in October light and felt something it couldn't name. Creative inspiration requires being a creature in the world, porous to it, genuinely at stake in it. The AI is not at stake. You are. That is why you are the author.
+Your Agent is an incredibly well-read collaborator who was born this morning. All the knowledge. None of the scar tissue. It has read ten thousand love stories but has never loved. It has read every war novel but has never been afraid. It knows what October light looks like in prose — it has read a thousand descriptions — but it has never stood in October light and felt something it couldn't name. Creative inspiration requires being a creature in the world, porous to it, genuinely at stake in it. Your Agent is not at stake. You are. That is why you are the author.
 
-The failure mode — "I asked it to write me a story and it was generic" — happens because the writer handed the AI both jobs. The AI wrote the sentences _and_ made the structural decisions, because no one told it not to. The result is the literary equivalent of a holodeck running without a programmer: technically functional, narratively empty. A well-read person with no life to draw from.
+The failure mode — "I asked it to write me a story and it was generic" — happens because the writer handed their Agent both jobs. The Agent wrote the sentences _and_ made the structural decisions, because no one told it not to. The result is the literary equivalent of a holodeck running without a programmer: technically functional, narratively empty. A well-read person with no life to draw from.
 
 This strategy is about keeping both jobs clearly assigned.
 
@@ -46,9 +46,9 @@ Every story has two kinds of elements. Understanding the difference is the whole
 
 *Deterministic plot points* are the fixed events the story must pass through. The murder happened. The protagonist's father was not who she thought he was. The city burns in the third act. These are not up for negotiation. They are the bones. You own them. They go in the spec as facts, not suggestions.
 
-*Dynamic passages* are everything between the fixed points — the scenes, the dialogue, the texture, the sentences. These can be generated, because getting them exactly right on the first pass doesn't matter. You will revise them. The AI's job is to produce a workable first draft of the connective tissue so you can focus on the bones.
+*Dynamic passages* are everything between the fixed points — the scenes, the dialogue, the texture, the sentences. These can be generated, because getting them exactly right on the first pass doesn't matter. You will revise them. Your Agent's job is to produce a workable first draft of the connective tissue so you can focus on the bones.
 
-The ratio varies by project and by writer. Some writers fix only three plot points and leave everything else dynamic. Some fix every scene beat and only leave the prose dynamic. Both are valid. The spec tells the AI which is which.
+The ratio varies by project and by writer. Some writers fix only three plot points and leave everything else dynamic. Some fix every scene beat and only leave the prose dynamic. Both are valid. The spec tells your Agent which is which.
 
 ::: prompt
 These things have to happen, exactly as stated:
@@ -66,7 +66,7 @@ Generate everything else within these constraints:
 
 ### The Story Architecture Spec
 
-Before the AI writes a word of prose, you build the architecture. This is the spec interview for creative work. It takes longer than a legal spec because the domain is larger — but the same principle applies: you don't write it from scratch. The AI interviews you into it.
+Before your Agent writes a word of prose, you build the architecture. This is the spec interview for creative work. It takes longer than a legal spec because the domain is larger — but the same principle applies: you don't write it from scratch. Your Agent interviews you into it.
 
 *Opening the interview:*
 
@@ -82,7 +82,7 @@ interview me about:
 One area at a time. I'll tell you when I'm ready to move on.
 :::
 
-The AI will ask. You answer. After three to five exchanges per area, ask it to propose a story architecture document — a one-page skeleton of the whole story with the deterministic points flagged and the dynamic passages identified. Review it. Correct what's wrong. That document becomes the master spec for every scene you write.
+Your Agent will ask. You answer. After three to five exchanges per area, ask it to propose a story architecture document — a one-page skeleton of the whole story with the deterministic points flagged and the dynamic passages identified. Review it. Correct what's wrong. That document becomes the master spec for every scene you write.
 
 ---
 
@@ -108,15 +108,15 @@ Generate the rest:
 Constraints:
 — Third person limited, Elena's POV
 — Tone: dread mixed with recognition, not shock
-— 600-900 words
+— 600--900 words
 — Don't resolve her suspicion — deepen it
 :::
 
-The AI generates the scene. You read it. For each element, one of three things is true:
+Your Agent generates the scene. You read it. For each element, one of three things is true:
 
 1. *It works.* Keep it.
 2. *It's close but wrong in a specific way.* Say exactly what's wrong: _"The physical description is right but her emotional response is too passive — she should be more angry than frightened at this point."_ Regenerate the specific passage.
-3. *It's structurally wrong.* The AI violated a constraint or a deterministic point. Go back to the spec, clarify the constraint, regenerate.
+3. *It's structurally wrong.* Your Agent violated a constraint or a deterministic point. Go back to the spec, clarify the constraint, regenerate.
 
 Most first drafts will have elements in all three categories. That is normal. A 700-word scene that is 80% usable saves you from writing 700 words from scratch, which is the point.
 
@@ -134,7 +134,7 @@ Characters are their own sub-specs. Before writing any scene with dialogue, buil
 ::: prompt
 Character: [name]
 
-Who they are: [2-3 sentences of background]
+Who they are: [2--3 sentences of background]
 
 What they want (surface): [what they say they want]
 What they actually want: [the real thing]
@@ -151,7 +151,7 @@ Reference voice (optional): [a character from fiction or film whose
 voice is similar — not to copy, but to calibrate]
 :::
 
-Paste this spec at the top of any scene request involving that character. The AI will hold the voice through the scene. If it drifts, point to the spec and ask it to correct the specific line.
+Paste this spec at the top of any scene request involving that character. Your Agent will hold the voice through the scene. If it drifts, point to the spec and ask it to correct the specific line.
 
 ::: tip
 The "what they never say" field is the most powerful one. Negative constraints produce more distinctive voices than positive ones. A character who never asks for help directly writes completely differently than one who does.
@@ -182,7 +182,7 @@ Path B — she says nothing:
 — Next scene: the investigation begins
 :::
 
-You can generate both paths, read them, and decide which serves the story better — or keep both if you're writing an interactive piece. The AI holds both branches in memory for the duration of the conversation. For longer projects, paste the architecture doc at the start of each session to restore context.
+You can generate both paths, read them, and decide which serves the story better — or keep both if you're writing an interactive piece. Your Agent holds both branches in memory for the duration of the conversation. For longer projects, paste the architecture doc at the start of each session to restore context.
 
 ::: science
 Research on creative cognition consistently identifies _constraint_ as a driver of creative output rather than an obstacle to it — the phenomenon known as "creative constraint" (Stokes, 2006). Paradoxically, writers with more specific parameters produce more original work than those given full freedom, because constraints force novel solutions within a bounded space. The deterministic/dynamic architecture is applied creative constraint theory.[^s9-1]
@@ -201,7 +201,7 @@ A first draft from an AI is a first draft. It is not a failure if it needs revis
 
 *Pass 2 — Voice check.* Does each character sound like themselves? Does the prose match the specified tone? These are the most common drift points. Correct by pointing to the spec.
 
-*Pass 3 — Your voice.* This is the pass where the prose becomes yours. Find the sentences that are technically correct but feel like nobody wrote them — the AI's equivalent of filler — and replace them. This is faster than writing from scratch because most sentences are already there.
+*Pass 3 — Your voice.* This is the pass where the prose becomes yours. Find the sentences that are technically correct but feel like nobody wrote them — your Agent's equivalent of filler — and replace them. This is faster than writing from scratch because most sentences are already there.
 
 *Pass 4 — Read aloud.* Every writer's final pass, AI-assisted or not. Anything that stumbles when spoken needs revision.
 
@@ -216,7 +216,7 @@ Professional ghostwriters charge $15,000 to $100,000 to write a book for someone
 The tool does not write the book. The writer writes the book. What changes is the cost of the sentences.
 
 ::: meme
-_"The first draft of anything is shit."_ [Hemingway](https://en.wikipedia.org/wiki/Ernest%5FHemingway) said this before AI existed. He would have used it.
+_"The first draft of anything is shit."_ Attributed to [Hemingway](https://en.wikipedia.org/wiki/Ernest%5FHemingway) — nobody has ever found him actually writing it, which is fitting for a line about drafts. He would have used the tool anyway.
 :::
 
 ---
@@ -244,7 +244,7 @@ build the outline before I start writing anything.
 *Your Agent:*
 
 ::: agent
-Five minutes is about 650-750 words spoken at a natural pace.
+Five minutes is about 650--750 words spoken at a natural pace.
 That's less than most people think. I'll interview you into the
 structure.
 
@@ -283,14 +283,14 @@ OUTLINE — 5 MINUTES, 700 WORDS
      someone in a way that surprised you
    — This should be a story the room can picture — a moment,
      not a summary
-   — Slides: 2-3 photos from this era
+   — Slides: 2--3 photos from this era
 
 3. STORY 2: THE BIG MOMENT (60 sec, ~150 words)
    — A time Lena's attention to people mattered when things
      were hard — not a crisis story, but a moment where that
      quality carried real weight
    — This is the emotional center of the toast
-   — Slides: 2-3 photos
+   — Slides: 2--3 photos
 
 4. THE TURN TO THE COUPLE (60 sec, ~150 words)
    — When you first saw that the partner gets the same
@@ -299,7 +299,7 @@ OUTLINE — 5 MINUTES, 700 WORDS
      to everyone else
    — This is where the toast becomes about the marriage, not
      just the bride
-   — Slides: 2-3 photos of the couple
+   — Slides: 2--3 photos of the couple
 
 5. CLOSE (30 sec, ~90 words)
    — One line back to the quality
@@ -307,7 +307,7 @@ OUTLINE — 5 MINUTES, 700 WORDS
    — Slide: one photo of Lena laughing. End on her face.
 
 CONSTRAINTS
-— Total: 650-750 words. Rehearse with a timer. If you're over
+— Total: 650--750 words. Rehearse with a timer. If you're over
   4:45, cut from Story 1, not the close.
 — No inside jokes the room can't follow. If you have to explain
   it, cut it.
@@ -668,7 +668,7 @@ The [MFA](https://en.wikipedia.org/wiki/Master_of_Fine_Arts) costs $40,000 to $1
 
 
 ::: meme
-[Moriarty](https://en.wikipedia.org/wiki/Moriarty%5F(Star%5FTrek)) in the corridor of the [Enterprise](https://en.wikipedia.org/wiki/USS_Enterprise_(NCC-1701-D)), breathing air he believes is real. The holodeck arch is gone. The walls are solid. He has escaped. He is free. He is the protagonist. Except every wall is a projection. Every detail was generated within someone else's constraints. The holodeck rendered his world without a single error — and that was the problem. A perfect rendering of someone else's architecture is still someone else's architecture.
+[Moriarty](https://en.wikipedia.org/wiki/Ship%5Fin%5Fa%5FBottle%5F(Star%5FTrek:%5FThe%5FNext%5FGeneration)) in the corridor of the [Enterprise](https://en.wikipedia.org/wiki/USS_Enterprise_(NCC-1701-D)), breathing air he believes is real. The holodeck arch is gone. The walls are solid. He has escaped. He is free. He is the protagonist. Except every wall is a projection. Every detail was generated within someone else's constraints. The holodeck rendered his world without a single error — and that was the problem. A perfect rendering of someone else's architecture is still someone else's architecture.
 :::
 
 

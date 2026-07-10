@@ -10,7 +10,7 @@ status: "draft"
 
 _The [ALSO] blocks throughout this book point here for the full reference. This table is a living document — tool features change, names change, new tools emerge. Current version maintained at [majordomo.dwk.io/features](https://majordomo.dwk.io/features)._
 
-The book uses Claude as its default example. Every feature named below exists in some form across all major tools, but the names differ. This table is your vocabulary key.
+The book uses Claude as its default example. Every feature named in this table exists in some form across all major tools, but the names differ. This table is your vocabulary key.
 
 ---
 
@@ -18,7 +18,7 @@ The book uses Claude as its default example. Every feature named below exists in
 
 | What it does | Claude | Gemini | ChatGPT | Copilot |
 |---|---|---|---|---|
-| Save instructions that apply to every conversation | Custom Instructions | System Instructions | Custom Instructions | Custom Instructions |
+| Save instructions that apply to every conversation | Profile preferences / Styles | System Instructions | Custom Instructions | Custom Instructions |
 | Save info about you that persists across chats | Memory | Personalization | Memory | (limited) |
 | Named workspace for related conversations | Project | Gem | GPT (custom) | (not available) |
 | Upload files to reference across conversations | Project files | Gem files | GPT knowledge | (limited) |
@@ -45,7 +45,7 @@ The book uses Claude as its default example. Every feature named below exists in
 | Upload a file to the current conversation | Attach file | Upload file | Attach file | Upload file |
 | Paste text directly | Paste in message | Paste in message | Paste in message | Paste in message |
 | Analyze an image | Attach image | Upload image | Attach image | Upload image |
-| Generate an image | (via third-party) | ImageFX / Imagen | DALL-E | Designer |
+| Generate an image | (via third-party) | ImageFX / Imagen | GPT Image (native) | Designer |
 
 ---
 
@@ -74,7 +74,7 @@ _Model names and reasoning-mode labels change several times a year. Verify curre
 
 | What it does | Claude | Gemini | ChatGPT | Copilot |
 |---|---|---|---|---|
-| Talk to the AI by voice | Voice (mobile) | Voice (mobile) | Voice / Advanced Voice | Voice |
+| Talk to your Agent by voice | Voice (mobile) | Voice (mobile) | Voice / Advanced Voice | Voice |
 | Mobile app | iOS / Android | iOS / Android | iOS / Android | iOS / Android |
 | Desktop app | Mac / Windows | (browser) | Mac / Windows | (built into Windows) |
 | Browser integration | (extension) | Chrome integration | (extension) | Edge built-in |
