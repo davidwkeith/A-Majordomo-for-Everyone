@@ -25,6 +25,10 @@ None of them are search engines. Google finds pages. These tools read them, synt
 
 None of them are the customer service chatbots that have spent 20 years failing to understand why you are calling. They do not have decision trees. They do not need you to say "AGENT" in all caps.
 
+::: meme
+Not [Skynet](https://en.wikipedia.org/wiki/Skynet%5F(Terminator)). Not [HAL 9000](https://en.wikipedia.org/wiki/HAL%5F9000). Not the [paperclip maximizer](https://en.wikipedia.org/wiki/Instrumental%5Fconvergence#Paperclip%5Fmaximizer). Much more boring and much more useful than any of those: well-read agents that will explain your insurance denial without charging you $350 an hour.
+:::
+
 The closest real-world equivalent is [Data from TNG](https://en.wikipedia.org/wiki/Data%5F(Star%5FTrek)) — minus the yellow eyes, minus the immortality, and with considerably more willingness to say "I'm not sure, you should verify this." Data had access to the entire [Federation database](https://en.wikipedia.org/wiki/Memory%5FAlpha) and could translate it into plain language on request, without judgment, without billing by the hour, and without making you feel foolish for not already knowing the answer. He also occasionally got things wrong and had to be corrected. That part is accurate too.
 
 Data couldn't feel, but he understood meaning — seriously, thoroughly, with every tool available to him. He understood what grief meant, its relationship to love, its arc over time, its representation across cultures, without having grieved. That kind of understanding — broad, consistent, tireless, without ego distorting the analysis — is genuinely useful. Especially when paired with a human who has the lived context to know which questions matter.
@@ -51,6 +55,10 @@ That last one is the thesis of this book, written by the CEO of the company that
 - Replace a licensed professional when accountability genuinely matters (see Part Three)
 - Fix the system. That part is still on us.
 
+::: fairness
+Nilay Patel at The Verge calls it _software brain_: the tech-industry habit of treating the world as a series of databases to be managed with structured language and code.[^1-6] It is why [DOGE](https://en.wikipedia.org/wiki/Department%5Fof%5FGovernment%5FEfficiency) failed — a country is not a database — and why the smart-home decade produced mostly things no one asked for. Software brain is what is being done _to_ you when an insurer replaces its appeals desk with a model trained to deny claims, when a landlord screens applicants through an algorithm, when a hospital bills by code instead of by visit. This book is about the other direction — the same class of tool, on your side of the table, reading the database back to you in plain language. The distinction is the whole game. Notice which one you are looking at.
+:::
+
 ---
 
 ### The Library and the Life
@@ -59,40 +67,23 @@ Here is the most important thing to understand about these tools, and almost nob
 
 An AI trained on human text has not just accumulated facts. It has absorbed the _structure_ of human thought — thousands of years of philosophy, literature, law, moral reasoning, scientific argument, compressed into something you can query conversationally. It knows what a medical denial means, what a lease clause implies, what a financial instrument does. It knows the patterns because it has read them all.
 
+::: science
+Transformer models — the architecture behind modern AI — are fundamentally pattern-completion engines. They process context holistically and associatively, finding the shape of things before finding the words. This makes them fluent in analogy, tone, metaphor, and lateral thinking. What they struggle with is long-chain sequential reasoning — holding a complex logical argument without dropping a step. This is why the leading AI labs are now building extended-reasoning systems: slower, more deliberate processing layered on top of the fast pattern engine — Claude's Extended Thinking, Gemini's Deep Research, OpenAI's reasoning models, Copilot's Think Deeper all name variations of the same move. Which is, interestingly, exactly what the human brain does — [fast and slow thinking](https://en.wikipedia.org/wiki/Thinking,%5FFast%5Fand%5FSlow). AI arrived at the same architecture from a completely different direction.[^1-7]
+:::
+
 What it does not have is the thing you have: a life. The stomach drop when you open the envelope. The memory of the last time you were in a waiting room and nobody explained what was happening. The 20 years of experience that tell you when someone is being evasive, even when their words are technically polite. Moral intuition — the compressed wisdom of every decision that cost you something, every person you failed or protected, every moment where the framework ran out and you were left with only what you actually believed. You cannot read your way to that. You have to live your way to it.
 
 The partnership works because the division of labor is honest. Your Agent brings the library. You bring the life. Your Agent knows what the insurance code means. You know what it means _for you_. Your Agent can lay out five options. You know which one you can live with. Your Agent can draft the letter. You know whether it sounds like you.
+
+::: science
+Fluent AI output has a side effect researchers have started calling _the LLM fallacy_ — users mistake the model's work for proof of their own ability. The mechanism is opacity (you cannot see how the answer was produced), fluency (the prose sounds like something a competent person would have written), and low friction (you barely had to do anything). The three combine to blur the line between what you contributed and what the machine did. The Jeeves frame in this book is the correction — the majordomo is named and the division of labor is explicit. You bring the problem, the context, and the judgment. The library brings the phrasing.[^1-8]
+:::
 
 You are not one input among many, to be weighted and averaged with the machine's output. You are the reason any of it matters. The embodied, fallible, mortal human who has lived the life the library is about — you are not the limitation in the system. You are the point of the whole thing.
 
 ---
 
 *The privacy question:* Do not type your Social Security number, your full bank account number, your passwords, or anything you would not write on a postcard. For everything in this book, you will not need to. "My insurance denied a physical therapy claim" is enough. You do not need to include your member ID.
-
-::: meme
-Not [Skynet](https://en.wikipedia.org/wiki/Skynet%5F(Terminator)). Not [HAL 9000](https://en.wikipedia.org/wiki/HAL%5F9000). Not the [paperclip maximizer](https://en.wikipedia.org/wiki/Instrumental%5Fconvergence#Paperclip%5Fmaximizer). Much more boring and much more useful than any of those: well-read agents that will explain your insurance denial without charging you $350 an hour.
-:::
-
-
-::: fairness
-Nilay Patel at The Verge calls it _software brain_: the tech-industry habit of treating the world as a series of databases to be managed with structured language and code.[^1-6] It is why [DOGE](https://en.wikipedia.org/wiki/Department%5Fof%5FGovernment%5FEfficiency) failed — a country is not a database — and why the smart-home decade produced mostly things no one asked for. Software brain is what is being done _to_ you when an insurer replaces its appeals desk with a model trained to deny claims, when a landlord screens applicants through an algorithm, when a hospital bills by code instead of by visit. This book is about the other direction — the same class of tool, on your side of the table, reading the database back to you in plain language. The distinction is the whole game. Notice which one you are looking at.
-:::
-
-
-::: science
-Transformer models — the architecture behind modern AI — are fundamentally pattern-completion engines. They process context holistically and associatively, finding the shape of things before finding the words. This makes them fluent in analogy, tone, metaphor, and lateral thinking. What they struggle with is long-chain sequential reasoning — holding a complex logical argument without dropping a step. This is why the leading AI labs are now building extended-reasoning systems: slower, more deliberate processing layered on top of the fast pattern engine — Claude's Extended Thinking, Gemini's Deep Research, OpenAI's reasoning models, Copilot's Think Deeper all name variations of the same move. Which is, interestingly, exactly what the human brain does — [fast and slow thinking](https://en.wikipedia.org/wiki/Thinking,%5FFast%5Fand%5FSlow). AI arrived at the same architecture from a completely different direction.[^1-7]
-:::
-
-
-::: science
-Fluent AI output has a side effect researchers have started calling _the LLM fallacy_ — users mistake the model's work for proof of their own ability. The mechanism is opacity (you cannot see how the answer was produced), fluency (the prose sounds like something a competent person would have written), and low friction (you barely had to do anything). The three combine to blur the line between what you contributed and what the machine did. The Jeeves frame in this book is the correction — the majordomo is named and the division of labor is explicit. You bring the problem, the context, and the judgment. The library brings the phrasing.[^1-8]
-:::
-
-
-::: fairness
-"Free" is not free. Every conversation with your Agent runs on servers that consume electricity and water for cooling. The [IEA](https://en.wikipedia.org/wiki/International%5FEnergy%5FAgency) estimates data centers account for 1–1.5% of global electricity use, and AI workloads are the fastest-growing segment. The companies offering free tiers are subsidizing your access with venture capital and advertising revenue — a business model you have seen before and should not mistake for charity. The honest exchange: you are getting a higher quality of life from a tool that costs real energy to run. The structural fix is the same one it has always been — build [solar](https://en.wikipedia.org/wiki/Solar%5Fenergy), build wind, build the grid that makes the computation sustainable. In the meantime, use the tool. It is still the best deal the non-billionaire class has ever been offered.[^1-9]
-:::
-
 
 [^1-1]: Altman, S. (2025). [Personal blog post.](https://blog.samaltman.com/2279512) "AI will be the most powerful tool for expanding human capability and potential that anyone has ever seen . . . AI has to be democratized; power cannot be too concentrated. Control of the future belongs to all people and their institutions."
 
@@ -109,5 +100,3 @@ Fluent AI output has a side effect researchers have started calling _the LLM fal
 [^1-7]: Kahneman, D. (2011). [_Thinking, Fast and Slow_](https://bookshop.org/p/books/thinking-fast-and-slow-daniel-kahneman/943943). Farrar, Straus and Giroux. The dual-process model of cognition — fast, intuitive System 1 and slow, deliberate System 2 — maps remarkably well to the architecture of modern AI: a fast pattern-matching base model with an extended reasoning layer for deliberate analysis.
 
 [^1-8]: Kim, H., Yu, H., & Yi, H. (2026). ["The LLM Fallacy: Misattribution in AI-Assisted Cognitive Workflows."](https://arxiv.org/abs/2604.14807) arXiv preprint. A conceptual-framework paper; the authors name the mechanism (opacity, fluency, low-friction interaction) and identify empirical validation as future work.
-
-[^1-9]: International Energy Agency. (2024). ["Data Centres and Data Transmission Networks."](https://www.iea.org/energy-system/buildings/data-centres-and-data-transmission-networks) IEA Tracking Report.
