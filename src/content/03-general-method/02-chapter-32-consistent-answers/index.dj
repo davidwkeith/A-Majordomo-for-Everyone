@@ -146,12 +146,7 @@ or three things I should independently verify before acting on it?
 This single question will consistently improve the quality of the guidance you receive. Your Agent will tell you where its answer is reliable and where it is extrapolating. That boundary is exactly where you should apply your own judgment — or pick up the phone and call a professional. It is the same line Chapter 31 draws from the other direction: where AI's edge ends and the human's begins.
 
 ::: science
-Research on _algorithm aversion_ — the human tendency to distrust algorithmic recommendations even when they are demonstrably more accurate — shows that people abandon an algorithm after watching it err (Dietvorst et al., 2015), but stay with one when they keep some control over the final output (Dietvorst et al., 2018). The spec loop gives you exactly that control: you review, you correct, you decide. Asking your Agent to show its work keeps the final judgment yours.[^32-1]
-:::
-
-
-::: science
-The inverse phenomenon, _automation bias_ — over-trusting algorithmic output — is equally documented and arguably more dangerous (Cummings, 2004). The calibration question ("how confident are you, and what should I verify?") is a structured defense against automation bias. It keeps the human in the loop at exactly the moment when the stakes are highest.[^32-2]
+Research on _algorithm aversion_ — the human tendency to distrust algorithmic recommendations even when they are demonstrably more accurate — shows that people abandon an algorithm after watching it err (Dietvorst et al., 2015), but stay with one when they keep some control over the final output (Dietvorst et al., 2018).[^32-1] The inverse failure, _automation bias_ — over-trusting algorithmic output — is equally documented and arguably more dangerous (Cummings, 2004).[^32-2] The spec loop is the structured defense against both: you review, you correct, you decide — and the calibration question keeps the final judgment yours at exactly the moment when the stakes are highest.
 :::
 
 

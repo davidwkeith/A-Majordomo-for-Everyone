@@ -184,6 +184,11 @@ Path B — she says nothing:
 
 You can generate both paths, read them, and decide which serves the story better — or keep both if you're writing an interactive piece. Your Agent holds both branches in memory for the duration of the conversation. For longer projects, paste the architecture doc at the start of each session to restore context.
 
+::: also
+All four major AI tools handle creative writing and dialogue generation. Claude's extended conversations maintain character voice across long sessions. ChatGPT's custom GPTs can store a character bible permanently. Gemini's large context window holds novel-length architectures in a single session. Copilot integrates with Word for prose drafting. For game narrative specifically, the dialogue your Agent generates can be exported directly into [Ink](https://www.inklestudios.com/ink/), [Twine](https://twinery.org/), or [Yarn Spinner](https://yarnspinner.dev/) — your Agent writes the words, your narrative engine handles the branching logic.
+:::
+
+
 ::: science
 Research on creative cognition consistently identifies _constraint_ as a driver of creative output rather than an obstacle to it — the phenomenon known as "creative constraint" (Stokes, 2006). Paradoxically, writers with more specific parameters produce more original work than those given full freedom, because constraints force novel solutions within a bounded space. The deterministic/dynamic architecture is applied creative constraint theory.[^s9-1]
 :::
@@ -212,6 +217,10 @@ The target is not a draft that needs no revision. The target is a draft where Pa
 ### The Class Analysis
 
 Professional ghostwriters charge $15,000 to $100,000 to write a book for someone else. Script consultants charge $500 to $2,000 per session. Game narrative designers command six-figure salaries. The billionaire class does not write its own memoirs, speeches, or corporate novels — it employs people whose entire job is to translate the principal's ideas into publishable prose.
+
+::: fairness
+The [MFA](https://en.wikipedia.org/wiki/Master_of_Fine_Arts) costs $40,000 to $120,000. The residential writing conference runs a couple thousand dollars a week. The developmental editor charges $3,000 to $10,000 per manuscript. These are the people who teach story architecture, character consistency, and structural revision — the skills this chapter covers. They have always existed, and they have always served the writers who could reach them. Your Agent does not replace an editor, a workshop, or a writing community — those are human infrastructure, and they matter. But the specific problem this chapter addresses — "I have a story and I don't know how to organize it" — was a cost barrier. The architecture interview takes 15 minutes and costs nothing.
+:::
 
 The tool does not write the book. The writer writes the book. What changes is the cost of the sentences.
 
@@ -654,16 +663,6 @@ announcing the door is closing. Want me to draft Dex and Rin?
 
 ::: tip
 "That line was mine, not hers." This is the most useful revision note in AI-assisted creative work. When a line is technically competent but does not belong to the character, it belongs to the Agent. The character voice spec tells you whose it should be. Point to the spec, point to the line, and say which character it sounds like and which it should sound like. Negative feedback — "Maeve wouldn't editorialize" — is more actionable than positive: it tells the Agent which constraint was violated.
-:::
-
-
-::: also
-All four major AI tools handle creative writing and dialogue generation. Claude's extended conversations maintain character voice across long sessions. ChatGPT's custom GPTs can store a character bible permanently. Gemini's large context window holds novel-length architectures in a single session. Copilot integrates with Word for prose drafting. For game narrative specifically, the dialogue your Agent generates can be exported directly into [Ink](https://www.inklestudios.com/ink/), [Twine](https://twinery.org/), or [Yarn Spinner](https://yarnspinner.dev/) — your Agent writes the words, your narrative engine handles the branching logic.
-:::
-
-
-::: fairness
-The [MFA](https://en.wikipedia.org/wiki/Master_of_Fine_Arts) costs $40,000 to $120,000. The residential writing conference runs a couple thousand dollars a week. The developmental editor charges $3,000 to $10,000 per manuscript. These are the people who teach story architecture, character consistency, and structural revision — the skills this chapter covers. They have always existed, and they have always served the writers who could reach them. Your Agent does not replace an editor, a workshop, or a writing community — those are human infrastructure, and they matter. But the specific problem this chapter addresses — "I have a story and I don't know how to organize it" — was a cost barrier. The architecture interview takes 15 minutes and costs nothing.
 :::
 
 

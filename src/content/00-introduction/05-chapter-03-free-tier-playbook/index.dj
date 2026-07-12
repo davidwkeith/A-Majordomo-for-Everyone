@@ -54,6 +54,10 @@ The point is not that one is better than the others. The point is that each has 
 
 *When it's worth paying:* If you find yourself regularly frustrated by hitting limits, or if you are using these tools for work tasks where speed matters, the standard paid tiers (around $20/month as of this writing for Claude Pro, ChatGPT Plus, Google AI Pro, and Copilot Pro) add higher limits, reliable web search, and access to the most capable models. For the tasks in this book, the free tier is sufficient for most users.
 
+::: fairness
+"Free" is not free. Every conversation with your Agent runs on servers that consume electricity and water for cooling. The [IEA](https://en.wikipedia.org/wiki/International%5FEnergy%5FAgency) estimates data centers account for 1–1.5% of global electricity use, and AI workloads are the fastest-growing segment. The companies offering free tiers are subsidizing your access with venture capital and advertising revenue — a business model you have seen before and should not mistake for charity. The honest exchange: you are getting a higher quality of life from a tool that costs real energy to run. The structural fix is the same one it has always been — build [solar](https://en.wikipedia.org/wiki/Solar%5Fenergy), build wind, build the grid that makes the computation sustainable. In the meantime, use the tool. It is still the best deal the non-billionaire class has ever been offered.[^3-2]
+:::
+
 *The most powerful free feature most people never use: Projects / Gems / Custom GPTs*
 
 Every major AI tool has a way to create a persistent context — a named space where you store background information about your situation, instructions for how you want your Agent to respond, and a history of related conversations. You set it up once. Every conversation in that space starts with your majordomo already briefed.
@@ -71,3 +75,5 @@ If you're hitting a limit and have an urgent task, Copilot (free, built into Mic
 
 
 [^3-1]: [Habit stacking](https://en.wikipedia.org/wiki/Habit#Habit%5Fstacking) — attaching a new behavior to an existing routine — is one of the most reliably studied techniques in behavior change research. Adding a "check my AI bookmarks" step to an existing "open the browser" routine costs nothing and dramatically increases follow-through (Fogg, 2019, _[Tiny Habits](https://tinyhabits.com)_).
+
+[^3-2]: International Energy Agency. (2024). ["Data Centres and Data Transmission Networks."](https://www.iea.org/energy-system/buildings/data-centres-and-data-transmission-networks) IEA Tracking Report.
