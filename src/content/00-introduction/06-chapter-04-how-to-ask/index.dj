@@ -110,7 +110,7 @@ A good follow-up question has three properties: it is open-ended (not yes-or-no)
 
 *Ask why.* But not like that. The word "why" can sound like a cross-examination. Instead: _"What's driving that recommendation?"_ or _"What would happen if I didn't do that?"_ Same question, less heat.
 
-*Ask for a comparison.* When the Agent's answer feels too generic to act on, give it a reference point: _"How is this different from a standard HMO?"_ or _"Compared to the national average, where does this number fall?"_ Comparison forces specificity the way absolute description does not.
+*Ask for a comparison.* When the Agent's answer feels too generic to act on, give it a reference point: _"How is this different from a standard [HMO]{.gloss def="Health Maintenance Organization — an insurance plan that only covers doctors inside its own network."}?"_ or _"Compared to the national average, where does this number fall?"_ Comparison forces specificity the way absolute description does not.
 
 *Ask it to check its own work.* After a detailed answer, say: _"Now review what you just gave me. What did you get wrong, oversimplify, or leave out?"_ Your Agent will often catch its own mistakes — a missed deadline, a clause it glossed over, an assumption it made about your situation. This is not a sign the first answer was bad. It is a second pass, the same way you would reread an important email before sending it.
 
@@ -142,7 +142,7 @@ This also makes it easier to catch mistakes. If the Agent gets Part 1 wrong, you
 
 ### When to Start a New Conversation
 
-Your Agent remembers everything within a single conversation but nothing between conversations by default. Long conversations drift. After enough back-and-forth, your Agent starts to lose the thread — it gives vaguer answers, forgets details you mentioned earlier, or repeats itself. This is not a defect. Every conversation has a limited working memory, and eventually you fill it up.
+Your Agent remembers everything within a single conversation but nothing between conversations by default. Long conversations drift. After enough back-and-forth, your Agent starts to lose the thread — it gives vaguer answers, forgets details you mentioned earlier, or repeats itself. This is not a defect. Every conversation has a limited [working memory]{.gloss def="Technically the context window: the fixed amount of text your Agent can consider at once — Appendix J explains how it works."}, and eventually you fill it up.
 
 ::: also
 Claude calls persistent cross-conversation memory simply "Memory" — it can be enabled in settings and will carry facts about you from session to session. Gemini calls this "Personalization." ChatGPT calls it "Memory." All three work similarly: the tool builds a profile of your situation over time so you don't have to re-explain it. This is different from Projects / Gems / Custom GPTs, which are manually configured contexts. See [Appendix G](06-appendix-g-feature-table.xhtml).

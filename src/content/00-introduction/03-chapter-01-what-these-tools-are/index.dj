@@ -17,7 +17,7 @@ _(He was describing the 24th century. We will work with what we have.)_
 
 ---
 
-These tools — the ones this book calls "your Agent" — are a new category of software that does not have a good name yet. "AI assistant" is accurate but vague. "Chatbot" carries 20 years of terrible customer service baggage. "Large language model" is what the engineers who build them call them, which is useful in the same way that "internal combustion engine" is useful when you are trying to get somewhere.
+These tools — the ones this book calls "your Agent" — are a new category of software that does not have a good name yet. "AI assistant" is accurate but vague. "Chatbot" carries 20 years of terrible customer service baggage. "[Large language model]{.gloss def="A program trained on enormous amounts of text to predict what words come next — the engine behind all of these tools."}" is what the engineers who build them call them, which is useful in the same way that "internal combustion engine" is useful when you are trying to get somewhere.
 
 For this book: they are AI agents. This book says "your Agent" to mean whichever one you have open. The distinction between tools matters less than the skill of using any of them well, which is what this book teaches.
 
@@ -49,14 +49,14 @@ That last one is the thesis of this book, written by the CEO of the company that
 - Give you the starting draft that gets you past the blank page
 
 *What they cannot do:*
-- Reliably browse the internet in real time on every free tier[^1-5]
+- Reliably browse the internet in real time on every [free tier]{.gloss def="The no-cost version of a paid service, with limits on how much you can use it."}[^1-5]
 - Remember your previous conversations (you have to give context each time but context can be saved and reused)
 - Guarantee accuracy — they can be wrong, and you should verify anything with real consequences
 - Replace a licensed professional when accountability genuinely matters (see Part Three)
 - Fix the system. That part is still on us.
 
 ::: fairness
-Nilay Patel at The Verge calls it _software brain_: the tech-industry habit of treating the world as a series of databases to be managed with structured language and code.[^1-6] It is why [DOGE](https://en.wikipedia.org/wiki/Department%5Fof%5FGovernment%5FEfficiency) failed — a country is not a database — and why the smart-home decade produced mostly things no one asked for. Software brain is what is being done _to_ you when an insurer replaces its appeals desk with a model trained to deny claims, when a landlord screens applicants through an algorithm, when a hospital bills by code instead of by visit. This book is about the other direction — the same class of tool, on your side of the table, reading the database back to you in plain language. The distinction is the whole game. Notice which one you are looking at.
+Nilay Patel at The Verge calls it _software brain_: the tech-industry habit of treating the world as a series of databases to be managed with structured language and code.[^1-6] It is why [DOGE](https://en.wikipedia.org/wiki/Department%5Fof%5FGovernment%5FEfficiency) failed — a country is not a database — and why the smart-home decade produced mostly things no one asked for. Software brain is what is being done _to_ you when an insurer replaces its appeals desk with a [model]{.gloss def="The trained program that produces the answers — the engine inside an AI tool."} trained to deny claims, when a landlord screens applicants through an [algorithm]{.gloss def="A set of rules a computer follows automatically — here, a scoring formula no human reviews."}, when a hospital bills by code instead of by visit. This book is about the other direction — the same class of tool, on your side of the table, reading the database back to you in plain language. The distinction is the whole game. Notice which one you are looking at.
 :::
 
 
