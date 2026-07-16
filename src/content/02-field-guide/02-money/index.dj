@@ -41,32 +41,25 @@ Please help me:
 4. Set up a system: which accounts should I have, what goes where,
    and how do I automate it so I don't think about it?
 :::
-*What to do with the Output:* If you are paying monthly maintenance fees, switch. This is not complicated and it is not disloyal. Your bank is not your friend — it is a business. A credit union is a cooperative owned by its members, which means its incentives are structurally different from a for-profit bank. Online banks (Ally, Marcus, Discover) offer higher interest rates because they have no branches to maintain. The right answer depends on what you need: if you deposit cash regularly, you need a branch. If you don't, you probably don't need a big bank.
-
-::: tip
-_"I keep getting overdraft fees. My bank charges $35 per overdraft. What are my options — banks with no overdraft fees, overdraft protection, or a different approach entirely?"_
-:::
-
+*What to do with the Output:* If you are paying monthly maintenance fees, switch. This is not complicated and it is not disloyal. Your bank is not your friend — it is a business, and the fee schedule is where the business model shows.
 
 ::: science
 Americans paid $5.8 billion in overdraft and NSF fees in 2023 at reporting banks alone — down from $12 billion in 2019, but still falling disproportionately on the lowest-balance accounts. The CFPB finalized a rule in December 2024 capping overdraft fees at $5 for large banks. Congress overturned it in May 2025 using the Congressional Review Act, which also bars the CFPB from issuing a similar rule in the future. The average overdraft fee remains approximately $35 — the same whether you overdraw by $2 or $200.[^m1-1]
 :::
 
+::: tip
+_"I keep getting overdraft fees. My bank charges $35 per overdraft. What are my options — banks with no overdraft fees, overdraft protection, or a different approach entirely?"_
+:::
+
+Where to switch depends on what you need. A credit union is a cooperative owned by its members, which means its incentives are structurally different from a for-profit bank. Online banks (Ally, Marcus, Discover) offer higher interest rates because they have no branches to maintain. If you deposit cash regularly, you need a branch. If you don't, you probably don't need a big bank.
+
+::: science
+NCUA data for Q4 2025 shows the rate gap plainly. Credit unions averaged 5.44% on a 60-month new-auto loan against 7.41% at banks — on a $30,000 car loan, the two-point gap saves about $1,580 over five years. Classic credit cards: 12.58% at credit unions, 15.27% at banks. Money market accounts: 0.74% vs. 0.52%. The structural reason is in the charter. Credit unions are member-owned cooperatives under [12 U.S.C. § 1752](https://www.law.cornell.edu/uscode/text/12/1752); surplus flows back to members as better rates and lower fees. A bank's surplus flows to shareholders. Eligibility is broader than most people think — employer, community, school, or family membership usually qualifies, and many credit unions now accept members through a one-time $5 association fee.[^m1-2]
+:::
 
 ::: also
 Checking current interest rates, fee schedules, and regulations requires web search, which is free in Gemini, ChatGPT, and Copilot. In Claude, web search requires the paid tier. See [Appendix G](06-appendix-g-feature-table.xhtml).
 :::
-
-
-::: science
-NCUA data for Q4 2025 shows the rate gap plainly. Credit unions averaged 5.44% on a 60-month new-auto loan against 7.41% at banks — on a $30,000 car loan, the 2-point gap saves about $1,580 over five years. Classic credit cards: 12.58% at credit unions, 15.27% at banks. Money market accounts: 0.74% vs. 0.52%. The structural reason is in the charter. Credit unions are member-owned cooperatives under [12 U.S.C. § 1752](https://www.law.cornell.edu/uscode/text/12/1752); surplus flows back to members as better rates and lower fees. A bank's surplus flows to shareholders. Eligibility is broader than most people think — employer, community, school, or family membership usually qualifies, and many credit unions now accept members through a one-time $5 association fee.[^m1-2]
-:::
-
-
-::: tip
-Mint shut down in March 2024 — if you were one of its millions of users, you are not alone in the scramble. The current landscape: YNAB ($14.99/month), Monarch ($14.99/month), and Copilot ($13/month, Apple only), all with annual discounts and free trials. But the tool matters less than the habit, and budgeting apps lose most of their users within the first month. Your Agent can help close that gap — ask it to check in weekly on your spending and flag what changed. The accountability is free and it will not judge you. See Li-9: Making a Household Budget That Holds and Li-12: Developing a Habit.
-:::
-
 
 [^m1-1]: CFPB, ["Overdraft/NSF Revenue in 2023 Down More Than 50% Versus Pre-Pandemic Levels."](https://www.consumerfinance.gov/data-research/research-reports/data-spotlight-overdraft-nsf-revenue-in-2023-down-more-than-50-versus-pre-pandemic-levels-saving-consumers-over-6-billion-annually/) See also [S.J.Res. 18, P.L. 119-10](https://www.congress.gov/crs-product/IN12513) (Congressional Review Act repeal of CFPB overdraft rule, signed May 9, 2025).
 
@@ -100,52 +93,37 @@ Please help me:
 4. Tell me my rights — what creditors can and cannot do,
    what I can negotiate, and what protections exist
 :::
-*What to do with the Output:* If you have a charge you do not recognize, dispute it immediately — you have 60 days under the Fair Credit Billing Act. Call the number on the back of the card, not a number from an email. For debt payoff: the avalanche method (highest interest rate first) saves the most money. The snowball method (smallest balance first) builds momentum. The research slightly favors snowball for completion rates because the psychology of small wins matters more than the math of optimal interest.[^m2-1] Either is better than paying the minimum on everything.
+*What to do with the Output:* If you have a charge you do not recognize, dispute it immediately — you have 60 days under the Fair Credit Billing Act. Call the number on the back of the card, not a number from an email, and put the dispute in writing.
+
+::: science
+The [Fair Credit Billing Act](https://www.law.cornell.edu/uscode/text/15/1666) (15 U.S.C. § 1666) is rarely named at the point of sale. It gives you 60 days from the first statement showing a billing error to dispute it in writing. The creditor must acknowledge within 30 days and resolve within two billing cycles or 90 days, whichever is shorter — and may not charge interest on the disputed amount, report it as delinquent, or close the account while the investigation is open. Once a debt reaches collections, a different statute takes over — the FDCPA, covered in M-4.[^m2-3]
+:::
+
+For debt payoff: the avalanche method (highest interest rate first) saves the most money. The snowball method (smallest balance first) builds momentum. The research slightly favors snowball for completion rates because the psychology of small wins matters more than the math of optimal interest.[^m2-1] Either is better than paying the minimum on everything.
 
 ::: science
 Among American households that carry a credit card balance, the average debt is approximately $10,000, and the average APR on accounts assessed interest ran near 23% in 2024 (Federal Reserve G.19). The minimum payment is typically calculated as 1--2% of the balance plus interest — a formula designed to maximize the total interest paid over the life of the debt. At minimum payments, a $10,000 balance at that rate takes decades to pay off and costs, in interest, nearly double the original balance.[^m2-2]
 :::
 
-
 ::: tip
 _"I have [X] credit cards with these balances and rates: [list]. Build me a payoff plan that tells me exactly how much to pay on each card each month. I have [$X] per month total to put toward debt."_
 :::
 
+Financial shame is the most powerful barrier to financial literacy. People who are embarrassed about their debt avoid looking at it; the balance compounds; the shame deepens. The spiral is well-documented.[^m2-4] Your Agent is not a spouse, a parent, or a loan officer. It will not sigh at the number. If the hardest part is saying the total out loud, say it to your Agent first: _"I have [amount] in credit card debt across [number] cards. I've been avoiding looking at it. Walk me through what I'm actually paying in interest and what my options are."_ The debt is not a moral failing. It is a mathematical situation with solutions.
 
 ::: fairness
 Credit scoring algorithms have been shown to produce disparate outcomes along racial lines, even when controlling for income. When asking your Agent about credit strategies, follow up with: _"Are there known racial or income-based disparities in how this advice plays out in practice?"_ The system is not neutral. Your strategy should account for that.
 :::
 
+*Veterans note:* If any of your credit card balances were opened _before_ you went on active duty, the [Servicemembers Civil Relief Act](https://www.justice.gov/servicemembers/your-rights-servicemember-6-interest-rate-cap-servicemembers-pre-service-debts) (50 U.S.C. §§ 3901--4043) caps the interest rate on that debt at 6% for the duration of active service. The excess is to be _forgiven_, not deferred — no balloon payment at the end. Send the issuer a written request with a copy of your orders. The cap applies retroactively to the date you entered service and covers credit cards, auto loans, personal loans, and student loans opened before service. See M-3 for the SCRA's mortgage protections.
 
-::: also
-Paste or upload your credit card statement directly — file upload works in Claude, Gemini, ChatGPT, and Copilot. See [Appendix G](06-appendix-g-feature-table.xhtml).
-:::
-
-
-::: science
-The two federal statutes that matter most to a cardholder in trouble are rarely named at the point of sale. The [Fair Credit Billing Act](https://www.law.cornell.edu/uscode/text/15/1666) (15 U.S.C. § 1666) gives you 60 days from the first statement showing a billing error to dispute it in writing. The creditor must acknowledge within 30 days and resolve within two billing cycles or 90 days, whichever is shorter — and may not charge interest on the disputed amount, report it as delinquent, or close the account while the investigation is open. The [Fair Debt Collection Practices Act](https://www.ftc.gov/legal-library/browse/statutes/fair-debt-collection-practices-act) (15 U.S.C. § 1692) adds the rules that apply once a debt is in collections: no calls before 8 a.m. or after 9 p.m., no contact at work if you've told them to stop, written validation on request, and up to $1,000 in statutory damages per lawsuit if the collector violates the act. The CFPB's Regulation F, effective November 2021, added a presumption of harassment if a collector calls about a specific debt more than seven times in seven days.[^m2-3]
-:::
-
-
-::: meme
-The phrase "no ethical consumption under capitalism" became a meme because it is accurate enough to be useful. Every financial product you encounter — the card, the loan, the retirement account — was designed to profit the provider. Understanding how it profits them, and by how much, is not cynicism and it is not playing the game. It is refusing to play it blindly. The Conners understood this instinctively. Your Agent can give that instinct data.
-:::
-
-
-::: fairness
-Financial shame is the most powerful barrier to financial literacy. People who are embarrassed about their debt avoid looking at it; the balance compounds; the shame deepens. The spiral is well-documented.[^m2-4] Your Agent is not a spouse, a parent, or a loan officer. It will not sigh at the number. If the hardest part is saying the total out loud, say it to your Agent first: _"I have [amount] in credit card debt across [number] cards. I've been avoiding looking at it. Walk me through what I'm actually paying in interest and what my options are."_ The debt is not a moral failing. It is a mathematical situation with solutions.
-:::
-
-
-*Veterans note:* If any of your credit card balances were opened _before_ you went on active duty, the [Servicemembers Civil Relief Act](https://www.justice.gov/servicemembers/your-rights-servicemember-6-interest-rate-cap-servicemembers-pre-service-debts) (50 U.S.C. §§ 3901–4043) caps the interest rate on that debt at 6% for the duration of active service. The excess is to be _forgiven_, not deferred — no balloon payment at the end. Send the issuer a written request with a copy of your orders. The cap applies retroactively to the date you entered service and covers credit cards, auto loans, personal loans, and student loans opened before service. See M-3 for the SCRA's mortgage protections.
-
-[^m2-1]: Gal, D., & McShane, B.B. (2012). ["Can Small Victories Help Win the War? Evidence from Consumer Debt Management."](https://journals.sagepub.com/doi/10.1509/jmr.11.0272) _Journal of Marketing Research_, 49(4), 487–501. Besharat, A., Carrillat, F.A., & Ladik, D.M. (2014). ["When Motivation Is Against Debtors' Best Interest: The Illusion of Goal Progress in Credit Card Debt Repayment."](https://journals.sagepub.com/doi/10.1509/jppm.13.007) _Journal of Public Policy & Marketing_, 33(2), 143–158.
+[^m2-1]: Gal, D., & McShane, B.B. (2012). ["Can Small Victories Help Win the War? Evidence from Consumer Debt Management."](https://journals.sagepub.com/doi/10.1509/jmr.11.0272) _Journal of Marketing Research_, 49(4), 487--501. Besharat, A., Carrillat, F.A., & Ladik, D.M. (2014). ["When Motivation Is Against Debtors' Best Interest: The Illusion of Goal Progress in Credit Card Debt Repayment."](https://journals.sagepub.com/doi/10.1509/jppm.13.007) _Journal of Public Policy & Marketing_, 33(2), 143--158.
 
 [^m2-2]: Federal Reserve Board. (2024). [_Consumer Credit — G.19 Statistical Release._](https://www.federalreserve.gov/releases/g19/current/) Average credit card interest rate data.
 
 [^m2-3]: Fair Credit Billing Act, [15 U.S.C. § 1666](https://www.law.cornell.edu/uscode/text/15/1666); implementing regulation at [12 C.F.R. § 1026.13](https://www.consumerfinance.gov/rules-policy/regulations/1026/13/). Fair Debt Collection Practices Act, [15 U.S.C. § 1692](https://www.law.cornell.edu/uscode/text/15/1692). CFPB, ["Debt Collection Rule FAQs."](https://www.consumerfinance.gov/compliance/compliance-resources/other-applicable-requirements/debt-collection/debt-collection-rule-faqs/)
 
-[^m2-4]: Shapiro, G.K., & Burchell, B.J. (2012). ["Measuring Financial Anxiety."](https://doi.org/10.1037/a0027647) _Journal of Neuroscience, Psychology, and Economics_, 5(2), 92–103.
+[^m2-4]: Shapiro, G.K., & Burchell, B.J. (2012). ["Measuring Financial Anxiety."](https://doi.org/10.1037/a0027647) _Journal of Neuroscience, Psychology, and Economics_, 5(2), 92--103.
 
 ---
 
@@ -180,43 +158,28 @@ Please help me:
 *What to do with the Output:* The bank will approve you for more than you should borrow. The general guideline — total housing cost under 28% of gross income — is a ceiling, not a target. Ask your Agent to calculate the full monthly cost including taxes, insurance, PMI, and a maintenance reserve (1--2% of home value per year). That is the real number. If it makes you uncomfortable, listen to the discomfort — it is doing math your optimism is not.
 
 ::: science
-The 2008 financial crisis was, at its core, a mortgage information asymmetry on a systemic scale — lenders knew the risk of the loans they were packaging, borrowers did not, and the rating agencies that were supposed to bridge the gap were paid by the lenders. The Dodd-Frank Act and CFPB were created in response. The CFPB's Loan Estimate and Closing Disclosure forms are designed to make mortgage terms comparable and readable. They are better than what existed before. They are still not simple.[^m3-1]
+As of April 2026, the [Freddie Mac Primary Mortgage Market Survey](https://www.freddiemac.com/pmms) pegs the 30-year fixed-rate mortgage at approximately 6.30% and the 15-year at 5.65%. Context: rates bottomed near 2.65% in January 2021 and peaked at 7.79% in October 2023 — the highest since November 2000. The near-term math is severe. At 2.75%, a $350,000 mortgage costs $1,429 per month. At 6.30%, the same loan costs $2,167 — $738 more per month for the same house. "Marry the house, date the rate" is the industry's current slogan, which is to say: refinancing is possible if rates drop, but the monthly payment you sign up for today is the one you must actually cover every month until they do. No one can predict when, or whether, they will.[^m3-2]
 :::
 
+First-time buyer programs are worth knowing before you start shopping: **FHA** (3.5% down with FICO ≥ 580; 10% down for 500--579), **VA** (0% down for eligible veterans, active duty, and qualifying surviving spouses; no PMI), **USDA Section 502 Guaranteed** (0% down in eligible rural areas, income capped at 115% of area median), and **Conventional 97** via Fannie Mae HomeReady or Freddie Mac Home Possible (3% down, minimum 620 FICO). HUD's [state-by-state program directory](https://www.hud.gov/states) lists down-payment assistance and Mortgage Credit Certificate programs run by state housing finance agencies — frequently worth thousands of dollars and frequently unmentioned by loan officers who earn commission on conventional products.
+
+The disclosure forms themselves are a product of catastrophe. The 2008 financial crisis was, at its core, a mortgage information asymmetry on a systemic scale — lenders knew the risk of the loans they were packaging, borrowers did not, and the rating agencies that were supposed to bridge the gap were paid by the lenders. The Dodd-Frank Act and CFPB were created in response, and the CFPB's Loan Estimate and Closing Disclosure forms are designed to make mortgage terms comparable and readable. They are better than what existed before. They are still not simple.[^m3-1]
 
 ::: tip
 _"I got a Loan Estimate from [lender]. [Paste it or describe the key terms.] Is this a good deal? What should I push back on? What fees are negotiable?"_
 :::
 
-
-::: meme
-The 30-year fixed-rate mortgage is a uniquely American invention. Most other countries use shorter terms or adjustable rates. The 30-year fixed was created by the FHA in the 1930s to make homeownership accessible to the middle class. It worked — and then became the instrument through which the middle class transferred the largest share of its lifetime wealth to banks in the form of interest. A $350,000 mortgage at 7% over 30 years costs $838,000 in total payments. The house is $350,000. The rest is the price of time.
+::: also
+Paste or upload your Loan Estimate or Closing Disclosure directly — file upload works in Claude, Gemini, ChatGPT, and Copilot. See [Appendix G](06-appendix-g-feature-table.xhtml).
 :::
-
-
-::: fairness
-[Mortgage lending discrimination](https://en.wikipedia.org/wiki/Mortgage%5Fdiscrimination) — from explicit redlining to modern algorithmic bias — is one of the most documented forms of structural racism in American finance. Black and Latino applicants are denied at higher rates and offered worse terms than white applicants with identical credit profiles. When your Agent explains mortgage terms, ask: _"What should I watch for that might indicate I'm being offered less favorable terms than I should be?"_
-:::
-
 
 [closing-disclosure-annotated]{.art}
 
-::: science
-As of April 2026, the [Freddie Mac Primary Mortgage Market Survey](https://www.freddiemac.com/pmms) pegs the 30-year fixed-rate mortgage at approximately 6.30% and the 15-year at 5.65%. Context: rates bottomed near 2.65% in January 2021 and peaked at 7.79% in October 2023 — the highest since November 2000. The near-term math is severe. At 2.75%, a $350,000 mortgage costs $1,429 per month. At 6.30%, the same loan costs $2,167 — $738 more per month for the same house. "Marry the house, date the rate" is the industry's current slogan, which is to say: refinancing is possible if rates drop, but the monthly payment you sign up for today is the one you must actually cover every month until they do. No one can predict when, or whether, they will.[^m3-2]
-:::
-
-
-::: tip
-*First-time buyer programs* worth knowing before you start shopping: **FHA** (3.5% down with FICO ≥ 580; 10% down for 500–579), **VA** (0% down for eligible veterans, active duty, and qualifying surviving spouses; no PMI), **USDA Section 502 Guaranteed** (0% down in eligible rural areas, income capped at 115% of area median), and **Conventional 97** via Fannie Mae HomeReady or Freddie Mac Home Possible (3% down, minimum 620 FICO). HUD's [state-by-state program directory](https://www.hud.gov/states) lists down-payment assistance and Mortgage Credit Certificate programs run by state housing finance agencies — frequently worth thousands of dollars and frequently unmentioned by loan officers who earn commission on conventional products.
-:::
-
-
-The "American Dream" has been inextricable from the single-family home since the FHA underwrote it into being in the 1930s — a framing that serves the real estate industry, the banking industry, and the construction industry all at once. The cultural pressure to buy can be as heavy as the financial decision, and the two are not the same. Renting is not failure. Buying more than you can afford is not success. The Conners owned their house and were still broke. Ask your Agent to separate the two questions: _"Help me think about buying a home as a financial decision first — what does the math say? Then help me think about the identity and stability reasons separately, so I know which one is driving me."_
+The "American Dream" has been inextricable from the single-family home since the FHA underwrote it into being in the 1930s — a framing that serves the real estate industry, the banking industry, and the construction industry all at once. The FHA's signature invention, the 30-year fixed-rate mortgage, made homeownership accessible to the middle class — and then became the instrument through which the middle class transferred the largest share of its lifetime wealth to banks in the form of interest: a $350,000 mortgage at 7% over 30 years costs $838,000 in total payments. The house is $350,000. The rest is the price of time. The cultural pressure to buy can be as heavy as the financial decision, and the two are not the same. Renting is not failure. Buying more than you can afford is not success. The Conners owned their house and were still broke. Ask your Agent to separate the two questions: _"Help me think about buying a home as a financial decision first — what does the math say? Then help me think about the identity and stability reasons separately, so I know which one is driving me."_
 
 ::: fairness
-Despite the [Fair Housing Act](https://www.justice.gov/crt/fair-housing-act-2) (1968) and the [Equal Credit Opportunity Act](https://www.justice.gov/crt/equal-credit-opportunity-act-3) (1974), HMDA data shows that Black and Hispanic applicants are denied mortgages at materially higher rates than white applicants with comparable financial profiles — and when approved, are offered higher rates more often. The gap has narrowed, but it is not historical. It is current. If you suspect you are being offered worse terms, ask your Agent: _"My Loan Estimate shows [rate and fees]. Given my credit score, income, and down payment, how does this compare to the national distribution for similar borrowers? What specific concessions should I ask for?"_ Bring the answer to the negotiation in writing. Information asymmetry is the lever.[^m3-3]
+[Mortgage lending discrimination](https://en.wikipedia.org/wiki/Mortgage%5Fdiscrimination) — from explicit redlining to modern algorithmic bias — is one of the most documented forms of structural racism in American finance. Despite the [Fair Housing Act](https://www.justice.gov/crt/fair-housing-act-2) (1968) and the [Equal Credit Opportunity Act](https://www.justice.gov/crt/equal-credit-opportunity-act-3) (1974), HMDA data shows that Black and Hispanic applicants are denied mortgages at materially higher rates than white applicants with comparable financial profiles — and when approved, are offered higher rates more often. The gap has narrowed, but it is not historical. It is current. If you suspect you are being offered worse terms, ask your Agent: _"My Loan Estimate shows [rate and fees]. Given my credit score, income, and down payment, how does this compare to the national distribution for similar borrowers? What specific concessions should I ask for?"_ Bring the answer to the negotiation in writing. Information asymmetry is the lever.[^m3-3]
 :::
-
 
 *Veterans note:* The VA home loan is the single most valuable benefit many eligible veterans never use. Key features: **0% down** for full-entitlement borrowers (no VA-imposed loan cap in 2026 — you borrow what you qualify for); **no PMI**, ever; the loan is **assumable** by another VA-eligible buyer (a significant asset in a high-rate environment); and a one-time funding fee that is **waived entirely** for veterans with a service-connected disability rating of 10% or more, for Purple Heart recipients, and for surviving spouses receiving DIC. The [IRRRL](https://www.va.gov/housing-assistance/home-loans/loan-types/interest-rate-reduction-loan/) (Interest Rate Reduction Refinance Loan) streamlines rate-reduction refinances with no new appraisal or credit underwriting in most cases. The catch: VA Minimum Property Requirements are stricter than conventional — roof, HVAC, water, pests, safety hazards must all pass, and failures can kill deals on fixers. Request your Certificate of Eligibility with [VA Form 26-1880](https://www.va.gov/housing-assistance/home-loans/how-to-apply/) or through the [VA's online portal](https://www.va.gov/housing-assistance/home-loans/). The SCRA (see M-2) also caps pre-service mortgage interest at 6% during active duty.
 
@@ -260,41 +223,29 @@ I will verify with a consumer rights attorney.
 :::
 *What to do with the Output:* If a collector calls you, say this: _"Send me a written validation of the debt"_ — and then put the same request in writing within 30 days of their first written notice. The written dispute is what matters: under the FDCPA, a written request obligates them to stop collection activity until they provide written verification. Saying it on the phone alone does not trigger that protection. This is not a negotiation tactic. It is a legal right. See L-7 for the validation letter itself. Write down the date, time, caller name, and company for every call. If they violate the FDCPA (calling before 8 AM, calling your workplace after you told them not to, threatening actions they cannot take), you can sue them — and the FDCPA provides for statutory damages of up to $1,000 per violation plus attorney's fees.
 
+[debt-validation-letter]{.art}
+
+::: tip
+*Debt validation* works because a meaningful share of debts in collections have been resold multiple times, stripped of documentation, or attributed to the wrong person — if the collector cannot produce the paper, the debt is functionally uncollectable. The letter ([FDCPA § 809](https://www.law.cornell.edu/uscode/text/15/1692g), 15 U.S.C. § 1692g) is two paragraphs; your Agent can draft it, or copy the CFPB's [sample letter](https://www.consumerfinance.gov/ask-cfpb/what-should-i-do-when-a-debt-collector-contacts-me-en-1695/).
+:::
+
+The psychology of being in collections resembles chronic stress in a measurable way: the calls, the fear of a lawsuit, the avoidance of the phone, the sleep loss. Collectors know this; the industry's practices were abusive enough that Congress wrote the FDCPA specifically to constrain them. You have rights, they have rules, and the rules favor you more than the phone makes it feel. If you can, send every communication in writing from this point forward.
+
 ::: science
-Medical debt is the leading cause of bankruptcy filings in the United States — a finding so consistent across studies that it has survived multiple methodological challenges. Himmelstein et al. (2019) found that approximately 530,000 families per year file bankruptcy citing medical bills. The three major credit bureaus (Equifax, Experian, TransUnion) removed medical debt under $500 from credit reports in 2023, and the CFPB has proposed removing all medical debt from credit reports.[^m4-1]
+The statute of limitations on debt is the single most consequential piece of information most people in collections never learn. It varies by state and by debt type (written contract vs. open account vs. oral), typically 3--10 years. Once the SOL expires, the debt still exists — but the collector cannot win a lawsuit. They can still ask for payment and, for a period, report it on your credit. The trap: in most states, making a partial payment or acknowledging the debt _in writing_ can restart the clock from zero. Never agree to "settle for pennies" on a time-barred debt without understanding what that agreement does to the SOL in your state. The [CFPB's Regulation F](https://www.consumerfinance.gov/compliance/compliance-resources/other-applicable-requirements/debt-collection/debt-collection-rule-faqs/) now prohibits collectors from suing or threatening to sue on time-barred debt, which is progress — but the rule does not restore a clock you restart yourself.[^m4-2]
 :::
-
-
-::: fairness
-Bankruptcy carries moral stigma in American culture that it does not carry in the law. The bankruptcy code exists because the alternative — permanent debt slavery — was considered worse for the economy and for individuals. Every major corporation uses bankruptcy strategically. The moral framing is applied exclusively to individuals. If your Agent's advice about bankruptcy carries a judgmental tone, redirect it: _"Give me the legal and financial analysis only. I will make the moral decision myself."_
-:::
-
 
 ::: fairness
 Debt collection practices disproportionately affect Black and Latino communities, who are sued at higher rates for medical and consumer debt. When reviewing your rights, ask your Agent: _"Do these protections apply equally regardless of the state I'm in and the type of debt?"_ Enforcement varies by jurisdiction.
 :::
 
-
-[debt-validation-letter]{.art}
-
-::: science
-The statute of limitations on debt is the single most consequential piece of information most people in collections never learn. It ranges by state from about 3 to 10 years and varies by debt type (written contract vs. open account vs. oral). Once the SOL expires, the debt still exists — but the collector cannot win a lawsuit. They can still ask for payment and, for a period, report it on your credit. The trap: in most states, making a partial payment or acknowledging the debt _in writing_ can restart the clock from zero. Never agree to "settle for pennies" on a time-barred debt without understanding what that agreement does to the SOL in your state. The [CFPB's Regulation F](https://www.consumerfinance.gov/compliance/compliance-resources/other-applicable-requirements/debt-collection/debt-collection-rule-faqs/) now prohibits collectors from suing or threatening to sue on time-barred debt, which is progress — but the rule does not restore a clock you restart yourself.[^m4-2]
-:::
-
-
-::: tip
-*Debt validation* is the most underused right in collections. Under [FDCPA § 809](https://www.law.cornell.edu/uscode/text/15/1692g) (15 U.S.C. § 1692g), you have 30 days from the collector's first written contact to demand — in writing — that they validate the debt. They must stop all collection activity until they provide the amount, the name of the original creditor, and verification that you owe it. A meaningful share of debts in collections have been resold multiple times, stripped of documentation, or attributed to the wrong person. If the collector cannot produce the paper, the debt is functionally uncollectable. The letter is two paragraphs. Your Agent can draft it. The CFPB has a [sample letter](https://www.consumerfinance.gov/ask-cfpb/what-should-i-do-when-a-debt-collector-contacts-me-en-1695/) you can copy.
-:::
-
-
 The American framing of debt as moral failure is culturally specific, not universal. Proverbs 22:7 — "the borrower is slave to the lender" — shaped the Protestant tradition that dominates personal-finance advice. Islamic finance prohibits interest entirely (_riba_). Jewish law includes _shmita_, debt release every seven years, and the Talmud treats lending as an obligation of community rather than a moral hazard. If you were raised inside one of these frameworks, your feelings about your credit card balance may come from somewhere older and deeper than the APR. That can help — a tradition that treats debt seriously also takes it seriously when you need to get out. It can also hurt, if shame keeps you from opening the envelope. Your Agent is willing to hold the math without holding the judgment. Shame does not pay bills. Strategy does.
 
 ::: fairness
-The psychology of being in collections resembles chronic stress in a measurable way: the calls, the fear of a lawsuit, the avoidance of the phone, the sleep loss. Collectors know this; the industry's practices were abusive enough that Congress wrote the FDCPA specifically to constrain them. You have rights, they have rules, and the rules favor you more than the phone makes it feel. Every call a collector makes is a potential statutory violation if they step over the line — up to $1,000 per lawsuit plus attorney's fees under § 1692k (see M-2). Keep a log: date, time, caller, company, what was said. The call you document is the leverage you carry into the negotiation — or into court. If you can, send every communication in writing from this point forward.
+Bankruptcy carries moral stigma in American culture that it does not carry in the law. The bankruptcy code exists because the alternative — permanent debt slavery — was considered worse for the economy and for individuals. Every major corporation uses bankruptcy strategically; the moral framing is applied exclusively to individuals. And the leading cause of personal bankruptcy is not spending — it is medical debt: approximately 530,000 families per year file bankruptcy citing medical bills.[^m4-1] If your Agent's advice about bankruptcy carries a judgmental tone, redirect it: _"Give me the legal and financial analysis only. I will make the moral decision myself."_
 :::
 
-
-[^m4-1]: Himmelstein, D.U. et al. (2019). ["Medical Bankruptcy: Still Common Despite the Affordable Care Act."](https://doi.org/10.2105/AJPH.2018.304901) _American Journal of Public Health_, 109(3), 431–433.
+[^m4-1]: Himmelstein, D.U. et al. (2019). ["Medical Bankruptcy: Still Common Despite the Affordable Care Act."](https://doi.org/10.2105/AJPH.2018.304901) _American Journal of Public Health_, 109(3), 431--433.
 
 [^m4-2]: CFPB, ["What is a statute of limitations on a debt?"](https://www.consumerfinance.gov/ask-cfpb/what-is-a-statute-of-limitations-on-a-debt-en-1389/) CFPB, ["My debt is several years old. Can debt collectors still collect?"](https://www.consumerfinance.gov/ask-cfpb/my-debt-is-several-years-old-can-debt-collectors-still-collect-en-1423/) Debt Collection Rule: [12 C.F.R. Part 1006](https://www.consumerfinance.gov/rules-policy/final-rules/debt-collection-practices-regulation-f/).
 
@@ -337,41 +288,23 @@ Please help me:
 :::
 *What to do with the Output:* If your employer offers a 401(k) match and you are not contributing enough to get the full match, fix that this week. It is a 50--100% guaranteed return on your money — there is no investment on Earth that competes with it. After that, the priority order is generally: full employer match → high-interest debt payoff → Roth IRA (if eligible) → max 401(k) → taxable brokerage. Your Agent can customize this for your situation.
 
-::: science
-Index funds — which track the entire market rather than trying to beat it — outperform actively managed funds over 15-year periods approximately 90% of the time (S&P SPIVA Scorecard, annual). The fees are the primary reason: the average actively managed fund charges 0.5--1.0% per year; a total market index fund charges 0.03--0.10%. Over a career, the fee difference alone can cost hundreds of thousands of dollars.[^m5-1]
-:::
-
-
 ::: tip
 _"I'm [age] and I have [$X] saved for retirement. Am I on track? If not, what's the most impactful thing I can do in the next 12 months?"_
 :::
 
-
-::: meme
-The financial services industry has made investing feel like it requires expertise, timing, and sophisticated strategy. For most people it requires three things: an index fund, automatic contributions, and the willingness to not look at it during a market downturn. [Warren Buffett](https://en.wikipedia.org/wiki/Warren%5FBuffett) bet a hedge fund manager $1 million that a simple S&P 500 index fund would beat a portfolio of hedge funds over ten years. Buffett won.[^m5-2] The most effective investment strategy is also the simplest. That is not a coincidence.
+::: science
+Index funds — which track the entire market rather than trying to beat it — outperform actively managed funds over 15-year periods approximately 90% of the time (S&P SPIVA Scorecard, annual). The fees are the primary reason: the average actively managed fund charges 0.5--1.0% per year; a total market index fund charges 0.03--0.10%. Over a career, the fee difference alone can cost hundreds of thousands of dollars.[^m5-1] [Warren Buffett](https://en.wikipedia.org/wiki/Warren%5FBuffett) bet a hedge fund manager $1 million that a simple S&P 500 index fund would beat a portfolio of hedge funds over 10 years. Buffett won.[^m5-2] The most effective investment strategy is also the simplest. That is not a coincidence.
 :::
 
-
-::: also
-Checking current interest rates, fee schedules, and regulations requires web search, which is free in Gemini, ChatGPT, and Copilot. In Claude, web search requires the paid tier. See [Appendix G](06-appendix-g-feature-table.xhtml).
-:::
-
+The anxiety of not having saved enough is one of the most pervasive financial stresses in American life, and it is often silent — the people who feel it the most are the most likely to stop looking. The Federal Reserve's Survey of Consumer Finances puts the _median_ retirement savings for Americans aged 55--64 at roughly $185,000, which is well below what most financial-planning rules of thumb recommend and above zero, where many people assume "everyone but me" must be.[^m5-6] The gap between "what experts say you need" and "what most people have" is large enough to induce paralysis, which is its own cost. If you are behind, the starting position is the number you have today, not the number you wish you had started with. Every dollar compounds. Perfectionism is the enemy of progress in finance exactly as it is everywhere else. Ask your Agent: _"I'm [age] with [amount] saved. Stop telling me what I should have done and help me plan from here."_
 
 ::: science
 Social Security is not going bankrupt. The 2025 Trustees Report projects the combined trust funds will be depleted in 2034, after which ongoing payroll taxes can still pay 81% of scheduled benefits — indefinitely. That is a funding gap, not a collapse. Congress has multiple tools to close it: raising the cap on taxable earnings (currently $176,100) to cover 90% of wages would close 20% of the gap alone. Adjusting the retirement age or benefit formulas closes more. The system has been fixed before — the 1983 amendments resolved a similar crisis. The anxiety is real. The math is solvable.[^m5-4]
 :::
 
-
-[^m5-4]: Social Security Board of Trustees (2025). [_The 2025 OASDI Trustees Report._](https://www.ssa.gov/OACT/TR/2025/) CBO, ["Increase the Maximum Taxable Earnings That Are Subject to Social Security Payroll Taxes."](https://www.cbo.gov/budget-options/60955)
-
 ::: fairness
 Americans lost $5.7 billion to investment scams in 2024 (FTC) — more than any other fraud category, up 24% from the prior year. Crypto pump-and-dumps, forex trading courses, day-trading influencers, and multilevel marketing disguised as "financial freedom" share one trait: if someone is selling you a system to get rich, the system is selling the system. The FTC's 2024 analysis of 70 MLM income disclosures found most participants made under $1,000 per year before expenses. Your Agent can evaluate any pitch: _"Someone is telling me I can make [X] by doing [Y]. Is this legitimate? What are the actual risks they aren't mentioning?"_ See the calibration question in Chapter 4.[^m5-3]
 :::
-
-
-[^m5-3]: FTC (2025). ["Reported Losses to Fraud: $12.5 Billion in 2024."](https://www.ftc.gov/news-events/news/press-releases/2025/03/new-ftc-data-show-big-jump-reported-losses-fraud-125-billion-2024) FTC (2024). ["Multi-Level Marketing Income Disclosure Statements: An FTC Staff Report."](https://www.ftc.gov/system/files/ftc%5Fgov/pdf/mlm-ids-report.pdf)
-
-The anxiety of not having saved enough is one of the most pervasive financial stresses in American life, and it is often silent — the people who feel it the most are the most likely to stop looking. The Federal Reserve's Survey of Consumer Finances puts the _median_ retirement savings for Americans aged 55–64 at roughly $185,000, which is well below what most financial-planning rules of thumb recommend and above zero, where many people assume "everyone but me" must be.[^m5-6] The gap between "what experts say you need" and "what most people have" is large enough to induce paralysis, which is its own cost. If you are behind, the starting position is the number you have today, not the number you wish you had started with. Every dollar compounds. Perfectionism is the enemy of progress in finance exactly as it is everywhere else. Ask your Agent: _"I'm [age] with [amount] saved. Stop telling me what I should have done and help me plan from here."_
 
 *Veterans note:* If you are on active duty, federal civilian service, or a reservist with federal TSP access, the [Thrift Savings Plan](https://www.tsp.gov) is the largest and lowest-cost defined-contribution plan in the country. Its core funds — G (government securities), F (bond index), C (S&P 500), S (extended U.S. market), I (international), and the L (lifecycle) target-date funds — carry expense ratios in the single basis points. The **Blended Retirement System**, mandatory for servicemembers who entered on or after January 1, 2018, adds a 1% automatic agency contribution plus a match of up to 4% for a total of 5% when you contribute at least 5% yourself. Getting the full match is the first-priority retirement move for any servicemember the BRS applies to — turning it down is turning down pay. The reduced defined-benefit multiplier (2.0% per year of service vs. the legacy 2.5%) is the trade. The **Survivor Benefit Plan** election at retirement pays a surviving spouse 55% of the retired-pay base you elect; the decision is made once, on [DD Form 2656](https://www.esd.whs.mil/Directives/forms/dd2500_2999/), and it is commonly misunderstood — walk your Agent through your specific situation before you sign.[^m5-7]
 
@@ -379,7 +312,11 @@ The anxiety of not having saved enough is one of the most pervasive financial st
 
 [^m5-2]: Buffett, W.E. (2017). [Berkshire Hathaway Annual Letter to Shareholders.](https://www.berkshirehathaway.com/letters/2017ltr.pdf) The bet, made in 2007, was against Protégé Partners' selection of hedge funds.
 
-[^m5-5]: Estimated from US retirement-asset totals ($44.1 trillion at year-end 2024, with IRAs and employer-sponsored defined-contribution plans accounting for 67%) and industry-average expense ratios (typically 0.3–1.0%). See Investment Company Institute, _[2025 Investment Company Fact Book](https://www.icifactbook.org/pdf/2025-factbook-ch8.pdf)_, ch. 8 (US Retirement Market).
+[^m5-3]: FTC (2025). ["Reported Losses to Fraud: $12.5 Billion in 2024."](https://www.ftc.gov/news-events/news/press-releases/2025/03/new-ftc-data-show-big-jump-reported-losses-fraud-125-billion-2024) FTC (2024). ["Multi-Level Marketing Income Disclosure Statements: An FTC Staff Report."](https://www.ftc.gov/system/files/ftc%5Fgov/pdf/mlm-ids-report.pdf)
+
+[^m5-4]: Social Security Board of Trustees (2025). [_The 2025 OASDI Trustees Report._](https://www.ssa.gov/OACT/TR/2025/) CBO, ["Increase the Maximum Taxable Earnings That Are Subject to Social Security Payroll Taxes."](https://www.cbo.gov/budget-options/60955)
+
+[^m5-5]: Estimated from US retirement-asset totals ($44.1 trillion at year-end 2024, with IRAs and employer-sponsored defined-contribution plans accounting for 67%) and industry-average expense ratios (typically 0.3--1.0%). See Investment Company Institute, _[2025 Investment Company Fact Book](https://www.icifactbook.org/pdf/2025-factbook-ch8.pdf)_, ch. 8 (US Retirement Market).
 
 [^m5-6]: Federal Reserve Board. ["2022 Survey of Consumer Finances."](https://www.federalreserve.gov/econres/scfindex.htm) Retirement account balance by age, Table 2.
 
@@ -404,6 +341,10 @@ want to know more about before giving a final recommendation.
 :::
 *What to do with the Output:* For any financial decision over $1,000, ask the calibration question: _"How confident are you in this recommendation, and what should I verify with a professional?"_ Your Agent is good at explaining options and running numbers. It is not a fiduciary — it has no legal obligation to act in your interest. A fee-only CFP (Certified Financial Planner) does. For complex situations — estate planning, tax optimization, business finances — the cost of a professional consultation is almost always worth it.
 
+::: tip
+The single highest-leverage financial question: _"I have [$X] that I don't need for 30 days. Where should it be sitting right now to earn interest instead of nothing?"_ The answer is almost never "in your checking account."
+:::
+
 *Common financial Expert Role specs:*
 
 ::: prompt
@@ -421,11 +362,6 @@ Act as a financial coach. Someone is offering me [investment /
 business opportunity / loan / deal]. Walk me through the red flags
 and the legitimate questions I should ask before committing any money.
 :::
-
-::: tip
-The single highest-leverage financial question: _"I have [$X] that I don't need for 30 days. Where should it be sitting right now to earn interest instead of nothing?"_ The answer is almost never "in your checking account."
-:::
-
 
 ::: also
 To make the Financial Coach persistent across sessions, save the Expert Role as a *Project* (Claude), *Gem* (Gemini), or *Custom GPT* (ChatGPT). See [Appendix G](06-appendix-g-feature-table.xhtml).
@@ -479,15 +415,11 @@ _"I got my W-2 from my employer. [Paste or describe the key numbers.] Walk me th
 :::
 
 
-::: meme
-Intuit (TurboTax) and H&R Block have spent more than a decade lobbying Congress to keep the IRS out of the free-filing business. The IRS launched [Direct File](https://directfile.irs.gov) as a pilot in 2024 with 12 states, expanded to 25 states for the 2025 season, and processed nearly 300,000 returns with a 90% user satisfaction rate. In November 2025, the Trump administration announced that Direct File _"will not be available in Filing Season 2026,"_ citing low uptake and cost. Most of the Direct File staff have left or been terminated. The agency already had your numbers — the W-2 and 1099 forms were filed months ago — and was briefly willing to show them to you for free. That is no longer an option for 2026. [IRS Free File](https://www.irs.gov/filing/irs-free-file-do-your-taxes-for-free) (for taxpayers under the AGI threshold, around $84,000) and Free File Fillable Forms remain. The tax preparation industry's position is that the government should not compete with private enterprise. The government just conceded the point.[^m7-2]
-:::
-
+The recent history of free filing shows how deliberately the complexity is maintained. Intuit (TurboTax) and H&R Block have spent more than a decade lobbying Congress to keep the IRS out of the free-filing business. The IRS launched [Direct File](https://directfile.irs.gov) as a pilot in 2024 with 12 states, expanded to 25 states for the 2025 season, and processed nearly 300,000 returns with a 90% user satisfaction rate. In November 2025, the Trump administration announced that Direct File _"will not be available in Filing Season 2026,"_ citing low uptake and cost. The agency already had your numbers — the W-2 and 1099 forms were filed months ago — and was briefly willing to show them to you for free. That is no longer an option for 2026. [IRS Free File](https://www.irs.gov/filing/irs-free-file-do-your-taxes-for-free) (for taxpayers under the AGI threshold, around $84,000) and Free File Fillable Forms remain. The tax preparation industry's position is that the government should not compete with private enterprise. The government just conceded the point.[^m7-2]
 
 ::: fairness
 The tax code's complexity disproportionately benefits those who can afford advice. The mortgage interest deduction, the capital gains rate, the carried interest loophole --- these are not bugs. They are features, written by lobbyists, that primarily benefit high-income taxpayers. Meanwhile, the EITC --- designed for low-income workers --- has a noncompliance rate of roughly 22%, mostly from errors on legitimate claims, not fraud. When your Agent explains a deduction or credit, ask: _"Who primarily benefits from this provision, and does it apply to someone at my income level?"_
 :::
-
 
 ::: tip
 *When to hire a CPA.* For a W-2 return with the standard deduction, tax software handles the job — TurboTax Deluxe runs roughly $69 federal + $59 per state, and the IRS Free File program is $0 for filers under the AGI threshold. A CPA pays for itself when your return carries: self-employment income (Schedule C), rental properties (Schedule E), stock options or other equity comp, multi-state filing, significant life changes (inheritance, divorce, death of a spouse), or an audit notice. The [National Society of Accountants](https://www.nsacct.org/about/publications/income-fees-survey) biennial fee survey puts the national average at around $220 for a 1040 without itemizing, about $323 with Schedule A, and an additional $192 for Schedule C. Your Agent can tell you which bucket your situation falls into before you book the appointment — ask it to list every form your return will require, then compare the software price against the CPA quote.
@@ -544,42 +476,25 @@ during a crisis.
 :::
 *What to do with the Output:* Insurance is one of the few financial products where the decision you made three years ago may be costing you money today. Get quotes annually. Not because loyalty should be punished — although the insurance industry does penalize loyalty, charging existing customers more than new ones for identical coverage — but because your situation changes. The car is worth less. The apartment has more stuff in it. You had a kid. Review the output, then call your current insurer and ask them to match the best quote. They usually will, because acquiring a new customer costs them more than keeping you.
 
-::: science
-The average American household is simultaneously overinsured in some areas and dangerously underinsured in others. The most common gap: liability coverage. Standard auto policies carry $50,000–$100,000 in liability, which is insufficient if you cause a serious accident. An umbrella policy — $1 million in additional liability coverage — typically costs $200–$400 per year, making it one of the highest-value insurance products available and one of the least purchased.[^m8-1]
+::: fairness
+Insurance pricing algorithms use proxies that correlate with race and income: credit scores, ZIP codes, education level, and occupation. The result is that lower-income and minority policyholders frequently pay more for identical coverage. Several states have banned or limited credit-based insurance scoring (California, Hawaii, Massachusetts, Maryland, Michigan, Oregon, Washington). When your Agent compares rates, ask: _"Are there state regulations that limit what factors my insurer can use to set my premium?"_
 :::
 
+Renters insurance costs $15--$30 per month and covers your belongings, your liability if someone is injured in your apartment, and your living expenses if your unit becomes uninhabitable. Roughly four in ten renters do not have it. Your landlord's insurance covers the building. It does not cover your laptop, your furniture, or the fact that you need somewhere to sleep while the water damage dries. The landlord who tells you that you "don't need renters insurance" is telling you that _they_ don't need you to have it. Your interests differ.
+
+::: science
+The most common coverage gap is liability. Every state except New Hampshire requires auto liability insurance, but the minimums are legal compliance, not financial protection: Florida requires only 10/20/10 — $10,000 per-person bodily injury, $20,000 per-accident, $10,000 property damage — while a single ER visit in 2026 can exceed $20,000 and a totaled new vehicle $50,000. The [Insurance Information Institute](https://www.iii.org/article/how-much-auto-insurance-do-i-need) and most consumer advocates recommend at least 100/300/100 for anyone with assets to protect.[^m8-3] An umbrella policy — $1 million in additional liability coverage layered on top — typically costs $200--$400 per year, making it one of the highest-value insurance products available and one of the least purchased.[^m8-1]
+:::
 
 ::: tip
 _"I'm paying [$X/month] for auto insurance with [coverage limits]. I have [assets] to protect. Should I raise my deductible, change my liability limits, or get an umbrella policy? What's the math?"_
 :::
 
-
-::: meme
-Renters insurance costs $15–$30 per month and covers your belongings, your liability if someone is injured in your apartment, and your living expenses if your unit becomes uninhabitable. Roughly four in ten renters do not have it. Your landlord's insurance covers the building. It does not cover your laptop, your furniture, or the fact that you need somewhere to sleep while the water damage dries. The landlord who tells you that you "don't need renters insurance" is telling you that _they_ don't need you to have it. Your interests differ.
-:::
-
-
-::: fairness
-Insurance pricing algorithms use proxies that correlate with race and income: credit scores, ZIP codes, education level, and occupation. The result is that lower-income and minority policyholders frequently pay more for identical coverage. Several states have banned or limited credit-based insurance scoring (California, Hawaii, Massachusetts, Maryland, Michigan, Oregon, Washington). When your Agent compares rates, ask: _"Are there state regulations that limit what factors my insurer can use to set my premium?"_
-:::
-
-
-::: also
-Checking current insurance rates and state regulations requires web search, which is free in Gemini, ChatGPT, and Copilot. In Claude, web search requires the paid tier. See [Appendix G](06-appendix-g-feature-table.xhtml).
-:::
-
+Insurance is one of the few products you buy hoping never to use. Every month you pay a premium and nothing happens, the emotional math feels like a loss — a running total in your head of money spent on nothing. The month something happens, the math reverses in a single phone call. Insurance is not an investment, and evaluating it that way will steer you wrong. It is the purchase of not-being-ruined by a single bad day. The value is not in the payout. It is in the sleep. If you have been debating whether to buy or upgrade coverage, the right question is not _"what return do I get on this?"_ It is _"what does my household look like the day after the worst realistic thing happens, with this coverage and without it?"_ Your Agent can model both scenarios.
 
 ::: science
 *Life insurance in plain numbers.* The "10--12x income" rule of thumb is an industry heuristic, not a law of finance. The **DIME** method gives a more honest total: **D**ebts + **I**ncome × years your family needs support + **M**ortgage balance + **E**ducation costs for children. Term life — coverage for a fixed period, typically 20 or 30 years — is almost always the right answer for people under 60: the premium covers the years your family cannot absorb the loss of your income, and you drop it when they can. Whole life bundles insurance with a low-return investment component and carries commissions that can reach 100% of the first year's premium plus ongoing trailers, which is why agents pitch it. "Buy term and invest the difference" is the endorsement from almost every fee-only planner and [Consumer Reports](https://www.consumerreports.org/money/life-insurance/). Whole life has legitimate niche uses — estate-tax liquidity, special-needs trusts, high earners who have already maxed out other tax-advantaged accounts — but those are narrow cases. The industry's default sales pitch is not one of them.[^m8-2]
 :::
-
-
-::: fairness
-Every state except New Hampshire requires auto liability insurance, but the minimums vary to the point of farce. Florida requires 10/20/10 — $10,000 per-person bodily injury, $20,000 per-accident, $10,000 property damage — plus $10,000 in PIP, and uniquely does not require bodily injury liability at all. California and Pennsylvania require 15/30/5. A single ER visit in 2026 can exceed $20,000; a totaled new vehicle can exceed $50,000. The state minimum is legal compliance, not financial protection. The [Insurance Information Institute](https://www.iii.org/article/how-much-auto-insurance-do-i-need) and most consumer advocates recommend at least 100/300/100 for anyone with assets to protect. Umbrella policies (see the science callout below) layer an additional $1M+ on top for a few hundred dollars a year. Ask your Agent: _"I drive [vehicle] in [state] with [assets]. What liability limits would cover me in a realistic worst case, and how much more would that cost per month?"_[^m8-3]
-:::
-
-
-Insurance is one of the few products you buy hoping never to use. Every month you pay a premium and nothing happens, the emotional math feels like a loss — a running total in your head of money spent on nothing. The month something happens, the math reverses in a single phone call. Insurance is not an investment, and evaluating it that way will steer you wrong. It is the purchase of not-being-ruined by a single bad day. The value is not in the payout. It is in the sleep. If you have been debating whether to buy or upgrade coverage, the right question is not _"what return do I get on this?"_ It is _"what does my household look like the day after the worst realistic thing happens, with this coverage and without it?"_ Your Agent can model both scenarios.
 
 *Veterans note:* If you are on active duty, **SGLI** (Servicemembers' Group Life Insurance) gives you up to $500,000 of term coverage automatically at approximately $0.06 per $1,000 per month — $30/month for the full $500K — plus a $1/month TSGLI rider for qualifying traumatic injuries. Coverage ends 120 days after separation. Within 240 days of separation you can convert to **VGLI** (Veterans' Group Life Insurance) at your SGLI amount with _no medical underwriting_; the outer window is 1 year + 120 days (480 days) _with_ proof of insurability. **FSGLI** covers your spouse up to $100,000 (not exceeding your SGLI) and each dependent child for $10,000 at no cost. Forms: [SGLV 8286](https://benefits.va.gov/INSURANCE/forms.asp) to elect or change SGLI, SGLV 8714 for VGLI, SGLV 8600 for TSGLI claims. Apply through [va.gov/life-insurance](https://www.va.gov/life-insurance/).[^m8-4]
 
@@ -632,32 +547,7 @@ I will verify with my servicer and studentaid.gov.
 *What to do with the Output:* Never refinance federal loans into private loans without understanding what you are giving up. Federal loans come with income-driven repayment, forgiveness programs, deferment, forbearance, and discharge options. Private loans come with none of these. Refinancing may lower your interest rate. It will also eliminate your safety net. If your Agent recommends refinancing, follow up: _"What protections do I lose by converting these federal loans to private? Give me the complete list."_
 
 ::: science
-Public Service Loan Forgiveness was signed into law in 2007, and in the first years after applications opened (2017–2019) it rejected over 99% of applicants — primarily due to servicer errors that placed borrowers on ineligible repayment plans without their knowledge. The 2021 PSLF Waiver and subsequent reforms dramatically expanded approvals. As of 2024, over $69 billion in student loan debt has been forgiven through various programs. The lesson is structural: the program existed on paper for years while the implementation actively prevented people from using it.[^m9-1]
-:::
-
-
-::: tip
-_"I work for [employer type: government / nonprofit / hospital / school]. Am I eligible for Public Service Loan Forgiveness? Walk me through the requirements and tell me what I need to do today to make sure my payments count."_
-:::
-
-
-::: fairness
-Student loan debt falls disproportionately on Black borrowers, who carry an average of $25,000 more in student loan debt than white borrowers four years after graduation (Brookings Institution). The gap is driven by the racial wealth gap: Black students borrow more because their families have less wealth to contribute, then face a labor market that pays them less, making repayment harder. When evaluating repayment strategies, ask your Agent: _"Are there known disparities in how loan servicers handle borrowers from different backgrounds, and what should I watch for?"_
-:::
-
-
-::: meme
-The FAFSA — Free Application for Federal Student Aid — is a 108-question form that requires last year's tax return, bank statements, investment records, and in some cases your parents' financial information regardless of whether your parents are involved in your life. The "simplified" FAFSA launched in the 2024--25 cycle and was delayed by months due to processing errors, leaving millions of students unable to compare financial aid offers on time. The Department of Education described this as a "transition year." Students described it differently.
-:::
-
-
-::: also
-Checking current loan balances, servicer information, and repayment plan options is available at [studentaid.gov](https://studentaid.gov). Your Agent can help you interpret what you find there.
-:::
-
-
-::: science
-*The post-SAVE landscape (2026).* The SAVE plan was struck down in federal court in 2025 and formally ended via Department of Education agreement in late 2025. Approximately 7.5 million borrowers parked in SAVE forbearance had interest resume accruing on August 1, 2025 and have a 90-day window starting July 1, 2026 to choose another plan — those who do not will be defaulted into a Standard or Tiered Standard plan. The [One Big Beautiful Bill Act](https://www.congress.gov/bill/119th-congress/house-bill/1) (signed July 4, 2025) created a new **Repayment Assistance Plan (RAP)** launching July 1, 2026 — payments of 1% to 10% of AGI tiered by balance, $10 monthly minimum, forgiveness at 30 years. For loans disbursed **before** July 1, 2026, the legacy IDR plans remain: **IBR** (10% of discretionary income above 150% FPL, 20-year forgiveness — and the "partial financial hardship" gate was eliminated in 2025, so IBR is now open to any Direct Loan borrower); **PAYE** and **ICR** both sunset July 1, 2028. For loans disbursed **after** July 1, 2026, RAP is the only IDR option. Critically: the ARPA tax exclusion expired December 31, 2025 — IDR forgiveness granted in 2026 or later is now federally taxable income. PSLF forgiveness remains tax-free.[^m9-2]
+*The post-SAVE landscape (2026).* The SAVE plan was struck down in federal court in 2025 and formally ended via Department of Education agreement in late 2025. Approximately 7.5 million borrowers parked in SAVE forbearance had interest resume accruing on August 1, 2025 and have a 90-day window starting July 1, 2026 to choose another plan — those who do not will be defaulted into a Standard or Tiered Standard plan. The [One Big Beautiful Bill Act](https://www.congress.gov/bill/119th-congress/house-bill/1) (signed July 4, 2025) created a new **Repayment Assistance Plan (RAP)** launching July 1, 2026 — payments of 1%--10% of AGI tiered by balance, $10 monthly minimum, forgiveness at 30 years. For loans disbursed **before** July 1, 2026, the legacy IDR plans remain: **IBR** (10% of discretionary income above 150% FPL, 20-year forgiveness — and the "partial financial hardship" gate was eliminated in 2025, so IBR is now open to any Direct Loan borrower); **PAYE** and **ICR** both sunset July 1, 2028. For loans disbursed **after** July 1, 2026, RAP is the only IDR option. Critically: the ARPA tax exclusion expired December 31, 2025 — IDR forgiveness granted in 2026 or later is now federally taxable income. PSLF forgiveness remains tax-free.[^m9-2]
 :::
 
 
@@ -668,9 +558,17 @@ _"I have federal student loans totaling [$X] with [servicer]. I'm currently on [
 
 The emotional weight of student loan debt is qualitatively different from credit card debt. A credit card balance tends to feel like a mistake. A student loan balance can feel like a betrayal — you did what you were told, invested in yourself, went to college, and the price of that investment tripled in two decades while the return on it stagnated. The anger is rational. An entire generation was sold a narrative it is still paying off. Honor the anger. Also: do not let it paralyze you. The debt is real, the rules are current, and the tools work — imperfect, politically contested tools, but tools — even when the system that created the debt was unjust. Your Agent can hold both things at once. So can you.
 
+::: science
+Public Service Loan Forgiveness was signed into law in 2007, and in the first years after applications opened (2017--2019) it rejected over 99% of applicants — primarily due to servicer errors that placed borrowers on ineligible repayment plans without their knowledge. The 2021 PSLF Waiver and subsequent reforms dramatically expanded approvals. As of 2024, over $69 billion in student loan debt has been forgiven through various programs. The lesson is structural: the program existed on paper for years while the implementation actively prevented people from using it.[^m9-1]
+:::
+
+::: fairness
+Student loan debt falls disproportionately on Black borrowers, who carry an average of $25,000 more in student loan debt than white borrowers four years after graduation (Brookings Institution). The gap is driven by the racial wealth gap: Black students borrow more because their families have less wealth to contribute, then face a labor market that pays them less, making repayment harder. When evaluating repayment strategies, ask your Agent: _"Are there known disparities in how loan servicers handle borrowers from different backgrounds, and what should I watch for?"_
+:::
+
 *The parent who co-signed.* Parent PLUS loans are federal loans taken out by parents for a child's education. They carry higher interest rates than student loans, cannot be transferred to the student, and have historically been locked out of most income-driven plans — though a "double consolidation" workaround can make them eligible for ICR, and RAP will be available for Parent PLUS loans consolidated before the July 2026 deadline in some cases. Many parents signed these loans without understanding the terms because the child needed them and the financial-aid office presented the offer as routine. The shame runs both ways: the parent feels they failed to save enough; the child feels they burdened their family. Neither is a moral failure. Both are a structural consequence of a system that prices college beyond what most American families can pay. If this is your situation, ask your Agent: _"I took out Parent PLUS loans for [child's name] in [years]. Walk me through my consolidation and IDR options specifically for Parent PLUS debt, and tell me whether consolidating before July 2026 changes what I'm eligible for."_
 
-*Veterans note:* Education benefits, for many servicemembers, eliminate the need to borrow in the first place — or pay off debt that is already there. The **Post-9/11 GI Bill** (Chapter 33, [38 U.S.C. § 3311](https://www.law.cornell.edu/uscode/text/38/3311)) pays full in-state tuition and fees at public schools (with a 2026–27 cap of $29,920.95/year at private and foreign schools), a monthly housing allowance at the E-5-with-dependents BAH rate for the school's ZIP code, and up to $1,000 per year in books. Service ending on or after January 1, 2013 carries _unlimited_ time to use the benefit (the "Forever GI Bill"). **Transferability** to a spouse or children requires 6+ years of service and a commitment to 4 more at the time of transfer — the request goes through the [milConnect](https://milconnect.dmdc.osd.mil/milconnect/) portal before separation. The **Yellow Ribbon Program** covers the gap above the private/out-of-state cap at participating schools. Alternatives: **Montgomery GI Bill** (Chapter 30), **MGIB-SR** for Reservists (Chapter 1606), and **VR&E / VetSuccess** (Chapter 31) for service-connected disabled veterans, which covers tuition, fees, subsistence, and vocational counseling. Apply through [va.gov/education](https://www.va.gov/education/how-to-apply/) using [VA Form 22-1990](https://www.va.gov/find-forms/about-form-22-1990/) or 22-1990e for dependents. Your Agent can model which benefit gives you the most value for your actual enrollment plan.[^m9-3]
+*Veterans note:* Education benefits, for many servicemembers, eliminate the need to borrow in the first place — or pay off debt that is already there. The **Post-9/11 GI Bill** (Chapter 33, [38 U.S.C. § 3311](https://www.law.cornell.edu/uscode/text/38/3311)) pays full in-state tuition and fees at public schools (with a 2026--27 cap of $29,920.95/year at private and foreign schools), a monthly housing allowance at the E-5-with-dependents BAH rate for the school's ZIP code, and up to $1,000 per year in books. Service ending on or after January 1, 2013 carries _unlimited_ time to use the benefit (the "Forever GI Bill"). **Transferability** to a spouse or children requires 6+ years of service and a commitment to four more at the time of transfer — the request goes through the [milConnect](https://milconnect.dmdc.osd.mil/milconnect/) portal before separation. The **Yellow Ribbon Program** covers the gap above the private/out-of-state cap at participating schools. Alternatives: **Montgomery GI Bill** (Chapter 30), **MGIB-SR** for Reservists (Chapter 1606), and **VR&E / VetSuccess** (Chapter 31) for service-connected disabled veterans, which covers tuition, fees, subsistence, and vocational counseling. Apply through [va.gov/education](https://www.va.gov/education/how-to-apply/) using [VA Form 22-1990](https://www.va.gov/find-forms/about-form-22-1990/) or 22-1990e for dependents. Your Agent can model which benefit gives you the most value for your actual enrollment plan.[^m9-3]
 
 [^m9-1]: Department of Education. (2024). ["Biden-Harris Administration Has Approved $69 Billion in Student Debt Relief."](https://www.ed.gov/news/press-releases) PSLF historical rejection rates from Government Accountability Office, ["Public Service Loan Forgiveness: Education Needs to Provide Better Information for the Loan Servicer and Borrowers."](https://www.gao.gov/products/gao-18-547) (2018).
 
@@ -719,33 +617,19 @@ Deferred interest financing --- the "0% APR" model used by most furniture stores
 :::
 
 
-::: tip
-_"I'm looking at [item] for [$X] with '0% APR for 24 months.' Explain the deferred interest terms and calculate exactly what I'll owe if I pay it off on time vs. if I miss the deadline by one month."_
-:::
-
-
 ::: meme
 The 72-month auto loan was once considered predatory. It is now the most common car loan term in America. The 84-month loan — seven years — is the fastest-growing segment. The purpose of extending the loan term is not to make the car more affordable. It is to make the _payment_ smaller so the buyer will accept a higher purchase price. The car does not know how long you are paying for it, but the bank does, and it is delighted. [The Simpsons:S3E11 "Burns Verkaufen der Kraftwerk"](https://en.wikipedia.org/wiki/Burns_Verkaufen_der_Kraftwerk), 1991, understood the buy-vs-hold math better than most personal finance books: Homer dumps his stock for $25 and spends it on beer, while the coworkers who held on collect $5,200 each — because to Homer the money felt like a windfall rather than a position.
 :::
 
 
+For any brand-level decision, check measured reliability instead of marketing. Brand perception diverges from measured reliability more often than advertising suggests: Samsung and LG, both heavily advertised in major appliances, score poorly on icemaker and compressor failure rates; quieter brands routinely outperform them. Consumer Reports pools member survey data with in-lab testing and is the single most-cited source on consumer product reliability; the full rankings require a [subscription](https://www.consumerreports.org/) (roughly $39/year digital), but the methodology is public and your Agent can summarize what reviewers and [J.D. Power](https://www.jdpower.com/business/press-releases/) have published in their free tiers. For cars specifically, [RepairPal](https://repairpal.com/) gives free reliability scores and realistic repair-cost estimates by make, model, and year.[^m10-2]
+
 ::: fairness
 Dealer markup, financing terms, and trade-in offers vary based on the buyer's perceived negotiating power — and studies consistently show that Black and Hispanic buyers are offered higher financing rates and pay more for identical vehicles. If your Agent helps you calculate a fair price, bring that number to the dealership. Information asymmetry is leverage. Having the number in writing — from a source the dealer cannot see — is how you close the gap. See Tr-1 for the full car-buying Skill.
 :::
 
-
-::: also
-For major electronics and appliances, checking current prices, reliability data, and seasonal sales patterns requires web search, which is free in Gemini, ChatGPT, and Copilot. In Claude, web search requires the paid tier. See [Appendix G](06-appendix-g-feature-table.xhtml).
-:::
-
-
-::: science
-Consumer Reports' 2026 Auto Brand Report Card (published December 2025) put Subaru on top, followed by BMW and Porsche — Toyota, Subaru, and Lexus led CR's separate November 2025 reliability rankings, and Tesla was named most improved, cracking the overall top 10. Brand perception diverges from measured reliability more often than marketing suggests: Samsung and LG, both heavily advertised in major appliances, score poorly on icemaker and compressor failure rates; quieter brands routinely outperform them. CR's methodology pools member survey data with in-lab testing and is the single most-cited source on consumer product reliability; the full rankings require a [subscription](https://www.consumerreports.org/) (roughly $39/year digital), but the methodology is public and your Agent can summarize what reviewers and [J.D. Power](https://www.jdpower.com/business/press-releases/) have published in their free tiers. For cars specifically, [RepairPal](https://repairpal.com/) gives free reliability scores and realistic repair-cost estimates by make, model, and year.[^m10-2]
-:::
-
-
 ::: tip
-*The "buy used" calculus for cars.* A new vehicle loses roughly 20–25% of its value in year one and around 42% over five years industry-wide, per [iSeeCars](https://www.iseecars.com/cars-that-hold-their-value-study)' 2026 study — trucks depreciate least, EVs depreciate most (more than 15 points worse than average). A 2-to-3-year-old certified pre-owned vehicle captures the steepest part of the depreciation curve while still carrying a factory warranty, which is usually the best total-cost position. The exception: when manufacturers dangle 0% APR on new cars against 9–11% rates on used-car loans, the finance math can flip. Run both scenarios — purchase price _plus_ total finance charges _plus_ insurance differential — before you fall for the lower monthly payment. AAA's [Your Driving Costs](https://newsroom.aaa.com/) 2025 report puts average new-car ownership at $11,577 per year, with depreciation as the single largest line item at about $4,334.
+*The "buy used" calculus for cars.* A new vehicle loses roughly 20--25% of its value in year one and around 42% over five years industry-wide, per [iSeeCars](https://www.iseecars.com/cars-that-hold-their-value-study)' 2026 study — trucks depreciate least, EVs depreciate most (more than 15 points worse than average). A two-to-three-year-old certified pre-owned vehicle captures the steepest part of the depreciation curve while still carrying a factory warranty, which is usually the best total-cost position. The exception: when manufacturers dangle 0% APR on new cars against 9--11% rates on used-car loans, the finance math can flip. Run both scenarios — purchase price _plus_ total finance charges _plus_ insurance differential — before you fall for the lower monthly payment. AAA's [Your Driving Costs](https://newsroom.aaa.com/) 2025 report puts average new-car ownership at $11,577 per year, with depreciation as the single largest line item at about $4,334.
 :::
 
 
