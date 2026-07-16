@@ -98,6 +98,17 @@ export function epubOverrides(
     //   [stem-name]{.art}                         — no caption, stem is text content
     //   [_caption text_]{.art stem="stem-name"}   — caption is text content, stem is attribute
     span: (node: Span, renderer: HTMLRenderer): string => {
+      // Tap-to-define glossary span: [Term]{.gloss def="Definition text"} →
+      // a native <details> disclosure, no JS required. <details> is flow
+      // content, not phrasing content, so this is only valid where the
+      // surrounding container accepts flow content (e.g. a table cell) —
+      // not inside running prose wrapped in <p>.
+      if (node.attributes?.class === 'gloss') {
+        const term = renderer.renderChildren(node);
+        const def = node.attributes?.def ?? '';
+        return `<details class="gloss"><summary>${term}</summary><span class="gloss-def">${escapeHtml(def)}</span></details>`;
+      }
+
       if (node.attributes?.class !== 'art' || !artCtx) {
         return renderer.renderAstNodeDefault(node);
       }

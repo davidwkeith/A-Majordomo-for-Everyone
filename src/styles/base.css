@@ -189,6 +189,39 @@ th {
   font-weight: 700;
 }
 
+/* ---- Tap-to-Define Glossary ---- */
+
+details.gloss {
+  display: inline;
+}
+
+details.gloss summary {
+  display: inline;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--link);
+  list-style: none;
+}
+
+details.gloss summary::-webkit-details-marker {
+  display: none;
+}
+
+details.gloss summary::marker {
+  content: '';
+}
+
+details.gloss[open] summary {
+  border-bottom-style: solid;
+}
+
+details.gloss .gloss-def {
+  display: block;
+  margin-top: 0.3em;
+  font-size: 0.85em;
+  font-style: italic;
+  color: var(--text-muted);
+}
+
 /* ---- Callout Blocks ---- */
 
 .callout {
