@@ -185,7 +185,18 @@ ${list}    </div>
   return pageShell(meta, 'Table of Contents', body, { chapters });
 }
 
-export function landingPage(meta: BookMeta): string {
+export function landingPage(
+  meta: BookMeta,
+  available: Set<string> = new Set(['majordomo.epub', 'majordomo.pdf'])
+): string {
+  const downloadCtas = [
+    available.has('majordomo.epub')
+      ? `        <a href="/majordomo.epub" class="hero-cta hero-cta-secondary" download>Download ePub</a>\n`
+      : '',
+    available.has('majordomo.pdf')
+      ? `        <a href="/majordomo.pdf" class="hero-cta hero-cta-secondary" download>Download PDF</a>\n`
+      : '',
+  ].join('');
   return `<!DOCTYPE html>
 <html lang="${meta.language}">
 <head>
@@ -205,9 +216,7 @@ export function landingPage(meta: BookMeta): string {
       <p class="hero-pitch">The billionaire class has always had access to lawyers, doctors, and financial advisors who explain things in plain language &mdash; now you have something close to that, for free, on your phone.</p>
       <div class="hero-ctas">
         <a href="/read/" class="hero-cta">Read Online</a>
-        <a href="/majordomo.epub" class="hero-cta hero-cta-secondary" download>Download ePub</a>
-        <a href="/majordomo.pdf" class="hero-cta hero-cta-secondary" download>Download PDF</a>
-        <a href="https://github.com/davidwkeith/A-Majordomo-for-Everyone" class="hero-cta hero-cta-secondary">View Source</a>
+${downloadCtas}        <a href="https://github.com/davidwkeith/A-Majordomo-for-Everyone" class="hero-cta hero-cta-secondary">View Source</a>
       </div>
     </div>
   </header>
