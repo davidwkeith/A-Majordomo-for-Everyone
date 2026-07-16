@@ -53,7 +53,7 @@ Copy. Paste into the new conversation. You have just done what a chief of staff 
 
 By now you have specs that worked. The question for the landlord. The template for decoding a medical bill. The five-part frame you used for the insurance appeal. These are reusable.
 
-The tool for this already exists --- it is the same persistent context feature Chapter 3 introduced and the Household Majordomo section later in this chapter expands on. Create a Project (Claude), Gem (Gemini), or custom GPT (ChatGPT) whose instructions contain your best specs. Not the answers --- the questions. When a conversation produces a good result, copy the spec that generated it into that project's instructions.
+The tool for this already exists --- it is the same persistent context feature Chapter 3 introduced and the Household Majordomo section later in this chapter expands on. Create a Project (Claude), Gem (Gemini), or custom GPT (ChatGPT --- Plus required to create one; free users can use Custom Instructions plus Memory instead) whose instructions contain your best specs. Not the answers --- the questions. When a conversation produces a good result, copy the spec that generated it into that project's instructions.
 
 A good spec library has three to five entries after a month of regular use. After six months, it has a dozen. Every spec you save is a conversation you do not have to build from scratch next time. On the free tier, that means your daily budget goes further because you are spending fewer messages on specification and more on execution.
 
@@ -105,7 +105,7 @@ Keep the household context under two paragraphs. The Agent reads it before every
 
 
 ::: also
-The persistent context feature is free in the major services. Claude Projects, Gemini Gems, and ChatGPT custom GPTs all allow you to set instructions that apply to every conversation in that space (Copilot's equivalent is more limited). See [Appendix G](06-appendix-g-feature-table.xhtml) for setup steps.
+The persistent context feature is free in the major services --- with one asymmetry. Claude Projects and Gemini Gems are free to create. Creating a new ChatGPT custom GPT now requires Plus; free ChatGPT users get the same effect with Custom Instructions plus Memory instead (Copilot's equivalent is more limited). See [Appendix G](06-appendix-g-feature-table.xhtml) for setup steps.
 :::
 
 
