@@ -364,7 +364,7 @@ and the legitimate questions I should ask before committing any money.
 :::
 
 ::: also
-To make the Financial Coach persistent across sessions, save the Expert Role as a *Project* (Claude), *Gem* (Gemini), or *Custom GPT* (ChatGPT --- Plus required; free users can save it as a Custom Instruction instead). See [Appendix G](06-appendix-g-feature-table.xhtml).
+To make the Financial Coach persistent across sessions, save the Expert Role as a *Project* (Claude), *Gem* (Gemini), or *Custom GPT* (ChatGPT --- Plus required; free users can save it as a Custom Instruction plus Memory instead). See [Appendix G](06-appendix-g-feature-table.xhtml).
 :::
 
 ---
