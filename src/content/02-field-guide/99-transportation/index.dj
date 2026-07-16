@@ -41,7 +41,41 @@ Please help me:
 5. If selling: what's my car actually worth and where will I
    get the best price — dealer, private sale, or online buyer?
 :::
-*What to do with the Output:* For buying: get pre-approved for financing from your bank or credit union before walking into the dealership. The dealer's financing is a profit center, not a convenience. Know the invoice price (your Agent can find it) and negotiate from the dealer's cost up, not the sticker price down. For selling: get your car's value from KBB, Edmunds, and Carvana before accepting any offer. The spread between trade-in and private sale is typically $2,000--$5,000.
+*What to do with the Output:* For buying: get pre-approved for financing from your bank or credit union before walking into the dealership. The dealer's financing is a profit center, not a convenience. Know the invoice price (your Agent can find it) and negotiate from the dealer's cost up, not the sticker price down. For selling: get your car's value from KBB, Edmunds, and Carvana before accepting any offer. The spread between trade-in and private sale is typically $2,000--$5,000. If you're buying used, price isn't the only asymmetry in the room --- the seller has usually seen the car in daylight, in person, over weeks or months. You're seeing it for twenty minutes. Before you commit to anything, see the Expert Role spec below.
+
+*Common car-buying Expert Role specs:* A tire sidewall carries more information than most buyers ever read --- a DOT date code (the last four digits are the week and year of manufacture) and, on tires built to an automaker's own spec, an OE designation (Tesla-fitted tires are marked T0 or T1).[^tr1-2] Both are legible in an ordinary close-up photo, which is exactly what the spec below asks for --- along with the rest of what a mechanic would check before you've handed anyone money.
+
+::: prompt
+Act as a mechanic and longtime car enthusiast looking over
+photos of a used car I'm considering buying. Here's the
+listing: [year, make, model, mileage, asking price]. Photos
+attached: all four exterior corners, each tire close up
+(sidewall included), the engine bay, underneath the car if
+visible, the VIN sticker and the dashboard VIN plate, the
+odometer, and any area the seller mentioned was repaired or
+repainted.
+What would a mechanic or enthusiast notice here that I
+wouldn't? Specifically:
+1. Signs of prior collision repair --- panel gaps, paint
+   color or texture mismatch, overspray on trim or in the
+   engine bay
+2. Rust --- surface rust versus structural rust, and whether
+   it's in the spots this model is known to rust first
+3. Tire brand and sidewall codes --- do they carry this
+   model's factory-original marking, if any; does the DOT
+   date code match how old the seller says the tires are;
+   and does the wear pattern suggest an alignment or
+   suspension problem
+4. Fluid leaks, corrosion, or anything under the hood that
+   looks neglected relative to the car's age and mileage
+5. Whether the VIN sticker locations and the dashboard VIN
+   plate are consistent with each other
+Give me the most conservative read. I'll pay for an
+independent pre-purchase inspection before I commit to
+buying if anything here looks worth a closer look.
+:::
+
+[^tr1-2]: [Michelin, "How to Read Tire Markings and Sidewall Codes."](https://www.michelinman.com/auto/auto-tips-and-advice/tires-101/tire-markings-explained) OE (original equipment) codes are manufacturer-assigned markings for tires built to an automaker's specification; Tesla's are T0 and T1. DOT date codes are required under [49 CFR § 574.5](https://www.ecfr.gov/current/title-49/subtitle-B/chapter-V/part-574/subpart-A/section-574.5).
 
 ::: science
 Americans spend an average of $13,174 per year on transportation — roughly 17% of household spending, second only to housing (BLS Consumer Expenditure Survey, 2023). For rural households the percentage is higher. The car payment is the most visible cost; depreciation, insurance, and fuel are the invisible ones. Your Agent can calculate total cost of ownership for any vehicle, which is the number that actually matters.[^tr1-1]
