@@ -155,7 +155,7 @@ Claude calls persistent cross-conversation memory simply "Memory" — it can be 
 If you are working through a complex problem over multiple sessions, start each new session with a one-paragraph summary of where you left off. Think of it like clearing a cluttered desk — the papers are filed, not thrown away.
 
 ::: also
-For ongoing household projects — managing a renovation, tracking a medical situation, handling a long legal dispute — Claude's *Projects* feature lets you store background documents and instructions that persist across every conversation in that project. Gemini's equivalent is a *Gem*. ChatGPT's equivalent is a *custom GPT*. Setting one up for your household is the most useful single thing you can do with any of these tools. Chapter 3: The Free Tier Playbook explains how.
+For ongoing household projects — managing a renovation, tracking a medical situation, handling a long legal dispute — Claude's *Projects* feature lets you store background documents and instructions that persist across every conversation in that project. Gemini's equivalent is a *Gem*. ChatGPT's equivalent is a *custom GPT*, though creating one now requires ChatGPT Plus — free users get most of the same benefit from Custom Instructions plus Memory. Setting one up for your household is the most useful single thing you can do with any of these tools. Chapter 3: The Free Tier Playbook explains how.
 :::
 
 
