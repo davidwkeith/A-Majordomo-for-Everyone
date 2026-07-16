@@ -120,7 +120,7 @@ export function navXhtml(meta: BookMeta, chapters: ProcessedChapter[]): string {
   <link rel="stylesheet" type="text/css" href="styles/epub.css"/>
 </head>
 <body>
-  <nav epub:type="toc" id="toc">
+  <nav epub:type="toc" id="toc" role="doc-toc">
     <h1>Table of Contents</h1>
     <ol>
 ${tocItems}    </ol>

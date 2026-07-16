@@ -38,6 +38,8 @@ jobs:
 
       - run: npm run check:epub
 
+      - run: npm run check:a11y
+
       - uses: actions/upload-artifact@v7
         with:
           name: epub
