@@ -14,6 +14,7 @@
     "build:all": "tsc && node dist/build/index.js && node dist/build/site/index.js",
     "build:check": "tsc --noEmit",
     "check:epub": "tsx build/scripts/epubcheck.ts",
+    "check:a11y": "tsx build/scripts/ace.ts",
     "dev": "npm run build:site && wrangler dev",
     "test": "vitest run",
     "test:watch": "vitest",
@@ -33,6 +34,7 @@
     "sharp": "^0.34.5"
   },
   "devDependencies": {
+    "@daisy/ace-cli": "^1.4.6",
     "@types/better-sqlite3": "^7.6.13",
     "@types/node": "^20.0.0",
     "playwright": "^1.61.1",

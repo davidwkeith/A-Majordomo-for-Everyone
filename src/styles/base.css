@@ -15,14 +15,14 @@
   --blockquote-text: #333;
   --callout-label: #666;
   --callout-science: #2563eb;
-  --callout-tip: #16a34a;
+  --callout-tip: #15803d;
   --callout-fairness: #dc2626;
   --callout-meme: #9333ea;
-  --callout-spec: #ea580c;
-  --callout-also: #0891b2;
+  --callout-spec: #c2410c;
+  --callout-also: #0e7490;
   --placeholder-border: #ff0000;
   --placeholder-bg: #f8f8f6;
-  --placeholder-text: #999;
+  --placeholder-text: #666;
 }
 
 @media (prefers-color-scheme: dark) {

@@ -196,7 +196,33 @@ export function processChapterFromSource(
     );
   }
 
+  html = normalizeHeadingLevels(html);
+
   return { meta, html, endnotes: [] };
+}
+
+/**
+ * Remap heading levels so the body's headings nest without skipping a
+ * level, given that a real `<h1>` (the chapter title) is rendered outside
+ * this HTML by the template. Preserves the relative parent/child structure
+ * authors wrote — it only compresses gaps left by stripping the duplicate
+ * title heading above, since that removal can orphan its children one or
+ * two levels deeper than the document's new root.
+ */
+export function normalizeHeadingLevels(html: string): string {
+  const stack: { orig: number; mapped: number }[] = [{ orig: 0, mapped: 1 }];
+  return html.replace(
+    /<h([1-6])((?:\s[^>]*)?)>([\s\S]*?)<\/h\1>/g,
+    (_match, levelStr, attrs, inner) => {
+      const orig = Number(levelStr);
+      while (stack.length > 1 && stack[stack.length - 1].orig >= orig) {
+        stack.pop();
+      }
+      const mapped = Math.min(stack[stack.length - 1].mapped + 1, 6);
+      stack.push({ orig, mapped });
+      return `<h${mapped}${attrs}>${inner}</h${mapped}>`;
+    }
+  );
 }
 
 export async function processChapter(
