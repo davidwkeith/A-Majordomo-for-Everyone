@@ -13,6 +13,7 @@
     "build:pdf": "tsc && node dist/build/pdf/index.js",
     "build:all": "tsc && node dist/build/index.js && node dist/build/site/index.js",
     "build:check": "tsc --noEmit",
+    "check:epub": "tsx build/scripts/epubcheck.ts",
     "dev": "npm run build:site && wrangler dev",
     "test": "vitest run",
     "test:watch": "vitest",

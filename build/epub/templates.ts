@@ -13,7 +13,7 @@ export function contentOpf(meta: BookMeta, chapters: ProcessedChapter[], hasCove
   const chapterItems = chapters
     .map(
       (ch) =>
-        `    <item id="${ch.meta.slug}" href="text/${ch.meta.slug}.xhtml" media-type="application/xhtml+xml"/>`
+        `    <item id="ch-${ch.meta.slug}" href="text/${ch.meta.slug}.xhtml" media-type="application/xhtml+xml"/>`
     )
     .join('\n');
 
@@ -34,7 +34,7 @@ export function contentOpf(meta: BookMeta, chapters: ProcessedChapter[], hasCove
   const manifestItems = [chapterItems, imageItems].filter(Boolean).join('\n');
 
   const spineItems = chapters
-    .map((ch) => `    <itemref idref="${ch.meta.slug}"/>`)
+    .map((ch) => `    <itemref idref="ch-${ch.meta.slug}"/>`)
     .join('\n');
 
   const coverMeta = hasCover
