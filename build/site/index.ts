@@ -19,6 +19,7 @@ import {
   tocPage,
   landingPage,
   notFoundPage,
+  versionsPage,
 } from './templates.js';
 
 const OUTPUT_DIR = join(ROOT, 'dist', 'site');
@@ -73,6 +74,18 @@ async function buildSite(): Promise<void> {
 
   // 404 page
   await writeFile(join(OUTPUT_DIR, '404.html'), notFoundPage(BOOK_META));
+
+  // Version history — spec/version-history.md is the source of truth and
+  // declares itself published at majordomo.dwk.io/versions.
+  const versionHistory = await readFile(
+    join(ROOT, 'spec', 'version-history.md'),
+    'utf-8'
+  );
+  await mkdir(join(OUTPUT_DIR, 'versions'), { recursive: true });
+  await writeFile(
+    join(OUTPUT_DIR, 'versions', 'index.html'),
+    versionsPage(BOOK_META, versionHistory)
+  );
 
   // Table of contents
   await writeFile(join(OUTPUT_DIR, 'read', 'index.html'), tocPage(BOOK_META, sorted));
