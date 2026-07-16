@@ -239,9 +239,54 @@ export function landingPage(meta: BookMeta): string {
   </div>
   <footer class="landing-footer">
     <p>By ${escapeHtml(meta.creator)} &middot; ${escapeHtml(meta.rights)}</p>
+    <p><a href="/versions/">Version history</a></p>
   </footer>
 </body>
 </html>`;
+}
+
+/**
+ * Render spec/version-history.md as the /versions page. The file has a
+ * deliberately simple shape — headings, prose paragraphs, and one large
+ * code fence holding the changelog — so this converts exactly that subset
+ * of Markdown rather than pulling in a full parser.
+ */
+export function versionsPage(meta: BookMeta, markdown: string): string {
+  const inline = (text: string): string =>
+    escapeHtml(text)
+      .replace(/\*\*\[([^\]]+)\]\(([^)]+)\)\*\*/g, '<strong><a href="$2">$1</a></strong>')
+      .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>')
+      .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
+      .replace(/(^|\s)\*([^*]+)\*/g, '$1<em>$2</em>');
+
+  let html = '';
+  const segments = markdown.split(/^```.*$/m);
+  for (let i = 0; i < segments.length; i++) {
+    if (i % 2 === 1) {
+      html += `      <pre class="version-log">${escapeHtml(segments[i].replace(/^\n|\n$/g, ''))}</pre>\n`;
+      continue;
+    }
+    for (const block of segments[i].split(/\n{2,}/)) {
+      const text = block.trim();
+      if (!text) continue;
+      const heading = text.match(/^(#{1,6})\s+(.*)$/);
+      if (heading) {
+        const level = heading[1].length;
+        html += `      <h${level}>${inline(heading[2])}</h${level}>\n`;
+      } else {
+        html += `      <p>${inline(text.replace(/\n/g, ' '))}</p>\n`;
+      }
+    }
+  }
+
+  const body = `    <article class="versions-page">
+${html}    </article>
+    <footer class="site-footer">
+      <p><a href="/">${escapeHtml(meta.title)}</a> by ${escapeHtml(meta.creator)}</p>
+      <p>Licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></p>
+    </footer>\n`;
+
+  return pageShell(meta, 'Version History', body, { hasSidebar: false });
 }
 
 export function notFoundPage(meta: BookMeta): string {
