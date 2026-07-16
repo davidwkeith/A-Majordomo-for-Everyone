@@ -165,7 +165,7 @@ export function epubOverrides(
         const label = calloutType.toUpperCase();
         const inner = renderer.renderChildren(node);
         return (
-          `<aside class="callout callout-${escapeHtml(calloutType)}" epub:type="sidebar" role="doc-sidebar">\n` +
+          `<aside class="callout callout-${escapeHtml(calloutType)}" epub:type="sidebar" role="note">\n` +
           `<p class="callout-label">${escapeHtml(label)}</p>\n` +
           `${inner}` +
           `</aside>`
@@ -314,13 +314,16 @@ export function renderNotesSection(
         : rendered.replace(/\s+$/, '') + backlink;
 
     notes.push(
-      `<aside epub:type="endnote" role="doc-endnote" id="en-${escaped}" class="endnote">\n${rendered}</aside>`
+      `<li epub:type="endnote" id="en-${escaped}" class="endnote">\n${rendered}</li>`
     );
   }
 
+  // DPUB-ARIA 1.1 deprecates doc-endnote; the recommended structure is a
+  // doc-endnotes section containing a list, with each note as a plain li.
   return (
-    `<aside epub:type="endnotes" class="endnotes">\n` +
+    `<section epub:type="endnotes" role="doc-endnotes" class="endnotes" aria-label="Notes">\n` +
+    `<ol class="endnote-list">\n` +
     notes.join('\n') +
-    `\n</aside>`
+    `\n</ol>\n</section>`
   );
 }

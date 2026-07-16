@@ -345,6 +345,13 @@ details.gloss .gloss-def {
   border-top: 1px solid var(--border);
 }
 
+/* Notes carry their own visible [n] labels, so the list must not number them. */
+.endnote-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 .endnote {
   font-size: 0.85em;
   margin: 0.5em 0;

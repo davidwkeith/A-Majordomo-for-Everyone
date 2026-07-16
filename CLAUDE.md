@@ -27,11 +27,12 @@ Semver. Draft status is `0.x.x`. Minor bumps for significant content or pipeline
 ```bash
 npm run build        # tsc + generate ePub
 npm run build:check  # type-check only
+npm run check:epub   # EPUBCheck against dist/majordomo.epub (needs Java 11+; jar auto-downloaded and cached)
 npm test             # vitest
 npm run clean        # rm dist/
 ```
 
-CI runs on every push and PR to main (`.github/workflows/build.yml`): type-check, tests, ePub build. The built ePub is uploaded as an artifact.
+CI runs on every push and PR to main (`.github/workflows/build.yml`): type-check, tests, ePub build, EPUBCheck. The built ePub is uploaded as an artifact.
 
 ## Apple Books Notes Sync
 

@@ -25,6 +25,13 @@ jobs:
 
       - run: npm run build:all
 
+      - uses: actions/setup-java@v5
+        with:
+          distribution: temurin
+          java-version: 21
+
+      - run: npm run check:epub
+
       - uses: actions/upload-artifact@v7
         with:
           name: epub
