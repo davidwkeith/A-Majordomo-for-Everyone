@@ -89,7 +89,7 @@ The reader already knows something feels off about "sign by Friday." What they n
 - **Agent:** Notes that "one week per year, rounded down" is a choice the employer made, not a law of physics — ask directly whether partial years are prorated or rounded, since four months is a meaningful fraction of a year at this formula. Suggests the exact question to ask HR in writing, and reminds the reader that asking for the calculation to be shown in writing, once, is normal and does not jeopardize the offer.
 
 ::: science
-Bowles, Babcock, and Lai found that women who initiated salary negotiations were penalized more socially than men who did the identical thing — evaluators rated them as less nice and less desirable to work with, even though the ask itself was scripted identically across conditions.[^s8-2] The chilling effect isn't confined to salary negotiations or to women; anyone raised to read pushing back as rude absorbs the same signal. Assert doesn't require the reader to enjoy the conversation. It requires them to have it anyway, in writing, with the actual deadline instead of the one they were handed.
+Bowles, Babcock, and Lai found that women who initiated salary negotiations were penalized more socially than men who did the identical thing — evaluators rated them as less nice and less desirable to work with, even though the ask itself was scripted identically across conditions.[^s8-5] The chilling effect isn't confined to salary negotiations or to women; anyone raised to read pushing back as rude absorbs the same signal. Assert doesn't require the reader to enjoy the conversation. It requires them to have it anyway, in writing, with the actual deadline instead of the one they were handed.
 :::
 
 ::: tip
