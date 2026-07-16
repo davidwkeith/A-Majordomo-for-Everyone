@@ -106,12 +106,7 @@ export function epubOverrides(
       if (node.attributes?.class === 'gloss') {
         const term = renderer.renderChildren(node);
         const def = node.attributes?.def ?? '';
-        return (
-          `<details class="gloss">` +
-          `<summary>${term}</summary>` +
-          `<span class="gloss-def">${escapeHtml(def)}</span>` +
-          `</details>`
-        );
+        return `<details class="gloss"><summary>${term}</summary><span class="gloss-def">${escapeHtml(def)}</span></details>`;
       }
 
       if (node.attributes?.class !== 'art' || !artCtx) {

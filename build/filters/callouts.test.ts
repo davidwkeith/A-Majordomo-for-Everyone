@@ -240,6 +240,7 @@ describe('glossary spans', () => {
     const html = process(dj);
     expect(html).toContain('&lt;script&gt;');
     expect(html).toContain('&amp;');
+    expect(html).toContain('&quot;quotes&quot;.');
     expect(html).not.toContain('<script>');
   });
 
