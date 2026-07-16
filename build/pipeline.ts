@@ -7,7 +7,12 @@ import { calloutFilter } from './filters/callouts.js';
 import { discoverBriefs } from './filters/art-briefs.js';
 import type { ArtBrief, ArtBriefContext } from './filters/art-briefs.js';
 import { conversationFilter } from './filters/conversations.js';
-import { EndnoteState, epubOverrides, renderNotesSection } from './filters/endnotes.js';
+import {
+  EndnoteState,
+  epubOverrides,
+  renderNotesSection,
+  renderGlossarySection,
+} from './filters/endnotes.js';
 import {
   buildRefRegistry,
   refLinksFilter,
@@ -134,9 +139,10 @@ export function processContent(
   });
 
   // Append endnotes section if any footnotes were referenced
+  const glossaryHtml = renderGlossarySection(endnoteState);
   const notesHtml = renderNotesSection(doc, endnoteState);
 
-  return mainHtml + notesHtml;
+  return mainHtml + glossaryHtml + notesHtml;
 }
 
 export async function discoverChapters(): Promise<string[]> {

@@ -191,35 +191,40 @@ th {
 
 /* ---- Tap-to-Define Glossary ---- */
 
-details.gloss {
-  display: inline;
-}
-
-details.gloss summary {
-  display: inline;
-  cursor: pointer;
+/* Noteref link in the text: reads as prose, signals with a dotted rule.
+   Apple Books pops the target aside over the page; elsewhere it jumps to
+   the Definitions block below. */
+a.gloss-ref {
+  color: inherit;
+  text-decoration: none;
   border-bottom: 1px dotted var(--link);
-  list-style: none;
 }
 
-details.gloss summary::-webkit-details-marker {
-  display: none;
+.glossary {
+  margin-top: 2em;
+  padding-top: 1em;
+  border-top: 1px solid var(--border);
 }
 
-details.gloss summary::marker {
-  content: '';
-}
-
-details.gloss[open] summary {
-  border-bottom-style: solid;
-}
-
-details.gloss .gloss-def {
-  display: block;
-  margin-top: 0.3em;
+.gloss-note {
   font-size: 0.85em;
-  font-style: italic;
-  color: var(--text-muted);
+  margin: 0.5em 0;
+  line-height: 1.5;
+}
+
+.gloss-note p {
+  margin: 0;
+}
+
+.gloss-term {
+  font-style: normal;
+  font-weight: bold;
+}
+
+.gloss-backlink {
+  margin-left: 0.4em;
+  text-decoration: none;
+  color: var(--link);
 }
 
 /* ---- Callout Blocks ---- */

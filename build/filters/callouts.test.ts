@@ -2,7 +2,12 @@ import { describe, it, expect } from 'vitest';
 import { parse, renderHTML, applyFilter } from '@djot/djot';
 import { calloutFilter } from './callouts.js';
 import { conversationFilter } from './conversations.js';
-import { EndnoteState, epubOverrides, renderNotesSection } from './endnotes.js';
+import {
+  EndnoteState,
+  epubOverrides,
+  renderNotesSection,
+  renderGlossarySection,
+} from './endnotes.js';
 import type { ArtBriefContext } from './art-briefs.js';
 
 const process = (dj: string): string => {
@@ -11,7 +16,7 @@ const process = (dj: string): string => {
   applyFilter(doc, conversationFilter);
   const state = new EndnoteState();
   const html = renderHTML(doc, { overrides: epubOverrides(state) });
-  return html + renderNotesSection(doc, state);
+  return html + renderGlossarySection(state) + renderNotesSection(doc, state);
 };
 
 const mockArtCtx: ArtBriefContext = {
@@ -226,13 +231,30 @@ describe('art briefs', () => {
 });
 
 describe('glossary spans', () => {
-  it('renders a tap-to-define disclosure', () => {
+  it('renders a noteref link and a footnote aside', () => {
     const dj = '[Extended thinking]{.gloss def="Pauses to show reasoning before answering."}';
     const html = process(dj);
-    expect(html).toContain('<details class="gloss">');
-    expect(html).toContain('<summary>Extended thinking</summary>');
-    expect(html).toContain('<span class="gloss-def">Pauses to show reasoning before answering.</span>');
-    expect(html).toContain('</details>');
+    expect(html).toContain(
+      '<a epub:type="noteref" role="doc-noteref" href="#gloss-1" id="gloss-1-ref" class="gloss-ref">Extended thinking</a>'
+    );
+    expect(html).toContain(
+      '<aside epub:type="footnote" role="doc-footnote" id="gloss-1" class="gloss-note">'
+    );
+    expect(html).toContain('<dfn class="gloss-term">Extended thinking</dfn>');
+    expect(html).toContain('Pauses to show reasoning before answering.');
+    expect(html).toContain(
+      '<a epub:type="backlink" role="doc-backlink" class="gloss-backlink" href="#gloss-1-ref"'
+    );
+    expect(html).toContain(
+      '<section epub:type="footnotes" class="glossary" aria-label="Definitions">'
+    );
+  });
+
+  it('is valid inside running prose (phrasing content within <p>)', () => {
+    const dj = 'Ask about [context window]{.gloss def="How much text the Agent can hold at once."} before pasting.';
+    const html = process(dj);
+    expect(html).toMatch(/<p>Ask about <a epub:type="noteref"[^>]*>context window<\/a> before pasting\.<\/p>/);
+    expect(html).not.toContain('<details');
   });
 
   it('escapes HTML in the definition', () => {
@@ -244,9 +266,33 @@ describe('glossary spans', () => {
     expect(html).not.toContain('<script>');
   });
 
-  it('renders inline within a table cell without a <p> wrapper', () => {
+  it('renders inside a table cell', () => {
     const dj = '| What it does | Claude |\n|---|---|\n| Reasoning | [Extended thinking]{.gloss def="Shows its work."} |';
     const html = process(dj);
-    expect(html).toContain('<td><details class="gloss">');
+    expect(html).toContain('<td><a epub:type="noteref"');
+  });
+
+  it('dedupes repeated term+definition pairs into one aside', () => {
+    const dj =
+      'First [spec]{.gloss def="A written description of what you want."} here.\n\n' +
+      'Second [spec]{.gloss def="A written description of what you want."} there.';
+    const html = process(dj);
+    expect(html.match(/href="#gloss-1"/g)).toHaveLength(2);
+    expect(html.match(/id="gloss-1-ref"/g)).toHaveLength(1);
+    expect(html.match(/<aside /g)).toHaveLength(1);
+  });
+
+  it('gives distinct definitions distinct asides', () => {
+    const dj =
+      '[Memory]{.gloss def="What Claude stores about you."} vs [Personalization]{.gloss def="How Gemini adapts responses."}';
+    const html = process(dj);
+    expect(html).toContain('href="#gloss-1"');
+    expect(html).toContain('href="#gloss-2"');
+    expect(html.match(/<aside /g)).toHaveLength(2);
+  });
+
+  it('emits no glossary section when no gloss spans are present', () => {
+    const html = process('Just prose.');
+    expect(html).not.toContain('class="glossary"');
   });
 });
