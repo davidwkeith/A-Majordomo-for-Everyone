@@ -19,7 +19,7 @@ The book uses Claude as its default example. Every feature named in this table e
 | What it does | Claude | Gemini | ChatGPT | Copilot |
 |---|---|---|---|---|
 | Save instructions that apply to every conversation | Profile preferences / Styles | System Instructions | Custom Instructions | Custom Instructions |
-| Save info about you that persists across chats | Memory | Personalization | Memory | (limited) |
+| Save info about you that persists across chats | [Memory]{.gloss def="Claude surfaces the facts it has stored about you and lets you view or delete individual entries."} | [Personalization]{.gloss def="Gemini adapts responses using your account activity and past conversations, with less direct visibility into what's stored than Claude's Memory."} | Memory | (limited) |
 | Named workspace for related conversations | Project | Gem | GPT (custom) | (not available) |
 | Upload files to reference across conversations | Project files | Gem files | GPT knowledge | (limited) |
 
@@ -63,7 +63,7 @@ The book uses Claude as its default example. Every feature named in this table e
 
 | What it does | Claude | Gemini | ChatGPT | Copilot |
 |---|---|---|---|---|
-| Slow, step-by-step reasoning mode | Extended thinking | Deep Research | Thinking / reasoning models | Think Deeper |
+| Slow, step-by-step reasoning mode | [Extended thinking]{.gloss def="Claude pauses to reason step by step before responding — most useful for math, multi-step logic, and careful analysis."} | [Deep Research]{.gloss def="Not the same thing — this is Gemini's agent mode, which runs its own multi-step web research and returns a structured report rather than just reasoning more slowly."} | [Thinking / reasoning models]{.gloss def="A separate model you pick (often labeled with an 'o' or 'Thinking'), not a toggle on the default model."} | [Think Deeper]{.gloss def="Copilot's slower reasoning mode for multi-step problems."} |
 | Standard fast response | Default | Default | Default | Default |
 
 _Model names and reasoning-mode labels change several times a year. Verify current names at the companion site._

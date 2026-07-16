@@ -224,3 +224,28 @@ describe('art briefs', () => {
     expect(html).toContain('<figure');
   });
 });
+
+describe('glossary spans', () => {
+  it('renders a tap-to-define disclosure', () => {
+    const dj = '[Extended thinking]{.gloss def="Pauses to show reasoning before answering."}';
+    const html = process(dj);
+    expect(html).toContain('<details class="gloss">');
+    expect(html).toContain('<summary>Extended thinking</summary>');
+    expect(html).toContain('<span class="gloss-def">Pauses to show reasoning before answering.</span>');
+    expect(html).toContain('</details>');
+  });
+
+  it('escapes HTML in the definition', () => {
+    const dj = '[Term]{.gloss def="Uses <script> & \\"quotes\\"."}';
+    const html = process(dj);
+    expect(html).toContain('&lt;script&gt;');
+    expect(html).toContain('&amp;');
+    expect(html).not.toContain('<script>');
+  });
+
+  it('renders inline within a table cell without a <p> wrapper', () => {
+    const dj = '| What it does | Claude |\n|---|---|\n| Reasoning | [Extended thinking]{.gloss def="Shows its work."} |';
+    const html = process(dj);
+    expect(html).toContain('<td><details class="gloss">');
+  });
+});
