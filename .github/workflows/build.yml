@@ -23,7 +23,13 @@ jobs:
 
       - run: npm test
 
-      - run: npm run build:all
+      - run: npm run build
+
+      - run: npx playwright install --with-deps chromium
+
+      - run: npm run build:pdf
+
+      - run: npm run build:site
 
       - uses: actions/setup-java@v5
         with:
@@ -36,6 +42,11 @@ jobs:
         with:
           name: epub
           path: dist/majordomo.epub
+
+      - uses: actions/upload-artifact@v7
+        with:
+          name: pdf
+          path: dist/majordomo.pdf
 
       - uses: actions/upload-artifact@v7
         with:
