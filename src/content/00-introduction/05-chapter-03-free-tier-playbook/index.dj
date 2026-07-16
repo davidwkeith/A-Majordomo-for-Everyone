@@ -19,7 +19,7 @@ You will not need to pay for anything to use this book. Here is how to stay in t
 
 *What the free tier includes:*
 
-Each service's free tier allows a meaningful number of conversations per day. The exact limits vary and are not publicly published, but in practice they are sufficient for several extended conversations before any throttling occurs. If you hit a limit, your Agent will tell you, and the limit typically resets within a few hours.
+Each service's free tier allows a meaningful number of conversations per day. The exact limits vary and are not publicly published, but in practice they are sufficient for several extended conversations before any [throttling]{.gloss def="When a service slows or pauses your access until your free allowance resets."} occurs. If you hit a limit, your Agent will tell you, and the limit typically resets within a few hours.
 
 ::: meme
 [nohello.net](https://nohello.net) — the rule your office already knows. Do not Slack a coworker "Hi" and wait. Send the context, the question, and what you need, in one message. Same principle here, except on the free tier every round trip costs you one of a limited daily supply. Proofread before you send. Is the document attached? Did you say what you need back? One complete message is worth three that circle the question.
@@ -33,7 +33,7 @@ When you hit one service's free limit, you have three other high-quality options
 | Service | Best for | Free limit notes |
 |---|---|---|
 | [Claude](https://claude.ai) (Anthropic) | Nuanced writing, complex explanations, documents | Daily soft limit |
-| [ChatGPT](https://chatgpt.com) (OpenAI) | Broad general use, web search | Daily limit on the flagship model |
+| [ChatGPT](https://chatgpt.com) (OpenAI) | Broad general use, web search | Daily limit on the [flagship model]{.gloss def="The company's newest, most capable model — free tiers limit how much you can use it before switching you to a smaller one."} |
 | [Gemini](https://gemini.google.com) (Google) | Gmail and Google Docs integration, current events | Generous free tier |
 | [Copilot](https://copilot.microsoft.com) (Microsoft) | Windows integration, Bing search included | Generous free tier |
 

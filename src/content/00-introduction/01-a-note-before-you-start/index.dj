@@ -139,7 +139,7 @@ Your Agent will read the English document and respond in your language. It will 
 *Multilingual households:* if you are helping a family member who speaks a different language, your Agent is the translator in the room. "My mother received this letter. She speaks Tagalog. Explain it to her in Tagalog and tell me in English what she needs to do." Your Agent handles both sides of the conversation. The family member hears the explanation in their language. You hear the action items in yours.
 
 ::: fairness
-AI language quality varies. English is the most thoroughly trained language in every major model. Spanish, French, German, Chinese, Japanese, and Korean are generally strong. Other languages — particularly indigenous languages, regional dialects, and less-resourced languages — may produce less accurate or less nuanced responses. If you are working in a language other than English, verify critical details (dollar amounts, deadlines, legal terms) against the original English document. Your Agent's translation is a starting point, not a certified translation.[^n-6]
+AI language quality varies. English is the most thoroughly trained language in every major [model]{.gloss def="The trained program that produces the answers — the engine inside an AI tool."}. Spanish, French, German, Chinese, Japanese, and Korean are generally strong. Other languages — particularly indigenous languages, regional dialects, and less-resourced languages — may produce less accurate or less nuanced responses. If you are working in a language other than English, verify critical details (dollar amounts, deadlines, legal terms) against the original English document. Your Agent's translation is a starting point, not a certified translation.[^n-6]
 :::
 
 
