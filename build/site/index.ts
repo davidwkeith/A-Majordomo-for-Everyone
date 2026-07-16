@@ -68,9 +68,27 @@ async function buildSite(): Promise<void> {
   );
   console.log(`Optimized ${imgCount} images`);
 
+  // Copy epub and pdf if they exist (built by earlier steps in build:all),
+  // before the landing page so its download buttons reflect what shipped.
+  const available = new Set<string>();
+  for (const file of ['majordomo.epub', 'majordomo.pdf']) {
+    const src = join(ROOT, 'dist', file);
+    try {
+      await access(src);
+      await copyFile(src, join(OUTPUT_DIR, file));
+      available.add(file);
+      console.log(`Copied ${file} to site output`);
+    } catch {
+      console.log(`${file} not found — skipping`);
+    }
+  }
+
   // Landing page
   console.log('Writing pages...');
-  await writeFile(join(OUTPUT_DIR, 'index.html'), landingPage(BOOK_META));
+  await writeFile(
+    join(OUTPUT_DIR, 'index.html'),
+    landingPage(BOOK_META, available)
+  );
 
   // 404 page
   await writeFile(join(OUTPUT_DIR, '404.html'), notFoundPage(BOOK_META));
@@ -105,21 +123,6 @@ async function buildSite(): Promise<void> {
       join(dir, 'index.html'),
       chapterPage(BOOK_META, ch, prev, next, sorted)
     );
-  }
-
-  // Copy epub and pdf if they exist (built by earlier steps in build:all)
-  for (const file of [
-    'majordomo.epub',
-    'majordomo.pdf',
-  ]) {
-    const src = join(ROOT, 'dist', file);
-    try {
-      await access(src);
-      await copyFile(src, join(OUTPUT_DIR, file));
-      console.log(`Copied ${file} to site output`);
-    } catch {
-      console.log(`${file} not found — skipping`);
-    }
   }
 
   console.log(`Site written to ${OUTPUT_DIR} (${sorted.length} chapters)`);

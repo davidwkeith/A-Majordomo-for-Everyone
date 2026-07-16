@@ -6,6 +6,7 @@ compatibility_date = "2025-04-01"
 command = "npm run build:site"
 
 [assets]
+binding = "ASSETS"
 directory = "dist/site"
 html_handling = "auto-trailing-slash"
 not_found_handling = "404-page"
