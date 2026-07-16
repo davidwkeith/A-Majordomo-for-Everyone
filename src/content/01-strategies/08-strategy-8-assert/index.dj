@@ -3,7 +3,7 @@ title: "Strategy 8: Assert"
 part: 1
 order: 8
 strategy: 8
-status: "stub"
+status: "draft"
 ---
 
 ## Strategy 8: Assert
@@ -59,4 +59,339 @@ _In the Field Guide: [Ho-4 (Renter Rights)](ref:ho-4), [W-2 (Leaving a Job)](ref
 
 *Worked examples:* Tenant rights when a landlord refuses repairs. Employee rights when let go without a clear reason. Consumer rights when disputing a charge.
 
-_(Full worked examples with [SPEC] loops to be drafted)_
+### Example 1: A Landlord Who Won't Fix the Heat
+
+The situation: your heat has been out for eleven days. It's been below freezing outside for most of them. You've texted your landlord three times; the only reply was "I'll look into it." You don't want to sue anyone. You want the heat fixed — or to know exactly what you're allowed to do if it isn't.
+
+*Your opening message:*
+
+::: prompt
+My landlord hasn't fixed my heat in 11 days. I've texted
+three times. It's [state], it's been below freezing.
+What can I actually do?
+:::
+
+*Your Agent's clarifying questions:*
+
+::: agent
+Eleven days without heat in freezing weather is a serious
+habitability problem, not just an inconvenience. A few
+questions before I lay out your options:
+
+1. What state and city are you in?
+2. Is this a month-to-month lease or a fixed term?
+3. Have any of your requests been in writing — email,
+   tenant portal — or only texted?
+4. Does your lease say anything about how repair requests
+   are supposed to be made?
+5. What do you actually want — heat fixed fast, or are you
+   open to breaking the lease if this keeps happening?
+:::
+
+*Your answers:*
+
+::: prompt
+1. Ohio.
+2. Month-to-month.
+3. Only texts so far.
+4. Lease doesn't say anything about a repair process.
+5. I want it fixed fast. I'm not ruling out moving if
+   this keeps up.
+
+Give me the most conservative, legally accurate answer.
+I will verify with a tenant rights organization or attorney.
+:::
+
+*Your Agent's assessment:*
+
+::: agent
+Ohio law requires your landlord to supply reasonable heat
+and recognizes an implied warranty of habitability — this
+is illegal, not just frustrating.[^s8-2] But here is the
+part most people get wrong: Ohio does not let you withhold
+rent or pay for repairs yourself and deduct the cost. The
+actual mechanism is different, and more procedural:
+
+1. WRITTEN NOTICE, TODAY. Your texts probably count, but
+   a dated email or certified letter starts the legal
+   clock cleanly. Describe the outage and cite the statute.
+
+2. THE CURE PERIOD. Ohio generally gives a landlord "a
+   reasonable time" or 30 days, whichever is sooner — but
+   for a condition that threatens health, like no heat in
+   freezing weather, courts and tenant advocates treat
+   that window as far shorter, commonly around 14 days.
+
+3. IF 14 DAYS PASS WITHOUT ACTION: you deposit your rent
+   with the clerk of courts — not with the landlord, and
+   not by simply withholding it. From there, the court can
+   order the repair, authorize you to fix it and deduct
+   the cost, or release the funds. Stopping payment
+   outright, instead of depositing it with the court, is
+   what exposes tenants to an eviction filing they didn't
+   need to risk.
+
+4. RETALIATION IS SEPARATELY ILLEGAL. Once you've sent
+   written notice, your landlord cannot respond with a
+   rent increase, a non-renewal, or a sudden eviction
+   filing without it looking exactly like what it is.
+
+Send the written notice today. That is the step that
+starts every clock protecting you.
+:::
+
+*Your follow-up:*
+
+::: prompt
+I sent the written notice. Landlord texted back "stop
+harassing me, I'll get to it when I get to it." Is that
+retaliation?
+:::
+
+*Your Agent:*
+
+::: agent
+Hostility alone isn't retaliation in the legal sense —
+retaliation is a specific adverse action, like an eviction
+notice, a rent hike, or cutting off a service, taken
+because you asserted a right. That text is still worth
+saving: it's a timestamp proving he received notice and
+chose not to act. But the clock you actually care about is
+the 14 days, not his tone. Fourteen days from today, if the
+heat is still out, you deposit the rent with the clerk of
+courts. That's the step, regardless of what he texts you
+between now and then.
+:::
+
+[^s8-2]: [Ohio Revised Code § 5321.07](https://codes.ohio.gov/ohio-revised-code/section-5321.07) (tenant remedies); landlord's duty to supply heat under [ORC § 5321.04](https://codes.ohio.gov/ohio-revised-code/section-5321.04).
+
+::: fairness
+A 2013 HUD-commissioned paired-testing study sent matched pairs of white, Black, Hispanic, and Asian testers — presenting as equally qualified — to inquire about the same advertised units in 28 metro areas. White testers were consistently told about more available units and given more information than minority testers with identical qualifications.[^s8-3] The landlord in this example is betting you don't know Ohio Revised Code § 5321.07 exists. That bet does not land evenly on every renter — it pays off more often against exactly the callers this study measured.
+:::
+
+[^s8-3]: Turner, M.A., Levy, D.K., Wissoker, D.A., Aranda, C.L., et al. (2013). ["Housing Discrimination Against Racial and Ethnic Minorities 2012."](https://www.huduser.gov/portal/Publications/fairhsg/hsg_discrimination_2012.html) U.S. Department of Housing and Urban Development, Office of Policy Development and Research.
+
+### Example 2: Let Go With No Clear Reason
+
+The situation: you've been at the company four years. You're called into a meeting with HR and your manager, told the position is "being restructured," and handed a severance agreement and a pen. "We'd like this back by Friday" — three business days away. Nobody says why you specifically. Nobody mentions anything resembling a WARN Act notice.
+
+*Your opening message:*
+
+::: prompt
+I was let go today. Restructuring, they said. I have a
+severance agreement and they want it back Friday — that's
+three days. Is that normal?
+:::
+
+*Your Agent's clarifying questions:*
+
+::: agent
+Three days is worth questioning before you do anything
+else. A few questions:
+
+1. What state are you in?
+2. Roughly how big is the company at this location, and
+   were other people let go the same day — do you know
+   roughly how many?
+3. Are you 40 or older? This changes which waiver rules
+   apply.
+4. What does the severance offer actually include — amount,
+   continued benefits, any non-disparagement or non-compete
+   language?
+5. Did they say anything specific about why you, beyond
+   "restructuring"?
+:::
+
+*Your answers:*
+
+::: prompt
+1. California.
+2. About 300 people at this location. I think somewhere
+   around 60 of us got the same meeting today.
+3. Yes, I'm 44.
+4. Four weeks' pay plus a release of claims. Nothing else.
+5. No, just restructuring.
+
+Give me the most conservative answer. I will verify with
+an employment attorney or legal aid organization.
+:::
+
+*Your Agent's assessment:*
+
+::: agent
+Two things are wrong with "sign by Friday," and both are
+worth acting on before you sign anything.
+
+THE REVIEW PERIOD. Because you're over 40 and this
+agreement releases age-discrimination claims, federal law
+sets a floor of 21 days to consider it — and because you
+were let go as part of a group, that floor rises to 45
+days, not 3.[^s8-4] Your employer also owes you a written
+disclosure listing the job titles and ages of everyone
+selected for the layoff, and everyone who wasn't. Either
+way, you get 7 days to change your mind after signing. The
+Friday deadline isn't enforceable against any of that. Ask
+for the full 45 days, and the disclosure, in writing today.
+
+THE LAYOFF ITSELF. Around 60 people let go the same day at
+a 300-person site raises a WARN Act question, and the
+answer is more interesting than a simple yes or no. Federal
+WARN requires 100 or more full-time employees at the
+company, and at that size a mass layoff generally has to
+hit both a 50-employee floor and roughly a third of the
+site's workforce — 60 out of 300 falls under that
+percentage, so federal WARN likely doesn't apply here.
+California's Cal-WARN Act is broader on exactly this point:
+it covers employers with 75 or more employees and triggers
+on a layoff of 50 or more, with no percentage test at
+all.[^s8-4] At around 60 people, this almost certainly
+clears the Cal-WARN trigger even though it may not clear
+the federal one. Cal-WARN requires 60 days' advance written
+notice — if none was given, you and your co-workers may be
+owed back pay and benefits for that period, independent of
+anything in this severance agreement.
+
+Don't sign yet. Ask for the 45 days in writing, and ask
+whether a 60-day WARN notice was issued for today's layoff.
+:::
+
+*Your follow-up:*
+
+::: prompt
+They came back and said four weeks is "the standard
+formula, one week per year." I was here four years and
+four months. Does the extra four months count?
+:::
+
+*Your Agent:*
+
+::: agent
+"One week per year, rounded down" is a choice your employer
+made, not a law of physics. Ask directly: does the formula
+prorate partial years, or round them down? Four months is a
+meaningful fraction of a year at this rate. The move here
+isn't to argue for special treatment — it's to ask what the
+standard formula actually is for someone with your tenure,
+and whether it's being applied consistently. That's a much
+harder question to wave off than "can I have more money."
+:::
+
+[^s8-4]: The 21-day review period (45 days, plus a written disclosure of the ages and job titles of those selected and not selected, when the termination is part of a group program) and 7-day revocation window are required by the Older Workers Benefit Protection Act (OWBPA), 29 U.S.C. § 626(f). Federal WARN Act: 29 U.S.C. § 2101 et seq. (100+ full-time employees; generally 50+ affected and one-third of site workforce). California's Cal-WARN Act: [Cal. Labor Code §§ 1400–1408](https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=LAB&division=2&title=&part=&chapter=4.5&article=) (75+ employees; 50+ affected, no percentage test); see also California EDD, ["Worker Adjustment and Retraining Notification (WARN)."](https://edd.ca.gov/en/jobs_and_training/Layoff_Services_WARN/)
+
+::: science
+Bowles, Babcock, and Lai found that women who initiated a salary negotiation were rated as less nice and less desirable to work with than men who made the identical request — the ask itself was scripted identically across conditions; only the evaluators' reaction changed.[^s8-5] The chilling effect isn't confined to salary talks, and it isn't confined to women — anyone raised to hear pushback as rudeness absorbs the same signal. Assert doesn't require you to enjoy the conversation. It requires having it anyway, in writing, against the actual deadline instead of the one you were handed.
+:::
+
+::: tip
+Before responding to any severance number, ask what the standard formula is company-wide — not whether your specific number can go up. _"What is the standard severance formula for someone with my tenure, and does it round partial years up or down?"_ turns a request for charity into a request for consistency — and a request for consistency is much harder to refuse.
+:::
+
+[^s8-5]: Bowles, H.R., Babcock, L., & Lai, L. (2007). ["Social Incentives for Gender Differences in the Propensity to Initiate Negotiations: Sometimes It Does Hurt to Ask."](https://doi.org/10.1016/j.obhdp.2006.09.001) _Organizational Behavior and Human Decision Processes_, 103(1), 84–103.
+
+### Example 3: A Collections Call About a Debt You Don't Recognize
+
+The situation: an unknown number has called three times in two days, including once at your workplace — after you told the caller, directly, not to call you there. The caller says you owe $890 to a company you've never heard of, for an account you don't remember opening. You're rattled and close to just paying it to make the calls stop.
+
+*Your opening message:*
+
+::: prompt
+A debt collector keeps calling about $890 I don't
+recognize. They called my work today after I told them
+yesterday not to call there. I don't know if I owe this or
+what to do.
+:::
+
+*Your Agent's clarifying questions:*
+
+::: agent
+Don't pay anything yet. A few questions first:
+
+1. What did the caller say the debt is for, and did they
+   name the original creditor?
+2. Have you received anything in writing yet — letter,
+   email, text?
+3. What state are you in?
+4. What exactly did you say when you told them not to call
+   your workplace?
+5. Have you ever had an account with the creditor they
+   named?
+:::
+
+*Your answers:*
+
+::: prompt
+1. They said it's an old cell phone account from a carrier
+   I switched away from about six years ago.
+2. Nothing in writing yet.
+3. Illinois.
+4. I said "please don't call me at work" directly to the
+   caller yesterday.
+5. I might have — I'm honestly not sure if I still owed
+   anything when I switched providers.
+
+Give me the most conservative, legally accurate answer.
+I will verify with a consumer rights attorney.
+:::
+
+*Your Agent's assessment:*
+
+::: agent
+Two separate things are happening here, and the second one
+matters more than you'd think.
+
+THE DEBT ITSELF. You have the right to demand written proof
+this debt is real and is actually yours — debt validation
+under the Fair Debt Collection Practices Act. Once you
+request it in writing, they're required to stop collection
+activity until they provide it. Nothing has arrived in
+writing yet, so watch for it — once it does, you have 30
+days to send a written validation request. Don't confirm,
+acknowledge, or pay anything before that letter arrives;
+even a small payment can restart a debt-age clock you
+haven't confirmed is still running, given the six-year gap.
+
+THE PHONE CALLS. Calling your workplace after you directly
+told them not to is very likely its own FDCPA violation,
+completely separate from whether the $890 turns out to be
+valid. An FDCPA suit can carry statutory damages of up to
+$1,000 plus attorney's fees — and the attorney's fees are
+why consumer lawyers take these cases at no cost to you.
+You may be sitting on a real claim here regardless of how
+the debt question resolves.
+
+WHAT TO DO TODAY: send the written validation request the
+moment anything arrives in writing. Until then, keep a
+log — date, time, number, what was said — for every call,
+including the ones you've already gotten.
+:::
+
+*Your follow-up:*
+
+::: prompt
+They just called again, at work again, and said if I don't
+pay by Friday they'll "take further action." Is that
+allowed?
+:::
+
+*Your Agent:*
+
+::: agent
+A vague threat of "further action" isn't automatically
+illegal on its own. But a second workplace call after you
+told them not to call there is a strong, specific violation
+by itself — and a threat of action they don't actually
+intend or have standing to take is separately prohibited.
+Log this call exactly like the others: date, time, exact
+words. That log is what turns "this is annoying" into a
+claim with a dollar value attached.
+:::
+
+::: tip
+Mid-call, you don't need to recite the FDCPA — you need to describe what just happened and ask. _"A debt collector just called my workplace again after I told them not to. Is that legal, and what should I do right now?"_ A violation logged the day it happens is worth far more, as evidence, than one reconstructed from memory weeks later.
+:::
+
+::: also
+If the collector has sent anything in writing — a letter, a text, an email — paste it or upload a photo directly into the conversation. File upload works the same way in Claude, Gemini, ChatGPT, and Copilot; your Agent will read every line the collector is legally required to include and flag what's missing.
+:::
+
+Al Bundy was right, every episode, about the shoe store, the neighbors, and the DMV clerk holding the better hand. He was right about that more often than he was wrong. What he never had was the form, the deadline, or the phrase that turned "this isn't fair" into a claim someone else had to answer. The heat gets fixed, or the rent goes into escrow — legally, on a schedule the landlord doesn't control. The severance clock is 45 days, not 3. The phone call that rattled you is worth something, on paper, dated. None of it required a lawyer on retainer. It required knowing what the other side already knew.
