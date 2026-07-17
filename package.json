@@ -12,6 +12,7 @@
     "build:site": "tsc && node dist/build/site/index.js",
     "build:pdf": "tsc && node dist/build/pdf/index.js",
     "build:all": "tsc && node dist/build/index.js && node dist/build/site/index.js",
+    "build:cf": "npx playwright install --with-deps chromium && npm run build:pdf && npm run build:site",
     "build:check": "tsc --noEmit",
     "check:epub": "tsx build/scripts/epubcheck.ts",
     "check:a11y": "tsx build/scripts/ace.ts",
