@@ -9,6 +9,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v6
 
@@ -54,3 +56,20 @@ jobs:
         with:
           name: site
           path: dist/site/
+
+      # The Cloudflare Workers Builds container has no root access to install
+      # Chromium's system libraries, so it can't render the PDF itself. Publish
+      # it here, where Playwright already works, to a rolling release the
+      # Cloudflare build fetches instead (see build:cf in package.json).
+      - name: Publish PDF to rolling release
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if gh release view pdf-latest >/dev/null 2>&1; then
+            gh release upload pdf-latest dist/majordomo.pdf --clobber
+          else
+            gh release create pdf-latest dist/majordomo.pdf \
+              --title "Latest PDF build" \
+              --notes "Automatically updated on every push to main. Not a semver release — see spec/version-history.md for the changelog."
+          fi
