@@ -97,9 +97,11 @@ title: "Chapter Title"
 part: 0-4
 order: -1..N
 strategy: null | 0-9
-status: "draft" | "stub"
+status: "draft" | "stub" | "final"
 ---
 ```
+
+`stub` = placeholder awaiting content; `draft` = written but not through final editorial review; `final` = passed the full editorial pass (style guide, voice, references verified). Changes to a `final` chapter beyond typo fixes reset it to `draft`.
 
 ## Art Brief Syntax
 

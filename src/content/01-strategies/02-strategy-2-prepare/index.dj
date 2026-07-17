@@ -3,7 +3,7 @@ title: "Strategy 2: Prepare"
 part: 1
 order: 2
 strategy: 2
-status: "draft"
+status: "final"
 ---
 
 ## Strategy 2: Prepare
@@ -57,7 +57,7 @@ For high-stakes appointments — medical, legal, financial — end your preparat
 
 ### Example 1: Before an Oncology Appointment
 
-The situation: your primary care doctor called about your blood work. Something is elevated. She's referring you to an oncologist. The appointment is in 10 days. You don't know what to ask, what the blood work means, or what the appointment will involve. You're scared, and the fear is making it harder to think, not easier.
+The situation: your primary care doctor called about your blood work. Something is elevated. They're referring you to an oncologist. The appointment is in 10 days. You don't know what to ask, what the blood work means, or what the appointment will involve. You're scared, and the fear is making it harder to think, not easier.
 
 *Your opening message:*
 
@@ -83,7 +83,7 @@ everything with the oncologist.
 I understand this is stressful. Let me help you walk
 into that appointment prepared. A few questions first:
 
-1. Did your doctor mention any specific conditions she's
+1. Did your doctor mention any specific conditions they're
    ruling out, or just the elevated LDH?
 2. Did you have other blood work done at the same time
    — CBC, CMP, anything else? If so, were those normal?
@@ -100,9 +100,9 @@ into that appointment prepared. A few questions first:
 *Your answers:*
 
 ::: prompt
-1. She said elevated LDH can mean a lot of things —
+1. They said elevated LDH can mean a lot of things —
    liver issues, infection, or something more serious.
-   She didn't name anything specific.
+   They didn't name anything specific.
 2. Yes, CBC and CMP were both normal.
 3. I've been more tired than usual, but I started a
    new job recently so I assumed that was it.
@@ -273,8 +273,8 @@ preparation changes completely. A few questions:
    project last fall by myself.
 3. I think raises happen at review time but I'm not
    100% sure.
-4. My direct manager. She's great — I don't think
-   she'll be hostile. I just don't know how to start.
+4. My direct manager. They're great — I don't think
+   they'll be hostile. I just don't know how to start.
 5. I'd be happy with $72,000. I'd be disappointed
    with less than $68,000.
 6. I could leave but I'd rather stay. I like the
@@ -319,11 +319,11 @@ Here's what will probably happen, in order:
 1. Your manager will go through the review feedback.
    Listen. Take notes. Don't bring up money yet.
 
-2. She will ask if you have any questions or anything
+2. They will ask if you have any questions or anything
    to discuss. THIS IS YOUR OPENING. Say point #1.
 
-3. She will either:
-   a) Say she needs to check with HR or her manager
+3. They will either:
+   a) Say they need to check with HR or their manager
       → "I understand. Could we set a follow-up
         within two weeks?"
    b) Ask what you're looking for
@@ -344,7 +344,7 @@ Here's what will probably happen, in order:
 
 WHAT TO BRING:
 — The Glassdoor data (screenshot or printout).
-   If she asks where you got the number, "Glassdoor
+   If they ask where you got the number, "Glassdoor
    and LinkedIn Salary Insights" is enough.
 — Your list of added responsibilities with dates.
    Be specific: "I've managed the campaign calendar
@@ -352,7 +352,7 @@ WHAT TO BRING:
    doing more."
 — A one-page summary of your key contributions.
    Not a portfolio — just bullet points. Leave it
-   with her if she needs to take it up the chain.
+   with them if they need to take it up the chain.
 
 IF SHE SAYS YES:
 Ask for it in writing — email is fine. "Thanks so
@@ -400,7 +400,7 @@ Salary negotiation research consistently shows that employees who negotiate rece
 
 ### Example 3: Before a Contractor Walkthrough
 
-The situation: your kitchen faucet has been leaking for a month. You called a plumber. He's coming Thursday for a "walkthrough and estimate." You have no idea what a reasonable price is, what questions to ask, or how to tell if he's recommending work you don't need. Your last contractor experience ended with a $3,000 bill for what turned out to be a $400 repair.
+The situation: your kitchen faucet has been leaking for a month. You called a plumber. They're coming Thursday for a "walkthrough and estimate." You have no idea what a reasonable price is, what questions to ask, or how to tell if they're recommending work you don't need. Your last contractor experience ended with a $3,000 bill for what turned out to be a $400 repair.
 
 *Your opening message:*
 
@@ -446,10 +446,10 @@ saves money directly. A few questions:
 1. I'll check — I think it says Moen on the front.
 2. Just the spout.
 3. No water damage that I can see.
-4. My neighbor recommended him. She said he was fair.
+4. My neighbor recommended them and said they were fair.
 5. Yes, I have a text saying "go ahead and get it
    fixed, save receipts, I'll take it off rent."
-6. She didn't mention a cap.
+6. They didn't mention a cap.
 :::
 
 *Your Agent prepares you:*
@@ -527,11 +527,15 @@ documentation. If there's ever a dispute about the
 rent deduction, you want a paper trail.
 :::
 
+::: tip
+"I'd like a written estimate before any work begins" and "Can I get a separate estimate for that?" are the two most valuable sentences for any contractor interaction. They apply to plumbers, electricians, mechanics, roofers, and every other trade. They are not adversarial. They are standard.
+:::
+
 *Your follow-up:*
 
 ::: prompt
-What if he says the whole faucet needs replacing and
-quotes me $800? How do I push back without being rude?
+What if they say the whole faucet needs replacing and
+quote me $800? How do I push back without being rude?
 :::
 
 *Your Agent:*
@@ -560,13 +564,9 @@ client. The plumbers who are worth hiring prefer
 clients who ask questions.
 :::
 
-::: tip
-"I'd like a written estimate before any work begins" and "Can I get a separate estimate for that?" are the two most valuable sentences for any contractor interaction. They apply to plumbers, electricians, mechanics, roofers, and every other trade. They are not adversarial. They are standard.
-:::
-
 
 ::: also
-If a contractor gives you a verbal quote and you want a sanity check, type the details into any AI assistant: "I was quoted $X for [work] on [equipment] in [city]. Is this reasonable?" Claude, ChatGPT, Gemini, and Copilot all have enough pricing data to flag outliers. This is not a precise appraisal — it is a sanity check that takes thirty seconds.
+If a contractor gives you a verbal quote and you want a sanity check, type the details into any AI assistant: "I was quoted $X for [work] on [equipment] in [city]. Is this reasonable?" Claude, ChatGPT, Gemini, and Copilot all have enough pricing data to flag outliers. This is not a precise appraisal — it is a sanity check that takes 30 seconds.
 :::
 
 

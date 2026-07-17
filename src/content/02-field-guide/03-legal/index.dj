@@ -3,7 +3,7 @@ title: "Legal"
 part: 2
 order: 3
 strategy: null
-status: "draft"
+status: "final"
 ---
 
 ### Legal
@@ -37,6 +37,8 @@ Please:
 3. Identify the three things I should pay most attention to
    before signing
 Assume I have no legal background.
+Give me the most conservative, legally accurate answer.
+I will verify with an attorney before signing.
 :::
 *What to do with the Output:* Read the flagged clauses. If any are deal-breakers, you now know which ones to push back on — and you can ask your Agent to draft the counter-language. If the contract is otherwise fine, you have documented proof you understood what you signed.
 
@@ -89,6 +91,9 @@ Please:
 4. Walk me through what happens on court day — what to wear,
    what to say, what not to say
 5. Draft a brief opening statement I can read or paraphrase
+Give me the most conservative, legally accurate answer.
+I will verify filing rules with the court clerk or a legal
+aid organization.
 :::
 *What to do with the Output:* File the claim at your county courthouse or online if your jurisdiction allows it. Serve the other party according to your court's rules — your Agent can explain the options, but this step has legal requirements you cannot skip. Organize your evidence in a folder, chronologically, with copies for the judge. Practice your opening statement once out loud. You do not need to memorize it.
 
@@ -98,13 +103,9 @@ Small claims filing fees typically run $30 to $100 in most jurisdictions — aff
 
 
 ::: tip
-Small claims hearings are brief --- often a matter of minutes. The person who wins is usually the person who brought organized evidence and stated the facts without emotion. Ask your Agent: _"I have [describe evidence]. What's the most effective order to present this in, and what's the one thing the judge most needs to hear in the first thirty seconds?"_
+Small claims hearings are brief --- often a matter of minutes. The person who wins is usually the person who brought organized evidence and stated the facts without emotion. Ask your Agent: _"I have [describe evidence]. What's the most effective order to present this in, and what's the one thing the judge most needs to hear in the first 30 seconds?"_
 :::
 
-
-::: also
-File and document upload — paste or attach a contract to your conversation — works in all major tools: Claude, Gemini, ChatGPT, and Copilot. See [Appendix G](06-appendix-g-feature-table.xhtml).
-:::
 
 
 [^l2-1]: The National Center for State Courts ([ncsc.org](https://www.ncsc.org)) publishes state-by-state small claims guides including filing limits, fees, and procedural rules.
@@ -139,6 +140,9 @@ Please draft a demand letter that is:
 3. Clear about the consequences of non-compliance
 4. Structured so it could be submitted as evidence if this
    goes to court
+Give me the most conservative, legally accurate answer.
+I will verify with an attorney or legal aid organization
+before sending.
 :::
 *What to do with the Output:* Print the letter on plain paper — no need for letterhead. Send it by certified mail with return receipt requested. This costs about $4 at the post office and gives you proof of delivery, which matters if you end up in court. Keep a copy. The return receipt is your evidence that they received it and the clock started on your deadline.
 
@@ -174,7 +178,7 @@ about the circumstances]
 My driving record: [clean / one prior ticket / multiple /
 points situation]
 My concern: [the fine / insurance increase / points on license /
-all of the above]
+all of these]
 Please:
 1. Explain my actual options — pay, contest, traffic school,
    plea bargain — and the realistic outcome of each
@@ -186,8 +190,11 @@ Please:
    and whether it's worth the time
 5. Be honest about whether fighting this is a good use of
    my time or whether I should just pay it
+Give me the most conservative, legally accurate answer.
+I will verify with the court or a traffic attorney
+before deciding.
 :::
-*What to do with the Output:* The most important number is not the fine — it is the insurance increase. A $150 ticket that adds $600 per year to your insurance for three years is an $1,950 ticket. Ask your Agent to calculate the total cost before you decide whether to pay or fight. If you decide to contest, your Agent can help you prepare, but show up on time, dressed respectfully, and with your evidence organized. Judges notice.
+*What to do with the Output:* The most important number is not the fine — it is the insurance increase. A $150 ticket that adds $600 per year to your insurance for three years is a $1,950 ticket. Ask your Agent to calculate the total cost before you decide whether to pay or fight. If you decide to contest, your Agent can help you prepare, but show up on time, dressed respectfully, and with your evidence organized. Judges notice.
 
 ::: meme
 Every sitcom has a traffic ticket episode. [Seinfeld:S4E4 "The Ticket"](https://en.wikipedia.org/wiki/The_Ticket_(Seinfeld)), 1992. The _King of Queens_ insurance spiral. Half the sitcom canon has a DMV episode. They are funny because the system is absurd — a $90 fine that triggers a $400 insurance increase that triggers a conversation about whether you can afford the car at all. The sitcom resets at the end of the episode. Your insurance rate does not.
@@ -346,7 +353,7 @@ The Seinfeld wedding. The Friends divorce (Ross, naturally --- three times). Fra
 
 
 ::: science
-Mediated custody agreements produce higher compliance rates and lower re-litigation rates than court-imposed orders. Robert Emery's Charlottesville Mediation Project, which tracked families for twelve years, found that non-residential parents who mediated were significantly more involved with their children --- and more satisfied with the arrangement --- than those who litigated. Most jurisdictions now require mediation before trial in custody disputes. Cost varies: court-connected mediation is often free or sliding-scale, while private mediation runs $200 to $500 per hour. Ask your Agent: _"What mediation options exist in [county], and what does each cost?"_[^l6-2]
+Mediated custody agreements produce higher compliance rates and lower re-litigation rates than court-imposed orders. Robert Emery's Charlottesville Mediation Project, which tracked families for 12 years, found that non-residential parents who mediated were significantly more involved with their children --- and more satisfied with the arrangement --- than those who litigated. Most jurisdictions now require mediation before trial in custody disputes. Cost varies: court-connected mediation is often free or sliding-scale, while private mediation runs $200 to $500 per hour. Ask your Agent: _"What mediation options exist in [county], and what does each cost?"_[^l6-2]
 :::
 
 
@@ -465,7 +472,7 @@ Active-duty servicemembers get an additional lever. The [SCRA](https://www.justi
 I need to create advance planning documents.
 My state: [state]
 What I need: [power of attorney / healthcare proxy / living
-will / advance directive / all of the above]
+will / advance directive / all of these]
 My situation: [planning ahead while healthy / aging parent
 needs these / specific medical situation / estate planning]
 My designated person(s): [who I want to make decisions ---
@@ -497,7 +504,7 @@ Many people stall on these documents because they think they need a lawyer to dr
 
 
 ::: science
-A 2017 study in _Health Affairs_ found that only 37% of American adults have completed advance directives. Among those who had, family members were significantly more likely to report that end-of-life care matched the patient's wishes. The documents work. The barrier is not legal complexity --- it is the human reluctance to plan for incapacity. Completing these forms is a thirty-minute task that can prevent months of family conflict and legal proceedings.[^l8-1]
+A 2017 study in _Health Affairs_ found that only 37% of American adults have completed advance directives. Among those who had, family members were significantly more likely to report that end-of-life care matched the patient's wishes. The documents work. The barrier is not legal complexity --- it is the human reluctance to plan for incapacity. Completing these forms is a 30-minute task that can prevent months of family conflict and legal proceedings.[^l8-1]
 :::
 
 
@@ -571,7 +578,7 @@ Background checks encode the racial disparities of the criminal legal system int
 
 
 ::: science
-A 2012 National Consumer Law Center report found that FBI background check records are incomplete roughly 50% of the time --- arrest records without disposition data, meaning the check shows an arrest but not whether the charges were dropped, dismissed, or resulted in acquittal. A record that says "arrested for X" with no outcome listed reads, to an employer, as a conviction. The FCRA requires background check companies to follow reasonable procedures for accuracy. The standard for "reasonable" is, one might observe, vigorously debated.[^l9-2]
+A 2012 National Consumer Law Center report found that FBI background check records are incomplete roughly 50% of the time --- arrest records without disposition data, meaning the check shows an arrest but not whether the charges were dropped, dismissed, or resulted in acquittal. A record that says "arrested for X" with no outcome listed reads, to an employer, as a conviction. The FCRA requires background check companies to follow reasonable procedures for accuracy. The standard for "reasonable" is vigorously debated.[^l9-2]
 :::
 
 
@@ -628,7 +635,7 @@ Please:
    any relevant enforcement actions
 Give me the most conservative, legally accurate answer.
 :::
-*What to do with the Output:* File the complaint with the agency your Agent recommends first. Most federal agencies --- CFPB, FTC, FCC --- have online portals that take ten to fifteen minutes to complete. Your Agent has already drafted the text. Paste it in. If your Agent recommends filing with multiple agencies, do them all in one sitting. Keep the confirmation numbers. The company has a statutory deadline to respond to CFPB complaints (typically 15 days). Mark your calendar.
+*What to do with the Output:* File the complaint with the agency your Agent recommends first. Most federal agencies --- CFPB, FTC, FCC --- have online portals that take 10--15 minutes to complete. Your Agent has already drafted the text. Paste it in. If your Agent recommends filing with multiple agencies, do them all in one sitting. Keep the confirmation numbers. The company has a statutory deadline to respond to CFPB complaints (typically 15 days). Mark your calendar.
 
 ::: tip
 The CFPB complaint database is public. Before you file, ask your Agent: _"Search the CFPB complaint database for [company name]. What are the most common complaints, and how does the company typically respond?"_ If you see a pattern --- hundreds of people with the same problem getting the same runaround --- that context strengthens your complaint and tells you what resolution to demand. The database is at [consumerfinance.gov/data-research/consumer-complaints](https://www.consumerfinance.gov/data-research/consumer-complaints/).

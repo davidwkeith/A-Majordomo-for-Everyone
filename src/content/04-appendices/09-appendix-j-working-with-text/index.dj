@@ -3,7 +3,7 @@ title: "Appendix J: Working with Text — How Your Agent Reads"
 part: 4
 order: 9
 strategy: null
-status: "draft"
+status: "final"
 ---
 
 ## Appendix J: Working with Text — How Your Agent Reads
@@ -36,7 +36,7 @@ You do not need to count tokens. You need to know one thing: *everything you put
 
 Your Agent can read both text and images. They are not equal.
 
-*Text is cheap.* A full page of text --- roughly 500 words --- weighs in at somewhere around 600 to 700 tokens. Your Agent can read it precisely, search within it, and quote it back to you.
+*Text is cheap.* A full page of text --- roughly 500 words --- weighs in at somewhere around 600--700 tokens. Your Agent can read it precisely, search within it, and quote it back to you.
 
 *Images are expensive.* A photograph of that same page costs several times as many tokens --- depending on model and resolution, often well over a thousand --- and the Agent has to interpret the image before it can work with the content. Handwriting, poor lighting, glare, and low resolution all degrade accuracy.
 
@@ -63,11 +63,11 @@ The single most effective thing you can do to improve your Agent's responses is 
 
 This is the majordomo principle in reverse. The billionaire's chief of staff did not hand the boss a filing cabinet. They read the filing cabinet, extracted the relevant page, highlighted the relevant paragraph, and handed over one sheet of paper. You can do the same thing for your Agent — or you can ask your Agent to do it for you.
 
-*Don't paste the whole document when one section will do.* A 40-page lease has one clause you're confused about. Paste that clause, plus the definitions section if there is one. Your Agent will give you a better answer from two focused paragraphs than from forty pages of boilerplate.
+*Don't paste the whole document when one section will do.* A 40-page lease has one clause you're confused about. Paste that clause, plus the definitions section if there is one. Your Agent will give you a better answer from two focused paragraphs than from 40 pages of boilerplate.
 
-*Don't include the email chain when you need the decision.* If someone forwarded you a thread with twenty replies, paste only the messages that contain the actual information. Or paste the whole thread and say: _"Summarize only the decisions that were made and the open questions that remain."_
+*Don't include the email chain when you need the decision.* If someone forwarded you a thread with 20 replies, paste only the messages that contain the actual information. Or paste the whole thread and say: _"Summarize only the decisions that were made and the open questions that remain."_
 
-*Start fresh when the conversation gets long.* If you have been going back and forth for thirty messages and the Agent starts repeating itself, losing track of earlier points, or giving vague answers — it is not broken. Its desk is full. Start a new conversation. Paste in only the conclusions from the last one. This is not starting over. It is giving your Agent a clean briefing.
+*Start fresh when the conversation gets long.* If you have been going back and forth for 30 messages and the Agent starts repeating itself, losing track of earlier points, or giving vague answers — it is not broken. Its desk is full. Start a new conversation. Paste in only the conclusions from the last one. This is not starting over. It is giving your Agent a clean briefing.
 
 ---
 

@@ -3,7 +3,7 @@ title: "Home"
 part: 2
 order: 4
 strategy: null
-status: "draft"
+status: "final"
 ---
 
 ### Home
@@ -36,10 +36,6 @@ Please tell me:
 4. Are there any safety concerns I need to address immediately?
 :::
 *What to do with the Output:* If there's a safety concern, handle that first — your Agent will tell you if something needs to be turned off, unplugged, or evacuated from immediately. For everything else, try the simplest fix your Agent suggests before calling a professional. Most service calls start at $150 just to show up.
-
-::: also
-Paste or upload your document directly — file upload works in Claude, Gemini, ChatGPT, and Copilot. See [Appendix G](06-appendix-g-feature-table.xhtml).
-:::
 
 
 <!-- BRAINSTORM: Ho-1 expansion topics
@@ -145,7 +141,7 @@ What should I check first?
 
 *Strategy:* Assert + Decode
 *See also:* L-1: Negotiating a Contract (for reading your lease or mortgage), C-3: Understanding Your Rights Where You Live (for rights that vary by jurisdiction), C-6: Advocating for Change (for changing the rules)
-*My Man Jeeves:* _Housing law, one might observe, is the domain in which the greatest sums change hands with the least comprehension on one side of the transaction. The landlord retains a property management company that has filed the same lease in the same county for fifteen years. The HOA board has engaged an attorney on retainer who drafted the CC&Rs. The mortgage servicer employs a compliance department that knows precisely which fees are legal and which are merely customary. The individual on the other side of the table has the document they were given and a vague apprehension that some of it is not quite right. That apprehension is, in the general course of things, well founded. The law is specific, it varies by jurisdiction, and it almost invariably provides more rights than one supposes. The difficulty has never been the law itself. The difficulty is that nobody has explained it. One's Agent has read the law and is prepared to do so._
+*My Man Jeeves:* _Housing law, one might observe, is the domain in which the greatest sums change hands with the least comprehension on one side of the transaction. The landlord retains a property management company that has filed the same lease in the same county for 15 years. The HOA board has engaged an attorney on retainer who drafted the CC&Rs. The mortgage servicer employs a compliance department that knows precisely which fees are legal and which are merely customary. The individual on the other side of the table has the document they were given and a vague apprehension that some of it is not quite right. That apprehension is, in the general course of things, well founded. The law is specific, it varies by jurisdiction, and it almost invariably provides more rights than one supposes. The difficulty has never been the law itself. The difficulty is that nobody has explained it. One's Agent has read the law and is prepared to do so._
 *The Spec:*
 
 ::: prompt
@@ -558,7 +554,7 @@ The National Fire Protection Association reports that nearly three out of five h
 
 
 ::: science
-The research on visible cameras as deterrents is genuinely mixed and context-dependent. The most rigorous synthesis --- Welsh and Farrington's systematic review and meta-analysis of 44 CCTV evaluations --- found a modest 16% overall reduction in crime in surveilled areas, concentrated in car parks (51% reduction in vehicle crime) and effectively zero for violent crime. A newer 40-year meta-analysis by Piza, Welsh, Farrington, and Thomas found broadly similar results: largest effects for property crime in parking facilities, smaller effects elsewhere, and the strongest programs combine cameras with other active measures (improved lighting, monitoring, response protocols). The honest summary: cameras are better at recording incidents than preventing them, and a doorbell camera is a documentation tool, not a deterrent. Match the tool to the actual risk --- package theft (documentation), break-ins (locks and lighting first), and violent confrontation (the police or, if the person has access to your home, see the FAIRNESS below).[^ho10-3]
+The research on visible cameras as deterrents is genuinely mixed and context-dependent. The most rigorous synthesis --- Welsh and Farrington's systematic review and meta-analysis of 44 CCTV evaluations --- found a modest 16% overall reduction in crime in surveilled areas, concentrated in car parks (51% reduction in vehicle crime) and effectively zero for violent crime. A newer 40-year meta-analysis by Piza, Welsh, Farrington, and Thomas found broadly similar results: largest effects for property crime in parking facilities, smaller effects elsewhere, and the strongest programs combine cameras with other active measures (improved lighting, monitoring, response protocols). The honest summary: cameras are better at recording incidents than preventing them, and a doorbell camera is a documentation tool, not a deterrent. Match the tool to the actual risk --- package theft (documentation), break-ins (locks and lighting first), and violent confrontation (the police or, if the person has access to your home, see the [FAIRNESS] callout in this Skill).[^ho10-3]
 :::
 
 

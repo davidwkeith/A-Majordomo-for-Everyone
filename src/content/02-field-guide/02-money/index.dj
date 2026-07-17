@@ -3,7 +3,7 @@ title: "Money"
 part: 2
 order: 2
 strategy: null
-status: "draft"
+status: "final"
 ---
 
 ### Money
@@ -92,6 +92,9 @@ Please help me:
 3. Identify any charges, fees, or rates I should dispute or negotiate
 4. Tell me my rights — what creditors can and cannot do,
    what I can negotiate, and what protections exist
+Give me the most conservative, legally accurate answer.
+I will verify with a nonprofit credit counselor or
+consumer rights attorney before acting.
 :::
 *What to do with the Output:* If you have a charge you do not recognize, dispute it immediately — you have 60 days under the Fair Credit Billing Act. Call the number on the back of the card, not a number from an email, and put the dispute in writing.
 
@@ -131,7 +134,7 @@ Credit scoring algorithms have been shown to produce disparate outcomes along ra
 
 *Strategy:* Decode + Decide
 *See also:* L-1: Negotiating a Contract (for the purchase agreement), Ho-6: Getting a Home, M-6: Financial Coach
-*My Man Jeeves:* _The word "mortgage" derives from the Old French mort gage — literally "death pledge." The name has endured, one imagines, because it is not inaccurate: one is pledging a considerable portion of one's future income, for decades, on terms the bank establishes and one signs. The bank is conversant with the rate environment, the property valuation methodology, the insurance requirements, the tax escrow mathematics, and the seventeen fees interred within the closing disclosure. The borrower, by contrast, knows principally that one desires the house. An Agent, however, is capable of reading the closing disclosure in the manner the bank's attorney reads it — which is to say, one may then negotiate in the manner the bank's attorney negotiates._
+*My Man Jeeves:* _The word "mortgage" derives from the Old French mort gage — literally "death pledge." The name has endured, one imagines, because it is not inaccurate: one is pledging a considerable portion of one's future income, for decades, on terms the bank establishes and one signs. The bank is conversant with the rate environment, the property valuation methodology, the insurance requirements, the tax escrow mathematics, and the 17 fees interred within the closing disclosure. The borrower, by contrast, knows principally that one desires the house. An Agent, however, is capable of reading the closing disclosure in the manner the bank's attorney reads it — which is to say, one may then negotiate in the manner the bank's attorney negotiates._
 *The Spec:*
 
 ::: prompt
@@ -154,6 +157,8 @@ Please help me:
    PMI, property taxes, insurance, maintenance reserve
 4. Identify what's negotiable in the process and what isn't
 5. Tell me the three most expensive mistakes first-time buyers make
+Give me the most conservative answer. I will verify with
+a HUD-approved housing counselor before committing to anything.
 :::
 *What to do with the Output:* The bank will approve you for more than you should borrow. The general guideline — total housing cost under 28% of gross income — is a ceiling, not a target. Ask your Agent to calculate the full monthly cost including taxes, insurance, PMI, and a maintenance reserve (1--2% of home value per year). That is the real number. If it makes you uncomfortable, listen to the discomfort — it is doing math your optimism is not.
 
@@ -285,6 +290,9 @@ Please help me:
    and what should I actually choose in my 401k?
 5. What are the biggest mistakes people my age make with
    retirement planning?
+Give me the most conservative answer. I will verify with
+a fee-only fiduciary advisor or my plan administrator
+before moving any money.
 :::
 *What to do with the Output:* If your employer offers a 401(k) match and you are not contributing enough to get the full match, fix that this week. It is a 50--100% guaranteed return on your money — there is no investment on Earth that competes with it. After that, the priority order is generally: full employer match → high-interest debt payoff → Roth IRA (if eligible) → max 401(k) → taxable brokerage. Your Agent can customize this for your situation.
 
@@ -581,7 +589,7 @@ Student loan debt falls disproportionately on Black borrowers, who carry an aver
 #### M-10: Evaluating a Big Purchase
 
 *Strategy:* Research + Decide
-*See also:* Tr-1: Car Ownership (the single most common big purchase), Ch-1: Shopping Your Values (for evaluating who you're buying from), Ho-3: Right to Repair (for durability and long-term cost)
+*See also:* Tr-1: Car Ownership (the single most common big purchase), Ch-1: Shopping Your Values (for evaluating who you're buying from), Ho-3: Right-to-Repair (for durability and long-term cost)
 *My Man Jeeves:* _One has observed that the phrase "0% APR for 36 months" appears in advertising with a frequency that suggests, to the casual observer, that financing large purchases at no cost has become a simple act of generosity on the part of retailers. It has not. The 0% offer is a customer acquisition tool: the retailer has calculated that a meaningful percentage of purchasers will miss a payment, triggering deferred interest — in some cases retroactively applied to the entire original balance at rates exceeding 25%. The furniture, the appliance, the automobile — whatever the object, the financing is not a courtesy extended to the buyer. It is a bet placed against them. One's Agent is rather useful for reading the terms of that bet before one accepts it._
 *The Spec:*
 

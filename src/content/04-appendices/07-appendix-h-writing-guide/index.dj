@@ -3,7 +3,7 @@ title: "Appendix H: Expressing Ideas Digitally"
 part: 4
 order: 7
 strategy: null
-status: "draft"
+status: "final"
 ---
 
 ## Appendix H: Expressing Ideas Digitally
@@ -73,7 +73,7 @@ Every chapter is a file. Every file carries its own metadata:
 title: "Chapter Title"
 part: 2
 order: 3
-status: "draft"
+status: "final"
 ---
 ```
 
@@ -97,7 +97,7 @@ This is Strategy 0 applied to visual content. The `alt` field is what the reader
 
 The sidecar is permanent. When the image is produced, the sidecar stays — it is the specification, the art direction record, the basis for revision. The sidecar is the request. The image is the result. Both live together.
 
-That reference resolves to the figure below — or, until the image is produced, to a placeholder carrying the alt text and the brief. Either way the reader gets the specification doing its job:
+That reference resolves to the figure that follows — or, until the image is produced, to a placeholder carrying the alt text and the brief. Either way the reader gets the specification doing its job:
 
 [eob-annotated-appendix]{.art}
 

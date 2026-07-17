@@ -1,6 +1,6 @@
 {
   "name": "majordomo",
-  "version": "0.4.1",
+  "version": "0.5.0",
   "description": "ePub and website build pipeline for Majordomo",
   "type": "module",
   "private": true,

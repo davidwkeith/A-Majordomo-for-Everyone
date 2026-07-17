@@ -3,7 +3,7 @@ title: "Health"
 part: 2
 order: 1
 strategy: null
-status: "draft"
+status: "final"
 ---
 
 ### Health
@@ -21,7 +21,7 @@ _There is a political movement to Make America Healthy Again. This book is not a
 
 *Strategy:* Decode
 *See also:* H-2: Preparing Questions (for your next appointment), H-5: Managing a Chronic Condition (if it's ongoing)
-*My Man Jeeves:* _The language of medical diagnosis has evolved over several centuries with the commendable aim of precision between specialists — a precision that, one might observe, extends rather less reliably to the patient. The individual in question, having just received news of some consequence regarding their own person, is moreover in a neurological state that research suggests reduces information retention by approximately half. The medical system appears to regard this arrangement as satisfactory. One's Agent, it may be observed, is rather more patient with questions than the fifteen-minute appointment permits._
+*My Man Jeeves:* _The language of medical diagnosis has evolved over several centuries with the commendable aim of precision between specialists — a precision that, one might observe, extends rather less reliably to the patient. The individual in question, having just received news of some consequence regarding their own person, is moreover in a neurological state that research suggests reduces information retention by approximately half. The medical system appears to regard this arrangement as satisfactory. One's Agent, it may be observed, is rather more patient with questions than the 15-minute appointment permits._
 *The Spec:*
 
 ::: prompt
@@ -47,7 +47,7 @@ _"Explain this diagnosis three ways: to me, to my 10-year-old, and the way you w
 
 *Strategy:* Prepare
 *See also:* H-1: Understanding a Diagnosis (if you just received one), H-5: Managing a Chronic Condition (for ongoing questions)
-*My Man Jeeves:* _Research across multiple medical systems has established, with some consistency, that patients who arrive with written questions receive more information, report higher satisfaction, and reach better-informed decisions than those who do not. It is perhaps worth noting that the medical system has not seen fit to adjust its appointment length to accommodate this finding. One's Agent, however, is tolerably well suited to assist in composing the list._
+*My Man Jeeves:* _Research across multiple medical systems has established, with some consistency, that patients who arrive with written questions receive more information, report higher satisfaction, and reach better-informed decisions than those who do not. It is perhaps worth observing that the medical system has not seen fit to adjust its appointment length to accommodate this finding. One's Agent, however, is tolerably well suited to assist in composing the list._
 *The Spec:*
 
 ::: prompt
@@ -97,6 +97,9 @@ Please:
    charity care, and asking about a cash-pay discount or a
    no-interest payment plan
 5. Tell me what rights I have if this has already gone to collections
+Give me the most conservative, legally accurate answer.
+I will verify with the billing office or a patient advocate
+before disputing anything.
 :::
 *What to do with the Output:* Compare every line to the original provider bill. If your Agent flags a charge as unusual, call the billing department and ask them to explain it. The person who calls is the person who gets the adjustment. The person who doesn't call pays the first number they were given.
 
@@ -138,16 +141,20 @@ My doctor can provide a letter of medical necessity.
 Please draft an appeal letter that cites the denial reason,
 references the right to appeal, and is firm without being
 hostile --- I may need to escalate further.
+Give me the most conservative, well-grounded answer.
+I will verify with my doctor before submitting.
 :::
 *What to do with the Output:* Send the letter. Keep a copy with the date you sent it. If you have a deadline for the appeal (check your denial letter — it's usually 30--180 days), mark it on your calendar. Follow up in writing if you don't hear back within the stated timeframe.
 
 [appeal-letter]{.art}
 
-*Science Note:* First-level internal appeals succeed at rates between 39--59% depending on plan type (KFF, 2023). Most people never file one.[^h4-1]
+::: science
+First-level internal appeals succeed at rates between 39--59% depending on plan type (KFF, 2023). Most people never file one.[^h4-1]
+:::
 
 [^h4-1]: Kaiser Family Foundation (2023). ["Claims Denials and Appeals in ACA Marketplace Plans."](https://www.kff.org/private-insurance/claims-denials-and-appeals-in-aca-marketplace-plans-in-2023/) The appeal success rate data makes the low filing rate one of the most consequential information asymmetries in American healthcare.
 
-Veterans: VA benefits denials follow a separate system. The Appeals Modernization Act created three lanes: Supplemental Claim (VA Form 20-0995, for submitting new evidence), Higher-Level Review (VA Form 20-0996, for a senior reviewer to re-examine the existing record), and Board of Veterans' Appeals appeal (VA Form 10182). Beyond the Board, the U.S. Court of Appeals for Veterans Claims (CAVC) is an independent federal court. Free representation is available through Veterans Service Organizations (VSOs). The civilian insurance appeal process above does not apply to VA claims --- ask your Agent to walk you through the VA-specific pathway.
+*Veterans note:* VA benefits denials follow a separate system. The Appeals Modernization Act created three lanes: Supplemental Claim (VA Form 20-0995, for submitting new evidence), Higher-Level Review (VA Form 20-0996, for a senior reviewer to re-examine the existing record), and Board of Veterans' Appeals appeal (VA Form 10182). Beyond the Board, the U.S. Court of Appeals for Veterans Claims (CAVC) is an independent federal court. Free representation is available through Veterans Service Organizations (VSOs). The civilian insurance appeal process described in this Skill does not apply to VA claims --- ask your Agent to walk you through the VA-specific pathway.
 
 ---
 
@@ -325,7 +332,7 @@ For World War II–era veterans --- and for those who served in Korea, Vietnam, 
 
 [^h6b-4]: Genworth & CareScout. ["Cost of Care Survey 2024."](https://www.carescout.com/cost-of-care) National annual median for a semi-private nursing home room, up 7% from 2023. Private-room median: $127,750. Medicaid long-term care asset limits and look-back rules vary by state; for a current overview, see [American Council on Aging / Medicaid Planning Assistance](https://www.medicaidplanningassistance.org/medicaid-eligibility/).
 
-[^h6b-5]: U.S. Department of Veterans Affairs. ["VA Aid and Attendance benefits and Housebound allowance."](https://www.va.gov/pension/aid-attendance-housebound/) 2025 maximum annual pension rates published by VA; figures above convert to monthly. Wartime period definitions are set by statute (38 U.S.C. § 1521); WWII, Korea, Vietnam, the Gulf War, and post-9/11 are all congressionally recognized.
+[^h6b-5]: U.S. Department of Veterans Affairs. ["VA Aid and Attendance benefits and Housebound allowance."](https://www.va.gov/pension/aid-attendance-housebound/) 2025 maximum annual pension rates published by VA; the figures cited convert to monthly. Wartime period definitions are set by statute (38 U.S.C. § 1521); WWII, Korea, Vietnam, the Gulf War, and post-9/11 are all congressionally recognized.
 
 ---
 
@@ -478,7 +485,7 @@ In 2010, David Nutt and colleagues published a harm ranking of 20 drugs in _The 
 
 *Strategy:* Decode
 *See also:* H-10: Checking for Drug Interactions, H-1: Understanding a Diagnosis
-*My Man Jeeves:* _One's physician prescribed a medication in a 7-minute appointment. The pharmacist furnished a stapled printout in 8-point type listing "side effects may include" followed by what one can only describe as every symptom known to medicine. The printout, one understands, is required by law. Comprehending it is not. One's Agent, having read the pharmacology, is prepared to explain what the printout means in one's specific case._
+*My Man Jeeves:* _One's physician prescribed a medication in a seven-minute appointment. The pharmacist furnished a stapled printout in 8-point type listing "side effects may include" followed by what one can only describe as every symptom known to medicine. The printout, one understands, is required by law. Comprehending it is not. One's Agent, having read the pharmacology, is prepared to explain what the printout means in one's specific case._
 *The Spec:*
 
 ::: prompt
@@ -595,6 +602,8 @@ I want to:
 2. Understand all my options (not just medication)
 3. Know what questions to ask about risks and alternatives
 4. Have language that is assertive without being combative
+Give me the most conservative, medically accurate answer.
+I will verify everything with my doctor.
 :::
 *What to do with the Output:* Bring it to the appointment. The clinical terminology your Agent provided is a tool --- it signals that you've done your homework and makes dismissal harder. If the doctor still won't engage, ask them to document their refusal in your chart.
 
@@ -605,7 +614,7 @@ Pain assessment has documented racial and gender bias. Studies show Black patien
 
 [^h12-1]: Hoffman, K.M. et al. (2016). ["Racial bias in pain assessment and treatment recommendations."](https://doi.org/10.1073/pnas.1516047113) _Proceedings of the National Academy of Sciences_, 113(16), 4296–4301.
 
-Veterans: VA chronic pain management operates under the Opioid Safety Initiative (OSI), which emphasizes evidence-based alternatives --- physical therapy, cognitive behavioral therapy, acupuncture --- alongside medication when appropriate. Under the PACT Act (2022), conditions linked to toxic exposures (burn pits, Agent Orange) that cause chronic pain may qualify for presumptive service connection, simplifying the claims process. If your local VA facility cannot meet access standards --- drive time over 60 minutes or wait time over 28 days for specialty care --- you may be eligible for community care through the VA Community Care Network. Ask your Agent for current eligibility criteria.
+*Veterans note:* VA chronic pain management operates under the Opioid Safety Initiative (OSI), which emphasizes evidence-based alternatives --- physical therapy, cognitive behavioral therapy, acupuncture --- alongside medication when appropriate. Under the PACT Act (2022), conditions linked to toxic exposures (burn pits, Agent Orange) that cause chronic pain may qualify for presumptive service connection, simplifying the claims process. If your local VA facility cannot meet access standards --- drive time over 60 minutes or wait time over 28 days for specialty care --- you may be eligible for community care through the VA Community Care Network. Ask your Agent for current eligibility criteria.
 
 ---
 
@@ -678,7 +687,7 @@ Medication-assisted treatment (MAT) --- using medications like buprenorphine (Su
 [SAMHSA's treatment locator](https://findtreatment.gov) lets you search by substance, location, insurance, and treatment type. It is the most reliable starting point.
 :::
 
-Veterans: [Vet Centers](https://www.vetcenter.va.gov/) offer free, confidential counseling in community-based settings separate from VA medical centers --- for combat veterans, military sexual trauma (MST) survivors, and their families. Walk-ins are welcome at most of the 300+ locations; call 1-877-927-8387 for the nearest center. VA Substance Use Disorder (SUD) treatment integrates addiction care with mental health services (PTSD, TBI, depression) --- a structural advantage over civilian pathways, where these are often treated separately. Active-duty service members can access confidential support through [Military OneSource](https://www.militaryonesource.mil/) (800-342-9647), which remains available for 365 days after separation.
+*Veterans note:* [Vet Centers](https://www.vetcenter.va.gov/) offer free, confidential counseling in community-based settings separate from VA medical centers --- for combat veterans, military sexual trauma (MST) survivors, and their families. Walk-ins are welcome at most of the 300+ locations; call 1-877-927-8387 for the nearest center. VA Substance Use Disorder (SUD) treatment integrates addiction care with mental health services (PTSD, TBI, depression) --- a structural advantage over civilian pathways, where these are often treated separately. Active-duty service members can access confidential support through [Military OneSource](https://www.militaryonesource.mil/) (800-342-9647), which remains available for 365 days after separation.
 
 ---
 
@@ -719,9 +728,9 @@ Portugal decriminalized personal possession of all drugs in 2001. Drug-related d
 :::
 
 
-[^h14-4]: EMCDDA. _[Portugal Country Drug Report.](https://www.euda.europa.eu/publications/country-drug-reports/2017/portugal_en)_ European Monitoring Centre for Drugs and Drug Addiction, various years.
-
 [^h14-1]: CDC National Center for Health Statistics. (2024). ["Drug Overdose Deaths: Final Data for 2023."](https://www.cdc.gov/nchs/products/databriefs/db522.htm) _NCHS Data Brief_ No. 522.
+
+[^h14-4]: EMCDDA. _[Portugal Country Drug Report.](https://www.euda.europa.eu/publications/country-drug-reports/2017/portugal_en)_ European Monitoring Centre for Drugs and Drug Addiction, various years.
 
 ---
 

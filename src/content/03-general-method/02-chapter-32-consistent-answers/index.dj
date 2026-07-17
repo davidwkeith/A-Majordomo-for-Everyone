@@ -3,7 +3,7 @@ title: "Getting Consistent, Reliable Answers"
 part: 3
 order: 2
 strategy: null
-status: "draft"
+status: "final"
 ---
 
 ## Chapter 32: Getting Consistent, Reliable Answers
@@ -15,7 +15,7 @@ Your Agent does not always give identical answers to identical questions. This i
 
 Here is how.
 
-### Ask for numbered steps when sequence matters
+### Ask for Numbered Steps When Sequence Matters
 
 If the order of operations is important — a legal process, a repair procedure, a medical preparation checklist — ask explicitly for numbered steps. Your Agent will default to numbered steps only if you ask for them.
 
@@ -24,7 +24,7 @@ Please give me numbered steps, in the order I should do them,
 with no steps combined.
 :::
 
-### Ask your Agent to show its work
+### Ask Your Agent to Show Its Work
 
 For factual claims with real stakes, ask your Agent to identify the basis for each main point and flag any areas where it is less certain. This is not about doubting your Agent — it is about knowing where to verify independently.
 
@@ -35,11 +35,11 @@ verify with a professional.
 :::
 
 ::: tip
-For complicated questions — anything with multiple parts, tradeoffs, or "it depends" answers — add: _"Think through this step by step before giving me your answer."_ This sounds simple, but "chain-of-thought" prompting is one of the most-studied techniques in the field: asking your Agent to lay out intermediate reasoning steps measurably improves accuracy on multi-step problems.[^32-3] The more moving parts in your question, the more this helps.
+For complicated questions — anything with multiple parts, tradeoffs, or "it depends" answers — add: _"Think through this step by step before giving me your answer."_ This sounds simple, but "chain-of-thought" prompting is one of the most-studied techniques in the field: asking your Agent to lay out intermediate reasoning steps measurably improves accuracy on multi-step problems.[^32-1] The more moving parts in your question, the more this helps.
 :::
 
 
-### Ask for the most conservative interpretation
+### Ask for the Most Conservative Interpretation
 
 For legal, medical, and financial questions:
 
@@ -48,7 +48,7 @@ Please give me the most cautious, conservative interpretation.
 I would rather over-prepare than be caught off guard.
 :::
 
-### Ask for a checklist instead of advice
+### Ask for a Checklist Instead of Advice
 
 When you need to act on something — not just understand it — ask your Agent to convert its answer into a yes/no or done/not-done checklist.
 
@@ -57,7 +57,7 @@ Can you turn that into a checklist I can print out and work
 through item by item?
 :::
 
-### Ask your Agent to review its own answer
+### Ask Your Agent to Review Its Own Answer
 
 For important questions, ask your Agent to take a second pass before you act on the answer:
 
@@ -69,7 +69,7 @@ were slightly different?
 
 Your Agent will often catch its own oversights — a missed exception, an assumption it made about your circumstances, a detail it glossed over for brevity. This is not a sign the first answer was unreliable. It is the same principle as rereading a contract before signing: the second read catches what the first read missed. For high-stakes questions — legal, medical, financial — a self-review followed by the calibration question later in this chapter gives you two layers of error-checking before you act.
 
-### Check the spec before you trust the answer
+### Check the Spec Before You Trust the Answer
 
 Your Agent can give a perfectly coherent, well-reasoned answer to the wrong version of your question. The answer _looks_ right because it _is_ right — for someone else's situation. Before you act on a plan, an interpretation, or a recommendation, ask your Agent to tell you what it thinks you asked:
 
@@ -97,7 +97,7 @@ corrections?
 
 The read-back checks whether your Agent understood your situation. The calibration question, covered later in this chapter, checks whether its answer is reliable. These are two different failure modes — wrong understanding versus uncertain knowledge — and they need two different checks.
 
-### Recognizing when the spec is right
+### Recognizing When the Spec Is Right
 
 The failure modes tell you when the spec is wrong. But the harder question is the opposite: when is it right enough to act on?
 
@@ -118,9 +118,9 @@ If you have corrected the same detail three times and the Agent keeps drifting b
 :::
 
 
-### When to start a new conversation
+### When to Start a New Conversation
 
-If you have been going back and forth for thirty messages and the Agent starts repeating itself, losing track of earlier points, or giving vague answers — the conversation is not broken. It is full. Your Agent's working memory holds a lot, but not everything, and the middle of a long conversation gets less reliable attention than the beginning and end.
+If you have been going back and forth for 30 messages and the Agent starts repeating itself, losing track of earlier points, or giving vague answers — the conversation is not broken. It is full. Your Agent's working memory holds a lot, but not everything, and the middle of a long conversation gets less reliable attention than the beginning and end.
 
 The fix is not to push harder. It is to start fresh — but not from scratch. Ask your Agent to summarize what you have established so far:
 
@@ -134,7 +134,7 @@ Copy the summary. Open a new conversation. Paste it in with your next question. 
 
 This is the same principle the billionaire's chief of staff applied to the morning briefing: read the whole file, extract the page that matters, hand over one clean sheet. You are the chief of staff. Your Agent is the principal. Brief it well.
 
-### The calibration question
+### The Calibration Question
 
 After any important answer, before you close the conversation:
 
@@ -146,12 +146,12 @@ or three things I should independently verify before acting on it?
 This single question will consistently improve the quality of the guidance you receive. Your Agent will tell you where its answer is reliable and where it is extrapolating. That boundary is exactly where you should apply your own judgment — or pick up the phone and call a professional. It is the same line Chapter 31 draws from the other direction: where AI's edge ends and the human's begins.
 
 ::: science
-Research on _algorithm aversion_ — the human tendency to distrust algorithmic recommendations even when they are demonstrably more accurate — shows that people abandon an algorithm after watching it err (Dietvorst et al., 2015), but stay with one when they keep some control over the final output (Dietvorst et al., 2018).[^32-1] The inverse failure, _automation bias_ — over-trusting algorithmic output — is equally documented and arguably more dangerous (Cummings, 2004).[^32-2] The spec loop is the structured defense against both: you review, you correct, you decide — and the calibration question keeps the final judgment yours at exactly the moment when the stakes are highest.
+Research on _algorithm aversion_ — the human tendency to distrust algorithmic recommendations even when they are demonstrably more accurate — shows that people abandon an algorithm after watching it err (Dietvorst et al., 2015), but stay with one when they keep some control over the final output (Dietvorst et al., 2018).[^32-2] The inverse failure, _automation bias_ — over-trusting algorithmic output — is equally documented and arguably more dangerous (Cummings, 2004).[^32-3] The spec loop is the structured defense against both: you review, you correct, you decide — and the calibration question keeps the final judgment yours at exactly the moment when the stakes are highest.
 :::
 
 
-[^32-1]: Dietvorst, B.J., Simmons, J.P., & Massey, C. (2015). ["Algorithm aversion: People erroneously avoid algorithms after seeing them err."](https://doi.org/10.1037/xge0000033) _Journal of Experimental Psychology: General_, 144(1), 114--126. Dietvorst, B.J., Simmons, J.P., & Massey, C. (2018). ["Overcoming algorithm aversion: People will use imperfect algorithms if they can (even slightly) modify them."](https://doi.org/10.1287/mnsc.2016.2643) _Management Science_, 64(3), 1155--1170.
+[^32-1]: Wei, J. et al. (2022). ["Chain-of-Thought Prompting Elicits Reasoning in Large Language Models."](https://arxiv.org/abs/2201.11903) _NeurIPS 2022._ The finding holds most strongly for sufficiently large models on multi-step arithmetic, commonsense, and symbolic reasoning problems.
 
-[^32-2]: Cummings, M.L. (2004). ["Automation bias in intelligent time critical decision support systems."](https://doi.org/10.2514/6.2004-6313) _AIAA 1st Intelligent Systems Technical Conference._
+[^32-2]: Dietvorst, B.J., Simmons, J.P., & Massey, C. (2015). ["Algorithm aversion: People erroneously avoid algorithms after seeing them err."](https://doi.org/10.1037/xge0000033) _Journal of Experimental Psychology: General_, 144(1), 114--126. Dietvorst, B.J., Simmons, J.P., & Massey, C. (2018). ["Overcoming algorithm aversion: People will use imperfect algorithms if they can (even slightly) modify them."](https://doi.org/10.1287/mnsc.2016.2643) _Management Science_, 64(3), 1155--1170.
 
-[^32-3]: Wei, J. et al. (2022). ["Chain-of-Thought Prompting Elicits Reasoning in Large Language Models."](https://arxiv.org/abs/2201.11903) _NeurIPS 2022._ The finding holds most strongly for sufficiently large models on multi-step arithmetic, commonsense, and symbolic reasoning problems.
+[^32-3]: Cummings, M.L. (2004). ["Automation bias in intelligent time critical decision support systems."](https://doi.org/10.2514/6.2004-6313) _AIAA 1st Intelligent Systems Technical Conference._

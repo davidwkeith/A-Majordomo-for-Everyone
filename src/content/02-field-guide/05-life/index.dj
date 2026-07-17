@@ -3,7 +3,7 @@ title: "Life"
 part: 2
 order: 5
 strategy: null
-status: "draft"
+status: "final"
 ---
 
 ### Life
@@ -11,7 +11,7 @@ status: "draft"
 _"I find it so amazing when people tell me that electronic music has no soul. You can't blame the computer. If there's no soul in the music, it's because nobody put it there."_
 _— [Björk](https://en.wikipedia.org/wiki/Bj%C3%B6rk)_
 
-_The systems that govern health, money, and legal standing get their own domains in this guide. What remains is everything else: the conversations, the milestones, the meals, the trips, the slow accumulation of skills and relationships that constitute an actual life. The billionaire class has a staff for this too. Now you have one._
+_The systems that govern health, money, and legal standing get their own domains in the Field Guide. What remains is everything else: the conversations, the milestones, the meals, the trips, the slow accumulation of skills and relationships that constitute an actual life. The billionaire class has a staff for this too. Now you have one._
 
 ---
 
@@ -19,7 +19,7 @@ _The systems that govern health, money, and legal standing get their own domains
 
 *Strategy:* Prepare + Draft
 *See also:* W-3: Working with Human Resources (for workplace conversations), H-7: Preparing for End-of-Life Conversations (for the hardest one). Russ Harris, [_The Happiness Trap_](https://bookshop.org/p/books/the-happiness-trap-how-to-stop-struggling-and-start-living-second-edition-russ-harris/11796733) (managing the emotions that make you avoid the conversation). [_Read This and You Will Be Happier_](https://www.theguardian.com/books/2026/jan/17/read-this-and-you-will-be-happier-experts-pick-the-self-help-books-that-really-work) (Guardian, 2026) on Monkey/T-Rex/Lion/Mouse personality types (reading your counterpart's communication style)
-*My Man Jeeves:* _One might observe that forty years of research on interpersonal conflict converge upon a single finding of some consequence: how a difficult conversation begins predicts its outcome with approximately 96% accuracy. The words selected in the first three minutes, it would appear, determine most of what follows.[^li1-2] It is perhaps worth noting, then, that preparation is not a matter of personal preference. It is the intervention itself. One's Agent can help one prepare._
+*My Man Jeeves:* _One might observe that 40 years of research on interpersonal conflict converge upon a single finding of some consequence: how a difficult conversation begins predicts its outcome with approximately 96% accuracy. The words selected in the first three minutes, it would appear, determine most of what follows.[^li1-1] It is perhaps worth noting, then, that preparation is not a matter of personal preference. It is the intervention itself. One's Agent can help one prepare._
 *The Spec:*
 
 ::: prompt
@@ -40,11 +40,11 @@ This works well with voice mode on your phone — all major tools support it on 
 :::
 
 
-*Science Note:* Gottman (1999) identifies the "soft startup" as the single highest-leverage intervention in difficult conversations — how you begin determines nearly everything that follows.[^li1-1]
+*Science Note:* Gottman (1999) identifies the "soft startup" as the single highest-leverage intervention in difficult conversations — how you begin determines nearly everything that follows.[^li1-2]
 
-[^li1-1]: Gottman, J.M. (1999). [_The Marriage Clinic._](https://www.gottman.com/product/the-new-marriage-clinic/) W.W. Norton.
+[^li1-1]: Gottman, J.M. et al. (1998). ["Predicting Marital Happiness and Stability from Newlywed Interactions."](https://doi.org/10.2307/353438) _Journal of Marriage and the Family_, 60(1), 5–22.
 
-[^li1-2]: Gottman, J.M. et al. (1998). ["Predicting Marital Happiness and Stability from Newlywed Interactions."](https://doi.org/10.2307/353438) _Journal of Marriage and the Family_, 60(1), 5–22.
+[^li1-2]: Gottman, J.M. (1999). [_The Marriage Clinic._](https://www.gottman.com/product/the-new-marriage-clinic/) W.W. Norton.
 
 ---
 
@@ -168,7 +168,7 @@ Medicaid is the primary payer for long-term care in the United States, but quali
 [^li4-4]: KFF, ["Health Provisions in the 2025 Federal Budget Reconciliation Law."](https://www.kff.org/medicaid/health-provisions-in-the-2025-federal-budget-reconciliation-law/) See also [Medicaid.gov](https://www.medicaid.gov/) for state-specific eligibility thresholds and the five-year lookback rules.
 
 ::: also
-Veterans: cross-reference H-6 for VA Aid and Attendance. Additional programs include VA Geriatrics and Extended Care (GEC), VA respite care, VA Community Living Centers (VA nursing homes), and the VA Caregiver Support Program (1-855-260-3274). Ask your Agent for eligibility requirements.
+*Veterans note:* cross-reference H-6 for VA Aid and Attendance. Additional programs include VA Geriatrics and Extended Care (GEC), VA respite care, VA Community Living Centers (VA nursing homes), and the VA Caregiver Support Program (1-855-260-3274). Ask your Agent for eligibility requirements.
 :::
 
 
@@ -427,7 +427,7 @@ the specific phrases and responses I’ll need.
 :::
 
 ::: tip
-_”Pretend you’re a [waiter / taxi driver / shopkeeper / colleague] in [city] and only respond in [language]. If I get stuck, give me the phrase I need, then let me try again.”_ — Role-play with your Agent is the closest thing to immersion without a plane ticket.
+_“Pretend you’re a [waiter / taxi driver / shopkeeper / colleague] in [city] and only respond in [language]. If I get stuck, give me the phrase I need, then let me try again.”_ — Role-play with your Agent is the closest thing to immersion without a plane ticket.
 :::
 
 
@@ -488,7 +488,7 @@ The web evolved from text to graphics to audio to video to interactive simulatio
 
 
 ::: fairness
-“Just delete it” is advice that ignores the people for whom social media is their primary connection to community — isolated caregivers, people with disabilities, immigrants maintaining ties to home. The goal is not abstinence. The goal is shifting the ratio from reactive to purposeful. Ask your Agent: _”I need social media for [specific reason]. Help me keep that function and reduce the rest.”_
+“Just delete it” is advice that ignores the people for whom social media is their primary connection to community — isolated caregivers, people with disabilities, immigrants maintaining ties to home. The goal is not abstinence. The goal is shifting the ratio from reactive to purposeful. Ask your Agent: _“I need social media for [specific reason]. Help me keep that function and reduce the rest.”_
 :::
 
 
@@ -537,7 +537,7 @@ Lally et al. (2010) found habit formation takes an average of 66 days — not 21
 
 
 ::: tip
-_”I failed at [habit] again yesterday. Don’t motivate me. Help me figure out what went wrong structurally and fix the design.”_ — The most useful thing your Agent can do is diagnose the cue, not restore your enthusiasm.
+_“I failed at [habit] again yesterday. Don’t motivate me. Help me figure out what went wrong structurally and fix the design.”_ — The most useful thing your Agent can do is diagnose the cue, not restore your enthusiasm.
 :::
 
 
