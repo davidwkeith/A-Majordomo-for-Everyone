@@ -23,7 +23,7 @@
   *The Spec:*
   [monospace code block — the spec template]
   *What to do with the Output:* [concrete next action]
-  *Common [Domain] Expert Role Specs:* [for Expert Role Skills only]
+  *Common [domain] Expert Role specs:* [for Expert Role Skills only]
   [Callouts: SCIENCE, TIP, FAIRNESS, MEME, ALSO — max 4 per Skill,
    interleaved beside the content each one comments on
    (see the Sidebars density rules), not stacked at the end]

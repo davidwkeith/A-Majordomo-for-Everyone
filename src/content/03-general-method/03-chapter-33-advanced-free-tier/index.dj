@@ -3,7 +3,7 @@ title: "Advanced Free Tier Strategies"
 part: 3
 order: 3
 strategy: null
-status: "draft"
+status: "final"
 ---
 
 ## Chapter 33: Advanced Free Tier Strategies
@@ -19,7 +19,7 @@ The paid tier exists. It is useful. For most people doing the tasks in this book
 
 The free tier does not limit how smart your Agent is. It limits how many conversations you can have in a day. This means the resource you are managing is not intelligence --- it is context. Every conversation you start, every message you send, draws from that daily supply.
 
-The implication: a well-specified conversation that takes three messages is worth more than a vague one that takes fifteen. Everything in this book --- the specification interview, the Five-Part Frame, the calibration question --- makes you more efficient on the free tier by design. Specification literacy is free-tier optimization. You have been training for this since Strategy 0.
+The implication: a well-specified conversation that takes three messages is worth more than a vague one that takes 15. Everything in this book --- the specification interview, the Five-Part Frame, the calibration question --- makes you more efficient on the free tier by design. Specification literacy is free-tier optimization. You have been training for this since Strategy 0.
 
 ### The Conversation Lifecycle
 
@@ -33,7 +33,7 @@ Not every conversation should last forever, and not every problem needs a new on
 
 *When to start fresh:*
 
-- The conversation has gone past twenty or thirty messages. Long conversations degrade --- not because the Agent forgets, but because the middle of a long conversation gets less reliable attention than the beginning and end. Chapter 32 covers this.
+- The conversation has gone past 20 or 30 messages. Long conversations degrade --- not because the Agent forgets, but because the middle of a long conversation gets less reliable attention than the beginning and end. Chapter 32 covers this.
 - You got a good answer and want to test it. Start a new conversation with the same question and see if you get the same answer. If both conversations converge on the same recommendation, you can trust it more. If they diverge, you found the boundary between what the Agent knows and what it is guessing.
 - You are switching strategies. The conversation where you decoded the medical bill is not the right conversation to draft the appeal letter. Start fresh, paste the decoded summary, and let the Agent approach the new task without the noise of the first one.
 
@@ -111,7 +111,7 @@ The persistent context feature is free in the major services --- with one asymme
 
 ### The Compound Return
 
-The first time you used these tools, everything was slow. You were learning the spec interview, figuring out what to paste, discovering what follow-up questions to ask. A single problem --- decoding a medical bill, preparing for an appointment --- took twenty minutes and multiple attempts.
+The first time you used these tools, everything was slow. You were learning the spec interview, figuring out what to paste, discovering what follow-up questions to ask. A single problem --- decoding a medical bill, preparing for an appointment --- took 20 minutes and multiple attempts.
 
 By now, it takes five. The spec is faster because you have written dozens. The follow-up is faster because you know what to look for in the output. The evaluation is faster because you have the calibration question. The whole loop --- specify, execute, evaluate, refine --- compresses with use.
 

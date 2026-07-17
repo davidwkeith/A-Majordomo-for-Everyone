@@ -44,7 +44,7 @@
 | Chapter titles | Title case | "Strategy 2: Prepare" |
 | Skill titles | Title case | "Understanding a Contractor Bid" |
 | Callout labels | ALL CAPS in brackets | `> **[SCIENCE]**` |
-| Subheadings in prose | Sentence case | "### Ask for numbered steps when sequence matters" |
+| Subheadings in prose | Title case | "### The Specification Interview Loop" |
 | Subheadings inside agent output | Bold sentence case | "**What to bring:**" |
 | Strategy names | Capitalized | Prepare, Decode, Navigate |
 | Part names | Capitalized | "Part Two: The Field Guide" |
@@ -150,7 +150,7 @@ This section governs the ePub output and any web rendering.
 ## Cross-References
 
 - Reference Skills by ID: "see H-4" or "see also L-1: Negotiating a Contract."
-- Reference chapters by title, not number, except within Part 3 where chapter numbers are conventional: "Chapter 32: Getting Consistent, Reliable Answers."
+- Reference unnumbered pieces (forewords, appendices' companion chapters) by title. Numbered chapters (Chapters 1–4 and Part 3) may be referenced by number — "see Chapter 3" — with the title added on first mention when context needs it: "Chapter 32: Getting Consistent, Reliable Answers."
 - Reference strategies by name: "Strategy 2: Prepare" on first mention, "Prepare" thereafter.
 - Never use "above" or "below" — ePub reading order is not guaranteed to match authorial expectation.
 

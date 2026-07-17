@@ -3,7 +3,7 @@ title: "Work"
 part: 2
 order: 6
 strategy: null
-status: "draft"
+status: "final"
 ---
 
 ### Work
@@ -11,7 +11,7 @@ status: "draft"
 _The labor market is an information asymmetry with a dress code. The employer knows the salary range, the real reason the last person left, and what the role actually entails. The candidate knows what was in the job posting, which was written by HR to attract applicants and reviewed by legal to limit liability — two goals that have nothing to do with telling you what the job is. Once you're hired, the asymmetry continues: performance reviews, promotion criteria, benefits enrollment, and termination procedures are all systems the company designed and you inherited. The Skills that follow are the preparation the billionaire class's career coaches provide._
 
 ::: meme
-George Jetson worked a few hours a day, a few days a week, pushing a single button. The show aired in 1962 as satire. Sixty years later the average American still works something close to a forty-hour week and the button has been replaced by a keyboard and seven different apps that all require a login. The Jetsons got the technology right and the outcome wrong. The automation arrived. The free time did not. The Skills in this domain are about using the tools that exist — including your Agent — to get the outcome the Jetsons were promised.
+George Jetson worked a few hours a day, a few days a week, pushing a single button. The show aired in 1962 as satire. Sixty years later the average American still works something close to a 40-hour week and the button has been replaced by a keyboard and seven different apps that all require a login. The Jetsons got the technology right and the outcome wrong. The automation arrived. The free time did not. The Skills in this domain are about using the tools that exist — including your Agent — to get the outcome the Jetsons were promised.
 :::
 
 
@@ -149,6 +149,8 @@ Please help me:
 2. Draft what I should say or write — factual, professional, documented
 3. Tell me what to put in writing vs. what to say in person
 4. Flag anything I should be careful about
+Give me the most conservative answer. I will verify with
+an employment attorney if this escalates.
 :::
 *What to do with the Output:* Put everything in writing. Email yourself a summary after every meeting. Use the phrase "per our conversation on [date]" in follow-up emails. This is not paranoia — it is the documentation standard that HR itself uses. Match their rigor.
 
@@ -240,7 +242,9 @@ Please:
 2. Walk me through the practical steps for [what I want to do]
 3. Tell me what my employer can and cannot legally do in response
 4. Flag the common mistakes people make in this process
-Give me the legal answer, not the political one.
+Give me the legal answer, not the political one — the most
+conservative, legally accurate reading. I will verify with
+a labor attorney or my regional NLRB office.
 :::
 *What to do with the Output:* If you are organizing, do not discuss it on company devices, in company channels, or during work hours until you understand your protections. Your Agent can explain the legal framework, but a labor attorney or your regional NLRB office is the authoritative source for your specific situation. Many labor attorneys offer free initial consultations for organizing questions.
 
@@ -296,11 +300,14 @@ My state: [state]
 My employer's response so far: [cooperative / dismissive /
 retaliatory / I haven't reported yet]
 Please help me:
-1. Understand my rights under OSHA and state worker's comp law
+1. Understand my rights under OSHA and state workers' comp law
 2. Walk me through the reporting and filing process step by step
 3. Tell me what deadlines I cannot miss
 4. Explain what protections I have against retaliation —
    and be honest about how strong those protections actually are
+Give me the most conservative, legally accurate answer.
+I will verify with my state workers' comp board or
+an employment attorney.
 :::
 *What to do with the Output:* Document everything. Photograph conditions. Save communications. If you are injured, report to your employer in writing, seek medical attention, and file a workers' comp claim — in that order, and the first 24 hours set the trajectory of the entire case. Your state's workers' comp board website has the specific filing forms and deadlines.
 
@@ -333,7 +340,7 @@ Workers' comp claim denials follow the same pattern as health insurance denials 
 #### W-7: Freelancing and Self-Employment
 
 *Strategy:* Navigate + Prepare
-*See also:* M-7: Taxes (1099 complexity is a different animal), L-1: Negotiating a Contract (every engagement needs one), M-8: Insurance (no employer, no group rate)
+*See also:* M-7: Understanding Your Taxes (1099 complexity is a different animal), L-1: Negotiating a Contract (every engagement needs one), M-8: Insurance You Actually Need (no employer, no group rate)
 *My Man Jeeves:* _One might observe that the freelancer occupies a position of some structural peculiarity in the American labour market — performing the same work as an employee while receiving none of the infrastructure that employment provides. There is no HR department to explain the benefits, because there are no benefits to explain. There is no payroll department to withhold taxes, because the withholding is now the freelancer's responsibility, as is the estimation, the quarterly filing, and the penalty for underestimation. The 1099 form, one ventures to suggest, is not merely a tax classification but a transfer of administrative burden from the entity that profits from the work to the individual who performs it. One's Agent can assist in managing that burden — the contracts, the invoices, the rate calculations, the quarterly estimates — so that one's attention remains upon the work itself rather than the paperwork surrounding it._
 *The Spec:*
 
@@ -524,7 +531,7 @@ The advice "just talk to them" assumes equal power. The three directions of work
 #### W-10: Understanding Your Benefits
 
 *Strategy:* Decode + Decide
-*See also:* M-5: Retirement and Investing (the 401k match is free money — literally), M-8: Insurance You Actually Need (the full picture beyond employer-provided), H-6: Medicare and H-6b: Medicaid (for comparison if you are approaching 65 or qualifying by income)
+*See also:* M-5: Retirement and Investing (the 401(k) match is free money — literally), M-8: Insurance You Actually Need (the full picture beyond employer-provided), H-6: Medicare and H-6b: Medicaid (for comparison if you are approaching 65 or qualifying by income)
 *My Man Jeeves:* _It has been one's observation that the benefits enrolment period is a masterwork of information asymmetry, in which the employee is presented with a 40-page document, given 14 days to make decisions that will affect one's financial position for the following 12 months, and offered as guidance a 30-minute webinar conducted by a vendor whose incentives are not, one feels, perfectly aligned with one's own. The HSA and the FSA sound similar but differ in ways that cost the inattentive reader several thousand dollars. The vesting schedule appears generous until one calculates the probability of remaining at the firm long enough to collect. The disability insurance that seemed optional becomes, upon reflection, the only benefit that replaces income when the others cannot. The money left on the table, compounded over a career, is quietly staggering. One's Agent can read the benefits summary, explain what each option actually does, and calculate which combination serves one's specific situation — which is, one gathers, what the benefits webinar was meant to accomplish._
 *The Spec:*
 
@@ -568,7 +575,7 @@ _"Here is my benefits summary: [paste]. I am [age], [single/married/family], in 
 
 
 ::: meme
-Open enrollment is the company's annual reminder that they have structured your compensation so that a meaningful percentage of it requires you to read a forty-page PDF, attend a webinar scheduled during your busiest week, and make irrevocable financial decisions in a two-week window. The C-suite has a benefits consultant who does this for them. You now have your Agent.
+Open enrollment is the company's annual reminder that they have structured your compensation so that a meaningful percentage of it requires you to read a 40-page PDF, attend a webinar scheduled during your busiest week, and make irrevocable financial decisions in a two-week window. The C-suite has a benefits consultant who does this for them. You now have your Agent.
 :::
 
 

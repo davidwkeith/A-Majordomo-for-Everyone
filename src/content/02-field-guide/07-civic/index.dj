@@ -3,7 +3,7 @@ title: "Civic"
 part: 2
 order: 7
 strategy: null
-status: "draft"
+status: "final"
 ---
 
 ### Civic
@@ -92,6 +92,9 @@ Please explain:
 3. What provisional ballots are and when to insist on one
 4. What to do if I'm turned away, challenged, or intimidated
 5. The deadlines I cannot miss
+Give me the most conservative, legally accurate answer.
+I will verify with my county election office or a voter
+protection hotline.
 :::
 *What to do with the Output:* Check your registration now --- not the week before the election. If your status is incorrect, you have more options to fix it before Election Day than on it. Your Agent can walk you through your state's specific process. Save the deadlines to your calendar.
 
@@ -127,7 +130,7 @@ Felon disenfranchisement varies wildly by state. Maine and Vermont allow voting 
 
 *Strategy:* Research + Assert
 *See also:* C-1: Knowing Your Rights During a Police Encounter, C-2: Knowing Your Voter Rights, L-1: Negotiating a Contract (for lease and employment agreements)
-*My Man Jeeves:* _It would be uncontroversial to observe that every human on Earth possesses rights. Some are inalienable --- the [Universal Declaration of Human Rights](https://en.wikipedia.org/wiki/Universal%5FDeclaration%5Fof%5FHuman%5FRights) enumerates thirty of them. Some are constitutional. Some are statutory. Some depend upon one's state, county, city, employer, and landlord. The practical experience of those rights varies so dramatically by jurisdiction that two persons holding the same citizenship may find themselves living under meaningfully different legal regimes depending upon which side of a state line they happen to sleep on. The billionaire class is, one might note, well aware of this circumstance --- it is the reason they select their residence with such care. It would seem prudent for one to be similarly informed. One's Agent can explain which rights apply in one's specific jurisdiction._
+*My Man Jeeves:* _It would be uncontroversial to observe that every human on Earth possesses rights. Some are inalienable --- the [Universal Declaration of Human Rights](https://en.wikipedia.org/wiki/Universal%5FDeclaration%5Fof%5FHuman%5FRights) enumerates 30 of them. Some are constitutional. Some are statutory. Some depend upon one's state, county, city, employer, and landlord. The practical experience of those rights varies so dramatically by jurisdiction that two persons holding the same citizenship may find themselves living under meaningfully different legal regimes depending upon which side of a state line they happen to sleep on. The billionaire class is, one might note, well aware of this circumstance --- it is the reason they select their residence with such care. It would seem prudent for one to be similarly informed. One's Agent can explain which rights apply in one's specific jurisdiction._
 *The Spec:*
 
 ::: prompt
@@ -149,6 +152,9 @@ Please:
    national norms --- what's better here, what's worse
 4. Point me toward free or low-cost legal resources in my area
 Give me the data, not the vibe. I want specifics I can act on.
+Give me the most conservative, legally accurate answer.
+I will verify with a legal aid organization or attorney
+before acting on anything.
 :::
 *What to do with the Output:* This is research, not legal advice. For any situation where enforcement of a right is at stake --- discrimination, housing, employment, immigration --- a legal aid organization or attorney should get involved. Many offer free consultations and pro bono representation for civil rights cases. Your Agent can help you find them: _"What legal aid organizations in [city/state] handle [type of case] and offer free consultations?"_
 
@@ -158,7 +164,7 @@ If you are considering a move: _"Compare the practical rights and protections fo
 
 
 ::: science
-The [Universal Declaration of Human Rights](https://www.un.org/en/about-us/universal-declaration-of-human-rights) (1948) establishes thirty rights that the global community agreed every human possesses. The American legal system implements some through constitutional law, some through federal statute, and some not at all. The distance between the UDHR and your daily experience is itself a measure of the information asymmetry this book exists to address.[^c3-1]
+The [Universal Declaration of Human Rights](https://www.un.org/en/about-us/universal-declaration-of-human-rights) (1948) establishes 30 rights that the global community agreed every human possesses. The American legal system implements some through constitutional law, some through federal statute, and some not at all. The distance between the UDHR and your daily experience is itself a measure of the information asymmetry this book exists to address.[^c3-1]
 :::
 
 

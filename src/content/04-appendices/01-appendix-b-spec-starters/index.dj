@@ -3,7 +3,7 @@ title: "Appendix B: Spec Interview Starters"
 part: 4
 order: 1
 strategy: null
-status: "draft"
+status: "final"
 ---
 
 ## Appendix B: Spec Interview Starters
@@ -85,7 +85,7 @@ I'm thinking about buying [item] for $[amount]. Is this a reasonable price? What
 *Before signing any contract:*
 
 ::: prompt
-I am about to sign this agreement. [Paste text.] Please summarize what I am agreeing to, flag anything unusual, and list the three things I should pay most attention to. Give me the most conservative framing — I will verify with a lawyer before signing.
+I'm about to sign this agreement. [Paste text.] Please summarize what I am agreeing to, flag anything unusual, and list the three things I should pay most attention to. Give me the most conservative framing — I will verify with a lawyer before signing.
 :::
 
 *When you're reviewing a lease before signing:*
@@ -187,7 +187,7 @@ I'm applying for [type of role]. Here's my current resume: [paste text]. Can you
 *When you're preparing for a job interview:*
 
 ::: prompt
-I have a job interview for [role] at [company] on [date]. Help me prepare — likely questions, how to answer 'tell me about yourself,' and questions I should ask them.
+I have a job interview for [role] at [company] on [date]. Help me prepare — likely questions, how to answer "tell me about yourself," and questions I should ask them.
 :::
 
 *When you need to document a workplace problem:*
@@ -215,7 +215,7 @@ I'm considering freelancing as a [profession]. I currently earn $[salary]. What 
 *When a ballot measure is confusing:*
 
 ::: prompt
-I am voting on [measure name or paste text]. Please explain in plain language what it does, who supports it and why, and who opposes it and why.
+I'm voting on [measure name or paste text]. Please explain in plain language what it does, who supports it and why, and who opposes it and why.
 :::
 
 *When you want to speak at a public meeting:*

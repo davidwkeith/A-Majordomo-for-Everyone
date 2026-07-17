@@ -3,7 +3,7 @@ title: "Transportation"
 part: 2
 order: 12
 strategy: null
-status: "draft"
+status: "final"
 ---
 
 ### Transportation
@@ -41,9 +41,9 @@ Please help me:
 5. If selling: what's my car actually worth and where will I
    get the best price — dealer, private sale, or online buyer?
 :::
-*What to do with the Output:* For buying: get pre-approved for financing from your bank or credit union before walking into the dealership. The dealer's financing is a profit center, not a convenience. Know the invoice price (your Agent can find it) and negotiate from the dealer's cost up, not the sticker price down. For selling: get your car's value from KBB, Edmunds, and Carvana before accepting any offer. The spread between trade-in and private sale is typically $2,000--$5,000. If you're buying used, price isn't the only asymmetry in the room --- the seller has usually seen the car in daylight, in person, over weeks or months. You're seeing it for twenty minutes. Before you commit to anything, see the Expert Role spec below.
+*What to do with the Output:* For buying: get pre-approved for financing from your bank or credit union before walking into the dealership. The dealer's financing is a profit center, not a convenience. Know the invoice price (your Agent can find it) and negotiate from the dealer's cost up, not the sticker price down. For selling: get your car's value from KBB, Edmunds, and Carvana before accepting any offer. The spread between trade-in and private sale is typically $2,000--$5,000. If you're buying used, price isn't the only asymmetry in the room --- the seller has usually seen the car in daylight, in person, over weeks or months. You're seeing it for twenty minutes. Before you commit to anything, see the Expert Role spec that follows.
 
-*Common car-buying Expert Role specs:* A tire sidewall carries more information than most buyers ever read --- a DOT date code (the last four digits are the week and year of manufacture) and, on tires built to an automaker's own spec, an OE designation (Tesla-fitted tires are marked T0 or T1).[^tr1-2] Both are legible in an ordinary close-up photo, which is exactly what the spec below asks for --- along with the rest of what a mechanic would check before you've handed anyone money.
+*Common car-buying Expert Role specs:* A tire sidewall carries more information than most buyers ever read --- a DOT date code (the last four digits are the week and year of manufacture) and, on tires built to an automaker's own spec, an OE designation (Tesla-fitted tires are marked T0 or T1).[^tr1-1] Both are legible in an ordinary close-up photo, which is exactly what this spec asks for --- along with the rest of what a mechanic would check before you've handed anyone money.
 
 ::: prompt
 Act as a mechanic and longtime car enthusiast looking over
@@ -75,10 +75,8 @@ independent pre-purchase inspection before I commit to
 buying if anything here looks worth a closer look.
 :::
 
-[^tr1-2]: [Michelin, "How to Read Tire Markings and Sidewall Codes."](https://www.michelinman.com/auto/auto-tips-and-advice/tires-101/tire-markings-explained) OE (original equipment) codes are manufacturer-assigned markings for tires built to an automaker's specification; Tesla's are T0 and T1. DOT date codes are required under [49 CFR § 574.5](https://www.ecfr.gov/current/title-49/subtitle-B/chapter-V/part-574/subpart-A/section-574.5).
-
 ::: science
-Americans spend an average of $13,174 per year on transportation — roughly 17% of household spending, second only to housing (BLS Consumer Expenditure Survey, 2023). For rural households the percentage is higher. The car payment is the most visible cost; depreciation, insurance, and fuel are the invisible ones. Your Agent can calculate total cost of ownership for any vehicle, which is the number that actually matters.[^tr1-1]
+Americans spend an average of $13,174 per year on transportation — roughly 17% of household spending, second only to housing (BLS Consumer Expenditure Survey, 2023). For rural households the percentage is higher. The car payment is the most visible cost; depreciation, insurance, and fuel are the invisible ones. Your Agent can calculate total cost of ownership for any vehicle, which is the number that actually matters.[^tr1-2]
 :::
 
 
@@ -97,7 +95,9 @@ Veterans with a service-connected disability may qualify for the VA Automobile A
 :::
 
 
-[^tr1-1]: Bureau of Labor Statistics. (2023). [_Consumer Expenditure Survey._](https://www.bls.gov/cex/) Transportation expenditure data includes vehicle purchases, fuel, insurance, maintenance, and public transit.
+[^tr1-1]: [Michelin, "How to Read Tire Markings and Sidewall Codes."](https://www.michelinman.com/auto/auto-tips-and-advice/tires-101/tire-markings-explained) OE (original equipment) codes are manufacturer-assigned markings for tires built to an automaker's specification; Tesla's are T0 and T1. DOT date codes are required under [49 CFR § 574.5](https://www.ecfr.gov/current/title-49/subtitle-B/chapter-V/part-574/subpart-A/section-574.5).
+
+[^tr1-2]: Bureau of Labor Statistics. (2023). [_Consumer Expenditure Survey._](https://www.bls.gov/cex/) Transportation expenditure data includes vehicle purchases, fuel, insurance, maintenance, and public transit.
 
 ---
 
@@ -158,7 +158,7 @@ Please help me:
 4. If I want to advocate for better options: who decides
    transportation policy in my city, and what has worked elsewhere?
 :::
-*What to do with the Output:* Save the cost comparison to your phone — that number is your motivation on cold mornings. Start with one trip per week. Replace one car trip with transit, cycling, or walking. The compound health benefit is real — a 2023 BMJ study found that cycling to work reduced all-cause mortality risk by 20% and cancer risk by 16%.[^tr3-1] The financial benefit is calculable: AAA's [Your Driving Costs 2025](https://newsroom.aaa.com/2025/09/aaa-new-vehicle-costs-drop-to-11577/) report puts the average cost of new-car ownership at $11,577/year. Every trip you don't drive reduces that number.
+*What to do with the Output:* Save the cost comparison to your phone — that number is your motivation on cold mornings. Start with one trip per week. Replace one car trip with transit, cycling, or walking. The compound health benefit is real — a 2017 BMJ study found that cycling to work reduced all-cause mortality risk by 20% and cancer risk by 16%.[^tr3-1] The financial benefit is calculable: AAA's [Your Driving Costs 2025](https://newsroom.aaa.com/2025/09/aaa-new-vehicle-costs-drop-to-11577/) report puts the average cost of new-car ownership at $11,577/year. Every trip you don't drive reduces that number.
 
 ::: science
 The [Strong Towns](https://www.strongtowns.org/) movement has documented that car-dependent suburban development is financially insolvent in most American cities — the infrastructure maintenance costs exceed the tax revenue generated by the development pattern. Walkable, mixed-use neighborhoods generate more tax revenue per acre and cost less to maintain. This is not an ideology. It is municipal accounting.[^tr3-2]
@@ -426,10 +426,9 @@ Accessible transportation failures compound. A broken elevator doesn't just add 
 U.S. airlines mishandled 11,527 wheelchairs and scooters in 2023 --- roughly 31 a day across the largest reporting carriers.[^tr8-2] A powered wheelchair can cost $30,000 or more. The Air Carrier Access Act (ACAA) requires airlines to accommodate wheelchair users, but enforcement has not kept pace with the damage. File complaints with the DOT Aviation Consumer Protection Division --- your Agent can draft them and cite the specific regulation.
 :::
 
-[^tr8-2]: U.S. Department of Transportation, [Air Travel Consumer Report: December 2023, Full Year 2023 Numbers](https://www.bts.gov/newsroom/air-travel-consumer-report-december-2023-full-year-2023-numbers). Mishandled device totals reported under 14 C.F.R. Part 234.
-
-
 [^tr8-1]: National Council on Disability. (2015). _[Transportation Update: Where We've Gone and What We've Learned.](https://www.ncd.gov/report/transportation-update-where-weve-gone-and-what-weve-learned/)_ See especially the paratransit findings on trip denials, on-time performance, and excessive trip lengths.
+
+[^tr8-2]: U.S. Department of Transportation, [Air Travel Consumer Report: December 2023, Full Year 2023 Numbers](https://www.bts.gov/newsroom/air-travel-consumer-report-december-2023-full-year-2023-numbers). Mishandled device totals reported under 14 C.F.R. Part 234.
 
 ---
 
@@ -530,5 +529,5 @@ Ask anyone who works a marina or an RV lot: a steady share of their used invento
 
 
 ::: meme
-The two happiest days in a boat owner's life are, as the saying goes, the day they buy it and the day they sell it. Your Agent can't fix the middle part, but it can make sure you go in with the real numbers instead of the marina brochure numbers. The Bluths had a yacht they couldn't afford. You have a spreadsheet. Use it.
+The two happiest days in a boat owner's life are, as the saying goes, the day they buy it and the day they sell it. Your Agent can't fix the middle part, but it can make sure you go in with the real numbers instead of the marina brochure numbers. [The Bluths](https://en.wikipedia.org/wiki/Arrested%5FDevelopment%5F(TV%5Fseries)) had a yacht they couldn't afford. You have a spreadsheet. Use it.
 :::

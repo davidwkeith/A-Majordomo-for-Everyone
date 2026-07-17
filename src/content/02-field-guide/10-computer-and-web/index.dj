@@ -3,7 +3,7 @@ title: "Computer & Web"
 part: 2
 order: 10
 strategy: null
-status: "draft"
+status: "final"
 ---
 
 ### Computer & Web
@@ -66,7 +66,7 @@ _"Explain this like I've never seen this software before"_ is not a childish pro
 
 
 ::: tip
-Say _"I need to take a screenshot of my computer"_ if you've never taken one before. The agent can recalibrate and you will learn another skill.
+Say _"I need to take a screenshot of my computer"_ if you've never taken one before. Your Agent can recalibrate and you will learn another skill.
 :::
 
 
@@ -155,9 +155,9 @@ Vibe coding evolved. Professional engineers now practice _agentic coding_ — wr
 :::
 
 
-[^wb2-2]: Karpathy, A. (2025). ["Vibe coding."](https://x.com/karpathy/status/1886192184808149383) X post, February 2, 2025. Collins Dictionary Word of the Year, 2025.
-
 [^wb2-1]: Scaffidi, C., Shaw, M., & Myers, B. (2005). ["Estimating the numbers of end users and end user programmers."](https://doi.org/10.1109/VLHCC.2005.34) _2005 IEEE Symposium on Visual Languages and Human-Centric Computing_, 207–214. For the AI-era update: Weber, I. (2025). ["Feasibility of AI-Assisted Programming for End-User Development."](https://arxiv.org/abs/2512.05666) arXiv:2512.05666 — non-programmers successfully built web applications through AI interaction, suggesting AI-assisted coding may complement or replace low-code/no-code platforms.
+
+[^wb2-2]: Karpathy, A. (2025). ["Vibe coding."](https://x.com/karpathy/status/1886192184808149383) X post, February 2, 2025. Collins Dictionary Word of the Year, 2025.
 
 ---
 
@@ -169,7 +169,7 @@ Vibe coding evolved. Professional engineers now practice _agentic coding_ — wr
 
 *Strategy:* Specify
 *See also:* WB-4: Learn to Work Better with AI Agents, Chapter 2: Your First Three Conversations, Chapter 4: How to Ask for What You Actually Want
-*My Man Jeeves:* _When the billionaire class engaged a personal assistant, the first week served as an audition --- not of competence, but of fit. Does she send bullet points or paragraphs? Does he say "Mr. Arnault" or "Bernard"? Does she flag difficulties immediately or reserve them for the morning briefing? The assistant who survived the probationary period was the one who matched the principal's communication rhythm without requiring instruction twice. One's Agent possesses the same capacity for customization --- and unlike a human assistant, it is not in the least disposed to take the feedback personally. The difference, one might note, is that the billionaire invested in a three-month trial period. One receives a settings panel and ten minutes._
+*My Man Jeeves:* _When the billionaire class engaged a personal assistant, the first week served as an audition --- not of competence, but of fit. Do they send bullet points or paragraphs? Do they say "Mr. Arnault" or "Bernard"? Do they flag difficulties immediately or reserve them for the morning briefing? The assistant who survived the probationary period was the one who matched the principal's communication rhythm without requiring instruction twice. One's Agent possesses the same capacity for customization --- and unlike a human assistant, it is not in the least disposed to take the feedback personally. The difference, one might note, is that the billionaire invested in a three-month trial period. One receives a settings panel and ten minutes._
 *The Spec:*
 
 ::: prompt
