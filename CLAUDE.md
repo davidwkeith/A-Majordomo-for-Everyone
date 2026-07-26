@@ -24,58 +24,7 @@ Semver. Draft status is `0.x.x`. Minor bumps for significant content or pipeline
 
 ## Build
 
-```bash
-npm run build        # tsc + generate ePub
-npm run build:check  # type-check only
-npm run check:epub   # EPUBCheck against dist/majordomo.epub (needs Java 11+; jar auto-downloaded and cached)
-npm run check:a11y   # Ace by DAISY (axe-core via headless Chrome) against dist/majordomo.epub — second accessibility opinion alongside build/validators/a11y.ts
-npm test             # vitest
-npm run clean        # rm dist/
-```
-
-CI runs on every push and PR to main (`.github/workflows/build.yml`): type-check, tests, ePub build, EPUBCheck, Ace. The built ePub is uploaded as an artifact.
-
-## Apple Books Notes Sync
-
-Hourly sync from your Apple Books typed annotations on the built ePub to GitHub Issues on this repo (label `from:apple-books`). Each annotation becomes one deduped issue.
-
-```bash
-npm run sync:notes:install      # one-time: install LaunchAgent + create label
-npm run sync:notes              # force a sync now (rather than wait for next hour)
-npm run sync:notes:status       # last-run, mtime, log file size, lifetime counters
-npm run sync:notes:uninstall    # remove the LaunchAgent
-```
-
-State lives outside the repo:
-- `~/Library/Application Support/majordomo/notes-sync-state.json` (mtime cache, asset_id, counters)
-- `~/Library/Logs/majordomo-notes-sync.log` (structured one-line-per-event log)
-
-Requires `gh auth login` to have been run once.
-
-**macOS Full Disk Access:** The LaunchAgent-spawned daemon needs Full Disk Access to read `~/Library/Containers/com.apple.iBooksX/`. Interactive shells inherit this from Terminal/iTerm/Claude Code; LaunchAgents are attributed to their own responsible code and need explicit grants. After running `sync:notes:install`, open **System Settings → Privacy & Security → Full Disk Access**, click **+**, navigate to (Cmd+Shift+G) the node binary path printed by the installer (e.g. `/opt/homebrew/Cellar/node@22/22.22.2_1/bin/node`), and toggle it on. Then kickstart the daemon: `launchctl kickstart -p "gui/$(id -u)/io.dwk.majordomo.notes-sync"`.
-
-See [the design spec](docs/superpowers/specs/2026-05-23-apple-books-notes-sync-design.md) for the full architecture.
-
-## Project Structure
-
-```
-spec/                # All editorial, visual, and structural specifications
-  editorial/         # Voice, conventions, principles, cultural references
-  illustration/      # Illustrator agent instructions and art briefs
-src/content/         # Djot chapter files (.dj) with YAML frontmatter
-  00-introduction/   # Epigraph, Foreword, "How to Use", Chapters 1-4
-  01-strategies/     # Strategy 0-9
-  02-field-guide/    # Field Guide Skills by domain (the human equivalent of LLM SKILLS.md)
-  03-general-method/ # Part Three chapters
-  04-appendices/     # Appendices A-H + final note
-src/styles/          # ePub CSS
-src/images/          # Cover + chapter illustrations
-build/               # TypeScript build pipeline
-  filters/           # Djot filters (callouts, art-briefs, conversations, endnotes)
-  epub/              # ePub 3.0 assembly (templates, jszip)
-  embed-xmp.ts       # XMP metadata embedding utility
-dist/                # Output (gitignored)
-```
+Scripts are in `package.json`. Two things they don't tell you: `npm run check:epub` needs Java 11+ (the EPUBCheck jar is auto-downloaded and cached), and `npm run check:a11y` runs Ace by DAISY as a second accessibility opinion alongside `build/validators/a11y.ts`.
 
 ## Pipeline
 
