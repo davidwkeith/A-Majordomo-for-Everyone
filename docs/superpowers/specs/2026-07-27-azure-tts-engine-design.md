@@ -166,6 +166,17 @@ the string sent to Azure. That's a narrow, engine-only check and doesn't
 require the pipeline to exist first — it just needs a human with credentials
 to run it against a paragraph of already-built chapter text.
 
+`npm run tts:spike` (`build/scripts/tts-spike.ts`) is scaffolded for exactly
+this: it synthesizes a sample paragraph deliberately exercising Djot's
+smart-typography substitutions and proper nouns, captures every
+`WordBoundary` event, and verifies each one's `textOffset`/`wordLength`
+slices back to the expected word in the source string — flagging any drift
+and writing the synthesized audio to `dist/tts-spike/spike.mp3` for a
+listening check. It exits non-zero on mismatch. Pass a text file
+(`npm run tts:spike -- path/to/file.txt`) to check a real chapter excerpt
+instead of the built-in sample. Not yet run against live Azure output —
+needs `SPEECH_KEY`/`SPEECH_REGION` from the provisioned resource.
+
 ## Remaining work (not done in this pass)
 
 These require either Azure account access, human listening judgment, or the
@@ -174,7 +185,8 @@ These require either Azure account access, human listening judgment, or the
 - [ ] Provision the Azure Speech resource (paid tier, `eastus`)
 - [ ] Add `SPEECH_KEY` / `SPEECH_REGION` as GitHub Actions secrets
 - [ ] Audition the voice shortlist above and lock in three final voices
-- [ ] Confirm `WordBoundary` offset behavior against smart-typography output
+- [ ] Run `npm run tts:spike` against live Azure output and confirm `WordBoundary`
+      offsets hold (script scaffolded; needs a provisioned resource to execute)
 - [ ] Author the SSML lexicon for recurring proper nouns, once voices are locked
 - [ ] Pipeline design issue: fragment IDs, SMIL generation, incremental
       hash-based regeneration, skippability tagging (tracked separately)

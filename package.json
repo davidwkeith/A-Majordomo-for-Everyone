@@ -16,6 +16,7 @@
     "build:check": "tsc --noEmit",
     "check:epub": "tsx build/scripts/epubcheck.ts",
     "check:a11y": "tsx build/scripts/ace.ts",
+    "tts:spike": "tsx build/scripts/tts-spike.ts",
     "dev": "npm run build:site && wrangler dev",
     "test": "vitest run",
     "test:watch": "vitest",
@@ -32,6 +33,7 @@
     "dotenv": "^17.4.1",
     "gray-matter": "^4.0.3",
     "jszip": "^3.10.1",
+    "microsoft-cognitiveservices-speech-sdk": "^1.51.0",
     "sharp": "^0.35.3"
   },
   "devDependencies": {
