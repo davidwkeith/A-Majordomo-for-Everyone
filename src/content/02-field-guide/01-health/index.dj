@@ -3,7 +3,7 @@ title: "Health"
 part: 2
 order: 1
 strategy: null
-status: "final"
+status: "draft"
 ---
 
 ### Health
@@ -101,15 +101,14 @@ Give me the most conservative, legally accurate answer.
 I will verify with the billing office or a patient advocate
 before disputing anything.
 :::
+::: tip
+If your EOB is a PDF from your insurance portal, copy the text and paste it. If it arrived on paper, photograph it with your phone and copy the text from the photo — both iPhone and Android can do this. Your Agent reads pasted text faster and more accurately than a photo. See [Appendix J](09-appendix-j-working-with-text.xhtml) for why.
+:::
+
 *What to do with the Output:* Compare every line to the original provider bill. If your Agent flags a charge as unusual, call the billing department and ask them to explain it. The person who calls is the person who gets the adjustment. The person who doesn't call pays the first number they were given.
 
 ::: also
 Paste or upload your document directly — file upload works in Claude, Gemini, ChatGPT, and Copilot. See [Appendix G](06-appendix-g-feature-table.xhtml).
-:::
-
-
-::: tip
-If your EOB is a PDF from your insurance portal, copy the text and paste it. If it arrived on paper, photograph it with your phone and copy the text from the photo — both iPhone and Android can do this. Your Agent reads pasted text faster and more accurately than a photo. See [Appendix J](09-appendix-j-working-with-text.xhtml) for why.
 :::
 
 
@@ -191,12 +190,9 @@ Chronic pain and invisible illness face documented medical dismissal, particular
 :::
 
 
-::: also
-To make this Expert Role persistent across sessions, save it as a *Project* (Claude), *Gem* (Gemini), or *Custom GPT* (ChatGPT). See [Appendix G](06-appendix-g-feature-table.xhtml).
-:::
-
-
 Charmaz's _Good Days, Bad Days_ (1991) names what the medical system rarely does: chronic illness restructures the self. The person before the diagnosis is not the person after, and there is a grief for the life that was expected --- separate from the pain, separate from the fatigue, separate from the losses of mobility or hearing or whatever else the condition quietly takes. This grief is not self-pity. It is a documented psychological process, and when it goes unnamed it worsens outcomes.[^h5-1] Your doctor, in a 15-minute visit, cannot hold it. Your family, who watched the change, may not have the vocabulary for it. Your Agent is not a therapist and cannot replace one --- but it is a place where you can say these things in plain language and receive something back that does not flinch.
+
+In 2003, [Christine Miserandino](https://butyoudontlooksick.com/articles/written-by-christine/the-spoon-theory/) explained lupus to a friend by handing her twelve spoons. Each task --- showering, making breakfast, going to work --- costs spoons, and when they run out, the day is over. Spoon theory was not peer-reviewed. It was named in a diner by a patient who needed a friend to understand, and it has since been cited in nursing literature because it did something their frameworks did not.
 
 ::: tip
 _"I have [condition] and I'm grieving the life I expected to have. Help me name what I've lost, what I've adapted to, and what I'm still figuring out --- so I can bring the right questions to my doctor, my family, and a therapist if I decide to see one."_
@@ -205,23 +201,16 @@ _When you're ready: "Help me find online communities for people with [condition]
 :::
 
 
-[^h5-1]: Charmaz, K. (1991). _[Good Days, Bad Days: The Self in Chronic Illness and Time.](https://www.rutgersuniversitypress.org/good-days-bad-days/9780813519678)_ Rutgers University Press.
-
-::: meme
-In 2003, [Christine Miserandino](https://butyoudontlooksick.com/articles/written-by-christine/the-spoon-theory/) explained lupus to a friend by handing her twelve spoons. Each task --- showering, making breakfast, going to work --- costs spoons, and when they run out, the day is over. Spoon theory was not peer-reviewed. It was named in a diner by a patient who needed a friend to understand, and it has since been cited in nursing literature because it did something their frameworks did not.
-:::
-
-::: science
-The Stanford Chronic Disease Self-Management Program (Lorig et al., 1999) remains the best-studied model: a randomized trial of 952 adults showed reduced hospitalization, less health distress, and more exercise at a cost of $70 per participant. A meta-analysis of 23 studies (Brady et al., 2013) confirmed consistent small-to-moderate effects, strongest for self-efficacy. The problem is reach: over 15 years, fewer than 500,000 Americans have completed a structured program — against 194 million adults with at least one chronic condition (CDC, 2023). Lorig's own research found that online delivery produced comparable results to in-person groups, which suggests the educational structure matters more than the peer format. Your Agent can approximate that structure. It cannot replace a room full of people who know what a bad day actually feels like.[^h5-2]
-:::
-
-
-[^h5-2]: Lorig, K.R. et al. (1999). ["Evidence suggesting that a chronic disease self-management program can improve health status while reducing hospitalization."](https://pubmed.ncbi.nlm.nih.gov/10413387/) _Medical Care_, 37(1), 5–14. Brady, T.J. et al. (2013). ["A Meta-Analysis of Health Status, Health Behaviors, and Health Care Utilization Outcomes of the Chronic Disease Self-Management Program."](https://pmc.ncbi.nlm.nih.gov/articles/PMC3547675/) _Preventing Chronic Disease_, 10:E07. Lorig, K.R. et al. (2006). ["Internet-based chronic disease self-management: a randomized trial."](https://pubmed.ncbi.nlm.nih.gov/17063127/) _Medical Care_, 44(11), 964–971.
+*Science Note:* The Stanford Chronic Disease Self-Management Program (Lorig et al., 1999) remains the best-studied model --- a 952-person randomized trial showed reduced hospitalization, less health distress, and more exercise, effects since confirmed by a 23-study meta-analysis (Brady et al., 2013). The problem is reach: fewer than 500,000 Americans have completed a structured program in 15 years, against 194 million adults with at least one chronic condition. Online delivery produced comparable results to in-person groups, which suggests your Agent can approximate the structure --- though not a room full of people who know what a bad day actually feels like.[^h5-2]
 
 ::: fairness
 When patients skip medications, the medical system calls it "non-adherence." In 1.3 million cases, it is insulin rationing --- skipping doses, using less than prescribed, or delaying refills to afford them. The rate reaches 29% among the uninsured and 23% among Black adults. Non-adherence, of which cost is a leading driver, is implicated in an estimated 125,000 preventable deaths annually. When the barrier is the price, the failure is the system, not the patient. Ask your Agent: _"Are there patient assistance programs, generics, or manufacturer coupons for [my medication]?"_[^h5-3]
 :::
 
+
+[^h5-1]: Charmaz, K. (1991). _[Good Days, Bad Days: The Self in Chronic Illness and Time.](https://www.rutgersuniversitypress.org/good-days-bad-days/9780813519678)_ Rutgers University Press.
+
+[^h5-2]: Lorig, K.R. et al. (1999). ["Evidence suggesting that a chronic disease self-management program can improve health status while reducing hospitalization."](https://pubmed.ncbi.nlm.nih.gov/10413387/) _Medical Care_, 37(1), 5–14. Brady, T.J. et al. (2013). ["A Meta-Analysis of Health Status, Health Behaviors, and Health Care Utilization Outcomes of the Chronic Disease Self-Management Program."](https://pmc.ncbi.nlm.nih.gov/articles/PMC3547675/) _Preventing Chronic Disease_, 10:E07. Lorig, K.R. et al. (2006). ["Internet-based chronic disease self-management: a randomized trial."](https://pubmed.ncbi.nlm.nih.gov/17063127/) _Medical Care_, 44(11), 964–971.
 
 [^h5-3]: Gaffney, A., Himmelstein, D.U., & Woolhandler, S. (2022). ["Prevalence and Correlates of Patient Rationing of Insulin in the United States."](https://doi.org/10.7326/M22-2477) _Annals of Internal Medicine_, 175(11), 1623–1626. See also Fang, M. & Selvin, E. (2023). ["Cost-Related Insulin Rationing in US Adults Younger Than 65 Years With Diabetes."](https://jamanetwork.com/journals/jama/fullarticle/2803263) _JAMA_, 329(19), 1700–1702. CDC/NCHS [Data Brief No. 470](https://www.cdc.gov/nchs/products/databriefs/db470.htm) (2023). "Characteristics of Adults Aged 18–64 Who Did Not Take Medication as Prescribed Due to Cost." On deaths attributable to non-adherence, see Osterberg, L. & Blaschke, T. (2005). ["Adherence to Medication."](https://www.nejm.org/doi/full/10.1056/NEJMra050100) _NEJM_, 353(5), 487–497.
 
@@ -252,6 +241,11 @@ Please explain:
    --- especially penalties for missing them
 Give me the most conservative, accurate answer --- enrollment mistakes can be permanent.
 :::
+
+::: also
+Free, unbiased Medicare counseling is available in every state through the [State Health Insurance Assistance Program (SHIP)](https://www.shiphelp.org/) --- a federally funded network that helps beneficiaries compare plans, challenge denials, and untangle dual-eligibility paperwork. About 12.8 million Americans now qualify for both Medicare and Medicaid.[^h6-5] Call **1-877-839-2675** to reach your local SHIP, or search by ZIP code at shiphelp.org. SHIP counselors are trained, unpaid by plans, and have no financial interest in what you choose --- unlike the licensed agents behind most Medicare television ads.
+:::
+
 *What to do with the Output:* Circle the deadlines. Medicare enrollment penalties are permanent --- missing the initial enrollment period for Part B means a 10% premium increase for every 12-month period you delayed, for the rest of your life. This is the kind of structural penalty that rewards people who already understand the system. For Medicaid, long-term care, and dual eligibility, see H-6b.
 
 ::: science
@@ -261,11 +255,6 @@ The Medicare Part D "donut hole" --- the coverage gap where beneficiaries paid a
 
 ::: science
 As of 2025, 54% of Medicare beneficiaries --- 34.1 million people --- are enrolled in Medicare Advantage plans; the Congressional Budget Office projects 64% by 2034.[^h6-2] The trade-off is routinely understated in marketing. In 2024, Medicare Advantage insurers processed 53 million prior authorization requests and denied 4.1 million of them (7.7%); UnitedHealth Group, the largest MA insurer, denied 12.8%. Only 11.5% of denials were appealed --- though 80.7% of those appeals were overturned, which suggests most denials are not defensible, but do not have to be.[^h6-3] And the well-marketed fallback of "you can always switch back" is state-dependent. Only four states (Connecticut, Maine, Massachusetts, New York) guarantee Medigap issuance year-round to all beneficiaries 65 and older; in the other 46 states and D.C., a beneficiary who leaves Medicare Advantage for Original Medicare after the first-year trial period can be denied supplemental Medigap coverage on the basis of the very conditions that made them want to leave.[^h6-4] Choose on the 10-year horizon, not the welcome-call pitch.
-:::
-
-
-::: also
-Free, unbiased Medicare counseling is available in every state through the [State Health Insurance Assistance Program (SHIP)](https://www.shiphelp.org/) --- a federally funded network that helps beneficiaries compare plans, challenge denials, and untangle dual-eligibility paperwork. About 12.8 million Americans now qualify for both Medicare and Medicaid.[^h6-5] Call **1-877-839-2675** to reach your local SHIP, or search by ZIP code at shiphelp.org. SHIP counselors are trained, unpaid by plans, and have no financial interest in what you choose --- unlike the licensed agents behind most Medicare television ads.
 :::
 
 [^h6-1]: Kaiser Family Foundation, ["An Overview of the Medicare Part D Prescription Drug Benefit."](https://www.kff.org/medicare/a-current-snapshot-of-the-medicare-part-d-prescription-drug-benefit/) See also [Inflation Reduction Act of 2022, Section 11201](https://www.congress.gov/bill/117th-congress/house-bill/5376).
@@ -303,12 +292,12 @@ Please explain:
 Give me the most conservative, accurate answer --- Medicaid rules vary by state
 and mistakes can cost years of eligibility.
 :::
-*What to do with the Output:* Verify the state-specific details directly with your state Medicaid office or a certified application counselor --- rules change annually and your Agent's training data may lag. If long-term care is involved, consult an elder law attorney before transferring any assets; the 60-month look-back is unforgiving.
 
 ::: fairness
 The One Big Beautiful Bill Act (signed July 2025) requires expansion-population adults ages 19–64 to document 80 hours per month of work activity or qualify for an exemption --- verified every six months, not annually. If you or a family member is on Medicaid, ask your Agent: _"What are the work requirement exemptions in [my state], and what documentation do I need to stay enrolled?"_ The rules vary by state. The deadlines do not forgive confusion.[^h6b-1]
 :::
 
+*What to do with the Output:* Verify the state-specific details directly with your state Medicaid office or a certified application counselor --- rules change annually and your Agent's training data may lag. If long-term care is involved, consult an elder law attorney before transferring any assets; the 60-month look-back is unforgiving.
 
 ::: science
 The confusion shapes retirement planning in a way the research documents as consequential: families spend working lives contributing to Medicare, assume it includes long-term care, and discover at the moment of crisis that it does not. Medicaid is the safety net --- but qualifying for long-term care coverage requires a spend-down to near-zero assets that cannot be planned in advance unless the rules are understood years before they apply. See Li-4.[^h6b-2]
@@ -319,10 +308,7 @@ The confusion shapes retirement planning in a way the research documents as cons
 The median American household ages 55–64 holds $185,000 in retirement savings[^h6b-3] against a semi-private nursing-home bill that, in 2024, averaged $111,325 a year.[^h6b-4] That is roughly 20 months of care before the money is gone. Medicaid covers long-term care after a spend-down: in most states, the nursing-home resident must be reduced to $2,000 in countable assets before qualifying, with a 60-month look-back on any transfers made in advance. Community spouses may retain significantly more under federal protections, but the rules are state-specific and unforgiving of error. This is the math no one teaches before a parent is admitted.
 :::
 
-
-::: also
-For World War II–era veterans --- and for those who served in Korea, Vietnam, the Gulf War, or the post-9/11 period --- VA pension _with Aid and Attendance_ pays a Maximum Annual Pension Rate of up to $2,358 per month in 2025 for a single veteran, $2,795 for a married veteran, and $1,515 for a surviving spouse (figures are the MAPR inclusive of the Aid and Attendance increase, not a separate payment on top), to cover long-term care at home or in a facility.[^h6b-5] The benefit requires 90+ days of active duty with at least one day during a congressionally recognized wartime period, and application is via VA Form 21-2680 (plus 21-0779 for nursing-home residents). Ask your Agent: _"My [parent / grandparent / I] served in [branch, years, including any wartime dates]. What VA pension and long-term care benefits apply, and what forms, income documentation, and service records do we need?"_
-:::
+*Veterans note:* For World War II–era veterans --- and for those who served in Korea, Vietnam, the Gulf War, or the post-9/11 period --- VA pension _with Aid and Attendance_ pays a Maximum Annual Pension Rate of up to $2,358 per month in 2025 for a single veteran, $2,795 for a married veteran, and $1,515 for a surviving spouse (figures are the MAPR inclusive of the Aid and Attendance increase, not a separate payment on top), to cover long-term care at home or in a facility.[^h6b-5] The benefit requires 90+ days of active duty with at least one day during a congressionally recognized wartime period, and application is via VA Form 21-2680 (plus 21-0779 for nursing-home residents). Ask your Agent: _"My [parent / grandparent / I] served in [branch, years, including any wartime dates]. What VA pension and long-term care benefits apply, and what forms, income documentation, and service records do we need?"_
 
 [^h6b-1]: Congressional Budget Office (2025). [Cost estimate, One Big Beautiful Bill Act](https://www.cbo.gov/publication/61461), Medicaid provisions. See also KFF, ["A Closer Look at the Work Requirement Provisions in the 2025 Federal Budget Reconciliation Law."](https://www.kff.org/medicaid/a-closer-look-at-the-work-requirement-provisions-in-the-2025-federal-budget-reconciliation-law/)
 
@@ -372,6 +358,7 @@ _For the family meeting:_ _"My [siblings / other close family] and I need to coo
 Roughly 36.7% of US adults have completed any type of advance directive; 29.3% have a living will.[^h7-2] Black and Hispanic Americans are about half as likely as non-Hispanic White Americans to have one --- a disparity that researchers trace both to different cultural frameworks around family, death, and spiritual preparation and to well-founded distrust of a medical system with a documented history of abuse, from Tuskegee and Henrietta Lacks to the maternal-mortality disparities that persist today.[^h7-3] The Western palliative model --- autonomy, pain control, acceptance --- is one tradition's picture of a "good death," not a universal one. Many Middle Eastern, Asian, Indigenous, Southern European, and religious traditions center family-directed decision-making or spiritual preparation that the Western legal form does not accommodate.[^h7-4] An advance directive can be written to reflect any of these, but the conversation that precedes it has to start on the family's ground, not the hospital's. Ask your Agent: _"In [my culture / religious tradition / family], what does a good death look like, what conversations usually happen and by whom, and how should I approach [parent / family member] in a way that matches that framework?"_
 :::
 
+Not every family gets a clean opening to have this conversation --- sometimes there is no denial or taboo to overcome, just a person who is still there, but not entirely themselves anymore.
 
 ::: science
 Pauline Boss, who coined the term in the 1970s, describes _ambiguous loss_ as grief without resolution: a family member who is physically present but cognitively absent, as in dementia, or physically absent with status unknown. It has no funeral, no socially recognized endpoint, and no cultural script --- the person is there and not there at the same time. Boss's work has been cited in the caregiving literature for a generation as among the most psychologically destabilizing experiences families endure, and naming the experience --- rather than treating it as a personal failing of grief --- is itself a form of relief.[^h7-5] Millions of US families currently live this pattern; for practical caregiving logistics, see Li-4. Ask your Agent: _"My [family member] has [dementia / another condition causing cognitive decline / an unresolved disappearance]. Help me understand what Boss calls ambiguous loss and find language for talking with the rest of my family about what we are actually going through."_
@@ -383,10 +370,7 @@ Five Wishes meets advance directive requirements in 46 states and D.C. Four stat
 :::
 
 
-::: also
-Honorably discharged veterans and their eligible family members qualify for burial in a [VA National Cemetery](https://www.cem.va.gov/) at no cost --- plot, interment, headstone or marker, and perpetual care included --- and a spouse or dependent child may be buried there even if they predecease the veteran, with their name inscribed on the shared headstone. Surviving families may request _military funeral honors_ (two-person detail, flag presentation, Taps) through the funeral home or the National Cemetery Scheduling Office at 1-800-535-1117. VA burial allowance is $1,002 each for burial and plot for deaths on or after 1 October 2025 ($978 and $978 for the prior fiscal year), with higher amounts for service-connected deaths; apply via [VA Form 21P-530EZ](https://www.va.gov/find-forms/about-form-21p-530ez/). Surviving spouses and dependent children of wartime-era veterans may also qualify for VA Dependency and Indemnity Compensation (DIC) or pension.[^h7-6]
-:::
-
+*Veterans note:* Honorably discharged veterans and their eligible family members qualify for burial in a [VA National Cemetery](https://www.cem.va.gov/) at no cost --- plot, interment, headstone or marker, and perpetual care included --- and a spouse or dependent child may be buried there even if they predecease the veteran, with their name inscribed on the shared headstone. Surviving families may request _military funeral honors_ (two-person detail, flag presentation, Taps) through the funeral home or the National Cemetery Scheduling Office at 1-800-535-1117. VA burial allowance is $1,002 each for burial and plot for deaths on or after 1 October 2025 ($978 and $978 for the prior fiscal year), with higher amounts for service-connected deaths; apply via [VA Form 21P-530EZ](https://www.va.gov/find-forms/about-form-21p-530ez/). Surviving spouses and dependent children of wartime-era veterans may also qualify for VA Dependency and Indemnity Compensation (DIC) or pension.[^h7-6]
 
 [^h7-1]: [CaringInfo](https://www.caringinfo.org/planning/advance-directives/by-state/) (National Hospice and Palliative Care Organization). [National POLST](https://polst.org/polst-and-advance-directives/). [Five Wishes state requirements](https://www.fivewishes.org/states/).
 
@@ -662,32 +646,24 @@ Please help me understand and/or act:
 7. What to do right now --- tonight --- if this is urgent
 I will verify treatment recommendations with a medical professional.
 :::
-*What to do with the Output:* If you're looking for treatment, start with [findtreatment.gov](https://findtreatment.gov) and use the red-flag checklist to screen facilities. If this is for someone you care about, the output is also preparation for the conversation with them --- see Li-1.
+*What to do with the Output:* If you're looking for treatment, start with [findtreatment.gov](https://findtreatment.gov) --- SAMHSA's locator lets you search by substance, location, insurance, and treatment type --- and use the red-flag checklist to screen facilities. If this is for someone you care about, the output is also preparation for the conversation with them --- see Li-1.
 
-::: science
-*Tolerance* means your body adapts to a substance so you need more for the same effect. *Physical dependence* means your body has adapted so that stopping causes withdrawal symptoms. *Addiction* (substance use disorder) means compulsive use despite negative consequences, driven by changes in the brain's reward and decision-making circuits. You can be physically dependent without being addicted — every coffee drinker who gets a headache without caffeine is dependent. And you can be addicted without physical dependence. Genetic factors account for roughly 40–60% of addiction vulnerability, which is why some people can use a substance casually and others cannot. The three concepts are related but not the same.[^h13-1]
-:::
-
+*Science Note:* Tolerance means your body adapts to a substance so you need more for the same effect. Physical dependence means your body has adapted so that stopping causes withdrawal symptoms. Addiction (substance use disorder) means compulsive use despite negative consequences, driven by changes in the brain's reward and decision-making circuits. You can be physically dependent without being addicted, and addicted without physical dependence. Genetic factors account for roughly 40–60% of addiction vulnerability, which is why some people can use a substance casually and others cannot.[^h13-1]
 
 ::: tip
 Alcohol and benzodiazepine withdrawal can cause fatal seizures — they are among the only drugs where stopping abruptly can kill you. Opioid withdrawal is miserable but rarely lethal. If someone you know wants to stop using alcohol or benzodiazepines after heavy daily use, they need medical supervision. Do not let them quit cold turkey.
 :::
 
 
-[^h13-1]: Koob, G.F. & Volkow, N.D. (2016). ["Neurobiology of Addiction: A Neurocircuitry Analysis."](https://doi.org/10.1016/S2215-0366(16)00104-8) _The Lancet Psychiatry_, 3(8), 760–773.
-
 ::: science
 Medication-assisted treatment (MAT) --- using medications like buprenorphine (Suboxone), methadone, or naltrexone alongside counseling --- is the evidence-based standard of care for opioid use disorder. Studies show MAT reduces overdose death by 50% or more.[^h13-2] Despite this, many treatment facilities do not offer it, and some actively discourage it. If a facility tells you medication is "replacing one addiction with another," that is a red flag, not a treatment philosophy.
 :::
 
+*Veterans note:* [Vet Centers](https://www.vetcenter.va.gov/) offer free, confidential counseling in community-based settings separate from VA medical centers --- for combat veterans, military sexual trauma (MST) survivors, and their families. Walk-ins are welcome at most of the 300+ locations; call 1-877-927-8387 for the nearest center. VA Substance Use Disorder (SUD) treatment integrates addiction care with mental health services (PTSD, TBI, depression) --- a structural advantage over civilian pathways, where these are often treated separately. Active-duty service members can access confidential support through [Military OneSource](https://www.militaryonesource.mil/) (800-342-9647), which remains available for 365 days after separation.
+
+[^h13-1]: Koob, G.F. & Volkow, N.D. (2016). ["Neurobiology of Addiction: A Neurocircuitry Analysis."](https://doi.org/10.1016/S2215-0366(16)00104-8) _The Lancet Psychiatry_, 3(8), 760–773.
 
 [^h13-2]: Wakeman, S.E. et al. (2020). ["Comparative Effectiveness of Different Treatment Pathways for Opioid Use Disorder."](https://doi.org/10.1001/jamanetworkopen.2019.20622) _JAMA Network Open_, 3(2), e1920622.
-
-::: also
-[SAMHSA's treatment locator](https://findtreatment.gov) lets you search by substance, location, insurance, and treatment type. It is the most reliable starting point.
-:::
-
-*Veterans note:* [Vet Centers](https://www.vetcenter.va.gov/) offer free, confidential counseling in community-based settings separate from VA medical centers --- for combat veterans, military sexual trauma (MST) survivors, and their families. Walk-ins are welcome at most of the 300+ locations; call 1-877-927-8387 for the nearest center. VA Substance Use Disorder (SUD) treatment integrates addiction care with mental health services (PTSD, TBI, depression) --- a structural advantage over civilian pathways, where these are often treated separately. Active-duty service members can access confidential support through [Military OneSource](https://www.militaryonesource.mil/) (800-342-9647), which remains available for 365 days after separation.
 
 ---
 
@@ -909,10 +885,18 @@ of imminent harm, say so clearly.
 :::
 *What to do with the Output:* You will not remember all of this in the moment. Save it somewhere you can reach in 60 seconds --- Notes app, a starred email to yourself, a named file your Agent can recall, or your phone's emergency-info card. The real-time version of you will not plan; the calmer version already has.
 
-::: science
-Mental Health First Aid's action plan is ALGEE: *A*ssess for risk of suicide or harm, *L*isten non-judgmentally, *G*ive reassurance and information, *E*ncourage appropriate professional help, and *E*ncourage self-help and other support strategies. It is an evidence-based curriculum; trained MHFA responders show improved recognition of crisis symptoms, higher confidence in assisting someone in distress, and documented application of the framework in real helping situations. The steps are flexible rather than strictly sequential --- a skilled first aider reads the moment.[^h18-2] One under-appreciated finding: asking direct questions ("Are you thinking about suicide?") does *not* plant the idea. A 30-plus-year evidence base shows such questions reduce risk by naming what the person is already thinking.[^h18-3]
+::: also
+Specialized crisis lines, for the contact-information card you save in your phone:
+
+- **988 Suicide and Crisis Lifeline**: call, text, or chat. For veterans, dial *988* and press *1*, or text *838255* --- see [988lifeline.org](https://988lifeline.org/).
+- **Crisis Text Line**: text *HOME* to *741741* ([crisistextline.org](https://www.crisistextline.org/)).
+- **The Trevor Project** (LGBTQ+ youth, 24/7): *1-866-488-7386*, or text *START* to *678678* ([thetrevorproject.org](https://www.thetrevorproject.org/)).
+- **Trans Lifeline** (peer-run, by and for trans and questioning people): *1-877-565-8860* ([translifeline.org](https://translifeline.org/)).
+- **SAMHSA National Helpline** (substance use, 24/7 bilingual): *1-800-662-4357* (see H-13).
+- **Your local mobile crisis team**: look it up before you need it. Save the number in your phone.
 :::
 
+*Science Note:* Mental Health First Aid's action plan is ALGEE --- Assess for risk of suicide or harm, Listen non-judgmentally, Give reassurance and information, Encourage appropriate professional help, and Encourage self-help and other support strategies --- an evidence-based curriculum shown to improve responders' recognition of crisis symptoms and confidence in helping someone in distress; the steps are flexible rather than strictly sequential.[^h18-2] One under-appreciated finding: asking direct questions such as "Are you thinking about suicide?" does not plant the idea --- a 30-plus-year evidence base shows such questions reduce risk by naming what the person is already thinking.[^h18-3]
 
 ::: fairness
 Calling 911 for a mental-health crisis summons police by default. In jurisdictions that have fielded civilian mobile crisis response --- Eugene's CAHOOTS program since 1989, Albuquerque, and more than 100 U.S. jurisdictions in the last five years --- roughly 1% of mental-health calls end up requiring police backup; a 2020 review of 911 data in eight major cities estimated that up to 68% of all calls could be handled without an armed officer.[^h18-4] Some 988 centers now dispatch mobile crisis teams directly; some cities have stand-alone civilian dispatch via 911; most jurisdictions have neither. The reader's first research task, *before* the crisis, is to find out what their city does. Ask your Agent: _"What crisis response options exist in [my city/county]? Does 988 dispatch a mobile team here? Does 911 offer co-responder or civilian-only alternatives? What number do I call for a non-emergency crisis?"_
@@ -927,18 +911,6 @@ _Safe-messaging essentials_ (American Foundation for Suicide Prevention consensu
 - Do not frame suicide as caused by a single event (job loss, breakup); the research finds multiple contributing factors.
 - Do emphasize that help is available and that recovery is possible.
 - Do provide the 988 number every time the topic comes up.[^h18-5]
-:::
-
-
-::: also
-Specialized crisis lines, for the contact-information card you save in your phone:
-
-- **988 Suicide and Crisis Lifeline**: call, text, or chat. For veterans, dial *988* and press *1*, or text *838255* --- see [988lifeline.org](https://988lifeline.org/).
-- **Crisis Text Line**: text *HOME* to *741741* ([crisistextline.org](https://www.crisistextline.org/)).
-- **The Trevor Project** (LGBTQ+ youth, 24/7): *1-866-488-7386*, or text *START* to *678678* ([thetrevorproject.org](https://www.thetrevorproject.org/)).
-- **Trans Lifeline** (peer-run, by and for trans and questioning people): *1-877-565-8860* ([translifeline.org](https://translifeline.org/)).
-- **SAMHSA National Helpline** (substance use, 24/7 bilingual): *1-800-662-4357* (see H-13).
-- **Your local mobile crisis team**: look it up before you need it. Save the number in your phone.
 :::
 
 
