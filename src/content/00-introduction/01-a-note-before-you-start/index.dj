@@ -3,7 +3,7 @@ title: "A Note Before You Start"
 part: 0
 order: 1
 strategy: null
-status: "final"
+status: "draft"
 ---
 [spongebob-confused]{.art}
 
@@ -132,7 +132,7 @@ The hardest sentence to type is "I don't understand this." Type it anyway. That 
 
 AI tools work in most languages. This is enormous and almost never mentioned.
 
-If your first language is not English but the document is in English, you can ask your Agent to explain the document in your language. "Explica esta factura médica en español" is a valid spec for an English-language EOB. "이 임대 계약서를 한국어로 설명해주세요" works for a lease. "Объясните это письмо об отказе на русском языке" works for a denial letter.
+If your first language is not English but the document is in English, you can ask your Agent to explain the document in your language. "[Explica esta factura médica en español]{lang=es}" is a valid spec for an English-language EOB. "[이 임대 계약서를 한국어로 설명해주세요]{lang=ko}" works for a lease. "[Объясните это письмо об отказе на русском языке]{lang=ru}" works for a denial letter.
 
 Your Agent will read the English document and respond in your language. It will translate the jargon and the legal terms and the institutional euphemisms into plain language — in the language you think in. You do not have to understand English legal terminology to understand your rights. You have to understand your rights.
 

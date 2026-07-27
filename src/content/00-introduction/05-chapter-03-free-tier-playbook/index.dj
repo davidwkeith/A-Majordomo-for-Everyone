@@ -3,7 +3,7 @@ title: "The Free Tier Playbook"
 part: 0
 order: 5
 strategy: null
-status: "final"
+status: "draft"
 ---
 
 ## Chapter 3: The Free Tier Playbook
@@ -65,7 +65,7 @@ Every major AI tool has a way to create a persistent context — a named space w
 For this book, the most useful application is a household context. You tell it: who lives in your home, what your health situation is, what your current ongoing issues are (the landlord dispute, the insurance claim, the renovation). From that point on, every relevant conversation in that context starts from an informed position instead of a blank one.
 
 ::: also
-Claude calls this a *Project*. Gemini calls it a *Gem*. ChatGPT calls it a *custom GPT* — but creating one now requires ChatGPT Plus; free ChatGPT users get the same effect with *Custom Instructions* plus *Memory* instead. Copilot's equivalent is more limited. The setup process differs slightly across tools but the concept is identical. See [Appendix G](06-appendix-g-feature-table.xhtml) for the full comparison and setup guidance.
+Claude calls this a *Project*, Gemini a *Gem*, ChatGPT a *custom GPT* (Plus required; free users get the same effect from Custom Instructions plus Memory). Copilot's equivalent is more limited. See [Appendix G](06-appendix-g-feature-table.xhtml) for the full comparison.
 :::
 
 

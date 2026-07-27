@@ -3,7 +3,7 @@ title: "How to Ask for What You Actually Want"
 part: 0
 order: 6
 strategy: null
-status: "final"
+status: "draft"
 ---
 
 ## Chapter 4: How to Ask for What You Actually Want
@@ -145,7 +145,7 @@ This also makes it easier to catch mistakes. If the Agent gets Part 1 wrong, you
 Your Agent remembers everything within a single conversation but nothing between conversations by default. Long conversations drift. After enough back-and-forth, your Agent starts to lose the thread — it gives vaguer answers, forgets details you mentioned earlier, or repeats itself. This is not a defect. Every conversation has a limited [working memory]{.gloss def="Technically the context window: the fixed amount of text your Agent can consider at once — Appendix J explains how it works."}, and eventually you fill it up.
 
 ::: also
-Claude calls persistent cross-conversation memory simply "Memory" — it can be enabled in settings and will carry facts about you from session to session. Gemini calls this "Personalization." ChatGPT calls it "Memory." All three work similarly: the tool builds a profile of your situation over time so you don't have to re-explain it. This is different from Projects / Gems / Custom GPTs, which are manually configured contexts. See [Appendix G](06-appendix-g-feature-table.xhtml).
+Claude and ChatGPT call persistent cross-conversation memory "Memory"; Gemini calls it "Personalization." Enable it in settings and the tool builds a profile of your situation over time — different from Projects/Gems/Custom GPTs, which are manually configured. See [Appendix G](06-appendix-g-feature-table.xhtml).
 :::
 
 *Signs it is time to start fresh:* The Agent contradicts something it said earlier. It gives a generic answer to a specific question. It stops referencing the details you provided at the beginning. It starts hedging more than it did at the start.
@@ -155,7 +155,7 @@ Claude calls persistent cross-conversation memory simply "Memory" — it can be 
 If you are working through a complex problem over multiple sessions, start each new session with a one-paragraph summary of where you left off. Think of it like clearing a cluttered desk — the papers are filed, not thrown away.
 
 ::: also
-For ongoing household projects — managing a renovation, tracking a medical situation, handling a long legal dispute — Claude's *Projects* feature lets you store background documents and instructions that persist across every conversation in that project. Gemini's equivalent is a *Gem*. ChatGPT's equivalent is a *custom GPT*, though creating one now requires ChatGPT Plus — free users get most of the same benefit from Custom Instructions plus Memory. Setting one up for your household is the most useful single thing you can do with any of these tools. Chapter 3: The Free Tier Playbook explains how.
+For ongoing projects — a renovation, a medical situation, a long legal dispute — Claude's *Projects* (Gemini's *Gem*, ChatGPT's *custom GPT*) stores background documents and instructions that persist across every conversation. Chapter 3: The Free Tier Playbook explains how to set one up.
 :::
 
 
