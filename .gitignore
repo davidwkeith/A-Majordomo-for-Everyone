@@ -4,7 +4,8 @@ dist/
 *.tgz
 .env
 .venv/
-.claude/
+.claude/*
+!.claude/skills/
 .djot-preview/
 .nova/
 .wrangler/
