@@ -3,7 +3,7 @@ title: "IRL Interactions"
 part: 2
 order: 9
 strategy: null
-status: "final"
+status: "draft"
 ---
 
 ### In Real Life Interactions
@@ -77,12 +77,13 @@ Please help me:
 4. Tell me what to do if the call doesn't resolve it —
    next steps including regulatory complaints and dispute options
 :::
-*What to do with the Output:* Call, don't chat. Phone representatives have more authority than chat agents. Be polite, be specific, be documented. Write down the representative's name and the call reference number. If the first call doesn't resolve it, ask your Agent to draft a written complaint — the paper trail is what makes the second call work.
 
 ::: tip
 _"I've been on hold for 30 minutes with [company]. While I wait, help me draft the most effective opening statement for when someone picks up. I have [issue] and I want [outcome]."_
 :::
 
+
+*What to do with the Output:* Call, don't chat. Phone representatives have more authority than chat agents. Be polite, be specific, be documented. Write down the representative's name and the call reference number. If the first call doesn't resolve it, ask your Agent to draft a written complaint — the paper trail is what makes the second call work.
 
 ::: meme
 [Seinfeld:S3E3 "The Pen"](https://en.wikipedia.org/wiki/The%5FPen%5F(Seinfeld)), 1991 — Jerry can't say no to a pen he doesn't want, triggering an escalating social debt. Customer service works the same way in reverse: you can't get what you're owed because each representative passes you to the next. The system assumes you will give up. Do not give up. The system is testing your resolve, not your case.
@@ -165,12 +166,12 @@ Please help me:
    without bluffing?
 :::
 
-*What to do with the Output:* Practice the opening line out loud. It sounds ridiculous and it works. The reason negotiation feels unnatural is that you haven't rehearsed. The car salesperson has done this eight times today. You've done it zero times this year. Reading the script once closes most of that gap. Print the counter-arguments. Bring them.
-
 ::: science
 Galinsky and Mussweiler (2001) demonstrated that the first number spoken in a negotiation anchors the entire outcome. The party who names a price first sets the range. Your Agent can tell you what that number should be — and whether you should be the one to say it.[^irl4-1]
 :::
 
+
+*What to do with the Output:* Practice the opening line out loud. It sounds ridiculous and it works. The reason negotiation feels unnatural is that you haven't rehearsed. The car salesperson has done this eight times today. You've done it zero times this year. Reading the script once closes most of that gap. Print the counter-arguments. Bring them.
 
 ::: tip
 Medical bills are negotiable. Hospitals have charity care policies they are legally required to maintain (for nonprofit hospitals) and financially motivated to offer (for all hospitals, because some payment beats collections). Ask your Agent: _"This hospital billed me [amount] for [procedure]. I [have / don't have] insurance. What are my options for reducing this bill?"_ The answer will surprise you.
@@ -213,22 +214,15 @@ After 3--4 exchanges, stop and tell me:
 2. Where I lost ground or could be clearer
 3. The one thing to change before I try it for real
 :::
-*What to do with the Output:* Use voice mode for this. Open your Agent's mobile app, switch to voice, and talk. Reading a script silently is preparation. Saying the words to someone who talks back is rehearsal. They are not the same thing. The first time you say "I need to speak with a supervisor" out loud to something that responds like a bored customer service representative, you will hear how you sound. That is the point. Run it two or three times. Each round, your Agent will adjust --- harder pushback, different deflections. When you can handle the third round without freezing, you're ready. After the real conversation, come back: _"Here's how it went: [describe]. What should I do differently next time?"_
 
 ::: tip
 _"I'm about to call [company] and I'm nervous. Can you play the customer service rep? I'll practice my opening and you give me realistic pushback. Go."_ --- You can do this in a parking lot, five minutes before you walk in.
 :::
 
 
-::: also
-Voice mode is available on all major AI tools' mobile apps. See [Appendix G](06-appendix-g-feature-table.xhtml). For this Skill, voice is not a convenience feature. It is the exercise.
-:::
+*What to do with the Output:* Use voice mode for this. Open your Agent's mobile app, switch to voice, and talk. Voice mode is available on all major AI tools' mobile apps (see [Appendix G](06-appendix-g-feature-table.xhtml)) --- for this Skill, it is not a convenience feature, it is the exercise. Reading a script silently is preparation. Saying the words to someone who talks back is rehearsal. They are not the same thing. The first time you say "I need to speak with a supervisor" out loud to something that responds like a bored customer service representative, you will hear how you sound. That is the point. Run it two or three times. Each round, your Agent will adjust --- harder pushback, different deflections. When you can handle the third round without freezing, you're ready. After the real conversation, come back: _"Here's how it went: [describe]. What should I do differently next time?"_
 
-
-::: science
-Pham and Taylor (1999) found that mentally rehearsing the _process_ of a task --- the steps, the responses, the decision points --- outperformed visualizing a successful outcome by a significant margin. The benefit was not confidence. It was reduced anxiety and better adaptive responses when the situation deviated from the plan.[^irl5-1]
-:::
-
+*Science Note:* Pham and Taylor (1999) found that mentally rehearsing the _process_ of a task --- the steps, the responses, the decision points --- outperformed visualizing a successful outcome by a significant margin; the benefit was reduced anxiety and better adaptive responses when the situation deviated from the plan, not increased confidence.[^irl5-1]
 
 ::: meme
 [Seinfeld:S8E13 "The Comeback"](https://en.wikipedia.org/wiki/The_Comeback_(Seinfeld)), 1997 --- George spends an entire week rehearsing the perfect comeback to an insult, arranges an elaborate situation to deliver it, and gets immediately hit with a better one. The lesson is not that rehearsal is pointless. The lesson is that rehearsing one fixed line is brittle. Rehearsing _the conversation_ --- including the part where it goes sideways --- is what works.
@@ -276,15 +270,15 @@ Give me the most conservative, medically accurate answer.
 I will verify with my care team.
 :::
 
+::: science
+Research on patient safety consistently finds that engaged patients and family advocates catch errors that clinical staff miss --- medication discrepancies, miscommunications between care teams, symptoms that change between rounds. You don't need a professional advocate. You need someone who knows what questions to ask. Your Agent provides the questions. You or your person provides the presence.[^irl6-1]
+:::
+
+
 *What to do with the Output:* Print it. Bring it. Hospitals are loud, exhausting, and disorienting. You will not remember what your Agent told you at 2 a.m. when the hospitalist asks whether you want to proceed. A printed list in your bag is worth more than a memorized briefing. If you're the advocate for someone else, this is your script.
 
 ::: tip
 Ask your Agent: _"What is the difference between 'observation status' and 'admitted' at a hospital? Why does it matter for my insurance?"_ The answer affects whether Medicare or your insurer covers the stay. Observation status can leave you with the full bill. Hospitals are not required to tell you which one you're on.
-:::
-
-
-::: science
-Research on patient safety consistently finds that engaged patients and family advocates catch errors that clinical staff miss --- medication discrepancies, miscommunications between care teams, symptoms that change between rounds. You don't need a professional advocate. You need someone who knows what questions to ask. Your Agent provides the questions. You or your person provides the presence.[^irl6-1]
 :::
 
 
@@ -324,12 +318,12 @@ Please help me:
 5. Is this a repair I should get a second opinion on?
 :::
 
-*What to do with the Output:* Get the diagnosis first. Most reputable mechanics will diagnose for free or for a nominal fee. Get the diagnosis in writing before you authorize the repair. Then ask your Agent to evaluate it. The conversation you want with the mechanic is: "I understand this is the issue. I've looked up the fair price. Let's talk about the work." That's a different conversation than "I don't know what's wrong with it. Fix it."
-
 ::: meme
 [Home Improvement:S1E1 "Pilot"](https://en.wikipedia.org/wiki/Home%5FImprovement%5Fseason%5F1), 1991 — Tim Taylor's entire arc is a man who would rather attempt the repair himself than admit he doesn't understand the repair. The show ran eight seasons on this premise. Do not be Tim Taylor. Know enough to have the conversation. Then let the professional do the work.
 :::
 
+
+*What to do with the Output:* Get the diagnosis first. Most reputable mechanics will diagnose for free or for a nominal fee. Get the diagnosis in writing before you authorize the repair. Then ask your Agent to evaluate it. The conversation you want with the mechanic is: "I understand this is the issue. I've looked up the fair price. Let's talk about the work." That's a different conversation than "I don't know what's wrong with it. Fix it."
 
 ::: tip
 _"The mechanic says I need [repair] and quoted me [amount]. My car is a [year/make/model]. Is that a fair price? Is this urgent or can it wait until next month?"_ — Ask this before you authorize anything. Two minutes of preparation can save hundreds of dollars.
@@ -374,8 +368,6 @@ Please help me:
    I should push back on?
 :::
 
-*What to do with the Output:* Bring notes. Take notes. The single most important thing you can do in a parent-teacher conference is write down what was agreed to and email a summary afterward: "Thank you for meeting today. Here's my understanding of what we discussed and the next steps." That email is a record. If the school doesn't respond to correct it, it stands.
-
 ::: science
 Under IDEA (Individuals with Disabilities Education Act), parents are equal members of the IEP team. The school cannot change an IEP without parental consent. Parents have the right to request an IEE (Independent Educational Evaluation) at public expense if they disagree with the school's assessment. Most parents don't know either of these facts.[^irl8-1]
 :::
@@ -385,6 +377,8 @@ Under IDEA (Individuals with Disabilities Education Act), parents are equal memb
 _"The school wants to remove an accommodation from my child's 504 plan. What are my rights? What should I say in the meeting? What should I put in writing?"_ — Your Agent knows the federal framework. Your school may not volunteer it.
 :::
 
+
+*What to do with the Output:* Bring notes. Take notes. The single most important thing you can do in a parent-teacher conference is write down what was agreed to and email a summary afterward: "Thank you for meeting today. Here's my understanding of what we discussed and the next steps." That email is a record. If the school doesn't respond to correct it, it stands.
 
 ::: fairness
 Parents who speak the school's language — literally and figuratively — get better outcomes for their kids. Schools with higher-income populations have more parent engagement infrastructure. Schools with lower-income populations have larger class sizes and fewer counselors. If English is not your first language, you have the legal right to an interpreter at IEP meetings. Ask your Agent to draft the request.
@@ -429,12 +423,12 @@ Please help me:
 Give me the most conservative, legally accurate answer.
 :::
 
-*What to do with the Output:* Do not say "I'm sorry" to the other driver. Do not say "it was my fault." Do not speculate about what happened. Exchange insurance information, take photos of everything (both cars, the scene, license plates, road conditions, traffic signs), and get the police report number. Then sit in your car and read what your Agent told you before you call your insurance company.
-
 ::: tip
 Save this spec on your phone now, before you need it. Change the situation details when the time comes. The moment after an accident is not the moment to learn what to do after an accident.
 :::
 
+
+*What to do with the Output:* Do not say "I'm sorry" to the other driver. Do not say "it was my fault." Do not speculate about what happened. Exchange insurance information, take photos of everything (both cars, the scene, license plates, road conditions, traffic signs), and get the police report number. Then sit in your car and read what your Agent told you before you call your insurance company.
 
 ::: meme
 [Seinfeld:S7E12 "The Caddy"](https://en.wikipedia.org/wiki/The%5FCaddy%5F(Seinfeld)), 1996 — Kramer and a car accident that spirals into an insurance catastrophe because nobody documented anything and everybody assumed. The episode is a comedy. Your insurance claim is not. Document everything.
@@ -527,12 +521,17 @@ Please help me:
    of leaving
 :::
 
-*What to do with the Output:* Rehearse out loud. Answers that exist only in your head sound different from answers you've said to a room. Practice with your Agent using voice mode if available — tell it to ask you the questions one at a time and give you honest feedback on your answers. Print the company research and your question list. Arrive 10 minutes early. Bring two copies of your resume, a pen, and a notebook. The follow-up email is the most overlooked part: send it the same day, reference something specific from the conversation, and keep it to three sentences.
-
 ::: science
 Meta-analyses of interview validity (Schmidt & Hunter, 1998; updated Sackett et al., 2022) consistently show that unstructured interviews are among the weakest predictors of job performance. Structured interviews — where every candidate gets the same questions — are significantly better. You cannot control which type you get. You can prepare for both. Your Agent helps you anticipate the structure and rehearse within it.[^irl11-1]
 :::
 
+
+::: tip
+Remember: the information asymmetry runs both directions. The company is evaluating you, but you are also evaluating them. _"What happened to the last person in this role?"_ tells you more than _"What does success look like in the first 90 days?"_ Ask your Agent to help you prepare questions that are genuinely evaluative, not performative.
+:::
+
+
+*What to do with the Output:* Rehearse out loud. Answers that exist only in your head sound different from answers you've said to a room. Practice with your Agent using voice mode if available — tell it to ask you the questions one at a time and give you honest feedback on your answers. Print the company research and your question list. Arrive 10 minutes early. Bring two copies of your resume, a pen, and a notebook. The follow-up email is the most overlooked part: send it the same day, reference something specific from the conversation, and keep it to three sentences.
 
 ::: tip
 _"I just left the interview. Here's what happened: [describe]. Help me draft a follow-up email that references [specific moment from the conversation] and reinforces that I'm the right fit for [specific aspect of the role]."_ — Do this in the parking lot. Two hours is the window.
@@ -541,11 +540,6 @@ _"I just left the interview. Here's what happened: [describe]. Help me draft a f
 
 ::: fairness
 Interview outcomes are shaped by bias — conscious and unconscious. Identical resumes with different names receive different callback rates. Candidates who "fit the culture" are often candidates who look like the existing team. Your Agent cannot change the interviewer's biases. It can ensure that the things within your control — preparation, answers, follow-up — are as strong as possible. The structural unfairness is real. So is your preparation.
-:::
-
-
-::: tip
-Remember: the information asymmetry runs both directions. The company is evaluating you, but you are also evaluating them. _"What happened to the last person in this role?"_ tells you more than _"What does success look like in the first 90 days?"_ Ask your Agent to help you prepare questions that are genuinely evaluative, not performative.
 :::
 
 
