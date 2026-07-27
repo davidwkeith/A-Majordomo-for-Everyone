@@ -3,7 +3,7 @@ title: "Life"
 part: 2
 order: 5
 strategy: null
-status: "final"
+status: "draft"
 ---
 
 ### Life
@@ -144,15 +144,17 @@ Please help me:
 _"My [parent] has [condition] and [Medicare/Medicaid/no insurance]. What is the single most important thing I should do this week that I am probably not doing?"_ — Start with the gap you don't know about.
 :::
 
-
 ::: fairness
 Eldercare resources vary enormously by state. Ask your Agent to be specific to your state and county. Federal programs are the floor, not the ceiling.
 :::
 
+Medicaid is the primary payer for long-term care in the United States, but qualifying requires near-poverty. The "spend-down" — depleting assets to meet eligibility thresholds — is the mechanism most families encounter. The five-year lookback period means gifts or transfers made within five years of application trigger penalties. The One Big Beautiful Bill Act (2025) added new constraints: a $1 million home equity cap for long-term care eligibility starting in 2028, retroactive coverage reduced from 90 to 30 days before application, and six-month eligibility reverification. Asset limits, exempt property, and spousal protections vary significantly by state — ask your Agent for the current rules in yours.[^li4-4]
 
 ::: science
 Over 53 million Americans are unpaid caregivers, spending an average of 24 or more hours per week on care --- an estimated $522 billion per year in unpaid labor.[^li4-1] About 61% of those caregivers are women. Caregiving is literally life-shortening: a classic analysis found caregiver mortality risk elevated by as much as 63% among strained spousal caregivers.[^li4-2] Meanwhile, the median cost of a private nursing home room is approximately $10,600 per month; a home health aide approximately $6,500 per month.[^li4-3] Most families encounter these numbers for the first time at a moment of maximum emotional vulnerability.
 :::
+
+*Veterans note:* cross-reference H-6 for VA Aid and Attendance. Additional programs include VA Geriatrics and Extended Care (GEC), VA respite care, VA Community Living Centers (VA nursing homes), and the VA Caregiver Support Program (1-855-260-3274). Ask your Agent for eligibility requirements.
 
 [^li4-1]: AARP & National Alliance for Caregiving. (2020). ["Caregiving in the United States 2020."](https://www.aarp.org/pri/topics/ltss/family-caregiving/caregiving-in-the-united-states/) Follow-up: AARP. (2023). ["Valuing the Invaluable: Strengthening Supports for Family Caregivers."](https://www.aarp.org/caregiving/financial-legal/unpaid-caregivers-provide-billions-in-care/)
 
@@ -160,16 +162,7 @@ Over 53 million Americans are unpaid caregivers, spending an average of 24 or mo
 
 [^li4-3]: Genworth & CareScout. ["Cost of Care Survey 2024."](https://www.carescout.com/cost-of-care) National monthly medians.
 
-::: science
-Medicaid is the primary payer for long-term care in the United States, but qualifying requires near-poverty. The "spend-down" — depleting assets to meet eligibility thresholds — is the mechanism most families encounter. The five-year lookback period means gifts or transfers made within five years of application trigger penalties. The One Big Beautiful Bill Act (2025) added new constraints: a $1 million home equity cap for long-term care eligibility starting in 2028, retroactive coverage reduced from 90 to 30 days before application, and six-month eligibility reverification. Asset limits, exempt property, and spousal protections vary significantly by state — ask your Agent for the current rules in yours.[^li4-4]
-:::
-
-
 [^li4-4]: KFF, ["Health Provisions in the 2025 Federal Budget Reconciliation Law."](https://www.kff.org/medicaid/health-provisions-in-the-2025-federal-budget-reconciliation-law/) See also [Medicaid.gov](https://www.medicaid.gov/) for state-specific eligibility thresholds and the five-year lookback rules.
-
-::: also
-*Veterans note:* cross-reference H-6 for VA Aid and Attendance. Additional programs include VA Geriatrics and Extended Care (GEC), VA respite care, VA Community Living Centers (VA nursing homes), and the VA Caregiver Support Program (1-855-260-3274). Ask your Agent for eligibility requirements.
-:::
 
 
 ---
@@ -196,20 +189,18 @@ Please help me:
 4. Give me the three things about this destination that most
    travelers wish they'd known before arriving
 :::
+
+::: also
+Checking current information requires web search, which is free in Gemini, ChatGPT, and Copilot. In Claude, web search requires the paid tier. See [Appendix G](06-appendix-g-feature-table.xhtml).
+:::
 *What to do with the Output:* Print the itinerary. Share it with everyone going. Ask your Agent for a packing list specific to the destination and season. Before you leave, ask: _"What documents do I need, and what happens if I lose them?"_
 
 ::: meme
 [_The Amazing Race_](https://en.wikipedia.org/wiki/The%5FAmazing%5FRace) has aired for 38 seasons on the premise that navigating airports, language barriers, and unfamiliar transit systems is so stressful it qualifies as entertainment. Your Agent eliminates the entertainment value and keeps the trip.
 :::
 
-
 ::: tip
 _"I have a 4-hour layover in [city]. What can I actually do with that time, and what's the latest I can leave the airport and still make my connection?"_
-:::
-
-
-::: also
-Checking current information requires web search, which is free in Gemini, ChatGPT, and Copilot. In Claude, web search requires the paid tier. See [Appendix G](06-appendix-g-feature-table.xhtml).
 :::
 
 
@@ -234,17 +225,15 @@ What I want to avoid: [specific dislikes or past bad experiences]
 Give me 3--5 options with why each one fits, and tell me
 which one you'd pick if you were me.
 :::
-*What to do with the Output:* Pick the one that fits your mood, not the one that sounds most impressive. Check the hours and whether you need a reservation — your Agent may not have current information. If you're going with other people, send them the short list and let them weigh in. The best restaurant for the night is the one everyone agrees to go to.
 
 ::: also
 Checking current information requires web search, which is free in Gemini, ChatGPT, and Copilot. In Claude, web search requires the paid tier. See [Appendix G](06-appendix-g-feature-table.xhtml).
 :::
-
+*What to do with the Output:* Pick the one that fits your mood, not the one that sounds most impressive. Check the hours and whether you need a reservation — your Agent may not have current information. If you're going with other people, send them the short list and let them weigh in. The best restaurant for the night is the one everyone agrees to go to.
 
 ::: tip
 _"I eat at [restaurant] once a week and I'm bored. Based on what I like about it — [describe] — what else should I try?"_
 :::
-
 
 ::: tip
 Eating alone in public is culturally coded as failure in America and normalized elsewhere. Your Agent can recommend restaurants with good bar seating or counter service for solo diners. It will not ask why you're dining alone. Neither should anyone else.
@@ -274,17 +263,11 @@ Please:
 3. Tell me what's normal vs. what might need professional attention
 4. Be honest about what the research doesn't know yet
 :::
-*What to do with the Output:* Parenting advice from any source — including your Agent — should be filtered through your knowledge of your specific child. If the advice doesn't fit, say so: _"That doesn't match what I see with my kid. Here's what actually happens: [describe]. What else should I try?"_ Your Agent adjusts. Books don't. And if you feel guilty about how you're doing --- you will, every parent does, the research treats it as a baseline --- that guilt is the tax on caring. It does not mean you are doing it wrong. It means you are paying attention.
-
-::: meme
-We used to change the channel by walking to the TV and watched reruns of children using washboards on [_Nick at Nite_](https://en.wikipedia.org/wiki/Nick%5Fat%5FNite). Now smart homes automate everything and robots fold laundry in viral videos. The nature of work is changing. So should chores. The number one skill to teach a child is not any specific task — it is knowing when to ask for help and how to evaluate the answer.
-:::
-
+*What to do with the Output:* Parenting advice from any source — including your Agent — should be filtered through your knowledge of your specific child. If the advice doesn't fit, say so: _"That doesn't match what I see with my kid. Here's what actually happens: [describe]. What else should I try?"_ Your Agent adjusts. Books don't. And if you feel guilty about how you're doing --- you will, every parent does, the research treats it as a baseline --- that guilt is the tax on caring. It does not mean you are doing it wrong. It means you are paying attention. The number one skill worth teaching alongside any specific task, chores included, is knowing when to ask for help and how to evaluate the answer — that one doesn't go out of date.
 
 ::: science
 Baumrind's parenting styles framework (1966) — authoritative, authoritarian, permissive — remains the most replicated finding in developmental psychology, with authoritative parenting (high warmth, high structure) consistently producing strong outcomes, though cross-cultural research (Chao, 1994; Deater-Deckard et al., 2011) shows the framework has boundary conditions --- what counts as "authoritative" looks different in different cultural contexts.[^li7-1]
 :::
-
 
 ::: fairness
 Parenting research has historically oversampled white, middle-class, two-parent households. When your Agent generalizes about "what research shows," ask: _"Is this finding consistent across income levels and family structures?"_ The answer is sometimes no.
@@ -407,6 +390,10 @@ How would you suggest we work together in our conversations?
 :::
 *What to do with the Output:* Start using it immediately. Language learning research consistently shows that production — trying to say things, getting them wrong, trying again — beats passive study. Your Agent can do something no textbook can: respond to what you say, correct you in real time, and adjust the difficulty to where you actually are rather than where a curriculum assumes you should be.
 
+::: tip
+_“Pretend you’re a [waiter / taxi driver / shopkeeper / colleague] in [city] and only respond in [language]. If I get stuck, give me the phrase I need, then let me try again.”_ — Role-play with your Agent is the closest thing to immersion without a plane ticket.
+:::
+
 *Common language Expert Role specs:*
 
 ::: prompt
@@ -426,15 +413,9 @@ in [language] for work. My level is [X]. Help me prepare
 the specific phrases and responses I’ll need.
 :::
 
-::: tip
-_“Pretend you’re a [waiter / taxi driver / shopkeeper / colleague] in [city] and only respond in [language]. If I get stuck, give me the phrase I need, then let me try again.”_ — Role-play with your Agent is the closest thing to immersion without a plane ticket.
-:::
-
-
 ::: science
 Krashen’s [input hypothesis](https://en.wikipedia.org/wiki/Input%5Fhypothesis) (1982) argues that language acquisition happens when learners receive input slightly above their current level — “i+1.” Your Agent can calibrate to exactly this level in real time, something classroom instruction cannot do for 25 students simultaneously. The evidence for comprehensible input as the primary driver of acquisition is among the most replicated findings in applied linguistics.[^li10-1]
 :::
-
 
 ::: fairness
 Your Agent’s language ability varies by language. It is strongest in English, Mandarin, Spanish, French, German, and Japanese. For less-resourced languages — many Indigenous languages, regional dialects, signed languages — its accuracy drops significantly. If you are working in a less common language, verify key phrases with a native speaker or community resource. Your Agent will tell you when it is less confident if you ask.
@@ -481,6 +462,7 @@ A landmark study in the _American Economic Review_ exploited Facebook’s stagge
 The distinction between purposeful and passive internet use is not a value judgment — it is a measurable difference. Research on primary school students found that using the internet to search for information favors educational outcomes, while social network use hinders them. These are categorically different activities, not points on a single spectrum.[^li11-2]
 :::
 
+The internet itself is not the variable either study measured as harmful — the feed sitting on top of it is.
 
 ::: meme
 The web evolved from text to graphics to audio to video to interactive simulation — mapping almost precisely onto the full range of human learning modalities. Then social media arrived and replaced “learn anything” with “react to everything.” The infrastructure is still there. The feeds are in the way. Moving the feeds is the project.
@@ -531,15 +513,15 @@ Please help me:
 :::
 *What to do with the Output:* Do the minimum version today. Not tomorrow. The research says the hardest gap to close is between “I should” and “I did it once.” Everything after the first time is easier. If your Agent suggests a two-minute version of the habit and that feels too small, it is the right size. Scale up after it is automatic, not before.
 
-::: science
-Lally et al. (2010) found habit formation takes an average of 66 days — not 21. The range was 18 to 254 days depending on the habit and the person. The “21 days” myth comes from a plastic surgeon’s anecdotal observation about patients adjusting to their new appearance, not from behavioral research. Your Agent can help you set expectations that match the science, not the marketing.[^li12-1]
-:::
-
-
 ::: tip
 _“I failed at [habit] again yesterday. Don’t motivate me. Help me figure out what went wrong structurally and fix the design.”_ — The most useful thing your Agent can do is diagnose the cue, not restore your enthusiasm.
 :::
 
+Starting small is not just a comfort — it matches the research, and it corrects a popular myth about the timeline.
+
+::: science
+Lally et al. (2010) found habit formation takes an average of 66 days — not 21. The range was 18 to 254 days depending on the habit and the person. The “21 days” myth comes from a plastic surgeon’s anecdotal observation about patients adjusting to their new appearance, not from behavioral research. Your Agent can help you set expectations that match the science, not the marketing.[^li12-1]
+:::
 
 ::: fairness
 Habit advice assumes discretionary time. If you are working two jobs or caregiving full-time, “just add a morning routine” is not a plan — it is an insult. Tell your Agent your actual constraints, including time, energy, and what your day actually looks like. Ask for something that fits inside your real life, not an idealized one.
@@ -599,41 +581,21 @@ Please help me:
 U.S. public libraries served over 800 million in-person visits in the most recent federal survey year (IMLS, FY2023) — recovering from pandemic lows and climbing toward the pre-pandemic peak of 1.25 billion. Digital circulation has surged past those levels: OverDrive / Libby alone reached 820 million checkouts in calendar year 2025.[^li13-1] The return on the median library tax — approximately $43 per person per year — is among the highest of any public expenditure, with benefit-cost ratios consistently estimated between 4:1 and 5:1 in state-level studies.[^li13-2]
 :::
 
-
 ::: tip
 _"What's the single database or service my library offers that most cardholders never use?"_ — The answer is almost always something expensive (Consumer Reports, Morningstar, Ancestry, Rosetta Stone, The New York Times archive) that would otherwise cost hundreds of dollars a year. Ask specifically.
 :::
 
-
-::: also
-Most U.S. state university libraries admit the public to the physical collection under **state resident** or **community borrower** programs — Ohio's OhioLINK, California's state university system, the Big Ten Academic Alliance, and most SEC and ACC libraries all have a public pathway, typically a free or modest-fee borrower's card for residents of the state. [WorldCat](https://www.worldcat.org/) locates any book in any library in the world and is free to search. The [Library of Congress](https://www.loc.gov/) issues a free reader's card to anyone 16 or older with a photo ID. Your alma mater may grant alumni library privileges — often [JSTOR](https://www.jstor.org/) and database access included — even if you graduated decades ago. Ask.
-:::
-
+Academic access is the part most people never check. Most U.S. state university libraries admit the public to the physical collection under **state resident** or **community borrower** programs — Ohio's OhioLINK, California's state university system, the Big Ten Academic Alliance, and most SEC and ACC libraries all have a public pathway, typically a free or modest-fee borrower's card for residents of the state. [WorldCat](https://www.worldcat.org/) locates any book in any library in the world and is free to search. The [Library of Congress](https://www.loc.gov/) issues a free reader's card to anyone 16 or older with a photo ID. Your alma mater may grant alumni library privileges — often [JSTOR](https://www.jstor.org/) and database access included — even if you graduated decades ago. Ask.
 
 ::: also
 **Open to the world, no card required.** A class of digital archives is free to anyone with an internet connection — no residency, no card, no login. Three anchors worth knowing by name: the [Internet Archive](https://archive.org/) ([Wayback Machine](https://web.archive.org/), films, audio, software, public-domain books); the [Library of Congress Digital Collections](https://www.loc.gov/collections/) (manuscripts, maps, historical newspapers, recordings); and [Project Gutenberg](https://www.gutenberg.org/) (the original public-domain ebook archive). Beyond those, the landscape is enormous — public libraries, state archives, university special collections, national libraries, government agencies, and museums all publish open digital collections, and new ones appear constantly. Rather than work from any list, ask your Agent: _"What open digital archives would be most useful for [my topic]?"_ The reader in a rural county with a small library has the same access to these as a Harvard graduate student.
 :::
 
-
-::: tip
-_"I'm researching [specific topic — a person, a place, a period, an industry, a family history question]. What open archives, digitized special collections, or government databases are most likely to hold primary sources? Rank by likely usefulness and tell me exactly what to search for in each."_ — The value of an archive depends entirely on your question. Ask specifically.
-:::
-
+*Science Note:* Library anxiety — the intimidation adults feel navigating an unfamiliar library — is a documented phenomenon: 75--85% of students in Mellon's (1986) original study described their first library experience in terms of fear.[^li13-3] If you feel lost walking in, you are not unusual; helping people who feel lost is most of a librarian's job.
 
 ::: fairness
 The library is the rare American institution that does not ask what you can afford before deciding what you get. It does not means-test. It does not require a purchase. It does not track you across the internet and sell the data. For the reader without home internet, it is the internet. For the reader without a quiet room, it is the quiet room. For the reader whose child needs a printer to submit a school assignment, it is the printer. The defunding of public libraries is not a neutral policy choice — it is a transfer of services from the commons to the market, which is to say, from everyone to those who can afford to replace them. [Support your library](https://www.ala.org/advocacy/). Vote in the levy.
 :::
-
-
-::: meme
-The [Dewey Decimal System](https://en.wikipedia.org/wiki/Dewey%5FDecimal%5FClassification) is older than the electric lightbulb and still better at finding a specific book than any search engine. This is not nostalgia — it is topology. Classifying knowledge by subject, not by popularity, produces a different map than a ranked result list. The library is one of the last places where you find what you were not looking for because it was shelved next to what you were. Your Agent can tell you what you asked. The shelf next to the answer tells you what you should have asked.
-:::
-
-
-::: science
-Library anxiety — the feeling of inadequacy, confusion, or intimidation when navigating a library — is a documented phenomenon, first described by Mellon (1986) and confirmed across decades of subsequent research.[^li13-3] It disproportionately affects people navigating an unfamiliar institutional environment, including non-native English speakers, first-generation college students, and adults returning after a long absence. If you feel lost walking into a library, you are not unusual — 75--85% of students in Mellon's original study described their initial library experience in terms of fear. Librarians know this. Helping people who feel lost is most of their job.
-:::
-
 
 Veterans and active-duty service members: the DoD Morale, Welfare, and Recreation (MWR) Digital Library ([dodmwrlibraries.org](https://dodmwrlibraries.org/)) provides free access to OverDrive/Libby, O'Reilly technical books, Ancestry.com Library Edition, and other databases — accessible with a DoD ID. [Military OneSource](https://www.militaryonesource.mil/) (800-342-9647) connects to these same resources and remains available for 365 days after separation. Several state library systems run dedicated veterans programs — California's [Veterans Connect @ the Library](https://www.library.ca.gov/services/to-libraries/veterans-connect/) partners with CalVet for benefits navigation at library branches statewide.
 
