@@ -226,10 +226,7 @@ Give me 3--5 options with why each one fits, and tell me
 which one you'd pick if you were me.
 :::
 
-::: also
-Checking current information requires web search, which is free in Gemini, ChatGPT, and Copilot. In Claude, web search requires the paid tier. See [Appendix G](06-appendix-g-feature-table.xhtml).
-:::
-*What to do with the Output:* Pick the one that fits your mood, not the one that sounds most impressive. Check the hours and whether you need a reservation — your Agent may not have current information. If you're going with other people, send them the short list and let them weigh in. The best restaurant for the night is the one everyone agrees to go to.
+*What to do with the Output:* Pick the one that fits your mood, not the one that sounds most impressive. Check the hours and whether you need a reservation — your Agent may not have current information (see Li-5 on web search access by tool). If you're going with other people, send them the short list and let them weigh in. The best restaurant for the night is the one everyone agrees to go to.
 
 ::: tip
 _"I eat at [restaurant] once a week and I'm bored. Based on what I like about it — [describe] — what else should I try?"_

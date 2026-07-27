@@ -3,7 +3,7 @@ title: "Strategy 9: Create"
 part: 1
 order: 9
 strategy: 9
-status: "final"
+status: "draft"
 ---
 
 ## Strategy 9: Create
@@ -185,7 +185,7 @@ Path B — she says nothing:
 You can generate both paths, read them, and decide which serves the story better — or keep both if you're writing an interactive piece. Your Agent holds both branches in memory for the duration of the conversation. For longer projects, paste the architecture doc at the start of each session to restore context.
 
 ::: also
-All four major AI tools handle creative writing and dialogue generation. Claude's extended conversations maintain character voice across long sessions. ChatGPT's custom GPTs can store a character bible permanently. Gemini's large context window holds novel-length architectures in a single session. Copilot integrates with Word for prose drafting. For game narrative specifically, the dialogue your Agent generates can be exported directly into [Ink](https://www.inklestudios.com/ink/), [Twine](https://twinery.org/), or [Yarn Spinner](https://yarnspinner.dev/) — your Agent writes the words, your narrative engine handles the branching logic.
+All four tools handle creative writing and dialogue generation well. For game narrative specifically, export the dialogue directly into [Ink](https://www.inklestudios.com/ink/), [Twine](https://twinery.org/), or [Yarn Spinner](https://yarnspinner.dev/) — your Agent writes the words, your narrative engine handles the branching logic.
 :::
 
 

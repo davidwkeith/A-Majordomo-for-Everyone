@@ -75,12 +75,12 @@
 ---
 
 **Strategy 7: Research**
-*Roseanne*, "Toto, We're Not in Kansas Anymore" (approximate — the episode where the Conners make a major financial decision under pressure)
+*Roseanne*, Season 5 (1993) — season-level reference; the Conners make a major financial decision under pressure. Not anchored to a single episode title.
 **The problem:** The Conner family faces a significant financial decision — a major purchase, a loan, a contract — under time pressure, without complete information, and without the research that would have revealed the correct choice was different from the obvious one. The decision is made. The consequences follow.
 **The iconic scene:** Roseanne at the kitchen table with Dan, papers spread between them, trying to make a decision from incomplete information. The kitchen is the Conner family's decision-making room. The papers represent a system neither of them fully understands.
 **The irony:** The information they needed existed. It was not expensive or difficult to obtain. They did not have it because nobody told them to look for it before committing, and the other party in the transaction was not going to offer it.
 **Pixel art scene brief:** Roseanne and Dan at the kitchen table, papers and bills spread between them, both leaning over the table. Their expressions are the specific exhausted focus of people trying to make a good decision from bad information. Coffee cups. A pen. A contract or form neither of them quite understands.
-**Caption:** *Roseanne (approx. 1993) — The information existed. Nobody told them to ask for it before they signed.*
+**Caption:** *[Roseanne:S5](https://en.wikipedia.org/wiki/Roseanne_(TV_series)), 1993 — The information existed. Nobody told them to ask for it before they signed.*
 
 ---
 

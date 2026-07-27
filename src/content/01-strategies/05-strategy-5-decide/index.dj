@@ -3,7 +3,7 @@ title: "Strategy 5: Decide"
 part: 1
 order: 5
 strategy: 5
-status: "final"
+status: "draft"
 ---
 
 ## Strategy 5: Decide
@@ -172,7 +172,7 @@ That's a gut call, not a spreadsheet call.
 :::
 
 ::: also
-All four major AI tools handle decision-mapping well. If you want to compare options side by side, Claude's artifact feature renders tables and comparison charts. ChatGPT's canvas mode lets you iterate on a decision matrix. Gemini integrates with Google Sheets if you want to save the analysis. Copilot works within Microsoft 365 for the same purpose.
+All four tools handle decision-mapping well: Claude's artifacts and ChatGPT's canvas render comparison tables, Gemini integrates with Google Sheets, and Copilot works within Microsoft 365.
 :::
 
 
