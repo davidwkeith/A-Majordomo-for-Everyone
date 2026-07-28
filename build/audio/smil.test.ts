@@ -2,6 +2,7 @@ import { describe, it, expect } from 'vitest';
 import { buildSmil, formatClockValue } from './smil.js';
 import type { WordFragment } from './word-fragments.js';
 import type { WordBoundaryRecord } from './smil.js';
+import type { EscapableGroup } from './escapable-groups.js';
 
 describe('formatClockValue', () => {
   it('formats sub-second offsets', () => {
@@ -67,5 +68,75 @@ describe('buildSmil', () => {
     );
     expect(smil).toContain('seq-ch&quot;1');
     expect(smil).toContain('a&amp;b.xhtml');
+  });
+});
+
+describe('buildSmil with escapable groups', () => {
+  // "Before" (w1), a callout ("w2 w3"), "after" (w4) — the callout's pars
+  // should nest inside their own <seq>, the rest stay flat.
+  const fragments: WordFragment[] = [
+    { id: 'w1', text: 'Before', charStart: 0, charEnd: 6 },
+    { id: 'w2', text: 'Add', charStart: 7, charEnd: 10 },
+    { id: 'w3', text: 'context', charStart: 11, charEnd: 18 },
+    { id: 'w4', text: 'After', charStart: 19, charEnd: 24 },
+  ];
+  const boundaries: WordBoundaryRecord[] = fragments.map((f, i) => ({
+    text: f.text,
+    textOffset: f.charStart,
+    wordLength: f.text.length,
+    audioOffsetTicks: i * 1_000_000,
+    durationTicks: 500_000,
+  }));
+  const groups: EscapableGroup[] = [{ id: 'callout-1', epubType: 'sidebar', fragmentIds: ['w2', 'w3'] }];
+  const options = { chapterId: 'ch03', textSrc: 'ch03.xhtml', audioSrc: 'ch03.mp3' };
+
+  it('nests a group\'s pars inside a <seq epub:type> matching its structure', () => {
+    const smil = buildSmil(fragments, boundaries, options, groups);
+    expect(smil).toContain('<seq id="seq-callout-1" epub:type="sidebar">');
+
+    const seqOpen = smil.indexOf('<seq id="seq-callout-1"');
+    const seqClose = smil.indexOf('</seq>', seqOpen);
+    const nested = smil.slice(seqOpen, seqClose);
+    expect(nested).toContain('par-w2');
+    expect(nested).toContain('par-w3');
+    expect(nested).not.toContain('par-w1');
+    expect(nested).not.toContain('par-w4');
+  });
+
+  it('leaves ungrouped fragments as direct children of the chapter <seq>', () => {
+    const smil = buildSmil(fragments, boundaries, options, groups);
+    const chapterSeqOpen = smil.indexOf('<seq id="seq-ch03"');
+    const groupSeqOpen = smil.indexOf('<seq id="seq-callout-1"');
+    // w1 appears before the nested group opens; w4 appears after it closes.
+    expect(smil.indexOf('par-w1')).toBeGreaterThan(chapterSeqOpen);
+    expect(smil.indexOf('par-w1')).toBeLessThan(groupSeqOpen);
+    const groupSeqClose = smil.indexOf('</seq>', groupSeqOpen);
+    expect(smil.indexOf('par-w4')).toBeGreaterThan(groupSeqClose);
+  });
+
+  it('produces balanced <seq>...</seq> nesting (one chapter seq, one group seq)', () => {
+    const smil = buildSmil(fragments, boundaries, options, groups);
+    const opens = (smil.match(/<seq\b/g) ?? []).length;
+    const closes = (smil.match(/<\/seq>/g) ?? []).length;
+    expect(opens).toBe(2);
+    expect(closes).toBe(2);
+  });
+
+  it('gives each of two separate groups its own <seq>', () => {
+    const twoGroups: EscapableGroup[] = [
+      { id: 'callout-1', epubType: 'sidebar', fragmentIds: ['w2'] },
+      { id: 'callout-2', epubType: 'sidebar', fragmentIds: ['w4'] },
+    ];
+    const smil = buildSmil(fragments, boundaries, options, twoGroups);
+    expect(smil).toContain('<seq id="seq-callout-1" epub:type="sidebar">');
+    expect(smil).toContain('<seq id="seq-callout-2" epub:type="sidebar">');
+    expect((smil.match(/<seq\b/g) ?? []).length).toBe(3); // chapter + two groups
+  });
+
+  it('behaves exactly as before when no groups are passed', () => {
+    const withEmpty = buildSmil(fragments, boundaries, options, []);
+    const withDefault = buildSmil(fragments, boundaries, options);
+    expect(withEmpty).toBe(withDefault);
+    expect(withEmpty).not.toContain('epub:type="sidebar"');
   });
 });

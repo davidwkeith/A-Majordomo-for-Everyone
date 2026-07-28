@@ -10,6 +10,7 @@
  */
 
 import type { WordFragment } from './word-fragments.js';
+import type { EscapableGroup } from './escapable-groups.js';
 
 /** Azure `SpeechSynthesisWordBoundaryEventArgs`, in the shape this module needs. */
 export interface WordBoundaryRecord {
@@ -65,41 +66,66 @@ function findFragment(fragments: WordFragment[], boundary: WordBoundaryRecord): 
   return fragments.find((f) => f.charStart < boundaryEnd && f.charEnd > boundary.textOffset);
 }
 
+function buildPar(fragmentId: string, options: SmilOptions, clipBegin: number, clipEnd: number, indent: string): string {
+  return (
+    `${indent}<par id="par-${escapeXmlAttr(fragmentId)}">\n` +
+    `${indent}  <text src="${escapeXmlAttr(options.textSrc)}#${escapeXmlAttr(fragmentId)}"/>\n` +
+    `${indent}  <audio src="${escapeXmlAttr(options.audioSrc)}" clipBegin="${formatClockValue(clipBegin)}" clipEnd="${formatClockValue(clipEnd)}"/>\n` +
+    `${indent}</par>`
+  );
+}
+
 /**
  * Build a SMIL document mapping each word fragment to its clip range in the
  * narration audio. Fragments with no matching WordBoundary (e.g. a fragment
  * the synthesizer silently dropped) are skipped, not emitted with bogus
  * timing — a missing highlight is a smaller failure than a wrong one.
+ *
+ * `groups` (from `build/audio/escapable-groups.ts`) nests a structure's
+ * `<par>`s inside their own `<seq epub:type="...">`, which is what lets a
+ * reading system offer to skip or escape it during playback — the content
+ * document's own `epub:type` semantics aren't inherited automatically, the
+ * SMIL file has to repeat them (see escapable-groups.ts for why).
  */
 export function buildSmil(
   fragments: WordFragment[],
   boundaries: WordBoundaryRecord[],
   options: SmilOptions,
+  groups: EscapableGroup[] = [],
 ): string {
-  const pars: string[] = [];
+  const fragmentGroup = new Map<string, EscapableGroup>();
+  for (const group of groups) {
+    for (const fragmentId of group.fragmentIds) fragmentGroup.set(fragmentId, group);
+  }
+
+  const body: string[] = [];
+  let openGroup: EscapableGroup | null = null;
 
   for (const boundary of boundaries) {
     const fragment = findFragment(fragments, boundary);
     if (!fragment) continue;
 
+    const group = fragmentGroup.get(fragment.id) ?? null;
+    if (group !== openGroup) {
+      if (openGroup) body.push('      </seq>');
+      if (group) body.push(`      <seq id="seq-${escapeXmlAttr(group.id)}" epub:type="${escapeXmlAttr(group.epubType)}">`);
+      openGroup = group;
+    }
+
     const clipBegin = boundary.audioOffsetTicks / TICKS_PER_SECOND;
     const clipEnd = (boundary.audioOffsetTicks + boundary.durationTicks) / TICKS_PER_SECOND;
-
-    pars.push(
-      `      <par id="par-${escapeXmlAttr(fragment.id)}">\n` +
-        `        <text src="${escapeXmlAttr(options.textSrc)}#${escapeXmlAttr(fragment.id)}"/>\n` +
-        `        <audio src="${escapeXmlAttr(options.audioSrc)}" clipBegin="${formatClockValue(clipBegin)}" clipEnd="${formatClockValue(clipEnd)}"/>\n` +
-        `      </par>`,
-    );
+    const indent = group ? '        ' : '      ';
+    body.push(buildPar(fragment.id, options, clipBegin, clipEnd, indent));
   }
+  if (openGroup) body.push('      </seq>');
 
   return (
     `<?xml version="1.0" encoding="UTF-8"?>\n` +
     `<smil xmlns="http://www.w3.org/ns/SMIL" xmlns:epub="http://www.idpf.org/2007/ops" version="3.0">\n` +
     `  <body>\n` +
     `    <seq id="seq-${escapeXmlAttr(options.chapterId)}" epub:textref="${escapeXmlAttr(options.textSrc)}">\n` +
-    pars.join('\n') +
-    (pars.length ? '\n' : '') +
+    body.join('\n') +
+    (body.length ? '\n' : '') +
     `    </seq>\n` +
     `  </body>\n` +
     `</smil>\n`
