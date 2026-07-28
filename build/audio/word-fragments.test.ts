@@ -46,4 +46,29 @@ describe('injectWordFragments', () => {
     expect(fragments).toEqual([]);
     expect(narratableText).toBe('');
   });
+
+  it('does not split an HTML entity into a word span, and decodes it in narratableText', () => {
+    // Reproduces the epubcheck failure this pattern guards against: djot's
+    // HTML renderer escapes literal "&" as "&amp;", and naive word-matching
+    // tokenizes "amp" out of it, splitting the entity into `&<span>amp</span>;`
+    // — a bare `&` that's not well-formed XML.
+    const { html, fragments, narratableText } = injectWordFragments('<p>Marks &amp; Spencer</p>');
+    expect(html).toBe('<p><span id="w1">Marks</span> &amp; <span id="w2">Spencer</span></p>');
+    expect(fragments.map((f) => f.text)).toEqual(['Marks', 'Spencer']);
+    expect(narratableText).toBe('Marks & Spencer');
+  });
+
+  it('decodes numeric character references and preserves them verbatim in the HTML', () => {
+    const { html, narratableText } = injectWordFragments('<p>5 &#38; 10, &#x26;more</p>');
+    expect(html).toContain('&#38;');
+    expect(html).toContain('&#x26;');
+    expect(narratableText).toContain('5 & 10, &more');
+  });
+
+  it('keeps every fragment offset valid even when the segment contains entities', () => {
+    const { narratableText, fragments } = injectWordFragments('<p>Marks &amp; Spencer &lt;the store&gt;</p>');
+    for (const f of fragments) {
+      expect(narratableText.slice(f.charStart, f.charEnd)).toBe(f.text);
+    }
+  });
 });

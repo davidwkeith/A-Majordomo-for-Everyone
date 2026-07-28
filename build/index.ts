@@ -24,6 +24,7 @@ import { assembleEpub } from './epub/assemble.js';
 import { generateMissingArt } from './generate-art.js';
 import { BOOK_META } from './types.js';
 import { validateAccessibility, formatA11yIssues } from './validators/a11y.js';
+import { injectWordFragments } from './audio/word-fragments.js';
 
 const OUTPUT_PATH = join(ROOT, 'dist', 'majordomo.epub');
 
@@ -129,10 +130,18 @@ async function build(): Promise<void> {
   console.log('Optimizing images...');
   await optimizeImages(IMAGES_DIR, optimizedDir, 800, allBriefs);
 
+  // Word-level fragment ids for the read-along edition's Media Overlays
+  // (see #167). ePub-only — the site and PDF builds render `sorted`
+  // directly and never see these spans.
+  const narratedChapters = sorted.map((chapter) => ({
+    ...chapter,
+    html: injectWordFragments(chapter.html).html,
+  }));
+
   console.log('Assembling ePub...');
   await assembleEpub(
     BOOK_META,
-    sorted,
+    narratedChapters,
     join(STYLES_DIR, 'base.css'),
     optimizedDir,
     OUTPUT_PATH
