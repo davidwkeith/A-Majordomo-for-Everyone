@@ -134,14 +134,18 @@ since prosody defaults vary per voice):
   ordinary sentence boundaries (the voice's own prosody handles that).
 - **Pronunciation overrides (`<phoneme>` / lexicon):** recurring proper nouns
   that neural voices are prone to mis-stress: *Djot*, *ePub*, *Jeeves*, and
-  the Star Trek episode titles referenced throughout (`spec/editorial/cultural-references.md`
-  has the full episode index). These should be captured as a single shared
-  SSML lexicon file once the pipeline work starts, not hand-repeated per
-  chapter.
+  the show-name half of the book's `Show:SxEy "Title"` episode citations
+  (`spec/outline.md` §7), which renders as literal link text and would
+  otherwise be read as "Seinfeld colon S three E three." `build/audio/ssml-lexicon.ts`
+  captures these as `<sub alias="...">` rules — voice-independent, so it
+  doesn't need to wait on the voice picks below. Unit tested
+  (`ssml-lexicon.test.ts`), not yet wired to a live SSML document or to
+  `WordBoundary` offset reconciliation across a substitution — both need the
+  pipeline wiring in #167.
 
-This is a pipeline-adjacent task (SSML gets generated from the built XHTML) and
-is deferred along with the rest of the pipeline design, per #161's stated
-scope.
+Full SSML document assembly (voice tags, `<break>`s, wiring this lexicon into
+what actually gets sent to `speakSsmlAsync`) is a pipeline-adjacent task and is
+deferred along with the rest of the pipeline design, per #161's stated scope.
 
 ### Spike
 
@@ -187,6 +191,9 @@ These require either Azure account access, human listening judgment, or the
 - [ ] Audition the voice shortlist above and lock in three final voices
 - [ ] Run `npm run tts:spike` against live Azure output and confirm `WordBoundary`
       offsets hold (script scaffolded; needs a provisioned resource to execute)
-- [ ] Author the SSML lexicon for recurring proper nouns, once voices are locked
+- [x] Author the SSML lexicon for recurring proper nouns — `build/audio/ssml-lexicon.ts`,
+      voice-independent so it didn't need to wait on the voice picks above
+- [ ] Wire the lexicon into an actual SSML document (voice tag, `<break>`s) and
+      reconcile `WordBoundary` offsets across `<sub>` substitutions
 - [ ] Pipeline design issue: fragment IDs, SMIL generation, incremental
-      hash-based regeneration, skippability tagging (tracked separately)
+      hash-based regeneration, skippability tagging (tracked separately, see #167)
