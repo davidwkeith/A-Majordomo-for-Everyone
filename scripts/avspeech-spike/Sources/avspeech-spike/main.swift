@@ -3,11 +3,16 @@
 // `WordBoundary`'s reported offset lines up with the source string it was
 // given, `AVSpeechSynthesizer` has no separate wire encoding to drift
 // against: `willSpeakRangeOfSpeechString` always indexes into the exact
-// `String` handed to `AVSpeechUtterance`. What's actually unverified here is
-// whether the callback fires per word (not per sentence) and holds up
-// against Djot's smart-typography substitutions (curly quotes, em/en dash,
-// ellipsis) — see docs/superpowers/specs/2026-07-27-azure-tts-engine-design.md
-// for why that mattered enough to spike in the first place.
+// `String` handed to `AVSpeechUtterance`. Confirmed: the callback fires per
+// word (not per sentence) and holds up against Djot's smart-typography
+// substitutions (curly quotes, em/en dash, ellipsis). Also confirmed, on
+// real chapter-length text: it stops firing altogether above ~2000 UTF-16
+// units per utterance (worked around below via chunkText), and even within
+// a single chunk it occasionally reports overlapping or out-of-order
+// ranges around punctuation-heavy text (citations, phone numbers, footnote
+// markers) — see the README's Results section for the full breakdown.
+// See docs/superpowers/specs/2026-07-27-azure-tts-engine-design.md for why
+// this mattered enough to spike in the first place.
 
 import AVFoundation
 import Foundation
@@ -94,6 +99,66 @@ func resolveVoice(named identifier: String?) -> AVSpeechSynthesisVoice? {
     return bestAvailableVoice()
 }
 
+struct TextChunk {
+    // UTF-16 offset into the original source text — lets a chunk's own
+    // word-boundary ranges (which `willSpeakRangeOfSpeechString` reports
+    // relative to the chunk's utterance string) be translated back into the
+    // caller's coordinate space.
+    let startOffset: Int
+    let text: String
+}
+
+// AVSpeechSynthesizer silently stops firing `willSpeakRangeOfSpeechString`
+// altogether above ~2000 UTF-16 units of utterance text (measured: 2000
+// passes, 2003 fails, on this machine/voice) — it doesn't degrade or error,
+// the callback just never comes. Splitting on whitespace keeps each chunk
+// under that ceiling without cutting a word in half.
+func chunkText(_ text: String, maxUTF16Length: Int) -> [TextChunk] {
+    let nsText = text as NSString
+    let length = nsText.length
+    guard length > 0 else { return [] }
+
+    func isWhitespace(_ unit: unichar) -> Bool {
+        guard let scalar = Unicode.Scalar(unit) else { return false }
+        return CharacterSet.whitespacesAndNewlines.contains(scalar)
+    }
+
+    var chunks: [TextChunk] = []
+    var start = 0
+    while start < length {
+        let remaining = length - start
+        if remaining <= maxUTF16Length {
+            chunks.append(TextChunk(startOffset: start, text: nsText.substring(from: start)))
+            break
+        }
+
+        // Walk back from the window's edge to the nearest whitespace so the
+        // split falls between words, not inside one.
+        var splitAt = start + maxUTF16Length
+        var search = splitAt
+        while search > start && !isWhitespace(nsText.character(at: search)) {
+            search -= 1
+        }
+        if search > start {
+            splitAt = search
+        }
+        // else: no whitespace anywhere in the window (one very long token) —
+        // fall back to a hard cut at the window edge.
+
+        chunks.append(
+            TextChunk(startOffset: start, text: nsText.substring(with: NSRange(location: start, length: splitAt - start))))
+
+        // Skip the whitespace run so the next chunk doesn't start with
+        // leading space (which would shift its own word boundaries by one).
+        var nextStart = splitAt
+        while nextStart < length && isWhitespace(nsText.character(at: nextStart)) {
+            nextStart += 1
+        }
+        start = nextStart
+    }
+    return chunks
+}
+
 // MARK: - Argument parsing
 //
 // Usage:
@@ -150,46 +215,88 @@ print("Voice: \(voice.identifier) (\(voice.name), quality=\(qualityLabel(voice.q
 let preview = text.count > 80 ? "\(text.prefix(80))…" : text
 print("Text (\(text.utf16.count) UTF-16 units): \(preview)")
 
-let utterance = AVSpeechUtterance(string: text)
-utterance.voice = voice
-
-let delegate = SpikeDelegate(sourceText: text)
 let synthesizer = AVSpeechSynthesizer()
-synthesizer.delegate = delegate
 
 let outputDir = URL(fileURLWithPath: "dist/tts-spike", isDirectory: true)
 try? FileManager.default.createDirectory(at: outputDir, withIntermediateDirectories: true)
 let outputURL = outputDir.appendingPathComponent("avspeech-spike.caf")
 
-var audioFile: AVAudioFile?
-var writeError: Error?
-let semaphore = DispatchSemaphore(value: 0)
-
-synthesizer.write(utterance) { buffer in
-    guard let pcmBuffer = buffer as? AVAudioPCMBuffer else {
-        writeError = NSError(
-            domain: "avspeech-spike", code: 1,
-            userInfo: [NSLocalizedDescriptionKey: "Unexpected buffer type from write(_:toBufferCallback:)"])
-        semaphore.signal()
-        return
-    }
-    // A zero-length buffer signals the end of synthesis for this utterance.
-    if pcmBuffer.frameLength == 0 {
-        semaphore.signal()
-        return
-    }
-    do {
-        if audioFile == nil {
-            audioFile = try AVAudioFile(forWriting: outputURL, settings: pcmBuffer.format.settings)
-        }
-        try audioFile?.write(from: pcmBuffer)
-    } catch {
-        writeError = error
-        semaphore.signal()
-    }
+// Stay comfortably under the ~2000 UTF-16-unit ceiling where
+// willSpeakRangeOfSpeechString stops firing (see chunkText's doc comment).
+let maxChunkLength = 1800
+let chunks = chunkText(text, maxUTF16Length: maxChunkLength)
+if chunks.count > 1 {
+    print(
+        "Splitting into \(chunks.count) chunks (~\(maxChunkLength) UTF-16 units each) to stay under "
+            + "AVSpeechSynthesizer's word-boundary ceiling.")
 }
 
-semaphore.wait()
+var audioFile: AVAudioFile?
+var writeError: Error?
+var boundaries: [WordBoundary] = []
+
+for chunk in chunks {
+    let utterance = AVSpeechUtterance(string: chunk.text)
+    utterance.voice = voice
+
+    let delegate = SpikeDelegate(sourceText: chunk.text)
+    synthesizer.delegate = delegate
+
+    var finished = false
+    synthesizer.write(utterance) { buffer in
+        guard let pcmBuffer = buffer as? AVAudioPCMBuffer else {
+            writeError = NSError(
+                domain: "avspeech-spike", code: 1,
+                userInfo: [NSLocalizedDescriptionKey: "Unexpected buffer type from write(_:toBufferCallback:)"])
+            finished = true
+            return
+        }
+        // A zero-length buffer signals the end of synthesis for this utterance.
+        if pcmBuffer.frameLength == 0 {
+            finished = true
+            return
+        }
+        do {
+            if audioFile == nil {
+                audioFile = try AVAudioFile(forWriting: outputURL, settings: pcmBuffer.format.settings)
+            }
+            // Every chunk shares one voice, so format stays consistent —
+            // appending keeps the whole chapter as a single playable file.
+            try audioFile?.write(from: pcmBuffer)
+        } catch {
+            writeError = error
+            finished = true
+        }
+    }
+
+    // `write(_:toBufferCallback:)` and `willSpeakRangeOfSpeechString` deliver
+    // their results as run-loop sources (XPC replies from the system
+    // speech-synthesis service), not raw GCD callbacks. Blocking the main
+    // thread on a DispatchSemaphore — as an earlier version of this script
+    // did — parks the thread in a kernel-level semaphore_wait_trap that never
+    // pumps the run loop, so those replies queue up and are never delivered:
+    // a permanent deadlock, not a slow synthesis. Spinning the run loop here
+    // is what lets them arrive.
+    let deadline = Date().addingTimeInterval(30)
+    while !finished && Date() < deadline {
+        RunLoop.current.run(mode: .default, before: Date().addingTimeInterval(0.05))
+    }
+    if !finished {
+        eprint("Timed out waiting for synthesis to complete after 30s (chunk at offset \(chunk.startOffset)).")
+        exit(1)
+    }
+    if writeError != nil {
+        break
+    }
+
+    // Translate this chunk's self-relative ranges back into the full
+    // source text's coordinate space so downstream checks (and callers)
+    // see one continuous set of boundaries, as if chunking never happened.
+    for boundary in delegate.boundaries {
+        let shifted = NSRange(location: boundary.range.location + chunk.startOffset, length: boundary.range.length)
+        boundaries.append(WordBoundary(range: shifted, text: boundary.text))
+    }
+}
 
 if let writeError {
     eprint("Audio write failed: \(writeError.localizedDescription)")
@@ -198,7 +305,6 @@ if let writeError {
 
 // MARK: - Verify boundaries
 
-let boundaries = delegate.boundaries
 let nsText = text as NSString
 let wordCount = text.split(whereSeparator: { !$0.isLetter && !$0.isNumber }).filter { !$0.isEmpty }.count
 
