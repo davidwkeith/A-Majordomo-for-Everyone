@@ -25,6 +25,7 @@ import { generateMissingArt } from './generate-art.js';
 import { BOOK_META } from './types.js';
 import { validateAccessibility, formatA11yIssues } from './validators/a11y.js';
 import { injectWordFragments } from './audio/word-fragments.js';
+import { announceIllustrations } from './audio/narrate-images.js';
 
 const OUTPUT_PATH = join(ROOT, 'dist', 'majordomo.epub');
 
@@ -130,12 +131,14 @@ async function build(): Promise<void> {
   console.log('Optimizing images...');
   await optimizeImages(IMAGES_DIR, optimizedDir, 800, allBriefs);
 
-  // Word-level fragment ids for the read-along edition's Media Overlays
-  // (see #167). ePub-only — the site and PDF builds render `sorted`
-  // directly and never see these spans.
+  // Narration support for the read-along edition's Media Overlays (#167).
+  // ePub-only — the site and PDF builds render `sorted` directly and never
+  // see these spans. Illustrations are announced (alt text made narratable)
+  // before word-fragment ids are assigned, so the announcement itself gets
+  // wrapped like any other prose.
   const narratedChapters = sorted.map((chapter) => ({
     ...chapter,
-    html: injectWordFragments(chapter.html).html,
+    html: injectWordFragments(announceIllustrations(chapter.html)).html,
   }));
 
   console.log('Assembling ePub...');

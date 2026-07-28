@@ -576,3 +576,25 @@ em {
 strong {
   font-weight: 700;
 }
+
+/* ---- Read-along narration-only text ---- */
+
+/*
+ * Announces images to the audiobook edition's narration (see
+ * build/audio/narrate-images.ts). Visually hidden and aria-hidden since
+ * sighted readers already see the image and screen-reader users already
+ * get its description via the img's own alt text — this exists only for
+ * the Media Overlay audio track, which reads real text content regardless
+ * of visibility or ARIA state.
+ */
+.narration-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
