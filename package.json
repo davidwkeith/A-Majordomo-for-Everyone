@@ -17,6 +17,7 @@
     "check:epub": "tsx build/scripts/epubcheck.ts",
     "check:a11y": "tsx build/scripts/ace.ts",
     "tts:spike": "tsx build/scripts/tts-spike.ts",
+    "narration:plan": "tsc && node dist/build/scripts/narration-plan.js",
     "dev": "npm run build:site && wrangler dev",
     "test": "vitest run",
     "test:watch": "vitest",
