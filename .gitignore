@@ -9,3 +9,5 @@ dist/
 .djot-preview/
 .nova/
 .wrangler/
+scripts/avspeech-spike/.build/
+scripts/avspeech-spike/dist/
