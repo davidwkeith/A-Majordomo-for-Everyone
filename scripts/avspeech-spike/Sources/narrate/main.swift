@@ -97,10 +97,18 @@ let aacSettings: [String: Any] = [
 var audioFile: AVAudioFile?
 // Frames of *target-format* audio committed so far — the chapter clock.
 var framesWritten: AVAudioFramePosition = 0
-// One converter per distinct native format; voices differ in sample rate,
-// and a converter carries resampler state that must not be rebuilt per
-// buffer or the seams click.
-var converters: [String: AVAudioConverter] = [:]
+// A converter carries resampler state (a filter delay line) across calls,
+// so it must live as long as the native format does — rebuilding it per
+// buffer throws away that state and silently drops ~12 ms of priming
+// residual at every seam. Hence one converter held until the format
+// actually changes, rather than a cache keyed on anything derived from the
+// AVAudioFormat *object*: the synthesizer hands out a fresh instance per
+// buffer, and `description` embeds the instance pointer, so any such key
+// misses every time. AVAudioFormat's own `==` compares stream
+// descriptions, which is the comparison that means what we want.
+var lastNativeFormat: AVAudioFormat?
+var currentConverter: AVAudioConverter?
+var convertersBuilt = 0
 
 func writeConverted(_ pcm: AVAudioPCMBuffer) throws {
     if audioFile == nil {
@@ -114,13 +122,17 @@ func writeConverted(_ pcm: AVAudioPCMBuffer) throws {
     if native == targetFormat {
         out = pcm
     } else {
-        let key = native.description
-        guard let converter = converters[key] ?? AVAudioConverter(from: native, to: targetFormat) else {
-            throw NSError(
-                domain: "narrate", code: 2,
-                userInfo: [NSLocalizedDescriptionKey: "no converter from \(native) to \(targetFormat)"])
+        if lastNativeFormat != native || currentConverter == nil {
+            guard let fresh = AVAudioConverter(from: native, to: targetFormat) else {
+                throw NSError(
+                    domain: "narrate", code: 2,
+                    userInfo: [NSLocalizedDescriptionKey: "no converter from \(native) to \(targetFormat)"])
+            }
+            currentConverter = fresh
+            lastNativeFormat = native
+            convertersBuilt += 1
         }
-        converters[key] = converter
+        let converter = currentConverter!
 
         let capacity =
             AVAudioFrameCount(Double(pcm.frameLength) * targetFormat.sampleRate / native.sampleRate) + 64
@@ -131,16 +143,26 @@ func writeConverted(_ pcm: AVAudioPCMBuffer) throws {
         }
         var fed = false
         var convertError: NSError?
-        converter.convert(to: converted, error: &convertError) { _, status in
+        // .inputRanDry is the expected outcome: one input buffer goes in,
+        // the converter keeps whatever residual it needs for the next call.
+        // .error is not recoverable here — now that the converter is
+        // genuinely reused, a failed call would corrupt the resampler state
+        // for every buffer after it, so it has to stop the run.
+        let status = converter.convert(to: converted, error: &convertError) { _, inputStatus in
             if fed {
-                status.pointee = .noDataNow
+                inputStatus.pointee = .noDataNow
                 return nil
             }
             fed = true
-            status.pointee = .haveData
+            inputStatus.pointee = .haveData
             return pcm
         }
         if let convertError { throw convertError }
+        if status == .error {
+            throw NSError(
+                domain: "narrate", code: 4,
+                userInfo: [NSLocalizedDescriptionKey: "AVAudioConverter reported .error converting from \(native)"])
+        }
         out = converted
     }
 
@@ -314,7 +336,7 @@ let problems = validateBoundaries(allBoundaries, totalUTF16Length: chapterText.l
 
 eprint(
     "narrate: \(job.segments.count) segments (\(skippedSegments) wordless, skipped), "
-        + "\(synthesizedChunks) chunks synthesized")
+        + "\(synthesizedChunks) chunks synthesized, \(convertersBuilt) resampler(s) built")
 eprint(
     "narrate: \(totalRawMarkers) raw word markers → \(allBoundaries.count) boundaries "
         + "(\(nonWordMarkers) non-word markers ignored)")

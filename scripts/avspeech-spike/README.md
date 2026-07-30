@@ -146,7 +146,7 @@ Jamie is still `com.apple.voice.premium.en-GB.Malcolm`).
 warnings — because the TS side parses it verbatim:
 
 ```json
-{ "totalDurationSeconds": 5.59,
+{ "totalDurationSeconds": 5.962,
   "boundaries": [{ "text": "The", "textOffset": 0, "wordLength": 3, "clipBeginSeconds": 0 }] }
 ```
 
@@ -177,6 +177,17 @@ timeout, a validation failure, or the ceiling canary.
   then added to the accumulated *output* duration (`markerSeconds`). The two
   clocks differ whenever a voice doesn't synthesize at 44.1 kHz, and mixing
   them is how the timeline silently drifts.
+- **One `AVAudioConverter` is held for as long as the native format lasts**,
+  rebuilt only when the format actually changes. A converter carries resampler
+  state, so rebuilding it per buffer silently discards ~12 ms of priming
+  residual each time — worth ~6% of the audio, and a progressively worsening
+  read-along skew *within* a chunk. Note that any cache keyed on something
+  derived from the `AVAudioFormat` object misses every time: the synthesizer
+  hands out a fresh instance per buffer and `description` embeds its pointer.
+  `AVAudioFormat`'s own `==` compares stream descriptions, which is the
+  comparison that means what you want. The stderr line reports how many
+  resamplers were built — for a whole chapter that should be a small number
+  (one per distinct voice format), never one per buffer.
 - **Markers are buffered raw and converted only after the chunk completes**,
   since the native format is knowable only from a buffer and markers may in
   principle arrive first.
@@ -185,9 +196,9 @@ timeout, a validation failure, or the ceiling canary.
   deadlocks (#174).
 
 Verified against the fixture on macOS 26 / Apple Silicon: exit 0, 16
-boundaries for 16 words across the two voices, 5.590 s of audio, the first
+boundaries for 16 words across the two voices, 5.962 s of audio, the first
 Jamie boundary at `textOffset` 39 (exactly the first segment's UTF-16
-length), and `afinfo` reporting the same 5.5898 s the JSON does. The IPA path
+length), and `afinfo` reporting the same 5.962086 s the JSON does. The IPA path
 is confirmed live: substituting a five-syllable notation for `HUD` stretches
 that word's span from 0.192 s to 1.415 s while its `textOffset`/`wordLength`
 stay at 18/3.
