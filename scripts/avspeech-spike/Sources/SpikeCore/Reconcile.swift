@@ -88,3 +88,47 @@ public func reconcile(_ markers: [SpokenWordBoundary]) -> ReconcileResult {
         boundaries: out, duplicatesCollapsed: duplicates,
         overlapsMerged: merges, regressionsDropped: drops)
 }
+
+/// Post-reconciliation invariants, shared by the spike and the `narrate`
+/// CLI: every boundary must index into the source text, boundaries must not
+/// overlap, and both axes (text start, audio offset) must advance
+/// monotonically. Returns one human-readable message per violation; an
+/// empty array means the list is safe to emit as SMIL clip times.
+///
+/// This is deliberately separate from `reconcile` — reconcile *resolves*
+/// known tokenizer noise, this *proves* nothing unresolved slipped through.
+public func validateBoundaries(_ boundaries: [SpokenWordBoundary], totalUTF16Length: Int) -> [String] {
+    var problems: [String] = []
+    var previousEnd = 0
+    var previousStart = -1
+    var previousOffset = -1
+
+    for (index, boundary) in boundaries.enumerated() {
+        let start = boundary.range.location
+        let end = start + boundary.range.length
+        if start < 0 || end > totalUTF16Length {
+            problems.append(
+                "boundary \(index) range [\(start), \(end)) falls outside the chapter text "
+                    + "(0..<\(totalUTF16Length))")
+        }
+        if start < previousEnd {
+            problems.append(
+                "boundary \(index) starts at \(start), inside the previous boundary "
+                    + "which ends at \(previousEnd)")
+        }
+        if start < previousStart {
+            problems.append(
+                "boundary \(index) text start \(start) regressed behind the previous start "
+                    + "\(previousStart)")
+        }
+        if boundary.byteOffset < previousOffset {
+            problems.append(
+                "boundary \(index) audio offset \(boundary.byteOffset) regressed behind the "
+                    + "previous offset \(previousOffset)")
+        }
+        previousEnd = max(previousEnd, end)
+        previousStart = max(previousStart, start)
+        previousOffset = boundary.byteOffset
+    }
+    return problems
+}

@@ -30,8 +30,10 @@ import {
 } from '../pipeline.js';
 import type { RefWarning } from '../pipeline.js';
 import { injectWordFragments } from '../audio/word-fragments.js';
-import { planNarrationRegeneration, findStaleManifestEntries } from '../audio/narration-cache.js';
+import { hashNarrationInputs, planNarrationRegeneration, findStaleManifestEntries } from '../audio/narration-cache.js';
 import type { NarrationManifest } from '../audio/narration-cache.js';
+import { serializeVoiceMap } from '../audio/voices.js';
+import { serializeIpaLexicon } from '../audio/ssml-lexicon.js';
 
 const MANIFEST_PATH = join(ROOT, 'src', 'audio', 'manifest.json');
 const PRICE_PER_MILLION_CHARS = 16; // standard neural tier, per docs/superpowers/specs/2026-07-27-azure-tts-engine-design.md
@@ -64,10 +66,16 @@ async function main(): Promise<void> {
     processChapterFromSource(filePath, raw, artCtx, { registry: refRegistry, warnings: refWarnings }),
   );
 
-  const narrated = chapters.map((chapter) => ({
-    slug: chapter.meta.slug,
-    narratableText: injectWordFragments(chapter.html).narratableText,
-  }));
+  const voiceKey = serializeVoiceMap();
+  const lexiconKey = serializeIpaLexicon();
+  const narrated = chapters.map((chapter) => {
+    const narratableText = injectWordFragments(chapter.html).narratableText;
+    return {
+      slug: chapter.meta.slug,
+      hash: hashNarrationInputs(narratableText, voiceKey, lexiconKey),
+      charCount: narratableText.length,
+    };
+  });
 
   const manifest = await loadManifest();
   const plan = planNarrationRegeneration(narrated, manifest);

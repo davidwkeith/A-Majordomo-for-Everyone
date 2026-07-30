@@ -80,3 +80,42 @@ final class ReconcileTests: XCTestCase {
         XCTAssertEqual(result.regressionsDropped, 1)
     }
 }
+
+final class ValidateBoundariesTests: XCTestCase {
+    private func b(_ location: Int, _ length: Int, _ offset: Int) -> SpokenWordBoundary {
+        SpokenWordBoundary(range: NSRange(location: location, length: length), byteOffset: offset)
+    }
+
+    func testCleanListHasNoProblems() {
+        let problems = validateBoundaries([b(0, 3, 0), b(4, 5, 100), b(10, 2, 250)], totalUTF16Length: 12)
+        XCTAssertEqual(problems, [])
+    }
+
+    func testEmptyListIsValid() {
+        XCTAssertEqual(validateBoundaries([], totalUTF16Length: 0), [])
+    }
+
+    func testFlagsRangePastEndOfText() {
+        let problems = validateBoundaries([b(0, 3, 0), b(10, 5, 100)], totalUTF16Length: 12)
+        XCTAssertEqual(problems.count, 1)
+        XCTAssertTrue(problems[0].contains("outside the chapter text"))
+    }
+
+    func testFlagsOverlap() {
+        let problems = validateBoundaries([b(0, 5, 0), b(3, 4, 100)], totalUTF16Length: 20)
+        XCTAssertEqual(problems.count, 1)
+        XCTAssertTrue(problems[0].contains("inside the previous boundary"))
+    }
+
+    func testFlagsTextRegressionAndOverlapTogether() {
+        let problems = validateBoundaries([b(10, 3, 0), b(2, 3, 100)], totalUTF16Length: 20)
+        XCTAssertEqual(problems.count, 2)
+        XCTAssertTrue(problems.contains { $0.contains("regressed behind the previous start") })
+    }
+
+    func testFlagsAudioRegression() {
+        let problems = validateBoundaries([b(0, 3, 500), b(4, 3, 100)], totalUTF16Length: 20)
+        XCTAssertEqual(problems.count, 1)
+        XCTAssertTrue(problems[0].contains("audio offset"))
+    }
+}

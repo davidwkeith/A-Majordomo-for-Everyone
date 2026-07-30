@@ -54,6 +54,25 @@ Summary, not a restatement:
   merges / 0 drops; `fixtures/hud-phone.txt` (split-token merge, e.g.
   `(1-800` / `1-800-669-9777)`) reconciles at 1 duplicate / 1 merge / 0
   drops. Both PASS.
+- **Enhanced and premium voices emit word markers.** Ava (Premium), Ava
+  (Enhanced), Evan (Enhanced), and Zoe (Premium) all PASS the fixtures with
+  reconciliation counts identical to compact Samantha, and Ava (Premium)
+  PASSES a full-chapter run through the real pipeline extraction
+  (`injectWordFragments(...).narratableText`, 7,763 words / 49,071 chars
+  including callout and illustration narration): 7,754 reconciled
+  boundaries, ~57.4 minutes of audio, 0 overlaps, 0 ordering violations.
+  Nathan (Enhanced, `en-US`) and Jamie (Premium, `en-GB`) also PASS both
+  fixtures — Jamie with *zero* reconciliation noise, the cleanest tokenizer
+  measured. Note Jamie's identifier is `com.apple.voice.premium.en-GB.Malcolm`
+  (Apple renamed the voice but kept the old ID) — pin the identifier, not
+  the display name, in any pipeline config. This retires the per-voice
+  marker-emission ship-risk for the installed voices; any newly downloaded
+  voice still needs its own fixture pass before use, since Apple documents
+  marker support as per-voice optional.
+- **The pipeline's narratable text still carries endnote-backlink `↩`
+  glyphs** — 14 of them in the full-chapter export, each synthesized and
+  assigned a word boundary. Navigation chrome, not content; the narration
+  extraction should strip them before synthesis.
 - **The IPA attribute fixes acronym reading.**
   `AVSpeechSynthesisIPANotationAttribute` (applied via `NSAttributedString`)
   is verified working on macOS 26 — "HUD" is spoken as one syllable instead
@@ -85,6 +104,105 @@ wherever you run it from) for a listening check, alongside
 `dist/tts-spike/avspeech-boundaries.json` (the reconciled word boundaries) and
 a console dump of every boundary with its text range and `clipBeginSeconds`.
 
+## narrate
+
+`narrate` is the production sibling of the spike: same marker API and same
+reconciliation pass, but it takes a whole chapter as ordered *voice segments*
+and emits one audio file plus one boundary document. It is the process
+`npm run narrate` shells out to, so its I/O contract is load-bearing.
+
+```sh
+cd scripts/avspeech-spike
+swift run narrate fixtures/narrate-job-sample.json > boundaries.json
+```
+
+### Job JSON (argument)
+
+```json
+{
+  "audioOutput": "dist/tts-spike/narrate-sample.m4a",
+  "segments": [
+    { "voiceId": "com.apple.voice.enhanced.en-US.Nathan",
+      "text": "The lesson: documents have a geometry. ",
+      "ipa": [] },
+    { "voiceId": "com.apple.voice.premium.en-GB.Malcolm",
+      "text": "One observes that HUD has already published the relevant guidance.",
+      "ipa": [{ "start": 18, "length": 3, "notation": "hʌd" }] }
+  ]
+}
+```
+
+The segments' `text` values concatenated — *including* the ones that get
+skipped — are the chapter's narratable text, and every `textOffset` in the
+output indexes into that concatenation. `ipa` offsets are relative to the
+segment's own text and are applied as `AVSpeechSynthesisIPANotationAttribute`
+ranges, which change pronunciation without moving a single text offset.
+`voiceId` must be an installed voice's identifier (not its display name —
+Jamie is still `com.apple.voice.premium.en-GB.Malcolm`).
+
+### Output
+
+**stdout is the JSON document and nothing else** — no progress lines, no
+warnings — because the TS side parses it verbatim:
+
+```json
+{ "totalDurationSeconds": 5.962,
+  "boundaries": [{ "text": "The", "textOffset": 0, "wordLength": 3, "clipBeginSeconds": 0 }] }
+```
+
+All progress, reconciliation counts, and errors go to **stderr**. Audio is
+written to `audioOutput` as 44.1 kHz mono AAC (96 kbps) `.m4a` — each voice's
+native buffers are resampled through `AVAudioConverter` into one continuous
+file, so a voice change mid-chapter doesn't change the container format or
+reset the timeline.
+
+Exit codes: `0` only when the boundary list passed validation (in range of
+the chapter text, non-overlapping, monotonic in both text and audio). `1` for
+everything else: unreadable job, uninstalled voice (which prints the
+installed English voice identifiers to stderr), synthesis failure, per-chunk
+timeout, a validation failure, or the ceiling canary.
+
+### Deliberate behaviors
+
+- **Wordless segments are skipped, not synthesized.** A segment of pure
+  punctuation or whitespace between two voice spans still advances the text
+  cursor by its UTF-16 length, but produces no audio and no markers.
+  Synthesizing it would trip the zero-marker ceiling canary over text that has
+  nothing to say. The canary therefore applies only to chunks actually sent to
+  the synthesizer.
+- **Reconciliation runs per segment**, not across the whole chapter: a segment
+  seam is a real voice change, and merging a split token across it would fuse
+  two different speakers' words into one boundary.
+- **Marker byte offsets are converted at the chunk's native sample rate**,
+  then added to the accumulated *output* duration (`markerSeconds`). The two
+  clocks differ whenever a voice doesn't synthesize at 44.1 kHz, and mixing
+  them is how the timeline silently drifts.
+- **One `AVAudioConverter` is held for as long as the native format lasts**,
+  rebuilt only when the format actually changes. A converter carries resampler
+  state, so rebuilding it per buffer silently discards ~12 ms of priming
+  residual each time — worth ~6% of the audio, and a progressively worsening
+  read-along skew *within* a chunk. Note that any cache keyed on something
+  derived from the `AVAudioFormat` object misses every time: the synthesizer
+  hands out a fresh instance per buffer and `description` embeds its pointer.
+  `AVAudioFormat`'s own `==` compares stream descriptions, which is the
+  comparison that means what you want. The stderr line reports how many
+  resamplers were built — for a whole chapter that should be a small number
+  (one per distinct voice format), never one per buffer.
+- **Markers are buffered raw and converted only after the chunk completes**,
+  since the native format is knowable only from a buffer and markers may in
+  principle arrive first.
+- Like the spike, the synthesis driver spins the run loop rather than blocking
+  on a semaphore — both callbacks arrive as run-loop sources, so blocking
+  deadlocks (#174).
+
+Verified against the fixture on macOS 26 / Apple Silicon: exit 0, 16
+boundaries for 16 words across the two voices, 5.962 s of audio, the first
+Jamie boundary at `textOffset` 39 (exactly the first segment's UTF-16
+length), and `afinfo` reporting the same 5.962086 s the JSON does. The IPA path
+is confirmed live: substituting a five-syllable notation for `HUD` stretches
+that word's span from 0.192 s to 1.415 s while its `textOffset`/`wordLength`
+stay at 18/3.
+
 ## What it checks
 
 Unlike Azure's `WordBoundary`, the marker callback can't drift against a
@@ -110,11 +228,10 @@ Exits non-zero if any of those fail.
 
 ## Known gaps
 
-- **Enhanced/premium `en-US` voice marker support is untested.** No such
-  voice is installed on this machine (requires a manual download via System
-  Settings → Accessibility → Spoken Content), and marker emission is
-  documented as per-voice optional — this is the biggest remaining
-  ship-risk for AVSpeech.
+- ~~Enhanced/premium `en-US` voice marker support is untested.~~ Resolved —
+  see Results: all four downloaded enhanced/premium `en-US` voices emit
+  markers and PASS. The per-voice caveat stands for voices not yet checked
+  (notably any future `en-GB` download for the Jeeves passages).
 - **Ceiling stability across macOS versions is unconfirmed.** The
   ~2000-unit cutoff (1800-unit chunk margin) is only measured on this
   machine/OS; Apple documents neither the limit nor the chunking workaround.
