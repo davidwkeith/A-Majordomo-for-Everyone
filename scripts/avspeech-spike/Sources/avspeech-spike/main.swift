@@ -16,6 +16,7 @@
 
 import AVFoundation
 import Foundation
+import SpikeCore
 
 // Mirrors build/scripts/tts-spike.ts's SAMPLE_TEXT so the two spikes run
 // against identical text.
@@ -99,65 +100,6 @@ func resolveVoice(named identifier: String?) -> AVSpeechSynthesisVoice? {
     return bestAvailableVoice()
 }
 
-struct TextChunk {
-    // UTF-16 offset into the original source text — lets a chunk's own
-    // word-boundary ranges (which `willSpeakRangeOfSpeechString` reports
-    // relative to the chunk's utterance string) be translated back into the
-    // caller's coordinate space.
-    let startOffset: Int
-    let text: String
-}
-
-// AVSpeechSynthesizer silently stops firing `willSpeakRangeOfSpeechString`
-// altogether above ~2000 UTF-16 units of utterance text (measured: 2000
-// passes, 2003 fails, on this machine/voice) — it doesn't degrade or error,
-// the callback just never comes. Splitting on whitespace keeps each chunk
-// under that ceiling without cutting a word in half.
-func chunkText(_ text: String, maxUTF16Length: Int) -> [TextChunk] {
-    let nsText = text as NSString
-    let length = nsText.length
-    guard length > 0 else { return [] }
-
-    func isWhitespace(_ unit: unichar) -> Bool {
-        guard let scalar = Unicode.Scalar(unit) else { return false }
-        return CharacterSet.whitespacesAndNewlines.contains(scalar)
-    }
-
-    var chunks: [TextChunk] = []
-    var start = 0
-    while start < length {
-        let remaining = length - start
-        if remaining <= maxUTF16Length {
-            chunks.append(TextChunk(startOffset: start, text: nsText.substring(from: start)))
-            break
-        }
-
-        // Walk back from the window's edge to the nearest whitespace so the
-        // split falls between words, not inside one.
-        var splitAt = start + maxUTF16Length
-        var search = splitAt
-        while search > start && !isWhitespace(nsText.character(at: search)) {
-            search -= 1
-        }
-        if search > start {
-            splitAt = search
-        }
-        // else: no whitespace anywhere in the window (one very long token) —
-        // fall back to a hard cut at the window edge.
-
-        chunks.append(
-            TextChunk(startOffset: start, text: nsText.substring(with: NSRange(location: start, length: splitAt - start))))
-
-        // Skip the whitespace run so the next chunk doesn't start with
-        // leading space (which would shift its own word boundaries by one).
-        var nextStart = splitAt
-        while nextStart < length && isWhitespace(nsText.character(at: nextStart)) {
-            nextStart += 1
-        }
-        start = nextStart
-    }
-    return chunks
-}
 
 // MARK: - Argument parsing
 //

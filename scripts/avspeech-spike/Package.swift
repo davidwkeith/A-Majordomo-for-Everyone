@@ -5,6 +5,14 @@ let package = Package(
     name: "avspeech-spike",
     platforms: [.macOS(.v13)],
     targets: [
-        .executableTarget(name: "avspeech-spike", path: "Sources/avspeech-spike")
+        .target(name: "SpikeCore", path: "Sources/SpikeCore"),
+        .executableTarget(
+            name: "avspeech-spike",
+            dependencies: ["SpikeCore"],
+            path: "Sources/avspeech-spike"),
+        .testTarget(
+            name: "SpikeCoreTests",
+            dependencies: ["SpikeCore"],
+            path: "Tests/SpikeCoreTests"),
     ]
 )
