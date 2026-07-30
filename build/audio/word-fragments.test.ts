@@ -71,4 +71,44 @@ describe('injectWordFragments', () => {
       expect(narratableText.slice(f.charStart, f.charEnd)).toBe(f.text);
     }
   });
+
+  it('excludes endnote backlink glyphs from narration but leaves the visible HTML intact', () => {
+    // The endnotes epubOverride appends a `↩` backlink anchor to each note
+    // (see build/filters/endnotes.ts renderNotesSection). It's navigation
+    // chrome, not content — it must not be synthesized or given a word span.
+    const backlink =
+      '<a epub:type="backlink" role="doc-backlink" class="endnote-backlink" ' +
+      'href="#fnref-note1" aria-label="Back to reference 1">↩</a>';
+    const html =
+      `<li epub:type="endnote" id="en-note1" class="endnote">\n` +
+      `<p><span class="endnote-num">[1]</span> A note about Jeeves. ${backlink}</p></li>`;
+
+    const { html: outHtml, narratableText, fragments } = injectWordFragments(html);
+
+    expect(narratableText).not.toContain('↩');
+    expect(outHtml).toContain('>↩</a>');
+    expect(fragments.map((f) => f.text)).toEqual(['1', 'A', 'note', 'about', 'Jeeves']);
+    for (const f of fragments) {
+      expect(narratableText.slice(f.charStart, f.charEnd)).toBe(f.text);
+    }
+  });
+
+  it('excludes glossary backlinks and any words inside a backlink from narration', () => {
+    // The glossary backlink carries the same doc-backlink role; if its text
+    // ever becomes words instead of a glyph, it must still stay out of the
+    // narration stream.
+    const html =
+      '<p>Term — definition ' +
+      '<a epub:type="backlink" role="doc-backlink" class="gloss-backlink" ' +
+      'href="#gloss-1-ref" aria-label="Back to text">Back to text</a></p>';
+
+    const { html: outHtml, narratableText, fragments } = injectWordFragments(html);
+
+    expect(narratableText).not.toContain('Back to text');
+    expect(outHtml).toContain('>Back to text</a>');
+    expect(fragments.map((f) => f.text)).toEqual(['Term', 'definition']);
+    for (const f of fragments) {
+      expect(narratableText.slice(f.charStart, f.charEnd)).toBe(f.text);
+    }
+  });
 });

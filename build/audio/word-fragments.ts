@@ -56,6 +56,18 @@ const TOKEN_PATTERN = new RegExp(`${ENTITY_SOURCE}|${WORD_SOURCE}`, 'gu');
 const TAG_PATTERN = /<[^>]+>/g;
 
 /**
+ * Opening tags of navigation-only elements whose text must not be narrated:
+ * the `↩` backlink anchors the endnotes/glossary overrides append to each
+ * note (`role="doc-backlink"` / `epub:type="backlink"`). Their text stays in
+ * the visible HTML but is excluded from the narratable text — it would
+ * otherwise be synthesized aloud and assigned a word boundary.
+ */
+const NON_NARRATED_TAG = /^<[a-zA-Z][^>]*(?:role="doc-backlink"|epub:type="backlink")/;
+
+/** Extracts the element name from a tag, e.g. `</a>` → `a`. */
+const TAG_NAME = /^<\/?([a-zA-Z][a-zA-Z0-9-]*)/;
+
+/**
  * Wrap each word in the text nodes of `html` with `<span id="w{n}">`,
  * leaving tags, entities, and other non-word characters (whitespace,
  * punctuation) untouched. Ids are sequential within this call, starting
@@ -97,12 +109,40 @@ export function injectWordFragments(html: string, startIndex = 1): WordFragmentR
     narratableText += segment.slice(lastEnd);
   };
 
+  // While non-null, the walker is inside a navigation-only element (e.g. a
+  // doc-backlink anchor): text passes through to the HTML verbatim but is
+  // withheld from the narratable text and gets no fragment spans.
+  let suppressTagName: string | null = null;
+  let suppressDepth = 0;
+
   TAG_PATTERN.lastIndex = 0;
   let tagMatch: RegExpExecArray | null;
   while ((tagMatch = TAG_PATTERN.exec(html))) {
-    appendTextSegment(html.slice(cursor, tagMatch.index));
-    outHtml += tagMatch[0];
-    cursor = tagMatch.index + tagMatch[0].length;
+    const text = html.slice(cursor, tagMatch.index);
+    if (suppressTagName) {
+      outHtml += text;
+    } else {
+      appendTextSegment(text);
+    }
+
+    const tag = tagMatch[0];
+    outHtml += tag;
+    cursor = tagMatch.index + tag.length;
+
+    const name = TAG_NAME.exec(tag)?.[1];
+    if (suppressTagName) {
+      // Track nesting of same-named tags until the suppressed element closes.
+      if (name === suppressTagName) {
+        if (tag.startsWith('</')) {
+          if (--suppressDepth === 0) suppressTagName = null;
+        } else if (!tag.endsWith('/>')) {
+          suppressDepth++;
+        }
+      }
+    } else if (name && !tag.startsWith('</') && !tag.endsWith('/>') && NON_NARRATED_TAG.test(tag)) {
+      suppressTagName = name;
+      suppressDepth = 1;
+    }
   }
   appendTextSegment(html.slice(cursor));
 
