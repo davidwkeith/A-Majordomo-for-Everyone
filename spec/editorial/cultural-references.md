@@ -38,6 +38,7 @@ The following references are cleared for use in chapter text without explanation
 - Nam June Paik — the artist's job is to humanize technology (Creative domain epigraph)
 - Marcel Duchamp — the viewer completes the work (Introduction epigraph)
 - Alfred Hitchcock — suspense as information asymmetry (Introduction)
+- Mister Rogers — patient, unconditional teaching, getting down to the learner's eye level (Chapter 34, Teaching This to Someone You Love)
 
 **90s sitcom home crises (indexed by strategy):**
 

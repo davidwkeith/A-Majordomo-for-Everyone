@@ -88,10 +88,10 @@ This is the same principle the book teaches in Strategy 0: the specification is 
 Every illustration is specified where it appears. The chapter carries an inline reference:
 
 ```djot
-[eob-annotated-appendix]{.art}
+[eob-annotated]{.art}
 ```
 
-and next to the chapter lives a sidecar file — `eob-annotated-appendix.art.md` — whose frontmatter holds the image's format, size, and alt text, and whose body is the production brief for the illustrator.
+and next to the chapter lives a sidecar file — `eob-annotated.art.md` — whose frontmatter holds the image's format, size, and alt text, and whose body is the production brief for the illustrator. (This appendix reuses the same illustration as the Health chapter's EOB Skill — one spec, one image, referenced from both places, the same DRY principle this section is about to describe.)
 
 This is Strategy 0 applied to visual content. The `alt` field is what the reader needs to know. The brief is what the illustrator needs to produce. Both are written at the same time, by the same person, next to the text they accompany.
 
@@ -99,7 +99,7 @@ The sidecar is permanent. When the image is produced, the sidecar stays — it i
 
 That reference resolves to the figure that follows — or, until the image is produced, to a placeholder carrying the alt text and the brief. Either way the reader gets the specification doing its job:
 
-[eob-annotated-appendix]{.art}
+[eob-annotated]{.art}
 
 If you are using an AI agent to illustrate, your style guide is a system prompt — agentic instructions, not a reference document. The same specification interview that works for an insurance appeal works for an illustration: describe what you want precisely enough that someone who has never seen your vision can execute it correctly.
 
