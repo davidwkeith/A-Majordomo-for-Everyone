@@ -1,54 +1,48 @@
 ---
 format: png
-size: margin
+size: half-right
 alt: >
-  System 7 desktop icon for ELIZA, the 1966 chatbot: a speech bubble
-  containing a question mark, labeled 'ELIZA'.
+  A 1966 teletype printout of an exchange with ELIZA, the original
+  chatbot, its all-caps monospaced reply visible on perforated paper.
 ---
 
-A Mac System 7 app icon for ELIZA --- the 1966 MIT chatbot, the
-original AI conversation. Rendered in 8-bit pixel art as it would
-appear at 32x32 on a System 7 desktop. The icon: a **speech bubble**
-(rounded rectangle with a small triangular tail at the bottom-left)
-containing a single bold **question mark**. Flat 1-bit early-Mac
-look --- a Recycled / off-white interior with a Black pixel outline,
-the question mark in solid Black pixels.
+A torn sheet of 1960s teletype printer paper, hand-drawn in #2
+pencil, lying flat on a pure white field. Continuous-feed paper with
+the tractor-feed perforation holes visible along both edges, the top
+edge torn raggedly off the roll rather than cut straight. Printed in
+the mechanical all-caps monospace font of a Teletype Model 33 ---
+each character a blocky, slightly irregular typewriter impression,
+not modern typography:
 
-**Mac System 7 framing:** The icon sits on a small white square the
-same width as the icon plus a one-pixel border, with a two-pixel
-charcoal drop shadow offset down and right --- the unmistakable
-System 7 desktop icon presentation. Beneath the icon tile, in the
-hand-lettered Chicago-style font of the era (drawn in #2 pencil, not
-typeset), the label **"ELIZA"** in small block letters. Center the
-label under the tile. Nothing else.
+```
+YOU:  I AM UNHAPPY.
+ELIZA: DO YOU THINK COMING HERE WILL HELP YOU
+       NOT TO BE UNHAPPY
+```
 
-**Palette (from the master palette):** Black for the outline and
-question mark, Recycled for the bubble interior, Charcoal for the
-drop shadow. No more than three colors.
+The text is drawn as if struck by physical type --- slightly uneven
+ink density letter to letter, a character or two faint where the
+ribbon was thin, exactly the way an actual 1966 teletype printout
+looks. No color anywhere in the image --- pencil only, since this is
+a printed paper document, not a screen.
 
-**True pixel grid --- non-negotiable.** Actual 8-bit pixel art at
-~32x32 enlarged with nearest-neighbor scaling, not a 3D render and
-not a blocky illustration. Every pixel the same size. Hard edges, no
-anti-aliasing, no smooth curves --- the speech-bubble corners are
-stair-stepped pixel arcs, the question mark a cluster of right-angle
-pixels. The viewer should be able to count individual pixels along
-any edge.
-
-**No meta-elements --- non-negotiable.** No version number, no MIT
-logo, no color swatches, no hex codes, no callouts, no UI chrome
-beyond the System 7 icon tile and the "ELIZA" label directly beneath
-it. No surrounding desktop, no menu bar, no other icons.
+**No meta-elements --- non-negotiable.** No "ELIZA" wordmark outside
+the printed exchange itself, no date stamp, no caption, no color
+swatches, no callouts, no UI chrome. The printout is the entire
+image.
 
 **Background: pure white, `#FFFFFF`, flat.** Not gray, not off-white,
-not cream, not paper texture, not a notebook page, not a desktop
-pattern. The build removes white to create transparency, so any gray
-will show as a halo in the ePub.
+not cream, not a desktop pattern behind the printout (the printout's
+own paper texture and perforation holes are the object, not a
+background treatment). The build removes white to create
+transparency, so any gray will show as a halo in the ePub.
 
 **Watch out for:**
 
-- NO modern chat-app icon style (no SMS green bubble, no Discord, no
-  iMessage)
-- NO terminal window or DOS prompt --- ELIZA gets a System 7
-  GUI-style icon here on purpose
-- NO ear, no face, no Rogerian-therapist illustration --- just the
-  speech bubble with "?"
+- NO modern computer terminal or CRT screen --- ELIZA ran on a paper
+  teletype in 1966; this is a printout, not a monitor
+- NO smooth modern sans-serif font --- the mechanical, slightly
+  irregular teletype character shapes are the point
+- NO Rogerian-therapist illustration, no face, no ear, no speech
+  bubble --- the printed exchange itself carries the joke
+- NO real MIT logo or copyright text
