@@ -54,6 +54,25 @@ Summary, not a restatement:
   merges / 0 drops; `fixtures/hud-phone.txt` (split-token merge, e.g.
   `(1-800` / `1-800-669-9777)`) reconciles at 1 duplicate / 1 merge / 0
   drops. Both PASS.
+- **Enhanced and premium voices emit word markers.** Ava (Premium), Ava
+  (Enhanced), Evan (Enhanced), and Zoe (Premium) all PASS the fixtures with
+  reconciliation counts identical to compact Samantha, and Ava (Premium)
+  PASSES a full-chapter run through the real pipeline extraction
+  (`injectWordFragments(...).narratableText`, 7,763 words / 49,071 chars
+  including callout and illustration narration): 7,754 reconciled
+  boundaries, ~57.4 minutes of audio, 0 overlaps, 0 ordering violations.
+  Nathan (Enhanced, `en-US`) and Jamie (Premium, `en-GB`) also PASS both
+  fixtures — Jamie with *zero* reconciliation noise, the cleanest tokenizer
+  measured. Note Jamie's identifier is `com.apple.voice.premium.en-GB.Malcolm`
+  (Apple renamed the voice but kept the old ID) — pin the identifier, not
+  the display name, in any pipeline config. This retires the per-voice
+  marker-emission ship-risk for the installed voices; any newly downloaded
+  voice still needs its own fixture pass before use, since Apple documents
+  marker support as per-voice optional.
+- **The pipeline's narratable text still carries endnote-backlink `↩`
+  glyphs** — 14 of them in the full-chapter export, each synthesized and
+  assigned a word boundary. Navigation chrome, not content; the narration
+  extraction should strip them before synthesis.
 - **The IPA attribute fixes acronym reading.**
   `AVSpeechSynthesisIPANotationAttribute` (applied via `NSAttributedString`)
   is verified working on macOS 26 — "HUD" is spoken as one syllable instead
@@ -110,11 +129,10 @@ Exits non-zero if any of those fail.
 
 ## Known gaps
 
-- **Enhanced/premium `en-US` voice marker support is untested.** No such
-  voice is installed on this machine (requires a manual download via System
-  Settings → Accessibility → Spoken Content), and marker emission is
-  documented as per-voice optional — this is the biggest remaining
-  ship-risk for AVSpeech.
+- ~~Enhanced/premium `en-US` voice marker support is untested.~~ Resolved —
+  see Results: all four downloaded enhanced/premium `en-US` voices emit
+  markers and PASS. The per-voice caveat stands for voices not yet checked
+  (notably any future `en-GB` download for the Jeeves passages).
 - **Ceiling stability across macOS versions is unconfirmed.** The
   ~2000-unit cutoff (1800-unit chunk margin) is only measured on this
   machine/OS; Apple documents neither the limit nor the chunking workaround.
