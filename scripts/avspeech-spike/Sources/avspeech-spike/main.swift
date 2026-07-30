@@ -1,18 +1,15 @@
-// AVSpeechSynthesizer word-boundary spike — the local-TTS counterpart to
-// build/scripts/tts-spike.ts (Azure). Where the Azure spike checks that
-// `WordBoundary`'s reported offset lines up with the source string it was
-// given, `AVSpeechSynthesizer` has no separate wire encoding to drift
-// against: `willSpeakRangeOfSpeechString` always indexes into the exact
-// `String` handed to `AVSpeechUtterance`. Confirmed: the callback fires per
-// word (not per sentence) and holds up against Djot's smart-typography
-// substitutions (curly quotes, em/en dash, ellipsis). Also confirmed, on
-// real chapter-length text: it stops firing altogether above ~2000 UTF-16
-// units per utterance (worked around below via chunkText), and even within
-// a single chunk it occasionally reports overlapping or out-of-order
-// ranges around punctuation-heavy text (citations, phone numbers, footnote
-// markers) — see the README's Results section for the full breakdown.
-// See docs/superpowers/specs/2026-07-27-azure-tts-engine-design.md for why
-// this mattered enough to spike in the first place.
+// AVSpeechSynthesizer word-marker spike — the local-TTS counterpart to
+// build/scripts/tts-spike.ts (Azure). Uses the macOS 13+
+// write(_:toBufferCallback:toMarkerCallback:) API rather than the
+// willSpeakRangeOfSpeechString delegate: markers carry a byteSampleOffset
+// into the audio stream (empirically bytes — see #173), which is the
+// timing data ePub Media Overlays need and the delegate never provided.
+// The ~2000-UTF-16-unit ceiling on word reporting is in the synthesis
+// service itself (delegate AND markers, multiple engines), so input is
+// chunked below it; raw markers are then reconciled by SpikeCore's
+// three-rule pass (duplicates, regressions, forward overlaps — see
+// Reconcile.swift for why that isn't papering over the findings).
+// See docs/superpowers/specs/2026-07-29-avspeech-marker-migration-design.md.
 
 import AVFoundation
 import Foundation
@@ -25,41 +22,6 @@ let sampleText =
     + "situation\u{201D}\u{2014}the sort that wants patience, not haste. The Skill itself is "
     + "well-formed; it\u{2019}s the ePub\u{2019}s Djot source that needs a second look\u{2026} "
     + "three passes, minimum\u{2014}maybe four."
-
-struct WordBoundary {
-    let range: NSRange
-    let text: String
-}
-
-final class SpikeDelegate: NSObject, AVSpeechSynthesizerDelegate {
-    private let lock = NSLock()
-    private var collected: [WordBoundary] = []
-    private let sourceText: NSString
-
-    init(sourceText: String) {
-        self.sourceText = sourceText as NSString
-    }
-
-    var boundaries: [WordBoundary] {
-        lock.lock()
-        defer { lock.unlock() }
-        return collected
-    }
-
-    func speechSynthesizer(
-        _ synthesizer: AVSpeechSynthesizer,
-        willSpeakRangeOfSpeechString characterRange: NSRange,
-        utterance: AVSpeechUtterance
-    ) {
-        guard characterRange.location != NSNotFound,
-            characterRange.location + characterRange.length <= sourceText.length
-        else { return }
-        let word = sourceText.substring(with: characterRange)
-        lock.lock()
-        collected.append(WordBoundary(range: characterRange, text: word))
-        lock.unlock()
-    }
-}
 
 func eprint(_ message: String) {
     FileHandle.standardError.write((message + "\n").data(using: .utf8)!)
@@ -99,7 +61,6 @@ func resolveVoice(named identifier: String?) -> AVSpeechSynthesisVoice? {
     eprint("No voice matches \"\(identifier)\" — falling back to the best available en-US voice.")
     return bestAvailableVoice()
 }
-
 
 // MARK: - Argument parsing
 //
@@ -157,35 +118,43 @@ print("Voice: \(voice.identifier) (\(voice.name), quality=\(qualityLabel(voice.q
 let preview = text.count > 80 ? "\(text.prefix(80))…" : text
 print("Text (\(text.utf16.count) UTF-16 units): \(preview)")
 
+// MARK: - Synthesis
+
 let synthesizer = AVSpeechSynthesizer()
 
 let outputDir = URL(fileURLWithPath: "dist/tts-spike", isDirectory: true)
 try? FileManager.default.createDirectory(at: outputDir, withIntermediateDirectories: true)
-let outputURL = outputDir.appendingPathComponent("avspeech-spike.caf")
+let audioURL = outputDir.appendingPathComponent("avspeech-spike.caf")
+let jsonURL = outputDir.appendingPathComponent("avspeech-boundaries.json")
 
-// Stay comfortably under the ~2000 UTF-16-unit ceiling where
-// willSpeakRangeOfSpeechString stops firing (see chunkText's doc comment).
+// Stay comfortably under the ~2000 UTF-16-unit ceiling where the service
+// stops reporting word boundaries (see chunkText's doc comment).
 let maxChunkLength = 1800
 let chunks = chunkText(text, maxUTF16Length: maxChunkLength)
 if chunks.count > 1 {
     print(
         "Splitting into \(chunks.count) chunks (~\(maxChunkLength) UTF-16 units each) to stay under "
-            + "AVSpeechSynthesizer's word-boundary ceiling.")
+            + "the synthesis service's word-marker ceiling.")
 }
 
 var audioFile: AVAudioFile?
 var writeError: Error?
-var boundaries: [WordBoundary] = []
+var rawMarkers: [SpokenWordBoundary] = []
+var totalFrames = 0
+var bytesPerFrame = 0
+var sampleRate = 0.0
 
 for chunk in chunks {
     let utterance = AVSpeechUtterance(string: chunk.text)
     utterance.voice = voice
 
-    let delegate = SpikeDelegate(sourceText: chunk.text)
-    synthesizer.delegate = delegate
+    // Bytes written before this chunk — shifts marker offsets into
+    // whole-stream coordinates, mirroring startOffset for text ranges.
+    let byteBase = totalFrames * bytesPerFrame
 
+    var chunkMarkers: [SpokenWordBoundary] = []
     var finished = false
-    synthesizer.write(utterance) { buffer in
+    synthesizer.write(utterance, toBufferCallback: { buffer in
         guard let pcmBuffer = buffer as? AVAudioPCMBuffer else {
             writeError = NSError(
                 domain: "avspeech-spike", code: 1,
@@ -198,9 +167,12 @@ for chunk in chunks {
             finished = true
             return
         }
+        totalFrames += Int(pcmBuffer.frameLength)
+        sampleRate = pcmBuffer.format.sampleRate
+        bytesPerFrame = Int(pcmBuffer.format.streamDescription.pointee.mBytesPerFrame)
         do {
             if audioFile == nil {
-                audioFile = try AVAudioFile(forWriting: outputURL, settings: pcmBuffer.format.settings)
+                audioFile = try AVAudioFile(forWriting: audioURL, settings: pcmBuffer.format.settings)
             }
             // Every chunk shares one voice, so format stays consistent —
             // appending keeps the whole chapter as a single playable file.
@@ -209,16 +181,21 @@ for chunk in chunks {
             writeError = error
             finished = true
         }
-    }
+    }, toMarkerCallback: { markers in
+        for marker in markers where marker.mark == .word {
+            guard marker.textRange.location != NSNotFound else { continue }
+            chunkMarkers.append(
+                SpokenWordBoundary(
+                    range: NSRange(
+                        location: marker.textRange.location + chunk.startOffset,
+                        length: marker.textRange.length),
+                    byteOffset: marker.byteSampleOffset + byteBase))
+        }
+    })
 
-    // `write(_:toBufferCallback:)` and `willSpeakRangeOfSpeechString` deliver
-    // their results as run-loop sources (XPC replies from the system
-    // speech-synthesis service), not raw GCD callbacks. Blocking the main
-    // thread on a DispatchSemaphore — as an earlier version of this script
-    // did — parks the thread in a kernel-level semaphore_wait_trap that never
-    // pumps the run loop, so those replies queue up and are never delivered:
-    // a permanent deadlock, not a slow synthesis. Spinning the run loop here
-    // is what lets them arrive.
+    // Both callbacks are delivered as run-loop sources (XPC replies from the
+    // system speech-synthesis service). Blocking the thread on a semaphore
+    // would deadlock (see #174) — spinning the run loop lets them arrive.
     let deadline = Date().addingTimeInterval(30)
     while !finished && Date() < deadline {
         RunLoop.current.run(mode: .default, before: Date().addingTimeInterval(0.05))
@@ -231,13 +208,17 @@ for chunk in chunks {
         break
     }
 
-    // Translate this chunk's self-relative ranges back into the full
-    // source text's coordinate space so downstream checks (and callers)
-    // see one continuous set of boundaries, as if chunking never happened.
-    for boundary in delegate.boundaries {
-        let shifted = NSRange(location: boundary.range.location + chunk.startOffset, length: boundary.range.length)
-        boundaries.append(WordBoundary(range: shifted, text: boundary.text))
+    // Ceiling canary: a chunk with zero word markers means the undocumented
+    // ceiling moved under us (OS update, different voice). The failure mode
+    // is silent by design, so make it loud.
+    if chunkMarkers.isEmpty {
+        eprint(
+            "FAIL: chunk at offset \(chunk.startOffset) (\(chunk.text.utf16.count) UTF-16 units) "
+                + "produced zero word markers — the word-reporting ceiling may have shifted below "
+                + "\(maxChunkLength) units on this OS/voice.")
+        exit(1)
     }
+    rawMarkers.append(contentsOf: chunkMarkers)
 }
 
 if let writeError {
@@ -245,33 +226,72 @@ if let writeError {
     exit(1)
 }
 
-// MARK: - Verify boundaries
+// MARK: - Reconcile & verify
 
+let result = reconcile(rawMarkers)
+let boundaries = result.boundaries
 let nsText = text as NSString
 let wordCount = text.split(whereSeparator: { !$0.isLetter && !$0.isNumber }).filter { !$0.isEmpty }.count
 
-print("\n\(boundaries.count) word boundaries captured (~\(wordCount) words in source text).")
+print("\n\(rawMarkers.count) raw word markers → \(boundaries.count) reconciled boundaries (~\(wordCount) words in source text).")
+print(
+    "reconciliation: \(result.duplicatesCollapsed) duplicate tokenizations collapsed, "
+        + "\(result.overlapsMerged) split tokens merged, \(result.regressionsDropped) regressing re-reports dropped.")
 for boundary in boundaries {
     let end = boundary.range.location + boundary.range.length
-    print("  [\(boundary.range.location), \(end)) \(boundary.text)")
+    guard end <= nsText.length else { continue }
+    let seconds = Double(boundary.byteOffset) / Double(max(bytesPerFrame, 1)) / max(sampleRate, 1)
+    print(String(format: "  [%d, %d) %8.3fs %@", boundary.range.location, end, seconds, nsText.substring(with: boundary.range)))
 }
 
 var outOfBounds = 0
 var overlaps = 0
+var audioRegressions = 0
 var previousEnd = 0
+var previousOffset = -1
 for boundary in boundaries {
     let start = boundary.range.location
     let end = start + boundary.range.length
     if end > nsText.length { outOfBounds += 1 }
     if start < previousEnd { overlaps += 1 }
+    if boundary.byteOffset < previousOffset { audioRegressions += 1 }
     previousEnd = max(previousEnd, end)
+    previousOffset = boundary.byteOffset
 }
 
-print("\nAudio written to \(outputURL.path)")
+// MARK: - JSON dump (the shape a smil.ts adapter consumes)
+
+struct BoundaryRecord: Codable {
+    let text: String
+    let textOffset: Int
+    let wordLength: Int
+    let clipBeginSeconds: Double
+}
+
+let records = boundaries.compactMap { boundary -> BoundaryRecord? in
+    let end = boundary.range.location + boundary.range.length
+    guard end <= nsText.length else { return nil }
+    return BoundaryRecord(
+        text: nsText.substring(with: boundary.range),
+        textOffset: boundary.range.location,
+        wordLength: boundary.range.length,
+        clipBeginSeconds: Double(boundary.byteOffset) / Double(max(bytesPerFrame, 1)) / max(sampleRate, 1))
+}
+do {
+    let encoder = JSONEncoder()
+    encoder.outputFormatting = [.prettyPrinted, .sortedKeys]
+    try encoder.encode(records).write(to: jsonURL)
+} catch {
+    eprint("Could not write \(jsonURL.path): \(error.localizedDescription)")
+    exit(1)
+}
+
+print("\nAudio written to \(audioURL.path)")
+print("Boundaries written to \(jsonURL.path)")
 
 var failed = false
 if boundaries.isEmpty {
-    print("FAIL: no willSpeakRangeOfSpeechString callbacks fired for this voice.")
+    print("FAIL: no word markers were delivered for this voice.")
     failed = true
 } else if Double(boundaries.count) < Double(wordCount) * 0.5 {
     print(
@@ -284,11 +304,15 @@ if outOfBounds > 0 {
     failed = true
 }
 if overlaps > 0 {
-    print("FAIL: \(overlaps) boundary range(s) overlap the previous one.")
+    print("FAIL: \(overlaps) reconciled boundary range(s) still overlap the previous one.")
+    failed = true
+}
+if audioRegressions > 0 {
+    print("FAIL: \(audioRegressions) reconciled boundary audio offset(s) go backwards.")
     failed = true
 }
 
 if failed {
     exit(1)
 }
-print("\nPASS: word-level boundaries are in range and sequential against the source text.")
+print("\nPASS: reconciled word boundaries are in range, non-overlapping, and audio-monotonic.")
