@@ -116,6 +116,25 @@ cd scripts/avspeech-spike
 swift run narrate fixtures/narrate-job-sample.json > boundaries.json
 ```
 
+**Always run `npm run narrate` (and this binary directly) in the
+foreground, never backgrounded.** Both callbacks in the synthesis driver
+(`toBufferCallback`/`toMarkerCallback`) arrive as run-loop sources — XPC
+replies from the system speech-synthesis service — which is why the driver
+spins `RunLoop.current.run(...)` instead of blocking on a semaphore (#174).
+Backgrounding the parent process (verified in a sandboxed CI-style shell
+during Task 9's live-verification pass) can silently stop those replies
+from being delivered: the job stalls partway through a chunk with no error,
+no crash, and no process left alive after the fact — a full-chapter run
+that should finish in well under a minute (AVSpeech synthesizes at roughly
+60–70× real time) instead produced only a few chunks' worth of audio and
+then nothing for 36+ minutes. The identical job reproduced cleanly with no
+stall the moment it ran in the foreground. This looks like an environment/
+sandboxing property of backgrounded processes losing access to the
+speech-synthesis XPC connection, not a bug in this CLI or in
+`build/scripts/narrate.ts` — but until it's root-caused further, treat
+backgrounding as unsupported for anything that calls into
+`AVSpeechSynthesizer`.
+
 ### Job JSON (argument)
 
 ```json
@@ -155,6 +174,30 @@ written to `audioOutput` as 44.1 kHz mono AAC (96 kbps) `.m4a` — each voice's
 native buffers are resampled through `AVAudioConverter` into one continuous
 file, so a voice change mid-chapter doesn't change the container format or
 reset the timeline.
+
+**The boundary contract is "speakable words only."** AVSpeechSynthesizer's
+marker API reports `.word`-type boundaries for isolated punctuation tokens
+too — an em dash, a slash, an ampersand, a section mark, a list-bullet
+hyphen — even though nothing worth highlighting was spoken there. A chapter
+dense with bracketed `/`-separated option lists or `§`-style legal citations
+(`build/scripts/narrate.ts`'s live run against
+`src/content/.../04-home/index.dj` hit 262 of these across 7,743 raw
+boundaries) can push enough of them through to fail
+`build/audio/avspeech-boundaries.ts`'s cross-check even though nothing is
+actually misaligned. `filterSpeakableBoundaries`
+(`Sources/SpikeCore/Reconcile.swift`) drops any boundary whose text has no
+alphanumeric content, running after `reconcile` (punctuation markers are
+real tokens and still need to participate in duplicate/merge/regression
+resolution) and before `validateBoundaries` (which holds unchanged on a
+filtered subsequence of an already monotonic, non-overlapping list).
+Punctuation-only markers are never emitted in `BoundaryOutput`; their time
+is silently absorbed into the *preceding* word's clip, since
+`toWordBoundaryRecords` already runs boundaries end-to-end with no gaps.
+The stderr summary reports how many were dropped, e.g.:
+
+```
+narrate: 262 punctuation-only marker(s) dropped (no speakable content), 7481 boundaries remain
+```
 
 Exit codes: `0` only when the boundary list passed validation (in range of
 the chapter text, non-overlapping, monotonic in both text and audio). `1` for

@@ -81,6 +81,64 @@ final class ReconcileTests: XCTestCase {
     }
 }
 
+final class FilterSpeakableBoundariesTests: XCTestCase {
+    private func b(_ location: Int, _ length: Int, _ offset: Int) -> SpokenWordBoundary {
+        SpokenWordBoundary(range: NSRange(location: location, length: length), byteOffset: offset)
+    }
+
+    func testDropsPunctuationOnlyBoundariesAndReportsTheCount() {
+        // "Trades — plumbing" : "Trades" [0,6), "—" [7,8), "plumbing" [9,17)
+        let text = "Trades — plumbing" as NSString
+        let markers = [b(0, 6, 0), b(7, 1, 1000), b(9, 8, 2000)]
+        let result = filterSpeakableBoundaries(markers, sourceText: text)
+        XCTAssertEqual(result.kept, [b(0, 6, 0), b(9, 8, 2000)])
+        XCTAssertEqual(result.droppedCount, 1)
+    }
+
+    func testKeepsAlphanumericTokensIncludingSingleDigitsAndHyphenatedWords() {
+        let text = "top-notch 4 you" as NSString
+        let markers = [b(0, 9, 0), b(10, 1, 100), b(12, 3, 200)]
+        let result = filterSpeakableBoundaries(markers, sourceText: text)
+        XCTAssertEqual(result.kept, markers)
+        XCTAssertEqual(result.droppedCount, 0)
+    }
+
+    func testDropsEachPunctuationVarietyObservedInTheFullChapterCrossCheck() {
+        // Every symbol the 04-home live run's cross-check flagged as
+        // unmatched before this filter existed: em dash, slash, ampersand,
+        // section mark(s), plus sign, parenthesis, list-bullet hyphen, and
+        // the literal triple-hyphen separator. Each is interleaved with a
+        // speakable "w" boundary, built up token by token so the recorded
+        // offsets always match the actual backing string.
+        let punctuationTokens = ["—", "/", "&", "§", "§§", "+", "(", "-", "---"]
+        var markers: [SpokenWordBoundary] = []
+        var text = ""
+        var nextOffset = 0
+        for token in punctuationTokens {
+            markers.append(b((text as NSString).length, 1, nextOffset))
+            text += "w"
+            nextOffset += 100
+            markers.append(b((text as NSString).length, (token as NSString).length, nextOffset))
+            text += token
+            nextOffset += 100
+        }
+        let nsText = text as NSString
+
+        let result = filterSpeakableBoundaries(markers, sourceText: nsText)
+        XCTAssertEqual(result.kept.count, punctuationTokens.count) // only the "w" boundaries survive
+        XCTAssertEqual(result.droppedCount, punctuationTokens.count)
+        for boundary in result.kept {
+            XCTAssertEqual(nsText.substring(with: boundary.range), "w")
+        }
+    }
+
+    func testEmptyInputYieldsEmptyResult() {
+        let result = filterSpeakableBoundaries([], sourceText: "" as NSString)
+        XCTAssertTrue(result.kept.isEmpty)
+        XCTAssertEqual(result.droppedCount, 0)
+    }
+}
+
 final class ValidateBoundariesTests: XCTestCase {
     private func b(_ location: Int, _ length: Int, _ offset: Int) -> SpokenWordBoundary {
         SpokenWordBoundary(range: NSRange(location: location, length: length), byteOffset: offset)

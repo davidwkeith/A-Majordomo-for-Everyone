@@ -329,10 +329,22 @@ if audioFile == nil {
 }
 audioFile = nil  // flush and close the AAC file before anything reads it
 
+// MARK: - Filter punctuation-only boundaries
+//
+// Must run after reconciliation (punctuation markers are real tokens in
+// the stream and still need to participate in duplicate/merge/regression
+// resolution) and before validation (which holds unchanged on any ordered
+// subsequence of an already monotonic, non-overlapping list). See
+// SpikeCore/Reconcile.swift's doc comment on filterSpeakableBoundaries for
+// why this exists and why dropping is the right behavior, not a
+// workaround.
+let (speakableBoundaries, punctuationOnlyDropped) = filterSpeakableBoundaries(
+    allBoundaries, sourceText: chapterText)
+
 // MARK: - Validate
 
 let totalDurationSeconds = Double(framesWritten) / targetFormat.sampleRate
-let problems = validateBoundaries(allBoundaries, totalUTF16Length: chapterText.length)
+let problems = validateBoundaries(speakableBoundaries, totalUTF16Length: chapterText.length)
 
 eprint(
     "narrate: \(job.segments.count) segments (\(skippedSegments) wordless, skipped), "
@@ -344,6 +356,9 @@ eprint(
     "narrate: reconciliation: \(duplicatesCollapsed) duplicates collapsed, "
         + "\(overlapsMerged) split tokens merged, \(regressionsDropped) regressions dropped")
 eprint(
+    "narrate: \(punctuationOnlyDropped) punctuation-only marker(s) dropped (no speakable "
+        + "content), \(speakableBoundaries.count) boundaries remain")
+eprint(
     String(
         format: "narrate: %.3fs of audio → %@", totalDurationSeconds, outURL.path))
 
@@ -352,7 +367,7 @@ if !problems.isEmpty {
     if problems.count > 20 { eprint("narrate: FAIL: …and \(problems.count - 20) more") }
     die("\(problems.count) boundary validation failure(s)")
 }
-if allBoundaries.isEmpty {
+if speakableBoundaries.isEmpty {
     die("no word boundaries were produced")
 }
 
@@ -360,7 +375,7 @@ if allBoundaries.isEmpty {
 
 let output = BoundaryOutput(
     totalDurationSeconds: totalDurationSeconds,
-    boundaries: allBoundaries.map { boundary in
+    boundaries: speakableBoundaries.map { boundary in
         ChapterBoundary(
             text: chapterText.substring(with: boundary.range),
             textOffset: boundary.range.location,

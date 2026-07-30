@@ -89,6 +89,44 @@ public func reconcile(_ markers: [SpokenWordBoundary]) -> ReconcileResult {
         overlapsMerged: merges, regressionsDropped: drops)
 }
 
+/// Drop boundaries with no speakable (alphanumeric) content, after
+/// reconciliation and before validation.
+///
+/// AVSpeechSynthesizer's marker API reports `.word`-type boundaries for
+/// isolated punctuation tokens too — em dash, slash, ampersand, section
+/// mark, list-bullet hyphens — that were never meant to be "words" for
+/// read-along highlighting (`build/audio/word-fragments.ts`'s `WORD_SOURCE`
+/// only ever wraps letter/number runs in a fragment span). A chapter dense
+/// with bracketed `/`-separated option lists or `§`-style citations can push
+/// enough of these through to fail the boundary/fragment cross-check
+/// (#167) even though nothing is actually misaligned.
+///
+/// Filtering happens here — after `reconcile`, which still needs the full
+/// raw token stream (punctuation markers included) to resolve duplicate/
+/// merge/regression noise, and before `validateBoundaries`, which holds
+/// unchanged on any ordered subsequence of an already monotonic,
+/// non-overlapping list. Dropping a boundary here means the *previous*
+/// word's clip silently extends through that span once
+/// `toWordBoundaryRecords` runs the result through SMIL adaptation
+/// (`build/audio/avspeech-boundaries.ts`: clips run to the next boundary,
+/// so removing one just widens its predecessor) — the punctuation's pause
+/// is absorbed into the preceding word's highlight instead of getting one
+/// of its own, matching the existing "contiguous clips, no gaps" design.
+public func filterSpeakableBoundaries(
+    _ boundaries: [SpokenWordBoundary], sourceText: NSString
+) -> (kept: [SpokenWordBoundary], droppedCount: Int) {
+    var kept: [SpokenWordBoundary] = []
+    var dropped = 0
+    for boundary in boundaries {
+        if hasSpeakableContent(sourceText.substring(with: boundary.range)) {
+            kept.append(boundary)
+        } else {
+            dropped += 1
+        }
+    }
+    return (kept, dropped)
+}
+
 /// Post-reconciliation invariants, shared by the spike and the `narrate`
 /// CLI: every boundary must index into the source text, boundaries must not
 /// overlap, and both axes (text start, audio offset) must advance
@@ -97,6 +135,9 @@ public func reconcile(_ markers: [SpokenWordBoundary]) -> ReconcileResult {
 ///
 /// This is deliberately separate from `reconcile` — reconcile *resolves*
 /// known tokenizer noise, this *proves* nothing unresolved slipped through.
+/// Holds equally well on a subsequence filtered by
+/// `filterSpeakableBoundaries`: removing elements from an already sorted,
+/// non-overlapping list cannot introduce an overlap or a regression.
 public func validateBoundaries(_ boundaries: [SpokenWordBoundary], totalUTF16Length: Int) -> [String] {
     var problems: [String] = []
     var previousEnd = 0
