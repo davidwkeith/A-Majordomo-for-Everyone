@@ -130,3 +130,8 @@ Exits non-zero if any of those fail.
   (pitch, rate ramping) at every seam — acceptable for this spike's pass/fail
   checks, but a real narration pipeline would want to confirm that doesn't
   read as choppy over a full chapter.
+- When input text begins with punctuation (e.g. a literal `...`), the
+  engine's first word marker starts at offset 1 rather than 0 — a future
+  SMIL adapter consuming `avspeech-boundaries.json` will see a one-character
+  gap at the very start. (This is observed engine behavior; the
+  `fixtures/hud-phone.txt` run exercises it.)

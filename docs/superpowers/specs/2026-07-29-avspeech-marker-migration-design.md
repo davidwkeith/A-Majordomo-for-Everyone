@@ -129,3 +129,7 @@ graduates from spike to pipeline, not now.
   (Azure documents `<say-as>`/lexicon overrides either way).
 - **Apple Feedback** for the ceiling, with the bisected 2000/2003 repro.
 - Engine decision and pipeline integration (#161, #167).
+- The manuscript acronym audit found further word-read candidates without
+  entries (ERISA, SAMHSA, POLST, WARN), and the FEMA/OSHA/SNAP entries are
+  presumptive (only HUD was measured mis-read in #173) — both to be resolved
+  in a listening pass when the AVSpeech path graduates to the pipeline.

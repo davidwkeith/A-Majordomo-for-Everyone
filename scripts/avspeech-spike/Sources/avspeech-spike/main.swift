@@ -140,6 +140,7 @@ if chunks.count > 1 {
 var audioFile: AVAudioFile?
 var writeError: Error?
 var rawMarkers: [SpokenWordBoundary] = []
+var nonWordMarkCount = 0
 var totalFrames = 0
 var bytesPerFrame = 0
 var sampleRate = 0.0
@@ -182,7 +183,11 @@ for chunk in chunks {
             finished = true
         }
     }, toMarkerCallback: { markers in
-        for marker in markers where marker.mark == .word {
+        for marker in markers {
+            guard marker.mark == .word else {
+                nonWordMarkCount += 1
+                continue
+            }
             guard marker.textRange.location != NSNotFound else { continue }
             chunkMarkers.append(
                 SpokenWordBoundary(
@@ -228,12 +233,34 @@ if let writeError {
 
 // MARK: - Reconcile & verify
 
+// Raw-marker audio-monotonicity canary: the entire three-rule reconciliation
+// pass rests on the empirical claim that raw marker audio offsets never
+// regress (text ranges get noisy; audio does not — see Reconcile.swift). A
+// raw audio regression has never been observed across any measured run; if
+// one shows up here, that assumption is falsified and reconciliation would
+// be silently laundering a real ordering defect instead of resolving noise.
+// So this must fail loudly, not be reconciled away.
+for index in rawMarkers.indices.dropFirst() {
+    let previous = rawMarkers[index - 1]
+    let current = rawMarkers[index]
+    if current.byteOffset < previous.byteOffset {
+        eprint(
+            "FAIL: raw marker \(index) audio offset regressed (previous byteOffset "
+                + "\(previous.byteOffset) at range \(previous.range) → marker \(index) byteOffset "
+                + "\(current.byteOffset) at range \(current.range)). Raw audio offsets have never "
+                + "regressed in any measured run; this falsifies the assumption the reconciliation "
+                + "pass relies on.")
+        exit(1)
+    }
+}
+
 let result = reconcile(rawMarkers)
 let boundaries = result.boundaries
 let nsText = text as NSString
 let wordCount = text.split(whereSeparator: { !$0.isLetter && !$0.isNumber }).filter { !$0.isEmpty }.count
 
 print("\n\(rawMarkers.count) raw word markers → \(boundaries.count) reconciled boundaries (~\(wordCount) words in source text).")
+print("\(nonWordMarkCount) non-word markers ignored (sentence/paragraph/phoneme).")
 print(
     "reconciliation: \(result.duplicatesCollapsed) duplicate tokenizations collapsed, "
         + "\(result.overlapsMerged) split tokens merged, \(result.regressionsDropped) regressing re-reports dropped.")
