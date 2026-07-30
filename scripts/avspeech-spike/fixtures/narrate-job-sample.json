@@ -1,0 +1,15 @@
+{
+  "audioOutput": "dist/tts-spike/narrate-sample.m4a",
+  "segments": [
+    {
+      "voiceId": "com.apple.voice.enhanced.en-US.Nathan",
+      "text": "The lesson: documents have a geometry. ",
+      "ipa": []
+    },
+    {
+      "voiceId": "com.apple.voice.premium.en-GB.Malcolm",
+      "text": "One observes that HUD has already published the relevant guidance.",
+      "ipa": [{ "start": 18, "length": 3, "notation": "hʌd" }]
+    }
+  ]
+}

@@ -104,6 +104,94 @@ wherever you run it from) for a listening check, alongside
 `dist/tts-spike/avspeech-boundaries.json` (the reconciled word boundaries) and
 a console dump of every boundary with its text range and `clipBeginSeconds`.
 
+## narrate
+
+`narrate` is the production sibling of the spike: same marker API and same
+reconciliation pass, but it takes a whole chapter as ordered *voice segments*
+and emits one audio file plus one boundary document. It is the process
+`npm run narrate` shells out to, so its I/O contract is load-bearing.
+
+```sh
+cd scripts/avspeech-spike
+swift run narrate fixtures/narrate-job-sample.json > boundaries.json
+```
+
+### Job JSON (argument)
+
+```json
+{
+  "audioOutput": "dist/tts-spike/narrate-sample.m4a",
+  "segments": [
+    { "voiceId": "com.apple.voice.enhanced.en-US.Nathan",
+      "text": "The lesson: documents have a geometry. ",
+      "ipa": [] },
+    { "voiceId": "com.apple.voice.premium.en-GB.Malcolm",
+      "text": "One observes that HUD has already published the relevant guidance.",
+      "ipa": [{ "start": 18, "length": 3, "notation": "hʌd" }] }
+  ]
+}
+```
+
+The segments' `text` values concatenated — *including* the ones that get
+skipped — are the chapter's narratable text, and every `textOffset` in the
+output indexes into that concatenation. `ipa` offsets are relative to the
+segment's own text and are applied as `AVSpeechSynthesisIPANotationAttribute`
+ranges, which change pronunciation without moving a single text offset.
+`voiceId` must be an installed voice's identifier (not its display name —
+Jamie is still `com.apple.voice.premium.en-GB.Malcolm`).
+
+### Output
+
+**stdout is the JSON document and nothing else** — no progress lines, no
+warnings — because the TS side parses it verbatim:
+
+```json
+{ "totalDurationSeconds": 5.59,
+  "boundaries": [{ "text": "The", "textOffset": 0, "wordLength": 3, "clipBeginSeconds": 0 }] }
+```
+
+All progress, reconciliation counts, and errors go to **stderr**. Audio is
+written to `audioOutput` as 44.1 kHz mono AAC (96 kbps) `.m4a` — each voice's
+native buffers are resampled through `AVAudioConverter` into one continuous
+file, so a voice change mid-chapter doesn't change the container format or
+reset the timeline.
+
+Exit codes: `0` only when the boundary list passed validation (in range of
+the chapter text, non-overlapping, monotonic in both text and audio). `1` for
+everything else: unreadable job, uninstalled voice (which prints the
+installed English voice identifiers to stderr), synthesis failure, per-chunk
+timeout, a validation failure, or the ceiling canary.
+
+### Deliberate behaviors
+
+- **Wordless segments are skipped, not synthesized.** A segment of pure
+  punctuation or whitespace between two voice spans still advances the text
+  cursor by its UTF-16 length, but produces no audio and no markers.
+  Synthesizing it would trip the zero-marker ceiling canary over text that has
+  nothing to say. The canary therefore applies only to chunks actually sent to
+  the synthesizer.
+- **Reconciliation runs per segment**, not across the whole chapter: a segment
+  seam is a real voice change, and merging a split token across it would fuse
+  two different speakers' words into one boundary.
+- **Marker byte offsets are converted at the chunk's native sample rate**,
+  then added to the accumulated *output* duration (`markerSeconds`). The two
+  clocks differ whenever a voice doesn't synthesize at 44.1 kHz, and mixing
+  them is how the timeline silently drifts.
+- **Markers are buffered raw and converted only after the chunk completes**,
+  since the native format is knowable only from a buffer and markers may in
+  principle arrive first.
+- Like the spike, the synthesis driver spins the run loop rather than blocking
+  on a semaphore — both callbacks arrive as run-loop sources, so blocking
+  deadlocks (#174).
+
+Verified against the fixture on macOS 26 / Apple Silicon: exit 0, 16
+boundaries for 16 words across the two voices, 5.590 s of audio, the first
+Jamie boundary at `textOffset` 39 (exactly the first segment's UTF-16
+length), and `afinfo` reporting the same 5.5898 s the JSON does. The IPA path
+is confirmed live: substituting a five-syllable notation for `HUD` stretches
+that word's span from 0.192 s to 1.415 s while its `textOffset`/`wordLength`
+stay at 18/3.
+
 ## What it checks
 
 Unlike Azure's `WordBoundary`, the marker callback can't drift against a

@@ -10,6 +10,10 @@ let package = Package(
             name: "avspeech-spike",
             dependencies: ["SpikeCore"],
             path: "Sources/avspeech-spike"),
+        .executableTarget(
+            name: "narrate",
+            dependencies: ["SpikeCore"],
+            path: "Sources/narrate"),
         .testTarget(
             name: "SpikeCoreTests",
             dependencies: ["SpikeCore"],
