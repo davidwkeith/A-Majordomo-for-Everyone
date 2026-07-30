@@ -31,6 +31,37 @@ const PROPER_NOUN_RULES: LexiconRule[] = [
 ];
 
 /**
+ * Acronyms conventionally read as words that at least one target engine
+ * spells out letter-by-letter (AVSpeechSynthesizer reads "HUD" as
+ * "H-U-D" — measured in #173). Engine-neutral table, realized two ways:
+ * `alias` feeds the Azure `<sub>` path via RULES below; `ipa` feeds the
+ * AVSpeech path via `findIpaMatches` (applied as
+ * AVSpeechSynthesisIPANotationAttribute ranges, which leave the source
+ * text — and therefore every boundary offset — untouched).
+ *
+ * Spelled-out acronyms (IRS, CFPB, VA, AI…) are correct as-is and must
+ * NOT get entries.
+ */
+interface AcronymEntry {
+  /** Must include the global flag. */
+  pattern: RegExp;
+  alias: string;
+  ipa: string;
+}
+
+const ACRONYM_ENTRIES: AcronymEntry[] = [
+  { pattern: /\bHUD\b/g, alias: 'hud', ipa: 'hʌd' },
+  { pattern: /\bFEMA\b/g, alias: 'fema', ipa: 'ˈfimə' },
+  { pattern: /\bOSHA\b/g, alias: 'osha', ipa: 'ˈoʊʃə' },
+  { pattern: /\bSNAP\b/g, alias: 'snap', ipa: 'snæp' },
+];
+
+const ACRONYM_RULES: LexiconRule[] = ACRONYM_ENTRIES.map((entry) => ({
+  pattern: entry.pattern,
+  alias: () => entry.alias,
+}));
+
+/**
  * The book's episode-citation format (`spec/outline.md`: `[Show:SxEy
  * "Title"](wikipedia-url), Year`) renders as literal link text, e.g.
  * "Seinfeld:S3E3" — read verbatim, a TTS engine says "Seinfeld colon S
@@ -42,7 +73,7 @@ const EPISODE_REFERENCE_RULE: LexiconRule = {
   alias: (match) => `${match[1]}, season ${Number(match[2])}, episode ${Number(match[3])}`,
 };
 
-const RULES: LexiconRule[] = [...PROPER_NOUN_RULES, EPISODE_REFERENCE_RULE];
+const RULES: LexiconRule[] = [...PROPER_NOUN_RULES, ...ACRONYM_RULES, EPISODE_REFERENCE_RULE];
 
 /**
  * Find every lexicon match in `text`, left to right. Rules are tried in
@@ -65,6 +96,37 @@ export function findLexiconMatches(text: string): LexiconMatch[] {
     }
   }
 
+  return matches.sort((a, b) => a.charStart - b.charStart);
+}
+
+export interface IpaMatch {
+  /** Character offsets into the source text, [charStart, charEnd). */
+  charStart: number;
+  charEnd: number;
+  original: string;
+  /** IPA notation for AVSpeechSynthesisIPANotationAttribute. */
+  ipa: string;
+}
+
+/**
+ * Find every acronym occurrence in `text` for the AVSpeech path, left to
+ * right. Acronym patterns are mutually exclusive by construction, so no
+ * claimed-span bookkeeping is needed here.
+ */
+export function findIpaMatches(text: string): IpaMatch[] {
+  const matches: IpaMatch[] = [];
+  for (const entry of ACRONYM_ENTRIES) {
+    const re = new RegExp(entry.pattern.source, entry.pattern.flags);
+    let match: RegExpExecArray | null;
+    while ((match = re.exec(text))) {
+      matches.push({
+        charStart: match.index,
+        charEnd: match.index + match[0].length,
+        original: match[0],
+        ipa: entry.ipa,
+      });
+    }
+  }
   return matches.sort((a, b) => a.charStart - b.charStart);
 }
 

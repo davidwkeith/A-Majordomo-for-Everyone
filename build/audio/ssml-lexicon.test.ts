@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { findLexiconMatches, applySsmlLexicon } from './ssml-lexicon.js';
+import { findLexiconMatches, applySsmlLexicon, findIpaMatches } from './ssml-lexicon.js';
 
 describe('findLexiconMatches', () => {
   it('finds the proper-noun aliases from the design spec', () => {
@@ -67,5 +67,65 @@ describe('applySsmlLexicon', () => {
 
   it('round-trips text with no lexicon matches unchanged (aside from escaping)', () => {
     expect(applySsmlLexicon('nothing special here')).toBe('nothing special here');
+  });
+});
+
+describe('acronym rules', () => {
+  it('substitutes word-read acronyms for the Azure path', () => {
+    const text = 'File with HUD, then check FEMA and OSHA guidance on SNAP benefits.';
+    const matches = findLexiconMatches(text);
+    expect(matches.map((m) => [m.original, m.alias])).toEqual([
+      ['HUD', 'hud'],
+      ['FEMA', 'fema'],
+      ['OSHA', 'osha'],
+      ['SNAP', 'snap'],
+    ]);
+  });
+
+  it('renders an acronym as a sub alias in SSML', () => {
+    expect(applySsmlLexicon('File with HUD promptly.')).toBe(
+      'File with <sub alias="hud">HUD</sub> promptly.',
+    );
+  });
+
+  it('leaves spelled-out acronyms alone', () => {
+    // These are conventionally read letter-by-letter — no entry, no match.
+    expect(findLexiconMatches('The IRS, CFPB, and VA disagree about AI.')).toEqual([]);
+  });
+
+  it('does not match lowercase or partial-word occurrences', () => {
+    expect(findLexiconMatches('a hudson snapshot of osha-like rules')).toEqual([]);
+  });
+});
+
+describe('findIpaMatches', () => {
+  it('reports IPA notations with offsets that slice back to the original text', () => {
+    const text = 'File with HUD, then check FEMA and OSHA guidance on SNAP benefits.';
+    const matches = findIpaMatches(text);
+    expect(matches.map((m) => [m.original, m.ipa])).toEqual([
+      ['HUD', 'hʌd'],
+      ['FEMA', 'ˈfimə'],
+      ['OSHA', 'ˈoʊʃə'],
+      ['SNAP', 'snæp'],
+    ]);
+    for (const match of matches) {
+      expect(text.slice(match.charStart, match.charEnd)).toBe(match.original);
+    }
+  });
+
+  it('returns matches sorted by position', () => {
+    const matches = findIpaMatches('OSHA first, HUD second.');
+    expect(matches.map((m) => m.original)).toEqual(['OSHA', 'HUD']);
+  });
+
+  it('ignores proper nouns and episode citations — IPA is acronyms-only for now', () => {
+    // Djot/ePub/Jeeves realizations for the AVSpeech path are deliberately
+    // deferred until that engine path graduates from spike to pipeline
+    // (design doc §5).
+    expect(findIpaMatches('Jeeves read the Djot source of Seinfeld:S3E3.')).toEqual([]);
+  });
+
+  it('finds nothing in text without acronyms', () => {
+    expect(findIpaMatches('a perfectly ordinary sentence')).toEqual([]);
   });
 });
