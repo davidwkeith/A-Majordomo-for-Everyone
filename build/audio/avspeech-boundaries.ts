@@ -26,18 +26,27 @@ export interface AvspeechBoundaryFile {
 }
 
 export function toWordBoundaryRecords(file: AvspeechBoundaryFile): WordBoundaryRecord[] {
-  return file.boundaries.map((b, i) => {
-    const next = file.boundaries[i + 1];
-    const clipEndSeconds = next ? next.clipBeginSeconds : file.totalDurationSeconds;
-    const audioOffsetTicks = Math.round(b.clipBeginSeconds * TICKS_PER_SECOND);
-    return {
-      text: b.text,
-      textOffset: b.textOffset,
-      wordLength: b.wordLength,
-      audioOffsetTicks,
-      durationTicks: Math.round(clipEndSeconds * TICKS_PER_SECOND) - audioOffsetTicks,
-    };
-  });
+  return file.boundaries
+    .map((b, i) => {
+      const next = file.boundaries[i + 1];
+      const clipEndSeconds = next ? next.clipBeginSeconds : file.totalDurationSeconds;
+      const audioOffsetTicks = Math.round(b.clipBeginSeconds * TICKS_PER_SECOND);
+      return {
+        text: b.text,
+        textOffset: b.textOffset,
+        wordLength: b.wordLength,
+        audioOffsetTicks,
+        durationTicks: Math.round(clipEndSeconds * TICKS_PER_SECOND) - audioOffsetTicks,
+      };
+    })
+    .filter((record) => {
+      // Degenerate clip (durationTicks <= 0) can arise when two boundaries
+      // share the same or very close audio offsets (e.g., from partial
+      // reconciliation in the Swift generator). Skip the highlight rather
+      // than emit a zero-length or negative <par>; missing a highlight is
+      // less disruptive than wrong timing in read-along SMIL.
+      return record.durationTicks > 0;
+    });
 }
 
 /**
