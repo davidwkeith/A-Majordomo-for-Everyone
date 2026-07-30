@@ -11,3 +11,4 @@ dist/
 .wrangler/
 scripts/avspeech-spike/.build/
 scripts/avspeech-spike/dist/
+.cache/

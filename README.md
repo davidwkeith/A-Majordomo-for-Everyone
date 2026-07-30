@@ -13,11 +13,24 @@ This book is a practical guide to using AI agents to navigate the systems that g
 ```bash
 npm install
 npm run build        # tsc + generate ePub
+npm run build:site   # tsc + generate the companion website
+npm run build:pdf    # tsc + generate the print PDF
+npm run build:all    # ePub + website in one pass
 npm run build:check  # type-check only
 npm test             # vitest
 ```
 
-The output is `dist/majordomo.epub`.
+The ePub output is `dist/majordomo.epub`.
+
+### Other scripts
+
+```bash
+npm run tts:spike        # exploratory TTS spike script
+npm run narration:plan   # plan narration work for the read-along audiobook
+npm run sync:notes       # sync Apple Books highlights/annotations to GitHub Issues
+```
+
+See `npm run sync:notes:install` / `sync:notes:uninstall` / `sync:notes:status` for managing the Apple Books sync as a scheduled job.
 
 ## Illustrations
 
