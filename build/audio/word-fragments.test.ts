@@ -140,6 +140,27 @@ describe('walkNarratableHtml', () => {
     // </a> closes it (reported suppressed); </p> not suppressed.
     expect(tags).toEqual([['p', false], ['a', true], ['a', true], ['p', false]]);
   });
+
+  it('narrates trailing text even when suppression is still open at end-of-input', () => {
+    // Pins a pre-refactor quirk: HTML that ends mid-suppression (an
+    // unterminated doc-backlink anchor, which real djot output never
+    // produces) still narrates its tail rather than swallowing it — the
+    // tail after the tag loop always goes through onText.
+    const html = '<a role="doc-backlink" href="#r">oops';
+    let acc = '';
+    let sawTailAsSuppressed = false;
+    walkNarratableHtml(html, {
+      onTag: () => {},
+      onText: (raw) => { acc += raw; },
+      onSuppressedText: () => { sawTailAsSuppressed = true; },
+    });
+    expect(acc).toBe('oops');
+    expect(sawTailAsSuppressed).toBe(false);
+
+    const { narratableText, fragments } = injectWordFragments(html);
+    expect(narratableText).toBe('oops');
+    expect(fragments.map((f) => f.text)).toEqual(['oops']);
+  });
 });
 
 describe('decodeEntities', () => {

@@ -129,8 +129,14 @@ export function walkNarratableHtml(html: string, events: NarratableWalkEvents): 
       events.onTag(tag, name, false);
     }
   }
+  // The tail after the last tag always goes through onText, even if
+  // suppression is still active — preserving a pre-refactor quirk: HTML
+  // ending mid-suppression (an unterminated doc-backlink anchor) narrates
+  // its trailing text rather than swallowing it. djot-rendered HTML always
+  // closes its tags, so this only matters for malformed/truncated input;
+  // it's a defensive path, not a real narration case.
   const tail = html.slice(cursor);
-  if (tail) (suppressTagName ? events.onSuppressedText : events.onText)(tail);
+  if (tail) events.onText(tail);
 }
 
 /**
