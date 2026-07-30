@@ -19,6 +19,8 @@ export interface NarrationManifestEntry {
   hash: string;
   /** Audio file this chapter's narration was written to, e.g. "ch03.mp3". */
   audioFile: string;
+  /** Duration of the synthesized audio, in seconds. Absent until synthesis records it. */
+  durationSeconds?: number;
 }
 
 /** slug -> the manifest entry recorded after that chapter's last successful synthesis. */
@@ -26,7 +28,9 @@ export type NarrationManifest = Record<string, NarrationManifestEntry>;
 
 export interface ChapterNarration {
   slug: string;
-  narratableText: string;
+  /** Precomputed via `hashNarrationInputs` — the planner does not hash internally. */
+  hash: string;
+  charCount: number;
 }
 
 export type RegenerationReason = 'new' | 'changed' | 'unchanged';
@@ -43,19 +47,36 @@ export function hashNarratableText(text: string): string {
 }
 
 /**
+ * Wide narration cache key: the narratable text alone isn't enough, since a
+ * voice reassignment or an IPA lexicon edit changes what's actually
+ * synthesized without changing the text. Hashing the serialized voice map
+ * and IPA lexicon alongside the text means either change invalidates the
+ * cache automatically — no hand-bumped version constant to forget.
+ */
+export function hashNarrationInputs(
+  narratableText: string,
+  voiceMapSerialized: string,
+  ipaLexiconSerialized: string,
+): string {
+  return createHash('sha256')
+    .update(JSON.stringify([narratableText, voiceMapSerialized, ipaLexiconSerialized]))
+    .digest('hex');
+}
+
+/**
  * Decide, for each chapter, whether its narration needs (re)synthesis:
  * "new" (no manifest entry yet), "changed" (hash no longer matches), or
- * "unchanged" (safe to skip — the existing audio is still current).
+ * "unchanged" (safe to skip — the existing audio is still current). Callers
+ * hash before planning (via `hashNarrationInputs`); this only compares.
  */
 export function planNarrationRegeneration(
   chapters: ChapterNarration[],
   manifest: NarrationManifest,
 ): RegenerationPlanEntry[] {
-  return chapters.map(({ slug, narratableText }) => {
-    const hash = hashNarratableText(narratableText);
+  return chapters.map(({ slug, hash, charCount }) => {
     const existing = manifest[slug];
     const reason: RegenerationReason = !existing ? 'new' : existing.hash !== hash ? 'changed' : 'unchanged';
-    return { slug, hash, charCount: narratableText.length, reason };
+    return { slug, hash, charCount, reason };
   });
 }
 
@@ -75,6 +96,7 @@ export function updateManifest(
   slug: string,
   hash: string,
   audioFile: string,
+  durationSeconds?: number,
 ): NarrationManifest {
-  return { ...manifest, [slug]: { hash, audioFile } };
+  return { ...manifest, [slug]: { hash, audioFile, ...(durationSeconds !== undefined ? { durationSeconds } : {}) } };
 }

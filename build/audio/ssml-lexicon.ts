@@ -62,6 +62,15 @@ const ACRONYM_RULES: LexiconRule[] = ACRONYM_ENTRIES.map((entry) => ({
 }));
 
 /**
+ * Deterministic serialization of the acronym/IPA table for the narration
+ * cache key. Serializing the entries themselves (not a version constant)
+ * means "forgot to bump the version" cannot produce stale audio.
+ */
+export function serializeIpaLexicon(): string {
+  return JSON.stringify(ACRONYM_ENTRIES.map((e) => [e.pattern.source, e.pattern.flags, e.ipa]));
+}
+
+/**
  * The book's episode-citation format (`spec/outline.md`: `[Show:SxEy
  * "Title"](wikipedia-url), Year`) renders as literal link text, e.g.
  * "Seinfeld:S3E3" — read verbatim, a TTS engine says "Seinfeld colon S

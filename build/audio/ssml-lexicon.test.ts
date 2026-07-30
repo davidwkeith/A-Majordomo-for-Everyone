@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { findLexiconMatches, applySsmlLexicon, findIpaMatches } from './ssml-lexicon.js';
+import { findLexiconMatches, applySsmlLexicon, findIpaMatches, serializeIpaLexicon } from './ssml-lexicon.js';
 
 describe('findLexiconMatches', () => {
   it('finds the proper-noun aliases from the design spec', () => {
@@ -127,5 +127,15 @@ describe('findIpaMatches', () => {
 
   it('finds nothing in text without acronyms', () => {
     expect(findIpaMatches('a perfectly ordinary sentence')).toEqual([]);
+  });
+});
+
+describe('serializeIpaLexicon', () => {
+  it('is deterministic and includes every acronym entry', () => {
+    const s = serializeIpaLexicon();
+    expect(s).toBe(serializeIpaLexicon());
+    for (const acronym of ['HUD', 'FEMA', 'OSHA', 'SNAP']) {
+      expect(s).toContain(acronym);
+    }
   });
 });
