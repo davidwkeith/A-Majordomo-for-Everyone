@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { injectWordFragments } from './word-fragments.js';
+import { walkNarratableHtml, decodeEntities, injectWordFragments } from './word-fragments.js';
 
 describe('injectWordFragments', () => {
   it('wraps each word in a plain paragraph', () => {
@@ -110,5 +110,42 @@ describe('injectWordFragments', () => {
     for (const f of fragments) {
       expect(narratableText.slice(f.charStart, f.charEnd)).toBe(f.text);
     }
+  });
+});
+
+describe('walkNarratableHtml', () => {
+  it('reproduces narratableText when events accumulate decoded text', () => {
+    const html =
+      '<p>Ross &amp; the couch.</p>' +
+      '<aside epub:type="footnote"><p>A note.<a role="doc-backlink" href="#r">↩</a></p></aside>';
+    let acc = '';
+    walkNarratableHtml(html, {
+      onTag: () => {},
+      onText: (raw) => { acc += decodeEntities(raw); },
+      onSuppressedText: () => {},
+    });
+    expect(acc).toBe(injectWordFragments(html).narratableText);
+    expect(acc).not.toContain('↩');
+  });
+
+  it('reports tag names and suppression state', () => {
+    const html = '<p>Hi<a role="doc-backlink" href="#r">↩</a></p>';
+    const tags: Array<[string | undefined, boolean]> = [];
+    walkNarratableHtml(html, {
+      onTag: (_tag, name, suppressed) => { tags.push([name, suppressed]); },
+      onText: () => {},
+      onSuppressedText: () => {},
+    });
+    // <p> not suppressed; <a ...> opens suppression (reported suppressed);
+    // </a> closes it (reported suppressed); </p> not suppressed.
+    expect(tags).toEqual([['p', false], ['a', true], ['a', true], ['p', false]]);
+  });
+});
+
+describe('decodeEntities', () => {
+  it('decodes named, decimal, and hex references and leaves the rest alone', () => {
+    expect(decodeEntities('a &amp; b &#38; c &#x26; d &unknown; e')).toBe(
+      'a & b & c & d &unknown; e',
+    );
   });
 });

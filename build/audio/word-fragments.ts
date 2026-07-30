@@ -67,6 +67,72 @@ const NON_NARRATED_TAG = /^<[a-zA-Z][^>]*(?:role="doc-backlink"|epub:type="backl
 /** Extracts the element name from a tag, e.g. `</a>` → `a`. */
 const TAG_NAME = /^<\/?([a-zA-Z][a-zA-Z0-9-]*)/;
 
+/** Matches every HTML character reference in a string, for bulk decoding. */
+const ENTITY_GLOBAL = new RegExp(ENTITY_SOURCE, 'g');
+
+/** Decode HTML character references the way the narratable text does. */
+export function decodeEntities(segment: string): string {
+  return segment.replace(ENTITY_GLOBAL, (entity) => decodeEntity(entity));
+}
+
+export interface NarratableWalkEvents {
+  onTag(tag: string, name: string | undefined, suppressed: boolean): void;
+  onText(rawHtml: string): void;
+  onSuppressedText(rawHtml: string): void;
+}
+
+/**
+ * Scan `html` in document order, reporting each tag and text run via
+ * `events`. Text inside a navigation-only element (e.g. a doc-backlink
+ * anchor — see `NON_NARRATED_TAG`) is reported via `onSuppressedText`
+ * instead of `onText`, and its tags are reported with `suppressed: true`.
+ *
+ * Convention: on the tag that *opens* suppression and the tag that
+ * *closes* it, `onTag`'s `suppressed` flag is `true` — as well as for
+ * everything in between. This is the single definition of "what counts as
+ * narrated text" shared by `injectWordFragments` and the voice segmenter
+ * (Task 4), so the two can't diverge.
+ */
+export function walkNarratableHtml(html: string, events: NarratableWalkEvents): void {
+  let cursor = 0;
+
+  // While non-null, the walker is inside a navigation-only element (e.g. a
+  // doc-backlink anchor): text is withheld from narration.
+  let suppressTagName: string | null = null;
+  let suppressDepth = 0;
+
+  TAG_PATTERN.lastIndex = 0;
+  let tagMatch: RegExpExecArray | null;
+  while ((tagMatch = TAG_PATTERN.exec(html))) {
+    const text = html.slice(cursor, tagMatch.index);
+    if (text) (suppressTagName ? events.onSuppressedText : events.onText)(text);
+
+    const tag = tagMatch[0];
+    cursor = tagMatch.index + tag.length;
+    const name = TAG_NAME.exec(tag)?.[1];
+
+    if (suppressTagName) {
+      events.onTag(tag, name, true);
+      // Track nesting of same-named tags until the suppressed element closes.
+      if (name === suppressTagName) {
+        if (tag.startsWith('</')) {
+          if (--suppressDepth === 0) suppressTagName = null;
+        } else if (!tag.endsWith('/>')) {
+          suppressDepth++;
+        }
+      }
+    } else if (name && !tag.startsWith('</') && !tag.endsWith('/>') && NON_NARRATED_TAG.test(tag)) {
+      suppressTagName = name;
+      suppressDepth = 1;
+      events.onTag(tag, name, true);
+    } else {
+      events.onTag(tag, name, false);
+    }
+  }
+  const tail = html.slice(cursor);
+  if (tail) (suppressTagName ? events.onSuppressedText : events.onText)(tail);
+}
+
 /**
  * Wrap each word in the text nodes of `html` with `<span id="w{n}">`,
  * leaving tags, entities, and other non-word characters (whitespace,
@@ -78,7 +144,6 @@ export function injectWordFragments(html: string, startIndex = 1): WordFragmentR
   let narratableText = '';
   let nextId = startIndex;
   let outHtml = '';
-  let cursor = 0;
 
   const appendTextSegment = (segment: string) => {
     let lastEnd = 0;
@@ -109,42 +174,15 @@ export function injectWordFragments(html: string, startIndex = 1): WordFragmentR
     narratableText += segment.slice(lastEnd);
   };
 
-  // While non-null, the walker is inside a navigation-only element (e.g. a
-  // doc-backlink anchor): text passes through to the HTML verbatim but is
-  // withheld from the narratable text and gets no fragment spans.
-  let suppressTagName: string | null = null;
-  let suppressDepth = 0;
-
-  TAG_PATTERN.lastIndex = 0;
-  let tagMatch: RegExpExecArray | null;
-  while ((tagMatch = TAG_PATTERN.exec(html))) {
-    const text = html.slice(cursor, tagMatch.index);
-    if (suppressTagName) {
-      outHtml += text;
-    } else {
-      appendTextSegment(text);
-    }
-
-    const tag = tagMatch[0];
-    outHtml += tag;
-    cursor = tagMatch.index + tag.length;
-
-    const name = TAG_NAME.exec(tag)?.[1];
-    if (suppressTagName) {
-      // Track nesting of same-named tags until the suppressed element closes.
-      if (name === suppressTagName) {
-        if (tag.startsWith('</')) {
-          if (--suppressDepth === 0) suppressTagName = null;
-        } else if (!tag.endsWith('/>')) {
-          suppressDepth++;
-        }
-      }
-    } else if (name && !tag.startsWith('</') && !tag.endsWith('/>') && NON_NARRATED_TAG.test(tag)) {
-      suppressTagName = name;
-      suppressDepth = 1;
-    }
-  }
-  appendTextSegment(html.slice(cursor));
+  walkNarratableHtml(html, {
+    onTag: (tag) => {
+      outHtml += tag;
+    },
+    onText: (raw) => appendTextSegment(raw),
+    onSuppressedText: (raw) => {
+      outHtml += raw;
+    },
+  });
 
   return { html: outHtml, narratableText, fragments };
 }
